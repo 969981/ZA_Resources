@@ -1,0 +1,64 @@
+name: ZA v2.0.2 TRPFD native index
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-trpfd-index.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: za-trpfd-index
+  cancel-in-progress: false
+jobs:
+  trpfd-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout descriptor and complete pinned parser source
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            tools/ZA.TrinityDump
+            tools/gftool
+            tools/HashCaches/ZA
+            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc/data.trpfd
+      - name: Install .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Validate descriptor and publish entire native file/pack index
+        shell: bash
+        run: |
+          set -euo pipefail
+          dotnet run --project tools/ZA.TrinityDump/ZA.TrinityDump.csproj -c Release -- \
+            --romfs v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1 \
+            --output Unpack/v2.0.2/romfs/arc/data.trpfs \
+            --cache tools/HashCaches/ZA/GFPAKHashCache.bin \
+            --descriptor-only
+          test -s Unpack/v2.0.2/romfs/arc/data.trpfs/_index/descriptor_summary.json
+          test -s Unpack/v2.0.2/romfs/arc/data.trpfs/_index/file_index.tsv.gz
+          test -s Unpack/v2.0.2/romfs/arc/data.trpfs/_index/pack_index.tsv
+      - name: Upload descriptor index
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-TRPFD-native-index
+          path: Unpack/v2.0.2/romfs/arc/data.trpfs/_index/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Commit validated index (only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/descriptor_summary.json
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/file_index.tsv.gz
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/pack_index.tsv
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then
+            git commit -m "data(za): decode and verify native data.trpfd file and pack index"
+            git pull --rebase origin master
+            git push origin HEAD:master
+          fi
