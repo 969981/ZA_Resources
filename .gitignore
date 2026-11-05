@@ -25,5 +25,5 @@ restored/
 # Local-only tool source, build products and parsed output
 tools/_local/
 Unpack/
-**/bin/
-**/obj/
+tools/**/bin/
+tools/**/obj/

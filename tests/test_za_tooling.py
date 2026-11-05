@@ -24,7 +24,7 @@ class TestZATools(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             hashlist = root / "hashes.txt"
-            hashlist.write_text("0123456789abcdef za/test/file.bin\n0123456789abcdef za/test/file.bin\nBAD bad\n", encoding="utf-8")
+            hashlist.write_text("0123456789abcdef za/test/file.bin\n0123456789abcdef za/test/file.bin\nZZZ bad\n", encoding="utf-8")
             mapping, stats = self.cache.read_hashlists([hashlist])
             self.assertEqual(mapping, {0x0123456789abcdef: "za/test/file.bin"})
             self.assertEqual(stats["duplicates"], 1)

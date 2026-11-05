@@ -1,0 +1,27 @@
+name: ZA toolchain synthetic checks
+on:
+  push:
+    paths:
+      - "scripts/Build-ZA-GFPAKHashCache.py"
+      - "scripts/Convert-ZA-ExeFS.py"
+      - "tests/test_za_tooling.py"
+      - ".github/workflows/za-tooling-tests.yml"
+  pull_request:
+    paths:
+      - "scripts/Build-ZA-GFPAKHashCache.py"
+      - "scripts/Convert-ZA-ExeFS.py"
+      - "tests/test_za_tooling.py"
+      - ".github/workflows/za-tooling-tests.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  python-synthetic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests without any game assets
+        run: python -m unittest discover -s tests -p "test_za_tooling.py" -v
