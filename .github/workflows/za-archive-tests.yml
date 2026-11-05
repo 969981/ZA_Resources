@@ -1,0 +1,27 @@
+name: ZA archive round-trip tests
+
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/za-archive-tests.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/za-archive-tests.yml'
+  workflow_dispatch:
+
+jobs:
+  synthetic-roundtrip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install 7-Zip
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+      - name: Verify archive, resume, reconstruction and corruption detection
+        shell: pwsh
+        run: ./tests/Test-ZAArchiveRoundtrip.ps1
