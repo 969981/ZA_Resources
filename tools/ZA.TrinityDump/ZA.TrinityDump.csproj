@@ -6,6 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../_local/gftool/GFTool.Core/GFTool.Core.csproj" />
+    <ProjectReference Include="../gftool/GFTool.Core/GFTool.Core.csproj" />
   </ItemGroup>
 </Project>

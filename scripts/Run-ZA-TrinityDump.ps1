@@ -23,7 +23,14 @@ if ($output -eq $source -or $output.StartsWith($source + [IO.Path]::DirectorySep
 $cache = Join-Path $root 'tools\_local\GFPAKHashCache.bin'
 $oodle = Join-Path $root 'tools\_local\oo2core_8_win64.dll'
 $project = Join-Path $root 'tools\ZA.TrinityDump\ZA.TrinityDump.csproj'
-if (-not (Test-Path -LiteralPath $cache -PathType Leaf)) { throw 'Run Prepare-ZA-Trinity.ps1 first' }
+if (-not (Test-Path -LiteralPath $cache -PathType Leaf)) {
+ $cache = Join-Path $root 'tools\HashCaches\ZA\GFPAKHashCache.bin'
+ $expected = 'e91f5e09084c84f665762a1a8ce73482a858255061c64e71c60ba34dafb0ec82'
+ if (-not (Test-Path -LiteralPath $cache -PathType Leaf)) { throw 'Missing pinned ZA hash cache' }
+ if ((Get-FileHash -LiteralPath $cache -Algorithm SHA256).Hash.ToLowerInvariant() -cne $expected) {
+  throw 'Pinned ZA hash cache SHA256 mismatch'
+ }
+}
 if (-not $DryRun -and -not $DescriptorOnly -and -not (Test-Path -LiteralPath $oodle -PathType Leaf)) {
  throw 'Missing local Oodle library; supply via Prepare-ZA-Trinity.ps1 -OodleDllPath'
 }

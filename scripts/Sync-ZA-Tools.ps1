@@ -1,4 +1,4 @@
-# Pin upstream tool source checkouts in ignored tools/_local; do not overwrite existing worktrees.
+# Verify complete pinned third-party sources already committed under tools/.
 [CmdletBinding()]
 param(
  [string]$RepositoryRoot = (Split-Path -Parent $PSScriptRoot),
@@ -9,48 +9,28 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath($RepositoryRoot)
 $registry = Get-Content -LiteralPath (Join-Path $root 'tools\upstream.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-if ($registry.schemaVersion -ne 1) { throw 'Unexpected registry schema' }
+if ($registry.schemaVersion -ne 2 -or $registry.sourceTracking -ne 'vendor-only') { throw 'Unexpected tool registry' }
 $null = Get-Command git -ErrorAction Stop
-$local = Join-Path $root 'tools\_local'
-if (-not $VerifyOnly) { New-Item -ItemType Directory -Path $local -Force | Out-Null }
-foreach ($tool in $registry.sources) {
- if (-not $tool.required -and -not $IncludeOptional) { continue }
+foreach ($tool in @($registry.sources) + @($registry.extraZA)) {
  $name = [string]$tool.name
- $rev = [string]$tool.ref
- if ($name -notmatch '^[A-Za-z0-9_.-]+$' -or $rev -notmatch '^[0-9a-f]{40}$') { throw "Invalid pin: $name" }
- $dir = Join-Path $local $name
- if (-not (Test-Path -LiteralPath (Join-Path $dir '.git'))) {
-  if ($VerifyOnly) { throw "Missing tool: $dir" }
-  if (Test-Path -LiteralPath $dir) { throw "Refusing to overwrite existing directory: $dir" }
-  $cloneArgs = @('clone','--filter=blob:none','--no-checkout')
-  if ($name -eq 'PokeDocs') { $cloneArgs += '--sparse' }
-  $cloneArgs += @([string]$tool.repository,$dir)
-  & git @cloneArgs
-  if ($LASTEXITCODE -ne 0) { throw "Clone failed: $name" }
-  if ($name -eq 'PokeDocs') {
-   & git -C $dir sparse-checkout set --cone ZA/Hashlists/FileSystem
-   if ($LASTEXITCODE -ne 0) { throw 'PokeDocs sparse init failed' }
-  }
-  & git -C $dir fetch --depth 1 origin $rev
-  if ($LASTEXITCODE -ne 0) { throw "Fetch pinned commit failed: $name" }
-  & git -C $dir checkout --detach $rev
-  if ($LASTEXITCODE -ne 0) { throw "Checkout pinned commit failed: $name" }
+ $path = if ($tool.PSObject.Properties['path']) { [string]$tool.path } else { "tools/$name" }
+ if (-not $path.StartsWith('tools/', [StringComparison]::Ordinal) -or $path -match '(^|/)\.\.?(/|$)') {
+  throw "Unsafe source directory: $path"
  }
- $head = (& git -C $dir rev-parse HEAD).Trim()
- if ($LASTEXITCODE -ne 0 -or $head -cne $rev) { throw "Pinned mismatch: $name expected $rev actual $head" }
- & git -C $dir diff --quiet
- if ($LASTEXITCODE -ne 0) { throw "Working tree changed: $name" }
- & git -C $dir diff --cached --quiet
- if ($LASTEXITCODE -ne 0) { throw "Staged changes: $name" }
- if ($name -eq 'gftool' -and -not $VerifyOnly) {
-  & git -C $dir submodule update --init --recursive
-  if ($LASTEXITCODE -ne 0) { throw 'gftool nested dependency init failed' }
+ $expected = [string]$tool.sourceTreeSha
+ if ($expected -notmatch '^[0-9a-f]{40}$') { throw "Invalid tree SHA for $path" }
+ $full = Join-Path $root $path.Replace('/', [IO.Path]::DirectorySeparatorChar)
+ if (-not (Test-Path -LiteralPath $full -PathType Container)) { throw "Missing vendored source directory: $full" }
+ $actual = (& git -C $root rev-parse "HEAD:$path").Trim()
+ if ($LASTEXITCODE -ne 0 -or $actual -cne $expected) { throw "Pinned tree mismatch: $path expected=$expected actual=$actual" }
+ $gitlinks = @(& git -C $root ls-files --stage -- $path | Where-Object { $_ -match '^160000 ' })
+ if ($gitlinks.Count -gt 0) { throw "Gitlink detected under $path" }
+ if ($name -eq 'gftool' -and -not (Test-Path -LiteralPath (Join-Path $full 'NxMiddleware') -PathType Container)) {
+  throw 'Nested NxMiddleware missing from gftool'
  }
- if ($name -eq 'PokeDocs') {
-  if (-not (Test-Path -LiteralPath (Join-Path $dir 'ZA\Hashlists\FileSystem\hashes_inside_fd.txt') -PathType Leaf)) {
-   throw 'ZA hash file not found in PokeDocs checkout'
-  }
+ if ($name -eq 'PokeDocs' -and -not (Test-Path -LiteralPath (Join-Path $full 'ZA\Hashlists\FileSystem\hashes_inside_fd.txt') -PathType Leaf)) {
+  throw 'ZA file hash dictionary missing'
  }
- Write-Host "Verified pinned source $name $rev"
+ Write-Host "Verified pinned vendor tree: $path $actual"
 }
-Write-Host 'Tool bootstrap only; no ZA game data extracted.'
+Write-Host 'All vendor sources are committed locally. No network download or extraction needed.'

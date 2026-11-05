@@ -40,8 +40,18 @@ foreach ($relative in @('arc/data.trpfd','arc/data.trpfs')) {
 $local = Join-Path $root 'tools\_local'
 New-Item -Path $local -ItemType Directory -Force | Out-Null
 $cache = Join-Path $local 'GFPAKHashCache.bin'
+if ($SkipHashBuild -and -not (Test-Path -LiteralPath $cache -PathType Leaf)) {
+ $vendor = Join-Path $root 'tools\HashCaches\ZA\GFPAKHashCache.bin'
+ $expected = 'e91f5e09084c84f665762a1a8ce73482a858255061c64e71c60ba34dafb0ec82'
+ if (-not (Test-Path -LiteralPath $vendor -PathType Leaf)) { throw 'Missing pinned ZA cache' }
+ if ((Get-FileHash -LiteralPath $vendor -Algorithm SHA256).Hash.ToLowerInvariant() -cne $expected) {
+  throw 'Pinned ZA hash cache SHA256 mismatch'
+ }
+ Copy-Item -LiteralPath $vendor -Destination $cache
+ Write-Host 'Copied verified ZA hash cache from vendor snapshot'
+}
 if (-not $SkipHashBuild) {
- $hashdir = Join-Path $local 'PokeDocs\ZA\Hashlists\FileSystem'
+ $hashdir = Join-Path $root 'tools\PokeDocs\ZA\Hashlists\FileSystem'
  $argsPython = @((Join-Path $PSScriptRoot 'Build-ZA-GFPAKHashCache.py'), '--hashlist', (Join-Path $hashdir 'hashes_inside_fd.txt'))
  if ($IncludeTrpakHashes) { $argsPython += @('--hashlist', (Join-Path $hashdir 'hashes_inside_trpak.txt')) }
  $argsPython += @('--output', $cache, '--overwrite', '--report', (Join-Path $local 'GFPAKHashCache.report.json'))

@@ -1,53 +1,95 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "checkedOn": "2026-11-05",
-  "layout": "tools/_local, untracked real Git clones; no gitlink",
+  "layout": "All six tools are tracked as files within tools/, with gftool/NxMiddleware included. No Git submodules or gitlinks.",
   "sources": [
     {
       "name": "gftool",
       "repository": "https://github.com/pkZukan/gftool.git",
       "ref": "cac7a210fcbef5ecf1ee108c10d1a1bdddc4cd4c",
       "required": true,
-      "recursive": true,
-      "role": "Trinity core library"
+      "role": "Trinity core library",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "18447b923a4ab27205b245913bd3c25eba39d7ad",
+      "submodules": false,
+      "nestedVendors": [
+        {
+          "path": "NxMiddleware",
+          "repository": "https://github.com/Reisyukaku/NxMiddleware.git",
+          "ref": "aa6ab40e41118d2d025e7c34b604aeca3be1ccc2",
+          "mode": "vendor-tree"
+        }
+      ]
     },
     {
       "name": "PokeDocs",
       "repository": "https://github.com/pkZukan/PokeDocs.git",
       "ref": "242039cbcd9de3f5a424de5b68ae581f7bed2b23",
       "required": true,
-      "sparsePaths": [
-        "ZA/Hashlists/FileSystem"
-      ],
-      "role": "ZA path hash lists"
+      "role": "ZA path hash lists",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "96ea0ac5b5f7389e79578a7dcd783d6e48d8f66f",
+      "submodules": false
     },
     {
       "name": "nx2elf",
       "repository": "https://github.com/shuffle2/nx2elf.git",
       "ref": "a1760ba54e2aefb41444933f53b90e6e8b05c399",
       "required": true,
-      "role": "NSO to AArch64 ELF"
+      "role": "NSO to AArch64 ELF",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "9b59e627f272251f564af320daa2b7be66b319f5",
+      "submodules": false
     },
     {
       "name": "pkNX",
       "repository": "https://github.com/kwsch/pkNX.git",
       "ref": "d191cd0e5c05f2af81d9a41c1f1d82e6621b351a",
-      "required": false,
-      "role": "Comparison only (ZA support not proven)"
+      "required": true,
+      "role": "Comparison only (ZA support not proven)",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "b660e4f02b0d518d6c5dcaf4f03694b7b64f18d4",
+      "submodules": false
     },
     {
       "name": "Switch-Toolbox",
       "repository": "https://github.com/KillzXGaming/Switch-Toolbox.git",
       "ref": "3a3279140ca0fa54ce804a8d56d4653a491de613",
-      "required": false,
-      "role": "Format preview (ZA support not proven)"
+      "required": true,
+      "role": "Format preview (ZA support not proven)",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "ec1508a91f714c5a29e7b317146065b7e14f0273",
+      "submodules": false
     },
     {
       "name": "SCVI_Extract",
       "repository": "https://github.com/psthrn42/SCVI_Extract.git",
       "ref": "0d4f817d0756257cd5ec1c8a680ae201e8b4eec5",
-      "required": false,
-      "role": "Legacy Trinity comparison only"
+      "required": true,
+      "role": "Legacy Trinity comparison only",
+      "importMethod": "vendor-tree",
+      "sourceTreeSha": "33d0fd99e9a0787054b72b0593457161e2453bfa",
+      "submodules": false
+    }
+  ],
+  "sourceTracking": "vendor-only",
+  "importedFrom": {
+    "repository": "969981/SV_Resources",
+    "commit": "500f840087de687545d7ed3dbaee996d82335592"
+  },
+  "extraZA": [
+    {
+      "name": "HashCaches/ZA",
+      "path": "tools/HashCaches/ZA",
+      "sourceTreeSha": "f76f31dbaccadaca144deb5ffbdc1903b25755a7",
+      "generatedCacheSha256": "e91f5e09084c84f665762a1a8ce73482a858255061c64e71c60ba34dafb0ec82",
+      "role": "ZA FD and TRPAK merged hash cache"
+    },
+    {
+      "name": "PokeDocs-Supplement/ZA",
+      "path": "tools/PokeDocs-Supplement/ZA",
+      "sourceTreeSha": "b585e8d0b640070b5748370ba37ba82c3b4426cc",
+      "role": "ZA Lua hash recovery evidence"
     }
   ]
 }
