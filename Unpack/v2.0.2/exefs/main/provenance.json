@@ -1,0 +1,54 @@
+{
+  "status": "CONFIRMED",
+  "version": "v2.0.2",
+  "game": "Pokemon Legends Z-A",
+  "sourcePath": "v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/0/main",
+  "sourceSize": 33970422,
+  "sourceSha256": "2308530d73b7fea60bb845ad57d9b1f10d3ff213f89c01f73627dc8224f43ef9",
+  "nsoBuildIdHex": "b1f12fd919eae86ab8a978317677e64bce443d1f000000000000000000000000",
+  "converter": "tools/nx2elf",
+  "converterUpstreamCommit": "a1760ba54e2aefb41444933f53b90e6e8b05c399",
+  "command": [
+    ".za-work/nx2elf-build/nx2elf",
+    "v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/0/main",
+    "--export-elf",
+    "Unpack/v2.0.2/exefs/main/_work/main.elf"
+  ],
+  "elfFilename": "main.elf",
+  "elfSize": 66579944,
+  "elfSha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+  "elfFormat": "ELF64 little-endian AArch64",
+  "uncompressedNso": {
+    "filename": "main.uncompressed.nso",
+    "size": 66577712,
+    "sha256": "c67b17f9a78b8f83ba889470ceff8c14ce65e513b83d499e6a599eca6f562b32",
+    "storage": "raw-nso",
+    "artifacts": [
+      {
+        "path": "Unpack/v2.0.2/exefs/main/main.uncompressed.nso",
+        "size": 66577712,
+        "sha256": "c67b17f9a78b8f83ba889470ceff8c14ce65e513b83d499e6a599eca6f562b32"
+      }
+    ],
+    "buildIdMatchesInput": true
+  },
+  "storage": "raw-elf",
+  "artifacts": [
+    {
+      "path": "Unpack/v2.0.2/exefs/main/main.elf",
+      "size": 66579944,
+      "sha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d"
+    },
+    {
+      "path": "Unpack/v2.0.2/exefs/main/main.uncompressed.nso",
+      "size": 66577712,
+      "sha256": "c67b17f9a78b8f83ba889470ceff8c14ce65e513b83d499e6a599eca6f562b32"
+    }
+  ],
+  "validated": [
+    "NSO0 magic",
+    "ELF64 AArch64 header",
+    "SHA256 output",
+    "ELF copy round-trip"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sourceMagic": "META",
+  "sourceBytes": 1700,
+  "sourceSha256": "9960d4579cb8f8aedfac6e51d8452e31c5acdd0e39308cfc0d4a42955d956058",
+  "metaHeaderBytes": 128,
+  "titleFieldRawHex": "4170706c69636174696f6e0000000000",
+  "titleAsciiCandidate": "Application",
+  "sections": [
+    {
+      "name": "ACID",
+      "offsetHex": "0x80",
+      "offset": 128,
+      "magicOffsetHex": "0x280",
+      "length": 996,
+      "sha256": "2260c550672fa0e2e81d7609806e42f41c43913c6da60ffeb49b7bd50f9e8536",
+      "magic": "ACID",
+      "output": "ACID.bin"
+    },
+    {
+      "name": "ACI0",
+      "offsetHex": "0x470",
+      "offset": 1136,
+      "magicOffsetHex": "0x470",
+      "length": 564,
+      "sha256": "83a50904f98f0a6fdead9349008e01258cc36729b321243dfb5786e91632343b",
+      "magic": "ACI0",
+      "output": "ACI0.bin"
+    }
+  ],
+  "verification": [
+    "META and section magic (ACID magic at section + 0x200)",
+    "META section offset/length bounds",
+    "non-overlapping sections",
+    "source SHA-256",
+    "exported bytes slice equality"
+  ],
+  "status": "CONFIRMED_STRUCTURAL",
+  "semanticCaution": "The authorization and capability field meanings are not inferred from offsets alone.",
+  "originalCopy": "main.npdm",
+  "originalSource": "v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/0/main.npdm"
+}
