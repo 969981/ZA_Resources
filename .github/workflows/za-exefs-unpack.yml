@@ -1,0 +1,97 @@
+name: ZA v2.0.2 ExeFS extraction
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/za-exefs-unpack.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-exefs-v2-0-2
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout only ExeFS files and tools
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            tests
+            tools/nx2elf
+            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/0
+      - name: Install dependencies and run tests
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full cmake g++
+          python3 -m unittest discover -s tests -p 'test_za_exefs.py' -v
+          python3 -m unittest discover -s tests -p 'test_za_tooling.py' -v
+      - name: Compile nx2elf from committed source
+        run: |
+          set -euo pipefail
+          cmake -S tools/nx2elf -B .za-work/nx2elf-build -DCMAKE_BUILD_TYPE=Release
+          cmake --build .za-work/nx2elf-build --config Release --parallel 2
+          test -x .za-work/nx2elf-build/nx2elf
+      - name: Extract NPDM raw sections
+        run: python3 scripts/Extract-ZA-NPDM.py
+      - name: Extract ELF and uncompressed NSO
+        id: convert
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p .za-work
+          failures=0
+          for module in main rtld sdk; do
+            echo "::group::ExeFS $module"
+            if python3 scripts/Convert-ZA-ExeFS.py --nx2elf .za-work/nx2elf-build/nx2elf --7z 7z --names "$module" --export-uncompressed; then
+              echo "$module: VERIFIED" | tee -a .za-work/exefs-status.txt
+            else
+              failures=$((failures+1))
+              echo "$module: FAILED" | tee -a .za-work/exefs-status.txt
+            fi
+            echo "::endgroup::"
+          done
+          echo "failed_modules=$failures" >> "$GITHUB_OUTPUT"
+          cat .za-work/exefs-status.txt
+      - name: Verify all extracted artifacts and write manifest
+        run: python3 scripts/Summarize-ZA-ExeFS.py
+      - name: Upload ExeFS files
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-ExeFS-ELF-NSO-NPDM
+          path: |
+            Unpack/v2.0.2/exefs/**
+            .za-work/exefs-status.txt
+          retention-days: 14
+          compression-level: 0
+          if-no-files-found: error
+      - name: Commit verified outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f -- Unpack/v2.0.2/exefs
+          git diff --cached --name-only
+          if ! git diff --cached --quiet; then
+            git commit -m "data(za v2.0.2): verified ExeFS ELF NSO NPDM extraction"
+            git push origin HEAD:master
+          fi
+      - name: Require complete conversion
+        if: always() && steps.convert.outputs.failed_modules != ''
+        shell: bash
+        run: |
+          failures="${{ steps.convert.outputs.failed_modules }}"
+          if [ "$failures" -gt 0 ]; then
+            echo "ExeFS incomplete: $failures NSO module(s) failed" >&2
+            exit 1
+          fi
