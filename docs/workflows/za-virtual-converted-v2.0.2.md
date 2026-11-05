@@ -12,7 +12,7 @@
 | Suffix/input | Output | Status and proof |
 |---|---|---|
 | AHTB .tbl | .tbl.json hash/name entries | CONVERTED: validates AHTB magic, count, entry bounds, UTF-8 names and trailing bytes. Does not claim matching DAT text. |
-| ik_message .dat | .dat.structure.json | STRUCTURE_ONLY: header/section data only, not the encrypted text string table. |
+| ik_message .dat | .dat.json decoded UTF-16 | CONVERTED for supported single-section DAT: XOR per slot (seed 0x7C89 + index * 0x2983; rotate key left 3), preserve control codes and raw UTF-16. Verified native English, Chinese, Japanese samples; other sections remain STRUCTURE_ONLY. |
 | selected Trinity FlatBuffer-compatible types (.trmdl, .trmsh, .trskl, .tranm, etc.) | .structure.json | STRUCTURE_ONLY: root table/vtable bounds only. NOT a mesh/texture/animation conversion. |
 | JSON/XML/CSV/TSV/UTF-8 text | normalized text file | CONVERTED: validates the format where a standard parser is available; generic YAML is validated only as UTF-8 text. |
 | GZip/ZIP | extracted bytes | EXTRACTED_ONLY: container extraction, not automatic nested semantic interpretation. |
@@ -45,6 +45,10 @@ CI: .github/workflows/za-virtual-convert.yml supports manual dispatch, an initia
 
 ## Next native format adapters
 
-Implement and validate content exporters for Switch BNTX textures to PNG/DDS; model mesh/material/skeleton/animation to glTF; text DAT encrypted strings and trusted AHTB joining; Lua bytecode decompilation; and game-specific IMAP/scene/event files. GFTool and Switch-Toolbox are available as source references but are not proven automated CLI converters for all ZA 2.0.2 formats. A viewer loading a file or a FlatBuffer vtable check is not proof of a complete export.
+Implement and validate content exporters for Switch BNTX textures to PNG/DDS; model mesh/material/skeleton/animation to glTF; AHTB name/DAT text joining (not yet verified); Lua bytecode decompilation; and game-specific IMAP/scene/event files. GFTool and Switch-Toolbox are available as source references but are not proven automated CLI converters for all ZA 2.0.2 formats. A viewer loading a file or a FlatBuffer vtable check is not proof of a complete export.
 
 Only upgrade a result from STRUCTURE_ONLY or UNSUPPORTED to CONVERTED after independently verified semantics and an output round-trip / source comparison appropriate to that format.
+
+## Confirmed native message DAT samples
+
+English, simplified Chinese and Japanese bag.dat samples decrypt using per-slot XOR/rotate3, with text such as Next, Category, 分类 and タイプ. Offset, flags and raw decoded UTF-16 are retained, including control units. AHTB bag.tbl has 260 records while bag.dat has 259 text slots; do not infer positional joins.
