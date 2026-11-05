@@ -9,7 +9,7 @@ permissions:
   contents: write
 concurrency:
   group: za-trpfd-index
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   trpfd-index:
     runs-on: ubuntu-latest
