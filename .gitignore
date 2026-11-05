@@ -21,3 +21,9 @@ restored/
 **/audio/wwise/bin/Switch/Stream_dlc.pck
 
 # Intentionally NOT ignored: *.7z.001, *.7z.002, etc.
+
+# Local-only tool source, build products and parsed output
+tools/_local/
+Unpack/
+**/bin/
+**/obj/

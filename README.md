@@ -8,6 +8,8 @@ Pokemon Legends: Z-A executable, archive-inventory and resource-format research 
 - [File provenance and evidence](docs/resource-provenance.md)
 - [v2.0.2 RomFS archive and recovery](docs/romfs-v2.0.2-archive.md)
 - [Scripts](scripts/README.md)
+- [Pinned ZA tools](tools/README.md)
+- [Trinity/ELF extraction](docs/workflows/za-trinity-extraction.md)
 - [Research notes](docs/research/v2.0.2/README.md)
 - [Agent instructions](AGENTS.md)
 

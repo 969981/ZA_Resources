@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-05",
+  "layout": "tools/_local, untracked real Git clones; no gitlink",
+  "sources": [
+    {
+      "name": "gftool",
+      "repository": "https://github.com/pkZukan/gftool.git",
+      "ref": "cac7a210fcbef5ecf1ee108c10d1a1bdddc4cd4c",
+      "required": true,
+      "recursive": true,
+      "role": "Trinity core library"
+    },
+    {
+      "name": "PokeDocs",
+      "repository": "https://github.com/pkZukan/PokeDocs.git",
+      "ref": "242039cbcd9de3f5a424de5b68ae581f7bed2b23",
+      "required": true,
+      "sparsePaths": [
+        "ZA/Hashlists/FileSystem"
+      ],
+      "role": "ZA path hash lists"
+    },
+    {
+      "name": "nx2elf",
+      "repository": "https://github.com/shuffle2/nx2elf.git",
+      "ref": "a1760ba54e2aefb41444933f53b90e6e8b05c399",
+      "required": true,
+      "role": "NSO to AArch64 ELF"
+    },
+    {
+      "name": "pkNX",
+      "repository": "https://github.com/kwsch/pkNX.git",
+      "ref": "d191cd0e5c05f2af81d9a41c1f1d82e6621b351a",
+      "required": false,
+      "role": "Comparison only (ZA support not proven)"
+    },
+    {
+      "name": "Switch-Toolbox",
+      "repository": "https://github.com/KillzXGaming/Switch-Toolbox.git",
+      "ref": "3a3279140ca0fa54ce804a8d56d4653a491de613",
+      "required": false,
+      "role": "Format preview (ZA support not proven)"
+    },
+    {
+      "name": "SCVI_Extract",
+      "repository": "https://github.com/psthrn42/SCVI_Extract.git",
+      "ref": "0d4f817d0756257cd5ec1c8a680ae201e8b4eec5",
+      "required": false,
+      "role": "Legacy Trinity comparison only"
+    }
+  ]
+}
