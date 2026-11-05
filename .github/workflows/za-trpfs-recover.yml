@@ -1,0 +1,49 @@
+name: Recover verified ZA Trinity first two packs (no 4GB restore)
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-trpfs-recover.yml
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Recover-ZA-TrinityArtifact.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/**
+          persist-credentials: true
+      - name: Download successful native extractor outputs from failed publisher job
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 42007205332
+          name: ZA-v2.0.2-Trinity-native-first-two-packs
+          path: .za-recovered
+      - name: Verify every source Hash, bytes and evidence record
+        run: |
+          python3 scripts/Recover-ZA-TrinityArtifact.py --artifact .za-recovered
+      - name: Commit verified output first, then fetch and rebase safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs
+          if git diff --cached --quiet; then
+            echo "Already published; no new output" 
+            exit 0
+          fi
+          git diff --cached --stat
+          git commit -m "data(za): recover 2 SHA256-verified Trinity native pack outputs"
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
