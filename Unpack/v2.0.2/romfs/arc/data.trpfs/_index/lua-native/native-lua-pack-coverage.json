@@ -1,0 +1,72 @@
+{
+  "version": "v2.0.2",
+  "trinity_total_packs_indexed": 13181,
+  "indexed_blua_packs": 4,
+  "indexed_blua_entries": [
+    {
+      "pack_index": 12145,
+      "pack_name": "arc/scriptluabinreleasedll_utildll_util.blua.trpak"
+    },
+    {
+      "pack_index": 12146,
+      "pack_name": "arc/scriptluabinreleaseevent_ikevent_ik.blua.trpak"
+    },
+    {
+      "pack_index": 12147,
+      "pack_name": "arc/scriptluabinreleasemainmain.blua.trpak"
+    },
+    {
+      "pack_index": 12148,
+      "pack_name": "arc/scriptluabinreleasemain_dynamicmain_dynamic.blua.trpak"
+    }
+  ],
+  "targets_total": 162,
+  "target_tokens_present_in_native_constants": 157,
+  "target_tokens_absent_in_native_constants": 5,
+  "absent_tokens": [
+    {
+      "hash_token": "S062729EC443620C2",
+      "kind": "s",
+      "original_line": "23",
+      "haxe_first_path": "source/event_ik/Ev_sys_megarematch_lose.hx",
+      "haxe_first_line": "41",
+      "evidence": "NOT_IN_FOUR_VERIFIED_NATIVE_CONSTANT_POOLS"
+    },
+    {
+      "hash_token": "S1463948047021356",
+      "kind": "s",
+      "original_line": "72",
+      "haxe_first_path": "source/event_ik/Ev_sys_megarematch_lose.hx",
+      "haxe_first_line": "38",
+      "evidence": "NOT_IN_FOUR_VERIFIED_NATIVE_CONSTANT_POOLS"
+    },
+    {
+      "hash_token": "S34AD86B7E5BB1526",
+      "kind": "s",
+      "original_line": "164",
+      "haxe_first_path": "source/event_ik/Ev_sys_megarematch_lose.hx",
+      "haxe_first_line": "42",
+      "evidence": "NOT_IN_FOUR_VERIFIED_NATIVE_CONSTANT_POOLS"
+    },
+    {
+      "hash_token": "S81E0610BF8B9337C",
+      "kind": "s",
+      "original_line": "403",
+      "haxe_first_path": "source/event_ik/Ev_sys_megarematch.hx",
+      "haxe_first_line": "9",
+      "evidence": "NOT_IN_FOUR_VERIFIED_NATIVE_CONSTANT_POOLS"
+    },
+    {
+      "hash_token": "SD0F61B3481E43C08",
+      "kind": "s",
+      "original_line": "685",
+      "haxe_first_path": "source/event_ik/Ev_sys_megarematch.hx",
+      "haxe_first_line": "12",
+      "evidence": "NOT_IN_FOUR_VERIFIED_NATIVE_CONSTANT_POOLS"
+    }
+  ],
+  "input_pack_index_sha256": "3fd3010723119b267692e472ca5d087689a8df88573e6845a5a0acb28808616d",
+  "input_native_constants_sha256": "0a5d03e484483b39f34ae63132df162982f1c7de8b7fe0e33c22cf6942c282a1",
+  "original_names_recovered": 0,
+  "warning": "Only four .blua.trpak packs exist in this version's published complete Trinity pack index. Five S tokens are absent in their verified native Lua constant pools. This does NOT prove absent in other encodings, binaries, resource versions, or actual runtime. Haxe paths are unverified external hints."
+}
