@@ -139,7 +139,7 @@ internal static class Program
         var summary = new
         {
             gameVersion = "v2.0.2",
-            sourcePath = "v2.0.2/1/arc/data.trpfd",
+            sourcePath = "v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc/data.trpfd",
             sourceBytes = new System.IO.FileInfo(descriptorPath).Length,
             sourceSha256 = Sha256File(descriptorPath),
             cacheSha256 = Sha256File(cachePath),
