@@ -10,6 +10,7 @@ on:
       - scripts/Convert-ZA-Virtual.py
       - scripts/Audit-ZA-VirtualConversion.py
       - tests/test_za_virtual_convert.py
+      - tests/test_za_virtual_coverage.py
       - .github/workflows/za-virtual-convert.yml
   workflow_run:
     workflows:
@@ -37,11 +38,13 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/Convert-ZA-Virtual.py
+            /scripts/Audit-ZA-VirtualConversion.py
             /tests/test_za_virtual_convert.py
+            /tests/test_za_virtual_coverage.py
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m unittest discover -s tests -p test_za_virtual_convert.py -v
+      - run: python -m unittest discover -s tests -p 'test_za_virtual_*.py' -v
 
   gate:
     needs: test
