@@ -4,12 +4,14 @@ on:
     paths:
       - "scripts/Build-ZA-GFPAKHashCache.py"
       - "scripts/Convert-ZA-ExeFS.py"
+      - "tools/ZA.TrinityDump/**"
       - "tests/test_za_tooling.py"
       - ".github/workflows/za-tooling-tests.yml"
   pull_request:
     paths:
       - "scripts/Build-ZA-GFPAKHashCache.py"
       - "scripts/Convert-ZA-ExeFS.py"
+      - "tools/ZA.TrinityDump/**"
       - "tests/test_za_tooling.py"
       - ".github/workflows/za-tooling-tests.yml"
   workflow_dispatch:
@@ -18,10 +20,37 @@ permissions:
 jobs:
   python-synthetic:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            tests
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Unit tests without any game assets
+      - name: Unit tests without game assets
         run: python -m unittest discover -s tests -p "test_za_tooling.py" -v
+  dotnet-dumper-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            tools/ZA.TrinityDump
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Fetch pinned gftool source and nested dependencies
+        run: |
+          mkdir -p tools/_local
+          git clone --filter=blob:none --no-checkout https://github.com/pkZukan/gftool.git tools/_local/gftool
+          git -C tools/_local/gftool fetch --depth 1 origin cac7a210fcbef5ecf1ee108c10d1a1bdddc4cd4c
+          git -C tools/_local/gftool checkout --detach cac7a210fcbef5ecf1ee108c10d1a1bdddc4cd4c
+          git -C tools/_local/gftool submodule update --init --recursive
+      - name: Compile ZA.TrinityDump with pinned GFTool.Core
+        run: dotnet build tools/ZA.TrinityDump/ZA.TrinityDump.csproj -c Release
