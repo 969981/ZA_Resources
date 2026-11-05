@@ -1,4 +1,5 @@
 name: Recover verified ZA Trinity first two packs (no 4GB restore)
+# Retain original independently published descriptor summary.
 on:
   push:
     branches: [master]

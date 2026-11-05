@@ -69,7 +69,16 @@ def recover(artifact: Path, repo: Path) -> dict:
         target = dest / rel
         if target.is_file():
             if sha(target) != sha(source):
-                raise RuntimeError("Existing output differs, not overwriting: "+str(rel))
+                if rel.as_posix() == "_index/descriptor_summary.json":
+                    old_summary = json.loads(target.read_text(encoding="utf-8"))
+                    new_summary = json.loads(source.read_text(encoding="utf-8"))
+                    keys = ("sourceSha256", "cacheSha256", "descriptorFiles",
+                            "namedFiles", "unnamedFiles", "packCount")
+                    if any(str(old_summary.get(k)).upper() != str(new_summary.get(k)).upper() for k in keys):
+                        raise RuntimeError("Native descriptor inventory conflicts with separately published index")
+                    print("Kept already-verified native descriptor summary")
+                else:
+                    raise RuntimeError("Existing output differs, not overwriting: "+str(rel))
         elif target.exists():
             raise RuntimeError("Nonfile path conflicts: "+str(rel))
         else:
