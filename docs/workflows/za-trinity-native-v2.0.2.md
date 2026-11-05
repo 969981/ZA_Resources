@@ -98,3 +98,15 @@ python scripts/Run-ZA-FullExtract.py --repo . --workspace 'D:\ZA_Trinity_Workspa
 ```
 
 注意：完整导出的数据量以及最终文件数仍可能受路径冲突、解析失败、Oodle 兼容性和 Git 文件大小上限影响；不要将索引记录直接算作已解出的实体文件。
+
+## 一键全量模式（2026-11-05）
+
+**入口：** `.github/workflows/za-m2-full.yml`，名称 `ZA M2 ONE-CLICK FULL`，默认 `full_run=true`。只需启动一次，后续 Windows Actions 运行通过已发布的 `nextPack` 检查点自动接力；不会重做已经成功提交的前 700 个 Pack。GitHub 托管运行器有单次时长和磁盘限制，因此“一键全量”指**一次启动、自动分轮完成同一个全量任务**，不是保证一台运行器单次处理 13,181 包。
+
+- 每个验证窗口至少 100 Pack，每轮最多 100 个窗口；每轮仍有安全时间预算，在批次校验及 Git 非强制推送后停止。
+- 后续运行由工作流自身通过 `gh workflow run ... full_run=true` 提交；`full_run=false` 可用于只执行指定范围、不自动接力。
+- Windows 每轮重新核验 87 个 7z 分卷、`data.trpfd` 与 `data.trpfs` 的原始 SHA-256，运行 GFTool.Core + Oodle 原生解包。
+- 各批次保留独立 JSONL、输出文件 SHA-256、超 90 MiB 的 7z 分卷往返校验与安全 Git 提交。
+- **完成条件**：`full-extract-progress.json` 显示 `nextPack=13181`、`state=COMPLETE`，并且 `full-extract-audit.json` 的 `complete=true`、`failed=0`、`unseen=0`。若出现无法解码的文件、磁盘/平台配额错误或工作流被取消，则停止并保留最后检查点，不能称已全量完成。
+
+首次一键模式 Git 提交：`2507422704193508cc7b311cbbb523794687b822`。启动运行及继续执行情况以 [GitHub Actions](../../.github/workflows/za-m2-full.yml) 和当前 master 检查点为准。
