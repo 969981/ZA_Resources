@@ -1,6 +1,6 @@
 ---
 tags: [pokemon-za, lua, lua54, trinity, register-flow, native-evidence]
-status: SCRIPT_SYNTHETIC_TESTED_NATIVE_CI_PENDING
+status: NATIVE_CI_VERIFIED_NEW_922_EDGES
 version: v2.0.2
 ---
 # ZA 2.0.2：Lua 原生寄存器数据流与未知 Hash
@@ -48,6 +48,21 @@ py -3 -m unittest discover -s tests -p test_za_lua_register_flow.py -v
 py -3 scripts/Trace-ZA-Lua-RegisterFlow.py --max-window 16
 ```
 
-本地合成指令测试与真实原生字节码全量 CI 结果应分别记录。不能在 CI 完成前宣称新增原生调用数量，也不能自动覆盖 PokeDocs 的 S/F/E 原始 Hash 表。新工作流 `za-lua-native-register-flow.yml` 在研究分支先测试并上传 Artifact；合并到 `master` 后才将通过校验的 TSV/JSON 提交入仓库。
+## 原生运行验证（2026-11-05）
+
+[Actions Run 42019295407](https://github.com/969981/ZA_Resources/actions/runs/42019295407) 使用真实、逐个 SHA-256 校验的四份 .blua 执行成功；合成测试 10/10 通过。
+
+| 指标 | 本轮结果 |
+| --- | ---: |
+| 原有邻接字段调用 | 566 |
+| 安全地保留的邻接调用 | 566 |
+| 新增非邻接/寄存器键调用 | **922** |
+| 总局部字段调用证据 | **1,488** |
+| 涉及未知 Hash 数 | 100 |
+| 寄存器键表操作 | 30 |
+| 寄存器键操作涉及的不同 Hash | 6 |
+| 原始名称被证实恢复 | **0** |
+
+原生导出的 TSV/JSON 在 [Actions Artifact 13410377822](https://github.com/969981/ZA_Resources/actions/runs/42019295407/artifacts/13410377822)；合并到 master 后才自动发布完整结果至索引。仍不能把这些静态局部关系宣称为完整业务调用链，也不自动覆盖 PokeDocs 的 S/F/E 原始 Hash 表。
 
 下一步需要从已知的 `C→F`/`C→S` 根闭包所指向的 child Prototype 出发，将寄存器级字段引用连接到明确的方法所属对象，优先挑选有多重 Hash/原型上下文的调用，而非用第三方名称直接替换 UNKNOWN。
