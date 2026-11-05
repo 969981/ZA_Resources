@@ -36,6 +36,8 @@ source_run: 42025851252
 | 词法嵌套方法 CALL | **7** |
 | 原始名称或实例接收者类新增确认 | **0** |
 
+更精确的原生分布：926 条最终都落在 **各自 Chunk 根原型的 `P0.U0`**，且已观察到的捕获边均属于 `instack=0` 父 Upvalue 传递；没有在这 926 条证据路径上遇到父寄存器栈捕获分歧。根 Upvalue 的捕获步数：**919 条为 1 级、6 条为 2 级、1 条为 5 级**；对应最深示例 `event_ik: P88.U0 → P87.U0 → P86.U1 → P85.U1 → P83.U0 → P0.U0`，其每级都有父级的 `CLOSURE` 创建 PC 可复核。
+
 五组静态查找键数量保持不变：`IkScriptCommand` 908、`CafeEvent` 8、`CharacterCommand` 7、`ObjectTemplateDataManager` 2、`FadeCommand` 1。它们是 PokeDocs 已存在的 C 表名字，本轮只增加了原生捕获拓扑证据。
 
 **可以证明**：926 次被调用字段前的类 Hash 表查找，使用的 Upvalue 引用都能经原生捕获描述符回溯到根 Chunk 外部 Upvalue。
@@ -45,6 +47,8 @@ source_run: 42025851252
 ## 3. 修复 7+20 结构证据的可复核性
 
 除了 926 条捕获链，本轮对之前只标记为“词法嵌套”的 7 条，以及 20 条缺乏注册 owner 的 CALL 逐条导出了 `parent_proto_id`、`parent_child_index`、父原型 `CLOSURE Bx` 创建 PC、以及当前子原型的全部 Upvalue `instack/idx/kind`。
+
+真实字节码核对表明：这 **27 条调用对应的原生子 Prototype 都能找到恰好 1 个父级 CLOSURE 创建位置**，不存在未找到创建位置或多个位置需消歧的情况；但闭包是否被实际执行仍是另外一回事。
 
 这只能提升闭包**创建位置与上下文**的证据等级；原始 C→F/C→S 注册仍未出现在这 20 条对应的直接方法映射中，因此不强行分类到某个原始类。
 
