@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "version": "v2.0.2",
+  "generatedFromWorkflowRun": 42055289781,
+  "packages": [
+    {
+      "sourcePackage": "Stream.pck",
+      "sourcePackageSha256": "352ec628169e8e8c643bc7ff9aed46062ec901b73bef0efe9511e462247ce56a",
+      "indexSha256": "e28b72eeec517793e0775e5adff7db3d143f6f05f12723ccab389f97dd6fcef2",
+      "sourceArtifactRunId": 42055289781,
+      "mediaRecords": 6278,
+      "uniqueMediaFiles": 6278,
+      "mediaBytes": 882256489,
+      "volumeSizeLimitMiB": 90,
+      "archiveMethod": "7z -t7z -mx=1 -v90m",
+      "volumeCount": 9,
+      "archiveBytes": 766531482,
+      "volumes": [
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.001",
+          "sizeBytes": 94371840,
+          "sha256": "46a02218bd92dd423a611b2f9c246bc0616e82114c1d4754cd83efb87cb143b7"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.002",
+          "sizeBytes": 94371840,
+          "sha256": "270a44de78af424b32c146509c3839aae96d4a9e3b198f9b9bcc17bd156bcc91"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.003",
+          "sizeBytes": 94371840,
+          "sha256": "3790aef66a6c65fdf02f0c53ae89373da66ee9919bf78be835f2303aba7a6991"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.004",
+          "sizeBytes": 94371840,
+          "sha256": "713b277bce68f02c29afe81de9f82e292b06ff81d81990e51d49d85f3ca79805"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.005",
+          "sizeBytes": 94371840,
+          "sha256": "6513f23b3a14fa1c5fe75c85d77c97ea056c0db8cf4db3213ccf238e429fe492"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.006",
+          "sizeBytes": 94371840,
+          "sha256": "9f93edc0528518236b98d9ff1f46e2dc4d7c41d405941be7c75893ff2aa7ff2b"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.007",
+          "sizeBytes": 94371840,
+          "sha256": "9b5b8279dc4d4d46977d70e3f0507340fabd2652aae2bff5101dd192d19e3c69"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.008",
+          "sizeBytes": 94371840,
+          "sha256": "20af5cb303cf9df6f3b7d0ab99af8d6e4331c1ee2e6d7f93d1d489c00fbae4f7"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream.pck.media.7z.009",
+          "sizeBytes": 11556762,
+          "sha256": "2a303827d73702f7c002d36e2934a0454c49a57d6b743f379226ac8a32559f32"
+        }
+      ],
+      "verification": "7z TEST + extracted payload SHA-256 for all indexed media",
+      "status": "COMPLETE"
+    },
+    {
+      "sourcePackage": "Stream_dlc.pck",
+      "sourcePackageSha256": "aa42b8490b3da3c3074868d4222393940b7cebbfd704f2512ea0b0bcdbc653e0",
+      "indexSha256": "4d90f3fd2ab35b9b48f355f365c237438bdd1b807b6f44b1d298d2242dfdb4dd",
+      "sourceArtifactRunId": 42055289781,
+      "mediaRecords": 3373,
+      "uniqueMediaFiles": 3373,
+      "mediaBytes": 271835950,
+      "volumeSizeLimitMiB": 90,
+      "archiveMethod": "7z -t7z -mx=1 -v90m",
+      "volumeCount": 3,
+      "archiveBytes": 243951029,
+      "volumes": [
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream_dlc.pck.media.7z.001",
+          "sizeBytes": 94371840,
+          "sha256": "276b7d73a3536095c0e25bd7e954356d8f6379a38a6f2136d815c43598a08c31"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream_dlc.pck.media.7z.002",
+          "sizeBytes": 94371840,
+          "sha256": "9cb6ca3fb8dc0aedb688167e20b73d89a212bbbf704f72c4b6b7789bbd48e7b3"
+        },
+        {
+          "path": "Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/Stream_dlc.pck.media.7z.003",
+          "sizeBytes": 55207349,
+          "sha256": "bda1f15cac913cb2f8857bcdad2856b7c5ca8a603200868e8beac946aedd4e6f"
+        }
+      ],
+      "verification": "7z TEST + extracted payload SHA-256 for all indexed media",
+      "status": "COMPLETE"
+    }
+  ],
+  "complete": true
+}
