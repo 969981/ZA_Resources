@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert verified ZA v2.0.2 NSO main files to ELF, preserving provenance.
+"""Convert verified ZA v2.0.2 NSO modules to ELF and optionally decompressed NSO, preserving provenance.
 
 Large ELF files are 7z-volume archived for normal Git; the full ELF remains
 in _work/ for workflow artifact upload when --keep-elf is used.
@@ -53,7 +53,7 @@ def checked(command: list[str], *, cwd: Path | None = None) -> None:
 
 
 def export_one(root: Path, converter: Path, name: str,
-               sevenzip: str | None, keep_elf: bool) -> dict:
+               sevenzip: str | None, keep_elf: bool, export_uncompressed: bool = False) -> dict:
     if name not in DEFAULT_NAMES:
         raise ValueError(f"Unrecognized main filename: {name}")
     source = root / "v2.0.2" / "4a70b3ff963bfe412681185cea68bf55_NCA" / "0" / name
@@ -77,7 +77,12 @@ def export_one(root: Path, converter: Path, name: str,
         elf.unlink(missing_ok=True)
         # Upstream nx2elf can return exit code zero even when NsoToElf fails:
         # always validate output contents, not just the process exit code.
-        checked([str(converter), str(source), "--export-elf", str(elf)])
+        command = [str(converter), str(source), "--export-elf", str(elf)]
+        unpacked = work / f"{name}.uncompressed.nso"
+        if export_uncompressed:
+            unpacked.unlink(missing_ok=True)
+            command.extend(["--export-uncompressed", str(unpacked)])
+        checked(command)
         if not elf.is_file():
             raise RuntimeError(f"nx2elf did not create {elf}")
         verify_elf(elf)
@@ -121,6 +126,55 @@ def export_one(root: Path, converter: Path, name: str,
                                   "size": stored.stat().st_size,
                                   "sha256": file_hash(stored)})
             mode = "7z-volumes"
+        uncompressed_info = None
+        if export_uncompressed:
+            if not unpacked.is_file():
+                raise RuntimeError(f"nx2elf did not produce uncompressed NSO: {unpacked}")
+            unpacked_build = verify_nso(unpacked)
+            if unpacked_build != build_id:
+                raise RuntimeError("Decompressed NSO BuildID differs from original")
+            unc_size, unc_sha = unpacked.stat().st_size, file_hash(unpacked)
+            unc_artifacts = []
+            if unc_size < MAX_GIT_BYTES:
+                target = dest / unpacked.name
+                shutil.copyfile(unpacked, target)
+                if file_hash(target) != unc_sha:
+                    raise RuntimeError("Uncompressed NSO copy SHA256 mismatch")
+                unc_artifacts.append({"path": target.relative_to(root).as_posix(),
+                                      "size": target.stat().st_size, "sha256": file_hash(target)})
+                unc_storage = "raw-nso"
+            else:
+                if not sevenzip:
+                    raise RuntimeError("Uncompressed NSO exceeds 90 MiB; 7z required")
+                archive = dest / (unpacked.name + ".7z")
+                for old in dest.glob(unpacked.name + ".7z.*"):
+                    old.unlink()
+                archive.unlink(missing_ok=True)
+                checked([sevenzip, "a", "-t7z", "-mx=1", "-v90m",
+                         str(archive), unpacked.name], cwd=work)
+                volumes = sorted(dest.glob(unpacked.name + ".7z.*"))
+                if not volumes and archive.is_file():
+                    volumes = [archive]
+                if not volumes:
+                    raise RuntimeError("No uncompressed NSO 7z volume was produced")
+                checked([sevenzip, "t", str(volumes[0])])
+                with tempfile.TemporaryDirectory(prefix=f"za-nso-verify-{name}-") as tmp:
+                    checked([sevenzip, "x", "-y", f"-o{tmp}", str(volumes[0])])
+                    rebuilt = Path(tmp) / unpacked.name
+                    if file_hash(rebuilt) != unc_sha or verify_nso(rebuilt) != build_id:
+                        raise RuntimeError("NSO archive round-trip / BuildID check failed")
+                for target in volumes:
+                    if target.stat().st_size >= 100_000_000:
+                        raise RuntimeError("NSO archive volume exceeds GitHub blob limit")
+                    unc_artifacts.append({"path": target.relative_to(root).as_posix(),
+                                          "size": target.stat().st_size,
+                                          "sha256": file_hash(target)})
+                unc_storage = "7z-volumes"
+            uncompressed_info = {"filename": unpacked.name, "size": unc_size,
+                                 "sha256": unc_sha, "storage": unc_storage,
+                                 "artifacts": unc_artifacts,
+                                 "buildIdMatchesInput": True}
+            artifacts.extend(unc_artifacts)
         info = {
             "status": "CONFIRMED",
             "version": "v2.0.2",
@@ -137,6 +191,7 @@ def export_one(root: Path, converter: Path, name: str,
             "elfSize": elf_size,
             "elfSha256": elf_hash,
             "elfFormat": "ELF64 little-endian AArch64",
+            "uncompressedNso": uncompressed_info,
             "storage": mode,
             "artifacts": artifacts,
             "validated": ["NSO0 magic", "ELF64 AArch64 header",
@@ -157,6 +212,8 @@ def main() -> None:
                         default=Path(__file__).resolve().parents[1])
     parser.add_argument("--nx2elf", type=Path, required=True)
     parser.add_argument("--7z", dest="sevenzip", default=shutil.which("7z"))
+    parser.add_argument("--export-uncompressed", action="store_true",
+                        help="also reconstruct and publish uncompressed NSO")
     parser.add_argument("--keep-elf", action="store_true",
                         help="Retain raw ELF under ignored _work/ for artifact upload")
     parser.add_argument("--names", nargs="+", choices=DEFAULT_NAMES,
@@ -167,7 +224,8 @@ def main() -> None:
     if not converter.is_file():
         parser.error(f"nx2elf binary not found: {converter}")
     for name in args.names:
-        info = export_one(root, converter, name, args.sevenzip, args.keep_elf)
+        info = export_one(root, converter, name, args.sevenzip, args.keep_elf,
+                          args.export_uncompressed)
         print(json.dumps({k: info[k] for k in
                           ("game", "sourcePath", "elfSize", "elfSha256",
                            "storage", "artifacts")}, ensure_ascii=False))
