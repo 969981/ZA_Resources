@@ -45,6 +45,42 @@ class ZAVirtualConverterTests(unittest.TestCase):
         self.assertEqual(result["textCount"], 2)
         self.assertIn("NOT decoded", result["note"])
 
+
+    def test_decrypt_message_dat_multilingual_and_bounds(self):
+        slots = [
+            [ord(c) for c in "Next"] + [0],
+            [0x5206, 0x7C7B, 0x0010, 0x0002, 0x0202, 0],
+        ]
+        count = len(slots)
+        length = 4 + count * 8 + sum(len(s) * 2 for s in slots)
+        section = bytearray(length)
+        struct.pack_into("<I", section, 0, length)
+        at = 4 + count * 8
+        for i, codes in enumerate(slots):
+            flags = 4 if i == 0 else 0
+            struct.pack_into("<II", section, 4 + i * 8,
+                             at, (flags << 16) | len(codes))
+            key = (0x7C89 + i * 0x2983) & 0xFFFF
+            for code in codes:
+                struct.pack_into("<H", section, at, code ^ key)
+                at += 2
+                key = ((key << 3) | (key >> 13)) & 0xFFFF
+        payload = struct.pack("<HHIIi", 1, count, length, 0, 16) + section
+        parsed = m.decode_message_dat(payload)
+        self.assertEqual(parsed["messages"][0]["displayText"], "Next")
+        self.assertEqual(parsed["messages"][0]["flagsUpper16"], 4)
+        self.assertIn("<U+0010><U+0002>", parsed["messages"][1]["displayText"])
+        self.assertTrue(parsed["messages"][1]["rawDecodedUtf16Hex"].startswith("52067C7B"))
+        with tempfile.TemporaryDirectory() as td:
+            source = Path(td) / "bag.dat"
+            source.write_bytes(payload)
+            status, outputs, _ = m.transform(
+                source, "ik_message/dat/Simp_Chinese/common/bag.dat", Path(td) / "converted")
+            self.assertEqual(status, "CONVERTED")
+            self.assertEqual(json.loads(outputs[0].read_text())["messages"][0]["displayText"], "Next")
+        with self.assertRaises(ValueError):
+            m.decode_message_dat(payload[:-1])
+
     def test_transform_outputs_and_unknown(self):
         with tempfile.TemporaryDirectory() as td:
             source, dest = Path(td) / "bag.tbl", Path(td) / "converted"
