@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json'
+      - '.github/workflows/za-lua-native-crosswalk.yml'
   workflow_dispatch:
 
 permissions:
