@@ -1,0 +1,153 @@
+{
+  "declaredLength": 796,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Sì",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "005300EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0008>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "0010000302060008002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Vuoi salvare il gioco?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00560075006F0069002000730061006C007600610072006500200069006C002000670069006F0063006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Salvataggio in corso.\nNon spegnere la console.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "00530061006C0076006100740061006700670069006F00200069006E00200063006F00720073006F002E000A004E006F006E00200073007000650067006E0065007200650020006C006100200063006F006E0073006F006C0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Hai salvato il gioco.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "004800610069002000730061006C007600610074006F00200069006C002000670069006F0063006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Esiste già un salvataggio e non puoi crearne\nun altro.<U+0010><U+0001>븁\nConsulta il manuale di istruzioni per ulteriori\ninformazioni.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "00450073006900730074006500200067006900E000200075006E002000730061006C0076006100740061006700670069006F002000650020006E006F006E002000700075006F0069002000630072006500610072006E0065000A0075006E00200061006C00740072006F002E00100001BE01000A0043006F006E00730075006C0074006100200069006C0020006D0061006E00750061006C0065002000640069002000690073007400720075007A0069006F006E0069002000700065007200200075006C0074006500720069006F00720069000A0069006E0066006F0072006D0061007A0069006F006E0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "Il salvataggio non è riuscito.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "0049006C002000730061006C0076006100740061006700670069006F0020006E006F006E002000E800200072006900750073006300690074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Hai ricevuto <U+0010><U+0003>ȇ<U+0002>. <U+E300>!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "00480061006900200072006900630065007600750074006F00200010000302070002002E0020E30000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Ricevi <U+0010><U+0003>ᔂ<U+0001><U+0000><U+0010><U+0002>ā<U+0001>!",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "005200690063006500760069002000100003150200010000001000020101000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Hai ricevuto <U+0010><U+0003>ȇ<U+0002>. CL!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "00480061006900200072006900630065007600750074006F00200010000302070002002E00200043004C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "00100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 796,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

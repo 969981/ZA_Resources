@@ -1,0 +1,33 @@
+{
+  "declaredLength": 296,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Y así, como siempre fue, los actos del presente\nconforman el futuro.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "005900200061007300ED002C00200063006F006D006F0020007300690065006D0070007200650020006600750065002C0020006C006F00730020006100630074006F0073002000640065006C002000700072006500730065006E00740065000A0063006F006E0066006F0072006D0061006E00200065006C002000660075007400750072006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Tenéis mi eterno y más hondo agradecimiento,\nmi estimado Equipo MZ.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "00540065006E00E9006900730020006D006900200065007400650072006E006F002000790020006D00E1007300200068006F006E0064006F002000610067007200610064006500630069006D00690065006E0074006F002C000A006D006900200065007300740069006D00610064006F002000450071007500690070006F0020004D005A002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 296,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

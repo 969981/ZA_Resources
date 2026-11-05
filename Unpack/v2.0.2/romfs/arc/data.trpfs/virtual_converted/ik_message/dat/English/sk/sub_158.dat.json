@@ -1,0 +1,273 @@
+{
+  "declaredLength": 2924,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "This must be my lucky day! You’re just the kind of\nTrainer I was lookin’ for!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "00540068006900730020006D0075007300740020006200650020006D00790020006C00750063006B00790020006400610079002100200059006F00752019007200650020006A00750073007400200074006800650020006B0069006E00640020006F0066000A0054007200610069006E006500720020004900200077006100730020006C006F006F006B0069006E201900200066006F0072002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "...Actually, I ain’t lucky. I’m kinda in a pickle.<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "002E002E002E00410063007400750061006C006C0079002C00200049002000610069006E201900740020006C00750063006B0079002E002000492019006D0020006B0069006E0064006100200069006E002000610020007000690063006B006C0065002E00100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Sounds like some big ol’ Pokémon clogged up a\npipe down here...<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "0053006F0075006E006400730020006C0069006B006500200073006F006D006500200062006900670020006F006C201900200050006F006B00E9006D006F006E00200063006C006F006700670065006400200075007000200061000A007000690070006500200064006F0077006E00200068006500720065002E002E002E00100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "I hear it’s a real doozy, so it might be kinda tough\nto handle. That’s where you come in!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "00490020006800650061007200200069007420190073002000610020007200650061006C00200064006F006F007A0079002C00200073006F0020006900740020006D00690067006800740020006200650020006B0069006E0064006100200074006F007500670068000A0074006F002000680061006E0064006C0065002E002000540068006100742019007300200077006800650072006500200079006F007500200063006F006D006500200069006E002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "I’ll send you the location of where the Pokémon’s\nprobably stuck. Use your map’s guidance feature<U+0010><U+0001>븀\nand check it out!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 812,
+      "rawDecodedUtf16Hex": "00492019006C006C002000730065006E006400200079006F007500200074006800650020006C006F0063006100740069006F006E0020006F0066002000770068006500720065002000740068006500200050006F006B00E9006D006F006E20190073000A00700072006F006200610062006C007900200073007400750063006B002E002000550073006500200079006F007500720020006D0061007020190073002000670075006900640061006E006300650020006600650061007400750072006500100001BE00000A0061006E006400200063006800650063006B0020006900740020006F00750074002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "I sent the coordinates to your map. Go look into\nthe problem for me, will ya?<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "0049002000730065006E0074002000740068006500200063006F006F007200640069006E006100740065007300200074006F00200079006F007500720020006D00610070002E00200047006F0020006C006F006F006B00200069006E0074006F000A007400680065002000700072006F0062006C0065006D00200066006F00720020006D0065002C002000770069006C006C002000790061003F00100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "A Dondozo is stuck in the pipe!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "004100200044006F006E0064006F007A006F00200069007300200073007400750063006B00200069006E00200074006800650020007000690070006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "You might be able to free it by having your\nPokémon use a move on it!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "0059006F00750020006D0069006700680074002000620065002000610062006C006500200074006F0020006600720065006500200069007400200062007900200068006100760069006E006700200079006F00750072000A0050006F006B00E9006D006F006E0020007500730065002000610020006D006F007600650020006F006E00200069007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "You startled Dondozo into thrashing about!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "0059006F0075002000730074006100720074006C0065006400200044006F006E0064006F007A006F00200069006E0074006F00200074006800720061007300680069006E0067002000610062006F0075007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Doh zoh!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "0044006F00680020007A006F006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "My phone stopped picking up the stuck Pokémon,\nso I came to see what’s up. What IS this thing?!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "004D0079002000700068006F006E0065002000730074006F00700070006500640020007000690063006B0069006E0067002000750070002000740068006500200073007400750063006B00200050006F006B00E9006D006F006E002C000A0073006F00200049002000630061006D006500200074006F00200073006500650020007700680061007420190073002000750070002E00200057006800610074002000490053002000740068006900730020007400680069006E0067003F002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "A Dondozo, huh? They weren’t lyin’ when they\nsaid it was a DOOZY!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "004100200044006F006E0064006F007A006F002C0020006800750068003F0020005400680065007900200077006500720065006E201900740020006C00790069006E20190020007700680065006E00200074006800650079000A007300610069006400200069007400200077006100730020006100200044004F004F005A0059002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Dozo...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "0044006F007A006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Aw, don’t be sorry! All you wanted to do was\nwriggle through the pipe! I totally get that!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "00410077002C00200064006F006E2019007400200062006500200073006F007200720079002100200041006C006C00200079006F0075002000770061006E00740065006400200074006F00200064006F0020007700610073000A00770072006900670067006C00650020007400680072006F00750067006800200074006800650020007000690070006500210020004900200074006F00740061006C006C0079002000670065007400200074006800610074002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "If it’s cool with you, d’you wanna be my partner?<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2120,
+      "rawDecodedUtf16Hex": "004900660020006900742019007300200063006F006F006C0020007700690074006800200079006F0075002C0020006420190079006F0075002000770061006E006E00610020006200650020006D007900200070006100720074006E00650072003F00100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Lotsa Pokémon live down in these sewers, so I’d\nfeel safer with you around!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2228,
+      "rawDecodedUtf16Hex": "004C006F00740073006100200050006F006B00E9006D006F006E0020006C00690076006500200064006F0077006E00200069006E0020007400680065007300650020007300650077006500720073002C00200073006F0020004920190064000A006600650065006C0020007300610066006500720020007700690074006800200079006F0075002000610072006F0075006E0064002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Doh zoh!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "0044006F00680020007A006F006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Looks like it’s settled!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "004C006F006F006B00730020006C0069006B00650020006900742019007300200073006500740074006C00650064002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Don’t think I forgot about you! Thanks for savin’\nthis doozy of a Dondozo!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "0044006F006E201900740020007400680069006E006B0020004900200066006F00720067006F0074002000610062006F0075007400200079006F007500210020005400680061006E006B007300200066006F007200200073006100760069006E2019000A007400680069007300200064006F006F007A00790020006F00660020006100200044006F006E0064006F007A006F002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "All right, Dondozo. Time to get to work!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 2628,
+      "rawDecodedUtf16Hex": "0041006C006C002000720069006700680074002C00200044006F006E0064006F007A006F002E002000540069006D006500200074006F002000670065007400200074006F00200077006F0072006B002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Workin’ in the sewers is gonna be a breeze now,\nthanks to my doozy of a Dondozo!<U+0010><U+0002>Ĕǅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "0057006F0072006B0069006E201900200069006E0020007400680065002000730065007700650072007300200069007300200067006F006E006E00610020006200650020006100200062007200650065007A00650020006E006F0077002C000A007400680061006E006B007300200074006F0020006D007900200064006F006F007A00790020006F00660020006100200044006F006E0064006F007A006F002100100002011401C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Doh zoh!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "0044006F00680020007A006F006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2924,
+  "sectionOffset": 16,
+  "textCount": 26,
+  "textSectionCount": 1
+}

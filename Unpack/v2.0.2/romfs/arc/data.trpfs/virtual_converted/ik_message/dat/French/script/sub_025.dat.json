@@ -1,0 +1,413 @@
+{
+  "declaredLength": 4584,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Faut que je te le répète combien de fois ?\nY a pas plus fort que mon Arbok !<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "004600610075007400200071007500650020006A00650020007400650020006C00650020007200E9007000E80074006500200063006F006D006200690065006E00200064006500200066006F006900730020003F000A005900200061002000700061007300200070006C0075007300200066006F0072007400200071007500650020006D006F006E0020004100720062006F006B00200021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "N’importe quoi ! En plus, le motif sur son corps\nest claqué au sol. Oniglali fait 100 fois plus peur !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "004E20190069006D0070006F007200740065002000710075006F00690020002100200045006E00200070006C00750073002C0020006C00650020006D006F007400690066002000730075007200200073006F006E00200063006F007200700073000A00650073007400200063006C00610071007500E900200061007500200073006F006C002E0020004F006E00690067006C0061006C006900200066006100690074002000310030003000200066006F0069007300200070006C007500730020007000650075007200200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "... Qu’est-ce que t’as, toi ? Tu veux ma photo ?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "002E002E002E0020005100752019006500730074002D00630065002000710075006500200074201900610073002C00200074006F00690020003F002000540075002000760065007500780020006D0061002000700068006F0074006F0020003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Attends, t’sais quoi ?\nPuisque t’es là, tu vas nous aider !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "0041007400740065006E00640073002C0020007420190073006100690073002000710075006F00690020003F000A0050007500690073007100750065002000742019006500730020006C00E0002C00200074007500200076006100730020006E006F0075007300200061006900640065007200200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Ah, pas bête. Bon, voilà c’qui va s’passer :\ntu vas te battre contre nous.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "00410068002C00200070006100730020006200EA00740065002E00200042006F006E002C00200076006F0069006C00E00020006320190071007500690020007600610020007320190070006100730073006500720020003A000A007400750020007600610073002000740065002000620061007400740072006500200063006F006E0074007200650020006E006F00750073002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Pour commencer, un de tes Pokémon va affronter\nmon Arbok.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "0050006F0075007200200063006F006D006D0065006E006300650072002C00200075006E002000640065002000740065007300200050006F006B00E9006D006F006E00200076006100200061006600660072006F006E007400650072000A006D006F006E0020004100720062006F006B002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Et ensuite, tu te battras contre son Oniglali,\ntoujours avec un seul Pokémon.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "0045007400200065006E00730075006900740065002C0020007400750020007400650020006200610074007400720061007300200063006F006E00740072006500200073006F006E0020004F006E00690067006C0061006C0069002C000A0074006F0075006A006F0075007200730020006100760065006300200075006E0020007300650075006C00200050006F006B00E9006D006F006E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Comme ça, tu pourras nous aider à déterminer\nqui a le meilleur Pokémon !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "0043006F006D006D0065002000E70061002C00200074007500200070006F007500720072006100730020006E006F00750073002000610069006400650072002000E00020006400E9007400650072006D0069006E00650072000A007100750069002000610020006C00650020006D00650069006C006C00650075007200200050006F006B00E9006D006F006E00200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tu vas d’abord te battre contre mon Arbok.\nT’es prêt<U+0010><U+0003>ᄀÿĀe pour un combat à un contre un ?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "00540075002000760061007300200064201900610062006F00720064002000740065002000620061007400740072006500200063006F006E0074007200650020006D006F006E0020004100720062006F006B002E000A005420190065007300200070007200EA007400100003110000FF0100006500200070006F0075007200200075006E00200063006F006D006200610074002000E000200075006E00200063006F006E00740072006500200075006E0020003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Oui, et je vais gagner !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "004F00750069002C0020006500740020006A0065002000760061006900730020006700610067006E00650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Non, pas encore.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1812,
+      "rawDecodedUtf16Hex": "004E006F006E002C002000700061007300200065006E0063006F00720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Ben, magne-toi ! Choisis un Pokémon\nque t’aimes bien, et on en parle plus.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "00420065006E002C0020006D00610067006E0065002D0074006F006900200021002000430068006F006900730069007300200075006E00200050006F006B00E9006D006F006E000A00710075006500200074201900610069006D006500730020006200690065006E002C0020006500740020006F006E00200065006E0020007000610072006C006500200070006C00750073002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "T’essaies de m’arnaquer ou quoi ? Faut que\nt’aies qu’un seul Pokémon dans ton équipe.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "0054201900650073007300610069006500730020006400650020006D201900610072006E006100710075006500720020006F0075002000710075006F00690020003F002000460061007500740020007100750065000A00742019006100690065007300200071007520190075006E0020007300650075006C00200050006F006B00E9006D006F006E002000640061006E007300200074006F006E002000E900710075006900700065002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "C’est parti !<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006100720074006900200021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "J’ai trop hâte de le voir perdre !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "004A201900610069002000740072006F00700020006800E2007400650020006400650020006C006500200076006F00690072002000700065007200640072006500200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mon Arbok a perdu...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "004D006F006E0020004100720062006F006B00200061002000700065007200640075002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Cheh ! Si c’est pas la preuve que mon Oniglali\nest le plus fort, j’sais pas c’que c’est.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "00430068006500680020002100200053006900200063201900650073007400200070006100730020006C0061002000700072006500750076006500200071007500650020006D006F006E0020004F006E00690067006C0061006C0069000A0065007300740020006C006500200070006C0075007300200066006F00720074002C0020006A201900730061006900730020007000610073002000632019007100750065002000632019006500730074002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Bon, l<U+0010><U+0003>ᄀÿāea mioche. À nous deux !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2568,
+      "rawDecodedUtf16Hex": "0042006F006E002C0020006C00100003110000FF0101006500610020006D0069006F006300680065002E002000C00020006E006F007500730020006400650075007800200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2648,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Alors, prêt<U+0010><U+0003>ᄀÿĀe à affronter mon Oniglali\ndans un combat à un contre un ?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "0041006C006F00720073002C00200070007200EA007400100003110000FF01000065002000E000200061006600660072006F006E0074006500720020006D006F006E0020004F006E00690067006C0061006C0069000A00640061006E007300200075006E00200063006F006D006200610074002000E000200075006E00200063006F006E00740072006500200075006E0020003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Oui, et je vais gagner, pour changer !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 2820,
+      "rawDecodedUtf16Hex": "004F00750069002C0020006500740020006A0065002000760061006900730020006700610067006E00650072002C00200070006F007500720020006300680061006E006700650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Non, pas encore.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "004E006F006E002C002000700061007300200065006E0063006F00720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Ah ouais ? Ça veut dire que tu reconnais\nque mon Oniglali est le plus fort ?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "004100680020006F00750061006900730020003F002000C70061002000760065007500740020006400690072006500200071007500650020007400750020007200650063006F006E006E006100690073000A0071007500650020006D006F006E0020004F006E00690067006C0061006C006900200065007300740020006C006500200070006C0075007300200066006F007200740020003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "On a dit que c’était un combat à un contre un.\nT’es bouché<U+0010><U+0003>ᄀÿĀe ou quoi ?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "004F006E002000610020006400690074002000710075006500200063201900E9007400610069007400200075006E00200063006F006D006200610074002000E000200075006E00200063006F006E00740072006500200075006E002E000A005420190065007300200062006F00750063006800E900100003110000FF010000650020006F0075002000710075006F00690020003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Tu vas rien capter !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "0054007500200076006100730020007200690065006E002000630061007000740065007200200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3312,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mais... t’es carrément balèze, en fait !<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3324,
+      "rawDecodedUtf16Hex": "004D006100690073002E002E002E002000742019006500730020006300610072007200E9006D0065006E0074002000620061006C00E8007A0065002C00200065006E0020006600610069007400200021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3416,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mon Oniglali avait vraiment aucune chance,\nc’est chaud...<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3428,
+      "rawDecodedUtf16Hex": "004D006F006E0020004F006E00690067006C0061006C006900200061007600610069007400200076007200610069006D0065006E007400200061007500630075006E00650020006300680061006E00630065002C000A00632019006500730074002000630068006100750064002E002E002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "J’y crois pas, on a perdu tous les deux ?!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3552,
+      "rawDecodedUtf16Hex": "004A20190079002000630072006F006900730020007000610073002C0020006F006E0020006100200070006500720064007500200074006F007500730020006C00650073002000640065007500780020003F0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "C’qui veut dire que le Pokémon le plus fort,\nc’est ni mon Arbok ni ton Oniglali.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3648,
+      "rawDecodedUtf16Hex": "00432019007100750069002000760065007500740020006400690072006500200071007500650020006C006500200050006F006B00E9006D006F006E0020006C006500200070006C0075007300200066006F00720074002C000A006320190065007300740020006E00690020006D006F006E0020004100720062006F006B0020006E006900200074006F006E0020004F006E00690067006C0061006C0069002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "De ouf ! C’est son <U+0010><U+0002>ā<U+0002>, le Pokémon\nle plus balèze !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3820,
+      "rawDecodedUtf16Hex": "004400650020006F007500660020002100200043201900650073007400200073006F006E00200010000201010002002C0020006C006500200050006F006B00E9006D006F006E000A006C006500200070006C00750073002000620061006C00E8007A006500200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "J’avoue... On s’y croyait un peu trop, en fait.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3936,
+      "rawDecodedUtf16Hex": "004A201900610076006F00750065002E002E002E0020004F006E0020007320190079002000630072006F007900610069007400200075006E0020007000650075002000740072006F0070002C00200065006E00200066006100690074002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Tu m’as ouvert les yeux, l<U+0010><U+0003>ᄀÿāea mioche !\nJ’ai un nouvel objectif, maintenant.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4040,
+      "rawDecodedUtf16Hex": "005400750020006D2019006100730020006F007500760065007200740020006C0065007300200079006500750078002C0020006C00100003110000FF0101006500610020006D0069006F00630068006500200021000A004A20190061006900200075006E0020006E006F007500760065006C0020006F0062006A00650063007400690066002C0020006D00610069006E00740065006E0061006E0074002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Ouais, pareil ! Et j’vais l’atteindre avant l’autre\net son Oniglali, là !<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 4208,
+      "rawDecodedUtf16Hex": "004F0075006100690073002C002000700061007200650069006C002000210020004500740020006A201900760061006900730020006C201900610074007400650069006E0064007200650020006100760061006E00740020006C201900610075007400720065000A0065007400200073006F006E0020004F006E00690067006C0061006C0069002C0020006C00E000200021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Hein ? Tu crois que j’vais t’laisser faire mieux que\nmoi ? Avec Oniglali, on va te remettre à ta place !<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4364,
+      "rawDecodedUtf16Hex": "004800650069006E0020003F002000540075002000630072006F0069007300200071007500650020006A20190076006100690073002000742019006C0061006900730073006500720020006600610069007200650020006D00690065007500780020007100750065000A006D006F00690020003F002000410076006500630020004F006E00690067006C0061006C0069002C0020006F006E002000760061002000740065002000720065006D00650074007400720065002000E000200074006100200070006C00610063006500200021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4584,
+  "sectionOffset": 16,
+  "textCount": 40,
+  "textSectionCount": 1
+}

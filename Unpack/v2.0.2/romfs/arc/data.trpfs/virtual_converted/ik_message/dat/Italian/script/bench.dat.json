@@ -1,0 +1,133 @@
+{
+  "declaredLength": 724,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "C’è una panchina.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0043201900E800200075006E0061002000700061006E006300680069006E0061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Vuoi alzarti dalla panchina?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "00560075006F006900200061006C007A0061007200740069002000640061006C006C0061002000700061006E006300680069006E0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Vuoi startene qui fino a sera?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "00560075006F00690020007300740061007200740065006E00650020007100750069002000660069006E006F0020006100200073006500720061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Vuoi startene qui fino al mattino?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00560075006F00690020007300740061007200740065006E00650020007100750069002000660069006E006F00200061006C0020006D0061007400740069006E006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Vuoi smettere di scattare fotografie?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "00560075006F006900200073006D00650074007400650072006500200064006900200073006300610074007400610072006500200066006F0074006F006700720061006600690065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Resta qui ad ammazzare il tempo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "00520065007300740061002000710075006900200061006400200061006D006D0061007A007A00610072006500200069006C002000740065006D0070006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Dedicati a<U+0010><U+0003>ᄁý؅l tuoi tuoi Pokémon",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "004400650064006900630061007400690020006100100003110100FD0605006C002000740075006F0069002000740075006F006900200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Annulla",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "0041006E006E0075006C006C00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Sì",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "005300EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Questo non è il momento di riposare.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "00510075006500730074006F0020006E006F006E002000E800200069006C0020006D006F006D0065006E0074006F0020006400690020007200690070006F0073006100720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Non ci si riposa nelle zone lotta!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "004E006F006E0020006300690020007300690020007200690070006F007300610020006E0065006C006C00650020007A006F006E00650020006C006F00740074006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 724,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

@@ -1,0 +1,53 @@
+{
+  "declaredLength": 316,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "這個機器以前是\n當成記錄器來使用的，<U+0010><U+0001>븀\n但是最近被用來<U+0010><U+0001>븀\n調查野生特區。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "9019500B6A5F56684EE5524D662F000A757662108A18930456684F864F7F75287684FF0C00100001BE00000A4F46662F67008FD188AB75284F8600100001BE00000A8ABF67E591CE751F7279534030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "寶可夢有雄性、雌性，\n另外還有性別不明。<U+0010><U+0001>븁\n有些寶可夢會因為雌雄\n而有不同的樣子喔。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "5BF653EF5922670996C46027300196CC6027FF0C000A53E6591690846709602752254E0D660E300200100001BE01000A67094E9B5BF653EF5922670356E070BA96CC96C4000A800C67094E0D540C76846A235B50559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "如果要和寶可夢變得親密，\n和牠待在一起是最好的方法。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "5982679C8981548C5BF653EF59228B8A5F9789AA5BC6FF0C000A548C72605F8557284E008D77662F6700597D768465B96CD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "在城市裡生活這件事\n對寶可夢會帶來什麼影響呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "572857CE5E0288E1751F6D3B90194EF64E8B000A5C0D5BF653EF592267035E364F864EC09EBC5F7197FF5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 316,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

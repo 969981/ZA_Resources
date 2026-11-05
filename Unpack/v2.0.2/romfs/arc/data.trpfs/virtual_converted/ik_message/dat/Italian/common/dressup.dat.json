@@ -1,0 +1,1133 @@
+{
+  "declaredLength": 5756,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Soldi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "0053006F006C006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "0010000302060000002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "−<U+0010><U+0003>Ȇ<U+0000>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "22120010000302060000002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Salone Acconciature",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "00530061006C006F006E00650020004100630063006F006E00630069006100740075007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Salone Camerino",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "00530061006C006F006E0065002000430061006D006500720069006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Viso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "005600690073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Abbigliamento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "00410062006200690067006C00690061006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Colore capelli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0043006F006C006F0072006500200063006100700065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Articolo acquistato",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "00410072007400690063006F006C006F0020006100630071007500690073007400610074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Non puoi cambiare la frangia di questo taglio",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F0069002000630061006D006200690061007200650020006C00610020006600720061006E006700690061002000640069002000710075006500730074006F0020007400610067006C0069006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Nessun articolo disponibile",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "004E0065007300730075006E002000610072007400690063006F006C006F00200064006900730070006F006E006900620069006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Niente",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "004E00690065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Che colore preferisci?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "00430068006500200063006F006C006F0072006500200070007200650066006500720069007300630069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Con che colore vuoi abbinarlo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1340,
+      "rawDecodedUtf16Hex": "0043006F006E002000630068006500200063006F006C006F00720065002000760075006F006900200061006200620069006E00610072006C006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Esaurito",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1404,
+      "rawDecodedUtf16Hex": "0045007300610075007200690074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Non puoi avere mèches e balayage contemporaneamente.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1424,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F00690020006100760065007200650020006D00E8006300680065007300200065002000620061006C0061007900610067006500200063006F006E00740065006D0070006F00720061006E00650061006D0065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Puoi avere un massimo di due nei.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "00500075006F006900200061007600650072006500200075006E0020006D0061007300730069006D006F00200064006900200064007500650020006E00650069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Ok",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "004F006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Indietro",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1608,
+      "rawDecodedUtf16Hex": "0049006E00640069006500740072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Rimuovi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "00520069006D0075006F007600690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ripristina",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "00520069007000720069007300740069006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Ripristina colore",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "00520069007000720069007300740069006E006100200063006F006C006F007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Ordina",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "004F007200640069006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Chiudi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "0043006800690075006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Cambia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "00430061006D0062006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Viso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "005600690073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Abbigliamento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "00410062006200690067006C00690061006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Occhi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "004F00630063006800690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Lenti colorate",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "004C0065006E0074006900200063006F006C006F00720061007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Ciglia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "004300690067006C006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Colore ciglia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "0043006F006C006F007200650020006300690067006C006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Sopracciglia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1892,
+      "rawDecodedUtf16Hex": "0053006F0070007200610063006300690067006C006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Colore sopracciglia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "0043006F006C006F0072006500200073006F0070007200610063006300690067006C006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Bocca",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "0042006F0063006300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Rossetto",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "0052006F00730073006500740074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Nei",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "004E006500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Lentiggini",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "004C0065006E00740069006700670069006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Capelli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2036,
+      "rawDecodedUtf16Hex": "0043006100700065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Carnagione",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "004300610072006E006100670069006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Stile capelli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 41,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "005300740069006C006500200063006100700065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Frangia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "004600720061006E0067006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Colore capelli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2120,
+      "rawDecodedUtf16Hex": "0043006F006C006F0072006500200063006100700065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Mèches",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2152,
+      "rawDecodedUtf16Hex": "004D00E800630068006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Balayage",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2168,
+      "rawDecodedUtf16Hex": "00420061006C006100790061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Occhiaie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "004F00630063006800690061006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Completi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "0043006F006D0070006C0065007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Parte superiore",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2228,
+      "rawDecodedUtf16Hex": "005000610072007400650020007300750070006500720069006F007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Parte inferiore",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2260,
+      "rawDecodedUtf16Hex": "0050006100720074006500200069006E0066006500720069006F007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Cappelli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "00430061007000700065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Occhiali",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 51,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "004F00630063006800690061006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Guanti",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "004700750061006E007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Calze e calzini",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "00430061006C007A006500200065002000630061006C007A0069006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Scarpe",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 54,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "0053006300610072007000650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Borselli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "0042006F007200730065006C006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Orecchini",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 56,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "004F007200650063006300680069006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Predefinito",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "0050007200650064006500660069006E00690074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Più recenti",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2460,
+      "rawDecodedUtf16Hex": "0050006900F900200072006500630065006E007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Non acquistati",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "004E006F006E002000610063007100750069007300740061007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Se esci, le tue modifiche non verranno salvate.\nVuoi smettere di fare modifiche?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "0053006500200065007300630069002C0020006C006500200074007500650020006D006F00640069006600690063006800650020006E006F006E002000760065007200720061006E006E006F002000730061006C0076006100740065002E000A00560075006F006900200073006D006500740074006500720065002000640069002000660061007200650020006D006F0064006900660069006300680065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Confermi le tue scelte?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2680,
+      "rawDecodedUtf16Hex": "0043006F006E006600650072006D00690020006C006500200074007500650020007300630065006C00740065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Non hai cambiato niente. Va bene lo stesso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "004E006F006E0020006800610069002000630061006D0062006900610074006F0020006E00690065006E00740065002E002000560061002000620065006E00650020006C006F002000730074006500730073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Vanno bene queste modifiche?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "00560061006E006E006F002000620065006E006500200071007500650073007400650020006D006F0064006900660069006300680065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Vuoi smettere di fare modifiche?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "00560075006F006900200073006D006500740074006500720065002000640069002000660061007200650020006D006F0064006900660069006300680065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Va bene questo colore?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2956,
+      "rawDecodedUtf16Hex": "00560061002000620065006E0065002000710075006500730074006F00200063006F006C006F00720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Vuoi smettere di modificare il colore?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3004,
+      "rawDecodedUtf16Hex": "00560075006F006900200073006D0065007400740065007200650020006400690020006D006F0064006900660069006300610072006500200069006C00200063006F006C006F00720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Va bene questo aspetto?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "00560061002000620065006E0065002000710075006500730074006F0020006100730070006500740074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Vuoi smettere di modificare l’aspetto?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3132,
+      "rawDecodedUtf16Hex": "00560075006F006900200073006D0065007400740065007200650020006400690020006D006F006400690066006900630061007200650020006C2019006100730070006500740074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Se esci, le tue modifiche non verranno salvate.\nVuoi smettere di modificare abbigliamento e viso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3212,
+      "rawDecodedUtf16Hex": "0053006500200065007300630069002C0020006C006500200074007500650020006D006F00640069006600690063006800650020006E006F006E002000760065007200720061006E006E006F002000730061006C0076006100740065002E000A00560075006F006900200073006D0065007400740065007200650020006400690020006D006F00640069006600690063006100720065002000610062006200690067006C00690061006D0065006E0074006F002000650020007600690073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Vuoi tornare al colore predefinito?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3408,
+      "rawDecodedUtf16Hex": "00560075006F006900200074006F0072006E00610072006500200061006C00200063006F006C006F0072006500200070007200650064006500660069006E00690074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3480,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3492,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Confermi le tue scelte?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3504,
+      "rawDecodedUtf16Hex": "0043006F006E006600650072006D00690020006C006500200074007500650020007300630065006C00740065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Non hai cambiato niente. Va bene lo stesso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3552,
+      "rawDecodedUtf16Hex": "004E006F006E0020006800610069002000630061006D0062006900610074006F0020006E00690065006E00740065002E002000560061002000620065006E00650020006C006F002000730074006500730073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Sì",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "005300EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3648,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿N",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3656,
+      "rawDecodedUtf16Hex": "00100002BDFF004E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Continua",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3668,
+      "rawDecodedUtf16Hex": "0043006F006E00740069006E007500610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 80,
+      "offsetInSection": 3688,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Continua",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 3700,
+      "rawDecodedUtf16Hex": "0043006F006E00740069006E007500610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 82,
+      "offsetInSection": 3720,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Continua",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "0043006F006E00740069006E007500610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 84,
+      "offsetInSection": 3752,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿U",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "00100002BDFF00550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿V",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 3776,
+      "rawDecodedUtf16Hex": "00100002BDFF00560000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿W",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 3788,
+      "rawDecodedUtf16Hex": "00100002BDFF00570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Benvenut<U+0010><U+0003>ᄀÿāoa <U+0010><U+0002>Ǔ<U+0000>!",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "00420065006E00760065006E0075007400100003110000FF0101006F006100200010000201D3000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Vuoi acquistare altro?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 3844,
+      "rawDecodedUtf16Hex": "00560075006F00690020006100630071007500690073007400610072006500200061006C00740072006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Grazie! Torna a trovarci.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 3892,
+      "rawDecodedUtf16Hex": "004700720061007A00690065002100200054006F0072006E006100200061002000740072006F00760061007200630069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Allora fanno <U+0010><U+0003>Ȇ<U+0000>. <U+E300>. Va bene?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 91,
+      "offsetInSection": 3944,
+      "rawDecodedUtf16Hex": "0041006C006C006F00720061002000660061006E006E006F00200010000302060000002E0020E300002E002000560061002000620065006E0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Vuoi cambiarti subito?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 4008,
+      "rawDecodedUtf16Hex": "00560075006F0069002000630061006D006200690061007200740069002000730075006200690074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Hai già acquistato questo articolo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 93,
+      "offsetInSection": 4056,
+      "rawDecodedUtf16Hex": "00480061006900200067006900E00020006100630071007500690073007400610074006F002000710075006500730074006F002000610072007400690063006F006C006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Mi dispiace, ma sembra che non ti bastino i soldi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4128,
+      "rawDecodedUtf16Hex": "004D0069002000640069007300700069006100630065002C0020006D0061002000730065006D00620072006100200063006800650020006E006F006E002000740069002000620061007300740069006E006F0020006900200073006F006C00640069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Benvenut<U+0010><U+0003>ᄀÿāoa al Salone Acconciature!\nCome posso aiutarti?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 4232,
+      "rawDecodedUtf16Hex": "00420065006E00760065006E0075007400100003110000FF0101006F006100200061006C002000530061006C006F006E00650020004100630063006F006E00630069006100740075007200650021000A0043006F006D006500200070006F00730073006F002000610069007500740061007200740069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Vuoi un po’ più di tempo per pensarci?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 4356,
+      "rawDecodedUtf16Hex": "00560075006F006900200075006E00200070006F201900200070006900F9002000640069002000740065006D0070006F0020007000650072002000700065006E00730061007200630069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Grazie per la visita! Speriamo di rivederti presto.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 4436,
+      "rawDecodedUtf16Hex": "004700720061007A0069006500200070006500720020006C0061002000760069007300690074006100210020005300700065007200690061006D006F0020006400690020007200690076006500640065007200740069002000700072006500730074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Fanno <U+0010><U+0003>ȃ<U+0000>. <U+E300>. Va bene?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 4540,
+      "rawDecodedUtf16Hex": "00460061006E006E006F00200010000302030000002E0020E300002E002000560061002000620065006E0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Non hai cambiato niente. Va bene lo stesso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 4588,
+      "rawDecodedUtf16Hex": "004E006F006E0020006800610069002000630061006D0062006900610074006F0020006E00690065006E00740065002E002000560061002000620065006E00650020006C006F002000730074006500730073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Solo un ritocco alle sopracciglia? Allora il servizio\nè gratuito!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "0053006F006C006F00200075006E0020007200690074006F00630063006F00200061006C006C006500200073006F0070007200610063006300690067006C00690061003F00200041006C006C006F0072006100200069006C002000730065007200760069007A0069006F000A00E800200067007200610074007500690074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Va bene così?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 4808,
+      "rawDecodedUtf16Hex": "00560061002000620065006E006500200063006F007300EC003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Ah... Sembra che non ti bastino i soldi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 102,
+      "offsetInSection": 4836,
+      "rawDecodedUtf16Hex": "00410068002E002E002E002000530065006D00620072006100200063006800650020006E006F006E002000740069002000620061007300740069006E006F0020006900200073006F006C00640069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Benvenut<U+0010><U+0003>ᄀÿāoa al Salone Camerino.\nCome posso aiutarti?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 4920,
+      "rawDecodedUtf16Hex": "00420065006E00760065006E0075007400100003110000FF0101006F006100200061006C002000530061006C006F006E0065002000430061006D006500720069006E006F002E000A0043006F006D006500200070006F00730073006F002000610069007500740061007200740069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Vorresti pensarci un po’ di più?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 5036,
+      "rawDecodedUtf16Hex": "0056006F007200720065007300740069002000700065006E0073006100720063006900200075006E00200070006F201900200064006900200070006900F9003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Speriamo che tornerai a farci visita. Arrivederci!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 105,
+      "offsetInSection": 5104,
+      "rawDecodedUtf16Hex": "005300700065007200690061006D006F002000630068006500200074006F0072006E0065007200610069002000610020006600610072006300690020007600690073006900740061002E00200041007200720069007600650064006500720063006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "In tutto sono <U+0010><U+0003>ȃ<U+0000>. <U+E300>. Va bene così?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 106,
+      "offsetInSection": 5208,
+      "rawDecodedUtf16Hex": "0049006E00200074007500740074006F00200073006F006E006F00200010000302030000002E0020E300002E002000560061002000620065006E006500200063006F007300EC003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Non hai cambiato niente. Va bene lo stesso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5284,
+      "rawDecodedUtf16Hex": "004E006F006E0020006800610069002000630061006D0062006900610074006F0020006E00690065006E00740065002E002000560061002000620065006E00650020006C006F002000730074006500730073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Il servizio sopracciglia è gratuito.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 108,
+      "offsetInSection": 5372,
+      "rawDecodedUtf16Hex": "0049006C002000730065007200760069007A0069006F00200073006F0070007200610063006300690067006C00690061002000E800200067007200610074007500690074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Soddisfatt<U+0010><U+0003>ᄀÿāoa di questo look?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "0053006F0064006400690073006600610074007400100003110000FF0101006F0061002000640069002000710075006500730074006F0020006C006F006F006B003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Oh...? Non ti bastano i soldi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 110,
+      "offsetInSection": 5516,
+      "rawDecodedUtf16Hex": "004F0068002E002E002E003F0020004E006F006E002000740069002000620061007300740061006E006F0020006900200073006F006C00640069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Hai ottenuto nuovi articoli di abbigliamento\ncon l’acquisto dei contenuti scaricabili!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 111,
+      "offsetInSection": 5580,
+      "rawDecodedUtf16Hex": "0048006100690020006F007400740065006E00750074006F0020006E0075006F00760069002000610072007400690063006F006C0069002000640069002000610062006200690067006C00690061006D0065006E0074006F000A0063006F006E0020006C20190061006300710075006900730074006F002000640065006900200063006F006E00740065006E0075007400690020007300630061007200690063006100620069006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5756,
+  "sectionOffset": 16,
+  "textCount": 112,
+  "textSectionCount": 1
+}

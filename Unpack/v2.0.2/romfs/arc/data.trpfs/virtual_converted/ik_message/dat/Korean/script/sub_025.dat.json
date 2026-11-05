@@ -1,0 +1,413 @@
+{
+  "declaredLength": 2328,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "몇 번을 말하냐!\n내 아보크가 최강이라고!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "BA870020BC88C7440020B9D0D558B0D00021000AB0B40020C544BCF4D06CAC000020CD5CAC15C774B77CACE00021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "그건 그냥 무늬일 뿐이잖아!\n얼음귀신의 얼굴이 몇만 배는 험악하다고!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "ADF8AC740020ADF8B0E50020BB34B2ACC77C0020BFD0C774C796C5440021000AC5BCC74CADC0C2E0C7580020C5BCAD74C7740020BA87B9CC0020BC30B2940020D5D8C545D558B2E4ACE00021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "엉?\n뭘 봐, 이 자식아!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "C5C9003F000ABB580020BD10002C0020C7740020C790C2DDC5440021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "이봐, 너!\n잠깐 협조 좀 해 주실까?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "C774BD10002C0020B1080021000AC7A0AE500020D611C8700020C8800020D5740020C8FCC2E4AE4C003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "별거 없어.\n우리를 상대해 주기만 하면 돼.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "BCC4AC700020C5C6C5B4002E000AC6B0B9ACB97C0020C0C1B300D5740020C8FCAE30B9CC0020D558BA740020B3FC002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "우선 내 아보크와 네 포켓몬이\n1 대 1로 싸운다.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "C6B0C1200020B0B40020C544BCF4D06CC6400020B1240020D3ECCF13BAACC774000A00310020B30000200031B85C0020C2F8C6B4B2E4002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "그다음 저 녀석의 얼음귀신과\n네 포켓몬이 1 대 1로 싸우는 거야.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 700,
+      "rawDecodedUtf16Hex": "ADF8B2E4C74C0020C8000020B140C11DC7580020C5BCC74CADC0C2E0ACFC000AB1240020D3ECCF13BAACC774002000310020B30000200031B85C0020C2F8C6B0B2940020AC70C57C002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "좋아! 너와 한 번씩 승부해 보면\n어느 쪽이 더 강한지 판가름 나겠지!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "C88BC54400210020B108C6400020D55C0020BC88C5290020C2B9BD80D5740020BCF4BA74000AC5B4B2900020CABDC7740020B3540020AC15D55CC9C00020D310AC00B9840020B098ACA0C9C00021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "첫 번째 상대는 내 아보크다!\n1 대 1로 붙어 보자고!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "CCAB0020BC88C9F80020C0C1B300B2940020B0B40020C544BCF4D06CB2E40021000A00310020B30000200031B85C0020BD99C5B40020BCF4C790ACE00021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "이길 거예요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "C774AE380020AC70C608C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "아직 준비가 안 됐어요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "C544C9C10020C900BE44AC000020C5480020B410C5B4C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "꾸물대지 말고\n아무 포켓몬이나 1마리로 덤벼!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "AFB8BB3CB300C9C00020B9D0ACE0000AC544BB340020D3ECCF13BAACC774B09800200031B9C8B9ACB85C0020B364BCBC0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "난 아보크 1마리라고.\n너도 지닌 포켓몬을 1마리로 만들어 와!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "B09C0020C544BCF4D06C00200031B9C8B9ACB77CACE0002E000AB108B3C40020C9C0B2CC0020D3ECCF13BAACC74400200031B9C8B9ACB85C0020B9CCB4E4C5B40020C6400021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "그럼 바로 이겨 주지!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020BC14B85C0020C774ACA80020C8FCC9C00021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "이 녀석이 패배하는 모습을\n찬찬히 구경해 보도록 할까!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "C7740020B140C11DC7740020D328BC30D558B2940020BAA8C2B5C744000ACC2CCC2CD7880020AD6CACBDD5740020BCF4B3C4B85D0020D560AE4C0021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "내 아보크가... 지다니...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "B0B40020C544BCF4D06CAC00002E002E002E0020C9C0B2E4B2C8002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "좋아, 좋아!\n역시 내 얼음귀신이 최강이라니까!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "C88BC544002C0020C88BC5440021000AC5EDC2DC0020B0B40020C5BCC74CADC0C2E0C7740020CD5CAC15C774B77CB2C8AE4C0021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "너, 이번엔 내 얼음귀신이랑 붙어 보실까!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "B108002C0020C774BC88C5D40020B0B40020C5BCC74CADC0C2E0C774B7910020BD99C5B40020BCF4C2E4AE4C0021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "다음은 내 얼음귀신과 승부다!\n1 대 1인 건 알고 있지?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "B2E4C74CC7400020B0B40020C5BCC74CADC0C2E0ACFC0020C2B9BD80B2E40021000A00310020B30000200031C7780020AC740020C54CACE00020C788C9C0003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "이길 거예요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1524,
+      "rawDecodedUtf16Hex": "C774AE380020AC70C608C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "아직 준비가 안 됐어요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "C544C9C10020C900BE44AC000020C5480020B410C5B4C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "호오, 내 얼음귀신이 최강의 포켓몬이라고\n인정해 주는 거냐?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "D638C624002C0020B0B40020C5BCC74CADC0C2E0C7740020CD5CAC15C7580020D3ECCF13BAACC774B77CACE0000AC778C815D5740020C8FCB2940020AC70B0D0003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "1 대 1이 뭔지 몰라?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "00310020B30000200031C7740020BB54C9C00020BAB0B77C003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "좋아, 손봐 주겠어!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "C88BC544002C0020C190BD100020C8FCACA0C5B40021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "젠장...\n뭐 하는 녀석이야...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1724,
+      "rawDecodedUtf16Hex": "C820C7A5002E002E002E000ABB500020D558B2940020B140C11DC774C57C002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "내 얼음귀신조차...\n못 당해 내다니...<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "B0B40020C5BCC74CADC0C2E0C870CC28002E002E002E000ABABB0020B2F9D5740020B0B4B2E4B2C8002E002E002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "결국 둘 다 져 버렸잖아~!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "ACB0AD6D0020B4580020B2E40020C8380020BC84B838C796C544007E0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "내 아보크도\n네 얼음귀신도 최강의 포켓몬이 아닌 건가.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1880,
+      "rawDecodedUtf16Hex": "B0B40020C544BCF4D06CB3C4000AB1240020C5BCC74CADC0C2E0B3C40020CD5CAC15C7580020D3ECCF13BAACC7740020C544B2CC0020AC74AC00002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "그래! 최강의 포켓몬은 이 녀석의 파트너\n<U+0010><U+0002>ā<U+0002>인 거야!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "ADF8B79800210020CD5CAC15C7580020D3ECCF13BAACC7400020C7740020B140C11DC7580020D30CD2B8B108000A0010000201010002C7780020AC70C57C0021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "맞아.\n우린 우물 안 왕구리였어...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "B9DEC544002E000AC6B0B9B00020C6B0BB3C0020C5480020C655AD6CB9ACC600C5B4002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "덕분에 우리가 가야 할 길을 발견했어!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "B355BD84C5D00020C6B0B9ACAC000020AC00C57C0020D5600020AE38C7440020BC1CACACD588C5B40021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "그래! 바로 최강을 향한 길이야!\n이 녀석의 얼음귀신보다 내가 앞서가겠어!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "ADF8B79800210020BC14B85C0020CD5CAC15C7440020D5A5D55C0020AE38C774C57C0021000AC7740020B140C11DC7580020C5BCC74CADC0C2E0BCF4B2E40020B0B4AC000020C55EC11CAC00ACA0C5B40021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "이 자식! 내가 너 혼자 가게 둘 것 같냐?\n우리의 승부는 앞으로도 계속될 거라고!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "C7740020C790C2DD00210020B0B4AC000020B1080020D63CC7900020AC00AC8C0020B4580020AC830020AC19B0D0003F000AC6B0B9ACC7580020C2B9BD80B2940020C55EC73CB85CB3C40020ACC4C18DB4200020AC70B77CACE00021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2328,
+  "sectionOffset": 16,
+  "textCount": 40,
+  "textSectionCount": 1
+}

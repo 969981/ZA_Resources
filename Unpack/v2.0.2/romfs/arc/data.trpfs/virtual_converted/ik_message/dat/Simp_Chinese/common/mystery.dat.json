@@ -1,0 +1,3213 @@
+{
+  "declaredLength": 9388,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 2564,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "宝可梦已满，\n确定要接收礼物吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "5B9D53EF68A65DF26EE1FF0C000A786E5B9A898163A56536793C72695417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "请注意！\n用序列号或密语接收礼物时，\n如果主机电源被切断，\n或是网络环境不佳的话，\n可能会导致接收失败。\n\n如果接收失败，\n请过一段时间后再次尝试接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "8BF76CE8610FFF01000A75285E8F521753F762165BC68BED63A56536793C726965F6FF0C000A5982679C4E3B673A75356E9088AB520765ADFF0C000A6216662F7F517EDC73AF58834E0D4F7376848BDDFF0C000A53EF80FD4F1A5BFC81F463A5653659318D253002000A000A5982679C63A5653659318D25FF0C000A8BF78FC74E006BB565F695F4540E518D6B215C1D8BD563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请注意！\n由于序列号或密语的\n输入连续失败，\n因此无法输入。\n\n请过一段时间后再来。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "8BF76CE8610FFF01000A75314E8E5E8F521753F762165BC68BED7684000A8F9351658FDE7EED59318D25FF0C000A56E06B6465E06CD58F9351653002000A000A8BF78FC74E006BB565F695F4540E518D676530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 2868,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 2880,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 2892,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "要再次输入序列号或密语吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "8981518D6B218F9351655E8F521753F762165BC68BED5417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "正在搜寻礼物……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "6B635728641C5BFB793C7269202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "接收礼物失败。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2952,
+      "rawDecodedUtf16Hex": "63A56536793C726959318D2530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "没有礼物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "6CA16709793C726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "还没有接收礼物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "8FD86CA1670963A56536793C726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "正在结束……\n请稍等片刻。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 3000,
+      "rawDecodedUtf16Hex": "6B6357287ED3675F20262026000A8BF77A0D7B497247523B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "请选择要接收的礼物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "8BF7900962E9898163A565367684793C726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "要取消接收吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "898153D66D8863A565365417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "由于此礼物已经接收过了，\n因此无法再接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 3068,
+      "rawDecodedUtf16Hex": "75314E8E6B64793C72695DF27ECF63A565368FC74E86FF0C000A56E06B6465E06CD5518D63A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "由于宝可梦已满，\n因此无法再接收。\n\n请整理同行以及盒子里的\n宝可梦后再试。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 3112,
+      "rawDecodedUtf16Hex": "75314E8E5B9D53EF68A65DF26EE1FF0C000A56E06B6465E06CD5518D63A565363002000A000A8BF765747406540C884C4EE553CA76D25B5091CC7684000A5B9D53EF68A6540E518D8BD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "正在接收礼物……\n请勿切断电源。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "6B63572863A56536793C726920262026000A8BF752FF520765AD75356E9030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "已找到礼物，\n但当前玩的软件无法接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "5DF2627E5230793C7269FF0C000A4F465F53524D73A976848F6F4EF665E06CD563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "查看盒子吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3316,
+      "rawDecodedUtf16Hex": "67E5770B76D25B505427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "查看同行的宝可梦！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3332,
+      "rawDecodedUtf16Hex": "67E5770B540C884C76845B9D53EF68A6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3352,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3376,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3388,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3400,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3412,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "即将断开互联网连接，可以吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "53735C0665AD5F004E9280547F518FDE63A5FF0C53EF4EE55417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "正在断开……\n请稍等片刻。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3456,
+      "rawDecodedUtf16Hex": "6B63572865AD5F0020262026000A8BF77A0D7B497247523B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3484,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3496,
+      "rawDecodedUtf16Hex": "00100002BDFF00230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3508,
+      "rawDecodedUtf16Hex": "00100002BDFF00240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此礼物１天只能接收１次。\n\n接收过１次后，\n到次日之前则不能再接收此礼物。\n敬请注意。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3520,
+      "rawDecodedUtf16Hex": "6B64793C7269FF11592953EA80FD63A56536FF116B213002000A000A63A565368FC7FF116B21540EFF0C000A52306B2165E54E4B524D52194E0D80FD518D63A565366B64793C72693002000A656C8BF76CE8610F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "此礼物１天只能接收１次。\n\n今天已经接收过了，\n因此不能再接收。\n\n次日可以再来接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3608,
+      "rawDecodedUtf16Hex": "6B64793C7269FF11592953EA80FD63A56536FF116B213002000A000A4ECA59295DF27ECF63A565368FC74E86FF0C000A56E06B644E0D80FD518D63A565363002000A000A6B2165E553EF4EE5518D676563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "每天可接收１次的礼物\n最多只能接收１０件。\n\n今天已经接收１０件，\n因此不能再接收。\n\n次日可以再来接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3696,
+      "rawDecodedUtf16Hex": "6BCF592953EF63A56536FF116B217684793C7269000A6700591A53EA80FD63A56536FF11FF104EF63002000A000A4ECA59295DF27ECF63A56536FF11FF104EF6FF0C000A56E06B644E0D80FD518D63A565363002000A000A6B2165E553EF4EE5518D676563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "已连接互联网。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3804,
+      "rawDecodedUtf16Hex": "5DF28FDE63A54E9280547F5130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "序列号或密语错误。\n\n请注意！\n因为序列号或密语\n连续输入错误，\n暂时无法再次输入。\n请过一段时间后再试。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3820,
+      "rawDecodedUtf16Hex": "5E8F521753F762165BC68BED95198BEF3002000A000A8BF76CE8610FFF01000A56E04E3A5E8F521753F762165BC68BED000A8FDE7EED8F93516595198BEFFF0C000A668265F665E06CD5518D6B218F9351653002000A8BF78FC74E006BB565F695F4540E518D8BD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3928,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "已断开互联网连接。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "5DF265AD5F004E9280547F518FDE63A530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3960,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "序列号或密语错误。\n\n请确认序列号或密语。\n\n如果连续输入错误，\n将暂时无法再次输入。\n敬请注意。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3972,
+      "rawDecodedUtf16Hex": "5E8F521753F762165BC68BED95198BEF3002000A000A8BF7786E8BA45E8F521753F762165BC68BED3002000A000A5982679C8FDE7EED8F93516595198BEFFF0C000A5C06668265F665E06CD5518D6B218F9351653002000A656C8BF76CE8610F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4072,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此序列号正被用于其他的保存数据。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4084,
+      "rawDecodedUtf16Hex": "6B645E8F521753F76B6388AB75284E8E51764ED676844FDD5B586570636E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4120,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此序列号或密语的礼物\n还无法接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4132,
+      "rawDecodedUtf16Hex": "6B645E8F521753F762165BC68BED7684793C7269000A8FD865E06CD563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4168,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此序列号或密语的\n有效期已过。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4180,
+      "rawDecodedUtf16Hex": "6B645E8F521753F762165BC68BED7684000A67096548671F5DF28FC730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4212,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此序列号或密语的礼物\n在现有的软件上无法接收。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 4224,
+      "rawDecodedUtf16Hex": "6B645E8F521753F762165BC68BED7684793C7269000A572873B0670976848F6F4EF64E0A65E06CD563A5653630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "序列号或密语的更新失败。\n\n此礼物的接收不能完成。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 4284,
+      "rawDecodedUtf16Hex": "5E8F521753F762165BC68BED768466F465B059318D253002000A000A6B64793C7269768463A565364E0D80FD5B8C621030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿8",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 4336,
+      "rawDecodedUtf16Hex": "00100002BDFF00380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "可以用此序列号或密语\n接收的礼物已被接收过了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 4348,
+      "rawDecodedUtf16Hex": "53EF4EE575286B645E8F521753F762165BC68BED000A63A565367684793C72695DF288AB63A565368FC74E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿:",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 4396,
+      "rawDecodedUtf16Hex": "00100002BDFF003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "此序列号已经使用过了。\n\n使用过一次的序列号，\n便无法用于其他的保存数据。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 4408,
+      "rawDecodedUtf16Hex": "6B645E8F521753F75DF27ECF4F7F75288FC74E863002000A000A4F7F75288FC74E006B2176845E8F521753F7FF0C000A4FBF65E06CD575284E8E51764ED676844FDD5B586570636E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 4484,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 4496,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 4508,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 4520,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 4524,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "通过互联网接收",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 4528,
+      "rawDecodedUtf16Hex": "901A8FC74E9280547F5163A565360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "通过序列号／密语接收",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 4544,
+      "rawDecodedUtf16Hex": "901A8FC75E8F521753F7FF0F5BC68BED63A565360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "确认礼物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 4568,
+      "rawDecodedUtf16Hex": "786E8BA4793C72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 4580,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 4592,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 4600,
+      "rawDecodedUtf16Hex": "00100002BDFF00460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 4612,
+      "rawDecodedUtf16Hex": "00100002BDFF00470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 4624,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 4636,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4648,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4660,
+      "rawDecodedUtf16Hex": "00100002BDFF004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4672,
+      "rawDecodedUtf16Hex": "00100002BDFF004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿M",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4684,
+      "rawDecodedUtf16Hex": "00100002BDFF004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿N",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4696,
+      "rawDecodedUtf16Hex": "00100002BDFF004E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4708,
+      "rawDecodedUtf16Hex": "00100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Į",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4720,
+      "rawDecodedUtf16Hex": "00100002012E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4732,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你收到了<U+0010><U+0002>ā<U+0005>！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4744,
+      "rawDecodedUtf16Hex": "4F60653652304E860010000201010005FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4764,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4796,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>！",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4828,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n！",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4880,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n\n<U+0010><U+0002>ĉ<U+000B>×<U+0010><U+0002>Ȃ<U+000C>！",
+      "escapedControlUnits": 22,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4952,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000A000A001000020109000B00D7001000020202000CFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n\n<U+0010><U+0002>ĉ<U+000B>×<U+0010><U+0002>Ȃ<U+000C>\n<U+0010><U+0002>ĉ<U+000D>×<U+0010><U+0002>Ȃ<U+000E>！",
+      "escapedControlUnits": 28,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 5044,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000A000A001000020109000B00D7001000020202000C000A001000020109000D00D7001000020202000EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n\n<U+0010><U+0002>ĉ<U+000B>×<U+0010><U+0002>Ȃ<U+000C>\n<U+0010><U+0002>ĉ<U+000D>×<U+0010><U+0002>Ȃ<U+000E>\n<U+0010><U+0002>ĉ<U+000F>×<U+0010><U+0002>Ȃ<U+0010>！",
+      "escapedControlUnits": 34,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 5156,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000A000A001000020109000B00D7001000020202000C000A001000020109000D00D7001000020202000E000A001000020109000F00D70010000202020010FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 5288,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A00100002020100040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>％",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 5344,
+      "rawDecodedUtf16Hex": "0010000202020000FF050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 5356,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>（UTC+<U+0010><U+0002>ȁ<U+0005>:<U+0010><U+0002>ȁ<U+0006>）",
+      "escapedControlUnits": 21,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 5360,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A0010000202010004FF08005500540043002B0010000202010005003A0010000202010006FF090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>（UTC-<U+0010><U+0002>ȁ<U+0005>:<U+0010><U+0002>ȁ<U+0006>）",
+      "escapedControlUnits": 21,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 5444,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A0010000202010004FF08005500540043002D0010000202010005003A0010000202010006FF090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>（UTC±<U+0010><U+0002>ȁ<U+0005>）",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 5528,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A0010000202010004FF0800550054004300B10010000202010005FF090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>（UTC+<U+0010><U+0002>ȁ<U+0005>）",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 5604,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A0010000202010004FF08005500540043002B0010000202010005FF090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "20<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>（UTC-<U+0010><U+0002>ȁ<U+0005>）",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 5680,
+      "rawDecodedUtf16Hex": "003200300010000202010000002E0010000202010001002E001000020201000200200010000202010003003A0010000202010004FF08005500540043002D0010000202010005FF090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "神秘礼物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 5756,
+      "rawDecodedUtf16Hex": "795E79D8793C72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿c",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 5768,
+      "rawDecodedUtf16Hex": "00100002BDFF00630000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿d",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 5780,
+      "rawDecodedUtf16Hex": "00100002BDFF00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿e",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 5792,
+      "rawDecodedUtf16Hex": "00100002BDFF00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿f",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 5804,
+      "rawDecodedUtf16Hex": "00100002BDFF00660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿g",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 5816,
+      "rawDecodedUtf16Hex": "00100002BDFF00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿h",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 5828,
+      "rawDecodedUtf16Hex": "00100002BDFF00680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿i",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 5840,
+      "rawDecodedUtf16Hex": "00100002BDFF00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿j",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 5852,
+      "rawDecodedUtf16Hex": "00100002BDFF006A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿k",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5864,
+      "rawDecodedUtf16Hex": "00100002BDFF006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿l",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 5876,
+      "rawDecodedUtf16Hex": "00100002BDFF006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5888,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>\n<U+0010><U+0002>ǁ<U+0006>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5912,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005000A0010000201C10006FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>\n<U+0010><U+0002>ǁ<U+0006>\n<U+0010><U+0002>ǁ<U+0007>！",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5944,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005000A0010000201C10006000A0010000201C10007FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>\n<U+0010><U+0002>ǁ<U+0006>\n<U+0010><U+0002>ǁ<U+0007>\n<U+0010><U+0002>ǁ<U+0008>！",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5988,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005000A0010000201C10006000A0010000201C10007000A0010000201C10008FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>\n<U+0010><U+0002>ǁ<U+0006>\n<U+0010><U+0002>ǁ<U+0007>\n<U+0010><U+0002>ǁ<U+0008>\n<U+0010><U+0002>ǁ\t！",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 6040,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005000A0010000201C10006000A0010000201C10007000A0010000201C10008000A0010000201C10009FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "你收到了\n<U+0010><U+0002>ǁ<U+0005>\n<U+0010><U+0002>ǁ<U+0006>\n<U+0010><U+0002>ǁ<U+0007>\n<U+0010><U+0002>ǁ<U+0008>\n<U+0010><U+0002>ǁ\t\n<U+0010><U+0002>ǁ\n！",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 6104,
+      "rawDecodedUtf16Hex": "4F60653652304E86000A0010000201C10005000A0010000201C10006000A0010000201C10007000A0010000201C10008000A0010000201C10009000A0010000201C1000AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿s",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 6176,
+      "rawDecodedUtf16Hex": "00100002BDFF00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你收到了零花钱\n<U+E300><U+0010><U+0003>Ȇ<U+0005><U+0000>！",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 6188,
+      "rawDecodedUtf16Hex": "4F60653652304E8696F682B194B1000AE30000100003020600050000FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿u",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 6220,
+      "rawDecodedUtf16Hex": "00100002BDFF00750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿v",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 6232,
+      "rawDecodedUtf16Hex": "00100002BDFF00760000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "现在ＥＸ副任务\n“<U+0010><U+0002>į<U+0011>”\n会在满足条件后出现了！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 6244,
+      "rawDecodedUtf16Hex": "73B05728FF25FF38526F4EFB52A1000A201C00100002012F0011201D000A4F1A57286EE18DB367614EF6540E51FA73B04E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "现在ＥＸ副任务\n“<U+0010><U+0002>į<U+0011>”\n会在满足条件后出现了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>！",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 6300,
+      "rawDecodedUtf16Hex": "73B05728FF25FF38526F4EFB52A1000A201C00100002012F0011201D000A4F1A57286EE18DB367614EF6540E51FA73B04E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "现在ＥＸ副任务\n“<U+0010><U+0002>į<U+0011>”\n会在满足条件后出现了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>！",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 6388,
+      "rawDecodedUtf16Hex": "73B05728FF25FF38526F4EFB52A1000A201C00100002012F0011201D000A4F1A57286EE18DB367614EF6540E51FA73B04E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "现在ＥＸ副任务\n“<U+0010><U+0002>į<U+0011>”\n会在满足条件后出现了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n！",
+      "escapedControlUnits": 19,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 6496,
+      "rawDecodedUtf16Hex": "73B05728FF25FF38526F4EFB52A1000A201C00100002012F0011201D000A4F1A57286EE18DB367614EF6540E51FA73B04E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "现在只要满足条件，\n就会出现能获得\n烈咬陆鲨进化石Ｚ的异次元了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 6624,
+      "rawDecodedUtf16Hex": "73B0572853EA89816EE18DB367614EF6FF0C000A5C314F1A51FA73B080FD83B75F97000A70C854AC96469CA88FDB531677F3FF3A76845F026B2151434E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "现在只要满足条件，\n就会出现能获得\n烈咬陆鲨进化石Ｚ的异次元了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 6692,
+      "rawDecodedUtf16Hex": "73B0572853EA89816EE18DB367614EF6FF0C000A5C314F1A51FA73B080FD83B75F97000A70C854AC96469CA88FDB531677F3FF3A76845F026B2151434E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "现在只要满足条件，\n就会出现能获得\n烈咬陆鲨进化石Ｚ的异次元了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>！",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 6792,
+      "rawDecodedUtf16Hex": "73B0572853EA89816EE18DB367614EF6FF0C000A5C314F1A51FA73B080FD83B75F97000A70C854AC96469CA88FDB531677F3FF3A76845F026B2151434E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "现在只要满足条件，\n就会出现能获得\n烈咬陆鲨进化石Ｚ的异次元了！\n你收到了\n<U+0010><U+0002>ĉ<U+0005>×<U+0010><U+0002>Ȃ<U+0006>\n<U+0010><U+0002>ĉ<U+0007>×<U+0010><U+0002>Ȃ<U+0008>\n<U+0010><U+0002>ĉ\t×<U+0010><U+0002>Ȃ\n！",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 6912,
+      "rawDecodedUtf16Hex": "73B0572853EA89816EE18DB367614EF6FF0C000A5C314F1A51FA73B080FD83B75F97000A70C854AC96469CA88FDB531677F3FF3A76845F026B2151434E86FF01000A4F60653652304E86000A001000020109000500D70010000202020006000A001000020109000700D70010000202020008000A001000020109000900D7001000020202000AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 7052,
+      "rawDecodedUtf16Hex": "00100002BDFF007F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 7064,
+      "rawDecodedUtf16Hex": "00100002BDFF00800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 7076,
+      "rawDecodedUtf16Hex": "00100002BDFF00810000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 7088,
+      "rawDecodedUtf16Hex": "00100002BDFF00820000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 7100,
+      "rawDecodedUtf16Hex": "00100002BDFF00830000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 7112,
+      "rawDecodedUtf16Hex": "00100002BDFF00840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 7124,
+      "rawDecodedUtf16Hex": "00100002BDFF00850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 7136,
+      "rawDecodedUtf16Hex": "00100002BDFF00860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 7148,
+      "rawDecodedUtf16Hex": "00100002BDFF00870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 7160,
+      "rawDecodedUtf16Hex": "00100002BDFF00880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 7172,
+      "rawDecodedUtf16Hex": "00100002BDFF00890000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 7184,
+      "rawDecodedUtf16Hex": "00100002BDFF008A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 7196,
+      "rawDecodedUtf16Hex": "00100002BDFF008B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 7208,
+      "rawDecodedUtf16Hex": "00100002BDFF008C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 7220,
+      "rawDecodedUtf16Hex": "00100002BDFF008D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 7232,
+      "rawDecodedUtf16Hex": "00100002BDFF008E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 7244,
+      "rawDecodedUtf16Hex": "00100002BDFF008F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 7256,
+      "rawDecodedUtf16Hex": "00100002BDFF00900000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 7268,
+      "rawDecodedUtf16Hex": "00100002BDFF00910000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 7280,
+      "rawDecodedUtf16Hex": "00100002BDFF00920000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 7292,
+      "rawDecodedUtf16Hex": "00100002BDFF00930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 7304,
+      "rawDecodedUtf16Hex": "00100002BDFF00940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 7316,
+      "rawDecodedUtf16Hex": "00100002BDFF00950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 7328,
+      "rawDecodedUtf16Hex": "00100002BDFF00960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 7340,
+      "rawDecodedUtf16Hex": "00100002BDFF00970000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 7352,
+      "rawDecodedUtf16Hex": "00100002BDFF00980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 7364,
+      "rawDecodedUtf16Hex": "00100002BDFF00990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 7376,
+      "rawDecodedUtf16Hex": "00100002BDFF009A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 7388,
+      "rawDecodedUtf16Hex": "00100002BDFF009B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 7400,
+      "rawDecodedUtf16Hex": "00100002BDFF009C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 7412,
+      "rawDecodedUtf16Hex": "00100002BDFF009D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 7424,
+      "rawDecodedUtf16Hex": "00100002BDFF009E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 7436,
+      "rawDecodedUtf16Hex": "00100002BDFF009F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 7448,
+      "rawDecodedUtf16Hex": "00100002BDFF00A00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¡",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 7460,
+      "rawDecodedUtf16Hex": "00100002BDFF00A10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¢",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 7472,
+      "rawDecodedUtf16Hex": "00100002BDFF00A20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿£",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 7484,
+      "rawDecodedUtf16Hex": "00100002BDFF00A30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¤",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 7496,
+      "rawDecodedUtf16Hex": "00100002BDFF00A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¥",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 7508,
+      "rawDecodedUtf16Hex": "00100002BDFF00A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¦",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 7520,
+      "rawDecodedUtf16Hex": "00100002BDFF00A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿§",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 7532,
+      "rawDecodedUtf16Hex": "00100002BDFF00A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¨",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 7544,
+      "rawDecodedUtf16Hex": "00100002BDFF00A80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿©",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 7556,
+      "rawDecodedUtf16Hex": "00100002BDFF00A90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ª",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 7568,
+      "rawDecodedUtf16Hex": "00100002BDFF00AA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿«",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 7580,
+      "rawDecodedUtf16Hex": "00100002BDFF00AB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¬",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 7592,
+      "rawDecodedUtf16Hex": "00100002BDFF00AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿­",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 7604,
+      "rawDecodedUtf16Hex": "00100002BDFF00AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿®",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 7616,
+      "rawDecodedUtf16Hex": "00100002BDFF00AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¯",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 7628,
+      "rawDecodedUtf16Hex": "00100002BDFF00AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿°",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 7640,
+      "rawDecodedUtf16Hex": "00100002BDFF00B00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿±",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 7652,
+      "rawDecodedUtf16Hex": "00100002BDFF00B10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿²",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 7664,
+      "rawDecodedUtf16Hex": "00100002BDFF00B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿³",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 7676,
+      "rawDecodedUtf16Hex": "00100002BDFF00B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿´",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 7688,
+      "rawDecodedUtf16Hex": "00100002BDFF00B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿µ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 7700,
+      "rawDecodedUtf16Hex": "00100002BDFF00B50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¶",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 7712,
+      "rawDecodedUtf16Hex": "00100002BDFF00B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿·",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 7724,
+      "rawDecodedUtf16Hex": "00100002BDFF00B70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¸",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 7736,
+      "rawDecodedUtf16Hex": "00100002BDFF00B80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¹",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 7748,
+      "rawDecodedUtf16Hex": "00100002BDFF00B90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿º",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 7760,
+      "rawDecodedUtf16Hex": "00100002BDFF00BA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿»",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 7772,
+      "rawDecodedUtf16Hex": "00100002BDFF00BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¼",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 7784,
+      "rawDecodedUtf16Hex": "00100002BDFF00BC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿½",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 7796,
+      "rawDecodedUtf16Hex": "00100002BDFF00BD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¾",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 7808,
+      "rawDecodedUtf16Hex": "00100002BDFF00BE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿¿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 7820,
+      "rawDecodedUtf16Hex": "00100002BDFF00BF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿À",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 7832,
+      "rawDecodedUtf16Hex": "00100002BDFF00C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Á",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 7844,
+      "rawDecodedUtf16Hex": "00100002BDFF00C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Â",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 7856,
+      "rawDecodedUtf16Hex": "00100002BDFF00C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ã",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 7868,
+      "rawDecodedUtf16Hex": "00100002BDFF00C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ä",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 7880,
+      "rawDecodedUtf16Hex": "00100002BDFF00C40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Å",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 7892,
+      "rawDecodedUtf16Hex": "00100002BDFF00C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Æ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 7904,
+      "rawDecodedUtf16Hex": "00100002BDFF00C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ç",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 7916,
+      "rawDecodedUtf16Hex": "00100002BDFF00C70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿È",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 7928,
+      "rawDecodedUtf16Hex": "00100002BDFF00C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿É",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 7940,
+      "rawDecodedUtf16Hex": "00100002BDFF00C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ê",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 7952,
+      "rawDecodedUtf16Hex": "00100002BDFF00CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ë",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 7964,
+      "rawDecodedUtf16Hex": "00100002BDFF00CB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ì",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 7976,
+      "rawDecodedUtf16Hex": "00100002BDFF00CC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Í",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 7988,
+      "rawDecodedUtf16Hex": "00100002BDFF00CD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Î",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 8000,
+      "rawDecodedUtf16Hex": "00100002BDFF00CE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ï",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 8012,
+      "rawDecodedUtf16Hex": "00100002BDFF00CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ð",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 8024,
+      "rawDecodedUtf16Hex": "00100002BDFF00D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ñ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 8036,
+      "rawDecodedUtf16Hex": "00100002BDFF00D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ò",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 8048,
+      "rawDecodedUtf16Hex": "00100002BDFF00D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ó",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 8060,
+      "rawDecodedUtf16Hex": "00100002BDFF00D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ô",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 8072,
+      "rawDecodedUtf16Hex": "00100002BDFF00D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Õ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 8084,
+      "rawDecodedUtf16Hex": "00100002BDFF00D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ö",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 8096,
+      "rawDecodedUtf16Hex": "00100002BDFF00D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿×",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 8108,
+      "rawDecodedUtf16Hex": "00100002BDFF00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ø",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 8120,
+      "rawDecodedUtf16Hex": "00100002BDFF00D80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ù",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 8132,
+      "rawDecodedUtf16Hex": "00100002BDFF00D90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ú",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 8144,
+      "rawDecodedUtf16Hex": "00100002BDFF00DA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Û",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 8156,
+      "rawDecodedUtf16Hex": "00100002BDFF00DB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ü",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 8168,
+      "rawDecodedUtf16Hex": "00100002BDFF00DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ý",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 8180,
+      "rawDecodedUtf16Hex": "00100002BDFF00DD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Þ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 8192,
+      "rawDecodedUtf16Hex": "00100002BDFF00DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ß",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 8204,
+      "rawDecodedUtf16Hex": "00100002BDFF00DF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿à",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 224,
+      "offsetInSection": 8216,
+      "rawDecodedUtf16Hex": "00100002BDFF00E00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿á",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 225,
+      "offsetInSection": 8228,
+      "rawDecodedUtf16Hex": "00100002BDFF00E10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿â",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 226,
+      "offsetInSection": 8240,
+      "rawDecodedUtf16Hex": "00100002BDFF00E20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ã",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 227,
+      "offsetInSection": 8252,
+      "rawDecodedUtf16Hex": "00100002BDFF00E30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ä",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 228,
+      "offsetInSection": 8264,
+      "rawDecodedUtf16Hex": "00100002BDFF00E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿å",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 229,
+      "offsetInSection": 8276,
+      "rawDecodedUtf16Hex": "00100002BDFF00E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿æ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 230,
+      "offsetInSection": 8288,
+      "rawDecodedUtf16Hex": "00100002BDFF00E60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ç",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 231,
+      "offsetInSection": 8300,
+      "rawDecodedUtf16Hex": "00100002BDFF00E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿è",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 232,
+      "offsetInSection": 8312,
+      "rawDecodedUtf16Hex": "00100002BDFF00E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿é",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 233,
+      "offsetInSection": 8324,
+      "rawDecodedUtf16Hex": "00100002BDFF00E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ê",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 234,
+      "offsetInSection": 8336,
+      "rawDecodedUtf16Hex": "00100002BDFF00EA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ë",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 235,
+      "offsetInSection": 8348,
+      "rawDecodedUtf16Hex": "00100002BDFF00EB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ì",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 236,
+      "offsetInSection": 8360,
+      "rawDecodedUtf16Hex": "00100002BDFF00EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿í",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 237,
+      "offsetInSection": 8372,
+      "rawDecodedUtf16Hex": "00100002BDFF00ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿î",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 238,
+      "offsetInSection": 8384,
+      "rawDecodedUtf16Hex": "00100002BDFF00EE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ï",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 239,
+      "offsetInSection": 8396,
+      "rawDecodedUtf16Hex": "00100002BDFF00EF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ð",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 240,
+      "offsetInSection": 8408,
+      "rawDecodedUtf16Hex": "00100002BDFF00F00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ñ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 241,
+      "offsetInSection": 8420,
+      "rawDecodedUtf16Hex": "00100002BDFF00F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ò",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 242,
+      "offsetInSection": 8432,
+      "rawDecodedUtf16Hex": "00100002BDFF00F20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ó",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 243,
+      "offsetInSection": 8444,
+      "rawDecodedUtf16Hex": "00100002BDFF00F30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ô",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 244,
+      "offsetInSection": 8456,
+      "rawDecodedUtf16Hex": "00100002BDFF00F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿õ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 245,
+      "offsetInSection": 8468,
+      "rawDecodedUtf16Hex": "00100002BDFF00F50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ö",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 246,
+      "offsetInSection": 8480,
+      "rawDecodedUtf16Hex": "00100002BDFF00F60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿÷",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 247,
+      "offsetInSection": 8492,
+      "rawDecodedUtf16Hex": "00100002BDFF00F70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ø",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 248,
+      "offsetInSection": 8504,
+      "rawDecodedUtf16Hex": "00100002BDFF00F80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ù",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 249,
+      "offsetInSection": 8516,
+      "rawDecodedUtf16Hex": "00100002BDFF00F90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ú",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 250,
+      "offsetInSection": 8528,
+      "rawDecodedUtf16Hex": "00100002BDFF00FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿û",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 251,
+      "offsetInSection": 8540,
+      "rawDecodedUtf16Hex": "00100002BDFF00FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ü",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 252,
+      "offsetInSection": 8552,
+      "rawDecodedUtf16Hex": "00100002BDFF00FC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ý",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 253,
+      "offsetInSection": 8564,
+      "rawDecodedUtf16Hex": "00100002BDFF00FD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿þ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 254,
+      "offsetInSection": 8576,
+      "rawDecodedUtf16Hex": "00100002BDFF00FE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ÿ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 255,
+      "offsetInSection": 8588,
+      "rawDecodedUtf16Hex": "00100002BDFF00FF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 256,
+      "offsetInSection": 8600,
+      "rawDecodedUtf16Hex": "00100002BDFF01000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 257,
+      "offsetInSection": 8612,
+      "rawDecodedUtf16Hex": "00100002BDFF01010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 258,
+      "offsetInSection": 8624,
+      "rawDecodedUtf16Hex": "00100002BDFF01020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 259,
+      "offsetInSection": 8636,
+      "rawDecodedUtf16Hex": "00100002BDFF01030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 260,
+      "offsetInSection": 8648,
+      "rawDecodedUtf16Hex": "00100002BDFF01040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 261,
+      "offsetInSection": 8660,
+      "rawDecodedUtf16Hex": "00100002BDFF01050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 262,
+      "offsetInSection": 8672,
+      "rawDecodedUtf16Hex": "00100002BDFF01060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 263,
+      "offsetInSection": 8684,
+      "rawDecodedUtf16Hex": "00100002BDFF01070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 264,
+      "offsetInSection": 8696,
+      "rawDecodedUtf16Hex": "00100002BDFF01080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 265,
+      "offsetInSection": 8708,
+      "rawDecodedUtf16Hex": "00100002BDFF01090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ċ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 266,
+      "offsetInSection": 8720,
+      "rawDecodedUtf16Hex": "00100002BDFF010A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ċ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 267,
+      "offsetInSection": 8732,
+      "rawDecodedUtf16Hex": "00100002BDFF010B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Č",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 268,
+      "offsetInSection": 8744,
+      "rawDecodedUtf16Hex": "00100002BDFF010C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿č",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 269,
+      "offsetInSection": 8756,
+      "rawDecodedUtf16Hex": "00100002BDFF010D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 270,
+      "offsetInSection": 8768,
+      "rawDecodedUtf16Hex": "00100002BDFF010E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 271,
+      "offsetInSection": 8780,
+      "rawDecodedUtf16Hex": "00100002BDFF010F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Đ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 272,
+      "offsetInSection": 8792,
+      "rawDecodedUtf16Hex": "00100002BDFF01100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿đ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 273,
+      "offsetInSection": 8804,
+      "rawDecodedUtf16Hex": "00100002BDFF01110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 274,
+      "offsetInSection": 8816,
+      "rawDecodedUtf16Hex": "00100002BDFF01120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 275,
+      "offsetInSection": 8828,
+      "rawDecodedUtf16Hex": "00100002BDFF01130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 276,
+      "offsetInSection": 8840,
+      "rawDecodedUtf16Hex": "00100002BDFF01140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 277,
+      "offsetInSection": 8852,
+      "rawDecodedUtf16Hex": "00100002BDFF01150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ė",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 278,
+      "offsetInSection": 8864,
+      "rawDecodedUtf16Hex": "00100002BDFF01160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ė",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 279,
+      "offsetInSection": 8876,
+      "rawDecodedUtf16Hex": "00100002BDFF01170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ę",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 280,
+      "offsetInSection": 8888,
+      "rawDecodedUtf16Hex": "00100002BDFF01180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ę",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 281,
+      "offsetInSection": 8900,
+      "rawDecodedUtf16Hex": "00100002BDFF01190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ě",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 282,
+      "offsetInSection": 8912,
+      "rawDecodedUtf16Hex": "00100002BDFF011A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ě",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 283,
+      "offsetInSection": 8924,
+      "rawDecodedUtf16Hex": "00100002BDFF011B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĝ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 284,
+      "offsetInSection": 8936,
+      "rawDecodedUtf16Hex": "00100002BDFF011C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĝ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 285,
+      "offsetInSection": 8948,
+      "rawDecodedUtf16Hex": "00100002BDFF011D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ğ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 286,
+      "offsetInSection": 8960,
+      "rawDecodedUtf16Hex": "00100002BDFF011E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ğ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 287,
+      "offsetInSection": 8972,
+      "rawDecodedUtf16Hex": "00100002BDFF011F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ġ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 288,
+      "offsetInSection": 8984,
+      "rawDecodedUtf16Hex": "00100002BDFF01200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ġ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 289,
+      "offsetInSection": 8996,
+      "rawDecodedUtf16Hex": "00100002BDFF01210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ģ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 290,
+      "offsetInSection": 9008,
+      "rawDecodedUtf16Hex": "00100002BDFF01220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ģ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 291,
+      "offsetInSection": 9020,
+      "rawDecodedUtf16Hex": "00100002BDFF01230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 292,
+      "offsetInSection": 9032,
+      "rawDecodedUtf16Hex": "00100002BDFF01240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 293,
+      "offsetInSection": 9044,
+      "rawDecodedUtf16Hex": "00100002BDFF01250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 294,
+      "offsetInSection": 9056,
+      "rawDecodedUtf16Hex": "00100002BDFF01260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 295,
+      "offsetInSection": 9068,
+      "rawDecodedUtf16Hex": "00100002BDFF01270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĩ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 296,
+      "offsetInSection": 9080,
+      "rawDecodedUtf16Hex": "00100002BDFF01280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĩ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 297,
+      "offsetInSection": 9092,
+      "rawDecodedUtf16Hex": "00100002BDFF01290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ī",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 298,
+      "offsetInSection": 9104,
+      "rawDecodedUtf16Hex": "00100002BDFF012A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ī",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 299,
+      "offsetInSection": 9116,
+      "rawDecodedUtf16Hex": "00100002BDFF012B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 300,
+      "offsetInSection": 9128,
+      "rawDecodedUtf16Hex": "00100002BDFF012C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 301,
+      "offsetInSection": 9140,
+      "rawDecodedUtf16Hex": "00100002BDFF012D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Į",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 302,
+      "offsetInSection": 9152,
+      "rawDecodedUtf16Hex": "00100002BDFF012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿į",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 303,
+      "offsetInSection": 9164,
+      "rawDecodedUtf16Hex": "00100002BDFF012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿İ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 304,
+      "offsetInSection": 9176,
+      "rawDecodedUtf16Hex": "00100002BDFF01300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ı",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 305,
+      "offsetInSection": 9188,
+      "rawDecodedUtf16Hex": "00100002BDFF01310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 306,
+      "offsetInSection": 9200,
+      "rawDecodedUtf16Hex": "00100002BDFF01320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 307,
+      "offsetInSection": 9212,
+      "rawDecodedUtf16Hex": "00100002BDFF01330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĵ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 308,
+      "offsetInSection": 9224,
+      "rawDecodedUtf16Hex": "00100002BDFF01340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĵ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 309,
+      "offsetInSection": 9236,
+      "rawDecodedUtf16Hex": "00100002BDFF01350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ķ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 310,
+      "offsetInSection": 9248,
+      "rawDecodedUtf16Hex": "00100002BDFF01360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ķ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 311,
+      "offsetInSection": 9260,
+      "rawDecodedUtf16Hex": "00100002BDFF01370000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 312,
+      "offsetInSection": 9272,
+      "rawDecodedUtf16Hex": "00100002BDFF01380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ĺ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 313,
+      "offsetInSection": 9284,
+      "rawDecodedUtf16Hex": "00100002BDFF01390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿ĺ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 314,
+      "offsetInSection": 9296,
+      "rawDecodedUtf16Hex": "00100002BDFF013A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ļ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 315,
+      "offsetInSection": 9308,
+      "rawDecodedUtf16Hex": "00100002BDFF013B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "明细",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 316,
+      "offsetInSection": 9320,
+      "rawDecodedUtf16Hex": "660E7EC60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "已接收的礼物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 317,
+      "offsetInSection": 9328,
+      "rawDecodedUtf16Hex": "5DF263A565367684793C72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "正在确认序列号或密语……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 318,
+      "offsetInSection": 9344,
+      "rawDecodedUtf16Hex": "6B635728786E8BA45E8F521753F762165BC68BED202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "已找到礼物！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 319,
+      "offsetInSection": 9372,
+      "rawDecodedUtf16Hex": "5DF2627E5230793C7269FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 9388,
+  "sectionOffset": 16,
+  "textCount": 320,
+  "textSectionCount": 1
+}

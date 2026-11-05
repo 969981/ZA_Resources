@@ -1,0 +1,33 @@
+{
+  "declaredLength": 388,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Das ist ein sogenanntes Winke-Sniebel.<U+0010><U+0001>븁\nSeine winkende rechte Hand sowie die goldene\nFarbe sollen dem Besitzer Wohlstand bringen.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0044006100730020006900730074002000650069006E00200073006F00670065006E0061006E006E007400650073002000570069006E006B0065002D0053006E0069006500620065006C002E00100001BE01000A005300650069006E0065002000770069006E006B0065006E006400650020007200650063006800740065002000480061006E006400200073006F007700690065002000640069006500200067006F006C00640065006E0065000A0046006100720062006500200073006F006C006C0065006E002000640065006D002000420065007300690074007A0065007200200057006F0068006C007300740061006E00640020006200720069006E00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 132
+    },
+    {
+      "displayText": "Der Boss ist gerade nicht hier. Komm später\nwieder.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00440065007200200042006F00730073002000690073007400200067006500720061006400650020006E006900630068007400200068006900650072002E0020004B006F006D006D00200073007000E4007400650072000A007700690065006400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 388,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

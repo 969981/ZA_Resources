@@ -1,0 +1,53 @@
+{
+  "declaredLength": 568,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Sono state rilevate delle anomalie nella Torre\nPrisma. Mandate una squadra a investigare.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "0053006F006E006F002000730074006100740065002000720069006C00650076006100740065002000640065006C006C006500200061006E006F006D0061006C006900650020006E0065006C006C006100200054006F007200720065000A0050007200690073006D0061002E0020004D0061006E006400610074006500200075006E0061002000730071007500610064007200610020006100200069006E007600650073007400690067006100720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Penseremo noi a risolvere i problemi\ndi Luminopoli.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "00500065006E0073006500720065006D006F0020006E006F0069002000610020007200690073006F006C007600650072006500200069002000700072006F0062006C0065006D0069000A006400690020004C0075006D0069006E006F0070006F006C0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Dobbiamo trovare una persona che sia in grado\ndi padroneggiare la megaevoluzione.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "0044006F0062006200690061006D006F002000740072006F007600610072006500200075006E006100200070006500720073006F006E00610020006300680065002000730069006100200069006E00200067007200610064006F000A0064006900200070006100640072006F006E00650067006700690061007200650020006C00610020006D00650067006100650076006F006C0075007A0069006F006E0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Prossima fermata: Terminal di Luminopoli.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "00500072006F007300730069006D00610020006600650072006D006100740061003A0020005400650072006D0069006E0061006C0020006400690020004C0075006D0069006E006F0070006F006C0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 568,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

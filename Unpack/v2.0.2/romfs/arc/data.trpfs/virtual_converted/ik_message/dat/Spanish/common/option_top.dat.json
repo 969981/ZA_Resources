@@ -1,0 +1,73 @@
+{
+  "declaredLength": 160,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guía de paseo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 64,
+      "rawDecodedUtf16Hex": "0047007500ED006100200064006500200070006100730065006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Controles",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "0043006F006E00740072006F006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Opciones",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "004F007000630069006F006E006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cerrar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "0043006500720072006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 160,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

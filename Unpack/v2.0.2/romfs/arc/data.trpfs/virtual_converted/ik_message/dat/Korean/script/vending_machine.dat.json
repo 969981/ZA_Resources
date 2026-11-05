@@ -1,0 +1,193 @@
+{
+  "declaredLength": 576,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "자동판매기다!\n마시고 싶은 음료수는...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "C790B3D9D310B9E4AE30B2E40021000AB9C8C2DCACE00020C2F6C7400020C74CB8CCC218B294002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "맛있는물<U+0010><U+0002>봃<U+0000> <U+0010><U+0002>Ȃ<U+0002>원",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3C00100002BD03000000200010000202020002C6D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "미네랄사이다<U+0010><U+0002>봃<U+0000> <U+0010><U+0002>Ȃ<U+0003>원",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "BBF8B124B784C0ACC774B2E400100002BD03000000200010000202020003C6D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "후르츠밀크<U+0010><U+0002>봃<U+0000> <U+0010><U+0002>Ȃ<U+0004>원",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "D6C4B974CE20BC00D06C00100002BD03000000200010000202020004C6D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "용돈과 LP 중에\n어느 걸로 지불할까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "C6A9B3C8ACFC0020004C00500020C911C5D0000AC5B4B2900020AC78B85C0020C9C0BD88D560AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "용돈",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "C6A9B3C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "LP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "004C00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "취소",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "CDE8C18C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "...그만뒀다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "002E002E002EADF8B9CCB480B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "이 이상은 가지고 다닐 수 없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "C7740020C774C0C1C7400020AC00C9C0ACE00020B2E4B2D00020C2180020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "돈이 부족하다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "B3C8C7740020BD80C871D558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "LP가 부족하다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "004C0050AC000020BD80C871D558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001><U+0010><U+0002>ᤀ<U+0003> 나왔다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "001000020109000100100002190000030020B098C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "하나 더 살까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "D558B0980020B3540020C0B4AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "하나 더 산다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "D558B0980020B3540020C0B0B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "다른 음료수를 산다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "B2E4B9780020C74CB8CCC218B97C0020C0B0B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 576,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

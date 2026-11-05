@@ -1,0 +1,23 @@
+{
+  "declaredLength": 196,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ritratto di qualcuno che sembra essere un\nProfessore Pokémon. Si direbbe un quadro antico.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "0052006900740072006100740074006F0020006400690020007100750061006C00630075006E006F0020006300680065002000730065006D006200720061002000650073007300650072006500200075006E000A00500072006F0066006500730073006F0072006500200050006F006B00E9006D006F006E002E0020005300690020006400690072006500620062006500200075006E002000710075006100640072006F00200061006E007400690063006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 196,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

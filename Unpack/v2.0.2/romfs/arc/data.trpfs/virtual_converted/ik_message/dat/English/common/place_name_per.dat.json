@@ -1,0 +1,63 @@
+{
+  "declaredLength": 236,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "someone far away",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 512,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "0073006F006D0065006F006E00650020006600610072002000610077006100790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "a Nursery worker",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 516,
+      "index": 1,
+      "offsetInSection": 80,
+      "rawDecodedUtf16Hex": "00610020004E00750072007300650072007900200077006F0072006B006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "a treasure hunter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 516,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "0061002000740072006500610073007500720065002000680075006E0074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "an old hot-springs visitor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 516,
+      "index": 3,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "0061006E0020006F006C006400200068006F0074002D0073007000720069006E00670073002000760069007300690074006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Lumiose City",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "004C0075006D0069006F00730065002000430069007400790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 236,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 92,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "이쪽에는 나중에 가자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "C774CABDC5D0B2940020B098C911C5D00020AC00C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "이 홀로베이터는 현재\n이용할 수 없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 48,
+      "rawDecodedUtf16Hex": "C7740020D640B85CBCA0C774D130B2940020D604C7AC000AC774C6A9D5600020C2180020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 92,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

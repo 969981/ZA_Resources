@@ -1,0 +1,223 @@
+{
+  "declaredLength": 672,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Terminer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "005400650072006D0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": " ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>:<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0010000202010000003A00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inscrire",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "0049006E0073006300720069007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Désinscrire",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "004400E900730069006E0073006300720069007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Résumé",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "005200E900730075006D00E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Retour",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "005200650074006F007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Vous ne pouvez pas inscrire plus de <U+0010><U+0002>Ȁ<U+0000> Pokémon !<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E006500200070006F007500760065007A002000700061007300200069006E00730063007200690072006500200070006C007500730020006400650020001000020200000000200050006F006B00E9006D006F006E0020002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Vous n’avez pas choisi les Pokémon qui doivent\nparticiper.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E2019006100760065007A0020007000610073002000630068006F0069007300690020006C0065007300200050006F006B00E9006D006F006E002000710075006900200064006F006900760065006E0074000A0070006100720074006900630069007000650072002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "En attente...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "0045006E00200061007400740065006E00740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "00100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 672,
+  "sectionOffset": 16,
+  "textCount": 21,
+  "textSectionCount": 1
+}

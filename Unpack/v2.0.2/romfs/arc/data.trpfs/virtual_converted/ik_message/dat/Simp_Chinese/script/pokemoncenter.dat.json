@@ -1,0 +1,623 @@
+{
+  "declaredLength": 2456,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "早上好！\n这里是宝可梦中心。<U+0010><U+0001>븀\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "65E94E0A597DFF01000A8FD991CC662F5B9D53EF68A64E2D5FC3300200100001BE00000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "您好！\n这里是宝可梦中心。<U+0010><U+0001>븀\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "60A8597DFF01000A8FD991CC662F5B9D53EF68A64E2D5FC3300200100001BE00000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "您辛苦了！\n这里是宝可梦中心。<U+0010><U+0001>븀\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "60A88F9B82E64E86FF01000A8FD991CC662F5B9D53EF68A64E2D5FC3300200100001BE00000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "今天有什么可以帮您的吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "早上好！\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "65E94E0A597DFF01000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "您好！\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "60A8597DFF01000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "您辛苦了！\n今天有什么可以帮您的吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "60A88F9B82E64E86FF01000A4ECA592967094EC04E4853EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "还有什么其他可以帮您的吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "8FD867094EC04E4851764ED653EF4EE55E2E60A876845417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "让宝可梦休息",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "8BA95B9D53EF68A64F11606F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "购物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "8D2D72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "购买",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "8D2D4E700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "出售",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "51FA552E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "添加生日",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "6DFB52A0751F65E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "没事了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "6CA14E8B4E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "那么，就交给我吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "90A34E48FF0C5C314EA47ED962115427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "交给我的<U+0010><U+0002>ā<U+0000>\n变得精力充沛了哦！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "4EA47ED9621176840010000201010000000A53D85F977CBE529B51456C9B4E8654E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "交给我的<U+0010><U+0002>ā<U+0000>它们\n全都变得精力充沛了哦！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "4EA47ED96211768400100002010100005B834EEC000A516890FD53D85F977CBE529B51456C9B4E8654E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "在这里可以购买和出售\n对宝可梦训练家有帮助的道具。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "57288FD991CC53EF4EE58D2D4E70548C51FA552E000A5BF95B9D53EF68A68BAD7EC35BB667095E2E52A976849053517730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1092,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1116,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1164,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1216,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>！\n您要来登记一下您的生日吗？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "0010000201000000FF01000A60A889816765767B8BB04E004E0B60A87684751F65E55417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "一旦确定以后就不能更改了，\n因此输入时请小心哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1296,
+      "rawDecodedUtf16Hex": "4E0065E6786E5B9A4EE5540E5C314E0D80FD66F465394E86FF0C000A56E06B648F93516565F68BF75C0F5FC354E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "确定<U+0010><U+0002>Ā<U+0000>您的生日是\n<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日吗？",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "786E5B9A001000020100000060A87684751F65E5662F000A00100002020100016708001000020201000265E55417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "确定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "786E5B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "重新登记",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "91CD65B0767B8BB00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "取消",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "53D66D880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "感谢您完成登记！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "611F8C2260A85B8C6210767B8BB0FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "请在您生日的<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日那天，\n到宝可梦中心来哦。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "8BF7572860A8751F65E5768400100002020100016708001000020201000265E590A35929FF0C000A52305B9D53EF68A64E2D5FC3676554E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "有您生日的年份请在当天……\n没有的年份请在2月28日<U+0010><U+0001>븀\n到宝可梦中心来哦。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "670960A8751F65E576845E744EFD8BF757285F53592920262026000A6CA1670976845E744EFD8BF75728003267080032003865E500100001BE00000A52305B9D53EF68A64E2D5FC3676554E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "这里随时都可以为您登记生日，\n想登记时请和我说一声。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "8FD991CC968F65F690FD53EF4EE54E3A60A8767B8BB0751F65E5FF0C000A60F3767B8BB065F68BF7548C62118BF44E0058F030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "欢迎下次再来哦！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "6B228FCE4E0B6B21518D676554E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日？\n就是今天对吧！？<U+0010><U+0001>븁\n我这就去做准备，\n请您稍等一下！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1664,
+      "rawDecodedUtf16Hex": "00100002020100016708001000020201000265E5FF1F000A5C31662F4ECA59295BF95427FF01FF1F00100001BE01000A62118FD95C3153BB505A51C65907FF0C000A8BF760A87A0D7B494E004E0BFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日？\n今天是2月28日，而且今年<U+0010><U+0001>븀\n要把今天视为生日当天对吧！？<U+0010><U+0001>븁\n我这就去做准备，\n请您稍等一下！",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "00100002020100016708001000020201000265E5FF1F000A4ECA5929662F003267080032003865E5FF0C800C4E144ECA5E7400100001BE00000A8981628A4ECA592989C64E3A751F65E55F5359295BF95427FF01FF1F00100001BE01000A62118FD95C3153BB505A51C65907FF0C000A8BF760A87A0D7B494E004E0BFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，\n祝您生日快乐！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C000A795D60A8751F65E55FEB4E50FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "今天是个特别的日子！<U+0010><U+0001>븁\n虽然早了一天，\n不过仍然要祝您生日快乐！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "4ECA5929662F4E2A7279522B768465E55B50FF0100100001BE01000A867D713665E94E864E005929FF0C000A4E0D8FC74ECD71368981795D60A8751F65E55FEB4E50FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "希望接下来的一年，\n您每天都能过得很精彩！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "5E0C671B63A54E0B676576844E005E74FF0C000A60A86BCF592990FD80FD8FC75F975F887CBE5F69FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "先让宝可梦回复一下吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "51488BA95B9D53EF68A656DE590D4E004E0B5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "宝可梦的体力……\n也就是HP变少了的话，<U+0010><U+0001>븀\n建议您勤来这里回复。<U+0010><U+0001>븁\n或者也可以\n事先在这里购买伤药。<U+0010><U+0001>븁\n那么，请加油吧！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2056,
+      "rawDecodedUtf16Hex": "5B9D53EF68A676844F53529B20262026000A4E5F5C31662F0048005053D85C114E8676848BDDFF0C00100001BE00000A5EFA8BAE60A852E467658FD991CC56DE590D300200100001BE01000A621680054E5F53EF4EE5000A4E8B514857288FD991CC8D2D4E704F24836F300200100001BE01000A90A34E48FF0C8BF752A06CB95427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "大家都变得精力充沛了哦！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "59275BB690FD53D85F977CBE529B51456C9B4E8654E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "如果持续受到宝可梦的招式攻击会很危险，\n可以找个地方休息一下，请好好回复吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "5982679C63017EED53D752305B9D53EF68A6768462DB5F0F653B51FB4F1A5F8853719669FF0C000A53EF4EE5627E4E2A573065B94F11606F4E004E0BFF0C8BF7597D597D56DE590D542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "没有可以战斗的宝可梦了……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "6CA1670953EF4EE56218659776845B9D53EF68A64E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "为了下次能获胜，\n确认一下宝可梦和可使用的招式吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "4E3A4E864E0B6B2180FD83B780DCFF0C000A786E8BA44E004E0B5B9D53EF68A6548C53EF4F7F7528768462DB5F0F542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "进行对战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "8FDB884C5BF962180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "您带着的宝可梦精力很充沛啊！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "60A85E26774076845B9D53EF68A67CBE529B5F8851456C9B554AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "您的宝可梦们精力都很充沛啊！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "60A876845B9D53EF68A64EEC7CBE529B90FD5F8851456C9B554AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2456,
+  "sectionOffset": 16,
+  "textCount": 61,
+  "textSectionCount": 1
+}

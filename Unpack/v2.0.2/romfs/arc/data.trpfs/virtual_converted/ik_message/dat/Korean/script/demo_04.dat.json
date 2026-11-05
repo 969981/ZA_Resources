@@ -1,0 +1,103 @@
+{
+  "declaredLength": 476,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "지나가게 해 줄래?\n손님을 안내하는 중이거든.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "C9C0B098AC00AC8C0020D5740020C904B798003F000AC190B2D8C7440020C548B0B4D558B2940020C911C774AC70B4E0002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "손님을 안내하는 중이거든?\n지나가게 해 주면 좋겠는데.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "C190B2D8C7440020C548B0B4D558B2940020C911C774AC70B4E0003F000AC9C0B098AC00AC8C0020D5740020C8FCBA740020C88BACA0B294B370002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "손님이 됐건 뭐가 됐건\n배틀 존에 있으면 모두 대전 상대라고!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "C190B2D8C7740020B410AC740020BB50AC000020B410AC74000ABC30D2C00020C874C5D00020C788C73CBA740020BAA8B4500020B300C8040020C0C1B300B77CACE000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "어쩔 수 없지...\n내가 싸울 차례인가!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "C5B4CA540020C2180020C5C6C9C0002E002E002E000AB0B4AC000020C2F8C6B80020CC28B840C778AC0000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "어쩔 수 없지.\n여기는 내가...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "C5B4CA540020C2180020C5C6C9C0002E000AC5ECAE30B2940020B0B4AC00002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "뀨르르!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "B028B974B97400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "검은 꽃의 플라엣테?\n꽤나 특이한 포켓몬이 상대를 해 주는군.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "AC80C7400020AF43C7580020D50CB77CC5E3D14C003F000AAF64B0980020D2B9C774D55C0020D3ECCF13BAACC7740020C0C1B300B97C0020D5740020C8FCB294AD70002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "맞히면 안 돼!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "B9DED788BA740020C5480020B3FC00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "맞히면 안 돼!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "B9DED788BA740020C5480020B3FC00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 476,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

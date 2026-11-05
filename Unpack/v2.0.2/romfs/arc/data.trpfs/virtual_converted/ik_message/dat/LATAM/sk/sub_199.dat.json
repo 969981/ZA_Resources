@@ -1,0 +1,343 @@
+{
+  "declaredLength": 3936,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hola, <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0001>븁\nTengo entendido que sigues esforzándote por\nel bien de la ciudad. Te lo agradezco.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0048006F006C0061002C00200010000201000000002E00100001BE01000A00540065006E0067006F00200065006E00740065006E006400690064006F002000710075006500200073006900670075006500730020006500730066006F0072007A00E1006E0064006F0074006500200070006F0072000A0065006C0020006200690065006E0020006400650020006C00610020006300690075006400610064002E0020005400650020006C006F0020006100670072006100640065007A0063006F002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Ya que estás aquí, mira esto, por favor.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "005900610020007100750065002000650073007400E10073002000610071007500ED002C0020006D0069007200610020006500730074006F002C00200070006F00720020006600610076006F0072002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "¿Qué es?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000650073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Una Pokébola?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "00BF0055006E006100200050006F006B00E90062006F006C0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Es un Pokémon llamado Magearna, el cual fue\ncreado por los humanos hace más de 500 años.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "0045007300200075006E00200050006F006B00E9006D006F006E0020006C006C0061006D00610064006F0020004D00610067006500610072006E0061002C00200065006C0020006300750061006C0020006600750065000A00630072006500610064006F00200070006F00720020006C006F0073002000680075006D0061006E006F0073002000680061006300650020006D00E1007300200064006500200035003000300020006100F1006F0073002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Lo descubrimos durante las obras de desarrollo\nurbanístico, pero parece estar en estado de<U+0010><U+0001>븀\nletargo.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "004C006F002000640065007300630075006200720069006D006F007300200064007500720061006E007400650020006C006100730020006F00620072006100730020006400650020006400650073006100720072006F006C006C006F000A0075007200620061006E00ED0073007400690063006F002C0020007000650072006F002000700061007200650063006500200065007300740061007200200065006E002000650073007400610064006F00200064006500100001BE00000A006C00650074006100720067006F002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Para despertarlo, es necesario proporcionarle\nenergía a sus dispositivos internos.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "00500061007200610020006400650073007000650072007400610072006C006F002C0020006500730020006E0065006300650073006100720069006F002000700072006F0070006F007200630069006F006E00610072006C0065000A0065006E00650072006700ED006100200061002000730075007300200064006900730070006F00730069007400690076006F007300200069006E007400650072006E006F0073002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Algo que solo podremos hacer si disponemos\nde la Megapiedra adecuada.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "0041006C0067006F002000710075006500200073006F006C006F00200070006F006400720065006D006F007300200068006100630065007200200073006900200064006900730070006F006E0065006D006F0073000A006400650020006C00610020004D006500670061007000690065006400720061002000610064006500630075006100640061002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Le pedimos a A. Z. que la creara, pero me temo\nque no pudo completar el encargo.<U+0010><U+0001>븁\nEs por eso que en Quastelar S. A. estamos\ndispuestos a retomar la labor.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "004C006500200070006500640069006D006F00730020006100200041002E0020005A002E00200071007500650020006C00610020006300720065006100720061002C0020007000650072006F0020006D0065002000740065006D006F000A0071007500650020006E006F0020007000750064006F00200063006F006D0070006C006500740061007200200065006C00200065006E0063006100720067006F002E00100001BE01000A0045007300200070006F0072002000650073006F002000710075006500200065006E0020005100750061007300740065006C0061007200200053002E00200041002E00200065007300740061006D006F0073000A00640069007300700075006500730074006F0073002000610020007200650074006F006D006100720020006C00610020006C00610062006F0072002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 161
+    },
+    {
+      "displayText": "¿Serías tan amable de ayudarnos a conseguir\nlos materiales necesarios, <U+0010><U+0002>Ā<U+0000>?<U+0010><U+0001>븁\nNecesitamos un total de <U+0010><U+0002>＀<U+0006>999 Megafragmentos<U+0010><U+0002>＀<U+0000>.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "00BF00530065007200ED00610073002000740061006E00200061006D00610062006C00650020006400650020006100790075006400610072006E006F00730020006100200063006F006E007300650067007500690072000A006C006F00730020006D006100740065007200690061006C006500730020006E0065006300650073006100720069006F0073002C00200010000201000000003F00100001BE01000A004E0065006300650073006900740061006D006F007300200075006E00200074006F00740061006C002000640065002000100002FF0000060039003900390020004D0065006700610066007200610067006D0065006E0074006F007300100002FF000000002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 136
+    },
+    {
+      "displayText": "Magearna se encuentra en estado de letargo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "004D00610067006500610072006E006100200073006500200065006E006300750065006E00740072006100200065006E002000650073007400610064006F0020006400650020006C00650074006100720067006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Necesitamos un total de <U+0010><U+0002>＀<U+0006>999 Megafragmentos<U+0010><U+0002>＀<U+0000>.\n¿Podrías ayudarnos, <U+0010><U+0002>Ā<U+0000>?<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "004E0065006300650073006900740061006D006F007300200075006E00200074006F00740061006C002000640065002000100002FF0000060039003900390020004D0065006700610066007200610067006D0065006E0074006F007300100002FF000000002E000A00BF0050006F0064007200ED006100730020006100790075006400610072006E006F0073002C00200010000201000000003F001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "¿Ya pudiste reunir todos los Megafragmentos\nque te pedí, <U+0010><U+0002>Ā<U+0000>?<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2204,
+      "rawDecodedUtf16Hex": "00BF00590061002000700075006400690073007400650020007200650075006E0069007200200074006F0064006F00730020006C006F00730020004D0065006700610066007200610067006D0065006E0074006F0073000A007100750065002000740065002000700065006400ED002C00200010000201000000003F001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Sí, aquí tienes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "005300ED002C002000610071007500ED0020007400690065006E006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Todavía no",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "0054006F00640061007600ED00610020006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Oh, pensé que ya los tendrías.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "004F0068002C002000700065006E007300E900200071007500650020007900610020006C006F0073002000740065006E0064007200ED00610073002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¡Entregaste 999 Megafragmentos!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "00A10045006E0074007200650067006100730074006500200039003900390020004D0065006700610066007200610067006D0065006E0074006F007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Muchísimas gracias por reunir esa cantidad.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2532,
+      "rawDecodedUtf16Hex": "004D00750063006800ED00730069006D006100730020006700720061006300690061007300200070006F00720020007200650075006E006900720020006500730061002000630061006E00740069006400610064002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Con ellos nos encargaremos de crear\nla Megapiedra que te mencioné.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2628,
+      "rawDecodedUtf16Hex": "0043006F006E00200065006C006C006F00730020006E006F007300200065006E0063006100720067006100720065006D006F0073002000640065002000630072006500610072000A006C00610020004D00650067006100700069006500640072006100200071007500650020007400650020006D0065006E00630069006F006E00E9002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "La Megapiedra de Magearna ya está lista.\nHe aquí una Magearnita.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "004C00610020004D0065006700610070006900650064007200610020006400650020004D00610067006500610072006E0061002000790061002000650073007400E10020006C0069007300740061002E000A00480065002000610071007500ED00200075006E00610020004D00610067006500610072006E006900740061002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Por favor, utiliza la Piedra Llave del Megaaro\npara enviarle energía a Magearna.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "0050006F00720020006600610076006F0072002C0020007500740069006C0069007A00610020006C006100200050006900650064007200610020004C006C006100760065002000640065006C0020004D00650067006100610072006F000A007000610072006100200065006E0076006900610072006C006500200065006E00650072006700ED0061002000610020004D00610067006500610072006E0061002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Maaag...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "004D0061006100610067002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¡Oooh, ya se despertó!<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3104,
+      "rawDecodedUtf16Hex": "00A1004F006F006F0068002C0020007900610020007300650020006400650073007000650072007400F30021001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Cuánto me alegro...<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "0043007500E1006E0074006F0020006D006500200061006C006500670072006F002E002E002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Por favor, muéstrale a Magearna las maravillas\ndel mundo, <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3208,
+      "rawDecodedUtf16Hex": "0050006F00720020006600610076006F0072002C0020006D007500E90073007400720061006C0065002000610020004D00610067006500610072006E00610020006C006100730020006D00610072006100760069006C006C00610073000A00640065006C0020006D0075006E0064006F002C00200010000201000000002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "¡Recibiste a Magearna!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3344,
+      "rawDecodedUtf16Hex": "00A1005200650063006900620069007300740065002000610020004D00610067006500610072006E006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Ay, no. Parece que tus cajas están llenas.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3392,
+      "rawDecodedUtf16Hex": "00410079002C0020006E006F002E002000500061007200650063006500200071007500650020007400750073002000630061006A00610073002000650073007400E1006E0020006C006C0065006E00610073002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Cuida bien a Magearna, te lo ruego.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3488,
+      "rawDecodedUtf16Hex": "004300750069006400610020006200690065006E002000610020004D00610067006500610072006E0061002C0020007400650020006C006F00200072007500650067006F002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Y toma también esta Megapiedra.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3568,
+      "rawDecodedUtf16Hex": "005900200074006F006D0061002000740061006D0062006900E9006E002000650073007400610020004D006500670061007000690065006400720061002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Espero que sigas cuidando a Ciudad Luminalia\ncomo hasta ahora, y <U+0010><U+0002>Ƌ<U+0001> también.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "00450073007000650072006F0020007100750065002000730069006700610073002000630075006900640061006E0064006F0020006100200043006900750064006100640020004C0075006D0069006E0061006C00690061000A0063006F006D006F002000680061007300740061002000610068006F00720061002C00200079002000100002018B0001002000740061006D0062006900E9006E002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3808,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hogar es el lugar a cuya comunidad te sientes\nunido.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3820,
+      "rawDecodedUtf16Hex": "0048006F00670061007200200065007300200065006C0020006C0075006700610072002000610020006300750079006100200063006F006D0075006E00690064006100640020007400650020007300690065006E007400650073000A0075006E00690064006F002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3936,
+  "sectionOffset": 16,
+  "textCount": 33,
+  "textSectionCount": 1
+}

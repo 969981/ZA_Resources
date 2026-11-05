@@ -1,0 +1,263 @@
+{
+  "declaredLength": 2108,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hey, Trainer. Have you ever paid attention to the\ntime it takes for moves to charge up?<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004800650079002C00200054007200610069006E00650072002E0020004800610076006500200079006F0075002000650076006500720020007000610069006400200061007400740065006E00740069006F006E00200074006F0020007400680065000A00740069006D0065002000690074002000740061006B0065007300200066006F00720020006D006F00760065007300200074006F0020006300680061007200670065002000750070003F00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "The longer a move charges up...<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 388,
+      "rawDecodedUtf16Hex": "0054006800650020006C006F006E006700650072002000610020006D006F0076006500200063006800610072006700650073002000750070002E002E002E00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "The HARDER!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "0054006800650020004800410052004400450052002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "IT! HITS!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "00490054002100200048004900540053002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Let’s have a Pokémon battle. I’ll show you how a\ngood charge-up changes things!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "004C0065007420190073002000680061007600650020006100200050006F006B00E9006D006F006E00200062006100740074006C0065002E002000492019006C006C002000730068006F007700200079006F007500200068006F007700200061000A0067006F006F00640020006300680061007200670065002D007500700020006300680061006E0067006500730020007400680069006E00670073002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Talk to me when you’re ready. I’ll just be here\nbiding my time and charging!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "00540061006C006B00200074006F0020006D00650020007700680065006E00200079006F0075201900720065002000720065006100640079002E002000492019006C006C0020006A00750073007400200062006500200068006500720065000A0062006900640069006E00670020006D0079002000740069006D006500200061006E00640020006300680061007200670069006E0067002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "I’m all charged up!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "00492019006D00200061006C006C00200063006800610072006700650064002000750070002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Ready to battle?<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "0052006500610064007900200074006F00200062006100740074006C0065003F00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Charge at me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "0043006800610072006700650020006100740020006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Nope, not yet",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "004E006F00700065002C0020006E006F007400200079006500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Cool. I’ll be here...charging EVEN MORE.<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1012,
+      "rawDecodedUtf16Hex": "0043006F006F006C002E002000492019006C006C00200062006500200068006500720065002E002E002E006300680061007200670069006E00670020004500560045004E0020004D004F00520045002E00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "HERE! WE!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "00480045005200450021002000570045002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "GO!!!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "0047004F00210021002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "I’m all out of charge...<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1164,
+      "rawDecodedUtf16Hex": "00492019006D00200061006C006C0020006F007500740020006F00660020006300680061007200670065002E002E002E00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "But YOU!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "00420075007400200059004F0055002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "You’re GOOD!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "0059006F007520190072006500200047004F004F0044002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Here, take this TM and do some charging!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1288,
+      "rawDecodedUtf16Hex": "0048006500720065002C002000740061006B00650020007400680069007300200054004D00200061006E006400200064006F00200073006F006D00650020006300680061007200670069006E0067002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "That’ll teach your Pokémon <U+0010><U+0002>＀<U+0006>Skull Bash<U+0010><U+0002>＀<U+0000>!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "00540068006100742019006C006C00200074006500610063006800200079006F0075007200200050006F006B00E9006D006F006E002000100002FF0000060053006B0075006C006C0020004200610073006800100002FF000000002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "It’ll raise the user’s Defense while charging up,\nthen let loose a massive hit!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "004900742019006C006C0020007200610069007300650020007400680065002000750073006500722019007300200044006500660065006E007300650020007700680069006C00650020006300680061007200670069006E0067002000750070002C000A007400680065006E0020006C006500740020006C006F006F00730065002000610020006D0061007300730069007600650020006800690074002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Use it good!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "00550073006500200069007400200067006F006F0064002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Make me proud!<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "004D0061006B00650020006D0065002000700072006F00750064002100100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Apparently if you have your Pokémon hold a Quick\nClaw, it might not have to charge up for as long...<U+0010><U+0001>븁\nI’d love to try it, but I’d be sad to lose out on that\nsweet charging time.<U+0010><U+0002>Ĕǥ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "004100700070006100720065006E0074006C007900200069006600200079006F00750020006800610076006500200079006F0075007200200050006F006B00E9006D006F006E00200068006F006C00640020006100200051007500690063006B000A0043006C00610077002C0020006900740020006D00690067006800740020006E006F00740020006800610076006500200074006F002000630068006100720067006500200075007000200066006F00720020006100730020006C006F006E0067002E002E002E00100001BE01000A0049201900640020006C006F0076006500200074006F0020007400720079002000690074002C00200062007500740020004920190064002000620065002000730061006400200074006F0020006C006F007300650020006F007500740020006F006E00200074006800610074000A007300770065006500740020006300680061007200670069006E0067002000740069006D0065002E00100002011401E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 184
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2108,
+  "sectionOffset": 16,
+  "textCount": 25,
+  "textSectionCount": 1
+}

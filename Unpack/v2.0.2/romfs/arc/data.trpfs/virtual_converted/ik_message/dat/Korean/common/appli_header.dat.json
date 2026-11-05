@@ -1,0 +1,123 @@
+{
+  "declaredLength": 228,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "가방",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "AC00BC290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "헤어스타일 설정",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "D5E4C5B4C2A4D0C0C77C0020C124C8150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "의상",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "C758C0C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "프리뷰",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "D504B9ACBDF00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "얼굴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "C5BCAD740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000>/구입",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "0010000201D20000002FAD6CC7850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000>/판매",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "0010000201D20000002FD310B9E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "스테이터스",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "C2A4D14CC774D130C2A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "설정",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "C124C8150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "롤링 드리머",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "B864B9C10020B4DCB9ACBA380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "롤링 드리머",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "B864B9C10020B4DCB9ACBA380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 228,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

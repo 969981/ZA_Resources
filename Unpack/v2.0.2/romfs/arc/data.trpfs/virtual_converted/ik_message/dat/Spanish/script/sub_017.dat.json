@@ -1,0 +1,473 @@
+{
+  "declaredLength": 4488,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Goomy!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "00A10047006F006F006D007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "¡Ey, chaval<U+0010><U+0003>ᄀÿĀa!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "00A100450079002C002000630068006100760061006C00100003110000FF01000061002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "¿Te importa si te hago un par de preguntas?<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00BF0054006500200069006D0070006F0072007400610020007300690020007400650020006800610067006F00200075006E0020007000610072002000640065002000700072006500670075006E007400610073003F00100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Ese Pokémon de ahí es tuyo?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "00BF00450073006500200050006F006B00E9006D006F006E00200064006500200061006800ED0020006500730020007400750079006F003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Me temo que no, agente",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "004D0065002000740065006D006F00200071007500650020006E006F002C0020006100670065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Es la primera vez que lo veo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "004500730020006C00610020007000720069006D006500720061002000760065007A00200071007500650020006C006F002000760065006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Mira, el banco este está cubierto de algo viscoso,\ntiene un Goomy encima y tú estás justo al lado...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "004D006900720061002C00200065006C002000620061006E0063006F00200065007300740065002000650073007400E100200063007500620069006500720074006F00200064006500200061006C0067006F00200076006900730063006F0073006F002C000A007400690065006E006500200075006E00200047006F006F006D007900200065006E00630069006D0061002000790020007400FA002000650073007400E100730020006A007500730074006F00200061006C0020006C00610064006F002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Necesito descubrir qué ha pasado y cómo evitar\nque vuelva a pasar, y no hay nadie más a quien<U+0010><U+0001>븀\npreguntarle por aquí.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "004E006500630065007300690074006F002000640065007300630075006200720069007200200071007500E9002000680061002000700061007300610064006F002000790020006300F3006D006F0020006500760069007400610072000A0071007500650020007600750065006C0076006100200061002000700061007300610072002C002000790020006E006F00200068006100790020006E00610064006900650020006D00E100730020006100200071007500690065006E00100001BE00000A00700072006500670075006E007400610072006C006500200070006F0072002000610071007500ED002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "¿No sabrás de quién es el Goomy, por casualidad?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "00BF004E006F0020007300610062007200E10073002000640065002000710075006900E9006E00200065007300200065006C00200047006F006F006D0079002C00200070006F0072002000630061007300750061006C0069006400610064003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Ni idea",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "004E0069002000690064006500610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "No sé, pero mío no",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "004E006F0020007300E9002C0020007000650072006F0020006D00ED006F0020006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Sin comentarios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "00530069006E00200063006F006D0065006E0074006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Entiendo...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "0045006E007400690065006E0064006F002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¿Y entonces qué estabas haciendo en este banco,\nsi el Goomy no es tuyo?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "00BF005900200065006E0074006F006E00630065007300200071007500E900200065007300740061006200610073002000680061006300690065006E0064006F00200065006E00200065007300740065002000620061006E0063006F002C000A0073006900200065006C00200047006F006F006D00790020006E006F0020006500730020007400750079006F003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Quería acariciar al Goomy",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "005100750065007200ED0061002000610063006100720069006300690061007200200061006C00200047006F006F006D00790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Solo quería sentarme",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1648,
+      "rawDecodedUtf16Hex": "0053006F006C006F0020007100750065007200ED0061002000730065006E007400610072006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Sin comentarios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "00530069006E00200063006F006D0065006E0074006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Bueno, tiene sentido...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1724,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C0020007400690065006E0065002000730065006E007400690064006F002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¿Eres de por aquí? ¿Sabes de alguien que pueda\nconocer a este Goomy?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "00BF004500720065007300200064006500200070006F0072002000610071007500ED003F002000BF0053006100620065007300200064006500200061006C0067007500690065006E0020007100750065002000700075006500640061000A0063006F006E006F006300650072002000610020006500730074006500200047006F006F006D0079003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Estoy aquí de viaje",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "004500730074006F0079002000610071007500ED0020006400650020007600690061006A00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Sin comentarios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "00530069006E00200063006F006D0065006E0074006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "No me digas...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "004E006F0020006D0065002000640069006700610073002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¿Y estás segur<U+0010><U+0003>ᄀÿāoa de que el Goomy no es tuyo?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "00BF0059002000650073007400E1007300200073006500670075007200100003110000FF0101006F0061002000640065002000710075006500200065006C00200047006F006F006D00790020006E006F0020006500730020007400750079006F003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Segurísim<U+0010><U+0003>ᄀÿāoa, agente",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2196,
+      "rawDecodedUtf16Hex": "0053006500670075007200ED00730069006D00100003110000FF0101006F0061002C0020006100670065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "No conozco a este Goomy",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "004E006F00200063006F006E006F007A0063006F002000610020006500730074006500200047006F006F006D00790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Tampoco pasaría nada si fuera tuyo, ¿eh?\nSolo quiero saber qué ha pasado.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "00540061006D0070006F0063006F00200070006100730061007200ED00610020006E0061006400610020007300690020006600750065007200610020007400750079006F002C002000BF00650068003F000A0053006F006C006F002000710075006900650072006F00200073006100620065007200200071007500E9002000680061002000700061007300610064006F002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "¡Goomy!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "00A10047006F006F006D007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Pues para no conocerte de nada, parece que\nos lleváis muy bien...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "0050007500650073002000700061007200610020006E006F00200063006F006E006F006300650072007400650020006400650020006E006100640061002C00200070006100720065006300650020007100750065000A006F00730020006C006C0065007600E1006900730020006D007500790020006200690065006E002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Vale, hagamos una cosa. Si es verdad que no es\ntu Goomy, supongo que no te importará<U+0010><U+0001>븀\nenseñarme los Pokémon que llevas hoy, ¿verdad?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2608,
+      "rawDecodedUtf16Hex": "00560061006C0065002C00200068006100670061006D006F007300200075006E006100200063006F00730061002E002000530069002000650073002000760065007200640061006400200071007500650020006E006F002000650073000A0074007500200047006F006F006D0079002C0020007300750070006F006E0067006F00200071007500650020006E006F00200074006500200069006D0070006F007200740061007200E100100001BE00000A0065006E0073006500F100610072006D00650020006C006F007300200050006F006B00E9006D006F006E00200071007500650020006C006C006500760061007300200068006F0079002C002000BF007600650072006400610064003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 139
+    },
+    {
+      "displayText": "Vamos, que quiero desafiarte a un combate,\nasí los veo de cerca.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "00560061006D006F0073002C0020007100750065002000710075006900650072006F002000640065007300610066006900610072007400650020006100200075006E00200063006F006D0062006100740065002C000A0061007300ED0020006C006F0073002000760065006F002000640065002000630065007200630061002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "00100002BDFF00230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Combates la mar de bien, eso hay que admitirlo.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "0043006F006D006200610074006500730020006C00610020006D006100720020006400650020006200690065006E002C002000650073006F00200068006100790020007100750065002000610064006D0069007400690072006C006F002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Bueno, ahora es cuando por fin me reconoces\nque el Goomy sí que es tuyo, ¿verdad?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3144,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C002000610068006F007200610020006500730020006300750061006E0064006F00200070006F0072002000660069006E0020006D00650020007200650063006F006E006F006300650073000A00710075006500200065006C00200047006F006F006D00790020007300ED00200071007500650020006500730020007400750079006F002C002000BF007600650072006400610064003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "¡Goomy! ¡Te he dicho mil veces que no te vayas\ntú solo por ahí!<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3316,
+      "rawDecodedUtf16Hex": "00A10047006F006F006D00790021002000A10054006500200068006500200064006900630068006F0020006D0069006C00200076006500630065007300200071007500650020006E006F002000740065002000760061007900610073000A007400FA00200073006F006C006F00200070006F007200200061006800ED002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Goooo...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "0047006F006F006F006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Además, es que mira como has dejado el banco...<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 3472,
+      "rawDecodedUtf16Hex": "004100640065006D00E10073002C00200065007300200071007500650020006D00690072006100200063006F006D006F0020006800610073002000640065006A00610064006F00200065006C002000620061006E0063006F002E002E002E00100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "¡Qué limpio ha quedado! ¡Goomy, nos vamos!<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3576,
+      "rawDecodedUtf16Hex": "00A10051007500E90020006C0069006D00700069006F0020006800610020007100750065006400610064006F0021002000A10047006F006F006D0079002C0020006E006F0073002000760061006D006F0073002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Vaya... Pues era verdad que no era tuyo.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "0056006100790061002E002E002E002000500075006500730020006500720061002000760065007200640061006400200071007500650020006E006F00200065007200610020007400750079006F002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Perdona, chaval<U+0010><U+0003>ᄀÿĀa. Últimamente hay tanto\nPokémon salvaje en la ciudad que me siento<U+0010><U+0001>븀\nobligada a intentar solucionar enseguida<U+0010><U+0001>븀\ncualquier problema que me encuentre.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "0050006500720064006F006E0061002C002000630068006100760061006C00100003110000FF01000061002E002000DA006C00740069006D0061006D0065006E007400650020006800610079002000740061006E0074006F000A0050006F006B00E9006D006F006E002000730061006C00760061006A006500200065006E0020006C0061002000630069007500640061006400200071007500650020006D00650020007300690065006E0074006F00100001BE00000A006F0062006C006900670061006400610020006100200069006E00740065006E00740061007200200073006F006C007500630069006F006E0061007200200065006E007300650067007500690064006100100001BE00000A006300750061006C00710075006900650072002000700072006F0062006C0065006D006100200071007500650020006D006500200065006E006300750065006E007400720065002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 176
+    },
+    {
+      "displayText": "Como disculpa, permíteme que te dé un consejo.<U+0010><U+0001>븁\nSi quieres que Goomy llegue a su evolución final,\ntendrás que usar la lluvia a tu favor.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4116,
+      "rawDecodedUtf16Hex": "0043006F006D006F002000640069007300630075006C00700061002C0020007000650072006D00ED00740065006D006500200071007500650020007400650020006400E900200075006E00200063006F006E00730065006A006F002E00100001BE01000A0053006900200071007500690065007200650073002000710075006500200047006F006F006D00790020006C006C006500670075006500200061002000730075002000650076006F006C00750063006900F3006E002000660069006E0061006C002C000A00740065006E0064007200E100730020007100750065002000750073006100720020006C00610020006C006C0075007600690061002000610020007400750020006600610076006F0072002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 143
+    },
+    {
+      "displayText": "Eso es todo, disculpa las molestias.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 45,
+      "offsetInSection": 4404,
+      "rawDecodedUtf16Hex": "00450073006F00200065007300200074006F0064006F002C002000640069007300630075006C007000610020006C006100730020006D006F006C006500730074006900610073002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4488,
+  "sectionOffset": 16,
+  "textCount": 46,
+  "textSectionCount": 1
+}

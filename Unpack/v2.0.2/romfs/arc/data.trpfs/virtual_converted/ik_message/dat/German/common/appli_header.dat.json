@@ -1,0 +1,123 @@
+{
+  "declaredLength": 324,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Beutel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "00420065007500740065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Frisur",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "0046007200690073007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Kleidung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004B006C0065006900640075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Vorschau",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "0056006F0072007300630068006100750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Gesicht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00470065007300690063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000>: Kaufen",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0010000201D20000003A0020004B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000>: Verkaufen",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0010000201D20000003A0020005600650072006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Bericht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "00420065007200690063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Einstellungen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "00450069006E007300740065006C006C0075006E00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Sushi-Wok",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00530075007300680069002D0057006F006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Sushi-Wok",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "00530075007300680069002D0057006F006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 324,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

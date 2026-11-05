@@ -1,0 +1,143 @@
+{
+  "declaredLength": 536,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Progreso de la tarea",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "00500072006F0067007200650073006F0020006400650020006C00610020007400610072006500610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Megacristales",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "004D006500670061006300720069007300740061006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "00100002010100150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002010700160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "00100002010900170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Registrados",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "005200650067006900730074007200610064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Puntos cupón",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "00500075006E0074006F0073002000630075007000F3006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Puntos de investigación",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "00500075006E0074006F007300200064006500200069006E00760065007300740069006700610063006900F3006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Altercados resueltos:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "0041006C007400650072006300610064006F0073002000720065007300750065006C0074006F0073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Miembros derrotados:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "004D00690065006D00620072006F007300200064006500720072006F007400610064006F0073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Formas mostradas:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "0046006F0072006D006100730020006D006F0073007400720061006400610073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Spewpa encontrados:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 440,
+      "rawDecodedUtf16Hex": "00530070006500770070006100200065006E0063006F006E0074007200610064006F0073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Conversaciones entabladas:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "0043006F006E0076006500720073006100630069006F006E0065007300200065006E007400610062006C0061006400610073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 536,
+  "sectionOffset": 16,
+  "textCount": 13,
+  "textSectionCount": 1
+}

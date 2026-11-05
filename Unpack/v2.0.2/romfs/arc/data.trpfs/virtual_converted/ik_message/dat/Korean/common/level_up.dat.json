@@ -1,0 +1,203 @@
+{
+  "declaredLength": 864,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lv.<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004C0076002E00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "HP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "004800500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "공격",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "ACF5ACA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "방어",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "BC29C5B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "특수공격",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "D2B9C218ACF5ACA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "특수방어",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "D2B9C218BC29C5B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "스피드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "C2A4D53CB4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "002B001000030206000100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "경험치를 얻었다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "ACBDD5D8CE58B97C0020C5BBC5C8B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>븅<U+0005><U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001>\n레벨 <U+0010><U+0002>Ȃ<U+0001><U+0010><U+0002>ᤀ<U+0005>로 올랐다!<U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "00100002BE05000500100002010200000010000219000001000AB808BCA8002000100002020200010010000219000005B85C0020C62CB790B2E4002100100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001> 새로\n<U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002> 배웠다!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001><U+0010><U+0001>븁",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "001000020102000000100002190000010020C0C8B85C000A001000020107000100100002190000020020BC30C6E0B2E4002100100002BE05000400100002BE05000100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000><U+0010><U+0002>ᤀ<U+0001> 새로\n<U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002> 배우고 싶다...<U+0010><U+0001>븁\n<U+0010><U+0002>ć<U+0001> 대신\n다른 기술을 잊게 하겠습니까?",
+      "escapedControlUnits": 17,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "00100002010C000000100002190000010020C0C8B85C000A001000020107000100100002190000020020BC30C6B0ACE00020C2F6B2E4002E002E002E00100001BE01000A00100002010700010020B300C2E0000AB2E4B9780020AE30C220C7440020C78AAC8C0020D558ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "1,<U+0010><U+0002>븂\n 2<U+0010><U+0002>븂\n ...<U+0010><U+0002>븂\n...<U+0010><U+0002>븂<U+0014> 짠!<U+0010><U+0002>븅<U+0003><U+0010><U+0002>븅<U+0005><U+0010><U+0001>븁\n<U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002> 잊고<U+0010><U+0001>븀\n<U+0010><U+0002>븅<U+0006><U+0010><U+0002>ć<U+0002><U+0010><U+0002>ᤀ<U+0002> 배웠다!<U+0010><U+0002>븅<U+0004><U+0010><U+0001>븁",
+      "escapedControlUnits": 45,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "0031002C00100002BE02000A0020003200100002BE02000A0020002E002E002E00100002BE02000A002E002E002E00100002BE0200140020C9E0002100100002BE05000300100002BE05000500100001BE01000A00100002010200000010000219000001000A001000020107000100100002190000020020C78AACE000100001BE00000A00100002BE050006001000020107000200100002190000020020BC30C6E0B2E4002100100002BE05000400100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000><U+0010><U+0002>ᤀ<U+0001> <U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002>\n결국 배우지 않았다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 760,
+      "rawDecodedUtf16Hex": "00100002010C00000010000219000001002000100002010700010010000219000002000AACB0AD6D0020BC30C6B0C9C00020C54AC558B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "잊게 한다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "C78AAC8C0020D55CB2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "잊게 하지 않는다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "C78AAC8C0020D558C9C00020C54AB294B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 864,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

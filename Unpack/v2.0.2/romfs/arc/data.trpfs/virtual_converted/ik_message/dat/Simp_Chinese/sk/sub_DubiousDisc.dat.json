@@ -1,0 +1,63 @@
+{
+  "declaredLength": 336,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "如果多边形建模更加进化，\n将无法分清游戏和现实的区别。<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "5982679C591A8FB95F625EFA6A2166F452A08FDB5316FF0C000A5C0665E06CD552066E056E38620F548C73B05B9E7684533A522B300200100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "这样的话……\n如果让多边兽升级，<U+0010><U+0001>븀\n也许就能进入游戏世界？<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "8FD9683776848BDD20262026000A5982679C8BA9591A8FB9517D53477EA7FF0C00100001BE00000A4E5F8BB85C3180FD8FDB51656E38620F4E16754CFF1F00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "所以呢，就让我\n把这个可疑的机器送给你吧。<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "62404EE55462FF0C5C318BA96211000A628A8FD94E2A53EF75917684673A566890017ED94F605427300200100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "你可以让多边兽2型携带它，\n然后试试连接交换。<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "4F6053EF4EE58BA9591A8FB9517D0032578B643A5E265B83FF0C000A7136540E8BD58BD58FDE63A54EA46362300200100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "说不定……\n我自己就是游戏世界里的人。<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "8BF44E0D5B9A20262026000A621181EA5DF15C31662F6E38620F4E16754C91CC76844EBA300200100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 336,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

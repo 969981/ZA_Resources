@@ -1,0 +1,43 @@
+{
+  "declaredLength": 208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "이 여행 가방이\n미르시티에서의 운명을 정해 준 걸까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "C7740020C5ECD5890020AC00BC29C774000ABBF8B974C2DCD2F0C5D0C11CC7580020C6B4BA85C7440020C815D5740020C9000020AC78AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "서랍장 위에는\n물과 일용품 등이 놓여 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "C11CB78DC7A50020C704C5D0B294000ABB3CACFC0020C77CC6A9D4880020B4F1C7740020B193C5EC0020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "압도적인 존재감의 대왕 카나리인형이다!\n품질도 매우 좋다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "C555B3C4C801C7780020C874C7ACAC10C7580020B300C6550020CE74B098B9ACC778D615C774B2E40021000AD488C9C8B3C40020B9E4C6B00020C88BB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 208,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

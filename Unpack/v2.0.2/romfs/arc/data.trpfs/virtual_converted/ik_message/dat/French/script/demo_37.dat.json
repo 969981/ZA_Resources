@@ -1,0 +1,33 @@
+{
+  "declaredLength": 272,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Notre avenir sera toujours dicté\npar nos actes présents...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "004E006F0074007200650020006100760065006E006900720020007300650072006100200074006F0075006A006F0075007200730020006400690063007400E9000A0070006100720020006E006F007300200061006300740065007300200070007200E900730065006E00740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Merci les enfants...\nJe vous serai éternellement reconnaissant...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "004D00650072006300690020006C0065007300200065006E00660061006E00740073002E002E002E000A004A006500200076006F00750073002000730065007200610069002000E9007400650072006E0065006C006C0065006D0065006E00740020007200650063006F006E006E00610069007300730061006E0074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 272,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

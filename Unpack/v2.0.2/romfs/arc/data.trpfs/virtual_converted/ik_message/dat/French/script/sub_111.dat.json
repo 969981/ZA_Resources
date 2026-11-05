@@ -1,0 +1,363 @@
+{
+  "declaredLength": 3340,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Encore ?! Mais qu’est-ce que je dois faire pour\nque ce Marisson cesse de bloquer mon taxi ?<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "0045006E0063006F007200650020003F00210020004D0061006900730020007100752019006500730074002D0063006500200071007500650020006A006500200064006F0069007300200066006100690072006500200070006F00750072000A0071007500650020006300650020004D00610072006900730073006F006E00200063006500730073006500200064006500200062006C006F00710075006500720020006D006F006E002000740061007800690020003F00100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Mari !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "004D00610072006900200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Inutile de faire les gros yeux à ma voiture !\nSi tu veux te battre, va voir tes copains Pokémon !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "0049006E007500740069006C00650020006400650020006600610069007200650020006C00650073002000670072006F007300200079006500750078002000E00020006D006100200076006F0069007400750072006500200021000A00530069002000740075002000760065007500780020007400650020006200610074007400720065002C00200076006100200076006F00690072002000740065007300200063006F007000610069006E007300200050006F006B00E9006D006F006E0020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Dis, tu es Dresseu<U+0010><U+0003>ᄀÿȁrse, non ? Tu veux bien affronter\nce Marisson assoiffé de combats ?<U+0010><U+0001>븁\nJe l’aiderais bien, mais je n’ai pas de Pokémon,\njuste un taxi...<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "004400690073002C0020007400750020006500730020004400720065007300730065007500100003110000FF0201007200730065002C0020006E006F006E0020003F002000540075002000760065007500780020006200690065006E00200061006600660072006F006E007400650072000A006300650020004D00610072006900730073006F006E0020006100730073006F00690066006600E900200064006500200063006F006D00620061007400730020003F00100001BE01000A004A00650020006C2019006100690064006500720061006900730020006200690065006E002C0020006D0061006900730020006A00650020006E201900610069002000700061007300200064006500200050006F006B00E9006D006F006E002C000A006A007500730074006500200075006E00200074006100780069002E002E002E00100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tu veux bien affronter ce Marisson assoiffé\nde combats ?<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "00540075002000760065007500780020006200690065006E00200061006600660072006F006E0074006500720020006300650020004D00610072006900730073006F006E0020006100730073006F00690066006600E9000A0064006500200063006F006D00620061007400730020003F00100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Voulez-vous combattre le Marisson ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200063006F006D0062006100740074007200650020006C00650020004D00610072006900730073006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1268,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Mari ?!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "004D0061007200690020003F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Mari !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "004D00610072006900200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mariii !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "004D00610072006900690069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Marisson semble encore vouloir en découdre !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "004D00610072006900730073006F006E002000730065006D0062006C006500200065006E0063006F0072006500200076006F0075006C006F0069007200200065006E0020006400E90063006F0075006400720065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mariii !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "004D00610072006900690069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Marisson semble encore vouloir se battre...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "004D00610072006900730073006F006E002000730065006D0062006C006500200065006E0063006F0072006500200076006F0075006C006F006900720020007300650020006200610074007400720065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mariii !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "004D00610072006900690069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Marisson semble vouloir se battre... Encore...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "004D00610072006900730073006F006E002000730065006D0062006C006500200076006F0075006C006F006900720020007300650020006200610074007400720065002E002E002E00200045006E0063006F00720065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Allons, Marisson ! Un peu de modération !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "0041006C006C006F006E0073002C0020004D00610072006900730073006F006E0020002100200055006E00200070006500750020006400650020006D006F006400E90072006100740069006F006E0020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Si tu veux enchaîner les combats comme ça, tu\ndevrais t’allier à un Dresseur ou une Dresseuse !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "005300690020007400750020007600650075007800200065006E00630068006100EE006E006500720020006C0065007300200063006F006D006200610074007300200063006F006D006D0065002000E70061002C002000740075000A00640065007600720061006900730020007420190061006C006C006900650072002000E000200075006E0020004400720065007300730065007500720020006F007500200075006E006500200044007200650073007300650075007300650020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Exactement ! Viens avec moi !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 1976,
+      "rawDecodedUtf16Hex": "004500780061006300740065006D0065006E0074002000210020005600690065006E0073002000610076006500630020006D006F0069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Je peux t’aider à devenir plus fort !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2036,
+      "rawDecodedUtf16Hex": "004A00650020007000650075007800200074201900610069006400650072002000E000200064006500760065006E0069007200200070006C0075007300200066006F00720074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Tu as entendu, Marisson ? L<U+0010><U+0003>ᄀÿᐑe gentil Dresseura gentille Dresseuse\nveut bien t’entraîner ! Alors ? Tu veux l<U+0010><U+0003>ᄀÿāea rejoindre ?<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "0054007500200061007300200065006E00740065006E00640075002C0020004D00610072006900730073006F006E0020003F0020004C00100003110000FF14110065002000670065006E00740069006C0020004400720065007300730065007500720061002000670065006E00740069006C006C00650020004400720065007300730065007500730065000A00760065007500740020006200690065006E0020007420190065006E00740072006100EE006E006500720020002100200041006C006F007200730020003F002000540075002000760065007500780020006C00100003110000FF010100650061002000720065006A006F0069006E0064007200650020003F00100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "Mari !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "004D006100720069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "C’est super !\nTu vas pouvoir combattre jusqu’à plus soif !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "0043201900650073007400200073007500700065007200200021000A00540075002000760061007300200070006F00750076006F0069007200200063006F006D0062006100740074007200650020006A0075007300710075201900E000200070006C0075007300200073006F006900660020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Marisson vous a rejoint !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "004D00610072006900730073006F006E00200076006F0075007300200061002000720065006A006F0069006E0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Oh, et Marisson ? Une dernière chose avant que\ntu ne partes...<U+0010><U+0001>븁\nLes taxis, c’est pour se déplacer, pas pour\nse défouler !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "004F0068002C0020006500740020004D00610072006900730073006F006E0020003F00200055006E00650020006400650072006E006900E800720065002000630068006F007300650020006100760061006E00740020007100750065000A007400750020006E00650020007000610072007400650073002E002E002E00100001BE01000A004C00650073002000740061007800690073002C00200063201900650073007400200070006F007500720020007300650020006400E90070006C0061006300650072002C002000700061007300200070006F00750072000A007300650020006400E90066006F0075006C006500720020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 128
+    },
+    {
+      "displayText": "Vous devez faire de la place dans vos Boîtes pour\naccueillir Marisson.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "0056006F0075007300200064006500760065007A0020006600610069007200650020006400650020006C006100200070006C006100630065002000640061006E007300200076006F007300200042006F00EE00740065007300200070006F00750072000A006100630063007500650069006C006C006900720020004D00610072006900730073006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Super ! Tu vas pouvoir prendre Marisson\navec toi, maintenant !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "0053007500700065007200200021002000540075002000760061007300200070006F00750076006F006900720020007000720065006E0064007200650020004D00610072006900730073006F006E000A006100760065006300200074006F0069002C0020006D00610069006E00740065006E0061006E00740020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Mari !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "004D006100720069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "On pourrait croire qu’il s’en prenait à mon taxi\ndans l’espoir de rencontrer quelqu’un comme toi !<U+0010><U+0002>ĔƇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 3132,
+      "rawDecodedUtf16Hex": "004F006E00200070006F007500720072006100690074002000630072006F00690072006500200071007520190069006C0020007320190065006E0020007000720065006E006100690074002000E00020006D006F006E00200074006100780069000A00640061006E00730020006C2019006500730070006F00690072002000640065002000720065006E0063006F006E00740072006500720020007100750065006C0071007520190075006E00200063006F006D006D006500200074006F00690020002100100002011401870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3340,
+  "sectionOffset": 16,
+  "textCount": 35,
+  "textSectionCount": 1
+}

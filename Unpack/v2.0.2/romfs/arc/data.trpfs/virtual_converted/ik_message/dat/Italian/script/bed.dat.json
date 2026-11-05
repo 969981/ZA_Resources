@@ -1,0 +1,63 @@
+{
+  "declaredLength": 268,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "È il tuo letto.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "00C800200069006C002000740075006F0020006C006500740074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Dormi fino a sera",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "0044006F0072006D0069002000660069006E006F00200061002000730065007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Dormi fino al mattino",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "0044006F0072006D0069002000660069006E006F00200061006C0020006D0061007400740069006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Ci ho ripensato...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "0043006900200068006F00200072006900700065006E007300610074006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Adesso non è il momento di dormire.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "00410064006500730073006F0020006E006F006E002000E800200069006C0020006D006F006D0065006E0074006F00200064006900200064006F0072006D006900720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 268,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

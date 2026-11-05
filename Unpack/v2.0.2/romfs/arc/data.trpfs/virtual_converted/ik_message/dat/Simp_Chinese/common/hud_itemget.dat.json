@@ -1,0 +1,53 @@
+{
+  "declaredLength": 80,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 48,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "奖金币",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "595691D15E010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 80,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

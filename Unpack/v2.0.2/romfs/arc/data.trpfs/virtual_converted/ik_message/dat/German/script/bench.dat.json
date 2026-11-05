@@ -1,0 +1,133 @@
+{
+  "declaredLength": 812,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hier steht eine Bank. Was möchtest du tun?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0048006900650072002000730074006500680074002000650069006E0065002000420061006E006B002E00200057006100730020006D00F6006300680074006500730074002000640075002000740075006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Möchtest du aufstehen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000610075006600730074006500680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Möchtest du dich bis zum Abend ausruhen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "004D00F60063006800740065007300740020006400750020006400690063006800200062006900730020007A0075006D0020004100620065006E006400200061007500730072007500680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Möchtest du dich bis zum Morgen ausruhen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "004D00F60063006800740065007300740020006400750020006400690063006800200062006900730020007A0075006D0020004D006F007200670065006E00200061007500730072007500680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Möchtest du aufhören, Fotos zu machen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "004D00F60063006800740065007300740020006400750020006100750066006800F600720065006E002C00200046006F0074006F00730020007A00750020006D0061006300680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Ausruhen und Zeit vertreiben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "0041007500730072007500680065006E00200075006E00640020005A0065006900740020007600650072007400720065006900620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Mit deinen Pokémon abhängen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "004D006900740020006400650069006E0065006E00200050006F006B00E9006D006F006E002000610062006800E4006E00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 628,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Du kannst dich jetzt nicht ausruhen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000640069006300680020006A00650074007A00740020006E006900630068007400200061007500730072007500680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Du kannst dich in Kampfsektoren nicht ausruhen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E007300740020006400690063006800200069006E0020004B0061006D0070006600730065006B0074006F00720065006E0020006E006900630068007400200061007500730072007500680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 812,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

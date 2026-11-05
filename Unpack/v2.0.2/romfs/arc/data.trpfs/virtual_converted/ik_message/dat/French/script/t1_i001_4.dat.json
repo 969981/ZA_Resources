@@ -1,0 +1,43 @@
+{
+  "declaredLength": 316,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "C’est la chambre 201.\nElle est fermée à clé...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00610020006300680061006D0062007200650020003200300031002E000A0045006C006C006500200065007300740020006600650072006D00E90065002000E000200063006C00E9002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "C’est la chambre 203.\nElle est fermée à clé...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00610020006300680061006D0062007200650020003200300033002E000A0045006C006C006500200065007300740020006600650072006D00E90065002000E000200063006C00E9002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "C’est la chambre 204.\nElle est fermée à clé...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00610020006300680061006D0062007200650020003200300034002E000A0045006C006C006500200065007300740020006600650072006D00E90065002000E000200063006C00E9002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 316,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

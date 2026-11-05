@@ -1,0 +1,103 @@
+{
+  "declaredLength": 280,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Botiquín",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "0042006F007400690071007500ED006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Poké Balls",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 96,
+      "rawDecodedUtf16Hex": "0050006F006B00E9002000420061006C006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Objetos de combate",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "004F0062006A00650074006F007300200064006500200063006F006D00620061007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Bayas",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "004200610079006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Objetos varios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "004F0062006A00650074006F007300200076006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "MT",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004D00540000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Tesoros",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "005400650073006F0072006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Objetos clave",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "004F0062006A00650074006F007300200063006C0061007600650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Megapiedras",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "004D00650067006100700069006500640072006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 280,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

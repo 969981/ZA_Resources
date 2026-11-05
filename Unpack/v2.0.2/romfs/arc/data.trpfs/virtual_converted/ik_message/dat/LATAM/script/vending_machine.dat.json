@@ -1,0 +1,193 @@
+{
+  "declaredLength": 960,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Es una máquina expendedora.\n¿Qué quieres comprar?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "0045007300200075006E00610020006D00E1007100750069006E006100200065007800700065006E006400650064006F00720061002E000A00BF0051007500E90020007100750069006500720065007300200063006F006D0070007200610072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Agua Fresca <U+0010><U+0002>봃<U+0000><U+E300><U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00410067007500610020004600720065007300630061002000100002BD030000E30000100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Refresco <U+0010><U+0002>봃<U+0000><U+E300><U+0010><U+0002>Ȃ<U+0003>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "0052006500660072006500730063006F002000100002BD030000E30000100002020200030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Limonada <U+0010><U+0002>봃<U+0000><U+E300><U+0010><U+0002>Ȃ<U+0004>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "004C0069006D006F006E006100640061002000100002BD030000E30000100002020200040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "¿Cómo prefieres pagar?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00BF004300F3006D006F0020007000720065006600690065007200650073002000700061006700610072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "En efectivo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "0045006E00200065006600650063007400690076006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Con puntos de liga",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "0043006F006E002000700075006E0074006F00730020006400650020006C0069006700610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Salir",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "00530061006C006900720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "No compraste nada.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "004E006F00200063006F006D0070007200610073007400650020006E006100640061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "No te queda espacio en la Bolsa.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "004E006F0020007400650020007100750065006400610020006500730070006100630069006F00200065006E0020006C006100200042006F006C00730061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "No tienes suficiente dinero.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065002000640069006E00650072006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "No tienes suficientes puntos de liga.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E007400650073002000700075006E0074006F00730020006400650020006C006900670061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡Recibiste\n<U+0010><U+0003>ᜂ<U+0001><U+0000><U+0010><U+0002>Ċ<U+0001>!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "00100002BD06000000A1005200650063006900620069007300740065000A0010000317020001000000100002010A000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "¿Quieres comprar alguna otra cosa?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200063006F006D007000720061007200200061006C00670075006E00610020006F00740072006100200063006F00730061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Comprar lo mismo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "0043006F006D00700072006100720020006C006F0020006D00690073006D006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Comprar otra cosa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "0043006F006D00700072006100720020006F00740072006100200063006F007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 960,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

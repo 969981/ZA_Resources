@@ -1,0 +1,2253 @@
+{
+  "declaredLength": 10300,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "쾌청",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "CF8CCCAD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "맑은 날씨다.\n불꽃타입의 위력이 올라간다.\n물타입의 위력이 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "B9D1C7400020B0A0C528B2E4002E000ABD88AF43D0C0C785C7580020C704B825C7740020C62CB77CAC04B2E4002E000ABB3CD0C0C785C7580020C704B825C7740020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "비",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "BE440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "비가 내린다.\n물타입의 위력이 올라간다.\n불꽃타입의 위력이 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "BE44AC000020B0B4B9B0B2E4002E000ABB3CD0C0C785C7580020C704B825C7740020C62CB77CAC04B2E4002E000ABD88AF43D0C0C785C7580020C704B825C7740020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "모래바람",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "BAA8B798BC14B78C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "모래바람이 분다.\n바위, 땅, 강철타입 이외에는\n매 턴마다 데미지를 받는다.\n바위타입의 특수방어가 강해진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "BAA8B798BC14B78CC7740020BD84B2E4002E000ABC14C704002C0020B545002C0020AC15CCA0D0C0C7850020C774C678C5D0B294000AB9E40020D134B9C8B2E40020B370BBF8C9C0B97C0020BC1BB294B2E4002E000ABC14C704D0C0C785C7580020D2B9C218BC29C5B4AC000020AC15D574C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "눈",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2128,
+      "rawDecodedUtf16Hex": "B2080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "눈이 내린다.\n눈보라가 맞기 쉬워진다.\n얼음타입의 방어가 강해진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "B208C7740020B0B4B9B0B2E4002E000AB208BCF4B77CAC000020B9DEAE300020C26CC6CCC9C4B2E4002E000AC5BCC74CD0C0C785C7580020BC29C5B4AC000020AC15D574C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "일렉트릭필드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "C77CB809D2B8B9ADD544B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "5턴 동안 땅에 있는\n포켓몬은 잠듦 상태가 되지 않는다.\n전기타입의 위력이 올라간다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B545C5D00020C788B294000AD3ECCF13BAACC7400020C7A0B4E60020C0C1D0DCAC000020B418C9C00020C54AB294B2E4002E000AC804AE30D0C0C785C7580020C704B825C7740020C62CB77CAC04B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "그래스필드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2320,
+      "rawDecodedUtf16Hex": "ADF8B798C2A4D544B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "5턴 동안 땅에 있는\n포켓몬은 조금씩 HP가 회복된다.\n풀타입의 위력이 올라간다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B545C5D00020C788B294000AD3ECCF13BAACC7400020C870AE08C529002000480050AC000020D68CBCF5B41CB2E4002E000AD480D0C0C785C7580020C704B825C7740020C62CB77CAC04B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "미스트필드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "BBF8C2A4D2B8D544B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "5턴 동안 땅에 있는\n포켓몬은 상태 이상이 되지 않는다.\n드래곤타입 기술의 데미지도 절반이 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B545C5D00020C788B294000AD3ECCF13BAACC7400020C0C1D0DC0020C774C0C1C7740020B418C9C00020C54AB294B2E4002E000AB4DCB798ACE4D0C0C7850020AE30C220C7580020B370BBF8C9C0B3C40020C808BC18C7740020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "트릭룸",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "D2B8B9ADB8F80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안 스피드가\n느린 포켓몬부터\n행동할 수 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020C2A4D53CB4DCAC00000AB290B9B00020D3ECCF13BAACBD80D130000AD589B3D9D5600020C2180020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "매직룸",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "B9E4C9C1B8F80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안 지닌 물건을\n사용할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2624,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020C9C0B2CC0020BB3CAC74C744000AC0ACC6A9D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "원더룸",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "C6D0B354B8F80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안 포켓몬의\n방어와 특수방어가 바뀐다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2680,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020D3ECCF13BAACC758000ABC29C5B4C6400020D2B9C218BC29C5B4AC000020BC14B010B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "급소업",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "AE09C18CC5C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "상대의 급소를\n맞히는 확률이 높아진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2740,
+      "rawDecodedUtf16Hex": "C0C1B300C7580020AE09C18CB97C000AB9DED788B2940020D655B960C7740020B192C544C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "혼란",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2784,
+      "rawDecodedUtf16Hex": "D63CB7800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "1~4턴 동안 자신을\n공격할 때가 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "0031007E0034D1340020B3D9C5480020C790C2E0C744000AACF5ACA9D5600020B54CAC000020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "헤롱헤롱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2840,
+      "rawDecodedUtf16Hex": "D5E4B871D5E4B8710000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "수컷은 암컷을, 암컷은 수컷을\n공격하기 어려워진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "C218CEF7C7400020C554CEF7C744002C0020C554CEF7C7400020C218CEF7C744000AACF5ACA9D558AE300020C5B4B824C6CCC9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "악몽",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "C545BABD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "자는 동안 매 턴\nHP가 줄어든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2920,
+      "rawDecodedUtf16Hex": "C790B2940020B3D9C5480020B9E40020D134000A00480050AC000020C904C5B4B4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "졸음",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "C878C74C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "기술로 공격받은 다음 턴에\n잠듦 상태가 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "AE30C220B85C0020ACF5ACA9BC1BC7400020B2E4C74C0020D134C5D0000AC7A0B4E60020C0C1D0DCAC000020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "앙코르",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "C559CF54B9740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "앙코르를 받으면\n3턴 동안 <U+0010><U+0002>ć<U+0000>만\n사용할 수 있다.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "C559CF54B974B97C0020BC1BC73CBA74000A0033D1340020B3D9C54800200010000201070000B9CC000AC0ACC6A9D5600020C2180020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "특성 없음",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "D2B9C1310020C5C6C74C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "특성이 사라져\n효과가 없어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3104,
+      "rawDecodedUtf16Hex": "D2B9C131C7740020C0ACB77CC838000AD6A8ACFCAC000020C5C6C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "트집",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3140,
+      "rawDecodedUtf16Hex": "D2B8C9D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "똑같은 기술을 연속으로 쓸 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3148,
+      "rawDecodedUtf16Hex": "B611AC19C7400020AE30C220C7440020C5F0C18DC73CB85C0020C4F80020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "순풍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "C21CD48D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "4턴 동안 배틀에 나와 있는\n같은 편의 스피드가 2배가 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3200,
+      "rawDecodedUtf16Hex": "0034D1340020B3D9C5480020BC30D2C0C5D00020B098C6400020C788B294000AAC19C7400020D3B8C7580020C2A4D53CB4DCAC0000200032BC30AC000020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "주술",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "C8FCC2200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "상대의 기술이\n급소에 맞지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "C0C1B300C7580020AE30C220C774000AAE09C18CC5D00020B9DEC9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "원념",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3324,
+      "rawDecodedUtf16Hex": "C6D0B1500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "상대의 기술로 기절하면\n그 기술의 PP를 0으로 만든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3332,
+      "rawDecodedUtf16Hex": "C0C1B300C7580020AE30C220B85C0020AE30C808D558BA74000AADF80020AE30C220C758002000500050B97C00200030C73CB85C0020B9CCB4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "회복봉인",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3396,
+      "rawDecodedUtf16Hex": "D68CBCF5BD09C7780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "5턴 동안 기술이나 특성 또는\n지니고 있는 도구로\nHP를 회복할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3408,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020AE30C220C774B0980020D2B9C1310020B610B294000AC9C0B2C8ACE00020C788B2940020B3C4AD6CB85C000A00480050B97C0020D68CBCF5D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "꿰뚫어보기 당했다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3492,
+      "rawDecodedUtf16Hex": "AFF0B6ABC5B4BCF4AE300020B2F9D588B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "효과가 없는\n특정 기술이 맞게 된다.\n회피율이 올라가는 효과를\n무시하고 공격한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3512,
+      "rawDecodedUtf16Hex": "D6A8ACFCAC000020C5C6B294000AD2B9C8150020AE30C220C7740020B9DEAC8C0020B41CB2E4002E000AD68CD53CC728C7740020C62CB77CAC00B2940020D6A8ACFCB97C000ABB34C2DCD558ACE00020ACF5ACA9D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "사슬묶기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3604,
+      "rawDecodedUtf16Hex": "C0ACC2ACBB36AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "사슬묶기 상태가 되어\n4턴 동안\n<U+0010><U+0002>ć<U+0000><U+0010><U+0002>ᤀ<U+0002>\n사용할 수 없다.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3616,
+      "rawDecodedUtf16Hex": "C0ACC2ACBB36AE300020C0C1D0DCAC000020B418C5B4000A0034D1340020B3D9C548000A00100002010700000010000219000002000AC0ACC6A9D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "도망칠 수 없다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3692,
+      "rawDecodedUtf16Hex": "B3C4B9DDCE600020C2180020C5C6B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "도망치거나 교체할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3712,
+      "rawDecodedUtf16Hex": "B3C4B9DDCE58AC70B0980020AD50CCB4D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "록온",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3744,
+      "rawDecodedUtf16Hex": "B85DC6280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "록온한 다음 턴에\n기술이 반드시 명중한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3752,
+      "rawDecodedUtf16Hex": "B85DC628D55C0020B2E4C74C0020D134C5D0000AAE30C220C7740020BC18B4DCC2DC0020BA85C911D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "금제",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "AE08C81C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "5턴 동안 지닌 물건이나\n도구를 사용할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3808,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020C9C0B2CC0020BB3CAC74C774B098000AB3C4AD6CB97C0020C0ACC6A9D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "충전",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3864,
+      "rawDecodedUtf16Hex": "CDA9C8040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "다음에 사용하는\n전기타입 기술의 위력이 2배가 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3872,
+      "rawDecodedUtf16Hex": "B2E4C74CC5D00020C0ACC6A9D558B294000AC804AE30D0C0C7850020AE30C220C7580020C704B825C77400200032BC30AC000020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "중력",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3932,
+      "rawDecodedUtf16Hex": "C911B8250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "5턴 동안 기술이 맞기 쉬워진다.\n비행타입이나 특성이 부유인 포켓몬에게\n땅 기술이 맞는다.\n공중에 나는 기술을 사용할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020AE30C220C7740020B9DEAE300020C26CC6CCC9C4B2E4002E000ABE44D589D0C0C785C774B0980020D2B9C131C7740020BD80C720C7780020D3ECCF13BAACC5D0AC8C000AB5450020AE30C220C7740020B9DEB294B2E4002E000AACF5C911C5D00020B098B2940020AE30C220C7440020C0ACC6A9D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "흰안개",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 4084,
+      "rawDecodedUtf16Hex": "D770C548AC1C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안 능력이\n떨어지지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 4092,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B2A5B825C774000AB5A8C5B4C9C0C9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "신비의부적",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 4132,
+      "rawDecodedUtf16Hex": "C2E0BE44C758BD80C8010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "5턴 동안\n상태 이상이 되지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 4144,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000AC0C1D0DC0020C774C0C1C7740020B418C9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "스텔스록",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 4188,
+      "rawDecodedUtf16Hex": "C2A4D154C2A4B85D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "교체한 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 4200,
+      "rawDecodedUtf16Hex": "AD50CCB4D55C0020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "비축하기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 4240,
+      "rawDecodedUtf16Hex": "BE44CD95D558AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "비축하고 있는 동안\n방어와 특수방어가 올라간다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 4252,
+      "rawDecodedUtf16Hex": "BE44CD95D558ACE00020C788B2940020B3D9C548000ABC29C5B4C6400020D2B9C218BC29C5B4AC000020C62CB77CAC04B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "도발",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 4308,
+      "rawDecodedUtf16Hex": "B3C4BC1C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "데미지를 주는 기술밖에\n쓸 수 없게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 4316,
+      "rawDecodedUtf16Hex": "B370BBF8C9C0B97C0020C8FCB2940020AE30C220BC16C5D0000AC4F80020C2180020C5C6AC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "텔레키네시스",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 4364,
+      "rawDecodedUtf16Hex": "D154B808D0A4B124C2DCC2A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "3턴 동안\n일격필살 이외의 기술이\n반드시 맞는다.\n땅타입의 기술이\n맞지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 4380,
+      "rawDecodedUtf16Hex": "0033D1340020B3D9C548000AC77CACA9D544C0B40020C774C678C7580020AE30C220C774000ABC18B4DCC2DC0020B9DEB294B2E4002E000AB545D0C0C785C7580020AE30C220C774000AB9DEC9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "전자부유",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 4476,
+      "rawDecodedUtf16Hex": "C804C790BD80C7200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "5턴 동안 땅타입의\n기술이 맞지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 4488,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B545D0C0C785C758000AAE30C220C7740020B9DEC9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "독압정",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4540,
+      "rawDecodedUtf16Hex": "B3C5C555C8150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "교체한 포켓몬을\n독 상태로 만든다.\n비행타입이나 특성 부유의\n포켓몬에게는 맞지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4548,
+      "rawDecodedUtf16Hex": "AD50CCB4D55C0020D3ECCF13BAACC744000AB3C50020C0C1D0DCB85C0020B9CCB4E0B2E4002E000ABE44D589D0C0C785C774B0980020D2B9C1310020BD80C720C758000AD3ECCF13BAACC5D0AC8CB2940020B9DEC9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "흙놀이",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4648,
+      "rawDecodedUtf16Hex": "D759B180C7740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안\n전기타입 기술의 위력이\n절반으로 줄어든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4656,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000AC804AE30D0C0C7850020AE30C220C7580020C704B825C774000AC808BC18C73CB85C0020C904C5B4B4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "희망사항",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4716,
+      "rawDecodedUtf16Hex": "D76CB9DDC0ACD56D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "희망사항을 사용한 다음 턴에\n그 자리에 있는 포켓몬의 HP가 회복된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4728,
+      "rawDecodedUtf16Hex": "D76CB9DDC0ACD56DC7440020C0ACC6A9D55C0020B2E4C74C0020D134C5D0000AADF80020C790B9ACC5D00020C788B2940020D3ECCF13BAACC758002000480050AC000020D68CBCF5B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "끈적끈적네트",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4808,
+      "rawDecodedUtf16Hex": "B048C801B048C801B124D2B80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "교체되어 나온 포켓몬의\n스피드를 떨어뜨린다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4824,
+      "rawDecodedUtf16Hex": "AD50CCB4B418C5B40020B098C6280020D3ECCF13BAACC758000AC2A4D53CB4DCB97C0020B5A8C5B4B728B9B0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "뿌리박기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4876,
+      "rawDecodedUtf16Hex": "BFCCB9ACBC15AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "턴 마지막에 HP를 회복한다.\n뿌리를 박은 포켓몬은\n교체할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4888,
+      "rawDecodedUtf16Hex": "D1340020B9C8C9C0B9C9C5D0002000480050B97C0020D68CBCF5D55CB2E4002E000ABFCCB9ACB97C0020BC15C7400020D3ECCF13BAACC740000AAD50CCB4D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "저주",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4968,
+      "rawDecodedUtf16Hex": "C800C8FC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "턴 마지막에 HP를 줄인다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4976,
+      "rawDecodedUtf16Hex": "D1340020B9C8C9C0B9C9C5D0002000480050B97C0020C904C778B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "핼러윈",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 5008,
+      "rawDecodedUtf16Hex": "D57CB7ECC7080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "타입에 고스트타입이 추가된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "D0C0C785C5D00020ACE0C2A4D2B8D0C0C785C7740020CD94AC00B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "빛의장막",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 5052,
+      "rawDecodedUtf16Hex": "BE5BC758C7A5B9C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "5턴 동안\n특수공격으로 받는\n위력을 절반으로 만든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 5064,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000AD2B9C218ACF5ACA9C73CB85C0020BC1BB294000AC704B825C7440020C808BC18C73CB85C0020B9CCB4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "리플렉터",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 5124,
+      "rawDecodedUtf16Hex": "B9ACD50CB809D1300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "5턴 동안\n물리공격으로 받는\n위력을 절반으로 만든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 5136,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000ABB3CB9ACACF5ACA9C73CB85C0020BC1BB294000AC704B825C7440020C808BC18C73CB85C0020B9CCB4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "봉인",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 5196,
+      "rawDecodedUtf16Hex": "BD09C7780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "봉인을 사용한 포켓몬이\n기억하고 있는 기술을\n대전 상대의 포켓몬이 쓸 수 없게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 5204,
+      "rawDecodedUtf16Hex": "BD09C778C7440020C0ACC6A9D55C0020D3ECCF13BAACC774000AAE30C5B5D558ACE00020C788B2940020AE30C220C744000AB300C8040020C0C1B300C7580020D3ECCF13BAACC7740020C4F80020C2180020C5C6AC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "멸망의노래",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 5300,
+      "rawDecodedUtf16Hex": "BA78B9DDC758B178B7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "멸망 상태가 된\n모든 포켓몬이\n3턴 후에 기절한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 5312,
+      "rawDecodedUtf16Hex": "BA78B9DD0020C0C1D0DCAC000020B41C000ABAA8B4E00020D3ECCF13BAACC774000A0033D1340020D6C4C5D00020AE30C808D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "압정뿌리기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 5372,
+      "rawDecodedUtf16Hex": "C555C815BFCCB9ACAE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "교체한 포켓몬에게\n데미지를 준다.\n비행타입이나 특성 부유의\n포켓몬에게는 맞지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 5384,
+      "rawDecodedUtf16Hex": "AD50CCB4D55C0020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E000ABE44D589D0C0C785C774B0980020D2B9C1310020BD80C720C758000AD3ECCF13BAACC5D0AC8CB2940020B9DEC9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "물놀이",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 5480,
+      "rawDecodedUtf16Hex": "BB3CB180C7740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "5턴 동안\n불꽃타입 기술의 위력이\n절반으로 줄어든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 5488,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000ABD88AF43D0C0C7850020AE30C220C7580020C704B825C774000AC808BC18C73CB85C0020C904C5B4B4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "길동무",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 5548,
+      "rawDecodedUtf16Hex": "AE38B3D9BB340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "자신을 기절시킨 상대를\n길동무로 삼아 기절시킨다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 5556,
+      "rawDecodedUtf16Hex": "C790C2E0C7440020AE30C808C2DCD0A80020C0C1B300B97C000AAE38B3D9BB34B85C0020C0BCC5440020AE30C808C2DCD0A8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "숲의저주",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 5612,
+      "rawDecodedUtf16Hex": "C232C758C800C8FC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "타입에 풀타입이 추가된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 5624,
+      "rawDecodedUtf16Hex": "D0C0C785C5D00020D480D0C0C785C7740020CD94AC00B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "씨뿌리기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 5656,
+      "rawDecodedUtf16Hex": "C528BFCCB9ACAE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "턴 마지막에\n씨뿌리기에 의해 HP를 빼앗겨\n상대를 회복시킨다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 5668,
+      "rawDecodedUtf16Hex": "D1340020B9C8C9C0B9C9C5D0000AC528BFCCB9ACAE30C5D00020C758D574002000480050B97C0020BE7CC557ACA8000AC0C1B300B97C0020D68CBCF5C2DCD0A8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "록온",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 5740,
+      "rawDecodedUtf16Hex": "B85DC6280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "록온한 상대에게\n기술을 반드시 명중시킨다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5748,
+      "rawDecodedUtf16Hex": "B85DC628D55C0020C0C1B300C5D0AC8C000AAE30C220C7440020BC18B4DCC2DC0020BA85C911C2DCD0A8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "바인드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 5796,
+      "rawDecodedUtf16Hex": "BC14C778B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "조이기를 당해서\n매 턴 데미지를 받는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5804,
+      "rawDecodedUtf16Hex": "C870C774AE30B97C0020B2F9D574C11C000AB9E40020D1340020B370BBF8C9C0B97C0020BC1BB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "참기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5852,
+      "rawDecodedUtf16Hex": "CC38AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "2턴 동안\n공격을 견뎌\n입은 데미지를 2배로 만들어\n상대에게 돌려준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5860,
+      "rawDecodedUtf16Hex": "0032D1340020B3D9C548000AACF5ACA9C7440020ACACB38C000AC785C7400020B370BBF8C9C0B97C00200032BC30B85C0020B9CCB4E4C5B4000AC0C1B300C5D0AC8C0020B3CCB824C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "역린",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5940,
+      "rawDecodedUtf16Hex": "C5EDB9B00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "2~3턴 동안\n마구 난동 부려서 공격한다.\n난동 부린 뒤에는 혼란에 빠진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 5948,
+      "rawDecodedUtf16Hex": "0032007E0033D1340020B3D9C548000AB9C8AD6C0020B09CB3D90020BD80B824C11C0020ACF5ACA9D55CB2E4002E000AB09CB3D90020BD80B9B00020B4A4C5D0B2940020D63CB780C5D00020BE60C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "난동부리기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 6036,
+      "rawDecodedUtf16Hex": "B09CB3D9BD80B9ACAE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "난동 상태가 되어\n2~3턴 동안\n마구 난동 부려서 공격한다.\n난동 부린 뒤에는 혼란에 빠진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 6048,
+      "rawDecodedUtf16Hex": "B09CB3D90020C0C1D0DCAC000020B418C5B4000A0032007E0033D1340020B3D9C548000AB9C8AD6C0020B09CB3D90020BD80B824C11C0020ACF5ACA9D55CB2E4002E000AB09CB3D90020BD80B9B00020B4A4C5D0B2940020D63CB780C5D00020BE60C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "꽃잎댄스",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 6156,
+      "rawDecodedUtf16Hex": "AF43C78EB304C2A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "2~3턴 동안\n마구 난동 부려서 공격한다.\n난동 부린 뒤에는 혼란에 빠진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 6168,
+      "rawDecodedUtf16Hex": "0032007E0033D1340020B3D9C548000AB9C8AD6C0020B09CB3D90020BD80B824C11C0020ACF5ACA9D55CB2E4002E000AB09CB3D90020BD80B9B00020B4A4C5D0B2940020D63CB780C5D00020BE60C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "맹독",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 6256,
+      "rawDecodedUtf16Hex": "B9F9B3C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "맹독 상태.\n턴이 진행될수록\n독의 데미지가 증가한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 6264,
+      "rawDecodedUtf16Hex": "B9F9B3C50020C0C1D0DC002E000AD134C7740020C9C4D589B420C218B85D000AB3C5C7580020B370BBF8C9C0AC000020C99DAC00D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "미래의 공격",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 6324,
+      "rawDecodedUtf16Hex": "BBF8B798C7580020ACF5ACA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "기술을 사용한 2턴\n뒤에 데미지를 받는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 6340,
+      "rawDecodedUtf16Hex": "AE30C220C7440020C0ACC6A9D55C00200032D134000AB4A4C5D00020B370BBF8C9C0B97C0020BC1BB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "소란피기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 6388,
+      "rawDecodedUtf16Hex": "C18CB780D53CAE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "3턴 동안 소란을 피워 공격한다.\n그동안은 아무도 잠들지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 6400,
+      "rawDecodedUtf16Hex": "0033D1340020B3D9C5480020C18CB780C7440020D53CC6CC0020ACF5ACA9D55CB2E4002E000AADF8B3D9C548C7400020C544BB34B3C40020C7A0B4E4C9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "아쿠아링",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 6480,
+      "rawDecodedUtf16Hex": "C544CFE0C544B9C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "자신의 몸 주변을\n물로 만든 베일로 덮는다.\n매 턴 HP를 회복한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 6492,
+      "rawDecodedUtf16Hex": "C790C2E0C7580020BAB80020C8FCBCC0C744000ABB3CB85C0020B9CCB4E00020BCA0C77CB85C0020B36EB294B2E4002E000AB9E40020D134002000480050B97C0020D68CBCF5D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "바디퍼지",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 6572,
+      "rawDecodedUtf16Hex": "BC14B514D37CC9C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "스피드가 크게 오르고\n체중도 가벼워진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 6584,
+      "rawDecodedUtf16Hex": "C2A4D53CB4DCAC000020D06CAC8C0020C624B974ACE0000ACCB4C911B3C40020AC00BCBCC6CCC9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "떨어뜨리기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 6632,
+      "rawDecodedUtf16Hex": "B5A8C5B4B728B9ACAE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "맞아서 땅에 떨어진 상태다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 6644,
+      "rawDecodedUtf16Hex": "B9DEC544C11C0020B545C5D00020B5A8C5B4C9C40020C0C1D0DCB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "페어리록",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 6676,
+      "rawDecodedUtf16Hex": "D398C5B4B9ACB85D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "기술을 사용한 다음 턴은\n모든 포켓몬을 도망가지 못하게 한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 6688,
+      "rawDecodedUtf16Hex": "AE30C220C7440020C0ACC6A9D55C0020B2E4C74C0020D134C740000ABAA8B4E00020D3ECCF13BAACC7440020B3C4B9DDAC00C9C00020BABBD558AC8C0020D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "무지개",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 6760,
+      "rawDecodedUtf16Hex": "BB34C9C0AC1C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "기술의 추가 효과가\n나오기 쉬워진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 6768,
+      "rawDecodedUtf16Hex": "AE30C220C7580020CD94AC000020D6A8ACFCAC00000AB098C624AE300020C26CC6CCC9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "습지초원",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 6812,
+      "rawDecodedUtf16Hex": "C2B5C9C0CD08C6D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "스피드가 1/4이 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 6824,
+      "rawDecodedUtf16Hex": "C2A4D53CB4DCAC0000200031002F0034C7740020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "불바다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 6852,
+      "rawDecodedUtf16Hex": "BD88BC14B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "불꽃타입 포켓몬 이외에는\n매 턴 데미지를 입는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 6860,
+      "rawDecodedUtf16Hex": "BD88AF43D0C0C7850020D3ECCF13BAAC0020C774C678C5D0B294000AB9E40020D1340020B370BBF8C9C0B97C0020C785B294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "큰가뭄",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 6916,
+      "rawDecodedUtf16Hex": "D070AC00BB440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "날씨가 큰가뭄 상태.\n불꽃타입 위력이 올라간다.\n물타입 기술을 받지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 6924,
+      "rawDecodedUtf16Hex": "B0A0C528AC000020D070AC00BB440020C0C1D0DC002E000ABD88AF43D0C0C7850020C704B825C7740020C62CB77CAC04B2E4002E000ABB3CD0C0C7850020AE30C220C7440020BC1BC9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "폭우",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 7012,
+      "rawDecodedUtf16Hex": "D3EDC6B00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "날씨가 폭우 상태.\n물타입 위력이 올라간다.\n불꽃타입 기술을 받지 않는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 7020,
+      "rawDecodedUtf16Hex": "B0A0C528AC000020D3EDC6B00020C0C1D0DC002E000ABB3CD0C0C7850020C704B825C7740020C62CB77CAC04B2E4002E000ABD88AF43D0C0C7850020AE30C220C7440020BC1BC9C00020C54AB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "난기류",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 7104,
+      "rawDecodedUtf16Hex": "B09CAE30B9580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "날씨가 난기류 상태.\n비행타입에 효과가 뛰어난\n타입의 위력이 약해진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 7112,
+      "rawDecodedUtf16Hex": "B0A0C528AC000020B09CAE30B9580020C0C1D0DC002E000ABE44D589D0C0C785C5D00020D6A8ACFCAC000020B6F0C5B4B09C000AD0C0C785C7580020C704B825C7740020C57DD574C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "사이코필드",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 7192,
+      "rawDecodedUtf16Hex": "C0ACC774CF54D544B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "5턴 동안 땅에 있는 포켓몬은\n선제공격 기술을 받지 않는다.\n에스퍼타입 위력이 올라간다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 7204,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C5480020B545C5D00020C788B2940020D3ECCF13BAACC740000AC120C81CACF5ACA90020AE30C220C7440020BC1BC9C00020C54AB294B2E4002E000AC5D0C2A4D37CD0C0C7850020C704B825C7740020C62CB77CAC04B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "지옥찌르기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 7304,
+      "rawDecodedUtf16Hex": "C9C0C625CC0CB974AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "2턴 동안\n소리 내는 기술을 사용할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 7316,
+      "rawDecodedUtf16Hex": "0032D1340020B3D9C548000AC18CB9AC0020B0B4B2940020AE30C220C7440020C0ACC6A9D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "오로라베일",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 7368,
+      "rawDecodedUtf16Hex": "C624B85CB77CBCA0C77C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "5턴 동안\n물리공격과 특수공격의 위력을\n절반으로 만든다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 7380,
+      "rawDecodedUtf16Hex": "0035D1340020B3D9C548000ABB3CB9ACACF5ACA9ACFC0020D2B9C218ACF5ACA9C7580020C704B825C744000AC808BC18C73CB85C0020B9CCB4E0B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "예민해지기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 7444,
+      "rawDecodedUtf16Hex": "C608BBFCD574C9C0AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "예민해지기를 사용한\n다음 턴은 기술이\n반드시 급소에 맞는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 7456,
+      "rawDecodedUtf16Hex": "C608BBFCD574C9C0AE30B97C0020C0ACC6A9D55C000AB2E4C74C0020D134C7400020AE30C220C774000ABC18B4DCC2DC0020AE09C18CC5D00020B9DEB294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "타르샷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 7524,
+      "rawDecodedUtf16Hex": "D0C0B974C0F70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "불꽃이 약점이 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 7532,
+      "rawDecodedUtf16Hex": "BD88AF43C7740020C57DC810C7740020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "문어굳히기",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 7556,
+      "rawDecodedUtf16Hex": "BB38C5B4AD73D788AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "매 턴 방어와\n특수방어가 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 7568,
+      "rawDecodedUtf16Hex": "B9E40020D1340020BC29C5B4C640000AD2B9C218BC29C5B4AC000020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "거다이옥염",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 7608,
+      "rawDecodedUtf16Hex": "AC70B2E4C774C625C5FC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "4턴 동안\n불꽃타입 이외의 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 7620,
+      "rawDecodedUtf16Hex": "0034D1340020B3D9C548000ABD88AF43D0C0C7850020C774C678C7580020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "거다이분석",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 7680,
+      "rawDecodedUtf16Hex": "AC70B2E4C774BD84C11D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "4턴 동안\n바위타입 이외의 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 7692,
+      "rawDecodedUtf16Hex": "0034D1340020B3D9C548000ABC14C704D0C0C7850020C774C678C7580020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "거다이강철진",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 7752,
+      "rawDecodedUtf16Hex": "AC70B2E4C774AC15CCA0C9C40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "교체한 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 7768,
+      "rawDecodedUtf16Hex": "AD50CCB4D55C0020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "거다이편달",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 7808,
+      "rawDecodedUtf16Hex": "AC70B2E4C774D3B8B2EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "4턴 동안\n풀타입 이외의 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 7820,
+      "rawDecodedUtf16Hex": "0034D1340020B3D9C548000AD480D0C0C7850020C774C678C7580020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "거다이포격",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 7880,
+      "rawDecodedUtf16Hex": "AC70B2E4C774D3ECACA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "4턴 동안\n물타입 이외의 포켓몬에게\n데미지를 준다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 7892,
+      "rawDecodedUtf16Hex": "0034D1340020B3D9C548000ABB3CD0C0C7850020C774C678C7580020D3ECCF13BAACC5D0AC8C000AB370BBF8C9C0B97C0020C900B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "열중",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 7952,
+      "rawDecodedUtf16Hex": "C5F4C9110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "직전에 사용한 기술에 열중한다.\n열중하고 있는 기술의 데미지가 증가하지만\n자신이 입는 데미지도 증가한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 7960,
+      "rawDecodedUtf16Hex": "C9C1C804C5D00020C0ACC6A9D55C0020AE30C220C5D00020C5F4C911D55CB2E4002E000AC5F4C911D558ACE00020C788B2940020AE30C220C7580020B370BBF8C9C0AC000020C99DAC00D558C9C0B9CC000AC790C2E0C7740020C785B2940020B370BBF8C9C0B3C40020C99DAC00D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "파편",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 8080,
+      "rawDecodedUtf16Hex": "D30CD3B80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "뾰족한 파편이 박혀서\n행동할 때마다 데미지를 입는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 8088,
+      "rawDecodedUtf16Hex": "BFB0C871D55C0020D30CD3B8C7740020BC15D600C11C000AD589B3D9D5600020B54CB9C8B2E40020B370BBF8C9C0B97C0020C785B294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "연막",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 8148,
+      "rawDecodedUtf16Hex": "C5F0B9C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "연기나 안개에 휩싸여서\n상대의 기술이 잘 맞지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 8156,
+      "rawDecodedUtf16Hex": "C5F0AE30B0980020C548AC1CC5D00020D729C2F8C5ECC11C000AC0C1B300C7580020AE30C220C7740020C7980020B9DEC9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "배가",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 8224,
+      "rawDecodedUtf16Hex": "BC30AC000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "강하게 공격할 자세를 취하여\n주는 데미지가 증가한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 8232,
+      "rawDecodedUtf16Hex": "AC15D558AC8C0020ACF5ACA9D5600020C790C138B97C0020CDE8D558C5EC000AC8FCB2940020B370BBF8C9C0AC000020C99DAC00D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "공수반전",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 8292,
+      "rawDecodedUtf16Hex": "ACF5C218BC18C8040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "공격력과 방어력이 바뀐다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 8304,
+      "rawDecodedUtf16Hex": "ACF5ACA9B825ACFC0020BC29C5B4B825C7740020BC14B010B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "슬로스타트",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 8336,
+      "rawDecodedUtf16Hex": "C2ACB85CC2A4D0C0D2B80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "컨디션이 올라올 때까지\n공격과 스피드가 절반이 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 8348,
+      "rawDecodedUtf16Hex": "CEE8B514C158C7740020C62CB77CC62C0020B54CAE4CC9C0000AACF5ACA9ACFC0020C2A4D53CB4DCAC000020C808BC18C7740020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "폭주하는힘",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 8408,
+      "rawDecodedUtf16Hex": "D3EDC8FCD558B294D7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "행동할 때마다 입는\n독이나 파편 등의 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 8420,
+      "rawDecodedUtf16Hex": "D589B3D9D5600020B54CB9C8B2E40020C785B294000AB3C5C774B0980020D30CD3B80020B4F1C7580020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "독",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 8484,
+      "rawDecodedUtf16Hex": "B3C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "행동할 때마다\n독에 의해 데미지를 입는다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 8488,
+      "rawDecodedUtf16Hex": "D589B3D9D5600020B54CB9C8B2E4000AB3C5C5D00020C758D5740020B370BBF8C9C0B97C0020C785B294B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "마비",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 8536,
+      "rawDecodedUtf16Hex": "B9C8BE440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "몸이 저려서 움직일 수 없을 때가 있다.\n이에 더해, 스피드가 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 8544,
+      "rawDecodedUtf16Hex": "BAB8C7740020C800B824C11C0020C6C0C9C1C77C0020C2180020C5C6C7440020B54CAC000020C788B2E4002E000AC774C5D00020B354D574002C0020C2A4D53CB4DCAC000020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "졸음",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 8628,
+      "rawDecodedUtf16Hex": "C878C74C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "졸려서 움직일 수 없을 때가 있다.\n이에 더해, 입는 데미지가 증가한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 8636,
+      "rawDecodedUtf16Hex": "C878B824C11C0020C6C0C9C1C77C0020C2180020C5C6C7440020B54CAC000020C788B2E4002E000AC774C5D00020B354D574002C0020C785B2940020B370BBF8C9C0AC000020C99DAC00D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "화상",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 8720,
+      "rawDecodedUtf16Hex": "D654C0C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "행동할 때마다\n화상에 의해 데미지를 입는다.\n이에 더해, 물리공격으로\n주는 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 8728,
+      "rawDecodedUtf16Hex": "D589B3D9D5600020B54CB9C8B2E4000AD654C0C1C5D00020C758D5740020B370BBF8C9C0B97C0020C785B294B2E4002E000AC774C5D00020B354D574002C0020BB3CB9ACACF5ACA9C73CB85C000AC8FCB2940020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "동상",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 8836,
+      "rawDecodedUtf16Hex": "B3D9C0C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "행동할 때마다\n동상에 의해 데미지를 입는다.\n이에 더해, 특수공격으로\n주는 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 8844,
+      "rawDecodedUtf16Hex": "D589B3D9D5600020B54CB9C8B2E4000AB3D9C0C1C5D00020C758D5740020B370BBF8C9C0B97C0020C785B294B2E4002E000AC774C5D00020B354D574002C0020D2B9C218ACF5ACA9C73CB85C000AC8FCB2940020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "야성의힘",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 8952,
+      "rawDecodedUtf16Hex": "C57CC131C758D7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "모든 능력이 오른다.\n이에 더해, 행동할 때마다 입는\n독이나 파편 등의 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 8964,
+      "rawDecodedUtf16Hex": "BAA8B4E00020B2A5B825C7740020C624B978B2E4002E000AC774C5D00020B354D574002C0020D589B3D9D5600020B54CB9C8B2E40020C785B294000AB3C5C774B0980020D30CD3B80020B4F1C7580020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "위대한힘",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 9068,
+      "rawDecodedUtf16Hex": "C704B300D55CD7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "행동할 때마다 입는\n독이나 파편 등의 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 9080,
+      "rawDecodedUtf16Hex": "D589B3D9D5600020B54CB9C8B2E40020C785B294000AB3C5C774B0980020D30CD3B80020B4F1C7580020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "무시무시한힘",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 9144,
+      "rawDecodedUtf16Hex": "BB34C2DCBB34C2DCD55CD7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "모든 능력이 오른다.\n이에 더해, 행동할 때마다 입는\n독이나 파편 등의 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 9160,
+      "rawDecodedUtf16Hex": "BAA8B4E00020B2A5B825C7740020C624B978B2E4002E000AC774C5D00020B354D574002C0020D589B3D9D5600020B54CB9C8B2E40020C785B294000AB3C5C774B0980020D30CD3B80020B4F1C7580020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "파워업",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 9264,
+      "rawDecodedUtf16Hex": "D30CC6CCC5C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "공격력이 강화되어\n공격과 특수공격이 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 9272,
+      "rawDecodedUtf16Hex": "ACF5ACA9B825C7740020AC15D654B418C5B4000AACF5ACA9ACFC0020D2B9C218ACF5ACA9C7740020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "파워다운",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 9324,
+      "rawDecodedUtf16Hex": "D30CC6CCB2E4C6B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "공격력이 약화되어\n공격과 특수공격이 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 9336,
+      "rawDecodedUtf16Hex": "ACF5ACA9B825C7740020C57DD654B418C5B4000AACF5ACA9ACFC0020D2B9C218ACF5ACA9C7740020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "가드업",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 9388,
+      "rawDecodedUtf16Hex": "AC00B4DCC5C50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "방어력이 강화되어\n방어와 특수방어가 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 9396,
+      "rawDecodedUtf16Hex": "BC29C5B4B825C7740020AC15D654B418C5B4000ABC29C5B4C6400020D2B9C218BC29C5B4AC000020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "가드다운",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 9448,
+      "rawDecodedUtf16Hex": "AC00B4DCB2E4C6B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "방어력이 약화되어\n방어와 특수방어가 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 9460,
+      "rawDecodedUtf16Hex": "BC29C5B4B825C7740020C57DD654B418C5B4000ABC29C5B4C6400020D2B9C218BC29C5B4AC000020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "쾌청",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 9512,
+      "rawDecodedUtf16Hex": "CF8CCCAD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "풀타입 포켓몬의 스피드가 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 9520,
+      "rawDecodedUtf16Hex": "D480D0C0C7850020D3ECCF13BAACC7580020C2A4D53CB4DCAC000020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "안개",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 9560,
+      "rawDecodedUtf16Hex": "C548AC1C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "반드시 명중하는 기술을 제외한\n모든 기술이 잘 맞지 않게 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 9568,
+      "rawDecodedUtf16Hex": "BC18B4DCC2DC0020BA85C911D558B2940020AE30C220C7440020C81CC678D55C000ABAA8B4E00020AE30C220C7740020C7980020B9DEC9C00020C54AAC8C0020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "비",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 9640,
+      "rawDecodedUtf16Hex": "BE440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "불꽃타입 기술의 데미지가 감소한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 9644,
+      "rawDecodedUtf16Hex": "BD88AF43D0C0C7850020AE30C220C7580020B370BBF8C9C0AC000020AC10C18CD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "눈",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 9684,
+      "rawDecodedUtf16Hex": "B2080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "동상 상태가 되기 쉬워지고\n졸음 상태일 때는 움직이기 어려워진다.\n얼음타입 포켓몬의 스피드가 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 9688,
+      "rawDecodedUtf16Hex": "B3D9C0C10020C0C1D0DCAC000020B418AE300020C26CC6CCC9C0ACE0000AC878C74C0020C0C1D0DCC77C0020B54CB2940020C6C0C9C1C774AE300020C5B4B824C6CCC9C4B2E4002E000AC5BCC74CD0C0C7850020D3ECCF13BAACC7580020C2A4D53CB4DCAC000020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "소금절이",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 9804,
+      "rawDecodedUtf16Hex": "C18CAE08C808C7740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "소금절이가 되어\n매 턴 데미지를 입는다.\n강철타입과 물타입은\n데미지가 2배가 된다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 9816,
+      "rawDecodedUtf16Hex": "C18CAE08C808C774AC000020B418C5B4000AB9E40020D1340020B370BBF8C9C0B97C0020C785B294B2E4002E000AAC15CCA0D0C0C785ACFC0020BB3CD0C0C785C740000AB370BBF8C9C0AC0000200032BC30AC000020B41CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "대격분",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 9912,
+      "rawDecodedUtf16Hex": "B300ACA9BD840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "2~3턴 동안\n마구 난동 부려서 공격한다.\n난동 부린 뒤에는 혼란에 빠진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 9920,
+      "rawDecodedUtf16Hex": "0032007E0033D1340020B3D9C548000AB9C8AD6C0020B09CB3D90020BD80B824C11C0020ACF5ACA9D55CB2E4002E000AB09CB3D90020BD80B9B00020B4A4C5D0B2940020D63CB780C5D00020BE60C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "물엿범벅",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 10008,
+      "rawDecodedUtf16Hex": "BB3CC5FFBC94BC850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "3턴 동안\n스피드가 계속 떨어진다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 10020,
+      "rawDecodedUtf16Hex": "0033D1340020B3D9C548000AC2A4D53CB4DCAC000020ACC4C18D0020B5A8C5B4C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "힘내라 힘",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 10060,
+      "rawDecodedUtf16Hex": "D798B0B4B77C0020D7980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "트레이너들의 응원에 의해\n공격과 특수공격이 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 10072,
+      "rawDecodedUtf16Hex": "D2B8B808C774B108B4E4C7580020C751C6D0C5D00020C758D574000AACF5ACA9ACFC0020D2B9C218ACF5ACA9C7740020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "철통 방어",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 10132,
+      "rawDecodedUtf16Hex": "CCA0D1B50020BC29C5B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "트레이너들의 응원에 의해\n방어와 특수방어가 오른다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 10144,
+      "rawDecodedUtf16Hex": "D2B8B808C774B108B4E4C7580020C751C6D0C5D00020C758D574000ABC29C5B4C6400020D2B9C218BC29C5B4AC000020C624B978B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "회복봉인",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 10204,
+      "rawDecodedUtf16Hex": "D68CBCF5BD09C7780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "2턴 동안 기술이나 특성 또는\n지니고 있는 도구로\nHP를 회복할 수 없다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 10216,
+      "rawDecodedUtf16Hex": "0032D1340020B3D9C5480020AE30C220C774B0980020D2B9C1310020B610B294000AC9C0B2C8ACE00020C788B2940020B3C4AD6CB85C000A00480050B97C0020D68CBCF5D5600020C2180020C5C6B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 10300,
+  "sectionOffset": 16,
+  "textCount": 224,
+  "textSectionCount": 1
+}

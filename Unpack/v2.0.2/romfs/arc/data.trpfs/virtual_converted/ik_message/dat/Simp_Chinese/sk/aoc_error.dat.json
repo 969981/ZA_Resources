@@ -1,0 +1,33 @@
+{
+  "declaredLength": 88,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "需要新增内容\n才能继续前进。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "9700898165B0589E51855BB9000A624D80FD7EE77EED524D8FDB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "需要新增内容\n才能接受此副任务。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "9700898165B0589E51855BB9000A624D80FD63A553D76B64526F4EFB52A130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 88,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

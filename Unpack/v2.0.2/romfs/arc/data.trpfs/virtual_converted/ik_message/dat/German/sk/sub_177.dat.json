@@ -1,0 +1,743 @@
+{
+  "declaredLength": 7604,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hey! Du von Team MZ!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "004800650079002100200044007500200076006F006E0020005400650061006D0020004D005A0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ich brauch grad ma’ Hilfe dabei, jemand anderem\nzu helfen. Da hilfste mir doch bestimmt, oder?<U+0010><U+0001>븁\nUnd wehe, du sagst was anderes als Ja!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "0049006300680020006200720061007500630068002000670072006100640020006D00612019002000480069006C00660065002000640061006200650069002C0020006A0065006D0061006E006400200061006E0064006500720065006D000A007A0075002000680065006C00660065006E002E002000440061002000680069006C00660073007400650020006D0069007200200064006F00630068002000620065007300740069006D006D0074002C0020006F006400650072003F00100001BE01000A0055006E006400200077006500680065002C002000640075002000730061006700730074002000770061007300200061006E0064006500720065007300200061006C00730020004A00610021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "Ja!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "004A006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "J-Ja...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "004A002D004A0061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "So muss das!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "0053006F0020006D00750073007300200064006100730021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Die Sache ist die: Aus der Kanalisation da kommt\nständig so ’n Hilfeschrei.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "00440069006500200053006100630068006500200069007300740020006400690065003A002000410075007300200064006500720020004B0061006E0061006C00690073006100740069006F006E0020006400610020006B006F006D006D0074000A0073007400E4006E00640069006700200073006F00202019006E002000480069006C00660065007300630068007200650069002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Ich würd ja gern nachsehen, aber ich hab gehört,\nin der Kanalisation treiben sich voll gruselige<U+0010><U+0001>븀\nGeister-Pokémon rum.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "0049006300680020007700FC007200640020006A00610020006700650072006E0020006E0061006300680073006500680065006E002C0020006100620065007200200069006300680020006800610062002000670065006800F600720074002C000A0069006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E0020007400720065006900620065006E0020007300690063006800200076006F006C006C002000670072007500730065006C00690067006500100001BE00000A0047006500690073007400650072002D0050006F006B00E9006D006F006E002000720075006D002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "Da dacht ich mir, dass du das ja mal checken\nkannst. Schließlich hat sogar der Boss deine<U+0010><U+0001>븀\nSkills anerkannt.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "0044006100200064006100630068007400200069006300680020006D00690072002C0020006400610073007300200064007500200064006100730020006A00610020006D0061006C00200063006800650063006B0065006E000A006B0061006E006E00730074002E0020005300630068006C0069006500DF006C006900630068002000680061007400200073006F006700610072002000640065007200200042006F007300730020006400650069006E006500100001BE00000A0053006B0069006C006C007300200061006E00650072006B0061006E006E0074002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Aber nur damit das klar ist: Ich habe keine Angst,\nkapiert?!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "00410062006500720020006E00750072002000640061006D0069007400200064006100730020006B006C006100720020006900730074003A0020004900630068002000680061006200650020006B00650069006E006500200041006E006700730074002C000A006B006100700069006500720074003F0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Du bist doch stark, oder? Also steh nicht rum wie\n’n Schluck Wasser in der Kurve, sondern tu was<U+0010><U+0001>븀\nfür deine Stadt!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "004400750020006200690073007400200064006F0063006800200073007400610072006B002C0020006F006400650072003F00200041006C0073006F002000730074006500680020006E0069006300680074002000720075006D0020007700690065000A2019006E0020005300630068006C00750063006B002000570061007300730065007200200069006E00200064006500720020004B0075007200760065002C00200073006F006E006400650072006E002000740075002000770061007300100001BE00000A006600FC00720020006400650069006E00650020005300740061006400740021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 121
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Wir checken jetzt die Kanalisation. Du gehst vor!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2016,
+      "rawDecodedUtf16Hex": "00570069007200200063006800650063006B0065006E0020006A00650074007A007400200064006900650020004B0061006E0061006C00690073006100740069006F006E002E00200044007500200067006500680073007400200076006F00720021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Nicht, weil ich Angst hab, klar? Es macht halt\nmehr Sinn, wenn <U+0010><U+0004>ᄀÿఌ<U+0000>der Stärkeredie Stärkere vorgeht!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "004E0069006300680074002C0020007700650069006C002000690063006800200041006E0067007300740020006800610062002C0020006B006C00610072003F0020004500730020006D0061006300680074002000680061006C0074000A006D006500680072002000530069006E006E002C002000770065006E006E002000100004110000FF0C0C000000640065007200200053007400E40072006B00650072006500640069006500200053007400E40072006B00650072006500200076006F007200670065006800740021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Hm... Hier sieht eigentlich alles voll normal aus...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "0048006D002E002E002E0020004800690065007200200073006900650068007400200065006900670065006E0074006C00690063006800200061006C006C0065007300200076006F006C006C0020006E006F0072006D0061006C0020006100750073002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Hm? Was ist das denn...?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "0048006D003F002000570061007300200069007300740020006400610073002000640065006E006E002E002E002E003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "WAAAAH!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "0057004100410041004100480021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Offenbar schläft dieses Pokémon...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "004F006600660065006E0062006100720020007300630068006C00E400660074002000640069006500730065007300200050006F006B00E9006D006F006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Das ist ’n Echnatoll. Ich hab übelst unheimliche\nGruselgeschichten über dieses Pokémon gehört...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "004400610073002000690073007400202019006E0020004500630068006E00610074006F006C006C002E00200049006300680020006800610062002000FC00620065006C0073007400200075006E006800650069006D006C0069006300680065000A00470072007500730065006C0067006500730063006800690063006800740065006E002000FC006200650072002000640069006500730065007300200050006F006B00E9006D006F006E002000670065006800F600720074002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Angeblich sperrt es Menschen in seinem Körper\nein...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "0041006E006700650062006C00690063006800200073007000650072007200740020006500730020004D0065006E0073006300680065006E00200069006E0020007300650069006E0065006D0020004B00F60072007000650072000A00650069006E002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "J-Jedenfalls solltest du’s angreifen, um es zu\nvertreiben!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "004A002D004A006500640065006E00660061006C006C007300200073006F006C006C00740065007300740020006400752019007300200061006E006700720065006900660065006E002C00200075006D0020006500730020007A0075000A007600650072007400720065006900620065006E0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "M-Mach hinne, du musst die Kanalisation weiter\ndurchsuchen!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 3060,
+      "rawDecodedUtf16Hex": "004D002D004D006100630068002000680069006E006E0065002C0020006400750020006D007500730073007400200064006900650020004B0061006E0061006C00690073006100740069006F006E0020007700650069007400650072000A0064007500720063006800730075006300680065006E0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Natoooll.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3200,
+      "rawDecodedUtf16Hex": "004E00610074006F006F006F006C006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "In Echnatolls Körper scheint kein Mensch\neingesperrt zu sein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3220,
+      "rawDecodedUtf16Hex": "0049006E0020004500630068006E00610074006F006C006C00730020004B00F60072007000650072002000730063006800650069006E00740020006B00650069006E0020004D0065006E007300630068000A00650069006E006700650073007000650072007200740020007A00750020007300650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Echnatoll ist verschwunden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3344,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020006900730074002000760065007200730063006800770075006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "In der Kanalisation ist immer noch die Präsenz\nvon Echnatoll zu spüren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3404,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E002000690073007400200069006D006D006500720020006E006F00630068002000640069006500200050007200E400730065006E007A000A0076006F006E0020004500630068006E00610074006F006C006C0020007A007500200073007000FC00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3552,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Echnaaa.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3564,
+      "rawDecodedUtf16Hex": "004500630068006E006100610061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "In Echnatolls Körper scheint kein Mensch\neingesperrt zu sein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "0049006E0020004500630068006E00610074006F006C006C00730020004B00F60072007000650072002000730063006800650069006E00740020006B00650069006E0020004D0065006E007300630068000A00650069006E006700650073007000650072007200740020007A00750020007300650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Echnatoll ist verschwunden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3708,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020006900730074002000760065007200730063006800770075006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "In der Kanalisation ist immer noch die Präsenz\nvon Echnatoll zu spüren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3768,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E002000690073007400200069006D006D006500720020006E006F00630068002000640069006500200050007200E400730065006E007A000A0076006F006E0020004500630068006E00610074006F006C006C0020007A007500200073007000FC00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Echna...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3928,
+      "rawDecodedUtf16Hex": "004500630068006E0061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "In Echnatolls Körper scheint kein Mensch\neingesperrt zu sein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3948,
+      "rawDecodedUtf16Hex": "0049006E0020004500630068006E00610074006F006C006C00730020004B00F60072007000650072002000730063006800650069006E00740020006B00650069006E0020004D0065006E007300630068000A00650069006E006700650073007000650072007200740020007A00750020007300650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Echnatoll ist verschwunden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4072,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020006900730074002000760065007200730063006800770075006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Es hat etwas verloren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4132,
+      "rawDecodedUtf16Hex": "0045007300200068006100740020006500740077006100730020007600650072006C006F00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "In der Kanalisation ist immer noch die Präsenz\nvon Echnatoll zu spüren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4184,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E002000690073007400200069006D006D006500720020006E006F00630068002000640069006500200050007200E400730065006E007A000A0076006F006E0020004500630068006E00610074006F006C006C0020007A007500200073007000FC00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4332,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Echna...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4344,
+      "rawDecodedUtf16Hex": "004500630068006E0061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "In Echnatolls Körper scheint kein Mensch\neingesperrt zu sein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4364,
+      "rawDecodedUtf16Hex": "0049006E0020004500630068006E00610074006F006C006C00730020004B00F60072007000650072002000730063006800650069006E00740020006B00650069006E0020004D0065006E007300630068000A00650069006E006700650073007000650072007200740020007A00750020007300650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Echnatoll ist verschwunden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4488,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020006900730074002000760065007200730063006800770075006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Es hat etwas verloren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4548,
+      "rawDecodedUtf16Hex": "0045007300200068006100740020006500740077006100730020007600650072006C006F00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "In der Kanalisation ist immer noch die Präsenz\nvon Echnatoll zu spüren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4600,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E002000690073007400200069006D006D006500720020006E006F00630068002000640069006500200050007200E400730065006E007A000A0076006F006E0020004500630068006E00610074006F006C006C0020007A007500200073007000FC00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4748,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Naaaaaa...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "004E006100610061006100610061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Echnatoll wirkt nicht erfreut darüber, dass es\naufgeweckt wurde...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4784,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020007700690072006B00740020006E006900630068007400200065007200660072006500750074002000640061007200FC006200650072002C00200064006100730073002000650073000A00610075006600670065007700650063006B0074002000770075007200640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Natoooooll!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4920,
+      "rawDecodedUtf16Hex": "004E00610074006F006F006F006F006F006C006C002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Echnatoll ist wütend und greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4948,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C00200069007300740020007700FC00740065006E006400200075006E0064002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 5020,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Toooll...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5032,
+      "rawDecodedUtf16Hex": "0054006F006F006F006C006C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "In Echnatolls Körper scheint kein Mensch\neingesperrt zu sein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5052,
+      "rawDecodedUtf16Hex": "0049006E0020004500630068006E00610074006F006C006C00730020004B00F60072007000650072002000730063006800650069006E00740020006B00650069006E0020004D0065006E007300630068000A00650069006E006700650073007000650072007200740020007A00750020007300650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Echnatoll ist verschwunden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5176,
+      "rawDecodedUtf16Hex": "004500630068006E00610074006F006C006C0020006900730074002000760065007200730063006800770075006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Es hat etwas verloren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5236,
+      "rawDecodedUtf16Hex": "0045007300200068006100740020006500740077006100730020007600650072006C006F00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "In der Kanalisation ist immer noch die Präsenz\nvon Echnatoll zu spüren...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5288,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020004B0061006E0061006C00690073006100740069006F006E002000690073007400200069006D006D006500720020006E006F00630068002000640069006500200050007200E400730065006E007A000A0076006F006E0020004500630068006E00610074006F006C006C0020007A007500200073007000FC00720065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5436,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ist das hell!!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "0049007300740020006400610073002000680065006C006C0021002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Alles in Ordnung?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5488,
+      "rawDecodedUtf16Hex": "0041006C006C0065007300200069006E0020004F00720064006E0075006E0067003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Was ist passiert?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5524,
+      "rawDecodedUtf16Hex": "0057006100730020006900730074002000700061007300730069006500720074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Ach, das ist mir jetzt aber peinlich.<U+0010><U+0001>븁\nIch habe hier ein Echnatoll entdeckt und war\ndeswegen ganz aus dem Häuschen!<U+0010><U+0001>븁\nEin so seltenes Pokémon, hier in Illumina...!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5560,
+      "rawDecodedUtf16Hex": "004100630068002C002000640061007300200069007300740020006D006900720020006A00650074007A0074002000610062006500720020007000650069006E006C006900630068002E00100001BE01000A0049006300680020006800610062006500200068006900650072002000650069006E0020004500630068006E00610074006F006C006C00200065006E0074006400650063006B007400200075006E00640020007700610072000A0064006500730077006500670065006E002000670061006E007A0020006100750073002000640065006D0020004800E400750073006300680065006E002100100001BE01000A00450069006E00200073006F002000730065006C00740065006E0065007300200050006F006B00E9006D006F006E002C0020006800690065007200200069006E00200049006C006C0075006D0069006E0061002E002E002E002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 171
+    },
+    {
+      "displayText": "Da hab ich mich völlig vergessen und bin mit\nmeiner Aufregung Echnatoll wohl auf die Nerven<U+0010><U+0001>븀\ngegangen.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5904,
+      "rawDecodedUtf16Hex": "00440061002000680061006200200069006300680020006D0069006300680020007600F6006C006C00690067002000760065007200670065007300730065006E00200075006E0064002000620069006E0020006D00690074000A006D00650069006E0065007200200041007500660072006500670075006E00670020004500630068006E00610074006F006C006C00200077006F0068006C002000610075006600200064006900650020004E0065007200760065006E00100001BE00000A0067006500670061006E00670065006E002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "Daraufhin ist es so wütend geworden, dass es\nmich einfach verschlungen hat.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6124,
+      "rawDecodedUtf16Hex": "00440061007200610075006600680069006E002000690073007400200065007300200073006F0020007700FC00740065006E00640020006700650077006F007200640065006E002C00200064006100730073002000650073000A006D006900630068002000650069006E00660061006300680020007600650072007300630068006C0075006E00670065006E0020006800610074002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Aber weißt du, da drinnen war es so bequem,\ndass ich in einen tiefen Schlaf gefallen bin.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6284,
+      "rawDecodedUtf16Hex": "0041006200650072002000770065006900DF0074002000640075002C0020006400610020006400720069006E006E0065006E002000770061007200200065007300200073006F002000620065007100750065006D002C000A0064006100730073002000690063006800200069006E002000650069006E0065006E002000740069006500660065006E0020005300630068006C0061006600200067006500660061006C006C0065006E002000620069006E002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Jedenfalls vielen Dank, dass du mich rausgeholt\nhast!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6472,
+      "rawDecodedUtf16Hex": "004A006500640065006E00660061006C006C00730020007600690065006C0065006E002000440061006E006B002C002000640061007300730020006400750020006D00690063006800200072006100750073006700650068006F006C0074000A0068006100730074002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Gut möglich, dass in einem dieser Echnatoll ’n\nMensch eingesperrt ist.<U+0010><U+0001>븁\nAlso beweg dich und durchsuch die Dinger!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 6588,
+      "rawDecodedUtf16Hex": "0047007500740020006D00F60067006C006900630068002C0020006400610073007300200069006E002000650069006E0065006D00200064006900650073006500720020004500630068006E00610074006F006C006C00202019006E000A004D0065006E007300630068002000650069006E006700650073007000650072007200740020006900730074002E00100001BE01000A0041006C0073006F0020006200650077006500670020006400690063006800200075006E006400200064007500720063006800730075006300680020006400690065002000440069006E0067006500720021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6828,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Boah, gut gemacht!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 6840,
+      "rawDecodedUtf16Hex": "0042006F00610068002C0020006700750074002000670065006D00610063006800740021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Bin voll froh, dass es dem Typ, der um Hilfe\ngerufen hat, gut geht. Da haben wir ’ne gute Tat<U+0010><U+0001>븀\nvollbracht!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 6888,
+      "rawDecodedUtf16Hex": "00420069006E00200076006F006C006C002000660072006F0068002C00200064006100730073002000650073002000640065006D0020005400790070002C002000640065007200200075006D002000480069006C00660065000A006700650072007500660065006E0020006800610074002C002000670075007400200067006500680074002E00200044006100200068006100620065006E002000770069007200202019006E006500200067007500740065002000540061007400100001BE00000A0076006F006C006C0062007200610063006800740021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "Du freust dich doch auch, dass du was für\nIllumina geleistet hast, oder?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 7116,
+      "rawDecodedUtf16Hex": "0044007500200066007200650075007300740020006400690063006800200064006F0063006800200061007500630068002C0020006400610073007300200064007500200077006100730020006600FC0072000A0049006C006C0075006D0069006E0061002000670065006C00650069007300740065007400200068006100730074002C0020006F006400650072003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Da kannste mir schon mal danken, dass ich so\nnett war, dich mithelfen zu lassen.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 7272,
+      "rawDecodedUtf16Hex": "004400610020006B0061006E006E0073007400650020006D006900720020007300630068006F006E0020006D0061006C002000640061006E006B0065006E002C00200064006100730073002000690063006800200073006F000A006E0065007400740020007700610072002C002000640069006300680020006D0069007400680065006C00660065006E0020007A00750020006C0061007300730065006E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Hinter dir...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 7444,
+      "rawDecodedUtf16Hex": "00480069006E0074006500720020006400690072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Pass auf, sonst wirst du verschlungen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 7472,
+      "rawDecodedUtf16Hex": "00500061007300730020006100750066002C00200073006F006E007300740020007700690072007300740020006400750020007600650072007300630068006C0075006E00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Hä?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 7552,
+      "rawDecodedUtf16Hex": "004800E4003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "WAAAAAAAAAH!!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 7568,
+      "rawDecodedUtf16Hex": "0057004100410041004100410041004100410041004800210021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7604,
+  "sectionOffset": 16,
+  "textCount": 73,
+  "textSectionCount": 1
+}

@@ -1,0 +1,133 @@
+{
+  "declaredLength": 316,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "有一張長椅。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "67094E005F359577690530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "要離開長椅了嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "898196E2958B957769054E8655CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "要在這裡打發時間到晚上嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "89815728901988E16253767C664295935230665A4E0A55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "要在這裡打發時間到早上嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "89815728901988E16253767C66429593523065E94E0A55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "要結束拍照嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "89817D50675F62CD716755CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "打發時間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "6253767C664295930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "和寶可夢一起度過",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "548C5BF653EF59224E008D775EA6904E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "取消",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "53D66D880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "現在不是休息的時候。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "73FE57284E0D662F4F11606F76846642501930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "現在不是在對戰特區\n放鬆的時候！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "73FE57284E0D662F57285C0D623072795340000A653E9B06768466425019FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 316,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

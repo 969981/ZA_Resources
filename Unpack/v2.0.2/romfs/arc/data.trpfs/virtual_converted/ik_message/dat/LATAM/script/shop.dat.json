@@ -1,0 +1,1253 @@
+{
+  "declaredLength": 6460,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Me gustaría comprar algo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "004D0065002000670075007300740061007200ED006100200063006F006D007000720061007200200061006C0067006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Me gustaría vender algo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "004D0065002000670075007300740061007200ED0061002000760065006E00640065007200200061006C0067006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "No quiero nada, gracias",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "004E006F002000710075006900650072006F0020006E006100640061002C002000670072006100630069006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "¡Bienvenid<U+0010><U+0003>ᄀÿāoa a la Tienda Pokémon!\n¿En qué te puedo ayudar?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "00A1004200690065006E00760065006E0069006400100003110000FF0101006F0061002000610020006C00610020005400690065006E0064006100200050006F006B00E9006D006F006E0021000A00BF0045006E00200071007500E900200074006500200070007500650064006F0020006100790075006400610072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "¿Te puedo ayudar en algo más?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "00BF0054006500200070007500650064006F002000610079007500640061007200200065006E00200061006C0067006F0020006D00E10073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "¡Vuelve cuando quieras!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "00A1005600750065006C007600650020006300750061006E0064006F0020007100750069006500720061007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Dinero",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "00440069006E00650072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "E3000010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>ȃ<U+0000>,",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "E3000010000302030000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "002B0010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "−<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "22120010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "−<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "221200100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1520,
+      "rawDecodedUtf16Hex": "00100002011200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Agregar a la lista",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "0041006700720065006700610072002000610020006C00610020006C00690073007400610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Quedan",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "00510075006500640061006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Agotado",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "00410067006F007400610064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Artículos seleccionados",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "00410072007400ED00630075006C006F0073002000730065006C0065006300630069006F006E00610064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Intercambiar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "0049006E00740065007200630061006D00620069006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1708,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Total",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "0054006F00740061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Artículos seleccionados",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "00410072007400ED00630075006C006F0073002000730065006C0065006300630069006F006E00610064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Artículos seleccionados",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "00410072007400ED00630075006C006F0073002000730065006C0065006300630069006F006E00610064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1852,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Metes <U+0010><U+0003>ᜀ<U+0000><U+0000><U+0010><U+0002>Ċ<U+0000>\nque compraste<U+0010><U+0001>븀\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "00100002BD060000004D006500740065007300200010000317000000000000100002010A0000000A00710075006500200063006F006D00700072006100730074006500100001BE00000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Metes <U+0010><U+0003>ᜀ<U+0000><U+0000><U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>Ċ<U+0000>\nque compraste<U+0010><U+0001>븀\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 17,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "00100002BD060000004D00650074006500730020001000031700000000000010000202020001002000100002010A0000000A00710075006500200063006F006D00700072006100730074006500100001BE00000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Metes lo que acabas de comprar en el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "004D00650074006500730020006C006F0020007100750065002000610063006100620061007300200064006500200063006F006D007000720061007200200065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Metes <U+0010><U+0003>ᜀ<U+0000><U+0000><U+0010><U+0002>Ċ<U+0000>\nque intercambiaste<U+0010><U+0001>븀\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "00100002BD060000004D006500740065007300200010000317000000000000100002010A0000000A00710075006500200069006E00740065007200630061006D00620069006100730074006500100001BE00000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Metes <U+0010><U+0003>ᜀ<U+0000><U+0000><U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>Ċ<U+0000>\nque intercambiaste<U+0010><U+0001>븀\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 17,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "00100002BD060000004D00650074006500730020001000031700000000000010000202020001002000100002010A0000000A00710075006500200069006E00740065007200630061006D00620069006100730074006500100001BE00000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Metes lo que acabas de intercambiar\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2496,
+      "rawDecodedUtf16Hex": "004D00650074006500730020006C006F0020007100750065002000610063006100620061007300200064006500200069006E00740065007200630061006D0062006900610072000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Metes la MT <U+0010><U+0002>ć<U+0000>\nque<U+0010><U+0001>븀\nintercambiaste<U+0010><U+0001>븀\nen el Bolsito.<U+0010><U+0001>븁",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "00100002BD060000004D00650074006500730020006C00610020004D005400200010000201070000000A00710075006500100001BE00000A0069006E00740065007200630061006D00620069006100730074006500100001BE00000A0065006E00200065006C00200042006F006C007300690074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2744,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2756,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "00100002BDFF00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2840,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Sí",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "005300ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Continuar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "0043006F006E00740069006E0075006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Cancelar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Comprar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2944,
+      "rawDecodedUtf16Hex": "0043006F006D00700072006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Vender",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "00560065006E0064006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Comprar varios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2976,
+      "rawDecodedUtf16Hex": "0043006F006D007000720061007200200076006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Vender varios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "00560065006E00640065007200200076006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Decidir cantidad",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3036,
+      "rawDecodedUtf16Hex": "0044006500630069006400690072002000630061006E007400690064006100640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Deseleccionar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3072,
+      "rawDecodedUtf16Hex": "0044006500730065006C0065006300630069006F006E006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Confirmar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "0043006F006E006600690072006D006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ordenar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 66,
+      "offsetInSection": 3120,
+      "rawDecodedUtf16Hex": "004F007200640065006E006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Cancelar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3136,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Cancelar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3156,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Intercambiar varios",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 69,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "0049006E00740065007200630061006D006200690061007200200076006100720069006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3216,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Potencia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "0050006F00740065006E0063006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3248,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3284,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "MT<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3296,
+      "rawDecodedUtf16Hex": "004D005400100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3312,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "—",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3324,
+      "rawDecodedUtf16Hex": "20140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "—",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3328,
+      "rawDecodedUtf16Hex": "20140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿P",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 3332,
+      "rawDecodedUtf16Hex": "00100002BDFF00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Agotado",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 81,
+      "offsetInSection": 3344,
+      "rawDecodedUtf16Hex": "00410067006F007400610064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "—",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 3360,
+      "rawDecodedUtf16Hex": "20140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "Artículos disponibles",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 83,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "00410072007400ED00630075006C006F007300200064006900730070006F006E00690062006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Intercambio de Tornillos Coloridos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 84,
+      "offsetInSection": 3408,
+      "rawDecodedUtf16Hex": "0049006E00740065007200630061006D00620069006F00200064006500200054006F0072006E0069006C006C006F007300200043006F006C006F007200690064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 3480,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nv. <U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 3492,
+      "rawDecodedUtf16Hex": "004E0076002E002000100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Nv. Máx",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 3512,
+      "rawDecodedUtf16Hex": "004E0076002E0020004D00E100780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Boutique de la Piedra",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 3528,
+      "rawDecodedUtf16Hex": "0042006F0075007400690071007500650020006400650020006C006100200050006900650064007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Boutique Pokébola",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 3572,
+      "rawDecodedUtf16Hex": "0042006F00750074006900710075006500200050006F006B00E90062006F006C00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Intercambio de Megafragmentos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 90,
+      "offsetInSection": 3608,
+      "rawDecodedUtf16Hex": "0049006E00740065007200630061006D00620069006F0020006400650020004D0065006700610066007200610067006D0065006E0074006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Centro Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 3668,
+      "rawDecodedUtf16Hex": "00430065006E00740072006F00200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "No tienes suficiente dinero.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 3700,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065002000640069006E00650072006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Creo que ya no puedes llevar más.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020007900610020006E006F00200070007500650064006500730020006C006C00650076006100720020006D00E10073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Puedo pagarte <U+E300><U+0010><U+0003>ȇ<U+0000>,. ¿Te parece bien?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 3840,
+      "rawDecodedUtf16Hex": "0050007500650064006F002000700061006700610072007400650020E3000010000302070000002C002E002000BF0054006500200070006100720065006300650020006200690065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Puedo pagarte <U+E300><U+0010><U+0003>Ȇ<U+0000>,, pero perderás el\ndinero que no puedas llevar. ¿Estás de acuerdo?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 3920,
+      "rawDecodedUtf16Hex": "0050007500650064006F002000700061006700610072007400650020E3000010000302060000002C002C0020007000650072006F002000700065007200640065007200E1007300200065006C000A00640069006E00650072006F00200071007500650020006E006F00200070007500650064006100730020006C006C0065007600610072002E002000BF00450073007400E100730020006400650020006100630075006500720064006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Y, como regalo, aquí tienes <U+0010><U+0002>ȁ<U+0000> Honorbola<U+0010><U+0003>ᄁ<U+0000>Ās.<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 4096,
+      "rawDecodedUtf16Hex": "0059002C00200063006F006D006F00200072006500670061006C006F002C002000610071007500ED0020007400690065006E006500730020001000020201000000200048006F006E006F00720062006F006C0061001000031101000001000073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "¿Quieres dejar todo lo que habías seleccionado\nhasta ahora?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 4204,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200074006F0064006F0020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F000A00680061007300740061002000610068006F00720061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "¿Quieres vender algo en vez de comprar?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 4324,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000760065006E00640065007200200061006C0067006F00200065006E002000760065007A00200064006500200063006F006D0070007200610072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "¿Prefieres no vender lo que habías seleccionado?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 4404,
+      "rawDecodedUtf16Hex": "00BF0050007200650066006900650072006500730020006E006F002000760065006E0064006500720020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¿Quieres comprar algo en vez de vender?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 4504,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200063006F006D007000720061007200200061006C0067006F00200065006E002000760065007A002000640065002000760065006E006400650072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Me temo que no tienes suficiente dinero.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 4584,
+      "rawDecodedUtf16Hex": "004D0065002000740065006D006F00200071007500650020006E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065002000640069006E00650072006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Creo que ya no puedes llevar más.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 4672,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020007900610020006E006F00200070007500650064006500730020006C006C00650076006100720020006D00E10073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "¡Bienvenid<U+0010><U+0003>ᄀÿāoa!<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 4748,
+      "rawDecodedUtf16Hex": "00A1004200690065006E00760065006E0069006400100003110000FF0101006F0061002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "¿Quieres seguir comprando?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 4792,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000730065006700750069007200200063006F006D007000720061006E0064006F003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Muchas gracias y hasta pronto.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 4852,
+      "rawDecodedUtf16Hex": "004D007500630068006100730020006700720061006300690061007300200079002000680061007300740061002000700072006F006E0074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Lo siento, ese artículo está agotado.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 4920,
+      "rawDecodedUtf16Hex": "004C006F0020007300690065006E0074006F002C0020006500730065002000610072007400ED00630075006C006F002000650073007400E1002000610067006F007400610064006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "¿Quieres dejar todo lo que habías seleccionado\nhasta ahora?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5004,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200074006F0064006F0020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F000A00680061007300740061002000610068006F00720061003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "No tienes suficiente dinero.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 5132,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065002000640069006E00650072006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "No tienes suficiente espacio para llevar eso.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5196,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E007400650020006500730070006100630069006F002000700061007200610020006C006C0065007600610072002000650073006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¡Bienvenid<U+0010><U+0003>ᄀÿāoa!<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5296,
+      "rawDecodedUtf16Hex": "00A1004200690065006E00760065006E0069006400100003110000FF0101006F0061002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "¿Quieres seguir comprando?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000730065006700750069007200200063006F006D007000720061006E0064006F003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Muchas gracias.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5400,
+      "rawDecodedUtf16Hex": "004D0075006300680061007300200067007200610063006900610073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Y, como regalo, aquí tienes <U+0010><U+0002>ȁ<U+0000> Honorbola<U+0010><U+0003>ᄁ<U+0000>Ās.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 5440,
+      "rawDecodedUtf16Hex": "0059002C00200063006F006D006F00200072006500670061006C006F002C002000610071007500ED0020007400690065006E006500730020001000020201000000200048006F006E006F00720062006F006C0061001000031101000001000073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "¿Quieres dejar todo lo que habías seleccionado\nhasta ahora?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 5540,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200074006F0064006F0020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F000A00680061007300740061002000610068006F00720061003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "No tienes suficientes Megafragmentos.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 5668,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E0065007300200073007500660069006300690065006E0074006500730020004D0065006700610066007200610067006D0065006E0074006F0073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Creo que ya no puedes llevar más.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 5752,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020007900610020006E006F00200070007500650064006500730020006C006C00650076006100720020006D00E10073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Lo siento, ese artículo está agotado.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 5828,
+      "rawDecodedUtf16Hex": "004C006F0020007300690065006E0074006F002C0020006500730065002000610072007400ED00630075006C006F002000650073007400E1002000610067006F007400610064006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "¿Quieres dejar todo lo que habías seleccionado\nhasta ahora?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 5912,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200074006F0064006F0020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F000A00680061007300740061002000610068006F00720061003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Me temo que no tienes suficientes Tornillos\nColoridos.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 6040,
+      "rawDecodedUtf16Hex": "004D0065002000740065006D006F00200071007500650020006E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065007300200054006F0072006E0069006C006C006F0073000A0043006F006C006F007200690064006F0073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Creo que ya no puedes llevar más de esos.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 6156,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020007900610020006E006F00200070007500650064006500730020006C006C00650076006100720020006D00E10073002000640065002000650073006F0073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "No puedes llevarte otro de esos.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 6248,
+      "rawDecodedUtf16Hex": "004E006F00200070007500650064006500730020006C006C0065007600610072007400650020006F00740072006F002000640065002000650073006F0073002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¿Quieres dejar todo lo que habías seleccionado\nhasta ahora?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 6320,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200074006F0064006F0020006C006F0020007100750065002000680061006200ED00610073002000730065006C0065006300630069006F006E00610064006F000A00680061007300740061002000610068006F00720061003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 6448,
+      "rawDecodedUtf16Hex": "0010000302030000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6460,
+  "sectionOffset": 16,
+  "textCount": 124,
+  "textSectionCount": 1
+}

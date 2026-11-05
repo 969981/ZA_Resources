@@ -1,0 +1,53 @@
+{
+  "declaredLength": 328,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "看來是進到了一個\n挺古怪的異次元密阿雷啊。<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "770B4F86662F903252304E864E00500B000A633A53E4602A768475706B2151435BC6963F96F7554A300200100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "仿造對戰特區的異次元密阿雷……\n這樣說來，就是<U+0010><U+0002>＀<U+0006>異次元對戰特區<U+0010><U+0002>＀<U+0000>！<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "4EFF90205C0D623072795340768475706B2151435BC6963F96F720262026000A90196A238AAA4F86FF0C5C31662F00100002FF00000675706B2151435C0D62307279534000100002FF000000FF0100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "在那邊的訓練家說不定\n也就像是輸家們的怨念那類的東西？<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "572890A3908A76848A137DF45BB68AAA4E0D5B9A000A4E5F5C3150CF662F8F385BB65011768460285FF590A3985E76846771897FFF1F00100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "總之我會發異次元對戰特區的\n調查委託給<U+0010><U+0003>ᄀÿā你妳，就拜託<U+0010><U+0003>ᄀÿā你妳啦！<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "7E3D4E4B62116703767C75706B2151435C0D6230727953407684000A8ABF67E559D48A177D6600100003110000FF01014F6059B3FF0C5C3162DC8A1700100003110000FF01014F6059B35566FF0100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 328,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

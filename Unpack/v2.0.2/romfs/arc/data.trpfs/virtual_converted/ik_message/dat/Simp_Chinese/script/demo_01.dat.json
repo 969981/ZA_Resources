@@ -1,0 +1,53 @@
+{
+  "declaredLength": 184,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "棱镜塔正在发生异变，\n我想让公司的队伍去调查。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "68F1955C58546B63572853D1751F5F0253D8FF0C000A621160F38BA9516C53F87684961F4F0D53BB8C0367E530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "密阿雷市的问题必须由我们来解决。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "5BC6963F96F75E02768495EE98985FC5987B753162114EEC676589E351B330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "要寻找最强的超级进化训练家。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "89815BFB627E67005F3A76848D857EA78FDB53168BAD7EC35BB630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "本次列车即将到达密阿雷南站。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "672C6B2152178F6653735C0652308FBE5BC6963F96F753577AD930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 184,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

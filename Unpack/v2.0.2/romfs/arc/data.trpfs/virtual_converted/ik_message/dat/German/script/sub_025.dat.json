@@ -1,0 +1,413 @@
+{
+  "declaredLength": 4740,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Was erzählst du für ’nen Stuss?! Mein Arbok ist\ndas stärkste Pokémon hier, klar?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "005700610073002000650072007A00E40068006C007300740020006400750020006600FC007200202019006E0065006E002000530074007500730073003F00210020004D00650069006E0020004100720062006F006B0020006900730074000A00640061007300200073007400E40072006B00730074006500200050006F006B00E9006D006F006E00200068006900650072002C0020006B006C00610072003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Pfft, das einzig Starke an ihm ist sein Muster.\nHast du mal Firnontors Fratze gesehen? Die ist<U+0010><U+0001>븀\nviel abgefahrener!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "0050006600660074002C0020006400610073002000650069006E007A0069006700200053007400610072006B006500200061006E002000690068006D00200069007300740020007300650069006E0020004D00750073007400650072002E000A00480061007300740020006400750020006D0061006C0020004600690072006E006F006E0074006F0072007300200046007200610074007A00650020006700650073006500680065006E003F0020004400690065002000690073007400100001BE00000A007600690065006C0020006100620067006500660061006800720065006E006500720021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 121
+    },
+    {
+      "displayText": "Hm? Was glotzt du so?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "0048006D003F002000570061007300200067006C006F0074007A007400200064007500200073006F003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Hey, du! Du kommst gerade richtig.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "004800650079002C00200064007500210020004400750020006B006F006D006D00730074002000670065007200610064006500200072006900630068007400690067002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Wir brauchen jemanden, der gegen uns kämpft.\nIst ’ne ganz einfache Sache.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "00570069007200200062007200610075006300680065006E0020006A0065006D0061006E00640065006E002C002000640065007200200067006500670065006E00200075006E00730020006B00E4006D007000660074002E000A00490073007400202019006E0065002000670061006E007A002000650069006E00660061006300680065002000530061006300680065002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Als Erstes kämpft eins deiner Pokémon gegen\nmein Arbok.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "0041006C007300200045007200730074006500730020006B00E4006D007000660074002000650069006E00730020006400650069006E0065007200200050006F006B00E9006D006F006E00200067006500670065006E000A006D00650069006E0020004100720062006F006B002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Und danach stellt sich dein Pokémon dem Kerl da\nmit seinem Firnontor.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "0055006E0064002000640061006E0061006300680020007300740065006C006C0074002000730069006300680020006400650069006E00200050006F006B00E9006D006F006E002000640065006D0020004B00650072006C002000640061000A006D006900740020007300650069006E0065006D0020004600690072006E006F006E0074006F0072002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Yo, so wird’s gemacht! Dann sehen wir endlich,\nwer von uns beiden stärker ist.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "0059006F002C00200073006F0020007700690072006420190073002000670065006D00610063006800740021002000440061006E006E00200073006500680065006E002000770069007200200065006E0064006C006900630068002C000A00770065007200200076006F006E00200075006E0073002000620065006900640065006E00200073007400E40072006B006500720020006900730074002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Als Erstes ist mein Arbok dran! Los, ein Kampf\nPokémon gegen Pokémon!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1488,
+      "rawDecodedUtf16Hex": "0041006C0073002000450072007300740065007300200069007300740020006D00650069006E0020004100720062006F006B0020006400720061006E00210020004C006F0073002C002000650069006E0020004B0061006D00700066000A0050006F006B00E9006D006F006E00200067006500670065006E00200050006F006B00E9006D006F006E0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Ich werde gewinnen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00490063006800200077006500720064006500200067006500770069006E006E0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Ich muss mich noch vorbereiten.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1676,
+      "rawDecodedUtf16Hex": "0049006300680020006D0075007300730020006D0069006300680020006E006F0063006800200076006F00720062006500720065006900740065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Mach hin! Such dir eins deiner Pokémon aus\nund ab geht’s!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "004D006100630068002000680069006E0021002000530075006300680020006400690072002000650069006E00730020006400650069006E0065007200200050006F006B00E9006D006F006E0020006100750073000A0075006E006400200061006200200067006500680074201900730021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Ey, ich kämpfe nur mit meinem Arbok, also hol dir\ngefälligst auch nur ein Pokémon ins Team!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "00450079002C00200069006300680020006B00E4006D0070006600650020006E007500720020006D006900740020006D00650069006E0065006D0020004100720062006F006B002C00200061006C0073006F00200068006F006C0020006400690072000A00670065006600E4006C006C0069006700730074002000610075006300680020006E00750072002000650069006E00200050006F006B00E9006D006F006E00200069006E00730020005400650061006D0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Mach hin und verlier endlich!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2056,
+      "rawDecodedUtf16Hex": "004D006100630068002000680069006E00200075006E00640020007600650072006C00690065007200200065006E0064006C0069006300680021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ich schau mir jetzt an, wie er eine Abreibung\nvon dir kassiert!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2136,
+      "rawDecodedUtf16Hex": "0049006300680020007300630068006100750020006D006900720020006A00650074007A007400200061006E002C0020007700690065002000650072002000650069006E006500200041006200720065006900620075006E0067000A0076006F006E00200064006900720020006B00610073007300690065007200740021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mein Arbok hat verloren...?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "004D00650069006E0020004100720062006F006B00200068006100740020007600650072006C006F00720065006E002E002E002E003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Ha, da hast du’s! Das heißt ja wohl, dass mein\nFirnontor das stärkere Pokémon ist!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "00480061002C002000640061002000680061007300740020006400752019007300210020004400610073002000680065006900DF00740020006A006100200077006F0068006C002C002000640061007300730020006D00650069006E000A004600690072006E006F006E0074006F0072002000640061007300200073007400E40072006B00650072006500200050006F006B00E9006D006F006E00200069007300740021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Also dann, als Nächstes kämpfst du gegen mein\nFirnontor! Dann wissen wir fix Bescheid.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2524,
+      "rawDecodedUtf16Hex": "0041006C0073006F002000640061006E006E002C00200061006C00730020004E00E40063006800730074006500730020006B00E4006D007000660073007400200064007500200067006500670065006E0020006D00650069006E000A004600690072006E006F006E0074006F00720021002000440061006E006E002000770069007300730065006E00200077006900720020006600690078002000420065007300630068006500690064002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Als Nächstes kämpfst du gegen mein Firnontor!\nEins gegen eins, so wie eben auch.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "0041006C00730020004E00E40063006800730074006500730020006B00E4006D007000660073007400200064007500200067006500670065006E0020006D00650069006E0020004600690072006E006F006E0074006F00720021000A00450069006E007300200067006500670065006E002000650069006E0073002C00200073006F00200077006900650020006500620065006E00200061007500630068002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Ich werde gewinnen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2892,
+      "rawDecodedUtf16Hex": "00490063006800200077006500720064006500200067006500770069006E006E0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Ich muss mich noch vorbereiten.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "0049006300680020006D0075007300730020006D0069006300680020006E006F0063006800200076006F00720062006500720065006900740065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Oha? Damit bestätigst du ja quasi schon,\ndass mein Firnontor am stärksten ist.<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2996,
+      "rawDecodedUtf16Hex": "004F00680061003F002000440061006D006900740020006200650073007400E4007400690067007300740020006400750020006A00610020007100750061007300690020007300630068006F006E002C000A00640061007300730020006D00650069006E0020004600690072006E006F006E0074006F007200200061006D00200073007400E40072006B007300740065006E0020006900730074002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Hä? Was verstehst du an eins gegen eins nicht?<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3164,
+      "rawDecodedUtf16Hex": "004800E4003F0020005700610073002000760065007200730074006500680073007400200064007500200061006E002000650069006E007300200067006500670065006E002000650069006E00730020006E0069006300680074003F001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Und ab geht’s!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "0055006E006400200061006200200067006500680074201900730021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3308,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Pah... Du kannst auch echt alles, was?<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3320,
+      "rawDecodedUtf16Hex": "005000610068002E002E002E0020004400750020006B0061006E006E00730074002000610075006300680020006500630068007400200061006C006C00650073002C0020007700610073003F001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3408,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Du hast sogar mein Firnontor fertiggemacht...<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3420,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200073006F0067006100720020006D00650069006E0020004600690072006E006F006E0074006F0072002000660065007200740069006700670065006D0061006300680074002E002E002E001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Haben wir echt beide verloren oder was?!<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3520,
+      "rawDecodedUtf16Hex": "0048006100620065006E0020007700690072002000650063006800740020006200650069006400650020007600650072006C006F00720065006E0020006F0064006500720020007700610073003F0021001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Das heißt ja dann, dass weder mein Arbok noch\ndein Firnontor am stärksten ist...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3612,
+      "rawDecodedUtf16Hex": "004400610073002000680065006900DF00740020006A0061002000640061006E006E002C002000640061007300730020007700650064006500720020006D00650069006E0020004100720062006F006B0020006E006F00630068000A006400650069006E0020004600690072006E006F006E0074006F007200200061006D00200073007400E40072006B007300740065006E0020006900730074002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "So sieht’s aus. Das stärkste Pokémon ist das\n<U+0010><U+0002>ā<U+0002> von <U+0010><U+0004>ᄀÿ̃<U+0000>ihmihr hier!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3784,
+      "rawDecodedUtf16Hex": "0053006F002000730069006500680074201900730020006100750073002E002000440061007300200073007400E40072006B00730074006500200050006F006B00E9006D006F006E00200069007300740020006400610073000A001000020101000200200076006F006E002000100004110000FF0303000000690068006D006900680072002000680069006500720021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "So isses. Wir waren nichts weiter als große\nKarpador in einem kleinen Teich...<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "0053006F002000690073007300650073002E002000570069007200200077006100720065006E0020006E00690063006800740073002000770065006900740065007200200061006C0073002000670072006F00DF0065000A004B00610072007000610064006F007200200069006E002000650069006E0065006D0020006B006C00650069006E0065006E002000540065006900630068002E002E002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Du hast uns den Weg gezeigt, den wir von jetzt\nan einschlagen müssen. Danke dafür!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4108,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200075006E0073002000640065006E0020005700650067002000670065007A0065006900670074002C002000640065006E002000770069007200200076006F006E0020006A00650074007A0074000A0061006E002000650069006E007300630068006C006100670065006E0020006D00FC007300730065006E002E002000440061006E006B0065002000640061006600FC00720021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Ja, danke auch! Ich mach mich auf, den Weg des\nStärksten zu beschreiten. Aber natürlich immer<U+0010><U+0001>븀\neinen Schritt vor seinem Firnontor.<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4284,
+      "rawDecodedUtf16Hex": "004A0061002C002000640061006E006B006500200061007500630068002100200049006300680020006D0061006300680020006D0069006300680020006100750066002C002000640065006E00200057006500670020006400650073000A0053007400E40072006B007300740065006E0020007A007500200062006500730063006800720065006900740065006E002E002000410062006500720020006E0061007400FC0072006C00690063006800200069006D006D0065007200100001BE00000A00650069006E0065006E0020005300630068007200690074007400200076006F00720020007300650069006E0065006D0020004600690072006E006F006E0074006F0072002E001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "Du Vollpfosten! Als ob ich mich von dir überholen\nlasse. Unser Wettkampf geht weiter!<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4560,
+      "rawDecodedUtf16Hex": "0044007500200056006F006C006C00700066006F007300740065006E002100200041006C00730020006F006200200069006300680020006D00690063006800200076006F006E0020006400690072002000FC0062006500720068006F006C0065006E000A006C0061007300730065002E00200055006E00730065007200200057006500740074006B0061006D007000660020006700650068007400200077006500690074006500720021001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4740,
+  "sectionOffset": 16,
+  "textCount": 40,
+  "textSectionCount": 1
+}

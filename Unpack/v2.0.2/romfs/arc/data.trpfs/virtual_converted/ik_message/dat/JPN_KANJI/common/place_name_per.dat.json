@@ -1,0 +1,63 @@
+{
+  "declaredLength": 208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "遠くにいる人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "9060304F306B3044308B4EBA0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "あずかり屋さん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "3042305A304B308A5C4B3055309300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "トレジャーハンター",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "30C830EC30B830E330FC30CF30F330BF30FC0000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "おんせんばあさん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "304A3093305B30933070304230553093000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "ミアレシティ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "30DF30A230EC30B730C630A30000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 208,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

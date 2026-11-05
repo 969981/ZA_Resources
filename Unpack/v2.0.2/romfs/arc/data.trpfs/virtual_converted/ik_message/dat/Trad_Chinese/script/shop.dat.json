@@ -1,0 +1,1253 @@
+{
+  "declaredLength": 3540,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "我要買東西",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "621189818CB76771897F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "我要賣東西",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "621189818CE36771897F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "什麼也不需要",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "4EC09EBC4E5F4E0D970089810000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "歡迎光臨友好商店！\n請問您有什麼需要？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1036,
+      "rawDecodedUtf16Hex": "6B618FCE514981E853CB597D55465E97FF01000A8ACB554F60A867094EC09EBC97008981FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "還有什麼其他需要嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "908467094EC09EBC51764ED69700898155CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "歡迎再次光臨！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "6B618FCE518D6B21514981E8FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1116,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "現金",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "73FE91D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1136,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "E300001000030206000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>ȃ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1164,
+      "rawDecodedUtf16Hex": "E300001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "＋ <U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "FF0B0020001000030206000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "－ <U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "FF0D0020001000030206000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "＋ <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "FF0B002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "－ <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1228,
+      "rawDecodedUtf16Hex": "FF0D002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "00100002011200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "加入清單",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1268,
+      "rawDecodedUtf16Hex": "52A051656E0555AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "還剩",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1280,
+      "rawDecodedUtf16Hex": "908452690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "sold out",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1288,
+      "rawDecodedUtf16Hex": "0073006F006C00640020006F007500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "一併交換的道具",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "4E004F754EA463DB7684905351770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "交換",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "4EA463DB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "總計",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "7E3D8A080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "一併購買的道具",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1376,
+      "rawDecodedUtf16Hex": "4E004F758CFC8CB77684905351770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "一併出售的道具",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "4E004F7551FA552E7684905351770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1432,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1480,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "購買了<U+0010><U+0002>Ȃ<U+0001>個<U+0010><U+0002>ĉ<U+0000>，\n並放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "8CFC8CB74E860010000202020001500B0010000201090000FF0C000A4E26653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "購買了<U+0010><U+0002>Ȃ<U+0001>個<U+0010><U+0002>ĉ<U+0000>，\n並放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "8CFC8CB74E860010000202020001500B0010000201090000FF0C000A4E26653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "將購買的道具\n放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "5C078CFC8CB7768490535177000A653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "交換了<U+0010><U+0002>Ȃ<U+0001>個<U+0010><U+0002>ĉ<U+0000>，\n並放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "4EA463DB4E860010000202020001500B0010000201090000FF0C000A4E26653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "交換了<U+0010><U+0002>Ȃ<U+0001>個<U+0010><U+0002>ĉ<U+0000>，\n並放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "4EA463DB4E860010000202020001500B0010000201090000FF0C000A4E26653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "將交換的道具\n放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "5C074EA463DB768490535177000A653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "交換了<U+0010><U+0002>Ȃ<U+0001>個招式學習器：<U+0010><U+0002>ć<U+0000>，\n並放進了腰包。<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "4EA463DB4E860010000202020001500B62DB5F0F5B787FD25668FF1A0010000201070000FF0C000A4E26653E90324E8681705305300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1872,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1896,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "00100002BDFF00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "繼續",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "7E7C7E8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "退出",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "900051FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "購買",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2016,
+      "rawDecodedUtf16Hex": "8CFC8CB70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "出售",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "51FA552E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "一併購買",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "4E004F758CFC8CB70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "一併出售",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "4E004F7551FA552E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "確定個數",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2056,
+      "rawDecodedUtf16Hex": "78BA5B9A500B65780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "重置",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2068,
+      "rawDecodedUtf16Hex": "91CD7F6E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "決定好了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "6C7A5B9A597D4E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "排序",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "63925E8F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "退出",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "900051FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "退出",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "900051FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "一併交換",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "4E004F754EA463DB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "威力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2136,
+      "rawDecodedUtf16Hex": "5A01529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 2168,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 2180,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "No.<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "004E006F002E00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "-",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "－－－",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "FF0DFF0DFF0D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿P",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "00100002BDFF00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "售完",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "552E5B8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "--",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "商品一覽",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 2260,
+      "rawDecodedUtf16Hex": "554654C14E0089BD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "交換彩色螺絲",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "4EA463DB5F69827287BA7D720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "第<U+0010><U+0002>Ȁ<U+0000>個",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "7B2C0010000202000000500B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Lv.MAX",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "004C0076002E004D004100580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "石頭館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "77F3982D99280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "精靈球館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "7CBE9748740399280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "交換超級碎片",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 2352,
+      "rawDecodedUtf16Hex": "4EA463DB8D857D1A788E72470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "寶可夢中心",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 2368,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "您的錢不夠喔。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "60A8768493224E0D59205594300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "不好意思，\n您身上似乎已經放不下了呢。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 2404,
+      "rawDecodedUtf16Hex": "4E0D597D610F601DFF0C000A60A88EAB4E0A4F3C4E4E5DF27D93653E4E0D4E0B4E865462300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "那麼，我用<U+E300><U+0010><U+0003>ȇ<U+0000><U+0000>\n跟您收購好嗎？",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C62117528E30000100003020700000000000A8DDF60A865368CFC597D55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "我會用<U+E300><U+0010><U+0003>Ȇ<U+0000><U+0000>跟您收購。<U+0010><U+0001>븁\n身上放不下的錢將會消失，\n確定沒問題嗎？",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "621167037528E300001000030206000000008DDF60A865368CFC300200100001BE01000A8EAB4E0A653E4E0D4E0B768493225C0767036D885931FF0C000A78BA5B9A6C92554F984C55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "我再送<U+0010><U+0002>ȁ<U+0000>個紀念球給您！<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "6211518D90010010000202010000500B7D005FF574037D6660A8FF0100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "要把選好的商品\n放回原處嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 2608,
+      "rawDecodedUtf16Hex": "8981628A9078597D7684554654C1000A653E56DE539F865555CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "您打算停止一併購買，\n然後去賣些什麼嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 2640,
+      "rawDecodedUtf16Hex": "60A862537B97505C6B624E004F758CFC8CB7FF0C000A71365F8C53BB8CE34E9B4EC09EBC55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "您不賣這些物品了嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 2684,
+      "rawDecodedUtf16Hex": "60A84E0D8CE390194E9B726954C14E8655CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "您打算停止一併出售，\n然後去買些什麼嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "60A862537B97505C6B624E004F7551FA552EFF0C000A71365F8C53BB8CB74E9B4EC09EBC55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "親愛的客人，\n您的錢好像不夠付款。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 2752,
+      "rawDecodedUtf16Hex": "89AA611B76845BA24EBAFF0C000A60A876849322597D50CF4E0D59204ED86B3E300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "親愛的客人，\n您身上似乎已經放不下囉。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 2796,
+      "rawDecodedUtf16Hex": "89AA611B76845BA24EBAFF0C000A60A88EAB4E0A4F3C4E4E5DF27D93653E4E0D4E0B56C9300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "親愛的客人，歡迎光臨。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 2844,
+      "rawDecodedUtf16Hex": "89AA611B76845BA24EBAFF0C6B618FCE514981E8300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "要繼續購物嗎？<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "89817E7C7E8C8CFC726955CEFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "謝謝您的惠顧。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "8B1D8B1D60A8768460E09867300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "那樣道具目前缺貨。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "90A36A239053517776EE524D7F3A8CA8300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "要將您選好的商品\n放回原處嗎？<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 2952,
+      "rawDecodedUtf16Hex": "89815C0760A89078597D7684554654C1000A653E56DE539F865555CEFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "您的錢不夠喔。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "60A8768493224E0D59205594300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "哎呀，您身上似乎\n已經放不下了喔。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "54CE5440FF0C60A88EAB4E0A4F3C4E4E000A5DF27D93653E4E0D4E0B4E865594300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "歡迎光臨。\n請慢慢選購。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 3060,
+      "rawDecodedUtf16Hex": "6B618FCE514981E83002000A8ACB6162616290788CFC300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "要繼續購物嗎？<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "89817E7C7E8C8CFC726955CEFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "謝謝光臨。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "8B1D8B1D514981E8300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "我再送<U+0010><U+0002>ȁ<U+0000>個紀念球給您！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 3136,
+      "rawDecodedUtf16Hex": "6211518D90010010000202010000500B7D005FF574037D6660A8FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "要幫您把現在選的商品\n放回去嗎？<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 3168,
+      "rawDecodedUtf16Hex": "89815E6B60A8628A73FE572890787684554654C1000A653E56DE53BB55CEFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "您的超級碎片似乎不夠。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 3208,
+      "rawDecodedUtf16Hex": "60A876848D857D1A788E72474F3C4E4E4E0D5920300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "您身上似乎已經\n放不下任何道具了。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 3240,
+      "rawDecodedUtf16Hex": "60A88EAB4E0A4F3C4E4E5DF27D93000A653E4E0D4E0B4EFB4F55905351774E86300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "這個道具目前沒有存貨。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 3284,
+      "rawDecodedUtf16Hex": "9019500B9053517776EE524D6C9267095B588CA8300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "需要幫您把選好的道具\n放回去嗎？<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 3316,
+      "rawDecodedUtf16Hex": "970089815E6B60A8628A9078597D768490535177000A653E56DE53BB55CEFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳的彩色螺絲不夠吧～<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 3356,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B376845F69827287BA7D724E0D59205427FF5E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳已經拿不下了吧～<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 3396,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B35DF27D9362FF4E0D4E0B4E865427FF5E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "這個<U+0010><U+0003>ᄀÿā你妳早就有了吧～<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "9019500B00100003110000FF01014F6059B365E95C3167094E865427FF5E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "要不要把<U+0010><U+0003>ᄀÿā你妳選的玩偶\n放回去啊～？<U+0010><U+0001>븁",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "89814E0D8981628A00100003110000FF01014F6059B39078768473A95076000A653E56DE53BB554AFF5EFF1F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 3528,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3540,
+  "sectionOffset": 16,
+  "textCount": 124,
+  "textSectionCount": 1
+}

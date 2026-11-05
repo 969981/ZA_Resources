@@ -1,0 +1,433 @@
+{
+  "declaredLength": 1092,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "请选择要交换的卡片。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "8BF7900962E989814EA4636276845361724730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000><U+0000>pt",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "00100003020400000000007000740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȅ<U+0000><U+0000>pt",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "002B00100003020400000000007000740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "+<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "002B001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "00100002010E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 440,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000><U+E34C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00100003020300000000E34C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "×<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>Ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 468,
+      "rawDecodedUtf16Hex": "00D70010000202010000002E00100002020000010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "没有奖金币",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "6CA16709595691D15E010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "继续",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "7EE77EED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000><U+E34B>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "0010000202010000E34B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "战胜了Ｚ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "621880DC4E86FF3A7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｙ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "621880DC4E86FF397EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｘ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "621880DC4E86FF387EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｗ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "621880DC4E86FF377EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｖ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 628,
+      "rawDecodedUtf16Hex": "621880DC4E86FF367EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｕ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "621880DC4E86FF357EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｔ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "621880DC4E86FF347EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｓ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "621880DC4E86FF337EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｒ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "621880DC4E86FF327EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｑ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "621880DC4E86FF317EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｐ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "621880DC4E86FF307EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｏ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2F7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｎ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2E7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｍ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2D7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｌ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2C7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｋ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2B7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｊ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 868,
+      "rawDecodedUtf16Hex": "621880DC4E86FF2A7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｉ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "621880DC4E86FF297EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｈ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "621880DC4E86FF287EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｇ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "621880DC4E86FF277EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｆ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "621880DC4E86FF267EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｅ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "621880DC4E86FF257EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｄ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "621880DC4E86FF247EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｃ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "621880DC4E86FF237EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ｂ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "621880DC4E86FF227EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了Ａ级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "621880DC4E86FF217EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "战胜了∞级别的对手",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "621880DC4E86221E7EA7522B76845BF9624B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1092,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

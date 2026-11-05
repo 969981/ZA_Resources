@@ -1,0 +1,53 @@
+{
+  "declaredLength": 336,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "这个机器以前是\n被作为记录机来使用的。<U+0010><U+0001>븀\n不过最近它被用到了<U+0010><U+0001>븀\n野生特区的调查上。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "8FD94E2A673A56684EE5524D662F000A88AB4F5C4E3A8BB05F55673A67654F7F75287684300200100001BE00000A4E0D8FC767008FD15B8388AB752852304E8600100001BE00000A91CE751F7279533A76848C0367E54E0A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "宝可梦是有雌雄之分的，\n然后还有性别不明的种类。<U+0010><U+0001>븁\n有些宝可梦的样子，\n会因雌雄而有所不同哦。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "5B9D53EF68A6662F670996CC96C44E4B52067684FF0C000A7136540E8FD867096027522B4E0D660E768479CD7C7B300200100001BE01000A67094E9B5B9D53EF68A6768468375B50FF0C000A4F1A56E096CC96C4800C670962404E0D540C54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "如果想和宝可梦变亲密，\n和它相处在一起是最好的方法。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "5982679C60F3548C5B9D53EF68A653D84EB25BC6FF0C000A548C5B8376F8590457284E008D77662F6700597D768465B96CD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "生活在城市里到底会给宝可梦\n带来什么样的影响呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "751F6D3B572857CE5E0291CC52305E954F1A7ED95B9D53EF68A6000A5E2667654EC04E48683776845F7154CD5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 336,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

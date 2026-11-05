@@ -1,0 +1,113 @@
+{
+  "declaredLength": 548,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Anda! ¡<U+0010><U+0002>Ă<U+0000> está evolucionando!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "00A10041006E006400610021002000A10010000201020000002000650073007400E1002000650076006F006C007500630069006F006E0061006E0064006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¿Eh? ¡La evolución de <U+0010><U+0002>Ă<U+0000> se ha\ndetenido!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "00100002BD06000000BF00450068003F002000A1004C0061002000650076006F006C00750063006900F3006E00200064006500200010000201020000002000730065002000680061000A0064006500740065006E00690064006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡Genial! ¡<U+0010><U+0002>Ă<U+0000> ha evolucionado a\n<U+0010><U+0002>ā<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00100002BD06000000A100470065006E00690061006C0021002000A10010000201020000002000680061002000650076006F006C007500630069006F006E00610064006F00200061000A0010000201010001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡<U+0010><U+0002>Ă<U+0000> ha aprendido\n<U+0010><U+0002>ć<U+0001>!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "00100002BD06000000A1001000020102000000200068006100200061007000720065006E006400690064006F000A0010000201070001002100100002BE05000400100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡<U+0010><U+0002>Ă<U+0000> ahora puede usar\n<U+0010><U+0002>ć<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 416,
+      "rawDecodedUtf16Hex": "00100002BD06000000A10010000201020000002000610068006F0072006100200070007500650064006500200075007300610072000A0010000201070001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 548,
+  "sectionOffset": 16,
+  "textCount": 10,
+  "textSectionCount": 1
+}

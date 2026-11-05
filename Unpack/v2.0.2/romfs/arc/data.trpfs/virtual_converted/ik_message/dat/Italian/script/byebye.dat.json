@@ -1,0 +1,133 @@
+{
+  "declaredLength": 1420,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Al binario c’è un treno diretto all’aeroporto.\nVuoi andartene da Luminopoli?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0041006C002000620069006E006100720069006F00200063201900E800200075006E0020007400720065006E006F0020006400690072006500740074006F00200061006C006C2019006100650072006F0070006F00720074006F002E000A00560075006F006900200061006E00640061007200740065006E00650020006400610020004C0075006D0069006E006F0070006F006C0069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "No, voglio rimanere!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "004E006F002C00200076006F0067006C0069006F002000720069006D0061006E00650072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Au revoir, Luminopoli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C0020004C0075006D0069006E006F0070006F006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Salendo su questo treno abbandonerai <U+0010><U+0002>Ƌ<U+0001>\ne gli altri tuoi amici. Sei sicur<U+0010><U+0003>ᄀÿāoa di voler partire?",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00530061006C0065006E0064006F002000730075002000710075006500730074006F0020007400720065006E006F00200061006200620061006E0064006F006E0065007200610069002000100002018B0001000A006500200067006C006900200061006C007400720069002000740075006F006900200061006D006900630069002E002000530065006900200073006900630075007200100003110000FF0101006F006100200064006900200076006F006C0065007200200070006100720074006900720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "No, meglio rimanere!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "004E006F002C0020006D00650067006C0069006F002000720069006D0061006E00650072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Au revoir, Luminopoli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C0020004C0075006D0069006E006F0070006F006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Forse sarebbe meglio rimanere a Luminopoli\ne risolvere le questioni in sospeso...<U+0010><U+0001>븀\nSei davvero sicur<U+0010><U+0003>ᄀÿāoa di volertene andare?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "0046006F007200730065002000730061007200650062006200650020006D00650067006C0069006F002000720069006D0061006E006500720065002000610020004C0075006D0069006E006F0070006F006C0069000A00650020007200690073006F006C00760065007200650020006C00650020007100750065007300740069006F006E006900200069006E00200073006F0073007000650073006F002E002E002E00100001BE00000A0053006500690020006400610076007600650072006F00200073006900630075007200100003110000FF0101006F006100200064006900200076006F006C0065007200740065006E006500200061006E0064006100720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "No, meglio rimanere!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "004E006F002C0020006D00650067006C0069006F002000720069006D0061006E00650072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Au revoir, Luminopoli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C0020004C0075006D0069006E006F0070006F006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Sali sul treno alla volta dell’aeroporto, lasciandoti\nalle spalle i tuoi amici e i problemi ancora irrisolti.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "00530061006C0069002000730075006C0020007400720065006E006F00200061006C006C006100200076006F006C00740061002000640065006C006C2019006100650072006F0070006F00720074006F002C0020006C00610073006300690061006E0064006F00740069000A0061006C006C00650020007300700061006C006C006500200069002000740075006F006900200061006D0069006300690020006500200069002000700072006F0062006C0065006D006900200061006E0063006F00720061002000690072007200690073006F006C00740069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Au revoir, Luminopoli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C0020004C0075006D0069006E006F0070006F006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Ti risvegli all’improvviso. Devi esserti appisolat<U+0010><U+0003>ᄀÿāoa\nsu una panchina!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1268,
+      "rawDecodedUtf16Hex": "005400690020007200690073007600650067006C006900200061006C006C20190069006D00700072006F0076007600690073006F002E0020004400650076006900200065007300730065007200740069002000610070007000690073006F006C0061007400100003110000FF0101006F0061000A0073007500200075006E0061002000700061006E006300680069006E006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1420,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

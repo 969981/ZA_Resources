@@ -1,0 +1,73 @@
+{
+  "declaredLength": 184,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00100002BDFF000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "街歩きヒント",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "88576B69304D30D230F330C80000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "操作ガイド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "64CD4F5C30AC30A430C9000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "オプション",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "30AA30D730B730E730F3000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00100002BDFF000400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "とじる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "30683058308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 184,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

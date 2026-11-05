@@ -1,0 +1,573 @@
+{
+  "declaredLength": 5868,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Greetings. I have been expecting you.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "004700720065006500740069006E00670073002E00200049002000680061007600650020006200650065006E00200065007800700065006300740069006E006700200079006F0075002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Lady Jacinthe is waiting for you. Please come to\nthe Society of Battle Connoisseurs battling area.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "004C0061006400790020004A006100630069006E007400680065002000690073002000770061006900740069006E006700200066006F007200200079006F0075002E00200050006C006500610073006500200063006F006D006500200074006F000A00740068006500200053006F006300690065007400790020006F006600200042006100740074006C006500200043006F006E006E006F006900730073006500750072007300200062006100740074006C0069006E006700200061007200650061002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Let me spell it out for you—go downstairs.<U+0010><U+0001>븁\nAs you well know, nothing good can come from\nkeeping Lady Jacinthe waiting.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "004C006500740020006D00650020007300700065006C006C0020006900740020006F0075007400200066006F007200200079006F007520140067006F00200064006F0077006E007300740061006900720073002E00100001BE01000A0041007300200079006F0075002000770065006C006C0020006B006E006F0077002C0020006E006F007400680069006E006700200067006F006F0064002000630061006E00200063006F006D0065002000660072006F006D000A006B0065006500700069006E00670020004C0061006400790020004A006100630069006E007400680065002000770061006900740069006E0067002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 126
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "My dear <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "004D00790020006400650061007200200010000201000000002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "You have my sincerest thanks for requesting the\nInfinite Z-A Royale to be held as your reward for<U+0010><U+0001>븀\nreaching Rank A.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0059006F0075002000680061007600650020006D0079002000730069006E0063006500720065007300740020007400680061006E006B007300200066006F0072002000720065007100750065007300740069006E00670020007400680065000A0049006E00660069006E0069007400650020005A002D004100200052006F00790061006C006500200074006F002000620065002000680065006C006400200061007300200079006F00750072002000720065007700610072006400200066006F007200100001BE00000A007200650061006300680069006E0067002000520061006E006B00200041002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 122
+    },
+    {
+      "displayText": "In fact, it delighted me so much that I decided to\nhold a tournament of my own! It is called...<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "0049006E00200066006100630074002C002000690074002000640065006C0069006700680074006500640020006D006500200073006F0020006D00750063006800200074006800610074002000490020006400650063006900640065006400200074006F000A0068006F006C00640020006100200074006F00750072006E0061006D0065006E00740020006F00660020006D00790020006F0077006E0021002000490074002000690073002000630061006C006C00650064002E002E002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Le Super-Tournoi de Jacinthe O!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "004C0065002000530075007000650072002D0054006F00750072006E006F00690020006400650020004A006100630069006E0074006800650020004F002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Care to guess what the <U+0010><U+0002>＀<U+0006>O<U+0010><U+0002>＀<U+0000> stands for,\n<U+0010><U+0002>Ā<U+0000>?<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "00100002BD060000004300610072006500200074006F002000670075006500730073002000770068006100740020007400680065002000100002FF000006004F00100002FF0000000020007300740061006E0064007300200066006F0072002C000A0010000201000000003F00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Out-of-this-world?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "004F00750074002D006F0066002D0074006800690073002D0077006F0072006C0064003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Oasis?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "004F0061007300690073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Only?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "004F006E006C0079003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Ordinary?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "004F007200640069006E006100720079003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Alors, incorrect! My tournaments are already out\nof this world, so adding that would be redundant.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "0041006C006F00720073002C00200069006E0063006F0072007200650063007400210020004D007900200074006F00750072006E0061006D0065006E00740073002000610072006500200061006C007200650061006400790020006F00750074000A006F00660020007400680069007300200077006F0072006C0064002C00200073006F00200061006400640069006E00670020007400680061007400200077006F0075006C006400200062006500200072006500640075006E00640061006E0074002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Ah, a good guess! I am an oasis of beauty and\ncharm, but that is not the intended meaning.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "00410068002C0020006100200067006F006F006400200067007500650073007300210020004900200061006D00200061006E0020006F00610073006900730020006F0066002000620065006100750074007900200061006E0064000A0063006800610072006D002C0020006200750074002000740068006100740020006900730020006E006F0074002000740068006500200069006E00740065006E0064006500640020006D00650061006E0069006E0067002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Correct! Splendid!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2180,
+      "rawDecodedUtf16Hex": "0043006F007200720065006300740021002000530070006C0065006E006400690064002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "As if any one of my endeavors could be described\nas ordinary!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2228,
+      "rawDecodedUtf16Hex": "0041007300200069006600200061006E00790020006F006E00650020006F00660020006D007900200065006E0064006500610076006F0072007300200063006F0075006C00640020006200650020006400650073006300720069006200650064000A006100730020006F007200640069006E006100720079002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "This is a tournament between “only” you and me.\nThus, Le Super-Tournoi de Jacinthe O!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "00540068006900730020006900730020006100200074006F00750072006E0061006D0065006E00740020006200650074007700650065006E0020201C006F006E006C0079201D00200079006F007500200061006E00640020006D0065002E000A0054006800750073002C0020004C0065002000530075007000650072002D0054006F00750072006E006F00690020006400650020004A006100630069006E0074006800650020004F002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "No matter how many battles you win, your next\nopponent will always be me!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "004E006F0020006D0061007400740065007200200068006F00770020006D0061006E007900200062006100740074006C0065007300200079006F0075002000770069006E002C00200079006F007500720020006E006500780074000A006F00700070006F006E0065006E0074002000770069006C006C00200061006C00770061007900730020006200650020006D0065002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Furthermore, you may face me as many times as\nyou like, whether or not you manage to win the<U+0010><U+0001>븀\nentire tournament!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2696,
+      "rawDecodedUtf16Hex": "0046007500720074006800650072006D006F00720065002C00200079006F00750020006D00610079002000660061006300650020006D00650020006100730020006D0061006E0079002000740069006D00650073002000610073000A0079006F00750020006C0069006B0065002C002000770068006500740068006500720020006F00720020006E006F007400200079006F00750020006D0061006E00610067006500200074006F002000770069006E002000740068006500100001BE00000A0065006E007400690072006500200074006F00750072006E0061006D0065006E0074002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "So, do you understand now?<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "0053006F002C00200064006F00200079006F007500200075006E006400650072007300740061006E00640020006E006F0077003F00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Of course",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 3000,
+      "rawDecodedUtf16Hex": "004F006600200063006F00750072007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Not really",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "004E006F00740020007200650061006C006C00790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Oh, using an O in your reply! How clever of you,\n<U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 3044,
+      "rawDecodedUtf16Hex": "004F0068002C0020007500730069006E006700200061006E0020004F00200069006E00200079006F007500720020007200650070006C0079002100200048006F007700200063006C00650076006500720020006F006600200079006F0075002C000A0010000201000000002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Honestly! As much as I know you love the sound\nof my voice, that is no way to keep me talking.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3164,
+      "rawDecodedUtf16Hex": "0048006F006E006500730074006C007900210020004100730020006D007500630068002000610073002000490020006B006E006F007700200079006F00750020006C006F00760065002000740068006500200073006F0075006E0064000A006F00660020006D007900200076006F006900630065002C002000740068006100740020006900730020006E006F002000770061007900200074006F0020006B0065006500700020006D0065002000740061006C006B0069006E0067002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "Now, let us begin. I am certain you will fully\nappreciate my brilliance once you experience it!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "004E006F0077002C0020006C0065007400200075007300200062006500670069006E002E0020004900200061006D0020006300650072007400610069006E00200079006F0075002000770069006C006C002000660075006C006C0079000A00610070007000720065006300690061007400650020006D00790020006200720069006C006C00690061006E006300650020006F006E0063006500200079006F007500200065007800700065007200690065006E00630065002000690074002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Let the tournament begin!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3564,
+      "rawDecodedUtf16Hex": "004C00650074002000740068006500200074006F00750072006E0061006D0065006E007400200062006500670069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Another time, maybe",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3616,
+      "rawDecodedUtf16Hex": "0041006E006F0074006800650072002000740069006D0065002C0020006D00610079006200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "A word of advice: it would be wise to battle Lady\nJacinthe as soon as you can.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 3656,
+      "rawDecodedUtf16Hex": "004100200077006F007200640020006F00660020006100640076006900630065003A00200069007400200077006F0075006C00640020006200650020007700690073006500200074006F00200062006100740074006C00650020004C006100640079000A004A006100630069006E00740068006500200061007300200073006F006F006E00200061007300200079006F0075002000630061006E002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3824,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Alors, what a shame...<U+0010><U+0001>븁\nBut I do hope you will try again another time.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 3836,
+      "rawDecodedUtf16Hex": "0041006C006F00720073002C00200077006800610074002000610020007300680061006D0065002E002E002E00100001BE01000A0042007500740020004900200064006F00200068006F0070006500200079006F0075002000770069006C006C002000740072007900200061006700610069006E00200061006E006F0074006800650072002000740069006D0065002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3992,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "A most heartfelt congratulations on your victory.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 4004,
+      "rawDecodedUtf16Hex": "00410020006D006F0073007400200068006500610072007400660065006C007400200063006F006E00670072006100740075006C006100740069006F006E00730020006F006E00200079006F0075007200200076006900630074006F00720079002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Allow me to heal your Pokémon.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 4112,
+      "rawDecodedUtf16Hex": "0041006C006C006F00770020006D006500200074006F0020006800650061006C00200079006F0075007200200050006F006B00E9006D006F006E002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "I will be your opponent in the next battle as well.\nAre you ready to begin?<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4184,
+      "rawDecodedUtf16Hex": "0049002000770069006C006C00200062006500200079006F007500720020006F00700070006F006E0065006E007400200069006E00200074006800650020006E00650078007400200062006100740074006C0065002000610073002000770065006C006C002E000A00410072006500200079006F007500200072006500610064007900200074006F00200062006500670069006E003F00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "I’m ready to do this!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 4344,
+      "rawDecodedUtf16Hex": "00492019006D00200072006500610064007900200074006F00200064006F0020007400680069007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Give me a moment",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4388,
+      "rawDecodedUtf16Hex": "00470069007600650020006D0065002000610020006D006F006D0065006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿&",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4424,
+      "rawDecodedUtf16Hex": "00100002BDFF00260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "A most heartfelt congratulations on your victory.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 4436,
+      "rawDecodedUtf16Hex": "00410020006D006F0073007400200068006500610072007400660065006C007400200063006F006E00670072006100740075006C006100740069006F006E00730020006F006E00200079006F0075007200200076006900630074006F00720079002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Allow me to heal your Pokémon.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 4544,
+      "rawDecodedUtf16Hex": "0041006C006C006F00770020006D006500200074006F0020006800650061006C00200079006F0075007200200050006F006B00E9006D006F006E002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "I will be your opponent for the semifinal match as\nwell. Are you ready to begin?<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 4616,
+      "rawDecodedUtf16Hex": "0049002000770069006C006C00200062006500200079006F007500720020006F00700070006F006E0065006E007400200066006F00720020007400680065002000730065006D006900660069006E0061006C0020006D0061007400630068002000610073000A00770065006C006C002E002000410072006500200079006F007500200072006500610064007900200074006F00200062006500670069006E003F00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "I’m ready to do this!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 4788,
+      "rawDecodedUtf16Hex": "00492019006D00200072006500610064007900200074006F00200064006F0020007400680069007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Give me a moment",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "00470069007600650020006D0065002000610020006D006F006D0065006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4868,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "A most heartfelt congratulations on your victory.<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 45,
+      "offsetInSection": 4880,
+      "rawDecodedUtf16Hex": "00410020006D006F0073007400200068006500610072007400660065006C007400200063006F006E00670072006100740075006C006100740069006F006E00730020006F006E00200079006F0075007200200076006900630074006F00720079002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Allow me to heal your Pokémon.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 4988,
+      "rawDecodedUtf16Hex": "0041006C006C006F00770020006D006500200074006F0020006800650061006C00200079006F0075007200200050006F006B00E9006D006F006E002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "I will be your opponent for the final match as well.\nAre you ready to begin?<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 47,
+      "offsetInSection": 5060,
+      "rawDecodedUtf16Hex": "0049002000770069006C006C00200062006500200079006F007500720020006F00700070006F006E0065006E007400200066006F00720020007400680065002000660069006E0061006C0020006D0061007400630068002000610073002000770065006C006C002E000A00410072006500200079006F007500200072006500610064007900200074006F00200062006500670069006E003F00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "I’m ready to do this!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 48,
+      "offsetInSection": 5224,
+      "rawDecodedUtf16Hex": "00492019006D00200072006500610064007900200074006F00200064006F0020007400680069007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Give me a moment",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5268,
+      "rawDecodedUtf16Hex": "00470069007600650020006D0065002000610020006D006F006D0065006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5304,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Congratulations! You are the champion of Le\nSuper-Tournoi de Jacinthe O!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5316,
+      "rawDecodedUtf16Hex": "0043006F006E00670072006100740075006C006100740069006F006E0073002100200059006F0075002000610072006500200074006800650020006300680061006D00700069006F006E0020006F00660020004C0065000A00530075007000650072002D0054006F00750072006E006F00690020006400650020004A006100630069006E0074006800650020004F002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Now, to the victor goes the grandest prize of all...<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5472,
+      "rawDecodedUtf16Hex": "004E006F0077002C00200074006F002000740068006500200076006900630074006F007200200067006F0065007300200074006800650020006700720061006E00640065007300740020007000720069007A00650020006F006600200061006C006C002E002E002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "which is...<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5588,
+      "rawDecodedUtf16Hex": "00770068006900630068002000690073002E002E002E00100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "the right to battle me at any time, forever!<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5620,
+      "rawDecodedUtf16Hex": "00740068006500200072006900670068007400200074006F00200062006100740074006C00650020006D006500200061007400200061006E0079002000740069006D0065002C00200066006F00720065007600650072002100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Congratulations! From the bottom of my heart, I\ncommend your victory.<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5720,
+      "rawDecodedUtf16Hex": "0043006F006E00670072006100740075006C006100740069006F006E00730021002000460072006F006D002000740068006500200062006F00740074006F006D0020006F00660020006D0079002000680065006100720074002C00200049000A0063006F006D006D0065006E006400200079006F0075007200200076006900630074006F00720079002E00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5868,
+  "sectionOffset": 16,
+  "textCount": 56,
+  "textSectionCount": 1
+}

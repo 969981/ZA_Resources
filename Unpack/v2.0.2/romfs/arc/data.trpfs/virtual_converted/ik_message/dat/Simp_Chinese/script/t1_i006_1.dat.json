@@ -1,0 +1,73 @@
+{
+  "declaredLength": 332,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "代理所长她在3楼哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "4EE374066240957F597957280033697C54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "代理所长正在\n寻找协助者哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "4EE374066240957F6B635728000A5BFB627E534F52A9800554E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "宝可梦最多能\n同时带6只。<U+0010><U+0001>븁\n在带了6只时捉到的\n宝可梦会被送到盒子里。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "5B9D53EF68A66700591A80FD000A540C65F65E26003653EA300200100001BE01000A57285E264E86003653EA65F6634952307684000A5B9D53EF68A64F1A88AB9001523076D25B5091CC30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "你可以领回寄放在菜单中的\n盒子里的宝可梦哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "4F6053EF4EE5988656DE5BC4653E572883DC53554E2D7684000A76D25B5091CC76845B9D53EF68A654E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "久违地回到密阿雷市一看，\n不但博士辞职了，城市也改头换面了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "4E458FDD573056DE52305BC6963F96F75E024E00770BFF0C000A4E0D4F46535A58EB8F9E804C4E86FF0C57CE5E024E5F65395934636297624E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "欢迎！这里是\n宝可梦研究所。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "6B228FCEFF018FD991CC662F000A5B9D53EF68A678147A76624030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 332,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

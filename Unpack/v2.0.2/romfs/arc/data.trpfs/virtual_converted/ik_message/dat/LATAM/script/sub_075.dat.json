@@ -1,0 +1,233 @@
+{
+  "declaredLength": 2552,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡¡Por favor, que alguien me ayude!!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00A100A10050006F00720020006600610076006F0072002C002000710075006500200061006C0067007500690065006E0020006D00650020006100790075006400650021002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Rayos! ¡Me volvió a pasar!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00A1005200610079006F00730021002000A1004D006500200076006F006C0076006900F300200061002000700061007300610072002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "¡Sáquenme de aquí!<U+0010><U+0001>븁\n¡Debe haber algún ataque Pokémon que sea lo\nsuficientemente fuerte para romper esta maraña!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00A1005300E1007100750065006E006D0065002000640065002000610071007500ED002100100001BE01000A00A1004400650062006500200068006100620065007200200061006C006700FA006E002000610074006100710075006500200050006F006B00E9006D006F006E002000710075006500200073006500610020006C006F000A0073007500660069006300690065006E00740065006D0065006E0074006500200066007500650072007400650020007000610072006100200072006F006D007000650072002000650073007400610020006D00610072006100F10061002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "Alguien se quedó atrapado en un saco de hilo\nde Pokémon.<U+0010><U+0001>븁\nUsa un movimiento Pokémon con suficiente\npotencia para romper el hilo y rescatarlo.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "0041006C0067007500690065006E0020007300650020007100750065006400F300200061007400720061007000610064006F00200065006E00200075006E0020007300610063006F002000640065002000680069006C006F000A0064006500200050006F006B00E9006D006F006E002E00100001BE01000A00550073006100200075006E0020006D006F00760069006D00690065006E0074006F00200050006F006B00E9006D006F006E00200063006F006E00200073007500660069006300690065006E00740065000A0070006F00740065006E0063006900610020007000610072006100200072006F006D00700065007200200065006C002000680069006C006F00200079002000720065007300630061007400610072006C006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 144
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Usa un movimiento más fuerte, por favor!<U+0010><U+0001>븁\nSi quieres comprobar la fuerza de un movimiento,\nabre el menú principal, selecciona al Pokémon<U+0010><U+0001>븀\ny elige \"Gestionar movimientos\".<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "00A100550073006100200075006E0020006D006F00760069006D00690065006E0074006F0020006D00E100730020006600750065007200740065002C00200070006F00720020006600610076006F0072002100100001BE01000A005300690020007100750069006500720065007300200063006F006D00700072006F0062006100720020006C006100200066007500650072007A006100200064006500200075006E0020006D006F00760069006D00690065006E0074006F002C000A006100620072006500200065006C0020006D0065006E00FA0020007000720069006E0063006900700061006C002C002000730065006C0065006300630069006F006E006100200061006C00200050006F006B00E9006D006F006E00100001BE00000A007900200065006C0069006700650020002200470065007300740069006F006E006100720020006D006F00760069006D00690065006E0074006F00730022002E00100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 180
+    },
+    {
+      "displayText": "¡Uf, menos mal!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "00A100550066002C0020006D0065006E006F00730020006D0061006C0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "¡Me salvaste el pellejo! ¡Gracias por ayudarme!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00A1004D0065002000730061006C0076006100730074006500200065006C002000700065006C006C0065006A006F0021002000A1004700720061006300690061007300200070006F00720020006100790075006400610072006D00650021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "¿Qué te pasó?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740065002000700061007300F3003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "¿Quién te hizo eso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1416,
+      "rawDecodedUtf16Hex": "00BF00510075006900E9006E002000740065002000680069007A006F002000650073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Fueron ellos.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "0046007500650072006F006E00200065006C006C006F0073002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Estos tres son mis Spinarak.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "004500730074006F00730020007400720065007300200073006F006E0020006D006900730020005300700069006E006100720061006B002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Siempre me hacen lo mismo cuando se enojan.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "005300690065006D0070007200650020006D006500200068006100630065006E0020006C006F0020006D00690073006D006F0020006300750061006E0064006F00200073006500200065006E006F006A0061006E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "¡Narak!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "00A1004E006100720061006B00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Rompí sin querer el nido que habían\nconstruido y no les hizo mucha gracia.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "0052006F006D007000ED002000730069006E002000710075006500720065007200200065006C0020006E00690064006F0020007100750065002000680061006200ED0061006E000A0063006F006E007300740072007500690064006F002000790020006E006F0020006C00650073002000680069007A006F0020006D00750063006800610020006700720061006300690061002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "De repente, tenía a los tres encima enredándome\nen su hilo.<U+0010><U+0001>븁\nPero fue un accidente, no era para que\nse pusieran así...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "0044006500200072006500700065006E00740065002C002000740065006E00ED0061002000610020006C006F00730020007400720065007300200065006E00630069006D006100200065006E00720065006400E1006E0064006F006D0065000A0065006E002000730075002000680069006C006F002E00100001BE01000A005000650072006F002000660075006500200075006E0020006100630063006900640065006E00740065002C0020006E006F0020006500720061002000700061007200610020007100750065000A0073006500200070007500730069006500720061006E00200061007300ED002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "¡Na, narak!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "00A1004E0061002C0020006E006100720061006B00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "¡Bueno, está bien! ¡Perdón!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2108,
+      "rawDecodedUtf16Hex": "00A1004200750065006E006F002C002000650073007400E10020006200690065006E0021002000A1005000650072006400F3006E0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Aunque... podríamos darle un mejor uso a todo\nese hilo que producen.<U+0010><U+0001>븁\n¡Podríamos armar un negocio de cuerdas\ny redes, y nos forramos!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "00410075006E007100750065002E002E002E00200070006F0064007200ED0061006D006F00730020006400610072006C006500200075006E0020006D0065006A006F0072002000750073006F0020006100200074006F0064006F000A006500730065002000680069006C006F0020007100750065002000700072006F0064007500630065006E002E00100001BE01000A00A10050006F0064007200ED0061006D006F0073002000610072006D0061007200200075006E0020006E00650067006F00630069006F00200064006500200063007500650072006400610073000A0079002000720065006400650073002C002000790020006E006F007300200066006F007200720061006D006F00730021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 140
+    },
+    {
+      "displayText": "¡Bueno, bueno! ¡No dije nada! ¡No se enojen!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "00A1004200750065006E006F002C0020006200750065006E006F0021002000A1004E006F002000640069006A00650020006E0061006400610021002000A1004E006F00200073006500200065006E006F006A0065006E0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2552,
+  "sectionOffset": 16,
+  "textCount": 22,
+  "textSectionCount": 1
+}

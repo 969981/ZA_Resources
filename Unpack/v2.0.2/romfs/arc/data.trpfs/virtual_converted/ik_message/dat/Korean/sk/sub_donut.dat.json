@@ -1,0 +1,103 @@
+{
+  "declaredLength": 356,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "꼴깍몬에게 도넛을 주겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "AF34AE4DBAACC5D0AC8C0020B3C4B11BC7440020C8FCACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "준다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "C900B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "우물우물... 꼴깍!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "C6B0BB3CC6B0BB3C002E002E002E0020AF34AE4D00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "도넛을 더 주겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "B3C4B11BC7440020B3540020C8FCACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "가지고 있는 도넛이 없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "AC00C9C0ACE00020C788B2940020B3C4B11BC7740020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "꼴깍몬은 매우 만족스러운 듯하다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "AF34AE4DBAACC7400020B9E4C6B00020B9CCC871C2A4B7ECC6B40020B4EFD558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "꼴깍몬으로부터\n<U+0010><U+0002>ĉ<U+0002><U+0010><U+0002>ᤀ<U+0002> 받았다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "AF34AE4DBAACC73CB85CBD80D130000A001000020109000200100002190000020020BC1BC558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "그 도넛은 꼴깍몬 손님에게 줄 수 없어요.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "ADF80020B3C4B11BC7400020AF34AE4DBAAC0020C190B2D8C5D0AC8C0020C9040020C2180020C5C6C5B4C694002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 356,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

@@ -1,0 +1,53 @@
+{
+  "declaredLength": 608,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Il se passe quelque chose à la Tour Prismatique.\nEnvoyez nos équipes !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "0049006C0020007300650020007000610073007300650020007100750065006C007100750065002000630068006F00730065002000E00020006C006100200054006F0075007200200050007200690073006D006100740069007100750065002E000A0045006E0076006F00790065007A0020006E006F0073002000E9007100750069007000650073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Nous devons résoudre les problèmes qui affectent\nIllumis. C’est notre responsabilité !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "004E006F007500730020006400650076006F006E00730020007200E90073006F00750064007200650020006C00650073002000700072006F0062006C00E8006D00650073002000710075006900200061006600660065006300740065006E0074000A0049006C006C0075006D00690073002E0020004320190065007300740020006E006F00740072006500200072006500730070006F006E0073006100620069006C0069007400E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Vous devez trouver quelqu’un qui maîtrise\nparfaitement la Méga-Évolution.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "0056006F0075007300200064006500760065007A002000740072006F00750076006500720020007100750065006C0071007520190075006E00200071007500690020006D006100EE00740072006900730065000A00700061007200660061006900740065006D0065006E00740020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Notre train arrivera bientôt en gare d’Illumis Sud.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "004E006F00740072006500200074007200610069006E0020006100720072006900760065007200610020006200690065006E007400F4007400200065006E002000670061007200650020006420190049006C006C0075006D006900730020005300750064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 608,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

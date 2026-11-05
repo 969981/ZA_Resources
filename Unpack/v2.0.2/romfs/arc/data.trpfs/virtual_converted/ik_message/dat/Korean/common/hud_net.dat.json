@@ -1,0 +1,283 @@
+{
+  "declaredLength": 2148,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "온라인",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "C628B77CC7780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "오프라인",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "C624D504B77CC7780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "통신 중...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "D1B5C2E00020C911002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "인터넷에 접속하기 위한\n설정을 진행합니다.<U+0010><U+0001>븁\n설정이 완료되면 리포트를 작성합니다.\n괜찮겠습니까?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "C778D130B137C5D00020C811C18DD558AE300020C704D55C000AC124C815C7440020C9C4D589D569B2C8B2E4002E00100001BE01000AC124C815C7740020C644B8CCB418BA740020B9ACD3ECD2B8B97C0020C791C131D569B2C8B2E4002E000AAD1CCC2EACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "인터넷 접속에\n필요한 설정을 완료했습니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 368,
+      "rawDecodedUtf16Hex": "C778D130B1370020C811C18DC5D0000AD544C694D55C0020C124C815C7440020C644B8CCD588C2B5B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "접속하고 있습니다.\n잠시 기다려 주십시오...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "C811C18DD558ACE00020C788C2B5B2C8B2E4002E000AC7A0C2DC0020AE30B2E4B8240020C8FCC2EDC2DCC624002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "리포트를 작성하고 있습니다.\n잠시 기다려 주십시오...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "B9ACD3ECD2B8B97C0020C791C131D558ACE00020C788C2B5B2C8B2E4002E000AC7A0C2DC0020AE30B2E4B8240020C8FCC2EDC2DCC624002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "인터넷에 접속했습니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "C778D130B137C5D00020C811C18DD588C2B5B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "인터넷 접속을 종료합니다.\n괜찮겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "C778D130B1370020C811C18DC7440020C885B8CCD569B2C8B2E4002E000AAD1CCC2EACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "통신을 종료하고 있습니다.\n잠시 기다려 주십시오...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "D1B5C2E0C7440020C885B8CCD558ACE00020C788C2B5B2C8B2E4002E000AC7A0C2DC0020AE30B2E4B8240020C8FCC2EDC2DCC624002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "인터넷 접속을 종료했습니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "C778D130B1370020C811C18DC7440020C885B8CCD588C2B5B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "리포트를 작성하고 있습니다.\n전원을 끄지 않도록 해 주십시오...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "B9ACD3ECD2B8B97C0020C791C131D558ACE00020C788C2B5B2C8B2E4002E000AC804C6D0C7440020B044C9C00020C54AB3C4B85D0020D5740020C8FCC2EDC2DCC624002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "예",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "C6080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "아니요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "C544B2C8C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "지난 온라인 플레이가\n정상적으로 종료되지 않았습니다.<U+0010><U+0001>븁\n인터넷 접속을\n플레이 도중에 끊으면<U+0010><U+0001>븁\n다른 플레이어에게\n피해를 끼치게 됩니다.<U+0010><U+0001>븁\n이와 같은 행동을 여러 번 반복하면\n한동안 온라인 플레이를<U+0010><U+0001>븀\n할 수 없게 되는 경우가 있으니<U+0010><U+0001>븀\n통신 환경을 확인해 주십시오.",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "C9C0B09C0020C628B77CC7780020D50CB808C774AC00000AC815C0C1C801C73CB85C0020C885B8CCB418C9C00020C54AC558C2B5B2C8B2E4002E00100001BE01000AC778D130B1370020C811C18DC744000AD50CB808C7740020B3C4C911C5D00020B04AC73CBA7400100001BE01000AB2E4B9780020D50CB808C774C5B4C5D0AC8C000AD53CD574B97C0020B07CCE58AC8C0020B429B2C8B2E4002E00100001BE01000AC774C6400020AC19C7400020D589B3D9C7440020C5ECB7EC0020BC880020BC18BCF5D558BA74000AD55CB3D9C5480020C628B77CC7780020D50CB808C774B97C00100001BE00000AD5600020C2180020C5C6AC8C0020B418B2940020ACBDC6B0AC000020C788C73CB2C800100001BE00000AD1B5C2E00020D658ACBDC7440020D655C778D5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 156
+    },
+    {
+      "displayText": "지난 온라인 플레이를\n정상적으로 종료하지 않아<U+0010><U+0001>븁\n인터넷에 접속할 수 없습니다.<U+0010><U+0001>븁\n통신 환경을 확인하고\n<U+0010><U+0002>ȁ<U+0000>분 후에 다시 한번 시도해 주십시오.<U+0010><U+0001>븁",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "C9C0B09C0020C628B77CC7780020D50CB808C774B97C000AC815C0C1C801C73CB85C0020C885B8CCD558C9C00020C54AC54400100001BE01000AC778D130B137C5D00020C811C18DD5600020C2180020C5C6C2B5B2C8B2E4002E00100001BE01000AD1B5C2E00020D658ACBDC7440020D655C778D558ACE0000A0010000202010000BD840020D6C4C5D00020B2E4C2DC0020D55CBC880020C2DCB3C4D5740020C8FCC2EDC2DCC624002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1288,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "통신하지 못했습니다.\n다시 한번 시도해 주십시오.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "D1B5C2E0D558C9C00020BABBD588C2B5B2C8B2E4002E000AB2E4C2DC0020D55CBC880020C2DCB3C4D5740020C8FCC2EDC2DCC624002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "통신하지 못했습니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "D1B5C2E0D558C9C00020BABBD588C2B5B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "인터넷으로\n전환했습니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1424,
+      "rawDecodedUtf16Hex": "C778D130B137C73CB85C000AC804D658D588C2B5B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "로컬 통신으로\n전환했습니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "B85CCEEC0020D1B5C2E0C73CB85C000AC804D658D588C2B5B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "온라인으로 플레이하는 도중\n통신 에러가 발생하거나 본체 전원이 꺼지면\n한동안 인터넷에\n접속할 수 없게 될 수 있습니다.\n\n본체 배터리의 잔량과\n통신에 문제가 없는지 확인해 주십시오.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "C628B77CC778C73CB85C0020D50CB808C774D558B2940020B3C4C911000AD1B5C2E00020C5D0B7ECAC000020BC1CC0DDD558AC70B0980020BCF8CCB40020C804C6D0C7740020AEBCC9C0BA74000AD55CB3D9C5480020C778D130B137C5D0000AC811C18DD5600020C2180020C5C6AC8C0020B4200020C2180020C788C2B5B2C8B2E4002E000A000ABCF8CCB40020BC30D130B9ACC7580020C794B7C9ACFC000AD1B5C2E0C5D00020BB38C81CAC000020C5C6B294C9C00020D655C778D5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "지난 온라인 플레이가\n정상적으로 종료되지 않았습니다.\n인터넷 접속을\n플레이 도중에 끊으면\n다른 플레이어에게\n피해를 끼치게 됩니다.\n이와 같은 행동을 여러 번 반복하면\n한동안 온라인 플레이를\n할 수 없게 되는 경우가 있으니\n통신 환경을 확인해 주십시오.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1704,
+      "rawDecodedUtf16Hex": "C9C0B09C0020C628B77CC7780020D50CB808C774AC00000AC815C0C1C801C73CB85C0020C885B8CCB418C9C00020C54AC558C2B5B2C8B2E4002E000AC778D130B1370020C811C18DC744000AD50CB808C7740020B3C4C911C5D00020B04AC73CBA74000AB2E4B9780020D50CB808C774C5B4C5D0AC8C000AD53CD574B97C0020B07CCE58AC8C0020B429B2C8B2E4002E000AC774C6400020AC19C7400020D589B3D9C7440020C5ECB7EC0020BC880020BC18BCF5D558BA74000AD55CB3D9C5480020C628B77CC7780020D50CB808C774B97C000AD5600020C2180020C5C6AC8C0020B418B2940020ACBDC6B0AC000020C788C73CB2C8000AD1B5C2E00020D658ACBDC7440020D655C778D5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "지난 온라인 플레이를\n정상적으로 종료하지 않아\n인터넷에 접속할 수 없습니다.\n통신 환경을 확인하고\n<U+0010><U+0002>ȁ<U+0000>분 후에 다시 한번 시도해 주십시오.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "C9C0B09C0020C628B77CC7780020D50CB808C774B97C000AC815C0C1C801C73CB85C0020C885B8CCD558C9C00020C54AC544000AC778D130B137C5D00020C811C18DD5600020C2180020C5C6C2B5B2C8B2E4002E000AD1B5C2E00020D658ACBDC7440020D655C778D558ACE0000A0010000202010000BD840020D6C4C5D00020B2E4C2DC0020D55CBC880020C2DCB3C4D5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2148,
+  "sectionOffset": 16,
+  "textCount": 27,
+  "textSectionCount": 1
+}

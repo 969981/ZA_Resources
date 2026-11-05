@@ -1,0 +1,33 @@
+{
+  "declaredLength": 356,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "To access this area, you need to purchase and\ndownload the Mega Dimension DLC.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0054006F00200061006300630065007300730020007400680069007300200061007200650061002C00200079006F00750020006E00650065006400200074006F00200070007500720063006800610073006500200061006E0064000A0064006F0077006E006C006F0061006400200074006800650020004D006500670061002000440069006D0065006E00730069006F006E00200044004C0043002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "To accept this side mission, you need to purchase\nand download the Mega Dimension DLC.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0054006F002000610063006300650070007400200074006800690073002000730069006400650020006D0069007300730069006F006E002C00200079006F00750020006E00650065006400200074006F002000700075007200630068006100730065000A0061006E006400200064006F0077006E006C006F0061006400200074006800650020004D006500670061002000440069006D0065006E00730069006F006E00200044004C0043002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 356,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

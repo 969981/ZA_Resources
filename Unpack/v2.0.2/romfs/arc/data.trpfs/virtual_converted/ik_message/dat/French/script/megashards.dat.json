@@ -1,0 +1,53 @@
+{
+  "declaredLength": 252,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Voulez-vous échanger vos Méga-Fragments\ncontre des objets ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F00750073002000E9006300680061006E00670065007200200076006F00730020004D00E900670061002D0046007200610067006D0065006E00740073000A0063006F006E00740072006500200064006500730020006F0062006A0065007400730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Oui, s’il vous plaît !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004F00750069002C0020007320190069006C00200076006F0075007300200070006C006100EE0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Non merci.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004E006F006E0020006D0065007200630069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "À bientôt !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "00C00020006200690065006E007400F40074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 252,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

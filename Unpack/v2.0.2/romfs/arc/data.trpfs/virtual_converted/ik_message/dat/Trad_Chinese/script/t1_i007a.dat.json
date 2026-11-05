@@ -1,0 +1,23 @@
+{
+  "declaredLength": 68,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "像是一名博士的人物的肖像畫。\n畫作本身似乎年代久遠。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "50CF662F4E00540D535A58EB76844EBA72697684809650CF756B3002000A756B4F5C672C8EAB4F3C4E4E5E744EE34E45906030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 68,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

@@ -1,0 +1,143 @@
+{
+  "declaredLength": 264,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lv. ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "004C0076002E00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": " Cal.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "002000430061006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "0010000302030000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "0010000302040000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0001>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "0010000302040001002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "pts",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "0070007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0002>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "0010000302040002002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Hyperspace Task",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "00480079007000650072007300700061006300650020005400610073006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 264,
+  "sectionOffset": 16,
+  "textCount": 13,
+  "textSectionCount": 1
+}

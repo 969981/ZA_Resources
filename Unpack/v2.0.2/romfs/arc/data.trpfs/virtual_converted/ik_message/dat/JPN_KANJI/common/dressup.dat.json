@@ -1,0 +1,1133 @@
+{
+  "declaredLength": 8804,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "おこづかい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "304A30533065304B3044000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000><U+0000>円",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "0010000302060000000051860000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "－ <U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "FF0D00200010000302060000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "HAIR SALON",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "0048004100490052002000530041004C004F004E00000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "サロン・ド・ロージュ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "30B530ED30F330FB30C930FB30ED30FC30B830E500000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "MAKEUP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "004D0041004B0045005500500000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "DRESS UP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "00440052004500530053002000550050000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "HAIR COLOR",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1136,
+      "rawDecodedUtf16Hex": "004800410049005200200043004F004C004F005200000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "購入済み",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "8CFC51656E08307F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "この髪型は前髪を変更できません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "3053306E9AEA578B306F524D9AEA3092590966F43067304D307E305B30930000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 16,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "持っていません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "6301306330663044307E305B309300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "なし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1296,
+      "rawDecodedUtf16Hex": "306A3057000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "どのカラーにしますか？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "3069306E30AB30E930FC306B3057307E3059304BFF1F000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "どれと組み合わせますか？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "3069308C30687D44307F5408308F305B307E3059304BFF1F0000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "sold out",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "0073006F006C00640020006F00750074000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "メッシュとグラデーションは同時に設定できません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "30E130C330B730E5306830B030E930C730FC30B730E730F3306F540C6642306B8A2D5B9A3067304D307E305B3093000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "ほくろは２つまで設定可能です",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "307B304F308D306FFF123064307E30678A2D5B9A53EF80FD30673059000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "決定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "6C7A5B9A000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "もどる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "30823069308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "はずす",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "306F305A30590000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "元にもどす",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "5143306B308230693059000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "カラーリセット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "30AB30E930FC30EA30BB30C330C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "並び順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "4E26307398060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "とじる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "30683058308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "変更",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "590966F4000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "メイクへ移動",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "30E130A430AF307879FB52D50000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "着替えへ移動",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1788,
+      "rawDecodedUtf16Hex": "774066FF3048307879FB52D50000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "目",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "76EE00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "カラーコンタクト",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1824,
+      "rawDecodedUtf16Hex": "30AB30E930FC30B330F330BF30AF30C8000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "まつ毛",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "307E30646BDB0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "まつ毛の色",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "307E30646BDB306E8272000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "眉毛",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "77096BDB000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "00100002BDFF002100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "眉毛の色",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "77096BDB306E827200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "口",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "53E300000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "リップカラー",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1960,
+      "rawDecodedUtf16Hex": "30EA30C330D730AB30E930FC0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "ほくろ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "307B304F308D0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "そばかす",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "305D3070304B305900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "髪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "9AEA00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "肌",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "808C00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "髪型",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "9AEA578B000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "前髪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "524D9AEA000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "髪の色",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "9AEA306E82720000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "メッシュ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "30E130C330B730E500000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "グラデーション",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "30B030E930C730FC30B730E730F300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "クマ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "30AF30DE000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "オールインワン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "30AA30FC30EB30A430F330EF30F300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "トップス",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "30C830C330D730B900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ボトムス",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2196,
+      "rawDecodedUtf16Hex": "30DC30C830E030B900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ヘッドギア",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "30D830C330C930AE30A2000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "アイウェア",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "30A230A430A630A730A2000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "グローブ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "30B030ED30FC30D600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "レッグウェア",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "30EC30C330B030A630A730A20000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "フットウェア",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "30D530C330C830A630A730A20000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "ポーチ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "30DD30FC30C10000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "耳飾り",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "803398FE308A0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "デフォルト",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "30C730D530A930EB30C8000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "新規順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "65B0898F98060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "未購入順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "672A8CFC5165980600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "やめると<U+0010>\t！<U+0002><U+0004>変更へんこう変更が<U+0010>\t！<U+0002><U+0004>反映はんえい反映されません\n<U+0010><U+0007>！<U+0002><U+0002>着替きが着替え／メイクを<U+0010><U+0006>！<U+0001><U+0002>続つづ続けますか？",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2432,
+      "rawDecodedUtf16Hex": "30843081308B306800100009FF0100020004590966F43078309330533046590966F4304C00100009FF010002000453CD6620306F30933048304453CD66203055308C307E305B3093000A00100007FF0100020002774066FF304D304C774066FF3048FF0F30E130A430AF309200100006FF01000100027D9A306430657D9A3051307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 69,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "この<U+0010>\t！<U+0002><U+0004>内容ないよう内容で<U+0010>\t！<U+0002><U+0004>決定けってい決定しますか？",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "3053306E00100009FF010002000451855BB9306A30443088304651855BB9306700100009FF01000200046C7A5B9A30513063306630446C7A5B9A3057307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>変更へんこう変更していませんが\n<U+0010><U+0007>！<U+0002><U+0002>着替きが着替え／メイクをやめますか？",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "00100009FF0100020004590966F43078309330533046590966F4305730663044307E305B3093304C000A00100007FF0100020002774066FF304D304C774066FF3048FF0F30E130A430AF309230843081307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 45,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "00100002BDFF003F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "この<U+0010>\t！<U+0002><U+0004>変更へんこう変更でいいですか？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3048,
+      "rawDecodedUtf16Hex": "3053306E00100009FF0100020004590966F43078309330533046590966F430673044304430673059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>変更へんこう変更を<U+0010><U+0006>！<U+0001><U+0002>続つづ続けますか？",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3140,
+      "rawDecodedUtf16Hex": "00100009FF0100020004590966F43078309330533046590966F4309200100006FF01000100027D9A306430657D9A3051307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "この<U+0010>\t！<U+0002><U+0004>髪色かみいろ髪色でいいですか？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3256,
+      "rawDecodedUtf16Hex": "3053306E00100009FF01000200049AEA8272304B307F3044308D9AEA827230673044304430673059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>髪色かみいろ髪色の<U+0010>\t！<U+0002><U+0004>変更へんこう変更を<U+0010><U+0006>！<U+0001><U+0002>続つづ続けますか？",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3348,
+      "rawDecodedUtf16Hex": "00100009FF01000200049AEA8272304B307F3044308D9AEA8272306E00100009FF0100020004590966F43078309330533046590966F4309200100006FF01000100027D9A306430657D9A3051307E3059304BFF1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "この<U+0010><U+0005>！<U+0001><U+0001>見み見た<U+0010><U+0005>！<U+0001><U+0001>目め目でいいですか？",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3520,
+      "rawDecodedUtf16Hex": "3053306E00100005FF0100010001898B307F898B305F00100005FF010001000176EE308176EE30673044304430673059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 27,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0005>！<U+0001><U+0001>見み見た<U+0010><U+0005>！<U+0001><U+0001>目め目の<U+0010>\t！<U+0002><U+0004>変更へんこう変更を<U+0010><U+0006>！<U+0001><U+0002>続つづ続けますか？",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3628,
+      "rawDecodedUtf16Hex": "00100005FF0100010001898B307F898B305F00100005FF010001000176EE308176EE306E00100009FF0100020004590966F43078309330533046590966F4309200100006FF01000100027D9A306430657D9A3051307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 47,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "やめると<U+0010>\t！<U+0002><U+0004>変更へんこう変更が<U+0010>\t！<U+0002><U+0004>反映はんえい反映されません\n<U+0010><U+0007>！<U+0002><U+0002>着替きが着替え／メイクを<U+0010><U+0006>！<U+0001><U+0002>続つづ続けますか？",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3816,
+      "rawDecodedUtf16Hex": "30843081308B306800100009FF0100020004590966F43078309330533046590966F4304C00100009FF010002000453CD6620306F30933048304453CD66203055308C307E305B3093000A00100007FF0100020002774066FF304D304C774066FF3048FF0F30E130A430AF309200100006FF01000100027D9A306430657D9A3051307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 69,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "<U+0010><U+0007>！<U+0002><U+0002>着替きが着替えアイテムのカラーを\nデフォルトに<U+0010><U+0006>！<U+0001><U+0002>戻もど戻しますか？",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 4092,
+      "rawDecodedUtf16Hex": "00100007FF0100020002774066FF304D304C774066FF304830A230A430C630E0306E30AB30E930FC3092000A30C730D530A930EB30C8306B00100006FF0100010002623B30823069623B3057307E3059304BFF1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 4264,
+      "rawDecodedUtf16Hex": "00100002BDFF004800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 4284,
+      "rawDecodedUtf16Hex": "00100002BDFF004900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "この<U+0010>\t！<U+0002><U+0004>内容ないよう内容で<U+0010>\t！<U+0002><U+0004>決定けってい決定しますか？",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4304,
+      "rawDecodedUtf16Hex": "3053306E00100009FF010002000451855BB9306A30443088304651855BB9306700100009FF01000200046C7A5B9A30513063306630446C7A5B9A3057307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>変更へんこう変更していませんが\n<U+0010><U+0007>！<U+0002><U+0002>着替きが着替え／メイクをやめますか？",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4444,
+      "rawDecodedUtf16Hex": "00100009FF0100020004590966F43078309330533046590966F4305730663044307E305B3093304C000A00100007FF0100020002774066FF304D304C774066FF3048FF0F30E130A430AF309230843081307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 45,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "はい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4624,
+      "rawDecodedUtf16Hex": "306F3044000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "いいえ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4636,
+      "rawDecodedUtf16Hex": "3044304430480000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿N",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4652,
+      "rawDecodedUtf16Hex": "00100002BDFF004E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0006>！<U+0001><U+0002>続つづ続ける",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4672,
+      "rawDecodedUtf16Hex": "00100006FF01000100027D9A306430657D9A3051308B000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4720,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0006>！<U+0001><U+0002>続つづ続ける",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4736,
+      "rawDecodedUtf16Hex": "00100006FF01000100027D9A306430657D9A3051308B000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4784,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0006>！<U+0001><U+0002>続つづ続ける",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4800,
+      "rawDecodedUtf16Hex": "00100006FF01000100027D9A306430657D9A3051308B000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4848,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿U",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4864,
+      "rawDecodedUtf16Hex": "00100002BDFF005500000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿V",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4884,
+      "rawDecodedUtf16Hex": "00100002BDFF005600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿W",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4904,
+      "rawDecodedUtf16Hex": "00100002BDFF005700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "いらっしゃいませ\n<U+0010><U+0002>ą<U+0000>へようこそ！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4924,
+      "rawDecodedUtf16Hex": "304430893063305730833044307E305B000A00100002010500003078308830463053305DFF0100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "まだお<U+0010><U+0005>！<U+0001><U+0001>買か買いものをしていきますか？",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 5004,
+      "rawDecodedUtf16Hex": "307E3060304A00100005FF01000100018CB7304B8CB730443082306E3092305730663044304D307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "ありがとうございました\nまた<U+0010><U+0005>！<U+0001><U+0001>来き来てくださいね！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 5100,
+      "rawDecodedUtf16Hex": "3042308A304C30683046305430563044307E3057305F000A307E305F00100005FF01000100016765304D67653066304F306030553044306DFF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000><U+0000><U+0010><U+0006>！<U+0001><U+0002>円えん円になりますが\n<U+0010>\n！<U+0002><U+0005>購入こうにゅう購入しますか？",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 5220,
+      "rawDecodedUtf16Hex": "0010000302060000000000100006FF01000100025186304830935186306B306A308A307E3059304C000A0010000AFF01000200058CFC516530533046306B308530468CFC51653057307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 41,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "さっそく<U+0010><U+0007>！<U+0002><U+0002>着替きが着替えますか？",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 5384,
+      "rawDecodedUtf16Hex": "30553063305D304F00100007FF0100020002774066FF304D304C774066FF3048307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 21,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "こちらのアイテムは\nすでに<U+0010><U+000C>！<U+0003><U+0006>購入済こうにゅうず購入済みです",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 5468,
+      "rawDecodedUtf16Hex": "305330613089306E30A230A430C630E0306F000A30593067306B0010000CFF01000300068CFC51656E0830533046306B30853046305A8CFC51656E08307F306730590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "<U+0010><U+0006>！<U+0001><U+0002>申もう申し<U+0010><U+0006>！<U+0001><U+0002>訳わけ訳ありません\nお<U+0010><U+0006>！<U+0001><U+0002>金かね金が<U+0010><U+0005>！<U+0001><U+0001>足た足りないようです……",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 5604,
+      "rawDecodedUtf16Hex": "00100006FF01000100027533308230467533305700100006FF01000100028A33308F30518A333042308A307E305B3093000A304A00100006FF010001000291D1304B306D91D1304C00100005FF01000100018DB3305F8DB3308A306A3044308830463067305920262026000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 54,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "ヘアサロンへようこそ！\n<U+0010>\t！<U+0002><U+0004>本日ほんじつ本日はどうなさいますか？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 5820,
+      "rawDecodedUtf16Hex": "30D830A230B530ED30F33078308830463053305DFF01000A00100009FF0100020004672C65E5307B309330583064672C65E5306F30693046306A30553044307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 36,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "どんな<U+0010><U+0006>！<U+0001><U+0002>風ふう風に<U+0010><U+0005>！<U+0001><U+0001>変か変えるか\nもう<U+0010><U+0006>！<U+0001><U+0002>少すこ少し<U+0010>\t！<U+0002><U+0004>検討けんとう検討なされますか？",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 5964,
+      "rawDecodedUtf16Hex": "30693093306A00100006FF010001000298A83075304698A8306B00100005FF01000100015909304B59093048308B304B000A3082304600100006FF01000100025C11305930535C11305700100009FF0100020004691C8A0E3051309330683046691C8A0E306A3055308C307E3059304BFF1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 58,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "ご<U+0010>\t！<U+0002><U+0004>来店らいてん来店ありがとうございました！\nまたお<U+0010><U+0005>！<U+0001><U+0001>越こ越しください",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 6196,
+      "rawDecodedUtf16Hex": "305400100009FF010002000467655E97308930443066309367655E973042308A304C30683046305430563044307E3057305FFF01000A307E305F304A00100005FF01000100018D8A30538D8A3057304F30603055304400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 44,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "<U+0010>\n！<U+0002><U+0005>料金りょうきん料金は<U+0010><U+0003>ȃ<U+0000><U+0000><U+0010><U+0006>！<U+0001><U+0002>円えん円になりますが\nこんな<U+0010><U+0006>！<U+0001><U+0002>感かん感じでよろしいですか？",
+      "escapedControlUnits": 15,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 6372,
+      "rawDecodedUtf16Hex": "0010000AFF0100020005659991D1308A30873046304D3093659991D1306F0010000302030000000000100006FF01000100025186304830935186306B306A308A307E3059304C000A30533093306A00100006FF0100010002611F304B3093611F305830673088308D3057304430673059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 59,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "どこも<U+0010><U+0005>！<U+0001><U+0001>変か変えていませんが\nこのままお<U+0010><U+0006>！<U+0001><U+0002>帰かえ帰りになりますか？",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 6608,
+      "rawDecodedUtf16Hex": "30693053308200100005FF01000100015909304B5909304830663044307E305B3093304C000A3053306E307E307E304A00100006FF01000100025E30304B30485E30308A306B306A308A307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 42,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0008>！<U+0002><U+0003>眉毛まゆげ眉毛のお<U+0010><U+0007>！<U+0002><U+0002>手入てい手入れは\nサービスですので<U+0010>\t！<U+0002><U+0004>無料むりょう無料ですよ",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 6776,
+      "rawDecodedUtf16Hex": "00100008FF010002000377096BDB307E3086305277096BDB306E304A00100007FF0100020002624B516530663044624B5165308C306F000A30B530FC30D330B930673059306E306700100009FF0100020004712165993080308A308730467121659930673059308800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 53,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "こちらでよろしいですか？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 6988,
+      "rawDecodedUtf16Hex": "30533061308930673088308D3057304430673059304BFF1F0000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "……あら？\nお<U+0010><U+0006>！<U+0001><U+0002>金かね金が<U+0010><U+0005>！<U+0001><U+0001>足た足りないようですね",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 7040,
+      "rawDecodedUtf16Hex": "2026202630423089FF1F000A304A00100006FF010001000291D1304B306D91D1304C00100005FF01000100018DB3305F8DB3308A306A30443088304630673059306D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "サロン・ド・ロージュへようこそ\n<U+0010>\t！<U+0002><U+0004>本日ほんじつ本日はどのようにいたしますか？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 7176,
+      "rawDecodedUtf16Hex": "30B530ED30F330FB30C930FB30ED30FC30B830E53078308830463053305D000A00100009FF0100020004672C65E5307B309330583064672C65E5306F3069306E30883046306B3044305F3057307E3059304BFF1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "お<U+0010><U+0007>！<U+0001><U+0003>客きゃく客さま\nもう<U+0010><U+0006>！<U+0001><U+0002>少すこ少し<U+0010>\t！<U+0002><U+0004>検討けんとう検討なされますか？",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 7348,
+      "rawDecodedUtf16Hex": "304A00100007FF01000100035BA2304D3083304F5BA23055307E000A3082304600100006FF01000100025C11305930535C11305700100009FF0100020004691C8A0E3051309330683046691C8A0E306A3055308C307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 47,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "ご<U+0010>\t！<U+0002><U+0004>来店らいてん来店いただきありがとうございます\nまたお<U+0010><U+0005>！<U+0001><U+0001>越こ越しください",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 7536,
+      "rawDecodedUtf16Hex": "305400100009FF010002000467655E97308930443066309367655E973044305F3060304D3042308A304C30683046305430563044307E3059000A307E305F304A00100005FF01000100018D8A30538D8A3057304F3060305530440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "お<U+0010><U+0006>！<U+0001><U+0002>代だい代として<U+0010><U+0003>ȃ<U+0000><U+0000><U+0010><U+0006>！<U+0001><U+0002>円えん円いただきますが\nこちらでよろしいですか？",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 7720,
+      "rawDecodedUtf16Hex": "304A00100006FF01000100024EE3306030444EE33068305730660010000302030000000000100006FF010001000251863048309351863044305F3060304D307E3059304C000A30533061308930673088308D3057304430673059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 48,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "どこも<U+0010><U+0005>！<U+0001><U+0001>変か変わっておりませんが……\n<U+0010>\t！<U+0002><U+0004>本日ほんじつ本日はお<U+0010><U+0006>！<U+0001><U+0002>帰かえ帰りになりますか？",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 7912,
+      "rawDecodedUtf16Hex": "30693053308200100005FF01000100015909304B5909308F30633066304A308A307E305B3093304C20262026000A00100009FF0100020004672C65E5307B309330583064672C65E5306F304A00100006FF01000100025E30304B30485E30308A306B306A308A307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 56,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "<U+0010><U+0006>！<U+0001><U+0002>眉まゆ眉のお<U+0010><U+0007>！<U+0002><U+0002>手入てい手入れは\nサービスとさせていただきます",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 8136,
+      "rawDecodedUtf16Hex": "00100006FF01000100027709307E30867709306E304A00100007FF0100020002624B516530663044624B5165308C306F000A30B530FC30D330B930683055305B30663044305F3060304D307E30590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 40,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "こちらで<U+0010><U+0007>！<U+0001><U+0003>整ととの整えてよろしいですか？",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 8296,
+      "rawDecodedUtf16Hex": "305330613089306700100007FF0100010003657430683068306E6574304830663088308D3057304430673059304BFF1F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "……おや？\nお<U+0010><U+0006>！<U+0001><U+0002>金かね金が<U+0010><U+0005>！<U+0001><U+0001>足た足りないようですね",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 8396,
+      "rawDecodedUtf16Hex": "20262026304A3084FF1F000A304A00100006FF010001000291D1304B306D91D1304C00100005FF01000100018DB3305F8DB3308A306A30443088304630673059306D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "<U+0010><U+0008>！<U+0002><U+0003>追加ついか追加コンテンツ<U+0010>\n！<U+0002><U+0005>購入こうにゅう購入により\n<U+0010>\t！<U+0002><U+0004>衣装いしょう衣装が<U+0010><U+0008>！<U+0002><U+0003>追加ついか追加されました！",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 8532,
+      "rawDecodedUtf16Hex": "00100008FF01000200038FFD52A030643044304B8FFD52A030B330F330C630F330C40010000AFF01000200058CFC516530533046306B308530468CFC5165306B3088308A000A00100009FF0100020004886388C53044305730873046886388C5304C00100008FF01000200038FFD52A030643044304B8FFD52A03055308C307E3057305FFF0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 68,
+      "utf16Units": 135
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 8804,
+  "sectionOffset": 16,
+  "textCount": 112,
+  "textSectionCount": 1
+}

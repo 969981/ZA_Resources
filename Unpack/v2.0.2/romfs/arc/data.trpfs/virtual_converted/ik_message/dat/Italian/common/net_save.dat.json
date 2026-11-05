@@ -1,0 +1,23 @@
+{
+  "declaredLength": 180,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "L’altro giocatore ha scelto di terminare\nlo scambio. Lo scambio verrà annullato.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "004C20190061006C00740072006F002000670069006F006300610074006F007200650020006800610020007300630065006C0074006F0020006400690020007400650072006D0069006E006100720065000A006C006F0020007300630061006D00620069006F002E0020004C006F0020007300630061006D00620069006F0020007600650072007200E000200061006E006E0075006C006C00610074006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 180,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

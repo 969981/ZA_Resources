@@ -1,0 +1,193 @@
+{
+  "declaredLength": 440,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "自动售货机！\n想喝的饮料是……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "81EA52A8552E8D27673AFF01000A60F3559D7684996E6599662F202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "美味之水<U+E300><U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "7F8E54734E4B6C34E30000100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "劲爽汽水<U+E300><U+0010><U+0002>Ȃ<U+0003>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "52B2723D6C7D6C34E30000100002020200030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "果汁牛奶<U+E300><U+0010><U+0002>Ȃ<U+0004>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "679C6C41725B5976E30000100002020200040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "要用零花钱，\n还是用LP付款？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "8981752896F682B194B1FF0C000A8FD8662F7528004C00504ED86B3EFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "零花钱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "96F682B194B10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "LP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "004C00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "取消",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "53D66D880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "……还是算了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "202620268FD8662F7B974E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "你已无法拿更多了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "4F605DF265E06CD562FF66F4591A4E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "钱不够！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "94B14E0D591FFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "LP不够！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "004C00504E0D591FFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001>掉出来了！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "0010000201090001638951FA67654E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "要再买1瓶吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "8981518D4E70003174F65417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "再买一瓶",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 416,
+      "rawDecodedUtf16Hex": "518D4E704E0074F60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "买别的商品",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "4E70522B7684554654C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 440,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

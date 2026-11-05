@@ -1,0 +1,963 @@
+{
+  "declaredLength": 4544,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Dummy Quest Name",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 764,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020005100750065007300740020004E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Dummy Quest description",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020005100750065007300740020006400650073006300720069007000740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Dummy goal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00440075006D006D007900200067006F0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> /<U+0010><U+0003>Ȅ<U+0001> ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "0010000302040000202F002F0010000302040001202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Wegweiser aktivieren",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "00570065006700770065006900730065007200200061006B0074006900760069006500720065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Wegweiser aktiv",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "00570065006700770065006900730065007200200061006B0074006900760000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "0010000302060000002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Belohnung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "00420065006C006F0068006E0075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nr. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1124,
+      "rawDecodedUtf16Hex": "004E0072002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Registriert!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "0052006500670069007300740072006900650072007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1172,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "Danke für deine Hilfe! Denk dran,\ndeine Belohnung anzunehmen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1208,
+      "rawDecodedUtf16Hex": "00440061006E006B00650020006600FC00720020006400650069006E0065002000480069006C006600650021002000440065006E006B0020006400720061006E002C000A006400650069006E0065002000420065006C006F0068006E0075006E006700200061006E007A0075006E00650068006D0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Ich habe dir einige neue\nForschungsaufgaben zugeteilt!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "004900630068002000680061006200650020006400690072002000650069006E0069006700650020006E006500750065000A0046006F00720073006300680075006E006700730061007500660067006100620065006E0020007A007500670065007400650069006C007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Maximanie-Ange-Floette",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "004D006100780069006D0061006E00690065002D0041006E00670065002D0046006C006F00650074007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "00100002010500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Fotomodus",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "0046006F0074006F006D006F0064007500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Aufstehen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1524,
+      "rawDecodedUtf16Hex": "00410075006600730074006500680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Café verlassen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "00430061006600E90020007600650072006C0061007300730065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Megamanie-Absol (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1576,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004100620073006F006C00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Megamanie-Lahmus (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004C00610068006D0075007300200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Megamanie-Camerupt (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00430061006D0065007200750070007400200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Sarzenia (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005300610072007A0065006E0069006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Bibor (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004200690062006F007200200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Megamanie-Resladero (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005200650073006C0061006400650072006F00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Megamanie-Banette (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00420061006E006500740074006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Megamanie-Ampharos (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0041006D0070006800610072006F007300200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Thanathora (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005400680061006E006100740068006F0072006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Megamanie-Flunkifer (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0046006C0075006E006B006900660065007200200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Megamanie-Frosdedje (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00460072006F0073006400650064006A006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Megamanie-Altaria (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0041006C0074006100720069006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Megamanie-Bisaflor (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00420069007300610066006C006F007200200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Dragoran (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0044007200610067006F00720061006E00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Despotar (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2420,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0044006500730070006F00740061007200200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Starmie (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2480,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0053007400610072006D0069006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Zygarde (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "005A00790067006100720064006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Zygarde (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "005A00790067006100720064006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Zygarde (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "005A00790067006100720064006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Absol Z",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004100620073006F006C0020005A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Staraptor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2696,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0053007400610072006100700074006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Megamanie-Nigiragi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2736,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004E00690067006900720061006700690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Psiaugon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2776,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005000730069006100750067006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Heatran",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004800650061007400720061006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Darkrai",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "004400610072006B0072006100690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Megamanie-Darkrai",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2868,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004400610072006B0072006100690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Groudon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "00470072006F00750064006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Megamanie-Proto-Groudon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2920,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00500072006F0074006F002D00470072006F00750064006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Kyogre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "004B0079006F0067007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Megamanie-Proto-Kyogre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00500072006F0074006F002D004B0079006F0067007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Rayquaza",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3032,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Megamanie-Rayquaza",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005200610079007100750061007A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Zeraora",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005A006500720061006F007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Absol",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3128,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004100620073006F006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Megamanie-Lahmus",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004C00610068006D007500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Megamanie-Camerupt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3196,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00430061006D006500720075007000740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Sarzenia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3236,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005300610072007A0065006E006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Bibor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3276,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004200690062006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Megamanie-Resladero",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3308,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005200650073006C0061006400650072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Megamanie-Banette",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3348,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00420061006E00650074007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Ampharos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0041006D0070006800610072006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Thanathora",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005400680061006E006100740068006F007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Megamanie-Flunkifer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3468,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0046006C0075006E006B00690066006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Megamanie-Frosdedje",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3508,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00460072006F0073006400650064006A00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Megamanie-Altaria",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3548,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0041006C007400610072006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Bisaflor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00420069007300610066006C006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Dragoran",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3624,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0044007200610067006F00720061006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Despotar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3664,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0044006500730070006F0074006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Starmie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3704,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0053007400610072006D006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Absol Z (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 3740,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004100620073006F006C0020005A00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Megamanie-Staraptor (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D0053007400610072006100700074006F007200200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Megamanie-Nigiragi (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 3864,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004E006900670069007200610067006900200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Psiaugon (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 3924,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005000730069006100750067006F006E00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Heatran (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 3984,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004800650061007400720061006E00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Darkrai (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4044,
+      "rawDecodedUtf16Hex": "004400610072006B00720061006900200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Darkrai (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4084,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D004400610072006B00720061006900200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Groudon (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4144,
+      "rawDecodedUtf16Hex": "00470072006F00750064006F006E00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Megamanie-Proto-Groudon (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4184,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00500072006F0074006F002D00470072006F00750064006F006E00200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Kyogre (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 4256,
+      "rawDecodedUtf16Hex": "004B0079006F00670072006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Megamanie-Proto-Kyogre (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 4292,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D00500072006F0074006F002D004B0079006F00670072006500200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Rayquaza (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 4360,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Megamanie-Rayquaza (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 4400,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005200610079007100750061007A006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Megamanie-Zeraora (Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 4460,
+      "rawDecodedUtf16Hex": "004D006500670061006D0061006E00690065002D005A006500720061006F0072006100200028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "(Lv. <U+0010><U+0002>Ȃ<U+0000>)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4520,
+      "rawDecodedUtf16Hex": "0028004C0076002E0020001000020202000000290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4544,
+  "sectionOffset": 16,
+  "textCount": 95,
+  "textSectionCount": 1
+}

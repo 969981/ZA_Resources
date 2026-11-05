@@ -1,0 +1,743 @@
+{
+  "declaredLength": 7184,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hé, toi ! T’es de la Team MZ, non ?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "004800E9002C00200074006F006900200021002000542019006500730020006400650020006C00610020005400650061006D0020004D005A002C0020006E006F006E0020003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Votre truc, c’est d’aider les gens, non ?\nEt bah moi, j’ai besoin d’aide, alors dis « OUI » !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "0056006F00740072006500200074007200750063002C002000632019006500730074002000642019006100690064006500720020006C00650073002000670065006E0073002C0020006E006F006E0020003F000A0045007400200062006100680020006D006F0069002C0020006A2019006100690020006200650073006F0069006E0020006420190061006900640065002C00200061006C006F007200730020006400690073002000AB0020004F00550049002000BB00200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "OUI !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "004F00550049002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Euh... oui... ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "004500750068002E002E002E0020006F00750069002E002E002E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Parfait !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "005000610072006600610069007400200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Écoute. Y a comme des hurlements qui viennent\ndes égouts, là.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "00C90063006F007500740065002E002000590020006100200063006F006D006D006500200064006500730020006800750072006C0065006D0065006E0074007300200071007500690020007600690065006E006E0065006E0074000A006400650073002000E90067006F007500740073002C0020006C00E0002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "J’pense qu’il faudrait que quelqu’un aille y jeter\nun œil, mais on m’a dit qu’il y avait des Pokémon<U+0010><U+0001>븀\nde type Spectre, là-dedans...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "004A201900700065006E0073006500200071007520190069006C00200066006100750064007200610069007400200071007500650020007100750065006C0071007520190075006E002000610069006C006C0065002000790020006A0065007400650072000A0075006E002001530069006C002C0020006D0061006900730020006F006E0020006D20190061002000640069007400200071007520190069006C00200079002000610076006100690074002000640065007300200050006F006B00E9006D006F006E00100001BE00000A006400650020007400790070006500200053007000650063007400720065002C0020006C00E0002D0064006500640061006E0073002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "Et vu qu’le boss dit que vous êtes forts, j’me suis\ndit que ce serait plus simple de vous demander.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "004500740020007600750020007100752019006C006500200062006F007300730020006400690074002000710075006500200076006F00750073002000EA00740065007300200066006F007200740073002C0020006A2019006D006500200073007500690073000A0064006900740020007100750065002000630065002000730065007200610069007400200070006C00750073002000730069006D0070006C006500200064006500200076006F00750073002000640065006D0061006E006400650072002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Mais va pas croire que c’est parce que\nj’ai les jetons, OK ?!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "004D0061006900730020007600610020007000610073002000630072006F00690072006500200071007500650020006320190065007300740020007000610072006300650020007100750065000A006A2019006100690020006C006500730020006A00650074006F006E0073002C0020004F004B0020003F0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "T’es fort<U+0010><U+0003>ᄀÿĀe, pas vrai ? Alors, aide-moi, steuplé !\nT’as qu’à te dire que c’est pour sauver la ville !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "005420190065007300200066006F0072007400100003110000FF01000065002C0020007000610073002000760072006100690020003F00200041006C006F00720073002C00200061006900640065002D006D006F0069002C002000730074006500750070006C00E900200021000A0054201900610073002000710075201900E000200074006500200064006900720065002000710075006500200063201900650073007400200070006F0075007200200073006100750076006500720020006C0061002000760069006C006C006500200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1904,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Allez, c’est le moment d’inspecter ces égouts !\nTu passes l<U+0010><U+0003>ᄀÿਉe premiera première, bien sûr !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "0041006C006C0065007A002C0020006320190065007300740020006C00650020006D006F006D0065006E00740020006420190069006E00730070006500630074006500720020006300650073002000E90067006F00750074007300200021000A0054007500200070006100730073006500730020006C00100003110000FF0A0900650020007000720065006D00690065007200610020007000720065006D006900E800720065002C0020006200690065006E0020007300FB007200200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Et c’est pas parce que je balise, hein ! T’es plus\nfort<U+0010><U+0003>ᄀÿĀe que moi, c’est normal que tu passes devant !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 2116,
+      "rawDecodedUtf16Hex": "00450074002000632019006500730074002000700061007300200070006100720063006500200071007500650020006A0065002000620061006C006900730065002C0020006800650069006E002000210020005420190065007300200070006C00750073000A0066006F0072007400100003110000FF0100006500200071007500650020006D006F0069002C0020006320190065007300740020006E006F0072006D0061006C0020007100750065002000740075002000700061007300730065007300200064006500760061006E007400200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "Hmmm...\nJusqu’ici, tout va bien...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "0048006D006D006D002E002E002E000A004A00750073007100752019006900630069002C00200074006F007500740020007600610020006200690065006E002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "C’est quoi, ça ?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2420,
+      "rawDecodedUtf16Hex": "00432019006500730074002000710075006F0069002C002000E700610020003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "HIIIIIIII !!!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2464,
+      "rawDecodedUtf16Hex": "0048004900490049004900490049004900490020002100210021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Ces Pokémon semblent endormis...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2500,
+      "rawDecodedUtf16Hex": "00430065007300200050006F006B00E9006D006F006E002000730065006D0062006C0065006E007400200065006E0064006F0072006D00690073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "C’est des Tutankafer ! J’ai entendu des tas\nd’histoires flippantes à leur sujet...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2568,
+      "rawDecodedUtf16Hex": "00432019006500730074002000640065007300200054007500740061006E006B0061006600650072002000210020004A20190061006900200065006E00740065006E0064007500200064006500730020007400610073000A006420190068006900730074006F006900720065007300200066006C0069007000700061006E007400650073002000E00020006C006500750072002000730075006A00650074002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Genre, ils enfermeraient parfois des gens\nà l’intérieur de leur corps...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2744,
+      "rawDecodedUtf16Hex": "00470065006E00720065002C00200069006C007300200065006E006600650072006D00650072006100690065006E007400200070006100720066006F006900730020006400650073002000670065006E0073000A00E00020006C20190069006E007400E9007200690065007500720020006400650020006C00650075007200200063006F007200700073002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Vite, attaque-les ! Fais-les partir !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "0056006900740065002C00200061007400740061007100750065002D006C006500730020002100200046006100690073002D006C00650073002000700061007200740069007200200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Faut qu’on continue à explorer !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "00460061007500740020007100752019006F006E00200063006F006E00740069006E00750065002000E00020006500780070006C006F00720065007200200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 3060,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Feeeeer !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3072,
+      "rawDecodedUtf16Hex": "0046006500650065006500650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "L’intérieur de ce Tutankafer est vide...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "004C20190069006E007400E90072006900650075007200200064006500200063006500200054007500740061006E006B0061006600650072002000650073007400200076006900640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Le Tutankafer a disparu...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020006100200064006900730070006100720075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "La présence de Tutankafer est toujours\nperceptible dans les égouts...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3232,
+      "rawDecodedUtf16Hex": "004C006100200070007200E900730065006E0063006500200064006500200054007500740061006E006B0061006600650072002000650073007400200074006F0075006A006F007500720073000A007000650072006300650070007400690062006C0065002000640061006E00730020006C00650073002000E90067006F007500740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Feeeeer !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "0046006500650065006500650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "L’intérieur de ce Tutankafer est vide...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3404,
+      "rawDecodedUtf16Hex": "004C20190069006E007400E90072006900650075007200200064006500200063006500200054007500740061006E006B0061006600650072002000650073007400200076006900640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Le Tutankafer a disparu...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3488,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020006100200064006900730070006100720075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "La présence de Tutankafer est toujours\nperceptible dans les égouts...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3544,
+      "rawDecodedUtf16Hex": "004C006100200070007200E900730065006E0063006500200064006500200054007500740061006E006B0061006600650072002000650073007400200074006F0075006A006F007500720073000A007000650072006300650070007400690062006C0065002000640061006E00730020006C00650073002000E90067006F007500740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3684,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Feeeeer ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3696,
+      "rawDecodedUtf16Hex": "00460065006500650065006500720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "L’intérieur de ce Tutankafer est vide...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3716,
+      "rawDecodedUtf16Hex": "004C20190069006E007400E90072006900650075007200200064006500200063006500200054007500740061006E006B0061006600650072002000650073007400200076006900640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Le Tutankafer a disparu...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020006100200064006900730070006100720075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Avant de disparaître, il a laissé tomber\nquelque chose...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 3856,
+      "rawDecodedUtf16Hex": "004100760061006E00740020006400650020006400690073007000610072006100EE007400720065002C00200069006C002000610020006C006100690073007300E900200074006F006D006200650072000A007100750065006C007100750065002000630068006F00730065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "La présence de Tutankafer est toujours\nperceptible dans les égouts...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3972,
+      "rawDecodedUtf16Hex": "004C006100200070007200E900730065006E0063006500200064006500200054007500740061006E006B0061006600650072002000650073007400200074006F0075006A006F007500720073000A007000650072006300650070007400690062006C0065002000640061006E00730020006C00650073002000E90067006F007500740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4112,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Feeeeer ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4124,
+      "rawDecodedUtf16Hex": "00460065006500650065006500720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "L’intérieur de ce Tutankafer est vide...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4144,
+      "rawDecodedUtf16Hex": "004C20190069006E007400E90072006900650075007200200064006500200063006500200054007500740061006E006B0061006600650072002000650073007400200076006900640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Le Tutankafer a disparu...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4228,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020006100200064006900730070006100720075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Avant de disparaître, il a laissé tomber\nquelque chose...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 4284,
+      "rawDecodedUtf16Hex": "004100760061006E00740020006400650020006400690073007000610072006100EE007400720065002C00200069006C002000610020006C006100690073007300E900200074006F006D006200650072000A007100750065006C007100750065002000630068006F00730065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "La présence de Tutankafer est toujours\nperceptible dans les égouts...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4400,
+      "rawDecodedUtf16Hex": "004C006100200070007200E900730065006E0063006500200064006500200054007500740061006E006B0061006600650072002000650073007400200074006F0075006A006F007500720073000A007000650072006300650070007400690062006C0065002000640061006E00730020006C00650073002000E90067006F007500740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4540,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tan... ka...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4552,
+      "rawDecodedUtf16Hex": "00540061006E002E002E002E0020006B0061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Le Tutankafer s’est réveillé et n’a pas l’air\nde bonne humeur...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4580,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020007320190065007300740020007200E9007600650069006C006C00E90020006500740020006E2019006100200070006100730020006C2019006100690072000A0064006500200062006F006E006E0065002000680075006D006500750072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Feeeeeer !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4712,
+      "rawDecodedUtf16Hex": "0046006500650065006500650065007200200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Le Tutankafer est en colère et vous attaque !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4740,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B0061006600650072002000650073007400200065006E00200063006F006C00E80072006500200065007400200076006F0075007300200061007400740061007100750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Feeer...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4844,
+      "rawDecodedUtf16Hex": "00460065006500650072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "L’intérieur de ce Tutankafer est vide...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4864,
+      "rawDecodedUtf16Hex": "004C20190069006E007400E90072006900650075007200200064006500200063006500200054007500740061006E006B0061006600650072002000650073007400200076006900640065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Le Tutankafer a disparu...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4948,
+      "rawDecodedUtf16Hex": "004C006500200054007500740061006E006B00610066006500720020006100200064006900730070006100720075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Avant de disparaître, il a laissé tomber\nquelque chose...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 52,
+      "offsetInSection": 5004,
+      "rawDecodedUtf16Hex": "004100760061006E00740020006400650020006400690073007000610072006100EE007400720065002C00200069006C002000610020006C006100690073007300E900200074006F006D006200650072000A007100750065006C007100750065002000630068006F00730065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "La présence de Tutankafer est toujours\nperceptible dans les égouts...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5120,
+      "rawDecodedUtf16Hex": "004C006100200070007200E900730065006E0063006500200064006500200054007500740061006E006B0061006600650072002000650073007400200074006F0075006A006F007500720073000A007000650072006300650070007400690062006C0065002000640061006E00730020006C00650073002000E90067006F007500740073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5260,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mes yeux !!!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5272,
+      "rawDecodedUtf16Hex": "004D0065007300200079006500750078002000210021002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Tout va bien ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5308,
+      "rawDecodedUtf16Hex": "0054006F007500740020007600610020006200690065006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Que vous est-il arrivé ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "00510075006500200076006F007500730020006500730074002D0069006C00200061007200720069007600E90020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ha ha, vous allez rire...<U+0010><U+0001>븁\nQuand j’ai trouvé ce Tutankafer, un Pokémon si\nrare à Illumis, je n’ai pas pu m’empêcher de crier !<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5392,
+      "rawDecodedUtf16Hex": "00480061002000680061002C00200076006F0075007300200061006C006C0065007A00200072006900720065002E002E002E00100001BE01000A005100750061006E00640020006A201900610069002000740072006F0075007600E900200063006500200054007500740061006E006B0061006600650072002C00200075006E00200050006F006B00E9006D006F006E002000730069000A0072006100720065002000E000200049006C006C0075006D00690073002C0020006A00650020006E20190061006900200070006100730020007000750020006D20190065006D007000EA00630068006500720020006400650020006300720069006500720020002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "Mais je crois que le Tutankafer n’a pas trop\napprécié d’être dérangé...<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5660,
+      "rawDecodedUtf16Hex": "004D0061006900730020006A0065002000630072006F0069007300200071007500650020006C006500200054007500740061006E006B00610066006500720020006E201900610020007000610073002000740072006F0070000A006100700070007200E90063006900E900200064201900EA0074007200650020006400E900720061006E006700E9002E002E002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "... et il a fini par m’enfermer dans son corps !<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 5812,
+      "rawDecodedUtf16Hex": "002E002E002E00200065007400200069006C00200061002000660069006E006900200070006100720020006D20190065006E006600650072006D00650072002000640061006E007300200073006F006E00200063006F0072007000730020002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "C’était si confortable à l’intérieur que je me suis\nsenti partir dans un profond sommeil...<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 5920,
+      "rawDecodedUtf16Hex": "0043201900E9007400610069007400200073006900200063006F006E0066006F0072007400610062006C0065002000E00020006C20190069006E007400E90072006900650075007200200071007500650020006A00650020006D006500200073007500690073000A00730065006E007400690020007000610072007400690072002000640061006E007300200075006E002000700072006F0066006F006E006400200073006F006D006D00650069006C002E002E002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Merci infiniment de m’avoir sorti de là !<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6112,
+      "rawDecodedUtf16Hex": "004D006500720063006900200069006E00660069006E0069006D0065006E00740020006400650020006D201900610076006F0069007200200073006F0072007400690020006400650020006C00E00020002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Y a peut-être des gens enfermés dans\nces Tutankafer, tu crois pas ?<U+0010><U+0001>븀\nVite, il faut tous les trouver !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 63,
+      "offsetInSection": 6204,
+      "rawDecodedUtf16Hex": "00590020006100200070006500750074002D00EA0074007200650020006400650073002000670065006E007300200065006E006600650072006D00E90073002000640061006E0073000A00630065007300200054007500740061006E006B0061006600650072002C002000740075002000630072006F0069007300200070006100730020003F00100001BE00000A0056006900740065002C00200069006C0020006600610075007400200074006F007500730020006C00650073002000740072006F007500760065007200200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6420,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ouaaah...\nBien joué ! On a assuré !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 65,
+      "offsetInSection": 6432,
+      "rawDecodedUtf16Hex": "004F00750061006100610068002E002E002E000A004200690065006E0020006A006F007500E9002000210020004F006E0020006100200061007300730075007200E900200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "L’auteur de ces cris est sain et sauf, et on peut\ndire que c’est grâce à moi !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 6512,
+      "rawDecodedUtf16Hex": "004C201900610075007400650075007200200064006500200063006500730020006300720069007300200065007300740020007300610069006E00200065007400200073006100750066002C0020006500740020006F006E00200070006500750074000A0064006900720065002000710075006500200063201900650073007400200067007200E200630065002000E00020006D006F006900200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Et puis, je t’ai permis de sauver un habitant\nd’Illumis de plus ! C’est pas beau, ça ?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 67,
+      "offsetInSection": 6680,
+      "rawDecodedUtf16Hex": "0045007400200070007500690073002C0020006A0065002000742019006100690020007000650072006D00690073002000640065002000730061007500760065007200200075006E0020006800610062006900740061006E0074000A006420190049006C006C0075006D0069007300200064006500200070006C0075007300200021002000432019006500730074002000700061007300200062006500610075002C002000E700610020003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Tu peux vraiment me dire merci. Qu’est-ce que\nt’aurais fait si j’avais pas été là ? Ha ha !<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 6864,
+      "rawDecodedUtf16Hex": "005400750020007000650075007800200076007200610069006D0065006E00740020006D0065002000640069007200650020006D0065007200630069002E0020005100752019006500730074002D006300650020007100750065000A00742019006100750072006100690073002000660061006900740020007300690020006A2019006100760061006900730020007000610073002000E9007400E90020006C00E00020003F00200048006100200068006100200021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Derrière toi...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 7056,
+      "rawDecodedUtf16Hex": "0044006500720072006900E80072006500200074006F0069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Un Tutankafer !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 70,
+      "offsetInSection": 7088,
+      "rawDecodedUtf16Hex": "0055006E00200054007500740061006E006B0061006600650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Hein... ?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 7120,
+      "rawDecodedUtf16Hex": "004800650069006E002E002E002E0020003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "AAAAAAAAH !!!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 72,
+      "offsetInSection": 7148,
+      "rawDecodedUtf16Hex": "0041004100410041004100410041004100480020002100210021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7184,
+  "sectionOffset": 16,
+  "textCount": 73,
+  "textSectionCount": 1
+}

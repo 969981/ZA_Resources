@@ -1,0 +1,783 @@
+{
+  "declaredLength": 3104,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "情報を設定してください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "60C5583130928A2D5B9A30573066304F306030553044000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "決定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "6C7A5B9A000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "もどる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "30823069308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "開催する日を選んでください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "958B50AC3059308B65E53092907830933067304F30603055304400000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 14,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "開始時間を選んでください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "958B59CB664295933092907830933067304F3060305530440000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "終了時間を選んでください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "7D424E86664295933092907830933067304F3060305530440000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "１日に対戦できる回数を選んでください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 856,
+      "rawDecodedUtf16Hex": "FF1165E5306B5BFE62263067304D308B56DE65703092907830933067304F3060305530440000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "対戦時間のルールを選んでください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "5BFE622666429593306E30EB30FC30EB3092907830933067304F30603055304400000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 17,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "00100002BDFF000800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "00100002BDFF000900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "誰でもＯＫ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "8AB030673082FF2FFF2B000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ＩＤを知っている人だけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1064,
+      "rawDecodedUtf16Hex": "FF29FF24309277E5306330663044308B4EBA30603051000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "設定する",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "8A2D5B9A3059308B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "設定しない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "8A2D5B9A3057306A3044000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "もどる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "30823069308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1172,
+      "rawDecodedUtf16Hex": "00100002BDFF000F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "大会にエントリーできる人を\n設定してください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "59274F1A306B30A830F330C830EA30FC3067304D308B4EBA3092000A8A2D5B9A30573066304F30603055304400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>大会たいかい大会の<U+0010><U+0008>！<U+0002><U+0003>名前なまえ名前に\nサブタイトルを<U+0010>\t！<U+0002><U+0004>設定せってい設定しますか？",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00100009FF010002000459274F1A305F3044304B304459274F1A306E00100008FF0100020003540D524D306A307E3048540D524D306B000A30B530D630BF30A430C830EB309200100009FF01000200048A2D5B9A305B3063306630448A2D5B9A3057307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 54,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "大会の開催",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "59274F1A306E958B50AC000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "大会の名前",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1524,
+      "rawDecodedUtf16Hex": "59274F1A306E540D524D000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "0010000201AF000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "0010000201AF000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ルール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "30EB30FC30EB0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "00100002BDFF001700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "00100002BDFF001800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ノーマルルール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "30CE30FC30DE30EB30EB30FC30EB00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "バトルタワールール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1676,
+      "rawDecodedUtf16Hex": "30D030C830EB30BF30EF30FC30EB30FC30EB0000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "制限なし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "52369650306A305700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "00100002BDFF001C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1756,
+      "rawDecodedUtf16Hex": "0010000201D5000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "開催期間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "958B50AC671F959300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F001000020201000200200010000202010003003A001000020201000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "～",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "FF5E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F001000020201000200200010000202010003003A001000020201000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "参加できる人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "53C252A03067304D308B4EBA0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "誰でもＯＫ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "8AB030673082FF2FFF2B000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ＩＤを知っている人だけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "FF29FF24309277E5306330663044308B4EBA30603051000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "開催する",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "958B50AC3059308B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "注意！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "6CE8610FFF010000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "大会の開催を\n取り消すことはできません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "59274F1A306E958B50AC3092000A53D6308A6D88305930533068306F3067304D307E305B309300000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "対戦回数",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2228,
+      "rawDecodedUtf16Hex": "5BFE622656DE657000000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>回まで",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "001000020201000056DE307E306700000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "制限時間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "523696506642959300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "持ち時間　<U+0010><U+0002>ȁ<U+0000>分",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "630130616642959330000010000202010000520600000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "総合時間　<U+0010><U+0002>ȁ<U+0000>分",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "7DCF54086642959330000010000202010000520600000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "未設定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "672A8A2D5B9A0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2404,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F00100002020100020000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 16,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:00～",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "0010000202010001003A00300030FF5E000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:59",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2504,
+      "rawDecodedUtf16Hex": "0010000202010001003A0035003900000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "開催期間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "958B50AC671F959300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "00100002BDFF003200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "00100002BDFF003300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2596,
+      "rawDecodedUtf16Hex": "00100002BDFF003400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>回まで",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "001000020201000056DE307E306700000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "持ち時間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2648,
+      "rawDecodedUtf16Hex": "630130616642959300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "総合時間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "7DCF54086642959300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>分",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2688,
+      "rawDecodedUtf16Hex": "00100002020100005206000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>分",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2712,
+      "rawDecodedUtf16Hex": "00100002020100015206000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "無制限",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2736,
+      "rawDecodedUtf16Hex": "7121523696500000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "決定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2752,
+      "rawDecodedUtf16Hex": "6C7A5B9A000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "00100002BDFF003C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2784,
+      "rawDecodedUtf16Hex": "00100002BDFF003D00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "00100002BDFF003E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2824,
+      "rawDecodedUtf16Hex": "00100002BDFF003F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2844,
+      "rawDecodedUtf16Hex": "00100002BDFF004000000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "00100002BDFF004100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2884,
+      "rawDecodedUtf16Hex": "00100002BDFF004200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "00100002BDFF004300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "00100002BDFF004400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2944,
+      "rawDecodedUtf16Hex": "00100002BDFF004500000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "00100002BDFF004600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "00100002BDFF004700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3004,
+      "rawDecodedUtf16Hex": "00100002BDFF004800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3024,
+      "rawDecodedUtf16Hex": "00100002BDFF004900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3044,
+      "rawDecodedUtf16Hex": "00100002BDFF004A00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3064,
+      "rawDecodedUtf16Hex": "00100002BDFF004B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "00100002BDFF004C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3104,
+  "sectionOffset": 16,
+  "textCount": 77,
+  "textSectionCount": 1
+}

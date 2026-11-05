@@ -1,0 +1,2003 @@
+{
+  "declaredLength": 14508,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "지금 호텔Z에 있어?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "C9C0AE080020D638D154005AC5D00020C788C5B4003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "지금 호텔Z에 있어?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "C9C0AE080020D638D154005AC5D00020C788C5B4003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "맞아",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "B9DEC5440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "무슨 일 있어?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "BB34C2A80020C77C0020C788C5B4003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "내가 지금 퀘이사 주식회사에 있는데,\n방에 놓고 온 게 있어서 말이야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "B0B4AC000020C9C0AE080020D018C774C0AC0020C8FCC2DDD68CC0ACC5D00020C788B294B370002C000ABC29C5D00020B193ACE00020C6280020AC8C0020C788C5B4C11C0020B9D0C774C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "내가 지금 퀘이사 주식회사에 있는데,\n방에 놓고 온 게 있어서 말이야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "B0B4AC000020C9C0AE080020D018C774C0AC0020C8FCC2DDD68CC0ACC5D00020C788B294B370002C000ABC29C5D00020B193ACE00020C6280020AC8C0020C788C5B4C11C0020B9D0C774C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "비밀번호가 적힌 메모거든.<U+0010><U+0001>븁\n미안하지만, 메모를 찾아서\n비밀번호를 좀 불러 줘.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "BE44BC00BC88D638AC000020C801D78C0020BA54BAA8AC70B4E0002E00100001BE01000ABBF8C548D558C9C0B9CC002C0020BA54BAA8B97C0020CC3EC544C11C000ABE44BC00BC88D638B97C0020C8800020BD88B7EC0020C918002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "비밀번호가 적힌 메모거든.<U+0010><U+0001>븁\n미안하지만, 메모를 찾아서\n비밀번호를 좀 불러 줘.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "BE44BC00BC88D638AC000020C801D78C0020BA54BAA8AC70B4E0002E00100001BE01000ABBF8C548D558C9C0B9CC002C0020BA54BAA8B97C0020CC3EC544C11C000ABE44BC00BC88D638B97C0020C8800020BD88B7EC0020C918002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "내 방은 <U+0010><U+0002>＀<U+0006>201호실<U+0010><U+0002>＀<U+0000>인데,\n문은 안 잠겨 있을 거야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "B0B40020BC29C740002000100002FF000006003200300031D638C2E400100002FF000000C778B370002C000ABB38C7400020C5480020C7A0ACA80020C788C7440020AC70C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "내 방은 <U+0010><U+0002>＀<U+0006>201호실<U+0010><U+0002>＀<U+0000>인데,\n문은 안 잠겨 있을 거야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "B0B40020BC29C740002000100002FF000006003200300031D638C2E400100002FF000000C778B370002C000ABB38C7400020C5480020C7A0ACA80020C788C7440020AC70C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "조심성이...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "C870C2ECC131C774002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "보안 의식이...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2256,
+      "rawDecodedUtf16Hex": "BCF4C5480020C758C2DDC774002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "말 안 해도 알거든!\n그러니까 너한테 부탁하는 거잖아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2276,
+      "rawDecodedUtf16Hex": "B9D00020C5480020D574B3C40020C54CAC70B4E00021000AADF8B7ECB2C8AE4C0020B108D55CD14C0020BD80D0C1D558B2940020AC70C796C544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "말 안 해도 알거든!\n그러니까 너한테 부탁하는 거잖아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "B9D00020C5480020D574B3C40020C54CAC70B4E00021000AADF8B7ECB2C8AE4C0020B108D55CD14C0020BD80D0C1D558B2940020AC70C796C544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2420,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "잡지에 ‘Gp58JatW’라고 적힌\n메모가 끼어 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2432,
+      "rawDecodedUtf16Hex": "C7A1C9C0C5D0002020180047007000350038004A0061007400572019B77CACE00020C801D78C000ABA54BAA8AC000020B07CC5B40020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "메모는 찾았어?\n그럼...<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2496,
+      "rawDecodedUtf16Hex": "BA54BAA8B2940020CC3EC558C5B4003F000AADF8B7FC002E002E002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "메모는 찾았어?\n그럼...<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "BA54BAA8B2940020CC3EC558C5B4003F000AADF8B7FC002E002E002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "비밀번호를 불러 줘.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "BE44BC00BC88D638B97C0020BD88B7EC0020C918002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "비밀번호를 불러 줘.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2608,
+      "rawDecodedUtf16Hex": "BE44BC00BC88D638B97C0020BD88B7EC0020C918002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Gp5BIatW",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2640,
+      "rawDecodedUtf16Hex": "004700700035004200490061007400570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Gp58JatW",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "0047007000350038004A0061007400570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "GqS8JatM",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2680,
+      "rawDecodedUtf16Hex": "0047007100530038004A00610074004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "GqSBLatM",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2700,
+      "rawDecodedUtf16Hex": "0047007100530042004C00610074004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "입력해 볼 테니까\n잠깐 기다리고 있어.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "C785B825D5740020BCFC0020D14CB2C8AE4C000AC7A0AE500020AE30B2E4B9ACACE00020C788C5B4002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "입력해 볼 테니까\n잠깐 기다리고 있어.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "C785B825D5740020BCFC0020D14CB2C8AE4C000AC7A0AE500020AE30B2E4B9ACACE00020C788C5B4002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "틀렸다고 나오잖아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2824,
+      "rawDecodedUtf16Hex": "D2C0B838B2E4ACE00020B098C624C796C544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "틀렸다고 나오잖아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2856,
+      "rawDecodedUtf16Hex": "D2C0B838B2E4ACE00020B098C624C796C544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Gp58...JatW... 엔터!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "0047007000350038002E002E002E004A006100740057002E002E002E0020C5D4D130002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Gp58...JatW... 엔터!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "0047007000350038002E002E002E004A006100740057002E002E002E0020C5D4D130002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "오, 됐다!\n도와줘서 고마워, <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "C624002C0020B410B2E40021000AB3C4C640C918C11C0020ACE0B9C8C6CC002C00200010000201000000002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "오, 됐다!\n<U+0010><U+0002>Ā<U+0000>, 고마워!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "C624002C0020B410B2E40021000A0010000201000000002C0020ACE0B9C8C6CC002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "미안, 회의에 들어가야 해서 끊어야겠어!\n다음에 스페셜 카레를 만들어 줄게!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "BBF8C548002C0020D68CC758C5D00020B4E4C5B4AC00C57C0020D574C11C0020B04AC5B4C57CACA0C5B40021000AB2E4C74CC5D00020C2A4D398C15C0020CE74B808B97C0020B9CCB4E4C5B40020C904AC8C002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "미안, 지금부터 회의에 들어가야 해!\n다음에 스페셜 카레를 만들어 줄게!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3180,
+      "rawDecodedUtf16Hex": "BBF8C548002C0020C9C0AE08BD80D1300020D68CC758C5D00020B4E4C5B4AC00C57C0020D5740021000AB2E4C74CC5D00020C2A4D398C15C0020CE74B808B97C0020B9CCB4E4C5B40020C904AC8C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "다녀왔어!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3284,
+      "rawDecodedUtf16Hex": "B2E4B140C654C5B4002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "다녀왔어!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "B2E4B140C654C5B4002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "실례하겠습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3324,
+      "rawDecodedUtf16Hex": "C2E4B840D558ACA0C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "제트 씨!?<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3352,
+      "rawDecodedUtf16Hex": "C81CD2B80020C5280021003F001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "여러분이 AZ 씨의 호텔에서\n어떻게 지내고 있으신지<U+0010><U+0001>븀\n궁금해져서 와 봤습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3376,
+      "rawDecodedUtf16Hex": "C5ECB7ECBD84C77400200041005A0020C528C7580020D638D154C5D0C11C000AC5B4B5BBAC8C0020C9C0B0B4ACE00020C788C73CC2E0C9C000100001BE00000AAD81AE08D574C838C11C0020C6400020BD24C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "아주 평범하게 지내고 있어요.<U+0010><U+0001>븁\n각자 하고 싶은 일을 하다가\n아주 드물게 손님이 오면 응대하는 정도예요.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "C544C8FC0020D3C9BC94D558AC8C0020C9C0B0B4ACE00020C788C5B4C694002E00100001BE01000AAC01C7900020D558ACE00020C2F6C7400020C77CC7440020D558B2E4AC00000AC544C8FC0020B4DCBB3CAC8C0020C190B2D8C7740020C624BA740020C751B300D558B2940020C815B3C4C608C694002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001><U+0010><U+0002>ᤀ<U+0001> 바쁘게 지내고 있지만,\n그건 제트 씨가 더 잘 아시잖아요.<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3608,
+      "rawDecodedUtf16Hex": "00100002018B000100100002190000010020BC14C058AC8C0020C9C0B0B4ACE00020C788C9C0B9CC002C000AADF8AC740020C81CD2B80020C528AC000020B3540020C7980020C544C2DCC796C544C694002E001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "예, <U+0010><U+0002>Ƌ<U+0001> 씨의 한결같은 노력에\n저희도 많은 도움을 받고 있답니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3700,
+      "rawDecodedUtf16Hex": "C608002C002000100002018B00010020C528C7580020D55CACB0AC19C7400020B178B825C5D0000AC800D76CB3C40020B9CEC7400020B3C4C6C0C7440020BC1BACE00020C788B2F5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "미르를 구원했을 때처럼\n회사 사람 모두에게 도움을 주시고 있거든요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3788,
+      "rawDecodedUtf16Hex": "BBF8B974B97C0020AD6CC6D0D588C7440020B54CCC98B7FC000AD68CC0AC0020C0ACB78C0020BAA8B450C5D0AC8C0020B3C4C6C0C7440020C8FCC2DCACE00020C788AC70B4E0C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "제트 씨...\n저는 아직 한참 멀었어요.<U+0010><U+0001>븀\n회사에 대해 아직 모르는 게 많잖아요.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3872,
+      "rawDecodedUtf16Hex": "C81CD2B80020C528002E002E002E000AC800B2940020C544C9C10020D55CCC380020BA40C5C8C5B4C694002E00100001BE00000AD68CC0ACC5D00020B300D5740020C544C9C10020BAA8B974B2940020AC8C0020B9CEC796C544C694002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "제트 씨...\n저는 아직 한참 멀었어요.<U+0010><U+0001>븀\n회사나 일에 대한 것도 아직 공부 중인걸요.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3976,
+      "rawDecodedUtf16Hex": "C81CD2B80020C528002E002E002E000AC800B2940020C544C9C10020D55CCC380020BA40C5C8C5B4C694002E00100001BE00000AD68CC0ACB0980020C77CC5D00020B300D55C0020AC83B3C40020C544C9C10020ACF5BD800020C911C778AC78C694002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "뭐, 퀘이사 주식회사의 일을 돕는 것으로\n포켓몬과 사람을 도울 수 있어서<U+0010><U+0001>븀\n기쁘긴 하지만요.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4088,
+      "rawDecodedUtf16Hex": "BB50002C0020D018C774C0AC0020C8FCC2DDD68CC0ACC7580020C77CC7440020B3D5B2940020AC83C73CB85C000AD3ECCF13BAACACFC0020C0ACB78CC7440020B3C4C6B80020C2180020C788C5B4C11C00100001BE00000AAE30C058AE340020D558C9C0B9CCC694002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "뭐, 퀘이사 주식회사의 일을 돕는 것으로\n포켓몬과 사람을 도울 수 있어서<U+0010><U+0001>븀\n기쁘긴 하지만요.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4204,
+      "rawDecodedUtf16Hex": "BB50002C0020D018C774C0AC0020C8FCC2DDD68CC0ACC7580020C77CC7440020B3D5B2940020AC83C73CB85C000AD3ECCF13BAACACFC0020C0ACB78CC7440020B3C4C6B80020C2180020C788C5B4C11C00100001BE00000AAE30C058AE340020D558C9C0B9CCC694002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "노력하고 있는 모습이 멋지긴 한데,\n트레이너로서 실력이 녹슬진 않았어?<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4320,
+      "rawDecodedUtf16Hex": "B178B825D558ACE00020C788B2940020BAA8C2B5C7740020BA4BC9C0AE340020D55CB370002C000AD2B8B808C774B108B85CC11C0020C2E4B825C7740020B179C2ACC9C40020C54AC558C5B4003F001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "내가 그럴 리 있겠어?<U+0010><U+0001>븁\n타워 문제를 해결하기 위해\n최강의 메가진화술사를 정하는 승부에서<U+0010><U+0001>븀\n이겼던 나라고!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4408,
+      "rawDecodedUtf16Hex": "B0B4AC000020ADF8B7F40020B9AC0020C788ACA0C5B4003F00100001BE01000AD0C0C6CC0020BB38C81CB97C0020D574ACB0D558AE300020C704D574000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020C815D558B2940020C2B9BD80C5D0C11C00100001BE00000AC774ACBCB3580020B098B77CACE0002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "내가 그럴 리 있겠어?<U+0010><U+0001>븁\n타워 문제를 해결하기 위해\n최강의 메가진화술사를 정하는 승부에서<U+0010><U+0001>븀\n이겼던 나라구!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4544,
+      "rawDecodedUtf16Hex": "B0B4AC000020ADF8B7F40020B9AC0020C788ACA0C5B4003F00100001BE01000AD0C0C6CC0020BB38C81CB97C0020D574ACB0D558AE300020C704D574000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020C815D558B2940020C2B9BD80C5D0C11C00100001BE00000AC774ACBCB3580020B098B77CAD6C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "내가 그럴 리 있겠어?<U+0010><U+0001>븁\n타워 문제를 해결하기 위해\n최강의 메가진화술사를 정하는 승부에서<U+0010><U+0001>븀\n<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0004> 싸웠던 나라고! 졌지만...<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4680,
+      "rawDecodedUtf16Hex": "B0B4AC000020ADF8B7F40020B9AC0020C788ACA0C5B4003F00100001BE01000AD0C0C6CC0020BB38C81CB97C0020D574ACB0D558AE300020C704D574000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020C815D558B2940020C2B9BD80C5D0C11C00100001BE00000A001000020100000000100002190000040020C2F8C6E0B3580020B098B77CACE000210020C84CC9C0B9CC002E002E002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "내가 그럴 리 있겠어?<U+0010><U+0001>븁\n타워 문제를 해결하기 위해\n최강의 메가진화술사를 정하는 승부에서<U+0010><U+0001>븀\n<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0004> 싸웠던 나라구! 졌지만...<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4848,
+      "rawDecodedUtf16Hex": "B0B4AC000020ADF8B7F40020B9AC0020C788ACA0C5B4003F00100001BE01000AD0C0C6CC0020BB38C81CB97C0020D574ACB0D558AE300020C704D574000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020C815D558B2940020C2B9BD80C5D0C11C00100001BE00000A001000020100000000100002190000040020C2F8C6E0B3580020B098B77CAD6C00210020C84CC9C0B9CC002E002E002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001> 씨, 실력이 녹슬지 않았다면\n포켓몬 승부로 증명해 주세요.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "00100002018B00010020C528002C0020C2E4B825C7740020B179C2ACC9C00020C54AC558B2E4BA74000AD3ECCF13BAAC0020C2B9BD80B85C0020C99DBA85D5740020C8FCC138C694002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "물론이지! <U+0010><U+0002>Ā<U+0000>,\n밖에서 진검승부를 겨뤄 보자!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5100,
+      "rawDecodedUtf16Hex": "BB3CB860C774C9C0002100200010000201000000002C000ABC16C5D0C11C0020C9C4AC80C2B9BD80B97C0020ACA8B9040020BCF4C790002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "물론이지! <U+0010><U+0002>Ā<U+0000>,\n밖에서 진검승부를 겨뤄 보자!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5168,
+      "rawDecodedUtf16Hex": "BB3CB860C774C9C0002100200010000201000000002C000ABC16C5D0C11C0020C9C4AC80C2B9BD80B97C0020ACA8B9040020BCF4C790002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿8",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5236,
+      "rawDecodedUtf16Hex": "00100002BDFF00380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "나와 승부할 준비는 됐어?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5248,
+      "rawDecodedUtf16Hex": "B098C6400020C2B9BD80D5600020C900BE44B2940020B410C5B4003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "나와 승부할 준비는 됐어?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5288,
+      "rawDecodedUtf16Hex": "B098C6400020C2B9BD80D5600020C900BE44B2940020B410C5B4003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "물론이지!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5328,
+      "rawDecodedUtf16Hex": "BB3CB860C774C9C000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "잠깐만",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "C7A0AE50B9CC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "그래!\n최고의 멤버로 데려오라고!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 5348,
+      "rawDecodedUtf16Hex": "ADF8B7980021000ACD5CACE0C7580020BA64BC84B85C0020B370B824C624B77CACE0002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "좋아!\n최고의 멤버로 데려오라구!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 5396,
+      "rawDecodedUtf16Hex": "C88BC5440021000ACD5CACE0C7580020BA64BC84B85C0020B370B824C624B77CAD6C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "내 최강의 멤버로\n너를 이기겠어!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 5444,
+      "rawDecodedUtf16Hex": "B0B40020CD5CAC15C7580020BA64BC84B85C000AB108B97C0020C774AE30ACA0C5B4002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "내 최강의 멤버로\n너를 이기겠어!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 5492,
+      "rawDecodedUtf16Hex": "B0B40020CD5CAC15C7580020BA64BC84B85C000AB108B97C0020C774AE30ACA0C5B4002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "명승부의 예감이 드는걸!<U+0010><U+0002>Ĕƒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 5540,
+      "rawDecodedUtf16Hex": "BA85C2B9BD80C7580020C608AC10C7740020B4DCB294AC78002100100002011401920000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "ZA로열에서 경쟁한\n트레이너 간의 승부를 보게 됐군요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 5576,
+      "rawDecodedUtf16Hex": "005A0041B85CC5F4C5D0C11C0020ACBDC7C1D55C000AD2B8B808C774B1080020AC04C7580020C2B9BD80B97C0020BCF4AC8C0020B410AD70C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "꼴깍!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 5648,
+      "rawDecodedUtf16Hex": "AF34AE4D00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "어쩐지 <U+0010><U+0002>Ƌ<U+0001><U+0010><U+0002>ᤀ<U+0002>\n자극해 버린 것 같네.<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 5656,
+      "rawDecodedUtf16Hex": "C5B4CA50C9C0002000100002018B00010010000219000002000AC790ADF9D5740020BC84B9B00020AC830020AC19B124002E001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "두 분이서는 전력을 다해서\n싸우는 편이 훨씬 나아요.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 5716,
+      "rawDecodedUtf16Hex": "B4500020BD84C774C11CB2940020C804B825C7440020B2E4D574C11C000AC2F8C6B0B2940020D3B8C7740020D6E8C52C0020B098C544C694002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "두 분의 포켓몬 승부를 보게 돼서\n가슴이 두근거려요!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 5784,
+      "rawDecodedUtf16Hex": "B4500020BD84C7580020D3ECCF13BAAC0020C2B9BD80B97C0020BCF4AC8C0020B3FCC11C000AAC00C2B4C7740020B450ADFCAC70B824C694002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "삐~햐~",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 5852,
+      "rawDecodedUtf16Hex": "C090007ED590007E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 5864,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "반드시 이기고 말겠어!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 5876,
+      "rawDecodedUtf16Hex": "BC18B4DCC2DC0020C774AE30ACE00020B9D0ACA0C5B4002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "반드시 이기고 말겠어!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 5912,
+      "rawDecodedUtf16Hex": "BC18B4DCC2DC0020C774AE30ACE00020B9D0ACA0C5B4002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "우리의 메가진화는\n미르에 사는 모두에게서 받은 파워라고!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 5948,
+      "rawDecodedUtf16Hex": "C6B0B9ACC7580020BA54AC00C9C4D654B294000ABBF8B974C5D00020C0ACB2940020BAA8B450C5D0AC8CC11C0020BC1BC7400020D30CC6CCB77CACE0002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "우리의 메가진화는\n미르에 사는 모두에게서 받은 파워라구!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 6020,
+      "rawDecodedUtf16Hex": "C6B0B9ACC7580020BA54AC00C9C4D654B294000ABBF8B974C5D00020C0ACB2940020BAA8B450C5D0AC8CC11C0020BC1BC7400020D30CC6CCB77CAD6C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "계속 말하는 거지만,\n너를 만나서 정말 다행이야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 6092,
+      "rawDecodedUtf16Hex": "ACC4C18D0020B9D0D558B2940020AC70C9C0B9CC002C000AB108B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "너를 만나서 정말 다행이야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 6156,
+      "rawDecodedUtf16Hex": "B108B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿O",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 6196,
+      "rawDecodedUtf16Hex": "00100002BDFF004F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>, 내가 강해질 수 있었던 건\n네가 있었기 때문이야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 6208,
+      "rawDecodedUtf16Hex": "0010000201000000002C0020B0B4AC000020AC15D574C9C80020C2180020C788C5C8B3580020AC74000AB124AC000020C788C5C8AE300020B54CBB38C774C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>, 내가 강해질 수 있었던 건\n네가 있었기 때문이야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 6284,
+      "rawDecodedUtf16Hex": "0010000201000000002C0020B0B4AC000020AC15D574C9C80020C2180020C788C5C8B3580020AC74000AB124AC000020C788C5C8AE300020B54CBB38C774C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "다음엔 내가 이기겠어!<U+0010><U+0001>븁\n나는 MZ단의 리더니까!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 6360,
+      "rawDecodedUtf16Hex": "B2E4C74CC5D40020B0B4AC000020C774AE30ACA0C5B4002100100001BE01000AB098B2940020004D005AB2E8C7580020B9ACB354B2C8AE4C002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "다음에야말로 내가 이기겠어!<U+0010><U+0001>븁\n나는 MZ단의 리더니까!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 6428,
+      "rawDecodedUtf16Hex": "B2E4C74CC5D0C57CB9D0B85C0020B0B4AC000020C774AE30ACA0C5B4002100100001BE01000AB098B2940020004D005AB2E8C7580020B9ACB354B2C8AE4C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "싸우는 두 분과 포켓몬들 모두\n아주 진지하면서도 즐거워 보이시더군요...<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 6504,
+      "rawDecodedUtf16Hex": "C2F8C6B0B2940020B4500020BD84ACFC0020D3ECCF13BAACB4E40020BAA8B450000AC544C8FC0020C9C4C9C0D558BA74C11CB3C40020C990AC70C6CC0020BCF4C774C2DCB354AD70C694002E002E002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "정말이지...\n너무나도 멋진 포켓몬 승부였습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 6596,
+      "rawDecodedUtf16Hex": "C815B9D0C774C9C0002E002E002E000AB108BB34B098B3C40020BA4BC9C40020D3ECCF13BAAC0020C2B9BD80C600C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "포켓몬을 신뢰하고 있기에,\n상대의 실력을 잘 알고 있기에,<U+0010><U+0001>븀\n전력을 다해서 싸우실 수 있는 거군요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 6660,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACC7440020C2E0B8B0D558ACE00020C788AE30C5D0002C000AC0C1B300C7580020C2E4B825C7440020C7980020C54CACE00020C788AE30C5D0002C00100001BE00000AC804B825C7440020B2E4D574C11C0020C2F8C6B0C2E40020C2180020C788B2940020AC70AD70C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "...돌아가신 엄마는 저를\n진심으로 믿어 주셨으니까요.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 6784,
+      "rawDecodedUtf16Hex": "002E002E002EB3CCC544AC00C2E00020C5C4B9C8B2940020C800B97C000AC9C4C2ECC73CB85C0020BBFFC5B40020C8FCC168C73CB2C8AE4CC694002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "...엄마는 저를\n진심으로 믿어 주셨으니까요.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 6856,
+      "rawDecodedUtf16Hex": "002E002E002EC5C4B9C8B2940020C800B97C000AC9C4C2ECC73CB85C0020BBFFC5B40020C8FCC168C73CB2C8AE4CC694002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "딸에 대해 더 많이 알게 돼서\n구원받은 느낌이네요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 6916,
+      "rawDecodedUtf16Hex": "B538C5D00020B300D5740020B3540020B9CEC7740020C54CAC8C0020B3FCC11C000AAD6CC6D0BC1BC7400020B290B08CC774B124C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "하하...\n그 정도로 대단한 이야기는 아니에요.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 6984,
+      "rawDecodedUtf16Hex": "D558D558002E002E002E000AADF80020C815B3C4B85C0020B300B2E8D55C0020C774C57CAE30B2940020C544B2C8C5D0C694002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "하하...\n그 정도로 대단한 이야기는 아니에요.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 7048,
+      "rawDecodedUtf16Hex": "D558D558002E002E002E000AADF80020C815B3C4B85C0020B300B2E8D55C0020C774C57CAE30B2940020C544B2C8C5D0C694002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001> 씨.<U+0010><U+0001>븁\n미르시티를 더욱 좋은 곳으로 만들기 위해\n앞으로도 퀘이사에 힘을 빌려주세요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 7112,
+      "rawDecodedUtf16Hex": "00100002018B00010020C528002E00100001BE01000ABBF8B974C2DCD2F0B97C0020B354C6B10020C88BC7400020ACF3C73CB85C0020B9CCB4E4AE300020C704D574000AC55EC73CB85CB3C40020D018C774C0ACC5D00020D798C7440020BE4CB824C8FCC138C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "MZ단 여러분,\n그럼 이만 실례하겠습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 7228,
+      "rawDecodedUtf16Hex": "004D005AB2E80020C5ECB7ECBD84002C000AADF8B7FC0020C774B9CC0020C2E4B840D558ACA0C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "제트 씨가 <U+0010><U+0002>Ƌ<U+0001><U+0010><U+0002>ᤀ<U+0002> 보는 눈빛...\n어쩐지 따뜻하지 않았어?<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 7284,
+      "rawDecodedUtf16Hex": "C81CD2B80020C528AC00002000100002018B000100100002190000020020BCF4B2940020B208BE5B002E002E002E000AC5B4CA50C9C00020B530B73BD558C9C00020C54AC558C5B4003F001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "좋아! 댄서의 꿈을 위해\n지금보다 더 열심히 연습해야지!<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 7368,
+      "rawDecodedUtf16Hex": "C88BC54400210020B304C11CC7580020AFC8C7440020C704D574000AC9C0AE08BCF4B2E40020B3540020C5F4C2ECD7880020C5F0C2B5D574C57CC9C00021001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "저도요!\n디자이너가 되려면 해야 할 일이 많으니까요.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 7440,
+      "rawDecodedUtf16Hex": "C800B3C4C6940021000AB514C790C774B108AC000020B418B824BA740020D574C57C0020D5600020C77CC7740020B9CEC73CB2C8AE4CC694002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "MZ단은 다들 자유로운 것 같지 않아?\n그 점이 좋은 거긴 하지만.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 7508,
+      "rawDecodedUtf16Hex": "004D005AB2E8C7400020B2E4B4E40020C790C720B85CC6B40020AC830020AC19C9C00020C54AC544003F000AADF80020C810C7740020C88BC7400020AC70AE340020D558C9C0B9CC002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "MZ단은 다들 자유로운 것 같지 않아?\n그 점이 좋은 거긴 하지만.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 7592,
+      "rawDecodedUtf16Hex": "004D005AB2E8C7400020B2E4B4E40020C790C720B85CC6B40020AC830020AC19C9C00020C54AC544003F000AADF80020C810C7740020C88BC7400020AC70AE340020D558C9C0B9CC002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "있잖아, <U+0010><U+0002>Ā<U+0000>.\n옥상에서 좀 더 이야기하지 않을래?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 7676,
+      "rawDecodedUtf16Hex": "C788C796C544002C00200010000201000000002E000AC625C0C1C5D0C11C0020C8800020B3540020C774C57CAE30D558C9C00020C54AC744B798003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "있잖아, <U+0010><U+0002>Ā<U+0000>.\n옥상에서 좀 더 이야기하지 않을래?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 7748,
+      "rawDecodedUtf16Hex": "C788C796C544002C00200010000201000000002E000AC625C0C1C5D0C11C0020C8800020B3540020C774C57CAE30D558C9C00020C54AC744B798003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "기다리고 있을게.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 7820,
+      "rawDecodedUtf16Hex": "AE30B2E4B9ACACE00020C788C744AC8C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "기다리고 있을게.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 7848,
+      "rawDecodedUtf16Hex": "AE30B2E4B9ACACE00020C788C744AC8C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿g",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 7876,
+      "rawDecodedUtf16Hex": "00100002BDFF00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "왔구나!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 7888,
+      "rawDecodedUtf16Hex": "C654AD6CB098002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "기다리고 있었어.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 7908,
+      "rawDecodedUtf16Hex": "AE30B2E4B9ACACE00020C788C5C8C5B4002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "시간을 뺏어서 미안.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 7936,
+      "rawDecodedUtf16Hex": "C2DCAC04C7440020BE8FC5B4C11C0020BBF8C548002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "시간을 뺏어서 미안.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 7968,
+      "rawDecodedUtf16Hex": "C2DCAC04C7440020BE8FC5B4C11C0020BBF8C548002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "조금 전에 포켓몬 승부를 하면서\n많은 생각이 떠올랐는데,<U+0010><U+0001>븀\n너와의 만남은 정말 충격적이었던 것 같아.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 8000,
+      "rawDecodedUtf16Hex": "C870AE080020C804C5D00020D3ECCF13BAAC0020C2B9BD80B97C0020D558BA74C11C000AB9CEC7400020C0DDAC01C7740020B5A0C62CB790B294B370002C00100001BE00000AB108C640C7580020B9CCB0A8C7400020C815B9D00020CDA9ACA9C801C774C5C8B3580020AC830020AC19C544002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "조금 전에 포켓몬 승부를 하면서\n많은 생각이 떠올랐는데,<U+0010><U+0001>븀\n너와의 만남은 정말 충격적이었던 것 같아.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 8128,
+      "rawDecodedUtf16Hex": "C870AE080020C804C5D00020D3ECCF13BAAC0020C2B9BD80B97C0020D558BA74C11C000AB9CEC7400020C0DDAC01C7740020B5A0C62CB790B294B370002C00100001BE00000AB108C640C7580020B9CCB0A8C7400020C815B9D00020CDA9ACA9C801C774C5C8B3580020AC830020AC19C544002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "역 앞에서 영상 출연을 부탁했더니\n갑자기 여행 가방을 도둑맞질 않나,<U+0010><U+0001>븀\n포켓몬은 안 데리고 있다고 하질 않나,<U+0010><U+0001>븀\n미르에서 버티긴 글렀구나 하고 생각했거든.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 8256,
+      "rawDecodedUtf16Hex": "C5ED0020C55EC5D0C11C0020C601C0C10020CD9CC5F0C7440020BD80D0C1D588B354B2C8000AAC11C790AE300020C5ECD5890020AC00BC29C7440020B3C4B451B9DEC9C80020C54AB098002C00100001BE00000AD3ECCF13BAACC7400020C5480020B370B9ACACE00020C788B2E4ACE00020D558C9C80020C54AB098002C00100001BE00000ABBF8B974C5D0C11C0020BC84D2F0AE340020AE00B800AD6CB0980020D558ACE00020C0DDAC01D588AC70B4E0002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "역 앞에서 영상 출연을 부탁했더니\n갑자기 여행 가방을 도둑맞질 않나,<U+0010><U+0001>븀\n포켓몬은 안 데리고 있다고 하질 않나,<U+0010><U+0001>븀\n금방 돌아가겠구나 하고 생각했거든.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 8448,
+      "rawDecodedUtf16Hex": "C5ED0020C55EC5D0C11C0020C601C0C10020CD9CC5F0C7440020BD80D0C1D588B354B2C8000AAC11C790AE300020C5ECD5890020AC00BC29C7440020B3C4B451B9DEC9C80020C54AB098002C00100001BE00000AD3ECCF13BAACC7400020C5480020B370B9ACACE00020C788B2E4ACE00020D558C9C80020C54AB098002C00100001BE00000AAE08BC290020B3CCC544AC00ACA0AD6CB0980020D558ACE00020C0DDAC01D588AC70B4E0002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "너무해",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 8632,
+      "rawDecodedUtf16Hex": "B108BB34D5740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "그때는 고마웠어",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 8640,
+      "rawDecodedUtf16Hex": "ADF8B54CB2940020ACE0B9C8C6E0C5B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "뭐, 너의 대단함은\n금방 알게 됐지만 말이지.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 8660,
+      "rawDecodedUtf16Hex": "BB50002C0020B108C7580020B300B2E8D568C740000AAE08BC290020C54CAC8C0020B410C9C0B9CC0020B9D0C774C9C0002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "뭐, 그런 일은\n일어나지 않았지만 말이지.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 8720,
+      "rawDecodedUtf16Hex": "BB50002C0020ADF8B7F00020C77CC740000AC77CC5B4B098C9C00020C54AC558C9C0B9CC0020B9D0C774C9C0002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "방금 만난 <U+0010><U+0002>ā<U+0002><U+0010><U+0002>ᤀ<U+0004>\n굉장한 콤비네이션을 보여 줬잖아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 8776,
+      "rawDecodedUtf16Hex": "BC29AE080020B9CCB09C002000100002010100020010000219000004000AAD49C7A5D55C0020CF64BE44B124C774C158C7440020BCF4C5EC0020C92CC796C544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "방금 만난 <U+0010><U+0002>ā<U+0002><U+0010><U+0002>ᤀ<U+0004>\n굉장한 콤비네이션을 보여 줬잖아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 8852,
+      "rawDecodedUtf16Hex": "BC29AE080020B9CCB09C002000100002010100020010000219000004000AAD49C7A5D55C0020CF64BE44B124C774C158C7440020BCF4C5EC0020C92CC796C544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "넌 정말 트레이너로서의 재능이\n넘치는 녀석이라니까.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 8928,
+      "rawDecodedUtf16Hex": "B10C0020C815B9D00020D2B8B808C774B108B85CC11CC7580020C7ACB2A5C774000AB118CE58B2940020B140C11DC774B77CB2C8AE4C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "넌 정말 트레이너로서의 재능이\n넘친다니까.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 8996,
+      "rawDecodedUtf16Hex": "B10C0020C815B9D00020D2B8B808C774B108B85CC11CC7580020C7ACB2A5C774000AB118CE5CB2E4B2C8AE4C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "고마워",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 9052,
+      "rawDecodedUtf16Hex": "ACE0B9C8C6CC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "그런가?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 9060,
+      "rawDecodedUtf16Hex": "ADF8B7F0AC00003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "ZA로열에서\n단숨에 승급하기도 했잖아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 9072,
+      "rawDecodedUtf16Hex": "005A0041B85CC5F4C5D0C11C000AB2E8C228C5D00020C2B9AE09D558AE30B3C40020D588C796C544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "ZA로열에서\n단숨에 승급하기도 했잖아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 9124,
+      "rawDecodedUtf16Hex": "005A0041B85CC5F4C5D0C11C000AB2E8C228C5D00020C2B9AE09D558AE30B3C40020D588C796C544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "너의 재능이 진짜라는 걸 깨달은 건\n폭주한 메가앱솔을 진정시켰을 때야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 9176,
+      "rawDecodedUtf16Hex": "B108C7580020C7ACB2A5C7740020C9C4C9DCB77CB2940020AC780020AE68B2ECC7400020AC74000AD3EDC8FCD55C0020BA54AC00C571C194C7440020C9C4C815C2DCCF30C7440020B54CC57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "너의 재능이 진짜라고 확신하게 된 건\n폭주한 메가앱솔을 진정시켰을 때야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 9264,
+      "rawDecodedUtf16Hex": "B108C7580020C7ACB2A5C7740020C9C4C9DCB77CACE00020D655C2E0D558AC8C0020B41C0020AC74000AD3EDC8FCD55C0020BA54AC00C571C194C7440020C9C4C815C2DCCF30C7440020B54CC57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "든든한 동료가 생긴 것이 기쁘면서도\n내가 리더를 맡아도 괜찮은 건가 고민했었지.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 9356,
+      "rawDecodedUtf16Hex": "B4E0B4E0D55C0020B3D9B8CCAC000020C0DDAE340020AC83C7740020AE30C058BA74C11CB3C4000AB0B4AC000020B9ACB354B97C0020B9E1C544B3C40020AD1CCC2EC7400020AC74AC000020ACE0BBFCD588C5C8C9C0002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "든든한 동료가 생긴 것이 기쁘면서도\n내가 리더를 맡아도 괜찮은 건가 고민했었지.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 9456,
+      "rawDecodedUtf16Hex": "B4E0B4E0D55C0020B3D9B8CCAC000020C0DDAE340020AC83C7740020AE30C058BA74C11CB3C4000AB0B4AC000020B9ACB354B97C0020B9E1C544B3C40020AD1CCC2EC7400020AC74AC000020ACE0BBFCD588C5C8C9C0002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "그랬구나",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 9556,
+      "rawDecodedUtf16Hex": "ADF8B7ACAD6CB0980000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "리더는 너야",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 9568,
+      "rawDecodedUtf16Hex": "B9ACB354B2940020B108C57C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "네가 있었기에 나도\n최강의 메가진화술사를 목표로 할 수 있었어.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 9584,
+      "rawDecodedUtf16Hex": "B124AC000020C788C5C8AE30C5D00020B098B3C4000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020BAA9D45CB85C0020D5600020C2180020C788C5C8C5B4002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "네가 있었기에 나도\n최강의 메가진화술사를 목표로 할 수 있었어.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 9664,
+      "rawDecodedUtf16Hex": "B124AC000020C788C5C8AE30C5D00020B098B3C4000ACD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020BAA9D45CB85C0020D5600020C2180020C788C5C8C5B4002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "그건 그렇고... 다 같이 정말 다양한\n폭주 메가진화 포켓몬을 진정시켰네.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 9744,
+      "rawDecodedUtf16Hex": "ADF8AC740020ADF8B807ACE0002E002E002E0020B2E40020AC19C7740020C815B9D00020B2E4C591D55C000AD3EDC8FC0020BA54AC00C9C4D6540020D3ECCF13BAACC7440020C9C4C815C2DCCF30B124002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "그건 그렇고... 다 같이 정말 다양한\n폭주 메가진화 포켓몬을 진정시켰네.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 9836,
+      "rawDecodedUtf16Hex": "ADF8AC740020ADF8B807ACE0002E002E002E0020B2E40020AC19C7740020C815B9D00020B2E4C591D55C000AD3EDC8FC0020BA54AC00C9C4D6540020D3ECCF13BAACC7440020C9C4C815C2DCCF30B124002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "누가 가장 믿음직스러웠어?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 9928,
+      "rawDecodedUtf16Hex": "B204AC000020AC00C7A50020BBFFC74CC9C1C2A4B7ECC6E0C5B4003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "누가 가장 믿음직스러웠어?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 9968,
+      "rawDecodedUtf16Hex": "B204AC000020AC00C7A50020BBFFC74CC9C1C2A4B7ECC6E0C5B4003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 10008,
+      "rawDecodedUtf16Hex": "00100002018B00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "루디",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 10020,
+      "rawDecodedUtf16Hex": "B8E8B5140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "이노",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 10028,
+      "rawDecodedUtf16Hex": "C774B1780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "물어봐 놓고 이런 말 하긴 뭐하지만,\n직접 들으니 조금 부끄러운걸...<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 10036,
+      "rawDecodedUtf16Hex": "BB3CC5B4BD100020B193ACE00020C774B7F00020B9D00020D558AE340020BB50D558C9C0B9CC002C000AC9C1C8110020B4E4C73CB2C80020C870AE080020BD80B044B7ECC6B4AC78002E002E002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "물어봐 놓고 이런 말 하긴 뭐하지만,\n직접 들으니 조금 부끄러운걸...<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 10124,
+      "rawDecodedUtf16Hex": "BB3CC5B4BD100020B193ACE00020C774B7F00020B9D00020D558AE340020BB50D558C9C0B9CC002C000AC9C1C8110020B4E4C73CB2C80020C870AE080020BD80B044B7ECC6B4AC78002E002E002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "내가 아니고!?<U+0010><U+0001>븁\n뭐, 루디도 대단하지. 녀석이 있으면\n분위기도 편해지고 안심이 되니까.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 10212,
+      "rawDecodedUtf16Hex": "B0B4AC000020C544B2C8ACE00021003F00100001BE01000ABB50002C0020B8E8B514B3C40020B300B2E8D558C9C0002E0020B140C11DC7740020C788C73CBA74000ABD84C704AE30B3C40020D3B8D574C9C0ACE00020C548C2ECC7740020B418B2C8AE4C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "내가 아니고!?<U+0010><U+0001>븁\n뭐, 루디도 대단하지. 같이 있으면\n분위기도 편해지고 안심이 되니까.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 10324,
+      "rawDecodedUtf16Hex": "B0B4AC000020C544B2C8ACE00021003F00100001BE01000ABB50002C0020B8E8B514B3C40020B300B2E8D558C9C0002E0020AC19C7740020C788C73CBA74000ABD84C704AE30B3C40020D3B8D574C9C0ACE00020C548C2ECC7740020B418B2C8AE4C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "내가 아니고!?<U+0010><U+0001>븁\n이노도 대단하긴 하지.\n정론만 말해서 피곤할 때도 있지만.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 10436,
+      "rawDecodedUtf16Hex": "B0B4AC000020C544B2C8ACE00021003F00100001BE01000AC774B178B3C40020B300B2E8D558AE340020D558C9C0002E000AC815B860B9CC0020B9D0D574C11C0020D53CACE4D5600020B54CB3C40020C788C9C0B9CC002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "내가 아니고!?<U+0010><U+0001>븁\n이노도 대단하긴 하지.\n정론만 말해서 피곤할 때도 있지만.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 10536,
+      "rawDecodedUtf16Hex": "B0B4AC000020C544B2C8ACE00021003F00100001BE01000AC774B178B3C40020B300B2E8D558AE340020D558C9C0002E000AC815B860B9CC0020B9D0D574C11C0020D53CACE4D5600020B54CB3C40020C788C9C0B9CC002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "그럼, ZA로열에서\n가장 힘든 상대는 누구였어?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 10636,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020005A0041B85CC5F4C5D0C11C000AAC00C7A50020D798B4E00020C0C1B300B2940020B204AD6CC600C5B4003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "그럼, ZA로열에서\n가장 힘든 상대는 누구였어?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 10700,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020005A0041B85CC5F4C5D0C11C000AAC00C7A50020D798B4E00020C0C1B300B2940020B204AD6CC600C5B4003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "ZZ4",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 10764,
+      "rawDecodedUtf16Hex": "005A005A00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "저스티스회",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 10772,
+      "rawDecodedUtf16Hex": "C800C2A4D2F0C2A4D68C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "녹청파",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 10784,
+      "rawDecodedUtf16Hex": "B179CCADD30C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "MSBC",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 10792,
+      "rawDecodedUtf16Hex": "004D0053004200430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "플레어단 누보",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 10804,
+      "rawDecodedUtf16Hex": "D50CB808C5B4B2E80020B204BCF40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "이노가 여러모로\n크게 활약했었지!<U+0010><U+0001>븁\n그 일이 있고 난 이후로\n이노도 널 인정했고 말이야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 10820,
+      "rawDecodedUtf16Hex": "C774B178AC000020C5ECB7ECBAA8B85C000AD06CAC8C0020D65CC57DD588C5C8C9C0002100100001BE01000AADF80020C77CC7740020C788ACE00020B09C0020C774D6C4B85C000AC774B178B3C40020B1100020C778C815D588ACE00020B9D0C774C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "이노가 여러모로\n크게 활약했었지!<U+0010><U+0001>븁\n그 일이 있고 난 이후로\n이노도 널 인정했고 말이야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 10932,
+      "rawDecodedUtf16Hex": "C774B178AC000020C5ECB7ECBAA8B85C000AD06CAC8C0020D65CC57DD588C5C8C9C0002100100001BE01000AADF80020C77CC7740020C788ACE00020B09C0020C774D6C4B85C000AC774B178B3C40020B1100020C778C815D588ACE00020B9D0C774C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "지하 수도를 탐색해야 했었던가?<U+0010><U+0001>븁\n마티에르 씨가 없었으면\n시로를 제어하지 못했을 거야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 11044,
+      "rawDecodedUtf16Hex": "C9C0D5580020C218B3C4B97C0020D0D0C0C9D574C57C0020D588C5C8B358AC00003F00100001BE01000AB9C8D2F0C5D0B9740020C528AC000020C5C6C5C8C73CBA74000AC2DCB85CB97C0020C81CC5B4D558C9C00020BABBD588C7440020AC70C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "지하 수도를 탐색해야 했었던가?<U+0010><U+0001>븁\n마티에르 씨가 없었으면\n시로 씨를 제어하지 못했을 거야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 11156,
+      "rawDecodedUtf16Hex": "C9C0D5580020C218B3C4B97C0020D0D0C0C9D574C57C0020D588C5C8B358AC00003F00100001BE01000AB9C8D2F0C5D0B9740020C528AC000020C5C6C5C8C73CBA74000AC2DCB85C0020C528B97C0020C81CC5B4D558C9C00020BABBD588C7440020AC70C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "녹청파라...<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>에게 조언 하나 해 줄게!\n가벼운 마음으로 돈을 빌리는 건 좋지 않아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 11272,
+      "rawDecodedUtf16Hex": "B179CCADD30CB77C002E002E002E00100001BE01000A0010000201000000C5D0AC8C0020C870C5B80020D558B0980020D5740020C904AC8C0021000AAC00BCBCC6B40020B9C8C74CC73CB85C0020B3C8C7440020BE4CB9ACB2940020AC740020C88BC9C00020C54AC544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "녹청파라...<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>에게 어드바이스!\n가벼운 마음으로 돈을 빌리는 건 좋지 않아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 11392,
+      "rawDecodedUtf16Hex": "B179CCADD30CB77C002E002E002E00100001BE01000A0010000201000000C5D0AC8C0020C5B4B4DCBC14C774C2A40021000AAC00BCBCC6B40020B9C8C74CC73CB85C0020B3C8C7440020BE4CB9ACB2940020AC740020C88BC9C00020C54AC544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "MSBC라... 유카리의 강압적인 태도도\n어떤 의미로 리더십인 거겠지...<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 11500,
+      "rawDecodedUtf16Hex": "004D005300420043B77C002E002E002E0020C720CE74B9ACC7580020AC15C555C801C7780020D0DCB3C4B3C4000AC5B4B5A40020C758BBF8B85C0020B9ACB354C2EDC7780020AC70ACA0C9C0002E002E002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "MSBC라... 유카리 씨의 강압적인 태도도\n어떤 의미로 리더십인 거겠지...<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 11592,
+      "rawDecodedUtf16Hex": "004D005300420043B77C002E002E002E0020C720CE74B9AC0020C528C7580020AC15C555C801C7780020D0DCB3C4B3C4000AC5B4B5A40020C758BBF8B85C0020B9ACB354C2EDC7780020AC70ACA0C9C0002E002E002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "플레어단 누보...\n마음속에 어둠을 품고 사는 사람도 있다는 걸<U+0010><U+0001>븁\n덕분에 깨달을 수 있었어...\n결국 손을 맞잡게 됐지만 말이지.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 11688,
+      "rawDecodedUtf16Hex": "D50CB808C5B4B2E80020B204BCF4002E002E002E000AB9C8C74CC18DC5D00020C5B4B460C7440020D488ACE00020C0ACB2940020C0ACB78CB3C40020C788B2E4B2940020AC7800100001BE01000AB355BD84C5D00020AE68B2ECC7440020C2180020C788C5C8C5B4002E002E002E000AACB0AD6D0020C190C7440020B9DEC7A1AC8C0020B410C9C0B9CC0020B9D0C774C9C0002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "플레어단 누보...\n마음속에 어둠을 품고 사는 사람도 있다는 걸<U+0010><U+0001>븁\n덕분에 깨달을 수 있었어...\n결국 손을 맞잡게 됐지만 말이지.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 11848,
+      "rawDecodedUtf16Hex": "D50CB808C5B4B2E80020B204BCF4002E002E002E000AB9C8C74CC18DC5D00020C5B4B460C7440020D488ACE00020C0ACB2940020C0ACB78CB3C40020C788B2E4B2940020AC7800100001BE01000AB355BD84C5D00020AE68B2ECC7440020C2180020C788C5C8C5B4002E002E002E000AACB0AD6D0020C190C7440020B9DEC7A1AC8C0020B410C9C0B9CC0020B9D0C774C9C0002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "정말이지... 다양한 사람을 만나고\n다양한 포켓몬과 싸우면서<U+0010><U+0001>븀\n서로를 알게 돼서 다행이라고 생각해.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 12008,
+      "rawDecodedUtf16Hex": "C815B9D0C774C9C0002E002E002E0020B2E4C591D55C0020C0ACB78CC7440020B9CCB098ACE0000AB2E4C591D55C0020D3ECCF13BAACACFC0020C2F8C6B0BA74C11C00100001BE00000AC11CB85CB97C0020C54CAC8C0020B3FCC11C0020B2E4D589C774B77CACE00020C0DDAC01D574002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "정말이지... 다양한 사람을 만나고\n다양한 포켓몬과 싸우면서<U+0010><U+0001>븀\n서로를 알게 돼서 다행이라고 생각해.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 12132,
+      "rawDecodedUtf16Hex": "C815B9D0C774C9C0002E002E002E0020B2E4C591D55C0020C0ACB78CC7440020B9CCB098ACE0000AB2E4C591D55C0020D3ECCF13BAACACFC0020C2F8C6B0BA74C11C00100001BE00000AC11CB85CB97C0020C54CAC8C0020B3FCC11C0020B2E4D589C774B77CACE00020C0DDAC01D574002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "그 덕분에\n다 함께 미르를 지킬 수 있었잖아!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 12256,
+      "rawDecodedUtf16Hex": "ADF80020B355BD84C5D0000AB2E40020D568AED80020BBF8B974B97C0020C9C0D0AC0020C2180020C788C5C8C796C544002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "그 덕분에\n다 함께 미르를 지킬 수 있었잖아!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 12316,
+      "rawDecodedUtf16Hex": "ADF80020B355BD84C5D0000AB2E40020D568AED80020BBF8B974B97C0020C9C0D0AC0020C2180020C788C5C8C796C544002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "앙쥬 플라엣테가 폭주했을 때는\n얼마나 당황했는지 몰라.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 12376,
+      "rawDecodedUtf16Hex": "C559C96C0020D50CB77CC5E3D14CAC000020D3EDC8FCD588C7440020B54CB294000AC5BCB9C8B0980020B2F9D669D588B294C9C00020BAB0B77C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "앙쥬 플라엣테가 폭주했을 때는\n얼마나 당황했는지 몰라.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 12448,
+      "rawDecodedUtf16Hex": "C559C96C0020D50CB77CC5E3D14CAC000020D3EDC8FCD588C7440020B54CB294000AC5BCB9C8B0980020B2F9D669D588B294C9C00020BAB0B77C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "걱정되지는 않았어?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 12520,
+      "rawDecodedUtf16Hex": "AC71C815B418C9C0B2940020C54AC558C5B4003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "불안하지는 않았어?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 12544,
+      "rawDecodedUtf16Hex": "BD88C548D558C9C0B2940020C54AC558C5B4003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "아니, 전혀!\n너희를 믿고 있었으니까.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 12568,
+      "rawDecodedUtf16Hex": "C544B2C8002C0020C804D6000021000AB108D76CB97C0020BBFFACE00020C788C5C8C73CB2C8AE4C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "아니, 전혀!\n너희를 믿고 있었으니까.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 12620,
+      "rawDecodedUtf16Hex": "C544B2C8002C0020C804D6000021000AB108D76CB97C0020BBFFACE00020C788C5C8C73CB2C8AE4C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "하나도 안 불안했어!\n너희를 믿고 있었으니까.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 12672,
+      "rawDecodedUtf16Hex": "D558B098B3C40020C5480020BD88C548D588C5B40021000AB108D76CB97C0020BBFFACE00020C788C5C8C73CB2C8AE4C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "하나도 안 불안했어!\n너희를 믿고 있었으니까.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 12732,
+      "rawDecodedUtf16Hex": "D558B098B3C40020C5480020BD88C548D588C5B40021000AB108D76CB97C0020BBFFACE00020C788C5C8C73CB2C8AE4C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "다 함께 지가르데가 있는 곳으로 가는 길을\n만들어 가는 모습이 얼마나 감격스럽던지!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 12792,
+      "rawDecodedUtf16Hex": "B2E40020D568AED80020C9C0AC00B974B370AC000020C788B2940020ACF3C73CB85C0020AC00B2940020AE38C744000AB9CCB4E4C5B40020AC00B2940020BAA8C2B5C7740020C5BCB9C8B0980020AC10ACA9C2A4B7FDB358C9C0002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "다 함께 지가르데가 있는 곳으로 가는 길을\n만들어 가는 모습이 얼마나 감격스러웠다구!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 12896,
+      "rawDecodedUtf16Hex": "B2E40020D568AED80020C9C0AC00B974B370AC000020C788B2940020ACF3C73CB85C0020AC00B2940020AE38C744000AB9CCB4E4C5B40020AC00B2940020BAA8C2B5C7740020C5BCB9C8B0980020AC10ACA9C2A4B7ECC6E0B2E4AD6C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "그리고 지가르데의 메가진화!\n그건 네가 아니면 불가능했을 거야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 13000,
+      "rawDecodedUtf16Hex": "ADF8B9ACACE00020C9C0AC00B974B370C7580020BA54AC00C9C4D6540021000AADF8AC740020B124AC000020C544B2C8BA740020BD88AC00B2A5D588C7440020AC70C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "그리고 지가르데의 메가진화!\n그건 네가 아니면 불가능했을 거야.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 13080,
+      "rawDecodedUtf16Hex": "ADF8B9ACACE00020C9C0AC00B974B370C7580020BA54AC00C9C4D6540021000AADF8AC740020B124AC000020C544B2C8BA740020BD88AC00B2A5D588C7440020AC70C57C002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "그랬을까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 13160,
+      "rawDecodedUtf16Hex": "ADF8B7ACC744AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "맞아!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 13172,
+      "rawDecodedUtf16Hex": "B9DEC54400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "그래! <U+0010><U+0002>Ā<U+0000>,\n너는 정말... 정말 대단한 녀석이야.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 13180,
+      "rawDecodedUtf16Hex": "ADF8B798002100200010000201000000002C000AB108B2940020C815B9D0002E002E002E0020C815B9D00020B300B2E8D55C0020B140C11DC774C57C002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "응! <U+0010><U+0002>Ā<U+0000>,\n너는 정말... 정말 대단한 것 같아.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 13252,
+      "rawDecodedUtf16Hex": "C751002100200010000201000000002C000AB108B2940020C815B9D0002E002E002E0020C815B9D00020B300B2E8D55C0020AC830020AC19C544002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "AZ 씨는 이제 안 계시지만,\n코르니 씨와 안샤가 동료로 들어오고...<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 13324,
+      "rawDecodedUtf16Hex": "0041005A0020C528B2940020C774C81C0020C5480020ACC4C2DCC9C0B9CC002C000ACF54B974B2C80020C528C6400020C548C0E4AC000020B3D9B8CCB85C0020B4E4C5B4C624ACE0002E002E002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "AZ 씨는 이제 안 계시지만,\n코르니 씨와 안샤가 동료로 들어오고...<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 13412,
+      "rawDecodedUtf16Hex": "0041005A0020C528B2940020C774C81C0020C5480020ACC4C2DCC9C0B9CC002C000ACF54B974B2C80020C528C6400020C548C0E4AC000020B3D9B8CCB85C0020B4E4C5B4C624ACE0002E002E002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "타워에 이어서 이차원 미르까지 해결하다니,\n우린 정말 대단한 것 같지 않아?<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 13500,
+      "rawDecodedUtf16Hex": "D0C0C6CCC5D00020C774C5B4C11C0020C774CC28C6D00020BBF8B974AE4CC9C00020D574ACB0D558B2E4B2C8002C000AC6B0B9B00020C815B9D00020B300B2E8D55C0020AC830020AC19C9C00020C54AC544003F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "타워에 이어서 이차원 미르까지 해결하다니,\n우린 정말 대단한 것 같지 않아?<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 13596,
+      "rawDecodedUtf16Hex": "D0C0C6CCC5D00020C774C5B4C11C0020C774CC28C6D00020BBF8B974AE4CC9C00020D574ACB0D558B2E4B2C8002C000AC6B0B9B00020C815B9D00020B300B2E8D55C0020AC830020AC19C9C00020C54AC544003F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "맞아!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 13692,
+      "rawDecodedUtf16Hex": "B9DEC54400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001> 덕분이야",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 13700,
+      "rawDecodedUtf16Hex": "00100002018B00010020B355BD84C774C57C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "MZ단 모두가\n최고였기에 가능했던 일들이야!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 13720,
+      "rawDecodedUtf16Hex": "004D005AB2E80020BAA8B450AC00000ACD5CACE0C600AE30C5D00020AC00B2A5D588B3580020C77CB4E4C774C57C002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "MZ단 모두가\n최고였기에 가능했던 일들이야!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 13780,
+      "rawDecodedUtf16Hex": "004D005AB2E80020BAA8B450AC00000ACD5CACE0C600AE30C5D00020AC00B2A5D588B3580020C77CB4E4C774C57C002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "미르에서\nAZ 씨를 만나서...<U+0010><U+0001>븀\n모두를 만나서 정말 다행이었어.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 13840,
+      "rawDecodedUtf16Hex": "BBF8B974C5D0C11C000A0041005A0020C528B97C0020B9CCB098C11C002E002E002E00100001BE00000ABAA8B450B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C5C8C5B4002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "미르에서\nAZ 씨를 만나서...<U+0010><U+0001>븀\n모두를 만나서 정말 다행이었어.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 13928,
+      "rawDecodedUtf16Hex": "BBF8B974C5D0C11C000A0041005A0020C528B97C0020B9CCB098C11C002E002E002E00100001BE00000ABAA8B450B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C5C8C5B4002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "그리고 무엇보다...\n너를 만나서 정말 다행이었어.<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 14016,
+      "rawDecodedUtf16Hex": "ADF8B9ACACE00020BB34C5C7BCF4B2E4002E002E002E000AB108B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C5C8C5B4002E00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "그리고 무엇보다...\n너를 만나서 정말 다행이었어.<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 14084,
+      "rawDecodedUtf16Hex": "ADF8B9ACACE00020BB34C5C7BCF4B2E4002E002E002E000AB108B97C0020B9CCB098C11C0020C815B9D00020B2E4D589C774C5C8C5B4002E00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>,\n앞으로도 잘 부탁해!!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 14152,
+      "rawDecodedUtf16Hex": "0010000201000000002C000AC55EC73CB85CB3C40020C7980020BD80D0C1D5740021002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>,\n앞으로도 잘 부탁해!!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 14200,
+      "rawDecodedUtf16Hex": "0010000201000000002C000AC55EC73CB85CB3C40020C7980020BD80D0C1D5740021002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ä",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 14248,
+      "rawDecodedUtf16Hex": "00100002BDFF00C40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "미르에는 수많은 포켓몬과\n재미있는 녀석들이 있어.<U+0010><U+0001>븁\n그리고 너도 있고 말이야!\n앞으로도 잘 부탁해!<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 14260,
+      "rawDecodedUtf16Hex": "BBF8B974C5D0B2940020C218B9CEC7400020D3ECCF13BAACACFC000AC7ACBBF8C788B2940020B140C11DB4E4C7740020C788C5B4002E00100001BE01000AADF8B9ACACE00020B108B3C40020C788ACE00020B9D0C774C57C0021000AC55EC73CB85CB3C40020C7980020BD80D0C1D574002100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "미르에는 수많은 포켓몬과\n재미있는 사람들이 있어.<U+0010><U+0001>븁\n그리고 너도 있고 말이야!\n앞으로도 잘 부탁해!<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 14384,
+      "rawDecodedUtf16Hex": "BBF8B974C5D0B2940020C218B9CEC7400020D3ECCF13BAACACFC000AC7ACBBF8C788B2940020C0ACB78CB4E4C7740020C788C5B4002E00100001BE01000AADF8B9ACACE00020B108B3C40020C788ACE00020B9D0C774C57C0021000AC55EC73CB85CB3C40020C7980020BD80D0C1D574002100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 14508,
+  "sectionOffset": 16,
+  "textCount": 199,
+  "textSectionCount": 1
+}

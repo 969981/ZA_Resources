@@ -1,0 +1,73 @@
+{
+  "declaredLength": 232,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "你要是有超级碎片，\n也可以交换好东西啊。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "4F608981662F67098D857EA7788E7247FF0C000A4E5F53EF4EE54EA46362597D4E1C897F554A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "交换",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 96,
+      "rawDecodedUtf16Hex": "4EA463620000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "还是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "8FD8662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "出示卡带",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "51FA793A53615E260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "等你有兴趣了，随时过来啊。\n我会从灰色渠道进些好货的。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "7B494F60670951748DA34E86FF0C968F65F68FC76765554A3002000A62114F1A4ECE707082726E2090538FDB4E9B597D8D27768430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我有好货哦……！<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "62116709597D8D2754E620262026FF0100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 232,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

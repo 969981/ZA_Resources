@@ -1,0 +1,83 @@
+{
+  "declaredLength": 1044,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "桌上放著裝有\n路卡利歐的精靈球。<U+0010><U+0001>븀\n要收下路卡利歐嗎？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "684C4E0A653E845788DD6709000A8DEF536152296B5076847CBE97487403300200100001BE00000A898165364E0B8DEF536152296B5055CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "收下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "65364E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "還是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "9084662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "盒子滿了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "76D25B506EFF4E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>收下了\n路卡利歐！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "001000020100000065364E0B4E86000A8DEF536152296B50FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "精靈球旁有一封\n來自AZ的信。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "7CBE9748740365C167094E005C01000A4F8681EA0041005A76844FE130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，<U+0010><U+0001>븁\n為了表示我對<U+0010><U+0003>ᄀÿā你妳的感謝與敬意，\n這隻路卡利歐就託付給<U+0010><U+0003>ᄀÿā你妳了。<U+0010><U+0001>븁\n這隻路卡利歐是某個人\n讓給我當保鏢的寶可夢。<U+0010><U+0001>븁\n如果<U+0010><U+0003>ᄀÿā你妳有機會遇到牠的初訓家，\n請代替我向她問好。<U+0010><U+0001>븁\n我必須要說，\n<U+0010><U+0003>ᄀÿā你妳實在是個驚人的寶可夢訓練家。<U+0010><U+0001>븁\n在我3000年的人生之中，\n竟然有人能讓基格爾德超級進化。<U+0010><U+0001>븀\n這是我連作夢都沒想過的事。<U+0010><U+0001>븁\n嗯……\n有許許多多的事，正浮現在我的腦海中。<U+0010><U+0001>븁\n母親送給我的黑花花葉蒂……<U+0010><U+0001>븁\n奪走一切的戰火……<U+0010><U+0001>븁\n目睹超級進化時的震驚與感動……<U+0010><U+0001>븁\n與每隔1000年甦醒一次的\n卡洛斯的傳說的寶可夢的交流……<U+0010><U+0001>븁\n籠罩伽勒爾的漆黑天空……<U+0010><U+0001>븁\n這一切都會成為過往雲煙，\n而我也即將消逝。<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>啊，\n<U+0010><U+0003>ᄀÿā你妳是擁有未來的人。<U+0010><U+0001>븀\n我希望<U+0010><U+0003>ᄀÿā你妳活出沒有後悔的人生。<U+0010><U+0001>븁\n我真的很高興能遇見<U+0010><U+0003>ᄀÿā你妳。\n謝謝。",
+      "escapedControlUnits": 52,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C00100001BE01000A70BA4E868868793A62115C0D00100003110000FF01014F6059B37684611F8B1D8207656C610FFF0C000A901996BB8DEF536152296B505C318A174ED87D6600100003110000FF01014F6059B34E86300200100001BE01000A901996BB8DEF536152296B50662F67D0500B4EBA000A8B937D66621175764FDD93E276845BF653EF5922300200100001BE01000A5982679C00100003110000FF01014F6059B367096A5F67039047523072607684521D8A135BB6FF0C000A8ACB4EE366FF621154115979554F597D300200100001BE01000A62115FC5980889818AAAFF0C000A00100003110000FF01014F6059B35BE65728662F500B9A5A4EBA76845BF653EF59228A137DF45BB6300200100001BE01000A5728621100330030003000305E7476844EBA751F4E4B4E2DFF0C000A7ADF713667094EBA80FD8B9357FA683C723E5FB78D857D1A90325316300200100001BE00000A9019662F621190234F5C592290FD6C9260F3904E76844E8B300200100001BE01000A55EF20262026000A67098A318A31591A591A76844E8BFF0C6B636D6E73FE57286211768481666D774E2D300200100001BE01000A6BCD89AA90017D66621176849ED182B182B1844984822026202600100001BE01000A596A8D704E00520776846230706B2026202600100001BE01000A76EE77798D857D1A903253166642768497079A5A8207611F52D52026202600100001BE01000A82076BCF969400310030003000305E74752691924E006B217684000A53616D1B65AF768450B38AAA76845BF653EF592276844EA46D412026202600100001BE01000A7C607F694F3D52D2723E76846F069ED159297A7A2026202600100001BE01000A90194E00520790FD6703621070BA904E5F8096F27159FF0C000A800C62114E5F53735C076D88901D300200100001BE01000A0010000201000000554AFF0C000A00100003110000FF01014F6059B3662F64C16709672A4F8676844EBA300200100001BE00000A62115E0C671B00100003110000FF01014F6059B36D3B51FA6C9267095F8C609476844EBA751F300200100001BE01000A6211771F76845F889AD8820880FD9047898B00100003110000FF01014F6059B33002000A8B1D8B1D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 416
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1044,
+  "sectionOffset": 16,
+  "textCount": 7,
+  "textSectionCount": 1
+}

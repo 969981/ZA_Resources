@@ -1,0 +1,43 @@
+{
+  "declaredLength": 308,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "若有好奇心，人生多開心！\n所以說茉蜜姬調查就拜託<U+0010><U+0003>ᄀÿā你妳了～！<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "82E56709597D59475FC3FF0C4EBA751F591A958B5FC3FF01000A62404EE58AAA8309871C59EC8ABF67E55C3162DC8A1700100003110000FF01014F6059B34E86FF5EFF0100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "完成了茉蜜姬調查的天才！<U+0010><U+0001>븁\n<U+0010><U+0003>ᄀÿā你妳的話一定能不斷地發揮好奇心，\n讓人生變得多彩又豐富的！<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "5B8C62104E868309871C59EC8ABF67E576845929624DFF0100100001BE01000A00100003110000FF01014F6059B376848A714E005B9A80FD4E0D65B75730767C63EE597D59475FC3FF0C000A8B934EBA751F8B8A5F97591A5F6953C88C505BCC7684FF0100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "寶可夢研究所前任所長\n布拉塔諾博士的照片。<U+0010><U+0001>븀\n明明是照片，卻帶有好聞的香水味……",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "5BF653EF592278147A766240524D4EFB62409577000A5E0362C958548AFE535A58EB768471677247300200100001BE00000A660E660E662F71677247FF0C537B5E366709597D805E768499996C345473202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 308,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

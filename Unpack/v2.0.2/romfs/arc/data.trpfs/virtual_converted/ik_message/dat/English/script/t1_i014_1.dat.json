@@ -1,0 +1,33 @@
+{
+  "declaredLength": 364,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "It’s a “lucky Sneasel” statue.<U+0010><U+0001>븁\nSupposedly, its raised right paw beckons good\nluck with money—as does its gold color.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0049007420190073002000610020201C006C00750063006B007900200053006E0065006100730065006C201D0020007300740061007400750065002E00100001BE01000A0053007500700070006F007300650064006C0079002C0020006900740073002000720061006900730065006400200072006900670068007400200070006100770020006200650063006B006F006E007300200067006F006F0064000A006C00750063006B002000770069007400680020006D006F006E0065007920140061007300200064006F00650073002000690074007300200067006F006C006400200063006F006C006F0072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "The boss ain’t here. Please come back again later.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00540068006500200062006F00730073002000610069006E2019007400200068006500720065002E00200050006C006500610073006500200063006F006D00650020006200610063006B00200061006700610069006E0020006C0061007400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 364,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

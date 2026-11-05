@@ -1,0 +1,453 @@
+{
+  "declaredLength": 3992,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ri-ri! Me-me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "00520069002D0072006900210020004D0065002D006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "“Ri-ri! Me-me!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "201C00520069002D0072006900210020004D0065002D006D00650021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Mister Mister Rime Rime!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "004D006900730074006500720020004D00690073007400650072002000520069006D0065002000520069006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "“Mister Mister Rime Rime!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "201C004D006900730074006500720020004D00690073007400650072002000520069006D0065002000520069006D00650021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Rime-o, rime-o!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00520069006D0065002D006F002C002000720069006D0065002D006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "“Rime-o, rime-o!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "201C00520069006D0065002D006F002C002000720069006D0065002D006F0021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Need me to call a doctor?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "004E0065006500640020006D006500200074006F002000630061006C006C0020006100200064006F00630074006F0072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "What are you two doing?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "0057006800610074002000610072006500200079006F0075002000740077006F00200064006F0069006E0067003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Dancing with your Pokémon?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "00440061006E00630069006E00670020007700690074006800200079006F0075007200200050006F006B00E9006D006F006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "“Need me to call a doctor?”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "201C004E0065006500640020006D006500200074006F002000630061006C006C0020006100200064006F00630074006F0072003F201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "“What are you two doing?”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 836,
+      "rawDecodedUtf16Hex": "201C0057006800610074002000610072006500200079006F0075002000740077006F00200064006F0069006E0067003F201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "“Dancing with your Pokémon?”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "201C00440061006E00630069006E00670020007700690074006800200079006F0075007200200050006F006B00E9006D006F006E003F201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Oh, sorry. My partner and I are polishing our act.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 964,
+      "rawDecodedUtf16Hex": "004F0068002C00200073006F007200720079002E0020004D007900200070006100720074006E0065007200200061006E006400200049002000610072006500200070006F006C0069007300680069006E00670020006F007500720020006100630074002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Ri ri me?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "005200690020007200690020006D0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "I’m Mike, the master mimic! Though...I can only\nreally mimic Mr. Rime.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "00492019006D0020004D0069006B0065002C00200074006800650020006D006100730074006500720020006D0069006D006900630021002000540068006F007500670068002E002E002E0049002000630061006E0020006F006E006C0079000A007200650061006C006C00790020006D0069006D006900630020004D0072002E002000520069006D0065002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Maybe you could help us workshop our new bit!<U+0010><U+0001>븁\nWe’ll do a Pokémon battle where we <U+0010><U+0002>＀<U+0006>Mimic<U+0010><U+0002>＀<U+0000> your\nmoves!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "004D006100790062006500200079006F007500200063006F0075006C0064002000680065006C007000200075007300200077006F0072006B00730068006F00700020006F007500720020006E006500770020006200690074002100100001BE01000A005700652019006C006C00200064006F0020006100200050006F006B00E9006D006F006E00200062006100740074006C0065002000770068006500720065002000770065002000100002FF000006004D0069006D0069006300100002FF00000000200079006F00750072000A006D006F007600650073002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 114
+    },
+    {
+      "displayText": "Ri-ri! Me-me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "00520069002D0072006900210020004D0065002D006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "“Ri-ri! Me-me!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "201C00520069002D0072006900210020004D0065002D006D00650021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Lemme know when you’re ready for a mimicry\nmatch!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "004C0065006D006D00650020006B006E006F00770020007700680065006E00200079006F007520190072006500200072006500610064007900200066006F0072002000610020006D0069006D0069006300720079000A006D0061007400630068002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "All set to be mimicked?<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 1664,
+      "rawDecodedUtf16Hex": "0041006C006C002000730065007400200074006F0020006200650020006D0069006D00690063006B00650064003F00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "All set!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "0041006C006C002000730065007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Not yet!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "004E006F0074002000790065007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "“All set!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "201C0041006C006C00200073006500740021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Sorry. Force of habit.<U+0010><U+0001>븁\nGet ready for a mimicry match! My trusty partner\nMr. Rime will have you seeing double!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1792,
+      "rawDecodedUtf16Hex": "0053006F007200720079002E00200046006F0072006300650020006F0066002000680061006200690074002E00100001BE01000A00470065007400200072006500610064007900200066006F0072002000610020006D0069006D00690063007200790020006D006100740063006800210020004D0079002000740072007500730074007900200070006100720074006E00650072000A004D0072002E002000520069006D0065002000770069006C006C0020006800610076006500200079006F007500200073006500650069006E006700200064006F00750062006C0065002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "“Not yet!”<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "201C004E006F007400200079006500740021201D00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Sorry. Force of habit.<U+0010><U+0001>븁\nC’mon, please battle us! My trusty partner\nMr. Rime’s the best move mimic around!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2060,
+      "rawDecodedUtf16Hex": "0053006F007200720079002E00200046006F0072006300650020006F0066002000680061006200690074002E00100001BE01000A00432019006D006F006E002C00200070006C006500610073006500200062006100740074006C006500200075007300210020004D0079002000740072007500730074007900200070006100720074006E00650072000A004D0072002E002000520069006D0065201900730020007400680065002000620065007300740020006D006F007600650020006D0069006D00690063002000610072006F0075006E0064002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 112
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Our mimicry couldn’t keep up!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "004F007500720020006D0069006D006900630072007900200063006F0075006C0064006E201900740020006B006500650070002000750070002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "I mean, you used Mimic like a pro, Mr. Rime. I just\ncouldn’t get the timing down right.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "00490020006D00650061006E002C00200079006F0075002000750073006500640020004D0069006D006900630020006C0069006B006500200061002000700072006F002C0020004D0072002E002000520069006D0065002E002000490020006A007500730074000A0063006F0075006C0064006E2019007400200067006500740020007400680065002000740069006D0069006E006700200064006F0077006E002000720069006700680074002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Still—what’d you think of the mimicry match?\nWas it fun?<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "005300740069006C006C201400770068006100742019006400200079006F00750020007400680069006E006B0020006F006600200074006800650020006D0069006D00690063007200790020006D0061007400630068003F000A005700610073002000690074002000660075006E003F00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Yeah, I’m in stitches!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "0059006500610068002C002000492019006D00200069006E00200073007400690074006300680065007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "It was kinda fun, sure...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "0049007400200077006100730020006B0069006E00640061002000660075006E002C00200073007500720065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Ri-ri! Me-me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "00520069002D0072006900210020004D0065002D006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "“Yeah, I’m in stitches!”<U+0010><U+0001>븁\nWow, am I thrilled to hear that. Thanks!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2800,
+      "rawDecodedUtf16Hex": "201C0059006500610068002C002000492019006D00200069006E0020007300740069007400630068006500730021201D00100001BE01000A0057006F0077002C00200061006D0020004900200074006800720069006C006C0065006400200074006F0020006800650061007200200074006800610074002E0020005400680061006E006B0073002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "“It was kinda fun, sure...”<U+0010><U+0001>븁\nFair enough. Thanks! We’ll keep rehearsing!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "201C0049007400200077006100730020006B0069006E00640061002000660075006E002C00200073007500720065002E002E002E201D00100001BE01000A004600610069007200200065006E006F007500670068002E0020005400680061006E006B007300210020005700652019006C006C0020006B006500650070002000720065006800650061007200730069006E0067002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "“Ri-ri... Me-me”?<U+0010><U+0001>븁\nGeez. You might be a better mimic than I am.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "201C00520069002D00720069002E002E002E0020004D0065002D006D0065201D003F00100001BE01000A004700650065007A002E00200059006F00750020006D00690067006800740020006200650020006100200062006500740074006500720020006D0069006D006900630020007400680061006E0020004900200061006D002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Anyway, here’s a TM for you to remember my\nname by. Spread the word!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 3248,
+      "rawDecodedUtf16Hex": "0041006E0079007700610079002C00200068006500720065201900730020006100200054004D00200066006F007200200079006F007500200074006F002000720065006D0065006D0062006500720020006D0079000A006E0061006D0065002000620079002E0020005300700072006500610064002000740068006500200077006F00720064002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Like you saw in our battle, the move <U+0010><U+0002>＀<U+0006>Mimic <U+0010><U+0002>＀<U+0000>lets\nyou copy the last move your opponent used.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3396,
+      "rawDecodedUtf16Hex": "004C0069006B006500200079006F0075002000730061007700200069006E0020006F0075007200200062006100740074006C0065002C00200074006800650020006D006F00760065002000100002FF000006004D0069006D00690063002000100002FF000000006C006500740073000A0079006F007500200063006F0070007900200074006800650020006C0061007300740020006D006F0076006500200079006F007500720020006F00700070006F006E0065006E007400200075007300650064002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "We mimics have it tough...or at least as tough as\nwhoever we’re mimicking!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3604,
+      "rawDecodedUtf16Hex": "005700650020006D0069006D0069006300730020006800610076006500200069007400200074006F007500670068002E002E002E006F00720020006100740020006C006500610073007400200061007300200074006F007500670068002000610073000A00770068006F00650076006500720020007700652019007200650020006D0069006D00690063006B0069006E0067002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Ri-ri! Me-me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "00520069002D0072006900210020004D0065002D006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿)",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3792,
+      "rawDecodedUtf16Hex": "00100002BDFF00290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "We mimics have it tough...or at least as tough as\nwhoever we’re mimicking!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3804,
+      "rawDecodedUtf16Hex": "005700650020006D0069006D0069006300730020006800610076006500200069007400200074006F007500670068002E002E002E006F00720020006100740020006C006500610073007400200061007300200074006F007500670068002000610073000A00770068006F00650076006500720020007700652019007200650020006D0069006D00690063006B0069006E0067002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Ri-ri! Me-me!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3964,
+      "rawDecodedUtf16Hex": "00520069002D0072006900210020004D0065002D006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3992,
+  "sectionOffset": 16,
+  "textCount": 44,
+  "textSectionCount": 1
+}

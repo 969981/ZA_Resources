@@ -1,0 +1,203 @@
+{
+  "declaredLength": 1116,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+ <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "002B002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "PV",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 64,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "005000560000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Attaque",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 5,
+      "index": 5,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "00410074007400610071007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Défense",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 6,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "004400E900660065006E007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Atq. Spé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 5,
+      "index": 7,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "004100740071002E00200053007000E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Déf. Spé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 8,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "004400E90066002E00200053007000E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Vitesse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 9,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "00560069007400650073007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>Ȇ<U+0001> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "002B0020001000030206000100200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Votre Pokémon a gagné des Points d’Expérience !<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "0056006F00740072006500200050006F006B00E9006D006F006E002000610020006700610067006E00E9002000640065007300200050006F0069006E0074007300200064201900450078007000E9007200690065006E006300650020002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "<U+0010><U+0002>븅<U+0005><U+0010><U+0002>Ă<U+0000> monte au N. <U+0010><U+0002>Ȃ<U+0001> !<U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "00100002BE05000500100002010200000020006D006F006E007400650020006100750020004E002E002000100002020200010020002100100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> apprend <U+0010><U+0002>ć<U+0001> !<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001><U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "0010000201020000002000610070007000720065006E0064002000100002010700010020002100100002BE05000400100002BE05000100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000> veut apprendre\n<U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁\nVoulez-vous oublier une capacité pour apprendre\n<U+0010><U+0002>ć<U+0001> ?",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "00100002010C000000200076006500750074002000610070007000720065006E006400720065000A0010000201070001002E00100001BE01000A0056006F0075006C0065007A002D0076006F007500730020006F00750062006C00690065007200200075006E00650020006300610070006100630069007400E900200070006F00750072002000610070007000720065006E006400720065000A00100002010700010020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "1<U+0010><U+0002>븂\n, 2<U+0010><U+0002>븂\n, <U+0010><U+0002>븂\n... <U+0010><U+0002>븂<U+0014>... Tadaaa !<U+0010><U+0002>븅<U+0003><U+0010><U+0002>븅<U+0005><U+0010><U+0001>븁\n<U+0010><U+0002>Ă<U+0000> a oublié <U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁\nEt...<U+0010><U+0001>븁\n<U+0010><U+0002>븅<U+0006>Il apprend <U+0010><U+0002>ć<U+0002> !<U+0010><U+0002>븅<U+0004><U+0010><U+0001>븁",
+      "escapedControlUnits": 38,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 724,
+      "rawDecodedUtf16Hex": "003100100002BE02000A002C0020003200100002BE02000A002C002000100002BE02000A002E002E002E002000100002BE020014002E002E002E00200054006100640061006100610020002100100002BE05000300100002BE05000500100001BE01000A0010000201020000002000610020006F00750062006C006900E900200010000201070001002E00100001BE01000A00450074002E002E002E00100001BE01000A00100002BE0500060049006C002000610070007000720065006E0064002000100002010700020020002100100002BE05000400100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000> n’a pas appris\n<U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "00100002010C00000020006E2019006100200070006100730020006100700070007200690073000A0010000201070001002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Oublier une capacité",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "004F00750062006C00690065007200200075006E00650020006300610070006100630069007400E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Garder les anciennes capacités",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "0047006100720064006500720020006C0065007300200061006E006300690065006E006E006500730020006300610070006100630069007400E900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1116,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

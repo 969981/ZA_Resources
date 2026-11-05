@@ -1,0 +1,83 @@
+{
+  "declaredLength": 392,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "キュルル！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "30AD30E530EB30EBFF01FF010000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "それがフラエッテナイト……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "305D308C304C30D530E930A830C330C630CA30A430C82026202600000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 14,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "それがフラエッテナイト……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "305D308C304C30D530E930A830C330C630CA30A430C82026202600000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 14,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "フラエッテ　メガシンカ！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "30D530E930A830C330C6300030E130AC30B730F330ABFF010000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "フラエッテ　メガシンカ！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "30D530E930A830C330C6300030E130AC30B730F330ABFF010000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "いくぜ　フラエッテ！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "3044304F305C300030D530E930A830C330C6FF0100000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "いくよ　フラエッテ！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "3044304F3088300030D530E930A830C330C6FF0100000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 392,
+  "sectionOffset": 16,
+  "textCount": 7,
+  "textSectionCount": 1
+}

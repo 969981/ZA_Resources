@@ -1,0 +1,773 @@
+{
+  "declaredLength": 9492,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "HEEEIN ?!?!<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "00480045004500450049004E0020003F0021003F002100100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "C’est... C’est vous, <U+0010><U+0002>Ā<U+0000> ?\nVrai de vrai ? C’est un honneur de vous parler...<U+0010><U+0001>븀\nEuh... Que me voulez-vous ?<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "00432019006500730074002E002E002E00200043201900650073007400200076006F00750073002C002000100002010000000020003F000A0056007200610069002000640065002000760072006100690020003F00200043201900650073007400200075006E00200068006F006E006E00650075007200200064006500200076006F007500730020007000610072006C00650072002E002E002E00100001BE00000A004500750068002E002E002E00200051007500650020006D006500200076006F0075006C0065007A002D0076006F007500730020003F00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "Vous avez une mission pour moi, non ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A00200075006E00650020006D0069007300730069006F006E00200070006F007500720020006D006F0069002C0020006E006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Vous m’avez appelé<U+0010><U+0003>ᄀÿĀe, non ?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "0056006F007500730020006D2019006100760065007A00200061007000700065006C00E900100003110000FF01000065002C0020006E006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Hein ? Ah ! Oh... Mais oui !\nVous avez raison...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1012,
+      "rawDecodedUtf16Hex": "004800650069006E0020003F002000410068002000210020004F0068002E002E002E0020004D0061006900730020006F0075006900200021000A0056006F007500730020006100760065007A00200072006100690073006F006E002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "C’est vrai, j’ai une mission pour vous... Ce Frigodo\naurait besoin d’aide pour se faire des amis...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "0043201900650073007400200076007200610069002C0020006A20190061006900200075006E00650020006D0069007300730069006F006E00200070006F0075007200200076006F00750073002E002E002E00200043006500200046007200690067006F0064006F000A0061007500720061006900740020006200650073006F0069006E002000642019006100690064006500200070006F00750072002000730065002000660061006900720065002000640065007300200061006D00690073002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Friii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1328,
+      "rawDecodedUtf16Hex": "00460072006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "C’est celui de ma sœur. Elle me l’a envoyé de\nPaldea, où elle est partie étudier...<U+0010><U+0001>븀\nMais voilà, il est beaucoup trop timide...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "00432019006500730074002000630065006C007500690020006400650020006D006100200073015300750072002E00200045006C006C00650020006D00650020006C2019006100200065006E0076006F007900E9002000640065000A00500061006C006400650061002C0020006F00F900200065006C006C006500200065007300740020007000610072007400690065002000E9007400750064006900650072002E002E002E00100001BE00000A004D00610069007300200076006F0069006C00E0002C00200069006C0020006500730074002000620065006100750063006F00750070002000740072006F0070002000740069006D006900640065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 134
+    },
+    {
+      "displayText": "J’aimerais bien l’aider, mais... Moi aussi, je suis\ntrès timide, donc je ne sais pas comment faire...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "004A201900610069006D006500720061006900730020006200690065006E0020006C201900610069006400650072002C0020006D006100690073002E002E002E0020004D006F0069002000610075007300730069002C0020006A006500200073007500690073000A0074007200E80073002000740069006D006900640065002C00200064006F006E00630020006A00650020006E006500200073006100690073002000700061007300200063006F006D006D0065006E0074002000660061006900720065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "J’aimerais donc que vous vous rendiez dans la\nzone sauvage nº 10, et que vous alliez discuter<U+0010><U+0001>븀\navec des Dresseurs à ma place...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "004A201900610069006D0065007200610069007300200064006F006E0063002000710075006500200076006F0075007300200076006F00750073002000720065006E006400690065007A002000640061006E00730020006C0061000A007A006F006E0065002000730061007500760061006700650020006E00BA002000310030002C002000650074002000710075006500200076006F0075007300200061006C006C00690065007A00200064006900730063007500740065007200100001BE00000A006100760065006300200064006500730020004400720065007300730065007500720073002000E00020006D006100200070006C006100630065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 134
+    },
+    {
+      "displayText": "Pourriez-vous aller dans la zone sauvage nº 10\nà ma place pour discuter avec des Dresseurs<U+0010><U+0001>븀\net aider Frigodo à se faire des amis... ?<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "0050006F00750072007200690065007A002D0076006F0075007300200061006C006C00650072002000640061006E00730020006C00610020007A006F006E0065002000730061007500760061006700650020006E00BA002000310030000A00E00020006D006100200070006C00610063006500200070006F00750072002000640069007300630075007400650072002000610076006500630020006400650073002000440072006500730073006500750072007300100001BE00000A0065007400200061006900640065007200200046007200690067006F0064006F002000E0002000730065002000660061006900720065002000640065007300200061006D00690073002E002E002E0020003F00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 140
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oui ?<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "004F007500690020003F00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Tu veux que mon Grelaçon devienne ami avec\nce Frigodo ?<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "005400750020007600650075007800200071007500650020006D006F006E0020004700720065006C006100E7006F006E002000640065007600690065006E006E006500200061006D006900200061007600650063000A0063006500200046007200690067006F0064006F0020003F00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Grela !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "004700720065006C0061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "À Paldea, on dit que les Grelaçon et les Frigodo\nse disputent dès qu’ils se croisent.<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "00C0002000500061006C006400650061002C0020006F006E002000640069007400200071007500650020006C006500730020004700720065006C006100E7006F006E0020006500740020006C0065007300200046007200690067006F0064006F000A0073006500200064006900730070007500740065006E00740020006400E8007300200071007520190069006C0073002000730065002000630072006F006900730065006E0074002E00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Fri ! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2724,
+      "rawDecodedUtf16Hex": "004600720069002000210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Tiens ? Ce Frigodo a l’air d’apprécier la présence\nde mon Grelaçon...<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2740,
+      "rawDecodedUtf16Hex": "005400690065006E00730020003F00200043006500200046007200690067006F0064006F002000610020006C2019006100690072002000642019006100700070007200E900630069006500720020006C006100200070007200E900730065006E00630065000A006400650020006D006F006E0020004700720065006C006100E7006F006E002E002E002E00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Peut-être que c’est parce qu’ils sont tous les deux\nde type Glace ?<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "0050006500750074002D00EA007400720065002000710075006500200063201900650073007400200070006100720063006500200071007520190069006C007300200073006F006E007400200074006F007500730020006C0065007300200064006500750078000A006400650020007400790070006500200047006C0061006300650020003F00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Parlez à d’autres Dresseurs !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 3032,
+      "rawDecodedUtf16Hex": "005000610072006C0065007A002000E00020006420190061007500740072006500730020004400720065007300730065007500720073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Vous avez parlé avec tous les Dresseurs\nde la zone sauvage nº 10 !<U+0010><U+0001>븁\nRetournez voir la personne qui vous a confié\ncette mission.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A0020007000610072006C00E90020006100760065006300200074006F007500730020006C006500730020004400720065007300730065007500720073000A006400650020006C00610020007A006F006E0065002000730061007500760061006700650020006E00BA0020003100300020002100100001BE01000A005200650074006F00750072006E0065007A00200076006F006900720020006C006100200070006500720073006F006E006E0065002000710075006900200076006F007500730020006100200063006F006E0066006900E9000A006300650074007400650020006D0069007300730069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 3352,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Qu’est-ce que tu veux ?<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D006300650020007100750065002000740075002000760065007500780020003F00100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Oh ! Quelle belle idée ! Je suis curieux de voir\nun Frigodo faire ami-ami avec un Poussifeu !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 3420,
+      "rawDecodedUtf16Hex": "004F0068002000210020005100750065006C006C0065002000620065006C006C006500200069006400E90065002000210020004A0065002000730075006900730020006300750072006900650075007800200064006500200076006F00690072000A0075006E00200046007200690067006F0064006F00200066006100690072006500200061006D0069002D0061006D00690020006100760065006300200075006E00200050006F00750073007300690066006500750020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Sifeu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3616,
+      "rawDecodedUtf16Hex": "00530069006600650075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Poussifeu et moi, on adore le camping !\nC’est d’ailleurs lui qui m’aide à allumer le feu !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3632,
+      "rawDecodedUtf16Hex": "0050006F00750073007300690066006500750020006500740020006D006F0069002C0020006F006E002000610064006F007200650020006C0065002000630061006D00700069006E006700200021000A0043201900650073007400200064201900610069006C006C00650075007200730020006C0075006900200071007500690020006D20190061006900640065002000E000200061006C006C0075006D006500720020006C006500200066006500750020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Qu’est-ce qu’il sait faire, ce Frigodo ?<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3824,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D0063006500200071007520190069006C00200073006100690074002000660061006900720065002C00200063006500200046007200690067006F0064006F0020003F00100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Godo !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "0047006F0064006F00200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Eh ben ça alors ! Il ne manque pas d’énergie,\nce Pokémon !<U+0010><U+0001>븁\nIl pourrait nous accompagner en randonnée\npour rafraîchir nos boissons !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3936,
+      "rawDecodedUtf16Hex": "00450068002000620065006E002000E7006100200061006C006F007200730020002100200049006C0020006E00650020006D0061006E007100750065002000700061007300200064201900E9006E00650072006700690065002C000A0063006500200050006F006B00E9006D006F006E0020002100100001BE01000A0049006C00200070006F0075007200720061006900740020006E006F007500730020006100630063006F006D007000610067006E0065007200200065006E002000720061006E0064006F006E006E00E90065000A0070006F0075007200200072006100660072006100EE00630068006900720020006E006F007300200062006F006900730073006F006E00730020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 139
+    },
+    {
+      "displayText": "Parlez à d’autres Dresseurs !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 4216,
+      "rawDecodedUtf16Hex": "005000610072006C0065007A002000E00020006420190061007500740072006500730020004400720065007300730065007500720073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Vous avez parlé avec tous les Dresseurs\nde la zone sauvage nº 10 !<U+0010><U+0001>븁\nRetournez voir la personne qui vous a confié\ncette mission.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 4276,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A0020007000610072006C00E90020006100760065006300200074006F007500730020006C006500730020004400720065007300730065007500720073000A006400650020006C00610020007A006F006E0065002000730061007500760061006700650020006E00BA0020003100300020002100100001BE01000A005200650074006F00750072006E0065007A00200076006F006900720020006C006100200070006500720073006F006E006E0065002000710075006900200076006F007500730020006100200063006F006E0066006900E9000A006300650074007400650020006D0069007300730069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 4536,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Je peux t’aider ?<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4548,
+      "rawDecodedUtf16Hex": "004A006500200070006500750078002000742019006100690064006500720020003F00100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Griff !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4592,
+      "rawDecodedUtf16Hex": "0047007200690066006600200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ho ho ! Ce Frigodo cherche des amis ?<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4612,
+      "rawDecodedUtf16Hex": "0048006F00200068006F0020002100200043006500200046007200690067006F0064006F00200063006800650072006300680065002000640065007300200061006D006900730020003F00100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Ça tombe bien ! J’aimerais moi aussi que\nmon Mangriff soit un peu plus sociable !<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4696,
+      "rawDecodedUtf16Hex": "00C7006100200074006F006D006200650020006200690065006E002000210020004A201900610069006D006500720061006900730020006D006F00690020006100750073007300690020007100750065000A006D006F006E0020004D0061006E0067007200690066006600200073006F0069007400200075006E002000700065007500200070006C0075007300200073006F0063006900610062006C00650020002100100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Frig !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4868,
+      "rawDecodedUtf16Hex": "004600720069006700200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Frigodo, tu voudrais bien devenir ami avec\nMangriff ?<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4888,
+      "rawDecodedUtf16Hex": "0046007200690067006F0064006F002C00200074007500200076006F0075006400720061006900730020006200690065006E00200064006500760065006E0069007200200061006D006900200061007600650063000A004D0061006E006700720069006600660020003F00100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Parlez à d’autres Dresseurs !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 5004,
+      "rawDecodedUtf16Hex": "005000610072006C0065007A002000E00020006420190061007500740072006500730020004400720065007300730065007500720073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Vous avez parlé avec tous les Dresseurs\nde la zone sauvage nº 10 !<U+0010><U+0001>븁\nRetournez voir la personne qui vous a confié\ncette mission.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 5064,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A0020007000610072006C00E90020006100760065006300200074006F007500730020006C006500730020004400720065007300730065007500720073000A006400650020006C00610020007A006F006E0065002000730061007500760061006700650020006E00BA0020003100300020002100100001BE01000A005200650074006F00750072006E0065007A00200076006F006900720020006C006100200070006500720073006F006E006E0065002000710075006900200076006F007500730020006100200063006F006E0066006900E9000A006300650074007400650020006D0069007300730069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿(",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 5324,
+      "rawDecodedUtf16Hex": "00100002BDFF00280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "A... Alors ? Ils étaient comment, les autres\nDresseurs ?<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 5336,
+      "rawDecodedUtf16Hex": "0041002E002E002E00200041006C006F007200730020003F00200049006C0073002000E90074006100690065006E007400200063006F006D006D0065006E0074002C0020006C006500730020006100750074007200650073000A0044007200650073007300650075007200730020003F00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "... Je vois, hum... J’ai bien peur qu’aucun ne\nfasse l’affaire...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5460,
+      "rawDecodedUtf16Hex": "002E002E002E0020004A006500200076006F00690073002C002000680075006D002E002E002E0020004A2019006100690020006200690065006E0020007000650075007200200071007520190061007500630075006E0020006E0065000A006600610073007300650020006C20190061006600660061006900720065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Ma sœur m’a dit qu’à Paldea, les Grelaçon et\nles Frigodo passent leur temps à se battre...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5600,
+      "rawDecodedUtf16Hex": "004D0061002000730153007500720020006D201900610020006400690074002000710075201900E0002000500061006C006400650061002C0020006C006500730020004700720065006C006100E7006F006E002000650074000A006C0065007300200046007200690067006F0064006F002000700061007300730065006E00740020006C006500750072002000740065006D00700073002000E00020007300650020006200610074007400720065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Et puis, allumer un feu dans la nature ?\nPour faire du camping ?<U+0010><U+0001>븀\nÇa me semble un peu trop dangereux...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 44,
+      "offsetInSection": 5792,
+      "rawDecodedUtf16Hex": "0045007400200070007500690073002C00200061006C006C0075006D0065007200200075006E0020006600650075002000640061006E00730020006C00610020006E006100740075007200650020003F000A0050006F00750072002000660061006900720065002000640075002000630061006D00700069006E00670020003F00100001BE00000A00C700610020006D0065002000730065006D0062006C006500200075006E0020007000650075002000740072006F0070002000640061006E006700650072006500750078002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Et les Mangriff, ce sont ces Pokémon effrayants\nqui se battent sans cesse avec les Séviper, non ?<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 45,
+      "offsetInSection": 6012,
+      "rawDecodedUtf16Hex": "004500740020006C006500730020004D0061006E00670072006900660066002C00200063006500200073006F006E0074002000630065007300200050006F006B00E9006D006F006E00200065006600660072006100790061006E00740073000A007100750069002000730065002000620061007400740065006E0074002000730061006E0073002000630065007300730065002000610076006500630020006C006500730020005300E900760069007000650072002C0020006E006F006E0020003F00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Urgh... Bon, je vais arrêter... C’était une mauvaise\nidée de chercher des amis pour Frigodo...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 6216,
+      "rawDecodedUtf16Hex": "0055007200670068002E002E002E00200042006F006E002C0020006A006500200076006100690073002000610072007200EA007400650072002E002E002E00200043201900E9007400610069007400200075006E00650020006D0061007500760061006900730065000A0069006400E90065002000640065002000630068006500720063006800650072002000640065007300200061006D0069007300200070006F0075007200200046007200690067006F0064006F002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "Merci de m’avoir aidée... Je n’aurais jamais pu\nfaire ça toute seule, je suis bien trop timide...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 6416,
+      "rawDecodedUtf16Hex": "004D00650072006300690020006400650020006D201900610076006F00690072002000610069006400E90065002E002E002E0020004A00650020006E20190061007500720061006900730020006A0061006D006100690073002000700075000A00660061006900720065002000E7006100200074006F0075007400650020007300650075006C0065002C0020006A0065002000730075006900730020006200690065006E002000740072006F0070002000740069006D006900640065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "GODODO !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 6620,
+      "rawDecodedUtf16Hex": "0047004F0044004F0044004F00200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Qu’est-ce que tu as, Frigodo ?\nPourquoi tu t’agites comme ça ?<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 6644,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D006300650020007100750065002000740075002000610073002C00200046007200690067006F0064006F0020003F000A0050006F0075007200710075006F006900200074007500200074201900610067006900740065007300200063006F006D006D0065002000E700610020003F00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Il n’a pas l’air content.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 6780,
+      "rawDecodedUtf16Hex": "0049006C0020006E2019006100200070006100730020006C201900610069007200200063006F006E00740065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Vous aimez vraiment ce Frigodo ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 6832,
+      "rawDecodedUtf16Hex": "0056006F00750073002000610069006D0065007A00200076007200610069006D0065006E007400200063006500200046007200690067006F0064006F0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Quoi ? Tu veux vraiment devenir ami avec\nces Pokémon ?<U+0010><U+0001>븁\nMais ça veut dire qu’il faut que je parle à leurs\nDresseurs, et... c’est au-dessus de mes forces...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 6900,
+      "rawDecodedUtf16Hex": "00510075006F00690020003F0020005400750020007600650075007800200076007200610069006D0065006E007400200064006500760065006E0069007200200061006D006900200061007600650063000A00630065007300200050006F006B00E9006D006F006E0020003F00100001BE01000A004D006100690073002000E70061002000760065007500740020006400690072006500200071007520190069006C0020006600610075007400200071007500650020006A00650020007000610072006C0065002000E00020006C0065007500720073000A004400720065007300730065007500720073002C002000650074002E002E002E002000632019006500730074002000610075002D0064006500730073007500730020006400650020006D0065007300200066006F0072006300650073002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 162
+    },
+    {
+      "displayText": "Ah, c’est vous la Dresseuse de ce Frigodo ?\nMon Grelaçon voudrait jouer avec lui !<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 53,
+      "offsetInSection": 7224,
+      "rawDecodedUtf16Hex": "00410068002C00200063201900650073007400200076006F007500730020006C0061002000440072006500730073006500750073006500200064006500200063006500200046007200690067006F0064006F0020003F000A004D006F006E0020004700720065006C006100E7006F006E00200076006F0075006400720061006900740020006A006F007500650072002000610076006500630020006C007500690020002100100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Salut ! J’aimerais inviter votre Frigodo à notre\nprochaine randonnée dans la nature !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 7400,
+      "rawDecodedUtf16Hex": "00530061006C00750074002000210020004A201900610069006D0065007200610069007300200069006E0076006900740065007200200076006F00740072006500200046007200690067006F0064006F002000E00020006E006F007400720065000A00700072006F0063006800610069006E0065002000720061006E0064006F006E006E00E90065002000640061006E00730020006C00610020006E006100740075007200650020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Regardez mon Mangriff !\nJe ne l’ai jamais vu aussi heureux !<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 7580,
+      "rawDecodedUtf16Hex": "0052006500670061007200640065007A0020006D006F006E0020004D0061006E0067007200690066006600200021000A004A00650020006E00650020006C2019006100690020006A0061006D006100690073002000760075002000610075007300730069002000680065007500720065007500780020002100100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Maaan !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 7712,
+      "rawDecodedUtf16Hex": "004D006100610061006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Godooo !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 7728,
+      "rawDecodedUtf16Hex": "0047006F0064006F006F006F002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>... À... À l’aide...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 7748,
+      "rawDecodedUtf16Hex": "0010000201000000002E002E002E002000C0002E002E002E002000C00020006C20190061006900640065002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Regardez comme Frigodo a l’air heureux !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 7808,
+      "rawDecodedUtf16Hex": "0052006500670061007200640065007A00200063006F006D006D006500200046007200690067006F0064006F002000610020006C201900610069007200200068006500750072006500750078002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Regardez comme Frigodo a l’air motivé !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 7892,
+      "rawDecodedUtf16Hex": "0052006500670061007200640065007A00200063006F006D006D006500200046007200690067006F0064006F002000610020006C20190061006900720020006D006F00740069007600E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Mais... mais... Ces gens... Ils sont tout près...\nJ’ai... j’ai peur...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 7972,
+      "rawDecodedUtf16Hex": "004D006100690073002E002E002E0020006D006100690073002E002E002E0020004300650073002000670065006E0073002E002E002E00200049006C007300200073006F006E007400200074006F0075007400200070007200E80073002E002E002E000A004A201900610069002E002E002E0020006A20190061006900200070006500750072002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Pas de problème ! Et si nous prenions un peu\nde distance pour parler de nos Pokémon ?<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 8124,
+      "rawDecodedUtf16Hex": "005000610073002000640065002000700072006F0062006C00E8006D0065002000210020004500740020007300690020006E006F007500730020007000720065006E0069006F006E007300200075006E0020007000650075000A00640065002000640069007300740061006E0063006500200070006F007500720020007000610072006C006500720020006400650020006E006F007300200050006F006B00E9006D006F006E0020003F00100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Et même si nous n’avons rien à dire, au moins,\nnos Pokémon peuvent s’amuser ensemble !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 63,
+      "offsetInSection": 8304,
+      "rawDecodedUtf16Hex": "004500740020006D00EA006D00650020007300690020006E006F007500730020006E201900610076006F006E00730020007200690065006E002000E000200064006900720065002C0020006100750020006D006F0069006E0073002C000A006E006F007300200050006F006B00E9006D006F006E002000700065007500760065006E00740020007320190061006D007500730065007200200065006E00730065006D0062006C00650020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Mon Mangriff a plein de qualités !\nEt Frigodo ? Qu’est-ce qui le rend unique ?<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 8488,
+      "rawDecodedUtf16Hex": "004D006F006E0020004D0061006E006700720069006600660020006100200070006C00650069006E0020006400650020007100750061006C0069007400E9007300200021000A0045007400200046007200690067006F0064006F0020003F0020005100752019006500730074002D0063006500200071007500690020006C0065002000720065006E006400200075006E00690071007500650020003F00100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Euh... Ah... Alors... Euh... OK...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 65,
+      "offsetInSection": 8656,
+      "rawDecodedUtf16Hex": "004500750068002E002E002E002000410068002E002E002E00200041006C006F00720073002E002E002E0020004500750068002E002E002E0020004F004B002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Frigo !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 8736,
+      "rawDecodedUtf16Hex": "0046007200690067006F00200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 8756,
+      "rawDecodedUtf16Hex": "00100002BDFF00430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Je vais... Je vais essayer de faire de mon mieux\npour surmonter ma timidité...<U+0010><U+0002>ĔǏ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 8768,
+      "rawDecodedUtf16Hex": "004A006500200076006100690073002E002E002E0020004A006500200076006100690073002000650073007300610079006500720020006400650020006600610069007200650020006400650020006D006F006E0020006D0069006500750078000A0070006F007500720020007300750072006D006F006E0074006500720020006D0061002000740069006D006900640069007400E9002E002E002E00100002011401CF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Do !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 8936,
+      "rawDecodedUtf16Hex": "0044006F00200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Parlons de nos Pokémon, ça nous permettra\nde mieux nous connaître !<U+0010><U+0002>Ĕǐ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 8952,
+      "rawDecodedUtf16Hex": "005000610072006C006F006E00730020006400650020006E006F007300200050006F006B00E9006D006F006E002C002000E700610020006E006F007500730020007000650072006D00650074007400720061000A006400650020006D00690065007500780020006E006F0075007300200063006F006E006E006100EE0074007200650020002100100002011401D00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Lalaçon !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 9096,
+      "rawDecodedUtf16Hex": "004C0061006C006100E7006F006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Même si nous n’avons rien à dire, au moins,\nnos Pokémon peuvent s’amuser ensemble !<U+0010><U+0002>ĔǑ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 9116,
+      "rawDecodedUtf16Hex": "004D00EA006D00650020007300690020006E006F007500730020006E201900610076006F006E00730020007200690065006E002000E000200064006900720065002C0020006100750020006D006F0069006E0073002C000A006E006F007300200050006F006B00E9006D006F006E002000700065007500760065006E00740020007320190061006D007500730065007200200065006E00730065006D0062006C00650020002100100002011401D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Sifeu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 9292,
+      "rawDecodedUtf16Hex": "00530069006600650075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Mon Mangriff a plein de qualités !\nEt Frigodo ? Qu’est-ce qui le rend unique ?<U+0010><U+0002>Ĕǒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 9308,
+      "rawDecodedUtf16Hex": "004D006F006E0020004D0061006E006700720069006600660020006100200070006C00650069006E0020006400650020007100750061006C0069007400E9007300200021000A0045007400200046007200690067006F0064006F0020003F0020005100752019006500730074002D0063006500200071007500690020006C0065002000720065006E006400200075006E00690071007500650020003F00100002011401D20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Maaan !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 9476,
+      "rawDecodedUtf16Hex": "004D006100610061006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 9492,
+  "sectionOffset": 16,
+  "textCount": 76,
+  "textSectionCount": 1
+}

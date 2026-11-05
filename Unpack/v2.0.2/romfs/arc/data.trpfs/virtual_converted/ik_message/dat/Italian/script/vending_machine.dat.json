@@ -1,0 +1,193 @@
+{
+  "declaredLength": 984,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "È un distributore.\nChe bibita vuoi?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00C800200075006E0020006400690073007400720069006200750074006F00720065002E000A0043006800650020006200690062006900740061002000760075006F0069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Acqua fresca <U+0010><U+0002>봃<U+0000><U+0010><U+0002>Ȃ<U+0002> <U+E300>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "004100630071007500610020006600720065007300630061002000100002BD03000000100002020200020020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Gassosa <U+0010><U+0002>봃<U+0000><U+0010><U+0002>Ȃ<U+0003> <U+E300>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0047006100730073006F00730061002000100002BD03000000100002020200030020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Lemonsucco <U+0010><U+0002>봃<U+0000><U+0010><U+0002>Ȃ<U+0004> <U+E300>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "004C0065006D006F006E0073007500630063006F002000100002BD03000000100002020200040020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Cosa vuoi usare per pagare, soldi o CL?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "0043006F00730061002000760075006F006900200075007300610072006500200070006500720020007000610067006100720065002C00200073006F006C006400690020006F00200043004C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Soldi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 432,
+      "rawDecodedUtf16Hex": "0053006F006C006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "CL",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "0043004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Decidi di non comprare niente...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "0044006500630069006400690020006400690020006E006F006E00200063006F006D007000720061007200650020006E00690065006E00740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Hai raggiunto il limite per questo strumento!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "0048006100690020007200610067006700690075006E0074006F00200069006C0020006C0069006D0069007400650020007000650072002000710075006500730074006F00200073007400720075006D0065006E0074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Non hai abbastanza soldi!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "004E006F006E002000680061006900200061006200620061007300740061006E007A006100200073006F006C0064006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Non hai abbastanza CL!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "004E006F006E002000680061006900200061006200620061007300740061006E007A006100200043004C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>È uscit<U+0010><U+0003>ᄀ<U+0001>āoa\n<U+0010><U+0003>ᔂ<U+0001><U+0000><U+0010><U+0002>Ċ<U+0001>!",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 724,
+      "rawDecodedUtf16Hex": "00100002BD06000000C800200075007300630069007400100003110000010101006F0061000A0010000315020001000000100002010A000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Vuoi comprare un’altra bibita?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "00560075006F006900200063006F006D0070007200610072006500200075006E20190061006C0074007200610020006200690062006900740061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Compro la stessa di prima",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "0043006F006D00700072006F0020006C006100200073007400650073007300610020006400690020007000720069006D00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Voglio comprare qualcos’altro",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "0056006F0067006C0069006F00200063006F006D007000720061007200650020007100750061006C0063006F007320190061006C00740072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 984,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

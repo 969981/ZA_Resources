@@ -1,0 +1,23 @@
+{
+  "declaredLength": 24,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Zett",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "005A0065007400740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 24,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

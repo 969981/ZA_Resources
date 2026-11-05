@@ -1,0 +1,433 @@
+{
+  "declaredLength": 5216,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Oh! Hello, you’re <U+0010><U+0002>Ā<U+0000>,\nright?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "00100002BD060000004F00680021002000480065006C006C006F002C00200079006F007520190072006500200010000201000000002C000A00720069006700680074003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "My favorite streamer in the whole world posted\nthis photo the other day! Just LOOK at it!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "004D00790020006600610076006F0072006900740065002000730074007200650061006D0065007200200069006E0020007400680065002000770068006F006C006500200077006F0072006C006400200070006F0073007400650064000A0074006800690073002000700068006F0074006F00200074006800650020006F0074006800650072002000640061007900210020004A0075007300740020004C004F004F004B002000610074002000690074002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "It’s too good, right? Canari just chilling on a\nbench with her Eelektross, looking AMAZING.<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "004900742019007300200074006F006F00200067006F006F0064002C002000720069006700680074003F002000430061006E0061007200690020006A0075007300740020006300680069006C006C0069006E00670020006F006E00200061000A00620065006E00630068002000770069007400680020006800650072002000450065006C0065006B00740072006F00730073002C0020006C006F006F006B0069006E006700200041004D0041005A0049004E0047002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "I want to sit on the exact same bench and get my\nown shot with Manectric!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "0049002000770061006E007400200074006F00200073006900740020006F006E0020007400680065002000650078006100630074002000730061006D0065002000620065006E0063006800200061006E006400200067006500740020006D0079000A006F0077006E002000730068006F0074002000770069007400680020004D0061006E006500630074007200690063002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>So I could really use your help,\n<U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "00100002BD0600000053006F0020004900200063006F0075006C00640020007200650061006C006C0079002000750073006500200079006F00750072002000680065006C0070002C000A0010000201000000002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Help me find that bench!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "00480065006C00700020006D0065002000660069006E006400200074006800610074002000620065006E00630068002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Bowzzz!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "0042006F0077007A007A007A00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Do you want to see the bench in the photo again?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000770061006E007400200074006F00200073006500650020007400680065002000620065006E0063006800200069006E0020007400680065002000700068006F0074006F00200061006700610069006E003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Yeah, let me see",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "0059006500610068002C0020006C006500740020006D006500200073006500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "I think I’m good",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00490020007400680069006E006B002000492019006D00200067006F006F00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Here you go! Do you recognize the bench?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1320,
+      "rawDecodedUtf16Hex": "004800650072006500200079006F007500200067006F002100200044006F00200079006F00750020007200650063006F0067006E0069007A00650020007400680065002000620065006E00630068003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "I really hope you can help me find it!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "00490020007200650061006C006C007900200068006F0070006500200079006F0075002000630061006E002000680065006C00700020006D0065002000660069006E0064002000690074002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "You’ve found the specific bench that Sasse was\nlooking for!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1512,
+      "rawDecodedUtf16Hex": "0059006F007520190076006500200066006F0075006E00640020007400680065002000730070006500630069006600690063002000620065006E00630068002000740068006100740020005300610073007300650020007700610073000A006C006F006F006B0069006E006700200066006F007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "It’s got the two planters in a row! The same\nbuildings in the background! And the mountains!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "004900742019007300200067006F00740020007400680065002000740077006F00200070006C0061006E007400650072007300200069006E0020006100200072006F007700210020005400680065002000730061006D0065000A006200750069006C00640069006E0067007300200069006E00200074006800650020006200610063006B00670072006F0075006E0064002100200041006E006400200074006800650020006D006F0075006E007400610069006E0073002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "This has to be where Canari took her photo!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "0054006800690073002000680061007300200074006F002000620065002000770068006500720065002000430061006E00610072006900200074006F006F006B0020006800650072002000700068006F0074006F002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "C’mon, no time to waste!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1924,
+      "rawDecodedUtf16Hex": "00432019006D006F006E002C0020006E006F002000740069006D006500200074006F002000770061007300740065002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Don’t I look just like Canari, sitting here on the\nsame bench she sat on?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "0044006F006E20190074002000490020006C006F006F006B0020006A0075007300740020006C0069006B0065002000430061006E006100720069002C002000730069007400740069006E0067002000680065007200650020006F006E0020007400680065000A00730061006D0065002000620065006E00630068002000730068006500200073006100740020006F006E003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Can I ask just one more teeny tiny thing of you,\n<U+0010><U+0002>Ā<U+0000>?<U+0010><U+0001>븁\nCan you take a picture of me looking just like\nCanari did in the photo I showed you?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2140,
+      "rawDecodedUtf16Hex": "00430061006E00200049002000610073006B0020006A0075007300740020006F006E00650020006D006F007200650020007400650065006E0079002000740069006E00790020007400680069006E00670020006F006600200079006F0075002C000A0010000201000000003F00100001BE01000A00430061006E00200079006F0075002000740061006B006500200061002000700069006300740075007200650020006F00660020006D00650020006C006F006F006B0069006E00670020006A0075007300740020006C0069006B0065000A00430061006E006100720069002000640069006400200069006E0020007400680065002000700068006F0074006F00200049002000730068006F00770065006400200079006F0075003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 147
+    },
+    {
+      "displayText": "I want it to be from exactly the same angle!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "0049002000770061006E007400200069007400200074006F002000620065002000660072006F006D002000650078006100630074006C00790020007400680065002000730061006D006500200061006E0067006C0065002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "I can show you Canari’s picture again anytime,\nso let me know if you want to!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "0049002000630061006E002000730068006F007700200079006F0075002000430061006E006100720069201900730020007000690063007400750072006500200061006700610069006E00200061006E007900740069006D0065002C000A0073006F0020006C006500740020006D00650020006B006E006F007700200069006600200079006F0075002000770061006E007400200074006F002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Do you want to check Canari’s photograph?<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2700,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000770061006E007400200074006F00200063006800650063006B002000430061006E00610072006920190073002000700068006F0074006F00670072006100700068003F00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "I absolutely do!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "00490020006100620073006F006C007500740065006C007900200064006F002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Not really<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "004E006F00740020007200650061006C006C007900100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Go on! Try to create a little distance and get me a\npicture just like Canari’s!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2868,
+      "rawDecodedUtf16Hex": "0047006F0020006F006E0021002000540072007900200074006F0020006300720065006100740065002000610020006C006900740074006C0065002000640069007300740061006E0063006500200061006E006400200067006500740020006D006500200061000A00700069006300740075007200650020006A0075007300740020006C0069006B0065002000430061006E00610072006920190073002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3036,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Yeah, I think you’ve got it! The right place should\nbe somewhere around there...<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3048,
+      "rawDecodedUtf16Hex": "0059006500610068002C002000490020007400680069006E006B00200079006F007520190076006500200067006F00740020006900740021002000540068006500200072006900670068007400200070006C006100630065002000730068006F0075006C0064000A0062006500200073006F006D006500770068006500720065002000610072006F0075006E0064002000740068006500720065002E002E002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Or maybe not.<U+0010><U+0001>븁\nThe angle’s off, isn’t it? I really want it to be the\nperfect recreation of Canari’s shot!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3220,
+      "rawDecodedUtf16Hex": "004F00720020006D00610079006200650020006E006F0074002E00100001BE01000A00540068006500200061006E0067006C0065201900730020006F00660066002C002000690073006E20190074002000690074003F002000490020007200650061006C006C0079002000770061006E007400200069007400200074006F0020006200650020007400680065000A0070006500720066006500630074002000720065006300720065006100740069006F006E0020006F0066002000430061006E00610072006920190073002000730068006F0074002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 112
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3444,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Yes! There! Take a picture from right there!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3456,
+      "rawDecodedUtf16Hex": "00590065007300210020005400680065007200650021002000540061006B00650020006100200070006900630074007500720065002000660072006F006D002000720069006700680074002000740068006500720065002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "All right, let’s see if you managed to pull it off...<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "0041006C006C002000720069006700680074002C0020006C0065007420190073002000730065006500200069006600200079006F00750020006D0061006E006100670065006400200074006F002000700075006C006C0020006900740020006F00660066002E002E002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Ohmygosh! It’s PERFECT! I look JUST like Canari!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "004F0068006D00790067006F00730068002100200049007420190073002000500045005200460045004300540021002000490020006C006F006F006B0020004A0055005300540020006C0069006B0065002000430061006E006100720069002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "I’m uploading now, aaand... There! It’s up!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3780,
+      "rawDecodedUtf16Hex": "00492019006D002000750070006C006F006100640069006E00670020006E006F0077002C0020006100610061006E0064002E002E002E002000540068006500720065002100200049007420190073002000750070002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Hey, I wonder who took that picture for Canari?<U+0010><U+0001>븁\nCould it be that mysterious manager of hers?\nApparently he’s really involved in her work...<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3876,
+      "rawDecodedUtf16Hex": "004800650079002C0020004900200077006F006E006400650072002000770068006F00200074006F006F006B002000740068006100740020007000690063007400750072006500200066006F0072002000430061006E006100720069003F00100001BE01000A0043006F0075006C0064002000690074002000620065002000740068006100740020006D007900730074006500720069006F007500730020006D0061006E00610067006500720020006F006600200068006500720073003F000A004100700070006100720065006E0074006C0079002000680065201900730020007200650061006C006C007900200069006E0076006F006C00760065006400200069006E002000680065007200200077006F0072006B002E002E002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 147
+    },
+    {
+      "displayText": "I guess we have him to thank for having Canari\nBread and everything.<U+0010><U+0001>븁\nThey’re not bad! But I’d really rather have Canari\nkey chains or...oooh, an acrylic standee!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4172,
+      "rawDecodedUtf16Hex": "004900200067007500650073007300200077006500200068006100760065002000680069006D00200074006F0020007400680061006E006B00200066006F007200200068006100760069006E0067002000430061006E006100720069000A0042007200650061006400200061006E0064002000650076006500720079007400680069006E0067002E00100001BE01000A00540068006500792019007200650020006E006F007400200062006100640021002000420075007400200049201900640020007200650061006C006C0079002000720061007400680065007200200068006100760065002000430061006E006100720069000A006B0065007900200063006800610069006E00730020006F0072002E002E002E006F006F006F0068002C00200061006E00200061006300720079006C006900630020007300740061006E006400650065002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 169
+    },
+    {
+      "displayText": "Maybe someday! Anyway, I’d love to re-create a\nbunch more of Canari’s pics while I’m in Lumiose.<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4512,
+      "rawDecodedUtf16Hex": "004D006100790062006500200073006F006D0065006400610079002100200041006E0079007700610079002C00200049201900640020006C006F0076006500200074006F002000720065002D00630072006500610074006500200061000A00620075006E006300680020006D006F007200650020006F0066002000430061006E00610072006920190073002000700069006300730020007700680069006C0065002000492019006D00200069006E0020004C0075006D0069006F00730065002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Thanks for your help, <U+0010><U+0002>Ā<U+0000>!\nMaybe<U+0010><U+0001>븀\nhave<U+0010><U+0001>븀\na<U+0010><U+0001>븀\nseat<U+0010><U+0001>븀\non<U+0010><U+0001>븀\nthat<U+0010><U+0001>븀\nbench<U+0010><U+0001>븀\nand<U+0010><U+0001>븀\ntake<U+0010><U+0001>븀\na<U+0010><U+0001>븀\nload off!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 28,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4716,
+      "rawDecodedUtf16Hex": "00100002BD060000005400680061006E006B007300200066006F007200200079006F00750072002000680065006C0070002C002000100002010000000021000A004D006100790062006500100001BE00000A006800610076006500100001BE00000A006100100001BE00000A007300650061007400100001BE00000A006F006E00100001BE00000A007400680061007400100001BE00000A00620065006E0063006800100001BE00000A0061006E006400100001BE00000A00740061006B006500100001BE00000A006100100001BE00000A006C006F006100640020006F00660066002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "See you around!<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4956,
+      "rawDecodedUtf16Hex": "00530065006500200079006F0075002000610072006F0075006E0064002100100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿'",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4996,
+      "rawDecodedUtf16Hex": "00100002BDFF00270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Maybe I’ll try to find the place where the Quiz\nWhiz Contests are held for my next photo...<U+0010><U+0002>ĔƮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 5008,
+      "rawDecodedUtf16Hex": "004D0061007900620065002000492019006C006C002000740072007900200074006F002000660069006E0064002000740068006500200070006C00610063006500200077006800650072006500200074006800650020005100750069007A000A005700680069007A00200043006F006E007400650073007400730020006100720065002000680065006C006400200066006F00720020006D00790020006E006500780074002000700068006F0074006F002E002E002E00100002011401AE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Bowzzz!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 5200,
+      "rawDecodedUtf16Hex": "0042006F0077007A007A007A00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5216,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

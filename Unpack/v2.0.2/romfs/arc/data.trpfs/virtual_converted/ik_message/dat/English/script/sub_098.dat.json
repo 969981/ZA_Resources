@@ -1,0 +1,433 @@
+{
+  "declaredLength": 5044,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "You! Perhaps you can release me from my\ntorment!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "0059006F007500210020005000650072006800610070007300200079006F0075002000630061006E002000720065006C00650061007300650020006D0065002000660072006F006D0020006D0079000A0074006F0072006D0065006E00740021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "As you can no doubt see, I am an artist!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "0041007300200079006F0075002000630061006E0020006E006F00200064006F0075006200740020007300650065002C0020004900200061006D00200061006E00200061007200740069007300740021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "I came here to sketch the scenery for a piece that\nwill no doubt take first place in my next contest...<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "0049002000630061006D00650020006800650072006500200074006F00200073006B006500740063006800200074006800650020007300630065006E00650072007900200066006F00720020006100200070006900650063006500200074006800610074000A00770069006C006C0020006E006F00200064006F007500620074002000740061006B006500200066006900720073007400200070006C00610063006500200069006E0020006D00790020006E00650078007400200063006F006E0074006500730074002E002E002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "But behold!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "0042007500740020006200650068006F006C00640021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Those awful brambles are obscuring my view of\nthe fountain! They’re ruining the scene!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 812,
+      "rawDecodedUtf16Hex": "00540068006F0073006500200061007700660075006C0020006200720061006D0062006C0065007300200061007200650020006F006200730063007500720069006E00670020006D0079002000760069006500770020006F0066000A00740068006500200066006F0075006E007400610069006E0021002000540068006500792019007200650020007200750069006E0069006E006700200074006800650020007300630065006E00650021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Alas, my Pokémon have no means of removing\nthis vexing vegetation...<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "0041006C00610073002C0020006D007900200050006F006B00E9006D006F006E002000680061007600650020006E006F0020006D00650061006E00730020006F0066002000720065006D006F00760069006E0067000A007400680069007300200076006500780069006E0067002000760065006700650074006100740069006F006E002E002E002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Aha! A bolt of inspiration strikes! Perhaps burning\nthe brambles might do the trick?<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "00410068006100210020004100200062006F006C00740020006F006600200069006E0073007000690072006100740069006F006E00200073007400720069006B006500730021002000500065007200680061007000730020006200750072006E0069006E0067000A0074006800650020006200720061006D0062006C006500730020006D006900670068007400200064006F002000740068006500200074007200690063006B003F001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Please, I beg you!<U+0010><U+0001>븁\nThose brambles must be gone if I am to complete\nmy piece. Have your Pokémon burn them away!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "0050006C0065006100730065002C00200049002000620065006700200079006F0075002100100001BE01000A00540068006F007300650020006200720061006D0062006C006500730020006D00750073007400200062006500200067006F006E00650020006900660020004900200061006D00200074006F00200063006F006D0070006C006500740065000A006D0079002000700069006500630065002E0020004800610076006500200079006F0075007200200050006F006B00E9006D006F006E0020006200750072006E0020007400680065006D002000610077006100790021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Those brambles are ruining my view of the\nfountain. Please, have your Pokémon burn them!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "00540068006F007300650020006200720061006D0062006C0065007300200061007200650020007200750069006E0069006E00670020006D0079002000760069006500770020006F00660020007400680065000A0066006F0075006E007400610069006E002E00200050006C0065006100730065002C0020006800610076006500200079006F0075007200200050006F006B00E9006D006F006E0020006200750072006E0020007400680065006D0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh, thank you—from the bottom of my heart!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "004F0068002C0020007400680061006E006B00200079006F0075201400660072006F006D002000740068006500200062006F00740074006F006D0020006F00660020006D00790020006800650061007200740021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Now I can finally resume working on my sketch.<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "004E006F007700200049002000630061006E002000660069006E0061006C006C007900200072006500730075006D006500200077006F0072006B0069006E00670020006F006E0020006D007900200073006B0065007400630068002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Wha—?!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "0057006800612014003F0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "There are even more brambles in the way! How\ncan this be?<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "0054006800650072006500200061007200650020006500760065006E0020006D006F007200650020006200720061006D0062006C0065007300200069006E00200074006800650020007700610079002100200048006F0077000A00630061006E00200074006800690073002000620065003F001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "It seems I must ask for your help again.<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2120,
+      "rawDecodedUtf16Hex": "004900740020007300650065006D0073002000490020006D007500730074002000610073006B00200066006F007200200079006F00750072002000680065006C007000200061006700610069006E002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Those brambles are ruining my view of the\nfountain. Please, have your Pokémon burn them!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2212,
+      "rawDecodedUtf16Hex": "00540068006F007300650020006200720061006D0062006C0065007300200061007200650020007200750069006E0069006E00670020006D0079002000760069006500770020006F00660020007400680065000A0066006F0075006E007400610069006E002E00200050006C0065006100730065002C0020006800610076006500200079006F0075007200200050006F006B00E9006D006F006E0020006200750072006E0020007400680065006D0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Thank you from the bottom of my heart—again!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "005400680061006E006B00200079006F0075002000660072006F006D002000740068006500200062006F00740074006F006D0020006F00660020006D007900200068006500610072007420140061006700610069006E0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "I’m sure that I can finally resume working on my\nsketch.<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "00492019006D002000730075007200650020007400680061007400200049002000630061006E002000660069006E0061006C006C007900200072006500730075006D006500200077006F0072006B0069006E00670020006F006E0020006D0079000A0073006B0065007400630068002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Wha—?!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2636,
+      "rawDecodedUtf16Hex": "0057006800612014003F0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "There are even MORE brambles in the way now!\nH-how can this be?!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "0054006800650072006500200061007200650020006500760065006E0020004D004F005200450020006200720061006D0062006C0065007300200069006E002000740068006500200077006100790020006E006F00770021000A0048002D0068006F0077002000630061006E00200074006800690073002000620065003F0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "I’ve no choice but to ask for your help yet again!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 2800,
+      "rawDecodedUtf16Hex": "00492019007600650020006E006F002000630068006F006900630065002000620075007400200074006F002000610073006B00200066006F007200200079006F00750072002000680065006C0070002000790065007400200061006700610069006E0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Those brambles are ruining my view. Please, have\nyour Pokémon burn them ALL away!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "00540068006F007300650020006200720061006D0062006C0065007300200061007200650020007200750069006E0069006E00670020006D007900200076006900650077002E00200050006C0065006100730065002C00200068006100760065000A0079006F0075007200200050006F006B00E9006D006F006E0020006200750072006E0020007400680065006D00200041004C004C002000610077006100790021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "My heart is practically overflowing with thanks!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3096,
+      "rawDecodedUtf16Hex": "004D0079002000680065006100720074002000690073002000700072006100630074006900630061006C006C00790020006F0076006500720066006C006F00770069006E0067002000770069007400680020007400680061006E006B00730021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Finally—FINALLY—I can resume sketching.<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3204,
+      "rawDecodedUtf16Hex": "00460069006E0061006C006C0079201400460049004E0041004C004C005920140049002000630061006E00200072006500730075006D006500200073006B00650074006300680069006E0067002E001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "I admit that I remain puzzled, though. How could\nso many brambles have appeared so suddenly?<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "0049002000610064006D006900740020007400680061007400200049002000720065006D00610069006E002000700075007A007A006C00650064002C002000740068006F007500670068002E00200048006F007700200063006F0075006C0064000A0073006F0020006D0061006E00790020006200720061006D0062006C006500730020006800610076006500200061007000700065006100720065006400200073006F002000730075006400640065006E006C0079003F001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Look! It’s a Phantump! Could it be that this\nPokémon was sabotaging me?<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3488,
+      "rawDecodedUtf16Hex": "004C006F006F006B002100200049007420190073002000610020005000680061006E00740075006D0070002100200043006F0075006C00640020006900740020006200650020007400680061007400200074006800690073000A0050006F006B00E9006D006F006E00200077006100730020007300610062006F0074006100670069006E00670020006D0065003F001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Phan-ta-tump.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "005000680061006E002D00740061002D00740075006D0070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Oh, cruel Pokémon! Why must you torment me\nso, when I am already pressed for time?<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 3668,
+      "rawDecodedUtf16Hex": "004F0068002C00200063007200750065006C00200050006F006B00E9006D006F006E002100200057006800790020006D00750073007400200079006F007500200074006F0072006D0065006E00740020006D0065000A0073006F002C0020007700680065006E0020004900200061006D00200061006C007200650061006400790020007000720065007300730065006400200066006F0072002000740069006D0065003F001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Aha! Inspiration strikes yet again!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3844,
+      "rawDecodedUtf16Hex": "004100680061002100200049006E0073007000690072006100740069006F006E00200073007400720069006B00650073002000790065007400200061006700610069006E0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Drawing Phantump alongside the fountain would\nbe a perfect representation of life in Lumiose!<U+0010><U+0001>븁\nYour role is decided, Phantump. You shall be my\nmodel—my muse!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3924,
+      "rawDecodedUtf16Hex": "00440072006100770069006E00670020005000680061006E00740075006D007000200061006C006F006E00670073006900640065002000740068006500200066006F0075006E007400610069006E00200077006F0075006C0064000A00620065002000610020007000650072006600650063007400200072006500700072006500730065006E0074006100740069006F006E0020006F00660020006C00690066006500200069006E0020004C0075006D0069006F00730065002100100001BE01000A0059006F0075007200200072006F006C006500200069007300200064006500630069006400650064002C0020005000680061006E00740075006D0070002E00200059006F00750020007300680061006C006C0020006200650020006D0079000A006D006F00640065006C2014006D00790020006D0075007300650021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "T-tump?!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4252,
+      "rawDecodedUtf16Hex": "0054002D00740075006D0070003F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "We’ll create a masterpiece—the painting of our\nera, destined for the Lumiose Museum’s halls!<U+0010><U+0001>븁\nDon’t you dare move from that spot, Phantump!\nStay put until my work is done!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "005700652019006C006C0020006300720065006100740065002000610020006D006100730074006500720070006900650063006520140074006800650020007000610069006E00740069006E00670020006F00660020006F00750072000A006500720061002C002000640065007300740069006E0065006400200066006F007200200074006800650020004C0075006D0069006F007300650020004D0075007300650075006D20190073002000680061006C006C0073002100100001BE01000A0044006F006E2019007400200079006F0075002000640061007200650020006D006F00760065002000660072006F006D00200074006800610074002000730070006F0074002C0020005000680061006E00740075006D00700021000A0053007400610079002000700075007400200075006E00740069006C0020006D007900200077006F0072006B00200069007300200064006F006E00650021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 178
+    },
+    {
+      "displayText": "Phaaannn...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4628,
+      "rawDecodedUtf16Hex": "00500068006100610061006E006E006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Now we’re sure to take first place in the\nupcoming contest. I can’t thank you enough!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4652,
+      "rawDecodedUtf16Hex": "004E006F00770020007700652019007200650020007300750072006500200074006F002000740061006B006500200066006900720073007400200070006C00610063006500200069006E0020007400680065000A007500700063006F006D0069006E006700200063006F006E0074006500730074002E00200049002000630061006E201900740020007400680061006E006B00200079006F007500200065006E006F0075006700680021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿'",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "00100002BDFF00270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Phantump’s mischief helped ignite my artistic\npassion and brought me inspiration!<U+0010><U+0002>ĔŻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4844,
+      "rawDecodedUtf16Hex": "005000680061006E00740075006D0070201900730020006D0069007300630068006900650066002000680065006C007000650064002000690067006E0069007400650020006D0079002000610072007400690073007400690063000A00700061007300730069006F006E00200061006E0064002000620072006F00750067006800740020006D006500200069006E0073007000690072006100740069006F006E0021001000020114017B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Phan-ta-tump.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "005000680061006E002D00740061002D00740075006D0070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5044,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

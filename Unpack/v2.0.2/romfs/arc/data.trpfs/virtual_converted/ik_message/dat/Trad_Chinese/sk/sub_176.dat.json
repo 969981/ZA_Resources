@@ -1,0 +1,543 @@
+{
+  "declaredLength": 3092,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "那邊那位強大的訓練家，\n我們進了很好的大蔥喔！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "90A3908A90A34F4D5F37592776848A137DF45BB6FF0C000A6211501190324E865F88597D7684592785255594FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳知道大蔥鴨\n這種寶可夢嗎？<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B377E59053592785259D28000A90197A2E5BF653EF592255CEFF1F00100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "牠總是拿著植物的莖，\n有時會當作武器揮舞。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "72607E3D662F62FF8457690D726976848396FF0C000A67096642670375764F5C6B66566863EE821E300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "是說關於大蔥鴨和大蔥\n也有個令人不安的傳聞……<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "662F8AAA95DC65BC592785259D28548C59278525000A4E5F6709500B4EE44EBA4E0D5B89768450B3805E2026202600100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "聽說在晚上……讓1隻大蔥鴨攜帶大蔥，\n然後帶著牠去某個地方的話，<U+0010><U+0001>븀\n會有不法之徒來夜襲。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "807D8AAA5728665A4E0A202620268B93003196BB592785259D28651C5E3659278525FF0C000A71365F8C5E368457726053BB67D0500B573065B976848A71FF0C00100001BE00000A670367094E0D6CD54E4B5F924F86591C8972300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "這位強大的訓練家，\n請<U+0010><U+0003>ᄀÿā你妳反過來將那個不法之徒打倒吧。<U+0010><U+0001>븀\n我把大蔥奉送給<U+0010><U+0003>ᄀÿā你妳。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "90194F4D5F37592776848A137DF45BB6FF0C000A8ACB00100003110000FF01014F6059B353CD904E4F865C0790A3500B4E0D6CD54E4B5F92625350125427300200100001BE00000A6211628A59278525594990017D6600100003110000FF01014F6059B3300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "為了反過來將不法之徒打倒，\n請在<U+0010><U+0002>＀<U+0006>晚上<U+0010><U+0002>＀<U+0000>只帶著1隻攜帶著<U+0010><U+0002>＀<U+0006>大蔥<U+0010><U+0002>＀<U+0000>的<U+0010><U+0002>＀<U+0006>大蔥鴨<U+0010><U+0002>＀<U+0000>，<U+0010><U+0001>븀\n前往<U+0010><U+0002>＀<U+0006>榴紅7號街區<U+0010><U+0002>＀<U+0000>的巷子。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 28,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "70BA4E8653CD904E4F865C074E0D6CD54E4B5F9262535012FF0C000A8ACB572800100002FF000006665A4E0A00100002FF00000053EA5E368457003196BB651C5E36845700100002FF0000065927852500100002FF000000768400100002FF000006592785259D2800100002FF000000FF0C00100001BE00000A524D5F8000100002FF00000669B47D050037865F8857534000100002FF00000076845DF75B50300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n想起了委託人說的話……<U+0010><U+0001>븁\n為了反過來將不法之徒打倒，\n請在<U+0010><U+0002>＀<U+0006>晚上<U+0010><U+0002>＀<U+0000>只帶著1隻攜帶著<U+0010><U+0002>＀<U+0006>大蔥<U+0010><U+0002>＀<U+0000>的<U+0010><U+0002>＀<U+0006>大蔥鴨<U+0010><U+0002>＀<U+0000>，<U+0010><U+0001>븀\n前往<U+0010><U+0002>＀<U+0006>榴紅7號街區<U+0010><U+0002>＀<U+0000>的巷子。",
+      "escapedControlUnits": 31,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1044,
+      "rawDecodedUtf16Hex": "0010000201000000000A60F38D774E8659D48A174EBA8AAA76848A712026202600100001BE01000A70BA4E8653CD904E4F865C074E0D6CD54E4B5F9262535012FF0C000A8ACB572800100002FF000006665A4E0A00100002FF00000053EA5E368457003196BB651C5E36845700100002FF0000065927852500100002FF000000768400100002FF000006592785259D2800100002FF000000FF0C00100001BE00000A524D5F8000100002FF00000669B47D050037865F8857534000100002FF00000076845DF75B5030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "那根大蔥……是把好武器。\n我想讓同為大蔥鴨的牠們比劃比劃！<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "90A368395927852520262026662F628A597D6B6656683002000A621160F38B93540C70BA592785259D287684726050116BD452836BD45283FF0100100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "咦，什麼啊什麼啊，那根巨大的蔥是怎樣！？\n這不是伽勒爾的樣子的大蔥鴨嗎！<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "54A6FF0C4EC09EBC554A4EC09EBC554AFF0C90A368395DE8592776848525662F600E6A23FF01FF1F000A90194E0D662F4F3D52D2723E76846A235B507684592785259D2855CEFF0100100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "咕哇！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "549554C7FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "呱哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "547154C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "格蔥無論！<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "683C852571218AD6FF0100100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "對了。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "5C0D4E86300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "是我小看<U+0010><U+0003>ᄀÿā你妳了！<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "662F62115C0F770B00100003110000FF01014F6059B34E86FF0100100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "面對突然的襲擊也不為所動的揮莖刀法……\n想必<U+0010><U+0003>ᄀÿā你妳是位赫赫有名的訓練家。<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "97625C0D7A8171367684897264CA4E5F4E0D70BA624052D5768463EE839652006CD520262026000A60F35FC500100003110000FF01014F6059B3662F4F4D8D6B8D6B6709540D76848A137DF45BB6300200100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "能把他打倒，\n<U+0010><U+0003>ᄀÿā你妳確實有兩把刷子呢。<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "80FD628A4ED662535012FF0C000A00100003110000FF01014F6059B378BA5BE667095169628A52375B505462300200100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "嗯，在下也想要\n與<U+0010><U+0003>ᄀÿā你妳來一場全力對戰。<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "55EFFF0C57284E0B4E5F60F38981000A820700100003110000FF01014F6059B34F864E0058345168529B5C0D6230300200100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "同志之敗即為在下之敗。\n就由在下來一雪此恥。<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "540C5FD74E4B6557537370BA57284E0B4E4B65573002000A5C31753157284E0B4F864E0096EA6B646065300200100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "欸，稍等稍等……！\n居然是伽勒爾的大蔥鴨？<U+0010><U+0001>븀\n可惡，即便如此也非上不可！<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "6B38FF0C7A0D7B497A0D7B4920262026FF01000A5C457136662F4F3D52D2723E7684592785259D28FF1F00100001BE00000A53EF60E1FF0C53734FBF59826B644E5F975E4E0A4E0D53EFFF0100100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "咕～哇。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "5495FF5E54C730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "呱哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "547154C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "格蔥無論！<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1880,
+      "rawDecodedUtf16Hex": "683C852571218AD6FF0100100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "甘拜下風！<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "751862DC4E0B98A8FF0100100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "何等的強大啊……\n得積累多少修練才能到此地步……<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "4F557B4976845F375927554A20262026000A5F977A4D7D2F591A5C114FEE7DF4624D80FD52306B6457306B652026202600100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "沒想到那兩人都被打倒……<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "6C9260F3523090A351694EBA90FD88AB625350122026202600100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "這樣下去，\n豈不是讓我們大蔥三人幫的聲名掃地。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "90196A234E0B53BBFF0C000A8C484E0D662F8B9362115011592785254E094EBA5E6B76848072540D63835730300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我是統領三人幫的伍世……\n換句話說，就是三人之中最強的。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "6211662F7D7198184E094EBA5E6B76844F0D4E1620262026000A63DB53E58A718AAAFF0C5C31662F4E094EBA4E4B4E2D67005F377684300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "讓<U+0010><U+0003>ᄀÿā你妳見識見識關都流的揮莖刀法吧。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2152,
+      "rawDecodedUtf16Hex": "8B9300100003110000FF01014F6059B3898B8B58898B8B5895DC90FD6D41768463EE839652006CD55427300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "不管對手是伽勒爾的大蔥鴨還是誰，\n都讓<U+0010><U+0003>ᄀÿā你妳見識見識關都流的揮莖刀法。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "4E0D7BA15C0D624B662F4F3D52D2723E7684592785259D289084662F8AB0FF0C000A90FD8B9300100003110000FF01014F6059B3898B8B58898B8B5895DC90FD6D41768463EE839652006CD5300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "做好覺悟吧！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "505A597D89BA609F5427FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "咕哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2320,
+      "rawDecodedUtf16Hex": "549554C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "呱哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "547154C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "格蔥無論！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "683C852571218AD6FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "佩服佩服！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "4F69670D4F69670DFF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "咕哇！咕～哇呱哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "549554C7FF015495FF5E54C7547154C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "……呵呵呵。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2420,
+      "rawDecodedUtf16Hex": "20262026547554755475300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "哎呀，\n真是一場精彩的對戰！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2444,
+      "rawDecodedUtf16Hex": "54CE5440FF0C000A771F662F4E0058347CBE5F6976845C0D6230FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "不好意思，其實我們是\n電影《三人的大蔥》的影迷。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "4E0D597D610F601DFF0C51765BE662115011662F000A96FB5F71300A4E094EBA768459278525300B76845F718FF7300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "能在和電影一樣的情境下進行\n寶可夢對戰，一直是我們的夢想。<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "80FD5728548C96FB5F714E006A23768460C558834E0B9032884C000A5BF653EF59225C0D6230FF0C4E0076F4662F621150117684592260F3300200100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "然而若要實現，就得要有實力相當，\n足以和我們對決的大蔥鴨和訓練家。<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "7136800C82E589815BE673FEFF0C5C315F97898167095BE6529B76F87576FF0C000A8DB34EE5548C621150115C0D6C7A7684592785259D28548C8A137DF45BB6300200100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "於是我找上了<U+0010><U+0003>ᄀÿā你妳，\n並引導<U+0010><U+0003>ᄀÿā你妳前往巷子！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2688,
+      "rawDecodedUtf16Hex": "65BC662F6211627E4E0A4E8600100003110000FF01014F6059B3FF0C000A4E265F155C0E00100003110000FF01014F6059B3524D5F805DF75B50FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "為了帶出緊張氣氛，\n所以我沒有透露細節。<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2760,
+      "rawDecodedUtf16Hex": "70BA4E865E3651FA7DCA5F356C236C1BFF0C000A62404EE562116C926709900F97327D307BC0300200100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "但那麼做就像是騙了<U+0010><U+0003>ᄀÿā你妳，\n真的萬分抱歉……<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2812,
+      "rawDecodedUtf16Hex": "4F4690A39EBC505A5C3150CF662F9A194E8600100003110000FF01014F6059B3FF0C000A771F7684842C520662B16B492026202600100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "不過我們由衷感謝\n<U+0010><U+0003>ᄀÿā你妳願意幫忙！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "4E0D904E6211501175318877611F8B1D000A00100003110000FF01014F6059B39858610F5E6B5FD9FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "哎呀！我嚮往已久的那句台詞……\n終於說出口了啊。<U+0010><U+0002>ĔǕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "54CE5440FF01621156AE5F805DF24E45768490A353E553F08A5E20262026000A7D4265BC8AAA51FA53E34E86554A300200100002011401D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "大蔥鴨們剛才也很投入呢。\n表現得非常到位。<U+0010><U+0002>ĔǓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2988,
+      "rawDecodedUtf16Hex": "592785259D285011525B624D4E5F5F886295516554623002000A886873FE5F97975E5E3852304F4D300200100002011401D30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "咕哇！咕～哇呱哇！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "549554C7FF015495FF5E54C7547154C7FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "那麼，我等告退了！<U+0010><U+0002>Ĕǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3064,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C62117B49544A90004E86FF0100100002011401D40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3092,
+  "sectionOffset": 16,
+  "textCount": 53,
+  "textSectionCount": 1
+}

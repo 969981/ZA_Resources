@@ -1,0 +1,33 @@
+{
+  "declaredLength": 392,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Pour accéder à cette zone, l’achat du contenu\ntéléchargeable « Méga-Dimension » est requis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0050006F00750072002000610063006300E9006400650072002000E00020006300650074007400650020007A006F006E0065002C0020006C20190061006300680061007400200064007500200063006F006E00740065006E0075000A007400E9006C00E900630068006100720067006500610062006C0065002000AB0020004D00E900670061002D00440069006D0065006E00730069006F006E002000BB00200065007300740020007200650071007500690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Pour accepter cette mission, l’achat du contenu\ntéléchargeable « Méga-Dimension » est requis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "0050006F007500720020006100630063006500700074006500720020006300650074007400650020006D0069007300730069006F006E002C0020006C20190061006300680061007400200064007500200063006F006E00740065006E0075000A007400E9006C00E900630068006100720067006500610062006C0065002000AB0020004D00E900670061002D00440069006D0065006E00730069006F006E002000BB00200065007300740020007200650071007500690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 392,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

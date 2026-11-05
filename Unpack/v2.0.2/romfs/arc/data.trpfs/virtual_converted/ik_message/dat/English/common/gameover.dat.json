@@ -1,0 +1,93 @@
+{
+  "declaredLength": 1156,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "You hurry to the Pokémon Center, shielding your\nexhausted Pokémon from any further harm...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 68,
+      "rawDecodedUtf16Hex": "0059006F007500200068007500720072007900200074006F002000740068006500200050006F006B00E9006D006F006E002000430065006E007400650072002C00200073006800690065006C00640069006E006700200079006F00750072000A00650078006800610075007300740065006400200050006F006B00E9006D006F006E002000660072006F006D00200061006E0079002000660075007200740068006500720020006800610072006D002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "You hurry back home, shielding your exhausted\nPokémon from any further harm...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "0059006F00750020006800750072007200790020006200610063006B00200068006F006D0065002C00200073006800690065006C00640069006E006700200079006F007500720020006500780068006100750073007400650064000A0050006F006B00E9006D006F006E002000660072006F006D00200061006E0079002000660075007200740068006500720020006800610072006D002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "You went running to the Pokémon Center to\nregroup and reconsider your battle strategy...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "0059006F0075002000770065006E0074002000720075006E006E0069006E006700200074006F002000740068006500200050006F006B00E9006D006F006E002000430065006E00740065007200200074006F000A0072006500670072006F0075007000200061006E00640020007200650063006F006E0073006900640065007200200079006F0075007200200062006100740074006C0065002000730074007200610074006500670079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "You went running back home to regroup and\nreconsider your battle strategy...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 592,
+      "rawDecodedUtf16Hex": "0059006F0075002000770065006E0074002000720075006E006E0069006E00670020006200610063006B00200068006F006D006500200074006F00200072006500670072006F0075007000200061006E0064000A007200650063006F006E0073006900640065007200200079006F0075007200200062006100740074006C0065002000730074007200610074006500670079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "You managed to scramble back out of the water!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "0059006F00750020006D0061006E006100670065006400200074006F00200073006300720061006D0062006C00650020006200610063006B0020006F007500740020006F0066002000740068006500200077006100740065007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "You hurry back to a safer location, shielding your\nexhausted Pokémon from any further harm...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "0059006F00750020006800750072007200790020006200610063006B00200074006F002000610020007300610066006500720020006C006F0063006100740069006F006E002C00200073006800690065006C00640069006E006700200079006F00750072000A00650078006800610075007300740065006400200050006F006B00E9006D006F006E002000660072006F006D00200061006E0079002000660075007200740068006500720020006800610072006D002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Everything went black!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "00450076006500720079007400680069006E0067002000770065006E007400200062006C00610063006B00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "... ... ...<U+0010><U+0001>븁\nEverything went black!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "002E002E002E0020002E002E002E0020002E002E002E00100001BE01000A00450076006500720079007400680069006E0067002000770065006E007400200062006C00610063006B00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1156,
+  "sectionOffset": 16,
+  "textCount": 8,
+  "textSectionCount": 1
+}

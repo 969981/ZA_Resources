@@ -1,0 +1,43 @@
+{
+  "declaredLength": 388,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "The cups on the counter look as if they were\nbeing used recently.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "005400680065002000630075007000730020006F006E002000740068006500200063006F0075006E0074006500720020006C006F006F006B0020006100730020006900660020007400680065007900200077006500720065000A006200650069006E00670020007500730065006400200072006500630065006E0074006C0079002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Boxes are just lying around... Was someone in the\nmiddle of cleaning up?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "0042006F00780065007300200061007200650020006A0075007300740020006C00790069006E0067002000610072006F0075006E0064002E002E002E002000570061007300200073006F006D0065006F006E006500200069006E0020007400680065000A006D006900640064006C00650020006F006600200063006C00650061006E0069006E0067002000750070003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "A thin layer of dust coats the shelves.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "00410020007400680069006E0020006C00610079006500720020006F00660020006400750073007400200063006F00610074007300200074006800650020007300680065006C007600650073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 388,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

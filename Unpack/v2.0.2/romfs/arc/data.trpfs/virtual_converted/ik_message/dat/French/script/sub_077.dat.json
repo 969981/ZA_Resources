@@ -1,0 +1,693 @@
+{
+  "declaredLength": 7508,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "C’est un Méga-Anneau à ton bras ?\nTu peux faire méga-évoluer les Pokémon, alors ?<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "0043201900650073007400200075006E0020004D00E900670061002D0041006E006E006500610075002000E000200074006F006E002000620072006100730020003F000A00540075002000700065007500780020006600610069007200650020006D00E900670061002D00E90076006F006C0075006500720020006C0065007300200050006F006B00E9006D006F006E002C00200061006C006F007200730020003F001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Eh oui !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "004500680020006F00750069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Bien sûr !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "004200690065006E0020007300FB0072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Ouah, c’est méga-cool !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 776,
+      "rawDecodedUtf16Hex": "004F007500610068002C0020006320190065007300740020006D00E900670061002D0063006F006F006C00200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Tu dois t’y connaître à fond en Méga-Évolution,\nnon ?<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "0054007500200064006F00690073002000742019007900200063006F006E006E006100EE007400720065002000E000200066006F006E006400200065006E0020004D00E900670061002D00C90076006F006C007500740069006F006E002C000A006E006F006E0020003F001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Et si on posait toutes nos questions\nà ce<U+0010><U+0003>ᄀÿഉ Dresseurtte Dresseuse ?<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "004500740020007300690020006F006E00200070006F007300610069007400200074006F00750074006500730020006E006F00730020007100750065007300740069006F006E0073000A00E000200063006500100003110000FF0D0900200044007200650073007300650075007200740074006500200044007200650073007300650075007300650020003F001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "C’est pas juste un<U+0010><U+0003>ᄀÿଉ Dresseure Dresseuse !\nC’est un<U+0010><U+0003>ᄀÿဎ méga-évolueure méga-évolueuse !<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006100730020006A007500730074006500200075006E00100003110000FF0B090020004400720065007300730065007500720065002000440072006500730073006500750073006500200021000A0043201900650073007400200075006E00100003110000FF100E0020006D00E900670061002D00E90076006F006C007500650075007200650020006D00E900670061002D00E90076006F006C0075006500750073006500200021001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "M’<U+0010><U+0003>ᄀÿᘖsieur le méga-évolueurdame la méga-évolueuse !\nOn a des tas de questions sur la Méga-Évolution !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "004D201900100003110000FF1616007300690065007500720020006C00650020006D00E900670061002D00E90076006F006C007500650075007200640061006D00650020006C00610020006D00E900670061002D00E90076006F006C0075006500750073006500200021000A004F006E00200061002000640065007300200074006100730020006400650020007100750065007300740069006F006E007300200073007500720020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mon papa, il travaille pour la société Quazar,\nmais il veut pas me donner un Méga-Anneau !<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1520,
+      "rawDecodedUtf16Hex": "004D006F006E00200070006100700061002C00200069006C0020007400720061007600610069006C006C006500200070006F007500720020006C006100200073006F0063006900E9007400E90020005100750061007A00610072002C000A006D00610069007300200069006C0020007600650075007400200070006100730020006D006500200064006F006E006E0065007200200075006E0020004D00E900670061002D0041006E006E0065006100750020002100100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Tout le monde est fan de la Méga-Évolution !<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "0054006F007500740020006C00650020006D006F006E006400650020006500730074002000660061006E0020006400650020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "La maîtresse à l’école, elle peut même pas\nfaire une Méga-Évolution !<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1812,
+      "rawDecodedUtf16Hex": "004C00610020006D006100EE007400720065007300730065002000E00020006C201900E90063006F006C0065002C00200065006C006C0065002000700065007500740020006D00EA006D00650020007000610073000A0066006100690072006500200075006E00650020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Moi aussi, je veux un Méga-Anneau\npour faire méga-évoluer mon Pokémon !<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1960,
+      "rawDecodedUtf16Hex": "004D006F0069002000610075007300730069002C0020006A00650020007600650075007800200075006E0020004D00E900670061002D0041006E006E006500610075000A0070006F007500720020006600610069007200650020006D00E900670061002D00E90076006F006C0075006500720020006D006F006E00200050006F006B00E9006D006F006E00200021001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "M’<U+0010><U+0003>ᄀÿᘖsieur le méga-évolueurdame la méga-évolueuse !\nOn a des tas de questions sur la Méga-Évolution !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "004D201900100003110000FF1616007300690065007500720020006C00650020006D00E900670061002D00E90076006F006C007500650075007200640061006D00650020006C00610020006D00E900670061002D00E90076006F006C0075006500750073006500200021000A004F006E00200061002000640065007300200074006100730020006400650020007100750065007300740069006F006E007300200073007500720020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "Je vous écoute !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "004A006500200076006F00750073002000E90063006F007500740065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Je ne saurais pas quoi vous répondre...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "004A00650020006E0065002000730061007500720061006900730020007000610073002000710075006F006900200076006F007500730020007200E90070006F006E006400720065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Réfléchis, et reviens nous voir !\nOn t’attendra !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "005200E90066006C00E90063006800690073002C002000650074002000720065007600690065006E00730020006E006F0075007300200076006F0069007200200021000A004F006E0020007420190061007400740065006E00640072006100200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Hourra ! C’est méga-cool ! On va tous te poser\nune question ! Bon, moi d’abord.<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2564,
+      "rawDecodedUtf16Hex": "0048006F0075007200720061002000210020004320190065007300740020006D00E900670061002D0063006F006F006C002000210020004F006E00200076006100200074006F0075007300200074006500200070006F007300650072000A0075006E00650020007100750065007300740069006F006E0020002100200042006F006E002C0020006D006F006900200064201900610062006F00720064002E001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "C’est quoi le nom de la pierre à utiliser\npour faire méga-évoluer un Pokémon ?<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "00432019006500730074002000710075006F00690020006C00650020006E006F006D0020006400650020006C00610020007000690065007200720065002000E00020007500740069006C0069007300650072000A0070006F007500720020006600610069007200650020006D00E900670061002D00E90076006F006C00750065007200200075006E00200050006F006B00E9006D006F006E0020003F001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "La Mégalite.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "004C00610020004D00E900670061006C006900740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "La Méga-Gemme.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "004C00610020004D00E900670061002D00470065006D006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Le Méga-Caillou.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "004C00650020004D00E900670061002D004300610069006C006C006F0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Ça sonne bien, mais c’est pas ça !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2996,
+      "rawDecodedUtf16Hex": "00C7006100200073006F006E006E00650020006200690065006E002C0020006D0061006900730020006320190065007300740020007000610073002000E7006100200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "C’est logique ! Vu que c’est une gemme,\net qu’elle sert à méga-évoluer !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3076,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C006F0067006900710075006500200021002000560075002000710075006500200063201900650073007400200075006E0065002000670065006D006D0065002C000A0065007400200071007520190065006C006C006500200073006500720074002000E00020006D00E900670061002D00E90076006F006C00750065007200200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Oh non, c’est craignos, un caillou !\nÇa a un nom méga-plus-classe que ça !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 3232,
+      "rawDecodedUtf16Hex": "004F00680020006E006F006E002C002000632019006500730074002000630072006100690067006E006F0073002C00200075006E0020006300610069006C006C006F007500200021000A00C700610020006100200075006E0020006E006F006D0020006D00E900670061002D0070006C00750073002D0063006C00610073007300650020007100750065002000E7006100200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Les Méga-Gemmes ont toutes un nom différent\nen fonction du Pokémon, pas vrai ?<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3392,
+      "rawDecodedUtf16Hex": "004C006500730020004D00E900670061002D00470065006D006D006500730020006F006E007400200074006F007500740065007300200075006E0020006E006F006D0020006400690066006600E900720065006E0074000A0065006E00200066006F006E006300740069006F006E00200064007500200050006F006B00E9006D006F006E002C0020007000610073002000760072006100690020003F001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Tu dois savoir que Narica a un Ohmassacre.\nC’est quoi le nom de sa Méga-Gemme ?<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3560,
+      "rawDecodedUtf16Hex": "0054007500200064006F006900730020007300610076006F0069007200200071007500650020004E006100720069006300610020006100200075006E0020004F0068006D0061007300730061006300720065002E000A00432019006500730074002000710075006F00690020006C00650020006E006F006D0020006400650020007300610020004D00E900670061002D00470065006D006D00650020003F001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "L’Ohmassacrite.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3728,
+      "rawDecodedUtf16Hex": "004C2019004F0068006D006100730073006100630072006900740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "L’Ohmassacréite.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3760,
+      "rawDecodedUtf16Hex": "004C2019004F0068006D00610073007300610063007200E9006900740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "L’Ohmassacrète.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3796,
+      "rawDecodedUtf16Hex": "004C2019004F0068006D00610073007300610063007200E800740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "C’est rigolo comme nom, tu trouves pas ?<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3828,
+      "rawDecodedUtf16Hex": "004320190065007300740020007200690067006F006C006F00200063006F006D006D00650020006E006F006D002C002000740075002000740072006F007500760065007300200070006100730020003F001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Eh non, c’est une Ohmassacrite !<U+0010><U+0001>븁\nMais c’est vrai que des fois, elles ont des noms\ndifficiles à lire...<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3920,
+      "rawDecodedUtf16Hex": "004500680020006E006F006E002C00200063201900650073007400200075006E00650020004F0068006D0061007300730061006300720069007400650020002100100001BE01000A004D006100690073002000632019006500730074002000760072006100690020007100750065002000640065007300200066006F00690073002C00200065006C006C006500730020006F006E007400200064006500730020006E006F006D0073000A0064006900660066006900630069006C00650073002000E00020006C006900720065002E002E002E001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Perdu...\nC’est une Ohmassa... CRITE !<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4140,
+      "rawDecodedUtf16Hex": "00500065007200640075002E002E002E000A0043201900650073007400200075006E00650020004F0068006D0061007300730061002E002E002E00200043005200490054004500200021001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "À mon tour !<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4224,
+      "rawDecodedUtf16Hex": "00C00020006D006F006E00200074006F0075007200200021001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Les Pokémon méga-évolués ont des capacités\nméga-fortes, pas vrai ?<U+0010><U+0001>븀\nElles s’appellent comment ?<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4260,
+      "rawDecodedUtf16Hex": "004C0065007300200050006F006B00E9006D006F006E0020006D00E900670061002D00E90076006F006C007500E900730020006F006E007400200064006500730020006300610070006100630069007400E90073000A006D00E900670061002D0066006F0072007400650073002C0020007000610073002000760072006100690020003F00100001BE00000A0045006C006C006500730020007320190061007000700065006C006C0065006E007400200063006F006D006D0065006E00740020003F001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Les capacités Max.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4464,
+      "rawDecodedUtf16Hex": "004C006500730020006300610070006100630069007400E900730020004D00610078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Les capacités Méga-Plus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4504,
+      "rawDecodedUtf16Hex": "004C006500730020006300610070006100630069007400E900730020004D00E900670061002D0050006C00750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Les capacités Plus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4556,
+      "rawDecodedUtf16Hex": "004C006500730020006300610070006100630069007400E9007300200050006C00750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Tu confonds pas avec le Dynamax ?<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4596,
+      "rawDecodedUtf16Hex": "0054007500200063006F006E0066006F006E006400730020007000610073002000610076006500630020006C0065002000440079006E0061006D006100780020003F001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "M’<U+0010><U+0003>ᄀÿᘖsieur le méga-évolueurdame la méga-évolueuse... Prends nos\nquestions au sérieux...<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4672,
+      "rawDecodedUtf16Hex": "004D201900100003110000FF1616007300690065007500720020006C00650020006D00E900670061002D00E90076006F006C007500650075007200640061006D00650020006C00610020006D00E900670061002D00E90076006F006C00750065007500730065002E002E002E0020005000720065006E006400730020006E006F0073000A007100750065007300740069006F006E00730020006100750020007300E900720069006500750078002E002E002E001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Oui ! C’est pareil, mais avec un « plus » !<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 4860,
+      "rawDecodedUtf16Hex": "004F0075006900200021002000432019006500730074002000700061007200650069006C002C0020006D0061006900730020006100760065006300200075006E002000AB00200070006C00750073002000BB00200021001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Est-ce que tu connais un Pokémon qui change\nde type en méga-évoluant ?<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 43,
+      "offsetInSection": 4956,
+      "rawDecodedUtf16Hex": "004500730074002D00630065002000710075006500200074007500200063006F006E006E00610069007300200075006E00200050006F006B00E9006D006F006E00200071007500690020006300680061006E00670065000A006400650020007400790070006500200065006E0020006D00E900670061002D00E90076006F006C00750061006E00740020003F00100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Méga-Lucario ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5108,
+      "rawDecodedUtf16Hex": "004D00E900670061002D004C00750063006100720069006F0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Méga-Pharamp ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5140,
+      "rawDecodedUtf16Hex": "004D00E900670061002D00500068006100720061006D00700020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Méga-Élecsprint ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5172,
+      "rawDecodedUtf16Hex": "004D00E900670061002D00C9006C006500630073007000720069006E00740020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Bah non, Méga-Lucario, il garde les types\nCombat et Acier...<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 5208,
+      "rawDecodedUtf16Hex": "0042006100680020006E006F006E002C0020004D00E900670061002D004C00750063006100720069006F002C00200069006C0020006700610072006400650020006C00650073002000740079007000650073000A0043006F006D006200610074002000650074002000410063006900650072002E002E002E00100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Eh oui ! Méga-Pharamp, il gagne le type Dragon !<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 48,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "004500680020006F00750069002000210020004D00E900670061002D00500068006100720061006D0070002C00200069006C0020006700610067006E00650020006C00650020007400790070006500200044007200610067006F006E0020002100100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Bah non, Méga-Élecsprint, il garde le type\nÉlectrik...<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "0042006100680020006E006F006E002C0020004D00E900670061002D00C9006C006500630073007000720069006E0074002C00200069006C0020006700610072006400650020006C006500200074007900700065000A00C9006C00650063007400720069006B002E002E002E00100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Elles sont trop dures, vos questions !\nAllez, c’est à moi.<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 5568,
+      "rawDecodedUtf16Hex": "0045006C006C0065007300200073006F006E0074002000740072006F0070002000640075007200650073002C00200076006F00730020007100750065007300740069006F006E007300200021000A0041006C006C0065007A002C002000632019006500730074002000E00020006D006F0069002E001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "À ton avis... c’est laquelle, la Méga-Évolution\nla plus forte ?<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 51,
+      "offsetInSection": 5696,
+      "rawDecodedUtf16Hex": "00C000200074006F006E00200061007600690073002E002E002E0020006320190065007300740020006C0061007100750065006C006C0065002C0020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E000A006C006100200070006C0075007300200066006F0072007400650020003F001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Méga-Roitiflam !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5832,
+      "rawDecodedUtf16Hex": "004D00E900670061002D0052006F0069007400690066006C0061006D002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Méga-Méganium !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5868,
+      "rawDecodedUtf16Hex": "004D00E900670061002D004D00E900670061006E00690075006D002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Méga-Aligatueur !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5900,
+      "rawDecodedUtf16Hex": "004D00E900670061002D0041006C00690067006100740075006500750072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Je vois ! Chaque Méga-Évolution a ses points\nforts et ses points faibles !<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5936,
+      "rawDecodedUtf16Hex": "004A006500200076006F006900730020002100200043006800610071007500650020004D00E900670061002D00C90076006F006C007500740069006F006E00200061002000730065007300200070006F0069006E00740073000A0066006F007200740073002000650074002000730065007300200070006F0069006E0074007300200066006100690062006C0065007300200021001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Le quiz est fini !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 6096,
+      "rawDecodedUtf16Hex": "004C00650020007100750069007A0020006500730074002000660069006E006900200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "T’es un<U+0010><U+0003>ᄀÿĀe Méga-Prof ! Tu connais tout sur le sujet !<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 6144,
+      "rawDecodedUtf16Hex": "005420190065007300200075006E00100003110000FF010000650020004D00E900670061002D00500072006F00660020002100200054007500200063006F006E006E00610069007300200074006F0075007400200073007500720020006C0065002000730075006A0065007400200021001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Je suis pas méga-sûr de toutes tes réponses...<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 6268,
+      "rawDecodedUtf16Hex": "004A00650020007300750069007300200070006100730020006D00E900670061002D007300FB007200200064006500200074006F007500740065007300200074006500730020007200E90070006F006E007300650073002E002E002E001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "T’as donné des réponses fausses\nexprès pour nous tester ?<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 6372,
+      "rawDecodedUtf16Hex": "005420190061007300200064006F006E006E00E900200064006500730020007200E90070006F006E00730065007300200066006100750073007300650073000A006500780070007200E8007300200070006F007500720020006E006F0075007300200074006500730074006500720020003F001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Maintenant, j’ai encore plus envie de tout savoir\nsur la Méga-Évolution !<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6496,
+      "rawDecodedUtf16Hex": "004D00610069006E00740065006E0061006E0074002C0020006A20190061006900200065006E0063006F0072006500200070006C0075007300200065006E00760069006500200064006500200074006F007500740020007300610076006F00690072000A0073007500720020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Moi aussi !<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6652,
+      "rawDecodedUtf16Hex": "004D006F006900200061007500730073006900200021001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "M’<U+0010><U+0003>ᄀÿᘖsieur le méga-évolueurdame la méga-évolueuse ! T’es au courant ?<U+0010><U+0001>븁\nIl paraît qu’Illumis sera sauvée par quelqu’un qui\nmaîtrise parfaitement la Méga-Évolution...<U+0010><U+0002>Ĕů",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6684,
+      "rawDecodedUtf16Hex": "004D201900100003110000FF1616007300690065007500720020006C00650020006D00E900670061002D00E90076006F006C007500650075007200640061006D00650020006C00610020006D00E900670061002D00E90076006F006C00750065007500730065002000210020005420190065007300200061007500200063006F007500720061006E00740020003F00100001BE01000A0049006C0020007000610072006100EE007400200071007520190049006C006C0075006D00690073002000730065007200610020007300610075007600E9006500200070006100720020007100750065006C0071007520190075006E0020007100750069000A006D006100EE00740072006900730065002000700061007200660061006900740065006D0065006E00740020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E002E002E002E001000020114016F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 173
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 7032,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "C’est méga-bien, la Méga-Évolution !<U+0010><U+0002>Ĕƙ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 7044,
+      "rawDecodedUtf16Hex": "004320190065007300740020006D00E900670061002D006200690065006E002C0020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E0020002100100002011401990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Maintenant, j’ai encore plus envie de tout savoir\nsur la Méga-Évolution !<U+0010><U+0002>Ĕƚ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 7128,
+      "rawDecodedUtf16Hex": "004D00610069006E00740065006E0061006E0074002C0020006A20190061006900200065006E0063006F0072006500200070006C0075007300200065006E00760069006500200064006500200074006F007500740020007300610076006F00690072000A0073007500720020006C00610020004D00E900670061002D00C90076006F006C007500740069006F006E00200021001000020114019A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "C’est plus rigolo de faire un quiz que d’écouter\nen classe...<U+0010><U+0002>Ĕƛ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 7284,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006C007500730020007200690067006F006C006F00200064006500200066006100690072006500200075006E0020007100750069007A002000710075006500200064201900E90063006F0075007400650072000A0065006E00200063006C0061007300730065002E002E002E001000020114019B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Merci d’avoir passé du temps avec nous !<U+0010><U+0002>ĔƜ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 7416,
+      "rawDecodedUtf16Hex": "004D006500720063006900200064201900610076006F006900720020007000610073007300E9002000640075002000740065006D00700073002000610076006500630020006E006F0075007300200021001000020114019C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7508,
+  "sectionOffset": 16,
+  "textCount": 68,
+  "textSectionCount": 1
+}

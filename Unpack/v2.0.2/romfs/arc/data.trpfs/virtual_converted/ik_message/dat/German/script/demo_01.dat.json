@@ -1,0 +1,53 @@
+{
+  "declaredLength": 584,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Am Prismaturm stimmt irgendetwas nicht.\nSchickt sofort eine Sondereinheit der Firma her.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "0041006D00200050007200690073006D0061007400750072006D0020007300740069006D006D007400200069007200670065006E0064006500740077006100730020006E0069006300680074002E000A00530063006800690063006B007400200073006F0066006F00720074002000650069006E006500200053006F006E00640065007200650069006E006800650069007400200064006500720020004600690072006D00610020006800650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Die Sicherheit von Illumina City liegt in unserer\nHand.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "0044006900650020005300690063006800650072006800650069007400200076006F006E00200049006C006C0075006D0069006E0061002000430069007400790020006C006900650067007400200069006E00200075006E00730065007200650072000A00480061006E0064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Wir müssen einen Meister\nder Mega-Entwicklung finden...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 328,
+      "rawDecodedUtf16Hex": "0057006900720020006D00FC007300730065006E002000650069006E0065006E0020004D006500690073007400650072000A0064006500720020004D006500670061002D0045006E0074007700690063006B006C0075006E0067002000660069006E00640065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Sehr geehrte Fahrgäste, in wenigen Minuten\nerreichen wir Illumina Süd.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 440,
+      "rawDecodedUtf16Hex": "00530065006800720020006700650065006800720074006500200046006100680072006700E4007300740065002C00200069006E002000770065006E006900670065006E0020004D0069006E007500740065006E000A00650072007200650069006300680065006E002000770069007200200049006C006C0075006D0069006E00610020005300FC0064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 584,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

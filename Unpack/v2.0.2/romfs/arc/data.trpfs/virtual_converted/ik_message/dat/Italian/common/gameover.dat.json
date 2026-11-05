@@ -1,0 +1,93 @@
+{
+  "declaredLength": 960,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Per evitare ulteriori danni alla tua squadra\ndi Pokémon, corri verso un Centro Pokémon...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 68,
+      "rawDecodedUtf16Hex": "0050006500720020006500760069007400610072006500200075006C0074006500720069006F00720069002000640061006E006E006900200061006C006C0061002000740075006100200073007100750061006400720061000A0064006900200050006F006B00E9006D006F006E002C00200063006F00720072006900200076006500720073006F00200075006E002000430065006E00740072006F00200050006F006B00E9006D006F006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Per evitare ulteriori danni alla tua squadra\ndi Pokémon, torni a casa a gambe levate...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "0050006500720020006500760069007400610072006500200075006C0074006500720069006F00720069002000640061006E006E006900200061006C006C0061002000740075006100200073007100750061006400720061000A0064006900200050006F006B00E9006D006F006E002C00200074006F0072006E0069002000610020006300610073006100200061002000670061006D006200650020006C00650076006100740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Ti rifugi in un Centro Pokémon per rivedere\nla tua tattica...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "00540069002000720069006600750067006900200069006E00200075006E002000430065006E00740072006F00200050006F006B00E9006D006F006E0020007000650072002000720069007600650064006500720065000A006C0061002000740075006100200074006100740074006900630061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Torni a casa per rivedere la tua tattica...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "0054006F0072006E0069002000610020006300610073006100200070006500720020007200690076006500640065007200650020006C0061002000740075006100200074006100740074006900630061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Ti fiondi subito fuori dall’acqua!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "00540069002000660069006F006E00640069002000730075006200690074006F002000660075006F00720069002000640061006C006C20190061006300710075006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Per evitare ulteriori danni alla tua squadra\ndi Pokémon, corri in un luogo sicuro...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "0050006500720020006500760069007400610072006500200075006C0074006500720069006F00720069002000640061006E006E006900200061006C006C0061002000740075006100200073007100750061006400720061000A0064006900200050006F006B00E9006D006F006E002C00200063006F00720072006900200069006E00200075006E0020006C0075006F0067006F002000730069006300750072006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Sei alle strette...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "00530065006900200061006C006C006500200073007400720065007400740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Sei alle strette...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "00530065006900200061006C006C006500200073007400720065007400740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 960,
+  "sectionOffset": 16,
+  "textCount": 8,
+  "textSectionCount": 1
+}

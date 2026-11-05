@@ -1,0 +1,103 @@
+{
+  "declaredLength": 600,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Voulez-vous donner un Donut à Gloupti ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200064006F006E006E0065007200200075006E00200044006F006E00750074002000E000200047006C006F00750070007400690020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Oui !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004F00750069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Pas maintenant.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "0050006100730020006D00610069006E00740065006E0061006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Gloup, gloup, gloup !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "0047006C006F00750070002C00200067006C006F00750070002C00200067006C006F00750070002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Voulez-vous lui donner un autre Donut ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F007500730020006C0075006900200064006F006E006E0065007200200075006E00200061007500740072006500200044006F006E007500740020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Vous n’avez aucun Donut...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E2019006100760065007A00200061007500630075006E00200044006F006E00750074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Gloupti est ravi !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "0047006C006F0075007000740069002000650073007400200072006100760069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Gloupti vous a donné\n<U+0010><U+0003>ᐂ<U+0002><U+0000><U+0010><U+0002>Ċ<U+0002> !",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "00100002BD0600000047006C006F007500700074006900200076006F007500730020006100200064006F006E006E00E9000A0010000314020002000000100002010A0002002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Nous ne pouvons pas donner ce Donut à Gloupti !<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "004E006F007500730020006E006500200070006F00750076006F006E0073002000700061007300200064006F006E006E0065007200200063006500200044006F006E00750074002000E000200047006C006F00750070007400690020002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 600,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

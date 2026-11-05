@@ -1,0 +1,203 @@
+{
+  "declaredLength": 1092,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "L. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004C002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "PS",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 64,
+      "index": 4,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "005000530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Attacco",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "004100740074006100630063006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Difesa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 6,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "0044006900660065007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Att. Sp.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "004100740074002E002000530070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Dif. Sp.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 8,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "004400690066002E002000530070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Velocità",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 9,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "00560065006C006F00630069007400E00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0001>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "002B0010000302060001002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Il Pokémon riceve Punti Esperienza!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "0049006C00200050006F006B00E9006D006F006E0020007200690063006500760065002000500075006E0074006900200045007300700065007200690065006E007A0061002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>븅<U+0005><U+0010><U+0002>Ă<U+0000> sale al livello <U+0010><U+0002>Ȃ<U+0001>!<U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00100002BE0500050010000201020000002000730061006C006500200061006C0020006C006900760065006C006C006F00200010000202020001002100100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> impara <U+0010><U+0002>ć<U+0001>!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001><U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "001000020102000000200069006D007000610072006100200010000201070001002100100002BE05000400100002BE05000100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Č<U+0000> vorrebbe imparare\n<U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁\nVuoi che dimentichi una mossa e\nal suo posto impari <U+0010><U+0002>ć<U+0001>?",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010C000000200076006F00720072006500620062006500200069006D007000610072006100720065000A0010000201070001002E00100001BE01000A00560075006F00690020006300680065002000640069006D0065006E0074006900630068006900200075006E00610020006D006F00730073006100200065000A0061006C002000730075006F00200070006F00730074006F00200069006D007000610072006900200010000201070001003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Uno,<U+0010><U+0002>븂\n due<U+0010><U+0002>븂\n e<U+0010><U+0002>븂\n...<U+0010><U+0002>븂<U+0014> ta-daaaa!<U+0010><U+0002>븅<U+0003><U+0010><U+0002>븅<U+0005><U+0010><U+0001>븁\n<U+0010><U+0002>Ă<U+0000> dimentica <U+0010><U+0002>ć<U+0001>\ne al suo posto... <U+0010><U+0002>븅<U+0006>impara <U+0010><U+0002>ć<U+0002>!<U+0010><U+0002>븅<U+0004><U+0010><U+0001>븁",
+      "escapedControlUnits": 34,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 724,
+      "rawDecodedUtf16Hex": "0055006E006F002C00100002BE02000A002000640075006500100002BE02000A0020006500100002BE02000A002E002E002E00100002BE020014002000740061002D00640061006100610061002100100002BE05000300100002BE05000500100001BE01000A0010000201020000002000640069006D0065006E007400690063006100200010000201070001000A006500200061006C002000730075006F00200070006F00730074006F002E002E002E002000100002BE0500060069006D007000610072006100200010000201070002002100100002BE05000400100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Č<U+0000> non ha imparato\n<U+0010><U+0002>ć<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010C00000020006E006F006E00200068006100200069006D00700061007200610074006F000A0010000201070001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Fai dimenticare",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "004600610069002000640069006D0065006E0074006900630061007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Non far dimenticare",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "004E006F006E0020006600610072002000640069006D0065006E0074006900630061007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1092,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

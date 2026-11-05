@@ -1,0 +1,103 @@
+{
+  "declaredLength": 276,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Rimedi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "00520069006D0065006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Poké Ball",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "0050006F006B00E9002000420061006C006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Strumenti lotta",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 2,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "0053007400720075006D0065006E007400690020006C006F0074007400610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Bacche",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "0042006100630063006800650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Strumenti vari",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 4,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "0053007400720075006D0065006E00740069002000760061007200690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "MT",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "004D00540000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Tesori",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "005400650073006F007200690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Strumenti chiave",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 7,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "0053007400720075006D0065006E0074006900200063006800690061007600650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Megapietre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "004D0065006700610070006900650074007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 276,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

@@ -1,0 +1,683 @@
+{
+  "declaredLength": 3088,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "001000020105000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "とじる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "30683058308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "ガイドをセット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "30AC30A430C9309230BB30C330C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "ガイドをやめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "30AC30A430C9309230843081308B00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "移動する",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "79FB52D53059308B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ピンをセット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "30D430F3309230BB30C330C80000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "げんざいち",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "30523093305630443061000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "絞り込み",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "7D5E308A8FBC307F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "ピンを解除",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "30D430F3309289E39664000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ひずみチェック",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "3072305A307F30C130A730C330AF00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "目的地orクエスト名など",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "76EE76845730006F007230AF30A830B930C8540D306A30690000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "クエスト内容など",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 856,
+      "rawDecodedUtf16Hex": "30AF30A830B930C851855BB9306A3069000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "あらすじ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "304230893059305800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "依頼人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "4F9D983C4EBA0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "いらいにん名",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "304430893044306B3093540D0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "目的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "76EE7684000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "001000020109000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "001000020101000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000><U+0000>/<U+0010><U+0003>Ȅ<U+0001>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "00100003020400000000002F00100003020400010000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "目的テキスト４行用\nあああ\nあああ\nあああ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "76EE768430C630AD30B930C8FF14884C7528000A304230423042000A304230423042000A3042304230420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "報酬",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "5831916C000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "ほうしゅう名",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "307B3046305730853046540D0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1184,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000><U+0000>円",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "0010000302060000000051860000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "暴走メガシンカポケモン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "66B48D7030E130AC30B730F330AB30DD30B130E230F3000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "目的テキスト３行用\nあああ\nあああ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "76EE768430C630AD30B930C8FF13884C7528000A304230423042000A304230423042000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 18,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "目的テキスト２行用\nあああ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "76EE768430C630AD30B930C8FF12884C7528000A30423042304200000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 14,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "目的テキスト１行用",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "76EE768430C630AD30B930C8FF11884C75280000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "00100002BDFF001E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1488,
+      "rawDecodedUtf16Hex": "00100002BDFF001F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "00100002BDFF002000000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1528,
+      "rawDecodedUtf16Hex": "00100002BDFF002100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "001000020201000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ミッションリスト",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "30DF30C330B730E730F330EA30B930C8000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "EX<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "0045005800100002020000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "メイン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "30E130A430F30000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "サイド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1648,
+      "rawDecodedUtf16Hex": "30B530A430C90000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "イジゲン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1664,
+      "rawDecodedUtf16Hex": "30A430B830B230F300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "該当するミッションがありません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1724,
+      "rawDecodedUtf16Hex": "8A725F533059308B30DF30C330B730E730F3304C3042308A307E305B30930000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 16,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "未解決",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1788,
+      "rawDecodedUtf16Hex": "672A89E36C7A0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "番号順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "756A53F798060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00100002BDFF002C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "00100002BDFF002D00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "施設詳細　説明文ダミー\nああああああああああああああああ\nああああああああああああああああ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "65BD8A2D8A737D3030008AAC660E658730C030DF30FC000A3042304230423042304230423042304230423042304230423042304230423042000A30423042304230423042304230423042304230423042304230423042304230420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "ワイルドゾーン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "30EF30A430EB30C930BE30FC30F300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "バトルゾーン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "30D030C830EB30BE30FC30F30000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>%",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "00100002020200000025000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2128,
+      "rawDecodedUtf16Hex": "001000020201000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "移動先がありません",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "79FB52D55148304C3042308A307E305B30930000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "移動スポット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "79FB52D530B930DD30C330C80000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "すべて",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "3059307930660000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "施設",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "65BD8A2D000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "ポケモンセンター",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "30DD30B130E230F330BB30F330BF30FC000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "カフェ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "30AB30D530A70000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "ゾーン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "30BE30FC30F30000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "生息地確認中……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "751F606F573078BA8A8D4E2D20262026000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "はい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "306F3044000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "いいえ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "3044304430480000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "この<U+0010><U+0008>！<U+0002><U+0003>場所ばしょ場所に<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動しますか？",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "3053306E00100008FF01000200035834624030703057308758346240306B00100008FF010002000379FB52D530443069304679FB52D53057307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 33,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "いまは<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動できない！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "3044307E306F00100008FF010002000379FB52D530443069304679FB52D53067304D306A3044FF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 21,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "ポケモンにみつかっているため\n<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動できない！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2592,
+      "rawDecodedUtf16Hex": "30DD30B130E230F3306B307F3064304B306330663044308B305F3081000A00100008FF010002000379FB52D530443069304679FB52D53067304D306A3044FF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 33,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>戦闘せんとう戦闘しているので\n<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動できない！",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2724,
+      "rawDecodedUtf16Hex": "00100009FF0100020004622695D8305B309330683046622695D8305730663044308B306E3067000A00100008FF010002000379FB52D530443069304679FB52D53067304D306A3044FF0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 38,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "ここからは<U+0010><U+0006>！<U+0001><U+0002>外そと外に<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動できない！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "30533053304B3089306F00100006FF01000100025916305D30685916306B00100008FF010002000379FB52D530443069304679FB52D53067304D306A3044FF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 33,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "いまは<U+0010><U+0008>！<U+0002><U+0003>移動いどう移動できない",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "3044307E306F00100008FF010002000379FB52D530443069304679FB52D53067304D306A304400000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3088,
+  "sectionOffset": 16,
+  "textCount": 67,
+  "textSectionCount": 1
+}

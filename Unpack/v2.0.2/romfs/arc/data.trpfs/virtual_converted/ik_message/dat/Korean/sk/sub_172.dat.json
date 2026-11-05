@@ -1,0 +1,863 @@
+{
+  "declaredLength": 5516,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "인생에는 라이벌이 필요한 법!!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "C778C0DDC5D0B2940020B77CC774BC8CC7740020D544C694D55C0020BC950021002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "맞아요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "B9DEC544C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "괜찮으세요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "AD1CCC2EC73CC138C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "그렇고말고!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "ADF8B807ACE0B9D0ACE0002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "안 괜찮고말고!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "C5480020AD1CCC2EACE0B9D0ACE0002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "너, 내 라이벌이 되어 주라!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "B108002C0020B0B40020B77CC774BC8CC7740020B418C5B40020C8FCB77C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "당황스러운 부탁이라는 건 잘 알아!\n그렇지만 우선 내 이야기를 들어 줘!!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "B2F9D669C2A4B7ECC6B40020BD80D0C1C774B77CB2940020AC740020C7980020C54CC5440021000AADF8B807C9C0B9CC0020C6B0C1200020B0B40020C774C57CAE30B97C0020B4E4C5B40020C9180021002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "같은 날에 태어난 우리는\n같은 포켓몬인 카르본을 키우기 시작했다...<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "AC19C7400020B0A0C5D00020D0DCC5B4B09C0020C6B0B9ACB294000AAC19C7400020D3ECCF13BAACC7780020CE74B974BCF8C7440020D0A4C6B0AE300020C2DCC791D588B2E4002E002E002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "카르본은 도구에 따라\n2종류의 모습으로 진화를 하는 포켓몬!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "CE74B974BCF8C7400020B3C4AD6CC5D00020B530B77C000A0032C885B958C7580020BAA8C2B5C73CB85C0020C9C4D654B97C0020D558B2940020D3ECCF13BAAC002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "그렇지만, 언제까지고 둘 다 카르본인 채로\n같은 길을 걸을 수는 없었다... 라이벌이니까.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "ADF8B807C9C0B9CC002C0020C5B8C81CAE4CC9C0ACE00020B4580020B2E40020CE74B974BCF8C7780020CC44B85C000AAC19C7400020AE38C7440020AC78C7440020C218B2940020C5C6C5C8B2E4002E002E002E0020B77CC774BC8CC774B2C8AE4C002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "한쪽은 카디나르마로,\n다른 한쪽은 파라블레이즈로,<U+0010><U+0001>븀\n서로의 카르본을 진화시킨다!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "D55CCABDC7400020CE74B514B098B974B9C8B85C002C000AB2E4B9780020D55CCABDC7400020D30CB77CBE14B808C774C988B85C002C00100001BE00000AC11CB85CC7580020CE74B974BCF8C7440020C9C4D654C2DCD0A8B2E4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "그리고 어느 날...<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "ADF8B9ACACE00020C5B4B2900020B0A0002E002E002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "운명적인 재회를 한 우리는\n카디나르마와 파라블레이즈를 꺼내서<U+0010><U+0001>븀\n자웅을 겨루게 된다!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "C6B4BA85C801C7780020C7ACD68CB97C0020D55C0020C6B0B9ACB294000ACE74B514B098B974B9C8C6400020D30CB77CBE14B808C774C988B97C0020AEBCB0B4C11C00100001BE00000AC790C6C5C7440020ACA8B8E8AC8C0020B41CB2E4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "이런 뜨거운 스토리를 꿈꿔 왔는데,\n나한테는 같은 날에 태어난 라이벌은커녕<U+0010><U+0001>븀\n친구조차 없단 말이야!<U+0010><U+0001>븀\n그러니까 네가 내 라이벌이 되어 주라!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "C774B7F00020B728AC70C6B40020C2A4D1A0B9ACB97C0020AFC8AFD40020C654B294B370002C000AB098D55CD14CB2940020AC19C7400020B0A0C5D00020D0DCC5B4B09C0020B77CC774BC8CC740CEE4B15500100001BE00000ACE5CAD6CC870CC280020C5C6B2E80020B9D0C774C57C002100100001BE00000AADF8B7ECB2C8AE4C0020B124AC000020B0B40020B77CC774BC8CC7740020B418C5B40020C8FCB77C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "걱정하지 마! 카르본을 진화시킬\n축복받은갑옷과 저주받은갑옷은 있으니까.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1640,
+      "rawDecodedUtf16Hex": "AC71C815D558C9C00020B9C800210020CE74B974BCF8C7440020C9C4D654C2DCD0AC000ACD95BCF5BC1BC740AC11C637ACFC0020C800C8FCBC1BC740AC11C637C7400020C788C73CB2C8AE4C002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "둘 중 하나는 너에게 줄게!\n그러니까 카르본을 진화시켜서<U+0010><U+0001>븀\n꿈의 배틀을 할 수 있게 해 줘!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "B4580020C9110020D558B098B2940020B108C5D0AC8C0020C904AC8C0021000AADF8B7ECB2C8AE4C0020CE74B974BCF8C7440020C9C4D654C2DCCF1CC11C00100001BE00000AAFC8C7580020BC30D2C0C7440020D5600020C2180020C788AC8C0020D5740020C918002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "어떤 갑옷을 받을지 정했으면\n내게 말을 걸어 줘!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "C5B4B5A40020AC11C637C7440020BC1BC744C9C00020C815D588C73CBA74000AB0B4AC8C0020B9D0C7440020AC78C5B40020C918002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "어떤 갑옷을 받을지 결정한 거야?<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "C5B4B5A40020AC11C637C7440020BC1BC744C9C00020ACB0C815D55C0020AC70C57C003F00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "축복받은갑옷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "CD95BCF5BC1BC740AC11C6370000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "저주받은갑옷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "C800C8FCBC1BC740AC11C6370000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "너와 운명적인 결투를 할 수만 있다면\n얼마든지 고민해도 좋아!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "B108C6400020C6B4BA85C801C7780020ACB0D22CB97C0020D5600020C218B9CC0020C788B2E4BA74000AC5BCB9C8B4E0C9C00020ACE0BBFCD574B3C40020C88BC544002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "축복받은갑옷...\n카디나르마로 진화시킬 거구나!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "CD95BCF5BC1BC740AC11C637002E002E002E000ACE74B514B098B974B9C8B85C0020C9C4D654C2DCD0AC0020AC70AD6CB098002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "그럼 나는 저주받은갑옷으로\n카르본을 파라블레이즈로 진화시킬게!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020B098B2940020C800C8FCBC1BC740AC11C637C73CB85C000ACE74B974BCF8C7440020D30CB77CBE14B808C774C988B85C0020C9C4D654C2DCD0ACAC8C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "가자, 카르본!\n창염의 힘을 이 손안에...!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "AC00C790002C0020CE74B974BCF80021000ACC3DC5FCC7580020D798C7440020C7740020C190C548C5D0002E002E002E002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "이제 너의 카디나르마와 나의 파라블레이즈가\n1 대 1 승부를 하는 거야!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "C774C81C0020B108C7580020CE74B514B098B974B9C8C6400020B098C7580020D30CB77CBE14B808C774C988AC00000A00310020B300002000310020C2B9BD80B97C0020D558B2940020AC70C57C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "파라아!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "D30CB77CC54400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "저주받은갑옷...\n파라블레이즈로 진화시킬 거구나!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "C800C8FCBC1BC740AC11C637002E002E002E000AD30CB77CBE14B808C774C988B85C0020C9C4D654C2DCD0AC0020AC70AD6CB098002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "그럼 나는 축복받은갑옷으로\n카르본을 카디나르마로 진화시킬게!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2464,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020B098B2940020CD95BCF5BC1BC740AC11C637C73CB85C000ACE74B974BCF8C7440020CE74B514B098B974B9C8B85C0020C9C4D654C2DCD0ACAC8C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "가자, 카르본!\n홍련의 힘을 이 손안에...!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "AC00C790002C0020CE74B974BCF80021000AD64DB828C7580020D798C7440020C7740020C190C548C5D0002E002E002E002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "이제 너의 파라블레이즈와 나의 카디나르마가\n1 대 1 승부를 하는 거야!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2600,
+      "rawDecodedUtf16Hex": "C774C81C0020B108C7580020D30CB77CBE14B808C774C988C6400020B098C7580020CE74B514B098B974B9C8AC00000A00310020B300002000310020C2B9BD80B97C0020D558B2940020AC70C57C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "카디이!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "CE74B514C77400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "파라블레이즈와 카디나르마의\n운명적인 결투를 시작해 볼까?<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2716,
+      "rawDecodedUtf16Hex": "D30CB77CBE14B808C774C988C6400020CE74B514B098B974B9C8C758000AC6B4BA85C801C7780020ACB0D22CB97C0020C2DCC791D5740020BCFCAE4C003F00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "승부해요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "C2B9BD80D574C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "기다려 주세요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2800,
+      "rawDecodedUtf16Hex": "AE30B2E4B8240020C8FCC138C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "파라블레이즈끼리 싸우는 건 안 돼.\n파라블레이즈 대 카디나르마여야 한다고.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "D30CB77CBE14B808C774C988B07CB9AC0020C2F8C6B0B2940020AC740020C5480020B3FC002E000AD30CB77CBE14B808C774C9880020B3000020CE74B514B098B974B9C8C5ECC57C0020D55CB2E4ACE0002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "그래... 이건 운명적인 결투니까\n네가 준비될 때까지 기다릴게.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2908,
+      "rawDecodedUtf16Hex": "ADF8B798002E002E002E0020C774AC740020C6B4BA85C801C7780020ACB0D22CB2C8AE4C000AB124AC000020C900BE44B4200020B54CAE4CC9C00020AE30B2E4B9B4AC8C002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "드디어 파라블레이즈와 카디나르마의\n운명적인 결투를 할 수 있게 됐군.<U+0010><U+0001>븁\n그럼, 내가 생각한 최고의 시추에이션에서\n승부를 시작해 보자고.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2988,
+      "rawDecodedUtf16Hex": "B4DCB514C5B40020D30CB77CBE14B808C774C988C6400020CE74B514B098B974B9C8C758000AC6B4BA85C801C7780020ACB0D22CB97C0020D5600020C2180020C788AC8C0020B410AD70002E00100001BE01000AADF8B7FC002C0020B0B4AC000020C0DDAC01D55C0020CD5CACE0C7580020C2DCCD94C5D0C774C158C5D0C11C000AC2B9BD80B97C0020C2DCC791D5740020BCF4C790ACE0002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "너와 이런 식으로\n재회하게 될 줄이야...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "B108C6400020C774B7F00020C2DDC73CB85C000AC7ACD68CD558AC8C0020B4200020C904C774C57C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "훗... 그때 그 카르본을\n카디나르마로 진화시킨 모양이군.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3200,
+      "rawDecodedUtf16Hex": "D6D7002E002E002E0020ADF8B54C0020ADF80020CE74B974BCF8C744000ACE74B514B098B974B9C8B85C0020C9C4D654C2DCD0A80020BAA8C591C774AD70002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>...\n우리의 첫 승부...<U+0010><U+0001>븀\n카르본끼리의 승부를 기억하고 있나?",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "0010000201000000002E002E002E000AC6B0B9ACC7580020CCAB0020C2B9BD80002E002E002E00100001BE00000ACE74B974BCF8B07CB9ACC7580020C2B9BD80B97C0020AE30C5B5D558ACE00020C788B098003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "내가 이겼었지",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3356,
+      "rawDecodedUtf16Hex": "B0B4AC000020C774ACBCC5C8C9C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "네가 이겼었지",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "B124AC000020C774ACBCC5C8C9C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "그랬었나...?\n아무튼, 오늘의 나는 그때와 다르다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3388,
+      "rawDecodedUtf16Hex": "ADF8B7ACC5C8B098002E002E002E003F000AC544BB34D2BC002C0020C624B298C7580020B098B2940020ADF8B54CC6400020B2E4B974B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "그랬구나...\n그렇지만, 너도 그때보다 강해졌을 터.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3448,
+      "rawDecodedUtf16Hex": "ADF8B7ACAD6CB098002E002E002E000AADF8B807C9C0B9CC002C0020B108B3C40020ADF8B54CBCF4B2E40020AC15D574C84CC7440020D130002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "이번 승부로 결판을 내자...\n나와 파라블레이즈의 승리로 말이야.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3508,
+      "rawDecodedUtf16Hex": "C774BC880020C2B9BD80B85C0020ACB0D310C7440020B0B4C790002E002E002E000AB098C6400020D30CB77CBE14B808C774C988C7580020C2B9B9ACB85C0020B9D0C774C57C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "가자...\n창염의 검, 파라블레이즈여!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "AC00C790002E002E002E000ACC3DC5FCC7580020AC80002C0020D30CB77CBE14B808C774C988C5EC00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "너의 카디나르마와 나의 파라블레이즈로\n1 대 1 승부를 겨뤄 줘.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3628,
+      "rawDecodedUtf16Hex": "B108C7580020CE74B514B098B974B9C8C6400020B098C7580020D30CB77CBE14B808C774C988B85C000A00310020B300002000310020C2B9BD80B97C0020ACA8B9040020C918002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3712,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "창염의 검이...\n파라블레이즈가 지다니...<U+0010><U+0001>븀\n과연 내 라이벌이군.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3724,
+      "rawDecodedUtf16Hex": "CC3DC5FCC7580020AC80C774002E002E002E000AD30CB77CBE14B808C774C988AC000020C9C0B2E4B2C8002E002E002E00100001BE00000AACFCC5F00020B0B40020B77CC774BC8CC774AD70002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "창염의 검...\n파라블레이즈의 승리로군.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3812,
+      "rawDecodedUtf16Hex": "CC3DC5FCC7580020AC80002E002E002E000AD30CB77CBE14B808C774C988C7580020C2B9B9ACB85CAD70002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "운명적인 결투를 해 줘서 고마워!\n진짜 라이벌이 생긴 것 같아서 최고였어!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3868,
+      "rawDecodedUtf16Hex": "C6B4BA85C801C7780020ACB0D22CB97C0020D5740020C918C11C0020ACE0B9C8C6CC0021000AC9C4C9DC0020B77CC774BC8CC7740020C0DDAE340020AC830020AC19C544C11C0020CD5CACE0C600C5B4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "라이벌 맞아요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3960,
+      "rawDecodedUtf16Hex": "B77CC774BC8C0020B9DEC544C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "운명의 상대예요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3976,
+      "rawDecodedUtf16Hex": "C6B4BA85C7580020C0C1B300C608C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "훗... 멋진 말도 할 줄 알고,\n역시 내 라이벌답군.<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3996,
+      "rawDecodedUtf16Hex": "D6D7002E002E002E0020BA4BC9C40020B9D0B3C40020D5600020C9040020C54CACE0002C000AC5EDC2DC0020B0B40020B77CC774BC8CB2F5AD70002E00100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿9",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 4068,
+      "rawDecodedUtf16Hex": "00100002BDFF00390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "카디나르마와 파라블레이즈의\n운명적인 결투를 시작해 볼까!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 4080,
+      "rawDecodedUtf16Hex": "CE74B514B098B974B9C8C6400020D30CB77CBE14B808C774C988C758000AC6B4BA85C801C7780020ACB0D22CB97C0020C2DCC791D5740020BCFCAE4C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "승부해요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 4152,
+      "rawDecodedUtf16Hex": "C2B9BD80D574C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "기다려 주세요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 4164,
+      "rawDecodedUtf16Hex": "AE30B2E4B8240020C8FCC138C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "카디나르마끼리 싸우는 건 안 돼!\n카디나르마 대 파라블레이즈여야 한다고!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 4180,
+      "rawDecodedUtf16Hex": "CE74B514B098B974B9C8B07CB9AC0020C2F8C6B0B2940020AC740020C5480020B3FC0021000ACE74B514B098B974B9C80020B3000020D30CB77CBE14B808C774C988C5ECC57C0020D55CB2E4ACE0002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "알았어! 이건 운명적인 결투니까\n네가 준비될 때까지 기다릴게!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "C54CC558C5B400210020C774AC740020C6B4BA85C801C7780020ACB0D22CB2C8AE4C000AB124AC000020C900BE44B4200020B54CAE4CC9C00020AE30B2E4B9B4AC8C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "드디어 카디나르마와 파라블레이즈의\n운명적인 결투를 할 수 있게 됐어!<U+0010><U+0001>븁\n그럼, 내가 생각한 최고의 시추에이션에서\n승부를 시작해 보자!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 4352,
+      "rawDecodedUtf16Hex": "B4DCB514C5B40020CE74B514B098B974B9C8C6400020D30CB77CBE14B808C774C988C758000AC6B4BA85C801C7780020ACB0D22CB97C0020D5600020C2180020C788AC8C0020B410C5B4002100100001BE01000AADF8B7FC002C0020B0B4AC000020C0DDAC01D55C0020CD5CACE0C7580020C2DCCD94C5D0C774C158C5D0C11C000AC2B9BD80B97C0020C2DCC791D5740020BCF4C790002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "너와 이런 식으로\n재회하게 될 줄이야...!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 4516,
+      "rawDecodedUtf16Hex": "B108C6400020C774B7F00020C2DDC73CB85C000AC7ACD68CD558AC8C0020B4200020C904C774C57C002E002E002E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "그때 그 카르본을\n파라블레이즈로 진화시켰구나!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 4568,
+      "rawDecodedUtf16Hex": "ADF8B54C0020ADF80020CE74B974BCF8C744000AD30CB77CBE14B808C774C988B85C0020C9C4D654C2DCCF30AD6CB09800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>...\n우리의 첫 승부...<U+0010><U+0001>븀\n카르본끼리의 승부를 기억하고 있어?",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 4620,
+      "rawDecodedUtf16Hex": "0010000201000000002E002E002E000AC6B0B9ACC7580020CCAB0020C2B9BD80002E002E002E00100001BE00000ACE74B974BCF8B07CB9ACC7580020C2B9BD80B97C0020AE30C5B5D558ACE00020C788C5B4003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "내가 이겼었지",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 4708,
+      "rawDecodedUtf16Hex": "B0B4AC000020C774ACBCC5C8C9C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "네가 이겼었지",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 4724,
+      "rawDecodedUtf16Hex": "B124AC000020C774ACBCC5C8C9C00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "그랬었나...?\n아무튼, 오늘의 나는 그때와 달라!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 4740,
+      "rawDecodedUtf16Hex": "ADF8B7ACC5C8B098002E002E002E003F000AC544BB34D2BC002C0020C624B298C7580020B098B2940020ADF8B54CC6400020B2ECB77C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "그랬구나...\n그렇지만, 너도 그때보다 강해졌을 거야!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 4800,
+      "rawDecodedUtf16Hex": "ADF8B7ACAD6CB098002E002E002E000AADF8B807C9C0B9CC002C0020B108B3C40020ADF8B54CBCF4B2E40020AC15D574C84CC7440020AC70C57C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "이번 승부로 결판을 내자!\n나와 카디나르마의 승리로 말이야!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 4864,
+      "rawDecodedUtf16Hex": "C774BC880020C2B9BD80B85C0020ACB0D310C7440020B0B4C7900021000AB098C6400020CE74B514B098B974B9C8C7580020C2B9B9ACB85C0020B9D0C774C57C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "가자!\n홍련의 대포, 카디나르마!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 4932,
+      "rawDecodedUtf16Hex": "AC00C7900021000AD64DB828C7580020B300D3EC002C0020CE74B514B098B974B9C800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "너의 파라블레이즈와 나의 카디나르마로\n1 대 1 승부를 겨뤄 줘!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 4972,
+      "rawDecodedUtf16Hex": "B108C7580020D30CB77CBE14B808C774C988C6400020B098C7580020CE74B514B098B974B9C8B85C000A00310020B300002000310020C2B9BD80B97C0020ACA8B9040020C918002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 5056,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "홍련의 대포가...\n카디나르마가 지다니...<U+0010><U+0001>븀\n역시 내 라이벌이야!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 5068,
+      "rawDecodedUtf16Hex": "D64DB828C7580020B300D3ECAC00002E002E002E000ACE74B514B098B974B9C8AC000020C9C0B2E4B2C8002E002E002E00100001BE00000AC5EDC2DC0020B0B40020B77CC774BC8CC774C57C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "홍련의 대포가...\n카디나르마가 승리했어!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 5156,
+      "rawDecodedUtf16Hex": "D64DB828C7580020B300D3ECAC00002E002E002E000ACE74B514B098B974B9C8AC000020C2B9B9ACD588C5B4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "운명적인 결투를 해 줘서 고마워!\n진짜 라이벌이 생긴 것 같아서 최고였어!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 5212,
+      "rawDecodedUtf16Hex": "C6B4BA85C801C7780020ACB0D22CB97C0020D5740020C918C11C0020ACE0B9C8C6CC0021000AC9C4C9DC0020B77CC774BC8CC7740020C0DDAE340020AC830020AC19C544C11C0020CD5CACE0C600C5B4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "라이벌 맞아요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 5304,
+      "rawDecodedUtf16Hex": "B77CC774BC8C0020B9DEC544C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "운명의 상대예요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 5320,
+      "rawDecodedUtf16Hex": "C6B4BA85C7580020C0C1B300C608C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "멋진 말도 할 줄 알고,\n역시 내 라이벌이라니까!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "BA4BC9C40020B9D0B3C40020D5600020C9040020C54CACE0002C000AC5EDC2DC0020B0B40020B77CC774BC8CC774B77CB2C8AE4C002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Q",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 5404,
+      "rawDecodedUtf16Hex": "00100002BDFF00510000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "라이벌과의 운명적인 결투...\n내 인생 최고의 시간이었어!<U+0010><U+0002>ĔǊ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 5416,
+      "rawDecodedUtf16Hex": "B77CC774BC8CACFCC7580020C6B4BA85C801C7780020ACB0D22C002E002E002E000AB0B40020C778C0DD0020CD5CACE0C7580020C2DCAC04C774C5C8C5B4002100100002011401CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "파라아!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 5492,
+      "rawDecodedUtf16Hex": "D30CB77CC54400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "카디이!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 5504,
+      "rawDecodedUtf16Hex": "CE74B514C77400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5516,
+  "sectionOffset": 16,
+  "textCount": 85,
+  "textSectionCount": 1
+}

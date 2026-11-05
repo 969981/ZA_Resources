@@ -1,0 +1,433 @@
+{
+  "declaredLength": 2524,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Welche Karte soll ausgetauscht werden?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "00570065006C0063006800650020004B006100720074006500200073006F006C006C0020006100750073006700650074006100750073006300680074002000770065007200640065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>  Pkt.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "0010000302040000202F00200050006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>Ȅ<U+0000>  Pkt.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "002B00200010000302040000202F00200050006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "002B0020001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "00100002010E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "× <U+0010><U+0002>ȁ<U+0000>,<U+0010><U+0002>Ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00D700200010000202010000002C00100002020000010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Keine Preismedaillen erhalten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "004B00650069006E0065002000500072006500690073006D0065006400610069006C006C0065006E00200065007200680061006C00740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Weiter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "0057006500690074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang Z",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020005A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang Y",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000590000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang X",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang W",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang V",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000560000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang U",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1012,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang T",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000540000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang S",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang R",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1216,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000520000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang Q",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000510000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang P",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang O",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang N",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1488,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang M",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang L",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang K",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang J",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang I",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang H",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1896,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang G",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang F",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang E",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang D",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2168,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang C",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang B",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2304,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang A",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E0067002000410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sieg über einen Gegner auf Rang ∞",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "0053006900650067002000FC006200650072002000650069006E0065006E0020004700650067006E006500720020006100750066002000520061006E00670020221E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "002B0010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2524,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

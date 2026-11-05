@@ -1,0 +1,23 @@
+{
+  "declaredLength": 148,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Se interrumpió la conexión.\nEl intercambio no se llevará a cabo.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "0053006500200069006E00740065007200720075006D0070006900F30020006C006100200063006F006E00650078006900F3006E002E000A0045006C00200069006E00740065007200630061006D00620069006F0020006E006F0020007300650020006C006C006500760061007200E1002000610020006300610062006F002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 148,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

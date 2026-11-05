@@ -1,0 +1,573 @@
+{
+  "declaredLength": 6480,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Estoy harta de repetirlo! ¡El mejor problema\nde estado es el <U+0010><U+0002>＀<U+0006>envenenamiento<U+0010><U+0002>＀<U+0000>!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "00A1004500730074006F007900200068006100720074006100200064006500200072006500700065007400690072006C006F0021002000A10045006C0020006D0065006A006F0072002000700072006F0062006C0065006D0061000A00640065002000650073007400610064006F00200065007300200065006C002000100002FF0000060065006E00760065006E0065006E0061006D00690065006E0074006F00100002FF0000000021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "¡Le baja los PS al rival poco a poco y es\nuna victoria segura!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "00A1004C0065002000620061006A00610020006C006F007300200050005300200061006C00200072006900760061006C00200070006F0063006F0020006100200070006F0063006F00200079002000650073000A0075006E006100200076006900630074006F00720069006100200073006500670075007200610021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "¡¿Pero qué dices?! Lo mejor es la <U+0010><U+0002>＀<U+0006>parálisis<U+0010><U+0002>＀<U+0000>. Obvio.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "00A100BF005000650072006F00200071007500E9002000640069006300650073003F00210020004C006F0020006D0065006A006F00720020006500730020006C0061002000100002FF00000600700061007200E1006C006900730069007300100002FF000000002E0020004F006200760069006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Un Pokémon paralizado se desplaza mucho más\ndespacio.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "0055006E00200050006F006B00E9006D006F006E00200070006100720061006C0069007A00610064006F00200073006500200064006500730070006C0061007A00610020006D007500630068006F0020006D00E10073000A0064006500730070006100630069006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "¡Y puedes aprovechar esa ventaja para tumbarlo\nde un golpe como una pro!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "00A1005900200070007500650064006500730020006100700072006F0076006500630068006100720020006500730061002000760065006E00740061006A006100200070006100720061002000740075006D006200610072006C006F000A0064006500200075006E00200067006F006C0070006500200063006F006D006F00200075006E0061002000700072006F0021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "¡Eh, tú! Llegas en buen momento.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "00A100450068002C0020007400FA00210020004C006C006500670061007300200065006E0020006200750065006E0020006D006F006D0065006E0074006F002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Nos vas a ayudar a decidir de una vez por todas\nqué es mejor: ¡el envenenamiento o la parálisis!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "004E006F00730020007600610073002000610020006100790075006400610072002000610020006400650063006900640069007200200064006500200075006E0061002000760065007A00200070006F007200200074006F006400610073000A0071007500E90020006500730020006D0065006A006F0072003A002000A10065006C00200065006E00760065006E0065006E0061006D00690065006E0074006F0020006F0020006C0061002000700061007200E1006C00690073006900730021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "¡O sea, que te toca combatir contra las dos!\n¡Primero yo!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "00A1004F0020007300650061002C002000710075006500200074006500200074006F0063006100200063006F006D0062006100740069007200200063006F006E0074007200610020006C0061007300200064006F00730021000A00A1005000720069006D00650072006F00200079006F0021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1584,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Nos vas a ayudar a decidir si es mejor\nel envenenamiento o la parálisis?<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "00BF004E006F0073002000760061007300200061002000610079007500640061007200200061002000640065006300690064006900720020007300690020006500730020006D0065006A006F0072000A0065006C00200065006E00760065006E0065006E0061006D00690065006E0074006F0020006F0020006C0061002000700061007200E1006C0069007300690073003F001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Primero te las verás con mi estrategia paralizante.\n¡Prepárate!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1752,
+      "rawDecodedUtf16Hex": "005000720069006D00650072006F0020007400650020006C00610073002000760065007200E1007300200063006F006E0020006D00690020006500730074007200610074006500670069006100200070006100720061006C0069007A0061006E00740065002E000A00A1005000720065007000E100720061007400650021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "¡Vamos allá!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "00A100560061006D006F007300200061006C006C00E100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Mira, ahora no me viene bien",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "004D006900720061002C002000610068006F007200610020006E006F0020006D00650020007600690065006E00650020006200690065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "¿Qué? ¿Solo de pensarlo ya te has paralizado?<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1976,
+      "rawDecodedUtf16Hex": "00BF0051007500E9003F002000BF0053006F006C006F002000640065002000700065006E007300610072006C006F002000790061002000740065002000680061007300200070006100720061006C0069007A00610064006F003F001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "¡Los Pokémon paralizados se desplazan mucho\nmás despacio!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "00A1004C006F007300200050006F006B00E9006D006F006E00200070006100720061006C0069007A00610064006F007300200073006500200064006500730070006C0061007A0061006E0020006D007500630068006F000A006D00E1007300200064006500730070006100630069006F0021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "¡Y entonces los derrotaré de un golpe que\nni siquiera verán venir!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "00A1005900200065006E0074006F006E0063006500730020006C006F007300200064006500720072006F00740061007200E900200064006500200075006E00200067006F006C007000650020007100750065000A006E0069002000730069007100750069006500720061002000760065007200E1006E002000760065006E006900720021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "El veneno es superior en todos los aspectos,\npero no me importa ir la segunda.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "0045006C002000760065006E0065006E006F0020006500730020007300750070006500720069006F007200200065006E00200074006F0064006F00730020006C006F00730020006100730070006500630074006F0073002C000A007000650072006F0020006E006F0020006D006500200069006D0070006F0072007400610020006900720020006C006100200073006500670075006E00640061002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2524,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Me has dejado tiesa.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "004D00650020006800610073002000640065006A00610064006F002000740069006500730061002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ah, por cierto... la parálisis no se cura al terminar\nel combate.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "00410068002C00200070006F0072002000630069006500720074006F002E002E002E0020006C0061002000700061007200E1006C00690073006900730020006E006F0020007300650020006300750072006100200061006C0020007400650072006D0069006E00610072000A0065006C00200063006F006D0062006100740065002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Si alguno de tus Pokémon está paralizado,\nusa un Antiparalizador para curarlo.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "0053006900200061006C00670075006E006F002000640065002000740075007300200050006F006B00E9006D006F006E002000650073007400E100200070006100720061006C0069007A00610064006F002C000A00750073006100200075006E00200041006E007400690070006100720061006C0069007A00610064006F007200200070006100720061002000630075007200610072006C006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Veo que la parálisis no ha servido para pararte\nlos pies. Esto se te da mejor de lo que esperaba.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "00560065006F00200071007500650020006C0061002000700061007200E1006C00690073006900730020006E006F0020006800610020007300650072007600690064006F0020007000610072006100200070006100720061007200740065000A006C006F007300200070006900650073002E0020004500730074006F0020007300650020007400650020006400610020006D0065006A006F00720020006400650020006C006F0020007100750065002000650073007000650072006100620061002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Pero ahora te toca probar el poder del veneno.\nTu derrota será lenta y amarga.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "005000650072006F002000610068006F0072006100200074006500200074006F00630061002000700072006F00620061007200200065006C00200070006F006400650072002000640065006C002000760065006E0065006E006F002E000A0054007500200064006500720072006F00740061002000730065007200E10020006C0065006E007400610020007900200061006D0061007200670061002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Te toca afrontar mi estrategia venenosa.\n¿Estás preparad<U+0010><U+0003>ᄀÿāoa?<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "0054006500200074006F006300610020006100660072006F006E0074006100720020006D006900200065007300740072006100740065006700690061002000760065006E0065006E006F00730061002E000A00BF00450073007400E1007300200070007200650070006100720061006400100003110000FF0101006F0061003F001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "¡Claro que sí!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3420,
+      "rawDecodedUtf16Hex": "00A10043006C00610072006F00200071007500650020007300ED00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Ahora mismo no",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "00410068006F007200610020006D00690073006D006F0020006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "¿Cómo? ¿El poder del veneno te da mal cuerpo?<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3484,
+      "rawDecodedUtf16Hex": "00BF004300F3006D006F003F002000BF0045006C00200070006F006400650072002000640065006C002000760065006E0065006E006F0020007400650020006400610020006D0061006C002000630075006500720070006F003F001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Los Pokémon envenenados se van debilitando\npoco a poco.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "004C006F007300200050006F006B00E9006D006F006E00200065006E00760065006E0065006E00610064006F0073002000730065002000760061006E00200064006500620069006C006900740061006E0064006F000A0070006F0063006F0020006100200070006F0063006F002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "¡Y ahora vas a ver lo espantoso que es eso!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3704,
+      "rawDecodedUtf16Hex": "00A10059002000610068006F0072006100200076006100730020006100200076006500720020006C006F00200065007300700061006E0074006F0073006F0020007100750065002000650073002000650073006F0021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Si alguno de tus Pokémon está paralizado,\nusa un Antiparalizador para curarlo.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3812,
+      "rawDecodedUtf16Hex": "0053006900200061006C00670075006E006F002000640065002000740075007300200050006F006B00E9006D006F006E002000650073007400E100200070006100720061006C0069007A00610064006F002C000A00750073006100200075006E00200041006E007400690070006100720061006C0069007A00610064006F007200200070006100720061002000630075007200610072006C006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3980,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "No me ha extrañado que vencieras a Lizzy, pero\nque me hayas ganado hasta a mí... Vaya palo.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3992,
+      "rawDecodedUtf16Hex": "004E006F0020006D006500200068006100200065007800740072006100F100610064006F0020007100750065002000760065006E006300690065007200610073002000610020004C0069007A007A0079002C0020007000650072006F000A0071007500650020006D0065002000680061007900610073002000670061006E00610064006F002000680061007300740061002000610020006D00ED002E002E002E00200056006100790061002000700061006C006F002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Entonces... ¿qué te parece que es mejor?\n¿La parálisis o el envenenamiento?<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 4184,
+      "rawDecodedUtf16Hex": "0045006E0074006F006E006300650073002E002E002E002000BF0071007500E9002000740065002000700061007200650063006500200071007500650020006500730020006D0065006A006F0072003F000A00BF004C0061002000700061007200E1006C00690073006900730020006F00200065006C00200065006E00760065006E0065006E0061006D00690065006E0074006F003F001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "¡La parálisis!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4344,
+      "rawDecodedUtf16Hex": "00A1004C0061002000700061007200E1006C006900730069007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "¡El envenenamiento!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4376,
+      "rawDecodedUtf16Hex": "00A10045006C00200065006E00760065006E0065006E0061006D00690065006E0074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Los dos molan",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4416,
+      "rawDecodedUtf16Hex": "004C006F007300200064006F00730020006D006F006C0061006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "¡¿Pero de qué hablas?!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4444,
+      "rawDecodedUtf16Hex": "00A100BF005000650072006F00200064006500200071007500E90020006800610062006C00610073003F0021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "¿Lo ves? ¡Defenderse frente a la parálisis no es\ncosa fácil!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4500,
+      "rawDecodedUtf16Hex": "00BF004C006F0020007600650073003F002000A10044006500660065006E006400650072007300650020006600720065006E00740065002000610020006C0061002000700061007200E1006C00690073006900730020006E006F002000650073000A0063006F007300610020006600E100630069006C0021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "¿En serio? Bueno, estaba clarísimo.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "00BF0045006E00200073006500720069006F003F0020004200750065006E006F002C002000650073007400610062006100200063006C0061007200ED00730069006D006F002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "¡Menuda tontería! ¡La parálisis no tiene rival!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4712,
+      "rawDecodedUtf16Hex": "00A1004D0065006E00750064006100200074006F006E00740065007200ED00610021002000A1004C0061002000700061007200E1006C00690073006900730020006E006F0020007400690065006E006500200072006900760061006C0021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "¡¿Pe-pero qué...?!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4816,
+      "rawDecodedUtf16Hex": "00A100BF00500065002D007000650072006F00200071007500E9002E002E002E003F0021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "¿Estás diciendo que a ti los problemas de estado\nno te quitan el sueño?<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4864,
+      "rawDecodedUtf16Hex": "00BF00450073007400E10073002000640069006300690065006E0064006F0020007100750065002000610020007400690020006C006F0073002000700072006F0062006C0065006D00610073002000640065002000650073007400610064006F000A006E006F002000740065002000710075006900740061006E00200065006C002000730075006500F1006F003F001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Al fin y al cabo, nos has vencido a las dos,\nasí que ninguna ha ganado a la otra.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "0041006C002000660069006E0020007900200061006C0020006300610062006F002C0020006E006F00730020006800610073002000760065006E006300690064006F002000610020006C0061007300200064006F0073002C000A0061007300ED00200071007500650020006E0069006E00670075006E0061002000680061002000670061006E00610064006F002000610020006C00610020006F007400720061002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Aún nos queda mucho que aprender.<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 47,
+      "offsetInSection": 5188,
+      "rawDecodedUtf16Hex": "004100FA006E0020006E006F00730020007100750065006400610020006D007500630068006F002000710075006500200061007000720065006E006400650072002E001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Hay muchos más problemas de estado...\n¡y un sinfín de movimientos que dominar!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 5264,
+      "rawDecodedUtf16Hex": "0048006100790020006D007500630068006F00730020006D00E10073002000700072006F0062006C0065006D00610073002000640065002000650073007400610064006F002E002E002E000A00A1007900200075006E002000730069006E006600ED006E0020006400650020006D006F00760069006D00690065006E0074006F0073002000710075006500200064006F006D0069006E006100720021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Por cierto, si tus Pokémon sufren algún problema\nde estado, puedes curarlos con una Cura Total.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5432,
+      "rawDecodedUtf16Hex": "0050006F0072002000630069006500720074006F002C002000730069002000740075007300200050006F006B00E9006D006F006E002000730075006600720065006E00200061006C006700FA006E002000700072006F0062006C0065006D0061000A00640065002000650073007400610064006F002C0020007000750065006400650073002000630075007200610072006C006F007300200063006F006E00200075006E00610020004300750072006100200054006F00740061006C002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Es un objeto que sirve para curar cualquier\nproblema de estado.<U+0010><U+0001>븁\nNosotras siempre tenemos unas cuantas a mano.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 5632,
+      "rawDecodedUtf16Hex": "0045007300200075006E0020006F0062006A00650074006F0020007100750065002000730069007200760065002000700061007200610020006300750072006100720020006300750061006C00710075006900650072000A00700072006F0062006C0065006D0061002000640065002000650073007400610064006F002E00100001BE01000A004E006F0073006F00740072006100730020007300690065006D007000720065002000740065006E0065006D006F007300200075006E006100730020006300750061006E007400610073002000610020006D0061006E006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "Es importante curar los problemas de estado\ncuanto antes para que tus Pokémon no pasen<U+0010><U+0001>븀\nun mal rato.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 51,
+      "offsetInSection": 5868,
+      "rawDecodedUtf16Hex": "0045007300200069006D0070006F007200740061006E007400650020006300750072006100720020006C006F0073002000700072006F0062006C0065006D00610073002000640065002000650073007400610064006F000A006300750061006E0074006F00200061006E007400650073002000700061007200610020007100750065002000740075007300200050006F006B00E9006D006F006E0020006E006F00200070006100730065006E00100001BE00000A0075006E0020006D0061006C0020007200610074006F002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "¡Que no se te olvide, Entrenador<U+0010><U+0003>ᄀÿĀa!<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 6084,
+      "rawDecodedUtf16Hex": "00A10051007500650020006E006F0020007300650020007400650020006F006C0076006900640065002C00200045006E007400720065006E00610064006F007200100003110000FF010000610021001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 6172,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Algún día seré experta en todos los problemas\nde estado!<U+0010><U+0002>ĔĮ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 6184,
+      "rawDecodedUtf16Hex": "00A10041006C006700FA006E0020006400ED0061002000730065007200E90020006500780070006500720074006100200065006E00200074006F0064006F00730020006C006F0073002000700072006F0062006C0065006D00610073000A00640065002000650073007400610064006F0021001000020114012E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Acuérdate de curar los problemas de estado\nde tus Pokémon tan pronto como puedas.<U+0010><U+0002>Ĕį",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 55,
+      "offsetInSection": 6308,
+      "rawDecodedUtf16Hex": "00410063007500E9007200640061007400650020006400650020006300750072006100720020006C006F0073002000700072006F0062006C0065006D00610073002000640065002000650073007400610064006F000A00640065002000740075007300200050006F006B00E9006D006F006E002000740061006E002000700072006F006E0074006F00200063006F006D006F0020007000750065006400610073002E001000020114012F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6480,
+  "sectionOffset": 16,
+  "textCount": 56,
+  "textSectionCount": 1
+}

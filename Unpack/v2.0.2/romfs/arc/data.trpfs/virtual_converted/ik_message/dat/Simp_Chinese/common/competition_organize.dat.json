@@ -1,0 +1,783 @@
+{
+  "declaredLength": 1768,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "请设置大赛信息。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "8BF78BBE7F6E59278D5B4FE1606F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "确定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "786E5B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "请选择举办日期。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 656,
+      "rawDecodedUtf16Hex": "8BF7900962E94E3E529E65E5671F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "请选择开始时间。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "8BF7900962E95F0059CB65F695F430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "请选择结束时间。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "8BF7900962E97ED3675F65F695F430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "请选择１天内可以对战的次数。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "8BF7900962E9FF115929518553EF4EE55BF9621876846B21657030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "请选择对战时间规则。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "8BF7900962E95BF9621865F695F489C4521930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "任何人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "4EFB4F554EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "仅限知道ＩＤ的人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "4EC5965077E59053FF29FF2476844EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "设置",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "8BBE7F6E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "不设置",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "4E0D8BBE7F6E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请设置可报名\n参加大赛的对象。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "8BF78BBE7F6E53EF62A5540D000A53C252A059278D5B76845BF98C6130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "要为大赛名称\n设置副标题吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "89814E3A59278D5B540D79F0000A8BBE7F6E526F680798985417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "举办大赛",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "4E3E529E59278D5B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "大赛名称",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "59278D5B540D79F00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "规则",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "89C452190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "普通规则",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "666E901A89C452190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "对战塔规则",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "5BF96218585489C452190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "无限制",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "65E0965052360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1036,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "0010000201D500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "举办时间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "4E3E529E65F695F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F001000020201000200200010000202010003003A00100002020100040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "～",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1124,
+      "rawDecodedUtf16Hex": "FF5E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002> <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F001000020201000200200010000202010003003A00100002020100040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "可参加者",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "53EF53C252A080050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "任何人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "4EFB4F554EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "仅限知道ＩＤ的人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "4EC5965077E59053FF29FF2476844EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "举办",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "4E3E529E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "注意！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1228,
+      "rawDecodedUtf16Hex": "6CE8610FFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "大赛一旦举办，将无法撤销。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "59278D5B4E0065E64E3E529EFF0C5C0665E06CD564A4950030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "对战次数",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "5BF962186B2165700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "最多<U+0010><U+0002>ȁ<U+0000>次",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "6700591A00100002020100006B210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "时间限制",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "65F695F4965052360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "可用时间　<U+0010><U+0002>ȁ<U+0000>分钟",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1304,
+      "rawDecodedUtf16Hex": "53EF752865F695F4300000100002020100005206949F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "时间总计　<U+0010><U+0002>ȁ<U+0000>分钟",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1328,
+      "rawDecodedUtf16Hex": "65F695F4603B8BA1300000100002020100005206949F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "未设定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "672A8BBE5B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0002>ȁ<U+0002>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "00100003020300000000002F0010000202010001002F00100002020100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:00～",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "0010000202010001003A00300030FF5E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:59",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "0010000202010001003A003500390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "举办时间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "4E3E529E65F695F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "最多<U+0010><U+0002>ȁ<U+0000>次",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "6700591A00100002020100006B210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "可用时间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "53EF752865F695F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "时间总计",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "65F695F4603B8BA10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>分钟",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "00100002020100005206949F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>分钟",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "00100002020100015206949F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "无限制",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "65E0965052360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "确定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "786E5B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 1564,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 1576,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00100002BDFF00420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 1648,
+      "rawDecodedUtf16Hex": "00100002BDFF00430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "00100002BDFF00460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "00100002BDFF00470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 1708,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 1744,
+      "rawDecodedUtf16Hex": "00100002BDFF004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 1756,
+      "rawDecodedUtf16Hex": "00100002BDFF004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1768,
+  "sectionOffset": 16,
+  "textCount": 77,
+  "textSectionCount": 1
+}

@@ -1,0 +1,63 @@
+{
+  "declaredLength": 208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ferne Person",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "004600650072006E006500200050006500720073006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Hortleiterinnen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 65,
+      "index": 1,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "0048006F00720074006C006500690074006500720069006E006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Schatzsucher",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "00530063006800610074007A0073007500630068006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Dame der Heißen Quellen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 3,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "00440061006D00650020006400650072002000480065006900DF0065006E0020005100750065006C006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Illumina City",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 4,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0049006C006C0075006D0069006E0061002000430069007400790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 208,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

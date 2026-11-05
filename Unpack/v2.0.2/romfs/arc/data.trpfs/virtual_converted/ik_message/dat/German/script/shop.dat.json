@@ -1,0 +1,1253 @@
+{
+  "declaredLength": 7144,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Etwas kaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "004500740077006100730020006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Etwas verkaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "004500740077006100730020007600650072006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Willkommen beim Pokémon-Supermarkt!\nWas möchtest du tun?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "00570069006C006C006B006F006D006D0065006E0020006200650069006D00200050006F006B00E9006D006F006E002D00530075007000650072006D00610072006B00740021000A0057006100730020006D00F6006300680074006500730074002000640075002000740075006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Gibt es noch etwas, womit ich dienen kann?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "00470069006200740020006500730020006E006F00630068002000650074007700610073002C00200077006F006D0069007400200069006300680020006400690065006E0065006E0020006B0061006E006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Wir freuen uns auf deinen nächsten Besuch!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1280,
+      "rawDecodedUtf16Hex": "005700690072002000660072006500750065006E00200075006E007300200061007500660020006400650069006E0065006E0020006E00E400630068007300740065006E002000420065007300750063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Geld:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "00470065006C0064003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1404,
+      "rawDecodedUtf16Hex": "0010000302060000002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000>  <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "0010000302030000202F0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>Ȇ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "002B00200010000302060000202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "− <U+0010><U+0003>Ȇ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "221200200010000302060000202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "+ <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "002B002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "− <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "2212002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1512,
+      "rawDecodedUtf16Hex": "00100002011200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Zur Liste hinzufügen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1524,
+      "rawDecodedUtf16Hex": "005A007500720020004C0069007300740065002000680069006E007A0075006600FC00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Vorrätig:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "0056006F0072007200E4007400690067003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ausverkauft",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "004100750073007600650072006B00610075006600740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Tauschliste",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "005400610075007300630068006C00690073007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Eintauschen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00450069006E0074006100750073006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1676,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Gesamt:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1700,
+      "rawDecodedUtf16Hex": "0047006500730061006D0074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Einkaufsliste",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "00450069006E006B0061007500660073006C00690073007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Verkaufsliste",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1744,
+      "rawDecodedUtf16Hex": "005600650072006B0061007500660073006C00690073007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast <U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>Đ<U+0000>\ngekauft<U+0010><U+0001>븀\nund<U+0010><U+0001>븀\nin<U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche<U+0010><U+0001>븀\nverstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 21,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "00100002BD06000000440075002000680061007300740020001000020202000100200010000201100000000A00670065006B006100750066007400100001BE00000A0075006E006400100001BE00000A0069006E00100001BE00000A006400650069006E0065007200100001BE00000A00540061007300630068006500100001BE00000A00760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast <U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0001>ခ<U+0010><U+0002>Đ<U+0000>\ngekauft<U+0010><U+0001>븀\nund<U+0010><U+0001>븀\nin<U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche<U+0010><U+0001>븀\nverstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 23,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2016,
+      "rawDecodedUtf16Hex": "00100002BD06000000440075002000680061007300740020001000020202000100200010000110010010000201100000000A00670065006B006100750066007400100001BE00000A0075006E006400100001BE00000A0069006E00100001BE00000A006400650069006E0065007200100001BE00000A00540061007300630068006500100001BE00000A00760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Du hast deinen Einkauf in deiner Tasche verstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2180,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020006400650069006E0065006E002000450069006E006B00610075006600200069006E0020006400650069006E006500720020005400610073006300680065002000760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast <U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>Đ<U+0000>\nerhalten<U+0010><U+0001>븀\nund<U+0010><U+0001>븀\nin<U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche<U+0010><U+0001>븀\nverstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 21,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "00100002BD06000000440075002000680061007300740020001000020202000100200010000201100000000A0065007200680061006C00740065006E00100001BE00000A0075006E006400100001BE00000A0069006E00100001BE00000A006400650069006E0065007200100001BE00000A00540061007300630068006500100001BE00000A00760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast <U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0001>ခ<U+0010><U+0002>Đ<U+0000>\nerhalten<U+0010><U+0001>븀\nund<U+0010><U+0001>븀\nin<U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche<U+0010><U+0001>븀\nverstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 23,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2448,
+      "rawDecodedUtf16Hex": "00100002BD06000000440075002000680061007300740020001000020202000100200010000110010010000201100000000A0065007200680061006C00740065006E00100001BE00000A0075006E006400100001BE00000A0069006E00100001BE00000A006400650069006E0065007200100001BE00000A00540061007300630068006500100001BE00000A00760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Du hast alles in deiner Tasche verstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200061006C006C0065007300200069006E0020006400650069006E006500720020005400610073006300680065002000760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast die TM <U+0010><U+0002>ć<U+0000> erhalten\nund<U+0010><U+0001>븀\nin<U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche<U+0010><U+0001>븀\nverstaut.<U+0010><U+0001>븁",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "00100002BD0600000044007500200068006100730074002000640069006500200054004D0020001000020107000000200065007200680061006C00740065006E000A0075006E006400100001BE00000A0069006E00100001BE00000A006400650069006E0065007200100001BE00000A00540061007300630068006500100001BE00000A00760065007200730074006100750074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "00100002BDFF00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2972,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2996,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Fortsetzen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "0046006F00720074007300650074007A0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Beenden",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3064,
+      "rawDecodedUtf16Hex": "004200650065006E00640065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Kaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "004B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Verkaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3096,
+      "rawDecodedUtf16Hex": "005600650072006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Mehrere kaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "004D0065006800720065007200650020006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Mehrere verkaufen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3148,
+      "rawDecodedUtf16Hex": "004D0065006800720065007200650020007600650072006B0061007500660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Anzahl festlegen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3184,
+      "rawDecodedUtf16Hex": "0041006E007A00610068006C00200066006500730074006C006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Von der Liste entfernen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3220,
+      "rawDecodedUtf16Hex": "0056006F006E00200064006500720020004C006900730074006500200065006E0074006600650072006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Bestätigen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "004200650073007400E40074006900670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Sortieren",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "0053006F007200740069006500720065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Beenden",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3312,
+      "rawDecodedUtf16Hex": "004200650065006E00640065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3328,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Mehrere tauschen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3348,
+      "rawDecodedUtf16Hex": "004D00650068007200650072006500200074006100750073006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Stärke",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3396,
+      "rawDecodedUtf16Hex": "0053007400E40072006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3412,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3448,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "TM<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3460,
+      "rawDecodedUtf16Hex": "0054004D00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "---",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3488,
+      "rawDecodedUtf16Hex": "002D002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "---",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3496,
+      "rawDecodedUtf16Hex": "002D002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿P",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 3504,
+      "rawDecodedUtf16Hex": "00100002BDFF00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ausverkauft",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 3516,
+      "rawDecodedUtf16Hex": "004100750073007600650072006B00610075006600740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "--",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 3540,
+      "rawDecodedUtf16Hex": "002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Warenangebot",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 3548,
+      "rawDecodedUtf16Hex": "0057006100720065006E0061006E006700650062006F00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Tauschbörse für Bunte Schrauben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 3576,
+      "rawDecodedUtf16Hex": "005400610075007300630068006200F60072007300650020006600FC0072002000420075006E00740065002000530063006800720061007500620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 3652,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Lv. MAX",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "004C0076002E0020004D004100580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Stein-Boutique",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 3688,
+      "rawDecodedUtf16Hex": "0053007400650069006E002D0042006F0075007400690071007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Pokéball-Boutique",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 3720,
+      "rawDecodedUtf16Hex": "0050006F006B00E900620061006C006C002D0042006F0075007400690071007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Tauschbörse für Mega-Splitter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 3756,
+      "rawDecodedUtf16Hex": "005400610075007300630068006200F60072007300650020006600FC00720020004D006500670061002D00530070006C006900740074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Pokémon-Center",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 3816,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002D00430065006E0074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Du hast leider nicht genügend Geld dabei.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 3848,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020006C006500690064006500720020006E0069006300680074002000670065006E00FC00670065006E0064002000470065006C0064002000640061006200650069002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Tut mir leid, mehr davon passt leider nicht in\ndeine Tasche.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002C0020006D0065006800720020006400610076006F006E0020007000610073007300740020006C006500690064006500720020006E006900630068007400200069006E000A006400650069006E00650020005400610073006300680065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Dafür bekommst du <U+0010><U+0003>ȇ<U+0000>. <U+E300>.\nBist du damit einverstanden?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4068,
+      "rawDecodedUtf16Hex": "00440061006600FC0072002000620065006B006F006D006D0073007400200064007500200010000302070000002E0020E300002E000A0042006900730074002000640075002000640061006D00690074002000650069006E007600650072007300740061006E00640065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Dafür bekommst du <U+0010><U+0003>Ȇ<U+0000>. <U+E300>, aber das\nist mehr Geld, als du bei dir tragen kannst.<U+0010><U+0001>븁\nAlles, was nicht in deinen Geldbeutel passt,\ngeht verloren. Bist du damit einverstanden?",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 4180,
+      "rawDecodedUtf16Hex": "00440061006600FC0072002000620065006B006F006D006D0073007400200064007500200010000302060000002E0020E300002C002000610062006500720020006400610073000A0069007300740020006D006500680072002000470065006C0064002C00200061006C007300200064007500200062006500690020006400690072002000740072006100670065006E0020006B0061006E006E00730074002E00100001BE01000A0041006C006C00650073002C00200077006100730020006E006900630068007400200069006E0020006400650069006E0065006E002000470065006C006400620065007500740065006C002000700061007300730074002C000A00670065006800740020007600650072006C006F00720065006E002E00200042006900730074002000640075002000640061006D00690074002000650069006E007600650072007300740061006E00640065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 173
+    },
+    {
+      "displayText": "Du bekommst als Bonus noch\n<U+0010><U+0002>ȁ<U+0000> Premierb<U+0010><U+0003>ᄁ<U+0000>Ѓallälle dazu.<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 4528,
+      "rawDecodedUtf16Hex": "00440075002000620065006B006F006D006D0073007400200061006C007300200042006F006E007500730020006E006F00630068000A00100002020100000020005000720065006D0069006500720062001000031101000004030061006C006C00E4006C006C0065002000640061007A0075002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Möchtest du die Ware doch wieder zurücklegen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 4652,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200064006900650020005700610072006500200064006F0063006800200077006900650064006500720020007A0075007200FC0063006B006C006500670065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Möchtest du den Kauf abbrechen und\nstattdessen etwas verkaufen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 4744,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006E0020004B006100750066002000610062006200720065006300680065006E00200075006E0064000A0073007400610074007400640065007300730065006E0020006500740077006100730020007600650072006B0061007500660065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Möchtest du die Ware doch behalten?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 4872,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200064006900650020005700610072006500200064006F0063006800200062006500680061006C00740065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Möchtest du den Verkauf abbrechen und\nstattdessen etwas kaufen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 4944,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006E0020005600650072006B006100750066002000610062006200720065006300680065006E00200075006E0064000A0073007400610074007400640065007300730065006E0020006500740077006100730020006B0061007500660065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Tut mir leid, dafür reicht dein Geld nicht...<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 5072,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002C002000640061006600FC007200200072006500690063006800740020006400650069006E002000470065006C00640020006E0069006300680074002E002E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Tut mir leid, mehr davon passt leider nicht in\ndeine Tasche.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 5172,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002C0020006D0065006800720020006400610076006F006E0020007000610073007300740020006C006500690064006500720020006E006900630068007400200069006E000A006400650069006E00650020005400610073006300680065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Willkommen!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 5300,
+      "rawDecodedUtf16Hex": "00570069006C006C006B006F006D006D0065006E002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Möchtest du den Einkauf beenden?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 5332,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006E002000450069006E006B0061007500660020006200650065006E00640065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Vielen Dank für deinen Besuch!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 5404,
+      "rawDecodedUtf16Hex": "005600690065006C0065006E002000440061006E006B0020006600FC00720020006400650069006E0065006E0020004200650073007500630068002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Dieses Item ist leider ausverkauft.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 5472,
+      "rawDecodedUtf16Hex": "0044006900650073006500730020004900740065006D00200069007300740020006C006500690064006500720020006100750073007600650072006B0061007500660074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Möchtest du die Ware doch wieder zurücklegen?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5552,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200064006900650020005700610072006500200064006F0063006800200077006900650064006500720020007A0075007200FC0063006B006C006500670065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Dafür hast du leider nicht genügend Geld.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 5652,
+      "rawDecodedUtf16Hex": "00440061006600FC0072002000680061007300740020006400750020006C006500690064006500720020006E0069006300680074002000670065006E00FC00670065006E0064002000470065006C0064002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Mehr davon passt leider nicht in deine Tasche.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5744,
+      "rawDecodedUtf16Hex": "004D0065006800720020006400610076006F006E0020007000610073007300740020006C006500690064006500720020006E006900630068007400200069006E0020006400650069006E00650020005400610073006300680065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Willkommen! Sieh dich in aller Ruhe um.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5844,
+      "rawDecodedUtf16Hex": "00570069006C006C006B006F006D006D0065006E0021002000530069006500680020006400690063006800200069006E00200061006C006C006500720020005200750068006500200075006D002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Möchtest du den Einkauf beenden?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5932,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006E002000450069006E006B0061007500660020006200650065006E00640065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Vielen Dank für deinen Besuch!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 6004,
+      "rawDecodedUtf16Hex": "005600690065006C0065006E002000440061006E006B0020006600FC00720020006400650069006E0065006E0020004200650073007500630068002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Du bekommst als Bonus noch\n<U+0010><U+0002>ȁ<U+0000> Premierb<U+0010><U+0003>ᄁ<U+0000>Ѓallälle dazu.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 6072,
+      "rawDecodedUtf16Hex": "00440075002000620065006B006F006D006D0073007400200061006C007300200042006F006E007500730020006E006F00630068000A00100002020100000020005000720065006D0069006500720062001000031101000004030061006C006C00E4006C006C0065002000640061007A0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Möchtest du die Ware doch wieder zurücklegen?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 6192,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200064006900650020005700610072006500200064006F0063006800200077006900650064006500720020007A0075007200FC0063006B006C006500670065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Tut mir leid, dafür hast du nicht genügend\nMega-Splitter.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 6292,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002C002000640061006600FC0072002000680061007300740020006400750020006E0069006300680074002000670065006E00FC00670065006E0064000A004D006500670061002D00530070006C00690074007400650072002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Tut mir leid, mehr davon passt leider nicht in\ndeine Tasche.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 6416,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002C0020006D0065006800720020006400610076006F006E0020007000610073007300740020006C006500690064006500720020006E006900630068007400200069006E000A006400650069006E00650020005400610073006300680065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Dieses Item ist leider ausverkauft.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 6544,
+      "rawDecodedUtf16Hex": "0044006900650073006500730020004900740065006D00200069007300740020006C006500690064006500720020006100750073007600650072006B0061007500660074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Möchtest du die Ware doch wieder zurücklegen?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 6624,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200064006900650020005700610072006500200064006F0063006800200077006900650064006500720020007A0075007200FC0063006B006C006500670065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Dafür hast du nicht genug Bunte Schrauben.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 6724,
+      "rawDecodedUtf16Hex": "00440061006600FC0072002000680061007300740020006400750020006E0069006300680074002000670065006E00750067002000420075006E00740065002000530063006800720061007500620065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Für mehr hast du in deiner Tasche gar keinen\nPlatz mehr.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 6816,
+      "rawDecodedUtf16Hex": "004600FC00720020006D0065006800720020006800610073007400200064007500200069006E0020006400650069006E00650072002000540061007300630068006500200067006100720020006B00650069006E0065006E000A0050006C00610074007A0020006D006500680072002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Das besitzt du bereits, schon vergessen?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 6936,
+      "rawDecodedUtf16Hex": "004400610073002000620065007300690074007A007400200064007500200062006500720065006900740073002C0020007300630068006F006E002000760065007200670065007300730065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Möchtest du die Anhänger doch wieder\nzurücklegen?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 7024,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640069006500200041006E006800E4006E00670065007200200064006F006300680020007700690065006400650072000A007A0075007200FC0063006B006C006500670065006E003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 7132,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7144,
+  "sectionOffset": 16,
+  "textCount": 124,
+  "textSectionCount": 1
+}

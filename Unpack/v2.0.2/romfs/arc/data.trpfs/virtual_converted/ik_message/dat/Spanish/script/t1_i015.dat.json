@@ -1,0 +1,43 @@
+{
+  "declaredLength": 416,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Las tazas del mostrador tienen aspecto de haber\nsido usadas recientemente.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004C00610073002000740061007A00610073002000640065006C0020006D006F00730074007200610064006F00720020007400690065006E0065006E0020006100730070006500630074006F002000640065002000680061006200650072000A007300690064006F0020007500730061006400610073002000720065006300690065006E00740065006D0065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Esto está lleno de cajas... ¿Será que están\nreformando el local?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "004500730074006F002000650073007400E10020006C006C0065006E006F002000640065002000630061006A00610073002E002E002E002000BF00530065007200E10020007100750065002000650073007400E1006E000A007200650066006F0072006D0061006E0064006F00200065006C0020006C006F00630061006C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "La repisa está cubierta por una fina capa de polvo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "004C00610020007200650070006900730061002000650073007400E100200063007500620069006500720074006100200070006F007200200075006E0061002000660069006E00610020006300610070006100200064006500200070006F006C0076006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 416,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

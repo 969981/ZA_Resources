@@ -1,0 +1,63 @@
+{
+  "declaredLength": 276,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "백업 데이터를 불러왔습니다.\n리포트를 작성하면\n이 데이터가 기록되므로\n주의해 주십시오.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "BC31C5C50020B370C774D130B97C0020BD88B7ECC654C2B5B2C8B2E4002E000AB9ACD3ECD2B8B97C0020C791C131D558BA74000AC7740020B370C774D130AC000020AE30B85DB418BBC0B85C000AC8FCC758D5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "백업 데이터가 없으므로\n불러오지 못했습니다.\n타이틀 화면으로 돌아갑니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "BC31C5C50020B370C774D130AC000020C5C6C73CBBC0B85C000ABD88B7ECC624C9C00020BABBD588C2B5B2C8B2E4002E000AD0C0C774D2C00020D654BA74C73CB85C0020B3CCC544AC11B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "리포트 작성 중...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "B9ACD3ECD2B80020C791C1310020C911002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 276,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

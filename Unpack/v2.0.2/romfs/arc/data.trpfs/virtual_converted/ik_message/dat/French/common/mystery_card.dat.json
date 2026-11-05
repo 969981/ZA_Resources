@@ -1,0 +1,653 @@
+{
+  "declaredLength": 2116,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "00100002010900080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lot d’objets",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "004C006F0074002000642019006F0062006A0065007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Objet",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "004F0062006A006500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0008> et autres",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "001000020109000800200065007400200061007500740072006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> (<U+0010><U+0002>Ą<U+0001>)",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "001000020101000000200028001000020104000100290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> (Pokémon légendaire)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "0010000201010000002000280050006F006B00E9006D006F006E0020006C00E900670065006E0064006100690072006500290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> (Pokémon fabuleux)",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "0010000201010000002000280050006F006B00E9006D006F006E00200066006100620075006C00650075007800290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> <U+0010><U+0003>ᐈ<U+0003><U+0001><U+0010><U+0002>Ā<U+0003>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "001000020101000000200010000314080003000100100002010000030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> chromatique",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "00100002010100000020006300680072006F006D0061007400690071007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> (<U+0010><U+0002>ǔ<U+0002>)",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 856,
+      "rawDecodedUtf16Hex": "0010000201010000002000280010000201D4000200290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǔ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "0010000201D400020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> avec <U+0010><U+0002>ć<U+0004>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 904,
+      "rawDecodedUtf16Hex": "001000020101000000200061007600650063002000100002010700040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> avec <U+0010><U+0002>ć<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "001000020101000000200061007600650063002000100002010700050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> avec <U+0010><U+0002>ć<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "001000020101000000200061007600650063002000100002010700060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> avec <U+0010><U+0002>ć<U+0007>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "001000020101000000200061007600650063002000100002010700070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> avec <U+0010><U+0003>ᐂ\t<U+0000><U+0010><U+0002>ĉ\t",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "00100002010100000020006100760065006300200010000314020009000000100002010900090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> le Géant",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "00100002010100000020006C00650020004700E90061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000> le Minuscule",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1124,
+      "rawDecodedUtf16Hex": "00100002010100000020006C00650020004D0069006E0075007300630075006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Cadeau bonus — version téléchargeable",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200062006F006E0075007300202014002000760065007200730069006F006E0020007400E9006C00E900630068006100720067006500610062006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cadeau bonus — achat en magasin",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200062006F006E007500730020201400200061006300680061007400200065006E0020006D00610067006100730069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Cadeau bonus — achat du guide de stratégie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200062006F006E007500730020201400200061006300680061007400200064007500200067007500690064006500200064006500200073007400720061007400E90067006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Cadeau bonus — achat du jeu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200062006F006E00750073002020140020006100630068006100740020006400750020006A006500750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Cadeau d’anniversaire",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "0043006100640065006100750020006420190061006E006E0069007600650072007300610069007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cadeau du Club des Dresseurs Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1512,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200064007500200043006C007500620020006400650073002000440072006500730073006500750072007300200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "00100002BDFF00230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cadeau de Pokémon HOME",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "00430061006400650061007500200064006500200050006F006B00E9006D006F006E00200048004F004D00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Argent de poche",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "0041007200670065006E007400200064006500200070006F0063006800650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+000C>  <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "001000030206000C00200020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Vêtements",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1708,
+      "rawDecodedUtf16Hex": "005600EA00740065006D0065006E007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿(",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "00100002BDFF00280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿)",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "00100002BDFF00290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1752,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1788,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1812,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1824,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "00100002BDFF00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 1872,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 1896,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿7",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00100002BDFF00370000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿8",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "00100002BDFF00380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿9",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "00100002BDFF00390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿:",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "00100002BDFF003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿;",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "00100002BDFF003B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "« <U+0010><U+0002>į<U+000E> »",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "00AB002000100002012F000E002000BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Faille extradimensionnelle particulière détectée !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "004600610069006C006C006500200065007800740072006100640069006D0065006E00730069006F006E006E0065006C006C006500200070006100720074006900630075006C006900E8007200650020006400E9007400650063007400E90065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2116,
+  "sectionOffset": 16,
+  "textCount": 64,
+  "textSectionCount": 1
+}

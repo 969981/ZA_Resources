@@ -1,0 +1,63 @@
+{
+  "declaredLength": 196,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "已读取备份数据。\n在写入记录时，\n将覆盖在该数据上，敬请注意。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "5DF28BFB53D659074EFD6570636E3002000A5728519951658BB05F5565F6FF0C000A5C06898676D657288BE56570636E4E0AFF0C656C8BF76CE8610F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "没有备份数据，\n无法读取。\n将返回标题界面。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "6CA1670959074EFD6570636EFF0C000A65E06CD58BFB53D63002000A5C068FD456DE68079898754C976230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "正在记录……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "6B6357288BB05F55202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 196,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

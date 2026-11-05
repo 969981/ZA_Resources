@@ -1,0 +1,123 @@
+{
+  "declaredLength": 348,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Bolsa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "0042006F006C007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Peinado",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "005000650069006E00610064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Atuendo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "0041007400750065006E0064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Vista previa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "0056006900730074006100200070007200650076006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Aspecto",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "004100730070006500630074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000> | Compra",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0010000201D200000020007C00200043006F006D0070007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000> | Venta",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0010000201D200000020007C002000560065006E007400610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Datos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "004400610074006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Opciones",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "004F007000630069006F006E006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Sushi Tres Delicias",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0053007500730068006900200054007200650073002000440065006C006900630069006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Sushi Tres Delicias",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "0053007500730068006900200054007200650073002000440065006C006900630069006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 348,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

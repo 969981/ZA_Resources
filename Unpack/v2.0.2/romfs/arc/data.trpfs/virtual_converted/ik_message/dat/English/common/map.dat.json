@@ -1,0 +1,683 @@
+{
+  "declaredLength": 2784,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00100002010500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Close",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "0043006C006F007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Turn On Guidance",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "005400750072006E0020004F006E002000470075006900640061006E006300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Turn Off Guidance",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "005400750072006E0020004F00660066002000470075006900640061006E006300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Travel Here",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "00540072006100760065006C002000480065007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Place Pin",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "0050006C006100630065002000500069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Current Location",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "00430075007200720065006E00740020004C006F0063006100740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Filter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "00460069006C0074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Cancel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Remove Pin",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "00520065006D006F00760065002000500069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Show Distortions Only",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "00530068006F007700200044006900730074006F007200740069006F006E00730020004F006E006C00790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Destinations & Missions",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "00440065007300740069006E006100740069006F006E0073002000260020004D0069007300730069006F006E00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Mission Details",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "004D0069007300730069006F006E002000440065007400610069006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Outline",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "004F00750074006C0069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Requester",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "0052006500710075006500730074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Dummy Name",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020004E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Your Goal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "0059006F0075007200200047006F0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>,/<U+0010><U+0003>Ȅ<U+0001>,",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "0010000302040000002C002F0010000302040001002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Dummy description",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020006400650073006300720069007000740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Rewards",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1064,
+      "rawDecodedUtf16Hex": "00520065007700610072006400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Dummy reward",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "00440075006D006D007900200072006500770061007200640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "E3000010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Rogue Mega-Evolved Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "0052006F0067007500650020004D006500670061002D00450076006F006C00760065006400200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Goal dummy text - 3 liner\nGoal dummy text - 3 liner\nGoal dummy text - 3 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Goal dummy text - 2 liner\nGoal dummy text - 2 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000320020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000320020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Goal dummy text - 1 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000310020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1528,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1564,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mission List",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1576,
+      "rawDecodedUtf16Hex": "004D0069007300730069006F006E0020004C0069007300740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "EX<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "0045005800100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Main",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "004D00610069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Side",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "00530069006400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hyperspace",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "00480079007000650072007300700061006300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "No applicable missions were found.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "004E006F0020006100700070006C0069006300610062006C00650020006D0069007300730069006F006E00730020007700650072006500200066006F0075006E0064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Pending First",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "00500065006E00640069006E00670020004600690072007300740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Numerical Order",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1788,
+      "rawDecodedUtf16Hex": "004E0075006D00650072006900630061006C0020004F00720064006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Facility explanation dummy\nLine 2\nLine 3",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "0046006100630069006C0069007400790020006500780070006C0061006E006100740069006F006E002000640075006D006D0079000A004C0069006E006500200032000A004C0069006E0065002000330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Wild Zone",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "00570069006C00640020005A006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Battle Zone",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1948,
+      "rawDecodedUtf16Hex": "0042006100740074006C00650020005A006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>%",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "001000020202000000250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "No travel spots found",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "004E006F002000740072006100760065006C002000730070006F0074007300200066006F0075006E00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Travel Spots",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "00540072006100760065006C002000530070006F007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "All travel spots",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 53,
+      "offsetInSection": 2068,
+      "rawDecodedUtf16Hex": "0041006C006C002000740072006100760065006C002000730070006F007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Facilities",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "0046006100630069006C006900740069006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Pokémon Centers",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2128,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002000430065006E00740065007200730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Cafés",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "00430061006600E900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Zones",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "005A006F006E006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Habitat under investigation...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2184,
+      "rawDecodedUtf16Hex": "004800610062006900740061007400200075006E00640065007200200069006E007600650073007400690067006100740069006F006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Yes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "0059006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2256,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Do you want to travel here?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000770061006E007400200074006F002000740072006100760065006C00200068006500720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "You can’t travel elsewhere now!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2320,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E20190074002000740072006100760065006C00200065006C00730065007700680065007200650020006E006F007700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "You’ve been spotted by a Pokémon!\nYou can’t travel elsewhere now!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "0059006F00752019007600650020006200650065006E002000730070006F00740074006500640020006200790020006100200050006F006B00E9006D006F006E0021000A0059006F0075002000630061006E20190074002000740072006100760065006C00200065006C00730065007700680065007200650020006E006F007700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "You’re in the middle of a battle!\nYou can’t travel elsewhere now!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "0059006F007520190072006500200069006E00200074006800650020006D006900640064006C00650020006F00660020006100200062006100740074006C00650021000A0059006F0075002000630061006E20190074002000740072006100760065006C00200065006C00730065007700680065007200650020006E006F007700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "You can’t travel outside from here!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2648,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E20190074002000740072006100760065006C0020006F007500740073006900640065002000660072006F006D0020006800650072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "You can’t travel elsewhere now.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E20190074002000740072006100760065006C00200065006C00730065007700680065007200650020006E006F0077002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2784,
+  "sectionOffset": 16,
+  "textCount": 67,
+  "textSectionCount": 1
+}

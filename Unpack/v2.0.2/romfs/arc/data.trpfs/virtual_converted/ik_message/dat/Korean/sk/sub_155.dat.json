@@ -1,0 +1,733 @@
+{
+  "declaredLength": 4268,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "안녕! 괜찮다면\n내 사소한 부탁을 들어주지 않을래?<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 580,
+      "rawDecodedUtf16Hex": "C548B15500210020AD1CCC2EB2E4BA74000AB0B40020C0ACC18CD55C0020BD80D0C1C7440020B4E4C5B4C8FCC9C00020C54AC744B798003F00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "집을 보고 있는 드니꽁이\n잘 있는지 확인하고 싶어서 말이야...<U+0010><U+0001>븁\n그러려면 이 키오스크를 비워야 하는데\n무인으로 방치해 둘 수도 없고...<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "C9D1C7440020BCF4ACE00020C788B2940020B4DCB2C8AF41C774000AC7980020C788B294C9C00020D655C778D558ACE00020C2F6C5B4C11C0020B9D0C774C57C002E002E002E00100001BE01000AADF8B7ECB824BA740020C7740020D0A4C624C2A4D06CB97C0020BE44C6CCC57C0020D558B294B370000ABB34C778C73CB85C0020BC29CE58D5740020B4580020C218B3C40020C5C6ACE0002E002E002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "그래서 말인데,\n잠깐 나 대신 가게를 맡아 주지 않을래?<U+0010><U+0001>븁\n잘 맡아 주면\n보너스도 줄 테니까 부탁할게!<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "ADF8B798C11C0020B9D0C778B370002C000AC7A0AE500020B0980020B300C2E00020AC00AC8CB97C0020B9E1C5440020C8FCC9C00020C54AC744B798003F00100001BE01000AC7980020B9E1C5440020C8FCBA74000ABCF4B108C2A4B3C40020C9040020D14CB2C8AE4C0020BD80D0C1D560AC8C002100100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "준비가 되면\n내게 말을 걸어 줘.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "C900BE44AC000020B418BA74000AB0B4AC8C0020B9D0C7440020AC78C5B40020C918002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "나 대신 가게를 맡아 주지 않을래?<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "B0980020B300C2E00020AC00AC8CB97C0020B9E1C5440020C8FCC9C00020C54AC744B798003F00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "좋아요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "C88BC544C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "지금은 좀...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1064,
+      "rawDecodedUtf16Hex": "C9C0AE08C7400020C880002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "아아! 집이 너무 신경 쓰여!<U+0010><U+0001>븁\n드니꽁 혼자 집을 보다가\n온 집안을 꽁꽁 얼려 놓으면 어쩌지!?<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "C544C54400210020C9D1C7740020B108BB340020C2E0ACBD0020C4F0C5EC002100100001BE01000AB4DCB2C8AF410020D63CC7900020C9D1C7440020BCF4B2E4AC00000AC6280020C9D1C548C7440020AF41AF410020C5BCB8240020B193C73CBA740020C5B4CA4CC9C00021003F00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "상품의 가격을 잘 기억해 둬.<U+0010><U+0001>븁\n맛있는물 200원.\n미네랄사이다 300원.<U+0010><U+0001>븁\n후르츠밀크 400원.\n튼튼밀크 600원.<U+0010><U+0001>븀\n금방 돌아올 테니까 부탁할게!<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "C0C1D488C7580020AC00ACA9C7440020C7980020AE30C5B5D5740020B46C002E00100001BE01000AB9DBC788B294BB3C0020003200300030C6D0002E000ABBF8B124B784C0ACC774B2E40020003300300030C6D0002E00100001BE01000AD6C4B974CE20BC00D06C0020003400300030C6D0002E000AD2BCD2BCBC00D06C0020003600300030C6D0002E00100001BE00000AAE08BC290020B3CCC544C62C0020D14CB2C8AE4C0020BD80D0C1D560AC8C002100100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "맛있는물 세 개랑\n튼튼밀크 하나 주세요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3C0020C1380020AC1CB791000AD2BCD2BCBC00D06C0020D558B0980020C8FCC138C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "800원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "003800300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "1000원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "0031003000300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1200원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "0031003200300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1400원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "0031003400300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "수고하세요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "C218ACE0D558C138C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "와우!\n세일이라도 하는 건가?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "C640C6B00021000AC138C77CC774B77CB3C40020D558B2940020AC74AC00003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "어라?\n언제 가격이 오른 거지...?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "C5B4B77C003F000AC5B8C81C0020AC00ACA9C7740020C624B9780020AC70C9C0002E002E002E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "고민되네...\n그냥 맛있는물이나 마실까?<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "ACE0BBFCB418B124002E002E002E000AADF8B0E50020B9DBC788B294BB3CC774B0980020B9C8C2E4AE4C003F00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "나는 튼튼밀크...\n아니, 후르츠밀크로 할래!<U+0010><U+0002>Ĕ#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "B098B2940020D2BCD2BCBC00D06C002E002E002E000AC544B2C8002C0020D6C4B974CE20BC00D06CB85C0020D560B798002100100002011400230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "그럼 나는 미네랄사이다로 해야지.\n다 하면 얼마예요?<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020B098B2940020BBF8B124B784C0ACC774B2E4B85C0020D574C57CC9C0002E000AB2E40020D558BA740020C5BCB9C8C608C694003F00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "700원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "003700300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "900원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1812,
+      "rawDecodedUtf16Hex": "003900300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "1100원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "0031003100300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1300원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "0031003300300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "새로운 점원분도 계산은 정확하시네요!\n안녕히 계세요!<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "C0C8B85CC6B40020C810C6D0BD84B3C40020ACC4C0B0C7400020C815D655D558C2DCB124C6940021000AC548B155D7880020ACC4C138C694002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "세상에 세상에 세상에...! 진심이야?\n새 점원분, 계산도 제대로 못하나 봐!<U+0010><U+0002>Ĕ#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "C138C0C1C5D00020C138C0C1C5D00020C138C0C1C5D0002E002E002E00210020C9C4C2ECC774C57C003F000AC0C80020C810C6D0BD84002C0020ACC4C0B0B3C40020C81CB300B85C0020BABBD558B0980020BD10002100100002011400230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "계산이 서투른가 봐...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "ACC4C0B0C7740020C11CD22CB978AC000020BD10002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "새 점원분\n괜찮은 거 맞아?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2060,
+      "rawDecodedUtf16Hex": "C0C80020C810C6D0BD84000AAD1CCC2EC7400020AC700020B9DEC544003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "음~ 그러니까~\n...톡 쏘는 느낌이 나는 그거랑<U+0010><U+0001>븁\n밀크...인데\n후르츠가 막 섞인 그거랑<U+0010><U+0001>븁\n아무것도 안 섞인\n그냥 밀크도 주세요.<U+0010><U+0001>븁\n아, 톡 쏘는 느낌이 나는 건 세 개고\n나머지는 하나씩만 주시면 돼요.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "C74C007E0020ADF8B7ECB2C8AE4C007E000A002E002E002ED1A10020C3D8B2940020B290B08CC7740020B098B2940020ADF8AC70B79100100001BE01000ABC00D06C002E002E002EC778B370000AD6C4B974CE20AC000020B9C90020C11EC7780020ADF8AC70B79100100001BE01000AC544BB34AC83B3C40020C5480020C11EC778000AADF8B0E50020BC00D06CB3C40020C8FCC138C694002E00100001BE01000AC544002C0020D1A10020C3D8B2940020B290B08CC7740020B098B2940020AC740020C1380020AC1CACE0000AB098BA38C9C0B2940020D558B098C529B9CC0020C8FCC2DCBA740020B3FCC694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 121
+    },
+    {
+      "displayText": "1500원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2336,
+      "rawDecodedUtf16Hex": "0031003500300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1600원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "0031003600300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1800원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "0031003800300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "1900원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "0031003900300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "아~ 1900원! 맞는 것 같네요.\n그럼, 안녕히 계세요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "C544007E00200031003900300030C6D000210020B9DEB2940020AC830020AC19B124C694002E000AADF8B7FC002C0020C548B155D7880020ACC4C138C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "어라~? 그런가요?\n평소랑 다른 것 같지만 뭐... 안녕히 계세요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "C5B4B77C007E003F0020ADF8B7F0AC00C694003F000AD3C9C18CB7910020B2E4B9780020AC830020AC19C9C0B9CC0020BB50002E002E002E0020C548B155D7880020ACC4C138C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "꿀!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2560,
+      "rawDecodedUtf16Hex": "AFC000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "피그킹이 1000원을 내밀었다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2568,
+      "rawDecodedUtf16Hex": "D53CADF8D0B9C77400200031003000300030C6D0C7440020B0B4BC00C5C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "꿀! 꿀!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "AFC000210020AFC000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "피그킹이 두 번 울었다.<U+0010><U+0001>븁\n2개에 1000원이 되는\n조합으로 달라는 것 같다.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "D53CADF8D0B9C7740020B4500020BC880020C6B8C5C8B2E4002E00100001BE01000A0032AC1CC5D000200031003000300030C6D0C7740020B418B294000AC870D569C73CB85C0020B2ECB77CB2940020AC830020AC19B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "맛있는물과 미네랄사이다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3CACFC0020BBF8B124B784C0ACC774B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "미네랄사이다와 후르츠밀크",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2736,
+      "rawDecodedUtf16Hex": "BBF8B124B784C0ACC774B2E4C6400020D6C4B974CE20BC00D06C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "후르츠밀크와 튼튼밀크",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "D6C4B974CE20BC00D06CC6400020D2BCD2BCBC00D06C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "맛있는물과 후르츠밀크",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3CACFC0020D6C4B974CE20BC00D06C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "맛있는물과 튼튼밀크",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2812,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3CACFC0020D2BCD2BCBC00D06C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "꿀~♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "AFC0007E266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "피그킹은 기쁜 모양이다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2844,
+      "rawDecodedUtf16Hex": "D53CADF8D0B9C7400020AE30C05C0020BAA8C591C774B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "꾸우우우울!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2872,
+      "rawDecodedUtf16Hex": "AFB8C6B0C6B0C6B0C6B8002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "피그킹이\n사이코키네시스를 사용했다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "D53CADF8D0B9C774000AC0ACC774CF54D0A4B124C2DCC2A4B97C0020C0ACC6A9D588B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "갑자기 파티를 하게 돼서\n음료수가 엄청 많이 필요하거든?<U+0010><U+0001>븁\n맛있는물 65개, 미네랄사이다 23개,\n후르츠밀크 28개, 튼튼밀크 31개.<U+0010><U+0001>븁\n이렇게 부탁할게!\n서둘러야 하니까 빨리 준비해 줘!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "AC11C790AE300020D30CD2F0B97C0020D558AC8C0020B3FCC11C000AC74CB8CCC218AC000020C5C4CCAD0020B9CEC7740020D544C694D558AC70B4E0003F00100001BE01000AB9DBC788B294BB3C002000360035AC1C002C0020BBF8B124B784C0ACC774B2E4002000320033AC1C002C000AD6C4B974CE20BC00D06C002000320038AC1C002C0020D2BCD2BCBC00D06C002000330031AC1C002E00100001BE01000AC774B807AC8C0020BD80D0C1D560AC8C0021000AC11CB458B7ECC57C0020D558B2C8AE4C0020BE68B9AC0020C900BE44D5740020C91800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "45700원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3148,
+      "rawDecodedUtf16Hex": "00340035003700300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "46900원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3168,
+      "rawDecodedUtf16Hex": "00340036003900300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "47900원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "00340037003900300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "48700원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3208,
+      "rawDecodedUtf16Hex": "00340038003700300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "49700원입니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "00340039003700300030C6D0C785B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "너, 완전 계산 천재구나!\n다음에 또 올 테니까 잘 부탁해!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3248,
+      "rawDecodedUtf16Hex": "B108002C0020C644C8040020ACC4C0B00020CC9CC7ACAD6CB0980021000AB2E4C74CC5D00020B6100020C62C0020D14CB2C8AE4C0020C7980020BD80D0C1D57400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "이거 좀 실망인걸?\n다음에 또 올 테니까 그때는 잘 부탁해.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3316,
+      "rawDecodedUtf16Hex": "C774AC700020C8800020C2E4B9DDC778AC78003F000AB2E4C74CC5D00020B6100020C62C0020D14CB2C8AE4C0020ADF8B54CB2940020C7980020BD80D0C1D574002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "수고했어!\n맡아 줘서 고마워.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "C218ACE0D588C5B40021000AB9E1C5440020C918C11C0020ACE0B9C8C6CC002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "그럼, 재고와 매상을 확인해 볼까?<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3428,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020C7ACACE0C6400020B9E4C0C1C7440020D655C778D5740020BCFCAE4C003F00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "이런... 점원에는 소질이 없나 보네.\n랭크로 따지면 Z랭크야.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "C774B7F0002E002E002E0020C810C6D0C5D0B2940020C18CC9C8C7740020C5C6B0980020BCF4B124002E000AB7ADD06CB85C0020B530C9C0BA740020005AB7ADD06CC57C002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "으음...\n역시 갑자기 점원을 맡는 건 어렵나 보네.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "C73CC74C002E002E002E000AC5EDC2DC0020AC11C790AE300020C810C6D0C7440020B9E1B2940020AC740020C5B4B835B0980020BCF4B124002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "점원을 계속하기에는 조금 어렵겠어.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3624,
+      "rawDecodedUtf16Hex": "C810C6D0C7440020ACC4C18DD558AE30C5D0B2940020C870AE080020C5B4B835ACA0C5B4002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "뭐, 점원으로는 보통 수준인 것 같네.\n보통이기도 쉽지 않지만.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "BB50002C0020C810C6D0C73CB85CB2940020BCF4D1B50020C218C900C7780020AC830020AC19B124002E000ABCF4D1B5C774AE30B3C40020C27DC9C00020C54AC9C0B9CC002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "제법 우수한 점원이었던 것 같네.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3752,
+      "rawDecodedUtf16Hex": "C81CBC950020C6B0C218D55C0020C810C6D0C774C5C8B3580020AC830020AC19B124002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "세상에나!\n나의 점원 라이벌이 탄생한 것 같은데!<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "C138C0C1C5D0B0980021000AB098C7580020C810C6D00020B77CC774BC8CC7740020D0C4C0DDD55C0020AC830020AC19C740B370002100100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n보너스로 <U+0010><U+0003>Ȅ<U+0002><U+0000>원을 받았다!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3864,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000ABCF4B108C2A4B85C002000100003020400020000C6D0C7440020BC1BC558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "아니나 다를까, 혼자 있던 드니꽁이\n집을 냉동고로 만들어 놨지 뭐야.<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3920,
+      "rawDecodedUtf16Hex": "C544B2C8B0980020B2E4B97CAE4C002C0020D63CC7900020C788B3580020B4DCB2C8AF41C774000AC9D1C7440020B0C9B3D9ACE0B85C0020B9CCB4E4C5B40020B1A8C9C00020BB50C57C002E00100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "아무튼 도와줘서 고마워!\n다음엔 손님으로 들러 줘!<U+0010><U+0002>Ĕǂ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 4008,
+      "rawDecodedUtf16Hex": "C544BB34D2BC0020B3C4C640C918C11C0020ACE0B9C8C6CC0021000AB2E4C74CC5D40020C190B2D8C73CB85C0020B4E4B7EC0020C918002100100002011401C20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "손님이 없는 동안\n상품의 가격을 확인해 두겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 4076,
+      "rawDecodedUtf16Hex": "C190B2D8C7740020C5C6B2940020B3D9C548000AC0C1D488C7580020AC00ACA9C7440020D655C778D5740020B450ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "확인한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 4136,
+      "rawDecodedUtf16Hex": "D655C778D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "확인하지 않는다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 4148,
+      "rawDecodedUtf16Hex": "D655C778D558C9C00020C54AB294B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "맛있는물 200원.\n미네랄사이다 300원.<U+0010><U+0001>븁\n후르츠밀크 400원.\n튼튼밀크 600원.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 4168,
+      "rawDecodedUtf16Hex": "B9DBC788B294BB3C0020003200300030C6D0002E000ABBF8B124B784C0ACC774B2E40020003300300030C6D0002E00100001BE01000AD6C4B974CE20BC00D06C0020003400300030C6D0002E000AD2BCD2BCBC00D06C0020003600300030C6D0002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4268,
+  "sectionOffset": 16,
+  "textCount": 72,
+  "textSectionCount": 1
+}

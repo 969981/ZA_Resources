@@ -1,0 +1,43 @@
+{
+  "declaredLength": 480,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Sul bancone ci sono delle tazze. Sembra che siano\nstate usate di recente.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "00530075006C002000620061006E0063006F006E006500200063006900200073006F006E006F002000640065006C006C0065002000740061007A007A0065002E002000530065006D00620072006100200063006800650020007300690061006E006F000A0073007400610074006500200075007300610074006500200064006900200072006500630065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "C’è una scatola per terra. Sembra che non\nabbiano ancora finito di mettere tutto a posto.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "0043201900E800200075006E006100200073006300610074006F006C00610020007000650072002000740065007200720061002E002000530065006D00620072006100200063006800650020006E006F006E000A00610062006200690061006E006F00200061006E0063006F00720061002000660069006E00690074006F0020006400690020006D00650074007400650072006500200074007500740074006F0020006100200070006F00730074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Gli scaffali sono ricoperti da un sottile strato\ndi polvere.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "0047006C00690020007300630061006600660061006C006900200073006F006E006F0020007200690063006F0070006500720074006900200064006100200075006E00200073006F007400740069006C0065002000730074007200610074006F000A0064006900200070006F006C0076006500720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 480,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

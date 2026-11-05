@@ -1,0 +1,1423 @@
+{
+  "declaredLength": 14112,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "您好，密阿雷計程車很高興為您服務。\n不論地點一律<U+E300>710！要不要搭車？",
+      "escapedControlUnits": 1,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "60A8597DFF0C5BC6963F96F78A087A0B8ECA5F889AD8820870BA60A8670D52D93002000A4E0D8AD657309EDE4E005F8BE300003700310030FF0189814E0D8981642D8ECAFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "唉呀！要是現金不夠，\n我是不會讓您上計程車的。<U+0010><U+0001>븁\n因為以前太常發生現金不夠\n就用對戰來解決的麻煩事了。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "55095440FF018981662F73FE91D14E0D5920FF0C000A6211662F4E0D67038B9360A84E0A8A087A0B8ECA7684300200100001BE01000A56E070BA4EE5524D592A5E38767C751F73FE91D14E0D5920000A5C3175285C0D62304F8689E36C7A76849EBB71694E8B4E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "您好，密阿雷計程車很高興為您服務。\n不論地點一律<U+E300>710！要搭車嗎？",
+      "escapedControlUnits": 1,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "60A8597DFF0C5BC6963F96F78A087A0B8ECA5F889AD8820870BA60A8670D52D93002000A4E0D8AD657309EDE4E005F8BE300003700310030FF018981642D8ECA55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "對不起！如果您的現金不夠，\n是無法搭乘計程車的。<U+0010><U+0001>븁\n要是現金不夠，\n以前都會起糾紛，打起寶可夢對戰呢。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1384,
+      "rawDecodedUtf16Hex": "5C0D4E0D8D77FF015982679C60A8768473FE91D14E0D5920FF0C000A662F71216CD5642D4E588A087A0B8ECA7684300200100001BE01000A8981662F73FE91D14E0D5920FF0C000A4EE5524D90FD67038D777CFE7D1BFF0C62538D775BF653EF59225C0D6230546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "您好，密阿雷計程車很高興為您服務。\n不論地點一律<U+E300>710！要搭車嗎？<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "60A8597DFF0C5BC6963F96F78A087A0B8ECA5F889AD8820870BA60A8670D52D93002000A4E0D8AD657309EDE4E005F8BE300003700310030FF018981642D8ECA55CEFF1F001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "啊……\n非常抱歉。<U+0010><U+0001>븁\n為了避免與客人起爭執，\n我不能讓現金不夠的客人上車。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "554A20262026000A975E5E3862B16B49300200100001BE01000A70BA4E86907F514D82075BA24EBA8D77722D57F7FF0C000A62114E0D80FD8B9373FE91D14E0D592076845BA24EBA4E0A8ECA3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "搭車",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "642D8ECA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "還是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "9084662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "主要地點",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "4E3B898157309EDE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "5EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "寶可夢中心",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1700,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "5496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "餐廳",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "99105EF30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "其他地方",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "51764ED6573065B90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "要載您去哪裡呢？<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "89818F0960A853BB54EA88E15462FF1F001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "您要去哪裡呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "60A8898153BB54EA88E15462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "請問要去哪裡呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "8ACB554F898153BB54EA88E15462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "密阿雷南站",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "5BC6963F96F753577AD90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "寶可夢研究所",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "5BF653EF592278147A7662400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "闊星公司",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "95CA661F516C53F80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "密阿雷美術館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "5BC6963F96F77F8E885399280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "秀麗世",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "79C09E974E160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "旅館Z",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "65C59928005A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "中央廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "4E2D592E5EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "綠色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1896,
+      "rawDecodedUtf16Hex": "7DA082725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "藍色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "85CD82725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "黃色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "9EC382725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "粉色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "7C8982725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "紅色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "7D0582725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "寶可夢中心：翡綠",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A7FE17DA00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "寶可夢中心：浦藍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A6D6685CD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "寶可夢中心：瓊黃",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A74CA9EC30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "寶可夢中心：蓉粉",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A84C97C890000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "寶可夢中心：榴紅",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A69B47D050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "寶可夢中心：春日大道",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A662565E5592790530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "寶可夢中心：冬日大道",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A51AC65E5592790530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "寶可夢中心：粉色廣場",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A7C8982725EE358340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "寶可夢中心：中央",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2136,
+      "rawDecodedUtf16Hex": "5BF653EF59224E2D5FC3FF1A4E2D592E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "帕生咖啡店",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "5E15751F549655615E970000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "龍捲風咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "9F8D637298A85496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "時髦咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "66429AE65496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "汪汪咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2204,
+      "rawDecodedUtf16Hex": "6C6A6C6A5496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "旭日咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "65ED65E55496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "定焦咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2228,
+      "rawDecodedUtf16Hex": "5B9A71265496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "迴旋咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "8FF465CB5496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "英俊咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "82F14FCA5496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "友友樂咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "53CB53CB6A025496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "羅雀咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "7F8596C05496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "牽絆咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "727D7D465496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "極訓咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2304,
+      "rawDecodedUtf16Hex": "69758A135496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "開拍咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "958B62CD5496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "對戰迷咖啡館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "5C0D62308FF75496556199280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "新咖啡",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "65B0549655610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "新咖啡2號店",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2352,
+      "rawDecodedUtf16Hex": "65B0549655610032865F5E970000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "新咖啡3號店",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2368,
+      "rawDecodedUtf16Hex": "65B0549655610033865F5E970000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "譜通餐館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "8B5C901A991099280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "貳流餐館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2404,
+      "rawDecodedUtf16Hex": "8CB36D41991099280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "鼎極餐館",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "9F0E6975991099280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "回轉夢想家",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2428,
+      "rawDecodedUtf16Hex": "56DE8F49592260F35BB60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "那我們出發吧～！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2448,
+      "rawDecodedUtf16Hex": "90A36211501151FA767C5427FF5EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "說到Z會讓人聯想到究極。\n歡迎搭乘究極計程車。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "8AAA5230005A67038B934EBA806F60F352307A7669753002000A6B618FCE642D4E587A7669758A087A0B8ECA300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "敬請搭乘\n密阿雷計程車。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "656C8ACB642D4E58000A5BC6963F96F78A087A0B8ECA300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "請問要搭\n密阿雷計程車嗎？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2600,
+      "rawDecodedUtf16Hex": "8ACB554F8981642D000A5BC6963F96F78A087A0B8ECA55CEFF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2656,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "車子要出發囉。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "8ECA5B50898151FA767C56C93002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "客人！\n您實在太幸運了。<U+0010><U+0001>븁\n我至今開車都沒肇事和違規過喔。<U+0010><U+0001>븁\n當然我不能保證今後也都能\n一直不肇事和不違規下去。<U+0010><U+0001>븁\n但為了參加ZA登峰戰，\n我可不能受傷啊。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A60A85BE65728592A5E78904B4E86300200100001BE01000A621181F34ECA958B8ECA90FD6C9280874E8B548C9055898F904E5594300200100001BE01000A7576713662114E0D80FD4FDD8B494ECA5F8C4E5F90FD80FD000A4E0076F44E0D80874E8B548C4E0D9055898F4E0B53BB300200100001BE01000A4F4670BA4E8653C352A0005A0041767B5CF06230FF0C000A621153EF4E0D80FD53D750B7554A3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "客人！\n我至今開車都沒肇事和違規過，<U+0010><U+0001>븀\n您知道是為什麼嗎？<U+0010><U+0001>븁\n該怎麼說明才好呢。\n我能憑著像是從上空俯瞰<U+0010><U+0001>븀\n自己的車一樣的感覺駕駛。<U+0010><U+0001>븀\n當然，周圍的狀況也一樣看得見。<U+0010><U+0001>븁\n所以不管是行車間距，還是有寶可夢\n要從路邊衝出來什麼的我都知道。<U+0010><U+0001>븀\n因此，我才能保持行車安全呢。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2872,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A621181F34ECA958B8ECA90FD6C9280874E8B548C9055898F904EFF0C00100001BE00000A60A877E59053662F70BA4EC09EBC55CEFF1F00100001BE01000A8A72600E9EBC8AAA660E624D597D54623002000A621180FD6191845750CF662F5F9E4E0A7A7A4FEF77B000100001BE00000A81EA5DF176848ECA4E006A237684611F89BA99D599DB300200100001BE00000A75767136FF0C5468570D768472C06CC14E5F4E006A23770B5F97898B300200100001BE01000A62404EE54E0D7BA1662F884C8ECA95938DDDFF0C9084662F67095BF653EF5922000A89815F9E8DEF908A885D51FA4F864EC09EBC7684621190FD77E59053300200100001BE00000A56E06B64FF0C6211624D80FD4FDD6301884C8ECA5B89516854623002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 150
+    },
+    {
+      "displayText": "客人！\n我以前是一位賽車手喔。<U+0010><U+0001>븁\n您知道24小時耐力賽嗎？\n那是一種持續繞行著同一條賽道，<U+0010><U+0001>븀\n考驗車輛穩定性等的比賽喔。<U+0010><U+0001>븁\n在嚴酷的條件下一邊確保安全，\n一邊爭取縮短0.1秒的駕駛也很有趣。<U+0010><U+0001>븁\n但比起一直跑在同一條賽道上，\n載客人到他們想去的地方也很吸引我，<U+0010><U+0001>븀\n所以我才會改行來當計程車司機。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3172,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A62114EE5524D662F4E004F4D8CFD8ECA624B5594300200100001BE01000A60A877E59053003200345C0F66428010529B8CFD55CEFF1F000A90A3662F4E007A2E63017E8C7E5E884C8457540C4E00689D8CFD9053FF0C00100001BE00000A80039A578ECA8F1B7A695B9A60277B4976846BD48CFD5594300200100001BE01000A572856B491777684689D4EF64E0B4E00908A78BA4FDD5B895168FF0C000A4E00908A722D53D67E2E77ED0030002E003179D2768499D599DB4E5F5F8867098DA3300200100001BE01000A4F466BD48D774E0076F48DD15728540C4E00689D8CFD90534E0AFF0C000A8F095BA24EBA52304ED6501160F353BB7684573065B94E5F5F8854385F156211FF0C00100001BE00000A62404EE56211624D67036539884C4F8675768A087A0B8ECA53F86A5F3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 161
+    },
+    {
+      "displayText": "客人！\n您知道對計程車司機來說，<U+0010><U+0001>븀\n什麼是很重要的事嗎？<U+0010><U+0001>븁\n雖然不勝枚舉，但我認為是\n完美掌握密阿雷的交通狀況。<U+0010><U+0001>븁\n像是哪個時段\n哪條路會塞車之類的，<U+0010><U+0001>븀\n我全都瞭若指掌。<U+0010><U+0001>븁\n當然，下雨的話路況也會跟著變。\n這種事想就知道了，對吧。<U+0010><U+0001>븁\n畢竟有的寶可夢喜歡下雨，\n有的不喜歡嘛。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3496,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A60A877E590535C0D8A087A0B8ECA53F86A5F4F868AAAFF0C00100001BE00000A4EC09EBC662F5F8891CD898176844E8B55CEFF1F00100001BE01000A96D671364E0D52DD679A8209FF0C4F4662118A8D70BA662F000A5B8C7F8E638C63E15BC6963F96F776844EA4901A72C06CC1300200100001BE01000A50CF662F54EA500B66426BB5000A54EA689D8DEF6703585E8ECA4E4B985E7684FF0C00100001BE00000A6211516890FD77AD82E56307638C300200100001BE01000A75767136FF0C4E0B96E876848A718DEF6CC14E5F67038DDF84578B8A3002000A90197A2E4E8B60F35C3177E590534E86FF0C5C0D5427300200100001BE01000A75627ADF670976845BF653EF5922559C6B614E0B96E8FF0C000A670976844E0D559C6B61561B3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 154
+    },
+    {
+      "displayText": "客人！\n我有一件想要炫耀的小事，<U+0010><U+0001>븀\n您願意聽我說嗎？<U+0010><U+0001>븁\n雖然現在密阿雷的寶可夢變多，\n已經不可能辦到了。<U+0010><U+0001>븁\n在不久之前，交通方式有\n山羊速多樂和計程車<U+0010><U+0001>븀\n兩種可以選。<U+0010><U+0001>븁\n我要說的就是那時候的事喔。\n有個自稱國際警察的客人上了車，<U+0010><U+0001>븀\n然後拜託我追上前面的車子。<U+0010><U+0001>븁\n我心想總算被我等到了！\n畢竟這是個熟知密阿雷的我<U+0010><U+0001>븀\n大展身手的好機會啊！<U+0010><U+0001>븁\n<U+0010><U+0003>ᄀÿā你妳說結果？那當然是完美地逮住逃逸車輛，\n並且還因此接受了表揚喔。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 22,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3804,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A621167094E004EF660F3898170AB800076845C0F4E8BFF0C00100001BE00000A60A89858610F807D62118AAA55CEFF1F00100001BE01000A96D6713673FE57285BC6963F96F776845BF653EF59228B8A591AFF0C000A5DF27D934E0D53EF80FD8FA652304E86300200100001BE01000A57284E0D4E454E4B524DFF0C4EA4901A65B95F0F6709000A5C717F8A901F591A6A02548C8A087A0B8ECA00100001BE00000A51697A2E53EF4EE59078300200100001BE01000A621189818AAA76845C31662F90A36642501976844E8B55943002000A6709500B81EA7A31570B969B8B665BDF76845BA24EBA4E0A4E868ECAFF0C00100001BE00000A71365F8C62DC8A1762118FFD4E0A524D976276848ECA5B50300200100001BE01000A62115FC360F37E3D7B9788AB62117B4952304E86FF01000A75627ADF9019662F500B719F77E55BC6963F96F77684621100100001BE00000A59275C558EAB624B7684597D6A5F6703554AFF0100100001BE01000A00100003110000FF01014F6059B38AAA7D50679CFF1F90A375767136662F5B8C7F8E5730902E4F4F900390388ECA8F1BFF0C000A4E264E14908456E06B6463A553D74E86886863DA55943002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 230
+    },
+    {
+      "displayText": "客人！<U+0010><U+0001>븁\n我就開門見山地問了，\n您知道盔甲鳥飛得有多快嗎？<U+0010><U+0001>븁\n別嚇到啊，答案是時速300公里喔。\n這速度計程車實在是追不上。<U+0010><U+0001>븁\n只不過，曾經有一次\n我面臨了必須去追牠的局面……<U+0010><U+0001>븀\n沒錯！就是開車和寶可夢展開追逐戰。<U+0010><U+0001>븁\n我運用了熟知密阿雷的我\n特有的駕駛技巧，<U+0010><U+0001>븀\n才勉強捉到了那隻逃跑的盔甲鳥。<U+0010><U+0001>븁\n對手飛的話，那我也飛！\n我是在看穿了盔甲鳥的動線後，<U+0010><U+0001>븀\n利用高低差讓車子跳飛起來捉到牠的喔。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4264,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0100100001BE01000A62115C31958B9580898B5C715730554F4E86FF0C000A60A877E5905376D475329CE598DB5F976709591A5FEB55CEFF1F00100001BE01000A522556875230554AFF0C7B546848662F6642901F003300300030516C91CC55943002000A9019901F5EA68A087A0B8ECA5BE65728662F8FFD4E0D4E0A300200100001BE01000A53EA4E0D904EFF0C66FE7D9367094E006B21000A6211976281E84E865FC5980853BB8FFD726076845C4097622026202600100001BE00000A6C92932FFF015C31662F958B8ECA548C5BF653EF59225C55958B8FFD90106230300200100001BE01000A6211904B75284E86719F77E55BC6963F96F776846211000A72796709768499D599DB62805DE7FF0C00100001BE00000A624D52C95F37634952304E8690A396BB90038DD1768476D475329CE5300200100001BE01000A5C0D624B98DB76848A71FF0C90A362114E5F98DBFF01000A6211662F5728770B7A7F4E8676D475329CE5768452D57DDA5F8CFF0C00100001BE00000A522975289AD84F4E5DEE8B938ECA5B508DF398DB8D774F86634952307260768455943002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 215
+    },
+    {
+      "displayText": "客人！\n您知道計程車都是誰<U+0010><U+0001>븀\n在負責維修的嗎？<U+0010><U+0001>븁\n沒錯，就是維修技師喔。<U+0010><U+0001>븁\n但因為我是個人經營的計程車司機，\n所以只能打破常規，<U+0010><U+0001>븀\n由我自己來維修車子。<U+0010><U+0001>븁\n別看我這樣，\n除了駕駛技巧以外，<U+0010><U+0001>븀\n我的維修技術也是非常紮實的。<U+0010><U+0001>븁\n因為我的愛車從來沒出過問題，\n所以也很受我的技師朋友尊敬喔。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4696,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A60A877E590538A087A0B8ECA90FD662F8AB000100001BE00000A57288CA08CAC7DAD4FEE768455CEFF1F00100001BE01000A6C92932FFF0C5C31662F7DAD4FEE62805E2B5594300200100001BE01000A4F4656E070BA6211662F500B4EBA7D9371DF76848A087A0B8ECA53F86A5FFF0C000A62404EE553EA80FD625378345E38898FFF0C00100001BE00000A7531621181EA5DF14F867DAD4FEE8ECA5B50300200100001BE01000A5225770B621190196A23FF0C000A96644E8699D599DB62805DE74EE55916FF0C00100001BE00000A621176847DAD4FEE628088534E5F662F975E5E387D2E5BE67684300200100001BE01000A56E070BA62117684611B8ECA5F9E4F866C9251FA904E554F984CFF0C000A62404EE54E5F5F8853D76211768462805E2B670B53CB5C0A656C55943002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 161
+    },
+    {
+      "displayText": "客人，\n這故事雖然不值得一提……<U+0010><U+0001>븁\n我第一次接觸到所謂的車子，\n是我3歲時去坐的卡丁車喔。<U+0010><U+0001>븁\n卡洛斯地區不是很盛行\n獨角犀牛競速賽嗎？<U+0010><U+0001>븁\n我父親也很迷那種比賽。\n他想把我培養成獨角犀牛騎士，<U+0010><U+0001>븁\n於是作為讓我習慣速度的準備，\n帶我去坐了卡丁車呢。<U+0010><U+0001>븁\n我的人生就這樣定了下來。\n甩尾什麼的我也是沒人教就學會了。<U+0010><U+0001>븁\n對經歷這些的我來說，\n計程車司機這個職業，<U+0010><U+0001>븀\n變成了我人生中第2喜歡的事情呢。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 5020,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A901965454E8B96D671364E0D503C5F974E0063D02026202600100001BE01000A62117B2C4E006B2163A589F8523062408B0276848ECA5B50FF0C000A662F621100336B72664253BB5750768453614E018ECA5594300200100001BE01000A53616D1B65AF573053404E0D662F5F8876DB884C000A736889D27280725B7AF6901F8CFD55CEFF1F00100001BE01000A6211723689AA4E5F5F888FF790A37A2E6BD48CFD3002000A4ED660F3628A621157F9990A6210736889D27280725B9A0E58EBFF0C00100001BE01000A65BC662F4F5C70BA8B9362117FD26163901F5EA676846E965099FF0C000A5E36621153BB57504E8653614E018ECA5462300200100001BE01000A621176844EBA751F5C3190196A235B9A4E864E0B4F863002000A75295C3E4EC09EBC768462114E5F662F6C924EBA65595C315B7867034E86300200100001BE01000A5C0D7D936B7790194E9B768462114F868AAAFF0C000A8A087A0B8ECA53F86A5F9019500B8077696DFF0C00100001BE00000A8B8A62104E8662114EBA751F4E2D7B2C0032559C6B6176844E8B60C554623002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 213
+    },
+    {
+      "displayText": "客人，\n您知道一位叫丹帝的訓練家嗎？<U+0010><U+0001>븁\n我真的是拿那個人沒轍呢。\n他似乎是個有名的路痴，<U+0010><U+0001>븀\n但他居然連坐著計程車也都會迷路喔。<U+0010><U+0001>븁\n我自認我在密阿雷市\n也算是個不錯的計程車司機，<U+0010><U+0001>븀\n更重要的是，<U+0010><U+0001>븀\n這座城市的事我再熟悉不過了。<U+0010><U+0001>븁\n可是只要跟丹帝在一起，\n不知為何就會接連發生狀況，<U+0010><U+0001>븀\n導致車子離目的地越來越遠……<U+0010><U+0001>븁\n當然最後我還是成功地\n把丹帝送到目的地就是了。<U+0010><U+0001>븁\n那真是個不可思議的體驗啊……<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E590534E004F4D53EB4E395E1D76848A137DF45BB655CEFF1F00100001BE01000A6211771F7684662F62FF90A3500B4EBA6C928F4D54623002000A4ED64F3C4E4E662F500B6709540D76848DEF75F4FF0C00100001BE00000A4F464ED65C4571369023575084578A087A0B8ECA4E5F90FD67038FF78DEF5594300200100001BE01000A621181EA8A8D621157285BC6963F96F75E02000A4E5F7B97662F500B4E0D932F76848A087A0B8ECA53F86A5FFF0C00100001BE00000A66F491CD89817684662FFF0C00100001BE00000A90195EA757CE5E0276844E8B6211518D719F60894E0D904E4E86300200100001BE01000A53EF662F53EA89818DDF4E395E1D57284E008D77FF0C000A4E0D77E570BA4F555C31670363A59023767C751F72C06CC1FF0C00100001BE00000A5C0E81F48ECA5B5096E276EE768457308D8A4F868D8A90602026202600100001BE01000A7576713667005F8C62119084662F6210529F5730000A628A4E395E1D9001523076EE768457305C31662F4E86300200100001BE01000A90A3771F662F500B4E0D53EF601D8B7076849AD49A57554A20262026001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 219
+    },
+    {
+      "displayText": "客人，\n您覺得計程車能不能<U+0010><U+0001>븀\n載送寶可夢呢？<U+0010><U+0001>븁\n當然只要使用精靈球，\n什麼寶可夢就都能載送了。<U+0010><U+0001>븁\n我想說的是我載過一隻叫做\n流氓熊貓的野生寶可夢。<U+0010><U+0001>븁\n牠應該是和夥伴打架受了重傷吧。\n我覺得不能置之不理，於是為了送牠去<U+0010><U+0001>븀\n寶可夢的醫院，就把牠放到了計程車車頂。<U+0010><U+0001>븁\n但是車子上面的燈……\n正確來說是車頂燈，<U+0010><U+0001>븀\n好像摩擦到牠的身體，痛得牠大吵大鬧。<U+0010><U+0001>븁\n因此我使出我的駕駛技巧，\n一邊小心不讓流氓熊貓掉下去，<U+0010><U+0001>븁\n一邊以逼近超速的速度把牠送到醫院囉。\n那次的駕駛棒到連我都想稱讚自己了呢。<U+0010><U+0001>븁\n話又說回來了，\n街上的野生寶可夢變多，<U+0010><U+0001>븀\n也會讓各種規範跟著改變呢。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 24,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 5888,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A889BA5F978A087A0B8ECA80FD4E0D80FD00100001BE00000A8F0990015BF653EF59225462FF1F00100001BE01000A7576713653EA89814F7F75287CBE97487403FF0C000A4EC09EBC5BF653EF59225C3190FD80FD8F0990014E86300200100001BE01000A621160F38AAA7684662F62118F09904E4E0096BB53EB505A000A6D416C13718A8C93768491CE751F5BF653EF5922300200100001BE01000A726061C98A72662F548C59254F34625367B653D74E8691CD50B754273002000A621189BA5F974E0D80FD7F6E4E4B4E0D7406FF0C65BC662F70BA4E869001726053BB00100001BE00000A5BF653EF5922768491AB9662FF0C5C31628A7260653E52304E868A087A0B8ECA8ECA9802300200100001BE01000A4F46662F8ECA5B504E0A9762768471C820262026000A6B6378BA4F868AAA662F8ECA980271C8FF0C00100001BE00000A597D50CF646964E65230726076848EAB9AD4FF0C75DB5F9772605927543559279B27300200100001BE01000A56E06B6462114F7F51FA6211768499D599DB62805DE7FF0C000A4E00908A5C0F5FC34E0D8B936D416C13718A8C9363894E0B53BBFF0C00100001BE01000A4E00908A4EE5903C8FD18D85901F7684901F5EA6628A72609001523091AB966256C93002000A90A36B21768499D599DB68D252309023621190FD60F37A318B9A81EA5DF14E865462300200100001BE01000A8A7153C88AAA56DE4F864E86FF0C000A88574E0A768491CE751F5BF653EF59228B8A591AFF0C00100001BE00000A4E5F67038B9354047A2E898F7BC48DDF845765398B8A54623002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 302
+    },
+    {
+      "displayText": "客人，\n莫非您是ZA登峰戰的參賽者？<U+0010><U+0001>븁\n我自己也是參賽者之一，\n不覺得那真的是棒透了嗎！？<U+0010><U+0001>븁\n雖然我在升級戰根本沒贏過，\n還被別人叫做萬年阿Z，<U+0010><U+0001>븀\n但不參加那場瘋狂的盛宴是很可惜的喔。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 6492,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A83AB975E60A8662F005A0041767B5CF06230768453C38CFD8005FF1F00100001BE01000A621181EA5DF14E5F662F53C38CFD80054E4B4E00FF0C000A4E0D89BA5F9790A3771F7684662F68D2900F4E8655CEFF01FF1F00100001BE01000A96D671366211572853477D1A62306839672C6C928D0F904EFF0C000A908488AB52254EBA53EB505A842C5E74963F005AFF0C00100001BE00000A4F464E0D53C352A090A35834760B72C2768476DB5BB4662F5F8853EF60DC768455943002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "客人，\n莫非您是寶可夢訓練家？<U+0010><U+0001>븁\n我也是個訓練家，\n開車時我明明能俯瞰車子和四周，<U+0010><U+0001>븀\n但寶可夢對戰時就不行了。<U+0010><U+0001>븁\n除了打倒眼前的寶可夢以外，\n我什麼都無法思考。<U+0010><U+0001>븀\n您說我該怎麼辦才好呢？<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 6700,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A83AB975E60A8662F5BF653EF59228A137DF45BB6FF1F00100001BE01000A62114E5F662F500B8A137DF45BB6FF0C000A958B8ECA66426211660E660E80FD4FEF77B08ECA5B50548C56DB5468FF0C00100001BE00000A4F465BF653EF59225C0D623066425C314E0D884C4E86300200100001BE01000A96644E8662535012773C524D76845BF653EF59224EE55916FF0C000A62114EC09EBC90FD71216CD5601D8003300200100001BE00000A60A88AAA62118A72600E9EBC8FA6624D597D5462FF1F001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "客人，\n莫非您是寶可夢訓練家？<U+0010><U+0001>븁\n我平常也會打寶可夢對戰呢。\n雖然我把屬性相剋關係全部記住了，<U+0010><U+0001>븁\n但還是很難呢。因為只要開始對戰，\n相剋什麼的我就會忘得一乾二淨。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 6912,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A83AB975E60A8662F5BF653EF59228A137DF45BB6FF1F00100001BE01000A62115E735E384E5F670362535BF653EF59225C0D623054623002000A96D671366211628A5C6C602776F8524B95DC4FC2516890E88A184F4F4E86FF0C00100001BE01000A4F469084662F5F8896E35462300256E070BA53EA8981958B59CB5C0D6230FF0C000A76F8524B4EC09EBC768462115C3167035FD85F974E004E7E4E8C6DE83002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "客人，\n莫非您是ZA登峰戰的參賽者？<U+0010><U+0001>븁\n您打贏過升級戰嗎？\n我是一直都沒能打贏的Z級別，<U+0010><U+0001>븀\n別人都叫我是萬年阿Z……<U+0010><U+0001>븁\n我自己是沒關係啦，\n但要是連努力的寶可夢都被瞧不起，<U+0010><U+0001>븀\n那就不可原諒了對吧。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 7092,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A83AB975E60A8662F005A0041767B5CF06230768453C38CFD8005FF1F00100001BE01000A60A862538D0F904E53477D1A623055CEFF1F000A6211662F4E0076F490FD6C9280FD62538D0F7684005A7D1A5225FF0C00100001BE00000A52254EBA90FD53EB6211662F842C5E74963F005A2026202600100001BE01000A621181EA5DF1662F6C9295DC4FC25566FF0C000A4F468981662F902352AA529B76845BF653EF592290FD88AB77A74E0D8D77FF0C00100001BE00000A90A35C314E0D53EF539F8AD24E865C0D54273002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "客人，\n莫非您是ZA登峰戰的參賽者？<U+0010><U+0001>븁\n其實我也對ZA登峰戰\n相當地投入喔。<U+0010><U+0001>븁\n因為這樣，我有種失戀的感覺。<U+0010><U+0001>븁\n以前我明明把工作當情人，\n現在卻成天泡在ZA登峰戰，<U+0010><U+0001>븀\n連車都很少在開了……<U+0010><U+0001>븁\n我這樣是不是會被計程車討厭啊？<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 7316,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A83AB975E60A8662F005A0041767B5CF06230768453C38CFD8005FF1F00100001BE01000A51765BE662114E5F5C0D005A0041767B5CF06230000A76F875765730629551655594300200100001BE01000A56E070BA90196A23FF0C621167097A2E593162007684611F89BA300200100001BE01000A4EE5524D6211660E660E628A5DE54F5C757660C54EBAFF0C000A73FE5728537B621059296CE15728005A0041767B5CF06230FF0C00100001BE00000A90238ECA90FD5F885C115728958B4E862026202600100001BE01000A621190196A23662F4E0D662F670388AB8A087A0B8ECA8A0E53AD554AFF1F001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 126
+    },
+    {
+      "displayText": "客人，\n您知道一位叫做瑪琪艾兒的偵探嗎？<U+0010><U+0001>븀\n她是個年輕卻很優秀的偵探。<U+0010><U+0001>븁\n雖然比起推理，\n她更屬於靠優秀的體能，<U+0010><U+0001>븁\n還有作為寶可夢訓練家的實力\n來解決事件的類型就是了。<U+0010><U+0001>븁\n但她在密阿雷美術館與怪盜的對決，\n至今還是很有名呢。<U+0010><U+0001>븁\n以前有個怪盜集團\n打算利用寶可夢入侵美術館，<U+0010><U+0001>븀\n然後偷走作品。<U+0010><U+0001>븁\n不知道她是不是用了心靈感應，\n她埋伏在怪盜逃走的路線上，<U+0010><U+0001>븀\n漂亮地逮到了他們呢。<U+0010><U+0001>븁\n在那之後就算有寶可夢\n潛入美術館裡面，<U+0010><U+0001>븀\n也再沒有誰企圖偷東西了。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 22,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 7568,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E590534E004F4D53EB505A746A742A827E51527684507563A255CEFF1F00100001BE00000A5979662F500B5E748F15537B5F88512A79C07684507563A2300200100001BE01000A96D671366BD48D7763A87406FF0C000A597966F45C6C65BC9760512A79C076849AD480FDFF0C00100001BE01000A908467094F5C70BA5BF653EF59228A137DF45BB676845BE6529B000A4F8689E36C7A4E8B4EF67684985E578B5C31662F4E86300200100001BE01000A4F46597957285BC6963F96F77F8E885399288207602A76DC76845C0D6C7AFF0C000A81F34ECA9084662F5F886709540D5462300200100001BE01000A4EE5524D6709500B602A76DC96C65718000A62537B97522975285BF653EF592251654FB57F8E88539928FF0C00100001BE00000A71365F8C50778D704F5C54C1300200100001BE01000A4E0D77E590535979662F4E0D662F75284E865FC39748611F61C9FF0C000A597957CB4F0F5728602A76DC90038D7076848DEF7DDA4E0AFF0C00100001BE00000A6F024EAE5730902E52304E864ED650115462300200100001BE01000A572890A34E4B5F8C5C317B9767095BF653EF5922000A6F5B51657F8E8853992888E19762FF0C00100001BE00000A4E5F518D6C9267098AB04F01571650776771897F4E863002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 247
+    },
+    {
+      "displayText": "客人，\n請問您有看那場遊行嗎？<U+0010><U+0001>븁\n那時候整個很騷動不安吧。\n當時密阿雷市，<U+0010><U+0001>븀\n應該說卡洛斯地區……<U+0010><U+0001>븁\n有個叫做閃焰隊的組織\n使用了最終兵器這種糟糕的東西……<U+0010><U+0001>븁\n甚至還有人覺得\n世界末日來了呢。<U+0010><U+0001>븁\n然後，有個博士為了驅趕那種風氣\n而企劃了一場遊行。<U+0010><U+0001>븁\n但是大家的不安依舊沒有消除，\n開始有人搬離了密阿雷。<U+0010><U+0001>븁\n也算是為了防止人口繼續流失吧，\n密阿雷市實施了都市計畫，開始有了改變。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 8064,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A8ACB554F60A86709770B90A35834904A884C55CEFF1F00100001BE01000A90A3664250196574500B5F889A3752D54E0D5B8954273002000A757666425BC6963F96F75E02FF0C00100001BE00000A61C98A728AAA53616D1B65AF573053402026202600100001BE01000A6709500B53EB505A95837130968A76847D447E54000A4F7F75284E8667007D425175566890197A2E7CDF7CD576846771897F2026202600100001BE01000A751A81F3908467094EBA89BA5F97000A4E16754C672B65E54F864E865462300200100001BE01000A71365F8CFF0C6709500B535A58EB70BA4E869A458D9590A37A2E98A86C23000A800C4F0152834E864E005834904A884C300200100001BE01000A4F46662F59275BB676844E0D5B894F9D820A6C9267096D889664FF0C000A958B59CB67094EBA642C96E24E865BC6963F96F7300200100001BE01000A4E5F7B97662F70BA4E8696326B624EBA53E37E7C7E8C6D4159315427FF0C000A5BC6963F96F75E025BE665BD4E8690FD5E028A08756BFF0C958B59CB67094E8665398B8A3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 207
+    },
+    {
+      "displayText": "客人！\n您知道嗎？<U+0010><U+0001>븁\n如果在密阿雷市裡的某棟大樓的2樓\n下電梯的話……<U+0010><U+0001>븀\n會有一位少女突然從背後出現然後這麼說……<U+0010><U+0001>븁\n「不是你……」<U+0010><U+0001>븁\n那雖然興起了一陣話題，\n但自從街上的寶可夢變多以後，<U+0010><U+0001>븀\n不知不覺地就沒有人在討論了。<U+0010><U+0001>븁\n我也和我的計程車司機朋友\n聊過這件事……<U+0010><U+0001>븁\n聽說最近會有個神不知鬼不覺\n就坐上計程車的客人會這麼說喔……<U+0010><U+0001>븁\n「也不是你……」<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 8480,
+      "rawDecodedUtf16Hex": "5BA24EBAFF01000A60A877E5905355CEFF1F00100001BE01000A5982679C57285BC6963F96F75E0288E1768467D068DF59276A13768400326A13000A4E0B96FB68AF76848A712026202600100001BE00000A670367094E004F4D5C1159737A8171365F9E80CC5F8C51FA73FE71365F8C90199EBC8AAA2026202600100001BE01000A300C4E0D662F4F6020262026300D00100001BE01000A90A396D6713682088D774E864E0096638A71984CFF0C000A4F4681EA5F9E88574E0A76845BF653EF59228B8A591A4EE55F8CFF0C00100001BE00000A4E0D77E54E0D89BA57305C316C9267094EBA57288A0E8AD64E86300200100001BE01000A62114E5F548C621176848A087A0B8ECA53F86A5F670B53CB000A804A904E90194EF64E8B2026202600100001BE01000A807D8AAA67008FD167036709500B795E4E0D77E59B3C4E0D89BA000A5C3157504E0A8A087A0B8ECA76845BA24EBA670390199EBC8AAA55942026202600100001BE01000A300C4E5F4E0D662F4F6020262026300D001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 195
+    },
+    {
+      "displayText": "客人！<U+0010><U+0001>븁\n您知道嗎？\n關於卡洛斯地區的首次超級進化。<U+0010><U+0001>븁\n聽說這是很久很久以前的事了。<U+0010><U+0001>븁\n帶著路卡利歐同行的訓練家\n來到精練之塔附近的時候，<U+0010><U+0001>븀\n發現了兩顆奇特的石頭。<U+0010><U+0001>븁\n據說其中一顆是\n鑲在超級環上的鑰石。<U+0010><U+0001>븁\n而另一顆則是\n讓寶可夢戴的超級石。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 8872,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0100100001BE01000A60A877E5905355CEFF1F000A95DC65BC53616D1B65AF57305340768499966B218D857D1A90325316300200100001BE01000A807D8AAA9019662F5F884E455F884E454EE5524D76844E8B4E86300200100001BE01000A5E3684578DEF536152296B50540C884C76848A137DF45BB6000A4F8652307CBE7DF44E4B585496448FD1768466425019FF0C00100001BE00000A767C73FE4E865169984659477279768477F3982D300200100001BE01000A64DA8AAA51764E2D4E009846662F000A947257288D857D1A74B04E0A7684947077F3300200100001BE01000A800C53E64E0098465247662F000A8B935BF653EF5922623476848D857D1A77F33002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "客人！我今天來和您說說\n我從吟遊詩人那裡聽來的故事吧。<U+0010><U+0001>븁\n以美麗著稱的卡洛斯，\n過去也曾一度化為荒土。<U+0010><U+0001>븁\n愚蠢的戰爭毫不止息，\n寶可夢與人類都精疲力竭。<U+0010><U+0001>븁\n那是3000年前的事了。<U+0010><U+0001>븁\n無數的生命因此消逝。<U+0010><U+0001>븁\n無數的寶可夢，\n無數的人類。<U+0010><U+0001>븁\n悲慟的別離\n籠罩了卡洛斯的大地。<U+0010><U+0001>븁\n卡洛斯的戰爭走向了終結。\n是天雷使其走向了終結。<U+0010><U+0001>븁\n天雷是人類\n用悲傷鑄成的光芒。<U+0010><U+0001>븁\n天雷是寶可夢\n用憤怒發出的轟鳴。<U+0010><U+0001>븁\n男人四處徘徊，\n仍在尋覓寶可夢的蹤跡。<U+0010><U+0001>븁\n男人四處徘徊，\n不曾找回自己迷失的心。<U+0010><U+0001>븁\n然而當溫柔重新在\n男人心中的泉水流淌之時，<U+0010><U+0001>븀\n男人與寶可夢終於重逢。<U+0010><U+0001>븁\n徘徊3000年這種事，\n要是我一定做不到呢……<U+0010><U+0001>븀\n不，有計程車就沒問題了吧？<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 32,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 9148,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0162114ECA59294F86548C60A88AAA8AAA000A62115F9E541F904A8A694EBA90A388E1807D4F86768465454E8B5427300200100001BE01000A4EE57F8E9E9784577A31768453616D1B65AFFF0C000A904E53BB4E5F66FE4E005EA6531670BA8352571F300200100001BE01000A611A882276846230722D6BEB4E0D6B62606FFF0C000A5BF653EF592282074EBA985E90FD7CBE75B2529B7AED300200100001BE01000A90A3662F00330030003000305E74524D76844E8B4E86300200100001BE01000A712165787684751F547D56E06B646D88901D300200100001BE01000A7121657876845BF653EF5922FF0C000A7121657876844EBA985E300200100001BE01000A60B2615F7684522596E2000A7C607F694E8653616D1B65AF768459275730300200100001BE01000A53616D1B65AF76846230722D8D7054114E867D427D503002000A662F592996F74F7F51768D7054114E867D427D50300200100001BE01000A592996F7662F4EBA985E000A752860B250B794446210768451498292300200100001BE01000A592996F7662F5BF653EF5922000A752861A46012767C51FA76848F5F9CF4300200100001BE01000A75374EBA56DB86555F985F8AFF0C000A4ECD57285C0B89935BF653EF592276848E648DE1300200100001BE01000A75374EBA56DB86555F985F8AFF0C000A4E0D66FE627E56DE81EA5DF18FF7593176845FC3300200100001BE01000A7136800C75766EAB67D491CD65B05728000A75374EBA5FC34E2D76846CC96C346D416DCC4E4B6642FF0C00100001BE00000A75374EBA82075BF653EF59227D4265BC91CD9022300200100001BE01000A5F985F8A00330030003000305E7490197A2E4E8BFF0C000A8981662F62114E005B9A505A4E0D523054622026202600100001BE00000A4E0DFF0C67098A087A0B8ECA5C316C92554F984C4E865427FF1F001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 350
+    },
+    {
+      "displayText": "啊，目的地到了。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 9848,
+      "rawDecodedUtf16Hex": "554AFF0C76EE7684573052304E863002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǔ<U+0002>到了。\n跟您收車資<U+E300>710。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 9876,
+      "rawDecodedUtf16Hex": "0010000201D3000252304E863002000A8DDF60A865368ECA8CC7E3000037003100303002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "客人。<U+0010><U+0001>븁\n即使靠ZA登峰戰在賺錢，\n也會有車資不足的問題啊。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 9924,
+      "rawDecodedUtf16Hex": "5BA24EBA300200100001BE01000A53734F7F9760005A0041767B5CF0623057288CFA9322FF0C000A4E5F670367098ECA8CC74E0D8DB37684554F984C554A3002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "那麼，\n希望下次還能為您服務。<U+0010><U+0002>Ĕ/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 10000,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C000A5E0C671B4E0B6B21908480FD70BA60A8670D52D93002001000020114002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿^",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 10040,
+      "rawDecodedUtf16Hex": "00100002BDFF005E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "那我們出發吧～！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 10052,
+      "rawDecodedUtf16Hex": "90A36211501151FA767C5427FF5EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n說到稜鏡塔，\n它曾經被翻修過好幾次呢。<U+0010><U+0001>븁\n那東西是叫骨架嗎？\n塔的內部結構似乎非常老舊。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 10072,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A8AAA52307A1C93E15854FF0C000A5B8366FE7D9388AB7FFB4FEE904E597D5E7E6B215462300200100001BE01000A90A36771897F662F53EB9AA867B655CEFF1F000A58547684516790E87D5069CB4F3C4E4E975E5E388001820A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n密阿雷南站是為了連接機場和密阿雷，\n而在4年前興建完成的鐵路。<U+0010><U+0001>븁\n但是啟用典禮的時候，\n來的卻幾乎都是寶可夢呢。<U+0010><U+0001>븁\n受歡迎是很令人高興，\n但寶可夢畢竟不會付錢搭車嘛。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 10192,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BC6963F96F753577AD9662F70BA4E86902363A56A5F5834548C5BC6963F96F7FF0C000A800C572800345E74524D82085EFA5B8C6210768494358DEF300200100001BE01000A4F46662F555F7528517879AE768466425019FF0C000A4F867684537B5E7E4E4E90FD662F5BF653EF59225462300200100001BE01000A53D76B618FCE662F5F884EE44EBA9AD88208FF0C000A4F465BF653EF592275627ADF4E0D67034ED89322642D8ECA561B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n寶可夢的招式\n有所謂的攻擊範圍喔。<U+0010><U+0001>븁\n然後，攻擊範圍大的招式\n聽說可以把許多對手<U+0010><U+0001>븀\n都捲進來一起攻擊喔。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 10396,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BF653EF5922768462DB5F0F000A670962408B027684653B64CA7BC4570D5594300200100001BE01000A71365F8CFF0C653B64CA7BC4570D5927768462DB5F0F000A807D8AAA53EF4EE5628A8A31591A5C0D624B00100001BE00000A90FD637290324F864E008D77653B64CA559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n寶可夢在使出招式時，\n不是會累積超級能嗎？<U+0010><U+0001>븁\n我聽說那種能量啊，\n如果寶可夢和訓練家離得很遠，<U+0010><U+0001>븀\n就不太會累積喔。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 10536,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BF653EF592257284F7F51FA62DB5F0F6642FF0C000A4E0D662F67037D2F7A4D8D857D1A80FD55CEFF1F00100001BE01000A6211807D8AAA90A37A2E80FD91CF554AFF0C000A5982679C5BF653EF5922548C8A137DF45BB696E25F975F889060FF0C00100001BE00000A5C314E0D592A67037D2F7A4D559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n在我們計程車司機裡面，\n有個叫做札克的傢伙。<U+0010><U+0001>븁\n聽說他因為沉迷在ZA登峰戰，\n都沒在開計程車了。<U+0010><U+0001>븁\n所以現在大家都在說\n能搭到那傢伙的車很幸運。<U+0010><U+0001>븁\n但該說他是有熱情卻沒天賦嗎？<U+0010><U+0001>븁\n聽說他在ZA登峰戰中，\n根本不是別人的對手。<U+0010><U+0001>븁\n如果您去參加ZA登峰戰的話，\n說不定會碰巧遇到他呢。",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 10688,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5728621150118A087A0B8ECA53F86A5F88E19762FF0C000A6709500B53EB505A672D514B768450A24F19300200100001BE01000A807D8AAA4ED656E070BA6C898FF75728005A0041767B5CF06230FF0C000A90FD6C925728958B8A087A0B8ECA4E86300200100001BE01000A62404EE573FE572859275BB690FD57288AAA000A80FD642D523090A350A24F1976848ECA5F885E78904B300200100001BE01000A4F468A728AAA4ED6662F670971B160C5537B6C9259298CE655CEFF1F00100001BE01000A807D8AAA4ED65728005A0041767B5CF062304E2DFF0C000A6839672C4E0D662F52254EBA76845C0D624B300200100001BE01000A5982679C60A853BB53C352A0005A0041767B5CF0623076848A71FF0C000A8AAA4E0D5B9A670378B05DE7904752304ED6546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "客人，\n您對密阿雷的餐廳還熟悉嗎？<U+0010><U+0001>븁\n大家都以為當司機的\n一定很清楚那類的資訊，<U+0010><U+0001>븁\n但有車的話哪裡都能去，\n所以我通常會選內行人才知道的小店。<U+0010><U+0001>븁\n因此我不但無法介紹給客人，\n還反而希望客人介紹給我知道呢。<U+0010><U+0001>븁\n對了！\n計程車司機在選店的時候，<U+0010><U+0001>븀\n有一個非常重要的條件喔。<U+0010><U+0001>븁\n那就是要選人不在車上的時候，\n車子不會被野生寶可夢破壞的店。",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 11016,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A85C0D5BC6963F96F7768499105EF39084719F608955CEFF1F00100001BE01000A59275BB690FD4EE570BA757653F86A5F7684000A4E005B9A5F886E05695A90A3985E76848CC78A0AFF0C00100001BE01000A4F4667098ECA76848A7154EA88E190FD80FD53BBFF0C000A62404EE56211901A5E38670390785167884C4EBA624D77E5905376845C0F5E97300200100001BE01000A56E06B6462114E0D4F4671216CD54ECB7D397D665BA24EBAFF0C000A908453CD800C5E0C671B5BA24EBA4ECB7D397D66621177E590535462300200100001BE01000A5C0D4E86FF01000A8A087A0B8ECA53F86A5F572890785E97768466425019FF0C00100001BE00000A67094E00500B975E5E3891CD89817684689D4EF65594300200100001BE01000A90A35C31662F898190784EBA4E0D57288ECA4E0A768466425019FF0C000A8ECA5B504E0D670388AB91CE751F5BF653EF5922783458DE76845E9730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 179
+    },
+    {
+      "displayText": "………………\n………………<U+0010><U+0001>븁\n………………\n………………<U+0010><U+0001>븁\n………………\n………………<U+0010><U+0001>븁\n………………\n………………",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 11376,
+      "rawDecodedUtf16Hex": "202620262026202620262026000A20262026202620262026202600100001BE01000A202620262026202620262026000A20262026202620262026202600100001BE01000A202620262026202620262026000A20262026202620262026202600100001BE01000A202620262026202620262026000A2026202620262026202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "客人您……<U+0010><U+0001>븁\n不，沒事。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 11508,
+      "rawDecodedUtf16Hex": "5BA24EBA60A82026202600100001BE01000A4E0DFF0C6C924E8B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "客人，\n我的興趣是做咖哩。<U+0010><U+0001>븁\n裡頭放的香料都是我專程\n從伽勒爾地區訂購的喔。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 11540,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A6211768482088DA3662F505A549654E9300200100001BE01000A88E1982D653E76849999659990FD662F62115C087A0B000A5F9E4F3D52D2723E573053408A028CFC7684559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "客人，\n您看過異色寶可夢嗎？<U+0010><U+0001>븁\n有一次我在載客人時，\n稍微瞄到了一眼。<U+0010><U+0001>븁\n但當時不只是客人在趕時間，\n再來我也不能為了去捉牠<U+0010><U+0001>븀\n就把計程車停下來……<U+0010><U+0001>븀\n這種事真的很為難人呢。",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 11624,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A8770B904E757082725BF653EF592255CEFF1F00100001BE01000A67094E006B21621157288F095BA24EBA6642FF0C000A7A0D5FAE778452304E864E00773C300200100001BE01000A4F46757666424E0D53EA662F5BA24EBA57288D9566429593FF0C000A518D4F8662114E5F4E0D80FD70BA4E8653BB6349726000100001BE00000A5C31628A8A087A0B8ECA505C4E0B4F862026202600100001BE00000A90197A2E4E8B771F76845F8870BA96E34EBA546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "啊，聊著聊著\n目的地就在眼前了呢。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 11816,
+      "rawDecodedUtf16Hex": "554AFF0C804A8457804A8457000A76EE768457305C315728773C524D4E86546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "來來來，\n<U+0010><U+0002>Ǔ<U+0002>到囉。<U+0010><U+0001>븁\n嗯……\n車資是<U+E300>710。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 11852,
+      "rawDecodedUtf16Hex": "4F864F864F86FF0C000A0010000201D30002523056C9300200100001BE01000A55EF20262026000A8ECA8CC7662FE30000370031003030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "喂喂喂，我說客人啊！\n您的錢根本不夠啊！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 11912,
+      "rawDecodedUtf16Hex": "558255825582FF0C62118AAA5BA24EBA554AFF01000A60A8768493226839672C4E0D5920554AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "那麼，再會啦！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 11956,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C518D67035566FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 11972,
+      "rawDecodedUtf16Hex": "00100002BDFF006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "那麼，請繫好安全帶。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 11984,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C8ACB7E6B597D5B8951685E3630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "客人，\n您喜歡回轉夢想家嗎？<U+0010><U+0001>븁\n我有的時候會到\n回轉夢想家用餐。<U+0010><U+0001>븁\n但在那裡，我都會忍不住點套餐，\n導致寶可夢對戰占了太多時間，<U+0010><U+0001>븀\n讓我的休息時間就這麼過了呢。<U+0010><U+0001>븁\n順帶一提，聽說回轉夢想家\n在遠方的地區也設有分店喔。",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 12008,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A8559C6B6156DE8F49592260F35BB655CEFF1F00100001BE01000A6211670976846642501967035230000A56DE8F49592260F35BB675289910300200100001BE01000A4F46572890A388E1FF0C621190FD67035FCD4E0D4F4F9EDE59579910FF0C000A5C0E81F45BF653EF59225C0D623053604E86592A591A66429593FF0C00100001BE00000A8B93621176844F11606F664295935C3190199EBC904E4E865462300200100001BE01000A98065E364E0063D0FF0C807D8AAA56DE8F49592260F35BB6000A5728906065B97684573053404E5F8A2D670952065E97559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n以前曾經有部電影\n是在密阿雷南站拍的。<U+0010><U+0001>븀\n而且主角是個女大明星喔……<U+0010><U+0001>븁\n哎呀，這件事在當時\n還真是引起了不小的騷動呢。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 12244,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A4EE5524D66FE7D93670990E896FB5F71000A662F57285BC6963F96F753577AD962CD7684300200100001BE00000A800C4E144E3B89D2662F500B59735927660E661F55942026202600100001BE01000A54CE5440FF0C90194EF64E8B572875766642000A9084771F662F5F158D774E864E0D5C0F76849A3752D5546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n寶可夢的招式\n有所謂的射程呢。<U+0010><U+0001>븁\n然後啊，根據射程可能會有\n招式觸及不到對手的狀況呢。<U+0010><U+0001>븁\n也就是說，在使出招式的時候，\n和對手之間的距離似乎很重要呢。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 12400,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BF653EF5922768462DB5F0F000A670962408B0276845C047A0B5462300200100001BE01000A71365F8C554AFF0C683964DA5C047A0B53EF80FD67036709000A62DB5F0F89F853CA4E0D52305C0D624B768472C06CC15462300200100001BE01000A4E5F5C31662F8AAAFF0C57284F7F51FA62DB5F0F768466425019FF0C000A548C5C0D624B4E4B959376848DDD96E24F3C4E4E5F8891CD8981546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n寶可夢使出招式前要花的時間，\n被稱作發動時間。<U+0010><U+0001>븁\n聽說那個只要寶可夢的速度提高，\n招式發動前要花的時間<U+0010><U+0001>븀\n也會稍微變短的樣子喔。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 12588,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BF653EF59224F7F51FA62DB5F0F524D898182B1768466429593FF0C000A88AB7A314F5C767C52D566429593300200100001BE01000A807D8AAA90A3500B53EA89815BF653EF59227684901F5EA663D09AD8FF0C000A62DB5F0F767C52D5524D898182B176846642959300100001BE00000A4E5F67037A0D5FAE8B8A77ED76846A235B50559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n寶可夢的進化方式\n是非常豐富多樣的對吧。<U+0010><U+0001>븁\n聽說其中也有\n跟訓練家的感情不好<U+0010><U+0001>븀\n就不會進化的寶可夢喔。<U+0010><U+0001>븁\n如果想跟寶可夢變得要好，\n去咖啡館是最適合的了！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 12752,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A5BF653EF592276849032531665B95F0F000A662F975E5E388C505BCC591A6A2376845C0D5427300200100001BE01000A807D8AAA51764E2D4E5F6709000A8DDF8A137DF45BB67684611F60C54E0D597D00100001BE00000A5C314E0D67039032531676845BF653EF59225594300200100001BE01000A5982679C60F38DDF5BF653EF59228B8A5F978981597DFF0C000A53BB549655619928662F67009069540876844E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "客人，\n您知道嗎？<U+0010><U+0001>븁\n有1杯要價<U+E300>10萬的咖啡耶！<U+0010><U+0001>븁\n雖然我沒有喝過，\n但不曉得會是什麼樣的味道呢？",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 12948,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A877E5905355CEFF1F00100001BE01000A67090031676F898150F9E30000310030842C7684549655618036FF0100100001BE01000A96D6713662116C926709559D904EFF0C000A4F464E0D66C95F976703662F4EC09EBC6A237684547390535462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "客人，\n您有在使用寶可夢盒嗎？<U+0010><U+0001>븁\n1個盒子能寄放\n30隻捉到的寶可夢喔。<U+0010><U+0001>븁\n盒子在最一開始有8個，\n但隨著寄放的寶可夢越來越多，<U+0010><U+0001>븀\n盒子也會跟著增加喔。<U+0010><U+0001>븁\n順帶一提，\n整個盒子的位置也是可以替換的喔。",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 13060,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A8670957284F7F75285BF653EF592276D255CEFF1F00100001BE01000A0031500B76D25B5080FD5BC4653E000A0033003096BB6349523076845BF653EF59225594300200100001BE01000A76D25B50572867004E00958B59CB67090038500BFF0C000A4F4696A884575BC4653E76845BF653EF59228D8A4F868D8A591AFF0C00100001BE00000A76D25B504E5F67038DDF8457589E52A05594300200100001BE01000A98065E364E0063D0FF0C000A6574500B76D25B5076844F4D7F6E4E5F662F53EF4EE566FF63DB7684559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "客人，\n其實我很擅長<U+0010><U+0001>븀\n做三明治喔。<U+0010><U+0001>븁\n而且我還會特地從\n帕底亞地區訂材料來做呢。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 13280,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A51765BE662115F8864C5957700100001BE00000A505A4E09660E6CBB5594300200100001BE01000A800C4E14621190846703727957305F9E000A5E155E954E9E573053408A02675065994F86505A546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "客人，\n雖然有點突然……<U+0010><U+0001>븁\n有些人會因為長時間的沉默\n而緊張起來，對吧？<U+0010><U+0001>븁\n有一次我為了緩解沉默，\n向乘客提議了玩寶可夢接龍，<U+0010><U+0001>븀\n題目是「不會進化的寶可夢」。<U+0010><U+0001>븁\n結果沒想到對方一開口\n就回答了「伊布」。<U+0010><U+0001>븁\n頓時車內陷入了一片尷尬的沉默。",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 13372,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A96D6713667099EDE7A8171362026202600100001BE01000A67094E9B4EBA670356E070BA95776642959376846C899ED8000A800C7DCA5F358D774F86FF0C5C0D5427FF1F00100001BE01000A67094E006B21621170BA4E867DE989E36C899ED8FF0C000A54114E585BA263D08B704E8673A95BF653EF592263A59F8DFF0C00100001BE00000A984C76EE662F300C4E0D67039032531676845BF653EF5922300D300200100001BE01000A7D50679C6C9260F352305C0D65B94E00958B53E3000A5C3156DE7B544E86300C4F0A5E03300D300200100001BE01000A981366428ECA5167967751654E864E0072475C375C2C76846C899ED830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 129
+    },
+    {
+      "displayText": "客人，\n您是一個人對吧？<U+0010><U+0001>븁\n……不，沒什麼。<U+0010><U+0001>븁\n客人，\n請容我再問一次，<U+0010><U+0001>븀\n您是一個人對吧？<U+0010><U+0001>븁\n……不，沒什麼。<U+0010><U+0001>븁\n一定只是我的錯覺。",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 13632,
+      "rawDecodedUtf16Hex": "5BA24EBAFF0C000A60A8662F4E00500B4EBA5C0D5427FF1F00100001BE01000A202620264E0DFF0C6C924EC09EBC300200100001BE01000A5BA24EBAFF0C000A8ACB5BB96211518D554F4E006B21FF0C00100001BE00000A60A8662F4E00500B4EBA5C0D5427FF1F00100001BE01000A202620264E0DFF0C6C924EC09EBC300200100001BE01000A4E005B9A53EA662F62117684932F89BA30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "哎呀，\n快抵達目的地了呢。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 13788,
+      "rawDecodedUtf16Hex": "54CE5440FF0C000A5FEB62B5905476EE768457304E86546230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǔ<U+0002>\n到了。<U+0010><U+0001>븀\n車資是<U+E300>710。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 13816,
+      "rawDecodedUtf16Hex": "0010000201D30002000A52304E86300200100001BE00000A8ECA8CC7662FE30000370031003030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "喂喂喂，客人！\n您的錢不夠喔！真是的！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 13860,
+      "rawDecodedUtf16Hex": "558255825582FF0C5BA24EBAFF01000A60A8768493224E0D59205594FF01771F662F7684FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "希望下次還能為您服務喔！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 13904,
+      "rawDecodedUtf16Hex": "5E0C671B4E0B6B21908480FD70BA60A8670D52D95594FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿~",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 13932,
+      "rawDecodedUtf16Hex": "00100002BDFF007E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 13944,
+      "rawDecodedUtf16Hex": "00100002BDFF007F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 13956,
+      "rawDecodedUtf16Hex": "00100002BDFF00800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 13968,
+      "rawDecodedUtf16Hex": "00100002BDFF00810000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 13980,
+      "rawDecodedUtf16Hex": "00100002BDFF00820000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 13992,
+      "rawDecodedUtf16Hex": "00100002BDFF00830000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 14004,
+      "rawDecodedUtf16Hex": "00100002BDFF00840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 14016,
+      "rawDecodedUtf16Hex": "00100002BDFF00850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 14028,
+      "rawDecodedUtf16Hex": "00100002BDFF00860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 14040,
+      "rawDecodedUtf16Hex": "00100002BDFF00870000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 14052,
+      "rawDecodedUtf16Hex": "00100002BDFF00880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 14064,
+      "rawDecodedUtf16Hex": "00100002BDFF00890000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 14076,
+      "rawDecodedUtf16Hex": "00100002BDFF008A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 14088,
+      "rawDecodedUtf16Hex": "00100002BDFF008B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 14100,
+      "rawDecodedUtf16Hex": "00100002BDFF008C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 14112,
+  "sectionOffset": 16,
+  "textCount": 141,
+  "textSectionCount": 1
+}

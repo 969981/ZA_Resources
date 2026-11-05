@@ -1,0 +1,23 @@
+{
+  "declaredLength": 52,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "对方选择了结束。\n即将结束交换。<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "5BF965B9900962E94E867ED3675F3002000A53735C067ED3675F4EA46362300200100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 52,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

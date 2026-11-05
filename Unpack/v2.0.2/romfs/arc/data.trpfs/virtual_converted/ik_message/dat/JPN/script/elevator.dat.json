@@ -1,0 +1,173 @@
+{
+  "declaredLength": 1276,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>何階なんかい何階にいきますか？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "00100009FF01000200044F55968E306A3093304B30444F55968E306B3044304D307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 21,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "１<U+0010><U+0006>！<U+0001><U+0002>階かい階ロビーに<U+0010><U+0005>！<U+0001><U+0001>向む向かいますか？",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "FF1100100006FF0100010002968E304B3044968E30ED30D330FC306B00100005FF0100010001541130805411304B3044307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>は\nエレベータに<U+0010><U+0005>！<U+0001><U+0001>乗の乗った！",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "0010000201000000306F000A30A830EC30D930FC30BF306B00100005FF01000100014E57306E4E573063305FFF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "１<U+0010><U+0006>！<U+0001><U+0002>階かい階ロビー",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "FF1100100006FF0100010002968E304B3044968E30ED30D330FC00000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 14,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "２<U+0010><U+0006>！<U+0001><U+0002>階かい階",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "FF1200100006FF0100010002968E304B3044968E00000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "３<U+0010><U+0006>！<U+0001><U+0002>階かい階",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "FF1300100006FF0100010002968E304B3044968E00000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010>\n！<U+0002><U+0005>屋上おくじょう屋上",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "0010000AFF01000200055C4B4E0A304A304F3058308730465C4B4E0A000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "１<U+0010><U+0006>！<U+0001><U+0002>階かい階：ロビー",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "FF1100100006FF0100010002968E304B3044968EFF1A30ED30D330FC000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "２<U+0010><U+0006>！<U+0001><U+0002>階かい階：<U+0010><U+000D>！<U+0003><U+0007>研究室けんきゅうしつ研究室",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "FF1200100006FF0100010002968E304B3044968EFF1A0010000DFF010003000778147A765BA430513093304D308530463057306478147A765BA4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "３<U+0010><U+0006>！<U+0001><U+0002>階かい階：<U+0010><U+000D>！<U+0003><U+0007>所長室しょちょうしつ所長室",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "FF1300100006FF0100010002968E304B3044968EFF1A0010000DFF0100030007624095775BA43057308730613087304630573064624095775BA4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "エントランス",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "30A830F330C830E930F330B90000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "パーティーホール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "30D130FC30C630A330FC30DB30FC30EB000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0007>！<U+0002><U+0002>地下ちか地下１<U+0010><U+0006>！<U+0001><U+0002>階かい階",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1012,
+      "rawDecodedUtf16Hex": "00100007FF010002000257304E0B3061304B57304E0BFF1100100006FF0100010002968E304B3044968E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0007>！<U+0002><U+0002>地下ちか地下２<U+0010><U+0006>！<U+0001><U+0002>階かい階",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "00100007FF010002000257304E0B3061304B57304E0BFF1200100006FF0100010002968E304B3044968E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0007>！<U+0002><U+0002>地下ちか地下３<U+0010><U+0006>！<U+0001><U+0002>階かい階",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "00100007FF010002000257304E0B3061304B57304E0BFF1300100006FF0100010002968E304B3044968E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1276,
+  "sectionOffset": 16,
+  "textCount": 16,
+  "textSectionCount": 1
+}

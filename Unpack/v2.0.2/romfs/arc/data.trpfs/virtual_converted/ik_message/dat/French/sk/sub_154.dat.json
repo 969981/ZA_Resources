@@ -1,0 +1,373 @@
+{
+  "declaredLength": 4056,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Salut ! Moi, c’est Thélo ! Je voyage à travers\nle monde pour collectionner des Pokémon rares.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "00530061006C00750074002000210020004D006F0069002C00200063201900650073007400200054006800E9006C006F002000210020004A006500200076006F0079006100670065002000E000200074007200610076006500720073000A006C00650020006D006F006E0064006500200070006F0075007200200063006F006C006C0065006300740069006F006E006E00650072002000640065007300200050006F006B00E9006D006F006E002000720061007200650073002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Et lui, c’est Mordudor.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "004500740020006C00750069002C0020006320190065007300740020004D006F0072006400750064006F0072002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Mordu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "004D006F007200640075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Je l’ai attrapé en visitant la région de Paldea.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "004A00650020006C201900610069002000610074007400720061007000E900200065006E0020007600690073006900740061006E00740020006C00610020007200E900670069006F006E002000640065002000500061006C006400650061002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Mais le souci, c’est que pour le faire évoluer,\nil me faut des Pièces de Mordudor.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "004D0061006900730020006C006500200073006F007500630069002C002000632019006500730074002000710075006500200070006F007500720020006C0065002000660061006900720065002000E90076006F006C007500650072002C000A0069006C0020006D006500200066006100750074002000640065007300200050006900E80063006500730020006400650020004D006F0072006400750064006F0072002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Et pas qu’un peu !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "00450074002000700061007300200071007520190075006E00200070006500750020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Il m’en faut 999 !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "0049006C0020006D20190065006E0020006600610075007400200039003900390020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Et j’ai pas réussi à en trouver une seule à Illumis !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "004500740020006A20190061006900200070006100730020007200E90075007300730069002000E000200065006E002000740072006F007500760065007200200075006E00650020007300650075006C0065002000E000200049006C006C0075006D006900730020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "J’ai une idée ! Je vais te prêter Mordudor,\nmais en échange tu vas m’aider à le faire évoluer.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "004A20190061006900200075006E006500200069006400E90065002000210020004A00650020007600610069007300200074006500200070007200EA0074006500720020004D006F0072006400750064006F0072002C000A006D00610069007300200065006E002000E9006300680061006E0067006500200074007500200076006100730020006D201900610069006400650072002000E00020006C0065002000660061006900720065002000E90076006F006C007500650072002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "C’est d’accord !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "00432019006500730074002000642019006100630063006F00720064002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Attends, laisse-moi réfléchir...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "0041007400740065006E00640073002C0020006C00610069007300730065002D006D006F00690020007200E90066006C00E90063006800690072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "OK... Les gens sont pas très aimables, à Illumis...\nTout ce que je demande, c’est un coup de main...<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "004F004B002E002E002E0020004C00650073002000670065006E007300200073006F006E0074002000700061007300200074007200E80073002000610069006D00610062006C00650073002C002000E000200049006C006C0075006D00690073002E002E002E000A0054006F0075007400200063006500200071007500650020006A0065002000640065006D0061006E00640065002C00200063201900650073007400200075006E00200063006F007500700020006400650020006D00610069006E002E002E002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Tes Boîtes sont pleines !\nRelâche un Pokémon et reviens me voir.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "00540065007300200042006F00EE00740065007300200073006F006E007400200070006C00650069006E0065007300200021000A00520065006C00E200630068006500200075006E00200050006F006B00E9006D006F006E002000650074002000720065007600690065006E00730020006D006500200076006F00690072002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Super ! T’es un<U+0010><U+0003>ᄀÿ܅ garse fille en or !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "00530075007000650072002000210020005420190065007300200075006E00100003110000FF0705002000670061007200730065002000660069006C006C006500200065006E0020006F00720020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Vous recevez un Mordudor !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "0056006F007500730020007200650063006500760065007A00200075006E0020004D006F0072006400750064006F0072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Vous recevez 413 Pièces de Mordudor !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "0056006F007500730020007200650063006500760065007A002000340031003300200050006900E80063006500730020006400650020004D006F0072006400750064006F0072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Fais évoluer Mordudor pour moi !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "0046006100690073002000E90076006F006C0075006500720020004D006F0072006400750064006F007200200070006F007500720020006D006F00690020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Voici toutes les Pièces de Mordudor que\nj’ai trouvées à Paldea.<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F00750074006500730020006C0065007300200050006900E80063006500730020006400650020004D006F0072006400750064006F00720020007100750065000A006A201900610069002000740072006F0075007600E900650073002000E0002000500061006C006400650061002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Pour le faire évoluer, tu auras besoin\nd’un total de 999 pièces.<U+0010><U+0001>븁\nQuand ça sera fait, montre-le-moi !\nBonne chance !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "0050006F007500720020006C0065002000660061006900720065002000E90076006F006C007500650072002C0020007400750020006100750072006100730020006200650073006F0069006E000A006420190075006E00200074006F00740061006C002000640065002000390039003900200070006900E8006300650073002E00100001BE01000A005100750061006E0064002000E700610020007300650072006100200066006100690074002C0020006D006F006E007400720065002D006C0065002D006D006F006900200021000A0042006F006E006E00650020006300680061006E006300650020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Quand Mordudor aura évolué,\nviens me le montrer !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "005100750061006E00640020004D006F0072006400750064006F007200200061007500720061002000E90076006F006C007500E9002C000A007600690065006E00730020006D00650020006C00650020006D006F006E00740072006500720020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Alors ? Mordudor a évolué ?\nVite, montre-le-moi !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "0041006C006F007200730020003F0020004D006F0072006400750064006F007200200061002000E90076006F006C007500E90020003F000A0056006900740065002C0020006D006F006E007400720065002D006C0065002D006D006F00690020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Ouaaah... ! Il est éblouissant !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 2624,
+      "rawDecodedUtf16Hex": "004F00750061006100610068002E002E002E0020002100200049006C0020006500730074002000E90062006C006F00750069007300730061006E00740020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Écoute, je sais que j’abuse peut-être, mais...<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2700,
+      "rawDecodedUtf16Hex": "00C90063006F007500740065002C0020006A00650020007300610069007300200071007500650020006A20190061006200750073006500200070006500750074002D00EA007400720065002C0020006D006100690073002E002E002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Tu veux bien me donner ce Gromago ?\nAllez ! S’IL TE PLAÎT !!!<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "00540075002000760065007500780020006200690065006E0020006D006500200064006F006E006E00650072002000630065002000470072006F006D00610067006F0020003F000A0041006C006C0065007A002000210020005320190049004C00200054004500200050004C004100CE0054002000210021002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "OK, pas de problème.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "004F004B002C0020007000610073002000640065002000700072006F0062006C00E8006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Pas tout de suite.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "00500061007300200074006F00750074002000640065002000730075006900740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Je comprends...\nBah écoute, tant pis pour moi...<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "004A006500200063006F006D007000720065006E00640073002E002E002E000A004200610068002000E90063006F007500740065002C002000740061006E0074002000700069007300200070006F007500720020006D006F0069002E002E002E00100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Je vais reprendre la chasse aux pièces\net faire évoluer un autre Mordudor !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3128,
+      "rawDecodedUtf16Hex": "004A006500200076006100690073002000720065007000720065006E0064007200650020006C00610020006300680061007300730065002000610075007800200070006900E8006300650073000A00650074002000660061006900720065002000E90076006F006C00750065007200200075006E0020006100750074007200650020004D006F0072006400750064006F00720020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Ça alors, t’es VRAIMENT un<U+0010><U+0003>ᄀÿ܅ garse fille en or !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3288,
+      "rawDecodedUtf16Hex": "00C7006100200061006C006F00720073002C0020007420190065007300200056005200410049004D0045004E005400200075006E00100003110000FF0705002000670061007200730065002000660069006C006C006500200065006E0020006F00720020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Avec Gromago à mes côtés, c’est comme si\nmoi aussi je brillais !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 3400,
+      "rawDecodedUtf16Hex": "0041007600650063002000470072006F006D00610067006F002000E00020006D006500730020006300F4007400E90073002C00200063201900650073007400200063006F006D006D0065002000730069000A006D006F00690020006100750073007300690020006A00650020006200720069006C006C0061006900730020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Je te remercie du fond du cœur de ton aide !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3540,
+      "rawDecodedUtf16Hex": "004A0065002000740065002000720065006D0065007200630069006500200064007500200066006F006E00640020006400750020006301530075007200200064006500200074006F006E002000610069006400650020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Grâce à tous tes efforts, j’ai réussi à avoir\nun Gromago comme partenaire !<U+0010><U+0001>븀\nJe te serai éternellement reconnaissant !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3652,
+      "rawDecodedUtf16Hex": "0047007200E200630065002000E000200074006F0075007300200074006500730020006500660066006F007200740073002C0020006A2019006100690020007200E90075007300730069002000E0002000610076006F00690072000A0075006E002000470072006F006D00610067006F00200063006F006D006D0065002000700061007200740065006E00610069007200650020002100100001BE00000A004A0065002000740065002000730065007200610069002000E9007400650072006E0065006C006C0065006D0065006E00740020007200650063006F006E006E00610069007300730061006E00740020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "Gogogo !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3904,
+      "rawDecodedUtf16Hex": "0047006F0067006F0067006F002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Un jour, moi aussi je ferai évoluer un Mordudor,\ntu verras !<U+0010><U+0002>Ĕǁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 3924,
+      "rawDecodedUtf16Hex": "0055006E0020006A006F00750072002C0020006D006F00690020006100750073007300690020006A0065002000660065007200610069002000E90076006F006C00750065007200200075006E0020004D006F0072006400750064006F0072002C000A0074007500200076006500720072006100730020002100100002011401C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4056,
+  "sectionOffset": 16,
+  "textCount": 36,
+  "textSectionCount": 1
+}

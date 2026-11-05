@@ -1,0 +1,423 @@
+{
+  "declaredLength": 4160,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Du hast verloren... Sorge dafür, dass dein<U+0010><U+0003>ᄁýĀe\nPokémon stärker w<U+0010><U+0003>ᄁýԃirderden, und versuche es erneut!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020007600650072006C006F00720065006E002E002E002E00200053006F007200670065002000640061006600FC0072002C002000640061007300730020006400650069006E00100003110100FD01000065000A0050006F006B00E9006D006F006E00200073007400E40072006B006500720020007700100003110100FD05030069007200640065007200640065006E002C00200075006E0064002000760065007200730075006300680065002000650073002000650072006E00650075007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Du kannst dir keine Niederlage leisten!\nVersuche es erneut!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E0073007400200064006900720020006B00650069006E00650020004E00690065006400650072006C0061006700650020006C00650069007300740065006E0021000A00560065007200730075006300680065002000650073002000650072006E00650075007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Prüfung des Challenge-Tickets abgeschlossen.\nGenehmigung zum Aufstiegsmatch wurde erteilt.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "0050007200FC00660075006E006700200064006500730020004300680061006C006C0065006E00670065002D005400690063006B00650074007300200061006200670065007300630068006C006F007300730065006E002E000A00470065006E00650068006D006900670075006E00670020007A0075006D0020004100750066007300740069006500670073006D0061007400630068002000770075007200640065002000650072007400650069006C0074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Möchtest du es erneut versuchen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000650073002000650072006E006500750074002000760065007200730075006300680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Kampf neu starten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "004B0061006D007000660020006E006500750020007300740061007200740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Fortschritt übernehmen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "0046006F007200740073006300680072006900740074002000FC006200650072006E00650068006D0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Aufgeben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "0041007500660067006500620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Wenn du „Fortschritt übernehmen“ auswählst,\nwird ein Teil deines erteilten Schadens aus<U+0010><U+0001>븀\ndeinem letzten Versuch übernommen.<U+0010><U+0001>븁\nMöchtest du den Fortschritt übernehmen?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "00570065006E006E0020006400750020201E0046006F007200740073006300680072006900740074002000FC006200650072006E00650068006D0065006E201C0020006100750073007700E40068006C00730074002C000A0077006900720064002000650069006E0020005400650069006C0020006400650069006E00650073002000650072007400650069006C00740065006E0020005300630068006100640065006E0073002000610075007300100001BE00000A006400650069006E0065006D0020006C00650074007A00740065006E00200056006500720073007500630068002000FC006200650072006E006F006D006D0065006E002E00100001BE01000A004D00F6006300680074006500730074002000640075002000640065006E00200046006F007200740073006300680072006900740074002000FC006200650072006E00650068006D0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 169
+    },
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Zurück",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1384,
+      "rawDecodedUtf16Hex": "005A0075007200FC0063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Hilfe",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "00480069006C006600650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Greife so oft wie möglich mit Lucarios Attacken\nan und sammle die Kugeln aus Mega-Essenz,<U+0010><U+0001>븀\ndie es verstreut.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "00470072006500690066006500200073006F0020006F0066007400200077006900650020006D00F60067006C0069006300680020006D006900740020004C00750063006100720069006F0073002000410074007400610063006B0065006E000A0061006E00200075006E0064002000730061006D006D006C006500200064006900650020004B007500670065006C006E00200061007500730020004D006500670061002D0045007300730065006E007A002C00100001BE00000A0064006900650020006500730020007600650072007300740072006500750074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "Drücke <U+0010><U+0002>봊<U+000C>Stick_R_Push, sobald du genug Mega-Essenz hast,\num die Mega-Entwicklung auszulösen.<U+0010><U+0001>븁\nDanach kannst du mit stärkeren Attacken\nangreifen!",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "0044007200FC0063006B0065002000100002BD0A000C0053007400690063006B005F0052005F0050007500730068002C00200073006F00620061006C0064002000640075002000670065006E007500670020004D006500670061002D0045007300730065006E007A00200068006100730074002C000A0075006D00200064006900650020004D006500670061002D0045006E0074007700690063006B006C0075006E00670020006100750073007A0075006C00F600730065006E002E00100001BE01000A00440061006E0061006300680020006B0061006E006E007300740020006400750020006D0069007400200073007400E40072006B006500720065006E002000410074007400610063006B0065006E000A0061006E006700720065006900660065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 149
+    },
+    {
+      "displayText": "Wenn Absol anfängt, Kraft zu sammeln,\ngeh schnell auf Abstand und mach dich bereit<U+0010><U+0001>븀\nauszuweichen!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "00570065006E006E0020004100620073006F006C00200061006E006600E4006E00670074002C0020004B00720061006600740020007A0075002000730061006D006D0065006C006E002C000A0067006500680020007300630068006E0065006C006C0020006100750066002000410062007300740061006E006400200075006E00640020006D00610063006800200064006900630068002000620065007200650069007400100001BE00000A006100750073007A0075007700650069006300680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Absol zu nahe zu kommen, kann gefährlich sein.\nDrücke <U+0010><U+0002>봊<U+0004>Sp_2, um mit einer Rolle auszuweichen!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2136,
+      "rawDecodedUtf16Hex": "004100620073006F006C0020007A00750020006E0061006800650020007A00750020006B006F006D006D0065006E002C0020006B0061006E006E002000670065006600E400680072006C0069006300680020007300650069006E002E000A0044007200FC0063006B0065002000100002BD0A000400530070005F0032002C00200075006D0020006D00690074002000650069006E0065007200200052006F006C006C00650020006100750073007A0075007700650069006300680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Das Schutz-Item wirkt nicht mehr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "004400610073002000530063006800750074007A002D004900740065006D0020007700690072006B00740020006E00690063006800740020006D00650068007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Das Schutz-Item wirkt nicht mehr!\nErneut einsetzen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "004400610073002000530063006800750074007A002D004900740065006D0020007700690072006B00740020006E00690063006800740020006D0065006800720021000A00450072006E006500750074002000650069006E007300650074007A0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du setzt <U+0010><U+0003>ᘆ<U+0001><U+0000><U+0010><U+0002>Đ<U+0001>\nein.",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2504,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020007300650074007A00740020001000031606000100000010000201100001000A00650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Huch...?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2560,
+      "rawDecodedUtf16Hex": "0048007500630068002E002E002E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Du kannst hier nicht auf <U+0010><U+0002>ā<U+0000> reiten!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000680069006500720020006E0069006300680074002000610075006600200010000201010000002000720065006900740065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Du kannst hier nicht auf <U+0010><U+0002>Ă<U+0000> reiten!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2656,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000680069006500720020006E0069006300680074002000610075006600200010000201020000002000720065006900740065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Deine Boxen sind voll!\nBitte versuche es später erneut.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "004400650069006E006500200042006F00780065006E002000730069006E006400200076006F006C006C0021000A0042006900740074006500200076006500720073007500630068006500200065007300200073007000E4007400650072002000650072006E006500750074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Du vermerkst den Stand der Dinge in der\n<U+0010><U+0002>ĉ<U+0001>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2844,
+      "rawDecodedUtf16Hex": "004400750020007600650072006D00650072006B00730074002000640065006E0020005300740061006E00640020006400650072002000440069006E0067006500200069006E0020006400650072000A0010000201090001002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Ein Zaubertausch steht noch aus.\nBitte verbinde dich mit dem Internet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "00450069006E0020005A006100750062006500720074006100750073006300680020007300740065006800740020006E006F006300680020006100750073002E000A00420069007400740065002000760065007200620069006E00640065002000640069006300680020006D00690074002000640065006D00200049006E007400650072006E00650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Möchtest du an den Ort zurückkehren, an dem\ndu dich vorher befunden hast?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "004D00F600630068007400650073007400200064007500200061006E002000640065006E0020004F007200740020007A0075007200FC0063006B006B0065006800720065006E002C00200061006E002000640065006D000A006400750020006400690063006800200076006F007200680065007200200062006500660075006E00640065006E00200068006100730074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Du bist schleunigst zu den anderen\nzurückgekehrt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "00440075002000620069007300740020007300630068006C00650075006E00690067007300740020007A0075002000640065006E00200061006E0064006500720065006E000A007A0075007200FC0063006B00670065006B0065006800720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Hoopas Donut-Energie wurde aufgebraucht!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3328,
+      "rawDecodedUtf16Hex": "0048006F006F00700061007300200044006F006E00750074002D0045006E00650072006700690065002000770075007200640065002000610075006600670065006200720061007500630068007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Du verlässt diese Dimension.\nBist du damit einverstanden?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3412,
+      "rawDecodedUtf16Hex": "004400750020007600650072006C00E4007300730074002000640069006500730065002000440069006D0065006E00730069006F006E002E000A0042006900730074002000640075002000640061006D00690074002000650069006E007600650072007300740061006E00640065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3528,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3536,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mega-Palimpalim greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3548,
+      "rawDecodedUtf16Hex": "004D006500670061002D00500061006C0069006D00700061006C0069006D002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Mega-Knakrack Z greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3604,
+      "rawDecodedUtf16Hex": "004D006500670061002D004B006E0061006B007200610063006B0020005A002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Mega-Golgantes greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3660,
+      "rawDecodedUtf16Hex": "004D006500670061002D0047006F006C00670061006E007400650073002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Mega-Tectass greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3712,
+      "rawDecodedUtf16Hex": "004D006500670061002D0054006500630074006100730073002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Mega-Halupenjo greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3760,
+      "rawDecodedUtf16Hex": "004D006500670061002D00480061006C007500700065006E006A006F002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Mega-Lumiflora greift an!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3812,
+      "rawDecodedUtf16Hex": "004D006500670061002D004C0075006D00690066006C006F00720061002000670072006500690066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3864,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Es scheint sich ein <U+0010><U+0002>ā<U+0002> in deiner\nNähe<U+0010><U+0001>븀\nzu<U+0010><U+0001>븀\nbefinden!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3876,
+      "rawDecodedUtf16Hex": "00100002BD06000000450073002000730063006800650069006E007400200073006900630068002000650069006E0020001000020101000200200069006E0020006400650069006E00650072000A004E00E40068006500100001BE00000A007A007500100001BE00000A0062006500660069006E00640065006E002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Finde und fange es!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4012,
+      "rawDecodedUtf16Hex": "00460069006E0064006500200075006E0064002000660061006E00670065002000650073002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Der goldene Bonusball enthält verschiedene\nItems!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4060,
+      "rawDecodedUtf16Hex": "00440065007200200067006F006C00640065006E006500200042006F006E0075007300620061006C006C00200065006E0074006800E4006C007400200076006500720073006300680069006500640065006E0065000A004900740065006D007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4160,
+  "sectionOffset": 16,
+  "textCount": 41,
+  "textSectionCount": 1
+}

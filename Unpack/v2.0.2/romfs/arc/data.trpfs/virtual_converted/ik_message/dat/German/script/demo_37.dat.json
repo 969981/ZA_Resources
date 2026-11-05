@@ -1,0 +1,33 @@
+{
+  "declaredLength": 212,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Die Zukunft entspringt immer aus der Gegenwart.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0044006900650020005A0075006B0075006E0066007400200065006E00740073007000720069006E0067007400200069006D006D006500720020006100750073002000640065007200200047006500670065006E0077006100720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Team MZ, ich danke euch aus tiefstem Herzen...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "005400650061006D0020004D005A002C0020006900630068002000640061006E006B006500200065007500630068002000610075007300200074006900650066007300740065006D0020004800650072007A0065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 212,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

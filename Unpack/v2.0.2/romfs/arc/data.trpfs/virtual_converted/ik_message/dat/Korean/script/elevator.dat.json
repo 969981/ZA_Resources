@@ -1,0 +1,173 @@
+{
+  "declaredLength": 380,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "몇 층으로 가겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "BA870020CE35C73CB85C0020AC00ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "1층 로비로 가겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "0031CE350020B85CBE44B85C0020AC00ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n엘리베이터에 탔다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000AC5D8B9ACBCA0C774D130C5D00020D0D4B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "1층 로비",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "0031CE350020B85CBE440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "2층",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "0032CE350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "3층",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "0033CE350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "옥상",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "C625C0C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "1층: 로비",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 276,
+      "rawDecodedUtf16Hex": "0031CE35003A0020B85CBE440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "2층: 연구실",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "0032CE35003A0020C5F0AD6CC2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "3층: 소장실",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "0033CE35003A0020C18CC7A5C2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "입구",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "C785AD6C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "파티 홀",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "D30CD2F00020D6400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "지하 1층",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "C9C0D55800200031CE350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "지하 2층",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "C9C0D55800200032CE350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "지하 3층",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 368,
+      "rawDecodedUtf16Hex": "C9C0D55800200033CE350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 380,
+  "sectionOffset": 16,
+  "textCount": 16,
+  "textSectionCount": 1
+}

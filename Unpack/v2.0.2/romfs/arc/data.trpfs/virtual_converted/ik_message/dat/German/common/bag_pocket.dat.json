@@ -1,0 +1,103 @@
+{
+  "declaredLength": 304,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Medizinfach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "004D006500640069007A0069006E00660061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Pokéball-Fach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 1,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0050006F006B00E900620061006C006C002D00460061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Kampffach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 2,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "004B0061006D0070006600660061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Beerenfach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00420065006500720065006E00660061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Trainingsfach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 4,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "0054007200610069006E0069006E0067007300660061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "TM-Fach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 5,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "0054004D002D00460061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Schatzfach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 6,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "00530063006800610074007A00660061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Basis-Item-Fach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 7,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "00420061007300690073002D004900740065006D002D00460061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Mega-Stein-Fach",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "004D006500670061002D0053007400650069006E002D00460061006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 304,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

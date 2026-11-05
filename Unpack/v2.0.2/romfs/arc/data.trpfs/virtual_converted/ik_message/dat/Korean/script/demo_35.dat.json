@@ -1,0 +1,33 @@
+{
+  "declaredLength": 128,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "지가르데의 지가르데나이트와\n<U+0010><U+0002>Ā<U+0000>의 키스톤이 반응했다!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "C9C0AC00B974B370C7580020C9C0AC00B974B370B098C774D2B8C640000A0010000201000000C7580020D0A4C2A4D1A4C7740020BC18C751D588B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "지가르데는\n메가지가르데로 메가진화했다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "C9C0AC00B974B370B294000ABA54AC00C9C0AC00B974B370B85C0020BA54AC00C9C4D654D588B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 128,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

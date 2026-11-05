@@ -1,0 +1,103 @@
+{
+  "declaredLength": 916,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Dejadnos pasar! Tengo que acompañar a est<U+0010><U+0003>ᄀÿāea\nclient<U+0010><U+0003>ᄀÿāea al hotel.",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "00A100440065006A00610064006E006F00730020007000610073006100720021002000540065006E0067006F0020007100750065002000610063006F006D0070006100F10061007200200061002000650073007400100003110000FF010100650061000A0063006C00690065006E007400100003110000FF01010065006100200061006C00200068006F00740065006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "¡Dejadnos pasar! Tengo que acompañar a est<U+0010><U+0003>ᄀÿāea\nclient<U+0010><U+0003>ᄀÿāea al hotel.",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "00A100440065006A00610064006E006F00730020007000610073006100720021002000540065006E0067006F0020007100750065002000610063006F006D0070006100F10061007200200061002000650073007400100003110000FF010100650061000A0063006C00690065006E007400100003110000FF01010065006100200061006C00200068006F00740065006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "En la zona de combate, no hay cliente que valga.\nYo solo veo gente contra quien combatir.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "0045006E0020006C00610020007A006F006E006100200064006500200063006F006D0062006100740065002C0020006E006F002000680061007900200063006C00690065006E007400650020007100750065002000760061006C00670061002E000A0059006F00200073006F006C006F002000760065006F002000670065006E0074006500200063006F006E00740072006100200071007500690065006E00200063006F006D00620061007400690072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "No queda otra. ¡Yo me encargo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "004E006F0020007100750065006400610020006F007400720061002E002000A10059006F0020006D006500200065006E0063006100720067006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "No queda otra. ¡Yo me encargo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "004E006F0020007100750065006400610020006F007400720061002E002000A10059006F0020006D006500200065006E0063006100720067006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "¡Ette!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "00A1004500740074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "¿Un Floette con una flor negra? ¡Qué raro!\nVeamos cómo se las arregla en combate.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "00BF0055006E00200046006C006F006500740074006500200063006F006E00200075006E006100200066006C006F00720020006E0065006700720061003F002000A10051007500E90020007200610072006F0021000A005600650061006D006F00730020006300F3006D006F0020007300650020006C00610073002000610072007200650067006C006100200065006E00200063006F006D0062006100740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "¡Floette, no!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "00A10046006C006F0065007400740065002C0020006E006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "¡Floette, no!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "00A10046006C006F0065007400740065002C0020006E006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 916,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

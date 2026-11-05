@@ -1,0 +1,193 @@
+{
+  "declaredLength": 2304,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "C’est une carte d’Illumis.<U+0010><U+0001>븁\n<U+0010><U+0002>Ƌ<U+0001> y a inscrit des informations sur\nles Pokémon Méga-Ferox.",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "0043201900650073007400200075006E00650020006300610072007400650020006420190049006C006C0075006D00690073002E00100001BE01000A00100002018B0001002000790020006100200069006E00730063007200690074002000640065007300200069006E0066006F0072006D006100740069006F006E00730020007300750072000A006C0065007300200050006F006B00E9006D006F006E0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Ce PC portable sert à faire du montage vidéo.\nMieux vaut ne pas regarder ce qu’il contient...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "0043006500200050004300200070006F0072007400610062006C006500200073006500720074002000E00020006600610069007200650020006400750020006D006F006E0074006100670065002000760069006400E9006F002E000A004D0069006500750078002000760061007500740020006E0065002000700061007300200072006500670061007200640065007200200063006500200071007520190069006C00200063006F006E007400690065006E0074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Il y a des brochures de la société Quazar.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "0049006C00200079002000610020006400650073002000620072006F0063006800750072006500730020006400650020006C006100200073006F0063006900E9007400E90020005100750061007A00610072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "C’est un sac.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "0043201900650073007400200075006E0020007300610063002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "De vieux journaux d’Illumis ayant servi\nà la recherche d’une personne disparue.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "004400650020007600690065007500780020006A006F00750072006E0061007500780020006420190049006C006C0075006D006900730020006100790061006E0074002000730065007200760069000A00E00020006C006100200072006500630068006500720063006800650020006420190075006E006500200070006500720073006F006E006E0065002000640069007300700061007200750065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Le lit est recouvert de morceaux de tissu\net de vêtements créés par Inno.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "004C00650020006C0069007400200065007300740020007200650063006F007500760065007200740020006400650020006D006F007200630065006100750078002000640065002000740069007300730075000A006500740020006400650020007600EA00740065006D0065006E0074007300200063007200E900E90073002000700061007200200049006E006E006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "C’est la machine à coudre d’Inno.\nIl y tient beaucoup.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00610020006D0061006300680069006E0065002000E000200063006F00750064007200650020006420190049006E006E006F002E000A0049006C002000790020007400690065006E0074002000620065006100750063006F00750070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Le carton est rempli à ras bord de vieux\nvêtements qu’Inno a récupérés.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "004C006500200063006100720074006F006E0020006500730074002000720065006D0070006C0069002000E0002000720061007300200062006F00720064002000640065002000760069006500750078000A007600EA00740065006D0065006E0074007300200071007520190049006E006E006F002000610020007200E900630075007000E9007200E90073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Des croquis et du matériel de couture sont\néparpillés.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "004400650073002000630072006F00710075006900730020006500740020006400750020006D0061007400E9007200690065006C00200064006500200063006F0075007400750072006500200073006F006E0074000A00E900700061007200700069006C006C00E90073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "C’est la Naricâline dédicacée que vous avez\nofferte à Inno.<U+0010><U+0001>븁\nIl en prend grand soin. Il paraît même qu’il lui\nconfie ce qu’il fait de ses journées.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00610020004E006100720069006300E2006C0069006E00650020006400E90064006900630061006300E90065002000710075006500200076006F007500730020006100760065007A000A006F006600660065007200740065002000E000200049006E006E006F002E00100001BE01000A0049006C00200065006E0020007000720065006E00640020006700720061006E006400200073006F0069006E002E00200049006C0020007000610072006100EE00740020006D00EA006D006500200071007520190069006C0020006C00750069000A0063006F006E00660069006500200063006500200071007520190069006C0020006600610069007400200064006500200073006500730020006A006F00750072006E00E900650073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 150
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ce gros sac est rempli de vêtements.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00430065002000670072006F007300200073006100630020006500730074002000720065006D0070006C00690020006400650020007600EA00740065006D0065006E00740073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "La table est couverte de boissons énergisantes.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1712,
+      "rawDecodedUtf16Hex": "004C00610020007400610062006C0065002000650073007400200063006F00750076006500720074006500200064006500200062006F006900730073006F006E0073002000E9006E006500720067006900730061006E007400650073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Il y a des boissons énergisantes devant le tableau.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "0049006C0020007900200061002000640065007300200062006F006900730073006F006E0073002000E9006E006500720067006900730061006E00740065007300200064006500760061006E00740020006C00650020007400610062006C006500610075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Un grand miroir sur pied, parfait pour s’observer\nquand on danse.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "0055006E0020006700720061006E00640020006D00690072006F00690072002000730075007200200070006900650064002C0020007000610072006600610069007400200070006F00750072002000732019006F0062007300650072007600650072000A007100750061006E00640020006F006E002000640061006E00730065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Un tapis d’entraînement enroulé et rangé\nà la verticale.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "0055006E0020007400610070006900730020006420190065006E00740072006100EE006E0065006D0065006E007400200065006E0072006F0075006C00E9002000650074002000720061006E006700E9000A00E00020006C006100200076006500720074006900630061006C0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Cette carte postale semble avoir été envoyée\ndepuis la région de Hoenn.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "0043006500740074006500200063006100720074006500200070006F007300740061006C0065002000730065006D0062006C0065002000610076006F00690072002000E9007400E900200065006E0076006F007900E90065000A0064006500700075006900730020006C00610020007200E900670069006F006E00200064006500200048006F0065006E006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2304,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

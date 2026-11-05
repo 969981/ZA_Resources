@@ -1,0 +1,43 @@
+{
+  "declaredLength": 436,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Die Tassen auf der Theke sehen so aus, als hätte\nerst kürzlich jemand daraus getrunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004400690065002000540061007300730065006E002000610075006600200064006500720020005400680065006B006500200073006500680065006E00200073006F0020006100750073002C00200061006C00730020006800E4007400740065000A00650072007300740020006B00FC0072007A006C0069006300680020006A0065006D0061006E00640020006400610072006100750073002000670065007400720075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Hier liegen überall Kisten herum. Ob jemand\ndabei war, aufzuräumen...?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "00480069006500720020006C0069006500670065006E002000FC0062006500720061006C006C0020004B0069007300740065006E00200068006500720075006D002E0020004F00620020006A0065006D0061006E0064000A006400610062006500690020007700610072002C0020006100750066007A0075007200E40075006D0065006E002E002E002E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Eine feine Staubschicht bedeckt die Regale.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00450069006E00650020006600650069006E00650020005300740061007500620073006300680069006300680074002000620065006400650063006B0074002000640069006500200052006500670061006C0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 436,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

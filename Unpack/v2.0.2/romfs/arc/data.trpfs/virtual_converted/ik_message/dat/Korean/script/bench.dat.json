@@ -1,0 +1,133 @@
+{
+  "declaredLength": 392,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "벤치가 있다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "BCA4CE58AC000020C788B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "벤치에서 일어나겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "BCA4CE58C5D0C11C0020C77CC5B4B098ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "밤까지 시간을 보내겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "BC24AE4CC9C00020C2DCAC04C7440020BCF4B0B4ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "아침까지 시간을 보내겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "C544CE68AE4CC9C00020C2DCAC04C7440020BCF4B0B4ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "사진 촬영을 그만두겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "C0ACC9C40020CD2CC601C7440020ADF8B9CCB450ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "시간을 보낸다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "C2DCAC04C7440020BCF4B0B8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "포켓몬과 휴식한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACACFC0020D734C2DDD55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "예",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "C6080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "아니요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "C544B2C8C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "지금은 쉬고 있을 때가 아니다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "C9C0AE08C7400020C26CACE00020C788C7440020B54CAC000020C544B2C8B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "배틀 존에서\n느긋하게 쉬고 있을 여유는 없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "BC30D2C00020C874C5D0C11C000AB290AE0BD558AC8C0020C26CACE00020C788C7440020C5ECC720B2940020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 392,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

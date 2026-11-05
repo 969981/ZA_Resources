@@ -1,0 +1,233 @@
+{
+  "declaredLength": 1012,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Yes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0059006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "You’re ready to go!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "0059006F007520190072006500200072006500610064007900200074006F00200067006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Now saving...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "004E006F007700200073006100760069006E0067002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Whenever you see “Now saving...” on the screen,\nyour progress is being automatically saved.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "005700680065006E006500760065007200200079006F007500200073006500650020201C004E006F007700200073006100760069006E0067002E002E002E201D0020006F006E0020007400680065002000730063007200650065006E002C000A0079006F00750072002000700072006F006700720065007300730020006900730020006200650069006E00670020006100750074006F006D00610074006900630061006C006C0079002000730061007600650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Choose an option below to get started.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00430068006F006F0073006500200061006E0020006F007000740069006F006E002000620065006C006F007700200074006F002000670065007400200073007400610072007400650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Use the Left Stick",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "00550073006500200074006800650020004C00650066007400200053007400690063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Confirm Settings",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "0043006F006E006600690072006D002000530065007400740069006E006700730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Would you like to go with these settings?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "0057006F0075006C006400200079006F00750020006C0069006B006500200074006F00200067006F00200077006900740068002000740068006500730065002000730065007400740069006E00670073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "You can’t change your language or name after starting the game.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E201900740020006300680061006E0067006500200079006F007500720020006C0061006E006700750061006700650020006F00720020006E0061006D00650020006100660074006500720020007300740061007200740069006E00670020007400680065002000670061006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Language",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "004C0061006E006700750061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "English",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 836,
+      "rawDecodedUtf16Hex": "0045006E0067006C0069007300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Name",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "004E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ɖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "00100002018900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Change hair color",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "004300680061006E006700650020006800610069007200200063006F006C006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Change looks",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "004300680061006E006700650020006C006F006F006B00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 964,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Back",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "004200610063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1012,
+  "sectionOffset": 16,
+  "textCount": 22,
+  "textSectionCount": 1
+}

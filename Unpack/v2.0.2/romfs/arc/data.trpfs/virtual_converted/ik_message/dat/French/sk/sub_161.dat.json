@@ -1,0 +1,403 @@
+{
+  "declaredLength": 4844,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Tiens, c’est <U+0010><U+0002>Ā<U+0000> !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "005400690065006E0073002C0020006320190065007300740020001000020100000000200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "On peut plus être tranquilles en famille, faut\ntoujours qu’on vienne nous enquiquiner !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "004F006E0020007000650075007400200070006C00750073002000EA0074007200650020007400720061006E007100750069006C006C0065007300200065006E002000660061006D0069006C006C0065002C00200066006100750074000A0074006F0075006A006F0075007200730020007100752019006F006E0020007600690065006E006E00650020006E006F0075007300200065006E007100750069007100750069006E006500720020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Mais qu’est-ce que tu racontes ?!<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "004D0061006900730020007100752019006500730074002D0063006500200071007500650020007400750020007200610063006F006E0074006500730020003F0021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Attendez !<U+0010><U+0001>븁\nIl n’y en a que pour <U+0010><U+0002>Ā<U+0000>. Moi aussi,\nj’ai... j’ai quelque chose à dire à Narica !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0041007400740065006E00640065007A0020002100100001BE01000A0049006C0020006E2019007900200065006E00200061002000710075006500200070006F0075007200200010000201000000002E0020004D006F0069002000610075007300730069002C000A006A201900610069002E002E002E0020006A2019006100690020007100750065006C007100750065002000630068006F00730065002000E000200064006900720065002000E00020004E0061007200690063006100200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Mais avant tout, je voudrais vous défier,\nles Digi-Z4P !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "004D0061006900730020006100760061006E007400200074006F00750074002C0020006A006500200076006F00750064007200610069007300200076006F007500730020006400E90066006900650072002C000A006C0065007300200044006900670069002D005A0034005000200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Hé, c’est pas une mauvaise idée !\nT’en penses quoi, <U+0010><U+0002>Ā<U+0000> ?<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "004800E9002C002000632019006500730074002000700061007300200075006E00650020006D006100750076006100690073006500200069006400E9006500200021000A005420190065006E002000700065006E007300650073002000710075006F0069002C002000100002010000000020003F001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Ça me va !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "00C700610020006D0065002000760061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Une prochaine fois...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "0055006E0065002000700072006F0063006800610069006E006500200066006F00690073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "D’habitude, tu acceptes, mais je suppose que\nparfois, tu n’es pas d’humeur à te battre...<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "0044201900680061006200690074007500640065002C002000740075002000610063006300650070007400650073002C0020006D0061006900730020006A006500200073007500700070006F007300650020007100750065000A0070006100720066006F00690073002C0020007400750020006E201900650073002000700061007300200064201900680075006D006500750072002000E00020007400650020006200610074007400720065002E002E002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Avec Baggaïd et mon équipe, on a une chance\nde gagner... Non ! On VA gagner !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "004100760065006300200042006100670067006100EF00640020006500740020006D006F006E002000E900710075006900700065002C0020006F006E0020006100200075006E00650020006300680061006E00630065000A006400650020006700610067006E00650072002E002E002E0020004E006F006E002000210020004F006E0020005600410020006700610067006E0065007200200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "J’peux pas refuser un combat contre\nmes Narickers !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1512,
+      "rawDecodedUtf16Hex": "004A2019007000650075007800200070006100730020007200650066007500730065007200200075006E00200063006F006D00620061007400200063006F006E007400720065000A006D006500730020004E0061007200690063006B00650072007300200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Comme j’incarne Narica pendant les Nari-Quiz,\nc’est comme si vous alliez affronter DEUX Narica !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "0043006F006D006D00650020006A20190069006E006300610072006E00650020004E00610072006900630061002000700065006E00640061006E00740020006C006500730020004E006100720069002D005100750069007A002C000A0063201900650073007400200063006F006D006D006500200073006900200076006F0075007300200061006C006C00690065007A00200061006600660072006F006E007400650072002000440045005500580020004E006100720069006300610020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Battons-nous !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "0042006100740074006F006E0073002D006E006F00750073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Attendez un instant...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "0041007400740065006E00640065007A00200075006E00200069006E007300740061006E0074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Quoi, tu te dégonfles ?!\nAllez, bats-toi !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00510075006F0069002C0020007400750020007400650020006400E90067006F006E0066006C006500730020003F0021000A0041006C006C0065007A002C00200062006100740073002D0074006F006900200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Estimez-vous heureux de pouvoir m’affronter !\nPar contre, on joue pour la « win » !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "0045007300740069006D0065007A002D0076006F007500730020006800650075007200650075007800200064006500200070006F00750076006F006900720020006D20190061006600660072006F006E00740065007200200021000A00500061007200200063006F006E007400720065002C0020006F006E0020006A006F0075006500200070006F007500720020006C0061002000AB002000770069006E002000BB00200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Tu vas te décider, oui ou non ?<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2180,
+      "rawDecodedUtf16Hex": "0054007500200076006100730020007400650020006400E900630069006400650072002C0020006F007500690020006F00750020006E006F006E0020003F00100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Si on gagne, vous devrez nous aider à préparer\ndes p’tits Pains Narica !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "005300690020006F006E0020006700610067006E0065002C00200076006F00750073002000640065007600720065007A0020006E006F00750073002000610069006400650072002000E000200070007200E900700061007200650072000A00640065007300200070201900740069007400730020005000610069006E00730020004E006100720069006300610020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Décide-toi vite, j’ai hâte de commencer\nce combat.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "004400E90063006900640065002D0074006F006900200076006900740065002C0020006A2019006100690020006800E20074006500200064006500200063006F006D006D0065006E006300650072000A0063006500200063006F006D006200610074002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ohmassacre, méga-évolue !\nFull boost en puissance !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2532,
+      "rawDecodedUtf16Hex": "004F0068006D0061007300730061006300720065002C0020006D00E900670061002D00E90076006F006C0075006500200021000A00460075006C006C00200062006F006F0073007400200065006E0020007000750069007300730061006E0063006500200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Minotaupe ! Méga-évolue, mon grand !\nMontre-leur de quel bois on s’chauffe !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2644,
+      "rawDecodedUtf16Hex": "004D0069006E006F00740061007500700065002000210020004D00E900670061002D00E90076006F006C00750065002C0020006D006F006E0020006700720061006E006400200021000A004D006F006E007400720065002D006C0065007500720020006400650020007100750065006C00200062006F006900730020006F006E00200073201900630068006100750066006600650020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Baggaïd ! Méga-évolue et montre-nous\ntoute l’étendue de tes capacités !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "0042006100670067006100EF0064002000210020004D00E900670061002D00E90076006F006C007500650020006500740020006D006F006E007400720065002D006E006F00750073000A0074006F0075007400650020006C201900E900740065006E00640075006500200064006500200074006500730020006300610070006100630069007400E9007300200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "On a gagné !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 2972,
+      "rawDecodedUtf16Hex": "004F006E002000610020006700610067006E00E900200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Hé, toi ! Tu voulais pas m’dire un truc ?<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "004800E9002C00200074006F00690020002100200054007500200076006F0075006C00610069007300200070006100730020006D2019006400690072006500200075006E002000740072007500630020003F001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "En fait, j’ai envie de créer une tenue pour toi,\net je voudrais qu’un jour, tu la portes !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "0045006E00200066006100690074002C0020006A20190061006900200065006E00760069006500200064006500200063007200E90065007200200075006E0065002000740065006E0075006500200070006F0075007200200074006F0069002C000A006500740020006A006500200076006F00750064007200610069007300200071007520190075006E0020006A006F00750072002C0020007400750020006C006100200070006F007200740065007300200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "OK, j’veux bien !\nMais le design a intérêt à me plaire !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "004F004B002C0020006A201900760065007500780020006200690065006E00200021000A004D0061006900730020006C0065002000640065007300690067006E0020006100200069006E007400E9007200EA0074002000E00020006D006500200070006C006100690072006500200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "C’est une bonne idée ! Moi aussi, j’en veux une !<U+0010><U+0001>븁\nSi j’veux incarner Narica à la perfection,\nautant que je m’habille comme elle !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3416,
+      "rawDecodedUtf16Hex": "0043201900650073007400200075006E006500200062006F006E006E006500200069006400E90065002000210020004D006F0069002000610075007300730069002C0020006A20190065006E0020007600650075007800200075006E00650020002100100001BE01000A005300690020006A2019007600650075007800200069006E006300610072006E006500720020004E00610072006900630061002000E00020006C0061002000700065007200660065006300740069006F006E002C000A0061007500740061006E007400200071007500650020006A00650020006D20190068006100620069006C006C006500200063006F006D006D006500200065006C006C00650020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "ÇA VA PAS, LA TÊTE ?!<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3692,
+      "rawDecodedUtf16Hex": "00C700410020005600410020005000410053002C0020004C00410020005400CA005400450020003F0021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Hé, <U+0010><U+0002>Ā<U+0000> !\nAttrape ça.<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3744,
+      "rawDecodedUtf16Hex": "004800E9002C0020001000020100000000200021000A0041007400740072006100700065002000E70061002E001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Vous obtenez le survêtement de Narica !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "0056006F007500730020006F006200740065006E0065007A0020006C00650020007300750072007600EA00740065006D0065006E00740020006400650020004E00610072006900630061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Et pour toi, un Pain Narica de mon grand-père.<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3880,
+      "rawDecodedUtf16Hex": "0045007400200070006F0075007200200074006F0069002C00200075006E0020005000610069006E0020004E006100720069006300610020006400650020006D006F006E0020006700720061006E0064002D007000E800720065002E001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Oh, un Pain Narica...\nJe le chérirai comme la prunelle de mes yeux !<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 3984,
+      "rawDecodedUtf16Hex": "004F0068002C00200075006E0020005000610069006E0020004E00610072006900630061002E002E002E000A004A00650020006C006500200063006800E90072006900720061006900200063006F006D006D00650020006C00610020007000720075006E0065006C006C00650020006400650020006D006500730020007900650075007800200021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "... J’te conseille plutôt de le manger, ouais !<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4132,
+      "rawDecodedUtf16Hex": "002E002E002E0020004A20190074006500200063006F006E007300650069006C006C006500200070006C0075007400F400740020006400650020006C00650020006D0061006E006700650072002C0020006F007500610069007300200021001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "J’ai quand même le seum d’avoir perdu, alors que\nj’avais bien entraîné Ohmassacre et mon équipe...<U+0010><U+0002>Ĕ<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4236,
+      "rawDecodedUtf16Hex": "004A2019006100690020007100750061006E00640020006D00EA006D00650020006C00650020007300650075006D00200064201900610076006F00690072002000700065007200640075002C00200061006C006F007200730020007100750065000A006A2019006100760061006900730020006200690065006E00200065006E00740072006100EE006E00E90020004F0068006D00610073007300610063007200650020006500740020006D006F006E002000E900710075006900700065002E002E002E001000020114000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Les p’tits Pains Narica ont un succès fou !\nOn va p’têt’ en vendre dans toute la région !<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4444,
+      "rawDecodedUtf16Hex": "004C0065007300200070201900740069007400730020005000610069006E00730020004E006100720069006300610020006F006E007400200075006E0020007300750063006300E8007300200066006F007500200021000A004F006E002000760061002000702019007400EA0074201900200065006E002000760065006E006400720065002000640061006E007300200074006F0075007400650020006C00610020007200E900670069006F006E0020002100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "C’est important de dire ce qu’on a sur le cœur.\nJe n’y arrive pas encore, mais un jour, peut-être...<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "0043201900650073007400200069006D0070006F007200740061006E0074002000640065002000640069007200650020006300650020007100752019006F006E0020006100200073007500720020006C006500200063015300750072002E000A004A00650020006E201900790020006100720072006900760065002000700061007300200065006E0063006F00720065002C0020006D00610069007300200075006E0020006A006F00750072002C00200070006500750074002D00EA007400720065002E002E002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4844,
+  "sectionOffset": 16,
+  "textCount": 39,
+  "textSectionCount": 1
+}

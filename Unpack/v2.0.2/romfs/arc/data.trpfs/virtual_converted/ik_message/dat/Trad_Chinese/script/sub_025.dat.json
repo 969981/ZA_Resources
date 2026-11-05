@@ -1,0 +1,413 @@
+{
+  "declaredLength": 2092,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你要我說幾遍啊，喂！\n我的阿柏怪才是最強的！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "4F60898162118AAA5E7E904D554AFF0C5582FF01000A62117684963F67CF602A624D662F67005F377684FF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "那不過就是些花紋罷了！\n冰鬼護的臉可比那狠上一萬倍咧！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "90A34E0D904E5C31662F4E9B82B17D0B7F774E86FF01000A51B09B3C8B77768481C953EF6BD490A372E04E0A4E00842C500D54A7FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "啊？小鬼，\n<U+0010><U+0003>ᄀÿā你妳看什麼看！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "554AFF1F5C0F9B3CFF0C000A00100003110000FF01014F6059B3770B4EC09EBC770BFF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "小<U+0010><U+0003>ᄀÿā弟妹！<U+0010><U+0003>ᄀÿā你妳來幫個忙。<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "5C0F00100003110000FF01015F1F59B9FF0100100003110000FF01014F6059B34F865E6B500B5FD93002001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "沒什麼難的，\n只要陪俺倆過過招就行啦。<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "6C924EC09EBC96E37684FF0C000A53EA8981966A4FFA5006904E904E62DB5C31884C55663002001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "先是讓我的阿柏怪和<U+0010><U+0003>ᄀÿā你妳的寶可夢\n來個1對1的單挑。<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "5148662F8B9362117684963F67CF602A548C00100003110000FF01014F6059B376845BF653EF5922000A4F86500B00315C0D0031768455AE63113002001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "再來換那傢伙的冰鬼護\n和<U+0010><U+0003>ᄀÿā你妳的寶可夢1對1單挑。<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "518D4F8663DB90A350A24F19768451B09B3C8B77000A548C00100003110000FF01014F6059B376845BF653EF592200315C0D003155AE63113002001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "就這麼辦！<U+0010><U+0003>ᄀÿā你妳和俺倆對戰，\n有個基準就能知道誰比較強啦。<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "5C3190199EBC8FA6FF0100100003110000FF01014F6059B3548C4FFA50065C0D6230FF0C000A6709500B57FA6E965C3180FD77E590538AB06BD48F035F3755663002001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "先是我的阿柏怪！\n這可是1對1的單挑啊！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "5148662F62117684963F67CF602AFF01000A901953EF662F00315C0D0031768455AE6311554AFF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "我會贏的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "621167038D0F76840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我還沒準備好",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "621190846C926E965099597D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "動作快點！\n選1隻<U+0010><U+0003>ᄀÿā你妳喜歡的寶可夢開打就對了。<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "52D54F5C5FEB9EDEFF01000A9078003196BB00100003110000FF01014F6059B3559C6B6176845BF653EF5922958B62535C315C0D4E863002001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "我就這麼1隻阿柏怪！\n<U+0010><U+0003>ᄀÿā你妳也把同行隊伍改成1隻吧！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "62115C3190199EBC003196BB963F67CF602AFF01000A00100003110000FF01014F6059B34E5F628A540C884C968A4F0D65396210003196BB5427FF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "眨個眼就被我打爆吧！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "7728500B773C5C3188AB6211625372065427FF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "讓俺好好欣賞一下\n這傢伙一敗塗地的樣子！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "8B934FFA597D597D6B238CDE4E004E0B000A901950A24F194E0065575857573076846A235B50FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我的阿柏怪……輸了……<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "62117684963F67CF602A202620268F384E8620262026001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "太暢快啦！俺的冰鬼護\n果然才是最強的！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "592A66A25FEB5566FF014FFA768451B09B3C8B77000A679C7136624D662F67005F377684FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "小<U+0010><U+0003>ᄀÿā弟妹，再來就是\n和俺的冰鬼護單挑啦！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "5C0F00100003110000FF01015F1F59B9FF0C518D4F865C31662F000A548C4FFA768451B09B3C8B7755AE63115566FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "再來就是和俺的冰鬼護開打！\n當然是1對1的單挑！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "518D4F865C31662F548C4FFA768451B09B3C8B77958B6253FF01000A75767136662F00315C0D0031768455AE6311FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "我會贏的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "621167038D0F76840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我還沒準備好",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1384,
+      "rawDecodedUtf16Hex": "621190846C926E965099597D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "哦～<U+0010><U+0003>ᄀÿā你妳這是承認俺的冰鬼護\n才是最強的囉。<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "54E6FF5E00100003110000FF01014F6059B39019662F627F8A8D4FFA768451B09B3C8B77000A624D662F67005F37768456C93002001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "1對1耶，\n<U+0010><U+0003>ᄀÿā你妳有聽沒有懂是吧。<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "00315C0D00318036FF0C000A00100003110000FF01014F6059B36709807D6C92670961C2662F54273002001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "好，看俺怎麼教訓<U+0010><U+0003>ᄀÿā你妳！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "597DFF0C770B4FFA600E9EBC65598A1300100003110000FF01014F6059B3FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "可惡……\n<U+0010><U+0003>ᄀÿā你妳到底是什麼來頭啊……<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "53EF60E120262026000A00100003110000FF01014F6059B352305E95662F4EC09EBC4F86982D554A20262026001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "俺的冰鬼護竟然……\n也被打趴了……<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1640,
+      "rawDecodedUtf16Hex": "4FFA768451B09B3C8B777ADF713620262026000A4E5F88AB62538DB44E8620262026001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "搞啥啊，結果我倆都輸了！<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "641E5565554AFF0C7D50679C6211500690FD8F384E86FF01001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "我的阿柏怪，你的冰鬼護，\n牠們都不是最強的。<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "62117684963F67CF602AFF0C4F60768451B09B3C8B77FF0C000A7260501190FD4E0D662F67005F3776843002001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "原來如此！最強的是這傢伙的搭檔，\n<U+0010><U+0002>ā<U+0002>啦！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "539F4F8659826B64FF0167005F377684662F901950A24F197684642D6A94FF0C000A00100002010100025566FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "你說的對。\n我倆根本就是井底的蚊香蛙皇……<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "4F608AAA76845C0D3002000A621150066839672C5C31662F4E955E957684868A999986D9768720262026001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "小<U+0010><U+0003>ᄀÿā弟妹，多虧了<U+0010><U+0003>ᄀÿā你妳，\n俺知道該往哪個方向去啦！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "5C0F00100003110000FF01015F1F59B9FF0C591A86674E8600100003110000FF01014F6059B3FF0C000A4FFA77E590538A725F8054EA500B65B9541153BB5566FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "沒錯！通向最強的道路，\n我會走在這傢伙的冰鬼護前面的。<U+0010><U+0002>Ĕ<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1960,
+      "rawDecodedUtf16Hex": "6C92932FFF01901A541167005F37768490538DEFFF0C000A621167038D705728901950A24F19768451B09B3C8B77524D976276843002001000020114001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "混蛋東西！俺哪會讓你一個人跑，\n俺倆的勝負以後還有得比咧！<U+0010><U+0002>Ĕ<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "6DF786CB6771897FFF014FFA54EA67038B934F604E00500B4EBA8DD1FF0C000A4FFA5006768452DD8CA04EE55F8C908467095F976BD454A7FF01001000020114001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2092,
+  "sectionOffset": 16,
+  "textCount": 40,
+  "textSectionCount": 1
+}

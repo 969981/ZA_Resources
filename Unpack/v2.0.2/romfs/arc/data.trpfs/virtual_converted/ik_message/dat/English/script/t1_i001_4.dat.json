@@ -1,0 +1,43 @@
+{
+  "declaredLength": 256,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "This is Room 201. The door is locked.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "005400680069007300200069007300200052006F006F006D0020003200300031002E002000540068006500200064006F006F00720020006900730020006C006F0063006B00650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "This is Room 203. The door is locked.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "005400680069007300200069007300200052006F006F006D0020003200300033002E002000540068006500200064006F006F00720020006900730020006C006F0063006B00650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "This is Room 204. The door is locked.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "005400680069007300200069007300200052006F006F006D0020003200300034002E002000540068006500200064006F006F00720020006900730020006C006F0063006B00650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 256,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

@@ -1,0 +1,53 @@
+{
+  "declaredLength": 252,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "프리즘타워에 이변이 발생 중.\n회사에 조사 팀 파견을 요청한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "D504B9ACC998D0C0C6CCC5D00020C774BCC0C7740020BC1CC0DD0020C911002E000AD68CC0ACC5D00020C870C0AC0020D3000020D30CACACC7440020C694CCADD55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "미르시티의 문제는\n우리 선에서 해결해야만 해요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "BBF8B974C2DCD2F0C7580020BB38C81CB294000AC6B0B9AC0020C120C5D0C11C0020D574ACB0D574C57CB9CC0020D574C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "최강의 메가진화술사를 찾아야 한다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "CD5CAC15C7580020BA54AC00C9C4D654C220C0ACB97C0020CC3EC544C57C0020D55CB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "우리 열차는 잠시 후 미르역에 도착합니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "C6B0B9AC0020C5F4CC28B2940020C7A0C2DC0020D6C40020BBF8B974C5EDC5D00020B3C4CC29D569B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 252,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

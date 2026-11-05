@@ -1,0 +1,53 @@
+{
+  "declaredLength": 424,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "お<U+0010><U+0007>！<U+0002><U+0002>手持ても手持ちのメガカケラと\n<U+0010><U+0008>！<U+0002><U+0003>道具どうぐ道具を<U+0010>\t！<U+0002><U+0004>交換こうかん交換しますか？",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "304A00100007FF0100020002624B630130663082624B63013061306E30E130AC30AB30B130E93068000A00100008FF01000200039053517730693046305090535177309200100009FF01000200044EA463DB30533046304B30934EA463DB3057307E3059304BFF1F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 53,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "<U+0010>\t！<U+0002><U+0004>交換こうかん交換する",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00100009FF01000200044EA463DB30533046304B30934EA463DB3059308B0000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 16,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "やめておく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "308430813066304A304F000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "いつでもご<U+0010><U+0008>！<U+0002><U+0003>利用りよう利用ください",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "3044306430673082305400100008FF010002000352297528308A3088304652297528304F3060305530440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 424,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

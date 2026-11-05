@@ -1,0 +1,43 @@
+{
+  "declaredLength": 204,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oh?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004F0068003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0003>ጃ<U+0000><U+0000><U+0010><U+0002>ā<U+0000> hatched from the Egg!",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00100003130300000000001000020101000000200068006100740063006800650064002000660072006F006D0020007400680065002000450067006700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Would you like to give your\n<U+0010><U+0002>ā<U+0000><U+0010><U+0001>븀\na nickname?",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "00100002BD0600000057006F0075006C006400200079006F00750020006C0069006B006500200074006F0020006700690076006500200079006F00750072000A001000020101000000100001BE00000A00610020006E00690063006B006E0061006D0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 204,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

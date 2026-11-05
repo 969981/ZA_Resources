@@ -1,0 +1,43 @@
+{
+  "declaredLength": 424,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Esta es la bolsa de viaje que marcó tu destino\nal llegar a Ciudad Luminalia.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "00450073007400610020006500730020006C006100200062006F006C007300610020006400650020007600690061006A006500200071007500650020006D00610072006300F3002000740075002000640065007300740069006E006F000A0061006C0020006C006C00650067006100720020006100200043006900750064006100640020004C0075006D0069006E0061006C00690061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Hay agua y otras cosas encima de la cómoda.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00480061007900200061006700750061002000790020006F007400720061007300200063006F00730061007300200065006E00630069006D00610020006400650020006C00610020006300F3006D006F00640061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "El peluche de Naria gigante no pasa\ndesapercibido. Es de muy buena calidad.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "0045006C002000700065006C00750063006800650020006400650020004E006100720069006100200067006900670061006E007400650020006E006F00200070006100730061000A006400650073006100700065007200630069006200690064006F002E0020004500730020006400650020006D007500790020006200750065006E0061002000630061006C0069006400610064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 424,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

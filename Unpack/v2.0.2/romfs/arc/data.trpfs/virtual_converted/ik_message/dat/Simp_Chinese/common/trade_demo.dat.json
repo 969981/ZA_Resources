@@ -1,0 +1,73 @@
+{
+  "declaredLength": 188,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "将<U+0010><U+0002>Ă<U+0000>发送给<U+0010><U+0002>Ā<U+0001>！\n拜拜，<U+0010><U+0002>Ă<U+0000>。",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "5C06001000020102000053D190017ED90010000201000001FF01000A62DC62DCFF0C001000020102000030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0001>\n送来了<U+0010><U+0002>Ă<U+0002>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "0010000201000001000A900167654E860010000201020002FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "要好好爱护<U+0010><U+0002>Ă<U+0002>哦！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "8981597D597D723162A4001000020102000254E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 188,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

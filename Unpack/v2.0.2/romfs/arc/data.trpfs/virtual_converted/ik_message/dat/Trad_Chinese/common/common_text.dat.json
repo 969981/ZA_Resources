@@ -1,0 +1,63 @@
+{
+  "declaredLength": 208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "已載入備份資料。\n在寫入紀錄時，\n將以此資料覆蓋原有資料。\n敬請注意。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "5DF28F09516550994EFD8CC765993002000A57285BEB51657D0093046642FF0C000A5C074EE56B648CC76599898684CB539F67098CC765993002000A656C8ACB6CE8610F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "沒有備份資料，\n無法載入。\n將返回標題畫面。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "6C92670950994EFD8CC76599FF0C000A71216CD58F0951653002000A5C078FD456DE6A19984C756B976230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "正在寫入紀錄……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "6B6357285BEB51657D009304202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 208,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

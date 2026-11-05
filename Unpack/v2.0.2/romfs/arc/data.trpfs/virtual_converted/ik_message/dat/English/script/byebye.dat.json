@@ -1,0 +1,133 @@
+{
+  "declaredLength": 1272,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "A train bound for the airport waits at the platform.\nDo you want to leave Lumiose City?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "004100200074007200610069006E00200062006F0075006E006400200066006F0072002000740068006500200061006900720070006F00720074002000770061006900740073002000610074002000740068006500200070006C006100740066006F0072006D002E000A0044006F00200079006F0075002000770061006E007400200074006F0020006C00650061007600650020004C0075006D0069006F0073006500200043006900740079003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "I’ll stay in Lumiose",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 276,
+      "rawDecodedUtf16Hex": "00492019006C006C0020007300740061007900200069006E0020004C0075006D0069006F007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Adieu, Lumiose!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "00410064006900650075002C0020004C0075006D0069006F0073006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Are you sure? If you board that train, you’ll leave\n<U+0010><U+0002>Ƌ<U+0001> and the others behind...",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "00410072006500200079006F007500200073007500720065003F00200049006600200079006F007500200062006F0061007200640020007400680061007400200074007200610069006E002C00200079006F00752019006C006C0020006C0065006100760065000A00100002018B000100200061006E006400200074006800650020006F0074006800650072007300200062006500680069006E0064002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Never mind, I’ll stay",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "004E00650076006500720020006D0069006E0064002C002000492019006C006C002000730074006100790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "I’m sure! Adieu, Lumiose!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "00492019006D002000730075007200650021002000410064006900650075002C0020004C0075006D0069006F0073006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "You’ve got unfinished business here in Lumiose.\nIt’s probably better not to leave. Do you really,<U+0010><U+0001>븀\nreally want to board that train anyway?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "0059006F007520190076006500200067006F007400200075006E00660069006E0069007300680065006400200062007500730069006E0065007300730020006800650072006500200069006E0020004C0075006D0069006F00730065002E000A0049007420190073002000700072006F006200610062006C007900200062006500740074006500720020006E006F007400200074006F0020006C0065006100760065002E00200044006F00200079006F00750020007200650061006C006C0079002C00100001BE00000A007200650061006C006C0079002000770061006E007400200074006F00200062006F0061007200640020007400680061007400200074007200610069006E00200061006E0079007700610079003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "Fine, I’ll stay",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00460069006E0065002C002000492019006C006C002000730074006100790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "I said, “Adieu, Lumiose!”",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "004900200073006100690064002C0020201C00410064006900650075002C0020004C0075006D0069006F007300650021201D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "You boarded the train bound for the airport!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "0059006F007500200062006F00610072006400650064002000740068006500200074007200610069006E00200062006F0075006E006400200066006F0072002000740068006500200061006900720070006F0072007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "This is really it—adieu, Lumiose City...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "00540068006900730020006900730020007200650061006C006C0079002000690074201400610064006900650075002C0020004C0075006D0069006F0073006500200043006900740079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "How strange! You must have nodded off here on\nthe bench.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "0048006F007700200073007400720061006E00670065002100200059006F00750020006D007500730074002000680061007600650020006E006F00640064006500640020006F00660066002000680065007200650020006F006E000A007400680065002000620065006E00630068002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1272,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

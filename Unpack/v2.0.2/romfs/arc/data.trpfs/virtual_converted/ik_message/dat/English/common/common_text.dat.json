@@ -1,0 +1,63 @@
+{
+  "declaredLength": 472,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Backup data has been loaded. Please note that\nthis data will be saved when you save the game.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "004200610063006B007500700020006400610074006100200068006100730020006200650065006E0020006C006F0061006400650064002E00200050006C00650061007300650020006E006F0074006500200074006800610074000A007400680069007300200064006100740061002000770069006C006C0020006200650020007300610076006500640020007700680065006E00200079006F0075002000730061007600650020007400680065002000670061006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "There is no backup data, so you can’t load data.\nYou’ll now be returned to the title screen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "005400680065007200650020006900730020006E006F0020006200610063006B0075007000200064006100740061002C00200073006F00200079006F0075002000630061006E201900740020006C006F0061006400200064006100740061002E000A0059006F00752019006C006C0020006E006F0077002000620065002000720065007400750072006E0065006400200074006F00200074006800650020007400690074006C0065002000730063007200650065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Now saving...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "004E006F007700200073006100760069006E0067002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 472,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

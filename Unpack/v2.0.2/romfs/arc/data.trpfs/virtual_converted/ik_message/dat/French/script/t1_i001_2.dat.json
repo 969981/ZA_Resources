@@ -1,0 +1,43 @@
+{
+  "declaredLength": 520,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Votre sac, qui, par le fruit du hasard, a marqué\nle début de votre aventure à Illumis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "0056006F0074007200650020007300610063002C0020007100750069002C00200070006100720020006C00650020006600720075006900740020006400750020006800610073006100720064002C002000610020006D006100720071007500E9000A006C00650020006400E900620075007400200064006500200076006F0074007200650020006100760065006E0074007500720065002000E000200049006C006C0075006D00690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Il y a de l’eau et d’autres choses utiles sur\nla commode.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "0049006C00200079002000610020006400650020006C2019006500610075002000650074002000642019006100750074007200650073002000630068006F0073006500730020007500740069006C006500730020007300750072000A006C006100200063006F006D006D006F00640065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Cette peluche Naricâline géante prend toute la\nplace, mais elle est d’une qualité exceptionnelle !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "00430065007400740065002000700065006C00750063006800650020004E006100720069006300E2006C0069006E00650020006700E90061006E007400650020007000720065006E006400200074006F0075007400650020006C0061000A0070006C006100630065002C0020006D00610069007300200065006C006C006500200065007300740020006420190075006E00650020007100750061006C0069007400E900200065007800630065007000740069006F006E006E0065006C006C0065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 520,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

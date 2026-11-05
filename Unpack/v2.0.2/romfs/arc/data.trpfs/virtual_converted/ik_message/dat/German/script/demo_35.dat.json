@@ -1,0 +1,33 @@
+{
+  "declaredLength": 240,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Das Zygardenit von Zygarde reagiert auf deinen\nSchlüssel-Stein!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0044006100730020005A007900670061007200640065006E0069007400200076006F006E0020005A00790067006100720064006500200072006500610067006900650072007400200061007500660020006400650069006E0065006E000A005300630068006C00FC007300730065006C002D0053007400650069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Zygarde hat sich zu Mega-Zygarde entwickelt!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "005A0079006700610072006400650020006800610074002000730069006300680020007A00750020004D006500670061002D005A00790067006100720064006500200065006E0074007700690063006B0065006C007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 240,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

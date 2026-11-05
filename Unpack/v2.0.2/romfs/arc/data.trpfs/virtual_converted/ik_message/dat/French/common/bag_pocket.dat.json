@@ -1,0 +1,103 @@
+{
+  "declaredLength": 252,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Soins",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "0053006F0069006E00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Poké Balls",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "0050006F006B00E9002000420061006C006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Objets de combat",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "004F0062006A00650074007300200064006500200063006F006D0062006100740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Baies",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "004200610069006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Objets",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "004F0062006A0065007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "CT",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "004300540000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Trésors",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "0054007200E90073006F007200730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Objets rares",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "004F0062006A0065007400730020007200610072006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Méga-Gemmes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "004D00E900670061002D00470065006D006D006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 252,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

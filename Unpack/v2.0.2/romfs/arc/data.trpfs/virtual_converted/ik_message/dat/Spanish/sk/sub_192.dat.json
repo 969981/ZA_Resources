@@ -1,0 +1,333 @@
+{
+  "declaredLength": 3208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¿Sabes qué es lo más importante en un combate\nPokémon?<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00BF0053006100620065007300200071007500E90020006500730020006C006F0020006D00E1007300200069006D0070006F007200740061006E0074006500200065006E00200075006E00200063006F006D0062006100740065000A0050006F006B00E9006D006F006E003F00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "¡El Ataque!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "00A10045006C002000410074006100710075006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "¡La Defensa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00A1004C006100200044006500660065006E0073006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "¡La estrategia!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 432,
+      "rawDecodedUtf16Hex": "00A1004C00610020006500730074007200610074006500670069006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "¡La suerte!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "00A1004C0061002000730075006500720074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "¡Para nada!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "00A100500061007200610020006E006100640061002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Te lo voy a revelar. Lo más importante es...<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "005400650020006C006F00200076006F00790020006100200072006500760065006C00610072002E0020004C006F0020006D00E1007300200069006D0070006F007200740061006E00740065002000650073002E002E002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¡Desplazarse rápido!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "00A10044006500730070006C0061007A00610072007300650020007200E1007000690064006F002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "¡Es un pilar básico en los combates, hazme caso!<U+0010><U+0001>븁\nTe permite acortar distancias en un instante y\ntambién esquivar los movimientos enemigos.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "00A10045007300200075006E002000700069006C006100720020006200E1007300690063006F00200065006E0020006C006F007300200063006F006D00620061007400650073002C002000680061007A006D00650020006300610073006F002100100001BE01000A005400650020007000650072006D006900740065002000610063006F0072007400610072002000640069007300740061006E006300690061007300200065006E00200075006E00200069006E007300740061006E0074006500200079000A00740061006D0062006900E9006E0020006500730071007500690076006100720020006C006F00730020006D006F00760069006D00690065006E0074006F007300200065006E0065006D00690067006F0073002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 146
+    },
+    {
+      "displayText": "Por eso mis Cyclizar y yo corremos todos los días\npor Ciudad Luminalia, y así han aprendido<U+0010><U+0001>븀\nun movimiento que los hace aún más rápidos.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 964,
+      "rawDecodedUtf16Hex": "0050006F0072002000650073006F0020006D006900730020004300790063006C0069007A006100720020007900200079006F00200063006F007200720065006D006F007300200074006F0064006F00730020006C006F00730020006400ED00610073000A0070006F007200200043006900750064006100640020004C0075006D0069006E0061006C00690061002C0020007900200061007300ED002000680061006E00200061007000720065006E006400690064006F00100001BE00000A0075006E0020006D006F00760069006D00690065006E0074006F00200071007500650020006C006F0073002000680061006300650020006100FA006E0020006D00E100730020007200E1007000690064006F0073002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 143
+    },
+    {
+      "displayText": "Vamos, que se mueven a toda pastilla, ¡y no hay\nquien les ponga la mano encima!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "00560061006D006F0073002C00200071007500650020007300650020006D0075006500760065006E0020006100200074006F00640061002000700061007300740069006C006C0061002C002000A100790020006E006F0020006800610079000A0071007500690065006E0020006C0065007300200070006F006E006700610020006C00610020006D0061006E006F00200065006E00630069006D0061002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "¡Cyyy!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1420,
+      "rawDecodedUtf16Hex": "00A1004300790079007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "¡Cliii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "00A10043006C00690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "¡Zaaar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "00A1005A006100610061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Si dudas de mi palabra, ¡comprobémoslo\nen un combate!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "005300690020006400750064006100730020006400650020006D0069002000700061006C0061006200720061002C002000A10063006F006D00700072006F006200E9006D006F0073006C006F000A0065006E00200075006E00200063006F006D0062006100740065002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "En cuanto hayas realizado los preparativos\nnecesarios, avísame.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1584,
+      "rawDecodedUtf16Hex": "0045006E0020006300750061006E0074006F0020006800610079006100730020007200650061006C0069007A00610064006F0020006C006F007300200070007200650070006100720061007400690076006F0073000A006E0065006300650073006100720069006F0073002C00200061007600ED00730061006D0065002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Combatimos? Mis Cyclizar están listos para\nmarearos.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "00BF0043006F006D0062006100740069006D006F0073003F0020004D006900730020004300790063006C0069007A00610072002000650073007400E1006E0020006C006900730074006F007300200070006100720061000A006D00610072006500610072006F0073002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Muy bien",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "004D007500790020006200690065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Dame un momento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "00440061006D006500200075006E0020006D006F006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Como me hagas esperar mucho, nos vamos a\nlargar corriendo para seguir entrenando.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "0043006F006D006F0020006D0065002000680061006700610073002000650073007000650072006100720020006D007500630068006F002C0020006E006F0073002000760061006D006F007300200061000A006C0061007200670061007200200063006F0072007200690065006E0064006F00200070006100720061002000730065006700750069007200200065006E007400720065006E0061006E0064006F002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "¡He aquí el inicio de una leyenda: los Cyclizar más\nrápidos y fuertes habidos y por haber!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "00A100480065002000610071007500ED00200065006C00200069006E006900630069006F00200064006500200075006E00610020006C006500790065006E00640061003A0020006C006F00730020004300790063006C0069007A006100720020006D00E10073000A007200E1007000690064006F00730020007900200066007500650072007400650073002000680061006200690064006F00730020007900200070006F0072002000680061006200650072002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Pe-pero... ¡¿y esa velocidad?!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2276,
+      "rawDecodedUtf16Hex": "00500065002D007000650072006F002E002E002E002000A100BF00790020006500730061002000760065006C006F00630069006400610064003F002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¡Sois bien fuertes! A lo mejor es que todavía nos\nhace falta más entrenamiento.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "00A10053006F006900730020006200690065006E002000660075006500720074006500730021002000410020006C006F0020006D0065006A006F0072002000650073002000710075006500200074006F00640061007600ED00610020006E006F0073000A0068006100630065002000660061006C007400610020006D00E1007300200065006E007400720065006E0061006D00690065006E0074006F002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Toma, quédate con esta MT.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "0054006F006D0061002C00200071007500E9006400610074006500200063006F006E002000650073007400610020004D0054002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Usa <U+0010><U+0002>＀<U+0006>Nitrocarga<U+0010><U+0002>＀<U+0000> para atacar y aumentar también\nla velocidad de desplazamiento de tu Pokémon.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "005500730061002000100002FF000006004E006900740072006F0063006100720067006100100002FF00000000200070006100720061002000610074006100630061007200200079002000610075006D0065006E007400610072002000740061006D0062006900E9006E000A006C0061002000760065006C006F0063006900640061006400200064006500200064006500730070006C0061007A0061006D00690065006E0074006F00200064006500200074007500200050006F006B00E9006D006F006E002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "No sabes qué divertido resulta que se vuelva más\nveloz y marear al rival yendo de un lado para otro.<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "004E006F00200073006100620065007300200071007500E9002000640069007600650072007400690064006F00200072006500730075006C0074006100200071007500650020007300650020007600750065006C007600610020006D00E10073000A00760065006C006F007A002000790020006D0061007200650061007200200061006C00200072006900760061006C002000790065006E0064006F00200064006500200075006E0020006C00610064006F002000700061007200610020006F00740072006F002E00100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "¡Bueno, equipo, vamos a dar vueltas por la ciudad\nhasta que no podamos más!<U+0010><U+0002>Ĕǧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3000,
+      "rawDecodedUtf16Hex": "00A1004200750065006E006F002C002000650071007500690070006F002C002000760061006D006F00730020006100200064006100720020007600750065006C00740061007300200070006F00720020006C00610020006300690075006400610064000A0068006100730074006100200071007500650020006E006F00200070006F00640061006D006F00730020006D00E10073002100100002011401E70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "¡Cyyy!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "00A1004300790079007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "¡Cliii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "00A10043006C00690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "¡Zaaar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "00A1005A006100610061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3208,
+  "sectionOffset": 16,
+  "textCount": 32,
+  "textSectionCount": 1
+}

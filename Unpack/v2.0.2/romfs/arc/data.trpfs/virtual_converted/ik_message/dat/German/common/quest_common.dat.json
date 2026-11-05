@@ -1,0 +1,143 @@
+{
+  "declaredLength": 564,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Forschungsfortschritt:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "0046006F00720073006300680075006E006700730066006F007200740073006300680072006900740074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Mega-Kristalle",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004D006500670061002D004B00720069007300740061006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002010100150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "00100002010700160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "00100002010900170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Registrierte Arten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "00520065006700690073007400720069006500720074006500200041007200740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Ticketpunkte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "005400690063006B0065007400700075006E006B007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Forschungspunkte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "0046006F00720073006300680075006E0067007300700075006E006B007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Geschlichtete Streitereien",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 328,
+      "rawDecodedUtf16Hex": "00470065007300630068006C0069006300680074006500740065002000530074007200650069007400650072006500690065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Besiegte Top-Vier-Mitglieder",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "0042006500730069006500670074006500200054006F0070002D0056006900650072002D004D006900740067006C006900650064006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Gezeigte Formen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "00470065007A0065006900670074006500200046006F0072006D0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Gefundene Puponcho",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "0047006500660075006E00640065006E00650020005000750070006F006E00630068006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Angesprochene Personen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "0041006E00670065007300700072006F006300680065006E006500200050006500720073006F006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 564,
+  "sectionOffset": 16,
+  "textCount": 13,
+  "textSectionCount": 1
+}

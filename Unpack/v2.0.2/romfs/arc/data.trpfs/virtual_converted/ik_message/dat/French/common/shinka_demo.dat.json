@@ -1,0 +1,113 @@
+{
+  "declaredLength": 432,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Quoi ?\n<U+0010><U+0002>Ă<U+0000> évolue !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "00510075006F00690020003F000A0010000201020000002000E90076006F006C00750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Hein ?\n<U+0010><U+0002>Ă<U+0000> n’évolue plus !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "004800650069006E0020003F000A00100002010200000020006E201900E90076006F006C0075006500200070006C00750073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Félicitations !\n<U+0010><U+0002>Ă<U+0000> évolue en <U+0010><U+0002>ā<U+0001> !<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "004600E9006C0069006300690074006100740069006F006E007300200021000A0010000201020000002000E90076006F006C0075006500200065006E002000100002010100010020002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> apprend\n<U+0010><U+0002>ć<U+0001> !<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0010000201020000002000610070007000720065006E0064000A00100002010700010020002100100002BE05000400100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> a appris <U+0010><U+0002>ć<U+0001> !<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "0010000201020000002000610020006100700070007200690073002000100002010700010020002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 396,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 432,
+  "sectionOffset": 16,
+  "textCount": 10,
+  "textSectionCount": 1
+}

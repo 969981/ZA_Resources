@@ -1,0 +1,243 @@
+{
+  "declaredLength": 968,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Mit welchem Pokémon austauschen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "004D00690074002000770065006C006300680065006D00200050006F006B00E9006D006F006E00200061007500730074006100750073006300680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Mit welchem Item austauschen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "004D00690074002000770065006C006300680065006D0020004900740065006D00200061007500730074006100750073006300680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Ċ<U+0001> von\n<U+0010><U+0002>Ă<U+0000><U+0010><U+0001>븀\nerhalten.<U+0010><U+0001>븁",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010A000100200076006F006E000A001000020102000000100001BE00000A0065007200680061006C00740065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> trägt kein Item bei sich.<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "001000020102000000200074007200E4006700740020006B00650069006E0020004900740065006D002000620065006900200073006900630068002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Du hast keinen Platz dafür!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020006B00650069006E0065006E00200050006C00610074007A002000640061006600FC0072002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Mit welchem Pokémon möchtest du kämpfen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "004D00690074002000770065006C006300680065006D00200050006F006B00E9006D006F006E0020006D00F60063006800740065007300740020006400750020006B00E4006D007000660065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "KP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "004B00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 656,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Bericht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "00420065007200690063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Heilen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "004800650069006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Pokémon bewegen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E0020006200650077006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Getragenes Item wechseln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "0047006500740072006100670065006E006500730020004900740065006D0020007700650063006800730065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Getragenes Item verstauen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "0047006500740072006100670065006E006500730020004900740065006D002000760065007200730074006100750065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Item zum Tragen geben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "004900740065006D0020007A0075006D002000540072006100670065006E00200067006500620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Zurück",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "005A0075007200FC0063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Auswählen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "004100750073007700E40068006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 968,
+  "sectionOffset": 16,
+  "textCount": 23,
+  "textSectionCount": 1
+}

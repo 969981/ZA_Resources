@@ -1,0 +1,533 @@
+{
+  "declaredLength": 3224,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "我这里有送给获胜者的奖励。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "62118FD991CC670990017ED983B780DC80057684595652B1300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "获胜的宝可梦训练家，\n你的<U+0010><U+0002>ĉ<U+0002>到啦！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "83B780DC76845B9D53EF68A68BAD7EC35BB6FF0C000A4F607684001000020109000252305566FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "我这里有\n为获胜者准备的礼物。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "62118FD991CC6709000A4E3A83B780DC800551C659077684793C7269300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "获胜的宝可梦训练家，\n您的<U+0010><U+0002>ĉ<U+0002>送到了！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 580,
+      "rawDecodedUtf16Hex": "83B780DC76845B9D53EF68A68BAD7EC35BB6FF0C000A60A876840010000201090002900152304E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "我来帮你的宝可梦\n恢复活力吧？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "621167655E2E4F6076845B9D53EF68A6000A6062590D6D3B529B5427FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "那么，我来帮你的宝可梦恢复活力！\n……毕竟这才是我更拿手的事嘛。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "90A34E48FF0C621167655E2E4F6076845B9D53EF68A66062590D6D3B529BFF01000A202620266BD57ADF8FD9624D662F621166F462FF624B76844E8B561B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "你要来杯咖啡吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "4F6089816765676F549655615417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "这杯极品能疗愈\n宝可梦对战的疲劳，请慢用。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "8FD9676F678154C180FD75976108000A5B9D53EF68A65BF96218768475B252B3FF0C8BF76162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "你喝咖啡吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "4F60559D549655615417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "这是宝可梦专用的混合饮品，\n喝了就会恢复活力哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "8FD9662F5B9D53EF68A64E13752876846DF75408996E54C1FF0C000A559D4E865C314F1A6062590D6D3B529B54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "要来杯新咖啡\n引以为豪的咖啡吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "89816765676F65B054965561000A5F154EE54E3A8C6A7684549655615417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "只要喝下新咖啡引以为豪的\n大字爆炎烘焙咖啡，<U+0010><U+0001>븀\n宝可梦也会恢复活力哦。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "53EA8981559D4E0B65B0549655615F154EE54E3A8C6A7684000A59275B577206708E70D8711954965561FF0C00100001BE00000A5B9D53EF68A64E5F4F1A6062590D6D3B529B54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "尝尝新咖啡\n引以为豪的咖啡？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "5C1D5C1D65B054965561000A5F154EE54E3A8C6A768454965561FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "喝新咖啡招牌的燃尽烘焙咖啡，\n让宝可梦也恢复活力吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "559D65B05496556162DB724C768471C35C3D70D8711954965561FF0C000A8BA95B9D53EF68A64E5F6062590D6D3B529B542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "我可以送你奖励卡哦。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "621153EF4EE590014F60595652B1536154E6300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "今晚获得的卡片真令人自豪，\n就让我选1张赠送给你吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "4ECA665A83B75F97768453617247771F4EE44EBA81EA8C6AFF0C000A5C318BA96211900900315F208D6090017ED94F605427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "这是奖金币哦。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1304,
+      "rawDecodedUtf16Hex": "8FD9662F595691D15E0154E6300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "这些是我收集的奖金币，\n不过，全都送给你吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "8FD94E9B662F6211653696C67684595691D15E01FF0C000A4E0D8FC7FF0C516890FD90017ED94F60542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "你需要奖金币吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "4F6097008981595691D15E015417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "奖金币只要再收集就行了。\n我要把这些全都送给获胜的你哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "595691D15E0153EA8981518D653696C65C31884C4E863002000A62118981628A8FD94E9B516890FD90017ED983B780DC76844F6054E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "让我送你些奖金币吧。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "8BA9621190014F604E9B595691D15E015427300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "让我赠予你奖金币作为胜利的证明吧！\n还附上来自由紫小姐的爱哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "8BA962118D604E884F60595691D15E014F5C4E3A80DC522976848BC1660E5427FF01000A8FD896444E0A676581EA75317D2B5C0F59D07684723154E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "你是不是想要奖金币？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "4F60662F4E0D662F60F38981595691D15E01FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "在密阿雷社交对战俱乐部，\n我们曾会比赛一晚上能收集多少奖金币，<U+0010><U+0001>븀\n但我就特别分给你了。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "57285BC6963F96F7793E4EA45BF962184FF14E5090E8FF0C000A62114EEC66FE4F1A6BD48D5B4E00665A4E0A80FD653696C6591A5C11595691D15E01FF0C00100001BE00000A4F4662115C317279522B52067ED94F604E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n获得了奖金币！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "0010000201000000000A83B75F974E86595691D15E01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>获得了\n<U+0010><U+0002>＀<U+0008><U+0010><U+0002>ĉ<U+0002><U+0010><U+0002>＀<U+0000>！",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1792,
+      "rawDecodedUtf16Hex": "001000020100000083B75F974E86000A00100002FF000008001000020109000200100002FF000000FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "送你异次元树果\n作为礼物！<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "90014F605F026B2151436811679C000A4F5C4E3A793C7269FF0100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "送你在异次元密阿雷收集的\n<U+0010><U+0002>ĉ<U+0002>作为礼物！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1892,
+      "rawDecodedUtf16Hex": "90014F6057285F026B2151435BC6963F96F7653696C67684000A00100002010900024F5C4E3A793C7269FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "你不想要异次元树果吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "4F604E0D60F389815F026B2151436811679C5417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "你太强了！\n送你<U+0010><U+0002>ĉ<U+0002>！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "4F60592A5F3A4E86FF01000A90014F600010000201090002FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "我来帮你的宝可梦\n恢复活力吧？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2020,
+      "rawDecodedUtf16Hex": "621167655E2E4F6076845B9D53EF68A6000A6062590D6D3B529B5427FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "在神秘的异次元密阿雷，\n我也要帮宝可梦恢复活力！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "5728795E79D876845F026B2151435BC6963F96F7FF0C000A62114E5F89815E2E5B9D53EF68A66062590D6D3B529BFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "即使身在异次元，\n要不要也来杯咖啡呢？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "53734F7F8EAB57285F026B215143FF0C000A89814E0D89814E5F6765676F549655615462FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "在奇妙的异次元喝下的咖啡，\n会让宝可梦恢复活力。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "57285947599976845F026B215143559D4E0B768454965561FF0C000A4F1A8BA95B9D53EF68A66062590D6D3B529B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "你喝咖啡吗？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "4F60559D549655615417FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "这是异次元混合咖啡。\n喝下去就会神奇地恢复活力哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "8FD9662F5F026B2151436DF75408549655613002000A559D4E0B53BB5C314F1A795E594757306062590D6D3B529B54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "尝尝新咖啡\n引以为豪的咖啡！<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "5C1D5C1D65B054965561000A5F154EE54E3A8C6A768454965561FF0100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "我不知道自己为什么在这里，但喝了\n大字爆炎烘焙咖啡后，宝可梦也有活力了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "62114E0D77E5905381EA5DF14E3A4EC04E4857288FD991CCFF0C4F46559D4E86000A59275B577206708E70D8711954965561540EFF0C5B9D53EF68A64E5F67096D3B529B4E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "尝尝新咖啡\n引以为豪的咖啡吧！<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "5C1D5C1D65B054965561000A5F154EE54E3A8C6A7684549655615427FF0100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "在异次元也来喝新咖啡的招牌——\n燃尽烘焙咖啡吧，宝可梦也会恢复活力哦。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "57285F026B2151434E5F6765559D65B054965561768462DB724C20142014000A71C35C3D70D87119549655615427FF0C5B9D53EF68A64E5F4F1A6062590D6D3B529B54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "虽然不是奖励卡，\n但我有好东西送给你。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "867D71364E0D662F595652B15361FF0C000A4F4662116709597D4E1C897F90017ED94F60300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "要说<U+0010><U+0002>ĉ<U+0002>啊，\n那可是相当稀有哦！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2684,
+      "rawDecodedUtf16Hex": "89818BF40010000201090002554AFF0C000A90A353EF662F76F85F537A00670954E6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "这可是很贵重的道具哦。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2724,
+      "rawDecodedUtf16Hex": "8FD953EF662F5F888D3591CD76849053517754E6300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0002>很贵重，\n但我有的是。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2776,
+      "rawDecodedUtf16Hex": "00100002010900025F888D3591CDFF0C000A4F46621167097684662F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "给你点好东西。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "7ED94F6070B9597D4E1C897F300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "就算是<U+0010><U+0002>ĉ<U+0002>，\n在我手里的话，价值也会上升。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "5C317B97662F0010000201090002FF0C000A57286211624B91CC76848BDDFF0C4EF7503C4E5F4F1A4E0A534730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "送你点东西吧。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "90014F6070B94E1C897F5427300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "MSBC在异次元也很大方，\n送你<U+0010><U+0002>ĉ<U+0002>。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2944,
+      "rawDecodedUtf16Hex": "004D00530042004357285F026B2151434E5F5F88592765B9FF0C000A90014F60001000020109000230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "我来送你点好东西吧？<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2988,
+      "rawDecodedUtf16Hex": "6211676590014F6070B9597D4E1C897F5427FF1F00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "我对由紫小姐异次元级别的爱，\n以及<U+0010><U+0002>ĉ<U+0002>，就送给你了。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "62115BF975317D2B5C0F59D05F026B2151437EA7522B76847231FF0C000A4EE553CA0010000201090002FF0C5C3190017ED94F604E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "虽然我只是个全息，\n但有好东西送给你。<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "867D7136621153EA662F4E2A5168606FFF0C000A4F466709597D4E1C897F90017ED94F60300200100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "在神秘的地方通过全息接收\n<U+0010><U+0002>ĉ<U+0002>，真是奇妙的体验。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3168,
+      "rawDecodedUtf16Hex": "5728795E79D87684573065B9901A8FC75168606F63A56536000A0010000201090002FF0C771F662F5947599976844F539A8C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3224,
+  "sectionOffset": 16,
+  "textCount": 52,
+  "textSectionCount": 1
+}

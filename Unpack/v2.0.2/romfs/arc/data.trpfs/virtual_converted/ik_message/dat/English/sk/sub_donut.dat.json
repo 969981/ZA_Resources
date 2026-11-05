@@ -1,0 +1,103 @@
+{
+  "declaredLength": 608,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Do you want to give Gulpin a donut?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000770061006E007400200074006F00200067006900760065002000470075006C00700069006E0020006100200064006F006E00750074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Absolutely!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "004100620073006F006C007500740065006C007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Not now",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "004E006F00740020006E006F00770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "*chomp chomp* *gulp*",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "002A00630068006F006D0070002000630068006F006D0070002A0020002A00670075006C0070002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Do you have more donuts you want to feed to\nGulpin?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000680061007600650020006D006F0072006500200064006F006E00750074007300200079006F0075002000770061006E007400200074006F0020006600650065006400200074006F000A00470075006C00700069006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "You don’t have any donuts to give!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "0059006F007500200064006F006E201900740020006800610076006500200061006E007900200064006F006E00750074007300200074006F0020006700690076006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Gulpin looks super satisfied!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "00470075006C00700069006E0020006C006F006F006B0073002000730075007000650072002000730061007400690073006600690065006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Gulpin gave you\n<U+0010><U+0003>ጂ<U+0002><U+0000><U+0010><U+0002>Ċ<U+0002>!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 468,
+      "rawDecodedUtf16Hex": "00100002BD06000000470075006C00700069006E0020006700610076006500200079006F0075000A0010000313020002000000100002010A000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "You can’t give Gulpin that donut!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E2019007400200067006900760065002000470075006C00700069006E0020007400680061007400200064006F006E00750074002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 608,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

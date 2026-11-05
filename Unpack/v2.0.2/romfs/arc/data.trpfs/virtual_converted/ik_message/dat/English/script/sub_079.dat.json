@@ -1,0 +1,413 @@
+{
+  "declaredLength": 5108,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh, hello there! You’re the Trainer who helped us\nwith filming last time, right? Well, we’re shooting<U+0010><U+0001>븀\na scene for a different movie now.<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "004F0068002C002000680065006C006C006F002000740068006500720065002100200059006F0075201900720065002000740068006500200054007200610069006E00650072002000770068006F002000680065006C007000650064002000750073000A0077006900740068002000660069006C006D0069006E00670020006C006100730074002000740069006D0065002C002000720069006700680074003F002000570065006C006C002C002000770065201900720065002000730068006F006F00740069006E006700100001BE00000A00610020007300630065006E006500200066006F00720020006100200064006900660066006500720065006E00740020006D006F0076006900650020006E006F0077002E00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 144
+    },
+    {
+      "displayText": "This time, we’re making a horror film!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0054006800690073002000740069006D0065002C0020007700652019007200650020006D0061006B0069006E00670020006100200068006F00720072006F0072002000660069006C006D002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "In particular, I want to get some footage of the\nfearsome ghost of the forest, Trevenant!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "0049006E00200070006100720074006900630075006C00610072002C00200049002000770061006E007400200074006F002000670065007400200073006F006D006500200066006F006F00740061006700650020006F00660020007400680065000A00660065006100720073006F006D0065002000670068006F007300740020006F0066002000740068006500200066006F0072006500730074002C002000540072006500760065006E0061006E0074002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "But we’ve hit a snag... Wild Pokémon are\nterrifying! Especially Ghost types!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "00420075007400200077006520190076006500200068006900740020006100200073006E00610067002E002E002E002000570069006C006400200050006F006B00E9006D006F006E0020006100720065000A00740065007200720069006600790069006E0067002100200045007300700065006300690061006C006C0079002000470068006F00730074002000740079007000650073002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "I think you can help us there, however.<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 1064,
+      "rawDecodedUtf16Hex": "00490020007400680069006E006B00200079006F0075002000630061006E002000680065006C0070002000750073002000740068006500720065002C00200068006F00770065007600650072002E00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "I hear Trevenant are rather hard to find in the wild.<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "004900200068006500610072002000540072006500760065006E0061006E0074002000610072006500200072006100740068006500720020006800610072006400200074006F002000660069006E006400200069006E0020007400680065002000770069006C0064002E00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Though there are rumors that they can sometimes\nbe spotted in Wild Zone 13. Or was it 15?<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1268,
+      "rawDecodedUtf16Hex": "00540068006F0075006700680020007400680065007200650020006100720065002000720075006D006F007200730020007400680061007400200074006800650079002000630061006E00200073006F006D006500740069006D00650073000A00620065002000730070006F007400740065006400200069006E002000570069006C00640020005A006F006E0065002000310033002E0020004F00720020007700610073002000690074002000310035003F00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Or I suppose you could just evolve a Phantump.\nThat works too.<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "004F00720020004900200073007500700070006F0073006500200079006F007500200063006F0075006C00640020006A007500730074002000650076006F006C00760065002000610020005000680061006E00740075006D0070002E000A005400680061007400200077006F0072006B007300200074006F006F002E00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Really, all I need is for you to bring me a Trevenant\nat night. How you get it is up to you!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "005200650061006C006C0079002C00200061006C006C002000490020006E00650065006400200069007300200066006F007200200079006F007500200074006F0020006200720069006E00670020006D006500200061002000540072006500760065006E0061006E0074000A006100740020006E0069006700680074002E00200048006F007700200079006F0075002000670065007400200069007400200069007300200075007000200074006F00200079006F0075002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1788,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "If you want to help with filming, then bring me a\nTrevenant at night!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "0049006600200079006F0075002000770061006E007400200074006F002000680065006C007000200077006900740068002000660069006C006D0069006E0067002C0020007400680065006E0020006200720069006E00670020006D006500200061000A00540072006500760065006E0061006E00740020006100740020006E0069006700680074002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Ah, I see you have a Trevenant! I really appreciate\nyour willingness to help with the shoot. Come<U+0010><U+0001>븀\nback at night so we can get started!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1948,
+      "rawDecodedUtf16Hex": "00410068002C00200049002000730065006500200079006F00750020006800610076006500200061002000540072006500760065006E0061006E00740021002000490020007200650061006C006C007900200061007000700072006500630069006100740065000A0079006F00750072002000770069006C006C0069006E0067006E00650073007300200074006F002000680065006C0070002000770069007400680020007400680065002000730068006F006F0074002E00200043006F006D006500100001BE00000A006200610063006B0020006100740020006E006900670068007400200073006F002000770065002000630061006E002000670065007400200073007400610072007400650064002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 142
+    },
+    {
+      "displayText": "Filming’s put on hold again, huh?<U+0010><U+0002>Ĕƕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "00460069006C006D0069006E00672019007300200070007500740020006F006E00200068006F006C006400200061006700610069006E002C0020006800750068003F00100002011401950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Filming horror stuff makes me nervous...<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2308,
+      "rawDecodedUtf16Hex": "00460069006C006D0069006E006700200068006F00720072006F00720020007300740075006600660020006D0061006B006500730020006D00650020006E006500720076006F00750073002E002E002E00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Here you are! And you brought that Trevenant,\nright? Are you willing to help out with our shoot?<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "004800650072006500200079006F00750020006100720065002100200041006E006400200079006F0075002000620072006F007500670068007400200074006800610074002000540072006500760065006E0061006E0074002C000A00720069006700680074003F002000410072006500200079006F0075002000770069006C006C0069006E006700200074006F002000680065006C00700020006F00750074002000770069007400680020006F00750072002000730068006F006F0074003F00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "We’d love to!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "00570065201900640020006C006F0076006500200074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Not right now",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2644,
+      "rawDecodedUtf16Hex": "004E006F00740020007200690067006800740020006E006F00770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "But I need the real deal! Only real Pokémon can\ngive me the intensity that I want!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "004200750074002000490020006E00650065006400200074006800650020007200650061006C0020006400650061006C00210020004F006E006C00790020007200650061006C00200050006F006B00E9006D006F006E002000630061006E000A00670069007600650020006D0065002000740068006500200069006E00740065006E00730069007400790020007400680061007400200049002000770061006E0074002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Oh, I knew I could count on you! Let’s start\nfilming then, shall we?<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "004F0068002C002000490020006B006E006500770020004900200063006F0075006C006400200063006F0075006E00740020006F006E00200079006F007500210020004C0065007420190073002000730074006100720074000A00660069006C006D0069006E00670020007400680065006E002C0020007300680061006C006C002000770065003F00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Is everyone ready? Then... Lights! Camera! Action!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2996,
+      "rawDecodedUtf16Hex": "00490073002000650076006500720079006F006E0065002000720065006100640079003F0020005400680065006E002E002E002E0020004C006900670068007400730021002000430061006D006500720061002100200041006300740069006F006E002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "You sure this place isn’t haunted...?<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "0059006F0075002000730075007200650020007400680069007300200070006C006100630065002000690073006E201900740020006800610075006E007400650064002E002E002E003F00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Oh, c’mon! It’s fine!<U+0010><U+0002>Ĕƕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "004F0068002C002000632019006D006F006E002100200049007420190073002000660069006E0065002100100002011401950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Hold on... Did you hear that?<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3244,
+      "rawDecodedUtf16Hex": "0048006F006C00640020006F006E002E002E002E002000440069006400200079006F00750020006800650061007200200074006800610074003F00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "What?<U+0010><U+0002>Ĕƕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3312,
+      "rawDecodedUtf16Hex": "0057006800610074003F00100002011401950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Veve!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3332,
+      "rawDecodedUtf16Hex": "005600650076006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Eeek!!!<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3344,
+      "rawDecodedUtf16Hex": "004500650065006B00210021002100100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Wait, hold up. It’s not scary at all.<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3368,
+      "rawDecodedUtf16Hex": "0057006100690074002C00200068006F006C0064002000750070002E002000490074201900730020006E006F007400200073006300610072007900200061007400200061006C006C002E00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "CUUUT!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "00430055005500550054002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "What kind of “ghost of the forest” is that? It’s way\ntoo friendly!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "00570068006100740020006B0069006E00640020006F00660020201C00670068006F007300740020006F0066002000740068006500200066006F0072006500730074201D00200069007300200074006800610074003F002000490074201900730020007700610079000A0074006F006F00200066007200690065006E0064006C0079002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "You know, I’ve heard that Trevenant is really kind\nto all the creatures that live in the forest with it.<U+0010><U+0002>Ĕƕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3620,
+      "rawDecodedUtf16Hex": "0059006F00750020006B006E006F0077002C0020004920190076006500200068006500610072006400200074006800610074002000540072006500760065006E0061006E00740020006900730020007200650061006C006C00790020006B0069006E0064000A0074006F00200061006C006C00200074006800650020006300720065006100740075007200650073002000740068006100740020006C00690076006500200069006E002000740068006500200066006F007200650073007400200077006900740068002000690074002E00100002011401950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "Maybe it thinks we’re forest creatures too?<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3840,
+      "rawDecodedUtf16Hex": "004D00610079006200650020006900740020007400680069006E006B007300200077006520190072006500200066006F0072006500730074002000630072006500610074007500720065007300200074006F006F003F00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "What?! It’s a Ghost type, and yet it shows such\ncompassion...<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3936,
+      "rawDecodedUtf16Hex": "0057006800610074003F00210020004900742019007300200061002000470068006F0073007400200074007900700065002C00200061006E00640020007900650074002000690074002000730068006F0077007300200073007500630068000A0063006F006D00700061007300730069006F006E002E002E002E00100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Yet that is also a true side of this Pokémon!\nWorthy of being preserved on film!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4068,
+      "rawDecodedUtf16Hex": "0059006500740020007400680061007400200069007300200061006C0073006F0020006100200074007200750065002000730069006400650020006F00660020007400680069007300200050006F006B00E9006D006F006E0021000A0057006F00720074006800790020006F00660020006200650069006E006700200070007200650073006500720076006500640020006F006E002000660069006C006D002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "It’s the footage that matters, you see. Footage that\nleaves its mark on the viewer, even without any<U+0010><U+0001>븀\ncohesive narrative! The script can be changed!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4240,
+      "rawDecodedUtf16Hex": "0049007420190073002000740068006500200066006F006F0074006100670065002000740068006100740020006D006100740074006500720073002C00200079006F00750020007300650065002E00200046006F006F007400610067006500200074006800610074000A006C0065006100760065007300200069007400730020006D00610072006B0020006F006E00200074006800650020007600690065007700650072002C0020006500760065006E00200077006900740068006F0075007400200061006E007900100001BE00000A0063006F0068006500730069007600650020006E00610072007200610074006900760065002100200054006800650020007300630072006900700074002000630061006E0020006200650020006300680061006E006700650064002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 155
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4552,
+      "rawDecodedUtf16Hex": "00100002BDFF00240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "I alone shall gaze into the abyss that is Trevenant\nand learn its secrets!<U+0010><U+0002>ĔŰ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 4564,
+      "rawDecodedUtf16Hex": "004900200061006C006F006E00650020007300680061006C006C002000670061007A006500200069006E0074006F002000740068006500200061006200790073007300200074006800610074002000690073002000540072006500760065006E0061006E0074000A0061006E00640020006C006500610072006E002000690074007300200073006500630072006500740073002100100002011401700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "The script’s the blueprint for our movie... I wonder\nif we really can just change it around like this.<U+0010><U+0002>Ĕƕ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4724,
+      "rawDecodedUtf16Hex": "005400680065002000730063007200690070007420190073002000740068006500200062006C00750065007000720069006E007400200066006F00720020006F007500720020006D006F007600690065002E002E002E0020004900200077006F006E006400650072000A006900660020007700650020007200650061006C006C0079002000630061006E0020006A0075007300740020006300680061006E00670065002000690074002000610072006F0075006E00640020006C0069006B006500200074006800690073002E00100002011401950000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "You know, I didn’t notice this before, but\nTrevenant has a very gentle gaze...<U+0010><U+0002>ĔƖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4940,
+      "rawDecodedUtf16Hex": "0059006F00750020006B006E006F0077002C002000490020006400690064006E201900740020006E006F0074006900630065002000740068006900730020006200650066006F00720065002C0020006200750074000A00540072006500760065006E0061006E007400200068006100730020006100200076006500720079002000670065006E0074006C0065002000670061007A0065002E002E002E00100002011401960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5108,
+  "sectionOffset": 16,
+  "textCount": 40,
+  "textSectionCount": 1
+}

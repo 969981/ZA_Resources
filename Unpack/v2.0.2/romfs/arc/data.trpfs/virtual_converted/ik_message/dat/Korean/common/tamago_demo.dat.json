@@ -1,0 +1,43 @@
+{
+  "declaredLength": 132,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "어라...?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "C5B4B77C002E002E002E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "알이 부화해서\n<U+0010><U+0002>ā<U+0000><U+0010><U+0002>ᤀ<U+0003> 태어났다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "C54CC7740020BD80D654D574C11C000A001000020101000000100002190000030020D0DCC5B4B0ACB2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000>에게\n닉네임을 붙이겠습니까?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "0010000201010000C5D0AC8C000AB2C9B124C784C7440020BD99C774ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 132,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

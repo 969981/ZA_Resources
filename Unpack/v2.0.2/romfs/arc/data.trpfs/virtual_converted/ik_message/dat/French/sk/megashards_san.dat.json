@@ -1,0 +1,73 @@
+{
+  "declaredLength": 580,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Si t’as des Méga-Fragments, je peux te les\néchanger contre des choses sympas !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "005300690020007420190061007300200064006500730020004D00E900670061002D0046007200610067006D0065006E00740073002C0020006A0065002000700065007500780020007400650020006C00650073000A00E9006300680061006E00670065007200200063006F006E0074007200650020006400650073002000630068006F007300650073002000730079006D007000610073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Oui, s’il vous plaît !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "004F00750069002C0020007320190069006C00200076006F0075007300200070006C006100EE0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Non merci.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "004E006F006E0020006D0065007200630069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "À propos des modules...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00C0002000700072006F0070006F007300200064006500730020006D006F00640075006C00650073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Tu sais où me trouver. Je peux obtenir\nde bons produits grâce à mes contacts.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "00540075002000730061006900730020006F00F90020006D0065002000740072006F0075007600650072002E0020004A0065002000700065007500780020006F006200740065006E00690072000A0064006500200062006F006E0073002000700072006F0064007500690074007300200067007200E200630065002000E00020006D0065007300200063006F006E00740061006300740073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "J’ai de la bonne marchandise ! <U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "004A2019006100690020006400650020006C006100200062006F006E006E00650020006D00610072006300680061006E006400690073006500200021002000100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 580,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

@@ -1,0 +1,103 @@
+{
+  "declaredLength": 604,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Vuoi dare una ciambella a Gulpin?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "00560075006F00690020006400610072006500200075006E00610020006300690061006D00620065006C006C006100200061002000470075006C00700069006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sì, con piacere!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "005300EC002C00200063006F006E0020007000690061006300650072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Non adesso...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "004E006F006E002000610064006500730073006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Gnam gnam gnam! Gulp!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 3,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0047006E0061006D00200067006E0061006D00200067006E0061006D0021002000470075006C007000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Vuoi dargli un’altra ciambella?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00560075006F006900200064006100720067006C006900200075006E20190061006C0074007200610020006300690061006D00620065006C006C0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Non hai ciambelle da dare.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "004E006F006E00200068006100690020006300690061006D00620065006C006C006500200064006100200064006100720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Gulpin è molto soddisfatto!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00470075006C00700069006E002000E80020006D006F006C0074006F00200073006F00640064006900730066006100740074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Gulpin ti ha dato\n<U+0010><U+0003>ᔂ<U+0002><U+0000><U+0010><U+0002>Ċ<U+0002>!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "00100002BD06000000470075006C00700069006E0020007400690020006800610020006400610074006F000A0010000315020002000000100002010A000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Non puoi dare quella ciambella al signor Gulpin.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F0069002000640061007200650020007100750065006C006C00610020006300690061006D00620065006C006C006100200061006C0020007300690067006E006F0072002000470075006C00700069006E002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 604,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

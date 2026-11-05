@@ -1,0 +1,223 @@
+{
+  "declaredLength": 928,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>/<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "0010000202010000002F00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "들키기 전에\n먼저 승부를 걸자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "B4E4D0A4AE300020C804C5D0000ABA3CC8000020C2B9BD80B97C0020AC78C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ă<U+0000>타입 기술로\n승부를 걸자!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "0010000201030000D0C0C7850020AE30C220B85C000AC2B9BD80B97C0020AC78C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "승부를 걸자마자\n일격에 KO시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "C2B9BD80B97C0020AC78C790B9C8C790000AC77CACA9C5D00020004B004FC2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "효과가 굉장한 공격을 하자!\n종류는 상관없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "D6A8ACFCAC000020AD49C7A5D55C0020ACF5ACA9C7440020D558C7900021000AC885B958B2940020C0C1AD00C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>ă<U+0000>타입 기술로 공격하자!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "0010000201030000D0C0C7850020AE30C220B85C0020ACF5ACA9D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>ă<U+0000>타입 기술로\n효과가 굉장한 공격을 하자!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "0010000201030000D0C0C7850020AE30C220B85C000AD6A8ACFCAC000020AD49C7A5D55C0020ACF5ACA9C7440020D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>ă<U+0000>타입 기술로\nKO시키자!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "0010000201030000D0C0C7850020AE30C220B85C000A004B004FC2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "상대 포켓몬을\n마비시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC744000AB9C8BE44C2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "상대 포켓몬을\n졸음 상태로 만들자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC744000AC878C74C0020C0C1D0DCB85C0020B9CCB4E4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "상대 포켓몬을\n얼어붙게 만들자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC744000AC5BCC5B4BD99AC8C0020B9CCB4E4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "상대 포켓몬에게\n화상을 입히자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC5D0AC8C000AD654C0C1C7440020C785D788C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "상대 포켓몬에게\n독을 퍼뜨리자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC5D0AC8C000AB3C5C7440020D37CB728B9ACC79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "상대 포켓몬을\n혼란시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "C0C1B3000020D3ECCF13BAACC744000AD63CB780C2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "메가진화한 상태로\n기술을 명중시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D654D55C0020C0C1D0DCB85C000AAE30C220C7440020BA85C911C2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "메가진화한 상태로\nKO시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D654D55C0020C0C1D0DCB85C000A004B004FC2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "기술플러스로 공격하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "AE30C220D50CB7ECC2A4B85C0020ACF5ACA9D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "기술플러스로\n효과가 굉장한 공격을 하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "AE30C220D50CB7ECC2A4B85C000AD6A8ACFCAC000020AD49C7A5D55C0020ACF5ACA9C7440020D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "기술플러스로\nKO시키자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 868,
+      "rawDecodedUtf16Hex": "AE30C220D50CB7ECC2A4B85C000A004B004FC2DCD0A4C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "상급 트레이너에게 승리하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "C0C1AE090020D2B8B808C774B108C5D0AC8C0020C2B9B9ACD558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 928,
+  "sectionOffset": 16,
+  "textCount": 21,
+  "textSectionCount": 1
+}

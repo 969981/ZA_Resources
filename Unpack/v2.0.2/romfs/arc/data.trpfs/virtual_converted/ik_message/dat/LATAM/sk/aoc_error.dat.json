@@ -1,0 +1,33 @@
+{
+  "declaredLength": 348,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Necesitas comprar y descargar Megadimensión\npara poder acceder a esta zona.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "004E0065006300650073006900740061007300200063006F006D00700072006100720020007900200064006500730063006100720067006100720020004D00650067006100640069006D0065006E0073006900F3006E000A007000610072006100200070006F0064006500720020006100630063006500640065007200200061002000650073007400610020007A006F006E0061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Necesitas comprar y descargar Megadimensión\npara poder aceptar esta misión secundaria.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "004E0065006300650073006900740061007300200063006F006D00700072006100720020007900200064006500730063006100720067006100720020004D00650067006100640069006D0065006E0073006900F3006E000A007000610072006100200070006F00640065007200200061006300650070007400610072002000650073007400610020006D00690073006900F3006E00200073006500630075006E00640061007200690061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 348,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

@@ -1,0 +1,63 @@
+{
+  "declaredLength": 428,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "폴리곤이 지금보다 더 발전하면\n게임과 현실을 구별할 수 없게 될 거야.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "D3F4B9ACACE4C7740020C9C0AE08BCF4B2E40020B3540020BC1CC804D558BA74000AAC8CC784ACFC0020D604C2E4C7440020AD6CBCC4D5600020C2180020C5C6AC8C0020B4200020AC70C57C002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "포켓몬 폴리곤도\n버전 업을 계속하다 보면<U+0010><U+0001>븀\n게임 속 세계에 갈 수 있게 되지 않을까?<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "D3ECCF13BAAC0020D3F4B9ACACE4B3C4000ABC84C8040020C5C5C7440020ACC4C18DD558B2E40020BCF4BA7400100001BE00000AAC8CC7840020C18D0020C138ACC4C5D00020AC080020C2180020C788AC8C0020B418C9C00020C54AC744AE4C003F00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "그런 의미에서\n이 괴상한 기계를 너에게 줄게.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "ADF8B7F00020C758BBF8C5D0C11C000AC7740020AD34C0C1D55C0020AE30ACC4B97C0020B108C5D0AC8C0020C904AC8C002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "폴리곤2에게 지니게 해서\n통신교환을 해 봐.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "D3F4B9ACACE40032C5D0AC8C0020C9C0B2C8AC8C0020D574C11C000AD1B5C2E0AD50D658C7440020D5740020BD10002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "어쩌면 나도\n게임 속 세계의 주민이지 않을까...?<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "C5B4CA4CBA740020B098B3C4000AAC8CC7840020C18D0020C138ACC4C7580020C8FCBBFCC774C9C00020C54AC744AE4C002E002E002E003F00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 428,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

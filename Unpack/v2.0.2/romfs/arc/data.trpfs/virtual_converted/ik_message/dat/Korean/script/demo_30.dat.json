@@ -1,0 +1,83 @@
+{
+  "declaredLength": 216,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "뀨르르!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "B028B974B974002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "그건 플라엣테나이트...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "ADF8AC740020D50CB77CC5E3D14CB098C774D2B8002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "그건 플라엣테나이트...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "ADF8AC740020D50CB77CC5E3D14CB098C774D2B8002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "플라엣테, 메가진화!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "D50CB77CC5E3D14C002C0020BA54AC00C9C4D65400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "플라엣테, 메가진화!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "D50CB77CC5E3D14C002C0020BA54AC00C9C4D65400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "가자, 플라엣테!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "AC00C790002C0020D50CB77CC5E3D14C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "가자, 플라엣테!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "AC00C790002C0020D50CB77CC5E3D14C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 216,
+  "sectionOffset": 16,
+  "textCount": 7,
+  "textSectionCount": 1
+}

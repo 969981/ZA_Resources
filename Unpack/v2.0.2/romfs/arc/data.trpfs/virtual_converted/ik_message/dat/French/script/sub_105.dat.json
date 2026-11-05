@@ -1,0 +1,213 @@
+{
+  "declaredLength": 2676,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mon Chamallot !!!<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "004D006F006E0020004300680061006D0061006C006C006F0074002000210021002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "À l’aide !\nMon Chamallot est complètement gelé !!!<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "00C00020006C2019006100690064006500200021000A004D006F006E0020004300680061006D0061006C006C006F0074002000650073007400200063006F006D0070006C00E800740065006D0065006E0074002000670065006C00E9002000210021002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Tu ne devineras jamais ce qui s’est passé ! On se\nbaladait dans une zone sauvage, tranquilles...<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "005400750020006E006500200064006500760069006E00650072006100730020006A0061006D00610069007300200063006500200071007500690020007320190065007300740020007000610073007300E9002000210020004F006E002000730065000A00620061006C00610064006100690074002000640061006E007300200075006E00650020007A006F006E006500200073006100750076006100670065002C0020007400720061006E007100750069006C006C00650073002E002E002E00100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Quand soudain, on s’est retrouvés en plein milieu\nd’une bagarre entre Pokémon sauvages !<U+0010><U+0001>븁\nMon pauvre Chamallot s’est pris pas moins\nde dix Laser Glace en pleine face !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "005100750061006E006400200073006F0075006400610069006E002C0020006F006E00200073201900650073007400200072006500740072006F0075007600E9007300200065006E00200070006C00650069006E0020006D0069006C006900650075000A006420190075006E00650020006200610067006100720072006500200065006E00740072006500200050006F006B00E9006D006F006E0020007300610075007600610067006500730020002100100001BE01000A004D006F006E00200070006100750076007200650020004300680061006D0061006C006C006F00740020007320190065007300740020007000720069007300200070006100730020006D006F0069006E0073000A0064006500200064006900780020004C006100730065007200200047006C00610063006500200065006E00200070006C00650069006E0065002000660061006300650020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 174
+    },
+    {
+      "displayText": "Il a beau être de type Feu, la glace ne fond pas\ndu tout !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "0049006C0020006100200062006500610075002000EA007400720065002000640065002000740079007000650020004600650075002C0020006C006100200067006C0061006300650020006E006500200066006F006E00640020007000610073000A0064007500200074006F007500740020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Même mes Antigels ne marchent pas... Il ne reste\ndonc qu’une solution : une capacité de type Feu !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "004D00EA006D00650020006D0065007300200041006E0074006900670065006C00730020006E00650020006D00610072006300680065006E00740020007000610073002E002E002E00200049006C0020006E0065002000720065007300740065000A0064006F006E006300200071007520190075006E006500200073006F006C007500740069006F006E0020003A00200075006E00650020006300610070006100630069007400E90020006400650020007400790070006500200046006500750020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Toi qui es Dresseu<U+0010><U+0003>ᄀÿȁrse, tu peux utiliser une capacité\nde type Feu assez puissante pour le dégeler ?<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "0054006F006900200071007500690020006500730020004400720065007300730065007500100003110000FF0201007200730065002C002000740075002000700065007500780020007500740069006C006900730065007200200075006E00650020006300610070006100630069007400E9000A0064006500200074007900700065002000460065007500200061007300730065007A0020007000750069007300730061006E0074006500200070006F007500720020006C00650020006400E900670065006C006500720020003F00100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Je pense qu’une capacité comme Lance-Flammes\ndevrait faire fondre toute cette glace !<U+0010><U+0001>븁\nChamallot a beau être de type Feu, même lui\nrisque d’attraper froid s’il reste gelé si longtemps !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "004A0065002000700065006E0073006500200071007520190075006E00650020006300610070006100630069007400E900200063006F006D006D00650020004C0061006E00630065002D0046006C0061006D006D00650073000A006400650076007200610069007400200066006100690072006500200066006F006E00640072006500200074006F00750074006500200063006500740074006500200067006C0061006300650020002100100001BE01000A004300680061006D0061006C006C006F00740020006100200062006500610075002000EA007400720065002000640065002000740079007000650020004600650075002C0020006D00EA006D00650020006C00750069000A00720069007300710075006500200064201900610074007400720061007000650072002000660072006F006900640020007320190069006C002000720065007300740065002000670065006C00E90020007300690020006C006F006E006700740065006D007000730020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 192
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Non, il faut une capacité de type Feu qui génère\nbeaucoup de chaleur, sinon ça ne marchera pas !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "004E006F006E002C00200069006C0020006600610075007400200075006E00650020006300610070006100630069007400E900200064006500200074007900700065002000460065007500200071007500690020006700E9006E00E800720065000A00620065006100750063006F007500700020006400650020006300680061006C006500750072002C002000730069006E006F006E002000E700610020006E00650020006D006100720063006800650072006100200070006100730020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Ça a marché ! Mon Chamallot est enfin libre !\nMerci infiniment !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2060,
+      "rawDecodedUtf16Hex": "00C70061002000610020006D006100720063006800E9002000210020004D006F006E0020004300680061006D0061006C006C006F0074002000650073007400200065006E00660069006E0020006C006900620072006500200021000A004D006500720063006900200069006E00660069006E0069006D0065006E00740020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Tout va bien, Chamallot ?!<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "0054006F007500740020007600610020006200690065006E002C0020004300680061006D0061006C006C006F00740020003F002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Hein ? Qu’est-ce que tu manges ? Des Baies ?!<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "004800650069006E0020003F0020005100752019006500730074002D0063006500200071007500650020007400750020006D0061006E0067006500730020003F00200044006500730020004200610069006500730020003F002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Chamiam.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "004300680061006D00690061006D002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "*soupir* Décidément, même la glace ne peut pas\narrêter cet estomac sur pattes...<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "002A0073006F0075007000690072002A0020004400E900630069006400E9006D0065006E0074002C0020006D00EA006D00650020006C006100200067006C0061006300650020006E0065002000700065007500740020007000610073000A00610072007200EA00740065007200200063006500740020006500730074006F006D0061006300200073007500720020007000610074007400650073002E002E002E00100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Chamiam !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "004300680061006D00690061006D002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Merci beaucoup d’avoir sauvé mon Chamallot !<U+0010><U+0002>Ĕƀ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "004D0065007200630069002000620065006100750063006F0075007000200064201900610076006F006900720020007300610075007600E90020006D006F006E0020004300680061006D0061006C006C006F00740020002100100002011401800000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2676,
+  "sectionOffset": 16,
+  "textCount": 20,
+  "textSectionCount": 1
+}

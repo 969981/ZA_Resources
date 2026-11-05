@@ -1,0 +1,783 @@
+{
+  "declaredLength": 3088,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Veuillez définir les paramètres du tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "0056006500750069006C006C0065007A0020006400E900660069006E006900720020006C0065007300200070006100720061006D00E8007400720065007300200064007500200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Sélectionner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "005300E9006C0065006300740069006F006E006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Retour",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "005200650074006F007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Choisissez la date du tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A0020006C00610020006400610074006500200064007500200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Choisissez l’heure de début du tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A0020006C2019006800650075007200650020006400650020006400E900620075007400200064007500200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Choisissez l’heure de fin du tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A0020006C201900680065007500720065002000640065002000660069006E00200064007500200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Choisissez le nombre de combats possibles au cours d’une même journée.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A0020006C00650020006E006F006D00620072006500200064006500200063006F006D006200610074007300200070006F0073007300690062006C0065007300200061007500200063006F0075007200730020006420190075006E00650020006D00EA006D00650020006A006F00750072006E00E90065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Choisissez le temps imparti.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1116,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A0020006C0065002000740065006D0070007300200069006D00700061007200740069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tout le monde",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "0054006F007500740020006C00650020006D006F006E006400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Personnes possédant mon identifiant",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1228,
+      "rawDecodedUtf16Hex": "0050006500720073006F006E006E0065007300200070006F0073007300E900640061006E00740020006D006F006E0020006900640065006E00740069006600690061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Retour",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "005200650074006F007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Veuillez choisir qui peut participer au tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "0056006500750069006C006C0065007A002000630068006F00690073006900720020007100750069002000700065007500740020007000610072007400690063006900700065007200200061007500200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Voulez-vous ajouter un sous-titre\nau nom du tournoi ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200061006A006F007500740065007200200075006E00200073006F00750073002D00740069007400720065000A006100750020006E006F006D00200064007500200074006F00750072006E006F00690020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Organisation du tournoi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "004F007200670061006E00690073006100740069006F006E00200064007500200074006F00750072006E006F00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Nom du tournoi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "004E006F006D00200064007500200074006F00750072006E006F00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Règles",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "005200E80067006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Règles souples",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "005200E80067006C0065007300200073006F00750070006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Règles de la Tour de Combat",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "005200E80067006C006500730020006400650020006C006100200054006F0075007200200064006500200043006F006D0062006100740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sans restrictions",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "00530061006E00730020007200650073007400720069006300740069006F006E00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "0010000201D500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Durée du tournoi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00440075007200E9006500200064007500200074006F00750072006E006F00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Du <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ<U+0000><U+0000> à <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1880,
+      "rawDecodedUtf16Hex": "0044007500200010000202010002002F0010000202010001002F00100003020300000000002000E000200010000202010003003A00100002020100040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "au",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "006100750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ<U+0000><U+0000> à <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "0010000202010002002F0010000202010001002F00100003020300000000002000E000200010000202010003003A00100002020100040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Participants possibles",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "005000610072007400690063006900700061006E0074007300200070006F0073007300690062006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Tout le monde",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2056,
+      "rawDecodedUtf16Hex": "0054006F007500740020006C00650020006D006F006E006400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Personnes possédant mon identifiant",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "0050006500720073006F006E006E0065007300200070006F0073007300E900640061006E00740020006D006F006E0020006900640065006E00740069006600690061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Organiser",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "004F007200670061006E00690073006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Attention !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "0041007400740065006E00740069006F006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Vous ne pouvez pas annuler un tournoi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E006500200070006F007500760065007A002000700061007300200061006E006E0075006C0065007200200075006E00200074006F00750072006E006F0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Nombre de combats",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "004E006F006D00620072006500200064006500200063006F006D00620061007400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000> maximum",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "00100002020100000020006D006100780069006D0075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Temps imparti",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "00540065006D0070007300200069006D007000610072007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Temps individuel : <U+0010><U+0002>ȁ<U+0000> minute<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "00540065006D0070007300200069006E0064006900760069006400750065006C0020003A002000100002020100000020006D0069006E0075007400650010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Temps total : <U+0010><U+0002>ȁ<U+0000> minute<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2448,
+      "rawDecodedUtf16Hex": "00540065006D0070007300200074006F00740061006C0020003A002000100002020100000020006D0069006E0075007400650010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "À déterminer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 45,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "00C00020006400E9007400650072006D0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "0010000202010002002F0010000202010001002F001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:00",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "0010000202010001003A003000300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:59",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "0010000202010001003A003500390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Durée du tournoi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "00440075007200E9006500200064007500200074006F00750072006E006F00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2640,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2652,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2664,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000> maximum",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2676,
+      "rawDecodedUtf16Hex": "00100002020100000020006D006100780069006D0075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Temps individuel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "00540065006D0070007300200069006E0064006900760069006400750065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Temps total",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2740,
+      "rawDecodedUtf16Hex": "00540065006D0070007300200074006F00740061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000> minute<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "00100002020100000020006D0069006E0075007400650010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001> minute<U+0010><U+0003>ᄁ<U+0001>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2800,
+      "rawDecodedUtf16Hex": "00100002020100010020006D0069006E0075007400650010000311010001010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Illimité",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 58,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "0049006C006C0069006D0069007400E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Sélectionner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2856,
+      "rawDecodedUtf16Hex": "005300E9006C0065006300740069006F006E006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2884,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2908,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2920,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2944,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2956,
+      "rawDecodedUtf16Hex": "00100002BDFF00420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "00100002BDFF00430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3004,
+      "rawDecodedUtf16Hex": "00100002BDFF00460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "00100002BDFF00470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3064,
+      "rawDecodedUtf16Hex": "00100002BDFF004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3076,
+      "rawDecodedUtf16Hex": "00100002BDFF004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3088,
+  "sectionOffset": 16,
+  "textCount": 77,
+  "textSectionCount": 1
+}

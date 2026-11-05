@@ -1,0 +1,1813 @@
+{
+  "declaredLength": 22104,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Boxen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "0042006F00780065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Tasche",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "0054006100730063006800650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Pokédex",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1472,
+      "rawDecodedUtf16Hex": "0050006F006B00E90064006500780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Magnolias Forschung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1488,
+      "rawDecodedUtf16Hex": "004D00610067006E006F006C00690061007300200046006F00720073006300680075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Z-A Royale",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1528,
+      "rawDecodedUtf16Hex": "005A002D004100200052006F00790061006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Mehrspieler/Online",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "004D0065006800720073007000690065006C00650072002F004F006E006C0069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Z-A Infiniroyale",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "005A002D004100200049006E00660069006E00690072006F00790061006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Schließen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "005300630068006C0069006500DF0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1648,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Bewegen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "004200650077006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Hilfe & Optionen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1684,
+      "rawDecodedUtf16Hex": "00480069006C00660065002000260020004F007000740069006F006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Speichern",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "00530070006500690063006800650072006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Attacken verwalten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "00410074007400610063006B0065006E002000760065007200770061006C00740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Entwickeln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "0045006E0074007700690063006B0065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Auto-Heilung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "004100750074006F002D004800650069006C0075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Item",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "004900740065006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Aussehen ändern",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "0041007500730073006500680065006E002000E4006E006400650072006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Belohnungsliste",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "00420065006C006F0068006E0075006E00670073006C00690073007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Karte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "004B00610072007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Bericht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "00420065007200690063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Pokémon bewegen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E0020006200650077006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Attacken verwalten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "00410074007400610063006B0065006E002000760065007200770061006C00740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Heilen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "004800650069006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Entwickeln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "0045006E0074007700690063006B0065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Item zum Tragen geben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2068,
+      "rawDecodedUtf16Hex": "004900740065006D0020007A0075006D002000540072006100670065006E00200067006500620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Getragenes Item verwalten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "0047006500740072006100670065006E006500730020004900740065006D002000760065007200770061006C00740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Item bewegen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "004900740065006D0020006200650077006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Tasche öffnen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "005400610073006300680065002000F600660066006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Getragenes Item verstauen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "0047006500740072006100670065006E006500730020004900740065006D002000760065007200730074006100750065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Zulassen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "005A0075006C0061007300730065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>:<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "0010000202010000003A00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "0010000302060000002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2428,
+      "rawDecodedUtf16Hex": "0010000302060000202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Destinations & Missions",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "00440065007300740069006E006100740069006F006E0073002000260020004D0069007300730069006F006E00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Mission Details",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2488,
+      "rawDecodedUtf16Hex": "004D0069007300730069006F006E002000440065007400610069006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> /<U+0010><U+0003>Ȅ<U+0001> ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "0010000302040000202F002F0010000302040001202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "－",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "FF0D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2584,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "KP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "004B00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2596,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2608,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Das würde keine Wirkung zeigen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "0044006100730020007700FC0072006400650020006B00650069006E00650020005700690072006B0075006E00670020007A0065006900670065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Du hast keine Items, die KP auffüllen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020006B00650069006E00650020004900740065006D0073002C00200064006900650020004B00500020006100750066006600FC006C006C0065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Das kann nicht auf ein Ei angewendet werden!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2776,
+      "rawDecodedUtf16Hex": "0044006100730020006B0061006E006E0020006E00690063006800740020006100750066002000650069006E00200045006900200061006E0067006500770065006E006400650074002000770065007200640065006E002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Du hast alle Items aufgebraucht, die KP auffüllen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2872,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200061006C006C00650020004900740065006D00730020006100750066006700650062007200610075006300680074002C00200064006900650020004B00500020006100750066006600FC006C006C0065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Welches Item möchtest du anwenden?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "00570065006C00630068006500730020004900740065006D0020006D00F600630068007400650073007400200064007500200061006E00770065006E00640065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3068,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Entwicklung zulassen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3088,
+      "rawDecodedUtf16Hex": "0045006E0074007700690063006B006C0075006E00670020007A0075006C0061007300730065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Nanu? <U+0010><U+0002>Ă<U+0000> entwickelt sich!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3132,
+      "rawDecodedUtf16Hex": "004E0061006E0075003F0020001000020102000000200065006E0074007700690063006B0065006C00740020007300690063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Es kann sich hier nicht entwickeln.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "004500730020006B0061006E006E00200073006900630068002000680069006500720020006E006900630068007400200065006E0074007700690063006B0065006C006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Du kannst den Mega-Stein gerade nicht\nentfernen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000640065006E0020004D006500670061002D0053007400650069006E00200067006500720061006400650020006E0069006300680074000A0065006E0074006600650072006E0065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du kannst den <U+0010><U+0002>ċ<U+0000> gerade\nnicht<U+0010><U+0001>븀\nentfernen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020006B0061006E006E00730074002000640065006E002000100002010B00000020006700650072006100640065000A006E006900630068007400100001BE00000A0065006E0074006600650072006E0065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3472,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3484,
+      "rawDecodedUtf16Hex": "00100002BDFF00420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Aktuelle Zeit:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3496,
+      "rawDecodedUtf16Hex": "0041006B007400750065006C006C00650020005A006500690074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Aktueller Ort:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3528,
+      "rawDecodedUtf16Hex": "0041006B007400750065006C006C006500720020004F00720074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3560,
+      "rawDecodedUtf16Hex": "00100002010500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Spielzeit:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3572,
+      "rawDecodedUtf16Hex": "0053007000690065006C007A006500690074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Pokédex:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3596,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006400650078003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3616,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Zuletzt gespeichert:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3628,
+      "rawDecodedUtf16Hex": "005A0075006C00650074007A0074002000670065007300700065006900630068006500720074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Royale-Rang:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "0052006F00790061006C0065002D00520061006E0067003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3700,
+      "rawDecodedUtf16Hex": "0010000202010002002E0010000202010001002E001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>:<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "0010000202020000003A00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Fortschritt speichern",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3752,
+      "rawDecodedUtf16Hex": "0046006F007200740073006300680072006900740074002000730070006500690063006800650072006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Abbrechen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3796,
+      "rawDecodedUtf16Hex": "00410062006200720065006300680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Speichervorgang...\nBitte die Konsole nicht ausschalten.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3816,
+      "rawDecodedUtf16Hex": "005300700065006900630068006500720076006F007200670061006E0067002E002E002E000A0042006900740074006500200064006900650020004B006F006E0073006F006C00650020006E006900630068007400200061007500730073006300680061006C00740065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Du hast das Spiel gespeichert.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 3928,
+      "rawDecodedUtf16Hex": "0044007500200068006100730074002000640061007300200053007000690065006C002000670065007300700065006900630068006500720074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Das Spiel konnte nicht gespeichert werden.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 3996,
+      "rawDecodedUtf16Hex": "00440061007300200053007000690065006C0020006B006F006E006E007400650020006E0069006300680074002000670065007300700065006900630068006500720074002000770065007200640065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Dir gehorchen Pokémon, die beim Fang maximal auf Lv. <U+0010><U+0002>ȁ<U+0000> waren.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4088,
+      "rawDecodedUtf16Hex": "0044006900720020006700650068006F0072006300680065006E00200050006F006B00E9006D006F006E002C00200064006900650020006200650069006D002000460061006E00670020006D006100780069006D0061006C00200061007500660020004C0076002E0020001000020201000000200077006100720065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Dir gehorchen alle Pokémon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4220,
+      "rawDecodedUtf16Hex": "0044006900720020006700650068006F0072006300680065006E00200061006C006C006500200050006F006B00E9006D006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sicherungsdaten laden",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4276,
+      "rawDecodedUtf16Hex": "0053006900630068006500720075006E006700730064006100740065006E0020006C006100640065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿U",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4320,
+      "rawDecodedUtf16Hex": "00100002BDFF00550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Sicherungsdaten wurden geladen.<U+0010><U+0001>븁\nBitte beachte, dass diese Daten gespeichert\nwerden, wenn du deinen Spielstand das nächste<U+0010><U+0001>븀\nMal sicherst.<U+0010><U+0001>븁",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4332,
+      "rawDecodedUtf16Hex": "0053006900630068006500720075006E006700730064006100740065006E002000770075007200640065006E002000670065006C006100640065006E002E00100001BE01000A0042006900740074006500200062006500610063006800740065002C0020006400610073007300200064006900650073006500200044006100740065006E002000670065007300700065006900630068006500720074000A00770065007200640065006E002C002000770065006E006E0020006400750020006400650069006E0065006E00200053007000690065006C007300740061006E006400200064006100730020006E00E40063006800730074006500100001BE00000A004D0061006C002000730069006300680065007200730074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 145
+    },
+    {
+      "displayText": "Es liegen keine Sicherungsdaten vor,\ndie geladen werden könnten.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4624,
+      "rawDecodedUtf16Hex": "004500730020006C0069006500670065006E0020006B00650069006E006500200053006900630068006500720075006E006700730064006100740065006E00200076006F0072002C000A006400690065002000670065006C006100640065006E002000770065007200640065006E0020006B00F6006E006E00740065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du verstaust\n<U+0010><U+0003>ᘄ<U+0000><U+0000><U+0010><U+0002>Đ<U+0000><U+0010><U+0001>븀\nim<U+0010><U+0001>븀\n<U+0010><U+0002>Ē<U+0001><U+0010><U+0001>븀\ndeiner<U+0010><U+0001>븀\nTasche.<U+0010><U+0001>븁",
+      "escapedControlUnits": 23,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020007600650072007300740061007500730074000A00100003160400000000001000020110000000100001BE00000A0069006D00100001BE00000A001000020112000100100001BE00000A006400650069006E0065007200100001BE00000A005400610073006300680065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Du hast keinen Platz dafür!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 4892,
+      "rawDecodedUtf16Hex": "00440075002000680061007300740020006B00650069006E0065006E00200050006C00610074007A002000640061006600FC0072002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Das Spiel kann gerade nicht gespeichert werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 4956,
+      "rawDecodedUtf16Hex": "00440061007300200053007000690065006C0020006B0061006E006E00200067006500720061006400650020006E0069006300680074002000670065007300700065006900630068006500720074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Du kannst diese Funktion gerade nicht nutzen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 5052,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000640069006500730065002000460075006E006B00740069006F006E00200067006500720061006400650020006E00690063006800740020006E00750074007A0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Dein Pokémon kann aufgrund von Heilblockade\nnicht geheilt werden!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 5144,
+      "rawDecodedUtf16Hex": "004400650069006E00200050006F006B00E9006D006F006E0020006B0061006E006E0020006100750066006700720075006E006400200076006F006E0020004800650069006C0062006C006F0063006B006100640065000A006E0069006300680074002000670065006800650069006C0074002000770065007200640065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Du kannst gerade nicht auf deine Tasche\nzugreifen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 5276,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E0073007400200067006500720061006400650020006E006900630068007400200061007500660020006400650069006E00650020005400610073006300680065000A007A0075006700720065006900660065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 5380,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> /<U+0010><U+0003>Ȅ<U+0000>  Pkt.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 5392,
+      "rawDecodedUtf16Hex": "0010000302040000202F002F0010000302040000202F00200050006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 5428,
+      "rawDecodedUtf16Hex": "0010000302040000202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": " Pkt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 5440,
+      "rawDecodedUtf16Hex": "00200050006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 5452,
+      "rawDecodedUtf16Hex": "002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 5456,
+      "rawDecodedUtf16Hex": "00100001100000100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 5472,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nr. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 5484,
+      "rawDecodedUtf16Hex": "004E0072002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 5504,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Kategorie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 5516,
+      "rawDecodedUtf16Hex": "004B0061007400650067006F0072006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Stärke",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 5536,
+      "rawDecodedUtf16Hex": "0053007400E40072006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 5552,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Aufladezeit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 5564,
+      "rawDecodedUtf16Hex": "004100750066006C006100640065007A0065006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 5588,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "-",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 5600,
+      "rawDecodedUtf16Hex": "002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Als nächste Belohnung erhältst du\n<U+0010><U+0003>ᘂ<U+0000><U+0000><U+0010><U+0002>Đ<U+0000>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 5604,
+      "rawDecodedUtf16Hex": "00100002BD0600000041006C00730020006E00E400630068007300740065002000420065006C006F0068006E0075006E0067002000650072006800E4006C007400730074002000640075000A001000031602000000000010000201100000002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Forschungsfortschritt:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5708,
+      "rawDecodedUtf16Hex": "0046006F00720073006300680075006E006700730066006F007200740073006300680072006900740074003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000>/<U+0010><U+0003>ȃ<U+0001>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5756,
+      "rawDecodedUtf16Hex": "00100003020300000000002F001000030203000100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Bei Abschluss:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5780,
+      "rawDecodedUtf16Hex": "004200650069002000410062007300630068006C007500730073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 5812,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Zu erledigen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 5824,
+      "rawDecodedUtf16Hex": "005A0075002000650072006C00650064006900670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Alle Aufgaben",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 5852,
+      "rawDecodedUtf16Hex": "0041006C006C006500200041007500660067006100620065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Zurück",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 5880,
+      "rawDecodedUtf16Hex": "005A0075007200FC0063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast Forschungslevel <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ȁ<U+0000> <U+0010><U+0002>＀<U+0000>erreicht!\nAls Belohnung erhältst du die<U+0010><U+0001>븀\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0002><U+0010><U+0002>＀<U+0000>.<U+0010><U+0001>븁",
+      "escapedControlUnits": 25,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 5896,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020006800610073007400200046006F00720073006300680075006E00670073006C006500760065006C002000100002FF0000050010000202010000002000100002FF000000006500720072006500690063006800740021000A0041006C0073002000420065006C006F0068006E0075006E0067002000650072006800E4006C007400730074002000640075002000640069006500100001BE00000A0054004D002000100002FF000005001000020107000200100002FF000000002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du hast Forschungslevel <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ȁ<U+0000> <U+0010><U+0002>＀<U+0000>erreicht!\nAls Belohnung erhältst du<U+0010><U+0001>븀\n<U+0010><U+0003>ᘆ<U+0001><U+0000><U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0001><U+0010><U+0002>＀<U+0000>.<U+0010><U+0001>븁",
+      "escapedControlUnits": 29,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 6104,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020006800610073007400200046006F00720073006300680075006E00670073006C006500760065006C002000100002FF0000050010000202010000002000100002FF000000006500720072006500690063006800740021000A0041006C0073002000420065006C006F0068006E0075006E0067002000650072006800E4006C00740073007400200064007500100001BE00000A0010000316060001000000100002FF000005001000020109000100100002FF000000002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Du hast Forschungslevel <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ȁ<U+0000> <U+0010><U+0002>＀<U+0000>erreicht!\nUm das zu feiern, erhältst du <U+0010><U+0002>ȁ<U+0001> Belohnungen.<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 6308,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200046006F00720073006300680075006E00670073006C006500760065006C002000100002FF0000050010000202010000002000100002FF000000006500720072006500690063006800740021000A0055006D00200064006100730020007A0075002000660065006900650072006E002C002000650072006800E4006C00740073007400200064007500200010000202010001002000420065006C006F0068006E0075006E00670065006E002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Du erhältst die TM <U+0010><U+0002>ć<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 6504,
+      "rawDecodedUtf16Hex": "00440075002000650072006800E4006C007400730074002000640069006500200054004D00200010000201070001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du erhältst\n<U+0010><U+0002>Ȃ<U+0000> <U+0010><U+0002>Đ<U+0000>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 6560,
+      "rawDecodedUtf16Hex": "00100002BD06000000440075002000650072006800E4006C007400730074000A001000020202000000200010000201100000002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nMit dieser physischen Attacke vom Typ Kampf\nkannst du sogar große Felsen zertrümmern!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 6620,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004D0069007400200064006900650073006500720020007000680079007300690073006300680065006E002000410074007400610063006B006500200076006F006D00200054007900700020004B0061006D00700066000A006B0061006E006E0073007400200064007500200073006F006700610072002000670072006F00DF0065002000460065006C00730065006E0020007A006500720074007200FC006D006D00650072006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 142
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser Spezial-Attacke vom Typ Boden kannst\ndu Gegner mit Schlamm bespritzen, sodass sie<U+0010><U+0001>븀\nlangsamer werden.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 6904,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200042006F00640065006E0020006B0061006E006E00730074000A006400750020004700650067006E006500720020006D006900740020005300630068006C0061006D006D00200062006500730070007200690074007A0065006E002C00200073006F0064006100730073002000730069006500100001BE00000A006C0061006E006700730061006D00650072002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 170
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Attacke ist der Knaller! Dein Pokémon wird\nnämlich für kurze Zeit vor gegnerischen Angriffen<U+0010><U+0001>븀\ngeschützt.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 7244,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440069006500730065002000410074007400610063006B0065002000690073007400200064006500720020004B006E0061006C006C0065007200210020004400650069006E00200050006F006B00E9006D006F006E00200077006900720064000A006E00E4006D006C0069006300680020006600FC00720020006B00750072007A00650020005A00650069007400200076006F00720020006700650067006E0065007200690073006300680065006E00200041006E006700720069006600660065006E00100001BE00000A0067006500730063006800FC0074007A0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 169
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Elektro-Attacke beißt dein\nPokémon mit elektrifizierten Reißzähnen zu.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 7584,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E00200045006C0065006B00740072006F002D00410074007400610063006B0065002000620065006900DF00740020006400650069006E000A0050006F006B00E9006D006F006E0020006D0069007400200065006C0065006B00740072006900660069007A00690065007200740065006E002000520065006900DF007A00E40068006E0065006E0020007A0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 149
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Feuer-Attacke beißt dein\nPokémon mit flammenden Reißzähnen zu.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 7884,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E002000460065007500650072002D00410074007400610063006B0065002000620065006900DF00740020006400650069006E000A0050006F006B00E9006D006F006E0020006D0069007400200066006C0061006D006D0065006E00640065006E002000520065006900DF007A00E40068006E0065006E0020007A0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Eis-Attacke beißt dein\nPokémon mit eiskalten Reißzähnen zu.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 8168,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E0020004500690073002D00410074007400610063006B0065002000620065006900DF00740020006400650069006E000A0050006F006B00E9006D006F006E0020006D006900740020006500690073006B0061006C00740065006E002000520065006900DF007A00E40068006E0065006E0020007A0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Wasser fügt\nGegnern kontinuierlich Schaden zu.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 8444,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200057006100730073006500720020006600FC00670074000A004700650067006E00650072006E0020006B006F006E00740069006E0075006900650072006C0069006300680020005300630068006100640065006E0020007A0075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Geister-Attacke zielt dein\nPokémon beim Aufschlitzen auf Volltreffer ab.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 8712,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E00200047006500690073007400650072002D00410074007400610063006B00650020007A00690065006C00740020006400650069006E000A0050006F006B00E9006D006F006E0020006200650069006D0020004100750066007300630068006C00690074007A0065006E002000610075006600200056006F006C006C0074007200650066006600650072002000610062002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit sollte dir das Training deiner Pokémon\netwas leichter fallen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 9016,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A00440061006D0069007400200073006F006C006C007400650020006400690072002000640061007300200054007200610069006E0069006E00670020006400650069006E0065007200200050006F006B00E9006D006F006E000A006500740077006100730020006C0065006900630068007400650072002000660061006C006C0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit schützt sich dein Pokémon besser, weil es\nden Schaden durch Spezial-Attacken reduziert.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 9280,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440061006D00690074002000730063006800FC0074007A0074002000730069006300680020006400650069006E00200050006F006B00E9006D006F006E0020006200650073007300650072002C0020007700650069006C002000650073000A00640065006E0020005300630068006100640065006E0020006400750072006300680020005300700065007A00690061006C002D00410074007400610063006B0065006E00200072006500640075007A0069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 150
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser Spezial-Attacke vom Typ Pflanze\nregeneriert dein Pokémon beim Angriff auch KP.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 9580,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D0020005400790070002000500066006C0061006E007A0065000A0072006500670065006E0065007200690065007200740020006400650069006E00200050006F006B00E9006D006F006E0020006200650069006D00200041006E00670072006900660066002000610075006300680020004B0050002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 146
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Eis-Attacke greift dein\nPokémon mit einem eisigen Schlag an,<U+0010><U+0001>븀\nder Gegner eventuell einfriert.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 9872,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E0020004500690073002D00410074007400610063006B006500200067007200650069006600740020006400650069006E000A0050006F006B00E9006D006F006E0020006D00690074002000650069006E0065006D0020006500690073006900670065006E0020005300630068006C0061006700200061006E002C00100001BE00000A0064006500720020004700650067006E006500720020006500760065006E007400750065006C006C002000650069006E006600720069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 174
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Psycho ist wegen\nihrer beeindruckenden Stärke sehr zu empfehlen.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 10220,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D0020005400790070002000500073007900630068006F002000690073007400200077006500670065006E000A0069006800720065007200200062006500650069006E0064007200750063006B0065006E00640065006E00200053007400E40072006B0065002000730065006800720020007A007500200065006D0070006600650068006C0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Elektro-Attacke greift dein\nPokémon mit einem elektrischen Schlag an,<U+0010><U+0001>븀\nder Gegner eventuell paralysiert.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 10524,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E00200045006C0065006B00740072006F002D00410074007400610063006B006500200067007200650069006600740020006400650069006E000A0050006F006B00E9006D006F006E0020006D00690074002000650069006E0065006D00200065006C0065006B0074007200690073006300680065006E0020005300630068006C0061006700200061006E002C00100001BE00000A0064006500720020004700650067006E006500720020006500760065006E007400750065006C006C00200070006100720061006C007900730069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 185
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Status-Attacke erlaubt es deinem Pokémon,\nsich so schnell zu bewegen, dass es gegnerischen<U+0010><U+0001>븀\nAngriffen ausweichen kann.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 10896,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300740061007400750073002D00410074007400610063006B0065002000650072006C00610075006200740020006500730020006400650069006E0065006D00200050006F006B00E9006D006F006E002C000A007300690063006800200073006F0020007300630068006E0065006C006C0020007A00750020006200650077006500670065006E002C002000640061007300730020006500730020006700650067006E0065007200690073006300680065006E00100001BE00000A0041006E006700720069006600660065006E0020006100750073007700650069006300680065006E0020006B0061006E006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 183
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Feuer-Attacke greift dein\nPokémon mit einem feurigen Schlag an, durch<U+0010><U+0001>븀\nden Gegner eventuell Verbrennungen erleiden.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 11264,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E002000460065007500650072002D00410074007400610063006B006500200067007200650069006600740020006400650069006E000A0050006F006B00E9006D006F006E0020006D00690074002000650069006E0065006D00200066006500750072006900670065006E0020005300630068006C0061006700200061006E002C00200064007500720063006800100001BE00000A00640065006E0020004700650067006E006500720020006500760065006E007400750065006C006C0020005600650072006200720065006E006E0075006E00670065006E002000650072006C0065006900640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 196
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Boden-Attacke verursacht\nSchaden in einem großen Umkreis!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 11656,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440069006500730065002000700068007900730069007300630068006500200042006F00640065006E002D00410074007400610063006B006500200076006500720075007200730061006300680074000A005300630068006100640065006E00200069006E002000650069006E0065006D002000670072006F00DF0065006E00200055006D006B007200650069007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDas ist eine physische Käfer-Attacke, bei der dein\nPokémon mit seinem Hin und Her die Gegner<U+0010><U+0001>븀\nverhöhnt.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 11916,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006100730020006900730074002000650069006E006500200070006800790073006900730063006800650020004B00E4006600650072002D00410074007400610063006B0065002C002000620065006900200064006500720020006400650069006E000A0050006F006B00E9006D006F006E0020006D006900740020007300650069006E0065006D002000480069006E00200075006E0064002000480065007200200064006900650020004700650067006E0065007200100001BE00000A007600650072006800F60068006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 162
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Psycho-Attacke lässt\ndein Pokémon Gegner mit der Kraft seiner<U+0010><U+0001>븀\nGedanken eventuell zurückschrecken.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 12240,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E002000500073007900630068006F002D00410074007400610063006B00650020006C00E4007300730074000A006400650069006E00200050006F006B00E9006D006F006E0020004700650067006E006500720020006D0069007400200064006500720020004B00720061006600740020007300650069006E0065007200100001BE00000A0047006500640061006E006B0065006E0020006500760065006E007400750065006C006C0020007A0075007200FC0063006B007300630068007200650063006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 179
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDein Pokémon erhöht durch einen Tanz seinen\nAngriff. Das eignet sich super, um Gegner mit<U+0010><U+0001>븀\nphysischen Angriffen zu bedrängen.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 12600,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400650069006E00200050006F006B00E9006D006F006E002000650072006800F600680074002000640075007200630068002000650069006E0065006E002000540061006E007A0020007300650069006E0065006E000A0041006E00670072006900660066002E00200044006100730020006500690067006E0065007400200073006900630068002000730075007000650072002C00200075006D0020004700650067006E006500720020006D0069007400100001BE00000A007000680079007300690073006300680065006E00200041006E006700720069006600660065006E0020007A00750020006200650064007200E4006E00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 184
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDas ist eine Spezial-Attacke vom Typ Stahl, bei der\ndein Pokémon das Licht seines Körpers bündelt<U+0010><U+0001>븀\nund dann abfeuert.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 12968,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006100730020006900730074002000650069006E00650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200053007400610068006C002C00200062006500690020006400650072000A006400650069006E00200050006F006B00E9006D006F006E00200064006100730020004C00690063006800740020007300650069006E006500730020004B00F6007200700065007200730020006200FC006E00640065006C007400100001BE00000A0075006E0064002000640061006E006E002000610062006600650075006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 176
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Gesteins-Attacke lässt es Felsen\nregnen und Gegner schrecken eventuell zurück.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 13320,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006900650073006500200070006800790073006900730063006800650020004700650073007400650069006E0073002D00410074007400610063006B00650020006C00E4007300730074002000650073002000460065006C00730065006E000A007200650067006E0065006E00200075006E00640020004700650067006E006500720020007300630068007200650063006B0065006E0020006500760065006E007400750065006C006C0020007A0075007200FC0063006B002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Elektro ist sehr\nstark und leicht einzusetzen.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 13624,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200045006C0065006B00740072006F002000690073007400200073006500680072000A0073007400610072006B00200075006E00640020006C00650069006300680074002000650069006E007A0075007300650074007A0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit sollte dir das Training deiner Pokémon\netwas leichter fallen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 13892,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A00440061006D0069007400200073006F006C006C007400650020006400690072002000640061007300200054007200610069006E0069006E00670020006400650069006E0065007200200050006F006B00E9006D006F006E000A006500740077006100730020006C0065006900630068007400650072002000660061006C006C0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nEine praktische Status-Attacke, die gleichzeitig\nSpezial-Angriff und Spezial-Verteidigung erhöht.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 14156,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00450069006E00650020007000720061006B0074006900730063006800650020005300740061007400750073002D00410074007400610063006B0065002C002000640069006500200067006C0065006900630068007A00650069007400690067000A005300700065007A00690061006C002D0041006E0067007200690066006600200075006E00640020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067002000650072006800F600680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 154
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Gift-Attacke vergiftet nach einem\ngefährlichen Hieb eventuell deine Gegner.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 14464,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440069006500730065002000700068007900730069007300630068006500200047006900660074002D00410074007400610063006B006500200076006500720067006900660074006500740020006E006100630068002000650069006E0065006D000A00670065006600E400680072006C0069006300680065006E002000480069006500620020006500760065006E007400750065006C006C0020006400650069006E00650020004700650067006E00650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 148
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDas ist eine Spezial-Attacke vom Typ Feuer,\ndie den Standort deiner Gegner direkt anvisiert.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 14760,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006100730020006900730074002000650069006E00650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D0020005400790070002000460065007500650072002C000A006400690065002000640065006E0020005300740061006E0064006F007200740020006400650069006E006500720020004700650067006E0065007200200064006900720065006B007400200061006E0076006900730069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 149
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Wasser greift in\neinem großen Umkreis mit einer Welle an.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 15060,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D00200054007900700020005700610073007300650072002000670072006500690066007400200069006E000A00650069006E0065006D002000670072006F00DF0065006E00200055006D006B00720065006900730020006D00690074002000650069006E00650072002000570065006C006C006500200061006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 144
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Stahl-Attacke greift dein\nPokémon mit ordentlich viel Kraft an!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 15348,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E00200053007400610068006C002D00410074007400610063006B006500200067007200650069006600740020006400650069006E000A0050006F006B00E9006D006F006E0020006D006900740020006F007200640065006E0074006C0069006300680020007600690065006C0020004B007200610066007400200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 142
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese praktische Attacke verhindert, dass der\nGegner durch Attacken oder Items geheilt werden<U+0010><U+0001>븀\nkann.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 15632,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020007000720061006B007400690073006300680065002000410074007400610063006B0065002000760065007200680069006E0064006500720074002C002000640061007300730020006400650072000A004700650067006E00650072002000640075007200630068002000410074007400610063006B0065006E0020006F0064006500720020004900740065006D0073002000670065006800650069006C0074002000770065007200640065006E00100001BE00000A006B0061006E006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 159
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser Spezial-Attacke vom Typ Gift werden\nGegner mit Schlamm bespritzt und eventuell<U+0010><U+0001>븀\nvergiftet.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 15952,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200047006900660074002000770065007200640065006E000A004700650067006E006500720020006D006900740020005300630068006C0061006D006D00200062006500730070007200690074007A007400200075006E00640020006500760065006E007400750065006C006C00100001BE00000A007600650072006700690066007400650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 160
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Elektro richtet mit\neinem Schlag großen Schaden an!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 16272,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200045006C0065006B00740072006F002000720069006300680074006500740020006D00690074000A00650069006E0065006D0020005300630068006C00610067002000670072006F00DF0065006E0020005300630068006100640065006E00200061006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Boden-Attacke richtet in einem\ngroßen Umkreis viel Schaden an.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 16548,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440069006500730065002000700068007900730069007300630068006500200042006F00640065006E002D00410074007400610063006B00650020007200690063006800740065007400200069006E002000650069006E0065006D000A00670072006F00DF0065006E00200055006D006B00720065006900730020007600690065006C0020005300630068006100640065006E00200061006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Normal-Attacke ist sehr stark,\naber hat auch Konsequenzen!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 16820,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006900650073006500200070006800790073006900730063006800650020004E006F0072006D0061006C002D00410074007400610063006B006500200069007300740020007300650068007200200073007400610072006B002C000A00610062006500720020006800610074002000610075006300680020004B006F006E00730065007100750065006E007A0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nSie helfen dir dabei, deine Pokémon stärker zu\nmachen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 17084,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A005300690065002000680065006C00660065006E0020006400690072002000640061006200650069002C0020006400650069006E006500200050006F006B00E9006D006F006E00200073007400E40072006B006500720020007A0075000A006D0061006300680065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser physischen Kampf-Attacke stürmt\ndein Pokémon auf den Gegner zu und richtet<U+0010><U+0001>븀\ngroßen Schaden an.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 17320,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020007000680079007300690073006300680065006E0020004B0061006D00700066002D00410074007400610063006B006500200073007400FC0072006D0074000A006400650069006E00200050006F006B00E9006D006F006E0020006100750066002000640065006E0020004700650067006E006500720020007A007500200075006E00640020007200690063006800740065007400100001BE00000A00670072006F00DF0065006E0020005300630068006100640065006E00200061006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit kannst du den Spezial-Angriff deines\nPokémon eine Zeit lang erhöhen. Sehr praktisch<U+0010><U+0001>븀\nfür Spezial-Attacken!",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 17648,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00440061006D006900740020006B0061006E006E00730074002000640075002000640065006E0020005300700065007A00690061006C002D0041006E006700720069006600660020006400650069006E00650073000A0050006F006B00E9006D006F006E002000650069006E00650020005A0065006900740020006C0061006E0067002000650072006800F600680065006E002E002000530065006800720020007000720061006B0074006900730063006800100001BE00000A006600FC00720020005300700065007A00690061006C002D00410074007400610063006B0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 171
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDie Attacke braucht etwas, bis sie ausgelöst wird,\naber dafür ist sie superstark! Oh, und es ist eine<U+0010><U+0001>븀\nSpezial-Attacke vom Typ Pflanze.",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 17992,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065002000410074007400610063006B006500200062007200610075006300680074002000650074007700610073002C00200062006900730020007300690065002000610075007300670065006C00F60073007400200077006900720064002C000A0061006200650072002000640061006600FC0072002000690073007400200073006900650020007300750070006500720073007400610072006B00210020004F0068002C00200075006E00640020006500730020006900730074002000650069006E006500100001BE00000A005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D0020005400790070002000500066006C0061006E007A0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 194
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Wasser verursacht\ngroßen Schaden durch unfassbaren Wasserdruck!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 18380,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D0020005400790070002000570061007300730065007200200076006500720075007200730061006300680074000A00670072006F00DF0065006E0020005300630068006100640065006E00200064007500720063006800200075006E00660061007300730062006100720065006E00200057006100730073006500720064007200750063006B00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 150
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDie Feuerkraft dieser Spezial-Attacke vom\nTyp Feuer brennt alles nieder.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 18680,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065002000460065007500650072006B007200610066007400200064006900650073006500720020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D000A0054007900700020004600650075006500720020006200720065006E006E007400200061006C006C006500730020006E00690065006400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 129
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Eis erzeugt einen\nheftigen Schneesturm, der Gegner erzittern lässt.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 18940,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D00200054007900700020004500690073002000650072007A0065007500670074002000650069006E0065006E000A0068006500660074006900670065006E0020005300630068006E006500650073007400750072006D002C00200064006500720020004700650067006E00650072002000650072007A00690074007400650072006E0020006C00E4007300730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 154
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit sollte dir das Training deiner Pokémon\netwas leichter fallen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 19248,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A00440061006D0069007400200073006F006C006C007400650020006400690072002000640061007300200054007200610069006E0069006E00670020006400650069006E0065007200200050006F006B00E9006D006F006E000A006500740077006100730020006C0065006900630068007400650072002000660061006C006C0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nBei dieser Spezial-Attacke vom Typ Kampf zeigt\ndein Pokémon Gegnern seine enorme Stärke.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 19512,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A00420065006900200064006900650073006500720020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D00200054007900700020004B0061006D007000660020007A0065006900670074000A006400650069006E00200050006F006B00E9006D006F006E0020004700650067006E00650072006E0020007300650069006E006500200065006E006F0072006D006500200053007400E40072006B0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 145
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese Spezial-Attacke vom Typ Feuer verursacht\nhitzigen Schaden, aber hat auch einen Rückstoß.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 19804,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A004400690065007300650020005300700065007A00690061006C002D00410074007400610063006B006500200076006F006D002000540079007000200046006500750065007200200076006500720075007200730061006300680074000A006800690074007A006900670065006E0020005300630068006100640065006E002C00200061006200650072002000680061007400200061007500630068002000650069006E0065006E0020005200FC0063006B00730074006F00DF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist die\nTM <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ć<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDiese physische Drachen-Attacke ist sehr stark,\naber der Anwender riskiert, verwirrt zu werden.",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 20108,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200069007300740020006400690065000A0054004D002000100002FF000005001000020107000000100002FF000000002100100001BE01000A0044006900650073006500200070006800790073006900730063006800650020004400720061006300680065006E002D00410074007400610063006B006500200069007300740020007300650068007200200073007400610072006B002C000A0061006200650072002000640065007200200041006E00770065006E0064006500720020007200690073006B0069006500720074002C0020007600650072007700690072007200740020007A0075002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 152
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nDamit sollte dir das Training deiner Pokémon\netwas leichter fallen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 20412,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A00440061006D0069007400200073006F006C006C007400650020006400690072002000640061007300200054007200610069006E0069006E00670020006400650069006E0065007200200050006F006B00E9006D006F006E000A006500740077006100730020006C0065006900630068007400650072002000660061006C006C0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung <U+0010><U+0003>ᄁ<U+0001>Ѓistsind\n<U+0010><U+0002>Ȃ<U+0001> <U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nSie helfen dir dabei, deine Pokémon stärker zu\nmachen.",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 20676,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E006700200010000311010001040300690073007400730069006E0064000A0010000202020001002000100002FF000005001000020109000000100002FF000000002100100001BE01000A005300690065002000680065006C00660065006E0020006400690072002000640061006200650069002C0020006400650069006E006500200050006F006B00E9006D006F006E00200073007400E40072006B006500720020007A0075000A006D0061006300680065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist\n<U+0010><U+0003>ᘂ<U+0000><U+0000><U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nWenn du ein Pokémon mit diesem Ball triffst,\nfängst du es garantiert! Unglaublich, oder?",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 20912,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E00670020006900730074000A0010000316020000000000100002FF000005001000020109000000100002FF000000002100100001BE01000A00570065006E006E002000640075002000650069006E00200050006F006B00E9006D006F006E0020006D00690074002000640069006500730065006D002000420061006C006C00200074007200690066006600730074002C000A006600E4006E00670073007400200064007500200065007300200067006100720061006E00740069006500720074002100200055006E0067006C006100750062006C006900630068002C0020006F006400650072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 143
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Deine nächste Belohnung ist\n<U+0010><U+0003>ᘂ<U+0000><U+0000><U+0010><U+0002>＀<U+0005><U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>＀<U+0000>!<U+0010><U+0001>븁\nWenn du dieses Item bei dir hast, wird es\neinfacher, Schillernden Pokémon zu begegnen.",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 21200,
+      "rawDecodedUtf16Hex": "00100002BD060000004400650069006E00650020006E00E400630068007300740065002000420065006C006F0068006E0075006E00670020006900730074000A0010000316020000000000100002FF000005001000020109000000100002FF000000002100100001BE01000A00570065006E006E00200064007500200064006900650073006500730020004900740065006D0020006200650069002000640069007200200068006100730074002C00200077006900720064002000650073000A00650069006E006600610063006800650072002C00200053006300680069006C006C00650072006E00640065006E00200050006F006B00E9006D006F006E0020007A0075002000620065006700650067006E0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "Du hast alle verfügbaren Belohnungen erhalten.\nDanke dir und herzlichen Glückwunsch!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 21484,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200061006C006C00650020007600650072006600FC00670062006100720065006E002000420065006C006F0068006E0075006E00670065006E00200065007200680061006C00740065006E002E000A00440061006E006B0065002000640069007200200075006E00640020006800650072007A006C0069006300680065006E00200047006C00FC0063006B00770075006E00730063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Du kannst dein Outfit oder Aussehen erst ändern,\nwenn du dein geliehenes Outfit zurückgibst.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 21656,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E007300740020006400650069006E0020004F007500740066006900740020006F00640065007200200041007500730073006500680065006E00200065007200730074002000E4006E006400650072006E002C000A00770065006E006E0020006400750020006400650069006E002000670065006C0069006500680065006E006500730020004F007500740066006900740020007A0075007200FC0063006B00670069006200730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Geschmackskraft",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 21844,
+      "rawDecodedUtf16Hex": "00470065007300630068006D00610063006B0073006B00720061006600740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> hat seine Form verändert!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 21876,
+      "rawDecodedUtf16Hex": "001000020102000000200068006100740020007300650069006E006500200046006F0072006D002000760065007200E4006E006400650072007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Die Pokémon haben ihre Form verändert!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 21940,
+      "rawDecodedUtf16Hex": "00440069006500200050006F006B00E9006D006F006E00200068006100620065006E0020006900680072006500200046006F0072006D002000760065007200E4006E006400650072007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Dimensionsforschungspunkte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 22020,
+      "rawDecodedUtf16Hex": "00440069006D0065006E00730069006F006E00730066006F00720073006300680075006E0067007300700075006E006B007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 22076,
+      "rawDecodedUtf16Hex": "0010000302040000202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 22088,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0001> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 22092,
+      "rawDecodedUtf16Hex": "0010000302040001202F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 22104,
+  "sectionOffset": 16,
+  "textCount": 180,
+  "textSectionCount": 1
+}

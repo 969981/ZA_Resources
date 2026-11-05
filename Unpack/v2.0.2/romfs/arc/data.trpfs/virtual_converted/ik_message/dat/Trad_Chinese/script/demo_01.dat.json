@@ -1,0 +1,53 @@
+{
+  "declaredLength": 172,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "稜鏡塔發生了異常\n我想讓公司的團隊去調查",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "7A1C93E15854767C751F4E8675705E38000A621160F38B93516C53F876845718968A53BB8ABF67E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "密阿雷市的問題\n必須由我們來解決",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 80,
+      "rawDecodedUtf16Hex": "5BC6963F96F75E027684554F984C000A5FC598087531621150114F8689E36C7A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "尋找最強的超級進化行家吧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "5C0B627E67005F3776848D857D1A90325316884C5BB654270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "本列車即將抵達密阿雷南站",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "672C52178ECA53735C0762B590545BC6963F96F753577AD90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 172,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

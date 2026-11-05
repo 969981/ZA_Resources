@@ -1,0 +1,43 @@
+{
+  "declaredLength": 352,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "호기심이 있다면 인생이 즐겁답니다!\n모미지 리서치를 잘 부탁드려요!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "D638AE30C2ECC7740020C788B2E4BA740020C778C0DDC7740020C990AC81B2F5B2C8B2E40021000ABAA8BBF8C9C00020B9ACC11CCE58B97C0020C7980020BD80D0C1B4DCB824C694002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "모미지 리서치를 완료한 천재잖아!<U+0010><U+0001>븁\n너라면 계속해서 호기심을 발휘하며\n인생을 풍부하게 만들 수 있을 거야!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "BAA8BBF8C9C00020B9ACC11CCE58B97C0020C644B8CCD55C0020CC9CC7ACC796C544002100100001BE01000AB108B77CBA740020ACC4C18DD574C11C0020D638AE30C2ECC7440020BC1CD718D558BA70000AC778C0DDC7440020D48DBD80D558AC8C0020B9CCB4E40020C2180020C788C7440020AC70C57C002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "포켓몬 연구소 선대 소장\n플라타느박사의 사진이다.<U+0010><U+0001>븀\n사진인데도 좋은 향수 냄새가 난다...",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "D3ECCF13BAAC0020C5F0AD6CC18C0020C120B3000020C18CC7A5000AD50CB77CD0C0B290BC15C0ACC7580020C0ACC9C4C774B2E4002E00100001BE00000AC0ACC9C4C778B370B3C40020C88BC7400020D5A5C2180020B0C4C0C8AC000020B09CB2E4002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 352,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

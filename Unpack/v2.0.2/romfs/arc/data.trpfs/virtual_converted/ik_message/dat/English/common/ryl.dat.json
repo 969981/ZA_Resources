@@ -1,0 +1,443 @@
+{
+  "declaredLength": 2524,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>Ɖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00100002018900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Next Challenger’s Ticket in",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "004E0065007800740020004300680061006C006C0065006E006700650072201900730020005400690063006B0065007400200069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>, pt<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 416,
+      "rawDecodedUtf16Hex": "0010000302060000002C0020007000740010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Battle Zone",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "0042006100740074006C00650020005A006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Promotion Match",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "00500072006F006D006F00740069006F006E0020004D00610074006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Back",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "004200610063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bonus Cards",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "0042006F006E007500730020004300610072006400730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Discard",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "00440069007300630061007200640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Cancel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 592,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Yes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "0059006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>:<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0010000202010000003A00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "0010000302040000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 656,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0001>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "0010000302040001002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "0010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Prize Medals",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "005000720069007A00650020004D006500640061006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Prize Money Multiplier",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "005000720069007A00650020004D006F006E006500790020004D0075006C007400690070006C0069006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "×<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>Ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 760,
+      "rawDecodedUtf16Hex": "00D70010000202010000002E00100002020000010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Change Photo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "004300680061006E00670065002000500068006F0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Earn Ticket Points so you can get yourself a ticket\nto take part in the next promotion match",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 812,
+      "rawDecodedUtf16Hex": "004500610072006E0020005400690063006B0065007400200050006F0069006E0074007300200073006F00200079006F0075002000630061006E002000670065007400200079006F0075007200730065006C0066002000610020007400690063006B00650074000A0074006F002000740061006B00650020007000610072007400200069006E00200074006800650020006E006500780074002000700072006F006D006F00740069006F006E0020006D00610074006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Please wait until the next battle zone\nis activated at sundown.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "0050006C00650061007300650020007700610069007400200075006E00740069006C00200074006800650020006E00650078007400200062006100740074006C00650020007A006F006E0065000A006900730020006100630074006900760061007400650064002000610074002000730075006E0064006F0077006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Gather tickets until an opponent for your next promotion\nmatch can be determined.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "0047006100740068006500720020007400690063006B00650074007300200075006E00740069006C00200061006E0020006F00700070006F006E0065006E007400200066006F007200200079006F007500720020006E006500780074002000700072006F006D006F00740069006F006E000A006D0061007400630068002000630061006E002000620065002000640065007400650072006D0069006E00650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "You’ve earned yourself a ticket!\nPlease wait till your next opponent can be determined.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "0059006F00752019007600650020006500610072006E0065006400200079006F0075007200730065006C0066002000610020007400690063006B006500740021000A0050006C006500610073006500200077006100690074002000740069006C006C00200079006F007500720020006E0065007800740020006F00700070006F006E0065006E0074002000630061006E002000620065002000640065007400650072006D0069006E00650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "You’ve earned yourself a ticket!\nIt’s time for a promotion match!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "0059006F00752019007600650020006500610072006E0065006400200079006F0075007200730065006C0066002000610020007400690063006B006500740021000A0049007420190073002000740069006D006500200066006F007200200061002000700072006F006D006F00740069006F006E0020006D006100740063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "You have reached the highest possible Royale Rank.\nYou are the strongest Trainer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1600,
+      "rawDecodedUtf16Hex": "0059006F0075002000680061007600650020007200650061006300680065006400200074006800650020006800690067006800650073007400200070006F0073007300690062006C006500200052006F00790061006C0065002000520061006E006B002E000A0059006F0075002000610072006500200074006800650020007300740072006F006E006700650073007400200054007200610069006E00650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "You’ve earned your next Challenger’s Ticket!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "0059006F00752019007600650020006500610072006E0065006400200079006F007500720020006E0065007800740020004300680061006C006C0065006E006700650072201900730020005400690063006B0065007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Take a new photo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "00540061006B0065002000610020006E00650077002000700068006F0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Never mind",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1892,
+      "rawDecodedUtf16Hex": "004E00650076006500720020006D0069006E00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Do you want to retake your Z-A Royale profile\npicture?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000770061006E007400200074006F00200072006500740061006B006500200079006F007500720020005A002D004100200052006F00790061006C0065002000700072006F00660069006C0065000A0070006900630074007500720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Use this shot as your new profile picture?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "00550073006500200074006800690073002000730068006F007400200061007300200079006F007500720020006E00650077002000700072006F00660069006C006500200070006900630074007500720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Your profile picture has been updated!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2116,
+      "rawDecodedUtf16Hex": "0059006F00750072002000700072006F00660069006C00650020007000690063007400750072006500200068006100730020006200650065006E0020007500700064006100740065006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "You’ve gone back to the default photo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2196,
+      "rawDecodedUtf16Hex": "0059006F007520190076006500200067006F006E00650020006200610063006B00200074006F0020007400680065002000640065006600610075006C0074002000700068006F0074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2276,
+      "rawDecodedUtf16Hex": "00100002BDFF00240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Reward Match",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "0052006500770061007200640020004D00610074006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "???",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "003F003F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Reward Match Wins:",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "0052006500770061007200640020004D0061007400630068002000570069006E0073003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "0010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Max rank achieved.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "004D00610078002000720061006E006B002000610063006800690065007600650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Please wait until the next battle zone is activated.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "0050006C00650061007300650020007700610069007400200075006E00740069006C00200074006800650020006E00650078007400200062006100740074006C00650020007A006F006E00650020006900730020006100630074006900760061007400650064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2524,
+  "sectionOffset": 16,
+  "textCount": 43,
+  "textSectionCount": 1
+}

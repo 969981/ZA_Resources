@@ -1,0 +1,113 @@
+{
+  "declaredLength": 520,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oh! <U+0010><U+0002>Ă<U+0000> sta per evolversi!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "004F006800210020001000020102000000200073007400610020007000650072002000650076006F006C0076006500720073006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "L’evoluzione di <U+0010><U+0002>Ă<U+0000> è stata bloccata!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "004C201900650076006F006C0075007A0069006F006E006500200064006900200010000201020000002000E800200073007400610074006100200062006C006F0063006300610074006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Congratulazioni! <U+0010><U+0002>Ă<U+0000> si è\nevoluto in <U+0010><U+0002>ā<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "00100002BD0600000043006F006E00670072006100740075006C0061007A0069006F006E0069002100200010000201020000002000730069002000E8000A00650076006F006C00750074006F00200069006E00200010000201010001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> impara <U+0010><U+0002>ć<U+0001>!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "001000020102000000200069006D007000610072006100200010000201070001002100100002BE05000400100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Ora <U+0010><U+0002>Ă<U+0000> può usare la mossa\n<U+0010><U+0002>ć<U+0001>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "00100002BD060000004F007200610020001000020102000000200070007500F20020007500730061007200650020006C00610020006D006F007300730061000A0010000201070001002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 520,
+  "sectionOffset": 16,
+  "textCount": 10,
+  "textSectionCount": 1
+}

@@ -1,0 +1,43 @@
+{
+  "declaredLength": 256,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "È la stanza 201.\nÈ chiusa a chiave...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "00C80020006C00610020007300740061006E007A00610020003200300031002E000A00C80020006300680069007500730061002000610020006300680069006100760065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "È la stanza 203.\nÈ chiusa a chiave...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "00C80020006C00610020007300740061006E007A00610020003200300033002E000A00C80020006300680069007500730061002000610020006300680069006100760065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "È la stanza 204.\nÈ chiusa a chiave...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "00C80020006C00610020007300740061006E007A00610020003200300034002E000A00C80020006300680069007500730061002000610020006300680069006100760065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 256,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

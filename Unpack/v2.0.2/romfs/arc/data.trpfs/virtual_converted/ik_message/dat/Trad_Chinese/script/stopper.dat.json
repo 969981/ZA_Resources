@@ -1,0 +1,33 @@
+{
+  "declaredLength": 80,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "等之後再往這個方向去吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "7B494E4B5F8C518D5F809019500B65B9541153BB5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "這個全像傳送梯\n現在無法使用！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 48,
+      "rawDecodedUtf16Hex": "9019500B516850CF50B3900168AF000A73FE572871216CD54F7F7528FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 80,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

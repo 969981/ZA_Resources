@@ -1,0 +1,953 @@
+{
+  "declaredLength": 10100,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¿Te da miedo cuando alguien te mira fijamente?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "00BF005400650020006400610020006D006900650064006F0020006300750061006E0064006F00200061006C0067007500690065006E0020007400650020006D006900720061002000660069006A0061006D0065006E00740065003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Bastante",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "00420061007300740061006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Necesitas algo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "00BF004E0065006300650073006900740061007300200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "La verdad, me gustaría pedirte ayuda con\nun asunto.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 916,
+      "rawDecodedUtf16Hex": "004C00610020007600650072006400610064002C0020006D0065002000670075007300740061007200ED00610020007000650064006900720074006500200061007900750064006100200063006F006E000A0075006E0020006100730075006E0074006F002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Tengo una vecina que se mudó hace poco\ndesde Paldea.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "00540065006E0067006F00200075006E006100200076006500630069006E006100200071007500650020007300650020006D0075006400F30020006800610063006500200070006F0063006F000A00640065007300640065002000500061006C006400650061002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Y su Pokémon...<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "005900200073007500200050006F006B00E9006D006F006E002E002E002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "¡Siempre está mirando fijamente a mi Scizor!\n¡No le quita los ojos de encima!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1184,
+      "rawDecodedUtf16Hex": "00A1005300690065006D007000720065002000650073007400E10020006D006900720061006E0064006F002000660069006A0061006D0065006E00740065002000610020006D00690020005300630069007A006F00720021000A00A1004E006F0020006C00650020007100750069007400610020006C006F00730020006F006A006F007300200064006500200065006E00630069006D0061002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "El pobre es un poquito miedoso y ahora, por su\nculpa, vive atemorizado y no quiere salir de casa.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "0045006C00200070006F00620072006500200065007300200075006E00200070006F0071007500690074006F0020006D006900650064006F0073006F00200079002000610068006F00720061002C00200070006F0072002000730075000A00630075006C00700061002C002000760069007600650020006100740065006D006F00720069007A00610064006F002000790020006E006F0020007100750069006500720065002000730061006C0069007200200064006500200063006100730061002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "¿Podrías preguntarle a mi vecina por qué su\nTinkatuff mira así de fijo a mi Scizor?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "00BF0050006F0064007200ED00610073002000700072006500670075006E007400610072006C0065002000610020006D006900200076006500630069006E006100200070006F007200200071007500E9002000730075000A00540069006E006B006100740075006600660020006D00690072006100200061007300ED002000640065002000660069006A006F002000610020006D00690020005300630069007A006F0072003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Sciii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "00530063006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Creo que la vecina debe andar por la azotea.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020006C006100200076006500630069006E00610020006400650062006500200061006E00640061007200200070006F00720020006C006100200061007A006F007400650061002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Sí? ¿Querías hablar conmigo de algo?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "00BF005300ED003F002000BF005100750065007200ED006100730020006800610062006C0061007200200063006F006E006D00690067006F00200064006500200061006C0067006F003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Sí, de tu Tinkatuff",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "005300ED002C002000640065002000740075002000540069006E006B006100740075006600660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Sí, de cierto Scizor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1984,
+      "rawDecodedUtf16Hex": "005300ED002C002000640065002000630069006500720074006F0020005300630069007A006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Ah... Supongo que es por lo del Pokémon de mi\nvecino.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "00410068002E002E002E0020005300750070006F006E0067006F002000710075006500200065007300200070006F00720020006C006F002000640065006C00200050006F006B00E9006D006F006E0020006400650020006D0069000A0076006500630069006E006F002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Reconozco que mi Tinkatuff mira fijamente\na su Scizor.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "005200650063006F006E006F007A0063006F00200071007500650020006D0069002000540069006E006B006100740075006600660020006D006900720061002000660069006A0061006D0065006E00740065000A00610020007300750020005300630069007A006F0072002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Pero es porque ese Scizor tiene una mirada y\nuna cara de enojado que da miedo. Por eso<U+0010><U+0001>븀\nquiere tenerlo siempre vigilado, nada más.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "005000650072006F00200065007300200070006F007200710075006500200065007300650020005300630069007A006F00720020007400690065006E006500200075006E00610020006D0069007200610064006100200079000A0075006E00610020006300610072006100200064006500200065006E006F006A00610064006F00200071007500650020006400610020006D006900650064006F002E00200050006F0072002000650073006F00100001BE00000A007100750069006500720065002000740065006E00650072006C006F0020007300690065006D00700072006500200076006900670069006C00610064006F002C0020006E0061006400610020006D00E10073002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "Nunca le ha hecho nada, pero te pone los pelos\nde punta que te miren fijamente con esa cara.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "004E0075006E006300610020006C006500200068006100200068006500630068006F0020006E006100640061002C0020007000650072006F00200074006500200070006F006E00650020006C006F0073002000700065006C006F0073000A00640065002000700075006E0074006100200071007500650020007400650020006D006900720065006E002000660069006A0061006D0065006E0074006500200063006F006E002000650073006100200063006100720061002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Si no es mucha molestia, ¿podrías explicarle a mi\nvecino lo que te acabo de contar?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2736,
+      "rawDecodedUtf16Hex": "005300690020006E006F0020006500730020006D00750063006800610020006D006F006C00650073007400690061002C002000BF0070006F0064007200ED006100730020006500780070006C0069006300610072006C0065002000610020006D0069000A0076006500630069006E006F0020006C006F002000710075006500200074006500200061006300610062006F00200064006500200063006F006E007400610072003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Tinkaaa...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "00540069006E006B006100610061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Averiguaste por qué nos mira tanto\nel Pokémon de la vecina?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "00BF0041007600650072006900670075006100730074006500200070006F007200200071007500E90020006E006F00730020006D006900720061002000740061006E0074006F000A0065006C00200050006F006B00E9006D006F006E0020006400650020006C006100200076006500630069006E0061003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Porque Scizor tiene cara de enojado",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "0050006F00720071007500650020005300630069007A006F00720020007400690065006E00650020006300610072006100200064006500200065006E006F006A00610064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Porque Scizor le da miedo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "0050006F00720071007500650020005300630069007A006F00720020006C00650020006400610020006D006900650064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "¿Eh? ¿Que tiene cara de enojado?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3204,
+      "rawDecodedUtf16Hex": "00BF00450068003F002000BF0051007500650020007400690065006E00650020006300610072006100200064006500200065006E006F006A00610064006F003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "¿Eh? ¿Que le da miedo?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "00BF00450068003F002000BF0051007500650020006C00650020006400610020006D006900650064006F003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Pero es que él tiene la cara así. No es que esté\nenojado.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3336,
+      "rawDecodedUtf16Hex": "005000650072006F0020006500730020007100750065002000E9006C0020007400690065006E00650020006C00610020006300610072006100200061007300ED002E0020004E006F0020006500730020007100750065002000650073007400E9000A0065006E006F006A00610064006F002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "¡Da mucho más miedo que te estén mirando\ntodo el tiempo!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3460,
+      "rawDecodedUtf16Hex": "00A1004400610020006D007500630068006F0020006D00E100730020006D006900650064006F0020007100750065002000740065002000650073007400E9006E0020006D006900720061006E0064006F000A0074006F0064006F00200065006C0020007400690065006D0070006F002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Lo que tengo claro es que no pienso dejar que\nalgo así nos amargue la vida ni arruine<U+0010><U+0001>븀\nla tranquilidad que teníamos.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "004C006F0020007100750065002000740065006E0067006F00200063006C00610072006F00200065007300200071007500650020006E006F0020007000690065006E0073006F002000640065006A006100720020007100750065000A0061006C0067006F00200061007300ED0020006E006F007300200061006D006100720067007500650020006C0061002000760069006400610020006E0069002000610072007200750069006E006500100001BE00000A006C00610020007400720061006E007100750069006C00690064006100640020007100750065002000740065006E00ED0061006D006F0073002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "Oí que, a veces, los Tinkatuff atacan a otros\nPokémon en su afán de conseguir metales.<U+0010><U+0001>븁\nY mi Scizor es de tipo Acero. Espero que no...<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 3832,
+      "rawDecodedUtf16Hex": "004F00ED0020007100750065002C00200061002000760065006300650073002C0020006C006F0073002000540069006E006B00610074007500660066002000610074006100630061006E002000610020006F00740072006F0073000A0050006F006B00E9006D006F006E00200065006E00200073007500200061006600E1006E00200064006500200063006F006E0073006500670075006900720020006D006500740061006C00650073002E00100001BE01000A00590020006D00690020005300630069007A006F00720020006500730020006400650020007400690070006F00200041006300650072006F002E002000450073007000650072006F00200071007500650020006E006F002E002E002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "¡Sciiii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 4116,
+      "rawDecodedUtf16Hex": "00A100530063006900690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¡Tranquilo, Scizor! Si eso pasa, yo te\nprotegeré.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4136,
+      "rawDecodedUtf16Hex": "00A1005400720061006E007100750069006C006F002C0020005300630069007A006F00720021002000530069002000650073006F00200070006100730061002C00200079006F002000740065000A00700072006F0074006500670065007200E9002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Hasta que no estemos seguros de que la Tinkatuff\nde la vecina no quiere lastimar a Scizor, este no se<U+0010><U+0001>븀\nquedará tranquilo.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4244,
+      "rawDecodedUtf16Hex": "0048006100730074006100200071007500650020006E006F00200065007300740065006D006F0073002000730065006700750072006F007300200064006500200071007500650020006C0061002000540069006E006B00610074007500660066000A006400650020006C006100200076006500630069006E00610020006E006F00200071007500690065007200650020006C0061007300740069006D00610072002000610020005300630069007A006F0072002C002000650073007400650020006E006F00200073006500100001BE00000A00710075006500640061007200E10020007400720061006E007100750069006C006F002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 128
+    },
+    {
+      "displayText": "¿Puedes hablar con ella y asegurarte?<U+0010><U+0001>븁\nCon tacto, no es un lindo recibimiento para\nalguien que acaba de mudarse.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4500,
+      "rawDecodedUtf16Hex": "00BF0050007500650064006500730020006800610062006C0061007200200063006F006E00200065006C006C00610020007900200061007300650067007500720061007200740065003F00100001BE01000A0043006F006E00200074006100630074006F002C0020006E006F00200065007300200075006E0020006C0069006E0064006F0020007200650063006900620069006D00690065006E0074006F00200070006100720061000A0061006C0067007500690065006E00200071007500650020006100630061006200610020006400650020006D007500640061007200730065002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "Sciii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4740,
+      "rawDecodedUtf16Hex": "00530063006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "00100002BDFF00240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Qué te dijo mi vecino?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4772,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740065002000640069006A006F0020006D006900200076006500630069006E006F003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Que les da miedo que los miren tanto",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4828,
+      "rawDecodedUtf16Hex": "0051007500650020006C006500730020006400610020006D006900650064006F00200071007500650020006C006F00730020006D006900720065006E002000740061006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Que les da miedo Tinkatuff",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4904,
+      "rawDecodedUtf16Hex": "0051007500650020006C006500730020006400610020006D006900650064006F002000540069006E006B006100740075006600660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "¿Eso dijo? No puedo creerlo...<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4960,
+      "rawDecodedUtf16Hex": "00BF00450073006F002000640069006A006F003F0020004E006F00200070007500650064006F002000630072006500650072006C006F002E002E002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¡Pero si mi Pokémon es más bueno que el pan!<U+0010><U+0001>븁\n¡Me parece muy mal de su parte juzgar así\nsi ni siquiera sabe cómo es!<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 5032,
+      "rawDecodedUtf16Hex": "00A1005000650072006F0020007300690020006D006900200050006F006B00E9006D006F006E0020006500730020006D00E100730020006200750065006E006F002000710075006500200065006C002000700061006E002100100001BE01000A00A1004D006500200070006100720065006300650020006D007500790020006D0061006C0020006400650020007300750020007000610072007400650020006A0075007A00670061007200200061007300ED000A007300690020006E0069002000730069007100750069006500720061002000730061006200650020006300F3006D006F002000650073002100100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "Y que sepa que mi Tinkatuff nunca le hizo\ndaño a nadie ni atacó a ningún Pokémon<U+0010><U+0001>븀\npara conseguir metal.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5280,
+      "rawDecodedUtf16Hex": "005900200071007500650020007300650070006100200071007500650020006D0069002000540069006E006B006100740075006600660020006E0075006E006300610020006C0065002000680069007A006F000A0064006100F1006F002000610020006E00610064006900650020006E00690020006100740061006300F3002000610020006E0069006E006700FA006E00200050006F006B00E9006D006F006E00100001BE00000A007000610072006100200063006F006E0073006500670075006900720020006D006500740061006C002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Bueno, casi nunca.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5500,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C002000630061007300690020006E0075006E00630061002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "¡Tinkaaa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5548,
+      "rawDecodedUtf16Hex": "00A100540069006E006B00610061006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Qué problema. Ya tenía bastante con todo\nel lío de la mudanza, y ahora me entero<U+0010><U+0001>븀\nde que le damos miedo al vecino.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5568,
+      "rawDecodedUtf16Hex": "0051007500E9002000700072006F0062006C0065006D0061002E002000590061002000740065006E00ED0061002000620061007300740061006E0074006500200063006F006E00200074006F0064006F000A0065006C0020006C00ED006F0020006400650020006C00610020006D007500640061006E007A0061002C00200079002000610068006F007200610020006D006500200065006E007400650072006F00100001BE00000A0064006500200071007500650020006C0065002000640061006D006F00730020006D006900650064006F00200061006C00200076006500630069006E006F002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 121
+    },
+    {
+      "displayText": "Primero que me demuestre que su Scizor\nno aborrece a mi peque y luego hablamos.<U+0010><U+0001>븀\n¿Podrías...?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5812,
+      "rawDecodedUtf16Hex": "005000720069006D00650072006F00200071007500650020006D0065002000640065006D00750065007300740072006500200071007500650020007300750020005300630069007A006F0072000A006E006F002000610062006F00720072006500630065002000610020006D0069002000700065007100750065002000790020006C007500650067006F0020006800610062006C0061006D006F0073002E00100001BE00000A00BF0050006F0064007200ED00610073002E002E002E003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "¿Tuff?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 6012,
+      "rawDecodedUtf16Hex": "00BF0054007500660066003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 6028,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Qué quiere la vecina?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 6040,
+      "rawDecodedUtf16Hex": "00BF0051007500E900200071007500690065007200650020006C006100200076006500630069006E0061003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Ver que Scizor no aborrece a Tinkatuff",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 6096,
+      "rawDecodedUtf16Hex": "00560065007200200071007500650020005300630069007A006F00720020006E006F002000610062006F0072007200650063006500200061002000540069006E006B006100740075006600660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Que sepas que Tinkatuff no los atacará",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 6176,
+      "rawDecodedUtf16Hex": "0051007500650020007300650070006100730020007100750065002000540069006E006B006100740075006600660020006E006F0020006C006F0073002000610074006100630061007200E10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "¡Mi Scizor no aborrece a nadie! ¡Con lo\nmiedoso que es el pobre! ¡Es incapaz!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 6256,
+      "rawDecodedUtf16Hex": "00A1004D00690020005300630069007A006F00720020006E006F002000610062006F00720072006500630065002000610020006E00610064006900650021002000A10043006F006E0020006C006F000A006D006900650064006F0073006F002000710075006500200065007300200065006C00200070006F0062007200650021002000A10045007300200069006E0063006100700061007A002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "¡Me parece muy bonito, pero las palabras se las\nlleva el viento!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 6420,
+      "rawDecodedUtf16Hex": "00A1004D006500200070006100720065006300650020006D0075007900200062006F006E00690074006F002C0020007000650072006F0020006C00610073002000700061006C006100620072006100730020007300650020006C00610073000A006C006C00650076006100200065006C0020007600690065006E0074006F002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Entiendo que las mudanzas estresan, que acaban\nde llegar y que cuesta adaptarse a otro lugar.<U+0010><U+0001>븁\nPero antes estábamos aquí muy tranquilos y\nahora estamos metidos en esta situación. Hmm...<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 54,
+      "offsetInSection": 6560,
+      "rawDecodedUtf16Hex": "0045006E007400690065006E0064006F00200071007500650020006C006100730020006D007500640061006E007A0061007300200065007300740072006500730061006E002C0020007100750065002000610063006100620061006E000A006400650020006C006C006500670061007200200079002000710075006500200063007500650073007400610020006100640061007000740061007200730065002000610020006F00740072006F0020006C0075006700610072002E00100001BE01000A005000650072006F00200061006E007400650073002000650073007400E100620061006D006F0073002000610071007500ED0020006D007500790020007400720061006E007100750069006C006F007300200079000A00610068006F0072006100200065007300740061006D006F00730020006D0065007400690064006F007300200065006E002000650073007400610020007300690074007500610063006900F3006E002E00200048006D006D002E002E002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 192
+    },
+    {
+      "displayText": "¡Muy bien! Le daré la prueba que quiere de que\nno tenemos nada en su contra.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 6944,
+      "rawDecodedUtf16Hex": "00A1004D007500790020006200690065006E00210020004C0065002000640061007200E90020006C00610020007000720075006500620061002000710075006500200071007500690065007200650020006400650020007100750065000A006E006F002000740065006E0065006D006F00730020006E00610064006100200065006E00200073007500200063006F006E007400720061002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "¿Y cómo piensas hacerlo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 7108,
+      "rawDecodedUtf16Hex": "00BF00590020006300F3006D006F0020007000690065006E007300610073002000680061006300650072006C006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "¿Eso es posible?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 7160,
+      "rawDecodedUtf16Hex": "00BF00450073006F00200065007300200070006F007300690062006C0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Es sencillo: ¡presentaremos a nuestros Pokémon\npara que se conozcan!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 58,
+      "offsetInSection": 7196,
+      "rawDecodedUtf16Hex": "00450073002000730065006E00630069006C006C006F003A002000A100700072006500730065006E0074006100720065006D006F0073002000610020006E00750065007300740072006F007300200050006F006B00E9006D006F006E000A0070006100720061002000710075006500200073006500200063006F006E006F007A00630061006E002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Tener a sus Entrenadores a su lado les\ndará tranquilidad.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 7344,
+      "rawDecodedUtf16Hex": "00540065006E0065007200200061002000730075007300200045006E007400720065006E00610064006F007200650073002000610020007300750020006C00610064006F0020006C00650073000A00640061007200E10020007400720061006E007100750069006C0069006400610064002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Así que, si ella no tiene inconveniente, me avisas\ny probamos.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 60,
+      "offsetInSection": 7468,
+      "rawDecodedUtf16Hex": "0041007300ED0020007100750065002C00200073006900200065006C006C00610020006E006F0020007400690065006E006500200069006E0063006F006E00760065006E00690065006E00740065002C0020006D00650020006100760069007300610073000A0079002000700072006F00620061006D006F0073002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "¡Sciii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 7604,
+      "rawDecodedUtf16Hex": "00A10053006300690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 7620,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Presentar a nuestros Pokémon?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 7632,
+      "rawDecodedUtf16Hex": "00BF00500072006500730065006E007400610072002000610020006E00750065007300740072006F007300200050006F006B00E9006D006F006E003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¡De acuerdo!<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 7704,
+      "rawDecodedUtf16Hex": "00A1004400650020006100630075006500720064006F002100100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Tanta desconfianza es muy estresante.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 7740,
+      "rawDecodedUtf16Hex": "00540061006E0074006100200064006500730063006F006E006600690061006E007A00610020006500730020006D0075007900200065007300740072006500730061006E00740065002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Así también demostraré que mi Tinkatuff no\ntiene ninguna intención de atacar a Scizor.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 66,
+      "offsetInSection": 7824,
+      "rawDecodedUtf16Hex": "0041007300ED002000740061006D0062006900E9006E002000640065006D006F0073007400720061007200E900200071007500650020006D0069002000540069006E006B006100740075006600660020006E006F000A007400690065006E00650020006E0069006E00670075006E006100200069006E00740065006E0063006900F3006E0020006400650020006100740061006300610072002000610020005300630069007A006F0072002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "¿Tú qué dices? ¿Te parece bien?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 8008,
+      "rawDecodedUtf16Hex": "00BF005400FA00200071007500E9002000640069006300650073003F002000BF0054006500200070006100720065006300650020006200690065006E003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¡Tinkaaa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 8080,
+      "rawDecodedUtf16Hex": "00A100540069006E006B00610061006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 8100,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Muy bien, ahora dejaremos que nuestros\nPokémon se conozcan.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 8112,
+      "rawDecodedUtf16Hex": "004D007500790020006200690065006E002C002000610068006F00720061002000640065006A006100720065006D006F007300200071007500650020006E00750065007300740072006F0073000A0050006F006B00E9006D006F006E00200073006500200063006F006E006F007A00630061006E002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Y, si algo sucede, hacemos que vuelvan\na su Pokébola inmediatamente.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 8240,
+      "rawDecodedUtf16Hex": "0059002C00200073006900200061006C0067006F0020007300750063006500640065002C00200068006100630065006D006F007300200071007500650020007600750065006C00760061006E000A006100200073007500200050006F006B00E90062006F006C006100200069006E006D006500640069006100740061006D0065006E00740065002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "¡Acércate, Scizor!<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 8388,
+      "rawDecodedUtf16Hex": "00A10041006300E900720063006100740065002C0020005300630069007A006F0072002100100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "¡Ven aquí, Tinkatuff!<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 8436,
+      "rawDecodedUtf16Hex": "00A100560065006E002000610071007500ED002C002000540069006E006B00610074007500660066002100100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "¿Tinkatuff tiene vergüenza?<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 8488,
+      "rawDecodedUtf16Hex": "00BF00540069006E006B006100740075006600660020007400690065006E00650020007600650072006700FC0065006E007A0061003F00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "¿Scizor tiene miedo?<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 8552,
+      "rawDecodedUtf16Hex": "00BF005300630069007A006F00720020007400690065006E00650020006D006900650064006F003F00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "♪¡Tuff!♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 8604,
+      "rawDecodedUtf16Hex": "266A00A100540075006600660021266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Sciii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 8624,
+      "rawDecodedUtf16Hex": "00530063006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Tinkatuff no tiene intención de atacar...<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 8644,
+      "rawDecodedUtf16Hex": "00540069006E006B006100740075006600660020006E006F0020007400690065006E006500200069006E00740065006E0063006900F3006E0020006400650020006100740061006300610072002E002E002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Scizor tampoco muestra aborrecimiento...\nPor lo visto, era todo un malentendido.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 8736,
+      "rawDecodedUtf16Hex": "005300630069007A006F0072002000740061006D0070006F0063006F0020006D007500650073007400720061002000610062006F00720072006500630069006D00690065006E0074006F002E002E002E000A0050006F00720020006C006F00200076006900730074006F002C002000650072006100200074006F0064006F00200075006E0020006D0061006C0065006E00740065006E006400690064006F002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "¡Sci!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 8908,
+      "rawDecodedUtf16Hex": "00A100530063006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "¡Tin!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 8920,
+      "rawDecodedUtf16Hex": "00A100540069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Parece que se acortaron las distancias.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 8932,
+      "rawDecodedUtf16Hex": "0050006100720065006300650020007100750065002000730065002000610063006F0072007400610072006F006E0020006C00610073002000640069007300740061006E0063006900610073002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Sí. Soy nueva en la ciudad y todavía me estoy\nacostumbrando a todo... Espero poder contar<U+0010><U+0001>븀\ncon ustedes.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 9020,
+      "rawDecodedUtf16Hex": "005300ED002E00200053006F00790020006E007500650076006100200065006E0020006C006100200063006900750064006100640020007900200074006F00640061007600ED00610020006D00650020006500730074006F0079000A00610063006F007300740075006D006200720061006E0064006F0020006100200074006F0064006F002E002E002E002000450073007000650072006F00200070006F00640065007200200063006F006E00740061007200100001BE00000A0063006F006E00200075007300740065006400650073002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Y a ti no sé cómo darte las gracias por todo\nlo que has hecho...<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 9240,
+      "rawDecodedUtf16Hex": "0059002000610020007400690020006E006F0020007300E90020006300F3006D006F0020006400610072007400650020006C006100730020006700720061006300690061007300200070006F007200200074006F0064006F000A006C006F0020007100750065002000680061007300200068006500630068006F002E002E002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "¡No, Tinkatuff! ¡Metal, no! ¡Suéltalo!<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 9380,
+      "rawDecodedUtf16Hex": "00A1004E006F002C002000540069006E006B006100740075006600660021002000A1004D006500740061006C002C0020006E006F0021002000A10053007500E9006C00740061006C006F002100100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Todo aclarado, supongo.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 9468,
+      "rawDecodedUtf16Hex": "0054006F0064006F002000610063006C0061007200610064006F002C0020007300750070006F006E0067006F002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sciii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 9524,
+      "rawDecodedUtf16Hex": "00530063006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¡Tin!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 9544,
+      "rawDecodedUtf16Hex": "00A100540069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Y",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 9556,
+      "rawDecodedUtf16Hex": "00100002BDFF00590000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mirabel y yo tenemos unas conversaciones muy\ninteresantes, y nuestros Pokémon también<U+0010><U+0001>븀\nparece que se llevan bien... por ahora.<U+0010><U+0002>ĔƬ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 9568,
+      "rawDecodedUtf16Hex": "004D00690072006100620065006C0020007900200079006F002000740065006E0065006D006F007300200075006E0061007300200063006F006E0076006500720073006100630069006F006E006500730020006D00750079000A0069006E007400650072006500730061006E007400650073002C002000790020006E00750065007300740072006F007300200050006F006B00E9006D006F006E002000740061006D0062006900E9006E00100001BE00000A00700061007200650063006500200071007500650020007300650020006C006C006500760061006E0020006200690065006E002E002E002E00200070006F0072002000610068006F00720061002E00100002011401AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "Sciii...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 9836,
+      "rawDecodedUtf16Hex": "00530063006900690069002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Torvo me está enseñando un montón de cosas\nde la ciudad. Y mi Tinkatuff le tomó mucho<U+0010><U+0001>븀\ncariño a su Scizor.<U+0010><U+0002>Ĕƭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 9856,
+      "rawDecodedUtf16Hex": "0054006F00720076006F0020006D0065002000650073007400E100200065006E0073006500F10061006E0064006F00200075006E0020006D006F006E007400F3006E00200064006500200063006F007300610073000A006400650020006C00610020006300690075006400610064002E002000590020006D0069002000540069006E006B006100740075006600660020006C006500200074006F006D00F30020006D007500630068006F00100001BE00000A006300610072006900F1006F002000610020007300750020005300630069007A006F0072002E00100002011401AD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "¡Tuff!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 10084,
+      "rawDecodedUtf16Hex": "00A1005400750066006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 10100,
+  "sectionOffset": 16,
+  "textCount": 94,
+  "textSectionCount": 1
+}

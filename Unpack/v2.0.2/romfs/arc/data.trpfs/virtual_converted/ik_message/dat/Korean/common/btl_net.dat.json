@@ -1,0 +1,123 @@
+{
+  "declaredLength": 352,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>:<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0002>ȁ<U+0002>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "0010000202010000003A0010000202010001002E00100002020100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "복귀까지 <U+0010><U+0002>Ȁ<U+0000>초",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "BCF5ADC0AE4CC9C000200010000202000000CD080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0002> 쓰러뜨렸다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "001000020100000000100002190000020020C4F0B7ECB728B838B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "남은 시간 <U+0010><U+0002>Ȁ<U+0000>분!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "B0A8C7400020C2DCAC0400200010000202000000BD8400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "남은 시간 <U+0010><U+0002>ȁ<U+0000>초!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "B0A8C7400020C2DCAC0400200010000202010000CD0800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "앞으로 <U+0010><U+0002>Ȁ<U+0000>회 교체 가능!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "C55EC73CB85C00200010000202000000D68C0020AD50CCB40020AC00B2A500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "더 이상 교체할 수 없다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "B3540020C774C0C10020AD50CCB4D5600020C2180020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 352,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

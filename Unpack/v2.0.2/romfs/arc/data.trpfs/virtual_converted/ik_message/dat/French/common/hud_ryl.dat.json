@@ -1,0 +1,433 @@
+{
+  "declaredLength": 2296,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Choisissez une carte à échanger.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "00430068006F006900730069007300730065007A00200075006E0065002000630061007200740065002000E0002000E9006300680061006E006700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>  pt<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "001000030204000000200020007000740010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 440,
+      "rawDecodedUtf16Hex": "001000030203000000200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>Ȅ<U+0000>  pt<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "002B0020001000030204000000200020007000740010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "+ <U+0010><U+0003>ȃ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "002B0020001000030203000000200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "00100002010E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000> ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "001000030203000000200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "× <U+0010><U+0002>ȁ<U+0000>,<U+0010><U+0002>Ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00D700200010000202010000002C00100002020000010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Aucune médaille reçue",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "0041007500630075006E00650020006D00E9006400610069006C006C006500200072006500E7007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Suivant",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "00530075006900760061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Adversaire de rang Z vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020005A0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang Y vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000590020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang X vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000580020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang W vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000570020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang V vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000560020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang U vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000550020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang T vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000540020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang S vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000530020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang R vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000520020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang Q vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000510020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang P vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000500020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang O vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 1320,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004F0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang N vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004E0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang M vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004D0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang L vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004C0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang K vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004B0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang J vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020004A0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang I vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000490020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang H vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000480020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang G vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000470020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang F vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000460020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang E vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000450020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang D vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000440020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang C vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000430020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang B vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000420020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang A vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E0067002000410020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Adversaire de rang ∞ vaincu !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "0041006400760065007200730061006900720065002000640065002000720061006E00670020221E0020007600610069006E00630075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0000>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "002B0010000302060000002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2296,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

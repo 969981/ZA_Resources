@@ -1,0 +1,53 @@
+{
+  "declaredLength": 656,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "La Torre Prisma muestra indicios de actividad\nirregular. Enviad a un equipo de investigación.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "004C006100200054006F00720072006500200050007200690073006D00610020006D00750065007300740072006100200069006E0064006900630069006F00730020006400650020006100630074006900760069006400610064000A006900720072006500670075006C00610072002E00200045006E00760069006100640020006100200075006E002000650071007500690070006F00200064006500200069006E00760065007300740069006700610063006900F3006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "La responsabilidad de subsanar los problemas de\nCiudad Luminalia recae sobre nuestros hombros.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "004C006100200072006500730070006F006E0073006100620069006C0069006400610064002000640065002000730075006200730061006E006100720020006C006F0073002000700072006F0062006C0065006D00610073002000640065000A0043006900750064006100640020004C0075006D0069006E0061006C0069006100200072006500630061006500200073006F0062007200650020006E00750065007300740072006F007300200068006F006D00620072006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Debemos hallar a un sujeto capaz de blandir todo\nel poder de la megaevolución.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 416,
+      "rawDecodedUtf16Hex": "0044006500620065006D006F0073002000680061006C006C006100720020006100200075006E002000730075006A00650074006F00200063006100700061007A00200064006500200062006C0061006E00640069007200200074006F0064006F000A0065006C00200070006F0064006500720020006400650020006C00610020006D00650067006100650076006F006C00750063006900F3006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Próxima parada: Estación Luminalia Sur.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "0050007200F300780069006D00610020007000610072006100640061003A002000450073007400610063006900F3006E0020004C0075006D0069006E0061006C006900610020005300750072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 656,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

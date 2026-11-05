@@ -1,0 +1,33 @@
+{
+  "declaredLength": 124,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Fai dimenticare questa mossa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "004600610069002000640069006D0065006E00740069006300610072006500200071007500650073007400610020006D006F0073007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Scegli un’altra mossa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 1,
+      "offsetInSection": 80,
+      "rawDecodedUtf16Hex": "0053006300650067006C006900200075006E20190061006C0074007200610020006D006F0073007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 124,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

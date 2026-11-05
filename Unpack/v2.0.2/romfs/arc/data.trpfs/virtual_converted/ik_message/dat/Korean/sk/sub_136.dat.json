@@ -1,0 +1,633 @@
+{
+  "declaredLength": 4588,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "B안도 C안도 나쁘지 않지만,\n여기는 A안이 더 낫지 않겠어요?<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "0042C548B3C400200043C548B3C40020B098C058C9C00020C54AC9C0B9CC002C000AC5ECAE30B29400200041C548C7740020B3540020B0ABC9C00020C54AACA0C5B4C694003F00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "임팩트가 떨어지는 A안이나 C안보다는\n제 B안이 좋을 것 같은데요?<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 580,
+      "rawDecodedUtf16Hex": "C784D329D2B8AC000020B5A8C5B4C9C0B29400200041C548C774B09800200043C548BCF4B2E4B294000AC81C00200042C548C7740020C88BC7440020AC830020AC19C740B370C694003F00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "제 C안이 가장 좋은 것 같은데,\n다들 양보할 생각이 없으신가 보네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "C81C00200043C548C7740020AC00C7A50020C88BC7400020AC830020AC19C740B370002C000AB2E4B4E40020C591BCF4D5600020C0DDAC01C7740020C5C6C73CC2E0AC000020BCF4B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "그럼 이렇게 할까요? 저쪽에 있는\n젊은이에게 의견을 물어보는 걸로요!<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020C774B807AC8C0020D560AE4CC694003F0020C800CABDC5D00020C788B294000AC80AC740C774C5D0AC8C0020C758ACACC7440020BB3CC5B4BCF4B2940020AC78B85CC694002100100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "좋은데요!\n우리 셋이서 정하면 끝이 없을 테니까요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "C88BC740B370C6940021000AC6B0B9AC0020C14BC774C11C0020C815D558BA740020B05DC7740020C5C6C7440020D14CB2C8AE4CC694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "저기요, 괜찮으시다면\n잠깐 저희를 도와주시겠어요?<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "C800AE30C694002C0020AD1CCC2EC73CC2DCB2E4BA74000AC7A0AE500020C800D76CB97C0020B3C4C640C8FCC2DCACA0C5B4C694003F00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "이 길 때문에 그러는데, 나쁘지는 않지만\n뭔가 임팩트가 없다고나 할까요...<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "C7740020AE380020B54CBB38C5D00020ADF8B7ECB294B370002C0020B098C058C9C0B2940020C54AC9C0B9CC000ABB54AC000020C784D329D2B8AC000020C5C6B2E4ACE0B0980020D560AE4CC694002E002E002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "그래서 이름을 붙여서\n주목을 끌어 보는 건 어떨까 하는 중이에요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "ADF8B798C11C0020C774B984C7440020BD99C5ECC11C000AC8FCBAA9C7440020B04CC5B40020BCF4B2940020AC740020C5B4B5A8AE4C0020D558B2940020C911C774C5D0C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "어떤 안이 좋을지 의견을 들려주세요.\n도시의 미래는 젊은이들의 것이잖아요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "C5B4B5A40020C548C7740020C88BC744C9C00020C758ACACC7440020B4E4B824C8FCC138C694002E000AB3C4C2DCC7580020BBF8B798B2940020C80AC740C774B4E4C7580020AC83C774C796C544C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "참고로 저희가 생각하고 있는\n이름들은 이런 느낌이에요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "CC38ACE0B85C0020C800D76CAC000020C0DDAC01D558ACE00020C788B294000AC774B984B4E4C7400020C774B7F00020B290B08CC774C5D0C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "A안, <U+0010><U+0002>＀<U+0006>그랜드 미르 애버뉴<U+0010><U+0002>＀<U+0000>.<U+0010><U+0001>븁\n거창한 이름으로\n사람들에게 기대감을 심어 주는 전략이에요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "0041C548002C002000100002FF000006ADF8B79CB4DC0020BBF8B9740020C560BC84B27400100002FF000000002E00100001BE01000AAC70CC3DD55C0020C774B984C73CB85C000AC0ACB78CB4E4C5D0AC8C0020AE30B300AC10C7440020C2ECC5B40020C8FCB2940020C804B7B5C774C5D0C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "B안, <U+0010><U+0002>＀<U+0006>메가진화 스트리트<U+0010><U+0002>＀<U+0000>.<U+0010><U+0001>븁\n물론, 메가진화와는 일절 관련 없지만,\n저는 이게 좋다고 생각해요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1444,
+      "rawDecodedUtf16Hex": "0042C548002C002000100002FF000006BA54AC00C9C4D6540020C2A4D2B8B9ACD2B800100002FF000000002E00100001BE01000ABB3CB860002C0020BA54AC00C9C4D654C640B2940020C77CC8080020AD00B8280020C5C6C9C0B9CC002C000AC800B2940020C774AC8C0020C88BB2E4ACE00020C0DDAC01D574C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "C안, <U+0010><U+0002>＀<U+0006>그대로<U+0010><U+0002>＀<U+0000>.<U+0010><U+0001>븁\n이름 그대로 ‘그대로’예요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1580,
+      "rawDecodedUtf16Hex": "0043C548002C002000100002FF000006ADF8B300B85C00100002FF000000002E00100001BE01000AC774B9840020ADF8B300B85C00202018ADF8B300B85C2019C608C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "하나같이 괜찮은 이름이죠?<U+0010><U+0001>븁\n그래서 불꽃, 물, 풀의 관계처럼\n이도 저도 못하고 있는 상황이에요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "D558B098AC19C7740020AD1CCC2EC7400020C774B984C774C8E0003F00100001BE01000AADF8B798C11C0020BD88AF43002C0020BB3C002C0020D480C7580020AD00ACC4CC98B7FC000AC774B3C40020C800B3C40020BABBD558ACE00020C788B2940020C0C1D669C774C5D0C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "자, 어떤 안이 좋은지\n의견을 들려주시겠어요?<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "C790002C0020C5B4B5A40020C548C7740020C88BC740C9C0000AC758ACACC7440020B4E4B824C8FCC2DCACA0C5B4C694003F00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "길의 이름으로 어떤 것이 좋을지\n결정하셨나요?<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "AE38C7580020C774B984C73CB85C0020C5B4B5A40020AC83C7740020C88BC744C9C0000AACB0C815D558C168B098C694003F00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "정했어요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "C815D588C5B4C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "아직이요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "C544C9C1C774C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "오오! 어떤 안으로 정하셨는지\n가르쳐 주시겠어요?<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "C624C62400210020C5B4B5A40020C548C73CB85C0020C815D558C168B294C9C0000AAC00B974CCD00020C8FCC2DCACA0C5B4C694003F00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "A안: 그랜드 미르 애버뉴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "0041C548003A0020ADF8B79CB4DC0020BBF8B9740020C560BC84B2740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "B안: 메가진화 스트리트",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2036,
+      "rawDecodedUtf16Hex": "0042C548003A0020BA54AC00C9C4D6540020C2A4D2B8B9ACD2B80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "C안: 그대로",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "0043C548003A0020ADF8B300B85C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "제게 아이디어가 있어요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "C81CAC8C0020C544C774B514C5B4AC000020C788C5B4C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "그랜드 미르 애버뉴!<U+0010><U+0001>븁\n지금은 거창한 이름처럼 보일지 몰라도\n언젠가 미르를 대표할 길이 될 겁니다!<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2108,
+      "rawDecodedUtf16Hex": "ADF8B79CB4DC0020BBF8B9740020C560BC84B274002100100001BE01000AC9C0AE08C7400020AC70CC3DD55C0020C774B984CC98B7FC0020BCF4C77CC9C00020BAB0B77CB3C4000AC5B8C820AC000020BBF8B974B97C0020B300D45CD5600020AE38C7740020B4200020AC81B2C8B2E4002100100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "메가진화 스트리트!<U+0010><U+0001>븁\n머지않아 이 거리에서\n메가진화가 발전했다는 등의<U+0010><U+0001>븀\n그럴싸한 이야기가 퍼질 거예요!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002100100001BE01000ABA38C9C0C54AC5440020C7740020AC70B9ACC5D0C11C000ABA54AC00C9C4D654AC000020BC1CC804D588B2E4B2940020B4F1C75800100001BE00000AADF8B7F4C2F8D55C0020C774C57CAE30AC000020D37CC9C80020AC70C608C694002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "그대로!<U+0010><U+0001>븁\n정말 이름 그대로죠?<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "ADF8B300B85C002100100001BE01000AC815B9D00020C774B9840020ADF8B300B85CC8E0003F00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "A안, B안, C안을 모두 버리고\n역제안을 하실 줄이야...!<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "0041C548002C00200042C548002C00200043C548C7440020BAA8B4500020BC84B9ACACE0000AC5EDC81CC548C7440020D558C2E40020C904C774C57C002E002E002E002100100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0002>...!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "0010000201000002002E002E002E002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "멋진 이름이네요!<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "BA4BC9C40020C774B984C774B124C694002100100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "네, 맞아요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "B124002C0020B9DEC544C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "저도 비슷한 걸 생각했었어요!\n제가 생각한 그대로네요!<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "C800B3C40020BE44C2B7D55C0020AC780020C0DDAC01D588C5C8C5B4C6940021000AC81CAC000020C0DDAC01D55C0020ADF8B300B85CB124C694002100100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "앞으로 이 길의 이름은\n<U+0010><U+0002>Ā<U+0002>길로 부르도록 하죠!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2644,
+      "rawDecodedUtf16Hex": "C55EC73CB85C0020C7740020AE38C7580020C774B984C740000A0010000201000002AE38B85C0020BD80B974B3C4B85D0020D558C8E0002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "앞으로 이 길의 이름은\n그랜드 미르 애버뉴로 부르도록 하죠!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2712,
+      "rawDecodedUtf16Hex": "C55EC73CB85C0020C7740020AE38C7580020C774B984C740000AADF8B79CB4DC0020BBF8B9740020C560BC84B274B85C0020BD80B974B3C4B85D0020D558C8E0002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "앞으로 이 길의 이름은\n메가진화 스트리트로 부르도록 하죠!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "C55EC73CB85C0020C7740020AE38C7580020C774B984C740000ABA54AC00C9C4D6540020C2A4D2B8B9ACD2B8B85C0020BD80B974B3C4B85D0020D558C8E0002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "앞으로 이 길의 이름은\n그대로로 부르도록 하죠!<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "C55EC73CB85C0020C7740020AE38C7580020C774B984C740000AADF8B300B85CB85C0020BD80B974B3C4B85D0020D558C8E0002100100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "미르 시민들에게\n잘 정착되면 좋겠네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "BBF8B9740020C2DCBBFCB4E4C5D0AC8C000AC7980020C815CC29B418BA740020C88BACA0B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2980,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0002>길...\n멋진 이름이네요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "0010000201000002AE38002E002E002E000ABA4BC9C40020C774B984C774B124C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0002>길...\n빨리 지도 앱에도 반영되면 좋겠네요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "0010000201000002AE38002E002E002E000ABE68B9AC0020C9C0B3C40020C571C5D0B3C40020BC18C601B418BA740020C88BACA0B124C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0002>길...\n시민들에게 잘 정착하면 좋겠네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "0010000201000002AE38002E002E002E000AC2DCBBFCB4E4C5D0AC8C0020C7980020C815CC29D558BA740020C88BACA0B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0002>길...\n멋진 이름이네요<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3172,
+      "rawDecodedUtf16Hex": "0010000201000002AE38002E002E002E000ABA4BC9C40020C774B984C774B124C69400100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "이제부터 여기는\n<U+0010><U+0002>Ā<U+0002>길...<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3236,
+      "rawDecodedUtf16Hex": "C774C81CBD80D1300020C5ECAE30B294000A0010000201000002AE38002E002E002E00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "걸으면 행복해지는 거리\n<U+0010><U+0002>Ā<U+0002>길!<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3300,
+      "rawDecodedUtf16Hex": "AC78C73CBA740020D589BCF5D574C9C0B2940020AC70B9AC000A0010000201000002AE38002100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "그랜드 미르 애버뉴...\n멋진 이름이네요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3368,
+      "rawDecodedUtf16Hex": "ADF8B79CB4DC0020BBF8B9740020C560BC84B274002E002E002E000ABA4BC9C40020C774B984C774B124C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "그랜드 미르 애버뉴...\n빨리 지도 앱에도 반영되면 좋겠네요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "ADF8B79CB4DC0020BBF8B9740020C560BC84B274002E002E002E000ABE68B9AC0020C9C0B3C40020C571C5D0B3C40020BC18C601B418BA740020C88BACA0B124C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "그랜드 미르 애버뉴...\n시민들에게 잘 정착하면 좋겠네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3504,
+      "rawDecodedUtf16Hex": "ADF8B79CB4DC0020BBF8B9740020C560BC84B274002E002E002E000AC2DCBBFCB4E4C5D0AC8C0020C7980020C815CC29D558BA740020C88BACA0B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "그랜드 미르 애버뉴...\n멋진 이름이네요<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3580,
+      "rawDecodedUtf16Hex": "ADF8B79CB4DC0020BBF8B9740020C560BC84B274002E002E002E000ABA4BC9C40020C774B984C774B124C69400100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "이제부터 여기는\n그랜드 미르 애버뉴...<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3656,
+      "rawDecodedUtf16Hex": "C774C81CBD80D1300020C5ECAE30B294000AADF8B79CB4DC0020BBF8B9740020C560BC84B274002E002E002E00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "걸으면 행복해지는 거리\n그랜드 미르 애버뉴!<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "AC78C73CBA740020D589BCF5D574C9C0B2940020AC70B9AC000AADF8B79CB4DC0020BBF8B9740020C560BC84B274002100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "메가진화 스트리트...\n멋진 이름이네요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3812,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002E002E002E000ABA4BC9C40020C774B984C774B124C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "메가진화 스트리트...\n빨리 지도 앱에도 반영되면 좋겠네요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3868,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002E002E002E000ABE68B9AC0020C9C0B3C40020C571C5D0B3C40020BC18C601B418BA740020C88BACA0B124C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "메가진화 스트리트...\n시민들에게 잘 정착하면 좋겠네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3944,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002E002E002E000AC2DCBBFCB4E4C5D0AC8C0020C7980020C815CC29D558BA740020C88BACA0B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "메가진화 스트리트...\n멋진 이름이네요<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 4016,
+      "rawDecodedUtf16Hex": "BA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002E002E002E000ABA4BC9C40020C774B984C774B124C69400100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "이제부터 여기는\n메가진화 스트리트...<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 4088,
+      "rawDecodedUtf16Hex": "C774C81CBD80D1300020C5ECAE30B294000ABA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002E002E002E00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "걸으면 행복해지는 거리\n메가진화 스트리트!<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 4160,
+      "rawDecodedUtf16Hex": "AC78C73CBA740020D589BCF5D574C9C0B2940020AC70B9AC000ABA54AC00C9C4D6540020C2A4D2B8B9ACD2B8002100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "그대로...\n멋진 이름이네요.<U+0010><U+0002>ĔƲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 4236,
+      "rawDecodedUtf16Hex": "ADF8B300B85C002E002E002E000ABA4BC9C40020C774B984C774B124C694002E00100002011401B20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "그대로...\n빨리 지도 앱에도 반영되면 좋겠네요.<U+0010><U+0002>ĔƳ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 4280,
+      "rawDecodedUtf16Hex": "ADF8B300B85C002E002E002E000ABE68B9AC0020C9C0B3C40020C571C5D0B3C40020BC18C601B418BA740020C88BACA0B124C694002E00100002011401B30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "그대로...\n시민들에게 잘 정착하면 좋겠네요.<U+0010><U+0002>Ĕƴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 4344,
+      "rawDecodedUtf16Hex": "ADF8B300B85C002E002E002E000AC2DCBBFCB4E4C5D0AC8C0020C7980020C815CC29D558BA740020C88BACA0B124C694002E00100002011401B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "그대로...\n멋진 이름이네요<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 4404,
+      "rawDecodedUtf16Hex": "ADF8B300B85C002E002E002E000ABA4BC9C40020C774B984C774B124C69400100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "이제부터 여기는\n그대로...<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 4464,
+      "rawDecodedUtf16Hex": "C774C81CBD80D1300020C5ECAE30B294000AADF8B300B85C002E002E002E00100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "걸으면 행복해지는 거리\n그대로!<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 4524,
+      "rawDecodedUtf16Hex": "AC78C73CBA740020D589BCF5D574C9C0B2940020AC70B9AC000AADF8B300B85C002100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4588,
+  "sectionOffset": 16,
+  "textCount": 62,
+  "textSectionCount": 1
+}

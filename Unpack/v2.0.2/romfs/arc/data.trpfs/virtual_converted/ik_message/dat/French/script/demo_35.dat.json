@@ -1,0 +1,33 @@
+{
+  "declaredLength": 204,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "La Zygardite de Zygarde réagit à votre\nGemme Sésame !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "004C00610020005A007900670061007200640069007400650020006400650020005A0079006700610072006400650020007200E90061006700690074002000E000200076006F007400720065000A00470065006D006D00650020005300E900730061006D0065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Zygarde méga-évolue en Méga-Zygarde !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "005A0079006700610072006400650020006D00E900670061002D00E90076006F006C0075006500200065006E0020004D00E900670061002D005A007900670061007200640065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 204,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

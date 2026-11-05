@@ -1,0 +1,2253 @@
+{
+  "declaredLength": 26364,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Sonne",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "0053006F006E006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Es herrscht sonniges Wetter. Die Stärke von\nFeuer-Attacken ist gestiegen, während die\nStärke von Wasser-Attacken gesunken ist.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "0045007300200068006500720072007300630068007400200073006F006E006E00690067006500730020005700650074007400650072002E002000440069006500200053007400E40072006B006500200076006F006E000A00460065007500650072002D00410074007400610063006B0065006E0020006900730074002000670065007300740069006500670065006E002C0020007700E4006800720065006E00640020006400690065000A0053007400E40072006B006500200076006F006E0020005700610073007300650072002D00410074007400610063006B0065006E00200067006500730075006E006B0065006E0020006900730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 127
+    },
+    {
+      "displayText": "Regen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "0052006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Es herrscht regnerisches Wetter. Die Stärke\nvon Wasser-Attacken ist gestiegen, während\ndie Stärke von Feuer-Attacken gesunken ist.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "004500730020006800650072007200730063006800740020007200650067006E006500720069007300630068006500730020005700650074007400650072002E002000440069006500200053007400E40072006B0065000A0076006F006E0020005700610073007300650072002D00410074007400610063006B0065006E0020006900730074002000670065007300740069006500670065006E002C0020007700E4006800720065006E0064000A00640069006500200053007400E40072006B006500200076006F006E002000460065007500650072002D00410074007400610063006B0065006E00200067006500730075006E006B0065006E0020006900730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "Sandsturm",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "00530061006E00640073007400750072006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ein Sandsturm tobt. Bis auf Gesteins-, Boden-\nund Stahl-Pokémon nehmen alle Pokémon in\njeder Runde Schaden. Die Spezial-Verteidigung\nvon Gesteins-Pokémon ist gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "00450069006E002000530061006E00640073007400750072006D00200074006F00620074002E002000420069007300200061007500660020004700650073007400650069006E0073002D002C00200042006F00640065006E002D000A0075006E006400200053007400610068006C002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E00200061006C006C006500200050006F006B00E9006D006F006E00200069006E000A006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E00200044006900650020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067000A0076006F006E0020004700650073007400650069006E0073002D0050006F006B00E9006D006F006E0020006900730074002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 169
+    },
+    {
+      "displayText": "Schnee",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2724,
+      "rawDecodedUtf16Hex": "005300630068006E006500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Es schneit. Die Trefferquote von Blizzard und die\nVerteidigung von Eis-Pokémon ist gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2740,
+      "rawDecodedUtf16Hex": "004500730020007300630068006E006500690074002E00200044006900650020005400720065006600660065007200710075006F0074006500200076006F006E00200042006C0069007A007A00610072006400200075006E00640020006400690065000A0056006500720074006500690064006900670075006E006700200076006F006E0020004500690073002D0050006F006B00E9006D006F006E0020006900730074002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Elektrofeld",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "0045006C0065006B00740072006F00660065006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Verhindert fünf Runden lang, dass Pokémon,\ndie sich am Boden befinden, einschlafen.\nDie Stärke von Elektro-Attacken ist gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2952,
+      "rawDecodedUtf16Hex": "00560065007200680069006E00640065007200740020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002C0020006400610073007300200050006F006B00E9006D006F006E002C000A0064006900650020007300690063006800200061006D00200042006F00640065006E00200062006500660069006E00640065006E002C002000650069006E007300630068006C006100660065006E002E000A00440069006500200053007400E40072006B006500200076006F006E00200045006C0065006B00740072006F002D00410074007400610063006B0065006E0020006900730074002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "Grasfeld",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 3216,
+      "rawDecodedUtf16Hex": "004700720061007300660065006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Die KP von Pokémon, die sich am Boden\nbefinden, werden fünf Runden lang leicht\naufgefüllt. Die Stärke von Pflanzen-Attacken\nist gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 3236,
+      "rawDecodedUtf16Hex": "0044006900650020004B005000200076006F006E00200050006F006B00E9006D006F006E002C00200064006900650020007300690063006800200061006D00200042006F00640065006E000A0062006500660069006E00640065006E002C002000770065007200640065006E0020006600FC006E0066002000520075006E00640065006E0020006C0061006E00670020006C00650069006300680074000A00610075006600670065006600FC006C006C0074002E002000440069006500200053007400E40072006B006500200076006F006E002000500066006C0061006E007A0065006E002D00410074007400610063006B0065006E000A006900730074002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 139
+    },
+    {
+      "displayText": "Nebelfeld",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 3516,
+      "rawDecodedUtf16Hex": "004E006500620065006C00660065006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Verhindert fünf Runden lang, dass Pokémon,\ndie sich am Boden befinden, Statusprobleme\nerleiden. Der erlittene Schaden durch Drachen-\nAttacken wird halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 3536,
+      "rawDecodedUtf16Hex": "00560065007200680069006E00640065007200740020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002C0020006400610073007300200050006F006B00E9006D006F006E002C000A0064006900650020007300690063006800200061006D00200042006F00640065006E00200062006500660069006E00640065006E002C002000530074006100740075007300700072006F0062006C0065006D0065000A00650072006C0065006900640065006E002E0020004400650072002000650072006C0069007400740065006E00650020005300630068006100640065006E0020006400750072006300680020004400720061006300680065006E002D000A00410074007400610063006B0065006E00200077006900720064002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 157
+    },
+    {
+      "displayText": "Bizarroraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 3852,
+      "rawDecodedUtf16Hex": "00420069007A006100720072006F007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Pokémon mit niedriger Initiative kommen fünf\nRunden lang zuerst zum Zug.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 3876,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E0020006D006900740020006E0069006500640072006900670065007200200049006E006900740069006100740069007600650020006B006F006D006D0065006E0020006600FC006E0066000A00520075006E00640065006E0020006C0061006E00670020007A007500650072007300740020007A0075006D0020005A00750067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Magieraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 4024,
+      "rawDecodedUtf16Hex": "004D0061006700690065007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Die getragenen Items aller Pokémon verlieren\nfünf Runden lang ihre Wirkung.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 4044,
+      "rawDecodedUtf16Hex": "00440069006500200067006500740072006100670065006E0065006E0020004900740065006D007300200061006C006C0065007200200050006F006B00E9006D006F006E0020007600650072006C0069006500720065006E000A006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002000690068007200650020005700690072006B0075006E0067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Wunderraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 4196,
+      "rawDecodedUtf16Hex": "00570075006E006400650072007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die Verteidigung aller Pokémon wird fünf Runden\nlang mit ihrer Spezial-Verteidigung getauscht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 4220,
+      "rawDecodedUtf16Hex": "00440069006500200056006500720074006500690064006900670075006E006700200061006C006C0065007200200050006F006B00E9006D006F006E002000770069007200640020006600FC006E0066002000520075006E00640065006E000A006C0061006E00670020006D006900740020006900680072006500720020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E00670020006700650074006100750073006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Mehr Volltreffer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 4412,
+      "rawDecodedUtf16Hex": "004D00650068007200200056006F006C006C00740072006500660066006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Die Wahrscheinlichkeit, dass das Pokémon einen\nVolltreffer landet, wurde erhöht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 4448,
+      "rawDecodedUtf16Hex": "0044006900650020005700610068007200730063006800650069006E006C006900630068006B006500690074002C00200064006100730073002000640061007300200050006F006B00E9006D006F006E002000650069006E0065006E000A0056006F006C006C00740072006500660066006500720020006C0061006E006400650074002C002000770075007200640065002000650072006800F600680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Verwirrung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 4612,
+      "rawDecodedUtf16Hex": "00560065007200770069007200720075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Es besteht bis zu vier Runden lang die Gefahr,\ndass sich das Pokémon selbst verletzt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 4636,
+      "rawDecodedUtf16Hex": "004500730020006200650073007400650068007400200062006900730020007A007500200076006900650072002000520075006E00640065006E0020006C0061006E006700200064006900650020004700650066006100680072002C000A006400610073007300200073006900630068002000640061007300200050006F006B00E9006D006F006E002000730065006C0062007300740020007600650072006C00650074007A0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Anziehung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 4808,
+      "rawDecodedUtf16Hex": "0041006E007A0069006500680075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Versucht das Pokémon, ein Pokémon vom\nanderen Geschlecht anzugreifen, schlägt\nder Angriff eventuell fehl.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 4828,
+      "rawDecodedUtf16Hex": "00560065007200730075006300680074002000640061007300200050006F006B00E9006D006F006E002C002000650069006E00200050006F006B00E9006D006F006E00200076006F006D000A0061006E0064006500720065006E002000470065007300630068006C006500630068007400200061006E007A0075006700720065006900660065006E002C0020007300630068006C00E400670074000A00640065007200200041006E006700720069006600660020006500760065006E007400750065006C006C0020006600650068006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "Nachtmahr",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 5040,
+      "rawDecodedUtf16Hex": "004E0061006300680074006D0061006800720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Solange das Pokémon schläft, verliert es in jeder\nRunde KP.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 5060,
+      "rawDecodedUtf16Hex": "0053006F006C0061006E00670065002000640061007300200050006F006B00E9006D006F006E0020007300630068006C00E400660074002C0020007600650072006C006900650072007400200065007300200069006E0020006A0065006400650072000A00520075006E006400650020004B0050002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Schlaf",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 5180,
+      "rawDecodedUtf16Hex": "005300630068006C006100660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Das Pokémon schläft am Ende der Runde,\nnachdem es von einer Attacke erfasst wurde,\nein, sofern es im Kampf verbleibt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 5196,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E40066007400200061006D00200045006E006400650020006400650072002000520075006E00640065002C000A006E00610063006800640065006D00200065007300200076006F006E002000650069006E00650072002000410074007400610063006B006500200065007200660061007300730074002000770075007200640065002C000A00650069006E002C00200073006F006600650072006E00200065007300200069006D0020004B0061006D0070006600200076006500720062006C0065006900620074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "Zugabe",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 5432,
+      "rawDecodedUtf16Hex": "005A007500670061006200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Das Pokémon kann drei Runden lang nur die\nAttacke <U+0010><U+0002>ć<U+0000> einsetzen.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E00200064007200650069002000520075006E00640065006E0020006C0061006E00670020006E007500720020006400690065000A00410074007400610063006B006500200010000201070000002000650069006E007300650074007A0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Fähigkeit geblockt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 5580,
+      "rawDecodedUtf16Hex": "004600E4006800690067006B0065006900740020006700650062006C006F0063006B00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Die Fähigkeit des Pokémon hat ihre Wirkung\nverloren.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 5620,
+      "rawDecodedUtf16Hex": "0044006900650020004600E4006800690067006B006500690074002000640065007300200050006F006B00E9006D006F006E0020006800610074002000690068007200650020005700690072006B0075006E0067000A007600650072006C006F00720065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Folterknecht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 5728,
+      "rawDecodedUtf16Hex": "0046006F006C007400650072006B006E00650063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Das Pokémon kann dieselbe Attacke nicht\nzweimal hintereinander einsetzen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 5756,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E002000640069006500730065006C00620065002000410074007400610063006B00650020006E0069006300680074000A007A007700650069006D0061006C002000680069006E00740065007200650069006E0061006E006400650072002000650069006E007300650074007A0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Rückenwind",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 5904,
+      "rawDecodedUtf16Hex": "005200FC0063006B0065006E00770069006E00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die Initiative des Anwenders und seiner\nMitstreiter, die am Kampf teilnehmen,\nwird vier Runden lang verdoppelt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 5928,
+      "rawDecodedUtf16Hex": "00440069006500200049006E00690074006900610074006900760065002000640065007300200041006E00770065006E006400650072007300200075006E00640020007300650069006E00650072000A004D0069007400730074007200650069007400650072002C002000640069006500200061006D0020004B0061006D007000660020007400650069006C006E00650068006D0065006E002C000A007700690072006400200076006900650072002000520075006E00640065006E0020006C0061006E006700200076006500720064006F007000700065006C0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 112
+    },
+    {
+      "displayText": "Beschwörung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 6152,
+      "rawDecodedUtf16Hex": "00420065007300630068007700F600720075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Das Pokémon ist vor gegnerischen Volltreffern\ngeschützt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 6176,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200076006F00720020006700650067006E0065007200690073006300680065006E00200056006F006C006C0074007200650066006600650072006E000A0067006500730063006800FC0074007A0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Nachspiel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 6292,
+      "rawDecodedUtf16Hex": "004E0061006300680073007000690065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Wird das Pokémon durch eine Attacke besiegt,\nsinkt der AP-Wert dieser Attacke auf 0.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 6312,
+      "rawDecodedUtf16Hex": "0057006900720064002000640061007300200050006F006B00E9006D006F006E002000640075007200630068002000650069006E0065002000410074007400610063006B006500200062006500730069006500670074002C000A00730069006E006B00740020006400650072002000410050002D00570065007200740020006400690065007300650072002000410074007400610063006B0065002000610075006600200030002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Heilung geblockt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 6484,
+      "rawDecodedUtf16Hex": "004800650069006C0075006E00670020006700650062006C006F0063006B00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Das Pokémon wird fünf Runden lang daran\ngehindert, durch Attacken, Fähigkeiten oder\ngetragene Items KP zu regenerieren.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 6520,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000770069007200640020006600FC006E0066002000520075006E00640065006E0020006C0061006E006700200064006100720061006E000A0067006500680069006E0064006500720074002C002000640075007200630068002000410074007400610063006B0065006E002C0020004600E4006800690067006B0065006900740065006E0020006F006400650072000A0067006500740072006100670065006E00650020004900740065006D00730020004B00500020007A007500200072006500670065006E006500720069006500720065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "Scharfblick",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 6760,
+      "rawDecodedUtf16Hex": "0053006300680061007200660062006C00690063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Attacken, die in bestimmten Fällen wirkungslos\nwaren, treffen nun ihr Ziel. Außerdem werden\nerhöhte Ausweichwerte ignoriert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 6784,
+      "rawDecodedUtf16Hex": "00410074007400610063006B0065006E002C002000640069006500200069006E002000620065007300740069006D006D00740065006E0020004600E4006C006C0065006E0020007700690072006B0075006E00670073006C006F0073000A0077006100720065006E002C0020007400720065006600660065006E0020006E0075006E00200069006800720020005A00690065006C002E00200041007500DF0065007200640065006D002000770065007200640065006E000A00650072006800F600680074006500200041007500730077006500690063006800770065007200740065002000690067006E006F00720069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "Attacke geblockt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 7036,
+      "rawDecodedUtf16Hex": "00410074007400610063006B00650020006700650062006C006F0063006B00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Das Pokémon kann vier Runden lang die Attacke\n<U+0010><U+0002>ć<U+0000> nicht einsetzen, da sie\nblockiert wurde.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 7072,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E00200076006900650072002000520075006E00640065006E0020006C0061006E00670020006400690065002000410074007400610063006B0065000A00100002010700000020006E0069006300680074002000650069006E007300650074007A0065006E002C0020006400610020007300690065000A0062006C006F0063006B0069006500720074002000770075007200640065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Wechselsperre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 7256,
+      "rawDecodedUtf16Hex": "005700650063006800730065006C0073007000650072007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Das Pokémon kann nicht fliehen oder\nausgewechselt werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 7284,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E0020006E006900630068007400200066006C0069006500680065006E0020006F006400650072000A00610075007300670065007700650063006800730065006C0074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Zielschuss",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 7400,
+      "rawDecodedUtf16Hex": "005A00690065006C0073006300680075007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon trifft in der Runde, nachdem es\nZielschuss eingesetzt hat, mit seiner nächsten\nAttacke auf jeden Fall sein Ziel.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 7424,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000740072006900660066007400200069006E0020006400650072002000520075006E00640065002C0020006E00610063006800640065006D002000650073000A005A00690065006C007300630068007500730073002000650069006E00670065007300650074007A00740020006800610074002C0020006D006900740020007300650069006E006500720020006E00E400630068007300740065006E000A00410074007400610063006B006500200061007500660020006A006500640065006E002000460061006C006C0020007300650069006E0020005A00690065006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "Itemsperre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 7676,
+      "rawDecodedUtf16Hex": "004900740065006D0073007000650072007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon kann fünf Runden lang keine Items\nverwenden. Das gilt auch für das von ihm\ngetragene Item.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 7700,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E0020006600FC006E0066002000520075006E00640065006E0020006C0061006E00670020006B00650069006E00650020004900740065006D0073000A00760065007200770065006E00640065006E002E0020004400610073002000670069006C0074002000610075006300680020006600FC0072002000640061007300200076006F006E002000690068006D000A0067006500740072006100670065006E00650020004900740065006D002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Ladevorgang",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 7908,
+      "rawDecodedUtf16Hex": "004C0061006400650076006F007200670061006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Verdoppelt die Stärke der Elektro-Attacke,\ndie als Nächstes eingesetzt wird.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 7932,
+      "rawDecodedUtf16Hex": "0056006500720064006F007000700065006C0074002000640069006500200053007400E40072006B0065002000640065007200200045006C0065006B00740072006F002D00410074007400610063006B0065002C000A00640069006500200061006C00730020004E00E4006300680073007400650073002000650069006E00670065007300650074007A007400200077006900720064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Erdanziehung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 8088,
+      "rawDecodedUtf16Hex": "0045007200640061006E007A0069006500680075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Die Wahrscheinlichkeit, dass Attacken ihr Ziel\ntreffen, wurde für fünf Runden erhöht. Pokémon\nvom Typ Flug und mit der Fähigkeit Schwebe\nkönnen mit Boden-Attacken getroffen werden.\nBlockt Attacken, bei denen der Anwender fliegt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 8116,
+      "rawDecodedUtf16Hex": "0044006900650020005700610068007200730063006800650069006E006C006900630068006B006500690074002C00200064006100730073002000410074007400610063006B0065006E00200069006800720020005A00690065006C000A007400720065006600660065006E002C0020007700750072006400650020006600FC00720020006600FC006E0066002000520075006E00640065006E002000650072006800F600680074002E00200050006F006B00E9006D006F006E000A0076006F006D002000540079007000200046006C0075006700200075006E00640020006D0069007400200064006500720020004600E4006800690067006B00650069007400200053006300680077006500620065000A006B00F6006E006E0065006E0020006D0069007400200042006F00640065006E002D00410074007400610063006B0065006E00200067006500740072006F006600660065006E002000770065007200640065006E002E000A0042006C006F0063006B0074002000410074007400610063006B0065006E002C0020006200650069002000640065006E0065006E002000640065007200200041006E00770065006E00640065007200200066006C0069006500670074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 229
+    },
+    {
+      "displayText": "Weißnebel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 8576,
+      "rawDecodedUtf16Hex": "00570065006900DF006E006500620065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Die Statuswerte des Pokémon können fünf\nRunden lang nicht gesenkt werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 8596,
+      "rawDecodedUtf16Hex": "004400690065002000530074006100740075007300770065007200740065002000640065007300200050006F006B00E9006D006F006E0020006B00F6006E006E0065006E0020006600FC006E0066000A00520075006E00640065006E0020006C0061006E00670020006E006900630068007400200067006500730065006E006B0074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Bodyguard",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 8744,
+      "rawDecodedUtf16Hex": "0042006F00640079006700750061007200640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon ist fünf Runden lang vor\nStatusproblemen geschützt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 8764,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200069007300740020006600FC006E0066002000520075006E00640065006E0020006C0061006E006700200076006F0072000A00530074006100740075007300700072006F0062006C0065006D0065006E00200067006500730063006800FC0074007A0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Tarnsteine",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 8892,
+      "rawDecodedUtf16Hex": "005400610072006E0073007400650069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Pokémon, die in den Kampf eingewechselt\nwerden, nehmen Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 8916,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002C002000640069006500200069006E002000640065006E0020004B0061006D00700066002000650069006E00670065007700650063006800730065006C0074000A00770065007200640065006E002C0020006E00650068006D0065006E0020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Horter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 9044,
+      "rawDecodedUtf16Hex": "0048006F00720074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Jedes Mal, wenn das Pokémon die Attacke\nHorter einsetzt, steigen seine Verteidigung\nund Spezial-Verteidigung.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 9060,
+      "rawDecodedUtf16Hex": "004A00650064006500730020004D0061006C002C002000770065006E006E002000640061007300200050006F006B00E9006D006F006E0020006400690065002000410074007400610063006B0065000A0048006F0072007400650072002000650069006E007300650074007A0074002C0020007300740065006900670065006E0020007300650069006E006500200056006500720074006500690064006900670075006E0067000A0075006E00640020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 110
+    },
+    {
+      "displayText": "Verhöhner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 9280,
+      "rawDecodedUtf16Hex": "005600650072006800F60068006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon kann nur noch Attacken einsetzen,\ndie dem Ziel Schaden zufügen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 9300,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E0020006E007500720020006E006F00630068002000410074007400610063006B0065006E002000650069006E007300650074007A0065006E002C000A006400690065002000640065006D0020005A00690065006C0020005300630068006100640065006E0020007A0075006600FC00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Telekinese",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 9452,
+      "rawDecodedUtf16Hex": "00540065006C0065006B0069006E0065007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon wird drei Runden lang von allen\nAttacken getroffen, es sei denn, es handelt sich\ndabei um eine K.O.-Attacke. Dafür kann das\nPokémon aber nicht mit Boden-Attacken\ngetroffen werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 9476,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007700690072006400200064007200650069002000520075006E00640065006E0020006C0061006E006700200076006F006E00200061006C006C0065006E000A00410074007400610063006B0065006E00200067006500740072006F006600660065006E002C0020006500730020007300650069002000640065006E006E002C002000650073002000680061006E00640065006C007400200073006900630068000A0064006100620065006900200075006D002000650069006E00650020004B002E004F002E002D00410074007400610063006B0065002E002000440061006600FC00720020006B0061006E006E0020006400610073000A0050006F006B00E9006D006F006E002000610062006500720020006E00690063006800740020006D0069007400200042006F00640065006E002D00410074007400610063006B0065006E000A0067006500740072006F006600660065006E002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 192
+    },
+    {
+      "displayText": "Magnetflug",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 9860,
+      "rawDecodedUtf16Hex": "004D00610067006E006500740066006C007500670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon kann fünf Runden lang nicht mit\nBoden-Attacken getroffen werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 9884,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006B0061006E006E0020006600FC006E0066002000520075006E00640065006E0020006C0061006E00670020006E00690063006800740020006D00690074000A0042006F00640065006E002D00410074007400610063006B0065006E00200067006500740072006F006600660065006E002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Giftspitzen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 10040,
+      "rawDecodedUtf16Hex": "00470069006600740073007000690074007A0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Pokémon, die in den Kampf eingewechselt\nwerden, werden vergiftet. Pokémon vom Typ\nFlug und mit der Fähigkeit Schwebe sind nicht\ndavon betroffen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 10064,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002C002000640069006500200069006E002000640065006E0020004B0061006D00700066002000650069006E00670065007700650063006800730065006C0074000A00770065007200640065006E002C002000770065007200640065006E0020007600650072006700690066007400650074002E00200050006F006B00E9006D006F006E00200076006F006D0020005400790070000A0046006C0075006700200075006E00640020006D0069007400200064006500720020004600E4006800690067006B00650069007400200053006300680077006500620065002000730069006E00640020006E0069006300680074000A006400610076006F006E00200062006500740072006F006600660065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 145
+    },
+    {
+      "displayText": "Lehmsuhler",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 10356,
+      "rawDecodedUtf16Hex": "004C00650068006D007300750068006C006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die Stärke von Elektro-Attacken wird fünf Runden\nlang halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 10380,
+      "rawDecodedUtf16Hex": "00440069006500200053007400E40072006B006500200076006F006E00200045006C0065006B00740072006F002D00410074007400610063006B0065006E002000770069007200640020006600FC006E0066002000520075006E00640065006E000A006C0061006E0067002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Wunschtraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 10508,
+      "rawDecodedUtf16Hex": "00570075006E0073006300680074007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "In der Runde, nachdem Wunschtraum eingesetzt\nwurde, werden die KP des kämpfenden Pokémon\naufgefüllt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 10532,
+      "rawDecodedUtf16Hex": "0049006E0020006400650072002000520075006E00640065002C0020006E00610063006800640065006D002000570075006E0073006300680074007200610075006D002000650069006E00670065007300650074007A0074000A00770075007200640065002C002000770065007200640065006E00200064006900650020004B005000200064006500730020006B00E4006D007000660065006E00640065006E00200050006F006B00E9006D006F006E000A00610075006600670065006600FC006C006C0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Klebenetz",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 10736,
+      "rawDecodedUtf16Hex": "004B006C006500620065006E00650074007A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Die Initiative von Pokémon, die in den Kampf\neingewechselt werden, wird gesenkt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 10756,
+      "rawDecodedUtf16Hex": "00440069006500200049006E0069007400690061007400690076006500200076006F006E00200050006F006B00E9006D006F006E002C002000640069006500200069006E002000640065006E0020004B0061006D00700066000A00650069006E00670065007700650063006800730065006C0074002000770065007200640065006E002C0020007700690072006400200067006500730065006E006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Verwurzler",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 10920,
+      "rawDecodedUtf16Hex": "005600650072007700750072007A006C006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die KP des Pokémon werden am Ende des\nZugs aufgefüllt. Hat ein Pokémon Verwurzler\neingesetzt, kann es nicht mehr fliehen oder\nausgewechselt werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 10944,
+      "rawDecodedUtf16Hex": "0044006900650020004B0050002000640065007300200050006F006B00E9006D006F006E002000770065007200640065006E00200061006D00200045006E006400650020006400650073000A005A007500670073002000610075006600670065006600FC006C006C0074002E0020004800610074002000650069006E00200050006F006B00E9006D006F006E0020005600650072007700750072007A006C00650072000A00650069006E00670065007300650074007A0074002C0020006B0061006E006E0020006500730020006E00690063006800740020006D00650068007200200066006C0069006500680065006E0020006F006400650072000A00610075007300670065007700650063006800730065006C0074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 148
+    },
+    {
+      "displayText": "Fluch",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 11240,
+      "rawDecodedUtf16Hex": "0046006C0075006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Das Pokémon verliert am Ende jedes Zugs KP.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 11252,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007600650072006C006900650072007400200061006D00200045006E006400650020006A00650064006500730020005A0075006700730020004B0050002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Halloween",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 11340,
+      "rawDecodedUtf16Hex": "00480061006C006C006F007700650065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon hat zusätzlich den Typ Geist\nangenommen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 11360,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200068006100740020007A0075007300E40074007A006C006900630068002000640065006E0020005400790070002000470065006900730074000A0061006E00670065006E006F006D006D0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Lichtschild",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 11468,
+      "rawDecodedUtf16Hex": "004C00690063006800740073006300680069006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Der erlittene Schaden durch Spezial-Attacken\nwird fünf Runden lang halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 11492,
+      "rawDecodedUtf16Hex": "004400650072002000650072006C0069007400740065006E00650020005300630068006100640065006E0020006400750072006300680020005300700065007A00690061006C002D00410074007400610063006B0065006E000A00770069007200640020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Reflektor",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 11648,
+      "rawDecodedUtf16Hex": "005200650066006C0065006B0074006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Der erlittene Schaden durch physische Attacken\nwird fünf Runden lang halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 11668,
+      "rawDecodedUtf16Hex": "004400650072002000650072006C0069007400740065006E00650020005300630068006100640065006E0020006400750072006300680020007000680079007300690073006300680065002000410074007400610063006B0065006E000A00770069007200640020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Begrenzer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 11828,
+      "rawDecodedUtf16Hex": "00420065006700720065006E007A006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Gegnerische Pokémon können Attacken, die auch\nvom Pokémon beherrscht werden, das Begrenzer\neingesetzt hat, nicht mehr ausführen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 11848,
+      "rawDecodedUtf16Hex": "004700650067006E006500720069007300630068006500200050006F006B00E9006D006F006E0020006B00F6006E006E0065006E002000410074007400610063006B0065006E002C002000640069006500200061007500630068000A0076006F006D00200050006F006B00E9006D006F006E00200062006500680065007200720073006300680074002000770065007200640065006E002C0020006400610073002000420065006700720065006E007A00650072000A00650069006E00670065007300650074007A00740020006800610074002C0020006E00690063006800740020006D0065006800720020006100750073006600FC006800720065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 129
+    },
+    {
+      "displayText": "Countdown",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 12108,
+      "rawDecodedUtf16Hex": "0043006F0075006E00740064006F0077006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Alle Pokémon, die von diesem Effekt betroffen\nsind, werden nach drei Runden kampfunfähig.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 12128,
+      "rawDecodedUtf16Hex": "0041006C006C006500200050006F006B00E9006D006F006E002C002000640069006500200076006F006E002000640069006500730065006D00200045006600660065006B007400200062006500740072006F006600660065006E000A00730069006E0064002C002000770065007200640065006E0020006E00610063006800200064007200650069002000520075006E00640065006E0020006B0061006D007000660075006E006600E4006800690067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Stachler",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 12308,
+      "rawDecodedUtf16Hex": "00530074006100630068006C006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Pokémon, die in den Kampf eingewechselt\nwerden, nehmen Schaden. Pokémon vom Typ\nFlug und mit der Fähigkeit Schwebe sind nicht\ndavon betroffen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 12328,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002C002000640069006500200069006E002000640065006E0020004B0061006D00700066002000650069006E00670065007700650063006800730065006C0074000A00770065007200640065006E002C0020006E00650068006D0065006E0020005300630068006100640065006E002E00200050006F006B00E9006D006F006E00200076006F006D0020005400790070000A0046006C0075006700200075006E00640020006D0069007400200064006500720020004600E4006800690067006B00650069007400200053006300680077006500620065002000730069006E00640020006E0069006300680074000A006400610076006F006E00200062006500740072006F006600660065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 143
+    },
+    {
+      "displayText": "Nassmacher",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 12616,
+      "rawDecodedUtf16Hex": "004E006100730073006D006100630068006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die Stärke von Feuer-Attacken wird fünf Runden\nlang halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 12640,
+      "rawDecodedUtf16Hex": "00440069006500200053007400E40072006B006500200076006F006E002000460065007500650072002D00410074007400610063006B0065006E002000770069007200640020006600FC006E0066002000520075006E00640065006E000A006C0061006E0067002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Abgangsbund",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 12764,
+      "rawDecodedUtf16Hex": "0041006200670061006E0067007300620075006E00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Wird das Pokémon, welches Abgangsbund\neingesetzt hat, von einem anderen besiegt,\nwird der Angreifer ebenfalls kampfunfähig.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 12788,
+      "rawDecodedUtf16Hex": "0057006900720064002000640061007300200050006F006B00E9006D006F006E002C002000770065006C006300680065007300200041006200670061006E0067007300620075006E0064000A00650069006E00670065007300650074007A00740020006800610074002C00200076006F006E002000650069006E0065006D00200061006E0064006500720065006E00200062006500730069006500670074002C000A0077006900720064002000640065007200200041006E00670072006500690066006500720020006500620065006E00660061006C006C00730020006B0061006D007000660075006E006600E4006800690067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Waldesfluch",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 13036,
+      "rawDecodedUtf16Hex": "00570061006C0064006500730066006C0075006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Das Pokémon hat zusätzlich den Typ Pflanze\nangenommen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 13060,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200068006100740020007A0075007300E40074007A006C006900630068002000640065006E0020005400790070002000500066006C0061006E007A0065000A0061006E00670065006E006F006D006D0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Egelsamen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 13172,
+      "rawDecodedUtf16Hex": "004500670065006C00730061006D0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon verliert am Ende jeder Runde KP,\nmit denen anschließend der Gegner geheilt wird.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 13192,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007600650072006C006900650072007400200061006D00200045006E006400650020006A0065006400650072002000520075006E006400650020004B0050002C000A006D00690074002000640065006E0065006E00200061006E007300630068006C0069006500DF0065006E006400200064006500720020004700650067006E00650072002000670065006800650069006C007400200077006900720064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Zielschuss",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 13380,
+      "rawDecodedUtf16Hex": "005A00690065006C0073006300680075007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Der nächste Angriff auf das Pokémon, auf das\nZielschuss angewendet wurde, trifft garantiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 13404,
+      "rawDecodedUtf16Hex": "0044006500720020006E00E40063006800730074006500200041006E006700720069006600660020006100750066002000640061007300200050006F006B00E9006D006F006E002C00200061007500660020006400610073000A005A00690065006C00730063006800750073007300200061006E0067006500770065006E006400650074002000770075007200640065002C002000740072006900660066007400200067006100720061006E00740069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Umschlingung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 13592,
+      "rawDecodedUtf16Hex": "0055006D007300630068006C0069006E00670075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Das Pokémon wurde umschlungen und nimmt in\njeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 13620,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200077007500720064006500200075006D007300630068006C0075006E00670065006E00200075006E00640020006E0069006D006D007400200069006E000A006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Geduld",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 13748,
+      "rawDecodedUtf16Hex": "0047006500640075006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Das Pokémon erduldet zwei Runden lang\ngegnerische Angriffe. Dann schlägt es mit\ndoppelt so viel Schaden zurück, wie es selbst\nerlitten hat.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 13764,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200065007200640075006C0064006500740020007A007700650069002000520075006E00640065006E0020006C0061006E0067000A006700650067006E006500720069007300630068006500200041006E006700720069006600660065002E002000440061006E006E0020007300630068006C00E4006700740020006500730020006D00690074000A0064006F007000700065006C007400200073006F0020007600690065006C0020005300630068006100640065006E0020007A0075007200FC0063006B002C0020007700690065002000650073002000730065006C006200730074000A00650072006C0069007400740065006E0020006800610074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 140
+    },
+    {
+      "displayText": "Wutanfall",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 14044,
+      "rawDecodedUtf16Hex": "0057007500740061006E00660061006C006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon schlägt zwei bis drei Runden lang\nwild um sich. Danach ist es verwirrt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 14064,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E4006700740020007A007700650069002000620069007300200064007200650069002000520075006E00640065006E0020006C0061006E0067000A00770069006C006400200075006D00200073006900630068002E002000440061006E0061006300680020006900730074002000650073002000760065007200770069007200720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Tobsucht",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 14232,
+      "rawDecodedUtf16Hex": "0054006F0062007300750063006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Das Pokémon schlägt zwei bis drei Runden lang\nwild um sich. Danach ist es verwirrt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 14252,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E4006700740020007A007700650069002000620069007300200064007200650069002000520075006E00640065006E0020006C0061006E0067000A00770069006C006400200075006D00200073006900630068002E002000440061006E0061006300680020006900730074002000650073002000760065007200770069007200720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Blättertanz",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 14420,
+      "rawDecodedUtf16Hex": "0042006C00E4007400740065007200740061006E007A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Das Pokémon schlägt zwei bis drei Runden lang\nwild um sich. Danach ist es verwirrt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 14444,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E4006700740020007A007700650069002000620069007300200064007200650069002000520075006E00640065006E0020006C0061006E0067000A00770069006C006400200075006D00200073006900630068002E002000440061006E0061006300680020006900730074002000650073002000760065007200770069007200720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Schwere Vergiftung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 14612,
+      "rawDecodedUtf16Hex": "0053006300680077006500720065002000560065007200670069006600740075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Das Pokémon ist schwer vergiftet. Es erleidet\nam Ende jeder Runde etwas mehr Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 14652,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200073006300680077006500720020007600650072006700690066007400650074002E002000450073002000650072006C00650069006400650074000A0061006D00200045006E006400650020006A0065006400650072002000520075006E006400650020006500740077006100730020006D0065006800720020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Zukunftsattacke",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 14824,
+      "rawDecodedUtf16Hex": "005A0075006B0075006E00660074007300610074007400610063006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Das Pokémon nimmt zwei Züge, nachdem der\nGegner eine bestimmte Attacke eingesetzt hat,\nSchaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 14856,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006E0069006D006D00740020007A0077006500690020005A00FC00670065002C0020006E00610063006800640065006D0020006400650072000A004700650067006E00650072002000650069006E0065002000620065007300740069006D006D00740065002000410074007400610063006B0065002000650069006E00670065007300650074007A00740020006800610074002C000A005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Aufruhr",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 15048,
+      "rawDecodedUtf16Hex": "00410075006600720075006800720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Das Pokémon schlägt drei Runden lang wild um\nsich. In diesem Zeitraum können keine Pokémon\neinschlafen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 15064,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E40067007400200064007200650069002000520075006E00640065006E0020006C0061006E0067002000770069006C006400200075006D000A0073006900630068002E00200049006E002000640069006500730065006D0020005A006500690074007200610075006D0020006B00F6006E006E0065006E0020006B00650069006E006500200050006F006B00E9006D006F006E000A00650069006E007300630068006C006100660065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Wasserring",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 15272,
+      "rawDecodedUtf16Hex": "00570061007300730065007200720069006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon hat sich mit einem Schleier aus\nWasser umgeben. Dies führt dazu, dass seine\nKP in jeder Runde leicht aufgefüllt werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 15296,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006800610074002000730069006300680020006D00690074002000650069006E0065006D0020005300630068006C00650069006500720020006100750073000A00570061007300730065007200200075006D0067006500620065006E002E002000440069006500730020006600FC006800720074002000640061007A0075002C002000640061007300730020007300650069006E0065000A004B005000200069006E0020006A0065006400650072002000520075006E006400650020006C00650069006300680074002000610075006600670065006600FC006C006C0074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 132
+    },
+    {
+      "displayText": "Autotomie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 15560,
+      "rawDecodedUtf16Hex": "004100750074006F0074006F006D006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon ist leichter geworden und seine\nInitiative ist stark gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 15580,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200069007300740020006C00650069006300680074006500720020006700650077006F007200640065006E00200075006E00640020007300650069006E0065000A0049006E00690074006900610074006900760065002000690073007400200073007400610072006B002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Katapult",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 15732,
+      "rawDecodedUtf16Hex": "004B00610074006100700075006C00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Das Pokémon wurde getroffen und ist auf den\nBoden herabgestürzt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 15752,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E00200077007500720064006500200067006500740072006F006600660065006E00200075006E006400200069007300740020006100750066002000640065006E000A0042006F00640065006E002000680065007200610062006700650073007400FC0072007A0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Feenschloss",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 15884,
+      "rawDecodedUtf16Hex": "004600650065006E007300630068006C006F007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "In der nächsten Runde, nachdem die Attacke\neingesetzt wurde, kann kein Pokémon fliehen\noder ausgewechselt werden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 15908,
+      "rawDecodedUtf16Hex": "0049006E00200064006500720020006E00E400630068007300740065006E002000520075006E00640065002C0020006E00610063006800640065006D0020006400690065002000410074007400610063006B0065000A00650069006E00670065007300650074007A0074002000770075007200640065002C0020006B0061006E006E0020006B00650069006E00200050006F006B00E9006D006F006E00200066006C0069006500680065006E000A006F006400650072002000610075007300670065007700650063006800730065006C0074002000770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 114
+    },
+    {
+      "displayText": "Regenbogen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 16136,
+      "rawDecodedUtf16Hex": "0052006500670065006E0062006F00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Zusatzeffekte werden öfter ausgelöst.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 16160,
+      "rawDecodedUtf16Hex": "005A0075007300610074007A0065006600660065006B00740065002000770065007200640065006E002000F60066007400650072002000610075007300670065006C00F600730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Sumpf",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 16236,
+      "rawDecodedUtf16Hex": "00530075006D007000660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Die Initiative des Pokémon ist um 75 % gesunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 16248,
+      "rawDecodedUtf16Hex": "00440069006500200049006E00690074006900610074006900760065002000640065007300200050006F006B00E9006D006F006E002000690073007400200075006D0020003700350020002500200067006500730075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Meer aus Feuer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 16348,
+      "rawDecodedUtf16Hex": "004D00650065007200200061007500730020004600650075006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Bis auf Feuer-Pokémon nehmen die Pokémon auf\nder betroffenen Seite in jeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 16380,
+      "rawDecodedUtf16Hex": "0042006900730020006100750066002000460065007500650072002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E002000640069006500200050006F006B00E9006D006F006E0020006100750066000A00640065007200200062006500740072006F006600660065006E0065006E00200053006500690074006500200069006E0020006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Gleißende Sonne",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 16564,
+      "rawDecodedUtf16Hex": "0047006C0065006900DF0065006E0064006500200053006F006E006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Es herrscht sehr starkes Sonnenlicht. Die Stärke\nvon Feuer-Attacken ist gestiegen und Attacken\nvom Typ Wasser sind wirkungslos.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 16596,
+      "rawDecodedUtf16Hex": "004500730020006800650072007200730063006800740020007300650068007200200073007400610072006B0065007300200053006F006E006E0065006E006C0069006300680074002E002000440069006500200053007400E40072006B0065000A0076006F006E002000460065007500650072002D00410074007400610063006B0065006E0020006900730074002000670065007300740069006500670065006E00200075006E0064002000410074007400610063006B0065006E000A0076006F006D00200054007900700020005700610073007300650072002000730069006E00640020007700690072006B0075006E00670073006C006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 128
+    },
+    {
+      "displayText": "Strömender Regen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 16852,
+      "rawDecodedUtf16Hex": "00530074007200F6006D0065006E00640065007200200052006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Es herrscht strömender Regen. Die Stärke von\nWasser-Attacken ist gestiegen und Attacken\nvom Typ Feuer sind wirkungslos.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 16888,
+      "rawDecodedUtf16Hex": "00450073002000680065007200720073006300680074002000730074007200F6006D0065006E00640065007200200052006500670065006E002E002000440069006500200053007400E40072006B006500200076006F006E000A005700610073007300650072002D00410074007400610063006B0065006E0020006900730074002000670065007300740069006500670065006E00200075006E0064002000410074007400610063006B0065006E000A0076006F006D0020005400790070002000460065007500650072002000730069006E00640020007700690072006B0075006E00670073006C006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "Luftströmungen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 17128,
+      "rawDecodedUtf16Hex": "004C00750066007400730074007200F6006D0075006E00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Es herrschen rätselhafte Luftströmungen.\nDie Stärke von Attacken, die gegen Flug-\nPokémon sehr effektiv sind, sinkt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 17160,
+      "rawDecodedUtf16Hex": "00450073002000680065007200720073006300680065006E0020007200E4007400730065006C006800610066007400650020004C00750066007400730074007200F6006D0075006E00670065006E002E000A00440069006500200053007400E40072006B006500200076006F006E002000410074007400610063006B0065006E002C002000640069006500200067006500670065006E00200046006C00750067002D000A0050006F006B00E9006D006F006E0020007300650068007200200065006600660065006B007400690076002000730069006E0064002C002000730069006E006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "Psychofeld",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 17396,
+      "rawDecodedUtf16Hex": "00500073007900630068006F00660065006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Erstschlag-Attacken verfehlen fünf Runden lang\nalle Pokémon, die sich am Boden befinden.\nAußerdem ist die Stärke von Psycho-Attacken\ngestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 17420,
+      "rawDecodedUtf16Hex": "0045007200730074007300630068006C00610067002D00410074007400610063006B0065006E0020007600650072006600650068006C0065006E0020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067000A0061006C006C006500200050006F006B00E9006D006F006E002C00200064006900650020007300690063006800200061006D00200042006F00640065006E00200062006500660069006E00640065006E002E000A0041007500DF0065007200640065006D0020006900730074002000640069006500200053007400E40072006B006500200076006F006E002000500073007900630068006F002D00410074007400610063006B0065006E000A00670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 144
+    },
+    {
+      "displayText": "Neck Strike",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 17708,
+      "rawDecodedUtf16Hex": "004E00650063006B00200053007400720069006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Es können zwei Runden lang keine Attacken\neingesetzt werden, die Geräusche erzeugen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 17732,
+      "rawDecodedUtf16Hex": "004500730020006B00F6006E006E0065006E0020007A007700650069002000520075006E00640065006E0020006C0061006E00670020006B00650069006E0065002000410074007400610063006B0065006E000A00650069006E00670065007300650074007A0074002000770065007200640065006E002C0020006400690065002000470065007200E400750073006300680065002000650072007A0065007500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Auroraschleier",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 17904,
+      "rawDecodedUtf16Hex": "004100750072006F00720061007300630068006C00650069006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Die Stärke von physischen Attacken sowie\nSpezial-Attacken wird fünf Runden lang halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 17936,
+      "rawDecodedUtf16Hex": "00440069006500200053007400E40072006B006500200076006F006E0020007000680079007300690073006300680065006E002000410074007400610063006B0065006E00200073006F007700690065000A005300700065007A00690061006C002D00410074007400610063006B0065006E002000770069007200640020006600FC006E0066002000520075006E00640065006E0020006C0061006E0067002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Konzentration",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 18116,
+      "rawDecodedUtf16Hex": "004B006F006E007A0065006E00740072006100740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Die Attacke, die in der Runde nach dem Einsatz\nvon Konzentration ausgeführt wird, wird ein\nVolltreffer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 18144,
+      "rawDecodedUtf16Hex": "004400690065002000410074007400610063006B0065002C002000640069006500200069006E0020006400650072002000520075006E006400650020006E006100630068002000640065006D002000450069006E007300610074007A000A0076006F006E0020004B006F006E007A0065006E00740072006100740069006F006E002000610075007300670065006600FC00680072007400200077006900720064002C00200077006900720064002000650069006E000A0056006F006C006C0074007200650066006600650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Teerschuss",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 18352,
+      "rawDecodedUtf16Hex": "00540065006500720073006300680075007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon verfügt nun über eine Schwäche\ngegenüber Attacken vom Typ Feuer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 18376,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007600650072006600FC006700740020006E0075006E002000FC006200650072002000650069006E00650020005300630068007700E4006300680065000A0067006500670065006E00FC006200650072002000410074007400610063006B0065006E00200076006F006D0020005400790070002000460065007500650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Octoklammer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 18532,
+      "rawDecodedUtf16Hex": "004F00630074006F006B006C0061006D006D006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Mit jeder Runde werden Verteidigung und\nSpezial-Verteidigung des Pokémon gesenkt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 18556,
+      "rawDecodedUtf16Hex": "004D006900740020006A0065006400650072002000520075006E00640065002000770065007200640065006E00200056006500720074006500690064006900670075006E006700200075006E0064000A005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067002000640065007300200050006F006B00E9006D006F006E00200067006500730065006E006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Giga-Feuerflug",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 18720,
+      "rawDecodedUtf16Hex": "0047006900670061002D004600650075006500720066006C007500670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Bis auf Feuer-Pokémon nehmen alle Pokémon\nvier Runden lang in jeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 18752,
+      "rawDecodedUtf16Hex": "0042006900730020006100750066002000460065007500650072002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E00200061006C006C006500200050006F006B00E9006D006F006E000A0076006900650072002000520075006E00640065006E0020006C0061006E006700200069006E0020006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Giga-Schlacke",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 18920,
+      "rawDecodedUtf16Hex": "0047006900670061002D005300630068006C00610063006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Bis auf Gesteins-Pokémon nehmen alle Pokémon\nvier Runden lang in jeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 18948,
+      "rawDecodedUtf16Hex": "00420069007300200061007500660020004700650073007400650069006E0073002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E00200061006C006C006500200050006F006B00E9006D006F006E000A0076006900650072002000520075006E00640065006E0020006C0061006E006700200069006E0020006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Giga-Stahlschlag",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 19120,
+      "rawDecodedUtf16Hex": "0047006900670061002D0053007400610068006C007300630068006C006100670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Pokémon, die in den Kampf eingewechselt\nwerden, nehmen Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 19156,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E002C002000640069006500200069006E002000640065006E0020004B0061006D00700066002000650069006E00670065007700650063006800730065006C0074000A00770065007200640065006E002C0020006E00650068006D0065006E0020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Giga-Geißel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 19284,
+      "rawDecodedUtf16Hex": "0047006900670061002D00470065006900DF0065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Bis auf Pflanzen-Pokémon nehmen alle Pokémon\nvier Runden lang in jeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 19308,
+      "rawDecodedUtf16Hex": "0042006900730020006100750066002000500066006C0061006E007A0065006E002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E00200061006C006C006500200050006F006B00E9006D006F006E000A0076006900650072002000520075006E00640065006E0020006C0061006E006700200069006E0020006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Giga-Beschuss",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 19480,
+      "rawDecodedUtf16Hex": "0047006900670061002D004200650073006300680075007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Bis auf Wasser-Pokémon nehmen alle Pokémon\nvier Runden lang in jeder Runde Schaden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 19508,
+      "rawDecodedUtf16Hex": "00420069007300200061007500660020005700610073007300650072002D0050006F006B00E9006D006F006E0020006E00650068006D0065006E00200061006C006C006500200050006F006B00E9006D006F006E000A0076006900650072002000520075006E00640065006E0020006C0061006E006700200069006E0020006A0065006400650072002000520075006E006400650020005300630068006100640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Fixiert",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 19676,
+      "rawDecodedUtf16Hex": "00460069007800690065007200740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Das Pokémon ist auf die Attacke fixiert, die es\nzuvor eingesetzt hat. Setzt es diese Attacke\nerneut ein, wird deren Schaden erhöht.\nIm Gegenzug steigt aber auch der Schaden,\nden das Pokémon erleidet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 19692,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200061007500660020006400690065002000410074007400610063006B006500200066006900780069006500720074002C0020006400690065002000650073000A007A00750076006F0072002000650069006E00670065007300650074007A00740020006800610074002E0020005300650074007A0074002000650073002000640069006500730065002000410074007400610063006B0065000A00650072006E006500750074002000650069006E002C0020007700690072006400200064006500720065006E0020005300630068006100640065006E002000650072006800F600680074002E000A0049006D00200047006500670065006E007A007500670020007300740065006900670074002000610062006500720020006100750063006800200064006500720020005300630068006100640065006E002C000A00640065006E002000640061007300200050006F006B00E9006D006F006E002000650072006C00650069006400650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 200
+    },
+    {
+      "displayText": "Splitter",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 20092,
+      "rawDecodedUtf16Hex": "00530070006C006900740074006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Scharfe Splitter bohren sich in das Pokémon,\nwodurch es am Ende seiner Züge Schaden\nerleidet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 20112,
+      "rawDecodedUtf16Hex": "0053006300680061007200660065002000530070006C0069007400740065007200200062006F006800720065006E0020007300690063006800200069006E002000640061007300200050006F006B00E9006D006F006E002C000A0077006F0064007500720063006800200065007300200061006D00200045006E006400650020007300650069006E006500720020005A00FC006700650020005300630068006100640065006E000A00650072006C00650069006400650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Rauchwolke",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 20300,
+      "rawDecodedUtf16Hex": "005200610075006300680077006F006C006B00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon ist von Rauch oder Dunst umhüllt,\nwodurch die Wahrscheinlichkeit sinkt, dass es\nvon gegnerischen Attacken getroffen wird.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 20324,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200076006F006E0020005200610075006300680020006F006400650072002000440075006E0073007400200075006D006800FC006C006C0074002C000A0077006F0064007500720063006800200064006900650020005700610068007200730063006800650069006E006C006900630068006B006500690074002000730069006E006B0074002C00200064006100730073002000650073000A0076006F006E0020006700650067006E0065007200690073006300680065006E002000410074007400610063006B0065006E00200067006500740072006F006600660065006E00200077006900720064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 134
+    },
+    {
+      "displayText": "Vielfacher Schaden",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 20592,
+      "rawDecodedUtf16Hex": "005600690065006C0066006100630068006500720020005300630068006100640065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Die konzentrierte Kampfhaltung des Pokémon\nerhöht den Schaden, den es anrichtet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 20632,
+      "rawDecodedUtf16Hex": "0044006900650020006B006F006E007A0065006E00740072006900650072007400650020004B0061006D0070006600680061006C00740075006E0067002000640065007300200050006F006B00E9006D006F006E000A00650072006800F600680074002000640065006E0020005300630068006100640065006E002C002000640065006E00200065007300200061006E0072006900630068007400650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Taktiktausch",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 20796,
+      "rawDecodedUtf16Hex": "00540061006B00740069006B0074006100750073006300680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Die Offensivkraft des Pokémon wurde mit seiner\nDefensivkraft getauscht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 20824,
+      "rawDecodedUtf16Hex": "0044006900650020004F006600660065006E007300690076006B0072006100660074002000640065007300200050006F006B00E9006D006F006E0020007700750072006400650020006D006900740020007300650069006E00650072000A0044006500660065006E007300690076006B00720061006600740020006700650074006100750073006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Saumselig",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 20968,
+      "rawDecodedUtf16Hex": "005300610075006D00730065006C006900670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Bis das Pokémon richtig in Fahrt kommt,\nsind Angriff und Initiative halbiert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 20988,
+      "rawDecodedUtf16Hex": "004200690073002000640061007300200050006F006B00E9006D006F006E0020007200690063006800740069006700200069006E0020004600610068007200740020006B006F006D006D0074002C000A00730069006E006400200041006E0067007200690066006600200075006E006400200049006E00690074006900610074006900760065002000680061006C00620069006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Rage",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 21144,
+      "rawDecodedUtf16Hex": "00520061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Das Pokémon erleidet am Ende seiner Züge\nweniger Schaden durch Effekte wie Gift oder\nSplitter.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 21156,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000650072006C0065006900640065007400200061006D00200045006E006400650020007300650069006E006500720020005A00FC00670065000A00770065006E00690067006500720020005300630068006100640065006E00200064007500720063006800200045006600660065006B007400650020007700690065002000470069006600740020006F006400650072000A00530070006C00690074007400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Vergiftung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 21348,
+      "rawDecodedUtf16Hex": "00560065007200670069006600740075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Am Ende seiner Züge erleidet das Pokémon\nSchaden durch Gift.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 21372,
+      "rawDecodedUtf16Hex": "0041006D00200045006E006400650020007300650069006E006500720020005A00FC00670065002000650072006C00650069006400650074002000640061007300200050006F006B00E9006D006F006E000A005300630068006100640065006E00200064007500720063006800200047006900660074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Paralyse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 21496,
+      "rawDecodedUtf16Hex": "0050006100720061006C0079007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Das Pokémon ist paralysiert und kann sich\ndadurch eventuell nicht bewegen.\nAußerdem ist seine Initiative gesunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 21516,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200070006100720061006C00790073006900650072007400200075006E00640020006B0061006E006E00200073006900630068000A00640061006400750072006300680020006500760065006E007400750065006C006C0020006E00690063006800740020006200650077006500670065006E002E000A0041007500DF0065007200640065006D00200069007300740020007300650069006E006500200049006E0069007400690061007400690076006500200067006500730075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Schläfrigkeit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 21748,
+      "rawDecodedUtf16Hex": "005300630068006C00E40066007200690067006B0065006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Das Pokémon ist so schläfrig, dass es sich\neventuell nicht bewegen kann.\nAußerdem wird der Schaden erhöht,\nden es erleidet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 21776,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000690073007400200073006F0020007300630068006C00E40066007200690067002C0020006400610073007300200065007300200073006900630068000A006500760065006E007400750065006C006C0020006E00690063006800740020006200650077006500670065006E0020006B0061006E006E002E000A0041007500DF0065007200640065006D0020007700690072006400200064006500720020005300630068006100640065006E002000650072006800F600680074002C000A00640065006E002000650073002000650072006C00650069006400650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Verbrennungen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 22024,
+      "rawDecodedUtf16Hex": "005600650072006200720065006E006E0075006E00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Am Ende seiner Züge erleidet das Pokémon\nSchaden durch seine Verbrennungen.\nAußerdem sinkt der Schaden, den es mit\nphysischen Attacken verursacht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 22052,
+      "rawDecodedUtf16Hex": "0041006D00200045006E006400650020007300650069006E006500720020005A00FC00670065002000650072006C00650069006400650074002000640061007300200050006F006B00E9006D006F006E000A005300630068006100640065006E0020006400750072006300680020007300650069006E00650020005600650072006200720065006E006E0075006E00670065006E002E000A0041007500DF0065007200640065006D002000730069006E006B007400200064006500720020005300630068006100640065006E002C002000640065006E0020006500730020006D00690074000A007000680079007300690073006300680065006E002000410074007400610063006B0065006E00200076006500720075007200730061006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 147
+    },
+    {
+      "displayText": "Frostbrand",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 22348,
+      "rawDecodedUtf16Hex": "00460072006F00730074006200720061006E00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Am Ende seiner Züge erleidet das Pokémon\nSchaden durch Frostbrand. Außerdem sinkt der\nSchaden, den es mit Spezial-Attacken verursacht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 22372,
+      "rawDecodedUtf16Hex": "0041006D00200045006E006400650020007300650069006E006500720020005A00FC00670065002000650072006C00650069006400650074002000640061007300200050006F006B00E9006D006F006E000A005300630068006100640065006E002000640075007200630068002000460072006F00730074006200720061006E0064002E00200041007500DF0065007200640065006D002000730069006E006B00740020006400650072000A005300630068006100640065006E002C002000640065006E0020006500730020006D006900740020005300700065007A00690061006C002D00410074007400610063006B0065006E00200076006500720075007200730061006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "Kraft der Wildnis",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 22644,
+      "rawDecodedUtf16Hex": "004B00720061006600740020006400650072002000570069006C0064006E006900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Alle Statuswerte des Pokémon sind gestiegen.\nAußerdem erleidet es am Ende seiner Züge\nweniger Schaden durch Effekte wie Gift oder\nSplitter.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 22680,
+      "rawDecodedUtf16Hex": "0041006C006C0065002000530074006100740075007300770065007200740065002000640065007300200050006F006B00E9006D006F006E002000730069006E0064002000670065007300740069006500670065006E002E000A0041007500DF0065007200640065006D002000650072006C0065006900640065007400200065007300200061006D00200045006E006400650020007300650069006E006500720020005A00FC00670065000A00770065006E00690067006500720020005300630068006100640065006E00200064007500720063006800200045006600660065006B007400650020007700690065002000470069006600740020006F006400650072000A00530070006C00690074007400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 140
+    },
+    {
+      "displayText": "Gewaltige Kraft",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 22960,
+      "rawDecodedUtf16Hex": "0047006500770061006C00740069006700650020004B00720061006600740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Das Pokémon erleidet am Ende seiner Züge\nweniger Schaden durch Effekte wie Gift oder\nSplitter.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 22992,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000650072006C0065006900640065007400200061006D00200045006E006400650020007300650069006E006500720020005A00FC00670065000A00770065006E00690067006500720020005300630068006100640065006E00200064007500720063006800200045006600660065006B007400650020007700690065002000470069006600740020006F006400650072000A00530070006C00690074007400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Unheilvolle Kraft",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 23184,
+      "rawDecodedUtf16Hex": "0055006E006800650069006C0076006F006C006C00650020004B00720061006600740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Alle Statuswerte des Pokémon sind gestiegen.\nAußerdem erleidet es am Ende seiner Züge\nweniger Schaden durch Effekte wie Gift oder\nSplitter.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 23220,
+      "rawDecodedUtf16Hex": "0041006C006C0065002000530074006100740075007300770065007200740065002000640065007300200050006F006B00E9006D006F006E002000730069006E0064002000670065007300740069006500670065006E002E000A0041007500DF0065007200640065006D002000650072006C0065006900640065007400200065007300200061006D00200045006E006400650020007300650069006E006500720020005A00FC00670065000A00770065006E00690067006500720020005300630068006100640065006E00200064007500720063006800200045006600660065006B007400650020007700690065002000470069006600740020006F006400650072000A00530070006C00690074007400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 140
+    },
+    {
+      "displayText": "Offensivschub",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 23500,
+      "rawDecodedUtf16Hex": "004F006600660065006E007300690076007300630068007500620000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Durch die erhöhte Offensivkraft des Pokémon\nsind sein Angriff und Spezial-Angriff gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 23528,
+      "rawDecodedUtf16Hex": "004400750072006300680020006400690065002000650072006800F60068007400650020004F006600660065006E007300690076006B0072006100660074002000640065007300200050006F006B00E9006D006F006E000A00730069006E00640020007300650069006E00200041006E0067007200690066006600200075006E00640020005300700065007A00690061006C002D0041006E00670072006900660066002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Offensivdämpfer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 23716,
+      "rawDecodedUtf16Hex": "004F006600660065006E007300690076006400E4006D00700066006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Durch die verringerte Offensivkraft des Pokémon\nsind sein Angriff und Spezial-Angriff gesunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 23748,
+      "rawDecodedUtf16Hex": "004400750072006300680020006400690065002000760065007200720069006E006700650072007400650020004F006600660065006E007300690076006B0072006100660074002000640065007300200050006F006B00E9006D006F006E000A00730069006E00640020007300650069006E00200041006E0067007200690066006600200075006E00640020005300700065007A00690061006C002D0041006E0067007200690066006600200067006500730075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Defensivschub",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 23940,
+      "rawDecodedUtf16Hex": "0044006500660065006E007300690076007300630068007500620000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Durch die erhöhte Defensivkraft des Pokémon\nsind seine Verteidigung und Spezial-Verteidigung\ngestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 23968,
+      "rawDecodedUtf16Hex": "004400750072006300680020006400690065002000650072006800F600680074006500200044006500660065006E007300690076006B0072006100660074002000640065007300200050006F006B00E9006D006F006E000A00730069006E00640020007300650069006E006500200056006500720074006500690064006900670075006E006700200075006E00640020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067000A00670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Defensivdämpfer",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 24176,
+      "rawDecodedUtf16Hex": "0044006500660065006E007300690076006400E4006D00700066006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Durch die verringerte Defensivkraft des Pokémon\nsind seine Verteidigung und Spezial-Verteidigung\ngesunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 24208,
+      "rawDecodedUtf16Hex": "004400750072006300680020006400690065002000760065007200720069006E0067006500720074006500200044006500660065006E007300690076006B0072006100660074002000640065007300200050006F006B00E9006D006F006E000A00730069006E00640020007300650069006E006500200056006500720074006500690064006900670075006E006700200075006E00640020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067000A0067006500730075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Klarer Himmel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 24424,
+      "rawDecodedUtf16Hex": "004B006C0061007200650072002000480069006D006D0065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Die Initiative von Pflanzen-Pokémon ist\ngestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 24452,
+      "rawDecodedUtf16Hex": "00440069006500200049006E0069007400690061007400690076006500200076006F006E002000500066006C0061006E007A0065006E002D0050006F006B00E9006D006F006E0020006900730074000A00670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Nebel",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 24556,
+      "rawDecodedUtf16Hex": "004E006500620065006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Die Genauigkeit aller Attacken ist gesunken,\nmit Ausnahme solcher mit Treffergarantie.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 24568,
+      "rawDecodedUtf16Hex": "004400690065002000470065006E0061007500690067006B00650069007400200061006C006C00650072002000410074007400610063006B0065006E002000690073007400200067006500730075006E006B0065006E002C000A006D006900740020004100750073006E00610068006D006500200073006F006C00630068006500720020006D00690074002000540072006500660066006500720067006100720061006E007400690065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Regen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 24744,
+      "rawDecodedUtf16Hex": "0052006500670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Die Stärke von Feuer-Attacken ist gesunken.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 24756,
+      "rawDecodedUtf16Hex": "00440069006500200053007400E40072006B006500200076006F006E002000460065007500650072002D00410074007400610063006B0065006E002000690073007400200067006500730075006E006B0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Schnee",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 24844,
+      "rawDecodedUtf16Hex": "005300630068006E006500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Die Wahrscheinlichkeit von Frostbrand ist erhöht\nund schläfrige Pokémon können sich öfter nicht\nbewegen. Die Initiative von Eis-Pokémon ist\ngestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 24860,
+      "rawDecodedUtf16Hex": "0044006900650020005700610068007200730063006800650069006E006C006900630068006B00650069007400200076006F006E002000460072006F00730074006200720061006E00640020006900730074002000650072006800F600680074000A0075006E00640020007300630068006C00E40066007200690067006500200050006F006B00E9006D006F006E0020006B00F6006E006E0065006E00200073006900630068002000F600660074006500720020006E0069006300680074000A006200650077006500670065006E002E002000440069006500200049006E0069007400690061007400690076006500200076006F006E0020004500690073002D0050006F006B00E9006D006F006E0020006900730074000A00670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "Pökelsalz",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 25164,
+      "rawDecodedUtf16Hex": "005000F6006B0065006C00730061006C007A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Das Pokémon ist eingepökelt und nimmt jede\nRunde Schaden. Bei Stahl- und Wasser-Pokémon\nwird dieser Schaden verdoppelt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 25184,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020006900730074002000650069006E00670065007000F6006B0065006C007400200075006E00640020006E0069006D006D00740020006A006500640065000A00520075006E006400650020005300630068006100640065006E002E002000420065006900200053007400610068006C002D00200075006E00640020005700610073007300650072002D0050006F006B00E9006D006F006E000A007700690072006400200064006900650073006500720020005300630068006100640065006E00200076006500720064006F007000700065006C0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "Flammenwut",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 25424,
+      "rawDecodedUtf16Hex": "0046006C0061006D006D0065006E0077007500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Das Pokémon schlägt zwei bis drei Runden lang\nwild um sich. Danach ist es verwirrt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 25448,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E0020007300630068006C00E4006700740020007A007700650069002000620069007300200064007200650069002000520075006E00640065006E0020006C0061006E0067000A00770069006C006400200075006D00200073006900630068002E002000440061006E0061006300680020006900730074002000650073002000760065007200770069007200720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Siruphülle",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 25616,
+      "rawDecodedUtf16Hex": "00530069007200750070006800FC006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Die Initiative des Pokémon sinkt drei Runden\nin Folge.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 25640,
+      "rawDecodedUtf16Hex": "00440069006500200049006E00690074006900610074006900760065002000640065007300200050006F006B00E9006D006F006E002000730069006E006B007400200064007200650069002000520075006E00640065006E000A0069006E00200046006F006C00670065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Haut rein!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 25752,
+      "rawDecodedUtf16Hex": "00480061007500740020007200650069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Durch das Anfeuern steigen der Angriff und\nder Spezial-Angriff.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 25776,
+      "rawDecodedUtf16Hex": "00440075007200630068002000640061007300200041006E00660065007500650072006E0020007300740065006900670065006E002000640065007200200041006E0067007200690066006600200075006E0064000A0064006500720020005300700065007A00690061006C002D0041006E00670072006900660066002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Bleibt standhaft!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 25904,
+      "rawDecodedUtf16Hex": "0042006C00650069006200740020007300740061006E0064006800610066007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Durch das Anfeuern steigen die Verteidigung und\ndie Spezial-Verteidigung.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 25940,
+      "rawDecodedUtf16Hex": "00440075007200630068002000640061007300200041006E00660065007500650072006E0020007300740065006900670065006E002000640069006500200056006500720074006500690064006900670075006E006700200075006E0064000A0064006900650020005300700065007A00690061006C002D0056006500720074006500690064006900670075006E0067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Heilung geblockt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 26088,
+      "rawDecodedUtf16Hex": "004800650069006C0075006E00670020006700650062006C006F0063006B00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Das Pokémon wird zwei Runden lang daran\ngehindert, durch Attacken, Fähigkeiten oder\ngetragene Items KP zu regenerieren.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 26124,
+      "rawDecodedUtf16Hex": "00440061007300200050006F006B00E9006D006F006E002000770069007200640020007A007700650069002000520075006E00640065006E0020006C0061006E006700200064006100720061006E000A0067006500680069006E0064006500720074002C002000640075007200630068002000410074007400610063006B0065006E002C0020004600E4006800690067006B0065006900740065006E0020006F006400650072000A0067006500740072006100670065006E00650020004900740065006D00730020004B00500020007A007500200072006500670065006E006500720069006500720065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 26364,
+  "sectionOffset": 16,
+  "textCount": 224,
+  "textSectionCount": 1
+}

@@ -1,0 +1,53 @@
+{
+  "declaredLength": 304,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "就像是掉进了古怪的\n异次元密阿雷里，对不？<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "5C3150CF662F63898FDB4E8653E4602A7684000A5F026B2151435BC6963F96F791CCFF0C5BF94E0DFF1F00100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "仿照对战特区的异次元密阿雷……\n那可以叫它<U+0010><U+0002>＀<U+0006>异次元对战特区<U+0010><U+0002>＀<U+0000>呀！<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "4EFF71675BF962187279533A76845F026B2151435BC6963F96F720262026000A90A353EF4EE553EB5B8300100002FF0000065F026B2151435BF962187279533A00100002FF0000005440FF0100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "那边的训练家说不定\n也是像落败者的怨念一样的东西？<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "90A38FB976848BAD7EC35BB68BF44E0D5B9A000A4E5F662F50CF843D8D258005768460285FF54E00683776844E1C897FFF1F00100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "总之我会发出异次元对战特区的调查委托，\n就拜托你去调查啦！<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "603B4E4B62114F1A53D151FA5F026B2151435BF962187279533A76848C0367E559D46258FF0C000A5C3162DC62584F6053BB8C0367E55566FF0100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 304,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

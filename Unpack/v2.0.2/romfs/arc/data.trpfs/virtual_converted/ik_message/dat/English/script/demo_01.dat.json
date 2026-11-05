@@ -1,0 +1,53 @@
+{
+  "declaredLength": 704,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "        Something’s gone wrong at Prism Tower.\n Dispatch a team from the company to investigate.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "002000200020002000200020002000200053006F006D0065007400680069006E00672019007300200067006F006E0065002000770072006F006E006700200061007400200050007200690073006D00200054006F007700650072002E000A002000440069007300700061007400630068002000610020007400650061006D002000660072006F006D002000740068006500200063006F006D00700061006E007900200074006F00200069006E007600650073007400690067006100740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "            We cannot allow more disturbances\n                 in Lumiose City on our watch.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "00200020002000200020002000200020002000200020002000570065002000630061006E006E006F007400200061006C006C006F00770020006D006F00720065002000640069007300740075007200620061006E006300650073000A002000200020002000200020002000200020002000200020002000200020002000200069006E0020004C0075006D0069006F00730065002000430069007400790020006F006E0020006F00750072002000770061007400630068002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "             The strongest Mega Evolution user\n                             must be found.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "00200020002000200020002000200020002000200020002000200054006800650020007300740072006F006E00670065007300740020004D006500670061002000450076006F006C007500740069006F006E00200075007300650072000A00200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020006D00750073007400200062006500200066006F0075006E0064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "    Arriving at the Gare de Lumiose momentarily.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "0020002000200020004100720072006900760069006E00670020006100740020007400680065002000470061007200650020006400650020004C0075006D0069006F007300650020006D006F006D0065006E0074006100720069006C0079002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 704,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

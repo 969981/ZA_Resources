@@ -1,0 +1,143 @@
+{
+  "declaredLength": 616,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Progression des recherches",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "00500072006F006700720065007300730069006F006E0020006400650073002000720065006300680065007200630068006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Méga-cristaux",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "004D00E900670061002D006300720069007300740061007500780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002010100150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "00100002010700160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "00100002010900170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Espèces enregistrées :",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "00450073007000E800630065007300200065006E007200650067006900730074007200E9006500730020003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Points ticket",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 276,
+      "rawDecodedUtf16Hex": "0050006F0069006E007400730020007400690063006B006500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Points de recherche extradim.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "0050006F0069006E00740073002000640065002000720065006300680065007200630068006500200065007800740072006100640069006D002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Conflits résolus",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "0043006F006E0066006C0069007400730020007200E90073006F006C007500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Membres du Couafeil 4 battus",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "004D0065006D006200720065007300200064007500200043006F00750061006600650069006C0020003400200062006100740074007500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Formes de Flabébé montrées",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "0046006F0072006D0065007300200064006500200046006C0061006200E9006200E90020006D006F006E0074007200E9006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Nombre de Pérégrain trouvés",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "004E006F006D0062007200650020006400650020005000E9007200E90067007200610069006E002000740072006F0075007600E900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Discussions engagées",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "00440069007300630075007300730069006F006E007300200065006E00670061006700E9006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 616,
+  "sectionOffset": 16,
+  "textCount": 13,
+  "textSectionCount": 1
+}

@@ -1,0 +1,383 @@
+{
+  "declaredLength": 2044,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "不好意思，\n我需要你帮我找一个人。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "4E0D597D610F601DFF0C000A6211970089814F605E2E6211627E4E004E2A4EBA300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "我正在找一个搭档是毒藻龙的\n驯龙师训练家。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "62116B635728627E4E004E2A642D6863662F6BD285FB9F997684000A9A6F9F995E088BAD7EC35BB6300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "高个子，绿头发。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 396,
+      "rawDecodedUtf16Hex": "9AD84E2A5B50FF0C7EFF593453D1300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "另外……应该是一身\n街头格斗风的粗犷打扮。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "53E65916202620265E948BE5662F4E008EAB000A88575934683C659798CE76847C9772B76253626E300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "如果你知道有这些特征的人在哪儿，\n就告诉我吧！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "5982679C4F6077E5905367098FD94E9B72795F8176844EBA572854EA513FFF0C000A5C31544A8BC962115427FF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我需要你帮忙找的是……<U+0010><U+0001>븁\n搭档是毒藻龙的\n驯龙师训练家。<U+0010><U+0001>븁\n高个子，绿头发，\n应该是一身<U+0010><U+0001>븀\n街头格斗风的粗犷打扮。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "6211970089814F605E2E5FD9627E7684662F2026202600100001BE01000A642D6863662F6BD285FB9F997684000A9A6F9F995E088BAD7EC35BB6300200100001BE01000A9AD84E2A5B50FF0C7EFF593453D1FF0C000A5E948BE5662F4E008EAB00100001BE00000A88575934683C659798CE76847C9772B76253626E300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你想怎么着？<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "4F6060F3600E4E487740FF1F00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "你居然打扮成这样！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "4F605C4571366253626E62108FD96837FF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "我打扮成什么样不关你的事吧！\n你可真是个没有分寸的人。<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "62116253626E62104EC04E4868374E0D51734F6076844E8B5427FF01000A4F6053EF771F662F4E2A6CA1670952065BF876844EBA300200100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "话说回来，\n玛斗莎，好久不见啊。<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "8BDD8BF456DE6765FF0C000A739B6597838EFF0C597D4E454E0D89C1554A300200100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "为了打败你，\n我和宝可梦都在努力地锻炼。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "4E3A4E8662538D254F60FF0C000A6211548C5B9D53EF68A690FD572852AA529B5730953B70BC300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "对斗士来说，锻炼是理所当然的事！\n在那之后，我也变强了。<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "5BF9659758EB67658BF4FF0C953B70BC662F740662405F53713676844E8BFF01000A572890A34E4B540EFF0C62114E5F53D85F3A4E86300200100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "好！\n我要打败你，让你实现那时的承诺！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "597DFF01000A6211898162538D254F60FF0C8BA94F605B9E73B090A365F67684627F8BFAFF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "春紫！有趣的事\n也要带上我哦。<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "66257D2BFF0167098DA376844E8B000A4E5F89815E264E0A621154E6300200100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "咦……？<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "54A620262026FF1F00100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "别妨碍我们较量！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "522B59A8788D62114EEC8F8391CFFF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "想要和春紫战斗，\n得先要我同意才行。<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "60F38981548C66257D2B62186597FF0C000A5F97514889816211540C610F624D884C300200100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "留给你的选项只有一个！<U+0010><U+0001>븁\n那就是和<U+0010><U+0002>Ā<U+0000><U+0010><U+0003>ᄀÿȂ先生小姐联手，\n与我们对战！<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "75597ED94F6076849009987953EA67094E004E2AFF0100100001BE01000A90A35C31662F548C001000020100000000100003110000FF02025148751F5C0F59D08054624BFF0C000A4E0E62114EEC5BF96218FF0100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "引导大众正是我等\n名流的职责呀，皮可西！<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "5F155BFC59274F176B63662F62117B49000A540D6D417684804C8D235440FF0C76AE53EF897FFF0100100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "拿出我们的看家本领！\n超级进化，大闹一场咯，毒藻龙！<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1304,
+      "rawDecodedUtf16Hex": "62FF51FA62114EEC7684770B5BB6672C9886FF01000A8D857EA78FDB5316FF0C592795F94E00573A54AFFF0C6BD285FB9F99FF0100100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你说努力锻炼过，\n看来并不是说谎啊。<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "4F608BF452AA529B953B70BC8FC7FF0C000A770B67655E764E0D662F8BF48C0E554A300200100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "当然了！不过这次的胜利\n要归功于<U+0010><U+0002>Ā<U+0000>。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "5F5371364E86FF014E0D8FC78FD96B21768480DC5229000A89815F52529F4E8E0010000201000000300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "话虽如此，胜利就是胜利。\n来实现那时的承诺吧。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1480,
+      "rawDecodedUtf16Hex": "8BDD867D59826B64FF0C80DC52295C31662F80DC52293002000A67655B9E73B090A365F67684627F8BFA5427300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "春紫！\n成为我的搭档吧！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1536,
+      "rawDecodedUtf16Hex": "66257D2BFF01000A62104E3A62117684642D68635427FF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "关于这件事……<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "51734E8E8FD94EF64E8B2026202600100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "我的搭档已经另有人选。\n很抱歉不能实现承诺……！<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "62117684642D68635DF27ECF53E667094EBA90093002000A5F8862B16B494E0D80FD5B9E73B0627F8BFA20262026FF0100100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "你明明都和沐净合作过……<U+0010><U+0002>Ĕ<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "4F60660E660E90FD548C6C9051C054084F5C8FC72026202600100002011400150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "那还不是因为……\n要关系到安馨儿小姐。<U+0010><U+0002>Ĕ<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "90A38FD84E0D662F56E04E3A20262026000A898151737CFB52305B8999A8513F5C0F59D0300200100002011400160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "是这样……\n我锻炼过头，延误了再次对战的时机啊。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "662F8FD9683720262026000A6211953B70BC8FC75934FF0C5EF68BEF4E86518D6B215BF96218768465F6673A554A300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "好吧。\n春紫……这身打扮也很适合你哦。<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "597D54273002000A66257D2B202620268FD98EAB6253626E4E5F5F88900254084F6054E6300200100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，\n也多谢你了！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C000A4E5F591A8C224F604E86FF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "哎～\n去哪里才能找到好搭档呢？<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "54CEFF5E000A53BB54EA91CC624D80FD627E5230597D642D68635462FF1F00100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1924,
+      "rawDecodedUtf16Hex": "00100002BDFF00230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "就像那句话“终日钦钦，常在战场”，\n真想有个这种感觉的搭档啊，<U+0010><U+0001>븀\n随时都能对战，又值得信赖！<U+0010><U+0002>Ĕƶ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "5C3150CF90A353E58BDD201C7EC865E594A694A6FF0C5E3857286218573A201DFF0C000A771F60F367094E2A8FD979CD611F89C97684642D6863554AFF0C00100001BE00000A968F65F690FD80FD5BF96218FF0C53C8503C5F974FE18D56FF0100100002011401B60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2044,
+  "sectionOffset": 16,
+  "textCount": 37,
+  "textSectionCount": 1
+}

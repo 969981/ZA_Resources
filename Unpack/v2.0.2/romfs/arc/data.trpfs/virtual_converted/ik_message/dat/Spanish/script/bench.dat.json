@@ -1,0 +1,133 @@
+{
+  "declaredLength": 740,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Es un banco.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0045007300200075006E002000620061006E0063006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "¿Quieres levantarte?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "00BF00510075006900650072006500730020006C006500760061006E00740061007200740065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "¿Quieres descansar hasta la noche?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065007300630061006E0073006100720020006800610073007400610020006C00610020006E006F006300680065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¿Quieres descansar hasta la mañana?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065007300630061006E0073006100720020006800610073007400610020006C00610020006D006100F10061006E0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¿Quieres dejar de sacar fotos?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000640065006A0061007200200064006500200073006100630061007200200066006F0074006F0073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Descansar para pasar el tiempo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "00440065007300630061006E0073006100720020007000610072006100200070006100730061007200200065006C0020007400690065006D0070006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Pasar el rato con mi<U+0010><U+0003>ᄁýĀs Pokémon",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "0050006100730061007200200065006C0020007200610074006F00200063006F006E0020006D006900100003110100FD0100007300200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Cancelar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00430061006E00630065006C006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Sí",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "005300ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "¡No es momento de holgazanear!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "00A1004E006F0020006500730020006D006F006D0065006E0074006F00200064006500200068006F006C00670061007A0061006E00650061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "¡Estás en una zona de combate! ¡No es momento\npara relajarse!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "00A100450073007400E1007300200065006E00200075006E00610020007A006F006E006100200064006500200063006F006D00620061007400650021002000A1004E006F0020006500730020006D006F006D0065006E0074006F000A0070006100720061002000720065006C0061006A006100720073006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 740,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

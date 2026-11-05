@@ -1,0 +1,103 @@
+{
+  "declaredLength": 396,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "让一下，\n我在带客人去旅馆。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "8BA94E004E0BFF0C000A621157285E265BA24EBA53BB65C5998630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "我在带客人去旅馆。\n你们要是能让开，我会很开心的。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "621157285E265BA24EBA53BB65C599863002000A4F604EEC8981662F80FD8BA95F00FF0C62114F1A5F885F005FC3768430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "我才不管<U+0010><U+0003>ᄀÿā他她是不是客人！\n只要在对战特区，就是对战的对手。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "6211624D4E0D7BA100100003110000FF01014ED65979662F4E0D662F5BA24EBAFF01000A53EA898157285BF962187279533AFF0C5C31662F5BF9621876845BF9624B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "真没办法，\n我来应战吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "771F6CA1529E6CD5FF0C000A621167655E946218542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "真没办法，\n这里就由我来……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "771F6CA1529E6CD5FF0C000A8FD991CC5C31753162116765202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "啾噜噜！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "557E565C565CFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "拿着黑花的花叶蒂？\n和我对战的居然是这么少见的宝可梦啊。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "62FF77409ED182B1768482B153F68482FF1F000A548C62115BF9621876845C457136662F8FD94E485C1189C176845B9D53EF68A6554A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "别打到他们！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "522B625352304ED64EECFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "别打到他们！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "522B625352304ED64EECFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 396,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

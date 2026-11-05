@@ -1,0 +1,23 @@
+{
+  "declaredLength": 156,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ein Teilnehmer hat die Verbindung getrennt.\nDer Tausch wird beendet.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "00450069006E0020005400650069006C006E00650068006D0065007200200068006100740020006400690065002000560065007200620069006E00640075006E0067002000670065007400720065006E006E0074002E000A0044006500720020005400610075007300630068002000770069007200640020006200650065006E006400650074002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 156,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

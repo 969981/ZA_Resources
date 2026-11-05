@@ -1,0 +1,233 @@
+{
+  "declaredLength": 2832,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Aiuto! Qualcuno mi salvi!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "0041006900750074006F00210020005100750061006C00630075006E006F0020006D0069002000730061006C00760069002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Maledizione! Me l’hanno fatta ancora!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "004D0061006C006500640069007A0069006F006E006500210020004D00650020006C201900680061006E006E006F00200066006100740074006100200061006E0063006F00720061002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Fatemi uscire da qui!!<U+0010><U+0001>븁\nChiedete a un Pokémon di usare una mossa\nmolto potente per distruggere questo bozzolo!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "0046006100740065006D0069002000750073006300690072006500200064006100200071007500690021002100100001BE01000A004300680069006500640065007400650020006100200075006E00200050006F006B00E9006D006F006E00200064006900200075007300610072006500200075006E00610020006D006F007300730061000A006D006F006C0074006F00200070006F00740065006E007400650020007000650072002000640069007300740072007500670067006500720065002000710075006500730074006F00200062006F007A007A006F006C006F002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "Qualcuno è rimasto intrappolato dentro un\nbozzolo creato dal filo di qualche Pokémon...<U+0010><U+0001>븁\nDistruggi il bozzolo usando una mossa di potenza\nelevata e libera il malcapitato.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "005100750061006C00630075006E006F002000E8002000720069006D006100730074006F00200069006E00740072006100700070006F006C00610074006F002000640065006E00740072006F00200075006E000A0062006F007A007A006F006C006F002000630072006500610074006F002000640061006C002000660069006C006F0020006400690020007100750061006C00630068006500200050006F006B00E9006D006F006E002E002E002E00100001BE01000A00440069007300740072007500670067006900200069006C00200062006F007A007A006F006C006F0020007500730061006E0064006F00200075006E00610020006D006F00730073006100200064006900200070006F00740065006E007A0061000A0065006C00650076006100740061002000650020006C0069006200650072006100200069006C0020006D0061006C0063006100700069007400610074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 173
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ci vuole una mossa più potente!<U+0010><U+0001>븁\nPer controllare la potenza delle mosse, apri\nil menu principale, scegli un Pokémon e poi<U+0010><U+0001>븀\nseleziona \"Cambia mosse attive\".<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "00430069002000760075006F006C006500200075006E00610020006D006F00730073006100200070006900F900200070006F00740065006E00740065002100100001BE01000A00500065007200200063006F006E00740072006F006C006C0061007200650020006C006100200070006F00740065006E007A0061002000640065006C006C00650020006D006F007300730065002C00200061007000720069000A0069006C0020006D0065006E00750020007000720069006E0063006900700061006C0065002C00200073006300650067006C006900200075006E00200050006F006B00E9006D006F006E0020006500200070006F006900100001BE00000A00730065006C0065007A0069006F006E00610020002200430061006D0062006900610020006D006F00730073006500200061007400740069007600650022002E00100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "Fiuuu... Finalmente...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "00460069007500750075002E002E002E002000460069006E0061006C006D0065006E00740065002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Me la sono vista davvero brutta! Grazie per\navermi liberato!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1328,
+      "rawDecodedUtf16Hex": "004D00650020006C006100200073006F006E006F0020007600690073007400610020006400610076007600650072006F002000620072007500740074006100210020004700720061007A006900650020007000650072000A0061007600650072006D00690020006C006900620065007200610074006F0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Che cosa è successo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "00430068006500200063006F00730061002000E800200073007500630063006500730073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Chi è stato?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "004300680069002000E800200073007400610074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Tutta opera degli Spinarak.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "005400750074007400610020006F00700065007200610020006400650067006C00690020005300700069006E006100720061006B002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "A dire la verità sono i miei Pokémon,\ni tre fratellini Spinarak.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "0041002000640069007200650020006C006100200076006500720069007400E000200073006F006E006F002000690020006D00690065006900200050006F006B00E9006D006F006E002C000A00690020007400720065002000660072006100740065006C006C0069006E00690020005300700069006E006100720061006B002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Quando si arrabbiano, mi avvolgono nel loro filo\ne mi lasciano appeso da qualche parte...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "005100750061006E0064006F002000730069002000610072007200610062006200690061006E006F002C0020006D00690020006100760076006F006C0067006F006E006F0020006E0065006C0020006C006F0072006F002000660069006C006F000A00650020006D00690020006C00610073006300690061006E006F002000610070007000650073006F0020006400610020007100750061006C006300680065002000700061007200740065002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "SPIN SPIN!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 15,
+      "offsetInSection": 1924,
+      "rawDecodedUtf16Hex": "005300500049004E0020005300500049004E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Questa volta, senza volerlo ho distrutto una\nragnatela che avevano appena costruito...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1948,
+      "rawDecodedUtf16Hex": "00510075006500730074006100200076006F006C00740061002C002000730065006E007A006100200076006F006C00650072006C006F00200068006F002000640069007300740072007500740074006F00200075006E0061000A007200610067006E006100740065006C00610020006300680065002000610076006500760061006E006F00200061007000700065006E006100200063006F007300740072007500690074006F002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "E allora tutti e tre mi hanno avvolto in un bozzolo\ncon il loro filo.<U+0010><U+0001>븁\nMa non l’ho fatto apposta! Potevano anche\nperdonarmi, no?<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "004500200061006C006C006F007200610020007400750074007400690020006500200074007200650020006D0069002000680061006E006E006F0020006100760076006F006C0074006F00200069006E00200075006E00200062006F007A007A006F006C006F000A0063006F006E00200069006C0020006C006F0072006F002000660069006C006F002E00100001BE01000A004D00610020006E006F006E0020006C20190068006F00200066006100740074006F0020006100700070006F007300740061002100200050006F0074006500760061006E006F00200061006E006300680065000A0070006500720064006F006E00610072006D0069002C0020006E006F003F001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "SPIN SPIN!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 18,
+      "offsetInSection": 2404,
+      "rawDecodedUtf16Hex": "005300500049004E0020005300500049004E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Ho capito, ho capito! Starò più attento, ok?<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2428,
+      "rawDecodedUtf16Hex": "0048006F002000630061007000690074006F002C00200068006F002000630061007000690074006F00210020005300740061007200F200200070006900F900200061007400740065006E0074006F002C0020006F006B003F001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Con tutto quel filo che producete, però, potremmo\nfarci una rete o una corda... e venderle!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "0043006F006E00200074007500740074006F0020007100750065006C002000660069006C006F0020006300680065002000700072006F006400750063006500740065002C002000700065007200F2002C00200070006F007400720065006D006D006F000A0066006100720063006900200075006E0061002000720065007400650020006F00200075006E006100200063006F007200640061002E002E002E00200065002000760065006E006400650072006C00650021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "No, no... scherzavo! Fratellini Spinarak, vi prego!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "004E006F002C0020006E006F002E002E002E002000730063006800650072007A00610076006F0021002000460072006100740065006C006C0069006E00690020005300700069006E006100720061006B002C00200076006900200070007200650067006F0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2832,
+  "sectionOffset": 16,
+  "textCount": 22,
+  "textSectionCount": 1
+}

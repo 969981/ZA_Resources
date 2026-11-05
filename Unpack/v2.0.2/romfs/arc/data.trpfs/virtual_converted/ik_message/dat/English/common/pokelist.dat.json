@@ -1,0 +1,243 @@
+{
+  "declaredLength": 1024,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Which Pokémon will you swap it for?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "0057006800690063006800200050006F006B00E9006D006F006E002000770069006C006C00200079006F00750020007300770061007000200069007400200066006F0072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Which held item will you swap it for?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00570068006900630068002000680065006C00640020006900740065006D002000770069006C006C00200079006F00750020007300770061007000200069007400200066006F0072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>You received the\n<U+0010><U+0002>Ċ<U+0001><U+0010><U+0001>븀\nfrom <U+0010><U+0002>Ă<U+0000>.<U+0010><U+0001>븁",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "00100002BD0600000059006F00750020007200650063006500690076006500640020007400680065000A00100002010A000100100001BE00000A00660072006F006D00200010000201020000002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> isn’t holding anything.<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "0010000201020000002000690073006E2019007400200068006F006C00640069006E006700200061006E0079007400680069006E0067002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "You can’t receive the item because your Bag\nis full.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E201900740020007200650063006500690076006500200074006800650020006900740065006D0020006200650063006100750073006500200079006F007500720020004200610067000A00690073002000660075006C006C002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Which Pokémon will you battle with?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "0057006800690063006800200050006F006B00E9006D006F006E002000770069006C006C00200079006F007500200062006100740074006C006500200077006900740068003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 692,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "HP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "004800500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Check summary",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 760,
+      "rawDecodedUtf16Hex": "0043006800650063006B002000730075006D006D0061007200790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Restore health",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "0052006500730074006F007200650020006800650061006C007400680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Back",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "004200610063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Change position",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "004300680061006E0067006500200070006F0073006900740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Change held item",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "004300680061006E00670065002000680065006C00640020006900740065006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Put away held item",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "00500075007400200061007700610079002000680065006C00640020006900740065006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Give an item to hold",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "004700690076006500200061006E0020006900740065006D00200074006F00200068006F006C00640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Quit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "00510075006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Select",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "00530065006C0065006300740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1024,
+  "sectionOffset": 16,
+  "textCount": 23,
+  "textSectionCount": 1
+}

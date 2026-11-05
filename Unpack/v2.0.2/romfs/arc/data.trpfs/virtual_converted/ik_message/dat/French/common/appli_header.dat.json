@@ -1,0 +1,123 @@
+{
+  "declaredLength": 376,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Sac",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "0053006100630000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Coupe de cheveux",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0043006F007500700065002000640065002000630068006500760065007500780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Tenue",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "00540065006E007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Aperçu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "004100700065007200E700750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Visage",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "0056006900730061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000> | Achat",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0010000201D200000020007C0020004100630068006100740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǒ<U+0000> | Vente",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0010000201D200000020007C002000560065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Résumé du Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "005200E900730075006D00E900200064007500200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Paramètres",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "0050006100720061006D00E800740072006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Sushi Sans Chichis",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "00530075007300680069002000530061006E0073002000430068006900630068006900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Sushi Sans Chichis",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "00530075007300680069002000530061006E0073002000430068006900630068006900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 376,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

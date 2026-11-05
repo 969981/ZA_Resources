@@ -1,0 +1,23 @@
+{
+  "declaredLength": 192,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Le portrait d’un homme qui s’apparente\nà un professeur. Le tableau a l’air assez ancien.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "004C006500200070006F0072007400720061006900740020006420190075006E00200068006F006D006D00650020007100750069002000732019006100700070006100720065006E00740065000A00E000200075006E002000700072006F0066006500730073006500750072002E0020004C00650020007400610062006C006500610075002000610020006C201900610069007200200061007300730065007A00200061006E006300690065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 192,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

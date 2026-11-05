@@ -1,0 +1,43 @@
+{
+  "declaredLength": 200,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oh?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004F0068003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Ein <U+0010><U+0002>ā<U+0000> ist aus dem Ei geschlüpft!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00450069006E0020001000020101000000200069007300740020006100750073002000640065006D002000450069002000670065007300630068006C00FC00700066007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Möchtest du dem <U+0010><U+0002>ā<U+0000> einen\nSpitznamen geben?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006D00200010000201010000002000650069006E0065006E000A0053007000690074007A006E0061006D0065006E00200067006500620065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 200,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

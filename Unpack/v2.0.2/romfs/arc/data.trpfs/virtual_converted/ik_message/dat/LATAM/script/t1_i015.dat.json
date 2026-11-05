@@ -1,0 +1,43 @@
+{
+  "declaredLength": 368,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Parece que las tazas del mostrador se usaron\nrecientemente.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "00500061007200650063006500200071007500650020006C00610073002000740061007A00610073002000640065006C0020006D006F00730074007200610064006F007200200073006500200075007300610072006F006E000A00720065006300690065006E00740065006D0065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Esto está lleno de cajas...\n¿Estarán ordenando el local?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "004500730074006F002000650073007400E10020006C006C0065006E006F002000640065002000630061006A00610073002E002E002E000A00BF0045007300740061007200E1006E0020006F007200640065006E0061006E0064006F00200065006C0020006C006F00630061006C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "La repisa está cubierta por una fina capa de polvo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "004C00610020007200650070006900730061002000650073007400E100200063007500620069006500720074006100200070006F007200200075006E0061002000660069006E00610020006300610070006100200064006500200070006F006C0076006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 368,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

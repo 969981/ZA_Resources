@@ -1,0 +1,1253 @@
+{
+  "declaredLength": 4080,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "사러 왔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "C0ACB7EC0020C654B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "팔러 왔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "D314B7EC0020C654B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "아무것도 아닙니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "C544BB34AC83B3C40020C544B2D9B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "프렌들리숍에 어서 오세요!\n무엇을 도와드릴까요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "D504B80CB4E4B9ACC20DC5D00020C5B4C11C0020C624C138C6940021000ABB34C5C7C7440020B3C4C640B4DCB9B4AE4CC694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "그 밖에 뭔가 필요하신가요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "ADF80020BC16C5D00020BB54AC000020D544C694D558C2E0AC00C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "또 오세요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "B6100020C624C138C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "소지금",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "C18CC9C0AE080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1164,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000><U+0000><U+E343>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100003020600000000E3430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000><U+E343>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "00100003020300000000E3430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1208,
+      "rawDecodedUtf16Hex": "002B001000030206000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "-<U+0010><U+0003>Ȇ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "002D001000030206000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "-<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "002D00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ē",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "00100002011200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "리스트에 추가",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1288,
+      "rawDecodedUtf16Hex": "B9ACC2A4D2B8C5D00020CD94AC000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "재고",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1304,
+      "rawDecodedUtf16Hex": "C7ACACE00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Sold Out",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "0053006F006C00640020004F007500740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "일괄 교환",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "C77CAD040020AD50D6580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "교환한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "AD50D658D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "합계",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "D569ACC40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "일괄 구입",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "C77CAD040020AD6CC7850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "일괄 판매",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "C77CAD040020D310B9E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1424,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1472,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>ᤀ<U+0002> <U+0010><U+0002>Ȃ<U+0001>개 사서\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "0010000201090000001000021900000200200010000202020001AC1C0020C0ACC11C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>ᤀ<U+0002> <U+0010><U+0002>Ȃ<U+0001>개 사서\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "0010000201090000001000021900000200200010000202020001AC1C0020C0ACC11C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "구입한 도구를\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "AD6CC785D55C0020B3C4AD6CB97C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>ᤀ<U+0002> <U+0010><U+0002>Ȃ<U+0001>개 교환해서\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "0010000201090000001000021900000200200010000202020001AC1C0020AD50D658D574C11C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0000><U+0010><U+0002>ᤀ<U+0002> <U+0010><U+0002>Ȃ<U+0001>개 교환해서\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "0010000201090000001000021900000200200010000202020001AC1C0020AD50D658D574C11C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "교환한 도구를\n파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "AD50D658D55C0020B3C4AD6CB97C000AD30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć<U+0000> 기술머신을\n<U+0010><U+0002>Ȃ<U+0001>개 교환해서 파우치에 넣었다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "00100002010700000020AE30C220BA38C2E0C744000A0010000202020001AC1C0020AD50D658D574C11C0020D30CC6B0CE58C5D00020B123C5C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2016,
+      "rawDecodedUtf16Hex": "00100002BDFF00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿5",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "00100002BDFF00350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "예",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "C6080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "아니요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "C544B2C8C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "계속한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "ACC4C18DD55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "산다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "C0B0B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "판다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "D310B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "일괄 구입",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2140,
+      "rawDecodedUtf16Hex": "C77CAD040020AD6CC7850000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "일괄 판매",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2152,
+      "rawDecodedUtf16Hex": "C77CAD040020D310B9E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "수량 선택",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "C218B7C90020C120D0DD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "리셋",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "B9ACC14B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "이걸로 OK",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2184,
+      "rawDecodedUtf16Hex": "C774AC78B85C0020004F004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "정렬",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "C815B82C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "일괄 교환",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "C77CAD040020AD50D6580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "위력",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2256,
+      "rawDecodedUtf16Hex": "C704B8250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 2276,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "No.<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "004E006F002E00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "-",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 2340,
+      "rawDecodedUtf16Hex": "002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "---",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "002D002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿P",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 2352,
+      "rawDecodedUtf16Hex": "00100002BDFF00500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "품절",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "D488C8080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "--",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "002D002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "상품 일람",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "C0C1D4880020C77CB78C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "컬러풀한나사 교환",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "CEECB7ECD480D55CB098C0AC0020AD50D6580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lv.<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "004C0076002E00100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Lv.MAX",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "004C0076002E004D004100580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "스톤숍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "C2A4D1A4C20D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "볼 가게",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 2464,
+      "rawDecodedUtf16Hex": "BCFC0020AC00AC8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "메가조각 교환",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 2476,
+      "rawDecodedUtf16Hex": "BA54AC00C870AC010020AD50D6580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "포켓몬센터",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACC13CD1300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "돈이 부족하시네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 2504,
+      "rawDecodedUtf16Hex": "B3C8C7740020BD80C871D558C2DCB124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "죄송하지만\n그 이상은 가지고 다닐 수 없는 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 2532,
+      "rawDecodedUtf16Hex": "C8C4C1A1D558C9C0B9CC000AADF80020C774C0C1C7400020AC00C9C0ACE00020B2E4B2D00020C2180020C5C6B2940020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "그거라면 <U+0010><U+0003>ȇ<U+0000><U+0000>원에\n사 드릴 수 있는데, 어떠신가요?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 2600,
+      "rawDecodedUtf16Hex": "ADF8AC70B77CBA74002000100003020700000000C6D0C5D0000AC0AC0020B4DCB9B40020C2180020C788B294B370002C0020C5B4B5A0C2E0AC00C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "그거라면 <U+0010><U+0003>Ȇ<U+0000><U+0000>원에\n사 드릴 수 있습니다.<U+0010><U+0001>븁\n소지 상한을 초과하는 돈은\n사라져 버리는데, 괜찮으신가요?",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 2664,
+      "rawDecodedUtf16Hex": "ADF8AC70B77CBA74002000100003020600000000C6D0C5D0000AC0AC0020B4DCB9B40020C2180020C788C2B5B2C8B2E4002E00100001BE01000AC18CC9C00020C0C1D55CC7440020CD08ACFCD558B2940020B3C8C740000AC0ACB77CC8380020BC84B9ACB294B370002C0020AD1CCC2EC73CC2E0AC00C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "프리미어볼 <U+0010><U+0002>ȁ<U+0000>개를\n서비스로 드리겠습니다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "D504B9ACBBF8C5B4BCFC00200010000202010000AC1CB97C000AC11CBE44C2A4B85C0020B4DCB9ACACA0C2B5B2C8B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "선택 중인 상품을\n원래 자리에 돌려놓을까요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "C120D0DD0020C911C7780020C0C1D488C744000AC6D0B7980020C790B9ACC5D00020B3CCB824B193C744AE4CC694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "일괄 구입을 취소하고\n도구를 판매하시겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "C77CAD040020AD6CC785C7440020CDE8C18CD558ACE0000AB3C4AD6CB97C0020D310B9E4D558C2DCACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "선택 중인 상품의 판매를\n취소하실 건가요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 2952,
+      "rawDecodedUtf16Hex": "C120D0DD0020C911C7780020C0C1D488C7580020D310B9E4B97C000ACDE8C18CD558C2E40020AC74AC00C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "일괄 판매를 취소하고\n도구를 구입하시겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 3000,
+      "rawDecodedUtf16Hex": "C77CAD040020D310B9E4B97C0020CDE8C18CD558ACE0000AB3C4AD6CB97C0020AD6CC785D558C2DCACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "손님,\n돈이 부족하신 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "C190B2D8002C000AB3C8C7740020BD80C871D558C2E00020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "손님, 그 이상은\n가지고 다닐 수 없는 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 3096,
+      "rawDecodedUtf16Hex": "C190B2D8002C0020ADF80020C774C0C1C740000AAC00C9C0ACE00020B2E4B2D00020C2180020C5C6B2940020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "어서 오세요, 손님.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "C5B4C11C0020C624C138C694002C0020C190B2D8002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "쇼핑을 계속하시겠습니까?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "C1FCD551C7440020ACC4C18DD558C2DCACA0C2B5B2C8AE4C003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "이용해 주셔서 감사합니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "C774C6A9D5740020C8FCC154C11C0020AC10C0ACD569B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "그 상품은 품절되었습니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 3264,
+      "rawDecodedUtf16Hex": "ADF80020C0C1D488C7400020D488C808B418C5C8C2B5B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "현재 선택 중이신 상품을\n원래 자리에 돌려놓을까요?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 3300,
+      "rawDecodedUtf16Hex": "D604C7AC0020C120D0DD0020C911C774C2E00020C0C1D488C744000AC6D0B7980020C790B9ACC5D00020B3CCB824B193C744AE4CC694003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "돈이 부족하시네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "B3C8C7740020BD80C871D558C2DCB124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "이런, 그 이상은\n가지고 다닐 수 없는 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 3392,
+      "rawDecodedUtf16Hex": "C774B7F0002C0020ADF80020C774C0C1C740000AAC00C9C0ACE00020B2E4B2D00020C2180020C5C6B2940020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "어서 오세요.\n천천히 둘러보세요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 3456,
+      "rawDecodedUtf16Hex": "C5B4C11C0020C624C138C694002E000ACC9CCC9CD7880020B458B7ECBCF4C138C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "쇼핑을 계속하시겠습니까?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 3500,
+      "rawDecodedUtf16Hex": "C1FCD551C7440020ACC4C18DD558C2DCACA0C2B5B2C8AE4C003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "감사합니다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 3536,
+      "rawDecodedUtf16Hex": "AC10C0ACD569B2C8B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "프리미어볼 <U+0010><U+0002>ȁ<U+0000>개를\n서비스로 드리겠습니다!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "D504B9ACBBF8C5B4BCFC00200010000202010000AC1CB97C000AC11CBE44C2A4B85C0020B4DCB9ACACA0C2B5B2C8B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "현재 선택 중이신 상품을\n원래 자리에 돌려놓을까요?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 3608,
+      "rawDecodedUtf16Hex": "D604C7AC0020C120D0DD0020C911C774C2E00020C0C1D488C744000AC6D0B7980020C790B9ACC5D00020B3CCB824B193C744AE4CC694003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "메가조각이 부족하신 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "BA54AC00C870AC01C7740020BD80C871D558C2E00020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "그 이상은\n도구를 가지고 다니실 수 없는 것 같네요.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 3716,
+      "rawDecodedUtf16Hex": "ADF80020C774C0C1C740000AB3C4AD6CB97C0020AC00C9C0ACE00020B2E4B2C8C2E40020C2180020C5C6B2940020AC830020AC19B124C694002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "그 도구는 품절되었습니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 3784,
+      "rawDecodedUtf16Hex": "ADF80020B3C4AD6CB2940020D488C808B418C5C8C2B5B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "현재 선택 중이신 도구를\n원래 자리에 돌려놓을까요?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 3820,
+      "rawDecodedUtf16Hex": "D604C7AC0020C120D0DD0020C911C774C2E00020B3C4AD6CB97C000AC6D0B7980020C790B9ACC5D00020B3CCB824B193C744AE4CC694003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "컬러풀한나사가 부족한데?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 3884,
+      "rawDecodedUtf16Hex": "CEECB7ECD480D55CB098C0ACAC000020BD80C871D55CB370003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "그 이상은 가지고 다닐 수 없겠는데?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 3920,
+      "rawDecodedUtf16Hex": "ADF80020C774C0C1C7400020AC00C9C0ACE00020B2E4B2D00020C2180020C5C6ACA0B294B370003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "그건 이미 갖고 있는 것 같은데?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 3968,
+      "rawDecodedUtf16Hex": "ADF8AC740020C774BBF80020AC16ACE00020C788B2940020AC830020AC19C740B370003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "선택 중인 인형을\n원래 자리에 돌려놓을까?<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 4012,
+      "rawDecodedUtf16Hex": "C120D0DD0020C911C7780020C778D615C744000AC6D0B7980020C790B9ACC5D00020B3CCB824B193C744AE4C003F00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 4068,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4080,
+  "sectionOffset": 16,
+  "textCount": 124,
+  "textSectionCount": 1
+}

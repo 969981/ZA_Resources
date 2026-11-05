@@ -1,0 +1,483 @@
+{
+  "declaredLength": 5764,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hola. ¿Te gustaría que te llevase a alguna parte?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "0048006F006C0061002E002000BF00540065002000670075007300740061007200ED006100200071007500650020007400650020006C006C006500760061007300650020006100200061006C00670075006E0061002000700061007200740065003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Acabo de sacarme la licencia de taxista y aún\nno he llevado a ningún pasajero.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "0041006300610062006F002000640065002000730061006300610072006D00650020006C00610020006C006900630065006E00630069006100200064006500200074006100780069007300740061002000790020006100FA006E000A006E006F0020006800650020006C006C0065007600610064006F002000610020006E0069006E006700FA006E00200070006100730061006A00650072006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "No es que me falte práctica conduciendo, pero...\nme vendría bien empezar para ir ganando soltura.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "004E006F00200065007300200071007500650020006D0065002000660061006C0074006500200070007200E10063007400690063006100200063006F006E00640075006300690065006E0064006F002C0020007000650072006F002E002E002E000A006D0065002000760065006E0064007200ED00610020006200690065006E00200065006D00700065007A0061007200200070006100720061002000690072002000670061006E0061006E0064006F00200073006F006C0074007500720061002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "¡Si me haces el favor de ser mi primer<U+0010><U+0003>ᄀÿĀa pasajer<U+0010><U+0003>ᄀÿāoa,\nno te cobraré la carrera!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00A1005300690020006D006500200068006100630065007300200065006C0020006600610076006F007200200064006500200073006500720020006D00690020007000720069006D0065007200100003110000FF0100006100200070006100730061006A0065007200100003110000FF0101006F0061002C000A006E006F00200074006500200063006F006200720061007200E90020006C0061002000630061007200720065007200610021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Avísame cuando quieras ir a algún sitio.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0041007600ED00730061006D00650020006300750061006E0064006F002000710075006900650072006100730020006900720020006100200061006C006700FA006E00200073006900740069006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Quieres que te lleve en mi taxi?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200071007500650020007400650020006C006C00650076006500200065006E0020006D006900200074006100780069003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Sí",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "005300ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Piensa que me harías un gran favor si dejas que\nte lleve.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "005000690065006E0073006100200071007500650020006D0065002000680061007200ED0061007300200075006E0020006700720061006E0020006600610076006F0072002000730069002000640065006A006100730020007100750065000A007400650020006C006C006500760065002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "¡Muchísimas gracias! ¡Eres mi primer<U+0010><U+0003>ᄀÿĀa pasajer<U+0010><U+0003>ᄀÿāoa!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1376,
+      "rawDecodedUtf16Hex": "00A1004D00750063006800ED00730069006D00610073002000670072006100630069006100730021002000A100450072006500730020006D00690020007000720069006D0065007200100003110000FF0100006100200070006100730061006A0065007200100003110000FF0101006F00610021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Centro Pokémon del Distrito Rosa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "00430065006E00740072006F00200050006F006B00E9006D006F006E002000640065006C00200044006900730074007200690074006F00200052006F007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "¿Podríamos ir a algún otro lado? Creo que no voy\na saber llegar a sitios así.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1572,
+      "rawDecodedUtf16Hex": "00BF0050006F0064007200ED0061006D006F00730020006900720020006100200061006C006700FA006E0020006F00740072006F0020006C00610064006F003F0020004300720065006F00200071007500650020006E006F00200076006F0079000A00610020007300610062006500720020006C006C00650067006100720020006100200073006900740069006F007300200061007300ED002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "¡De acuerdo, allá vamos!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "00A1004400650020006100630075006500720064006F002C00200061006C006C00E1002000760061006D006F00730021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Seguro que no te esperabas un taxi que solo\npuede llevarte a un sitio concreto, je, je...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00530065006700750072006F00200071007500650020006E006F002000740065002000650073007000650072006100620061007300200075006E00200074006100780069002000710075006500200073006F006C006F000A007000750065006400650020006C006C0065007600610072007400650020006100200075006E00200073006900740069006F00200063006F006E0063007200650074006F002C0020006A0065002C0020006A0065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Pero lo cierto es que solo sé ir a un sitio sin miedo\na perderme. Lo siento mucho.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "005000650072006F0020006C006F002000630069006500720074006F002000650073002000710075006500200073006F006C006F0020007300E90020006900720020006100200075006E00200073006900740069006F002000730069006E0020006D006900650064006F000A00610020007000650072006400650072006D0065002E0020004C006F0020007300690065006E0074006F0020006D007500630068006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Pueees... Eh... ¡Ahora mismo me comería un trozo\nde tarta de fresa del Café Recreo!<U+0010><U+0001>븁\nEs de las mejores que he probado, sin duda.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "005000750065006500650073002E002E002E002000450068002E002E002E002000A100410068006F007200610020006D00690073006D006F0020006D006500200063006F006D0065007200ED006100200075006E002000740072006F007A006F000A00640065002000740061007200740061002000640065002000660072006500730061002000640065006C002000430061006600E9002000520065006300720065006F002100100001BE01000A004500730020006400650020006C006100730020006D0065006A006F0072006500730020007100750065002000680065002000700072006F006200610064006F002C002000730069006E00200064007500640061002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "Ay, disculpa... No debería centrarme solo en mí.\nA ver, que lo vuelvo a intentar...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2444,
+      "rawDecodedUtf16Hex": "00410079002C002000640069007300630075006C00700061002E002E002E0020004E006F00200064006500620065007200ED0061002000630065006E0074007200610072006D006500200073006F006C006F00200065006E0020006D00ED002E000A00410020007600650072002C00200071007500650020006C006F0020007600750065006C0076006F0020006100200069006E00740065006E007400610072002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "¡Cada vez hay más Pokémon salvajes campando\npor la ciudad y es una pesadilla conducir!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "00A10043006100640061002000760065007A00200068006100790020006D00E1007300200050006F006B00E9006D006F006E002000730061006C00760061006A00650073002000630061006D00700061006E0064006F000A0070006F00720020006C006100200063006900750064006100640020007900200065007300200075006E00610020007000650073006100640069006C006C006100200063006F006E006400750063006900720021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Ahora te estarás preguntando por qué decidí\nhacerme taxista, ¿no?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "00410068006F0072006100200074006500200065007300740061007200E10073002000700072006500670075006E00740061006E0064006F00200070006F007200200071007500E900200064006500630069006400ED000A00680061006300650072006D006500200074006100780069007300740061002C002000BF006E006F003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "¡Uy!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2944,
+      "rawDecodedUtf16Hex": "00A1005500790021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Perdona, me he equivocado de calle. Voy a tener\nque dar la vuelta.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "0050006500720064006F006E0061002C0020006D0065002000680065002000650071007500690076006F006300610064006F002000640065002000630061006C006C0065002E00200056006F007900200061002000740065006E00650072000A00710075006500200064006100720020006C00610020007600750065006C00740061002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Eh... ¿Por dónde iba...? Ah, sí, te estaba contando\npor qué me hice taxista.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "00450068002E002E002E002000BF0050006F00720020006400F3006E006400650020006900620061002E002E002E003F002000410068002C0020007300ED002C002000740065002000650073007400610062006100200063006F006E00740061006E0064006F000A0070006F007200200071007500E90020006D00650020006800690063006500200074006100780069007300740061002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "¡Oh!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "00A1004F00680021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¡Ya hemos llegado! El Centro Pokémon del\nDistrito Rosa.<U+0010><U+0001>븁\nTal como te dije, no te cobro la carrera.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "00A100590061002000680065006D006F00730020006C006C0065006700610064006F002100200045006C002000430065006E00740072006F00200050006F006B00E9006D006F006E002000640065006C000A0044006900730074007200690074006F00200052006F00730061002E00100001BE01000A00540061006C00200063006F006D006F002000740065002000640069006A0065002C0020006E006F00200074006500200063006F00620072006F0020006C006100200063006100720072006500720061002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Gracias",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3504,
+      "rawDecodedUtf16Hex": "00470072006100630069006100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Me gustaría pagar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3520,
+      "rawDecodedUtf16Hex": "004D0065002000670075007300740061007200ED00610020007000610067006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "¡Gracias a ti!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "00A10047007200610063006900610073002000610020007400690021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Oh... No es necesario, de verdad.\nPero, si insistes... son 710 <U+E300>, por favor.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 3596,
+      "rawDecodedUtf16Hex": "004F0068002E002E002E0020004E006F0020006500730020006E0065006300650073006100720069006F002C0020006400650020007600650072006400610064002E000A005000650072006F002C00200073006900200069006E007300690073007400650073002E002E002E00200073006F006E0020003700310030202FE300002C00200070006F00720020006600610076006F0072002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Oh... No es necesario, de verdad.\nPero, si insistes... son 710 <U+E300>, por favor.<U+0010><U+0001>븁\nAh... No tienes suficiente dinero.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 3760,
+      "rawDecodedUtf16Hex": "004F0068002E002E002E0020004E006F0020006500730020006E0065006300650073006100720069006F002C0020006400650020007600650072006400610064002E000A005000650072006F002C00200073006900200069006E007300690073007400650073002E002E002E00200073006F006E0020003700310030202FE300002C00200070006F00720020006600610076006F0072002E00100001BE01000A00410068002E002E002E0020004E006F0020007400690065006E0065007300200073007500660069006300690065006E00740065002000640069006E00650072006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4000,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Después de esta experiencia, me he dado cuenta\nde que no valgo para esto.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4012,
+      "rawDecodedUtf16Hex": "0044006500730070007500E900730020006400650020006500730074006100200065007800700065007200690065006E006300690061002C0020006D00650020006800650020006400610064006F0020006300750065006E00740061000A0064006500200071007500650020006E006F002000760061006C0067006F002000700061007200610020006500730074006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "No acierto ni la ruta ni el tema de conversación.<U+0010><U+0001>븁\nAsí los pasajeros nunca van a estar a gusto\nen mi taxi.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4168,
+      "rawDecodedUtf16Hex": "004E006F0020006100630069006500720074006F0020006E00690020006C0061002000720075007400610020006E006900200065006C002000740065006D006100200064006500200063006F006E007600650072007300610063006900F3006E002E00100001BE01000A0041007300ED0020006C006F007300200070006100730061006A00650072006F00730020006E0075006E00630061002000760061006E002000610020006500730074006100720020006100200067007500730074006F000A0065006E0020006D006900200074006100780069002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "En lo que sí me siento segura al 100 % es\nen los combates Pokémon. ¿Te lo demuestro?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4396,
+      "rawDecodedUtf16Hex": "0045006E0020006C006F00200071007500650020007300ED0020006D00650020007300690065006E0074006F002000730065006700750072006100200061006C0020003100300030202F0025002000650073000A0065006E0020006C006F007300200063006F006D0062006100740065007300200050006F006B00E9006D006F006E002E002000BF005400650020006C006F002000640065006D00750065007300740072006F003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "¡Combate contra mí, pasajer<U+0010><U+0003>ᄀÿāoa número 1!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4576,
+      "rawDecodedUtf16Hex": "00A10043006F006D006200610074006500200063006F006E0074007200610020006D00ED002C00200070006100730061006A0065007200100003110000FF0101006F00610020006E00FA006D00650072006F002000310021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "De acuerdo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "004400650020006100630075006500720064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Ahora mismo no",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 4700,
+      "rawDecodedUtf16Hex": "00410068006F007200610020006D00690073006D006F0020006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Ahora verás algo que sí se me da bien.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 4732,
+      "rawDecodedUtf16Hex": "00410068006F00720061002000760065007200E1007300200061006C0067006F00200071007500650020007300ED0020007300650020006D00650020006400610020006200690065006E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "¡Por favor, para algo que sí se me da bien...!\n¡Deja que te lo demuestre!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4820,
+      "rawDecodedUtf16Hex": "00A10050006F00720020006600610076006F0072002C0020007000610072006100200061006C0067006F00200071007500650020007300ED0020007300650020006D00650020006400610020006200690065006E002E002E002E0021000A00A100440065006A006100200071007500650020007400650020006C006F002000640065006D0075006500730074007200650021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿)",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4976,
+      "rawDecodedUtf16Hex": "00100002BDFF00290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Por lo visto, ni siquiera los combates son lo mío.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4988,
+      "rawDecodedUtf16Hex": "0050006F00720020006C006F00200076006900730074006F002C0020006E00690020007300690071007500690065007200610020006C006F007300200063006F006D0062006100740065007300200073006F006E0020006C006F0020006D00ED006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Pero, aunque haya perdido, ¡me lo he pasado\nen grande!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5100,
+      "rawDecodedUtf16Hex": "005000650072006F002C002000610075006E007100750065002000680061007900610020007000650072006400690064006F002C002000A1006D00650020006C006F002000680065002000700061007300610064006F000A0065006E0020006700720061006E006400650021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Al fin y al cabo, la mejor manera de ganar\nconfianza en mí misma es seguir combatiendo.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 44,
+      "offsetInSection": 5220,
+      "rawDecodedUtf16Hex": "0041006C002000660069006E0020007900200061006C0020006300610062006F002C0020006C00610020006D0065006A006F00720020006D0061006E006500720061002000640065002000670061006E00610072000A0063006F006E006600690061006E007A006100200065006E0020006D00ED0020006D00690073006D0061002000650073002000730065006700750069007200200063006F006D00620061007400690065006E0064006F002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Y supongo que con la conducción pasa lo mismo.\nPero no sé si quiero seguir dedicándome a esto...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5404,
+      "rawDecodedUtf16Hex": "00590020007300750070006F006E0067006F002000710075006500200063006F006E0020006C006100200063006F006E0064007500630063006900F3006E002000700061007300610020006C006F0020006D00690073006D006F002E000A005000650072006F0020006E006F0020007300E9002000730069002000710075006900650072006F002000730065006700750069007200200064006500640069006300E1006E0064006F006D0065002000610020006500730074006F002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "En cualquier caso, ¡muchas gracias por tu ayuda,\npasajer<U+0010><U+0003>ᄀÿāoa número 1!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 5608,
+      "rawDecodedUtf16Hex": "0045006E0020006300750061006C007100750069006500720020006300610073006F002C002000A1006D007500630068006100730020006700720061006300690061007300200070006F0072002000740075002000610079007500640061002C000A0070006100730061006A0065007200100003110000FF0101006F00610020006E00FA006D00650072006F002000310021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5764,
+  "sectionOffset": 16,
+  "textCount": 47,
+  "textSectionCount": 1
+}

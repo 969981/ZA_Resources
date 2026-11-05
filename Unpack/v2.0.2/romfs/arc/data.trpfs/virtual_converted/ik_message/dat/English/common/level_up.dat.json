@@ -1,0 +1,203 @@
+{
+  "declaredLength": 1064,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lv. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004C0076002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "HP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "004800500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Attack",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "00410074007400610063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Defense",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "0044006500660065006E007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Sp. Atk",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00530070002E002000410074006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Sp. Def",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "00530070002E00200044006500660000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Speed",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "005300700065006500640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0001>,",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "002B0010000302060001002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Your Pokémon gained Exp. Points!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "0059006F0075007200200050006F006B00E9006D006F006E0020006700610069006E006500640020004500780070002E00200050006F0069006E00740073002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>븅<U+0005><U+0010><U+0002>Ă<U+0000> grew to Lv. <U+0010><U+0002>Ȃ<U+0001>!<U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "00100002BE05000500100002010200000020006700720065007700200074006F0020004C0076002E00200010000202020001002100100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Ă<U+0000> learned\n<U+0010><U+0002>ć<U+0001>!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001><U+0010><U+0001>븁",
+      "escapedControlUnits": 17,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010200000020006C006500610072006E00650064000A0010000201070001002100100002BE05000400100002BE05000100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Č<U+0000> wants to learn the\nmove <U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁\nShould another move be forgotten and replaced\nwith <U+0010><U+0002>ć<U+0001>?",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010C0000002000770061006E0074007300200074006F0020006C006500610072006E0020007400680065000A006D006F0076006500200010000201070001002E00100001BE01000A00530068006F0075006C006400200061006E006F00740068006500720020006D006F0076006500200062006500200066006F00720067006F007400740065006E00200061006E00640020007200650070006C0061006300650064000A007700690074006800200010000201070001003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "One...<U+0010><U+0002>븂\ntwo...<U+0010><U+0002>븂\nand...<U+0010><U+0002>븂<U+0014>ta-da!<U+0010><U+0002>븅<U+0003><U+0010><U+0002>븅<U+0005><U+0010><U+0001>븁\n<U+0010><U+0002>Ă<U+0000> forgot <U+0010><U+0002>ć<U+0001>...\n<U+0010><U+0002>븅<U+0006>and it learned <U+0010><U+0002>ć<U+0002> instead!<U+0010><U+0002>븅<U+0004><U+0010><U+0001>븁",
+      "escapedControlUnits": 32,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "004F006E0065002E002E002E00100002BE02000A00740077006F002E002E002E00100002BE02000A0061006E0064002E002E002E00100002BE02001400740061002D00640061002100100002BE05000300100002BE05000500100001BE01000A001000020102000000200066006F00720067006F007400200010000201070001002E002E002E000A00100002BE0500060061006E00640020006900740020006C006500610072006E006500640020001000020107000200200069006E00730074006500610064002100100002BE05000400100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Č<U+0000> did not learn\n<U+0010><U+0002>ć<U+0001>.<U+0010><U+0001>븁",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010C000000200064006900640020006E006F00740020006C006500610072006E000A0010000201070001002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Forget a move",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "0046006F0072006700650074002000610020006D006F007600650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Keep current moves",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "004B006500650070002000630075007200720065006E00740020006D006F0076006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1064,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

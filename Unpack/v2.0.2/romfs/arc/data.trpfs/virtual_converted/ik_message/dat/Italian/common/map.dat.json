@@ -1,0 +1,683 @@
+{
+  "declaredLength": 2744,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00100002010500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Chiudi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "0043006800690075006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Attiva indicatore",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "00410074007400690076006100200069006E00640069006300610074006F007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Disattiva indicatore",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "00440069007300610074007400690076006100200069006E00640069006300610074006F007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Vai",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "0056006100690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Posiziona segnalino",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 656,
+      "rawDecodedUtf16Hex": "0050006F00730069007A0069006F006E00610020007300650067006E0061006C0069006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Posizione attuale",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "0050006F00730069007A0069006F006E0065002000610074007400750061006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Filtra",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "00460069006C0074007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Annulla",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "0041006E006E0075006C006C00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Rimuovi segnalino",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 764,
+      "rawDecodedUtf16Hex": "00520069006D0075006F007600690020007300650067006E0061006C0069006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Filtro distorsioni",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "00460069006C00740072006F00200064006900730074006F007200730069006F006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Destinations & Missions",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "00440065007300740069006E006100740069006F006E0073002000260020004D0069007300730069006F006E00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Mission Details",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "004D0069007300730069006F006E002000440065007400610069006C00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Outline",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "004F00750074006C0069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Richiedente",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "00520069006300680069006500640065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Dummy Name",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020004E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Obiettivo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "004F0062006900650074007400690076006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000>./<U+0010><U+0003>Ȅ<U+0001>.",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "0010000302040000002E002F0010000302040001002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Dummy description",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020006400650073006300720069007000740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Ricompensa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "005200690063006F006D00700065006E007300610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Dummy reward",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "00440075006D006D007900200072006500770061007200640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1164,
+      "rawDecodedUtf16Hex": "0010000302060000002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Pokémon megaevoluto ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "0050006F006B00E9006D006F006E0020006D00650067006100650076006F006C00750074006F0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Goal dummy text - 3 liner\nGoal dummy text - 3 liner\nGoal dummy text - 3 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000330020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Goal dummy text - 2 liner\nGoal dummy text - 2 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000320020006C0069006E00650072000A0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000320020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Goal dummy text - 1 liner",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "0047006F0061006C002000640075006D006D0079002000740065007800740020002D002000310020006C0069006E006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1580,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lista missioni",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "004C00690073007400610020006D0069007300730069006F006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "EX-<U+0010><U+0002>Ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00450058002D00100002020000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Principali",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "005000720069006E0063006900700061006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Secondarie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1676,
+      "rawDecodedUtf16Hex": "005300650063006F006E006400610072006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Dimensionali",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1700,
+      "rawDecodedUtf16Hex": "00440069006D0065006E00730069006F006E0061006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Nessuna missione di questo tipo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "004E0065007300730075006E00610020006D0069007300730069006F006E0065002000640069002000710075006500730074006F0020007400690070006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "In corso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "0049006E00200063006F00720073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Per numero",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "0050006500720020006E0075006D00650072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1872,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Facility explanation dummy\nLine 2\nLine 3",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1884,
+      "rawDecodedUtf16Hex": "0046006100630069006C0069007400790020006500780070006C0061006E006100740069006F006E002000640075006D006D0079000A004C0069006E006500200032000A004C0069006E0065002000330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Zona selvaggia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 47,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "005A006F006E0061002000730065006C0076006100670067006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Zona lotta",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 48,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "005A006F006E00610020006C006F0074007400610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>%",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "001000020202000000250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2036,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nessuna destinazione registrata.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "004E0065007300730075006E0061002000640065007300740069006E0061007A0069006F006E006500200072006500670069007300740072006100740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Destinazioni",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2116,
+      "rawDecodedUtf16Hex": "00440065007300740069006E0061007A0069006F006E00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Tutte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "005400750074007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Strutture",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 54,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "0053007400720075007400740075007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Centri Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "00430065006E00740072006900200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Bar e caffè",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "004200610072002000650020006300610066006600E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Zone",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 57,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "005A006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Analisi habitat...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 58,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "0041006E0061006C00690073006900200068006100620069007400610074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Sì",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "005300EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Vuoi andare qui?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "00560075006F006900200061006E00640061007200650020007100750069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Non puoi andartene in questo momento!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2336,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061006E00640061007200740065006E006500200069006E002000710075006500730074006F0020006D006F006D0065006E0074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Non puoi andartene quando un Pokémon\nti ha preso di mira!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061006E00640061007200740065006E00650020007100750061006E0064006F00200075006E00200050006F006B00E9006D006F006E000A0074006900200068006100200070007200650073006F0020006400690020006D00690072006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Non puoi andartene mentre stai lottando!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061006E00640061007200740065006E00650020006D0065006E007400720065002000730074006100690020006C006F007400740061006E0064006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Non puoi andartene da qui!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061006E00640061007200740065006E0065002000640061002000710075006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Non puoi andartene in questo momento.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061006E00640061007200740065006E006500200069006E002000710075006500730074006F0020006D006F006D0065006E0074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2744,
+  "sectionOffset": 16,
+  "textCount": 67,
+  "textSectionCount": 1
+}

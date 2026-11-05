@@ -1,0 +1,23 @@
+{
+  "declaredLength": 156,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Your trading partner chose to quit trading.\nThe trade will now end.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "0059006F00750072002000740072006100640069006E006700200070006100720074006E00650072002000630068006F0073006500200074006F00200071007500690074002000740072006100640069006E0067002E000A005400680065002000740072006100640065002000770069006C006C0020006E006F007700200065006E0064002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 156,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

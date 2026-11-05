@@ -1,0 +1,193 @@
+{
+  "declaredLength": 1816,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Je suis en train d’effectuer l’entretien\nde cet Holoporteur.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "004A00650020007300750069007300200065006E00200074007200610069006E0020006420190065006600660065006300740075006500720020006C20190065006E007400720065007400690065006E000A00640065002000630065007400200048006F006C006F0070006F00720074006500750072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "C’est important d’être rigoureux, quand\non est ouvrier !<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "0043201900650073007400200069006D0070006F007200740061006E007400200064201900EA0074007200650020007200690067006F00750072006500750078002C0020007100750061006E0064000A006F006E00200065007300740020006F0075007600720069006500720020002100100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Ah... Qu’est-ce que j’ai soif !\nJ’aurais bien besoin de m’hydrater...<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "00410068002E002E002E0020005100752019006500730074002D0063006500200071007500650020006A20190061006900200073006F0069006600200021000A004A20190061007500720061006900730020006200690065006E0020006200650073006F0069006E0020006400650020006D201900680079006400720061007400650072002E002E002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Si tu veux utiliser l’Holoporteur, il va falloir que\nt’attendes la fin de la maintenance.<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "00530069002000740075002000760065007500780020007500740069006C00690073006500720020006C20190048006F006C006F0070006F00720074006500750072002C00200069006C002000760061002000660061006C006C006F006900720020007100750065000A007420190061007400740065006E0064006500730020006C0061002000660069006E0020006400650020006C00610020006D00610069006E00740065006E0061006E00630065002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ah... Qu’est-ce que j’ai soif...<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "00410068002E002E002E0020005100752019006500730074002D0063006500200071007500650020006A20190061006900200073006F00690066002E002E002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Dis-moi... t’aurais pas quelque chose à boire ?<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "004400690073002D006D006F0069002E002E002E00200074201900610075007200610069007300200070006100730020007100750065006C007100750065002000630068006F00730065002000E000200062006F0069007200650020003F00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Ah, c’est comme ça... ? Eh ben, il est pas prêt\nd’être utilisable, cet Holoporteur.<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "00410068002C00200063201900650073007400200063006F006D006D0065002000E70061002E002E002E0020003F002000450068002000620065006E002C00200069006C0020006500730074002000700061007300200070007200EA0074000A0064201900EA0074007200650020007500740069006C0069007300610062006C0065002C002000630065007400200048006F006C006F0070006F00720074006500750072002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Ah... Qu’est-ce que j’ai soif !\nJ’aurais bien besoin de m’hydrater...<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1124,
+      "rawDecodedUtf16Hex": "00410068002E002E002E0020005100752019006500730074002D0063006500200071007500650020006A20190061006900200073006F0069006600200021000A004A20190061007500720061006900730020006200690065006E0020006200650073006F0069006E0020006400650020006D201900680079006400720061007400650072002E002E002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Mais... elle a l’air bonne, ta boisson, là !<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "004D006100690073002E002E002E00200065006C006C0065002000610020006C201900610069007200200062006F006E006E0065002C00200074006100200062006F006900730073006F006E002C0020006C00E00020002100100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "C’est pour moi ? Merci, tu me sauves la vie !<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006F007500720020006D006F00690020003F0020004D0065007200630069002C0020007400750020006D006500200073006100750076006500730020006C006100200076006900650020002100100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "*glouglouglou*<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1472,
+      "rawDecodedUtf16Hex": "002A0067006C006F00750067006C006F00750067006C006F0075002A00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Si tu veux monter... *glouglou* tu peux utiliser...\n*glouglou* l’Holoporteur...<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1512,
+      "rawDecodedUtf16Hex": "00530069002000740075002000760065007500780020006D006F006E007400650072002E002E002E0020002A0067006C006F00750067006C006F0075002A002000740075002000700065007500780020007500740069006C0069007300650072002E002E002E000A002A0067006C006F00750067006C006F0075002A0020006C20190048006F006C006F0070006F00720074006500750072002E002E002E00100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Ah ! C’était si bon !<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "004100680020002100200043201900E9007400610069007400200073006900200062006F006E0020002100100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Merci encore pour la boisson !<U+0010><U+0002>Ĕœ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1744,
+      "rawDecodedUtf16Hex": "004D006500720063006900200065006E0063006F0072006500200070006F007500720020006C006100200062006F006900730073006F006E0020002100100002011401530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1816,
+  "sectionOffset": 16,
+  "textCount": 18,
+  "textSectionCount": 1
+}

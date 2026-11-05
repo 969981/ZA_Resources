@@ -1,0 +1,33 @@
+{
+  "declaredLength": 220,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Vous ne pouvez pas aller par là pour l’instant !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E006500200070006F007500760065007A002000700061007300200061006C006C0065007200200070006100720020006C00E000200070006F007500720020006C20190069006E007300740061006E0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Cet Holoporteur est hors service pour le moment !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "00430065007400200048006F006C006F0070006F00720074006500750072002000650073007400200068006F007200730020007300650072007600690063006500200070006F007500720020006C00650020006D006F006D0065006E0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 220,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

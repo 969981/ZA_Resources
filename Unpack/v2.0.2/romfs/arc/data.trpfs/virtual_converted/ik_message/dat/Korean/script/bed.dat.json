@@ -1,0 +1,63 @@
+{
+  "declaredLength": 148,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "침대가 있다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "CE68B300AC000020C788B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "밤까지 휴식한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "BC24AE4CC9C00020D734C2DDD55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "아침까지 휴식한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 80,
+      "rawDecodedUtf16Hex": "C544CE68AE4CC9C00020D734C2DDD55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "지금은 잠을 잘 때가 아니다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "C9C0AE08C7400020C7A0C7440020C7980020B54CAC000020C544B2C8B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 148,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

@@ -1,0 +1,523 @@
+{
+  "declaredLength": 5480,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Hola! Gracias de nuevo por entregarme aquel\nPikachu.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "00A10048006F006C00610021002000470072006100630069006100730020006400650020006E007500650076006F00200070006F007200200065006E007400720065006700610072006D006500200061007100750065006C000A00500069006B0061006300680075002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Las Piedras Trueno son una maravilla.\n¡Adoro a mi Raichu!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "004C006100730020005000690065006400720061007300200054007200750065006E006F00200073006F006E00200075006E00610020006D00610072006100760069006C006C0061002E000A00A100410064006F0072006F002000610020006D00690020005200610069006300680075002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "¡Alola!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "00A10041006C006F006C00610021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Y no hay que menospreciar los intercambios\nPokémon. El Raichu que me diste es un primor.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "00590020006E006F002000680061007900200071007500650020006D0065006E006F007300700072006500630069006100720020006C006F007300200069006E00740065007200630061006D00620069006F0073000A0050006F006B00E9006D006F006E002E00200045006C002000520061006900630068007500200071007500650020006D006500200064006900730074006500200065007300200075006E0020007000720069006D006F0072002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Pero vayamos al grano. Hoy tenemos algo que\nmostrarte.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "005000650072006F00200076006100790061006D006F007300200061006C0020006700720061006E006F002E00200048006F0079002000740065006E0065006D006F007300200061006C0067006F0020007100750065000A006D006F0073007400720061007200740065002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Así es. Nada menos que...<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "0041007300ED002000650073002E0020004E0061006400610020006D0065006E006F00730020007100750065002E002E002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "¡Las formas megaevolucionadas de nuestros\nRaichu!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1044,
+      "rawDecodedUtf16Hex": "00A1004C0061007300200066006F0072006D006100730020006D00650067006100650076006F006C007500630069006F006E00610064006100730020006400650020006E00750065007300740072006F0073000A0052006100690063006800750021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "¿Y qué mejor forma de hacerlo que con\nun combate Pokémon? Así que prepárate<U+0010><U+0001>븀\ny ven a vernos cuando estés list<U+0010><U+0003>ᄀÿāoa.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "00BF005900200071007500E90020006D0065006A006F007200200066006F0072006D0061002000640065002000680061006300650072006C006F002000710075006500200063006F006E000A0075006E00200063006F006D006200610074006500200050006F006B00E9006D006F006E003F00200041007300ED00200071007500650020007000720065007000E1007200610074006500100001BE00000A0079002000760065006E002000610020007600650072006E006F00730020006300750061006E0064006F002000650073007400E900730020006C00690073007400100003110000FF0101006F0061002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Quieres combatir contra nuestros Raichu\nmegaevolucionados?<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1412,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200063006F006D0062006100740069007200200063006F006E0074007200610020006E00750065007300740072006F00730020005200610069006300680075000A006D00650067006100650076006F006C007500630069006F006E00610064006F0073003F00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "¿Quieres combatir contra nuestro dúo de Raichu\nmegaevolucionados?<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200063006F006D0062006100740069007200200063006F006E0074007200610020006E00750065007300740072006F0020006400FA006F0020006400650020005200610069006300680075000A006D00650067006100650076006F006C007500630069006F006E00610064006F0073003F001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "¡Vamos!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "00A100560061006D006F007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Un momento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "0055006E0020006D006F006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¿Tienes algo mejor que hacer o qué? ¡Que te\nqueremos enseñar nuestros Mega-Raichu!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "00BF005400690065006E0065007300200061006C0067006F0020006D0065006A006F007200200071007500650020006800610063006500720020006F00200071007500E9003F002000A1005100750065002000740065000A00710075006500720065006D006F007300200065006E0073006500F1006100720020006E00750065007300740072006F00730020004D006500670061002D005200610069006300680075002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "¡Pues prepárate para verlos en primera fila!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1896,
+      "rawDecodedUtf16Hex": "00A100500075006500730020007000720065007000E10072006100740065002000700061007200610020007600650072006C006F007300200065006E0020007000720069006D006500720061002000660069006C0061002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¡No tardes mucho, que estamos deseando\nmostrarte nuestros Mega-Raichu!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "00A1004E006F00200074006100720064006500730020006D007500630068006F002C002000710075006500200065007300740061006D006F0073002000640065007300650061006E0064006F000A006D006F00730074007200610072007400650020006E00750065007300740072006F00730020004D006500670061002D0052006100690063006800750021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "¡Pues prepárate para verlos en primera fila!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "00A100500075006500730020007000720065007000E10072006100740065002000700061007200610020007600650072006C006F007300200065006E0020007000720069006D006500720061002000660069006C00610021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¡¿Raichu?!...<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "00A100BF005200610069006300680075003F0021002E002E002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "¡Menudo tamaño! ¡Son como alfas!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "00A1004D0065006E00750064006F002000740061006D006100F1006F0021002000A10053006F006E00200063006F006D006F00200061006C0066006100730021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Mega-Raichu X, desata toda tu fuerza eléctrica\npor las colas!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "00A1004D006500670061002D00520061006900630068007500200058002C002000640065007300610074006100200074006F0064006100200074007500200066007500650072007A006100200065006C00E9006300740072006900630061000A0070006F00720020006C0061007300200063006F006C00610073002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "¡Este combate lo patrocina el nuevo Comité para\nla Popularización de Mega-Raichu Y!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "00A1004500730074006500200063006F006D00620061007400650020006C006F00200070006100740072006F00630069006E006100200065006C0020006E007500650076006F00200043006F006D0069007400E900200070006100720061000A006C006100200050006F00700075006C006100720069007A00610063006900F3006E0020006400650020004D006500670061002D005200610069006300680075002000590021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2684,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "No me extraña que te fuera tan bien en\nlos Juegos Z-A.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2696,
+      "rawDecodedUtf16Hex": "004E006F0020006D006500200065007800740072006100F100610020007100750065002000740065002000660075006500720061002000740061006E0020006200690065006E00200065006E000A006C006F00730020004A007500650067006F00730020005A002D0041002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "No esperaba menos de la persona que salvó\nla ciudad de la catástrofe.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "004E006F0020006500730070006500720061006200610020006D0065006E006F00730020006400650020006C006100200070006500720073006F006E00610020007100750065002000730061006C007600F3000A006C006100200063006900750064006100640020006400650020006C0061002000630061007400E1007300740072006F00660065002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Gracias de nuevo, <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "00470072006100630069006100730020006400650020006E007500650076006F002C00200010000201000000002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sin tu colaboración, no habríamos podido formar\nnuestro dúo de Raichu.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "00530069006E00200074007500200063006F006C00610062006F007200610063006900F3006E002C0020006E006F0020006800610062007200ED0061006D006F007300200070006F006400690064006F00200066006F0072006D00610072000A006E00750065007300740072006F0020006400FA006F0020006400650020005200610069006300680075002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Aquí tienes una Raichunita X como muestra de\nmi agradecimiento.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3172,
+      "rawDecodedUtf16Hex": "00410071007500ED0020007400690065006E0065007300200075006E00610020005200610069006300680075006E0069007400610020005800200063006F006D006F0020006D007500650073007400720061002000640065000A006D0069002000610067007200610064006500630069006D00690065006E0074006F002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Y, de mi parte, una Raichunita Y.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3308,
+      "rawDecodedUtf16Hex": "0059002C0020006400650020006D0069002000700061007200740065002C00200075006E00610020005200610069006300680075006E00690074006100200059002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "¡Hasta la próxima, <U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "00A1004800610073007400610020006C006100200070007200F300780069006D0061002C00200010000201000000002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "¡Alola!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3444,
+      "rawDecodedUtf16Hex": "00A10041006C006F006C00610021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3468,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Uy, pero si es <U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3480,
+      "rawDecodedUtf16Hex": "00A100550079002C0020007000650072006F00200073006900200065007300200010000201000000002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "¡Qué casualidad! Justo estábamos hablando de\nti.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3532,
+      "rawDecodedUtf16Hex": "00A10051007500E9002000630061007300750061006C006900640061006400210020004A007500730074006F002000650073007400E100620061006D006F00730020006800610062006C0061006E0064006F002000640065000A00740069002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Nada malo, espero",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "004E0061006400610020006D0061006C006F002C002000650073007000650072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "¿Y eso?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3676,
+      "rawDecodedUtf16Hex": "00BF0059002000650073006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Hablábamos de lo agradecidas que estamos por\ntu ayuda.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3692,
+      "rawDecodedUtf16Hex": "004800610062006C00E100620061006D006F00730020006400650020006C006F002000610067007200610064006500630069006400610073002000710075006500200065007300740061006D006F007300200070006F0072000A00740075002000610079007500640061002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "¡El Raichu que evolucionó de tu Pikachu con\nmi Piedra Trueno está mejor que nunca!<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3812,
+      "rawDecodedUtf16Hex": "00A10045006C00200052006100690063006800750020007100750065002000650076006F006C007500630069006F006E00F3002000640065002000740075002000500069006B006100630068007500200063006F006E000A006D0069002000500069006500640072006100200054007200750065006E006F002000650073007400E10020006D0065006A006F007200200071007500650020006E0075006E00630061002100100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "¡Y el Raichu que me intercambiaste también va\nestupendamente!<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3988,
+      "rawDecodedUtf16Hex": "00A1005900200065006C002000520061006900630068007500200071007500650020006D006500200069006E00740065007200630061006D006200690061007300740065002000740061006D0062006900E9006E002000760061000A006500730074007500700065006E00640061006D0065006E007400650021001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "Verás, nos cruzamos por casualidad en la calle y\nreparamos en nuestros Raichu...<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4120,
+      "rawDecodedUtf16Hex": "00560065007200E10073002C0020006E006F00730020006300720075007A0061006D006F007300200070006F0072002000630061007300750061006C006900640061006400200065006E0020006C0061002000630061006C006C006500200079000A007200650070006100720061006D006F007300200065006E0020006E00750065007300740072006F00730020005200610069006300680075002E002E002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Y, cuando nos pusimos a hablar del tema, resultó\nque ambos los habíamos conseguido gracias a ti.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4292,
+      "rawDecodedUtf16Hex": "0059002C0020006300750061006E0064006F0020006E006F007300200070007500730069006D006F0073002000610020006800610062006C00610072002000640065006C002000740065006D0061002C00200072006500730075006C007400F3000A00710075006500200061006D0062006F00730020006C006F0073002000680061006200ED0061006D006F007300200063006F006E007300650067007500690064006F0020006700720061006300690061007300200061002000740069002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Ahí nació nuestra amistad y nuestro sueño de\nformar el dúo de Raichu más fuerte del mundo.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 4496,
+      "rawDecodedUtf16Hex": "0041006800ED0020006E00610063006900F30020006E00750065007300740072006100200061006D00690073007400610064002000790020006E00750065007300740072006F002000730075006500F1006F002000640065000A0066006F0072006D0061007200200065006C0020006400FA006F00200064006500200052006100690063006800750020006D00E100730020006600750065007200740065002000640065006C0020006D0075006E0064006F002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Si nos hemos conocido, es gracias a ti y a esta\nciudad.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4688,
+      "rawDecodedUtf16Hex": "005300690020006E006F0073002000680065006D006F007300200063006F006E006F006300690064006F002C0020006500730020006700720061006300690061007300200061002000740069002000790020006100200065007300740061000A006300690075006400610064002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "¡Raaai!...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4808,
+      "rawDecodedUtf16Hex": "00A1005200610061006100690021002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¡Voy a usar una Piedra Trueno con todos\nlos Pikachu del mundo!<U+0010><U+0001>븁\nEs broma, yo nunca haría eso.<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "00A10056006F0079002000610020007500730061007200200075006E0061002000500069006500640072006100200054007200750065006E006F00200063006F006E00200074006F0064006F0073000A006C006F0073002000500069006B0061006300680075002000640065006C0020006D0075006E0064006F002100100001BE01000A00450073002000620072006F006D0061002C00200079006F0020006E0075006E00630061002000680061007200ED0061002000650073006F002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Mi Raichu es todo lo que necesito en esta vida.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5032,
+      "rawDecodedUtf16Hex": "004D0069002000520061006900630068007500200065007300200074006F0064006F0020006C006F00200071007500650020006E006500630065007300690074006F00200065006E0020006500730074006100200076006900640061002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5136,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Me pregunto cuál es mejor, si Mega-Raichu X o\nMega-Raichu Y...<U+0010><U+0002>Ĕĥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 5148,
+      "rawDecodedUtf16Hex": "004D0065002000700072006500670075006E0074006F00200063007500E1006C0020006500730020006D0065006A006F0072002C0020007300690020004D006500670061002D005200610069006300680075002000580020006F000A004D006500670061002D00520061006900630068007500200059002E002E002E00100002011401250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Ah, Camille, de sobra es sabido que todos\nlos Raichu son igual de maravillosos.<U+0010><U+0002>ĔŪ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 48,
+      "offsetInSection": 5284,
+      "rawDecodedUtf16Hex": "00410068002C002000430061006D0069006C006C0065002C00200064006500200073006F006200720061002000650073002000730061006200690064006F002000710075006500200074006F0064006F0073000A006C006F0073002000520061006900630068007500200073006F006E00200069006700750061006C0020006400650020006D00610072006100760069006C006C006F0073006F0073002E001000020114016A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "¡Rai!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5452,
+      "rawDecodedUtf16Hex": "00A100520061006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "¡Chuuu!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5464,
+      "rawDecodedUtf16Hex": "00A10043006800750075007500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5480,
+  "sectionOffset": 16,
+  "textCount": 51,
+  "textSectionCount": 1
+}

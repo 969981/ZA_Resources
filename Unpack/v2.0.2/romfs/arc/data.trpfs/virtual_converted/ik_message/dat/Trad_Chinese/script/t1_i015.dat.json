@@ -1,0 +1,43 @@
+{
+  "declaredLength": 132,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "櫃台上放著\n似乎最近才用過的水杯。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "6AC353F04E0A653E8457000A4F3C4E4E67008FD1624D7528904E76846C34676F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "是還沒整理完嗎？\n盒子還被擺在這裡。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 64,
+      "rawDecodedUtf16Hex": "662F90846C92657474065B8C55CEFF1F000A76D25B50908488AB64FA5728901988E130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "櫃子上積著一層薄薄的灰塵。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "6AC35B504E0A7A4D84574E005C648584858476847070587530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 132,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

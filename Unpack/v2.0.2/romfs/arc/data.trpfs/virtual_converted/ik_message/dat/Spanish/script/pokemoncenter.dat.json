@@ -1,0 +1,623 @@
+{
+  "declaredLength": 6108,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Buenos días! Bienvenid<U+0010><U+0003>ᄀÿāoa al Centro Pokémon.\n¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "00A1004200750065006E006F00730020006400ED0061007300210020004200690065006E00760065006E0069006400100003110000FF0101006F006100200061006C002000430065006E00740072006F00200050006F006B00E9006D006F006E002E000A00BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "¡Hola! Bienvenid<U+0010><U+0003>ᄀÿāoa al Centro Pokémon.\n¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "00A10048006F006C006100210020004200690065006E00760065006E0069006400100003110000FF0101006F006100200061006C002000430065006E00740072006F00200050006F006B00E9006D006F006E002E000A00BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "¡Buenas noches! Bienvenid<U+0010><U+0003>ᄀÿāoa al Centro Pokémon.\n¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "00A1004200750065006E006100730020006E006F006300680065007300210020004200690065006E00760065006E0069006400100003110000FF0101006F006100200061006C002000430065006E00740072006F00200050006F006B00E9006D006F006E002E000A00BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Dicho eso, ¿puedo ayudarte en algo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "0044006900630068006F002000650073006F002C002000BF0070007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¿Qué tal va la mañana? ¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740061006C0020007600610020006C00610020006D006100F10061006E0061003F002000BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "¿Qué tal va el día? ¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740061006C00200076006100200065006C0020006400ED0061003F002000BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "¿Qué tal va la noche? ¿Puedo ayudarte en algo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740061006C0020007600610020006C00610020006E006F006300680065003F002000BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "¿Puedo ayudarte en algo más?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "00BF0050007500650064006F00200061007900750064006100720074006500200065006E00200061006C0067006F0020006D00E10073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Curar a mi<U+0010><U+0003>ᄁýĀs Pokémon",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "00430075007200610072002000610020006D006900100003110100FD0100007300200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Compraventa de objetos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1404,
+      "rawDecodedUtf16Hex": "0043006F006D00700072006100760065006E007400610020006400650020006F0062006A00650074006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Me gustaría comprar algo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "004D0065002000670075007300740061007200ED006100200063006F006D007000720061007200200061006C0067006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Me gustaría vender algo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1504,
+      "rawDecodedUtf16Hex": "004D0065002000670075007300740061007200ED0061002000760065006E00640065007200200061006C0067006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Quiero registrar mi cumpleaños",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "00510075006900650072006F00200072006500670069007300740072006100720020006D0069002000630075006D0070006C0065006100F1006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "¡Nada, gracias!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "00A1004E006100640061002C0020006700720061006300690061007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Vale, dame unos segundos.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1648,
+      "rawDecodedUtf16Hex": "00560061006C0065002C002000640061006D006500200075006E006F007300200073006500670075006E0064006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "¡<U+0010><U+0002>ā<U+0000> ha recobrado toda su energía!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1700,
+      "rawDecodedUtf16Hex": "00A100100002010100000020006800610020007200650063006F0062007200610064006F00200074006F0064006100200073007500200065006E00650072006700ED006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¡Tu equipo ha recobrado toda su energía!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1772,
+      "rawDecodedUtf16Hex": "00A100540075002000650071007500690070006F0020006800610020007200650063006F0062007200610064006F00200074006F0064006100200073007500200065006E00650072006700ED006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "¿Quieres ver nuestro catálogo de objetos para\nEntrenadores? ¿O prefieres vendernos algo tú?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200076006500720020006E00750065007300740072006F002000630061007400E1006C006F0067006F0020006400650020006F0062006A00650074006F007300200070006100720061000A0045006E007400720065006E00610064006F007200650073003F002000BF004F0020007000720065006600690065007200650073002000760065006E006400650072006E006F007300200061006C0067006F0020007400FA003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2124,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2136,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Sí",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2184,
+      "rawDecodedUtf16Hex": "005300ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2212,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Por cierto, ¿te gustaría registrar tu cumpleaños\nen nuestro sistema?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "0050006F0072002000630069006500720074006F002C002000BF00740065002000670075007300740061007200ED00610020007200650067006900730074007200610072002000740075002000630075006D0070006C0065006100F1006F0073000A0065006E0020006E00750065007300740072006F002000730069007300740065006D0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "La fecha que registres no podrá modificarse más\nadelante, así que asegúrate de que sea correcta.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "004C0061002000660065006300680061002000710075006500200072006500670069007300740072006500730020006E006F00200070006F0064007200E10020006D006F0064006900660069006300610072007300650020006D00E10073000A006100640065006C0061006E00740065002C00200061007300ED00200071007500650020006100730065006700FA00720061007400650020006400650020007100750065002000730065006100200063006F007200720065006300740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "¿Cumples años el <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>, entonces?\n¿Estás segur<U+0010><U+0003>ᄀÿāoa?",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "00BF00430075006D0070006C006500730020006100F1006F007300200065006C00200010000202010002002F0010000202010001002C00200065006E0074006F006E006300650073003F000A00BF00450073007400E1007300200073006500670075007200100003110000FF0101006F0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Segurísim<U+0010><U+0003>ᄀÿāoa",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "0053006500670075007200ED00730069006D00100003110000FF0101006F00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Quiero elegir otra fecha",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "00510075006900650072006F00200065006C00650067006900720020006F0074007200610020006600650063006800610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ya volveré en otro momento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "0059006100200076006F006C00760065007200E900200065006E0020006F00740072006F0020006D006F006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "¡Gracias por registrar tu cumpleaños!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "00A1004700720061006300690061007300200070006F00720020007200650067006900730074007200610072002000740075002000630075006D0070006C0065006100F1006F007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Pásate por uno de nuestros Centros Pokémon\nel próximo <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>, ¿vale? ¡No te arrepentirás!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "005000E1007300610074006500200070006F007200200075006E006F0020006400650020006E00750065007300740072006F0073002000430065006E00740072006F007300200050006F006B00E9006D006F006E000A0065006C00200070007200F300780069006D006F00200010000202010002002F0010000202010001002C002000BF00760061006C0065003F002000A1004E006F0020007400650020006100720072006500700065006E00740069007200E1007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Si tu cumpleaños no aparece en el calendario\neste año, pásate por uno de nuestros Centros<U+0010><U+0001>븀\nPokémon el 28/2, ¿vale? ¡No te arrepentirás!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "00530069002000740075002000630075006D0070006C0065006100F1006F00730020006E006F0020006100700061007200650063006500200065006E00200065006C002000630061006C0065006E0064006100720069006F000A00650073007400650020006100F1006F002C0020007000E1007300610074006500200070006F007200200075006E006F0020006400650020006E00750065007300740072006F0073002000430065006E00740072006F007300100001BE00000A0050006F006B00E9006D006F006E00200065006C002000320038002F0032002C002000BF00760061006C0065003F002000A1004E006F0020007400650020006100720072006500700065006E00740069007200E1007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "No tiene por qué ser ahora mismo, tranquil<U+0010><U+0003>ᄀÿāoa.\nSi cambias de opinión, avísanos y lo registramos.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3376,
+      "rawDecodedUtf16Hex": "004E006F0020007400690065006E006500200070006F007200200071007500E90020007300650072002000610068006F007200610020006D00690073006D006F002C0020007400720061006E007100750069006C00100003110000FF0101006F0061002E000A00530069002000630061006D00620069006100730020006400650020006F00700069006E006900F3006E002C00200061007600ED00730061006E006F0073002000790020006C006F002000720065006700690073007400720061006D006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "¡Esperamos volver a verte!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3580,
+      "rawDecodedUtf16Hex": "00A1004500730070006500720061006D006F007300200076006F006C0076006500720020006100200076006500720074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Espera un segundo... ¿Has dicho... el <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>?\n¡¡Pero si es hoy!!<U+0010><U+0001>븁\nDame un momento, ¿vale? ¡Lo preparo todo\nenseguida!",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 4,
+      "index": 46,
+      "offsetInSection": 3636,
+      "rawDecodedUtf16Hex": "00450073007000650072006100200075006E00200073006500670075006E0064006F002E002E002E002000BF00480061007300200064006900630068006F002E002E002E00200065006C00200010000202010002002F0010000202010001003F000A00A100A1005000650072006F00200073006900200065007300200068006F00790021002100100001BE01000A00440061006D006500200075006E0020006D006F006D0065006E0074006F002C002000BF00760061006C0065003F002000A1004C006F0020007000720065007000610072006F00200074006F0064006F000A0065006E007300650067007500690064006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 123
+    },
+    {
+      "displayText": "Anda, ¿cumples años el <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>? Qué casualidad,\nsi justo estamos a 28 de febrero.<U+0010><U+0001>븁\nNo te importará que lo celebremos hoy, ¿verdad?\n¡Dame un minuto, que lo preparo todo enseguida!",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 4,
+      "index": 47,
+      "offsetInSection": 3884,
+      "rawDecodedUtf16Hex": "0041006E00640061002C002000BF00630075006D0070006C006500730020006100F1006F007300200065006C00200010000202010002002F0010000202010001003F00200051007500E9002000630061007300750061006C0069006400610064002C000A007300690020006A007500730074006F00200065007300740061006D006F0073002000610020003200380020006400650020006600650062007200650072006F002E00100001BE01000A004E006F00200074006500200069006D0070006F007200740061007200E100200071007500650020006C006F002000630065006C0065006200720065006D006F007300200068006F0079002C002000BF007600650072006400610064003F000A00A100440061006D006500200075006E0020006D0069006E00750074006F002C00200071007500650020006C006F0020007000720065007000610072006F00200074006F0064006F00200065006E007300650067007500690064006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 183
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4252,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Feliz cumpleaños, <U+0010><U+0002>Ā<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4264,
+      "rawDecodedUtf16Hex": "00A100460065006C0069007A002000630075006D0070006C0065006100F1006F0073002C0020001000020100000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "¡Hoy es un día especial!\n¡Quiero desearte un muy feliz cumpleaños!<U+0010><U+0001>븁\nAunque este año te toque celebrarlo con un día\nde antelación, ¡espero que lo disfrutes mucho!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4316,
+      "rawDecodedUtf16Hex": "00A10048006F007900200065007300200075006E0020006400ED006100200065007300700065006300690061006C0021000A00A100510075006900650072006F00200064006500730065006100720074006500200075006E0020006D00750079002000660065006C0069007A002000630075006D0070006C0065006100F1006F0073002100100001BE01000A00410075006E007100750065002000650073007400650020006100F1006F00200074006500200074006F007100750065002000630065006C00650062007200610072006C006F00200063006F006E00200075006E0020006400ED0061000A0064006500200061006E00740065006C00610063006900F3006E002C002000A100650073007000650072006F00200071007500650020006C006F00200064006900730066007200750074006500730020006D007500630068006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 164
+    },
+    {
+      "displayText": "¡Te deseo un año repleto de cosas buenas!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4644,
+      "rawDecodedUtf16Hex": "00A10054006500200064006500730065006F00200075006E0020006100F1006F0020007200650070006C00650074006F00200064006500200063006F0073006100730020006200750065006E0061007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Primero vamos a devolverle la energía a tu\nequipo Pokémon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4728,
+      "rawDecodedUtf16Hex": "005000720069006D00650072006F002000760061006D006F0073002000610020006400650076006F006C007600650072006C00650020006C006100200065006E00650072006700ED006100200061002000740075000A00650071007500690070006F00200050006F006B00E9006D006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "No olvides visitar un Centro Pokémon cuando\nlos miembros de tu equipo pierdan PS.<U+0010><U+0001>븁\nY, aprovechando que estás aquí, si necesitas\ncomprar pociones solo tienes que decírmelo.<U+0010><U+0001>븁\n¡Buena suerte!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 4848,
+      "rawDecodedUtf16Hex": "004E006F0020006F006C007600690064006500730020007600690073006900740061007200200075006E002000430065006E00740072006F00200050006F006B00E9006D006F006E0020006300750061006E0064006F000A006C006F00730020006D00690065006D00620072006F0073002000640065002000740075002000650071007500690070006F0020007000690065007200640061006E002000500053002E00100001BE01000A0059002C0020006100700072006F00760065006300680061006E0064006F0020007100750065002000650073007400E10073002000610071007500ED002C0020007300690020006E00650063006500730069007400610073000A0063006F006D007000720061007200200070006F00630069006F006E0065007300200073006F006C006F0020007400690065006E006500730020007100750065002000640065006300ED0072006D0065006C006F002E00100001BE01000A00A1004200750065006E0061002000730075006500720074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 192
+    },
+    {
+      "displayText": "Tu<U+0010><U+0003>ᄁýሐ Pokémon ya estás Pokémon ya están en plena forma.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5232,
+      "rawDecodedUtf16Hex": "0054007500100003110100FD121000200050006F006B00E9006D006F006E002000790061002000650073007400E1007300200050006F006B00E9006D006F006E002000790061002000650073007400E1006E00200065006E00200070006C0065006E006100200066006F0072006D0061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "¡Los ataques de los Pokémon son muy peligrosos!<U+0010><U+0001>븁\nCuando la cosa pinte mal, busca un lugar seguro\ndonde puedas descansar y recuperarte.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5348,
+      "rawDecodedUtf16Hex": "00A1004C006F0073002000610074006100710075006500730020006400650020006C006F007300200050006F006B00E9006D006F006E00200073006F006E0020006D00750079002000700065006C006900670072006F0073006F0073002100100001BE01000A004300750061006E0064006F0020006C006100200063006F00730061002000700069006E007400650020006D0061006C002C00200062007500730063006100200075006E0020006C0075006700610072002000730065006700750072006F000A0064006F006E006400650020007000750065006400610073002000640065007300630061006E00730061007200200079002000720065006300750070006500720061007200740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 137
+    },
+    {
+      "displayText": "No te queda ningún Pokémon en condiciones\nde combatir...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5624,
+      "rawDecodedUtf16Hex": "004E006F0020007400650020007100750065006400610020006E0069006E006700FA006E00200050006F006B00E9006D006F006E00200065006E00200063006F006E0064006900630069006F006E00650073000A0064006500200063006F006D00620061007400690072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Piensa bien qué Pokémon y qué movimientos\nusar, a ver si tienes más suerte la próxima vez.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5740,
+      "rawDecodedUtf16Hex": "005000690065006E007300610020006200690065006E00200071007500E900200050006F006B00E9006D006F006E0020007900200071007500E90020006D006F00760069006D00690065006E0074006F0073000A0075007300610072002C0020006100200076006500720020007300690020007400690065006E006500730020006D00E1007300200073007500650072007400650020006C006100200070007200F300780069006D0061002000760065007A002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "¡Quiero combatir!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5924,
+      "rawDecodedUtf16Hex": "00A100510075006900650072006F00200063006F006D0062006100740069007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "¡Tu Pokémon ya está en plena forma!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5960,
+      "rawDecodedUtf16Hex": "00A10054007500200050006F006B00E9006D006F006E002000790061002000650073007400E100200065006E00200070006C0065006E006100200066006F0072006D006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "¡Tus Pokémon ya están en plena forma!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6032,
+      "rawDecodedUtf16Hex": "00A100540075007300200050006F006B00E9006D006F006E002000790061002000650073007400E1006E00200065006E00200070006C0065006E006100200066006F0072006D006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6108,
+  "sectionOffset": 16,
+  "textCount": 61,
+  "textSectionCount": 1
+}

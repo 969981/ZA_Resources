@@ -1,0 +1,43 @@
+{
+  "declaredLength": 532,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "與石香鎮的遺跡相連的10號道路上\n排列的列石之一。<U+0010><U+0001>븁\n據說它平時會釋放能量，\n但一旦最終兵器啟動，<U+0010><U+0001>븁\n就會奪走曾連接過的寶可夢的能量，\n是擁有神奇性質的石頭。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "820777F3999993AE7684907A8DE176F89023768400310030865F90538DEF4E0A000A639252177684521777F34E4B4E00300200100001BE01000A64DA8AAA5B835E736642670391CB653E80FD91CFFF0C000A4F464E0065E667007D4251755668555F52D5FF0C00100001BE01000A5C316703596A8D7066FE902363A5904E76845BF653EF5922768480FD91CFFF0C000A662F64C16709795E594760278CEA768477F3982D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "列石的周圍設置有裝置，\n用來控制收集到的能量。<U+0010><U+0001>븁\n看得出來當時仍在活動的\n閃焰隊高超的技術實力。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "521777F376845468570D8A2D7F6E670988DD7F6EFF0C000A75284F8663A75236653696C65230768480FD91CF300200100001BE01000A770B5F9751FA4F86757666424ECD57286D3B52D57684000A95837130968A9AD88D857684628088535BE6529B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "使用最終兵器\n發射卡洛斯地區的<U+0010><U+0001>븀\n傳說的寶可夢的力量。<U+0010><U+0001>븁\n最終兵器的動力來源\n是活著的寶可夢的生命能量。<U+0010><U+0001>븁\n為此需要讓10號道路的\n列石與寶可夢連接。<U+0010><U+0001>븁\n此外似乎還記載了最終兵器本身的\n相關詳細資訊或計畫等內容。",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "4F7F752867007D4251755668000A767C5C0453616D1B65AF57305340768400100001BE00000A50B38AAA76845BF653EF59227684529B91CF300200100001BE01000A67007D4251755668768452D5529B4F866E90000A662F6D3B845776845BF653EF59227684751F547D80FD91CF300200100001BE01000A70BA6B64970089818B9300310030865F90538DEF7684000A521777F382075BF653EF5922902363A5300200100001BE01000A6B6459164F3C4E4E90848A188F094E8667007D4251755668672C8EAB7684000A76F895DC8A737D308CC78A0A62168A08756B7B4951675BB930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 532,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

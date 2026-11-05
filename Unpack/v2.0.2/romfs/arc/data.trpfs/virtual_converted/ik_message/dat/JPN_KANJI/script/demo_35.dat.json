@@ -1,0 +1,33 @@
+{
+  "declaredLength": 280,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "ジガルデのジガルデナイトと\n<U+0010><U+0002>Ā<U+0000>のキーストーンが<U+0010>\t！<U+0002><U+0004>反応はんのう反応した！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "30B830AC30EB30C7306E30B830AC30EB30C730CA30A430C83068000A0010000201000000306E30AD30FC30B930C830FC30F3304C00100009FF010002000453CD5FDC306F3093306E304653CD5FDC3057305FFF010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "ジガルデは\nメガジガルデにメガシンカした！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "30B830AC30EB30C7306F000A30E130AC30B830AC30EB30C7306B30E130AC30B730F330AB3057305FFF010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 280,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

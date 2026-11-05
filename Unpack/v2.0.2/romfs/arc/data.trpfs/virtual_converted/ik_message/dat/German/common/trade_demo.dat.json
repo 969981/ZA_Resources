@@ -1,0 +1,73 @@
+{
+  "declaredLength": 336,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Du gibst <U+0010><U+0002>Ă<U+0000> in die Obhut von\n<U+0010><U+0002>Ā<U+0001>.<U+0010><U+0001>븀\nAlles Gute, <U+0010><U+0002>Ă<U+0000>!",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00100002BD060000004400750020006700690062007300740020001000020102000000200069006E00200064006900650020004F006200680075007400200076006F006E000A0010000201000001002E00100001BE00000A0041006C006C0065007300200047007500740065002C0020001000020102000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Ā<U+0001> hat dir <U+0010><U+0002>Ă<U+0002>\nzugeschickt.",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002BD06000000100002010000010020006800610074002000640069007200200010000201020002000A007A00750067006500730063006800690063006B0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Kümmere dich gut um <U+0010><U+0002>Ă<U+0002>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "004B00FC006D006D00650072006500200064006900630068002000670075007400200075006D0020001000020102000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 336,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

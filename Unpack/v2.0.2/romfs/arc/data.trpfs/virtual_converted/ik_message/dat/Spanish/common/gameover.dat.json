@@ -1,0 +1,93 @@
+{
+  "declaredLength": 1024,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Has salido corriendo hacia un Centro Pokémon\npara que tu equipo no sufra más daño.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 68,
+      "rawDecodedUtf16Hex": "004800610073002000730061006C00690064006F00200063006F0072007200690065006E0064006F00200068006100630069006100200075006E002000430065006E00740072006F00200050006F006B00E9006D006F006E000A00700061007200610020007100750065002000740075002000650071007500690070006F0020006E006F0020007300750066007200610020006D00E1007300200064006100F1006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Has vuelto a casa corriendo para evitar que tu\nequipo Pokémon sufra más daño.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "0048006100730020007600750065006C0074006F002000610020006300610073006100200063006F0072007200690065006E0064006F0020007000610072006100200065007600690074006100720020007100750065002000740075000A00650071007500690070006F00200050006F006B00E9006D006F006E0020007300750066007200610020006D00E1007300200064006100F1006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Has ido a un Centro Pokémon para repensar\ntu estrategia.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "004800610073002000690064006F0020006100200075006E002000430065006E00740072006F00200050006F006B00E9006D006F006E0020007000610072006100200072006500700065006E007300610072000A0074007500200065007300740072006100740065006700690061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Has vuelto a casa para repensar tu estrategia.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "0048006100730020007600750065006C0074006F00200061002000630061007300610020007000610072006100200072006500700065006E00730061007200200074007500200065007300740072006100740065006700690061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Estas aguas son profundas.\nHas vuelto a donde no cubre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "0045007300740061007300200061006700750061007300200073006F006E002000700072006F00660075006E006400610073002E000A0048006100730020007600750065006C0074006F0020006100200064006F006E006400650020006E006F002000630075006200720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Has salido corriendo hacia un lugar seguro para\nque tu equipo no sufra más daño.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "004800610073002000730061006C00690064006F00200063006F0072007200690065006E0064006F00200068006100630069006100200075006E0020006C0075006700610072002000730065006700750072006F00200070006100720061000A007100750065002000740075002000650071007500690070006F0020006E006F0020007300750066007200610020006D00E1007300200064006100F1006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "¡Te has quedado fuera de juego!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "00A10054006500200068006100730020007100750065006400610064006F0020006600750065007200610020006400650020006A007500650067006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "...<U+0010><U+0001>븁\n¡Te has quedado fuera de juego!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "002E002E002E00100001BE01000A00A10054006500200068006100730020007100750065006400610064006F0020006600750065007200610020006400650020006A007500650067006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1024,
+  "sectionOffset": 16,
+  "textCount": 8,
+  "textSectionCount": 1
+}

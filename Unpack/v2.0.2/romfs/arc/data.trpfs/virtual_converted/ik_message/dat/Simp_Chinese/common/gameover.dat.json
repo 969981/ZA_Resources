@@ -1,0 +1,93 @@
+{
+  "declaredLength": 552,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n一边保护着精疲力尽动弹不得的宝可梦，<U+0010><U+0001>븁\n一边急匆匆地赶往宝可梦中心……",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 68,
+      "rawDecodedUtf16Hex": "0010000201000000000A4E008FB94FDD62A477407CBE75B2529B5C3D52A85F394E0D5F9776845B9D53EF68A6FF0C00100001BE01000A4E008FB960255306530657308D765F805B9D53EF68A64E2D5FC3202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": " <U+0010><U+0002>Ā<U+0000>\n一边保护着精疲力尽动弹不得的宝可梦，<U+0010><U+0001>븁\n一边急匆匆地回到自己家……",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "00200010000201000000000A4E008FB94FDD62A477407CBE75B2529B5C3D52A85F394E0D5F9776845B9D53EF68A6FF0C00100001BE01000A4E008FB9602553065306573056DE523081EA5DF15BB6202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>为了重新制定战略\n而逃进了宝可梦中心……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "00100002010000004E3A4E8691CD65B052365B9A62187565000A800C90038FDB4E865B9D53EF68A64E2D5FC3202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>为了重新制定战略\n而回到了自己家……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "00100002010000004E3A4E8691CD65B052365B9A62187565000A800C56DE52304E8681EA5DF15BB6202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "……<U+0010><U+0002>Ā<U+0000>\n慌忙地逃出了水中！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "202620260010000201000000000A614C5FD95730900351FA4E866C344E2DFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n保护着精疲力尽动弹不得的宝可梦，<U+0010><U+0001>븁\n急匆匆地回到安全的地方……",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "0010000201000000000A4FDD62A477407CBE75B2529B5C3D52A85F394E0D5F9776845B9D53EF68A6FF0C00100001BE01000A602553065306573056DE52305B8951687684573065B9202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>的眼前变得一片漆黑！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "00100002010000007684773C524D53D85F974E0072476F069ED1FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "………………\n………………<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>的眼前变得一片漆黑！",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "202620262026202620262026000A20262026202620262026202600100001BE01000A00100002010000007684773C524D53D85F974E0072476F069ED1FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 552,
+  "sectionOffset": 16,
+  "textCount": 8,
+  "textSectionCount": 1
+}

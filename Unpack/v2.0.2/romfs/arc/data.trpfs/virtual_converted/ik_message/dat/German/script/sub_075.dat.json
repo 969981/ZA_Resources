@@ -1,0 +1,233 @@
+{
+  "declaredLength": 2808,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hilfeee! Aaaah!!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00480069006C006600650065006500210020004100610061006100680021002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Aaah! Sie haben mich schon wieder erwischt!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00410061006100680021002000530069006500200068006100620065006E0020006D0069006300680020007300630068006F006E0020007700690065006400650072002000650072007700690073006300680074002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Hilfe! Ist da jemand? Ich will hier raus!<U+0010><U+0001>븁\nEs braucht nur eine starke Pokémon-Attacke,\num dieses Netz zu zerstören! Bitte hilf mir!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "00480069006C00660065002100200049007300740020006400610020006A0065006D0061006E0064003F0020004900630068002000770069006C006C0020006800690065007200200072006100750073002100100001BE01000A00450073002000620072006100750063006800740020006E00750072002000650069006E006500200073007400610072006B006500200050006F006B00E9006D006F006E002D00410074007400610063006B0065002C000A0075006D00200064006900650073006500730020004E00650074007A0020007A00750020007A006500720073007400F600720065006E0021002000420069007400740065002000680069006C00660020006D00690072002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "Jemand ist im Netz eines Pokémon gefangen...<U+0010><U+0001>븁\nZerstöre das Netz, indem du es mit einer\nstarken Pokémon-Attacke triffst.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "004A0065006D0061006E0064002000690073007400200069006D0020004E00650074007A002000650069006E0065007300200050006F006B00E9006D006F006E00200067006500660061006E00670065006E002E002E002E00100001BE01000A005A006500720073007400F60072006500200064006100730020004E00650074007A002C00200069006E00640065006D0020006400750020006500730020006D00690074002000650069006E00650072000A0073007400610072006B0065006E00200050006F006B00E9006D006F006E002D00410074007400610063006B006500200074007200690066006600730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 122
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Die Attacke war nicht stark genug!<U+0010><U+0001>븁\nHey, wenn du dir nicht sicher bist, wie stark eine\nAttacke ist, dann wähle im Menü dein Pokémon<U+0010><U+0001>븀\naus und schau unter „Attacken verwalten“ nach.<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "004400690065002000410074007400610063006B006500200077006100720020006E006900630068007400200073007400610072006B002000670065006E00750067002100100001BE01000A004800650079002C002000770065006E006E00200064007500200064006900720020006E0069006300680074002000730069006300680065007200200062006900730074002C002000770069006500200073007400610072006B002000650069006E0065000A00410074007400610063006B00650020006900730074002C002000640061006E006E0020007700E40068006C006500200069006D0020004D0065006E00FC0020006400650069006E00200050006F006B00E9006D006F006E00100001BE00000A00610075007300200075006E006400200073006300680061007500200075006E0074006500720020201E00410074007400610063006B0065006E002000760065007200770061006C00740065006E201C0020006E006100630068002E00100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 188
+    },
+    {
+      "displayText": "Puh!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "0050007500680021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Endlich bin ich frei! Tausend Dank!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "0045006E0064006C006900630068002000620069006E0020006900630068002000660072006500690021002000540061007500730065006E0064002000440061006E006B0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Wie ist das passiert?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "00570069006500200069007300740020006400610073002000700061007300730069006500720074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Wer tut so was?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "005700650072002000740075007400200073006F0020007700610073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Das waren die Webarak hier...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "00440061007300200077006100720065006E00200064006900650020005700650062006100720061006B00200068006900650072002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Die drei sind meine Partner-Pokémon. Ich nenne\nsie die Gebrüder Webarak!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "00440069006500200064007200650069002000730069006E00640020006D00650069006E006500200050006100720074006E00650072002D0050006F006B00E9006D006F006E002E00200049006300680020006E0065006E006E0065000A00730069006500200064006900650020004700650062007200FC0064006500720020005700650062006100720061006B0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Wenn sie sauer auf mich sind, wickeln sie mich\nimmer in ihre Fäden ein...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "00570065006E006E002000730069006500200073006100750065007200200061007500660020006D006900630068002000730069006E0064002C0020007700690063006B0065006C006E00200073006900650020006D006900630068000A0069006D006D0065007200200069006E002000690068007200650020004600E400640065006E002000650069006E002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Weba!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "005700650062006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Diesmal hab ich versehentlich ein Netz kaputt\ngemacht, das sie gerade erst fertiggestellt hatten...<U+0010><U+0001>븀\nAlso haben sie mich hier eingewickelt.<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "0044006900650073006D0061006C0020006800610062002000690063006800200076006500720073006500680065006E0074006C006900630068002000650069006E0020004E00650074007A0020006B00610070007500740074000A00670065006D0061006300680074002C00200064006100730020007300690065002000670065007200610064006500200065007200730074002000660065007200740069006700670065007300740065006C006C0074002000680061007400740065006E002E002E002E00100001BE00000A0041006C0073006F00200068006100620065006E00200073006900650020006D00690063006800200068006900650072002000650069006E00670065007700690063006B0065006C0074002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 146
+    },
+    {
+      "displayText": "Aber es war ja ein Versehen! Ich wünschte echt,\nsie würden mir verzeihen...<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "004100620065007200200065007300200077006100720020006A0061002000650069006E00200056006500720073006500680065006E002100200049006300680020007700FC006E0073006300680074006500200065006300680074002C000A0073006900650020007700FC007200640065006E0020006D006900720020007600650072007A0065006900680065006E002E002E002E001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Webaaa!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "005700650062006100610061002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Schon gut, schon gut! Es tut mir doch leid!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "005300630068006F006E0020006700750074002C0020007300630068006F006E0020006700750074002100200045007300200074007500740020006D0069007200200064006F006300680020006C0065006900640021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Aber sagt mal, wenn ihr so viele Fäden herstellen\nkönnt, dann lasst uns doch Netze oder Seile<U+0010><U+0001>븀\ndaraus verkaufen und richtig Kohle machen!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "0041006200650072002000730061006700740020006D0061006C002C002000770065006E006E002000690068007200200073006F0020007600690065006C00650020004600E400640065006E0020006800650072007300740065006C006C0065006E000A006B00F6006E006E0074002C002000640061006E006E0020006C006100730073007400200075006E007300200064006F006300680020004E00650074007A00650020006F0064006500720020005300650069006C006500100001BE00000A0064006100720061007500730020007600650072006B0061007500660065006E00200075006E0064002000720069006300680074006900670020004B006F0068006C00650020006D0061006300680065006E0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 144
+    },
+    {
+      "displayText": "Aaah! War doch nur ein Scherz, meine lieben\nGebrüder Webarak!<U+0010><U+0002>Ĕŭ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2676,
+      "rawDecodedUtf16Hex": "00410061006100680021002000570061007200200064006F006300680020006E00750072002000650069006E002000530063006800650072007A002C0020006D00650069006E00650020006C0069006500620065006E000A004700650062007200FC0064006500720020005700650062006100720061006B0021001000020114016D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2808,
+  "sectionOffset": 16,
+  "textCount": 22,
+  "textSectionCount": 1
+}

@@ -1,0 +1,483 @@
+{
+  "declaredLength": 6020,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bonjour ! Vous avez besoin d’une course ?\nDites oui, s’il vous plaît !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "0042006F006E006A006F007500720020002100200056006F007500730020006100760065007A0020006200650073006F0069006E0020006420190075006E006500200063006F00750072007300650020003F000A004400690074006500730020006F00750069002C0020007320190069006C00200076006F0075007300200070006C006100EE007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Je viens de me lancer en tant que chauffeuse\nde taxi, mais je n’ai encore eu aucun client...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 544,
+      "rawDecodedUtf16Hex": "004A00650020007600690065006E00730020006400650020006D00650020006C0061006E00630065007200200065006E002000740061006E0074002000710075006500200063006800610075006600660065007500730065000A0064006500200074006100780069002C0020006D0061006900730020006A00650020006E20190061006900200065006E0063006F0072006500200065007500200061007500630075006E00200063006C00690065006E0074002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Non pas que je manque d’entraînement, mais\nenfin... j’aimerais bien que mon activité démarre...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "004E006F006E002000700061007300200071007500650020006A00650020006D0061006E0071007500650020006420190065006E00740072006100EE006E0065006D0065006E0074002C0020006D006100690073000A0065006E00660069006E002E002E002E0020006A201900610069006D006500720061006900730020006200690065006E00200071007500650020006D006F006E0020006100630074006900760069007400E90020006400E9006D0061007200720065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "J’aimerais donc faire une course pour vous.\nJe ne vous ferai même pas payer !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "004A201900610069006D0065007200610069007300200064006F006E006300200066006100690072006500200075006E006500200063006F007500720073006500200070006F0075007200200076006F00750073002E000A004A00650020006E006500200076006F007500730020006600650072006100690020006D00EA006D0065002000700061007300200070006100790065007200200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "Faites-moi signe quand vous aurez besoin\nde mes services !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "004600610069007400650073002D006D006F00690020007300690067006E00650020007100750061006E006400200076006F0075007300200061007500720065007A0020006200650073006F0069006E000A006400650020006D0065007300200073006500720076006900630065007300200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Voulez-vous monter dans mon taxi ?\nAlors, où allons-nous ?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1244,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F007500730020006D006F006E007400650072002000640061006E00730020006D006F006E002000740061007800690020003F000A0041006C006F00720073002C0020006F00F900200061006C006C006F006E0073002D006E006F007500730020003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Oui.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "004F00750069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Non.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1384,
+      "rawDecodedUtf16Hex": "004E006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "S’il vous plaît...\nVous me rendriez un grand service...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "005320190069006C00200076006F0075007300200070006C006100EE0074002E002E002E000A0056006F007500730020006D0065002000720065006E0064007200690065007A00200075006E0020006700720061006E006400200073006500720076006900630065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Merci, client<U+0010><U+0003>ᄀÿĀe numéro un !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "004D0065007200630069002C00200063006C00690065006E007400100003110000FF010000650020006E0075006D00E90072006F00200075006E00200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Centre Pokémon de Rosavilliers",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "00430065006E00740072006500200050006F006B00E9006D006F006E00200064006500200052006F0073006100760069006C006C00690065007200730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Pourriez-vous choisir une autre destination ?\nJ’ai peur de me perdre...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "0050006F00750072007200690065007A002D0076006F00750073002000630068006F006900730069007200200075006E0065002000610075007400720065002000640065007300740069006E006100740069006F006E0020003F000A004A201900610069002000700065007500720020006400650020006D00650020007000650072006400720065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "D’accord ! En... en avant !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "00442019006100630063006F007200640020002100200045006E002E002E002E00200065006E0020006100760061006E007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ha ha ! Je suis sûre que vous ne vous attendiez\npas à ça... un taxi qui ne va qu’à un seul endroit !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1880,
+      "rawDecodedUtf16Hex": "00480061002000680061002000210020004A0065002000730075006900730020007300FB00720065002000710075006500200076006F007500730020006E006500200076006F0075007300200061007400740065006E006400690065007A000A007000610073002000E0002000E70061002E002E002E00200075006E0020007400610078006900200071007500690020006E0065002000760061002000710075201900E000200075006E0020007300650075006C00200065006E00640072006F0069007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "C’est que... c’est le seul endroit où je suis sûre\nd’arriver sans me perdre...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "004320190065007300740020007100750065002E002E002E0020006320190065007300740020006C00650020007300650075006C00200065006E00640072006F006900740020006F00F90020006A0065002000730075006900730020007300FB00720065000A006420190061007200720069007600650072002000730061006E00730020006D00650020007000650072006400720065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Je... J’adore la tarte à la fraise du Café Récré.\nEt vous, quel est votre dessert préféré ?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2260,
+      "rawDecodedUtf16Hex": "004A0065002E002E002E0020004A201900610064006F007200650020006C0061002000740061007200740065002000E00020006C00610020006600720061006900730065002000640075002000430061006600E90020005200E90063007200E9002E000A0045007400200076006F00750073002C0020007100750065006C002000650073007400200076006F0074007200650020006400650073007300650072007400200070007200E9006600E9007200E90020003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Ah ! Ce n’est pas comme ça qu’on fait\nla conversation ! Attendez, je réessaie...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "00410068002000210020004300650020006E2019006500730074002000700061007300200063006F006D006D0065002000E700610020007100752019006F006E00200066006100690074000A006C006100200063006F006E0076006500720073006100740069006F006E0020002100200041007400740065006E00640065007A002C0020006A00650020007200E9006500730073006100690065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Ah, vraiment, avec tous ces Pokémon sauvages,\nc’est difficile de conduire son taxi en ville !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2624,
+      "rawDecodedUtf16Hex": "00410068002C00200076007200610069006D0065006E0074002C0020006100760065006300200074006F00750073002000630065007300200050006F006B00E9006D006F006E002000730061007500760061006700650073002C000A0063201900650073007400200064006900660066006900630069006C006500200064006500200063006F006E0064007500690072006500200073006F006E0020007400610078006900200065006E002000760069006C006C006500200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Vous vous demandez sûrement pourquoi\nj’ai décidé de devenir chauffeuse, du coup !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2820,
+      "rawDecodedUtf16Hex": "0056006F0075007300200076006F00750073002000640065006D0061006E00640065007A0020007300FB00720065006D0065006E007400200070006F0075007200710075006F0069000A006A2019006100690020006400E900630069006400E900200064006500200064006500760065006E0069007200200063006800610075006600660065007500730065002C00200064007500200063006F0075007000200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Ah !!!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "004100680020002100210021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Je me suis trompée de rue...\nJe dois faire marche arrière... Excusez-moi...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "004A00650020006D006500200073007500690073002000740072006F006D007000E900650020006400650020007200750065002E002E002E000A004A006500200064006F006900730020006600610069007200650020006D006100720063006800650020006100720072006900E800720065002E002E002E0020004500780063007500730065007A002D006D006F0069002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Euh... On parlait de pourquoi je suis devenue\nchauffeuse de taxi, n’est-ce pas ?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "004500750068002E002E002E0020004F006E0020007000610072006C00610069007400200064006500200070006F0075007200710075006F00690020006A00650020007300750069007300200064006500760065006E00750065000A006300680061007500660066006500750073006500200064006500200074006100780069002C0020006E2019006500730074002D0063006500200070006100730020003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "AH !!!<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 3348,
+      "rawDecodedUtf16Hex": "004100480020002100210021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "On est déjà arrivé<U+0010><U+0003>ᄀÿĀes au Centre Pokémon\nde Rosavilliers !<U+0010><U+0001>븀\nComme promis, vous ne me devez rien.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "004F006E00200065007300740020006400E9006A00E000200061007200720069007600E900100003110000FF010000650073002000610075002000430065006E00740072006500200050006F006B00E9006D006F006E000A0064006500200052006F0073006100760069006C006C00690065007200730020002100100001BE00000A0043006F006D006D0065002000700072006F006D00690073002C00200076006F007500730020006E00650020006D006500200064006500760065007A0020007200690065006E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "Merci !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "004D0065007200630069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "J’aimerais régler ma course.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3600,
+      "rawDecodedUtf16Hex": "004A201900610069006D006500720061006900730020007200E90067006C006500720020006D006100200063006F0075007200730065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "C’est moi qui vous remercie d’avoir bien voulu\nme donner une chance !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3660,
+      "rawDecodedUtf16Hex": "004320190065007300740020006D006F0069002000710075006900200076006F00750073002000720065006D0065007200630069006500200064201900610076006F006900720020006200690065006E00200076006F0075006C0075000A006D006500200064006F006E006E0065007200200075006E00650020006300680061006E0063006500200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Mais non, ce n’est pas nécessaire...<U+0010><U+0001>븁\nEnfin, si vous insistez.\nÇa fera 710 <U+E300>, s’il vous plaît !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3808,
+      "rawDecodedUtf16Hex": "004D0061006900730020006E006F006E002C0020006300650020006E201900650073007400200070006100730020006E00E900630065007300730061006900720065002E002E002E00100001BE01000A0045006E00660069006E002C00200073006900200076006F0075007300200069006E00730069007300740065007A002E000A00C700610020006600650072006100200037003100300020E300002C0020007320190069006C00200076006F0075007300200070006C006100EE007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Mais non, ce n’est pas nécessaire...<U+0010><U+0001>븁\nEnfin, si vous insistez.\nÇa fera 710 <U+E300>, s’il vous plaît !<U+0010><U+0001>븁\nOh, mais vous n’avez pas assez d’argent !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 4012,
+      "rawDecodedUtf16Hex": "004D0061006900730020006E006F006E002C0020006300650020006E201900650073007400200070006100730020006E00E900630065007300730061006900720065002E002E002E00100001BE01000A0045006E00660069006E002C00200073006900200076006F0075007300200069006E00730069007300740065007A002E000A00C700610020006600650072006100200037003100300020E300002C0020007320190069006C00200076006F0075007300200070006C006100EE00740020002100100001BE01000A004F0068002C0020006D00610069007300200076006F007500730020006E2019006100760065007A002000700061007300200061007300730065007A0020006420190061007200670065006E007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 147
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4308,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Après cette première expérience... j’ai compris\nque je n’avais pas du tout le niveau.<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 4320,
+      "rawDecodedUtf16Hex": "00410070007200E800730020006300650074007400650020007000720065006D006900E800720065002000650078007000E9007200690065006E00630065002E002E002E0020006A20190061006900200063006F006D0070007200690073000A0071007500650020006A00650020006E201900610076006100690073002000700061007300200064007500200074006F007500740020006C00650020006E00690076006500610075002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Je n’arrivais même pas à faire la conversation ! Ce\nn’est pas comme ça qu’on fidélise sa clientèle !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4500,
+      "rawDecodedUtf16Hex": "004A00650020006E2019006100720072006900760061006900730020006D00EA006D00650020007000610073002000E00020006600610069007200650020006C006100200063006F006E0076006500720073006100740069006F006E00200021002000430065000A006E2019006500730074002000700061007300200063006F006D006D0065002000E700610020007100752019006F006E002000660069006400E9006C00690073006500200073006100200063006C00690065006E007400E8006C006500200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Heureusement, il y a bien une chose\nque je maîtrise... les combats Pokémon !<U+0010><U+0001>븀\nÇa vous dirait d’en faire un ?<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4712,
+      "rawDecodedUtf16Hex": "00480065007500720065007500730065006D0065006E0074002C00200069006C00200079002000610020006200690065006E00200075006E0065002000630068006F00730065000A0071007500650020006A00650020006D006100EE00740072006900730065002E002E002E0020006C0065007300200063006F006D006200610074007300200050006F006B00E9006D006F006E0020002100100001BE00000A00C7006100200076006F0075007300200064006900720061006900740020006420190065006E00200066006100690072006500200075006E0020003F001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Client<U+0010><U+0003>ᄀÿĀe numéro un ! Faisons un combat !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4944,
+      "rawDecodedUtf16Hex": "0043006C00690065006E007400100003110000FF010000650020006E0075006D00E90072006F00200075006E0020002100200046006100690073006F006E007300200075006E00200063006F006D00620061007400200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "OK !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 5044,
+      "rawDecodedUtf16Hex": "004F004B002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Non, ça ira...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 5056,
+      "rawDecodedUtf16Hex": "004E006F006E002C002000E700610020006900720061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Merci de me donner l’occasion de me montrer\nsous un meilleur jour !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 5088,
+      "rawDecodedUtf16Hex": "004D00650072006300690020006400650020006D006500200064006F006E006E006500720020006C2019006F00630063006100730069006F006E0020006400650020006D00650020006D006F006E0074007200650072000A0073006F0075007300200075006E0020006D00650069006C006C0065007500720020006A006F0075007200200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Allez, s’il vous plaît ! Laissez-moi vous montrer\nmes talents !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 5232,
+      "rawDecodedUtf16Hex": "0041006C006C0065007A002C0020007320190069006C00200076006F0075007300200070006C006100EE0074002000210020004C00610069007300730065007A002D006D006F006900200076006F007500730020006D006F006E0074007200650072000A006D00650073002000740061006C0065006E0074007300200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿)",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 5368,
+      "rawDecodedUtf16Hex": "00100002BDFF00290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Même en combat Pokémon, je suis nulle...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5380,
+      "rawDecodedUtf16Hex": "004D00EA006D006500200065006E00200063006F006D00620061007400200050006F006B00E9006D006F006E002C0020006A0065002000730075006900730020006E0075006C006C0065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Mais même si j’ai perdu, je me suis bien amusée !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5472,
+      "rawDecodedUtf16Hex": "004D0061006900730020006D00EA006D00650020007300690020006A201900610069002000700065007200640075002C0020006A00650020006D0065002000730075006900730020006200690065006E00200061006D0075007300E9006500200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Normalement, plus on fait de combats Pokémon,\nplus on prend confiance en soi...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5580,
+      "rawDecodedUtf16Hex": "004E006F0072006D0061006C0065006D0065006E0074002C00200070006C007500730020006F006E0020006600610069007400200064006500200063006F006D006200610074007300200050006F006B00E9006D006F006E002C000A0070006C007500730020006F006E0020007000720065006E006400200063006F006E006600690061006E0063006500200065006E00200073006F0069002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Peut-être que c’est pareil avec le taxi !\nEnfin, si je continue...<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5748,
+      "rawDecodedUtf16Hex": "0050006500750074002D00EA0074007200650020007100750065002000632019006500730074002000700061007200650069006C002000610076006500630020006C00650020007400610078006900200021000A0045006E00660069006E002C0020007300690020006A006500200063006F006E00740069006E00750065002E002E002E001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Merci pour votre aide aujourd’hui,\nclient<U+0010><U+0003>ᄀÿĀe numéro un !<U+0010><U+0002>ĔŎ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5892,
+      "rawDecodedUtf16Hex": "004D006500720063006900200070006F0075007200200076006F00740072006500200061006900640065002000610075006A006F0075007200642019006800750069002C000A0063006C00690065006E007400100003110000FF010000650020006E0075006D00E90072006F00200075006E00200021001000020114014E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6020,
+  "sectionOffset": 16,
+  "textCount": 47,
+  "textSectionCount": 1
+}

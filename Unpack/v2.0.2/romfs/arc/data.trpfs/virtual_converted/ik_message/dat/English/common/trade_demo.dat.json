@@ -1,0 +1,73 @@
+{
+  "declaredLength": 312,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Sending <U+0010><U+0003>ጀ<U+0000><U+0000><U+0010><U+0002>Ă<U+0000> to\n<U+0010><U+0002>Ā<U+0001>.<U+0010><U+0001>븀\nGoodbye,<U+0010><U+0001>븀\n<U+0010><U+0002>Ă<U+0000>!",
+      "escapedControlUnits": 20,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00100002BD06000000530065006E00640069006E0067002000100003130000000000001000020102000000200074006F000A0010000201000001002E00100001BE00000A0047006F006F0064006200790065002C00100001BE00000A001000020102000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0002>Ā<U+0001> sent over\n<U+0010><U+0003>ጂ<U+0002><U+0000><U+0010><U+0002>Ă<U+0002>.",
+      "escapedControlUnits": 13,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "00100002BD0600000010000201000001002000730065006E00740020006F007600650072000A001000031302000200000010000201020002002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Take good care of <U+0010><U+0003>ጀ<U+0002><U+0000><U+0010><U+0002>Ă<U+0002>!",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "00540061006B006500200067006F006F0064002000630061007200650020006F0066002000100003130000020000001000020102000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 312,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

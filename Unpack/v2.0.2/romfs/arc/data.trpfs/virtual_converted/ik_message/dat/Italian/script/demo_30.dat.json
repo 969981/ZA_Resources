@@ -1,0 +1,83 @@
+{
+  "declaredLength": 356,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Floflooo!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "0046006C006F0066006C006F006F006F002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "La Floettite...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "004C006100200046006C006F006500740074006900740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "La Floettite...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "004C006100200046006C006F006500740074006900740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Floette! È ora di megaevolversi!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "0046006C006F00650074007400650021002000C80020006F007200610020006400690020006D00650067006100650076006F006C0076006500720073006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Floette! È ora di megaevolversi!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "0046006C006F00650074007400650021002000C80020006F007200610020006400690020006D00650067006100650076006F006C0076006500720073006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Andiamo, Floette!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "0041006E006400690061006D006F002C00200046006C006F006500740074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Andiamo, Floette!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "0041006E006400690061006D006F002C00200046006C006F006500740074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 356,
+  "sectionOffset": 16,
+  "textCount": 7,
+  "textSectionCount": 1
+}

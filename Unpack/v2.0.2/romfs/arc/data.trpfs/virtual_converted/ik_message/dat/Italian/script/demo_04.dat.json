@@ -1,0 +1,103 @@
+{
+  "declaredLength": 916,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lasciateci passare. Sto solo accompagnando\nun<U+0010><U+0003>ᄀÿĀa cliente.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "004C00610073006300690061007400650063006900200070006100730073006100720065002E002000530074006F00200073006F006C006F0020006100630063006F006D007000610067006E0061006E0064006F000A0075006E00100003110000FF0100006100200063006C00690065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Lasciateci passare. Sto solo accompagnando\nun<U+0010><U+0003>ᄀÿĀa cliente.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "004C00610073006300690061007400650063006900200070006100730073006100720065002E002000530074006F00200073006F006C006F0020006100630063006F006D007000610067006E0061006E0064006F000A0075006E00100003110000FF0100006100200063006C00690065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Cliente o meno, poco importa: chi si trova\nnella zona lotta non può rifiutarsi di lottare.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "0043006C00690065006E007400650020006F0020006D0065006E006F002C00200070006F0063006F00200069006D0070006F007200740061003A0020006300680069002000730069002000740072006F00760061000A006E0065006C006C00610020007A006F006E00610020006C006F0074007400610020006E006F006E00200070007500F2002000720069006600690075007400610072007300690020006400690020006C006F00740074006100720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Pazienza, vuol dire che lotterò io.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "00500061007A00690065006E007A0061002C002000760075006F006C0020006400690072006500200063006800650020006C006F007400740065007200F200200069006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Pazienza, vuol dire che ci penserò io.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 580,
+      "rawDecodedUtf16Hex": "00500061007A00690065006E007A0061002C002000760075006F006C002000640069007200650020006300680065002000630069002000700065006E00730065007200F200200069006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Flooo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "0046006C006F006F006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Un Floette con un fiore nero, eh? Un Pokémon\ndavvero fuori dal comune. Vediamo che sa fare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "0055006E00200046006C006F006500740074006500200063006F006E00200075006E002000660069006F007200650020006E00650072006F002C002000650068003F00200055006E00200050006F006B00E9006D006F006E000A006400610076007600650072006F002000660075006F00720069002000640061006C00200063006F006D0075006E0065002E002000560065006400690061006D006F00200063006800650020007300610020006600610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Non colpirli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 860,
+      "rawDecodedUtf16Hex": "004E006F006E00200063006F006C007000690072006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Non colpirli!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "004E006F006E00200063006F006C007000690072006C006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 916,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

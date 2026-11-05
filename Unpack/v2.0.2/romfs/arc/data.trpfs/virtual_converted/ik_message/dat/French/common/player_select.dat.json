@@ -1,0 +1,233 @@
+{
+  "declaredLength": 1132,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "C’est parti !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "00432019006500730074002000700061007200740069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Sauvegarde en cours...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "005300610075007600650067006100720064006500200065006E00200063006F007500720073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Lorsque le message « Sauvegarde en cours... » s’affiche,\ncela signifie que le jeu est en train de sauvegarder\nvotre progression automatiquement.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "004C006F007200730071007500650020006C00650020006D006500730073006100670065002000AB0020005300610075007600650067006100720064006500200065006E00200063006F007500720073002E002E002E002000BB0020007320190061006600660069006300680065002C000A00630065006C00610020007300690067006E006900660069006500200071007500650020006C00650020006A00650075002000650073007400200065006E00200074007200610069006E002000640065002000730061007500760065006700610072006400650072000A0076006F007400720065002000700072006F006700720065007300730069006F006E0020006100750074006F006D006100740069007100750065006D0065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 145
+    },
+    {
+      "displayText": "Sélectionnez une apparence.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "005300E9006C0065006300740069006F006E006E0065007A00200075006E00650020006100700070006100720065006E00630065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Utilisez le stick gauche.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A0020006C006500200073007400690063006B0020006700610075006300680065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Enregistrement du profil",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "0045006E00720065006700690073007400720065006D0065006E0074002000640075002000700072006F00660069006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ces paramètres vous conviennent-ils ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 724,
+      "rawDecodedUtf16Hex": "00430065007300200070006100720061006D00E8007400720065007300200076006F0075007300200063006F006E007600690065006E006E0065006E0074002D0069006C00730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Vous ne pourrez pas changer de langue ou de nom plus tard.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "0056006F007500730020006E006500200070006F0075007200720065007A00200070006100730020006300680061006E0067006500720020006400650020006C0061006E0067007500650020006F00750020006400650020006E006F006D00200070006C0075007300200074006100720064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Langue",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "004C0061006E0067007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Français",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "004600720061006E00E70061006900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Nom",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "004E006F006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ɖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 964,
+      "rawDecodedUtf16Hex": "00100002018900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Couleur de cheveux",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "0043006F0075006C006500750072002000640065002000630068006500760065007500780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Apparence du visage",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "004100700070006100720065006E0063006500200064007500200076006900730061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1092,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Retour",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "005200650074006F007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1132,
+  "sectionOffset": 16,
+  "textCount": 22,
+  "textSectionCount": 1
+}

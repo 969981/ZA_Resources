@@ -1,0 +1,63 @@
+{
+  "declaredLength": 120,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "是自己的床。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "662F81EA5DF176845E8A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "休息到晚上",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "4F11606F5230665A4E0A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "休息到早上",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "4F11606F523065E94E0A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "还是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "8FD8662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "现在不是睡觉的时候。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 96,
+      "rawDecodedUtf16Hex": "73B057284E0D662F776189C9768465F6501930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 120,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

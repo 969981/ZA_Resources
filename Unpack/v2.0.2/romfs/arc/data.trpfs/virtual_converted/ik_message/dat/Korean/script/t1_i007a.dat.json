@@ -1,0 +1,23 @@
+{
+  "declaredLength": 92,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "박사처럼 보이는 인물의 초상화다.\n그림 자체는 제법 오래된 것 같다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "BC15C0ACCC98B7FC0020BCF4C774B2940020C778BB3CC7580020CD08C0C1D654B2E4002E000AADF8B9BC0020C790CCB4B2940020C81CBC950020C624B798B41C0020AC830020AC19B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 92,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

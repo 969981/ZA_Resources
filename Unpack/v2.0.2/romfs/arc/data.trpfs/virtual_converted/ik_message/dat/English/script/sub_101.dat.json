@@ -1,0 +1,463 @@
+{
+  "declaredLength": 5468,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Do you know about Skarmory, the Armor Bird\nPokémon?<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "0044006F00200079006F00750020006B006E006F0077002000610062006F0075007400200053006B00610072006D006F00720079002C0020007400680065002000410072006D006F007200200042006900720064000A0050006F006B00E9006D006F006E003F001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "It sheds thin, sharp feathers that were once used\nto make swords. Today, they’re used for knives.<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "004900740020007300680065006400730020007400680069006E002C00200073006800610072007000200066006500610074006800650072007300200074006800610074002000770065007200650020006F006E0063006500200075007300650064000A0074006F0020006D0061006B0065002000730077006F007200640073002E00200054006F006400610079002C002000740068006500792019007200650020007500730065006400200066006F00720020006B006E0069007600650073002E001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "I’ve been wanting to get my hands on one of\nthose feathers so I can gift it to a top-class chef<U+0010><U+0001>븀\nwho’s near and dear to my heart.<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 692,
+      "rawDecodedUtf16Hex": "00492019007600650020006200650065006E002000770061006E00740069006E006700200074006F00200067006500740020006D0079002000680061006E006400730020006F006E0020006F006E00650020006F0066000A00740068006F0073006500200066006500610074006800650072007300200073006F00200049002000630061006E0020006700690066007400200069007400200074006F0020006100200074006F0070002D0063006C0061007300730020006300680065006600100001BE00000A00770068006F201900730020006E00650061007200200061006E00640020006400650061007200200074006F0020006D0079002000680065006100720074002E001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 136
+    },
+    {
+      "displayText": "And a Z-A Royale Trainer such as yourself seems\nlike the perfect person to find one for me!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 964,
+      "rawDecodedUtf16Hex": "0041006E0064002000610020005A002D004100200052006F00790061006C006500200054007200610069006E006500720020007300750063006800200061007300200079006F0075007200730065006C00660020007300650065006D0073000A006C0069006B006500200074006800650020007000650072006600650063007400200070006500720073006F006E00200074006F002000660069006E00640020006F006E006500200066006F00720020006D00650021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Problem is, the Skarmory in Lumiose are found in\nWild Zone 17. And that zone is just bursting with<U+0010><U+0001>븀\nferocious Pokémon.<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "00500072006F0062006C0065006D002000690073002C002000740068006500200053006B00610072006D006F0072007900200069006E0020004C0075006D0069006F00730065002000610072006500200066006F0075006E006400200069006E000A00570069006C00640020005A006F006E0065002000310037002E00200041006E0064002000740068006100740020007A006F006E00650020006900730020006A0075007300740020006200750072007300740069006E00670020007700690074006800100001BE00000A006600650072006F00630069006F0075007300200050006F006B00E9006D006F006E002E001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "That’s why I’m outsourcing the whole search to a\nTrainer of your talent... Thanks in advance!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "0054006800610074201900730020007700680079002000492019006D0020006F007500740073006F0075007200630069006E00670020007400680065002000770068006F006C0065002000730065006100720063006800200074006F00200061000A0054007200610069006E006500720020006F006600200079006F00750072002000740061006C0065006E0074002E002E002E0020005400680061006E006B007300200069006E00200061006400760061006E006300650021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Please find me a Skarmory feather! I suggest\nlooking in Wild Zone 17.<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "0050006C0065006100730065002000660069006E00640020006D00650020006100200053006B00610072006D006F007200790020006600650061007400680065007200210020004900200073007500670067006500730074000A006C006F006F006B0069006E006700200069006E002000570069006C00640020005A006F006E0065002000310037002E001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh! It’s a Skarmory feather!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1776,
+      "rawDecodedUtf16Hex": "004F00680021002000490074201900730020006100200053006B00610072006D006F007200790020006600650061007400680065007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "It’s a Skarmory talon... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "00490074201900730020006100200053006B00610072006D006F00720079002000740061006C006F006E002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "It’s a pile of cinders from a Lampent... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1904,
+      "rawDecodedUtf16Hex": "004900742019007300200061002000700069006C00650020006F0066002000630069006E0064006500720073002000660072006F006D002000610020004C0061006D00700065006E0074002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "It’s a sliver of metal from a Klefki’s key... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "00490074201900730020006100200073006C00690076006500720020006F00660020006D006500740061006C002000660072006F006D002000610020004B006C00650066006B0069201900730020006B00650079002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "It’s a tuft of Diggersby fur... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 2116,
+      "rawDecodedUtf16Hex": "004900742019007300200061002000740075006600740020006F006600200044006900670067006500720073006200790020006600750072002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "It’s a chunk from a Chespin’s spike... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "0049007420190073002000610020006300680075006E006B002000660072006F006D002000610020004300680065007300700069006E201900730020007300700069006B0065002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "It’s mane hair from a female Pyroar... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2296,
+      "rawDecodedUtf16Hex": "00490074201900730020006D0061006E006500200068006100690072002000660072006F006D00200061002000660065006D0061006C00650020005000790072006F00610072002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "It’s mane hair from a male Pyroar... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "00490074201900730020006D0061006E006500200068006100690072002000660072006F006D002000610020006D0061006C00650020005000790072006F00610072002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "It’s a shiny pebble... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "0049007420190073002000610020007300680069006E007900200070006500620062006C0065002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "It’s a glittery bead... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "00490074201900730020006100200067006C00690074007400650072007900200062006500610064002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "It’s a piece of sparkly sequin... Too bad!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "0049007420190073002000610020007000690065006300650020006F006600200073007000610072006B006C0079002000730065007100750069006E002E002E002E00200054006F006F002000620061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "I got the feeling you might’ve found a feather by\nnow, so I bolted past the Pyroar to get up here!<U+0010><U+0001>븁\nThat’s the feather, right? Ooh, I can already tell\nit’ll make an incredible kitchen knife!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "004900200067006F007400200074006800650020006600650065006C0069006E006700200079006F00750020006D006900670068007420190076006500200066006F0075006E00640020006100200066006500610074006800650072002000620079000A006E006F0077002C00200073006F0020004900200062006F006C0074006500640020007000610073007400200074006800650020005000790072006F0061007200200074006F002000670065007400200075007000200068006500720065002100100001BE01000A005400680061007420190073002000740068006500200066006500610074006800650072002C002000720069006700680074003F0020004F006F0068002C00200049002000630061006E00200061006C00720065006100640079002000740065006C006C000A006900742019006C006C0020006D0061006B006500200061006E00200069006E006300720065006400690062006C00650020006B00690074006300680065006E0020006B006E0069006600650021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 197
+    },
+    {
+      "displayText": "SKARAAA!!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "0053004B004100520041004100410021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Wh-why now?!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3124,
+      "rawDecodedUtf16Hex": "00570068002D0077006800790020006E006F0077003F0021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Please! You need to scare off this Skarmory!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "0050006C0065006100730065002100200059006F00750020006E00650065006400200074006F0020007300630061007200650020006F006600660020007400680069007300200053006B00610072006D006F007200790021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "SKARAAA!!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "0053004B004100520041004100410021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3284,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Phew... Why in the world would this Skarmory\nattack us like that?<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3296,
+      "rawDecodedUtf16Hex": "0050006800650077002E002E002E002000570068007900200069006E002000740068006500200077006F0072006C006400200077006F0075006C00640020007400680069007300200053006B00610072006D006F00720079000A00610074007400610063006B0020007500730020006C0069006B006500200074006800610074003F001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "SKARAAA!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "0053004B0041005200410041004100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Are you angry because...this feather is important\nto you? Well, it is to me too, you know!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 3456,
+      "rawDecodedUtf16Hex": "00410072006500200079006F007500200061006E00670072007900200062006500630061007500730065002E002E002E00740068006900730020006600650061007400680065007200200069007300200069006D0070006F007200740061006E0074000A0074006F00200079006F0075003F002000570065006C006C002C00200069007400200069007300200074006F0020006D006500200074006F006F002C00200079006F00750020006B006E006F00770021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "There’s a chef I want to give it to so he can make\nit into an amazing kitchen knife...<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3648,
+      "rawDecodedUtf16Hex": "0054006800650072006520190073002000610020006300680065006600200049002000770061006E007400200074006F0020006700690076006500200069007400200074006F00200073006F002000680065002000630061006E0020006D0061006B0065000A0069007400200069006E0074006F00200061006E00200061006D0061007A0069006E00670020006B00690074006300680065006E0020006B006E006900660065002E002E002E001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "The food he cooks brings real joy to the good folks\nof Lumiose—and to the Pokémon too!<U+0010><U+0001>븁\nHe’s a very special chef, so...please! Will you let\nme have this feather?<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3832,
+      "rawDecodedUtf16Hex": "00540068006500200066006F006F006400200068006500200063006F006F006B00730020006200720069006E006700730020007200650061006C0020006A006F007900200074006F002000740068006500200067006F006F006400200066006F006C006B0073000A006F00660020004C0075006D0069006F0073006520140061006E006400200074006F002000740068006500200050006F006B00E9006D006F006E00200074006F006F002100100001BE01000A004800652019007300200061002000760065007200790020007300700065006300690061006C00200063006800650066002C00200073006F002E002E002E0070006C00650061007300650021002000570069006C006C00200079006F00750020006C00650074000A006D0065002000680061007600650020007400680069007300200066006500610074006800650072003F001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 168
+    },
+    {
+      "displayText": "Skar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4168,
+      "rawDecodedUtf16Hex": "0053006B0061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "You...you’re OK with me having it?!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4180,
+      "rawDecodedUtf16Hex": "0059006F0075002E002E002E0079006F00752019007200650020004F004B002000770069007400680020006D006500200068006100760069006E0067002000690074003F0021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Skar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4260,
+      "rawDecodedUtf16Hex": "0053006B0061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Thank you so much for your help! I’ll tell the chef\nall about you and your kindness!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "005400680061006E006B00200079006F007500200073006F0020006D00750063006800200066006F007200200079006F00750072002000680065006C00700021002000492019006C006C002000740065006C006C002000740068006500200063006800650066000A0061006C006C002000610062006F0075007400200079006F007500200061006E006400200079006F007500720020006B0069006E0064006E0065007300730021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Oh! And once he starts cooking meals with his\nnew knife, you’re very welcome to pay us a visit<U+0010><U+0001>븀\nat Restaurant Le Wow!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 4452,
+      "rawDecodedUtf16Hex": "004F0068002100200041006E00640020006F006E00630065002000680065002000730074006100720074007300200063006F006F006B0069006E00670020006D00650061006C0073002000770069007400680020006800690073000A006E006500770020006B006E006900660065002C00200079006F007520190072006500200076006500720079002000770065006C0063006F006D006500200074006F00200070006100790020007500730020006100200076006900730069007400100001BE00000A00610074002000520065007300740061007500720061006E00740020004C006500200057006F00770021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Skar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4700,
+      "rawDecodedUtf16Hex": "0053006B0061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "I sure hope my feelings reached this Skarmory...\nDo you think it really understood me?<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 4712,
+      "rawDecodedUtf16Hex": "00490020007300750072006500200068006F007000650020006D00790020006600650065006C0069006E00670073002000720065006100630068006500640020007400680069007300200053006B00610072006D006F00720079002E002E002E000A0044006F00200079006F00750020007400680069006E006B0020006900740020007200650061006C006C007900200075006E00640065007200730074006F006F00640020006D0065003F001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Yeah, it seems you got through to it",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4896,
+      "rawDecodedUtf16Hex": "0059006500610068002C0020006900740020007300650065006D007300200079006F007500200067006F00740020007400680072006F00750067006800200074006F0020006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "I bet it’ll show up at your restaurant",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 4972,
+      "rawDecodedUtf16Hex": "004900200062006500740020006900742019006C006C002000730068006F007700200075007000200061007400200079006F00750072002000720065007300740061007500720061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "I suppose so! Now that I’ve made friends with a\nwild Pokémon, who knows what’ll happen next!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 5052,
+      "rawDecodedUtf16Hex": "004900200073007500700070006F0073006500200073006F00210020004E006F007700200074006800610074002000492019007600650020006D00610064006500200066007200690065006E006400730020007700690074006800200061000A00770069006C006400200050006F006B00E9006D006F006E002C002000770068006F0020006B006E006F00770073002000770068006100742019006C006C002000680061007000700065006E0020006E0065007800740021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5248,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Thanks to you, I’ve gained something far more\nvaluable than a kitchen knife. I’m so grateful!<U+0010><U+0002>ĔŽ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5260,
+      "rawDecodedUtf16Hex": "005400680061006E006B007300200074006F00200079006F0075002C002000492019007600650020006700610069006E0065006400200073006F006D0065007400680069006E006700200066006100720020006D006F00720065000A00760061006C007500610062006C00650020007400680061006E002000610020006B00690074006300680065006E0020006B006E006900660065002E002000492019006D00200073006F00200067007200610074006500660075006C0021001000020114017D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Skar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5456,
+      "rawDecodedUtf16Hex": "0053006B0061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5468,
+  "sectionOffset": 16,
+  "textCount": 45,
+  "textSectionCount": 1
+}

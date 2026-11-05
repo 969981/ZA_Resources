@@ -1,0 +1,53 @@
+{
+  "declaredLength": 280,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Vuoi scambiare i tuoi Megaframmenti con\ndegli strumenti?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00560075006F00690020007300630061006D0062006900610072006500200069002000740075006F00690020004D006500670061006600720061006D006D0065006E0074006900200063006F006E000A006400650067006C006900200073007400720075006D0065006E00740069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Sì, grazie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "005300EC002C0020006700720061007A006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Non adesso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "004E006F006E002000610064006500730073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Torna a trovarci in qualsiasi momento.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "0054006F0072006E006100200061002000740072006F0076006100720063006900200069006E0020007100750061006C007300690061007300690020006D006F006D0065006E0074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 280,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

@@ -1,0 +1,463 @@
+{
+  "declaredLength": 2668,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Wie heißt du?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "005700690065002000680065006900DF0074002000640075003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Diesen Namen kannst du nicht verwenden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00440069006500730065006E0020004E0061006D0065006E0020006B0061006E006E007300740020006400750020006E0069006300680074002000760065007200770065006E00640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "„<U+0010><U+0002>Į<U+0000>“\nist nicht zulässig.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "201E00100002012E0000201C000A0069007300740020006E00690063006800740020007A0075006C00E40073007300690067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Bitte gib einen Namen ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E0065006E0020004E0061006D0065006E002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Wie soll <U+0010><U+0002>ā<U+0000> heißen?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "00570069006500200073006F006C006C00200010000201010000002000680065006900DF0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Wie soll <U+0010><U+0002>ā<U+0000> (♂) heißen?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "00570069006500200073006F006C006C002000100002010100000020002826420029002000680065006900DF0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Wie soll <U+0010><U+0002>ā<U+0000> (♀) heißen?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 692,
+      "rawDecodedUtf16Hex": "00570069006500200073006F006C006C002000100002010100000020002826400029002000680065006900DF0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Wie soll die Box heißen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "00570069006500200073006F006C006C002000640069006500200042006F0078002000680065006900DF0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Wie soll dein Kampfteam heißen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "00570069006500200073006F006C006C0020006400650069006E0020004B0061006D00700066007400650061006D002000680065006900DF0065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte gib einen Seriencode oder ein Passwort ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E0065006E002000530065007200690065006E0063006F006400650020006F006400650072002000650069006E002000500061007300730077006F00720074002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1044,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "In welchem der zwölf Monate wurdest du geboren?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "0049006E002000770065006C006300680065006D00200064006500720020007A007700F6006C00660020004D006F006E006100740065002000770075007200640065007300740020006400750020006700650062006F00720065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "An welchem Tag hast du Geburtstag?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "0041006E002000770065006C006300680065006D00200054006100670020006800610073007400200064007500200047006500620075007200740073007400610067003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Du kannst ein achtstelliges Passwort eingeben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E00730074002000650069006E00200061006300680074007300740065006C006C0069006700650073002000500061007300730077006F00720074002000650069006E0067006500620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Bitte gib ein achtstelliges Passwort ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00200061006300680074007300740065006C006C0069006700650073002000500061007300730077006F00720074002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Bitte gib ein Verbindungspasswort ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E002000560065007200620069006E00640075006E0067007300700061007300730077006F00720074002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Bitte gib eine Turnier-ID ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00650020005400750072006E006900650072002D00490044002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1608,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte gib die Team-ID des gewünschten Leihteams ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "00420069007400740065002000670069006200200064006900650020005400650061006D002D004900440020006400650073002000670065007700FC006E00730063006800740065006E0020004C006500690068007400650061006D0073002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1728,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte gib den Namen des Turniers ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000640065006E0020004E0061006D0065006E00200064006500730020005400750072006E0069006500720073002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Bitte gib einen Untertitel für das Turnier ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E0065006E00200055006E0074006500720074006900740065006C0020006600FC007200200064006100730020005400750072006E006900650072002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Die Eingabe eines Untertitels ist optional.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1912,
+      "rawDecodedUtf16Hex": "004400690065002000450069006E0067006100620065002000650069006E0065007300200055006E0074006500720074006900740065006C007300200069007300740020006F007000740069006F006E0061006C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Du kannst maximal fünf Ziffern eingeben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E007300740020006D006100780069006D0061006C0020006600FC006E00660020005A00690066006600650072006E002000650069006E0067006500620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte gib eine Zahl zwischen 1 und 12 ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00650020005A00610068006C0020007A007700690073006300680065006E0020003100200075006E0064002000310032002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Bitte gib eine Zahl zwischen 1 und 31 ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2184,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00650020005A00610068006C0020007A007700690073006300680065006E0020003100200075006E0064002000330031002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Bitte gib eine Zahl zwischen 1 und 30 ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00650020005A00610068006C0020007A007700690073006300680065006E0020003100200075006E0064002000330030002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Bitte gib eine Zahl zwischen 1 und 29 ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E00650020005A00610068006C0020007A007700690073006300680065006E0020003100200075006E0064002000320039002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Diese Eingabe ist ungültig.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2448,
+      "rawDecodedUtf16Hex": "00440069006500730065002000450069006E0067006100620065002000690073007400200075006E006700FC006C007400690067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Bitte gib einen Namen für die Straße ein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2504,
+      "rawDecodedUtf16Hex": "004200690074007400650020006700690062002000650069006E0065006E0020004E0061006D0065006E0020006600FC007200200064006900650020005300740072006100DF0065002000650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Diesen Namen wirst du der Straße geben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "00440069006500730065006E0020004E0061006D0065006E00200077006900720073007400200064007500200064006500720020005300740072006100DF006500200067006500620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2668,
+  "sectionOffset": 16,
+  "textCount": 45,
+  "textSectionCount": 1
+}

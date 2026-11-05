@@ -1,0 +1,33 @@
+{
+  "declaredLength": 140,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "이후 스토리를 진행하려면\n추가 콘텐츠가 필요합니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "C774D6C40020C2A4D1A0B9ACB97C0020C9C4D589D558B824BA74000ACD94AC000020CF58D150CE20AC000020D544C694D569B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "이 사이드 미션을 받으려면\n추가 콘텐츠가 필요합니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 80,
+      "rawDecodedUtf16Hex": "C7740020C0ACC774B4DC0020BBF8C158C7440020BC1BC73CB824BA74000ACD94AC000020CF58D150CE20AC000020D544C694D569B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 140,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

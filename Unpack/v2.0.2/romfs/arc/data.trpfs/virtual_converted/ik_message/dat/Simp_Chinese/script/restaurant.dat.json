@@ -1,0 +1,993 @@
+{
+  "declaredLength": 5432,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "口味安心，环境舒心，价格放心。\n欢迎光临谱通餐馆。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "53E354735B895FC3FF0C73AF588382125FC3FF0C4EF7683C653E5FC33002000A6B228FCE51494E348C31901A9910998630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的3连胜套餐。<U+0010><U+0001>븁\n首次光临可以特别享受\n免单优惠，您要挑战吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF9621851689910768400338FDE80DC59579910300200100001BE01000A99966B2151494E3453EF4EE57279522B4EAB53D7000A514D53554F1860E0FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的3连胜套餐。<U+0010><U+0001>븀\n价格为<U+E300>3000，您要挑战吗？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF9621851689910768400338FDE80DC59579910300200100001BE00000A4EF7683C4E3AE3000033003000300030FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "我要挑战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1036,
+      "rawDecodedUtf16Hex": "62118981631162180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请说明一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "8BF78BF4660E4E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "不用了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "4E0D75284E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "好的，您这边请。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1068,
+      "rawDecodedUtf16Hex": "597D7684FF0C60A88FD98FB98BF730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "这位客人……<U+0010><U+0001>븁\n虽然我欣赏您没有钱\n还来消费的幽默感，<U+0010><U+0001>븀\n但我们也是要做生意的。",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "8FD94F4D5BA24EBA2026202600100001BE01000A867D713662116B238D4F60A86CA1670994B1000A8FD867656D888D3976845E7D9ED8611FFF0C00100001BE00000A4F4662114EEC4E5F662F8981505A751F610F768430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "请在不帮宝可梦回复的情况下\n连续战胜3位热爱美食的训练家。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "8BF757284E0D5E2E5B9D53EF68A656DE590D768460C551B54E0B000A8FDE7EED621880DC00334F4D70ED72317F8E98DF76848BAD7EC35BB630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "欢迎您再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "6B228FCE60A8518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "第一道是\n雨音的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "7B2C4E009053662F000A96E897F376845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第二道是\n隆治的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "7B2C4E8C9053662F000A96866CBB76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第三道是\n郁彦的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "7B2C4E099053662F000A90C15F6676845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "恭喜！\n您已经享用完所有的对战了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "606D559CFF01000A60A85DF27ECF4EAB75285B8C6240670976845BF962184E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "请收下报酬。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "8BF765364E0B62A5916C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "那么，期待您的再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1480,
+      "rawDecodedUtf16Hex": "90A34E48FF0C671F5F8560A87684518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "没有可以战斗的宝可梦了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1508,
+      "rawDecodedUtf16Hex": "6CA1670953EF4EE56218659776845B9D53EF68A64E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n无法动弹了……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1536,
+      "rawDecodedUtf16Hex": "0010000201000000000A65E06CD552A85F394E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "很遗憾没能让您\n享用宝可梦对战到最后。<U+0010><U+0001>븀\n欢迎您再来挑战。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1564,
+      "rawDecodedUtf16Hex": "5F88905761BE6CA180FD8BA960A8000A4EAB75285B9D53EF68A65BF9621852306700540E300200100001BE00000A6B228FCE60A8518D67656311621830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "真是精彩的表现！<U+0010><U+0001>븁\n这是答谢您\n尽情享受本店的谢礼。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "771F662F7CBE5F697684886873B0FF0100100001BE01000A8FD9662F7B548C2260A8000A5C3D60C54EAB53D7672C5E9776848C22793C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "从下次起会收取您<U+E300>3000的费用，\n不介意的话，欢迎再次光临。",
+      "escapedControlUnits": 1,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1688,
+      "rawDecodedUtf16Hex": "4ECE4E0B6B218D774F1A653653D660A8E300003300300030003076848D397528FF0C000A4E0D4ECB610F76848BDDFF0C6B228FCE518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1752,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "您好，欢迎光临贰流餐馆。<U+0010><U+0001>븁\n本餐厅的味道和服务都是\n二星级水准，请问您要用餐吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "60A8597DFF0C6B228FCE51494E348D306D4199109986300200100001BE01000A672C99105385768454739053548C670D52A190FD662F000A4E8C661F7EA76C3451C6FF0C8BF795EE60A88981752899105417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的5连胜套餐。<U+0010><U+0001>븁\n首次光临可以特别享受\n免单优惠，您要挑战吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1852,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF9621851689910768400358FDE80DC59579910300200100001BE01000A99966B2151494E3453EF4EE57279522B4EAB53D7000A514D53554F1860E0FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的5连胜套餐。<U+0010><U+0001>븀\n价格为<U+E300>15000，您要挑战吗？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF9621851689910768400358FDE80DC59579910300200100001BE00000A4EF7683C4E3AE30000310035003000300030FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "我要挑战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "62118981631162180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请说明一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2060,
+      "rawDecodedUtf16Hex": "8BF78BF4660E4E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "不用了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "4E0D75284E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "好的，您这边请。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "597D7684FF0C60A88FD98FB98BF730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "实在不好意思，\n您身上的钱似乎不够。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "5B9E57284E0D597D610F601DFF0C000A60A88EAB4E0A768494B14F3C4E4E4E0D591F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "请在不帮宝可梦回复的情况下\n连续战胜5位训练家。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2140,
+      "rawDecodedUtf16Hex": "8BF757284E0D5E2E5B9D53EF68A656DE590D768460C551B54E0B000A8FDE7EED621880DC00354F4D8BAD7EC35BB630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "欢迎您再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "6B228FCE60A8518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "第一道是\n娜塔莉的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2212,
+      "rawDecodedUtf16Hex": "7B2C4E009053662F000A5A1C5854838976845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第二道是\n冬马的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "7B2C4E8C9053662F000A51AC9A6C76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第三道是\n米歇尔的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "7B2C4E099053662F000A7C736B475C1476845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第四道是\n爱黛琳的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "7B2C56DB9053662F000A72319EDB743376845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第五道是\n亚尼克的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2448,
+      "rawDecodedUtf16Hex": "7B2C4E949053662F000A4E9A5C3C514B76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "恭喜！\n您已经享用完所有的对战了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "606D559CFF01000A60A85DF27ECF4EAB75285B8C6240670976845BF962184E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "请收下报酬。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "8BF765364E0B62A5916C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "那么，期待您的再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2560,
+      "rawDecodedUtf16Hex": "90A34E48FF0C671F5F8560A87684518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "没有可以战斗的宝可梦了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "6CA1670953EF4EE56218659776845B9D53EF68A64E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n无法动弹了……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "0010000201000000000A65E06CD552A85F394E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "很遗憾没能让您\n享用宝可梦对战到最后。<U+0010><U+0001>븀\n欢迎您再来挑战。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2644,
+      "rawDecodedUtf16Hex": "5F88905761BE6CA180FD8BA960A8000A4EAB75285B9D53EF68A65BF9621852306700540E300200100001BE00000A6B228FCE60A8518D67656311621830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "真是精彩的表现！<U+0010><U+0001>븁\n这是答谢您\n尽情享受本店的谢礼。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "771F662F7CBE5F697684886873B0FF0100100001BE01000A8FD9662F7B548C2260A8000A5C3D60C54EAB53D7672C5E9776848C22793C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "从下次起会收取您<U+E300>15000的费用，\n不介意的话，欢迎再次光临。",
+      "escapedControlUnits": 1,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "4ECE4E0B6B218D774F1A653653D660A8E3000031003500300030003076848D397528FF0C000A4E0D4ECB610F76848BDDFF0C6B228FCE518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿-",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "00100002BDFF002D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "时刻提供最优质的服务……\n欢迎光临鼎极餐馆。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "65F6523B63D04F9B67004F188D287684670D52A120262026000A6B228FCE51494E349F0E67819910998630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的10连胜套餐。<U+0010><U+0001>븁\n首次光临可以特别享受\n免单优惠，您要挑战吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF96218516899107684003100308FDE80DC59579910300200100001BE01000A99966B2151494E3453EF4EE57279522B4EAB53D7000A514D53554F1860E0FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "在本店，您可以享用到\n宝可梦对战全餐的10连胜套餐。<U+0010><U+0001>븀\n价格为<U+E300>100000，您要挑战吗？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3004,
+      "rawDecodedUtf16Hex": "5728672C5E97FF0C60A853EF4EE54EAB75285230000A5B9D53EF68A65BF96218516899107684003100308FDE80DC59579910300200100001BE00000A4EF7683C4E3AE300003100300030003000300030FF0C60A88981631162185417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "我要挑战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "62118981631162180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请说明一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3112,
+      "rawDecodedUtf16Hex": "8BF78BF4660E4E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "不用了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3124,
+      "rawDecodedUtf16Hex": "4E0D75284E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "好的，您这边请。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3132,
+      "rawDecodedUtf16Hex": "597D7684FF0C60A88FD98FB98BF730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "实在不好意思，\n您身上的钱似乎不够。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "5B9E57284E0D597D610F601DFF0C000A60A88EAB4E0A768494B14F3C4E4E4E0D591F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "请在不帮宝可梦回复的情况下\n连续战胜10位训练家。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "8BF757284E0D5E2E5B9D53EF68A656DE590D768460C551B54E0B000A8FDE7EED621880DC003100304F4D8BAD7EC35BB630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "欢迎您再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3244,
+      "rawDecodedUtf16Hex": "6B228FCE60A8518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "第一道是\n乔艾尔的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3264,
+      "rawDecodedUtf16Hex": "7B2C4E009053662F000A4E54827E5C1476845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第二道是\n朱利的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3324,
+      "rawDecodedUtf16Hex": "7B2C4E8C9053662F000A6731522976845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第三道是\n塞弗琳的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3380,
+      "rawDecodedUtf16Hex": "7B2C4E099053662F000A585E5F17743376845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第四道是\n波雷特的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3440,
+      "rawDecodedUtf16Hex": "7B2C56DB9053662F000A6CE296F7727976845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第五道是\n爵鲁曼的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3500,
+      "rawDecodedUtf16Hex": "7B2C4E949053662F000A72359C8166FC76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第六道是\n依丝特的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3560,
+      "rawDecodedUtf16Hex": "7B2C516D9053662F000A4F9D4E1D727976845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第七道是\n法比安的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3620,
+      "rawDecodedUtf16Hex": "7B2C4E039053662F000A6CD56BD45B8976845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第八道是\n珀琳的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3680,
+      "rawDecodedUtf16Hex": "7B2C516B9053662F000A73C0743376845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第九道是\n莫里丝的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3736,
+      "rawDecodedUtf16Hex": "7B2C4E5D9053662F000A83AB91CC4E1D76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "第十道是\n克里斯托福的宝可梦们。<U+0010><U+0001>븀\n那么，祝您用餐愉快。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3796,
+      "rawDecodedUtf16Hex": "7B2C53419053662F000A514B91CC65AF6258798F76845B9D53EF68A64EEC300200100001BE00000A90A34E48FF0C795D60A87528991061095FEB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "恭喜！\n您已经享用完所有的对战了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3860,
+      "rawDecodedUtf16Hex": "606D559CFF01000A60A85DF27ECF4EAB75285B8C6240670976845BF962184E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "请收下报酬。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3896,
+      "rawDecodedUtf16Hex": "8BF765364E0B62A5916C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "那么，期待您的再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3912,
+      "rawDecodedUtf16Hex": "90A34E48FF0C671F5F8560A87684518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "没有可以战斗的宝可梦了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "6CA1670953EF4EE56218659776845B9D53EF68A64E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n无法动弹了……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3968,
+      "rawDecodedUtf16Hex": "0010000201000000000A65E06CD552A85F394E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "很遗憾没能让您\n享用宝可梦对战到最后。<U+0010><U+0001>븀\n欢迎您再来挑战。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3996,
+      "rawDecodedUtf16Hex": "5F88905761BE6CA180FD8BA960A8000A4EAB75285B9D53EF68A65BF9621852306700540E300200100001BE00000A6B228FCE60A8518D67656311621830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "真是精彩的表现！<U+0010><U+0001>븁\n这是答谢您\n尽情享受本店的谢礼。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 4060,
+      "rawDecodedUtf16Hex": "771F662F7CBE5F697684886873B0FF0100100001BE01000A8FD9662F7B548C2260A8000A5C3D60C54EAB53D7672C5E9776848C22793C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "从下次起会收取您<U+E300>100000的费用，\n不介意的话，欢迎再次光临。",
+      "escapedControlUnits": 1,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 4120,
+      "rawDecodedUtf16Hex": "4ECE4E0B6B218D774F1A653653D660A8E30000310030003000300030003076848D397528FF0C000A4E0D4ECB610F76848BDDFF0C6B228FCE518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4188,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嗨！请进请进！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4200,
+      "rawDecodedUtf16Hex": "55E8FF018BF78FDB8BF78FDBFF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "这里是充满东方魅力的\n回转OSUSHI餐厅，<U+0010><U+0001>븀\n回转梦想家～！！<U+0010><U+0001>븁\n这位客人～您看怎么样～？\n要不要和刚捉到的宝可梦<U+0010><U+0001>븀\n连打5场超高水准的对战呀～？<U+0010><U+0001>븁\n当然～首次体验的费用全免！\n但是，迎战的可是宝可梦哦～！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4220,
+      "rawDecodedUtf16Hex": "8FD991CC662F51456EE14E1C65B99B45529B7684000A56DE8F6C004F0053005500530048004999105385FF0C00100001BE00000A56DE8F6C68A660F35BB6FF5EFF01FF0100100001BE01000A8FD94F4D5BA24EBAFF5E60A8770B600E4E486837FF5EFF1F000A89814E0D8981548C521A6349523076845B9D53EF68A600100001BE00000A8FDE62530035573A8D859AD86C3451C676845BF962185440FF5EFF1F00100001BE01000A5F537136FF5E99966B214F539A8C76848D3975285168514DFF01000A4F46662FFF0C8FCE6218768453EF662F5B9D53EF68A654E6FF5EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "这里是充满东方魅力的\n回转OSUSHI餐厅，<U+0010><U+0001>븀\n回转梦想家～！！<U+0010><U+0001>븁\n这位客人～您看怎么样～？\n要不要花<U+E300>30000和刚捉到的<U+0010><U+0001>븀\n宝可梦连打5场超高水准的对战呀～？",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4448,
+      "rawDecodedUtf16Hex": "8FD991CC662F51456EE14E1C65B99B45529B7684000A56DE8F6C004F0053005500530048004999105385FF0C00100001BE00000A56DE8F6C68A660F35BB6FF5EFF01FF0100100001BE01000A8FD94F4D5BA24EBAFF5E60A8770B600E4E486837FF5EFF1F000A89814E0D898182B1E30000330030003000300030548C521A63495230768400100001BE00000A5B9D53EF68A68FDE62530035573A8D859AD86C3451C676845BF962185440FF5EFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "我要挑战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4624,
+      "rawDecodedUtf16Hex": "62118981631162180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请说明一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4636,
+      "rawDecodedUtf16Hex": "8BF78BF4660E4E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "不用了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4648,
+      "rawDecodedUtf16Hex": "4E0D75284E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "好的，您这边请。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4656,
+      "rawDecodedUtf16Hex": "597D7684FF0C60A88FD98FB98BF730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "实在不好意思，\n您身上的钱似乎不够。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "5B9E57284E0D597D610F601DFF0C000A60A88EAB4E0A768494B14F3C4E4E4E0D591F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "请在不帮宝可梦回复的情况下\n连续获胜5次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4716,
+      "rawDecodedUtf16Hex": "8BF757284E0D5E2E5B9D53EF68A656DE590D768460C551B54E0B000A8FDE7EED83B780DC00356B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "欢迎您再次光临。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "6B228FCE60A8518D6B2151494E3430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "第一道是\n虫宝可梦佐花园花纹～<U+0010><U+0001>븀\n那么，请您慢用。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4780,
+      "rawDecodedUtf16Hex": "7B2C4E009053662F000A866B5B9D53EF68A64F5082B156ED82B17EB9FF5E00100001BE00000A90A34E48FF0C8BF760A86162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "第二道是\n来自明镜道路的宝可梦们～<U+0010><U+0001>븀\n那么，请您慢用。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4836,
+      "rawDecodedUtf16Hex": "7B2C4E8C9053662F000A676581EA660E955C90538DEF76845B9D53EF68A64EECFF5E00100001BE00000A90A34E48FF0C8BF760A86162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "第三道是\n来自荒废酒店的宝可梦们～<U+0010><U+0001>븀\n那么，请您慢用。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4896,
+      "rawDecodedUtf16Hex": "7B2C4E099053662F000A676581EA83525E9F91525E9776845B9D53EF68A64EECFF5E00100001BE00000A90A34E48FF0C8BF760A86162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "第四道是\n来自迷幻森林的宝可梦们～<U+0010><U+0001>븀\n那么，请您慢用。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4956,
+      "rawDecodedUtf16Hex": "7B2C56DB9053662F000A676581EA8FF75E7B68EE679776845B9D53EF68A64EECFF5E00100001BE00000A90A34E48FF0C8BF760A86162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "第五道是\n喜欢进化之石的宝可梦们～<U+0010><U+0001>븀\n那么，请您慢用。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "7B2C4E949053662F000A559C6B228FDB53164E4B77F376845B9D53EF68A64EECFF5E00100001BE00000A90A34E48FF0C8BF760A86162752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "恭喜！\n您已经享用完所有的对战了！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 5076,
+      "rawDecodedUtf16Hex": "606D559CFF01000A60A85DF27ECF4EAB75285B8C6240670976845BF962184E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "请收下报酬。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 5112,
+      "rawDecodedUtf16Hex": "8BF765364E0B62A5916C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "那么，期待您再来光临～",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 5128,
+      "rawDecodedUtf16Hex": "90A34E48FF0C671F5F8560A8518D676551494E34FF5E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "没有可以战斗的宝可梦了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 5152,
+      "rawDecodedUtf16Hex": "6CA1670953EF4EE56218659776845B9D53EF68A64E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n无法动弹了……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 5180,
+      "rawDecodedUtf16Hex": "0010000201000000000A65E06CD552A85F394E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "很遗憾没能让您\n享用宝可梦对战到最后～<U+0010><U+0001>븀\n这位客人～欢迎您再来挑战！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 5208,
+      "rawDecodedUtf16Hex": "5F88905761BE6CA180FD8BA960A8000A4EAB75285B9D53EF68A65BF9621852306700540EFF5E00100001BE00000A8FD94F4D5BA24EBAFF5E6B228FCE60A8518D676563116218FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "您已经吃饱了吧。<U+0010><U+0001>븁\n这是感谢您尽情享受\n本店的礼物～收下吧！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 5284,
+      "rawDecodedUtf16Hex": "60A85DF27ECF540399714E865427300200100001BE01000A8FD9662F611F8C2260A85C3D60C54EAB53D7000A672C5E977684793C7269FF5E65364E0B5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "这位客人～！\n下次开始会收您<U+E300>30000的费用～<U+0010><U+0001>븀\n不过还是欢迎您再来啊！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 5352,
+      "rawDecodedUtf16Hex": "8FD94F4D5BA24EBAFF5EFF01000A4E0B6B215F0059CB4F1A653660A8E3000033003000300030003076848D397528FF5E00100001BE00000A4E0D8FC78FD8662F6B228FCE60A8518D6765554AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5432,
+  "sectionOffset": 16,
+  "textCount": 98,
+  "textSectionCount": 1
+}

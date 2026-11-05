@@ -1,0 +1,33 @@
+{
+  "declaredLength": 196,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Schau lieber später hier vorbei!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "005300630068006100750020006C0069006500620065007200200073007000E40074006500720020006800690065007200200076006F007200620065006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Dieser Holo-Lift kann momentan nicht benutzt\nwerden.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "00440069006500730065007200200048006F006C006F002D004C0069006600740020006B0061006E006E0020006D006F006D0065006E00740061006E0020006E0069006300680074002000620065006E00750074007A0074000A00770065007200640065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 196,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

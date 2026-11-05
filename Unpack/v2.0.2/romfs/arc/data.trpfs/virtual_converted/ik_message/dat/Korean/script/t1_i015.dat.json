@@ -1,0 +1,43 @@
+{
+  "declaredLength": 180,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "카운터 위에는\n최근에 사용된 듯한 컵이 놓여 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "CE74C6B4D1300020C704C5D0B294000ACD5CADFCC5D00020C0ACC6A9B41C0020B4EFD55C0020CEF5C7740020B193C5EC0020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "아직 정리 중인 걸까?\n박스가 방치되어 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 88,
+      "rawDecodedUtf16Hex": "C544C9C10020C815B9AC0020C911C7780020AC78AE4C003F000ABC15C2A4AC000020BC29CE58B418C5B40020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "선반에는 먼지가 조금 쌓여 있다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "C120BC18C5D0B2940020BA3CC9C0AC000020C870AE080020C313C5EC0020C788B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 180,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

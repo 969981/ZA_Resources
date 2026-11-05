@@ -1,0 +1,643 @@
+{
+  "declaredLength": 6000,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oh, du bist doch <U+0010><U+0002>Ā<U+0000> von Team MZ!\nIch habe eine Bitte an dich!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "004F0068002C0020006400750020006200690073007400200064006F006300680020001000020100000000200076006F006E0020005400650061006D0020004D005A0021000A00490063006800200068006100620065002000650069006E006500200042006900740074006500200061006E00200064006900630068002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Würdest du bitte mit meinem Hefel Gassi gehen?<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "005700FC007200640065007300740020006400750020006200690074007400650020006D006900740020006D00650069006E0065006D00200048006500660065006C00200047006100730073006900200067006500680065006E003F00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Hefel braucht Bewegung, um gesund zu bleiben,\naber ich habe leider sehr viel zu tun...<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "0048006500660065006C002000620072006100750063006800740020004200650077006500670075006E0067002C00200075006D00200067006500730075006E00640020007A007500200062006C0065006900620065006E002C000A00610062006500720020006900630068002000680061006200650020006C00650069006400650072002000730065006800720020007600690065006C0020007A0075002000740075006E002E002E002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Hef! Hef!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "0048006500660021002000480065006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Deshalb wäre es wirklich nett, wenn du mit\nihm Gassi gehen könntest!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "00440065007300680061006C00620020007700E4007200650020006500730020007700690072006B006C0069006300680020006E006500740074002C002000770065006E006E0020006400750020006D00690074000A00690068006D00200047006100730073006900200067006500680065006E0020006B00F6006E006E0074006500730074002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Sag Bescheid, wenn du bereit bist!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "005300610067002000420065007300630068006500690064002C002000770065006E006E002000640075002000620065007200650069007400200062006900730074002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bist du bereit, mit meinem Hefel Gassi zu gehen?<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "00420069007300740020006400750020006200650072006500690074002C0020006D006900740020006D00650069006E0065006D00200048006500660065006C0020004700610073007300690020007A007500200067006500680065006E003F00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Ich bin startklar!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "004900630068002000620069006E002000730074006100720074006B006C0061007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Einen Moment noch.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1340,
+      "rawDecodedUtf16Hex": "00450069006E0065006E0020004D006F006D0065006E00740020006E006F00630068002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Bitte geh mit meinem Hefel Gassi!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "0042006900740074006500200067006500680020006D006900740020006D00650069006E0065006D00200048006500660065006C002000470061007300730069002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Hefel hat beim Gassigehen eine Lieblingsroute,\nmusst du wissen.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "0048006500660065006C00200068006100740020006200650069006D0020004700610073007300690067006500680065006E002000650069006E00650020004C006900650062006C0069006E006700730072006F007500740065002C000A006D0075007300730074002000640075002000770069007300730065006E002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Erst geht ihr diese Treppe hoch und biegt dann\nrechts in die Seitengasse ein.<U+0010><U+0001>븁\nDa, wo der gelbe Briefkasten steht.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "0045007200730074002000670065006800740020006900680072002000640069006500730065002000540072006500700070006500200068006F0063006800200075006E0064002000620069006500670074002000640061006E006E000A00720065006300680074007300200069006E0020006400690065002000530065006900740065006E00670061007300730065002000650069006E002E00100001BE01000A00440061002C00200077006F0020006400650072002000670065006C00620065002000420072006900650066006B0061007300740065006E002000730074006500680074002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 121
+    },
+    {
+      "displayText": "Und dann dreht es gern eine Runde um den\nWildsektor.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "0055006E0064002000640061006E006E0020006400720065006800740020006500730020006700650072006E002000650069006E0065002000520075006E0064006500200075006D002000640065006E000A00570069006C006400730065006B0074006F0072002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Also dann, viel Spaß, Hefel!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "0041006C0073006F002000640061006E006E002C0020007600690065006C002000530070006100DF002C00200048006500660065006C002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Hef!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2020,
+      "rawDecodedUtf16Hex": "00480065006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte geh mit Hefel Gassi und komm danach\nwieder hierher zurück.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "0042006900740074006500200067006500680020006D0069007400200048006500660065006C00200047006100730073006900200075006E00640020006B006F006D006D002000640061006E006100630068000A007700690065006400650072002000680069006500720068006500720020007A0075007200FC0063006B002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Fel...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "00460065006C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh! Du bist doch das Hefel von der Bäckerei.\nHeute führt dich also <U+0010><U+0004>ᄀÿထ<U+0000>dieser junge Manndiese junge Frau Gassi!<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "004F006800210020004400750020006200690073007400200064006F00630068002000640061007300200048006500660065006C00200076006F006E00200064006500720020004200E40063006B0065007200650069002E000A004800650075007400650020006600FC0068007200740020006400690063006800200061006C0073006F002000100004110000FF101100000064006900650073006500720020006A0075006E006700650020004D0061006E006E006400690065007300650020006A0075006E0067006500200046007200610075002000470061007300730069002100100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 118
+    },
+    {
+      "displayText": "Hef! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "00480065006600210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Soso. Dann viel Spaß noch!<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "0053006F0073006F002E002000440061006E006E0020007600690065006C002000530070006100DF0020006E006F00630068002100100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Fel...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "00460065006C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Dem süßen Hefel der Bäckerin laufe ich beim\nSpazierengehen häufig über den Weg!<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2532,
+      "rawDecodedUtf16Hex": "00440065006D0020007300FC00DF0065006E00200048006500660065006C00200064006500720020004200E40063006B006500720069006E0020006C006100750066006500200069006300680020006200650069006D000A005300700061007A0069006500720065006E0067006500680065006E0020006800E40075006600690067002000FC006200650072002000640065006E0020005700650067002100100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2700,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Du wurdest von Hefel getrennt...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2712,
+      "rawDecodedUtf16Hex": "004400750020007700750072006400650073007400200076006F006E00200048006500660065006C002000670065007400720065006E006E0074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mob!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "004D006F006200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hey, Mobtiff! Ich hab dir doch gesagt, dass du\nnicht ständig bellen sollst.<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "004800650079002C0020004D006F00620074006900660066002100200049006300680020006800610062002000640069007200200064006F006300680020006700650073006100670074002C00200064006100730073002000640075000A006E006900630068007400200073007400E4006E006400690067002000620065006C006C0065006E00200073006F006C006C00730074002E00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Tut mir leid. Mein Mobtiff will sich immer sofort\naufspielen...<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "0054007500740020006D006900720020006C006500690064002E0020004D00650069006E0020004D006F00620074006900660066002000770069006C006C0020007300690063006800200069006D006D0065007200200073006F0066006F00720074000A0061007500660073007000690065006C0065006E002E002E002E00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Kein Problem!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "004B00650069006E002000500072006F0062006C0065006D00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Es steckt wohl voller Energie.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3128,
+      "rawDecodedUtf16Hex": "0045007300200073007400650063006B007400200077006F0068006C00200076006F006C006C0065007200200045006E00650072006700690065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Ach, ich hab’s nicht leicht mit ihm, weil es so\nfrech ist. Aber dein Hefel ist echt sehr süß!<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "004100630068002C00200069006300680020006800610062201900730020006E00690063006800740020006C006500690063006800740020006D00690074002000690068006D002C0020007700650069006C00200065007300200073006F000A006600720065006300680020006900730074002E002000410062006500720020006400650069006E00200048006500660065006C002000690073007400200065006300680074002000730065006800720020007300FC00DF002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Ach so! Das ist gar nicht dein Hefel. Du bist nur\n<U+0010><U+0004>ᄀÿሏ<U+0000>sein Pokésitterseine Pokésitterin und gehst mit ihm Gassi.<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3388,
+      "rawDecodedUtf16Hex": "00410063006800200073006F00210020004400610073002000690073007400200067006100720020006E00690063006800740020006400650069006E00200048006500660065006C002E002000440075002000620069007300740020006E00750072000A00100004110000FF120F0000007300650069006E00200050006F006B00E9007300690074007400650072007300650069006E006500200050006F006B00E90073006900740074006500720069006E00200075006E00640020006700650068007300740020006D00690074002000690068006D002000470061007300730069002E00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "Tiff?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3628,
+      "rawDecodedUtf16Hex": "0054006900660066003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Hef!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "00480065006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Haha! Wenn ihre Trainer sich nett unterhalten,\nentspannen sich auch die Pokémon.<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3652,
+      "rawDecodedUtf16Hex": "00480061006800610021002000570065006E006E0020006900680072006500200054007200610069006E00650072002000730069006300680020006E00650074007400200075006E00740065007200680061006C00740065006E002C000A0065006E0074007300700061006E006E0065006E0020007300690063006800200061007500630068002000640069006500200050006F006B00E9006D006F006E002E00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Also dann, Hefel. Man sieht sich!<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3824,
+      "rawDecodedUtf16Hex": "0041006C0073006F002000640061006E006E002C00200048006500660065006C002E0020004D0061006E00200073006900650068007400200073006900630068002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Fel...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3900,
+      "rawDecodedUtf16Hex": "00460065006C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿'",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "00100002BDFF00270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3928,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Waaah, wie süß!<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3940,
+      "rawDecodedUtf16Hex": "00570061006100610068002C00200077006900650020007300FC00DF002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Ich weiß, was das für ’n Pokémon ist.\nDas ist ein Hefel!<U+0010><U+0002>Ĕ\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3980,
+      "rawDecodedUtf16Hex": "004900630068002000770065006900DF002C002000770061007300200064006100730020006600FC007200202019006E00200050006F006B00E9006D006F006E0020006900730074002E000A0044006100730020006900730074002000650069006E00200048006500660065006C002100100002011400220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Hef!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4104,
+      "rawDecodedUtf16Hex": "00480065006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Dürfen wir mit Hefel spielen?<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4116,
+      "rawDecodedUtf16Hex": "004400FC007200660065006E00200077006900720020006D0069007400200048006500660065006C00200073007000690065006C0065006E003F00100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4184,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Hefel scheint nicht nur den Spaziergang, sondern\nauch das Spielen sehr genossen zu haben.<U+0010><U+0001>븀\nKehre nun zur Auftraggeberin zurück.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4196,
+      "rawDecodedUtf16Hex": "0048006500660065006C002000730063006800650069006E00740020006E00690063006800740020006E00750072002000640065006E0020005300700061007A00690065007200670061006E0067002C00200073006F006E006400650072006E000A0061007500630068002000640061007300200053007000690065006C0065006E00200073006500680072002000670065006E006F007300730065006E0020007A007500200068006100620065006E002E00100001BE00000A004B00650068007200650020006E0075006E0020007A0075007200200041007500660074007200610067006700650062006500720069006E0020007A0075007200FC0063006B002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4456,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Fel...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4468,
+      "rawDecodedUtf16Hex": "00460065006C002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Wusstest du schon? Hefel entwickelt sich zu\nBackel!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4484,
+      "rawDecodedUtf16Hex": "005700750073007300740065007300740020006400750020007300630068006F006E003F00200048006500660065006C00200065006E0074007700690063006B0065006C0074002000730069006300680020007A0075000A004200610063006B0065006C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Hefel ist sooooo süß!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4588,
+      "rawDecodedUtf16Hex": "0048006500660065006C002000690073007400200073006F006F006F006F006F0020007300FC00DF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Das ist doch das Hefel der Bäckerin, oder?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "004400610073002000690073007400200064006F00630068002000640061007300200048006500660065006C00200064006500720020004200E40063006B006500720069006E002C0020006F006400650072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4720,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Da bist du ja wieder, Hefel. Das Gassigehen\nscheint dir ja Spaß gemacht zu haben!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 4732,
+      "rawDecodedUtf16Hex": "00440061002000620069007300740020006400750020006A00610020007700690065006400650072002C00200048006500660065006C002E00200044006100730020004700610073007300690067006500680065006E000A00730063006800650069006E007400200064006900720020006A0061002000530070006100DF002000670065006D00610063006800740020007A007500200068006100620065006E002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 4904,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Vielen Dank, <U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 4916,
+      "rawDecodedUtf16Hex": "005600690065006C0065006E002000440061006E006B002C00200010000201000000002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Weißt du, die Hefe in Hefels Atem lässt Dinge\num es herum fermentieren.<U+0010><U+0001>븁\nDas Brot, das ich damit mache, ist extrem\nbeliebt.<U+0010><U+0001>븁\nDeswegen bin ich die letzten Tage nicht dazu\ngekommen, mit Hefel Gassi zu gehen...<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 4964,
+      "rawDecodedUtf16Hex": "00570065006900DF0074002000640075002C00200064006900650020004800650066006500200069006E00200048006500660065006C00730020004100740065006D0020006C00E4007300730074002000440069006E00670065000A0075006D00200065007300200068006500720075006D0020006600650072006D0065006E00740069006500720065006E002E00100001BE01000A004400610073002000420072006F0074002C00200064006100730020006900630068002000640061006D006900740020006D0061006300680065002C0020006900730074002000650078007400720065006D000A00620065006C0069006500620074002E00100001BE01000A0044006500730077006500670065006E002000620069006E002000690063006800200064006900650020006C00650074007A00740065006E002000540061006700650020006E0069006300680074002000640061007A0075000A00670065006B006F006D006D0065006E002C0020006D0069007400200048006500660065006C0020004700610073007300690020007A007500200067006500680065006E002E002E002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 216
+    },
+    {
+      "displayText": "Ich werde künftig darauf achten, nicht so viel\nBrot zu backen und mehr Zeit mit Hefel zu<U+0010><U+0001>븀\nverbringen!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5396,
+      "rawDecodedUtf16Hex": "0049006300680020007700650072006400650020006B00FC006E00660074006900670020006400610072006100750066002000610063006800740065006E002C0020006E006900630068007400200073006F0020007600690065006C000A00420072006F00740020007A00750020006200610063006B0065006E00200075006E00640020006D0065006800720020005A0065006900740020006D0069007400200048006500660065006C0020007A007500100001BE00000A007600650072006200720069006E00670065006E002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "Schließlich kann es nicht angehen, dass alle\nerleben, wie süß mein Hefel ist, nur ich nicht!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5612,
+      "rawDecodedUtf16Hex": "005300630068006C0069006500DF006C0069006300680020006B0061006E006E0020006500730020006E006900630068007400200061006E0067006500680065006E002C0020006400610073007300200061006C006C0065000A00650072006C006500620065006E002C00200077006900650020007300FC00DF0020006D00650069006E00200048006500660065006C0020006900730074002C0020006E0075007200200069006300680020006E0069006300680074002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5808,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 5820,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ich möchte keinen einzigen Moment von Hefels\nNiedlichkeit mehr verpassen!<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 5832,
+      "rawDecodedUtf16Hex": "0049006300680020006D00F600630068007400650020006B00650069006E0065006E002000650069006E007A006900670065006E0020004D006F006D0065006E007400200076006F006E00200048006500660065006C0073000A004E006900650064006C006900630068006B0065006900740020006D006500680072002000760065007200700061007300730065006E002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Hef!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 5988,
+      "rawDecodedUtf16Hex": "004800650066002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6000,
+  "sectionOffset": 16,
+  "textCount": 63,
+  "textSectionCount": 1
+}

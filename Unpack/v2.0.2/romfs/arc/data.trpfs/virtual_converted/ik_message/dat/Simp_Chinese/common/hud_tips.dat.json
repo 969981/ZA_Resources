@@ -1,0 +1,213 @@
+{
+  "declaredLength": 1012,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0007>Stick_L：移动\n<U+0010><U+0002>봊<U+0007>Stick_R：操作镜头",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00100002BD0A00070053007400690063006B005F004CFF1A79FB52A8000A00100002BD0A00070053007400690063006B005F0052FF1A64CD4F5C955C59340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0007>Stick_L：移动\n<U+0010><U+0002>봊<U+0007>Stick_R：操作镜头\n<U+0010><U+0002>봊<U+0001>L：回正镜头",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00100002BD0A00070053007400690063006B005F004CFF1A79FB52A8000A00100002BD0A00070053007400690063006B005F0052FF1A64CD4F5C955C5934000A00100002BD0A0001004CFF1A56DE6B63955C59340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：瞄准\n<U+0010><U+0002>봊<U+0004>Sp_1<U+0010><U+0002>봊<U+0006>Decide：指示招式",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1A778451C6000A00100002BD0A000400530070005F003100100002BD0A0006004400650063006900640065FF1A6307793A62DB5F0F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：瞄准\n<U+0010><U+0002>봊<U+0002>ZR长按：投掷准备\n<U+0010><U+0002>봊<U+0002>ZR放开：投掷",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1A778451C6000A00100002BD0A0002005A0052957F6309FF1A629563B751C65907000A00100002BD0A0002005A0052653E5F00FF1A629563B70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊\tButton_Up：派出宝可梦\n<U+0010><U+0002>봊<U+000B>Button_Down：收回宝可梦\n<U+0010><U+0002>봊<U+000B>Button_Left／<U+0010><U+0002>봊<U+000C>Button_Right：选择",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "00100002BD0A00090042007500740074006F006E005F00550070FF1A6D3E51FA5B9D53EF68A6000A00100002BD0A000B0042007500740074006F006E005F0044006F0077006EFF1A653656DE5B9D53EF68A6000A00100002BD0A000B0042007500740074006F006E005F004C006500660074FF0F00100002BD0A000C0042007500740074006F006E005F00520069006700680074FF1A900962E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0006>Cancel：冲刺\n<U+0010><U+0002>봊<U+0004>Sp_2：翻滚\n<U+0010><U+0002>봊<U+000C>Stick_L_Push：蹲下",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "00100002BD0A000600430061006E00630065006CFF1A51B2523A000A00100002BD0A000400530070005F0032FF1A7FFB6EDA000A00100002BD0A000C0053007400690063006B005F004C005F0050007500730068FF1A8E724E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0004>Sp_1：打开菜单",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "00100002BD0A000400530070005F0031FF1A62535F0083DC53550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0004>Plus：打开地图",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "00100002BD0A00040050006C00750073FF1A62535F00573056FE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "从高处落下时按<U+0010><U+0002>봊<U+0006>Decide：洛托姆滑翔",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "4ECE9AD85904843D4E0B65F6630900100002BD0A0006004400650063006900640065FF1A6D1B625859C66ED17FD40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：瞄准\n<U+0010><U+0002>봊<U+0004>Sp_2<U+0010><U+0002>봊<U+0004>Sp_1<U+0010><U+0002>봊<U+0006>Decide：指示招式",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1A778451C6000A00100002BD0A000400530070005F003200100002BD0A000400530070005F003100100002BD0A0006004400650063006900640065FF1A6307793A62DB5F0F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1012,
+  "sectionOffset": 16,
+  "textCount": 20,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 96,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "미래는 언제나 오늘로부터 태어나는 법.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "BBF8B798B2940020C5B8C81CB0980020C624B298B85CBD80D1300020D0DCC5B4B098B2940020BC95002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "정말 고맙다... MZ단.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 64,
+      "rawDecodedUtf16Hex": "C815B9D00020ACE0B9D9B2E4002E002E002E0020004D005AB2E8002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 96,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

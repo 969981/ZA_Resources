@@ -1,0 +1,153 @@
+{
+  "declaredLength": 464,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>Ȇ<U+0008>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "E300001000030206000800000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "要保存目前为止的\n冒险记录吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "89814FDD5B5876EE524D4E3A6B627684000A519296698BB05F555417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "正在写入记录……\n请勿切断电源。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "6B635728519951658BB05F5520262026000A8BF752FF520765AD75356E9030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n完好地写下了记录！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "0010000201000000000A5B8C597D573051994E0B4E868BB05F55FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "因为已经写入了其他的宝可梦记录，\n所以不能再写入。<U+0010><U+0001>븁\n详情请查看使用说明书。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "56E04E3A5DF27ECF519951654E8651764ED676845B9D53EF68A68BB05F55FF0C000A62404EE54E0D80FD518D51995165300200100001BE01000A8BE660C58BF767E5770B4F7F75288BF4660E4E6630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "保存记录失败。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "4FDD5B588BB05F5559318D2530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n得到了<U+E300><U+0010><U+0003>ȇ<U+0002><U+0000>！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "0010000201000000000A5F9752304E86E30000100003020700020000FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n得到了<U+0010><U+0002>ā<U+0001>！",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "0010000201000000000A5F9752304E860010000201010001FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n得到了<U+0010><U+0003>ȇ<U+0002><U+0000>LP！",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "0010000201000000000A5F9752304E8600100003020700020000004C0050FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "00100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 464,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

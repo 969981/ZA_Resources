@@ -1,0 +1,73 @@
+{
+  "declaredLength": 484,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "소장 대리님께서는\n3층에 계십니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "C18CC7A50020B300B9ACB2D8AED8C11CB294000A0033CE35C5D00020ACC4C2EDB2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "소장 대리님께서는 현재\n협력자를 모집하고 계십니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "C18CC7A50020B300B9ACB2D8AED8C11CB2940020D604C7AC000AD611B825C790B97C0020BAA8C9D1D558ACE00020ACC4C2EDB2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "포켓몬은 동시에\n6마리까지 데리고 다닐 수 있습니다.<U+0010><U+0001>븁\n6마리를 데리고 있을 때 잡은 포켓몬은\n박스로 전송됩니다.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACC7400020B3D9C2DCC5D0000A0036B9C8B9ACAE4CC9C00020B370B9ACACE00020B2E4B2D00020C2180020C788C2B5B2C8B2E4002E00100001BE01000A0036B9C8B9ACB97C0020B370B9ACACE00020C788C7440020B54C0020C7A1C7400020D3ECCF13BAACC740000ABC15C2A4B85C0020C804C1A1B429B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "메뉴의 박스에서\n맡긴 포켓몬을 찾을 수 있어요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "BA54B274C7580020BC15C2A4C5D0C11C000AB9E1AE340020D3ECCF13BAACC7440020CC3EC7440020C2180020C788C5B4C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "오랜만에 미르시티에 돌아왔는데\n박사님은 그만두신 데다<U+0010><U+0001>븀\n도시도 몰라보게 바뀌어 버리다니!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "C624B79CB9CCC5D00020BBF8B974C2DCD2F0C5D00020B3CCC544C654B294B370000ABC15C0ACB2D8C7400020ADF8B9CCB450C2E00020B370B2E400100001BE00000AB3C4C2DCB3C40020BAB0B77CBCF4AC8C0020BC14B00CC5B40020BC84B9ACB2E4B2C800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "어서 오세요!\n포켓몬 연구소입니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "C5B4C11C0020C624C138C6940021000AD3ECCF13BAAC0020C5F0AD6CC18CC785B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 484,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

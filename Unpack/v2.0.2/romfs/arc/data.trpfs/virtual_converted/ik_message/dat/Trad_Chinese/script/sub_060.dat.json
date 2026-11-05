@@ -1,0 +1,383 @@
+{
+  "declaredLength": 2040,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我正在想個很厲害的生意呢。\n嘿嘿……敬請期待。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "62116B63572860F3500B5F8853B25BB37684751F610F54623002000A563F563F20262026656C8ACB671F5F8530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嘿嘿……<U+0010><U+0003>ᄀÿā你妳知道從這裡\n可以進去下水道嗎？<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "563F563F2026202600100003110000FF01014F6059B377E590535F9E901988E1000A53EF4EE5903253BB4E0B6C34905355CEFF1F001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "其實啊，我正在想著一個\n可以在這裡面搞的生意……<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "51765BE6554AFF0C62116B63572860F384574E00500B000A53EF4EE55728901988E19762641E7684751F610F20262026001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳懂嗎？就是打算要和這隻噴火駝，\n一起搞個熱騰騰的生意啦。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B361C255CEFF1F5C31662F62537B978981548C901996BB5674706B99DDFF0C000A4E008D77641E500B71B19A309A307684751F610F55663002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "恩霸呼！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "60699738547CFF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "我會紮紮實實地送上謝禮的，\n拜託<U+0010><U+0003>ᄀÿā你妳幫我一個忙吧。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "621167037D2E7D2E5BE65BE6573090014E0A8B1D79AE7684FF0C000A62DC8A1700100003110000FF01014F6059B35E6B62114E00500B5FD954273002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "我會幫<U+0010><U+0003>ᄀÿā你妳把鎖開著。<U+0010><U+0001>븁\n我人就在裡面等囉，\n要是<U+0010><U+0003>ᄀÿā你妳天不怕地不怕，那就進來吧。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "621167035E6B00100003110000FF01014F6059B3628A9396958B8457300200100001BE01000A62114EBA5C31572888E197627B4956C9FF0C000A8981662F00100003110000FF01014F6059B359294E0D601557304E0D6015FF0C90A35C3190324F8654273002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 772,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嘿嘿……我正等著<U+0010><U+0003>ᄀÿā你妳呢。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "563F563F2026202662116B637B49845700100003110000FF01014F6059B354623002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "這房間如何呀？\n是不是潮濕得恰恰好？<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "9019623F959359824F555440FF1F000A662F4E0D662F6F6E6FD55F9760706070597DFF1F001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "要是<U+0010><U+0003>ᄀÿā你妳天不怕地不怕……\n我可是有把話說在前面囉！<U+0010><U+0001>븀\n也就是說，我想來場對戰也沒問題吧。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "8981662F00100003110000FF01014F6059B359294E0D601557304E0D601520262026000A621153EF662F6709628A8A718AAA5728524D976256C9FF0100100001BE00000A4E5F5C31662F8AAAFF0C621160F34F8658345C0D62304E5F6C92554F984C54273002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "就拜託<U+0010><U+0003>ᄀÿā你妳和我的噴火駝打一場\n熱騰騰的對戰啦！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "5C3162DC8A1700100003110000FF01014F6059B3548C621176845674706B99DD62534E005834000A71B19A309A3076845C0D62305566FF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "等<U+0010><U+0003>ᄀÿā你妳準備好，\n就跟我說一聲啊。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "7B4900100003110000FF01014F6059B36E965099597DFF0C000A5C318DDF62118AAA4E008072554A3002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳當然肯和我的噴火駝打一場\n熱騰騰的對戰吧？<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B37576713680AF548C621176845674706B99DD62534E005834000A71B19A309A3076845C0D62305427FF1F001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "開打吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "958B62535427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "還是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "9084662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "喂喂！\n<U+0010><U+0003>ᄀÿā你妳這回答也太冷酷了。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "55825582FF01000A00100003110000FF01014F6059B3901956DE7B544E5F592A51B791774E863002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "聽<U+0010><U+0003>ᄀÿā你妳答得那麼火熱，\n拜託<U+0010><U+0003>ᄀÿā你妳也要打得夠火熱啊！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "807D00100003110000FF01014F6059B37B545F9790A39EBC706B71B1FF0C000A62DC8A1700100003110000FF01014F6059B34E5F898162535F975920706B71B1554AFF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "唉呀我輸掉了……\n不過空氣倒是熱得恰恰好……<U+0010><U+0001>븀\n這下就能開張囉……<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "5509544062118F3863894E8620262026000A4E0D904E7A7A6C235012662F71B15F9760706070597D2026202600100001BE00000A90194E0B5C3180FD958B5F3556C920262026001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "我的噴火駝三溫暖！！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "621176845674706B99DD4E096EAB6696FF01FF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "用噴火駝的駝峰裡面那\n1萬度的熔岩，幫這空間加溫。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "75285674706B99DD768499DD5CF088E1976290A3000A0031842C5EA6768471945CA9FF0C5E6B90197A7A959352A06EAB3002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "於是有了滿滿的熱空氣！\n名副其實的噴火駝的三溫暖對吧！<U+0010><U+0001>븀\n這會是個很厲害的生意喔！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1528,
+      "rawDecodedUtf16Hex": "65BC662F67094E866EFF6EFF768471B17A7A6C23FF01000A540D526F51765BE676845674706B99DD76844E096EAB66965C0D5427FF0100100001BE00000A90196703662F500B5F8853B25BB37684751F610F5594FF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "在這裡？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "5728901988E1FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "太遠了吧……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "592A90604E865427202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳……<U+0010><U+0003>ᄀÿā你妳說得對！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B32026202600100003110000FF01014F6059B38AAA5F975C0DFF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "雖然是個正適合三溫暖的地方，\n但我忘了要考慮交通啊。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1704,
+      "rawDecodedUtf16Hex": "96D67136662F500B6B63906954084E096EAB66967684573065B9FF0C000A4F4662115FD84E8689818003616E4EA4901A554A3002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "滑啦～！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "6ED15566FF5EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "搞什麼，\n原來是野生寶可夢啊……<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "641E4EC09EBCFF0C000A539F4F86662F91CE751F5BF653EF5922554A20262026001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "吱吱！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1824,
+      "rawDecodedUtf16Hex": "54315431FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "聚集來的寶可夢們\n各個看起來都待得挺舒服的。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "805A96C64F8676845BF653EF59225011000A5404500B770B8D774F8690FD5F855F97633A8212670D76843002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "難道說這群傢伙們\n喜歡上了噴火駝的三溫暖！？<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "96E390538AAA90197FA450A24F195011000A559C6B614E0A4E865674706B99DD76844E096EAB6696FF01FF1F001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "那我可要大搞一場囉。<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "90A3621153EF89815927641E4E00583456C93002001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "我決定為野生寶可夢把這裡弄成\n狂野的噴火駝三溫暖啦！<U+0010><U+0002>Ĕś",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1976,
+      "rawDecodedUtf16Hex": "62116C7A5B9A70BA91CE751F5BF653EF5922628A901988E15F046210000A72C291CE76845674706B99DD4E096EAB66965566FF01001000020114015B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2040,
+  "sectionOffset": 16,
+  "textCount": 37,
+  "textSectionCount": 1
+}

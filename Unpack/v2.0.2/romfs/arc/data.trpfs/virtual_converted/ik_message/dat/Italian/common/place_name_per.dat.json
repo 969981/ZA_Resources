@@ -1,0 +1,63 @@
+{
+  "declaredLength": 200,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "persona lontana",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "0070006500720073006F006E00610020006C006F006E00740061006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Ostello Pokémon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "004F007300740065006C006C006F00200050006F006B00E9006D006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Cercatesori",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "00430065007200630061007400650073006F007200690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "vecchina delle terme",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 3,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "007600650063006300680069006E0061002000640065006C006C00650020007400650072006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Luminopoli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "004C0075006D0069006E006F0070006F006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 200,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

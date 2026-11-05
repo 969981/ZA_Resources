@@ -1,0 +1,53 @@
+{
+  "declaredLength": 268,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Willkommen! Möchtest du deine Mega-Splitter\ngegen Items eintauschen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00570069006C006C006B006F006D006D0065006E00210020004D00F60063006800740065007300740020006400750020006400650069006E00650020004D006500670061002D00530070006C00690074007400650072000A0067006500670065006E0020004900740065006D0073002000650069006E0074006100750073006300680065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Ja bitte!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "004A006100200062006900740074006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Nein danke.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "004E00650069006E002000640061006E006B0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Komm jederzeit wieder.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "004B006F006D006D0020006A0065006400650072007A0065006900740020007700690065006400650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 268,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

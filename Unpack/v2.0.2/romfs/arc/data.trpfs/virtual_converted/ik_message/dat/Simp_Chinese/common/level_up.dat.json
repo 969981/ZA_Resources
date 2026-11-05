@@ -1,0 +1,203 @@
+{
+  "declaredLength": 688,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lv.<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "004C0076002E00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "+<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "002B00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "HP",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "004800500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "攻击",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "653B51FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "防御",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "96325FA10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "特攻",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "7279653B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "特防",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "727996320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "速度",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "901F5EA60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȇ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "002B001000030206000100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "获得了经验值！<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "83B75F974E867ECF9A8C503CFF0100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>븅<U+0005><U+0010><U+0002>Ă<U+0000>\n上升到了等级<U+0010><U+0002>Ȃ<U+0001>！<U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "00100002BE0500050010000201020000000A4E0A534752304E867B497EA70010000202020001FF0100100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000>学会了\n<U+0010><U+0002>ć<U+0001>！<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001><U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00100002010200005B664F1A4E86000A0010000201070001FF0100100002BE05000400100002BE05000100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000>想要学习\n<U+0010><U+0002>ć<U+0001>……<U+0010><U+0001>븁\n为了学习<U+0010><U+0002>ć<U+0001>，\n要忘记其他的招式吗？",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "00100002010C000060F389815B664E60000A00100002010700012026202600100001BE01000A4E3A4E865B664E600010000201070001FF0C000A89815FD88BB051764ED6768462DB5F0F5417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "１<U+0010><U+0002>븂\n，２<U+0010><U+0002>븂\n…<U+0010><U+0002>븂\n…<U+0010><U+0002>븂<U+0014>空！<U+0010><U+0002>븅<U+0003><U+0010><U+0002>븅<U+0005><U+0010><U+0001>븁\n<U+0010><U+0002>Ă<U+0000>忘记了\n<U+0010><U+0002>ć<U+0001>！<U+0010><U+0001>븀\n并学会了<U+0010><U+0002>븅<U+0006><U+0010><U+0002>ć<U+0002>！<U+0010><U+0002>븅<U+0004><U+0010><U+0001>븁",
+      "escapedControlUnits": 36,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "FF1100100002BE02000AFF0CFF1200100002BE02000A202600100002BE02000A202600100002BE0200147A7AFF0100100002BE05000300100002BE05000500100001BE01000A00100002010200005FD88BB04E86000A0010000201070001FF0100100001BE00000A5E765B664F1A4E8600100002BE0500060010000201070002FF0100100002BE05000400100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "<U+0010><U+0002>Č<U+0000>没有学习\n<U+0010><U+0002>ć<U+0001>就结束了！<U+0010><U+0001>븁",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 628,
+      "rawDecodedUtf16Hex": "00100002010C00006CA167095B664E60000A00100002010700015C317ED3675F4E86FF0100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "忘记！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "5FD88BB0FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "不忘记",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "4E0D5FD88BB00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 688,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

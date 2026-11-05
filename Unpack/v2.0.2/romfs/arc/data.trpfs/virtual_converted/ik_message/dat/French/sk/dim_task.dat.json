@@ -1,0 +1,553 @@
+{
+  "declaredLength": 3656,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Détruisez les Poké Balls qui flottent.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "004400E9007400720075006900730065007A0020006C0065007300200050006F006B00E9002000420061006C006C0073002000710075006900200066006C006F007400740065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Détruisez les rochers.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "004400E9007400720075006900730065007A0020006C0065007300200072006F00630068006500720073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Détruisez les ronces.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "004400E9007400720075006900730065007A0020006C0065007300200072006F006E006300650073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Détruisez les tas de boue.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "004400E9007400720075006900730065007A0020006C00650073002000740061007300200064006500200062006F00750065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Ramassez les objets brillants.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "00520061006D0061007300730065007A0020006C006500730020006F0062006A0065007400730020006200720069006C006C0061006E00740073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Attrapez des Pokémon sauvages.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 740,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A002000640065007300200050006F006B00E9006D006F006E002000730061007500760061006700650073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Attrapez un <U+0010><U+0002>ā<U+0002>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200010000201010002002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Attrapez des <U+0010><U+0002>ā<U+0002>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A002000640065007300200010000201010002002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Attrapez un Pokémon de type <U+0010><U+0002>ă<U+0003>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200050006F006B00E9006D006F006E0020006400650020007400790070006500200010000201030003002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Attrapez trois espèces de Pokémon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 948,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A002000740072006F00690073002000650073007000E800630065007300200064006500200050006F006B00E9006D006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Attrapez six espèces de Pokémon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1020,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A0020007300690078002000650073007000E800630065007300200064006500200050006F006B00E9006D006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Attrapez neuf espèces de Pokémon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A0020006E006500750066002000650073007000E800630065007300200064006500200050006F006B00E9006D006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Attrapez un Pokémon Baron.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200050006F006B00E9006D006F006E0020004200610072006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Attrapez un Pokémon chromatique.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200050006F006B00E9006D006F006E0020006300680072006F006D006100740069007100750065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Attrapez un Pokémon Baron chromatique.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1280,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200050006F006B00E9006D006F006E0020004200610072006F006E0020006300680072006F006D006100740069007100750065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Attrapez un Pokémon sans vous faire repérer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "0041007400740072006100700065007A00200075006E00200050006F006B00E9006D006F006E002000730061006E007300200076006F00750073002000660061006900720065002000720065007000E9007200650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "Profitez d’une chance de capture.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "00500072006F0066006900740065007A0020006420190075006E00650020006300680061006E0063006500200064006500200063006100700074007500720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Lancez une capacité super efficace.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1520,
+      "rawDecodedUtf16Hex": "004C0061006E00630065007A00200075006E00650020006300610070006100630069007400E9002000730075007000650072002000650066006600690063006100630065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Lancez une capacité de type <U+0010><U+0002>ă<U+0003>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "004C0061006E00630065007A00200075006E00650020006300610070006100630069007400E90020006400650020007400790070006500200010000201030003002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Remportez un combat.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1660,
+      "rawDecodedUtf16Hex": "00520065006D0070006F007200740065007A00200075006E00200063006F006D006200610074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Lancez un combat et gagnez en un seul coup.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1704,
+      "rawDecodedUtf16Hex": "004C0061006E00630065007A00200075006E00200063006F006D0062006100740020006500740020006700610067006E0065007A00200065006E00200075006E0020007300650075006C00200063006F00750070002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Battez <U+0010><U+0002>ā<U+0002>.",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1792,
+      "rawDecodedUtf16Hex": "00420061007400740065007A00200010000201010002002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Battez l’Absol Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C2019004100620073006F006C0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Battez le Flagadoss Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200046006C0061006700610064006F007300730020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Camérupt Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C0065002000430061006D00E900720075007000740020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Battez l’Empiflor Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C20190045006D007000690066006C006F00720020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Battez le Dardargnan Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200044006100720064006100720067006E0061006E0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Battez le Brutalibré Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C0065002000420072007500740061006C00690062007200E90020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Battez le Branette Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004200720061006E00650074007400650020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Battez le Pharamp Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C0065002000500068006100720061006D00700020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Battez le Golgopathe Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200047006F006C0067006F007000610074006800650020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Battez le Mysdibule Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004D007900730064006900620075006C00650020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Momartik Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004D006F006D0061007200740069006B0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Battez l’Altaria Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C20190041006C007400610072006900610020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Battez le Florizarre Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200046006C006F00720069007A00610072007200650020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Battez le Dracolosse Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2648,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200044007200610063006F006C006F0073007300650020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Battez le Tyranocif Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2716,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200054007900720061006E006F0063006900660020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Staross Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C006500200053007400610072006F007300730020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Battez l’Absol Méga-Ferox Z.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2840,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C2019004100620073006F006C0020004D00E900670061002D004600650072006F00780020005A002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Battez l’Étouraptor Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C201900C90074006F00750072006100700074006F00720020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Nigirigon Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004E006900670069007200690067006F006E0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Mistigrix Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004D006900730074006900670072006900780020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battez le Heatran Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004800650061007400720061006E0020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Battez le Darkrai Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020004400610072006B0072006100690020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Battez Primo-Kyogre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3212,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020005000720069006D006F002D004B0079006F006700720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Battez Primo-Groudon.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3256,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020005000720069006D006F002D00470072006F00750064006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Battez le Rayquaza Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3300,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020005200610079007100750061007A00610020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Battez le Zeraora Méga-Ferox.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "00420061007400740065007A0020006C00650020005A006500720061006F007200610020004D00E900670061002D004600650072006F0078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Acceptez une mission.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 49,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "0041006300630065007000740065007A00200075006E00650020006D0069007300730069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Accomplissez votre mission.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 3468,
+      "rawDecodedUtf16Hex": "004100630063006F006D0070006C0069007300730065007A00200076006F0074007200650020006D0069007300730069006F006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Parlez à la petite fille.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3524,
+      "rawDecodedUtf16Hex": "005000610072006C0065007A002000E00020006C00610020007000650074006900740065002000660069006C006C0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Scellez le Hoopa Déchaîné.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3576,
+      "rawDecodedUtf16Hex": "005300630065006C006C0065007A0020006C006500200048006F006F007000610020004400E900630068006100EE006E00E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Apaisez ???",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 53,
+      "offsetInSection": 3632,
+      "rawDecodedUtf16Hex": "004100700061006900730065007A0020003F003F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3656,
+  "sectionOffset": 16,
+  "textCount": 54,
+  "textSectionCount": 1
+}

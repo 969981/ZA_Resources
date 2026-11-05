@@ -1,0 +1,153 @@
+{
+  "declaredLength": 812,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Yes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "0059006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+E300><U+0010><U+0003>Ȇ<U+0008>,",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "E3000010000302060008002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Would you like to save your adventure so far?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "0057006F0075006C006400200079006F00750020006C0069006B006500200074006F0020007300610076006500200079006F0075007200200061006400760065006E007400750072006500200073006F0020006600610072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Now saving your adventure...\nDon’t turn off the power.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "004E006F007700200073006100760069006E006700200079006F0075007200200061006400760065006E0074007500720065002E002E002E000A0044006F006E201900740020007400750072006E0020006F00660066002000740068006500200070006F007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "You saved your progress!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "0059006F007500200073006100760065006400200079006F00750072002000700072006F0067007200650073007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "There’s already a saved game file,\nso you can’t save now.<U+0010><U+0001>븁\nRefer to the electronic manual for details.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "005400680065007200652019007300200061006C0072006500610064007900200061002000730061007600650064002000670061006D0065002000660069006C0065002C000A0073006F00200079006F0075002000630061006E20190074002000730061007600650020006E006F0077002E00100001BE01000A0052006500660065007200200074006F002000740068006500200065006C0065006300740072006F006E006900630020006D0061006E00750061006C00200066006F0072002000640065007400610069006C0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Failed to save.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 616,
+      "rawDecodedUtf16Hex": "004600610069006C0065006400200074006F00200073006100760065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "You received <U+E300><U+0010><U+0003>ȇ<U+0002>,!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "0059006F00750020007200650063006500690076006500640020E3000010000302070002002C00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "You received <U+0010><U+0002>ā<U+0001>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 692,
+      "rawDecodedUtf16Hex": "0059006F00750020007200650063006500690076006500640020001000020101000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "You received <U+0010><U+0003>ȇ<U+0002>, LP!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "0059006F007500200072006500630065006900760065006400200010000302070002002C0020004C005000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "00100001100000100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 812,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

@@ -1,0 +1,643 @@
+{
+  "declaredLength": 4160,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "이분이 시로 님의 라이벌이신\n<U+0010><U+0002>Ā<U+0000> 님이군요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "C774BD84C7740020C2DCB85C0020B2D8C7580020B77CC774BC8CC774C2E0000A00100002010000000020B2D8C774AD70C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "이야기는 자주 들었습니다.<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "C774C57CAE30B2940020C790C8FC0020B4E4C5C8C2B5B2C8B2E4002E00100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "저는 포켓몬 던지미를 사랑하는\n쥬테라고 합니다.<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "C800B2940020D3ECCF13BAAC0020B358C9C0BBF8B97C0020C0ACB791D558B294000AC96CD14CB77CACE00020D569B2C8B2E4002E00100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "아앗! 선수를 치다니!\n역시 던지미 애호가들은 비겁하다니까!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 700,
+      "rawDecodedUtf16Hex": "C544C55700210020C120C218B97C0020CE58B2E4B2C80021000AC5EDC2DC0020B358C9C0BBF80020C560D638AC00B4E4C7400020BE44AC81D558B2E4B2C8AE4C002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "저는 포켓몬 타격귀를 무엇보다 사랑하는\n프라페라고 합니다!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 776,
+      "rawDecodedUtf16Hex": "C800B2940020D3ECCF13BAAC0020D0C0ACA9ADC0B97C0020BB34C5C7BCF4B2E40020C0ACB791D558B294000AD504B77CD398B77CACE00020D569B2C8B2E4002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨,\n상황을 설명해 드리겠습니다.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002C000AC0C1D669C7440020C124BA85D5740020B4DCB9ACACA0C2B5B2C8B2E4002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "이분들은 각각\n타격귀와 던지미의 애호가이십니다만,<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "C774BD84B4E4C7400020AC01AC01000AD0C0ACA9ADC0C6400020B358C9C0BBF8C7580020C560D638AC00C774C2EDB2C8B2E4B9CC002C00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "두 포켓몬 중 어느 쪽이 더 강한지\n승부로 결판을 내려던 참이었습니다.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "B4500020D3ECCF13BAAC0020C9110020C5B4B2900020CABDC7740020B3540020AC15D55CC9C0000AC2B9BD80B85C0020ACB0D310C7440020B0B4B824B3580020CC38C774C5C8C2B5B2C8B2E4002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "저희가 다섯 번째 멤버를 찾는 중인데,\n<U+0010><U+0002>Ā<U+0000> 님께서 도와주셨으면 해서요!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "C800D76CAC000020B2E4C12F0020BC88C9F80020BA64BC84B97C0020CC3EB2940020C911C778B370002C000A00100002010000000020B2D8AED8C11C0020B3C4C640C8FCC168C73CBA740020D574C11CC694002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "아앗! 또 선수를 치다니!\n역시 던지미 애호가들은 얍삽하다니까!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "C544C55700210020B6100020C120C218B97C0020CE58B2E4B2C80021000AC5EDC2DC0020B358C9C0BBF80020C560D638AC00B4E4C7400020C58DC0BDD558B2E4B2C8AE4C002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "저희 팀도 다섯 번째 멤버를\n찾고 있는 중이에요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "C800D76C0020D300B3C40020B2E4C12F0020BC88C9F80020BA64BC84B97C000ACC3EACE00020C788B2940020C911C774C5D0C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "두 분 다 진정하시죠.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "B4500020BD840020B2E40020C9C4C815D558C2DCC8E0002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨.<U+0010><U+0001>븁\n어느 쪽을 도와주실 거죠?<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002E00100001BE01000AC5B4B2900020CABDC7440020B3C4C640C8FCC2E40020AC70C8E0003F00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 님!\n부디 저희 타격귀 팀에 들어와 주세요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "00100002010000000020B2D80021000ABD80B5140020C800D76C0020D0C0ACA9ADC00020D300C5D00020B4E4C5B4C6400020C8FCC138C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 님!\n제발 저희 던지미 팀을 도와주세요!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1464,
+      "rawDecodedUtf16Hex": "00100002010000000020B2D80021000AC81CBC1C0020C800D76C0020B358C9C0BBF80020D300C7440020B3C4C640C8FCC138C694002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1528,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "타격귀와 던지미 중 한 마리만을 데리고\n제게 말을 걸어 주세요.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "D0C0ACA9ADC0C6400020B358C9C0BBF80020C9110020D55C0020B9C8B9ACB9CCC7440020B370B9ACACE0000AC81CAC8C0020B9D0C7440020AC78C5B40020C8FCC138C694002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "타격귀를 데리고 오셨군요.\n타격귀 팀에 들어가실 건가요?<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "D0C0ACA9ADC0B97C0020B370B9ACACE00020C624C168AD70C694002E000AD0C0ACA9ADC00020D300C5D00020B4E4C5B4AC00C2E40020AC74AC00C694003F00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "던지미를 데리고 오셨군요.\n던지미 팀에 들어가실 건가요?<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "B358C9C0BBF8B97C0020B370B9ACACE00020C624C168AD70C694002E000AB358C9C0BBF80020D300C5D00020B4E4C5B4AC00C2E40020AC74AC00C694003F00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "들어갈래요!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "B4E4C5B4AC08B798C69400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "기다려 주세요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "AE30B2E4B8240020C8FCC138C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "네! 어느 쪽을 도와주실지\n천천히 생각하고 결정해 주세요.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "B12400210020C5B4B2900020CABDC7440020B3C4C640C8FCC2E4C9C0000ACC9CCC9CD7880020C0DDAC01D558ACE00020ACB0C815D5740020C8FCC138C694002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "프라페 씨,\n타격귀 팀을 도와주신다고 합니다.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1872,
+      "rawDecodedUtf16Hex": "D504B77CD3980020C528002C000AD0C0ACA9ADC00020D300C7440020B3C4C640C8FCC2E0B2E4ACE00020D569B2C8B2E4002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "승리는 따 놓은 당상이네요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "C2B9B9ACB2940020B5300020B193C7400020B2F9C0C1C774B124C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "쥬테 씨,\n던지미 팀을 도와주신다고 합니다.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "C96CD14C0020C528002C000AB358C9C0BBF80020D300C7440020B3C4C640C8FCC2E0B2E4ACE00020D569B2C8B2E4002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "저희 던지미 팀을 선택해 주셔서\n영광이에요!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "C800D76C0020B358C9C0BBF80020D300C7440020C120D0DDD5740020C8FCC154C11C000AC601AD11C774C5D0C694002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "그럼, 타격귀 팀과 던지미 팀의\n시합을 시작하겠습니다!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020D0C0ACA9ADC00020D300ACFC0020B358C9C0BBF80020D300C758000AC2DCD569C7440020C2DCC791D558ACA0C2B5B2C8B2E4002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "심판은 제가 맡도록 하겠습니다!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "C2ECD310C7400020C81CAC000020B9E1B3C4B85D0020D558ACA0C2B5B2C8B2E4002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "먼저 룰을 확인하겠습니다.<U+0010><U+0001>븁\n선봉, 차봉, 중견, 부장, 대장이\n각각 순서대로 싸워서<U+0010><U+0001>븀\n가장 많이 이긴 팀이 승자입니다.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "BA3CC8000020B8F0C7440020D655C778D558ACA0C2B5B2C8B2E4002E00100001BE01000AC120BD09002C0020CC28BD09002C0020C911ACAC002C0020BD80C7A5002C0020B300C7A5C774000AAC01AC010020C21CC11CB300B85C0020C2F8C6CCC11C00100001BE00000AAC00C7A50020B9CEC7740020C774AE340020D300C7740020C2B9C790C785B2C8B2E4002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "그럼, 시작!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2360,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020C2DCC791002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "선봉전!\n질풍의 타격귀 대 신속의 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2384,
+      "rawDecodedUtf16Hex": "C120BD09C8040021000AC9C8D48DC7580020D0C0ACA9ADC00020B3000020C2E0C18DC7580020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "한판!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "D55CD310002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "승자, 질풍의 타격귀!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "C2B9C790002C0020C9C8D48DC7580020D0C0ACA9ADC0002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "차봉전!\n노도의 타격귀 대 기세의 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "CC28BD09C8040021000AB178B3C4C7580020D0C0ACA9ADC00020B3000020AE30C138C7580020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "절반 두 번째!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2548,
+      "rawDecodedUtf16Hex": "C808BC180020B4500020BC88C9F8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "승자, 기세의 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "C2B9C790002C0020AE30C138C7580020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "중견전!\n부동의 타격귀 대 발기술의 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "C911ACACC8040021000ABD80B3D9C7580020D0C0ACA9ADC00020B3000020BC1CAE30C220C7580020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "절반!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "C808BC18002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "승자, 발기술의 던지미!\n던지미 팀 2승 1패!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2688,
+      "rawDecodedUtf16Hex": "C2B9C790002C0020BC1CAE30C220C7580020B358C9C0BBF80021000AB358C9C0BBF80020D30000200032C2B900200031D328002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "부장전!\n필살의 타격귀 대 민첩의 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2752,
+      "rawDecodedUtf16Hex": "BD80C7A5C8040021000AD544C0B4C7580020D0C0ACA9ADC00020B3000020BBFCCCA9C7580020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "한판!!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "D55CD3100021002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "승자, 필살의 타격귀!\n이걸로 양 팀 2승 2패입니다!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "C2B9C790002C0020D544C0B4C7580020D0C0ACA9ADC00021000AC774AC78B85C0020C5910020D30000200032C2B900200032D328C785B2C8B2E4002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "드디어 대장전이네요.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "B4DCB514C5B40020B300C7A5C804C774B124C694002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "대장전!\n도우미 타격귀 대 붉은 귀신 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "B300C7A5C8040021000AB3C4C6B0BBF80020D0C0ACA9ADC00020B3000020BD89C7400020ADC0C2E00020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "대장전!\n푸른 귀신 타격귀 대 도우미 던지미!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "B300C7A5C8040021000AD478B9780020ADC0C2E00020D0C0ACA9ADC00020B3000020B3C4C6B0BBF80020B358C9C0BBF8002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "시합 시작!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "C2DCD5690020C2DCC791002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿/",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3076,
+      "rawDecodedUtf16Hex": "00100002BDFF002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "한판!!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3088,
+      "rawDecodedUtf16Hex": "D55CD3100021002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "승자!\n타격귀 팀 대장, <U+0010><U+0002>Ā<U+0000> 씨!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "C2B9C7900021000AD0C0ACA9ADC00020D3000020B300C7A5002C002000100002010000000020C528002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "만세!\n타격귀의 훌륭함을 증명해 보였네요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3160,
+      "rawDecodedUtf16Hex": "B9CCC1380021000AD0C0ACA9ADC0C7580020D6CCB96DD568C7440020C99DBA85D5740020BCF4C600B124C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "훌륭하시네요.<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3216,
+      "rawDecodedUtf16Hex": "D6CCB96DD558C2DCB124C694002E00100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "감사합니다! 그렇지만, 이번 승리는\n<U+0010><U+0002>Ā<U+0000> 님 덕분이었어요.<U+0010><U+0001>븀\n다음에는 던지미의 훌륭함도 보여 주시죠!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3240,
+      "rawDecodedUtf16Hex": "AC10C0ACD569B2C8B2E400210020ADF8B807C9C0B9CC002C0020C774BC880020C2B9B9ACB294000A00100002010000000020B2D80020B355BD84C774C5C8C5B4C694002E00100001BE00000AB2E4C74CC5D0B2940020B358C9C0BBF8C7580020D6CCB96DD568B3C40020BCF4C5EC0020C8FCC2DCC8E0002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "승자!\n던지미 팀 대장, <U+0010><U+0002>Ā<U+0000> 씨!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "C2B9C7900021000AB358C9C0BBF80020D3000020B300C7A5002C002000100002010000000020C528002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "해냈어요!\n던지미의 훌륭한 승리였네요!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3424,
+      "rawDecodedUtf16Hex": "D574B0C8C5B4C6940021000AB358C9C0BBF8C7580020D6CCB96DD55C0020C2B9B9ACC600B124C694002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "역시 던지미의 던지기에는\n못 당하겠네요.<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "C5EDC2DC0020B358C9C0BBF8C7580020B358C9C0AE30C5D0B294000ABABB0020B2F9D558ACA0B124C694002E00100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "감사해요!<U+0010><U+0001>븁\n그렇지만, <U+0010><U+0002>Ā<U+0000> 님이 없었더라면\n이기지 못했을 거예요.<U+0010><U+0001>븀\n다음에는 타격귀의 훌륭함도 보여 주세요.<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3532,
+      "rawDecodedUtf16Hex": "AC10C0ACD574C694002100100001BE01000AADF8B807C9C0B9CC002C002000100002010000000020B2D8C7740020C5C6C5C8B354B77CBA74000AC774AE30C9C00020BABBD588C7440020AC70C608C694002E00100001BE00000AB2E4C74CC5D0B2940020D0C0ACA9ADC0C7580020D6CCB96DD568B3C40020BCF4C5EC0020C8FCC138C694002E00100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "승패에 상관없이 상대를 칭찬할 줄 아는\n멋진 스포츠맨십이군요!<U+0010><U+0001>븁\n이것이야말로 무도의 정신!\n<U+0010><U+0002>Ā<U+0000> 씨도 멋졌습니다!<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3676,
+      "rawDecodedUtf16Hex": "C2B9D328C5D00020C0C1AD00C5C6C7740020C0C1B300B97C0020CE6DCC2CD5600020C9040020C544B294000ABA4BC9C40020C2A4D3ECCE20B9E8C2EDC774AD70C694002100100001BE01000AC774AC83C774C57CB9D0B85C0020BB34B3C4C7580020C815C2E00021000A00100002010000000020C528B3C40020BA4BC84CC2B5B2C8B2E4002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 님의 정식 가입이\n타격귀 팀의 남은 과제가 되겠네요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3820,
+      "rawDecodedUtf16Hex": "00100002010000000020B2D8C7580020C815C2DD0020AC00C785C774000AD0C0ACA9ADC00020D300C7580020B0A8C7400020ACFCC81CAC000020B418ACA0B124C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "던지미 팀은 <U+0010><U+0002>Ā<U+0000> 님께\n종신 대장을 맡길 준비가 되어 있답니다!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3900,
+      "rawDecodedUtf16Hex": "B358C9C0BBF80020D300C740002000100002010000000020B2D8AED8000AC885C2E00020B300C7A5C7440020B9E1AE380020C900BE44AC000020B418C5B40020C788B2F5B2C8B2E4002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3984,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 님의 정식 가입이\n타격귀 팀의 남은 과제가 되겠네요!<U+0010><U+0002>Ĕǈ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3996,
+      "rawDecodedUtf16Hex": "00100002010000000020B2D8C7580020C815C2DD0020AC00C785C774000AD0C0ACA9ADC00020D300C7580020B0A8C7400020ACFCC81CAC000020B418ACA0B124C694002100100002011401C80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "던지미 팀은 <U+0010><U+0002>Ā<U+0000> 님께\n종신 대장을 맡길 준비가 되어 있답니다!<U+0010><U+0002>Ĕǉ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 4076,
+      "rawDecodedUtf16Hex": "B358C9C0BBF80020D300C740002000100002010000000020B2D8AED8000AC885C2E00020B300C7A5C7440020B9E1AE380020C900BE44AC000020B418C5B40020C788B2F5B2C8B2E4002100100002011401C90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4160,
+  "sectionOffset": 16,
+  "textCount": 63,
+  "textSectionCount": 1
+}

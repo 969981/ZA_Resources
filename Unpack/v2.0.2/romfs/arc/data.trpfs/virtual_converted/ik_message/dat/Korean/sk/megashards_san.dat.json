@@ -1,0 +1,73 @@
+{
+  "declaredLength": 300,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "메가조각을 가지고 있다면\n좋은 물건과 교환해 줄게.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "BA54AC00C870AC01C7440020AC00C9C0ACE00020C788B2E4BA74000AC88BC7400020BB3CAC74ACFC0020AD50D658D5740020C904AC8C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "교환한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "AD50D658D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "카세트를 보여 준다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "CE74C138D2B8B97C0020BCF4C5EC0020C900B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "생각나면 언제든지 와. 비밀 루트에서\n좋은 물건들을 구비해 둘 테니까.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "C0DDAC01B098BA740020C5B8C81CB4E0C9C00020C640002E0020BE44BC000020B8E8D2B8C5D0C11C000AC88BC7400020BB3CAC74B4E4C7440020AD6CBE44D5740020B4580020D14CB2C8AE4C002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "좋은 물건이 있다고...!<U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "C88BC7400020BB3CAC74C7740020C788B2E4ACE0002E002E002E002100100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 300,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

@@ -1,0 +1,1153 @@
+{
+  "declaredLength": 4188,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 916,
+      "rawDecodedUtf16Hex": "001000020101000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0000>のすがた",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "0010000201010000306E3059304C305F000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "オスのすがた",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "30AA30B9306E3059304C305F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "メスのすがた",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1000,
+      "rawDecodedUtf16Hex": "30E130B9306E3059304C305F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "00100002BDFF000400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "高さ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "9AD83055000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "重さ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "91CD3055000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "？？？？？？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "FF1FFF1FFF1FFF1FFF1FFF1F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "???.?m",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "003F003F003F002E003F006D0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "???.?kg",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "003F003F003F002E003F006B006700000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "タイプ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "30BF30A430D70000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "生息地不明",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "751F606F57304E0D660E000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "調査中",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "8ABF67FB4E2D0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1216,
+      "rawDecodedUtf16Hex": "00100002BDFF000D00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "00100002BDFF000E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "00100002BDFF000F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "00100002BDFF001000000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1296,
+      "rawDecodedUtf16Hex": "00100002BDFF001100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "00100002BDFF001200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "00100002BDFF001300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "00100002BDFF001400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1376,
+      "rawDecodedUtf16Hex": "00100002BDFF001500000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "00100002BDFF001600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1416,
+      "rawDecodedUtf16Hex": "00100002BDFF001700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1436,
+      "rawDecodedUtf16Hex": "00100002BDFF001800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1456,
+      "rawDecodedUtf16Hex": "00100002BDFF001900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "00100002BDFF001A00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "00100002BDFF001B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "00100002BDFF001C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1536,
+      "rawDecodedUtf16Hex": "00100002BDFF001D00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "00100002BDFF001E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1576,
+      "rawDecodedUtf16Hex": "00100002BDFF001F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "00100002BDFF002000000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "00100002BDFF002100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "00100002BDFF002200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "00100002BDFF002300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1676,
+      "rawDecodedUtf16Hex": "00100002BDFF002400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "00100002BDFF002500000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿&",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "00100002BDFF002600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "番号順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "756A53F798060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "五十音",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1752,
+      "rawDecodedUtf16Hex": "4E94534197F30000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "重い順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "91CD304498060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "軽い順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1784,
+      "rawDecodedUtf16Hex": "8EFD304498060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "高い順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "9AD8304498060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "低い順",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "4F4E304498060000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "捕まえた数",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "6355307E3048305F6570000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "見つけた数",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "898B30643051305F6570000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "00100002BDFF003100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "00100002BDFF003200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "図鑑",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1960,
+      "rawDecodedUtf16Hex": "56F39451000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "メガシンカ図鑑",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "30E130AC30B730F330AB56F3945100000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "001000020101000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "No.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "004E006F002E0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿8",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2060,
+      "rawDecodedUtf16Hex": "00100002BDFF003800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿9",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "00100002BDFF003900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿:",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "00100002BDFF003A00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿;",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2120,
+      "rawDecodedUtf16Hex": "00100002BDFF003B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2140,
+      "rawDecodedUtf16Hex": "00100002BDFF003C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "うごきをみる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "30463054304D3092307F308B0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "00100002BDFF003E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "動き＆鳴き声",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "52D5304DFF069CF4304D58F00000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "止める",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "6B623081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "詳細",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "8A737D30000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "もどる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "30823069308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "図鑑をひらく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2280,
+      "rawDecodedUtf16Hex": "56F39451309230723089304F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2308,
+      "rawDecodedUtf16Hex": "00100002BDFF004400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "図鑑をみる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "56F394513092307F308B000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ならびかえ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2352,
+      "rawDecodedUtf16Hex": "306A30893073304B3048000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "もどる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2376,
+      "rawDecodedUtf16Hex": "30823069308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "生息地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 2392,
+      "rawDecodedUtf16Hex": "751F606F57300000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "マップ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "30DE30C330D70000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "回転",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "56DE8EE2000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "001000020104000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ǔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 2456,
+      "rawDecodedUtf16Hex": "0010000201D4000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>/<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 2476,
+      "rawDecodedUtf16Hex": "0010000202010000002F00100002020100010000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 10,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "高さ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "9AD83055000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>.<U+0010><U+0002>Ȁ<U+0001>m",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "0010000202020000002E0010000202000001006D00000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "???.?m",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "003F003F003F002E003F006D0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "重さ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 2600,
+      "rawDecodedUtf16Hex": "91CD3055000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>.<U+0010><U+0002>Ȁ<U+0001>kg",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "0010000202020000002E0010000202000001006B0067000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "???.?kg",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "003F003F003F002E003F006B006700000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿T",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "00100002BDFF005400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "やめる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 2712,
+      "rawDecodedUtf16Hex": "30843081308B0000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿V",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "00100002BDFF005600000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿W",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 2748,
+      "rawDecodedUtf16Hex": "00100002BDFF005700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿X",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "00100002BDFF005800000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Y",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "00100002BDFF005900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Z",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "00100002BDFF005A00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿[",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "00100002BDFF005B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\\",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "00100002BDFF005C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿]",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 2868,
+      "rawDecodedUtf16Hex": "00100002BDFF005D00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿^",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "00100002BDFF005E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ミアレ図鑑",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 2908,
+      "rawDecodedUtf16Hex": "30DF30A230EC56F39451000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "異次元図鑑",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 2932,
+      "rawDecodedUtf16Hex": "75706B21514356F39451000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "図鑑切替",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 2956,
+      "rawDecodedUtf16Hex": "56F39451520766FF00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ダミーテキスト",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 2976,
+      "rawDecodedUtf16Hex": "30C030DF30FC30C630AD30B930C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "晴れのときだけよくあらわれる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "6674308C306E3068304D306030513088304F30423089308F308C308B000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "雨のときはあらわれない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 3068,
+      "rawDecodedUtf16Hex": "96E8306E3068304D306F30423089308F308C306A3044000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "昼だけあらわれる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "663C3060305130423089308F308C308B000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "夜だけあらわれる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "591C3060305130423089308F308C308B000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "高いところに生息している",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "9AD8304430683053308D306B751F606F305730663044308B0000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "高いところに生息している\n木の上で姿を見かける",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 3240,
+      "rawDecodedUtf16Hex": "9AD8304430683053308D306B751F606F305730663044308B000A6728306E4E0A306759FF3092898B304B3051308B000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "高いところに生息している\n露店の近くで姿を見かける",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 3336,
+      "rawDecodedUtf16Hex": "9AD8304430683053308D306B751F606F305730663044308B000A97325E97306E8FD1304F306759FF3092898B304B3051308B00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "草のある場所に生息している\n中庭で姿を見かける",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 3440,
+      "rawDecodedUtf16Hex": "8349306E3042308B58346240306B751F606F305730663044308B000A4E2D5EAD306759FF3092898B304B3051308B000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "花壇の近くに生息している",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 3536,
+      "rawDecodedUtf16Hex": "82B158C7306E8FD1304F306B751F606F305730663044308B0000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 13,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "高いところに生息している\nあまり見かけない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 3588,
+      "rawDecodedUtf16Hex": "9AD8304430683053308D306B751F606F305730663044308B000A3042307E308A898B304B3051306A30440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "高いところに生息している\n晴れのときだけよくあらわれる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 3676,
+      "rawDecodedUtf16Hex": "9AD8304430683053308D306B751F606F305730663044308B000A6674308C306E3068304D306030513088304F30423089308F308C308B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "路地に生息している\nゴミ箱の近くで姿を見かける",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 3788,
+      "rawDecodedUtf16Hex": "8DEF5730306B751F606F305730663044308B000A30B430DF7BB1306E8FD1304F306759FF3092898B304B3051308B000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "水辺に生息している\n雨のときに姿を見かける",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 3884,
+      "rawDecodedUtf16Hex": "6C348FBA306B751F606F305730663044308B000A96E8306E3068304D306B59FF3092898B304B3051308B0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "水辺に生息している\n雨のときに姿を見かける\nあまり見かけない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 3972,
+      "rawDecodedUtf16Hex": "6C348FBA306B751F606F305730663044308B000A96E8306E3068304D306B59FF3092898B304B3051308B000A3042307E308A898B304B3051306A30440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 31,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "異次元ランク<U+0010><U+0002>＀<U+0005>★<U+0010><U+0002>Ȁ<U+0000><U+0010><U+0002>＀<U+0000>に生息",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 4096,
+      "rawDecodedUtf16Hex": "75706B21514330E930F330AF00100002FF0000052605001000020200000000100002FF000000306B751F606F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4188,
+  "sectionOffset": 16,
+  "textCount": 114,
+  "textSectionCount": 1
+}

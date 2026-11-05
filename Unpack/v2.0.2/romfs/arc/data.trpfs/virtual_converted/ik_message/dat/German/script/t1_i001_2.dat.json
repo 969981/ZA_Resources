@@ -1,0 +1,43 @@
+{
+  "declaredLength": 488,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Wer weiß, wie deine Ankunft in Illumina City\nohne diese Reisetasche abgelaufen wäre...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "005700650072002000770065006900DF002C00200077006900650020006400650069006E006500200041006E006B0075006E0066007400200069006E00200049006C006C0075006D0069006E006100200043006900740079000A006F0068006E006500200064006900650073006500200052006500690073006500740061007300630068006500200061006200670065006C0061007500660065006E0020007700E400720065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Hier wurden Wasser und andere Dinge\nbereitgestellt.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "0048006900650072002000770075007200640065006E002000570061007300730065007200200075006E006400200061006E0064006500720065002000440069006E00670065000A00620065007200650069007400670065007300740065006C006C0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Dieses imposante und qualitativ hochwertige\nCanary-Riesenplüschi ist nicht zu übersehen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "00440069006500730065007300200069006D0070006F00730061006E0074006500200075006E00640020007100750061006C00690074006100740069007600200068006F006300680077006500720074006900670065000A00430061006E006100720079002D00520069006500730065006E0070006C00FC007300630068006900200069007300740020006E00690063006800740020007A0075002000FC0062006500720073006500680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 488,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 144,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "招财狃拉。<U+0010><U+0001>븁\n举起右手代表它具有提高财运的效果，\n而金色也被认为是具有招财效果的颜色。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "62DB8D2272C362C9300200100001BE01000A4E3E8D7753F3624B4EE388685B835177670963D09AD88D228FD076846548679CFF0C000A800C91D182724E5F88AB8BA44E3A662F5177670962DB8D226548679C7684989C827230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "乌羽先生现在不在，\n请回吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "4E4C7FBD5148751F73B057284E0D5728FF0C000A8BF756DE542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 144,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

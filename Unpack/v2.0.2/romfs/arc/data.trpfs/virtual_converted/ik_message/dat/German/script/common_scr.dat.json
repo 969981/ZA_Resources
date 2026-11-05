@@ -1,0 +1,153 @@
+{
+  "declaredLength": 864,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0008>. <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "0010000302060008002E0020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Möchtest du das Spiel speichern?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640061007300200053007000690065006C002000730070006500690063006800650072006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Speichervorgang...\nBitte die Konsole nicht ausschalten.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "005300700065006900630068006500720076006F007200670061006E0067002E002E002E000A0042006900740074006500200064006900650020004B006F006E0073006F006C00650020006E006900630068007400200061007500730073006300680061006C00740065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Du hast das Spiel gespeichert.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "0044007500200068006100730074002000640061007300200053007000690065006C002000670065007300700065006900630068006500720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Es gibt bereits einen Spielstand.\nSpeichern ist daher nicht möglich.<U+0010><U+0001>븁\nWeitere Details dazu findest du in der\nBedienungsanleitung.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 396,
+      "rawDecodedUtf16Hex": "004500730020006700690062007400200062006500720065006900740073002000650069006E0065006E00200053007000690065006C007300740061006E0064002E000A00530070006500690063006800650072006E00200069007300740020006400610068006500720020006E00690063006800740020006D00F60067006C006900630068002E00100001BE01000A0057006500690074006500720065002000440065007400610069006C0073002000640061007A0075002000660069006E006400650073007400200064007500200069006E0020006400650072000A00420065006400690065006E0075006E006700730061006E006C0065006900740075006E0067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 132
+    },
+    {
+      "displayText": "Speichern fehlgeschlagen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "00530070006500690063006800650072006E0020006600650068006C00670065007300630068006C006100670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Du erhältst <U+0010><U+0003>ȇ<U+0002>. <U+E300>!",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "00440075002000650072006800E4006C00740073007400200010000302070002002E0020E30000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0001> erhalten!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "001000020101000100200065007200680061006C00740065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Du erhältst <U+0010><U+0003>ȇ<U+0002>  LP!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "00440075002000650072006800E4006C00740073007400200010000302070002202F0020004C005000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0001>က<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "00100001100000100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 864,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

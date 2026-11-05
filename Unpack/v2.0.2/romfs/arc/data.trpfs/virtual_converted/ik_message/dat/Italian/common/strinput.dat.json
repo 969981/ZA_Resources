@@ -1,0 +1,463 @@
+{
+  "declaredLength": 2496,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Scrivi il tuo nome.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 0,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "00530063007200690076006900200069006C002000740075006F0020006E006F006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Non puoi usare questo nome.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 416,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F0069002000750073006100720065002000710075006500730074006F0020006E006F006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Non puoi usare\n\"<U+0010><U+0002>Į<U+0000>\".",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 472,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F0069002000750073006100720065000A002200100002012E00000022002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Inserisci il nome.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C0020006E006F006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Che soprannome vuoi dare <U+0010><U+0003>ᔎ<U+0000><U+0001><U+0010><U+0002>ā<U+0000>?",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "00430068006500200073006F007000720061006E006E006F006D0065002000760075006F006900200064006100720065002000100003150E000000010010000201010000003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Che soprannome vuoi dare <U+0010><U+0003>ᔎ<U+0000><U+0001><U+0010><U+0002>ā<U+0000> (♂)?",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "00430068006500200073006F007000720061006E006E006F006D0065002000760075006F006900200064006100720065002000100003150E0000000100100002010100000020002826420029003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Che soprannome vuoi dare <U+0010><U+0003>ᔎ<U+0000><U+0001><U+0010><U+0002>ā<U+0000> (♀)?",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "00430068006500200073006F007000720061006E006E006F006D0065002000760075006F006900200064006100720065002000100003150E0000000100100002010100000020002826400029003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Che nome vuoi dare al box?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "0043006800650020006E006F006D0065002000760075006F00690020006400610072006500200061006C00200062006F0078003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Che nome vuoi dare a questa Squadra Lotta?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "0043006800650020006E006F006D0065002000760075006F006900200064006100720065002000610020007100750065007300740061002000530071007500610064007200610020004C006F007400740061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inserisci il codice seriale o la password.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C00200063006F0064006900630065002000730065007200690061006C00650020006F0020006C0061002000700061007300730077006F00720064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "00100002BDFF00110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inserisci il tuo mese di nascita.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C002000740075006F0020006D0065007300650020006400690020006E006100730063006900740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Inserisci il tuo giorno di nascita.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C002000740075006F002000670069006F0072006E006F0020006400690020006E006100730063006900740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1296,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Puoi impostare una password di otto cifre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1320,
+      "rawDecodedUtf16Hex": "00500075006F006900200069006D0070006F0073007400610072006500200075006E0061002000700061007300730077006F007200640020006400690020006F00740074006F002000630069006600720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Inserisci una password di otto cifre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200075006E0061002000700061007300730077006F007200640020006400690020006F00740074006F002000630069006600720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Inserisci la password di comunicazione.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "0049006E00730065007200690073006300690020006C0061002000700061007300730077006F0072006400200064006900200063006F006D0075006E006900630061007A0069006F006E0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Inserisci l’ID gara.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 1564,
+      "rawDecodedUtf16Hex": "0049006E00730065007200690073006300690020006C20190049004400200067006100720061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1608,
+      "rawDecodedUtf16Hex": "00100002BDFF001E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inserisci l’ID della squadra che vuoi prendere in prestito.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "0049006E00730065007200690073006300690020006C201900490044002000640065006C006C0061002000730071007500610064007200610020006300680065002000760075006F00690020007000720065006E006400650072006500200069006E00200070007200650073007400690074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inserisci il nome della gara.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 1752,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C0020006E006F006D0065002000640065006C006C006100200067006100720061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Inserisci il sottotitolo della gara.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 1812,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C00200073006F00740074006F007400690074006F006C006F002000640065006C006C006100200067006100720061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Il sottotitolo è facoltativo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "0049006C00200073006F00740074006F007400690074006F006C006F002000E80020006600610063006F006C00740061007400690076006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Puoi usare al massimo cinque cifre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1948,
+      "rawDecodedUtf16Hex": "00500075006F006900200075007300610072006500200061006C0020006D0061007300730069006D006F002000630069006E007100750065002000630069006600720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2020,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Inserisci un numero da 1 a 12.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200075006E0020006E0075006D00650072006F0020006400610020003100200061002000310032002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Inserisci un numero da 1 a 31.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200075006E0020006E0075006D00650072006F0020006400610020003100200061002000330031002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Inserisci un numero da 1 a 30.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200075006E0020006E0075006D00650072006F0020006400610020003100200061002000330030002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Inserisci un numero da 1 a 29.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 2224,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200075006E0020006E0075006D00650072006F0020006400610020003100200061002000320039002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "I dati inseriti non sono validi.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "00490020006400610074006900200069006E0073006500720069007400690020006E006F006E00200073006F006E006F002000760061006C006900640069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Inserisci il nome della strada.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 43,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "0049006E007300650072006900730063006900200069006C0020006E006F006D0065002000640065006C006C00610020007300740072006100640061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "La via prenderà il nome da te scelto.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2420,
+      "rawDecodedUtf16Hex": "004C006100200076006900610020007000720065006E00640065007200E000200069006C0020006E006F006D00650020006400610020007400650020007300630065006C0074006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2496,
+  "sectionOffset": 16,
+  "textCount": 45,
+  "textSectionCount": 1
+}

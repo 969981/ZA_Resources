@@ -1,0 +1,423 @@
+{
+  "declaredLength": 2176,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "지고 말았다...\n포켓몬을 더 단련시킨 다음 다시 도전하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "C9C0ACE00020B9D0C558B2E4002E002E002E000AD3ECCF13BAACC7440020B3540020B2E8B828C2DCD0A80020B2E4C74C0020B2E4C2DC0020B3C4C804D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "여기서 질 수는 없다...\n다시 한번 도전하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "C5ECAE30C11C0020C9C80020C218B2940020C5C6B2E4002E002E002E000AB2E4C2DC0020D55CBC880020B3C4C804D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "챌린지티켓을 확인했습니다!\n승급전 개최를 승인합니다.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "CC4CB9B0C9C0D2F0CF13C7440020D655C778D588C2B5B2C8B2E40021000AC2B9AE09C8040020AC1CCD5CB97C0020C2B9C778D569B2C8B2E4002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "이대로 다시 도전하겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "C774B300B85C0020B2E4C2DC0020B3C4C804D558ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "다시 도전한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "B2E4C2DC0020B3C4C804D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "이어서 도전",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "C774C5B4C11C0020B3C4C8040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "포기한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "D3ECAE30D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "이어서 도전을 선택하면\n상대의 HP가 줄어든 상태를 유지한 채로<U+0010><U+0001>븀\n다시 도전할 수 있습니다.<U+0010><U+0001>븁\n이어서 도전을 선택하겠습니까?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "C774C5B4C11C0020B3C4C804C7440020C120D0DDD558BA74000AC0C1B300C758002000480050AC000020C904C5B4B4E00020C0C1D0DCB97C0020C720C9C0D55C0020CC44B85C00100001BE00000AB2E4C2DC0020B3C4C804D5600020C2180020C788C2B5B2C8B2E4002E00100001BE01000AC774C5B4C11C0020B3C4C804C7440020C120D0DDD558ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "선택하고 다시 도전한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "C120D0DDD558ACE00020B2E4C2DC0020B3C4C804D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "선택하지 않고 다시 도전한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 776,
+      "rawDecodedUtf16Hex": "C120D0DDD558C9C00020C54AACE00020B2E4C2DC0020B3C4C804D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "돌아간다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "B3CCC544AC04B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "어드바이스",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "C5B4B4DCBC14C774C2A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "루카리오의 기술을 맞혀서\n메가파워 덩어리를 모으자.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "B8E8CE74B9ACC624C7580020AE30C220C7440020B9DED600C11C000ABA54AC00D30CC6CC0020B369C5B4B9ACB97C0020BAA8C73CC790002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "메가파워가 최대로 모이면\n<U+0010><U+0002>봊<U+000C>Stick_R_Push을 눌러서 메가진화!<U+0010><U+0001>븀\n강화된 기술을 연달아 사용해서 싸우자.",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "BA54AC00D30CC6CCAC000020CD5CB300B85C0020BAA8C774BA74000A00100002BD0A000C0053007400690063006B005F0052005F0050007500730068C7440020B20CB7ECC11C0020BA54AC00C9C4D654002100100001BE00000AAC15D654B41C0020AE30C220C7440020C5F0B2ECC5440020C0ACC6A9D574C11C0020C2F8C6B0C790002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "앱솔이 힘을 모으기 시작하면\n빠르게 거리를 벌리고 대비하자.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "C571C194C7740020D798C7440020BAA8C73CAE300020C2DCC791D558BA74000ABE60B974AC8C0020AC70B9ACB97C0020BC8CB9ACACE00020B300BE44D558C790002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "앱솔에게 너무 접근하면 위험하다!\n위급한 상황에는 <U+0010><U+0002>봊<U+0004>Sp_2를 눌러서 회피하자!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "C571C194C5D0AC8C0020B108BB340020C811ADFCD558BA740020C704D5D8D558B2E40021000AC704AE09D55C0020C0C1D669C5D0B294002000100002BD0A000400530070005F0032B97C0020B20CB7ECC11C0020D68CD53CD558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "스프레이의 효과가 사라졌다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "C2A4D504B808C774C7580020D6A8ACFCAC000020C0ACB77CC84CB2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "스프레이의 효과가 사라졌다!\n계속해서 쓰시겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "C2A4D504B808C774C7580020D6A8ACFCAC000020C0ACB77CC84CB2E40021000AACC4C18DD574C11C0020C4F0C2DCACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ĉ<U+0001><U+0010><U+0002>ᤀ<U+0002> 썼다!",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000A001000020109000100100002190000020020C37CB2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "...어라?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1328,
+      "rawDecodedUtf16Hex": "002E002E002EC5B4B77C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "여기서는 <U+0010><U+0002>ā<U+0000><U+0010><U+0002>ᤀ<U+0002> 탈 수 없다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "C5ECAE30C11CB2940020001000020101000000100002190000020020D0C80020C2180020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "여기서는 <U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0002> 탈 수 없다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "C5ECAE30C11CB2940020001000020102000000100002190000020020D0C80020C2180020C5C6B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "포켓몬 박스가 가득 찼다!\n...다음에 다시 오자.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1432,
+      "rawDecodedUtf16Hex": "D3ECCF13BAAC0020BC15C2A4AC000020AC00B4DD0020CC3CB2E40021000A002E002E002EB2E4C74CC5D00020B2E4C2DC0020C624C790002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001> <U+0010><U+0002>ĉ<U+0001>에\n현재 상황을 적었다!",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "0010000201000000001000021900000100200010000201090001C5D0000AD604C7AC0020C0C1D669C7440020C801C5C8B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "완료하지 않은\n매지컬 교환이 있습니다.<U+0010><U+0001>븁\n인터넷에 접속해 주십시오.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "C644B8CCD558C9C00020C54AC740000AB9E4C9C0CEEC0020AD50D658C7740020C788C2B5B2C8B2E4002E00100001BE01000AC778D130B137C5D00020C811C18DD5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "떨어지기 전에 있었던 지점으로\n돌아가겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "B5A8C5B4C9C0AE300020C804C5D00020C788C5C8B3580020C9C0C810C73CB85C000AB3CCC544AC00ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001> 황급히\n모두가 있는 곳으로 돌아갔다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "001000020100000000100002190000010020D669AE09D788000ABAA8B450AC000020C788B2940020ACF3C73CB85C0020B3CCC544AC14B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "든든 에너지가 다 떨어진 것 같다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "B4E0B4E00020C5D0B108C9C0AC000020B2E40020B5A8C5B4C9C40020AC830020AC19B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "이차원 미르에서 탈출합니다.\n괜찮겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "C774CC28C6D00020BBF8B974C5D0C11C0020D0C8CD9CD569B2C8B2E4002E000AAD1CCC2EACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "예",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "C6080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "아니요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "C544B2C8C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "메가치렁이\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "BA54AC00CE58B801C774000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "메가한카리아스Z가\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "BA54AC00D55CCE74B9ACC544C2A4005AAC00000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "메가골루그가\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1904,
+      "rawDecodedUtf16Hex": "BA54AC00ACE8B8E8ADF8AC00000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "메가갑주무사가\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "BA54AC00AC11C8FCBB34C0ACAC00000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "메가스코빌런이\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "BA54AC00C2A4CF54BE4CB7F0C774000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "메가킬라플로르가\n공격해 왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "BA54AC00D0ACB77CD50CB85CB974AC00000AACF5ACA9D5740020C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2036,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "네 근처에\n<U+0010><U+0002>ā<U+0002>의 반응이 있어!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "B1240020ADFCCC98C5D0000A0010000201010002C7580020BC18C751C7740020C788C5B4002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "찾아서 포획해 봐!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "CC3EC544C11C0020D3ECD68DD5740020BD10002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "금색 보너스 볼에서\n다양한 도구가 나왔다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2128,
+      "rawDecodedUtf16Hex": "AE08C0C90020BCF4B108C2A40020BCFCC5D0C11C000AB2E4C591D55C0020B3C4AD6CAC000020B098C654B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2176,
+  "sectionOffset": 16,
+  "textCount": 41,
+  "textSectionCount": 1
+}

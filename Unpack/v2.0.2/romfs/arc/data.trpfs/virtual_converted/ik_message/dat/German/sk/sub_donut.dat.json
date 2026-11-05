@@ -1,0 +1,103 @@
+{
+  "declaredLength": 620,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Möchtest du Schluppuck einen Donut geben?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "004D00F60063006800740065007300740020006400750020005300630068006C00750070007000750063006B002000650069006E0065006E00200044006F006E0075007400200067006500620065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Ja",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "004A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Nein",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "004E00650069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "*kau* *schluck*",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "002A006B00610075002A0020002A007300630068006C00750063006B002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Möchtest du Schluppuck noch einen Donut\ngeben?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "004D00F60063006800740065007300740020006400750020005300630068006C00750070007000750063006B0020006E006F00630068002000650069006E0065006E00200044006F006E00750074000A0067006500620065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Du hast gar keine Donuts!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200067006100720020006B00650069006E006500200044006F006E00750074007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Schluppuck wirkt rundum zufrieden!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "005300630068006C00750070007000750063006B0020007700690072006B0074002000720075006E00640075006D0020007A0075006600720069006500640065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Schluppuck schenkt dir\n<U+0010><U+0003>ᘆ<U+0002><U+0000><U+0010><U+0002>ĉ<U+0002>!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 432,
+      "rawDecodedUtf16Hex": "00100002BD060000005300630068006C00750070007000750063006B00200073006300680065006E006B00740020006400690072000A00100003160600020000001000020109000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Hey, diesen Donut kannst du Schluppuck nicht\ngeben!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "004800650079002C002000640069006500730065006E00200044006F006E007500740020006B0061006E006E007300740020006400750020005300630068006C00750070007000750063006B0020006E0069006300680074000A0067006500620065006E002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 620,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

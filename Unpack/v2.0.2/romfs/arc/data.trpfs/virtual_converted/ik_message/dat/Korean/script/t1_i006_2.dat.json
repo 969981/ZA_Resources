@@ -1,0 +1,53 @@
+{
+  "declaredLength": 384,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "여기에 있는 머신은\n원래 레코드머신으로 사용했었습니다만,<U+0010><U+0001>븀\n현재는 와일드 존 조사에 사용하고 있습니다.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "C5ECAE30C5D00020C788B2940020BA38C2E0C740000AC6D0B7980020B808CF54B4DCBA38C2E0C73CB85C0020C0ACC6A9D588C5C8C2B5B2C8B2E4B9CC002C00100001BE00000AD604C7ACB2940020C640C77CB4DC0020C8740020C870C0ACC5D00020C0ACC6A9D558ACE00020C788C2B5B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "포켓몬에는 수컷과 암컷\n그리고 성별 불명이 있어요.<U+0010><U+0001>븁\n포켓몬에 따라 암수의 모습이\n서로 다르기도 하죠.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACC5D0B2940020C218CEF7ACFC0020C554CEF7000AADF8B9ACACE00020C131BCC40020BD88BA85C7740020C788C5B4C694002E00100001BE01000AD3ECCF13BAACC5D00020B530B77C0020C554C218C7580020BAA8C2B5C774000AC11CB85C0020B2E4B974AE30B3C40020D558C8E0002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "포켓몬과 친해지려면\n같이 있는 것이 최고예요.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 276,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACACFC0020CE5CD574C9C0B824BA74000AAC19C7740020C788B2940020AC83C7740020CD5CACE0C608C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "도시에 사는 것이\n포켓몬에게 어떤 영향을 줄까요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 328,
+      "rawDecodedUtf16Hex": "B3C4C2DCC5D00020C0ACB2940020AC83C774000AD3ECCF13BAACC5D0AC8C0020C5B4B5A40020C601D5A5C7440020C904AE4CC694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 384,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

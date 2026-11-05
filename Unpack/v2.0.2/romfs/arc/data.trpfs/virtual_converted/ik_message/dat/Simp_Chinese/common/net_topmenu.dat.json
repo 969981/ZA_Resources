@@ -1,0 +1,373 @@
+{
+  "declaredLength": 1020,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "通知",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "901A77E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "级别对战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 320,
+      "rawDecodedUtf16Hex": "7EA7522B5BF962180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "私人对战",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "79C14EBA5BF962180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "连接交换",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 344,
+      "rawDecodedUtf16Hex": "8FDE63A54EA463620000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "神秘礼物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "795E79D8793C72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "接收新闻",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 368,
+      "rawDecodedUtf16Hex": "63A5653665B095FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "编辑称号",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "7F168F9179F053F70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "通过在线对战来收集点数并提升级别吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "901A8FC757287EBF5BF962186765653696C670B965705E7663D053477EA7522B5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "和朋友聚在一起对战！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 432,
+      "rawDecodedUtf16Hex": "548C670B53CB805A57284E008D775BF96218FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "和其他玩家交换彼此的宝可梦吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "548C51764ED673A95BB64EA463625F7C6B6476845B9D53EF68A65427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "可通过互联网获得各种礼物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "53EF901A8FC74E9280547F5183B75F97540479CD793C726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "接收新闻。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "63A5653665B095FB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "设置向对战对手展示的称号。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "8BBE7F6E54115BF962185BF9624B5C55793A768479F053F730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "附近的人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "96448FD176844EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "本地联机",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "672C57308054673A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "远处的人",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "8FDC590476844EBA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "互联网连接",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "4E9280547F518FDE63A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "和附近的朋友聚在一起游玩吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "548C96448FD17684670B53CB805A57284E008D776E3873A95427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "和通过互联网连接的朋友一起游玩吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 644,
+      "rawDecodedUtf16Hex": "548C901A8FC74E9280547F518FDE63A57684670B53CB4E008D776E3873A95427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "连接密码",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "8FDE63A55BC678010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000> <U+0010><U+0003>ȃ<U+0001>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 692,
+      "rawDecodedUtf16Hex": "001000030203000000000020001000030203000100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "帮助",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "5E2E52A90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "返回",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 724,
+      "rawDecodedUtf16Hex": "8FD456DE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在线游玩的过程中，\n如果出现连接错误\n或主机电源被切断，\n将暂时无法连接到互联网。\n\n请确认主机的电池剩余电量，\n以及连接是否有问题。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "57287EBF6E3873A976848FC77A0B4E2DFF0C000A5982679C51FA73B08FDE63A595198BEF000A62164E3B673A75356E9088AB520765ADFF0C000A5C06668265F665E06CD58FDE63A552304E9280547F513002000A000A8BF7786E8BA44E3B673A768475356C6052694F59753591CFFF0C000A4EE553CA8FDE63A5662F5426670995EE989830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "正在连接……\n请稍等片刻。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 868,
+      "rawDecodedUtf16Hex": "6B6357288FDE63A520262026000A8BF77A0D7B497247523B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "已成功连接。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "5DF26210529F8FDE63A530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "正在搜寻交换对象……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "6B635728641C5BFB4EA463625BF98C61202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "要取消交换吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "898153D66D884EA463625417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "已取消交换。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 952,
+      "rawDecodedUtf16Hex": "5DF253D66D884EA4636230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "已找到交换对象。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "5DF2627E52304EA463625BF98C6130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "没有找到对象。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 988,
+      "rawDecodedUtf16Hex": "6CA16709627E52305BF98C6130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "已取消对战。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "5DF253D66D885BF9621830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1020,
+  "sectionOffset": 16,
+  "textCount": 36,
+  "textSectionCount": 1
+}

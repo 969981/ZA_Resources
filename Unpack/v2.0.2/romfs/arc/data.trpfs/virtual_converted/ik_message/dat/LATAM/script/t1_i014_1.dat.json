@@ -1,0 +1,33 @@
+{
+  "declaredLength": 328,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Es un Sneasel de la suerte.<U+0010><U+0001>븁\nTanto su pata derecha levantada como su color\ndorado atraen a la buena fortuna.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0045007300200075006E00200053006E0065006100730065006C0020006400650020006C00610020007300750065007200740065002E00100001BE01000A00540061006E0074006F00200073007500200070006100740061002000640065007200650063006800610020006C006500760061006E007400610064006100200063006F006D006F00200073007500200063006F006C006F0072000A0064006F007200610064006F002000610074007200610065006E002000610020006C00610020006200750065006E006100200066006F007200740075006E0061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "El señor Corax no está. Vuelve más tarde.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "0045006C00200073006500F1006F007200200043006F0072006100780020006E006F002000650073007400E1002E0020005600750065006C007600650020006D00E10073002000740061007200640065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 328,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

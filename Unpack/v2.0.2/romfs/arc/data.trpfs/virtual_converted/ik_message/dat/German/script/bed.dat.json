@@ -1,0 +1,63 @@
+{
+  "declaredLength": 332,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Das ist dein Bett.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "00440061007300200069007300740020006400650069006E00200042006500740074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Bis zum Abend ausruhen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "0042006900730020007A0075006D0020004100620065006E006400200061007500730072007500680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Bis zum Morgen ausruhen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "0042006900730020007A0075006D0020004D006F007200670065006E00200061007500730072007500680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Doch nicht ausruhen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "0044006F006300680020006E006900630068007400200061007500730072007500680065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Jetzt ist nicht der richtige Moment für ein\nNickerchen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "004A00650074007A007400200069007300740020006E006900630068007400200064006500720020007200690063006800740069006700650020004D006F006D0065006E00740020006600FC0072002000650069006E000A004E00690063006B00650072006300680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 332,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

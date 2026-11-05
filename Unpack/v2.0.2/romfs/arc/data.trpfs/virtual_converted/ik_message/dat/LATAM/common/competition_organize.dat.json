@@ -1,0 +1,783 @@
+{
+  "declaredLength": 2840,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Configura los datos del torneo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "0043006F006E0066006900670075007200610020006C006F00730020006400610074006F0073002000640065006C00200074006F0072006E0065006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Confirmar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "0043006F006E006600690072006D006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Atrás",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "00410074007200E100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Selecciona la duración.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E00610020006C0061002000640075007200610063006900F3006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Selecciona la hora de inicio.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 764,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E00610020006C006100200068006F0072006100200064006500200069006E006900630069006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Selecciona la hora de finalización.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E00610020006C006100200068006F00720061002000640065002000660069006E0061006C0069007A00610063006900F3006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Selecciona el número máximo de combates diarios.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E006100200065006C0020006E00FA006D00650072006F0020006D00E100780069006D006F00200064006500200063006F006D00620061007400650073002000640069006100720069006F0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Selecciona las reglas para los límites de tiempo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 996,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E00610020006C006100730020007200650067006C00610073002000700061007200610020006C006F00730020006C00ED006D00690074006500730020006400650020007400690065006D0070006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cualquier jugador",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "004300750061006C007100750069006500720020006A0075006700610064006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Solo jugadores que conozcan el ID",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "0053006F006C006F0020006A0075006700610064006F007200650073002000710075006500200063006F006E006F007A00630061006E00200065006C0020004900440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Sí",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "005300ED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "Atrás",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "00410074007200E100730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Selecciona quién puede inscribirse en el torneo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "00530065006C0065006300630069006F006E0061002000710075006900E9006E00200070007500650064006500200069006E00730063007200690062006900720073006500200065006E00200065006C00200074006F0072006E0065006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¿Quieres ponerle un subtítulo al torneo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200070006F006E00650072006C006500200075006E0020007300750062007400ED00740075006C006F00200061006C00200074006F0072006E0065006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Organización del torneo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "004F007200670061006E0069007A00610063006900F3006E002000640065006C00200074006F0072006E0065006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Nombre del torneo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "004E006F006D006200720065002000640065006C00200074006F0072006E0065006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Reglamento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "005200650067006C0061006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1580,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Normal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "004E006F0072006D0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Torre de Batalla",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1620,
+      "rawDecodedUtf16Hex": "0054006F00720072006500200064006500200042006100740061006C006C00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Sin restricciones",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1656,
+      "rawDecodedUtf16Hex": "00530069006E0020007200650073007400720069006300630069006F006E006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1704,
+      "rawDecodedUtf16Hex": "0010000201D500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Periodo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "0050006500720069006F0064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Del <U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ<U+0000><U+0000> (<U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>)",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "00440065006C00200010000202010002002F0010000202010001002F00100003020300000000002000280010000202010003003A001000020201000400290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "al",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ<U+0000><U+0000> (<U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004>)",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "0010000202010002002F0010000202010001002F00100003020300000000002000280010000202010003003A001000020201000400290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Jugadores permitidos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "004A0075006700610064006F0072006500730020007000650072006D0069007400690064006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Cualquier jugador",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1904,
+      "rawDecodedUtf16Hex": "004300750061006C007100750069006500720020006A0075006700610064006F00720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Solo jugadores que conozcan el ID",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "0053006F006C006F0020006A0075006700610064006F007200650073002000710075006500200063006F006E006F007A00630061006E00200065006C0020004900440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Organizar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "004F007200670061006E0069007A006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "¡Aviso!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "00A10041007600690073006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "No puedes cancelar el torneo.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "004E006F0020007000750065006400650073002000630061006E00630065006C0061007200200065006C00200074006F0072006E0065006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Número de combates",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "004E00FA006D00650072006F00200064006500200063006F006D006200610074006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Hasta <U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "00480061007300740061002000100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Tiempo límite",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2168,
+      "rawDecodedUtf16Hex": "005400690065006D0070006F0020006C00ED006D0069007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Tu tiempo: <U+0010><U+0002>ȁ<U+0000> min",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2196,
+      "rawDecodedUtf16Hex": "005400750020007400690065006D0070006F003A002000100002020100000020006D0069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Tiempo de combate: <U+0010><U+0002>ȁ<U+0000> min",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2236,
+      "rawDecodedUtf16Hex": "005400690065006D0070006F00200064006500200063006F006D0062006100740065003A002000100002020100000020006D0069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sin configurar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2292,
+      "rawDecodedUtf16Hex": "00530069006E00200063006F006E00660069006700750072006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>/<U+0010><U+0002>ȁ<U+0001>/<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "0010000202010002002F0010000202010001002F001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:00",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "0010000202010001003A003000300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:59",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2372,
+      "rawDecodedUtf16Hex": "0010000202010001003A003500390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Periodo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "0050006500720069006F0064006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2404,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2416,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2428,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hasta <U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "00480061007300740061002000100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Tu tiempo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2464,
+      "rawDecodedUtf16Hex": "005400750020007400690065006D0070006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Tiempo de combate",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "005400690065006D0070006F00200064006500200063006F006D00620061007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000> minuto<U+0010><U+0003>ᄁ<U+0000>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "00100002020100000020006D0069006E00750074006F0010000311010000010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001> minuto<U+0010><U+0003>ᄁ<U+0001>Ās",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "00100002020100010020006D0069006E00750074006F0010000311010001010000730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Sin límite",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2592,
+      "rawDecodedUtf16Hex": "00530069006E0020006C00ED006D0069007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Confirmar",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "0043006F006E006600690072006D006100720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2636,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2648,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2684,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2696,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "00100002BDFF00420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "00100002BDFF00430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2744,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2756,
+      "rawDecodedUtf16Hex": "00100002BDFF00460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "00100002BDFF00470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 2816,
+      "rawDecodedUtf16Hex": "00100002BDFF004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "00100002BDFF004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2840,
+  "sectionOffset": 16,
+  "textCount": 77,
+  "textSectionCount": 1
+}

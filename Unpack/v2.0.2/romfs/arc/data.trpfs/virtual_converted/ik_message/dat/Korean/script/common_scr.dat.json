@@ -1,0 +1,153 @@
+{
+  "declaredLength": 664,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "예",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "C6080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "아니요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "C544B2C8C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0008><U+0000><U+E343>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "00100003020600080000E3430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "여기까지의 모험을\n리포트에 기록하겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "C5ECAE30AE4CC9C0C7580020BAA8D5D8C744000AB9ACD3ECD2B8C5D00020AE30B85DD558ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "리포트를 작성하고 있습니다.\n전원을 끄지 않도록 해 주십시오...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "B9ACD3ECD2B8B97C0020C791C131D558ACE00020C788C2B5B2C8B2E4002E000AC804C6D0C7440020B044C9C00020C54AB3C4B85D0020D5740020C8FCC2EDC2DCC624002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n리포트를 꼼꼼히 기록했다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000AB9ACD3ECD2B8B97C0020AF3CAF3CD7880020AE30B85DD588B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "이미 다른 포켓몬 리포트가\n작성되어 있으므로<U+0010><U+0001>븀\n리포트를 작성할 수 없습니다.<U+0010><U+0001>븁\n자세한 내용은\n사용설명서를 참조하세요.",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "C774BBF80020B2E4B9780020D3ECCF13BAAC0020B9ACD3ECD2B8AC00000AC791C131B418C5B40020C788C73CBBC0B85C00100001BE00000AB9ACD3ECD2B8B97C0020C791C131D5600020C2180020C5C6C2B5B2C8B2E4002E00100001BE01000AC790C138D55C0020B0B4C6A9C740000AC0ACC6A9C124BA85C11CB97C0020CC38C870D558C138C694002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "리포트를\n기록하지 못했습니다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "B9ACD3ECD2B8B97C000AAE30B85DD558C9C00020BABBD588C2B5B2C8B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0003>ȇ<U+0002><U+0000>원을 받았다!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000A00100003020700020000C6D0C7440020BC1BC558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ā<U+0001><U+0010><U+0002>ᤀ<U+0002> 받았다!",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000A001000020101000100100002190000020020BC1BC558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0003>ȇ<U+0002><U+0000>LP를 손에 넣었다!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000A00100003020700020000004C0050B97C0020C190C5D00020B123C5C8B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "00100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 664,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

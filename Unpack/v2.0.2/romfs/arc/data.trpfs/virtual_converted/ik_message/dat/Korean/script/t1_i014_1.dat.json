@@ -1,0 +1,33 @@
+{
+  "declaredLength": 208,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "복을 부르는 포푸니다.<U+0010><U+0001>븁\n오른손을 들고 있는 것과 금색은\n금전 운을 부르는 효과가 있다고 전해진다.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "BCF5C7440020BD80B974B2940020D3ECD478B2C8B2E4002E00100001BE01000AC624B978C190C7440020B4E4ACE00020C788B2940020AC83ACFC0020AE08C0C9C740000AAE08C8040020C6B4C7440020BD80B974B2940020D6A8ACFCAC000020C788B2E4ACE00020C804D574C9C4B2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "카라스바 님께서는 지금 자리를 비우셨으니\n다음에 찾아와 주시죠.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 136,
+      "rawDecodedUtf16Hex": "CE74B77CC2A4BC140020B2D8AED8C11CB2940020C9C0AE080020C790B9ACB97C0020BE44C6B0C168C73CB2C8000AB2E4C74CC5D00020CC3EC544C6400020C8FCC2DCC8E0002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 208,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 240,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Il futuro lo costruiamo ogni giorno, con le azioni\ndel presente.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0049006C002000660075007400750072006F0020006C006F00200063006F007300740072007500690061006D006F0020006F0067006E0069002000670069006F0072006E006F002C00200063006F006E0020006C006500200061007A0069006F006E0069000A00640065006C002000700072006500730065006E00740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Team MZ... Avete tutta la mia gratitudine.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "005400650061006D0020004D005A002E002E002E0020004100760065007400650020007400750074007400610020006C00610020006D006900610020006700720061007400690074007500640069006E0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 240,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

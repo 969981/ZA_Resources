@@ -1,0 +1,613 @@
+{
+  "declaredLength": 3428,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "这位训练家，\n帮我个忙吧。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "8FD94F4D8BAD7EC35BB6FF0C000A5E2E62114E2A5FD95427300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "我想让你帮我把这封信\n送到艾特瓦鲁学校的校长那里。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "621160F38BA94F605E2E6211628A8FD95C014FE1000A90015230827E727974E69C815B66682176846821957F90A391CC300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "我的情况有点特殊，\n没法亲自去送。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 580,
+      "rawDecodedUtf16Hex": "6211768460C551B5670970B972796B8AFF0C000A6CA16CD54EB281EA53BB9001300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "你能帮我个忙，\n把信送过去吗？<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "4F6080FD5E2E62114E2A5FD9FF0C000A628A4FE190018FC753BB5417FF1F00100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "好的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "597D76840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "哪里怪怪的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "54EA91CC602A602A76840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "你要是觉得哪里怪怪的，\n就答应我，然后确认下吧。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "4F608981662F89C95F9754EA91CC602A602A7684FF0C000A5C317B545E946211FF0C7136540E786E8BA44E0B5427300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Merci！谢谢！\n一看你的表情就知道你会帮我。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "004D0065007200630069FF018C228C22FF01000A4E00770B4F607684886860C55C3177E590534F604F1A5E2E6211300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "要你帮我送的是这封信。<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "89814F605E2E621190017684662F8FD95C014FE1300200100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "要记得这封信是要送给\n<U+0010><U+0002>＀<U+0006>艾特瓦鲁学校<U+0010><U+0002>＀<U+0000>的校长哦！<U+0010><U+0002>ĔƦ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 836,
+      "rawDecodedUtf16Hex": "89818BB05F978FD95C014FE1662F898190017ED9000A00100002FF000006827E727974E69C815B66682100100002FF00000076846821957F54E6FF0100100002011401A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "哎呀，是你……<U+0010><U+0001>븁\n你之前帮我找到了戒指，\n我由衷地感谢你。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "54CE5440FF0C662F4F602026202600100001BE01000A4F604E4B524D5E2E6211627E52304E8662126307FF0C000A6211753188775730611F8C224F60300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "话说，你今天来艾特瓦鲁学校\n有何贵干呢？<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "8BDD8BF4FF0C4F604ECA59296765827E727974E69C815B666821000A67094F558D355E725462FF1F00100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "我正在找校长",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1044,
+      "rawDecodedUtf16Hex": "62116B635728627E6821957F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "我是来送信的",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "6211662F676590014FE176840000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "我就是艾特瓦鲁学校的校长。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "62115C31662F827E727974E69C815B66682176846821957F300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>把重要信件\n交给了惠艺！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1112,
+      "rawDecodedUtf16Hex": "0010000201000000628A91CD89814FE14EF6000A4EA47ED94E8660E0827AFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "这封信是哪位给你的？<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "8FD95C014FE1662F54EA4F4D7ED94F607684FF1F00100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "等等……有件更重要的事\n我要先确认一下。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "7B497B492026202667094EF666F491CD898176844E8B000A621189815148786E8BA44E004E0B300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "能麻烦你去翡绿6号街区的\n<U+0010><U+0002>＀<U+0006>木根工程<U+0010><U+0002>＀<U+0000>找我吗？<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "80FD9EBB70E64F6053BB7FE17EFF003653F78857533A7684000A00100002FF000006672868395DE57A0B00100002FF000000627E62115417FF1F00100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "我正等着你呢。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "62116B637B4977404F605462300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "谢谢你特地到这里来。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "8C228C224F607279573052308FD991CC6765300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "其实我应该独自一人来确认的，\n但我收到的这封信实在太奇妙了……<U+0010><U+0001>븁\n我就把信里的内容告诉你吧。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "51765B9E62115E948BE572EC81EA4E004EBA6765786E8BA47684FF0C000A4F4662116536523076848FD95C014FE15B9E5728592A594759994E862026202600100001BE01000A62115C31628A4FE191CC768451855BB9544A8BC94F605427300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "有件很重要的事我没能告诉你\n就从你身边离开了，很抱歉。<U+0010><U+0001>븁\n14年前，我把珍贵的戒指\n交给了一个男人修理。<U+0010><U+0001>븁\n那个男人叫做塔拉刚，\n是木根工程的店主。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1476,
+      "rawDecodedUtf16Hex": "67094EF65F8891CD898176844E8B62116CA180FD544A8BC94F60000A5C314ECE4F608EAB8FB979BB5F004E86FF0C5F8862B16B49300200100001BE01000A003100345E74524DFF0C6211628A73CD8D35768462126307000A4EA47ED94E864E004E2A75374EBA4FEE7406300200100001BE01000A90A34E2A75374EBA53EB505A585462C9521AFF0C000A662F672868395DE57A0B76845E974E3B300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "能收到我那去世的丈夫寄来的信，\n这种事实在是荒诞离奇……<U+0010><U+0001>븀\n所以我不敢独自前来确认。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "80FD65365230621190A353BB4E1676844E08592B5BC4676576844FE1FF0C000A8FD979CD4E8B5B9E5728662F83528BDE79BB59472026202600100001BE00000A62404EE562114E0D656272EC81EA524D6765786E8BA4300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "你就是塔拉刚？<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1744,
+      "rawDecodedUtf16Hex": "4F605C31662F585462C9521AFF1F00100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "没错，找我有什么事吗？<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "6CA19519FF0C627E621167094EC04E484E8B5417FF1F00100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "14年前，是不是有一个男人\n曾经拜托你帮忙修理戒指？<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "003100345E74524DFF0C662F4E0D662F67094E004E2A75374EBA000A66FE7ECF62DC62584F605E2E5FD94FEE740662126307FF1F00100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "正是。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1864,
+      "rawDecodedUtf16Hex": "6B63662F300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "当时我们去了一家餐厅\n给卡娜莉过生日。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1880,
+      "rawDecodedUtf16Hex": "5F5365F662114EEC53BB4E864E005BB699105385000A7ED953615A1C83898FC7751F65E5300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "旁边有个男人和我们一拍即合，\n和卡娜莉一起聊得很起劲。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "65C18FB967094E2A75374EBA548C62114EEC4E0062CD53735408FF0C000A548C53615A1C83894E008D77804A5F975F888D7752B2300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "那个男人知道我是干什么的之后，\n就拜托我帮他加固戒指上的石头。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1992,
+      "rawDecodedUtf16Hex": "90A34E2A75374EBA77E590536211662F5E724EC04E4876844E4B540EFF0C000A5C3162DC625862115E2E4ED652A056FA621263074E0A768477F35934300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "他说因为那戒指和他老婆的成双成对，\n是很珍贵的定情戒指。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2064,
+      "rawDecodedUtf16Hex": "4ED68BF456E04E3A90A362126307548C4ED680015A467684621053CC62105BF9FF0C000A662F5F8873CD8D3576845B9A60C562126307300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "那个男人就是我丈夫。\n但他因为出了事故已经……<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "90A34E2A75374EBA5C31662F62114E08592B3002000A4F464ED656E04E3A51FA4E864E8B65455DF27ECF2026202600100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "那真是太不幸了……<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "90A3771F662F592A4E0D5E784E862026202600100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "不过，你能来到这里\n还真是令人感到不可思议啊。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "4E0D8FC7FF0C4F6080FD676552308FD991CC000A8FD8771F662F4EE44EBA611F52304E0D53EF601D8BAE554A300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "那么，我来支付修理费吧。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "90A34E48FF0C62116765652F4ED84FEE74068D395427300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "夫人，请等一下。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2308,
+      "rawDecodedUtf16Hex": "592B4EBAFF0C8BF77B494E004E0B300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "修理费嘛……<U+0010><U+0002>Ā<U+0000>，\n你跟我来场对战就算支付了如何？<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2336,
+      "rawDecodedUtf16Hex": "4FEE74068D39561B202620260010000201000000FF0C000A4F608DDF62116765573A5BF962185C317B97652F4ED84E8659824F55FF1F00100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "我在车库等你，\n想对战了就来找我！<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "621157288F665E937B494F60FF0C000A60F35BF962184E865C316765627E6211FF0100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，\n拜托你了。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2444,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C000A62DC62584F604E86300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿*",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2476,
+      "rawDecodedUtf16Hex": "00100002BDFF002A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我从古历老师那里学到的不只是\n如何做面包，还有如何对战！<U+0010><U+0001>븀\n向你展示一下我的学习成果吧！<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2488,
+      "rawDecodedUtf16Hex": "62114ECE53E4538680015E0890A391CC5B66523076844E0D53EA662F000A59824F55505A97625305FF0C8FD8670959824F555BF96218FF0100100001BE00000A54114F605C55793A4E004E0B621176845B664E606210679C5427FF0100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "我会赢！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2592,
+      "rawDecodedUtf16Hex": "62114F1A8D62FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "请等一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "8BF77B494E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "如果不和我对战的话，\n我就不能归还戒指。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "5982679C4E0D548C62115BF9621876848BDDFF0C000A62115C314E0D80FD5F528FD862126307300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "宝可梦对战，\nready start哇！<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "5B9D53EF68A65BF96218FF0C000A0072006500610064007900200073007400610072007454C7FF0100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "龙头地鼠，龙头地鼠，龙头地鼠！\n让对手尝尝你自豪的钻头吧！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "9F99593457309F20FF0C9F99593457309F20FF0C9F99593457309F20FF01000A8BA95BF9624B5C1D5C1D4F6081EA8C6A768494BB59345427FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2796,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "你果然很强！不过，\n龙头地鼠和我也都锻炼得很厉害吧？<U+0010><U+0001>븁\n你帮了我不少忙，\n所以我很想通过变强来报答你。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "4F60679C71365F885F3AFF014E0D8FC7FF0C000A9F99593457309F20548C62114E5F90FD953B70BC5F975F8853895BB35427FF1F00100001BE01000A4F605E2E4E8662114E0D5C115FD9FF0C000A62404EE562115F8860F3901A8FC753D85F3A676562A57B544F60300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "夫人，既然修理费都收下了，\n我一直保管的戒指就交给你们了。<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "592B4EBAFF0C65E271364FEE74068D3990FD65364E0B4E86FF0C000A62114E0076F44FDD7BA17684621263075C314EA47ED94F604EEC4E86300200100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>……<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "00100002010000002026202600100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>\n把纪念戒指交给对方了！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "0010000201000000000A628A7EAA5FF5621263074EA47ED95BF965B94E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "他人不在了，\n戒指也一直找不到……<U+0010><U+0001>븁\n但这下定情戒指又凑成一对了。\n这枚戒指，我会连同回忆一起好好珍惜的。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "4ED64EBA4E0D57284E86FF0C000A621263074E5F4E0076F4627E4E0D52302026202600100001BE01000A4F468FD94E0B5B9A60C56212630753C851D162104E005BF94E863002000A8FD9679A62126307FF0C62114F1A8FDE540C56DE5FC64E008D77597D597D73CD60DC7684300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，\n你不仅找到了我的戒指……<U+0010><U+0001>븁\n还找到了我丈夫的戒指，\n我由衷地感谢你。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3172,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C000A4F604E0D4EC5627E52304E8662117684621263072026202600100001BE01000A8FD8627E52304E8662114E08592B768462126307FF0C000A6211753188775730611F8C224F60300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "能让一直保管的戒指\n回到该在的地方，我也松了口气！<U+0010><U+0002>Ĕ<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "80FD8BA94E0076F44FDD7BA1768462126307000A56DE52308BE557287684573065B9FF0C62114E5F677E4E8653E36C14FF0100100002011400100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿:",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3328,
+      "rawDecodedUtf16Hex": "00100002BDFF003A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我做了场美梦。<U+0010><U+0001>븁\n在梦里，我遇到了送我戒指那时的丈夫，\n跟他聊得很开心呢。<U+0010><U+0002>Ĕħ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3340,
+      "rawDecodedUtf16Hex": "6211505A4E86573A7F8E68A6300200100001BE01000A572868A691CCFF0C6211904752304E86900162116212630790A365F676844E08592BFF0C000A8DDF4ED6804A5F975F885F005FC35462300200100002011401270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3428,
+  "sectionOffset": 16,
+  "textCount": 60,
+  "textSectionCount": 1
+}

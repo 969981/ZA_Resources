@@ -1,0 +1,123 @@
+{
+  "declaredLength": 576,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>:<U+0010><U+0002>ȁ<U+0001>,<U+0010><U+0002>ȁ<U+0002>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "0010000202010000003A0010000202010001002C00100002020100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "00100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Erholung in <U+0010><U+0002>Ȁ<U+0000> Sekunde<U+0010><U+0003>ᄁ<U+0000>Ān",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "004500720068006F006C0075006E006700200069006E00200010000202000000002000530065006B0075006E0064006500100003110100000100006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Du hast <U+0010><U+0002>Ā<U+0000> besiegt!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "0044007500200068006100730074002000100002010000000020006200650073006900650067007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Noch <U+0010><U+0002>Ȁ<U+0000> Minute<U+0010><U+0003>ᄁ<U+0000>Ān!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "004E006F00630068002000100002020000000020004D0069006E00750074006500100003110100000100006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Noch <U+0010><U+0002>ȁ<U+0000> Sekunde<U+0010><U+0003>ᄁ<U+0000>Ān!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 328,
+      "rawDecodedUtf16Hex": "004E006F0063006800200010000202010000002000530065006B0075006E0064006500100003110100000100006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Du kannst dein Pokémon noch <U+0010><U+0002>Ȁ<U+0000> Mal auswechseln!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E007300740020006400650069006E00200050006F006B00E9006D006F006E0020006E006F00630068002000100002020000000020004D0061006C0020006100750073007700650063006800730065006C006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Du kannst dein Pokémon nicht mehr auswechseln!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E007300740020006400650069006E00200050006F006B00E9006D006F006E0020006E00690063006800740020006D0065006800720020006100750073007700650063006800730065006C006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 576,
+  "sectionOffset": 16,
+  "textCount": 11,
+  "textSectionCount": 1
+}

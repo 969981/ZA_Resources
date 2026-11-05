@@ -1,0 +1,43 @@
+{
+  "declaredLength": 508,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "This travel bag sure seems to have set you off on a\npath toward adventure here in Lumiose!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "0054006800690073002000740072006100760065006C0020006200610067002000730075007200650020007300650065006D007300200074006F00200068006100760065002000730065007400200079006F00750020006F006600660020006F006E00200061000A007000610074006800200074006F007700610072006400200061006400760065006E00740075007200650020006800650072006500200069006E0020004C0075006D0069006F0073006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Someone’s left you water and other amenities\natop the chest of drawers!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "0053006F006D0065006F006E0065201900730020006C00650066007400200079006F007500200077006100740065007200200061006E00640020006F007400680065007200200061006D0065006E00690074006900650073000A00610074006F007000200074006800650020006300680065007300740020006F00660020006400720061007700650072007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "This giant Canari plush really commands the\nroom! Great craftsmanship too.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "00540068006900730020006700690061006E0074002000430061006E00610072006900200070006C0075007300680020007200650061006C006C007900200063006F006D006D0061006E006400730020007400680065000A0072006F006F006D00210020004700720065006100740020006300720061006600740073006D0061006E007300680069007000200074006F006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 508,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

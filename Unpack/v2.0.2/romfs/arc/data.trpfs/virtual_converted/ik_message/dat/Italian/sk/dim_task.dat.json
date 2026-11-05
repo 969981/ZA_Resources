@@ -1,0 +1,553 @@
+{
+  "declaredLength": 3500,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Distruggi le Poké Ball fluttuanti",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "0044006900730074007200750067006700690020006C006500200050006F006B00E9002000420061006C006C00200066006C00750074007400750061006E007400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Distruggi una roccia",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 516,
+      "rawDecodedUtf16Hex": "00440069007300740072007500670067006900200075006E006100200072006F00630063006900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Distruggi una liana",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 560,
+      "rawDecodedUtf16Hex": "00440069007300740072007500670067006900200075006E00610020006C00690061006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Distruggi un mucchio di melma",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "00440069007300740072007500670067006900200075006E0020006D00750063006300680069006F0020006400690020006D0065006C006D00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Raccogli uno strumento luccicante",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "0052006100630063006F0067006C006900200075006E006F00200073007400720075006D0065006E0074006F0020006C007500630063006900630061006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Cattura un Pokémon selvatico",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E002000730065006C00760061007400690063006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Cattura <U+0010><U+0002>ā<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "0043006100740074007500720061002000100002010100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Cattura <U+0010><U+0002>ā<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "0043006100740074007500720061002000100002010100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Cattura un Pokémon di tipo <U+0010><U+0002>ă<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 844,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E0020006400690020007400690070006F002000100002010300030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Cattura tre Pokémon di specie diverse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 908,
+      "rawDecodedUtf16Hex": "0043006100740074007500720061002000740072006500200050006F006B00E9006D006F006E0020006400690020007300700065006300690065002000640069007600650072007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Cattura sei Pokémon di specie diverse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "0043006100740074007500720061002000730065006900200050006F006B00E9006D006F006E0020006400690020007300700065006300690065002000640069007600650072007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Cattura nove Pokémon di specie diverse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "00430061007400740075007200610020006E006F0076006500200050006F006B00E9006D006F006E0020006400690020007300700065006300690065002000640069007600650072007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Cattura un Pokémon alfa",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E00200061006C006600610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Cattura un Pokémon cromatico",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E002000630072006F006D0061007400690063006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Cattura un Pokémon alfa cromatico",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E00200061006C00660061002000630072006F006D0061007400690063006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Cattura un Pokémon senza farti scoprire",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1316,
+      "rawDecodedUtf16Hex": "004300610074007400750072006100200075006E00200050006F006B00E9006D006F006E002000730065006E007A0061002000660061007200740069002000730063006F007000720069007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Sfrutta l’ultima chance di cattura",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 17,
+      "offsetInSection": 1396,
+      "rawDecodedUtf16Hex": "00530066007200750074007400610020006C20190075006C00740069006D00610020006300680061006E00630065002000640069002000630061007400740075007200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Colpisci con una mossa superefficace",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1468,
+      "rawDecodedUtf16Hex": "0043006F006C0070006900730063006900200063006F006E00200075006E00610020006D006F007300730061002000730075007000650072006500660066006900630061006300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Colpisci con una mossa di tipo <U+0010><U+0002>ă<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "0043006F006C0070006900730063006900200063006F006E00200075006E00610020006D006F0073007300610020006400690020007400690070006F002000100002010300030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Sconfiggi altri Allenatori",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 20,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "00530063006F006E0066006900670067006900200061006C00740072006900200041006C006C0065006E00610074006F007200690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Lancia una sfida vincendo in un solo colpo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "004C0061006E00630069006100200075006E0061002000730066006900640061002000760069006E00630065006E0064006F00200069006E00200075006E00200073006F006C006F00200063006F006C0070006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Sconfiggi <U+0010><U+0002>ā<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 8,
+      "index": 22,
+      "offsetInSection": 1760,
+      "rawDecodedUtf16Hex": "00530063006F006E00660069006700670069002000100002010100020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Sconfiggi MegaAbsol ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 23,
+      "offsetInSection": 1792,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004100620073006F006C0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Sconfiggi MegaSlowbro ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 24,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610053006C006F007700620072006F0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaCamerupt ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 25,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D00650067006100430061006D006500720075007000740020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaVictreebel ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 26,
+      "offsetInSection": 1960,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061005600690063007400720065006500620065006C0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Sconfiggi MegaBeedrill ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 27,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004200650065006400720069006C006C0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaHawlucha ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 28,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004800610077006C00750063006800610020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaBanette ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 29,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D00650067006100420061006E00650074007400650020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaAmpharos ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 30,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610041006D0070006800610072006F00730020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaBarbaracle ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 31,
+      "offsetInSection": 2260,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D00650067006100420061007200620061007200610063006C00650020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Sconfiggi MegaMawile ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 32,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004D006100770069006C00650020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Sconfiggi MegaFroslass ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 33,
+      "offsetInSection": 2380,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D00650067006100460072006F0073006C0061007300730020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaAltaria ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 34,
+      "offsetInSection": 2440,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610041006C007400610072006900610020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaVenusaur ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 35,
+      "offsetInSection": 2496,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D00650067006100560065006E007500730061007500720020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaDragonite ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 36,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610044007200610067006F006E0069007400650020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Sconfiggi MegaTyranitar ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 37,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610054007900720061006E00690074006100720020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Sconfiggi MegaStarmie ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 38,
+      "offsetInSection": 2676,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610053007400610072006D006900650020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaAbsol Z ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 39,
+      "offsetInSection": 2732,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004100620073006F006C0020005A0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaStaraptor ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 40,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610053007400610072006100700074006F00720020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Sconfiggi MegaTatsugiri ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 41,
+      "offsetInSection": 2848,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D0065006700610054006100740073007500670069007200690020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Sconfiggi MegaMeowstic ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 42,
+      "offsetInSection": 2908,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004D0065006F007700730074006900630020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaHeatran ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 43,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004800650061007400720061006E0020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi MegaDarkrai ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 44,
+      "offsetInSection": 3024,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061004400610072006B0072006100690020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Sconfiggi ArcheoKyogre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 45,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "00530063006F006E00660069006700670069002000410072006300680065006F004B0079006F0067007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Sconfiggi ArcheoGroudon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 46,
+      "offsetInSection": 3128,
+      "rawDecodedUtf16Hex": "00530063006F006E00660069006700670069002000410072006300680065006F00470072006F00750064006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Sconfiggi MegaRayquaza ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 47,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061005200610079007100750061007A00610020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Sconfiggi MegaZeraora ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 48,
+      "offsetInSection": 3236,
+      "rawDecodedUtf16Hex": "00530063006F006E006600690067006700690020004D006500670061005A006500720061006F007200610020006600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Accetta una missione",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 49,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "004100630063006500740074006100200075006E00610020006D0069007300730069006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Porta a termine la missione",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3336,
+      "rawDecodedUtf16Hex": "0050006F007200740061002000610020007400650072006D0069006E00650020006C00610020006D0069007300730069006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Parla con la bambina",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3392,
+      "rawDecodedUtf16Hex": "005000610072006C006100200063006F006E0020006C0061002000620061006D00620069006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Vincola Hoopa Libero",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "00560069006E0063006F006C006100200048006F006F007000610020004C0069006200650072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Placa ???",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3480,
+      "rawDecodedUtf16Hex": "0050006C0061006300610020003F003F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3500,
+  "sectionOffset": 16,
+  "textCount": 54,
+  "textSectionCount": 1
+}

@@ -1,0 +1,83 @@
+{
+  "declaredLength": 428,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Flooo ! Flooo !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 60,
+      "rawDecodedUtf16Hex": "0046006C006F006F006F0020002100200046006C006F006F006F002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Oh... C’est une Floettite...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 92,
+      "rawDecodedUtf16Hex": "004F0068002E002E002E00200043201900650073007400200075006E006500200046006C006F006500740074006900740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Oh... C’est une Floettite...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "004F0068002E002E002E00200043201900650073007400200075006E006500200046006C006F006500740074006900740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "C’est le moment, Floette ! Méga-évolue !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00650020006D006F006D0065006E0074002C00200046006C006F0065007400740065002000210020004D00E900670061002D00E90076006F006C00750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "C’est le moment, Floette ! Méga-évolue !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "004320190065007300740020006C00650020006D006F006D0065006E0074002C00200046006C006F0065007400740065002000210020004D00E900670061002D00E90076006F006C00750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Allons-y !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "0041006C006C006F006E0073002D0079002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Allons-y !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "0041006C006C006F006E0073002D0079002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 428,
+  "sectionOffset": 16,
+  "textCount": 7,
+  "textSectionCount": 1
+}

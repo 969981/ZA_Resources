@@ -1,0 +1,1483 @@
+{
+  "declaredLength": 10612,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Qu’est-ce que je vous sers ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D0063006500200071007500650020006A006500200076006F00750073002000730065007200730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Un café.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "0055006E002000630061006600E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Un thé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "0055006E00200074006800E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Quelque chose d’autre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "005100750065006C007100750065002000630068006F0073006500200064201900610075007400720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Rien, merci !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1324,
+      "rawDecodedUtf16Hex": "005200690065006E002C0020006D0065007200630069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Au plaisir de vous revoir bientôt !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "0041007500200070006C0061006900730069007200200064006500200076006F007500730020007200650076006F006900720020006200690065006E007400F40074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Cela vous fera <U+0010><U+0003>Ȇ<U+0000>  <U+E300>.\nEst-ce que cela vous convient ?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1424,
+      "rawDecodedUtf16Hex": "00430065006C006100200076006F00750073002000660065007200610020001000030206000000200020E300002E000A004500730074002D006300650020007100750065002000630065006C006100200076006F0075007300200063006F006E007600690065006E00740020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Qu’est-ce que je vous sers ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1536,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D0063006500200071007500650020006A006500200076006F00750073002000730065007200730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Je suis désolée, mais on dirait que vous n’avez\npas assez d’argent.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "004A0065002000730075006900730020006400E90073006F006C00E90065002C0020006D0061006900730020006F006E0020006400690072006100690074002000710075006500200076006F007500730020006E2019006100760065007A000A00700061007300200061007300730065007A0020006420190061007200670065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Entendu !\nJe vous apporte cela tout de suite.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "0045006E00740065006E0064007500200021000A004A006500200076006F007500730020006100700070006F007200740065002000630065006C006100200074006F00750074002000640065002000730075006900740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Et voici votre commande !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1824,
+      "rawDecodedUtf16Hex": "0045007400200076006F00690063006900200076006F00740072006500200063006F006D006D0061006E00640065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Voulez-vous partir ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200070006100720074006900720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Que souhaitez-vous boire ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1948,
+      "rawDecodedUtf16Hex": "00510075006500200073006F007500680061006900740065007A002D0076006F0075007300200062006F0069007200650020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Un café.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "0055006E002000630061006600E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Un thé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "0055006E00200074006800E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Quelque chose d’autre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "005100750065006C007100750065002000630068006F0073006500200064201900610075007400720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Rien, merci !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "005200690065006E002C0020006D0065007200630069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "D’accord !\nMerci, à bientôt !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2116,
+      "rawDecodedUtf16Hex": "00442019006100630063006F0072006400200021000A004D0065007200630069002C002000E00020006200690065006E007400F40074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Cela vous fera <U+0010><U+0003>Ȇ<U+0000>  <U+E300>.\nEst-ce que cela vous convient ?",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "00430065006C006100200076006F00750073002000660065007200610020001000030206000000200020E300002E000A004500730074002D006300650020007100750065002000630065006C006100200076006F0075007300200063006F006E007600690065006E00740020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Que souhaitez-vous boire ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2288,
+      "rawDecodedUtf16Hex": "00510075006500200073006F007500680061006900740065007A002D0076006F0075007300200062006F0069007200650020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Veuillez m’excuser, mais je crois que vous n’avez\npas assez d’argent.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2344,
+      "rawDecodedUtf16Hex": "0056006500750069006C006C0065007A0020006D20190065007800630075007300650072002C0020006D0061006900730020006A0065002000630072006F00690073002000710075006500200076006F007500730020006E2019006100760065007A000A00700061007300200061007300730065007A0020006420190061007200670065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "C’est noté !\nUn instant, s’il vous plaît.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "004320190065007300740020006E006F007400E900200021000A0055006E00200069006E007300740061006E0074002C0020007320190069006C00200076006F0075007300200070006C006100EE0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Et voilà pour vous !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 2568,
+      "rawDecodedUtf16Hex": "0045007400200076006F0069006C00E000200070006F0075007200200076006F00750073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Voulez-vous partir ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200070006100720074006900720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2656,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Qu’est-ce que tu prends ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D0063006500200071007500650020007400750020007000720065006E006400730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Un café.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "0055006E002000630061006600E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Un thé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 30,
+      "offsetInSection": 2740,
+      "rawDecodedUtf16Hex": "0055006E00200074006800E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Quelque chose d’autre.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2756,
+      "rawDecodedUtf16Hex": "005100750065006C007100750065002000630068006F0073006500200064201900610075007400720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Comme la dernière fois !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "0043006F006D006D00650020006C00610020006400650072006E006900E80072006500200066006F00690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "La même chose que d’habitude !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2856,
+      "rawDecodedUtf16Hex": "004C00610020006D00EA006D0065002000630068006F00730065002000710075006500200064201900680061006200690074007500640065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Rien, merci !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2920,
+      "rawDecodedUtf16Hex": "005200690065006E002C0020006D0065007200630069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Qu’est-ce que tu fais là, alors ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D006300650020007100750065002000740075002000660061006900730020006C00E0002C00200061006C006F007200730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Ça fera <U+0010><U+0003>Ȇ<U+0000> <U+E300>.",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "00C7006100200066006500720061002000100003020600000020E300002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Qu’est-ce que tu prends ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3048,
+      "rawDecodedUtf16Hex": "005100752019006500730074002D0063006500200071007500650020007400750020007000720065006E006400730020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "C’est pas gratuit, ici ! Si tu veux consommer,\nreviens avec de l’argent.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3100,
+      "rawDecodedUtf16Hex": "00432019006500730074002000700061007300200067007200610074007500690074002C0020006900630069002000210020005300690020007400750020007600650075007800200063006F006E0073006F006D006D00650072002C000A00720065007600690065006E0073002000610076006500630020006400650020006C20190061007200670065006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "D’accord !\nJe t’apporte ça.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3248,
+      "rawDecodedUtf16Hex": "00442019006100630063006F0072006400200021000A004A0065002000742019006100700070006F007200740065002000E70061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Et voilà un Café Flammèche ! Ses grains\nlégèrement brûlés lui donnent un goût unique.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "0045007400200076006F0069006C00E000200075006E002000430061006600E900200046006C0061006D006D00E800630068006500200021002000530065007300200067007200610069006E0073000A006C00E9006700E800720065006D0065006E007400200062007200FB006C00E900730020006C0075006900200064006F006E006E0065006E007400200075006E00200067006F00FB007400200075006E0069007100750065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Un Café Lance-Flammes ! Une certaine douceur\nse cache derrière sa puissance et son amertume.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 3476,
+      "rawDecodedUtf16Hex": "0055006E002000430061006600E90020004C0061006E00630065002D0046006C0061006D006D006500730020002100200055006E00650020006300650072007400610069006E006500200064006F00750063006500750072000A0073006500200063006100630068006500200064006500720072006900E8007200650020007300610020007000750069007300730061006E0063006500200065007400200073006F006E00200061006D0065007200740075006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Voici ton Café Déflagration ! Son arôme amer\net intense élimine toute trace d’acidité.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3664,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F006E002000430061006600E90020004400E90066006C006100670072006100740069006F006E0020002100200053006F006E00200061007200F4006D006500200061006D00650072000A0065007400200069006E00740065006E00730065002000E9006C0069006D0069006E006500200074006F00750074006500200074007200610063006500200064201900610063006900640069007400E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Voici ton Café Flamme Ultime ! Sa longue\ntorréfaction lui assure une amertume puissante !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3840,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F006E002000430061006600E900200046006C0061006D006D006500200055006C00740069006D0065002000210020005300610020006C006F006E006700750065000A0074006F0072007200E900660061006300740069006F006E0020006C00750069002000610073007300750072006500200075006E006500200061006D0065007200740075006D00650020007000750069007300730061006E00740065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Voici ton Thé Alakassam ! Un goût suave d’une\ngrande douceur. C’en est presque magique !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4020,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F006E00200054006800E900200041006C0061006B0061007300730061006D0020002100200055006E00200067006F00FB00740020007300750061007600650020006420190075006E0065000A006700720061006E0064006500200064006F00750063006500750072002E0020004320190065006E0020006500730074002000700072006500730071007500650020006D006100670069007100750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Et un Thé Sinischaï, un ! Son parfum revigorant\nt’évoquera certainement un bord de mer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 45,
+      "offsetInSection": 4200,
+      "rawDecodedUtf16Hex": "0045007400200075006E00200054006800E9002000530069006E0069007300630068006100EF002C00200075006E0020002100200053006F006E002000700061007200660075006D002000720065007600690067006F00720061006E0074000A0074201900E90076006F007100750065007200610020006300650072007400610069006E0065006D0065006E007400200075006E00200062006F007200640020006400650020006D00650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Voilà ton Thé Roserade ! Cette infusion douce\net parfumée est très populaire à Alola.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4376,
+      "rawDecodedUtf16Hex": "0056006F0069006C00E000200074006F006E00200054006800E900200052006F0073006500720061006400650020002100200043006500740074006500200069006E0066007500730069006F006E00200064006F007500630065000A00650074002000700061007200660075006D00E90065002000650073007400200074007200E8007300200070006F00700075006C0061006900720065002000E000200041006C006F006C0061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Voici ton Lait Meumeu ! Il est plein de bonnes\nchoses !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4548,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F006E0020004C0061006900740020004D00650075006D006500750020002100200049006C002000650073007400200070006C00650069006E00200064006500200062006F006E006E00650073000A00630068006F007300650073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Hop ! De l’Eau Fraîche ! On dit qu’elle contient\nplus de magnésium que celle des autres régions.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4660,
+      "rawDecodedUtf16Hex": "0048006F0070002000210020004400650020006C2019004500610075002000460072006100EE006300680065002000210020004F006E002000640069007400200071007520190065006C006C006500200063006F006E007400690065006E0074000A0070006C007500730020006400650020006D00610067006E00E9007300690075006D0020007100750065002000630065006C006C0065002000640065007300200061007500740072006500730020007200E900670069006F006E0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Voici ton Eau Pétillante ! Prépare-toi\nà faire le plein de minéraux !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4856,
+      "rawDecodedUtf16Hex": "0056006F00690063006900200074006F006E00200045006100750020005000E900740069006C006C0061006E007400650020002100200050007200E90070006100720065002D0074006F0069000A00E00020006600610069007200650020006C006500200070006C00650069006E0020006400650020006D0069006E00E90072006100750078002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Voulez-vous partir ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4996,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F0075007300200070006100720074006900720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5040,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bienvenue aux Timides, l’endroit idéal pour établir\nune vraie connexion... mais plutôt en ligne !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5052,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E007500650020006100750078002000540069006D0069006400650073002C0020006C20190065006E00640072006F0069007400200069006400E90061006C00200070006F00750072002000E9007400610062006C00690072000A0075006E006500200076007200610069006500200063006F006E006E006500780069006F006E002E002E002E0020006D00610069007300200070006C0075007400F4007400200065006E0020006C00690067006E0065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Bienvenue à La Drôle d’Embringue, le lieu favori\ndes personnes les plus intéressantes d’Illumis !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5248,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000E00020004C006100200044007200F4006C00650020006420190045006D006200720069006E006700750065002C0020006C00650020006C0069006500750020006600610076006F00720069000A00640065007300200070006500720073006F006E006E006500730020006C0065007300200070006C0075007300200069006E007400E900720065007300730061006E0074006500730020006420190049006C006C0075006D00690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "Bienvenue au Lounge Café, le rendez-vous\nprivilégié des fashionistas d’Illumis !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5444,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E007500650020006100750020004C006F0075006E00670065002000430061006600E9002C0020006C0065002000720065006E00640065007A002D0076006F00750073000A00700072006900760069006C00E90067006900E90020006400650073002000660061007300680069006F006E006900730074006100730020006420190049006C006C0075006D00690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Bienvenue au Café Toutou, lieu de rendez-vous\ndes fans de Couafarel !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5608,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E900200054006F00750074006F0075002C0020006C006900650075002000640065002000720065006E00640065007A002D0076006F00750073000A006400650073002000660061006E007300200064006500200043006F007500610066006100720065006C002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Bienvenue au Café Soleil, un lieu au chic inégalé !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5748,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E900200053006F006C00650069006C002C00200075006E0020006C0069006500750020006100750020006300680069006300200069006E00E900670061006C00E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Bienvenue à Un Autre Regard !\nLe café des photographes d’Illumis !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5852,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000E000200055006E002000410075007400720065002000520065006700610072006400200021000A004C0065002000630061006600E90020006400650073002000700068006F0074006F00670072006100700068006500730020006420190049006C006C0075006D00690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Bienvenue au Café Slalom !\nNotre célèbre tarte au chocolat vaut le détour !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5988,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E900200053006C0061006C006F006D00200021000A004E006F0074007200650020006300E9006C00E8006200720065002000740061007200740065002000610075002000630068006F0063006F006C00610074002000760061007500740020006C00650020006400E90074006F00750072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Bienvenue au Café des Compères, le repaire\ndes gens passionnés de café !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 6140,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E9002000640065007300200043006F006D007000E8007200650073002C0020006C006500200072006500700061006900720065000A006400650073002000670065006E0073002000700061007300730069006F006E006E00E90073002000640065002000630061006600E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Bienvenue au Café Récré ! Le lieu idéal pour\nprofiter de la compagnie de ses Pokémon !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6288,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E90020005200E90063007200E9002000210020004C00650020006C00690065007500200069006400E90061006C00200070006F00750072000A00700072006F006600690074006500720020006400650020006C006100200063006F006D007000610067006E00690065002000640065002000730065007300200050006F006B00E9006D006F006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Bienvenue au Coucou... mais chut...\nIci, on apprécie le silence.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6464,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E0075006500200061007500200043006F00750063006F0075002E002E002E0020006D00610069007300200063006800750074002E002E002E000A004900630069002C0020006F006E0020006100700070007200E90063006900650020006C0065002000730069006C0065006E00630065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Bienvenue aux Partenaires, les spécialistes des\nliens entre les Pokémon et leur partenaire !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6596,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E007500650020006100750078002000500061007200740065006E00610069007200650073002C0020006C0065007300200073007000E9006300690061006C006900730074006500730020006400650073000A006C00690065006E007300200065006E0074007200650020006C0065007300200050006F006B00E9006D006F006E0020006500740020006C006500750072002000700061007200740065006E0061006900720065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Bienvenue à L’Ultimate ! Nous avons dédié notre\nvie à la recherche du café ultime !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 6784,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000E00020004C20190055006C00740069006D006100740065002000210020004E006F00750073002000610076006F006E00730020006400E90064006900E90020006E006F007400720065000A007600690065002000E00020006C00610020007200650063006800650072006300680065002000640075002000630061006600E900200075006C00740069006D0065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Bienvenue au Café Clap ! Tu es au bon endroit\nsi tu veux prendre des photos qui font le buzz !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6952,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E900200043006C006100700020002100200054007500200065007300200061007500200062006F006E00200065006E00640072006F00690074000A00730069002000740075002000760065007500780020007000720065006E0064007200650020006400650073002000700068006F0074006F0073002000710075006900200066006F006E00740020006C0065002000620075007A007A002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Bienvenue à La Bataille ! Plus qu’un passe-temps,\nles combats Pokémon sont notre passion !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 7144,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000E00020004C0061002000420061007400610069006C006C00650020002100200050006C0075007300200071007520190075006E002000700061007300730065002D00740065006D00700073002C000A006C0065007300200063006F006D006200610074007300200050006F006B00E9006D006F006E00200073006F006E00740020006E006F007400720065002000700061007300730069006F006E002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Ici, c’est le Néo Café.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 66,
+      "offsetInSection": 7328,
+      "rawDecodedUtf16Hex": "004900630069002C0020006320190065007300740020006C00650020004E00E9006F002000430061006600E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Bienvenue au Néo Café nº 2, l’endroit idéal pour\nsavourer votre boisson préférée en toute sérénité !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 7376,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E007500650020006100750020004E00E9006F002000430061006600E90020006E00BA00200032002C0020006C20190065006E00640072006F0069007400200069006400E90061006C00200070006F00750072000A007300610076006F007500720065007200200076006F00740072006500200062006F006900730073006F006E00200070007200E9006600E9007200E9006500200065006E00200074006F0075007400650020007300E9007200E9006E0069007400E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Bienvenue au Néo Café nº 3, où pause café rime\navec tranquillité !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 7580,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E007500650020006100750020004E00E9006F002000430061006600E90020006E00BA00200033002C0020006F00F9002000700061007500730065002000630061006600E9002000720069006D0065000A00610076006500630020007400720061006E007100750069006C006C0069007400E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 7716,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Café Mokabriolaine",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 7728,
+      "rawDecodedUtf16Hex": "00430061006600E90020004D006F006B0061006200720069006F006C00610069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Café Starimanjaro",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 7768,
+      "rawDecodedUtf16Hex": "00430061006600E9002000530074006100720069006D0061006E006A00610072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Café Granbull",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 7804,
+      "rawDecodedUtf16Hex": "00430061006600E90020004700720061006E00620075006C006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Café des Timides",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 7832,
+      "rawDecodedUtf16Hex": "00430061006600E90020006400650073002000540069006D00690064006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Latte des Timides",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 7868,
+      "rawDecodedUtf16Hex": "004C00610074007400650020006400650073002000540069006D00690064006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Drôle de Café",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 7904,
+      "rawDecodedUtf16Hex": "0044007200F4006C0065002000640065002000430061006600E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Lounge Latte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 7932,
+      "rawDecodedUtf16Hex": "004C006F0075006E006700650020004C00610074007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Café Sauvage",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 7960,
+      "rawDecodedUtf16Hex": "00430061006600E9002000530061007500760061006700650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Café Cœur",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 7988,
+      "rawDecodedUtf16Hex": "00430061006600E9002000430153007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Café Étoile",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 8008,
+      "rawDecodedUtf16Hex": "00430061006600E9002000C90074006F0069006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Café Diamant",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 8032,
+      "rawDecodedUtf16Hex": "00430061006600E90020004400690061006D0061006E00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Café Demoiselle",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 8060,
+      "rawDecodedUtf16Hex": "00430061006600E9002000440065006D006F006900730065006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Café Madame",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 8092,
+      "rawDecodedUtf16Hex": "00430061006600E90020004D006100640061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Café Monsieur",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 8116,
+      "rawDecodedUtf16Hex": "00430061006600E90020004D006F006E007300690065007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Café Reine",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 8144,
+      "rawDecodedUtf16Hex": "00430061006600E90020005200650069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Café Kabuki",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 8168,
+      "rawDecodedUtf16Hex": "00430061006600E90020004B006100620075006B00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Café Pharaon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 8192,
+      "rawDecodedUtf16Hex": "00430061006600E9002000500068006100720061006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Café Soleil",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 8220,
+      "rawDecodedUtf16Hex": "00430061006600E900200053006F006C00650069006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Un Autre Café",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 88,
+      "offsetInSection": 8244,
+      "rawDecodedUtf16Hex": "0055006E002000410075007400720065002000430061006600E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Un Autre Latte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 89,
+      "offsetInSection": 8272,
+      "rawDecodedUtf16Hex": "0055006E0020004100750074007200650020004C00610074007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Café Slalom",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 8304,
+      "rawDecodedUtf16Hex": "00430061006600E900200053006C0061006C006F006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Café des Compères",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 8328,
+      "rawDecodedUtf16Hex": "00430061006600E9002000640065007300200043006F006D007000E80072006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Café Coucou",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 8364,
+      "rawDecodedUtf16Hex": "00430061006600E900200043006F00750063006F00750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Café des Partenaires",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 8388,
+      "rawDecodedUtf16Hex": "00430061006600E90020006400650073002000500061007200740065006E006100690072006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Café Ultimate",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 8432,
+      "rawDecodedUtf16Hex": "00430061006600E900200055006C00740069006D0061007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Café Bataille",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 8460,
+      "rawDecodedUtf16Hex": "00430061006600E9002000420061007400610069006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Latte Bataille",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 8488,
+      "rawDecodedUtf16Hex": "004C0061007400740065002000420061007400610069006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Café Flammèche",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 8520,
+      "rawDecodedUtf16Hex": "00430061006600E900200046006C0061006D006D00E80063006800650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Café Lance-Flammes",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 8552,
+      "rawDecodedUtf16Hex": "00430061006600E90020004C0061006E00630065002D0046006C0061006D006D006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Café Déflagration",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 8592,
+      "rawDecodedUtf16Hex": "00430061006600E90020004400E90066006C006100670072006100740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Café Flamme Ultime",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 8628,
+      "rawDecodedUtf16Hex": "00430061006600E900200046006C0061006D006D006500200055006C00740069006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Thé Alakassam",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 8668,
+      "rawDecodedUtf16Hex": "0054006800E900200041006C0061006B0061007300730061006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Thé Sinischaï",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 8696,
+      "rawDecodedUtf16Hex": "0054006800E9002000530069006E0069007300630068006100EF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Thé Roserade",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 8724,
+      "rawDecodedUtf16Hex": "0054006800E900200052006F0073006500720061006400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Thé Néfix",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 8752,
+      "rawDecodedUtf16Hex": "0054006800E90020004E00E90066006900780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Thé Hoopalong",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 8772,
+      "rawDecodedUtf16Hex": "0054006800E900200048006F006F00700061006C006F006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Thé Pitrooibos",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 8800,
+      "rawDecodedUtf16Hex": "0054006800E900200050006900740072006F006F00690062006F00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Thé au Lait Meumeu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 8832,
+      "rawDecodedUtf16Hex": "0054006800E90020006100750020004C0061006900740020004D00650075006D006500750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Thé Clap",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 8872,
+      "rawDecodedUtf16Hex": "0054006800E900200043006C006100700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Galar Breakfast",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 8892,
+      "rawDecodedUtf16Hex": "00470061006C0061007200200042007200650061006B00660061007300740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Thé à la Menthe du Jour",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 8924,
+      "rawDecodedUtf16Hex": "0054006800E9002000E00020006C00610020004D0065006E0074006800650020006400750020004A006F007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Thé à l’Oran",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 8972,
+      "rawDecodedUtf16Hex": "0054006800E9002000E00020006C2019004F00720061006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Thé à la Pêcha",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 9000,
+      "rawDecodedUtf16Hex": "0054006800E9002000E00020006C00610020005000EA0063006800610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Thé à la Ceriz",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 9032,
+      "rawDecodedUtf16Hex": "0054006800E9002000E00020006C006100200043006500720069007A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Thé Mixte",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 9064,
+      "rawDecodedUtf16Hex": "0054006800E90020004D00690078007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Thé Outanjaya",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 9084,
+      "rawDecodedUtf16Hex": "0054006800E90020004F007500740061006E006A0061007900610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Lait Meumeu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 32,
+      "index": 116,
+      "offsetInSection": 9112,
+      "rawDecodedUtf16Hex": "004C0061006900740020004D00650075006D006500750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Lait Flameumeu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 32,
+      "index": 117,
+      "offsetInSection": 9136,
+      "rawDecodedUtf16Hex": "004C00610069007400200046006C0061006D00650075006D006500750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Eau Fraîche",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 37,
+      "index": 118,
+      "offsetInSection": 9168,
+      "rawDecodedUtf16Hex": "004500610075002000460072006100EE0063006800650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Eau Pétillante",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 37,
+      "index": 119,
+      "offsetInSection": 9192,
+      "rawDecodedUtf16Hex": "0045006100750020005000E900740069006C006C0061006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿x",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 9224,
+      "rawDecodedUtf16Hex": "00100002BDFF00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Voulez-vous arrêter d’utiliser l’appareil photo ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 9236,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F00750073002000610072007200EA007400650072002000642019007500740069006C00690073006500720020006C20190061007000700061007200650069006C002000700068006F0074006F0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 122,
+      "offsetInSection": 9336,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 9344,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿|",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 9352,
+      "rawDecodedUtf16Hex": "00100002BDFF007C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bienvenue au Café Coucou.<U+0010><U+0001>븁\nFaites-moi plaisir et ne commandez PAS\nde café-sushis...",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 9364,
+      "rawDecodedUtf16Hex": "004200690065006E00760065006E00750065002000610075002000430061006600E900200043006F00750063006F0075002E00100001BE01000A004600610069007400650073002D006D006F006900200070006C006100690073006900720020006500740020006E006500200063006F006D006D0061006E00640065007A0020005000410053000A00640065002000630061006600E9002D007300750073006800690073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿~",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 9536,
+      "rawDecodedUtf16Hex": "00100002BDFF007E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Alors, qui a besoin de faire un petit somme\naujourd’hui ?<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 127,
+      "offsetInSection": 9548,
+      "rawDecodedUtf16Hex": "0041006C006F00720073002C0020007100750069002000610020006200650073006F0069006E00200064006500200066006100690072006500200075006E00200070006500740069007400200073006F006D006D0065000A00610075006A006F00750072006420190068007500690020003F00100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 9672,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 9684,
+      "rawDecodedUtf16Hex": "00100002010200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 9696,
+      "rawDecodedUtf16Hex": "00100002010200030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 9708,
+      "rawDecodedUtf16Hex": "00100002010200040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 9720,
+      "rawDecodedUtf16Hex": "00100002010200050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 9732,
+      "rawDecodedUtf16Hex": "00100002010200060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 9744,
+      "rawDecodedUtf16Hex": "00100002010200070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Personne, merci.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 9756,
+      "rawDecodedUtf16Hex": "0050006500720073006F006E006E0065002C0020006D0065007200630069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "J’espère vous revoir bientôt !<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 9792,
+      "rawDecodedUtf16Hex": "004A201900650073007000E80072006500200076006F007500730020007200650076006F006900720020006200690065006E007400F400740020002100100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Je vous en prie, mettez-vous à l’aise pendant\nque vous dégustez notre café.<U+0010><U+0001>븁\nMushana, c’est à toi de jouer !<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 9864,
+      "rawDecodedUtf16Hex": "004A006500200076006F0075007300200065006E00200070007200690065002C0020006D0065007400740065007A002D0076006F00750073002000E00020006C20190061006900730065002000700065006E00640061006E0074000A00710075006500200076006F007500730020006400E900670075007300740065007A0020006E006F007400720065002000630061006600E9002E00100001BE01000A004D0075007300680061006E0061002C002000632019006500730074002000E000200074006F00690020006400650020006A006F0075006500720020002100100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Mumumu ! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 10096,
+      "rawDecodedUtf16Hex": "004D0075006D0075006D0075002000210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Une bonne sieste, y a que ça de vrai !\nÀ la prochaine !<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 139,
+      "offsetInSection": 10120,
+      "rawDecodedUtf16Hex": "0055006E006500200062006F006E006E00650020007300690065007300740065002C00200079002000610020007100750065002000E700610020006400650020007600720061006900200021000A00C00020006C0061002000700072006F0063006800610069006E00650020002100100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Mushana, c’est à toi de jouer !<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 10240,
+      "rawDecodedUtf16Hex": "004D0075007300680061006E0061002C002000632019006500730074002000E000200074006F00690020006400650020006A006F0075006500720020002100100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Mumumu ! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 10312,
+      "rawDecodedUtf16Hex": "004D0075006D0075006D0075002000210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Voulez-vous réveiller votre Pokémon ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 10336,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F007500730020007200E9007600650069006C006C0065007200200076006F00740072006500200050006F006B00E9006D006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Oui !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 143,
+      "offsetInSection": 10412,
+      "rawDecodedUtf16Hex": "004F00750069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Pas tout de suite...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 10424,
+      "rawDecodedUtf16Hex": "00500061007300200074006F00750074002000640065002000730075006900740065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Une bonne sieste, y a que ça de vrai !\nÀ la prochaine !<U+0010><U+0002>Ĕƻ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 145,
+      "offsetInSection": 10468,
+      "rawDecodedUtf16Hex": "0055006E006500200062006F006E006E00650020007300690065007300740065002C00200079002000610020007100750065002000E700610020006400650020007600720061006900200021000A00C00020006C0061002000700072006F0063006800610069006E00650020002100100002011401BB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Mumumu ! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 10588,
+      "rawDecodedUtf16Hex": "004D0075006D0075006D0075002000210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 10612,
+  "sectionOffset": 16,
+  "textCount": 147,
+  "textSectionCount": 1
+}

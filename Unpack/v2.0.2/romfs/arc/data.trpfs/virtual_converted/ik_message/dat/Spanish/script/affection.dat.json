@@ -1,0 +1,153 @@
+{
+  "declaredLength": 1852,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Eh, hola! Tú entrenas Pokémon, ¿verdad?<U+0010><U+0001>븁\n¿Te gustaría que comprobase lo bien que te\nllevas con alguno de ellos?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "00A100450068002C00200068006F006C006100210020005400FA00200065006E007400720065006E0061007300200050006F006B00E9006D006F006E002C002000BF007600650072006400610064003F00100001BE01000A00BF00540065002000670075007300740061007200ED0061002000710075006500200063006F006D00700072006F00620061007300650020006C006F0020006200690065006E0020007100750065002000740065000A006C006C006500760061007300200063006F006E00200061006C00670075006E006F00200064006500200065006C006C006F0073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Adelante",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "004100640065006C0061006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Mejor no",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 368,
+      "rawDecodedUtf16Hex": "004D0065006A006F00720020006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Qué Pokémon quieres que examine?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 388,
+      "rawDecodedUtf16Hex": "00BF0051007500E900200050006F006B00E9006D006F006E0020007100750069006500720065007300200071007500650020006500780061006D0069006E0065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Así que quieres que compruebe la amistad de tu\n<U+0010><U+0002>ā<U+0001>. Muy bien...",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "0041007300ED002000710075006500200071007500690065007200650073002000710075006500200063006F006D0070007200750065006200650020006C006100200061006D00690073007400610064002000640065002000740075000A0010000201010001002E0020004D007500790020006200690065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "¡Veo que te tiene un cariño tremendo!\nSe le ve feliz de estar a tu lado.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "00A100560065006F00200071007500650020007400650020007400690065006E006500200075006E0020006300610072006900F1006F0020007400720065006D0065006E0064006F0021000A005300650020006C0065002000760065002000660065006C0069007A002000640065002000650073007400610072002000610020007400750020006C00610064006F002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Tu <U+0010><U+0002>ā<U+0001> te tiene tanto apego que te\nacompaña a todas partes, ¿eh?",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "00540075002000100002010100010020007400650020007400690065006E0065002000740061006E0074006F00200061007000650067006F0020007100750065002000740065000A00610063006F006D0070006100F100610020006100200074006F0064006100730020007000610072007400650073002C002000BF00650068003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "¡Tu <U+0010><U+0002>ā<U+0001> y tú aún podéis estrechar\nmás vuestra amistad!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 868,
+      "rawDecodedUtf16Hex": "00A10054007500200010000201010001002000790020007400FA0020006100FA006E00200070006F006400E9006900730020006500730074007200650063006800610072000A006D00E100730020007600750065007300740072006100200061006D0069007300740061006400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Se ve que os lleváis bastante bien. ¡Pero aún\npodéis llevar vuestra relación un paso más allá!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "0053006500200076006500200071007500650020006F00730020006C006C0065007600E100690073002000620061007300740061006E007400650020006200690065006E002E002000A1005000650072006F0020006100FA006E000A0070006F006400E9006900730020006C006C006500760061007200200076007500650073007400720061002000720065006C00610063006900F3006E00200075006E0020007000610073006F0020006D00E1007300200061006C006C00E100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Te tiene un poco de cariño... o eso me parece.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1172,
+      "rawDecodedUtf16Hex": "005400650020007400690065006E006500200075006E00200070006F0063006F0020006400650020006300610072006900F1006F002E002E002E0020006F002000650073006F0020006D00650020007000610072006500630065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Uuuy... Creo que aún os tenéis que conocer\nmejor...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1268,
+      "rawDecodedUtf16Hex": "0055007500750079002E002E002E0020004300720065006F00200071007500650020006100FA006E0020006F0073002000740065006E00E900690073002000710075006500200063006F006E006F006300650072000A006D0065006A006F0072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "¿Acaso tu Pokémon se debilita a menudo\nen los combates?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "00BF0041006300610073006F00200074007500200050006F006B00E9006D006F006E00200073006500200064006500620069006C006900740061002000610020006D0065006E00750064006F000A0065006E0020006C006F007300200063006F006D00620061007400650073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Vaya, este pobre no te tiene nada de apego...\n¿Estás siendo demasiado estrict<U+0010><U+0003>ᄀÿāoa con él?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "0056006100790061002C0020006500730074006500200070006F0062007200650020006E006F0020007400650020007400690065006E00650020006E00610064006100200064006500200061007000650067006F002E002E002E000A00BF00450073007400E100730020007300690065006E0064006F002000640065006D00610073006900610064006F0020006500730074007200690063007400100003110000FF0101006F006100200063006F006E002000E9006C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "¡Ven a verme cuando quieras que compruebe tus\nlazos de amistad con alguno de tus Pokémon!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "00A100560065006E002000610020007600650072006D00650020006300750061006E0064006F00200071007500690065007200610073002000710075006500200063006F006D0070007200750065006200650020007400750073000A006C0061007A006F007300200064006500200061006D0069007300740061006400200063006F006E00200061006C00670075006E006F002000640065002000740075007300200050006F006B00E9006D006F006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1852,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

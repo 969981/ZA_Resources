@@ -1,0 +1,33 @@
+{
+  "declaredLength": 240,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "こっちに<U+0010><U+0005>！<U+0001><U+0001>向む向かうのは\nあとにしよう！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "305330633061306B00100005FF0100010001541130805411304B3046306E306F000A30423068306B305730883046FF010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "このホロベーターは\nいま<U+0010><U+0008>！<U+0002><U+0003>利用りよう利用できない！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "3053306E30DB30ED30D930FC30BF30FC306F000A3044307E00100008FF010002000352297528308A30883046522975283067304D306A3044FF01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 240,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

@@ -1,0 +1,243 @@
+{
+  "declaredLength": 960,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Dove vuoi spostare questo Pokémon?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "0044006F00760065002000760075006F0069002000730070006F00730074006100720065002000710075006500730074006F00200050006F006B00E9006D006F006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Dove vuoi spostare questo strumento?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "0044006F00760065002000760075006F0069002000730070006F00730074006100720065002000710075006500730074006F00200073007400720075006D0065006E0074006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Hai preso <U+0010><U+0003>ᔀ<U+0001><U+0000><U+0010><U+0002>ĉ<U+0001>\ndi <U+0010><U+0002>Ă<U+0000>!<U+0010><U+0001>븁",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "00480061006900200070007200650073006F0020001000031500000100000010000201090001000A0064006900200010000201020000002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000> non ha nessuno strumento!<U+0010><U+0001>븁",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "00100002010200000020006E006F006E0020006800610020006E0065007300730075006E006F00200073007400720075006D0065006E0074006F002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Hai raggiunto il limite per questo strumento!<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 468,
+      "rawDecodedUtf16Hex": "0048006100690020007200610067006700690075006E0074006F00200069006C0020006C0069006D0069007400650020007000650072002000710075006500730074006F00200073007400720075006D0065006E0074006F002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Con quale Pokémon vuoi lottare?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 568,
+      "rawDecodedUtf16Hex": "0043006F006E0020007100750061006C006500200050006F006B00E9006D006F006E002000760075006F00690020006C006F00740074006100720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "L. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "004C002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "00100002010200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "PS",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 8,
+      "index": 8,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "005000530000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 668,
+      "rawDecodedUtf16Hex": "002F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0000>/<U+0010><U+0002>Ȃ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "0010000202020000002F00100002020200010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Vedi info",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 716,
+      "rawDecodedUtf16Hex": "005600650064006900200069006E0066006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Rimedi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "00520069006D0065006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Cambia posto",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 764,
+      "rawDecodedUtf16Hex": "00430061006D00620069006100200070006F00730074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Cambia lo strumento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "00430061006D0062006900610020006C006F00200073007400720075006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Metti via lo strumento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "004D006500740074006900200076006900610020006C006F00200073007400720075006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Dai uno strumento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 880,
+      "rawDecodedUtf16Hex": "00440061006900200075006E006F00200073007400720075006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 916,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Esci",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 928,
+      "rawDecodedUtf16Hex": "00450073006300690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Seleziona",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "00530065006C0065007A0069006F006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 960,
+  "sectionOffset": 16,
+  "textCount": 23,
+  "textSectionCount": 1
+}

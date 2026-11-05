@@ -1,0 +1,103 @@
+{
+  "declaredLength": 616,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "……那只宝可梦\n似乎不满足交换的条件！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "2026202690A353EA5B9D53EF68A6000A4F3C4E4E4E0D6EE18DB34EA46362768467614EF6FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "听说叫做花蓓蓓的宝可梦，\n花的颜色每只都不一样！<U+0010><U+0001>븁\n不管什么颜色都可以，\n你愿意跟我的雪吞虫交换吗？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "542C8BF453EB505A82B184D384D376845B9D53EF68A6FF0C000A82B17684989C82726BCF53EA90FD4E0D4E006837FF0100100001BE01000A4E0D7BA14EC04E48989C827290FD53EF4EE5FF0C000A4F60613F610F8DDF6211768496EA541E866B4EA463625417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "要用那只花蓓蓓\n跟我交换吗？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "8981752890A353EA82B184D384D3000A8DDF62114EA463625417FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "唉～真遗憾！\n如果你改变主意的话，就拜托啦！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "5509FF5E771F905761BEFF01000A5982679C4F60653953D84E3B610F76848BDDFF0C5C3162DC62585566FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "咦，它好小巧……！太可爱了……！\n啊，它还坐在花上……哇！<U+0010><U+0001>븁\n……呼！不过雪吞虫的可爱\n也不输给它，请你好好珍惜哦。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "54A6FF0C5B83597D5C0F5DE720262026FF01592A53EF72314E8620262026FF01000A554AFF0C5B838FD85750572882B14E0A2026202654C7FF0100100001BE01000A20262026547CFF014E0D8FC796EA541E866B768453EF7231000A4E5F4E0D8F937ED95B83FF0C8BF74F60597D597D73CD60DC54E630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "花蓓蓓太可爱了……！<U+0010><U+0001>븁\n要不我去把所有颜色的\n花蓓蓓都捉起来好了！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 428,
+      "rawDecodedUtf16Hex": "82B184D384D3592A53EF72314E8620262026FF0100100001BE01000A89814E0D621153BB628A62406709989C82727684000A82B184D384D390FD63498D776765597D4E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "只有1只宝可梦的话，\n是无法交换的哦！<U+0010><U+0001>븁\n等你准备好2只以上\n同行宝可梦，到时候就拜托了！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "53EA6709003153EA5B9D53EF68A676848BDDFF0C000A662F65E06CD54EA46362768454E6FF0100100001BE01000A7B494F6051C65907597D003253EA4EE54E0A000A540C884C5B9D53EF68A6FF0C523065F650195C3162DC62584E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "小由吉",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "5C0F753154090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "彼加太郎",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "5F7C52A0592A90CE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 616,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

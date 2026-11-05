@@ -1,0 +1,213 @@
+{
+  "declaredLength": 1064,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 212,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 272,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0007>Stick_L：이동\n<U+0010><U+0002>봊<U+0007>Stick_R：카메라 조작",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "00100002BD0A00070053007400690063006B005F004CFF1AC774B3D9000A00100002BD0A00070053007400690063006B005F0052FF1ACE74BA54B77C0020C870C7910000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0007>Stick_L：이동\n<U+0010><U+0002>봊<U+0007>Stick_R：카메라 조작\n<U+0010><U+0002>봊<U+0001>L：카메라 리셋",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 352,
+      "rawDecodedUtf16Hex": "00100002BD0A00070053007400690063006B005F004CFF1AC774B3D9000A00100002BD0A00070053007400690063006B005F0052FF1ACE74BA54B77C0020C870C791000A00100002BD0A0001004CFF1ACE74BA54B77C0020B9ACC14B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：주목\n<U+0010><U+0002>봊<U+0004>Sp_1<U+0010><U+0002>봊<U+0006>Decide：기술 지시",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1AC8FCBAA9000A00100002BD0A000400530070005F003100100002BD0A0006004400650063006900640065FF1AAE30C2200020C9C0C2DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：주목\n<U+0010><U+0002>봊<U+0002>ZR 길게 누르기：조준\n<U+0010><U+0002>봊<U+0002>ZR 놓기：던지기",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 520,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1AC8FCBAA9000A00100002BD0A0002005A00520020AE38AC8C0020B204B974AE30FF1AC870C900000A00100002BD0A0002005A00520020B193AE30FF1AB358C9C0AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊\tButton_Up：포켓몬 꺼내기\n<U+0010><U+0002>봊<U+000B>Button_Down：포켓몬 넣기\n<U+0010><U+0002>봊<U+000B>Button_Left/<U+0010><U+0002>봊<U+000C>Button_Right：선택",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "00100002BD0A00090042007500740074006F006E005F00550070FF1AD3ECCF13BAAC0020AEBCB0B4AE30000A00100002BD0A000B0042007500740074006F006E005F0044006F0077006EFF1AD3ECCF13BAAC0020B123AE30000A00100002BD0A000B0042007500740074006F006E005F004C006500660074002F00100002BD0A000C0042007500740074006F006E005F00520069006700680074FF1AC120D0DD0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0006>Cancel：대시\n<U+0010><U+0002>봊<U+0004>Sp_2：구르기\n<U+0010><U+0002>봊<U+000C>Stick_L_Push：앉기",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "00100002BD0A000600430061006E00630065006CFF1AB300C2DC000A00100002BD0A000400530070005F0032FF1AAD6CB974AE30000A00100002BD0A000C0053007400690063006B005F004C005F0050007500730068FF1AC549AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0004>Sp_1：메뉴 열기",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "00100002BD0A000400530070005F0031FF1ABA54B2740020C5F4AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0004>Plus：맵 열기",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00100002BD0A00040050006C00750073FF1AB9F50020C5F4AE300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "낙하 중 <U+0010><U+0002>봊<U+0006>Decide：로토무 글라이드",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "B099D5580020C911002000100002BD0A0006004400650063006900640065FF1AB85CD1A0BB340020AE00B77CC774B4DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>봊<U+0002>ZL：주목\n<U+0010><U+0002>봊<U+0004>Sp_2<U+0010><U+0002>봊<U+0004>Sp_1<U+0010><U+0002>봊<U+0006>Decide：기술 지시",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "00100002BD0A0002005A004CFF1AC8FCBAA9000A00100002BD0A000400530070005F003200100002BD0A000400530070005F003100100002BD0A0006004400650063006900640065FF1AAE30C2200020C9C0C2DC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1064,
+  "sectionOffset": 16,
+  "textCount": 20,
+  "textSectionCount": 1
+}

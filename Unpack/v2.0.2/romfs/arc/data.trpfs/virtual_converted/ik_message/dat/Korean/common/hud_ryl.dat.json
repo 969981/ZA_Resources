@@ -1,0 +1,433 @@
+{
+  "declaredLength": 1228,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "교환할 카드를 선택해 주십시오.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "AD50D658D5600020CE74B4DCB97C0020C120D0DDD5740020C8FCC2EDC2DCC624002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000><U+0000>pt",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "00100003020400000000007000740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "+<U+0010><U+0003>Ȅ<U+0000><U+0000>pt",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "002B00100003020400000000007000740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "+<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "002B001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ď",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 440,
+      "rawDecodedUtf16Hex": "00100002010E00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ<U+0000><U+0000><U+E346>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "00100003020300000000E3460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "×<U+0010><U+0002>ȁ<U+0000>.<U+0010><U+0002>Ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "00D70010000202010000002E00100002020000010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "상금 메달은 없습니다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "C0C1AE080020BA54B2ECC7400020C5C6C2B5B2C8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "다음으로",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "B2E4C74CC73CB85C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000><U+E345>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "0010000202010000E3450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "00100002BDFF000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Z랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "005AB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Y랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "0059B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "X랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0058B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "W랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "0057B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "V랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "0056B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "U랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "0055B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "T랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "0054B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "S랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "0053B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "R랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "0052B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Q랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "0051B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "P랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "0050B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "O랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "004FB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "N랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 864,
+      "rawDecodedUtf16Hex": "004EB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "M랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 888,
+      "rawDecodedUtf16Hex": "004DB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "L랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 912,
+      "rawDecodedUtf16Hex": "004CB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "K랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 936,
+      "rawDecodedUtf16Hex": "004BB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "J랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "004AB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "I랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "0049B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "H랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "0048B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "G랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "0047B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "F랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0046B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "E랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "0045B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "D랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "0044B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "C랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "0043B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "B랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1152,
+      "rawDecodedUtf16Hex": "0042B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "A랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "0041B7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "∞랭크를 상대로 승리",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "221EB7ADD06CB97C0020C0C1B300B85C0020C2B9B9AC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1228,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

@@ -1,0 +1,103 @@
+{
+  "declaredLength": 1056,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Lasst uns bitte einfach vorbei, ich will nur\nmeinen Gast hier zum Hotel bringen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "004C006100730073007400200075006E0073002000620069007400740065002000650069006E006600610063006800200076006F0072006200650069002C0020006900630068002000770069006C006C0020006E00750072000A006D00650069006E0065006E00200047006100730074002000680069006500720020007A0075006D00200048006F00740065006C0020006200720069006E00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Lasst uns bitte einfach vorbei, ich will nur\nmeinen Gast hier zum Hotel bringen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 240,
+      "rawDecodedUtf16Hex": "004C006100730073007400200075006E0073002000620069007400740065002000650069006E006600610063006800200076006F0072006200650069002C0020006900630068002000770069006C006C0020006E00750072000A006D00650069006E0065006E00200047006100730074002000680069006500720020007A0075006D00200048006F00740065006C0020006200720069006E00670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Mir doch egal, ob <U+0010><U+0004>ᄀÿ̂<U+0000>ersie dein Gast ist oder nicht.\nWer sich im Kampfsektor rumtreibt, der kämpft!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "004D0069007200200064006F006300680020006500670061006C002C0020006F0062002000100004110000FF03020000006500720073006900650020006400650069006E0020004700610073007400200069007300740020006F0064006500720020006E0069006300680074002E000A0057006500720020007300690063006800200069006D0020004B0061006D0070006600730065006B0074006F0072002000720075006D007400720065006900620074002C00200064006500720020006B00E4006D00700066007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Meinetwegen, aber dann kämpft gegen mich!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "004D00650069006E006500740077006500670065006E002C00200061006200650072002000640061006E006E0020006B00E4006D00700066007400200067006500670065006E0020006D00690063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Meinetwegen, aber dann kämpft gegen mich!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "004D00650069006E006500740077006500670065006E002C00200061006200650072002000640061006E006E0020006B00E4006D00700066007400200067006500670065006E0020006D00690063006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Kyururu!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "004B00790075007200750072007500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Ein Floette mit einer schwarzen Blume? Das sieht\nman nicht oft. Bin gespannt, was es draufhat!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "00450069006E00200046006C006F00650074007400650020006D00690074002000650069006E006500720020007300630068007700610072007A0065006E00200042006C0075006D0065003F0020004400610073002000730069006500680074000A006D0061006E0020006E00690063006800740020006F00660074002E002000420069006E002000670065007300700061006E006E0074002C002000770061007300200065007300200064007200610075006600680061007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "Floette, nicht!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "0046006C006F0065007400740065002C0020006E006900630068007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Floette, nicht!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "0046006C006F0065007400740065002C0020006E006900630068007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1056,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

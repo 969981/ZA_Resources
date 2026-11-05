@@ -1,0 +1,103 @@
+{
+  "declaredLength": 680,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "ゴクリンに\nドーナツをあげますか？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "30B430AF30EA30F3306B000A30C930FC30CA30C4309230423052307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 18,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "あげる！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "30423052308BFF0100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "やめておく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "308430813066304A304F000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "もごもご　ごっくん！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "3082305430823054300030543063304F3093FF0100000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 11,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "さらにドーナツをあげますか？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "30553089306B30C930FC30CA30C4309230423052307E3059304BFF1F000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "ドーナツを<U+0010><U+0005>！<U+0001><U+0001>持も持っていなかった",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "30C930FC30CA30C4309200100005FF0100010001630130826301306330663044306A304B3063305F000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 21,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "ゴクリンは<U+0010><U+000C>！<U+0003><U+0006>大満足だいまんぞく大満足のようだ！",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "30B430AF30EA30F3306F0010000CFF010003000659276E808DB330603044307E3093305E304F59276E808DB3306E308830463060FF010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "ゴクリンが\n<U+0010><U+0002>ĉ<U+0002>をくれた！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "30B430AF30EA30F3304C000A00100002010900023092304F308C305FFF010000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 16,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "そのドーナツを\nゴクリンさんにあげることはできません<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "305D306E30C930FC30CA30C43092000A30B430AF30EA30F330553093306B30423052308B30533068306F3067304D307E305B309300100002011401A50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 31,
+      "utf16Units": 61
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 680,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

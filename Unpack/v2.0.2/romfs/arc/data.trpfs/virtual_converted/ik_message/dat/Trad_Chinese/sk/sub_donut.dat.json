@@ -1,0 +1,103 @@
+{
+  "declaredLength": 292,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "要給溶食獸甜甜圈嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "89817D666EB698DF7378751C751C570855CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "要！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "8981FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "還是算了",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "9084662F7B974E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嚼嚼嚼嚼……吞！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 120,
+      "rawDecodedUtf16Hex": "56BC56BC56BC56BC20262026541EFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "要給牠更多甜甜圈嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "89817D66726066F4591A751C751C570855CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "手邊沒有甜甜圈。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "624B908A6C926709751C751C570830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "溶食獸似乎非常滿足！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "6EB698DF73784F3C4E4E975E5E386EFF8DB3FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "溶食獸給了<U+0010><U+0003>ᄀÿā你妳\n<U+0010><U+0002>ĉ<U+0002>！",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "6EB698DF73787D664E8600100003110000FF01014F6059B3000A0010000201090002FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "請不要把那個甜甜圈\n給溶食獸吃。<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "8ACB4E0D8981628A90A3500B751C751C5708000A7D666EB698DF73785403300200100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 292,
+  "sectionOffset": 16,
+  "textCount": 9,
+  "textSectionCount": 1
+}

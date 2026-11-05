@@ -1,0 +1,243 @@
+{
+  "declaredLength": 2320,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 188,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Whaddya want? This Holovator can’t be used yet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "0057006800610064006400790061002000770061006E0074003F0020005400680069007300200048006F006C006F007600610074006F0072002000630061006E20190074002000620065002000750073006500640020007900650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "What, you wanna use my Holovator or somethin’?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "0057006800610074002C00200079006F0075002000770061006E006E006100200075007300650020006D007900200048006F006C006F007600610074006F00720020006F007200200073006F006D0065007400680069006E2019003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "What’re you lookin’ at?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "005700680061007420190072006500200079006F00750020006C006F006F006B0069006E2019002000610074003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Let me guess. You wanna use this Holovator?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "004C006500740020006D0065002000670075006500730073002E00200059006F0075002000770061006E006E006100200075007300650020007400680069007300200048006F006C006F007600610074006F0072003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Well, too bad—this is my favorite Holovator!\nIf you’re gonna insist on usin’ it...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "00570065006C006C002C00200074006F006F0020006200610064201400740068006900730020006900730020006D00790020006600610076006F007200690074006500200048006F006C006F007600610074006F00720021000A0049006600200079006F007520190072006500200067006F006E006E006100200069006E00730069007300740020006F006E0020007500730069006E2019002000690074002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "I’ve got no choice but to battle you!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 752,
+      "rawDecodedUtf16Hex": "004920190076006500200067006F00740020006E006F002000630068006F006900630065002000620075007400200074006F00200062006100740074006C006500200079006F00750021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Come talk to me when you’re ready. If you’ve got\nthe nerve to face me in battle, that is!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 836,
+      "rawDecodedUtf16Hex": "0043006F006D0065002000740061006C006B00200074006F0020006D00650020007700680065006E00200079006F0075201900720065002000720065006100640079002E00200049006600200079006F007520190076006500200067006F0074000A0074006800650020006E006500720076006500200074006F002000660061006300650020006D006500200069006E00200062006100740074006C0065002C002000740068006100740020006900730021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "If you’re dead set on usin’ my Holovator, then we\ngotta have a Pokémon battle!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1036,
+      "rawDecodedUtf16Hex": "0049006600200079006F00752019007200650020006400650061006400200073006500740020006F006E0020007500730069006E20190020006D007900200048006F006C006F007600610074006F0072002C0020007400680065006E002000770065000A0067006F007400740061002000680061007600650020006100200050006F006B00E9006D006F006E00200062006100740074006C00650021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "I’ll battle you!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1204,
+      "rawDecodedUtf16Hex": "00492019006C006C00200062006100740074006C006500200079006F007500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "I’ll pass",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1240,
+      "rawDecodedUtf16Hex": "00492019006C006C002000700061007300730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Smart choice. It’s MY favorite Holovator, after all.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "0053006D006100720074002000630068006F006900630065002E002000490074201900730020004D00590020006600610076006F007200690074006500200048006F006C006F007600610074006F0072002C00200061006600740065007200200061006C006C002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "You’d better be ready to lose!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1376,
+      "rawDecodedUtf16Hex": "0059006F007520190064002000620065007400740065007200200062006500200072006500610064007900200074006F0020006C006F007300650021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "I am so, SO sorry for my behavior!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "004900200061006D00200073006F002C00200053004F00200073006F00720072007900200066006F00720020006D00790020006200650068006100760069006F00720021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "I had no idea you were so strong. I sincerely\napologize for my rudeness!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "004900200068006100640020006E006F0020006900640065006100200079006F00750020007700650072006500200073006F0020007300740072006F006E0067002E00200049002000730069006E0063006500720065006C0079000A00610070006F006C006F00670069007A006500200066006F00720020006D007900200072007500640065006E0065007300730021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "Now, as I mentioned, I’m rather fond of this\nparticular Holovator, but I insist that you use it!<U+0010><U+0001>븀\nA million times, if need be!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "004E006F0077002C002000610073002000490020006D0065006E00740069006F006E00650064002C002000492019006D002000720061007400680065007200200066006F006E00640020006F006600200074006800690073000A0070006100720074006900630075006C0061007200200048006F006C006F007600610074006F0072002C00200062007500740020004900200069006E00730069007300740020007400680061007400200079006F00750020007500730065002000690074002100100001BE00000A00410020006D0069006C006C0069006F006E002000740069006D00650073002C0020006900660020006E0065006500640020006200650021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "Don’t worry—I’ll keep an eye on things so that\nyou can go up and down as you please.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "0044006F006E2019007400200077006F007200720079201400492019006C006C0020006B00650065007000200061006E00200065007900650020006F006E0020007400680069006E0067007300200073006F00200074006800610074000A0079006F0075002000630061006E00200067006F00200075007000200061006E006400200064006F0077006E00200061007300200079006F007500200070006C0065006100730065002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Holovators are meant to be for everybody! Please,\nfeel free to use this one!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "0048006F006C006F007600610074006F0072007300200061007200650020006D00650061006E007400200074006F00200062006500200066006F00720020006500760065007200790062006F00640079002100200050006C0065006100730065002C000A006600650065006C0020006600720065006500200074006F0020007500730065002000740068006900730020006F006E00650021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2320,
+  "sectionOffset": 16,
+  "textCount": 23,
+  "textSectionCount": 1
+}

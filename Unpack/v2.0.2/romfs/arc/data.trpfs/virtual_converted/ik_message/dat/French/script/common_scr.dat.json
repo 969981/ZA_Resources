@@ -1,0 +1,153 @@
+{
+  "declaredLength": 840,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oui",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "004F007500690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Non",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "004E006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0008>  <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 132,
+      "rawDecodedUtf16Hex": "001000030206000800200020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Voulez-vous sauvegarder la partie ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "0056006F0075006C0065007A002D0076006F007500730020007300610075007600650067006100720064006500720020006C006100200070006100720074006900650020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Sauvegarde en cours...\nNe pas éteindre la console.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 220,
+      "rawDecodedUtf16Hex": "005300610075007600650067006100720064006500200065006E00200063006F007500720073002E002E002E000A004E00650020007000610073002000E9007400650069006E0064007200650020006C006100200063006F006E0073006F006C0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Partie sauvegardée.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "005000610072007400690065002000730061007500760065006700610072006400E90065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Une autre partie est déjà sauvegardée.\nSauvegarde impossible.<U+0010><U+0001>븁\nVeuillez vous référer au mode d’emploi\npour plus d’informations.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 364,
+      "rawDecodedUtf16Hex": "0055006E0065002000610075007400720065002000700061007200740069006500200065007300740020006400E9006A00E0002000730061007500760065006700610072006400E90065002E000A005300610075007600650067006100720064006500200069006D0070006F0073007300690062006C0065002E00100001BE01000A0056006500750069006C006C0065007A00200076006F007500730020007200E9006600E90072006500720020006100750020006D006F006400650020006420190065006D0070006C006F0069000A0070006F0075007200200070006C007500730020006420190069006E0066006F0072006D006100740069006F006E0073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "Échec de la sauvegarde.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "00C900630068006500630020006400650020006C006100200073006100750076006500670061007200640065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Vous avez obtenu <U+0010><U+0003>ȇ<U+0002>  <U+E300> !",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A0020006F006200740065006E00750020001000030207000200200020E300002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā<U+0001> obtenu !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "00100002010100010020006F006200740065006E0075002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Vous avez obtenu <U+0010><U+0003>ȇ<U+0002>  PL !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 756,
+      "rawDecodedUtf16Hex": "0056006F007500730020006100760065007A0020006F006200740065006E007500200010000302070002002000200050004C002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 812,
+      "rawDecodedUtf16Hex": "00100002010900010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "×",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "00D70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 828,
+      "rawDecodedUtf16Hex": "00100002020200020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 840,
+  "sectionOffset": 16,
+  "textCount": 14,
+  "textSectionCount": 1
+}

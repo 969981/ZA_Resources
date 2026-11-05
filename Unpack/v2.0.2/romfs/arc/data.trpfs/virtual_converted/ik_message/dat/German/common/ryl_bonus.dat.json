@@ -1,0 +1,223 @@
+{
+  "declaredLength": 1756,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>/<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "0010000202010000002F00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Starte Kämpfe, ohne bemerkt zu\nwerden!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "0053007400610072007400650020004B00E4006D007000660065002C0020006F0068006E0065002000620065006D00650072006B00740020007A0075000A00770065007200640065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Starte Kämpfe mit einer Attacke\nvom Typ <U+0010><U+0002>ă<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "0053007400610072007400650020004B00E4006D0070006600650020006D00690074002000650069006E00650072002000410074007400610063006B0065000A0076006F006D00200054007900700020001000020103000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Starte Kämpfe mit einem\nK.O.-Treffer!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 376,
+      "rawDecodedUtf16Hex": "0053007400610072007400650020004B00E4006D0070006600650020006D00690074002000650069006E0065006D000A004B002E004F002E002D005400720065006600660065007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Lande unabhängig vom Typ\nsehr effektive Treffer!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 452,
+      "rawDecodedUtf16Hex": "004C0061006E0064006500200075006E00610062006800E4006E00670069006700200076006F006D0020005400790070000A007300650068007200200065006600660065006B00740069007600650020005400720065006600660065007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Lande Treffer mit Attacken\nvom Typ <U+0010><U+0002>ă<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "004C0061006E00640065002000540072006500660066006500720020006D00690074002000410074007400610063006B0065006E000A0076006F006D00200054007900700020001000020103000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "Lande sehr effektive Treffer mit\nAttacken vom Typ <U+0010><U+0002>ă<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "004C0061006E006400650020007300650068007200200065006600660065006B0074006900760065002000540072006500660066006500720020006D00690074000A00410074007400610063006B0065006E00200076006F006D00200054007900700020001000020103000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Besiege Gegner mit Attacken\nvom Typ <U+0010><U+0002>ă<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "00420065007300690065006700650020004700650067006E006500720020006D00690074002000410074007400610063006B0065006E000A0076006F006D00200054007900700020001000020103000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Paralysiere gegnerische\nPokémon!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "0050006100720061006C0079007300690065007200650020006700650067006E0065007200690073006300680065000A0050006F006B00E9006D006F006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Mache gegnerische Pokémon\nschläfrig!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "004D00610063006800650020006700650067006E006500720069007300630068006500200050006F006B00E9006D006F006E000A007300630068006C00E4006600720069006700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Friere gegnerische Pokémon ein!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "0046007200690065007200650020006700650067006E006500720069007300630068006500200050006F006B00E9006D006F006E002000650069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Füge gegnerischen Pokémon\nVerbrennungen zu!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "004600FC006700650020006700650067006E0065007200690073006300680065006E00200050006F006B00E9006D006F006E000A005600650072006200720065006E006E0075006E00670065006E0020007A007500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Vergifte gegnerische Pokémon!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "005600650072006700690066007400650020006700650067006E006500720069007300630068006500200050006F006B00E9006D006F006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Verwirre gegnerische Pokémon!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "005600650072007700690072007200650020006700650067006E006500720069007300630068006500200050006F006B00E9006D006F006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Setze mit Mega-entwickelten\nPokémon Attacken ein!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "005300650074007A00650020006D006900740020004D006500670061002D0065006E0074007700690063006B0065006C00740065006E000A0050006F006B00E9006D006F006E002000410074007400610063006B0065006E002000650069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Besiege Gegner mit\nMega-entwickelten Pokémon!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "00420065007300690065006700650020004700650067006E006500720020006D00690074000A004D006500670061002D0065006E0074007700690063006B0065006C00740065006E00200050006F006B00E9006D006F006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Setze Boost-Attacken ein!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "005300650074007A006500200042006F006F00730074002D00410074007400610063006B0065006E002000650069006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Lande sehr effektive Treffer mit\nBoost-Attacken!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "004C0061006E006400650020007300650068007200200065006600660065006B0074006900760065002000540072006500660066006500720020006D00690074000A0042006F006F00730074002D00410074007400610063006B0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Besiege Gegner mit\nBoost-Attacken!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "00420065007300690065006700650020004700650067006E006500720020006D00690074000A0042006F006F00730074002D00410074007400610063006B0065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Gewinne gegen Gegner mit\neinem höheren Rang!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1664,
+      "rawDecodedUtf16Hex": "0047006500770069006E006E006500200067006500670065006E0020004700650067006E006500720020006D00690074000A00650069006E0065006D0020006800F60068006500720065006E002000520061006E006700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1756,
+  "sectionOffset": 16,
+  "textCount": 21,
+  "textSectionCount": 1
+}

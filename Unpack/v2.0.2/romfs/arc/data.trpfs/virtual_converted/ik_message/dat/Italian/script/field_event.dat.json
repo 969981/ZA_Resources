@@ -1,0 +1,423 @@
+{
+  "declaredLength": 4168,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hai perso la sfida...\nAllena di più i<U+0010><U+0003>ᄁýԅl tuo tuoi Pokémon e ritenta!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "00480061006900200070006500720073006F0020006C0061002000730066006900640061002E002E002E000A0041006C006C0065006E006100200064006900200070006900F90020006900100003110100FD0505006C002000740075006F002000740075006F006900200050006F006B00E9006D006F006E0020006500200072006900740065006E0074006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Non puoi arrenderti così...\nAffronta di nuovo la sfida!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "004E006F006E002000700075006F006900200061007200720065006E0064006500720074006900200063006F007300EC002E002E002E000A0041006600660072006F006E007400610020006400690020006E0075006F0076006F0020006C006100200073006600690064006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Possesso del biglietto promozione confermato.\nAvrà ora inizio la lotta per la promozione.<U+0010><U+0001>븁",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "0050006F00730073006500730073006F002000640065006C0020006200690067006C0069006500740074006F002000700072006F006D006F007A0069006F006E006500200063006F006E006600650072006D00610074006F002E000A00410076007200E00020006F0072006100200069006E0069007A0069006F0020006C00610020006C006F00740074006100200070006500720020006C0061002000700072006F006D006F007A0069006F006E0065002E00100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Vuoi affrontare di nuovo la lotta?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 776,
+      "rawDecodedUtf16Hex": "00560075006F006900200061006600660072006F006E00740061007200650020006400690020006E0075006F0076006F0020006C00610020006C006F007400740061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Lotta dall’inizio",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "004C006F007400740061002000640061006C006C20190069006E0069007A0069006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Non ripristinare i PS dell’avversario",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "004E006F006E002000720069007000720069007300740069006E00610072006500200069002000500053002000640065006C006C2019006100760076006500720073006100720069006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Abbandona",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "0041006200620061006E0064006F006E00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Scegliendo di non ripristinare i PS, potrai\nriprendere la lotta conservando tutti i danni inflitti<U+0010><U+0001>븀\nall’avversario. Vuoi procedere?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 8,
+      "index": 7,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "0053006300650067006C00690065006E0064006F0020006400690020006E006F006E002000720069007000720069007300740069006E00610072006500200069002000500053002C00200070006F0074007200610069000A00720069007000720065006E00640065007200650020006C00610020006C006F00740074006100200063006F006E00730065007200760061006E0064006F00200074007500740074006900200069002000640061006E006E006900200069006E0066006C006900740074006900100001BE00000A0061006C006C2019006100760076006500720073006100720069006F002E002000560075006F0069002000700072006F006300650064006500720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 134
+    },
+    {
+      "displayText": "Sì, non ripristinare",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "005300EC002C0020006E006F006E002000720069007000720069007300740069006E0061007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "No, ripristina i PS dell’avversario",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "004E006F002C002000720069007000720069007300740069006E006100200069002000500053002000640065006C006C2019006100760076006500720073006100720069006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Indietro",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "0049006E00640069006500740072006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Mi servono consigli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1384,
+      "rawDecodedUtf16Hex": "004D006900200073006500720076006F006E006F00200063006F006E007300690067006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Fai sferrare un sacco di mosse a Lucario e\nraccogli gli agglomerati di energia mega.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1424,
+      "rawDecodedUtf16Hex": "00460061006900200073006600650072007200610072006500200075006E00200073006100630063006F0020006400690020006D006F007300730065002000610020004C00750063006100720069006F00200065000A0072006100630063006F0067006C006900200067006C00690020006100670067006C006F006D0065007200610074006900200064006900200065006E006500720067006900610020006D006500670061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Quando hai accumulato al massimo l’energia\nmega, premi <U+0010><U+0002>봊<U+000C>Stick_R_Push e dai il via alla megaevoluzione.<U+0010><U+0001>븀\nTi permetterà di lottare con mosse più forti!",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "005100750061006E0064006F002000680061006900200061006300630075006D0075006C00610074006F00200061006C0020006D0061007300730069006D006F0020006C20190065006E00650072006700690061000A006D006500670061002C0020007000720065006D0069002000100002BD0A000C0053007400690063006B005F0052005F005000750073006800200065002000640061006900200069006C002000760069006100200061006C006C00610020006D00650067006100650076006F006C0075007A0069006F006E0065002E00100001BE00000A005400690020007000650072006D0065007400740065007200E00020006400690020006C006F0074007400610072006500200063006F006E0020006D006F00730073006500200070006900F900200066006F00720074006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 155
+    },
+    {
+      "displayText": "Quando Absol inizia ad accumulare energia,\nallontanati in fretta e cerca riparo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "005100750061006E0064006F0020004100620073006F006C00200069006E0069007A0069006100200061006400200061006300630075006D0075006C00610072006500200065006E00650072006700690061002C000A0061006C006C006F006E00740061006E00610074006900200069006E002000660072006500740074006100200065002000630065007200630061002000720069007000610072006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Non avvicinarti troppo ad Absol, o potresti\nvedertela brutta! Se le cose si mettono male,<U+0010><U+0001>븀\npremi <U+0010><U+0002>봊<U+0004>Sp_2 per rotolare via!",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "004E006F006E0020006100760076006900630069006E0061007200740069002000740072006F00700070006F0020006100640020004100620073006F006C002C0020006F00200070006F007400720065007300740069000A0076006500640065007200740065006C0061002000620072007500740074006100210020005300650020006C006500200063006F007300650020007300690020006D006500740074006F006E006F0020006D0061006C0065002C00100001BE00000A007000720065006D0069002000100002BD0A000400530070005F0032002000700065007200200072006F0074006F006C006100720065002000760069006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 126
+    },
+    {
+      "displayText": "L’effetto del repellente è finito!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "004C2019006500660066006500740074006F002000640065006C00200072006500700065006C006C0065006E00740065002000E8002000660069006E00690074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "L’effetto del repellente è finito!\nVuoi usarne un altro?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "004C2019006500660066006500740074006F002000640065006C00200072006500700065006C006C0065006E00740065002000E8002000660069006E00690074006F0021000A00560075006F006900200075007300610072006E006500200075006E00200061006C00740072006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Hai usato\n<U+0010><U+0003>ᔂ<U+0001><U+0000><U+0010><U+0002>Ċ<U+0001>!",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "00100002BD06000000480061006900200075007300610074006F000A0010000315020001000000100002010A000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Mh...?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2564,
+      "rawDecodedUtf16Hex": "004D0068002E002E002E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Non puoi salire in groppa a <U+0010><U+0002>ā<U+0000>\nqui!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "00100002BD060000004E006F006E002000700075006F0069002000730061006C00690072006500200069006E002000670072006F0070007000610020006100200010000201010000000A00710075006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Non puoi salire in groppa a <U+0010><U+0002>Ă<U+0000>\nqui!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2664,
+      "rawDecodedUtf16Hex": "00100002BD060000004E006F006E002000700075006F0069002000730061006C00690072006500200069006E002000670072006F0070007000610020006100200010000201020000000A00710075006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "I tuoi box sono pieni! Fai un po’ di spazio\ne riprova.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 2748,
+      "rawDecodedUtf16Hex": "0049002000740075006F006900200062006F007800200073006F006E006F0020007000690065006E00690021002000460061006900200075006E00200070006F20190020006400690020007300700061007A0069006F000A006500200072006900700072006F00760061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Hai annotato i tuoi progressi negli appunti\nsulla <U+0010><U+0002>ĉ<U+0001>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2860,
+      "rawDecodedUtf16Hex": "00480061006900200061006E006E006F007400610074006F00200069002000740075006F0069002000700072006F0067007200650073007300690020006E00650067006C006900200061007000700075006E00740069000A00730075006C006C00610020001000020109000100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Hai uno scambio magico in sospeso.\nEffettua il collegamento a Internet.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 2972,
+      "rawDecodedUtf16Hex": "00480061006900200075006E006F0020007300630061006D00620069006F0020006D0061006700690063006F00200069006E00200073006F0073007000650073006F002E000A0045006600660065007400740075006100200069006C00200063006F006C006C006500670061006D0065006E0074006F0020006100200049006E007400650072006E00650074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Vuoi tornare su in alto dov’eri prima?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "00560075006F006900200074006F0072006E00610072006500200073007500200069006E00200061006C0074006F00200064006F007620190065007200690020007000720069006D0061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Ti affretti a tornare dagli altri!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3196,
+      "rawDecodedUtf16Hex": "005400690020006100660066007200650074007400690020006100200074006F0072006E0061007200650020006400610067006C006900200061006C00740072006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "L’apporto energetico si è esaurito!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3268,
+      "rawDecodedUtf16Hex": "004C2019006100700070006F00720074006F00200065006E0065007200670065007400690063006F002000730069002000E800200065007300610075007200690074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Uscirai dalla Luminopoli dimensionale.\nVuoi procedere?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3340,
+      "rawDecodedUtf16Hex": "0055007300630069007200610069002000640061006C006C00610020004C0075006D0069006E006F0070006F006C0069002000640069006D0065006E00730069006F006E0061006C0065002E000A00560075006F0069002000700072006F006300650064006500720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Sì",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "005300EC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "No",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3460,
+      "rawDecodedUtf16Hex": "004E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "MegaChimecho sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3468,
+      "rawDecodedUtf16Hex": "004D006500670061004300680069006D006500630068006F00200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "MegaGarchomp Z sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3532,
+      "rawDecodedUtf16Hex": "004D00650067006100470061007200630068006F006D00700020005A00200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "MegaGolurk sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3600,
+      "rawDecodedUtf16Hex": "004D0065006700610047006F006C00750072006B00200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "MegaGolisopod sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3660,
+      "rawDecodedUtf16Hex": "004D0065006700610047006F006C00690073006F0070006F006400200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "MegaScovillain sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3728,
+      "rawDecodedUtf16Hex": "004D00650067006100530063006F00760069006C006C00610069006E00200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "MegaGlimmora sta per attaccare!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3796,
+      "rawDecodedUtf16Hex": "004D0065006700610047006C0069006D006D006F0072006100200073007400610020007000650072002000610074007400610063006300610072006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3860,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È stato rilevato il segnale di <U+0010><U+0002>ā<U+0002>\nnelle tue vicinanze!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 3872,
+      "rawDecodedUtf16Hex": "00C800200073007400610074006F002000720069006C0065007600610074006F00200069006C0020007300650067006E0061006C006500200064006900200010000201010002000A006E0065006C006C0065002000740075006500200076006900630069006E0061006E007A0065002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Cercalo e catturalo!<U+0010><U+0002>Ĕ<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3996,
+      "rawDecodedUtf16Hex": "00430065007200630061006C006F0020006500200063006100740074007500720061006C006F002100100002011400070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Dalla Poké Ball bonus dorata sono uscite\nun sacco di cose!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4048,
+      "rawDecodedUtf16Hex": "00440061006C006C006100200050006F006B00E9002000420061006C006C00200062006F006E0075007300200064006F007200610074006100200073006F006E006F0020007500730063006900740065000A0075006E00200073006100630063006F00200064006900200063006F0073006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4168,
+  "sectionOffset": 16,
+  "textCount": 41,
+  "textSectionCount": 1
+}

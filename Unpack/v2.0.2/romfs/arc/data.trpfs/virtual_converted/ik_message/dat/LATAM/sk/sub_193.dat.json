@@ -1,0 +1,453 @@
+{
+  "declaredLength": 4012,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¡Riii, meee!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "00A10052006900690069002C0020006D00650065006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "\"¡Riii, meee!\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "002200A10052006900690069002C0020006D00650065006500210022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "¡Ri, riii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "00A100520069002C0020007200690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "\"¡Ri, riii!\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "002200A100520069002C0020007200690069006900210022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "¡Riiime!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "00A10052006900690069006D006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "\"¡Riiime!\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "002200A10052006900690069006D006500210022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "¿Estás bien?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "00BF00450073007400E100730020006200690065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "¿Qué estás haciendo?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000650073007400E10073002000680061006300690065006E0064006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "¿Estás bailando con tu Pokémon?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 608,
+      "rawDecodedUtf16Hex": "00BF00450073007400E100730020006200610069006C0061006E0064006F00200063006F006E00200074007500200050006F006B00E9006D006F006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "\"¿Estás bien?\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 672,
+      "rawDecodedUtf16Hex": "002200BF00450073007400E100730020006200690065006E003F0022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "\"¿Qué estás haciendo?\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "002200BF0051007500E9002000650073007400E10073002000680061006300690065006E0064006F003F0022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "\"¿Estás bailando con tu Pokémon?\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "002200BF00450073007400E100730020006200610069006C0061006E0064006F00200063006F006E00200074007500200050006F006B00E9006D006F006E003F0022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Ay, disculpa... Es que estoy practicando porque\nquiero aprender a imitar a mi Pokémon.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00410079002C002000640069007300630075006C00700061002E002E002E00200045007300200071007500650020006500730074006F0079002000700072006100630074006900630061006E0064006F00200070006F0072007100750065000A00710075006900650072006F00200061007000720065006E0064006500720020006100200069006D0069007400610072002000610020006D006900200050006F006B00E9006D006F006E002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "¿Ri, riii?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "00BF00520069002C00200072006900690069003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Soy Copierre, el Imitador. Aunque, por ahora,\nsolo puedo practicar con Mr. Rime.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0053006F007900200043006F007000690065007200720065002C00200065006C00200049006D0069007400610064006F0072002E002000410075006E007100750065002C00200070006F0072002000610068006F00720061002C000A0073006F006C006F00200070007500650064006F002000700072006100630074006900630061007200200063006F006E0020004D0072002E002000520069006D0065002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Oye, ya que estás aquí, ¿qué tal si presencias\nnuestras habilidades en persona?<U+0010><U+0001>븁\nTe vamos a mostrar el movimiento <U+0010><U+0002>＀<U+0006>Mímica\n<U+0010><U+0002>＀<U+0000>en un combate Pokémon.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1228,
+      "rawDecodedUtf16Hex": "004F00790065002C0020007900610020007100750065002000650073007400E10073002000610071007500ED002C002000BF0071007500E9002000740061006C002000730069002000700072006500730065006E0063006900610073000A006E007500650073007400720061007300200068006100620069006C00690064006100640065007300200065006E00200070006500720073006F006E0061003F00100001BE01000A00540065002000760061006D006F0073002000610020006D006F0073007400720061007200200065006C0020006D006F00760069006D00690065006E0074006F002000100002FF000006004D00ED006D006900630061000A00100002FF0000000065006E00200075006E00200063006F006D006200610074006500200050006F006B00E9006D006F006E002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 158
+    },
+    {
+      "displayText": "¡Ri, riii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "00A100520069002C0020007200690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "\"¡Ri, riii!\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1568,
+      "rawDecodedUtf16Hex": "002200A100520069002C0020007200690069006900210022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Cuando estés preparad<U+0010><U+0003>ᄀÿāoa para contemplar este\nespectáculo de imitación, habla conmigo.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1604,
+      "rawDecodedUtf16Hex": "004300750061006E0064006F002000650073007400E9007300200070007200650070006100720061006400100003110000FF0101006F00610020007000610072006100200063006F006E00740065006D0070006C0061007200200065007300740065000A00650073007000650063007400E100630075006C006F00200064006500200069006D0069007400610063006900F3006E002C0020006800610062006C006100200063006F006E006D00690067006F002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Quieres que te mostremos en combate\nla utilidad de Mímica?<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00BF005100750069006500720065007300200071007500650020007400650020006D006F0073007400720065006D006F007300200065006E00200063006F006D0062006100740065000A006C00610020007500740069006C00690064006100640020006400650020004D00ED006D006900630061003F00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "¡Vamos!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "00A100560061006D006F007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Espera un momento",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 1952,
+      "rawDecodedUtf16Hex": "00450073007000650072006100200075006E0020006D006F006D0065006E0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "\"¡Vamos!\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "002200A100560061006D006F007300210022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Ay, te imité antes de tiempo...<U+0010><U+0001>븁\n¡Vamos! Tengamos un combate así te mostramos\nel movimiento Mímica.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 2020,
+      "rawDecodedUtf16Hex": "00410079002C00200074006500200069006D0069007400E900200061006E0074006500730020006400650020007400690065006D0070006F002E002E002E00100001BE01000A00A100560061006D006F00730021002000540065006E00670061006D006F007300200075006E00200063006F006D006200610074006500200061007300ED0020007400650020006D006F0073007400720061006D006F0073000A0065006C0020006D006F00760069006D00690065006E0074006F0020004D00ED006D006900630061002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "\"Espera un momento\".<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2232,
+      "rawDecodedUtf16Hex": "002200450073007000650072006100200075006E0020006D006F006D0065006E0074006F0022002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ay, te imité antes de tiempo...<U+0010><U+0001>븁\nCuando estés preparad<U+0010><U+0003>ᄀÿāoa para contemplar este\nespectáculo de imitación, habla conmigo.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 2284,
+      "rawDecodedUtf16Hex": "00410079002C00200074006500200069006D0069007400E900200061006E0074006500730020006400650020007400690065006D0070006F002E002E002E00100001BE01000A004300750061006E0064006F002000650073007400E9007300200070007200650070006100720061006400100003110000FF0101006F00610020007000610072006100200063006F006E00740065006D0070006C0061007200200065007300740065000A00650073007000650063007400E100630075006C006F00200064006500200069006D0069007400610063006900F3006E002C0020006800610062006C006100200063006F006E006D00690067006F002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡¿No te pareció una imitación convincente?!<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2556,
+      "rawDecodedUtf16Hex": "00A100BF004E006F002000740065002000700061007200650063006900F300200075006E006100200069006D0069007400610063006900F3006E00200063006F006E00760069006E00630065006E00740065003F002100100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Mr. Rime usó Mímica a la perfección,\npero a mí se me fue el ritmo.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2652,
+      "rawDecodedUtf16Hex": "004D0072002E002000520069006D006500200075007300F30020004D00ED006D006900630061002000610020006C006100200070006500720066006500630063006900F3006E002C000A007000650072006F002000610020006D00ED0020007300650020006D0065002000660075006500200065006C0020007200690074006D006F002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "¿Qué te pareció Mímica en combate?<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2796,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000740065002000700061007200650063006900F30020004D00ED006D00690063006100200065006E00200063006F006D0062006100740065003F00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "¡Fue muy curioso!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "00A10046007500650020006D0075007900200063007500720069006F0073006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "No estuvo mal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "004E006F002000650073007400750076006F0020006D0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "¡Riii, riii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2940,
+      "rawDecodedUtf16Hex": "00A10052006900690069002C0020007200690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "\"¡Fue muy curioso!\".<U+0010><U+0001>븁\nGracias, me alegra oír eso.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2968,
+      "rawDecodedUtf16Hex": "002200A10046007500650020006D0075007900200063007500720069006F0073006F00210022002E00100001BE01000A0047007200610063006900610073002C0020006D006500200061006C00650067007200610020006F00ED0072002000650073006F002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "\"No estuvo mal\".<U+0010><U+0001>븁\nGracias, seguiremos entrenando.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "0022004E006F002000650073007400750076006F0020006D0061006C0022002E00100001BE01000A0047007200610063006900610073002C00200073006500670075006900720065006D006F007300200065006E007400720065006E0061006E0064006F002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "¿Riii, riii?<U+0010><U+0001>븁\nVaya, eres mejor que yo en esto de la imitación.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3192,
+      "rawDecodedUtf16Hex": "00BF0052006900690069002C00200072006900690069003F00100001BE01000A0056006100790061002C002000650072006500730020006D0065006A006F0072002000710075006500200079006F00200065006E0020006500730074006F0020006400650020006C006100200069006D0069007400610063006900F3006E002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Toma, quédate con esta MT. Espero que te\nacuerdes de mí cuando la uses.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3332,
+      "rawDecodedUtf16Hex": "0054006F006D0061002C00200071007500E9006400610074006500200063006F006E002000650073007400610020004D0054002E002000450073007000650072006F0020007100750065002000740065000A006100630075006500720064006500730020006400650020006D00ED0020006300750061006E0064006F0020006C006100200075007300650073002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Contiene el movimiento <U+0010><U+0002>＀<U+0006>Mímica<U+0010><U+0002>＀<U+0000>, con el que\npuedes copiar el último movimiento que haya<U+0010><U+0001>븀\nusado el rival.<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3484,
+      "rawDecodedUtf16Hex": "0043006F006E007400690065006E006500200065006C0020006D006F00760069006D00690065006E0074006F002000100002FF000006004D00ED006D00690063006100100002FF000000002C00200063006F006E00200065006C0020007100750065000A00700075006500640065007300200063006F007000690061007200200065006C002000FA006C00740069006D006F0020006D006F00760069006D00690065006E0074006F00200071007500650020006800610079006100100001BE00000A0075007300610064006F00200065006C00200072006900760061006C002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "El arte de la imitación no es fácil, que digamos...<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 3720,
+      "rawDecodedUtf16Hex": "0045006C002000610072007400650020006400650020006C006100200069006D0069007400610063006900F3006E0020006E006F0020006500730020006600E100630069006C002C002000710075006500200064006900670061006D006F0073002E002E002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "¡Riii, riii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3832,
+      "rawDecodedUtf16Hex": "00A10052006900690069002C0020007200690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿)",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3860,
+      "rawDecodedUtf16Hex": "00100002BDFF00290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "El arte de la imitación no es fácil, que digamos...<U+0010><U+0002>ĔǨ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 3872,
+      "rawDecodedUtf16Hex": "0045006C002000610072007400650020006400650020006C006100200069006D0069007400610063006900F3006E0020006E006F0020006500730020006600E100630069006C002C002000710075006500200064006900670061006D006F0073002E002E002E00100002011401E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "¡Riii, riii!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3984,
+      "rawDecodedUtf16Hex": "00A10052006900690069002C0020007200690069006900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4012,
+  "sectionOffset": 16,
+  "textCount": 44,
+  "textSectionCount": 1
+}

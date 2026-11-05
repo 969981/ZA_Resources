@@ -1,0 +1,73 @@
+{
+  "declaredLength": 336,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000><U+0010><U+0003>ᜁ<U+0000><U+0000><U+0010><U+0002>Ă<U+0000> se enviará a\n<U+0010><U+0002>Ā<U+0001>.<U+0010><U+0001>븀\n¡Adiós, <U+0010><U+0002>Ă<U+0000>!",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00100002BD06000000100003170100000000001000020102000000200073006500200065006E007600690061007200E100200061000A0010000201000001002E00100001BE00000A00A100410064006900F30073002C0020001000020102000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 152,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡<U+0010><U+0002>Ā<U+0001> te ha enviado este\n<U+0010><U+0002>Ă<U+0002>!",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 164,
+      "rawDecodedUtf16Hex": "00100002BD06000000A1001000020100000100200074006500200068006100200065006E0076006900610064006F00200065007300740065000A001000020102000200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "¡Aquí está <U+0010><U+0003>ᜀ<U+0002><U+0000><U+0010><U+0002>Ă<U+0002>! ¡Cuídalo bien!",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "00A100410071007500ED002000650073007400E100200010000317000002000000100002010200020021002000A10043007500ED00640061006C006F0020006200690065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 336,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

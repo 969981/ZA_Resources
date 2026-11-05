@@ -1,0 +1,143 @@
+{
+  "declaredLength": 364,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "+Lv.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 108,
+      "rawDecodedUtf16Hex": "002B004C0076002E00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "001000020202000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "kcal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "006B00630061006C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "00100003020300000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100003020400000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "002F00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 224,
+      "rawDecodedUtf16Hex": "00100003020400010000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "pt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00700074000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "001000020201000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "/",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 280,
+      "rawDecodedUtf16Hex": "002F00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 288,
+      "rawDecodedUtf16Hex": "001000020201000100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 308,
+      "rawDecodedUtf16Hex": "00100003020400020000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "異次元タスク名",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "75706B21514330BF30B930AF540D00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 364,
+  "sectionOffset": 16,
+  "textCount": 13,
+  "textSectionCount": 1
+}

@@ -1,0 +1,263 @@
+{
+  "declaredLength": 1160,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "얘! 잠깐 괜찮니?<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 216,
+      "rawDecodedUtf16Hex": "C59800210020C7A0AE500020AD1CCC2EB2C8003F00100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0002>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "00100002BDFF00020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "저기 있는 거북손손들을 봐 봐!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "C800AE300020C788B2940020AC70BD81C190C190B4E4C7440020BD100020BD10002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "나의 사랑스러운 보트에 타려는데\n거북손손들이 길을 막고 있는 거 있지!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 304,
+      "rawDecodedUtf16Hex": "B098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8C5D00020D0C0B824B294B370000AAC70BD81C190C190B4E4C7740020AE38C7440020B9C9ACE00020C788B2940020AC700020C788C9C0002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "이대로 가다간\n영영 보트를 탈 수 없게 될 거야...<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "C774B300B85C0020AC00B2E4AC04000AC601C6010020BCF4D2B8B97C0020D0C80020C2180020C5C6AC8C0020B4200020AC70C57C002E002E002E00100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "부탁할게!\n저 거북손손들을 쫓아내 줘!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "BD80D0C1D560AC8C0021000AC8000020AC70BD81C190C190B4E4C7440020CAD3C544B0B40020C918002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "나의 사랑스러운 보트에 탈 수 있게\n거북손손들을 쫓아내 줘!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 524,
+      "rawDecodedUtf16Hex": "B098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8C5D00020D0C80020C2180020C788AC8C000AAC70BD81C190C190B4E4C7440020CAD3C544B0B40020C918002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "거북손손들과 싸워서\n쫓아내겠습니까?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "AC70BD81C190C190B4E4ACFC0020C2F8C6CCC11C000ACAD3C544B0B4ACA0C2B5B2C8AE4C003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "쫓아낸다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "CAD3C544B0B8B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "그만둔다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "ADF8B9CCB454B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "손손~!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "C190C190007E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "거북손손들을\n쫓아내 줘서 고마워!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 700,
+      "rawDecodedUtf16Hex": "AC70BD81C190C190B4E4C744000ACAD3C544B0B40020C918C11C0020ACE0B9C8C6CC002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "...에엥!?\n또 나의 사랑스러운 보트를 둘러쌌잖아!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "002E002E002EC5D0C5E50021003F000AB6100020B098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8B97C0020B458B7ECC30CC796C544002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "나의 사랑스러운 보트는\n너희 거북손손들 게 아니라고!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "B098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8B294000AB108D76C0020AC70BD81C190C190B4E40020AC8C0020C544B2C8B77CACE0002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "설마 너희들...\n나의 사랑스러운 보트에 타고 싶은 거야?<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "C124B9C80020B108D76CB4E4002E002E002E000AB098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8C5D00020D0C0ACE00020C2F6C7400020AC70C57C003F00100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "손손~!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 960,
+      "rawDecodedUtf16Hex": "C190C190007E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "그래, 알았어!\n승선을 허가해 줄게!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "ADF8B798002C0020C54CC558C5B40021000AC2B9C120C7440020D5C8AC00D5740020C904AC8C002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "거북손손들 모두 탑승하시라!<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "AC70BD81C190C190B4E40020BAA8B4500020D0D1C2B9D558C2DCB77C002100100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1064,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "나의 사랑스러운 보트에 타 보니 어때?\n정말 편안하지?<U+0010><U+0002>ĔŸ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "B098C7580020C0ACB791C2A4B7ECC6B40020BCF4D2B8C5D00020D0C00020BCF4B2C80020C5B4B54C003F000AC815B9D00020D3B8C548D558C9C0003F00100002011401780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "손손~!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1148,
+      "rawDecodedUtf16Hex": "C190C190007E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1160,
+  "sectionOffset": 16,
+  "textCount": 25,
+  "textSectionCount": 1
+}

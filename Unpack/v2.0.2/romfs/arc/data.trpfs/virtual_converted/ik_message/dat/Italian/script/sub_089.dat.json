@@ -1,0 +1,493 @@
+{
+  "declaredLength": 6268,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 388,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ciao! Hai presente Flabébé? Adoro quel Pokémon!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "004300690061006F00210020004800610069002000700072006500730065006E0074006500200046006C0061006200E9006200E9003F002000410064006F0072006F0020007100750065006C00200050006F006B00E9006D006F006E002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Appena nato, cerca un fiore di suo gradimento\ne se ne prende cura per tutta la vita.<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 504,
+      "rawDecodedUtf16Hex": "0041007000700065006E00610020006E00610074006F002C00200063006500720063006100200075006E002000660069006F00720065002000640069002000730075006F002000670072006100640069006D0065006E0074006F000A00650020007300650020006E00650020007000720065006E006400650020006300750072006100200070006500720020007400750074007400610020006C006100200076006900740061002E00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Il fiore che ha con sé può essere di uno tra questi\ncolori: rosso, giallo, arancione, blu o bianco.<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 684,
+      "rawDecodedUtf16Hex": "0049006C002000660069006F00720065002000630068006500200068006100200063006F006E0020007300E900200070007500F2002000650073007300650072006500200064006900200075006E006F00200074007200610020007100750065007300740069000A0063006F006C006F00720069003A00200072006F00730073006F002C0020006700690061006C006C006F002C0020006100720061006E00630069006F006E0065002C00200062006C00750020006F0020006200690061006E0063006F002E00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Come mi piacerebbe vedere tutte e cinque\nle varianti di colore di Flabébé.<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 892,
+      "rawDecodedUtf16Hex": "0043006F006D00650020006D006900200070006900610063006500720065006200620065002000760065006400650072006500200074007500740074006500200065002000630069006E007100750065000A006C0065002000760061007200690061006E0074006900200064006900200063006F006C006F0072006500200064006900200046006C0061006200E9006200E9002E00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Credo che i suoi fiori mi sarebbero di grande\nispirazione per le mie tinte per capelli.<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1052,
+      "rawDecodedUtf16Hex": "0043007200650064006F002000630068006500200069002000730075006F0069002000660069006F007200690020006D0069002000730061007200650062006200650072006F0020006400690020006700720061006E00640065000A006900730070006900720061007A0069006F006E006500200070006500720020006C00650020006D00690065002000740069006E00740065002000700065007200200063006100700065006C006C0069002E00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "Tu sei un<U+0010><U+0003>ᄀÿଊ Allenator’Allenatrice, no? Ho un favore da\nchiederti!<U+0010><U+0001>븁\nPotresti mostrarmi cinque Flabébé, ognuno\ncon un fiore di colore diverso?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "00540075002000730065006900200075006E00100003110000FF0B0A00200041006C006C0065006E00610074006F007220190041006C006C0065006E006100740072006900630065002C0020006E006F003F00200048006F00200075006E0020006600610076006F00720065002000640061000A006300680069006500640065007200740069002100100001BE01000A0050006F0074007200650073007400690020006D006F00730074007200610072006D0069002000630069006E00710075006500200046006C0061006200E9006200E9002C0020006F0067006E0075006E006F000A0063006F006E00200075006E002000660069006F0072006500200064006900200063006F006C006F007200650020006400690076006500720073006F003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 150
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1536,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ho sentito che è possibile trovare Flabébé vicino\nalle aiuole o in posti poco frequentati come i tetti.<U+0010><U+0001>븁\nPer favore, potresti mostrarmi cinque Flabébé,\nognuno con un fiore di colore diverso?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "0048006F002000730065006E007400690074006F0020006300680065002000E800200070006F00730073006900620069006C0065002000740072006F007600610072006500200046006C0061006200E9006200E900200076006900630069006E006F000A0061006C006C00650020006100690075006F006C00650020006F00200069006E00200070006F00730074006900200070006F0063006F0020006600720065007100750065006E007400610074006900200063006F006D006500200069002000740065007400740069002E00100001BE01000A0050006500720020006600610076006F00720065002C00200070006F0074007200650073007400690020006D006F00730074007200610072006D0069002000630069006E00710075006500200046006C0061006200E9006200E9002C000A006F0067006E0075006E006F00200063006F006E00200075006E002000660069006F0072006500200064006900200063006F006C006F007200650020006400690076006500720073006F003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 197
+    },
+    {
+      "displayText": "Ho un Flabébé Fiore Rosso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 1944,
+      "rawDecodedUtf16Hex": "0048006F00200075006E00200046006C0061006200E9006200E9002000460069006F0072006500200052006F00730073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Ho un Flabébé Fiore Giallo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1996,
+      "rawDecodedUtf16Hex": "0048006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004700690061006C006C006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Ho un Flabébé Fiore Arancione",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "0048006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004100720061006E00630069006F006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Ho un Flabébé Fiore Blu",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 2112,
+      "rawDecodedUtf16Hex": "0048006F00200075006E00200046006C0061006200E9006200E9002000460069006F0072006500200042006C00750000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Ho un Flabébé Fiore Bianco",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 2160,
+      "rawDecodedUtf16Hex": "0048006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004200690061006E0063006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Magari più tardi",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "004D0061006700610072006900200070006900F90020007400610072006400690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Oooh! Mi mostri un Flabébé con il Fiore Rosso?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "004F006F006F006800210020004D00690020006D006F007300740072006900200075006E00200046006C0061006200E9006200E900200063006F006E00200069006C002000460069006F0072006500200052006F00730073006F003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Oooh! Mi mostri un Flabébé con il Fiore Giallo?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "004F006F006F006800210020004D00690020006D006F007300740072006900200075006E00200046006C0061006200E9006200E900200063006F006E00200069006C002000460069006F007200650020004700690061006C006C006F003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Oooh! Mi mostri un Flabébé con il Fiore Arancione?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2460,
+      "rawDecodedUtf16Hex": "004F006F006F006800210020004D00690020006D006F007300740072006900200075006E00200046006C0061006200E9006200E900200063006F006E00200069006C002000460069006F007200650020004100720061006E00630069006F006E0065003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Oooh! Mi mostri un Flabébé con il Fiore Bianco?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "004F006F006F006800210020004D00690020006D006F007300740072006900200075006E00200046006C0061006200E9006200E900200063006F006E00200069006C002000460069006F007200650020004200690061006E0063006F003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Oooh! Mi mostri un Flabébé con il Fiore Blu?<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2676,
+      "rawDecodedUtf16Hex": "004F006F006F006800210020004D00690020006D006F007300740072006900200075006E00200046006C0061006200E9006200E900200063006F006E00200069006C002000460069006F0072006500200042006C0075003F00100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2776,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È proprio un Flabébé Fiore Rosso! Grazie mille!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "00C8002000700072006F007000720069006F00200075006E00200046006C0061006200E9006200E9002000460069006F0072006500200052006F00730073006F00210020004700720061007A006900650020006D0069006C006C0065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Quel rosso così intenso trasmette passione, non\ntrovi? Voglio creare una tinta di quel colore!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2892,
+      "rawDecodedUtf16Hex": "005100750065006C00200072006F00730073006F00200063006F007300EC00200069006E00740065006E0073006F00200074007200610073006D0065007400740065002000700061007300730069006F006E0065002C0020006E006F006E000A00740072006F00760069003F00200056006F0067006C0069006F002000630072006500610072006500200075006E0061002000740069006E007400610020006400690020007100750065006C00200063006F006C006F00720065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature\nsi è ora aggiunto il rosso!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E0063006900610074007500720065000A00730069002000E80020006F00720061002000610067006700690075006E0074006F00200069006C00200072006F00730073006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3240,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È proprio un Flabébé Fiore Giallo! Grazie mille!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 25,
+      "offsetInSection": 3252,
+      "rawDecodedUtf16Hex": "00C8002000700072006F007000720069006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004700690061006C006C006F00210020004700720061007A006900650020006D0069006C006C0065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Quel giallo così intenso ispira allegria, non trovi?\nVoglio creare una tinta di quel colore!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3360,
+      "rawDecodedUtf16Hex": "005100750065006C0020006700690061006C006C006F00200063006F007300EC00200069006E00740065006E0073006F002000690073007000690072006100200061006C006C00650067007200690061002C0020006E006F006E002000740072006F00760069003F000A0056006F0067006C0069006F002000630072006500610072006500200075006E0061002000740069006E007400610020006400690020007100750065006C00200063006F006C006F00720065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature\nsi è ora aggiunto il giallo limone!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E0063006900610074007500720065000A00730069002000E80020006F00720061002000610067006700690075006E0074006F00200069006C0020006700690061006C006C006F0020006C0069006D006F006E006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3720,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È proprio un Flabébé Fiore Arancione!\nGrazie mille!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "00C8002000700072006F007000720069006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004100720061006E00630069006F006E00650021000A004700720061007A006900650020006D0069006C006C0065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Quell’arancione suggerisce atmosfere autunnali,\nnon trovi? Voglio creare una tinta di quel colore!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3844,
+      "rawDecodedUtf16Hex": "005100750065006C006C2019006100720061006E00630069006F006E006500200073007500670067006500720069007300630065002000610074006D006F0073006600650072006500200061007500740075006E006E0061006C0069002C000A006E006F006E002000740072006F00760069003F00200056006F0067006C0069006F002000630072006500610072006500200075006E0061002000740069006E007400610020006400690020007100750065006C00200063006F006C006F00720065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature\nsi è ora aggiunto l’arancione!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 4052,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E0063006900610074007500720065000A00730069002000E80020006F00720061002000610067006700690075006E0074006F0020006C2019006100720061006E00630069006F006E006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4208,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È proprio un Flabébé Fiore Blu! Grazie mille!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 4220,
+      "rawDecodedUtf16Hex": "00C8002000700072006F007000720069006F00200075006E00200046006C0061006200E9006200E9002000460069006F0072006500200042006C007500210020004700720061007A006900650020006D0069006C006C0065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Quel blu così intenso infonde un senso di libertà,\nnon trovi? Voglio creare una tinta di quel colore!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4320,
+      "rawDecodedUtf16Hex": "005100750065006C00200062006C007500200063006F007300EC00200069006E00740065006E0073006F00200069006E0066006F006E0064006500200075006E002000730065006E0073006F0020006400690020006C0069006200650072007400E0002C000A006E006F006E002000740072006F00760069003F00200056006F0067006C0069006F002000630072006500610072006500200075006E0061002000740069006E007400610020006400690020007100750065006C00200063006F006C006F00720065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 106
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature\nsi è ora aggiunto il blu!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4532,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E0063006900610074007500720065000A00730069002000E80020006F00720061002000610067006700690075006E0074006F00200069006C00200062006C007500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "00100002BDFF00240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "È proprio un Flabébé Fiore Bianco! Grazie mille!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 4688,
+      "rawDecodedUtf16Hex": "00C8002000700072006F007000720069006F00200075006E00200046006C0061006200E9006200E9002000460069006F007200650020004200690061006E0063006F00210020004700720061007A006900650020006D0069006C006C0065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Quel bianco immacolato comunica purezza, non\ntrovi? Voglio creare una tinta di quel colore!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4796,
+      "rawDecodedUtf16Hex": "005100750065006C0020006200690061006E0063006F00200069006D006D00610063006F006C00610074006F00200063006F006D0075006E00690063006100200070007500720065007A007A0061002C0020006E006F006E000A00740072006F00760069003F00200056006F0067006C0069006F002000630072006500610072006500200075006E0061002000740069006E007400610020006400690020007100750065006C00200063006F006C006F00720065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature\nsi è ora aggiunto il bianco!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 4988,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E0063006900610074007500720065000A00730069002000E80020006F00720061002000610067006700690075006E0074006F00200069006C0020006200690061006E0063006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿(",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 5140,
+      "rawDecodedUtf16Hex": "00100002BDFF00280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh! Cinque Flabébé di colori diversi! Ci sono tutti:\nil rosso, il giallo, l’arancione, il blu e il bianco!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 5152,
+      "rawDecodedUtf16Hex": "004F00680021002000430069006E00710075006500200046006C0061006200E9006200E900200064006900200063006F006C006F0072006900200064006900760065007200730069002100200043006900200073006F006E006F002000740075007400740069003A000A0069006C00200072006F00730073006F002C00200069006C0020006700690061006C006C006F002C0020006C2019006100720061006E00630069006F006E0065002C00200069006C00200062006C00750020006500200069006C0020006200690061006E0063006F002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "Guardando questo tripudio di colori, mi viene\nvoglia di sperimentare tinte insolite!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5376,
+      "rawDecodedUtf16Hex": "004700750061007200640061006E0064006F002000710075006500730074006F00200074007200690070007500640069006F00200064006900200063006F006C006F00720069002C0020006D00690020007600690065006E0065000A0076006F0067006C00690061002000640069002000730070006500720069006D0065006E0074006100720065002000740069006E0074006500200069006E0073006F006C006900740065002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "Sai cosa ti dico? Voglio osare! Creerò subito tinte\ndi colori unici!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5556,
+      "rawDecodedUtf16Hex": "00530061006900200063006F007300610020007400690020006400690063006F003F00200056006F0067006C0069006F0020006F0073006100720065002100200043007200650065007200F2002000730075006200690074006F002000740069006E00740065000A0064006900200063006F006C006F0072006900200075006E006900630069002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Ai colori per capelli del Salone Acconciature ora si\nsono aggiunti azzurro, viola e rosa pompelmo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 44,
+      "offsetInSection": 5704,
+      "rawDecodedUtf16Hex": "0041006900200063006F006C006F00720069002000700065007200200063006100700065006C006C0069002000640065006C002000530061006C006F006E00650020004100630063006F006E00630069006100740075007200650020006F00720061002000730069000A0073006F006E006F002000610067006700690075006E0074006900200061007A007A007500720072006F002C002000760069006F006C00610020006500200072006F0073006100200070006F006D00700065006C006D006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "Dopo aver visto i Flabébé che mi hai mostrato,\nho deciso di allevarne alcuni anche io!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5904,
+      "rawDecodedUtf16Hex": "0044006F0070006F0020006100760065007200200076006900730074006F0020006900200046006C0061006200E9006200E900200063006800650020006D006900200068006100690020006D006F00730074007200610074006F002C000A0068006F002000640065006300690073006F00200064006900200061006C006C0065007600610072006E006500200061006C00630075006E006900200061006E00630068006500200069006F002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 6088,
+      "rawDecodedUtf16Hex": "00100002BDFF002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Dopo aver visto i Flabébé che mi hai mostrato,\nne ho catturati alcuni anche io!<U+0010><U+0002>ĔŴ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 6100,
+      "rawDecodedUtf16Hex": "0044006F0070006F0020006100760065007200200076006900730074006F0020006900200046006C0061006200E9006200E900200063006800650020006D006900200068006100690020006D006F00730074007200610074006F002C000A006E006500200068006F002000630061007400740075007200610074006900200061006C00630075006E006900200061006E00630068006500200069006F002100100002011401740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6268,
+  "sectionOffset": 16,
+  "textCount": 48,
+  "textSectionCount": 1
+}

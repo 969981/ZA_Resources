@@ -1,0 +1,23 @@
+{
+  "declaredLength": 196,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "It’s a portrait of someone who looks like a\nprofessor. The painting seems to be quite old.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 12,
+      "rawDecodedUtf16Hex": "00490074201900730020006100200070006F0072007400720061006900740020006F006600200073006F006D0065006F006E0065002000770068006F0020006C006F006F006B00730020006C0069006B006500200061000A00700072006F0066006500730073006F0072002E00200054006800650020007000610069006E00740069006E00670020007300650065006D007300200074006F0020006200650020007100750069007400650020006F006C0064002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 196,
+  "sectionOffset": 16,
+  "textCount": 1,
+  "textSectionCount": 1
+}

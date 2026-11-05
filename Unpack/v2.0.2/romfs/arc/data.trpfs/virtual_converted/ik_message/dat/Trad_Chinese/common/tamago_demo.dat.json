@@ -1,0 +1,43 @@
+{
+  "declaredLength": 92,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "哦……？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "54E620262026FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "蛋孵化成<U+0010><U+0002>ā<U+0000>了！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 40,
+      "rawDecodedUtf16Hex": "86CB5B755316621000100002010100004E86FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "要為<U+0010><U+0002>ā<U+0000>\n取暱稱嗎？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 64,
+      "rawDecodedUtf16Hex": "898170BA0010000201010000000A53D666B17A3155CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 92,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

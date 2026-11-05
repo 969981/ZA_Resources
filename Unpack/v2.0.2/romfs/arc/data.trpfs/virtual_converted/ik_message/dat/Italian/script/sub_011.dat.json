@@ -1,0 +1,723 @@
+{
+  "declaredLength": 7264,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 572,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ehilà, giovane... Per caso conosci Budew?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "004500680069006C00E0002C002000670069006F00760061006E0065002E002E002E00200050006500720020006300610073006F00200063006F006E006F007300630069002000420075006400650077003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Bububu! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 676,
+      "rawDecodedUtf16Hex": "00420075006200750062007500210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Devi sapere che i Budew resistono al freddo\nfinché le loro gemme non si schiudono.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 696,
+      "rawDecodedUtf16Hex": "004400650076006900200073006100700065007200650020006300680065002000690020004200750064006500770020007200650073006900730074006F006E006F00200061006C002000660072006500640064006F000A00660069006E0063006800E90020006C00650020006C006F0072006F002000670065006D006D00650020006E006F006E0020007300690020007300630068006900750064006F006E006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Sento che tu hai il talento per farne fiorire uno.\nTi andrebbe di partecipare al nostro concorso?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00530065006E0074006F0020006300680065002000740075002000680061006900200069006C002000740061006C0065006E0074006F00200070006500720020006600610072006E0065002000660069006F007200690072006500200075006E006F002E000A0054006900200061006E00640072006500620062006500200064006900200070006100720074006500630069007000610072006500200061006C0020006E006F007300740072006F00200063006F006E0063006F00720073006F003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Vieni all’8º isolato del Quartiere Blu, nella piazza\ncon la fontana... Ti aspetto.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1076,
+      "rawDecodedUtf16Hex": "005600690065006E006900200061006C006C2019003800BA002000690073006F006C00610074006F002000640065006C002000510075006100720074006900650072006500200042006C0075002C0020006E0065006C006C00610020007000690061007A007A0061000A0063006F006E0020006C006100200066006F006E00740061006E0061002E002E002E0020005400690020006100730070006500740074006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1252,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "I Budew devono essere sani e forti.<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "00490020004200750064006500770020006400650076006F006E006F0020006500730073006500720065002000730061006E00690020006500200066006F007200740069002E00100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Preferisco i Budew che mostrano una certa\nqualità artistica nelle espressioni e nei movimenti.<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "005000720065006600650072006900730063006F0020006900200042007500640065007700200063006800650020006D006F0073007400720061006E006F00200075006E0061002000630065007200740061000A007100750061006C0069007400E000200061007200740069007300740069006300610020006E0065006C006C0065002000650073007000720065007300730069006F006E0069002000650020006E006500690020006D006F00760069006D0065006E00740069002E00100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ti aspettavo, giovane.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "00540069002000610073007000650074007400610076006F002C002000670069006F00760061006E0065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Però vedo che non hai con te un Budew.\nMettine uno in squadra, va bene?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "00500065007200F20020007600650064006F00200063006800650020006E006F006E002000680061006900200063006F006E00200074006500200075006E002000420075006400650077002E000A004D0065007400740069006E006500200075006E006F00200069006E00200073007100750061006400720061002C002000760061002000620065006E0065003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Oh, bene... Hai un Budew con te.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 12,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "004F0068002C002000620065006E0065002E002E002E002000480061006900200075006E00200042007500640065007700200063006F006E002000740065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Ah, ti chiami <U+0010><U+0002>Ā<U+0000>...\nAnche il tuo nome è come un fiore!<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "00410068002C00200074006900200063006800690061006D006900200010000201000000002E002E002E000A0041006E00630068006500200069006C002000740075006F0020006E006F006D0065002000E800200063006F006D006500200075006E002000660069006F00720065002100100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "La quota di partecipazione al concorso è\ndi 5.800 <U+E300>, grazie.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "004C0061002000710075006F007400610020006400690020007000610072007400650063006900700061007A0069006F006E006500200061006C00200063006F006E0063006F00720073006F002000E8000A0064006900200035002E0038003000300020E300002C0020006700720061007A00690065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Ecco a lei...!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "004500630063006F002000610020006C00650069002E002E002E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Ah, si paga?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 16,
+      "offsetInSection": 2128,
+      "rawDecodedUtf16Hex": "00410068002C00200073006900200070006100670061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Ma sì, non preoccuparti! Vedrai che tu e il tuo\nBudew farete un figurone!<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "004D00610020007300EC002C0020006E006F006E0020007000720065006F006300630075007000610072007400690021002000560065006400720061006900200063006800650020007400750020006500200069006C002000740075006F000A00420075006400650077002000660061007200650074006500200075006E002000660069006700750072006F006E0065002100100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Mi sa che non hai abbastanza soldi...<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "004D006900200073006100200063006800650020006E006F006E002000680061006900200061006200620061007300740061006E007A006100200073006F006C00640069002E002E002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Sarà un concorso fantastico, me lo sento.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "00530061007200E000200075006E00200063006F006E0063006F00720073006F002000660061006E007400610073007400690063006F002C0020006D00650020006C006F002000730065006E0074006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2488,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Metti un Budew in squadra e vieni da me.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2500,
+      "rawDecodedUtf16Hex": "004D006500740074006900200075006E00200042007500640065007700200069006E00200073007100750061006400720061002000650020007600690065006E00690020006400610020006D0065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2592,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Iniziamo dunque dal concorrente numero uno,\nil Budew del signor Yuta.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "0049006E0069007A00690061006D006F002000640075006E007100750065002000640061006C00200063006F006E0063006F007200720065006E007400650020006E0075006D00650072006F00200075006E006F002C000A0069006C002000420075006400650077002000640065006C0020007300690067006E006F007200200059007500740061002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Dew...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2752,
+      "rawDecodedUtf16Hex": "004400650077002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Le gemme hanno un’ottima lucentezza!<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2768,
+      "rawDecodedUtf16Hex": "004C0065002000670065006D006D0065002000680061006E006E006F00200075006E2019006F007400740069006D00610020006C007500630065006E00740065007A007A0061002100100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "I movimenti non sono niente di speciale...\nNon mi destano alcun sentimento.<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "00490020006D006F00760069006D0065006E007400690020006E006F006E00200073006F006E006F0020006E00690065006E007400650020006400690020007300700065006300690061006C0065002E002E002E000A004E006F006E0020006D0069002000640065007300740061006E006F00200061006C00630075006E002000730065006E00740069006D0065006E0074006F002E00100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "A giudicare dal verso, si direbbe un po’ teso.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3012,
+      "rawDecodedUtf16Hex": "00410020006700690075006400690063006100720065002000640061006C00200076006500720073006F002C0020007300690020006400690072006500620062006500200075006E00200070006F20190020007400650073006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Passiamo al secondo concorrente, il Budew\ndel signor Luke.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3116,
+      "rawDecodedUtf16Hex": "005000610073007300690061006D006F00200061006C0020007300650063006F006E0064006F00200063006F006E0063006F007200720065006E00740065002C00200069006C002000420075006400650077000A00640065006C0020007300690067006E006F00720020004C0075006B0065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Budeeew!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3244,
+      "rawDecodedUtf16Hex": "004200750064006500650065007700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "L’aspetto maestoso trasmette tutta la sua forza.<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3264,
+      "rawDecodedUtf16Hex": "004C2019006100730070006500740074006F0020006D0061006500730074006F0073006F00200074007200610073006D00650074007400650020007400750074007400610020006C0061002000730075006100200066006F0072007A0061002E00100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Il verso è discreto, direi.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "0049006C00200076006500720073006F002000E800200064006900730063007200650074006F002C002000640069007200650069002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Però il colorito è un po’ spento. Forse non è stato\nsufficientemente esposto alla luce del sole.<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "00500065007200F200200069006C00200063006F006C006F007200690074006F002000E800200075006E00200070006F20190020007300700065006E0074006F002E00200046006F0072007300650020006E006F006E002000E800200073007400610074006F000A00730075006600660069006300690065006E00740065006D0065006E007400650020006500730070006F00730074006F00200061006C006C00610020006C007500630065002000640065006C00200073006F006C0065002E00100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Il terzo concorrente è il Budew della signorina\nBrigida.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "0049006C0020007400650072007A006F00200063006F006E0063006F007200720065006E00740065002000E800200069006C002000420075006400650077002000640065006C006C00610020007300690067006E006F00720069006E0061000A0042007200690067006900640061002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "BUUUD...!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "00420055005500550044002E002E002E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Quant’è grande! Anche la quantità di polline\nè considerevole.<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3784,
+      "rawDecodedUtf16Hex": "005100750061006E0074201900E80020006700720061006E00640065002100200041006E0063006800650020006C00610020007100750061006E00740069007400E000200064006900200070006F006C006C0069006E0065000A00E800200063006F006E0073006900640065007200650076006F006C0065002E00100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "La potenza dei suoi movimenti è affascinante!<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "004C006100200070006F00740065006E007A00610020006400650069002000730075006F00690020006D006F00760069006D0065006E00740069002000E800200061006600660061007300630069006E0061006E00740065002100100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Però si percepisce una nota di nervosismo\nnella voce... Forse è un po’ stressato.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4016,
+      "rawDecodedUtf16Hex": "00500065007200F20020007300690020007000650072006300650070006900730063006500200075006E00610020006E006F007400610020006400690020006E006500720076006F007300690073006D006F000A006E0065006C006C006100200076006F00630065002E002E002E00200046006F007200730065002000E800200075006E00200070006F2019002000730074007200650073007300610074006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Ora è il momento del quarto e ultimo concorrente,\nil Budew del<U+0010><U+0003>ᄀÿఇ signorla signorina <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 4,
+      "index": 38,
+      "offsetInSection": 4188,
+      "rawDecodedUtf16Hex": "004F00720061002000E800200069006C0020006D006F006D0065006E0074006F002000640065006C002000710075006100720074006F0020006500200075006C00740069006D006F00200063006F006E0063006F007200720065006E00740065002C000A0069006C002000420075006400650077002000640065006C00100003110000FF0C070020007300690067006E006F0072006C00610020007300690067006E006F00720069006E006100200010000201000000002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Budewww!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4384,
+      "rawDecodedUtf16Hex": "0042007500640065007700770077002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Ma...?!<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4404,
+      "rawDecodedUtf16Hex": "004D0061002E002E002E003F002100100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Non credo ai miei occhi...!<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4428,
+      "rawDecodedUtf16Hex": "004E006F006E00200063007200650064006F0020006100690020006D0069006500690020006F0063006300680069002E002E002E002100100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Mmh...<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4492,
+      "rawDecodedUtf16Hex": "004D006D0068002E002E002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Le gemme hanno colori vivaci e dimostrano\ninsieme freschezza e vigore!<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4516,
+      "rawDecodedUtf16Hex": "004C0065002000670065006D006D0065002000680061006E006E006F00200063006F006C006F00720069002000760069007600610063006900200065002000640069006D006F0073007400720061006E006F000A0069006E007300690065006D006500200066007200650073006300680065007A007A0061002000650020007600690067006F00720065002100100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "I passetti sono leggeri e l’espressione è così\ntenera da arrivare dritta al cuore.<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 44,
+      "offsetInSection": 4668,
+      "rawDecodedUtf16Hex": "004900200070006100730073006500740074006900200073006F006E006F0020006C006500670067006500720069002000650020006C201900650073007000720065007300730069006F006E0065002000E800200063006F007300EC000A00740065006E006500720061002000640061002000610072007200690076006100720065002000640072006900740074006100200061006C002000630075006F00720065002E00100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Non è solo l’aspetto esteriore a stupire...<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4844,
+      "rawDecodedUtf16Hex": "004E006F006E002000E800200073006F006C006F0020006C2019006100730070006500740074006F0020006500730074006500720069006F007200650020006100200073007400750070006900720065002E002E002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Questo Pokémon non esprimerebbe tanta grazia\nse non si fidasse ciecamente di chi lo ha allenato!<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4940,
+      "rawDecodedUtf16Hex": "00510075006500730074006F00200050006F006B00E9006D006F006E0020006E006F006E002000650073007000720069006D006500720065006200620065002000740061006E007400610020006700720061007A00690061000A007300650020006E006F006E00200073006900200066006900640061007300730065002000630069006500630061006D0065006E0074006500200064006900200063006800690020006C006F00200068006100200061006C006C0065006E00610074006F002100100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "Ho visto una marea di Budew ma è la prima volta\nche ne vedo uno così!<U+0010><U+0002>ĔƔ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 47,
+      "offsetInSection": 5144,
+      "rawDecodedUtf16Hex": "0048006F00200076006900730074006F00200075006E00610020006D00610072006500610020006400690020004200750064006500770020006D0061002000E80020006C00610020007000720069006D006100200076006F006C00740061000A0063006800650020006E00650020007600650064006F00200075006E006F00200063006F007300EC002100100002011401940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Presidente... Questo Budew... Questo Budew è...!<U+0010><U+0002>ĔƓ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 5292,
+      "rawDecodedUtf16Hex": "0050007200650073006900640065006E00740065002E002E002E002000510075006500730074006F002000420075006400650077002E002E002E002000510075006500730074006F002000420075006400650077002000E8002E002E002E002100100002011401930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Sì, è chiaramente il vincitore all’unanimità.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5400,
+      "rawDecodedUtf16Hex": "005300EC002C002000E80020006300680069006100720061006D0065006E0074006500200069006C002000760069006E006300690074006F0072006500200061006C006C20190075006E0061006E0069006D0069007400E0002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Grazie per averci mostrato un Budew eccezionale.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5500,
+      "rawDecodedUtf16Hex": "004700720061007A00690065002000700065007200200061007600650072006300690020006D006F00730074007200610074006F00200075006E00200042007500640065007700200065006300630065007A0069006F006E0061006C0065002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Come l’hai incontrato?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5608,
+      "rawDecodedUtf16Hex": "0043006F006D00650020006C201900680061006900200069006E0063006F006E0074007200610074006F003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Per caso...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5664,
+      "rawDecodedUtf16Hex": "0050006500720020006300610073006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "Per volere del destino",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5688,
+      "rawDecodedUtf16Hex": "00500065007200200076006F006C006500720065002000640065006C002000640065007300740069006E006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "E come l’hai allenato?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 54,
+      "offsetInSection": 5736,
+      "rawDecodedUtf16Hex": "004500200063006F006D00650020006C201900680061006900200061006C006C0065006E00610074006F003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Senza pensarci troppo...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5792,
+      "rawDecodedUtf16Hex": "00530065006E007A0061002000700065006E00730061007200630069002000740072006F00700070006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Molto duramente",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5844,
+      "rawDecodedUtf16Hex": "004D006F006C0074006F00200064007500720061006D0065006E007400650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Quali accorgimenti hai adottato nella vita\nquotidiana?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5876,
+      "rawDecodedUtf16Hex": "005100750061006C00690020006100630063006F007200670069006D0065006E007400690020006800610069002000610064006F0074007400610074006F0020006E0065006C006C006100200076006900740061000A00710075006F00740069006400690061006E0061003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "A letto presto e svegli all’alba",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 58,
+      "offsetInSection": 5996,
+      "rawDecodedUtf16Hex": "00410020006C006500740074006F002000700072006500730074006F0020006500200073007600650067006C006900200061006C006C20190061006C006200610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Tre pasti al giorno e riposino dopo pranzo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 6064,
+      "rawDecodedUtf16Hex": "00540072006500200070006100730074006900200061006C002000670069006F0072006E006F002000650020007200690070006F00730069006E006F00200064006F0070006F0020007000720061006E007A006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Qual è il tuo motto?<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6152,
+      "rawDecodedUtf16Hex": "005100750061006C002000E800200069006C002000740075006F0020006D006F00740074006F003F00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Chi dorme bene cresce sano!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6204,
+      "rawDecodedUtf16Hex": "00430068006900200064006F0072006D0065002000620065006E00650020006300720065007300630065002000730061006E006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Chi la dura la vince!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6260,
+      "rawDecodedUtf16Hex": "0043006800690020006C0061002000640075007200610020006C0061002000760069006E0063006500210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Proprio come pensavo! Sei promoss<U+0010><U+0003>ᄀÿāoa sia per\nl’allenamento di Budew, sia per le tue risposte!<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 6304,
+      "rawDecodedUtf16Hex": "00500072006F007000720069006F00200063006F006D0065002000700065006E007300610076006F00210020005300650069002000700072006F006D006F0073007300100003110000FF0101006F006100200073006900610020007000650072000A006C20190061006C006C0065006E0061006D0065006E0074006F002000640069002000420075006400650077002C002000730069006100200070006500720020006C0065002000740075006500200072006900730070006F007300740065002100100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Sapevo che il tuo Budew sarebbe stato il migliore,\nme lo sentivo.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6508,
+      "rawDecodedUtf16Hex": "00530061007000650076006F002000630068006500200069006C002000740075006F0020004200750064006500770020007300610072006500620062006500200073007400610074006F00200069006C0020006D00690067006C0069006F00720065002C000A006D00650020006C006F002000730065006E007400690076006F002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "Ti meriti il primo premio. Ecco a te 10.000 <U+E300>.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 6648,
+      "rawDecodedUtf16Hex": "005400690020006D0065007200690074006900200069006C0020007000720069006D006F0020007000720065006D0069006F002E0020004500630063006F00200061002000740065002000310030002E0030003000300020E300002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Sei portat<U+0010><U+0003>ᄀÿāoa per fare l’Allenat<U+0010><U+0003>ᄀÿ̂orrice, si vede!<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 6752,
+      "rawDecodedUtf16Hex": "00530065006900200070006F007200740061007400100003110000FF0101006F00610020007000650072002000660061007200650020006C20190041006C006C0065006E0061007400100003110000FF0302006F00720072006900630065002C00200073006900200076006500640065002100100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "Tu sai come far fiorire il talento non solo di\nBudew, ma anche degli altri Pokémon.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 6876,
+      "rawDecodedUtf16Hex": "00540075002000730061006900200063006F006D00650020006600610072002000660069006F007200690072006500200069006C002000740061006C0065006E0074006F0020006E006F006E00200073006F006C006F002000640069000A00420075006400650077002C0020006D006100200061006E0063006800650020006400650067006C006900200061006C00740072006900200050006F006B00E9006D006F006E002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Bububuuu! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 7052,
+      "rawDecodedUtf16Hex": "0042007500620075006200750075007500210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 7076,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tu sai come far fiorire il talento non solo di\nBudew, ma anche degli altri Pokémon.<U+0010><U+0002>Ĕİ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 7088,
+      "rawDecodedUtf16Hex": "00540075002000730061006900200063006F006D00650020006600610072002000660069006F007200690072006500200069006C002000740061006C0065006E0074006F0020006E006F006E00200073006F006C006F002000640069000A00420075006400650077002C0020006D006100200061006E0063006800650020006400650067006C006900200061006C00740072006900200050006F006B00E9006D006F006E002E00100002011401300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7264,
+  "sectionOffset": 16,
+  "textCount": 71,
+  "textSectionCount": 1
+}

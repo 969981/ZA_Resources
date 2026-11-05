@@ -1,0 +1,63 @@
+{
+  "declaredLength": 248,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Personne lointaine",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "0050006500720073006F006E006E00650020006C006F0069006E007400610069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Responsable de la Garderie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "0052006500730070006F006E007300610062006C00650020006400650020006C00610020004700610072006400650072006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Chercheur de Trésors",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "00430068006500720063006800650075007200200064006500200054007200E90073006F007200730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Dame des Eaux Thermales",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 184,
+      "rawDecodedUtf16Hex": "00440061006D006500200064006500730020004500610075007800200054006800650072006D0061006C006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Illumis",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 4,
+      "offsetInSection": 232,
+      "rawDecodedUtf16Hex": "0049006C006C0075006D006900730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 248,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

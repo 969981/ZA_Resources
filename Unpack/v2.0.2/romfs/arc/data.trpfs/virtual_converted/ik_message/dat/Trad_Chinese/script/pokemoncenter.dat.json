@@ -1,0 +1,623 @@
+{
+  "declaredLength": 2416,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "早安！\n這裡是寶可夢中心。<U+0010><U+0001>븀\n今天您想做什麼呢？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 492,
+      "rawDecodedUtf16Hex": "65E95B89FF01000A901988E1662F5BF653EF59224E2D5FC3300200100001BE00000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "您好！\n這裡是寶可夢中心。<U+0010><U+0001>븀\n今天您想做什麼呢？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 548,
+      "rawDecodedUtf16Hex": "60A8597DFF01000A901988E1662F5BF653EF59224E2D5FC3300200100001BE00000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "辛苦了！\n這裡是寶可夢中心。<U+0010><U+0001>븀\n今天您想做什麼呢？",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "8F9B82E64E86FF01000A901988E1662F5BF653EF59224E2D5FC3300200100001BE00000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "今天您想做什麼呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "早安！\n今天您想做什麼呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 680,
+      "rawDecodedUtf16Hex": "65E95B89FF01000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "您好！\n今天您想做什麼呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "60A8597DFF01000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "辛苦了！\n今天您想做什麼呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "8F9B82E64E86FF01000A4ECA592960A860F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "其他還想做什麼呢？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "51764ED6908460F3505A4EC09EBC5462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "讓寶可夢休息",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 788,
+      "rawDecodedUtf16Hex": "8B935BF653EF59224F11606F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "購物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "8CFC72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "我要買東西",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 812,
+      "rawDecodedUtf16Hex": "621189818CB76771897F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "我要賣東西",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "621189818CE36771897F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "登錄生日",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 836,
+      "rawDecodedUtf16Hex": "767B9304751F65E50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "沒事",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "6C924E8B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "那麼，請將寶可夢交給我吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 856,
+      "rawDecodedUtf16Hex": "90A39EBCFF0C8ACB5C075BF653EF59224EA47D6662115427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "您交給我們的<U+0010><U+0002>ā<U+0000>\n已經恢復活力囉！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "60A84EA47D666211501176840010000201010000000A5DF27D9360625FA96D3B529B56C9FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "您交給我們的<U+0010><U+0002>ā<U+0000>牠們\n全部都恢復活力囉！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 924,
+      "rawDecodedUtf16Hex": "60A84EA47D66621150117684001000020101000072605011000A516890E890FD60625FA96D3B529B56C9FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "在這裡可以購買和出售\n對寶可夢訓練家有幫助的道具。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "5728901988E153EF4EE58CFC8CB7548C51FA552E000A5C0D5BF653EF59228A137DF45BB667095E6B52A976849053517730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1024,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1036,
+      "rawDecodedUtf16Hex": "00100002BDFF00130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1048,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1060,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0016>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "00100002BDFF00160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1096,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0019>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1108,
+      "rawDecodedUtf16Hex": "00100002BDFF00190000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1144,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1156,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1168,
+      "rawDecodedUtf16Hex": "662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "否",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1172,
+      "rawDecodedUtf16Hex": "54260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "00100002BDFF00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>！\n您要不要登錄生日呢？",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "0010000201000000FF01000A60A889814E0D8981767B9304751F65E55462FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "只要登錄一次之後就不能變更，\n因此輸入時請小心喔。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "53EA8981767B93044E006B214E4B5F8C5C314E0D80FD8B8A66F4FF0C000A56E06B648F38516566428ACB5C0F5FC3559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "確定<U+0010><U+0002>Ā<U+0000>\n您的生日是<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日嗎？",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "78BA5B9A0010000201000000000A60A87684751F65E5662F00100002020100016708001000020201000265E555CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "確定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1352,
+      "rawDecodedUtf16Hex": "78BA5B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "重新登錄",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "91CD65B0767B93040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "取消",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "53D66D880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "謝謝您完成登錄！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "8B1D8B1D60A85B8C6210767B9304FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "在您生日的<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日時，\n請到寶可夢中心來喔。",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 1400,
+      "rawDecodedUtf16Hex": "572860A8751F65E5768400100002020100016708001000020201000265E56642FF0C000A8ACB52305BF653EF59224E2D5FC34F86559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "有您生日那一天的年分請在當天……\n沒有的話請在2月28日<U+0010><U+0001>븀\n到寶可夢中心來喔。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "670960A8751F65E590A34E00592976845E7452068ACB57287576592920262026000A6C92670976848A718ACB5728003267080032003865E500100001BE00000A52305BF653EF59224E2D5FC34F86559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "生日隨時都可以登錄，\n有需要的話請跟我說一聲。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "751F65E596A8664290FD53EF4EE5767B9304FF0C000A67099700898176848A718ACB8DDF62118AAA4E00807230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "期待您再次光臨！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 1592,
+      "rawDecodedUtf16Hex": "671F5F8560A8518D6B21514981E8FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日？\n哇，就是今天對吧！？<U+0010><U+0001>븁\n我這就去準備，請您稍等一下！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "00100002020100016708001000020201000265E5FF1F000A54C7FF0C5C31662F4ECA59295C0D5427FF01FF1F00100001BE01000A621190195C3153BB6E965099FF0C8ACB60A87A0D7B494E004E0BFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>月<U+0010><U+0002>ȁ<U+0002>日？\n今天是2月28日，<U+0010><U+0001>븀\n而且今年要把今天當作生日當天對吧！？<U+0010><U+0001>븁\n我這就去準備，請您稍等一下！",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 1696,
+      "rawDecodedUtf16Hex": "00100002020100016708001000020201000265E5FF1F000A4ECA5929662F003267080032003865E5FF0C00100001BE00000A800C4E144ECA5E748981628A4ECA592975764F5C751F65E5757659295C0D5427FF01FF1F00100001BE01000A621190195C3153BB6E965099FF0C8ACB60A87A0D7B494E004E0BFF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>，祝您生日快樂！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "0010000201000000FF0C795D60A8751F65E55FEB6A02FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "今天是個特別的日子！<U+0010><U+0001>븁\n雖然早了一天，\n不過，祝您生日快樂！",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "4ECA5929662F500B72795225768465E55B50FF0100100001BE01000A96D6713665E94E864E005929FF0C000A4E0D904EFF0C795D60A8751F65E55FEB6A02FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "希望接下來這一年\n您每天都能過得精彩！！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "5E0C671B63A54E0B4F8690194E005E74000A60A86BCF592990FD80FD904E5F977CBE5F69FF01FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "先來幫寶可夢回復活力吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 1972,
+      "rawDecodedUtf16Hex": "51484F865E6B5BF653EF592256DE5FA96D3B529B5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "寶可夢的體力……\n也就是HP變少了的話，<U+0010><U+0001>븀\n請積極地利用這裡進行回復吧。<U+0010><U+0001>븁\n或者我建議您也可以\n在這裡買好傷藥，<U+0010><U+0001>븀\n以備不時之需。<U+0010><U+0001>븁\n那麼，請好好加油吧！",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2000,
+      "rawDecodedUtf16Hex": "5BF653EF592276849AD4529B20262026000A4E5F5C31662F004800508B8A5C114E8676848A71FF0C00100001BE00000A8ACB7A4D6975573052297528901988E19032884C56DE5FA95427300200100001BE01000A6216800562115EFA8B7060A84E5F53EF4EE5000A5728901988E18CB7597D50B785E5FF0C00100001BE00000A4EE550994E0D66424E4B9700300200100001BE01000A90A39EBCFF0C8ACB597D597D52A06CB95427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "大家都回復活力囉！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "59275BB690FD56DE5FA96D3B529B56C9FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "一直受到寶可夢的招式攻擊是很危險的。\n請找個地方休息也好，讓自己回復活力吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "4E0076F453D752305BF653EF5922768462DB5F0F653B64CA662F5F88537196AA76843002000A8ACB627E500B573065B94F11606F4E5F597DFF0C8B9381EA5DF156DE5FA96D3B529B542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "沒有可以戰鬥的寶可夢了……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2272,
+      "rawDecodedUtf16Hex": "6C92670953EF4EE562309B2576845BF653EF59224E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "為了下次能打贏對戰，\n確認一下寶可夢或可使用的招式吧。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "70BA4E864E0B6B2180FD62538D0F5C0D6230FF0C000A78BA8A8D4E004E0B5BF653EF5922621653EF4F7F7528768462DB5F0F542730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "對戰吧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2356,
+      "rawDecodedUtf16Hex": "5C0D623054270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "您的寶可夢很有活力喔！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "60A876845BF653EF59225F8867096D3B529B5594FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "您的寶可夢們都很有活力喔！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "60A876845BF653EF5922501190FD5F8867096D3B529B5594FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2416,
+  "sectionOffset": 16,
+  "textCount": 61,
+  "textSectionCount": 1
+}

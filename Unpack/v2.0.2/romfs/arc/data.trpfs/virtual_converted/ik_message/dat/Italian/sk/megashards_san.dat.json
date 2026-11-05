@@ -1,0 +1,73 @@
+{
+  "declaredLength": 460,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hai dei Megaframmenti? Ti va di scambiarli con\nroba che scotta?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00480061006900200064006500690020004D006500670061006600720061006D006D0065006E00740069003F0020005400690020007600610020006400690020007300630061006D0062006900610072006C006900200063006F006E000A0072006F006200610020006300680065002000730063006F007400740061003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Sì, grazie",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "005300EC002C0020006700720061007A006900650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Non adesso",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004E006F006E002000610064006500730073006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Mostrami i moduli",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "004D006F0073007400720061006D0069002000690020006D006F00640075006C00690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Torna quando ti va. Riceverò nuove scorte\ndai miei contatti.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 264,
+      "rawDecodedUtf16Hex": "0054006F0072006E00610020007100750061006E0064006F002000740069002000760061002E0020005200690063006500760065007200F20020006E0075006F00760065002000730063006F007200740065000A0064006100690020006D00690065006900200063006F006E00740061007400740069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Questa è roba forte! <U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 388,
+      "rawDecodedUtf16Hex": "005100750065007300740061002000E800200072006F0062006100200066006F0072007400650021002000100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 460,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

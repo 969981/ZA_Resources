@@ -1,0 +1,2003 @@
+{
+  "declaredLength": 12684,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳在旅館Z嗎？<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B3572865C59928005A55CEFF1F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳現在在旅館Z嗎？<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1632,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B373FE5728572865C59928005A55CEFF1F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "是呀",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "662F54400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "怎麼了？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "600E9EBC4E86FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我人正在闊星公司，\n可是把東西忘在房間裡了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "62114EBA6B63572895CA661F516C53F8FF0C000A53EF662F628A6771897F5FD85728623F959388E14E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "我正在闊星公司，\n但是有東西被我忘在房間裡。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1748,
+      "rawDecodedUtf16Hex": "62116B63572895CA661F516C53F8FF0C000A4F46662F67096771897F88AB62115FD85728623F959388E1300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "就是張寫了密碼的便條紙。<U+0010><U+0001>븁\n<U+0010><U+0003>ᄀÿā你妳可以找一下那張紙，\n然後告訴我密碼嗎？謝謝喔。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1804,
+      "rawDecodedUtf16Hex": "5C31662F5F355BEB4E865BC678BC76844FBF689D7D19300200100001BE01000A00100003110000FF01014F6059B353EF4EE5627E4E004E0B90A35F357D19FF0C000A71365F8C544A8A3462115BC678BC55CEFF1F8B1D8B1D5594300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "其實就是我寫下密碼的便條紙。<U+0010><U+0001>븁\n麻煩<U+0010><U+0003>ᄀÿā你妳幫我找出那張紙，\n把密碼告訴我。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "51765BE65C31662F62115BEB4E0B5BC678BC76844FBF689D7D19300200100001BE01000A9EBB716900100003110000FF01014F6059B35E6B6211627E51FA90A35F357D19FF0C000A628A5BC678BC544A8A346211300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "我的房間……<U+0010><U+0002>＀<U+0006>201號客房<U+0010><U+0002>＀<U+0000>，\n房門應該沒上鎖。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "62117684623F95932026202600100002FF000006003200300031865F5BA2623F00100002FF000000FF0C000A623F958061C98A726C924E0A9396300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "我的房間……<U+0010><U+0002>＀<U+0006>201號客房<U+0010><U+0002>＀<U+0000>，\n房門應該沒上鎖。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "62117684623F95932026202600100002FF000006003200300031865F5BA2623F00100002FF000000FF0C000A623F958061C98A726C924E0A9396300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "太沒戒心了……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2148,
+      "rawDecodedUtf16Hex": "592A6C9262125FC34E86202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā妳你的安全意識……",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "00100003110000FF010159B34F6076845B895168610F8B58202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "我也知道！\n所以才會拜託<U+0010><U+0003>ᄀÿā你妳呀。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2196,
+      "rawDecodedUtf16Hex": "62114E5F77E59053FF01000A62404EE5624D670362DC8A1700100003110000FF01014F6059B35440300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "我也知道！\n是<U+0010><U+0003>ᄀÿā你妳我才敢拜託呀。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "62114E5F77E59053FF01000A662F00100003110000FF01014F6059B36211624D656262DC8A175440300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2300,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "雜誌裡夾著一張\n寫著「Gp58JatW」的便條紙。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "96DC8A8C88E1593E84574E005F35000A5BEB8457300C0047007000350038004A006100740057300D76844FBF689D7D1930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "找到便條紙了嗎？\n那……<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "627E52304FBF689D7D194E8655CEFF1F000A90A32026202600100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "找到便條紙了嗎？\n那……<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2400,
+      "rawDecodedUtf16Hex": "627E52304FBF689D7D194E8655CEFF1F000A90A32026202600100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "把密碼告訴我吧。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "628A5BC678BC544A8A3462115427300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "把密碼告訴我吧。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2464,
+      "rawDecodedUtf16Hex": "628A5BC678BC544A8A3462115427300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Gp5BIatW",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "004700700035004200490061007400570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Gp58JatW",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "0047007000350038004A0061007400570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "GqS8JatM",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2532,
+      "rawDecodedUtf16Hex": "0047007100530038004A00610074004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "GqSBLatM",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2552,
+      "rawDecodedUtf16Hex": "0047007100530042004C00610074004D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "我試試看。\n<U+0010><U+0003>ᄀÿā你妳等一下喔。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "62118A668A66770B3002000A00100003110000FF01014F6059B37B494E004E0B5594300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "我試試看。\n<U+0010><U+0003>ᄀÿā你妳等一下喔。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "62118A668A66770B3002000A00100003110000FF01014F6059B37B494E004E0B5594300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "不對啊！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2668,
+      "rawDecodedUtf16Hex": "4E0D5C0D554AFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳搞錯了吧！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2688,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B3641E932F4E865427FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Gp58……JatW……確定！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2724,
+      "rawDecodedUtf16Hex": "004700700035003820262026004A0061007400572026202678BA5B9AFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Gp58……JatW……確定！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "004700700035003820262026004A0061007400572026202678BA5B9AFF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "哦！對了對了。\n<U+0010><U+0002>Ā<U+0000>，太感謝了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "54E6FF015C0D4E865C0D4E863002000A0010000201000000FF0C592A611F8B1D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "就是這個密碼。\n<U+0010><U+0002>Ā<U+0000>，謝謝喔！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "5C31662F9019500B5BC678BC3002000A0010000201000000FF0C8B1D8B1D5594FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "抱歉！我正要去開會。\n下次我做特製咖哩給<U+0010><U+0003>ᄀÿā你妳！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "62B16B49FF0162116B63898153BB958B67033002000A4E0B6B216211505A727988FD549654E97D6600100003110000FF01014F6059B3FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "對不起！我馬上要開會了。\n下次我做特製咖哩給<U+0010><U+0003>ᄀÿā你妳喔！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "5C0D4E0D8D77FF01621199AC4E0A8981958B67034E863002000A4E0B6B216211505A727988FD549654E97D6600100003110000FF01014F6059B35594FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3036,
+      "rawDecodedUtf16Hex": "00100002BDFF00220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嘿！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3048,
+      "rawDecodedUtf16Hex": "563FFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "我回來了！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3064,
+      "rawDecodedUtf16Hex": "621156DE4F864E86FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "打擾了。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3084,
+      "rawDecodedUtf16Hex": "625364FE4E863002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "捷朵？<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3104,
+      "rawDecodedUtf16Hex": "63776735FF1F001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "我對於各位在AZ的旅館\n過著什麼樣的生活很感興趣。<U+0010><U+0001>븀\n所以就來打擾了。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3120,
+      "rawDecodedUtf16Hex": "62115C0D65BC54044F4D57280041005A768465C59928000A904E84574EC09EBC6A237684751F6D3B5F88611F82088DA3300200100001BE00000A62404EE55C314F86625364FE4E863002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "每天都很普通的。<U+0010><U+0001>븁\n就只是各自做各自想做的事，\n非常偶爾才會接待一下客人。<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3204,
+      "rawDecodedUtf16Hex": "6BCF592990FD5F88666E901A7684300200100001BE01000A5C3153EA662F540481EA505A540481EA60F3505A76844E8BFF0C000A975E5E385076723E624D670363A55F854E004E0B5BA24EBA3002001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001><U+0010><U+0003>ᄀÿā她他過得比較忙，\n但捷朵妳應該比我更了解。<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "00100002018B000100100003110000FF010159794ED6904E5F976BD48F035FD9FF0C000A4F466377673559B361C98A726BD4621166F44E8689E33002001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "是啊，<U+0010><U+0002>Ƌ<U+0001><U+0010><U+0003>ᄀÿā她他的專心認真，\n對我們來說是莫大的幫助。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3364,
+      "rawDecodedUtf16Hex": "662F554AFF0C00100002018B000100100003110000FF010159794ED676845C085FC38A8D771FFF0C000A5C0D621150114F868AAA662F83AB592776845E6B52A93002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "就像拯救了密阿雷的那時那樣，\n<U+0010><U+0003>ᄀÿā她他總是在幫助公司裡的每一位。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3440,
+      "rawDecodedUtf16Hex": "5C3150CF62EF65514E865BC6963F96F7768490A3664290A36A23FF0C000A00100003110000FF010159794ED67E3D662F57285E6B52A9516C53F888E176846BCF4E004F4D3002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "捷朵……\n我還差得遠呢。<U+0010><U+0001>븀\n對公司的事也都不了解。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3520,
+      "rawDecodedUtf16Hex": "6377673520262026000A621190845DEE5F9790605462300200100001BE00000A5C0D516C53F876844E8B4E5F90FD4E0D4E8689E3300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "捷朵……\n我還差得遠呢。<U+0010><U+0001>븀\n不論是關於公司還是工作，都還有得學。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3584,
+      "rawDecodedUtf16Hex": "6377673520262026000A621190845DEE5F9790605462300200100001BE00000A4E0D8AD6662F95DC65BC516C53F89084662F5DE54F5CFF0C90FD908467095F975B78300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "不過，透過幫忙闊星公司的工作\n可以幫寶可夢、幫別人，<U+0010><U+0001>븀\n這點我是很高興的。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3664,
+      "rawDecodedUtf16Hex": "4E0D904EFF0C900F904E5E6B5FD995CA661F516C53F876845DE54F5C000A53EF4EE55E6B5BF653EF592230015E6B52254EBAFF0C00100001BE00000A90199EDE6211662F5F889AD882087684300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "不過，透過幫忙闊星公司的工作\n可以幫寶可夢、幫別人，<U+0010><U+0001>븀\n這點我是很高興的。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3752,
+      "rawDecodedUtf16Hex": "4E0D904EFF0C900F904E5E6B5FD995CA661F516C53F876845DE54F5C000A53EF4EE55E6B5BF653EF592230015E6B52254EBAFF0C00100001BE00000A90199EDE6211662F5F889AD882087684300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā妳你有在努力是很了不起，\n但身為訓練家，是不是變遜了呀？<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3840,
+      "rawDecodedUtf16Hex": "00100003110000FF010159B34F606709572852AA529B662F5F884E864E0D8D77FF0C000A4F468EAB70BA8A137DF45BB6FF0C662F4E0D662F8B8A905C4E865440FF1F001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "才沒那回事！<U+0010><U+0001>븁\n為了解決塔的問題而打的那場\n決定最強超級進化行家的對戰，<U+0010><U+0001>븀\n最後贏的可是我喔！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "624D6C9290A356DE4E8BFF0100100001BE01000A70BA4E8689E36C7A58547684554F984C800C6253768490A35834000A6C7A5B9A67005F378D857D1A90325316884C5BB676845C0D6230FF0C00100001BE00000A67005F8C8D0F768453EF662F62115594FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "才沒那回事呢！<U+0010><U+0001>븁\n為了解決塔的問題而打的那場\n決定最強超級進化行家的對戰，<U+0010><U+0001>븀\n最後贏的可是我喔！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 4028,
+      "rawDecodedUtf16Hex": "624D6C9290A356DE4E8B5462FF0100100001BE01000A70BA4E8689E36C7A58547684554F984C800C6253768490A35834000A6C7A5B9A67005F378D857D1A90325316884C5BB676845C0D6230FF0C00100001BE00000A67005F8C8D0F768453EF662F62115594FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "才沒那回事呢！<U+0010><U+0001>븁\n雖然為了解決塔的問題而打的那場\n決定最強超級進化行家的對戰，<U+0010><U+0001>븀\n最後我是打輸了<U+0010><U+0002>Ā<U+0000>。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4144,
+      "rawDecodedUtf16Hex": "624D6C9290A356DE4E8B5462FF0100100001BE01000A96D6713670BA4E8689E36C7A58547684554F984C800C6253768490A35834000A6C7A5B9A67005F378D857D1A90325316884C5BB676845C0D6230FF0C00100001BE00000A67005F8C6211662F62538F384E860010000201000000300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "才沒那回事呢！<U+0010><U+0001>븁\n雖然為了解決塔的問題而打的那場\n決定最強超級進化行家的對戰，<U+0010><U+0001>븀\n最後我是輸給了<U+0010><U+0002>Ā<U+0000>……<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4268,
+      "rawDecodedUtf16Hex": "624D6C9290A356DE4E8B5462FF0100100001BE01000A96D6713670BA4E8689E36C7A58547684554F984C800C6253768490A35834000A6C7A5B9A67005F378D857D1A90325316884C5BB676845C0D6230FF0C00100001BE00000A67005F8C6211662F8F387D664E8600100002010000002026202600100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001>，既然<U+0010><U+0003>ᄀÿā妳你說自己沒變遜，\n那就用寶可夢對戰來證明吧。<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 4396,
+      "rawDecodedUtf16Hex": "00100002018B0001FF0C65E2713600100003110000FF010159B34F608AAA81EA5DF16C928B8A905CFF0C000A90A35C3175285BF653EF59225C0D62304F868B49660E54273002001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "那當然了！<U+0010><U+0002>Ā<U+0000>，\n我們到院子一決勝負！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 4476,
+      "rawDecodedUtf16Hex": "90A3757671364E86FF010010000201000000FF0C000A62115011523096625B504E006C7A52DD8CA0FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "那當然了！<U+0010><U+0002>Ā<U+0000>，\n我們到院子一決勝負！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 4528,
+      "rawDecodedUtf16Hex": "90A3757671364E86FF010010000201000000FF0C000A62115011523096625B504E006C7A52DD8CA0FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿8",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 4580,
+      "rawDecodedUtf16Hex": "00100002BDFF00380000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳要和我對戰是吧！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 4592,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B38981548C62115C0D6230662F5427FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳是來和我對戰的吧！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B3662F4F86548C62115C0D623076845427FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "當然！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "75767136FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "等一下",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 4684,
+      "rawDecodedUtf16Hex": "7B494E004E0B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "好！\n帶<U+0010><U+0003>ᄀÿā你妳最棒的陣容來吧！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 4692,
+      "rawDecodedUtf16Hex": "597DFF01000A5E3600100003110000FF01014F6059B3670068D2768496635BB94F865427FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "嗯！\n選出<U+0010><U+0003>ᄀÿā你妳最棒的陣容吧！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 4740,
+      "rawDecodedUtf16Hex": "55EFFF01000A907851FA00100003110000FF01014F6059B3670068D2768496635BB95427FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "我要用我最強的陣容\n打贏<U+0010><U+0003>ᄀÿā你妳！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 4788,
+      "rawDecodedUtf16Hex": "621189817528621167005F37768496635BB9000A62538D0F00100003110000FF01014F6059B3FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "我會用我最強的陣容打贏你的！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 4840,
+      "rawDecodedUtf16Hex": "621167037528621167005F37768496635BB962538D0F4F607684FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "我有預感這會成為一場經典對戰！<U+0010><U+0002>Ĕƒ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 4880,
+      "rawDecodedUtf16Hex": "621167099810611F90196703621070BA4E0058347D9351785C0D6230FF0100100002011401920000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "想不到會有機會一睹\n在ZA登峰戰相競的訓練家彼此交手。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 4920,
+      "rawDecodedUtf16Hex": "60F34E0D5230670367096A5F67034E007779000A5728005A0041767B5CF0623076F87AF676848A137DF45BB65F7C6B644EA4624B3002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "姆啾。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 4984,
+      "rawDecodedUtf16Hex": "59C6557E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "我好像激起了<U+0010><U+0002>Ƌ<U+0001>的鬥志。<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 4992,
+      "rawDecodedUtf16Hex": "6211597D50CF6FC08D774E8600100002018B000176849B255FD73002001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "我舉雙手贊成你們兩個\n放手大打一場。<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 5032,
+      "rawDecodedUtf16Hex": "6211820996D9624B8D0A62104F6050115169500B000A653E624B592762534E0058343002001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "我好期待\n兩位的寶可夢對戰呀！<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 5080,
+      "rawDecodedUtf16Hex": "6211597D671F5F85000A51694F4D76845BF653EF59225C0D62305440FF0100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "嗶啪～",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 5120,
+      "rawDecodedUtf16Hex": "55F6556AFF5E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 5128,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我一定會贏！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 5140,
+      "rawDecodedUtf16Hex": "62114E005B9A67038D0FFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "我一定會贏的！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 5164,
+      "rawDecodedUtf16Hex": "62114E005B9A67038D0F7684FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "我們的超級進化\n是密阿雷的大家賦予我們的力量！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 5188,
+      "rawDecodedUtf16Hex": "6211501176848D857D1A90325316000A662F5BC6963F96F7768459275BB68CE64E88621150117684529B91CFFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我們的超級進化\n是密阿雷的大家賦予我們的力量！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 5244,
+      "rawDecodedUtf16Hex": "6211501176848D857D1A90325316000A662F5BC6963F96F7768459275BB68CE64E88621150117684529B91CFFF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "不管幾次我都要說，\n能遇見<U+0010><U+0003>ᄀÿā你妳真是太好了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 5300,
+      "rawDecodedUtf16Hex": "4E0D7BA15E7E6B21621190FD89818AAAFF0C000A80FD9047898B00100003110000FF01014F6059B3771F662F592A597D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "能遇見<U+0010><U+0003>ᄀÿā你妳實在是太好了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 5364,
+      "rawDecodedUtf16Hex": "80FD9047898B00100003110000FF01014F6059B35BE65728662F592A597D4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿O",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 5408,
+      "rawDecodedUtf16Hex": "00100002BDFF004F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "我能夠變強，\n都是因為有<U+0010><U+0002>Ā<U+0000><U+0010><U+0003>ᄀÿā你妳在。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 5420,
+      "rawDecodedUtf16Hex": "621180FD59208B8A5F37FF0C000A90FD662F56E070BA6709001000020100000000100003110000FF01014F6059B35728300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "我能夠變強，\n都是因為有<U+0010><U+0002>Ā<U+0000><U+0010><U+0003>ᄀÿā你妳在身旁。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 5480,
+      "rawDecodedUtf16Hex": "621180FD59208B8A5F37FF0C000A90FD662F56E070BA6709001000020100000000100003110000FF01014F6059B357288EAB65C1300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "但下次贏的人會是我！<U+0010><U+0001>븁\n因為我是超Z隊的隊長啊！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 5544,
+      "rawDecodedUtf16Hex": "4F464E0B6B218D0F76844EBA6703662F6211FF0100100001BE01000A56E070BA6211662F8D85005A968A7684968A9577554AFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "但是下次贏的人會是我！<U+0010><U+0001>븁\n因為我是超Z隊的隊長嘛！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 5608,
+      "rawDecodedUtf16Hex": "4F46662F4E0B6B218D0F76844EBA6703662F6211FF0100100001BE01000A56E070BA6211662F8D85005A968A7684968A9577561BFF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "在對戰時，不論是你們或是寶可夢們\n都好認真……而且看起來是發自內心地開心。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 5672,
+      "rawDecodedUtf16Hex": "57285C0D62306642FF0C4E0D8AD6662F4F6050116216662F5BF653EF59225011000A90FD597D8A8D771F20262026800C4E14770B8D774F86662F767C81EA51675FC35730958B5FC33002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "真是……真的是一場\n非常精彩的寶可夢對戰。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 5756,
+      "rawDecodedUtf16Hex": "771F662F20262026771F7684662F4E005834000A975E5E387CBE5F6976845BF653EF59225C0D62303002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "正是因為你們相信寶可夢，\n而且了解對手有多麼強大，<U+0010><U+0001>븀\n所以才能竭盡全力對戰吧。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 5808,
+      "rawDecodedUtf16Hex": "6B63662F56E070BA4F60501176F84FE15BF653EF5922FF0C000A800C4E144E8689E35C0D624B6709591A9EBC5F375927FF0C00100001BE00000A62404EE5624D80FD7AED76E15168529B5C0D623054273002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "……可能是因為我過世的媽媽\n打從心底相信著我吧。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 5900,
+      "rawDecodedUtf16Hex": "2026202653EF80FD662F56E070BA6211904E4E1676845ABD5ABD000A62535F9E5FC35E9576F84FE1845762115427300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "……因為我媽媽她\n打從心底相信著我。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 5960,
+      "rawDecodedUtf16Hex": "2026202656E070BA62115ABD5ABD5979000A62535F9E5FC35E9576F84FE184576211300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā妳你這句話讓我又多認識了女兒，\n對我來說是一份欣慰。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 6008,
+      "rawDecodedUtf16Hex": "00100003110000FF010159B34F60901953E58A718B93621153C8591A8A8D8B584E8659735152FF0C000A5C0D62114F868AAA662F4E004EFD6B2361703002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "這……妳過獎了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 6080,
+      "rawDecodedUtf16Hex": "90192026202659B3904E734E4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "這……妳過獎了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 6108,
+      "rawDecodedUtf16Hex": "90192026202659B3904E734E4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001>。<U+0010><U+0001>븁\n為了讓密阿雷市變得更好，\n還要請<U+0010><U+0003>ᄀÿā妳你多多協助闊星了。<U+0010><U+0001>븀\n今後也請多指教。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 12,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 6136,
+      "rawDecodedUtf16Hex": "00100002018B0001300200100001BE01000A70BA4E868B935BC6963F96F75E028B8A5F9766F4597DFF0C000A908489818ACB00100003110000FF010159B34F60591A591A535452A995CA661F4E86300200100001BE00000A4ECA5F8C4E5F8ACB591A630765593002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "超Z隊的各位，\n我就先告辭了。<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 6252,
+      "rawDecodedUtf16Hex": "8D85005A968A768454044F4DFF0C000A62115C315148544A8FAD4E863002001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "捷朵她看<U+0010><U+0002>Ƌ<U+0001>的眼神\n感覺很溫柔呢。<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 6292,
+      "rawDecodedUtf16Hex": "637767355979770B00100002018B00017684773C795E000A611F89BA5F886EAB67D454623002001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "好～！\n我還要更加更加提升舞技！<U+0010><U+0002>Ĕ<U+000C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 6340,
+      "rawDecodedUtf16Hex": "597DFF5EFF01000A62119084898166F452A066F452A063D05347821E6280FF01001000020114000C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "說的也是！要想成為設計師的話，\n我還有很多事情得完成。<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 6384,
+      "rawDecodedUtf16Hex": "8AAA76844E5F662FFF01898160F3621070BA8A2D8A085E2B76848A71FF0C000A6211908467095F88591A4E8B60C55F975B8C62103002001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "超Z隊的人都好隨性啊。\n不過這就是你們的優點。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 6448,
+      "rawDecodedUtf16Hex": "8D85005A968A76844EBA90FD597D96A86027554A3002000A4E0D904E90195C31662F4F6050117684512A9EDE300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "超Z隊的人都好隨性喔。\n不過這就是你們的優點。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 6504,
+      "rawDecodedUtf16Hex": "8D85005A968A76844EBA90FD597D96A8602755943002000A4E0D904E90195C31662F4F6050117684512A9EDE300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我說，<U+0010><U+0002>Ā<U+0000>，\n我們再繼續到屋頂上聊一下好嗎？<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 6560,
+      "rawDecodedUtf16Hex": "62118AAAFF0C0010000201000000FF0C000A62115011518D7E7C7E8C52305C4B98024E0A804A4E004E0B597D55CEFF1F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "我說，<U+0010><U+0002>Ā<U+0000>，\n我們再繼續到屋頂上聊一下吧。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 6620,
+      "rawDecodedUtf16Hex": "62118AAAFF0C0010000201000000FF0C000A62115011518D7E7C7E8C52305C4B98024E0A804A4E004E0B5427300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "我等著<U+0010><U+0003>ᄀÿā你妳啊。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 6676,
+      "rawDecodedUtf16Hex": "62117B49845700100003110000FF01014F6059B3554A300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "我會等<U+0010><U+0003>ᄀÿā你妳的喔。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 6712,
+      "rawDecodedUtf16Hex": "621167037B4900100003110000FF01014F6059B376845594300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿g",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 6748,
+      "rawDecodedUtf16Hex": "00100002BDFF00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "嘿！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 6760,
+      "rawDecodedUtf16Hex": "563FFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "我正在等<U+0010><U+0003>ᄀÿā你妳呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 6776,
+      "rawDecodedUtf16Hex": "62116B6357287B4900100003110000FF01014F6059B35462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "抱歉囉。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 6812,
+      "rawDecodedUtf16Hex": "62B16B4956C9300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "讓<U+0010><U+0003>ᄀÿā你妳特地跑這一趟，對不起喔。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 6832,
+      "rawDecodedUtf16Hex": "8B9300100003110000FF01014F6059B3727957308DD190194E008D9FFF0C5C0D4E0D8D775594300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "剛才的寶可夢對戰\n讓我想起了不少事情。<U+0010><U+0001>븀\n當初遇見<U+0010><U+0003>ᄀÿā你妳的方式實是太衝擊啦。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 6884,
+      "rawDecodedUtf16Hex": "525B624D76845BF653EF59225C0D6230000A8B93621160F38D774E864E0D5C114E8B60C5300200100001BE00000A7576521D9047898B00100003110000FF01014F6059B3768465B95F0F5BE6662F592A885D64CA5566300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "剛才的寶可夢對戰\n讓我想起了不少事情。<U+0010><U+0001>븀\n當初遇見<U+0010><U+0003>ᄀÿā你妳的方式真是有夠衝擊的。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 6984,
+      "rawDecodedUtf16Hex": "525B624D76845BF653EF59225C0D6230000A8B93621160F38D774E864E0D5C114E8B60C5300200100001BE00000A7576521D9047898B00100003110000FF01014F6059B3768465B95F0F771F662F67095920885D64CA7684300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "我那時正打算在站前拍影片，想不到……<U+0010><U+0001>븁\n<U+0010><U+0003>ᄀÿā你妳的旅行包就這麼突然被拿走了，\n而且連一隻寶可夢都沒帶著，<U+0010><U+0001>븀\n那時我真覺得<U+0010><U+0003>ᄀÿā你妳這傢伙能在密阿雷待下去嗎？<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 7084,
+      "rawDecodedUtf16Hex": "621190A366426B6362537B9757287AD9524D62CD5F717247FF0C60F34E0D52302026202600100001BE01000A00100003110000FF01014F6059B3768465C5884C53055C3190199EBC7A81713688AB62FF8D704E86FF0C000A800C4E1490234E0096BB5BF653EF592290FD6C925E368457FF0C00100001BE00000A90A366426211771F89BA5F9700100003110000FF01014F6059B3901950A24F1980FD57285BC6963F96F75F854E0B53BB55CEFF1F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 92
+    },
+    {
+      "displayText": "我那時正打算在站前拍影片，<U+0010><U+0001>븁\n想不到<U+0010><U+0003>ᄀÿā你妳的旅行包就這麼突然被拿走，\n而且身邊連一隻寶可夢都沒帶著……<U+0010><U+0001>븀\n我真的以為<U+0010><U+0003>ᄀÿā你妳會掉頭離開密阿雷呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 7268,
+      "rawDecodedUtf16Hex": "621190A366426B6362537B9757287AD9524D62CD5F717247FF0C00100001BE01000A60F34E0D523000100003110000FF01014F6059B3768465C5884C53055C3190199EBC7A81713688AB62FF8D70FF0C000A800C4E148EAB908A90234E0096BB5BF653EF592290FD6C925E3684572026202600100001BE00000A6211771F76844EE570BA00100003110000FF01014F6059B367036389982D96E2958B5BC6963F96F75462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "有那麼糟糕嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 7444,
+      "rawDecodedUtf16Hex": "670990A39EBC7CDF7CD555CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "那時真是謝謝<U+0010><U+0003>ᄀÿā妳你了",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 7460,
+      "rawDecodedUtf16Hex": "90A36642771F662F8B1D8B1D00100003110000FF010159B34F604E860000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "不過我很快就知道\n<U+0010><U+0003>ᄀÿā你妳有多厲害就是了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 7492,
+      "rawDecodedUtf16Hex": "4E0D904E62115F885FEB5C3177E59053000A00100003110000FF01014F6059B36709591A53B25BB35C31662F4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "不過那都是我想太多了啦。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 7552,
+      "rawDecodedUtf16Hex": "4E0D904E90A390FD662F621160F3592A591A4E865566300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "誰叫<U+0010><U+0003>ᄀÿā你妳在那之後，\n馬上就和才剛相遇的<U+0010><U+0002>ā<U+0002><U+0010><U+0001>븀\n展現出那麼厲害的默契啊！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 7588,
+      "rawDecodedUtf16Hex": "8AB053EB00100003110000FF01014F6059B3572890A34E4B5F8CFF0C000A99AC4E0A5C31548C624D525B76F890477684001000020101000200100001BE00000A5C5573FE51FA90A39EBC53B25BB376849ED85951554AFF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "誰叫<U+0010><U+0003>ᄀÿā你妳在那之後，\n馬上就和才剛相遇的<U+0010><U+0002>ā<U+0002><U+0010><U+0001>븀\n展現出那麼厲害的默契！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 7688,
+      "rawDecodedUtf16Hex": "8AB053EB00100003110000FF01014F6059B3572890A34E4B5F8CFF0C000A99AC4E0A5C31548C624D525B76F890477684001000020101000200100001BE00000A5C5573FE51FA90A39EBC53B25BB376849ED85951FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "以一個訓練家來說，\n<U+0010><U+0003>ᄀÿā你妳太、太、太有才能了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 7784,
+      "rawDecodedUtf16Hex": "4EE54E00500B8A137DF45BB64F868AAAFF0C000A00100003110000FF01014F6059B3592A3001592A3001592A6709624D80FD4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "以一個訓練家來說，\n<U+0010><U+0003>ᄀÿā你妳太、太、太有才能了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 7848,
+      "rawDecodedUtf16Hex": "4EE54E00500B8A137DF45BB64F868AAAFF0C000A00100003110000FF01014F6059B3592A3001592A3001592A6709624D80FD4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "謝謝",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 7912,
+      "rawDecodedUtf16Hex": "8B1D8B1D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "是嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 7920,
+      "rawDecodedUtf16Hex": "662F55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "是啊！<U+0010><U+0003>ᄀÿā你妳在ZA登峰戰的級別\n也是一口氣就升上去了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 7928,
+      "rawDecodedUtf16Hex": "662F554AFF0100100003110000FF01014F6059B35728005A0041767B5CF0623076847D1A5225000A4E5F662F4E0053E36C235C3153474E0A53BB4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "是啊！<U+0010><U+0003>ᄀÿā你妳在ZA登峰戰的級別\n也是一口氣就升上去了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 8000,
+      "rawDecodedUtf16Hex": "662F554AFF0100100003110000FF01014F6059B35728005A0041767B5CF0623076847D1A5225000A4E5F662F4E0053E36C235C3153474E0A53BB4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "在<U+0010><U+0003>ᄀÿā你妳平息了超級阿勃梭魯的失控超級進化時，\n我認知到<U+0010><U+0003>ᄀÿā你妳的才能是如假包換的。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 8072,
+      "rawDecodedUtf16Hex": "572800100003110000FF01014F6059B35E73606F4E868D857D1A963F52C368AD9B6F7684593163A78D857D1A903253166642FF0C000A62118A8D77E5523000100003110000FF01014F6059B37684624D80FD662F59825047530563DB7684300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "在<U+0010><U+0003>ᄀÿā你妳平息了超級阿勃梭魯的失控超級進化時，\n我確信了<U+0010><U+0003>ᄀÿā你妳是真的有才能。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 8180,
+      "rawDecodedUtf16Hex": "572800100003110000FF01014F6059B35E73606F4E868D857D1A963F52C368AD9B6F7684593163A78D857D1A903253166642FF0C000A621178BA4FE14E8600100003110000FF01014F6059B3662F771F76846709624D80FD300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "當時我很高興有了個可靠的傢伙，\n但又很煩惱自己是不是該繼續當隊長咧。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 8280,
+      "rawDecodedUtf16Hex": "7576664262115F889AD8820867094E86500B53EF9760768450A24F19FF0C000A4F4653C85F88716960F181EA5DF1662F4E0D662F8A727E7C7E8C7576968A957754A7300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "那時我很高興有了一個可靠的人，\n但又很煩惱自己是不是該繼續當隊長呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 8360,
+      "rawDecodedUtf16Hex": "90A3664262115F889AD8820867094E864E00500B53EF976076844EBAFF0C000A4F4653C85F88716960F181EA5DF1662F4E0D662F8A727E7C7E8C7576968A95775462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "原來是那樣啊？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 8440,
+      "rawDecodedUtf16Hex": "539F4F86662F90A36A23554AFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001><U+0010><U+0003>ᄀÿā妳你才是隊長喔",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 8456,
+      "rawDecodedUtf16Hex": "00100002018B000100100003110000FF010159B34F60624D662F968A957755940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "多虧有<U+0010><U+0003>ᄀÿā你妳在，才會讓我想成為\n最強的超級進化行家。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 8492,
+      "rawDecodedUtf16Hex": "591A8667670900100003110000FF01014F6059B35728FF0C624D67038B93621160F3621070BA000A67005F3776848D857D1A90325316884C5BB6300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "多虧有<U+0010><U+0003>ᄀÿā你妳在，才會讓我想成為\n最強的超級進化行家。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 8564,
+      "rawDecodedUtf16Hex": "591A8667670900100003110000FF01014F6059B35728FF0C624D67038B93621160F3621070BA000A67005F3776848D857D1A90325316884C5BB6300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "話說回來……我們大家真是一起\n平息了各種各樣的失控超級進化呢。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 8636,
+      "rawDecodedUtf16Hex": "8A718AAA56DE4F86202620266211501159275BB6771F662F4E008D77000A5E73606F4E8654047A2E54046A237684593163A78D857D1A903253165462300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "話說回來……我們大家真是一起\n平息了各種各樣的失控超級進化呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 8708,
+      "rawDecodedUtf16Hex": "8A718AAA56DE4F86202620266211501159275BB6771F662F4E008D77000A5E73606F4E8654047A2E54046A237684593163A78D857D1A903253165462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳覺得誰最可靠？<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 8780,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B389BA5F978AB0670053EF9760FF1F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳覺得誰最可靠？<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 8820,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B389BA5F978AB0670053EF9760FF1F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ƌ<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 8860,
+      "rawDecodedUtf16Hex": "00100002018B00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "玳蘿",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 8872,
+      "rawDecodedUtf16Hex": "73B3863F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "琵魯",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 8880,
+      "rawDecodedUtf16Hex": "74359B6F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "雖然是我自己問的，\n但當面聽<U+0010><U+0003>ᄀÿā你妳這麼說還真是會害羞耶。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 8888,
+      "rawDecodedUtf16Hex": "96D67136662F621181EA5DF1554F7684FF0C000A4F4675769762807D00100003110000FF01014F6059B390199EBC8AAA9084771F662F67035BB37F9E8036300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "雖然是我自己問的，\n但當面聽<U+0010><U+0003>ᄀÿā你妳這麼說還真是會害羞耶。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 8964,
+      "rawDecodedUtf16Hex": "96D67136662F621181EA5DF1554F7684FF0C000A4F4675769762807D00100003110000FF01014F6059B390199EBC8AAA9084771F662F67035BB37F9E8036300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "竟然不是我啊！<U+0010><U+0001>븁\n的確啦，玳蘿也很厲害。\n有她在氣氛就很好，又能放心。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 9040,
+      "rawDecodedUtf16Hex": "7ADF71364E0D662F6211554AFF0100100001BE01000A768478BA5566FF0C73B3863F4E5F5F8853B25BB33002000A6709597957286C236C1B5C315F88597DFF0C53C880FD653E5FC3300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "竟然不是我？<U+0010><U+0001>븁\n不過，玳蘿的確也很厲害。\n有她在氣氛就很好，又能放心。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 9124,
+      "rawDecodedUtf16Hex": "7ADF71364E0D662F6211FF1F00100001BE01000A4E0D904EFF0C73B3863F768478BA4E5F5F8853B25BB33002000A6709597957286C236C1B5C315F88597DFF0C53C880FD653E5FC3300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "竟然不是我啊！<U+0010><U+0001>븁\n的確啦，琵魯也很厲害。\n雖然他總是頭頭是道，會有點煩。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 9208,
+      "rawDecodedUtf16Hex": "7ADF71364E0D662F6211554AFF0100100001BE01000A768478BA5566FF0C74359B6F4E5F5F8853B25BB33002000A96D671364ED67E3D662F982D982D662F9053FF0C670367099EDE7169300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "竟然不是我？<U+0010><U+0001>븁\n不過，琵魯的確也很厲害。\n雖然他總是頭頭是道，會有點煩。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 9296,
+      "rawDecodedUtf16Hex": "7ADF71364E0D662F6211FF1F00100001BE01000A4E0D904EFF0C74359B6F768478BA4E5F5F8853B25BB33002000A96D671364ED67E3D662F982D982D662F9053FF0C670367099EDE7169300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "那<U+0010><U+0003>ᄀÿā你妳在ZA登峰戰覺得\n最麻煩的對手又是誰？<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 9384,
+      "rawDecodedUtf16Hex": "90A300100003110000FF01014F6059B35728005A0041767B5CF0623089BA5F97000A67009EBB716976845C0D624B53C8662F8AB0FF1F00100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "那<U+0010><U+0003>ᄀÿā你妳在ZA登峰戰覺得\n最麻煩的對手又是誰？<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 9448,
+      "rawDecodedUtf16Hex": "90A300100003110000FF01014F6059B35728005A0041767B5CF0623089BA5F97000A67009EBB716976845C0D624B53C8662F8AB0FF1F00100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "來電伍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 9512,
+      "rawDecodedUtf16Hex": "4F8696FB4F0D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "正義社",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 9520,
+      "rawDecodedUtf16Hex": "6B637FA9793E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "鏽蝕組",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 9528,
+      "rawDecodedUtf16Hex": "93FD87557D440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "MSBC",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 9536,
+      "rawDecodedUtf16Hex": "004D0053004200430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "新閃焰隊",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 9548,
+      "rawDecodedUtf16Hex": "65B095837130968A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "琵魯他那時在\n各方面都挺驚人的！<U+0010><U+0001>븁\n但也是因為有了那次經歷，\n琵魯他才認同了<U+0010><U+0003>ᄀÿā你妳這個夥伴。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 9560,
+      "rawDecodedUtf16Hex": "74359B6F4ED690A366425728000A540465B9976290FD633A9A5A4EBA7684FF0100100001BE01000A4F464E5F662F56E070BA67094E8690A36B217D936B77FF0C000A74359B6F4ED6624D8A8D540C4E8600100003110000FF01014F6059B39019500B59254F34300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "琵魯他那時在\n各方面都挺驚人的！<U+0010><U+0001>븁\n但也是因為有了那次經歷，\n琵魯他才認同了<U+0010><U+0003>ᄀÿā你妳這個夥伴的。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 9676,
+      "rawDecodedUtf16Hex": "74359B6F4ED690A366425728000A540465B9976290FD633A9A5A4EBA7684FF0100100001BE01000A4F464E5F662F56E070BA67094E8690A36B217D936B77FF0C000A74359B6F4ED6624D8A8D540C4E8600100003110000FF01014F6059B39019500B59254F347684300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳是指那次去探索下水道的事嗎？<U+0010><U+0001>븁\n那時要不是有瑪琪艾兒在，\n光憑我們大概是鎮不住皙白的。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 9792,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B3662F630790A36B2153BB63A27D224E0B6C34905376844E8B55CEFF1F00100001BE01000A90A3664289814E0D662F6709746A742A827E51525728FF0C000A514961916211501159276982662F93AE4E0D4F4F7699767D7684300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "<U+0010><U+0003>ᄀÿā你妳是指那次去探索下水道的事嗎？<U+0010><U+0001>븁\n那時要不是有瑪琪艾兒在，\n光憑我們大概是鎮不住皙白的。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 9908,
+      "rawDecodedUtf16Hex": "00100003110000FF01014F6059B3662F630790A36B2153BB63A27D224E0B6C34905376844E8B55CEFF1F00100001BE01000A90A3664289814E0D662F6709746A742A827E51525728FF0C000A514961916211501159276982662F93AE4E0D4F4F7699767D7684300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "鏽蝕組啊……<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>，我給<U+0010><U+0003>ᄀÿā你妳一個建議！\n千萬不要輕易借錢啊。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 10024,
+      "rawDecodedUtf16Hex": "93FD87557D44554A2026202600100001BE01000A0010000201000000FF0C62117D6600100003110000FF01014F6059B34E00500B5EFA8B70FF01000A5343842C4E0D89818F156613501F9322554A300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "鏽蝕組……<U+0010><U+0001>븁\n<U+0010><U+0002>Ā<U+0000>，\n千萬不要輕易去借錢喔。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 10116,
+      "rawDecodedUtf16Hex": "93FD87557D442026202600100001BE01000A0010000201000000FF0C000A5343842C4E0D89818F15661353BB501F93225594300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "MSBC啊……由紫她的強勢，\n也算是一種領袖氣質吧……<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 10180,
+      "rawDecodedUtf16Hex": "004D005300420043554A2026202675317D2B597976845F3752E2FF0C000A4E5F7B97662F4E007A2E981888966C238CEA54272026202600100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "MSBC啊……由紫她的強勢，\n也算是一種領袖氣質呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 10244,
+      "rawDecodedUtf16Hex": "004D005300420043554A2026202675317D2B597976845F3752E2FF0C000A4E5F7B97662F4E007A2E981888966C238CEA5462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "新閃焰隊……\n世界上有些人是抱著心裡的陰影在生活的。<U+0010><U+0001>븁\n他們讓我深刻體會了這件事……\n但我們最後還是彼此和好了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 10308,
+      "rawDecodedUtf16Hex": "65B095837130968A20262026000A4E16754C4E0A67094E9B4EBA662F62B184575FC388E1768496705F715728751F6D3B7684300200100001BE01000A4ED650118B9362116DF1523B9AD467034E8690194EF64E8B20262026000A4F466211501167005F8C9084662F5F7C6B64548C597D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "新閃焰隊……\n世界上有些人是抱著心裡的陰影在生活的。<U+0010><U+0001>븁\n他們讓我深刻體會了這件事……\n但我們最後還是彼此和好了！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 10436,
+      "rawDecodedUtf16Hex": "65B095837130968A20262026000A4E16754C4E0A67094E9B4EBA662F62B184575FC388E1768496705F715728751F6D3B7684300200100001BE01000A4ED650118B9362116DF1523B9AD467034E8690194EF64E8B20262026000A4F466211501167005F8C9084662F5F7C6B64548C597D4E86FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "嗯……我們能遇見各種各樣的人，\n和各種各樣的寶可夢對戰，<U+0010><U+0001>븀\n能互相了解對方，真是太好了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 10564,
+      "rawDecodedUtf16Hex": "55EF202620266211501180FD9047898B54047A2E54046A2376844EBAFF0C000A548C54047A2E54046A2376845BF653EF59225C0D6230FF0C00100001BE00000A80FD4E9276F84E8689E35C0D65B9FF0C771F662F592A597D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "嗯……我們能遇見各種各樣的人，\n和各種各樣的寶可夢對戰，<U+0010><U+0001>븀\n能互相了解對方，真是太好了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 10668,
+      "rawDecodedUtf16Hex": "55EF202620266211501180FD9047898B54047A2E54046A2376844EBAFF0C000A548C54047A2E54046A2376845BF653EF59225C0D6230FF0C00100001BE00000A80FD4E9276F84E8689E35C0D65B9FF0C771F662F592A597D4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "所以最後我們才能\n一起守護了密阿雷這座城市！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 10772,
+      "rawDecodedUtf16Hex": "62404EE567005F8C62115011624D80FD000A4E008D775B888B774E865BC6963F96F790195EA757CE5E02FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "所以最後我們才能\n一起守護了密阿雷這座城市！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 10828,
+      "rawDecodedUtf16Hex": "62404EE567005F8C62115011624D80FD000A4E008D775B888B774E865BC6963F96F790195EA757CE5E02FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "但還是要說，當昂主花葉蒂牠失控的時候，\n我渾身都冒了冷汗呢。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 10884,
+      "rawDecodedUtf16Hex": "4F469084662F89818AAAFF0C757666024E3B82B1844984827260593163A7768466425019FF0C000A62116E3E8EAB90FD51924E8651B76C575462300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "但還是要說，當昂主花葉蒂牠失控的時候，\n我全身上下都冒了冷汗呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 10956,
+      "rawDecodedUtf16Hex": "4F469084662F89818AAAFF0C757666024E3B82B1844984827260593163A7768466425019FF0C000A621151688EAB4E0A4E0B90FD51924E8651B76C575462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "那時還好嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 11032,
+      "rawDecodedUtf16Hex": "90A366429084597D55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "那時是不是很不安？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 11048,
+      "rawDecodedUtf16Hex": "90A36642662F4E0D662F5F884E0D5B89FF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "那當然！\n因為我相信你們啊。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 11068,
+      "rawDecodedUtf16Hex": "90A375767136FF01000A56E070BA621176F84FE14F605011554A300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "那當然！\n因為我相信你們呀。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 11108,
+      "rawDecodedUtf16Hex": "90A375767136FF01000A56E070BA621176F84FE14F6050115440300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "哪有那回事！\n我很相信你們的。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 11148,
+      "rawDecodedUtf16Hex": "54EA670990A356DE4E8BFF01000A62115F8876F84FE14F6050117684300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "哪有那回事！\n我很相信你們呢。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 11188,
+      "rawDecodedUtf16Hex": "54EA670990A356DE4E8BFF01000A62115F8876F84FE14F6050115462300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "我們大家一起開拓出通往基格爾德的路，\n那過程實在是讓我熱血沸騰呢！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 11228,
+      "rawDecodedUtf16Hex": "6211501159275BB64E008D77958B62D351FA901A5F8057FA683C723E5FB776848DEFFF0C000A90A3904E7A0B5BE65728662F8B93621171B188406CB89A305462FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "我們大家一起開拓出通往基格爾德的路，\n那過程實在是棒透了！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 11304,
+      "rawDecodedUtf16Hex": "6211501159275BB64E008D77958B62D351FA901A5F8057FA683C723E5FB776848DEFFF0C000A90A3904E7A0B5BE65728662F68D2900F4E86FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "然後是基格爾德的超級進化！\n那真的是只有<U+0010><U+0003>ᄀÿā你妳才辦得到耶。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 11372,
+      "rawDecodedUtf16Hex": "71365F8C662F57FA683C723E5FB776848D857D1A90325316FF01000A90A3771F7684662F53EA670900100003110000FF01014F6059B3624D8FA65F9752308036300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "然後是基格爾德的超級進化！\n那真的是只有<U+0010><U+0003>ᄀÿā你妳才辦得到！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 11448,
+      "rawDecodedUtf16Hex": "71365F8C662F57FA683C723E5FB776848D857D1A90325316FF01000A90A3771F7684662F53EA670900100003110000FF01014F6059B3624D8FA65F975230FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "是嗎？",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 11524,
+      "rawDecodedUtf16Hex": "662F55CEFF1F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "是吧！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 11532,
+      "rawDecodedUtf16Hex": "662F5427FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "是啊！<U+0010><U+0002>Ā<U+0000>，\n<U+0010><U+0003>ᄀÿā你妳好厲害……<U+0010><U+0003>ᄀÿā你妳這傢伙太厲害了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 11540,
+      "rawDecodedUtf16Hex": "662F554AFF010010000201000000FF0C000A00100003110000FF01014F6059B3597D53B25BB32026202600100003110000FF01014F6059B3901950A24F19592A53B25BB34E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "嗯！<U+0010><U+0002>Ā<U+0000>，\n<U+0010><U+0003>ᄀÿā你妳好厲害……真是太厲害了！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 11624,
+      "rawDecodedUtf16Hex": "55EFFF010010000201000000FF0C000A00100003110000FF01014F6059B3597D53B25BB320262026771F662F592A53B25BB34E86FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "雖然AZ他不在了，\n但我們有可爾妮和安馨兒加入夥伴。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 11688,
+      "rawDecodedUtf16Hex": "96D671360041005A4ED64E0D57284E86FF0C000A4F4662115011670953EF723E59AE548C5B8999A8515252A0516559254F34300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "雖然AZ他不在了，\n但我們有可爾妮和安馨兒加入夥伴。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 11752,
+      "rawDecodedUtf16Hex": "96D671360041005A4ED64E0D57284E86FF0C000A4F4662115011670953EF723E59AE548C5B8999A8515252A0516559254F34300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "解決了塔之後，又解決了異次元密阿雷。\n我們實在是太厲害啦！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 11816,
+      "rawDecodedUtf16Hex": "89E36C7A4E8658544E4B5F8CFF0C53C889E36C7A4E8675706B2151435BC6963F96F73002000A621150115BE65728662F592A53B25BB35566FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "解決了塔之後，又解決了異次元密阿雷。\n我們實在是太厲害了吧！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 11884,
+      "rawDecodedUtf16Hex": "89E36C7A4E8658544E4B5F8CFF0C53C889E36C7A4E8675706B2151435BC6963F96F73002000A621150115BE65728662F592A53B25BB34E865427FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "說得也是",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 11956,
+      "rawDecodedUtf16Hex": "8AAA5F974E5F662F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "多虧有<U+0010><U+0002>Ƌ<U+0001><U+0010><U+0003>ᄀÿā妳你",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 11968,
+      "rawDecodedUtf16Hex": "591A8667670900100002018B000100100003110000FF010159B34F600000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "那是因為超Z隊的大家\n是最棒的啦！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 12000,
+      "rawDecodedUtf16Hex": "90A3662F56E070BA8D85005A968A768459275BB6000A662F670068D276845566FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "那是因為超Z隊的大家\n是最棒的啦！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 12044,
+      "rawDecodedUtf16Hex": "90A3662F56E070BA8D85005A968A768459275BB6000A662F670068D276845566FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "我在密阿雷\n能遇見AZ，真是太好了。<U+0010><U+0001>븀\n能遇見大家，真是太好了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 12088,
+      "rawDecodedUtf16Hex": "621157285BC6963F96F7000A80FD9047898B0041005AFF0C771F662F592A597D4E86300200100001BE00000A80FD9047898B59275BB6FF0C771F662F592A597D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "我在密阿雷\n能遇見AZ，真是太好了。<U+0010><U+0001>븀\n能遇見大家，真是太好了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 12168,
+      "rawDecodedUtf16Hex": "621157285BC6963F96F7000A80FD9047898B0041005AFF0C771F662F592A597D4E86300200100001BE00000A80FD9047898B59275BB6FF0C771F662F592A597D4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "最重要的是，\n我能遇見<U+0010><U+0003>ᄀÿā你妳，真是太好了。<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 12248,
+      "rawDecodedUtf16Hex": "670091CD89817684662FFF0C000A621180FD9047898B00100003110000FF01014F6059B3FF0C771F662F592A597D4E86300200100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "最重要的是，\n我能遇見<U+0010><U+0003>ᄀÿā你妳，真是太好了。<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 12308,
+      "rawDecodedUtf16Hex": "670091CD89817684662FFF0C000A621180FD9047898B00100003110000FF01014F6059B3FF0C771F662F592A597D4E86300200100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "今後也請多指教囉，\n<U+0010><U+0002>Ā<U+0000>！！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 12368,
+      "rawDecodedUtf16Hex": "4ECA5F8C4E5F8ACB591A6307655956C9FF0C000A0010000201000000FF01FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "今後也請多指教，\n<U+0010><U+0002>Ā<U+0000>！！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 12412,
+      "rawDecodedUtf16Hex": "4ECA5F8C4E5F8ACB591A63076559FF0C000A0010000201000000FF01FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿Ä",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 12452,
+      "rawDecodedUtf16Hex": "00100002BDFF00C40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "密阿雷有很多的寶可夢，\n還有一群有趣的傢伙。<U+0010><U+0001>븁\n而且還有<U+0010><U+0003>ᄀÿā你妳在這裡！\n今後也請多指教囉！<U+0010><U+0002>Ĕ<U+0006>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 12464,
+      "rawDecodedUtf16Hex": "5BC6963F96F767095F88591A76845BF653EF5922FF0C000A908467094E007FA467098DA3768450A24F19300200100001BE01000A800C4E149084670900100003110000FF01014F6059B35728901988E1FF01000A4ECA5F8C4E5F8ACB591A6307655956C9FF0100100002011400060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "密阿雷有很多的寶可夢，\n還有有趣的人。<U+0010><U+0001>븁\n而且還有<U+0010><U+0003>ᄀÿā你妳在這裡！\n今後也請多指教囉！<U+0010><U+0002>Ĕ<U+0005>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 12576,
+      "rawDecodedUtf16Hex": "5BC6963F96F767095F88591A76845BF653EF5922FF0C000A9084670967098DA376844EBA300200100001BE01000A800C4E149084670900100003110000FF01014F6059B35728901988E1FF01000A4ECA5F8C4E5F8ACB591A6307655956C9FF0100100002011400050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 12684,
+  "sectionOffset": 16,
+  "textCount": 199,
+  "textSectionCount": 1
+}

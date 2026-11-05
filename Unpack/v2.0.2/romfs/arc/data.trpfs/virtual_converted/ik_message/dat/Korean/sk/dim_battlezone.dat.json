@@ -1,0 +1,53 @@
+{
+  "declaredLength": 388,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "기묘한 이차원 미르에\n들어가 버린 모양이군.<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "AE30BB18D55C0020C774CC28C6D00020BBF8B974C5D0000AB4E4C5B4AC000020BC84B9B00020BAA8C591C774AD70002E00100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "배틀 존을 흉내 낸 이차원 미르라...\n<U+0010><U+0002>＀<U+0006>이차원 배틀 존<U+0010><U+0002>＀<U+0000>이라고 부르면 되겠는걸!<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 96,
+      "rawDecodedUtf16Hex": "BC30D2C00020C874C7440020D749B0B40020B0B80020C774CC28C6D00020BBF8B974B77C002E002E002E000A00100002FF000006C774CC28C6D00020BC30D2C00020C87400100002FF000000C774B77CACE00020BD80B974BA740020B418ACA0B294AC78002100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "그곳에 있는 트레이너들 말인데,\n패배한 녀석들의 원념 같은 거 아닐까?<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 208,
+      "rawDecodedUtf16Hex": "ADF8ACF3C5D00020C788B2940020D2B8B808C774B108B4E40020B9D0C778B370002C000AD328BC30D55C0020B140C11DB4E4C7580020C6D0B1500020AC19C7400020AC700020C544B2D0AE4C003F00100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "아무튼, 이차원 배틀 존에 알맞은\n조사 의뢰를 보낼 테니까, 잘해 보라고!<U+0010><U+0002>Ĕ<U+0013>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 296,
+      "rawDecodedUtf16Hex": "C544BB34D2BC002C0020C774CC28C6D00020BC30D2C00020C874C5D00020C54CB9DEC740000AC870C0AC0020C758B8B0B97C0020BCF4B0BC0020D14CB2C8AE4C002C0020C798D5740020BCF4B77CACE0002100100002011400130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 388,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

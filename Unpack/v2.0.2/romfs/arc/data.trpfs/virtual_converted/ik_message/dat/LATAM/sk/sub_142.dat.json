@@ -1,0 +1,483 @@
+{
+  "declaredLength": 5760,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "¿Será que se me olvidó en la casa?<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "00BF00530065007200E100200071007500650020007300650020006D00650020006F006C00760069006400F300200065006E0020006C006100200063006100730061003F001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000>, ¿te puedo pedir un...?<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 460,
+      "rawDecodedUtf16Hex": "0010000201000000002C002000BF0074006500200070007500650064006F00200070006500640069007200200075006E002E002E002E003F001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Eh... no importa. Mejor se lo pido a Anya.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 528,
+      "rawDecodedUtf16Hex": "00450068002E002E002E0020006E006F00200069006D0070006F007200740061002E0020004D0065006A006F00720020007300650020006C006F0020007000690064006F0020006100200041006E00790061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Anya, ¿le puedo pedir un favorcito a Hoopa?<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0041006E00790061002C002000BF006C006500200070007500650064006F00200070006500640069007200200075006E0020006600610076006F0072006300690074006F0020006100200048006F006F00700061003F001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "No, no puedes.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "004E006F002C0020006E006F0020007000750065006400650073002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "¿Eh?<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 760,
+      "rawDecodedUtf16Hex": "00BF00450068003F001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Pedirle a Hoopa que recupere algo que se te\nolvidó es de persona floja, así que no.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 780,
+      "rawDecodedUtf16Hex": "00500065006400690072006C00650020006100200048006F006F00700061002000710075006500200072006500630075007000650072006500200061006C0067006F0020007100750065002000730065002000740065000A006F006C00760069006400F300200065007300200064006500200070006500720073006F006E006100200066006C006F006A0061002C00200061007300ED00200071007500650020006E006F002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Ay, Anya... Cómo eres, en serio.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 956,
+      "rawDecodedUtf16Hex": "00410079002C00200041006E00790061002E002E002E0020004300F3006D006F00200065007200650073002C00200065006E00200073006500720069006F002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Yo solo le pido que me lleve de un hotel a otro\npara no preocupar a nadie de forma innecesaria.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1032,
+      "rawDecodedUtf16Hex": "0059006F00200073006F006C006F0020006C00650020007000690064006F00200071007500650020006D00650020006C006C00650076006500200064006500200075006E00200068006F00740065006C002000610020006F00740072006F000A00700061007200610020006E006F0020007000720065006F00630075007000610072002000610020006E006100640069006500200064006500200066006F0072006D006100200069006E006E00650063006500730061007200690061002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Y, además, mi mamá siempre dice que la\nociosidad es la madre de todos los vicios.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "0059002C0020006100640065006D00E10073002C0020006D00690020006D0061006D00E10020007300690065006D0070007200650020006400690063006500200071007500650020006C0061000A006F00630069006F007300690064006100640020006500730020006C00610020006D006100640072006500200064006500200074006F0064006F00730020006C006F007300200076006900630069006F0073002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Bueno, igual tienes un poco de razón al decir\nque me estoy volviendo un poco holgazán.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1404,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C00200069006700750061006C0020007400690065006E0065007300200075006E00200070006F0063006F002000640065002000720061007A00F3006E00200061006C002000640065006300690072000A0071007500650020006D00650020006500730074006F007900200076006F006C007600690065006E0064006F00200075006E00200070006F0063006F00200068006F006C00670061007A00E1006E002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "¡Está bien! ¡Me ocuparé de mis propios asuntos!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1588,
+      "rawDecodedUtf16Hex": "00A100450073007400E10020006200690065006E0021002000A1004D00650020006F0063007500700061007200E90020006400650020006D00690073002000700072006F00700069006F00730020006100730075006E0074006F00730021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Y, para motivarme aún más... ¡Te reto a darlo\ntodo en un combate, <U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "0059002C002000700061007200610020006D006F00740069007600610072006D00650020006100FA006E0020006D00E10073002E002E002E002000A1005400650020007200650074006F002000610020006400610072006C006F000A0074006F0064006F00200065006E00200075006E00200063006F006D0062006100740065002C002000100002010000000021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 76
+    },
+    {
+      "displayText": "Te espero fuera.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00540065002000650073007000650072006F002000660075006500720061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "¡Me da curiosidad ver a Acris cuando se lo\ntoma en serio! A ti también, ¿no?<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1888,
+      "rawDecodedUtf16Hex": "00A1004D006500200064006100200063007500720069006F007300690064006100640020007600650072002000610020004100630072006900730020006300750061006E0064006F0020007300650020006C006F000A0074006F006D006100200065006E00200073006500720069006F002100200041002000740069002000740061006D0062006900E9006E002C002000BF006E006F003F00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "¡Hoopaaa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2052,
+      "rawDecodedUtf16Hex": "00A10048006F006F007000610061006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0010>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "00100002BDFF00100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Combate contra mí,\n<U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "00A10043006F006D006200610074006500200063006F006E0074007200610020006D00ED002C000A00100002010000000021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "¡Acepto!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "00A100410063006500700074006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Espera un poco...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "00450073007000650072006100200075006E00200070006F0063006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Gane o pierda, lo importante para mí es ver hasta\ndónde soy capaz de llegar si me lo tomo en serio.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "00470061006E00650020006F0020007000690065007200640061002C0020006C006F00200069006D0070006F007200740061006E00740065002000700061007200610020006D00ED0020006500730020007600650072002000680061007300740061000A006400F3006E0064006500200073006F007900200063006100700061007A0020006400650020006C006C00650067006100720020007300690020006D00650020006C006F00200074006F006D006F00200065006E00200073006500720069006F002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Quiero ver hasta dónde puedo llegar si voy en\nserio, y para eso nada mejor que un combate...<U+0010><U+0001>븀\n¡contra <U+0010><U+0003>ᄀÿȂella Entrenador<U+0010><U+0003>ᄀÿĀa más fuerte de la ciudad!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2408,
+      "rawDecodedUtf16Hex": "00510075006900650072006F00200076006500720020006800610073007400610020006400F3006E0064006500200070007500650064006F0020006C006C006500670061007200200073006900200076006F007900200065006E000A0073006500720069006F002C0020007900200070006100720061002000650073006F0020006E0061006400610020006D0065006A006F0072002000710075006500200075006E00200063006F006D0062006100740065002E002E002E00100001BE00000A00A10063006F006E007400720061002000100003110000FF02020065006C006C006100200045006E007400720065006E00610064006F007200100003110000FF010000610020006D00E1007300200066007500650072007400650020006400650020006C006100200063006900750064006100640021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 160
+    },
+    {
+      "displayText": "¡Qué bien! ¡Tengo ganas de ver lo fuerte que es\nsu Scrafty!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "00A10051007500E90020006200690065006E0021002000A100540065006E0067006F002000670061006E0061007300200064006500200076006500720020006C006F00200066007500650072007400650020007100750065002000650073000A0073007500200053006300720061006600740079002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "¡Hoopaaa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2856,
+      "rawDecodedUtf16Hex": "00A10048006F006F007000610061006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Scrafty, tú siempre has estado a mi lado.\n¡Ahora te ayudaré yo a que te luzcas!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "0053006300720061006600740079002C0020007400FA0020007300690065006D0070007200650020006800610073002000650073007400610064006F002000610020006D00690020006C00610064006F002E000A00A100410068006F00720061002000740065002000610079007500640061007200E900200079006F0020006100200071007500650020007400650020006C0075007A0063006100730021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3056,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Era de esperarse. Pero estoy contento de haber\nmedido mi fuerza contra ti, <U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 3068,
+      "rawDecodedUtf16Hex": "0045007200610020006400650020006500730070006500720061007200730065002E0020005000650072006F0020006500730074006F007900200063006F006E00740065006E0074006F002000640065002000680061006200650072000A006D0065006400690064006F0020006D006900200066007500650072007A006100200063006F006E007400720061002000740069002C00200010000201000000002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "¡Sí! ¡Estuvieron geniales!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3240,
+      "rawDecodedUtf16Hex": "00A1005300ED0021002000A100450073007400750076006900650072006F006E002000670065006E00690061006C00650073002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Lo que no entiendo es una cosa: con lo fuerte\nque eres, ¿a qué le tienes tanto miedo?<U+0010><U+0001>븀\n¿Por qué evitas volver a casa?<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "004C006F00200071007500650020006E006F00200065006E007400690065006E0064006F00200065007300200075006E006100200063006F00730061003A00200063006F006E0020006C006F0020006600750065007200740065000A00710075006500200065007200650073002C002000BF006100200071007500E90020006C00650020007400690065006E00650073002000740061006E0074006F0020006D006900650064006F003F00100001BE00000A00BF0050006F007200200071007500E9002000650076006900740061007300200076006F006C0076006500720020006100200063006100730061003F00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Con mi hermana no tengo problema, pero a mi\nabuela no quiero verla ni en pintura.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3552,
+      "rawDecodedUtf16Hex": "0043006F006E0020006D00690020006800650072006D0061006E00610020006E006F002000740065006E0067006F002000700072006F0062006C0065006D0061002C0020007000650072006F002000610020006D0069000A0061006200750065006C00610020006E006F002000710075006900650072006F0020007600650072006C00610020006E006900200065006E002000700069006E0074007500720061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "Perdón. Fue un comentario egoísta de mi\nparte. Sé que extrañas a tu madre.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3724,
+      "rawDecodedUtf16Hex": "005000650072006400F3006E002E002000460075006500200075006E00200063006F006D0065006E0074006100720069006F002000650067006F00ED0073007400610020006400650020006D0069000A00700061007200740065002E0020005300E9002000710075006500200065007800740072006100F100610073002000610020007400750020006D0061006400720065002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Si no quieres ver a tu abuela, no tienes por qué\nhacerlo.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3884,
+      "rawDecodedUtf16Hex": "005300690020006E006F0020007100750069006500720065007300200076006500720020006100200074007500200061006200750065006C0061002C0020006E006F0020007400690065006E0065007300200070006F007200200071007500E9000A00680061006300650072006C006F002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "¿Eh?<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4008,
+      "rawDecodedUtf16Hex": "00BF00450068003F001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Vaya, no esperaba esa respuesta.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4028,
+      "rawDecodedUtf16Hex": "0056006100790061002C0020006E006F00200065007300700065007200610062006100200065007300610020007200650073007000750065007300740061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "En lugar de perder el tiempo haciendo lo que no\nquieres, aprovéchalo para crecer y mejorar.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4104,
+      "rawDecodedUtf16Hex": "0045006E0020006C0075006700610072002000640065002000700065007200640065007200200065006C0020007400690065006D0070006F002000680061006300690065006E0064006F0020006C006F00200071007500650020006E006F000A0071007500690065007200650073002C0020006100700072006F007600E9006300680061006C006F002000700061007200610020006300720065006300650072002000790020006D0065006A006F007200610072002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "Si los demás lo aceptan, perfecto. Y si no,\ntampoco pierdes nada.<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4296,
+      "rawDecodedUtf16Hex": "005300690020006C006F0073002000640065006D00E100730020006C006F0020006100630065007000740061006E002C00200070006500720066006500630074006F002E002000590020007300690020006E006F002C000A00740061006D0070006F0063006F002000700069006500720064006500730020006E006100640061002E00100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "¡Scraf!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4436,
+      "rawDecodedUtf16Hex": "00A10053006300720061006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Parece que Scrafty está de acuerdo contigo.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4452,
+      "rawDecodedUtf16Hex": "005000610072006500630065002000710075006500200053006300720061006600740079002000650073007400E10020006400650020006100630075006500720064006F00200063006F006E007400690067006F002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Muy bien. Lo primero que haré será centrarme\nen hacer feliz a mi hermana, que es la niña de<U+0010><U+0001>븀\nlos ojos de mi abuela.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4548,
+      "rawDecodedUtf16Hex": "004D007500790020006200690065006E002E0020004C006F0020007000720069006D00650072006F0020007100750065002000680061007200E9002000730065007200E1002000630065006E0074007200610072006D0065000A0065006E002000680061006300650072002000660065006C0069007A002000610020006D00690020006800650072006D0061006E0061002C00200071007500650020006500730020006C00610020006E006900F1006100200064006500100001BE00000A006C006F00730020006F006A006F00730020006400650020006D006900200061006200750065006C0061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 122
+    },
+    {
+      "displayText": "Entonces, yo también voy a colaborar. ¡Le\nprepararé una dona especial que le va a encantar!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 40,
+      "offsetInSection": 4792,
+      "rawDecodedUtf16Hex": "0045006E0074006F006E006300650073002C00200079006F002000740061006D0062006900E9006E00200076006F00790020006100200063006F006C00610062006F007200610072002E002000A1004C0065000A0070007200650070006100720061007200E900200075006E006100200064006F006E006100200065007300700065006300690061006C00200071007500650020006C00650020007600610020006100200065006E00630061006E007400610072002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "¡Así a lo mejor conseguimos que tu abuela\ncambie de opinión poco a poco!<U+0010><U+0002>Ĕƥ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4984,
+      "rawDecodedUtf16Hex": "00A10041007300ED002000610020006C006F0020006D0065006A006F007200200063006F006E00730065006700750069006D006F0073002000710075006500200074007500200061006200750065006C0061000A00630061006D0062006900650020006400650020006F00700069006E006900F3006E00200070006F0063006F0020006100200070006F0063006F002100100002011401A50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "¡Scraf!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5140,
+      "rawDecodedUtf16Hex": "00A10053006300720061006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Estoy seguro de que, con mi talento, podré\nconseguir que cambie de opinión.<U+0010><U+0001>븁\nY si ella me acepta, yo también haré el esfuerzo\npara dejar de evitarla.<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 43,
+      "offsetInSection": 5156,
+      "rawDecodedUtf16Hex": "004500730074006F0079002000730065006700750072006F0020006400650020007100750065002C00200063006F006E0020006D0069002000740061006C0065006E0074006F002C00200070006F0064007200E9000A0063006F006E0073006500670075006900720020007100750065002000630061006D0062006900650020006400650020006F00700069006E006900F3006E002E00100001BE01000A005900200073006900200065006C006C00610020006D00650020006100630065007000740061002C00200079006F002000740061006D0062006900E9006E002000680061007200E900200065006C0020006500730066007500650072007A006F000A0070006100720061002000640065006A006100720020006400650020006500760069007400610072006C0061002E001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 156
+    },
+    {
+      "displayText": "¡Enfrentarme a ti me devolvió la confianza,\n<U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5468,
+      "rawDecodedUtf16Hex": "00A10045006E006600720065006E007400610072006D0065002000610020007400690020006D00650020006400650076006F006C0076006900F30020006C006100200063006F006E006600690061006E007A0061002C000A00100002010000000021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Te lo agradezco. ¡Seguiré persiguiendo mis\nsueños por mi hermana y por todos!<U+0010><U+0002>Ĕ<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5576,
+      "rawDecodedUtf16Hex": "005400650020006C006F0020006100670072006100640065007A0063006F002E002000A100530065006700750069007200E90020007000650072007300690067007500690065006E0064006F0020006D00690073000A00730075006500F1006F007300200070006F00720020006D00690020006800650072006D0061006E00610020007900200070006F007200200074006F0064006F00730021001000020114000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "¡Scraaaf!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5740,
+      "rawDecodedUtf16Hex": "00A1005300630072006100610061006600210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5760,
+  "sectionOffset": 16,
+  "textCount": 47,
+  "textSectionCount": 1
+}

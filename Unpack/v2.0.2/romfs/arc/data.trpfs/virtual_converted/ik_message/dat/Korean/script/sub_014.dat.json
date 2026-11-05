@@ -1,0 +1,203 @@
+{
+  "declaredLength": 1000,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "포켓몬을 교환하자!<U+0010><U+0001>븁\n내 리오르를 줄 테니까\n캐이시랑 교환해 줘!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACC7440020AD50D658D558C790002100100001BE01000AB0B40020B9ACC624B974B97C0020C9040020D14CB2C8AE4C000ACE90C774C2DCB7910020AD50D658D5740020C918002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "캐이시의 기술인 순간이동으로\n술래잡기를 하면 재밌을 것 같거든!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 256,
+      "rawDecodedUtf16Hex": "CE90C774C2DCC7580020AE30C220C7780020C21CAC04C774B3D9C73CB85C000AC220B798C7A1AE30B97C0020D558BA740020C7ACBC0CC7440020AC830020AC19AC70B4E0002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 336,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "내 리오르랑\n네 캐이시를 교환해 주라!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "B0B40020B9ACC624B974B791000AB1240020CE90C774C2DCB97C0020AD50D658D5740020C8FCB77C002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "캐이시랑 리오르를\n교환해 줄 거야!?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "CE90C774C2DCB7910020B9ACC624B974B97C000AAD50D658D5740020C9040020AC70C57C0021003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "교환하자!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 464,
+      "rawDecodedUtf16Hex": "AD50D658D558C79000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "잠깐만",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "C7A0AE50B9CC0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "만세!\n그럼, 포켓몬 교환을 시작하자!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "B9CCC1380021000AADF8B7FC002C0020D3ECCF13BAAC0020AD50D658C7440020C2DCC791D558C790002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "내 리오르랑\n네 캐이시를 교환하는 거야.<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 536,
+      "rawDecodedUtf16Hex": "B0B40020B9ACC624B974B791000AB1240020CE90C774C2DCB97C0020AD50D658D558B2940020AC70C57C002E00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "캐이시다!\n고마워!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 592,
+      "rawDecodedUtf16Hex": "CE90C774C2DCB2E40021000AACE0B9C8C6CC002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "리오르를 잘 부탁해!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "B9ACC624B974B97C0020C7980020BD80D0C1D574002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "그럼, 캐이시!\n나랑 술래잡기하자!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 656,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020CE90C774C2DC0021000AB098B7910020C220B798C7A1AE30D558C790002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "...엥, 자고 있잖아!?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "002E002E002EC5E5002C0020C790ACE00020C788C796C5440021003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "이러면 나랑 술래잡기를 못 하는데!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "C774B7ECBA740020B098B7910020C220B798C7A1AE30B97C0020BABB0020D558B294B370002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "...사라졌잖아!? 캐이시는\n잠든 상태로도 순간이동을 쓸 수 있구나!<U+0010><U+0001>븀\n그렇다는 건, 술래잡기 시작이라는 건가!?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 792,
+      "rawDecodedUtf16Hex": "002E002E002EC0ACB77CC84CC796C5440021003F0020CE90C774C2DCB294000AC7A0B4E00020C0C1D0DCB85CB3C40020C21CAC04C774B3D9C7440020C4F80020C2180020C788AD6CB098002100100001BE00000AADF8B807B2E4B2940020AC74002C0020C220B798C7A1AE300020C2DCC791C774B77CB2940020AC74AC000021003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "그럼, 리오르를 잘 부탁해!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020B9ACC624B974B97C0020C7980020BD80D0C1D574002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "기다려, 캐이시!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "AE30B2E4B824002C0020CE90C774C2DC002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1000,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

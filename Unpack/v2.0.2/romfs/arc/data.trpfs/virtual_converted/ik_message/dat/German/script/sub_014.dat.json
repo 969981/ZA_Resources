@@ -1,0 +1,203 @@
+{
+  "declaredLength": 1884,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 156,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hallo! Willst du Pokémon mit mir tauschen?<U+0010><U+0001>븁\nIch gebe dir mein Riolu, wenn du ein Abra für\nmich hast!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 168,
+      "rawDecodedUtf16Hex": "00480061006C006C006F0021002000570069006C006C0073007400200064007500200050006F006B00E9006D006F006E0020006D006900740020006D0069007200200074006100750073006300680065006E003F00100001BE01000A0049006300680020006700650062006500200064006900720020006D00650069006E002000520069006F006C0075002C002000770065006E006E002000640075002000650069006E002000410062007200610020006600FC0072000A006D00690063006800200068006100730074002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Abra kann eine Attacke einsetzen, die „Teleport“\nheißt. Es ist bestimmt total lustig, mit ihm Fangen<U+0010><U+0001>븀\nzu spielen!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "00410062007200610020006B0061006E006E002000650069006E0065002000410074007400610063006B0065002000650069006E007300650074007A0065006E002C00200064006900650020201E00540065006C00650070006F00720074201C000A00680065006900DF0074002E0020004500730020006900730074002000620065007300740069006D006D007400200074006F00740061006C0020006C00750073007400690067002C0020006D00690074002000690068006D002000460061006E00670065006E00100001BE00000A007A007500200073007000690065006C0065006E002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ich will mein Riolu gegen ein Abra tauschen!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 636,
+      "rawDecodedUtf16Hex": "004900630068002000770069006C006C0020006D00650069006E002000520069006F006C007500200067006500670065006E002000650069006E0020004100620072006100200074006100750073006300680065006E002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ooooh! Tauschst du dein Abra gegen mein Riolu?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 748,
+      "rawDecodedUtf16Hex": "004F006F006F006F006800210020005400610075007300630068007300740020006400750020006400650069006E0020004100620072006100200067006500670065006E0020006D00650069006E002000520069006F006C0075003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Ja, lass uns tauschen!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 852,
+      "rawDecodedUtf16Hex": "004A0061002C0020006C00610073007300200075006E007300200074006100750073006300680065006E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Nein, jetzt nicht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "004E00650069006E002C0020006A00650074007A00740020006E0069006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Supi! Dann los!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "00530075007000690021002000440061006E006E0020006C006F0073002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Menno! Ich will unbedingt ein Abra haben!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "004D0065006E006E006F00210020004900630068002000770069006C006C00200075006E0062006500640069006E00670074002000650069006E0020004100620072006100200068006100620065006E002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Juhuuu! Danke!\nHallo, Abra!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1072,
+      "rawDecodedUtf16Hex": "004A007500680075007500750021002000440061006E006B00650021000A00480061006C006C006F002C00200041006200720061002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Und du passt gut auf Riolu auf, ja?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1136,
+      "rawDecodedUtf16Hex": "0055006E006400200064007500200070006100730073007400200067007500740020006100750066002000520069006F006C00750020006100750066002C0020006A0061003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Hey, Abra! Lass uns gleich Fangen spielen!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1216,
+      "rawDecodedUtf16Hex": "004800650079002C0020004100620072006100210020004C00610073007300200075006E007300200067006C0065006900630068002000460061006E00670065006E00200073007000690065006C0065006E002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Äh, was?! Es schläft?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1312,
+      "rawDecodedUtf16Hex": "00C40068002C0020007700610073003F00210020004500730020007300630068006C00E400660074003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "So können wir doch gar nicht spielen!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "0053006F0020006B00F6006E006E0065006E002000770069007200200064006F0063006800200067006100720020006E006900630068007400200073007000690065006C0065006E002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Hä, was?! Jetzt ist es weg? Abra kann sich auch\nteleportieren, wenn es schläft?<U+0010><U+0001>븁\nDann hat das Fangen wohl offiziell begonnen,\nhehe!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1448,
+      "rawDecodedUtf16Hex": "004800E4002C0020007700610073003F00210020004A00650074007A007400200069007300740020006500730020007700650067003F002000410062007200610020006B0061006E006E0020007300690063006800200061007500630068000A00740065006C00650070006F007200740069006500720065006E002C002000770065006E006E0020006500730020007300630068006C00E400660074003F00100001BE01000A00440061006E006E00200068006100740020006400610073002000460061006E00670065006E00200077006F0068006C0020006F006600660069007A00690065006C006C0020006200650067006F006E006E0065006E002C000A0068006500680065002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 138
+    },
+    {
+      "displayText": "Danke noch mal! Und sei immer lieb zu Riolu, ja?<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1724,
+      "rawDecodedUtf16Hex": "00440061006E006B00650020006E006F006300680020006D0061006C002100200055006E0064002000730065006900200069006D006D006500720020006C0069006500620020007A0075002000520069006F006C0075002C0020006A0061003F00100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Abraaaa, ich kooomme!<U+0010><U+0002>ĔĲ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1832,
+      "rawDecodedUtf16Hex": "0041006200720061006100610061002C00200069006300680020006B006F006F006F006D006D0065002100100002011401320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1884,
+  "sectionOffset": 16,
+  "textCount": 19,
+  "textSectionCount": 1
+}

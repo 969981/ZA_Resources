@@ -1,0 +1,923 @@
+{
+  "declaredLength": 9440,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Peluchín parece interesado en la Diancita.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 744,
+      "rawDecodedUtf16Hex": "00500065006C00750063006800ED006E002000700061007200650063006500200069006E0074006500720065007300610064006F00200065006E0020006C00610020004400690061006E0063006900740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "¿Pu, purr?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 832,
+      "rawDecodedUtf16Hex": "00BF00500075002C00200070007500720072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¡Espurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 856,
+      "rawDecodedUtf16Hex": "00A100450073007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Hmm... Creo que captó algo\npor telepatía.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 876,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E0020004300720065006F00200071007500650020006300610070007400F300200061006C0067006F000A0070006F0072002000740065006C006500700061007400ED0061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "De hecho, Peluchín es capaz de transmitir\npensamientos de una mente a otra.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 968,
+      "rawDecodedUtf16Hex": "0044006500200068006500630068006F002C002000500065006C00750063006800ED006E00200065007300200063006100700061007A0020006400650020007400720061006E0073006D0069007400690072000A00700065006E00730061006D00690065006E0074006F007300200064006500200075006E00610020006D0065006E00740065002000610020006F007400720061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Es una habilidad increíble, pero desgastante.<U+0010><U+0001>븁\nPor eso siempre le pido que intente usarla lo\nmenos posible, aunque a veces percibe los<U+0010><U+0001>븀\npensamientos sin querer, como ahora.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "0045007300200075006E006100200068006100620069006C006900640061006400200069006E00630072006500ED0062006C0065002C0020007000650072006F002000640065007300670061007300740061006E00740065002E00100001BE01000A0050006F0072002000650073006F0020007300690065006D0070007200650020006C00650020007000690064006F002000710075006500200069006E00740065006E0074006500200075007300610072006C00610020006C006F000A006D0065006E006F007300200070006F007300690062006C0065002C002000610075006E00710075006500200061002000760065006300650073002000700065007200630069006200650020006C006F007300100001BE00000A00700065006E00730061006D00690065006E0074006F0073002000730069006E0020007100750065007200650072002C00200063006F006D006F002000610068006F00720061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 181
+    },
+    {
+      "displayText": "Me pregunto qué habrá descubierto...<U+0010><U+0001>븁\n¿Quizás la Diancita contenía algún\npensamiento? Qué curioso...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1492,
+      "rawDecodedUtf16Hex": "004D0065002000700072006500670075006E0074006F00200071007500E90020006800610062007200E100200064006500730063007500620069006500720074006F002E002E002E00100001BE01000A00BF005100750069007A00E100730020006C00610020004400690061006E006300690074006100200063006F006E00740065006E00ED006100200061006C006700FA006E000A00700065006E00730061006D00690065006E0074006F003F00200051007500E900200063007500720069006F0073006F002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Creo que deberíamos seguir a Peluchín para\nver a dónde nos lleva.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1708,
+      "rawDecodedUtf16Hex": "004300720065006F002000710075006500200064006500620065007200ED0061006D006F0073002000730065006700750069007200200061002000500065006C00750063006800ED006E00200070006100720061000A007600650072002000610020006400F3006E006400650020006E006F00730020006C006C006500760061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Parece que está percibiendo algo...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "0050006100720065006300650020007100750065002000650073007400E1002000700065007200630069006200690065006E0064006F00200061006C0067006F002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Espera un momento.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "00450073007000650072006100200075006E0020006D006F006D0065006E0074006F002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "¡Hola, Bibi!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "00A10048006F006C0061002C00200042006900620069002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Estoy en medio de una investigación con\nPeluchín y creo que necesito tu ayuda.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "004500730074006F007900200065006E0020006D006500640069006F00200064006500200075006E006100200069006E00760065007300740069006700610063006900F3006E00200063006F006E000A00500065006C00750063006800ED006E002000790020006300720065006F00200071007500650020006E006500630065007300690074006F002000740075002000610079007500640061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Avísale a Trini y Mani también, porfa. ¡Hasta luego!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 14,
+      "offsetInSection": 2192,
+      "rawDecodedUtf16Hex": "0041007600ED00730061006C0065002000610020005400720069006E0069002000790020004D0061006E0069002000740061006D0062006900E9006E002C00200070006F007200660061002E002000A1004800610073007400610020006C007500650067006F002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "Perdón. Eran unos amigos con los que\nestoy colaborando hace tiempo.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2308,
+      "rawDecodedUtf16Hex": "005000650072006400F3006E002E0020004500720061006E00200075006E006F007300200061006D00690067006F007300200063006F006E0020006C006F00730020007100750065000A006500730074006F007900200063006F006C00610062006F00720061006E0064006F002000680061006300650020007400690065006D0070006F002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "¿Ah, sí?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2452,
+      "rawDecodedUtf16Hex": "00BF00410068002C0020007300ED003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Tienes amigos?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2472,
+      "rawDecodedUtf16Hex": "00BF005400690065006E0065007300200061006D00690067006F0073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Sí, de hecho, heredé la agencia de un\ndetective llamado Looker.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2504,
+      "rawDecodedUtf16Hex": "005300ED002C00200064006500200068006500630068006F002C00200068006500720065006400E90020006C00610020006100670065006E00630069006100200064006500200075006E000A0064006500740065006300740069007600650020006C006C0061006D00610064006F0020004C006F006F006B00650072002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "¡Por eso se llama así la agencia!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2640,
+      "rawDecodedUtf16Hex": "00A10050006F0072002000650073006F0020007300650020006C006C0061006D006100200061007300ED0020006C00610020006100670065006E00630069006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "El que da nombre a la agencia, ¿no?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 20,
+      "offsetInSection": 2708,
+      "rawDecodedUtf16Hex": "0045006C00200071007500650020006400610020006E006F006D006200720065002000610020006C00610020006100670065006E006300690061002C002000BF006E006F003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Exacto. Era un hombre muy amable de quien\naprendí muchas cosas.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "00450078006100630074006F002E002000450072006100200075006E00200068006F006D0062007200650020006D0075007900200061006D00610062006C006500200064006500200071007500690065006E000A0061007000720065006E006400ED0020006D0075006300680061007300200063006F007300610073002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Pero, como trabaja también para la Policía\nInternacional, tuvo que irse para encargarse<U+0010><U+0001>븀\nde un caso...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2916,
+      "rawDecodedUtf16Hex": "005000650072006F002C00200063006F006D006F002000740072006100620061006A0061002000740061006D0062006900E9006E002000700061007200610020006C006100200050006F006C0069006300ED0061000A0049006E007400650072006E006100630069006F006E0061006C002C0020007400750076006F0020007100750065002000690072007300650020007000610072006100200065006E0063006100720067006100720073006500100001BE00000A0064006500200075006E0020006300610073006F002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "Así que no me quedó otra que pedirles ayuda a\nesos amigos y a Peluchín para poder seguir<U+0010><U+0001>븀\ncon la agencia.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 3136,
+      "rawDecodedUtf16Hex": "0041007300ED00200071007500650020006E006F0020006D00650020007100750065006400F30020006F0074007200610020007100750065002000700065006400690072006C0065007300200061007900750064006100200061000A00650073006F007300200061006D00690067006F00730020007900200061002000500065006C00750063006800ED006E0020007000610072006100200070006F006400650072002000730065006700750069007200100001BE00000A0063006F006E0020006C00610020006100670065006E006300690061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 112
+    },
+    {
+      "displayText": "La verdad es que no podría haberlo hecho sin\nPeluchín. ¡Hemos resuelto muchísimos casos<U+0010><U+0001>븀\ngracias a sus poderes telepáticos!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3360,
+      "rawDecodedUtf16Hex": "004C0061002000760065007200640061006400200065007300200071007500650020006E006F00200070006F0064007200ED0061002000680061006200650072006C006F00200068006500630068006F002000730069006E000A00500065006C00750063006800ED006E002E002000A100480065006D006F0073002000720065007300750065006C0074006F0020006D00750063006800ED00730069006D006F00730020006300610073006F007300100001BE00000A006700720061006300690061007300200061002000730075007300200070006F00640065007200650073002000740065006C0065007000E1007400690063006F0073002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 130
+    },
+    {
+      "displayText": "Pero, como ya te conté antes, usarlos lo fatiga\nmucho.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3620,
+      "rawDecodedUtf16Hex": "005000650072006F002C00200063006F006D006F00200079006100200074006500200063006F006E007400E900200061006E007400650073002C00200075007300610072006C006F00730020006C006F0020006600610074006900670061000A006D007500630068006F002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "¿Pu, purr?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3740,
+      "rawDecodedUtf16Hex": "00BF00500075002C00200070007500720072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¡Espurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3764,
+      "rawDecodedUtf16Hex": "00A100450073007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>¡Vamos, <U+0010><U+0002>Ā<U+0000>!\n¡Sigámoslo!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3784,
+      "rawDecodedUtf16Hex": "00100002BD06000000A100560061006D006F0073002C002000100002010000000021000A00A100530069006700E1006D006F0073006C006F002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3852,
+      "rawDecodedUtf16Hex": "00100002BDFF001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Peluchín, ¿me estás leyendo la mente?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3864,
+      "rawDecodedUtf16Hex": "00500065006C00750063006800ED006E002C002000BF006D0065002000650073007400E100730020006C006500790065006E0064006F0020006C00610020006D0065006E00740065003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Puedes oír los pensamientos de Matière en tu\ncabeza gracias al poder de Peluchín.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3948,
+      "rawDecodedUtf16Hex": "0050007500650064006500730020006F00ED00720020006C006F0073002000700065006E00730061006D00690065006E0074006F00730020006400650020004D00610074006900E80072006500200065006E002000740075000A0063006100620065007A00610020006700720061006300690061007300200061006C00200070006F006400650072002000640065002000500065006C00750063006800ED006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 82
+    },
+    {
+      "displayText": "...<U+0010><U+0001>븁\n(¿Qué le pasa a Peluchín?).<U+0010><U+0001>븁\n(Ay, me ruge la tripa...).",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4112,
+      "rawDecodedUtf16Hex": "002E002E002E00100001BE01000A002800BF0051007500E90020006C00650020007000610073006100200061002000500065006C00750063006800ED006E003F0029002E00100001BE01000A002800410079002C0020006D0065002000720075006700650020006C0061002000740072006900700061002E002E002E0029002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "¿Estás bien?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4244,
+      "rawDecodedUtf16Hex": "00BF00450073007400E100730020006200690065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "¿Tienes hambre?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "00BF005400690065006E00650073002000680061006D006200720065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Oh, sí... Solo estaba pensando que podría\ncomer algo.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 4304,
+      "rawDecodedUtf16Hex": "004F0068002C0020007300ED002E002E002E00200053006F006C006F0020006500730074006100620061002000700065006E00730061006E0064006F002000710075006500200070006F0064007200ED0061000A0063006F006D0065007200200061006C0067006F002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Purr.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4420,
+      "rawDecodedUtf16Hex": "0050007500720072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Gracias, Peluchín.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4432,
+      "rawDecodedUtf16Hex": "0047007200610063006900610073002C002000500065006C00750063006800ED006E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Tomemos un descansito para comer.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4480,
+      "rawDecodedUtf16Hex": "0054006F006D0065006D006F007300200075006E002000640065007300630061006E007300690074006F0020007000610072006100200063006F006D00650072002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "¡Estaba delicioso!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4556,
+      "rawDecodedUtf16Hex": "00A1004500730074006100620061002000640065006C006900630069006F0073006F002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Bueno, ¿nos vas a mostrar ahora a dónde querías\nir, Peluchín?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4604,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C002000BF006E006F00730020007600610073002000610020006D006F00730074007200610072002000610068006F00720061002000610020006400F3006E006400650020007100750065007200ED00610073000A00690072002C002000500065006C00750063006800ED006E003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "¿Pu, purr?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4736,
+      "rawDecodedUtf16Hex": "00BF00500075002C00200070007500720072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¡Espurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "00A100450073007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¡Tras él, <U+0010><U+0002>Ā<U+0000>!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4780,
+      "rawDecodedUtf16Hex": "00A10054007200610073002000E9006C002C00200010000201000000002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿,",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4820,
+      "rawDecodedUtf16Hex": "00100002BDFF002C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Qué le pasa a este Holotransportador, Peluchín?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "00BF0051007500E90020006C006500200070006100730061002000610020006500730074006500200048006F006C006F007400720061006E00730070006F0072007400610064006F0072002C002000500065006C00750063006800ED006E003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "¿Pu, purr?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4940,
+      "rawDecodedUtf16Hex": "00BF00500075002C00200070007500720072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "¡Espurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4964,
+      "rawDecodedUtf16Hex": "00A100450073007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Quieres subir?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4984,
+      "rawDecodedUtf16Hex": "00BF0051007500690065007200650073002000730075006200690072003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "¡Espurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5024,
+      "rawDecodedUtf16Hex": "00A100450073007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Creo que nos estamos acercando.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5044,
+      "rawDecodedUtf16Hex": "004300720065006F00200071007500650020006E006F007300200065007300740061006D006F00730020006100630065007200630061006E0064006F002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "<U+0010><U+0002>봆<U+0000>Nos adelantaremos, sube cuando puedas,\n<U+0010><U+0002>Ā<U+0000>.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 9,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5116,
+      "rawDecodedUtf16Hex": "00100002BD060000004E006F00730020006100640065006C0061006E0074006100720065006D006F0073002C002000730075006200650020006300750061006E0064006F0020007000750065006400610073002C000A0010000201000000002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5224,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¿Lo que percibiste proviene de aquí?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5236,
+      "rawDecodedUtf16Hex": "00BF004C006F002000710075006500200070006500720063006900620069007300740065002000700072006F007600690065006E0065002000640065002000610071007500ED003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "¡Espuuurr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5320,
+      "rawDecodedUtf16Hex": "00A10045007300700075007500750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Está lleno de megacristales... Esto no es normal.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 55,
+      "offsetInSection": 5344,
+      "rawDecodedUtf16Hex": "00450073007400E10020006C006C0065006E006F0020006400650020006D006500670061006300720069007300740061006C00650073002E002E002E0020004500730074006F0020006E006F0020006500730020006E006F0072006D0061006C002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "¡Espu, pu, purr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5452,
+      "rawDecodedUtf16Hex": "00A10045007300700075002C002000700075002C0020007000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Esos dos son Carbink...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 57,
+      "offsetInSection": 5488,
+      "rawDecodedUtf16Hex": "00450073006F007300200064006F007300200073006F006E002000430061007200620069006E006B002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "¿Pero qué Pokémon es ese que está con ellos?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5544,
+      "rawDecodedUtf16Hex": "00BF005000650072006F00200071007500E900200050006F006B00E9006D006F006E00200065007300200065007300650020007100750065002000650073007400E100200063006F006E00200065006C006C006F0073003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "¿Tendrá algo que ver con esa Megapiedra que\ntienes?<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 5644,
+      "rawDecodedUtf16Hex": "00BF00540065006E0064007200E100200061006C0067006F0020007100750065002000760065007200200063006F006E00200065007300610020004D0065006700610070006900650064007200610020007100750065000A007400690065006E00650073003F00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "¡Purr!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 5756,
+      "rawDecodedUtf16Hex": "00A1005000750072007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "¡Vas a tener que capturarlo para saber!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 5772,
+      "rawDecodedUtf16Hex": "00A100560061007300200061002000740065006E006500720020007100750065002000630061007000740075007200610072006C006F00200070006100720061002000730061006200650072002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Espupupurr...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 62,
+      "offsetInSection": 5860,
+      "rawDecodedUtf16Hex": "0045007300700075007000750070007500720072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 5888,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Diaaa!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 5900,
+      "rawDecodedUtf16Hex": "00A10044006900610061006100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 5916,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "¡Tienes que capturarlo!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 5928,
+      "rawDecodedUtf16Hex": "00A1005400690065006E006500730020007100750065002000630061007000740075007200610072006C006F002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "¡Debes capturarlo sin debilitarlo!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 5984,
+      "rawDecodedUtf16Hex": "00A100440065006200650073002000630061007000740075007200610072006C006F002000730069006E00200064006500620069006C0069007400610072006C006F002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "¡Muchas gracias! No sé qué haría sin ti.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 6064,
+      "rawDecodedUtf16Hex": "00A1004D007500630068006100730020006700720061006300690061007300210020004E006F0020007300E900200071007500E9002000680061007200ED0061002000730069006E002000740069002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "A ver, muéstrame el Pokémon...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 69,
+      "offsetInSection": 6156,
+      "rawDecodedUtf16Hex": "00410020007600650072002C0020006D007500E90073007400720061006D006500200065006C00200050006F006B00E9006D006F006E002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Es precioso...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 70,
+      "offsetInSection": 6228,
+      "rawDecodedUtf16Hex": "00450073002000700072006500630069006F0073006F002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Su brillo me recuerda al Reloj Solar de Fluxus.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 6268,
+      "rawDecodedUtf16Hex": "005300750020006200720069006C006C006F0020006D006500200072006500630075006500720064006100200061006C002000520065006C006F006A00200053006F006C0061007200200064006500200046006C0075007800750073002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "¿Fluxus?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 6372,
+      "rawDecodedUtf16Hex": "00BF0046006C0075007800750073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "¿Qué reloj?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 6392,
+      "rawDecodedUtf16Hex": "00BF0051007500E9002000720065006C006F006A003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "En Ciudad Fluxus hay un reloj solar muy\nextraño, y se dice que está relacionado<U+0010><U+0001>븀\ncon las Megapiedras.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 74,
+      "offsetInSection": 6416,
+      "rawDecodedUtf16Hex": "0045006E002000430069007500640061006400200046006C0075007800750073002000680061007900200075006E002000720065006C006F006A00200073006F006C006100720020006D00750079000A0065007800740072006100F1006F002C00200079002000730065002000640069006300650020007100750065002000650073007400E1002000720065006C006100630069006F006E00610064006F00100001BE00000A0063006F006E0020006C006100730020004D0065006700610070006900650064007200610073002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 108
+    },
+    {
+      "displayText": "Esto me trae muchos recuerdos...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 75,
+      "offsetInSection": 6632,
+      "rawDecodedUtf16Hex": "004500730074006F0020006D0065002000740072006100650020006D007500630068006F007300200072006500630075006500720064006F0073002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Desde que Looker se fue, he conocido a\nmucha gente.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 6708,
+      "rawDecodedUtf16Hex": "0044006500730064006500200071007500650020004C006F006F006B006500720020007300650020006600750065002C00200068006500200063006F006E006F006300690064006F00200061000A006D0075006300680061002000670065006E00740065002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Por ejemplo, a A. Z., y también al Profesor\nSycamore.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 6820,
+      "rawDecodedUtf16Hex": "0050006F007200200065006A0065006D0070006C006F002C0020006100200041002E0020005A002E002C00200079002000740061006D0062006900E9006E00200061006C002000500072006F006600650073006F0072000A0053007900630061006D006F00720065002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Este último estudiaba la megaevolución y me\ncontó algunas de las conversaciones que tuvo<U+0010><U+0001>븀\ncon A. Z....<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 78,
+      "offsetInSection": 6936,
+      "rawDecodedUtf16Hex": "0045007300740065002000FA006C00740069006D006F00200065007300740075006400690061006200610020006C00610020006D00650067006100650076006F006C00750063006900F3006E002000790020006D0065000A0063006F006E007400F300200061006C00670075006E006100730020006400650020006C0061007300200063006F006E0076006500720073006100630069006F006E0065007300200071007500650020007400750076006F00100001BE00000A0063006F006E00200041002E0020005A002E002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "Su teoría era que las Megapiedras son piedras\nirradiadas por la luz que disparó el arma definitiva<U+0010><U+0001>븀\nhace 3,000 años; una luz que en realidad era la<U+0010><U+0001>븀\nenergía de los Pokémon Legendarios.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 7156,
+      "rawDecodedUtf16Hex": "00530075002000740065006F007200ED0061002000650072006100200071007500650020006C006100730020004D006500670061007000690065006400720061007300200073006F006E00200070006900650064007200610073000A006900720072006100640069006100640061007300200070006F00720020006C00610020006C0075007A0020007100750065002000640069007300700061007200F300200065006C002000610072006D006100200064006500660069006E0069007400690076006100100001BE00000A006800610063006500200033002C0030003000300020006100F1006F0073003B00200075006E00610020006C0075007A002000710075006500200065006E0020007200650061006C006900640061006400200065007200610020006C006100100001BE00000A0065006E00650072006700ED00610020006400650020006C006F007300200050006F006B00E9006D006F006E0020004C006500670065006E0064006100720069006F0073002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 193
+    },
+    {
+      "displayText": "A. Z. comparte esa teoría, y también cree que\neso explica que ahora estén apareciendo nuevas<U+0010><U+0001>븀\nMegapiedras...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 80,
+      "offsetInSection": 7544,
+      "rawDecodedUtf16Hex": "0041002E0020005A002E00200063006F006D007000610072007400650020006500730061002000740065006F007200ED0061002C00200079002000740061006D0062006900E9006E002000630072006500650020007100750065000A00650073006F0020006500780070006C0069006300610020007100750065002000610068006F00720061002000650073007400E9006E002000610070006100720065006300690065006E0064006F0020006E0075006500760061007300100001BE00000A004D0065006700610070006900650064007200610073002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Ya que el arma definitiva se disparó de nuevo\nhace cinco años.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 7776,
+      "rawDecodedUtf16Hex": "00590061002000710075006500200065006C002000610072006D006100200064006500660069006E00690074006900760061002000730065002000640069007300700061007200F30020006400650020006E007500650076006F000A0068006100630065002000630069006E0063006F0020006100F1006F0073002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Purr...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 7912,
+      "rawDecodedUtf16Hex": "0050007500720072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "No te preocupes, Peluchín.<U+0010><U+0001>븁\nLa ciudad está a salvo ahora que estamos\n<U+0010><U+0002>Ā<U+0000> y yo para protegerla.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 7928,
+      "rawDecodedUtf16Hex": "004E006F0020007400650020007000720065006F00630075007000650073002C002000500065006C00750063006800ED006E002E00100001BE01000A004C00610020006300690075006400610064002000650073007400E100200061002000730061006C0076006F002000610068006F00720061002000710075006500200065007300740061006D006F0073000A00100002010000000020007900200079006F00200070006100720061002000700072006F00740065006700650072006C0061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 102
+    },
+    {
+      "displayText": "Cuida a este Pokémon como se\nmerece, por favor.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 8132,
+      "rawDecodedUtf16Hex": "00430075006900640061002000610020006500730074006500200050006F006B00E9006D006F006E00200063006F006D006F002000730065000A006D00650072006500630065002C00200070006F00720020006600610076006F0072002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Ojalá hubiera más gente como tú en esta ciudad,\ncon esa facilidad que tienes para crear un<U+0010><U+0001>븀\nvínculo con cualquier Pokémon...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 85,
+      "offsetInSection": 8236,
+      "rawDecodedUtf16Hex": "004F006A0061006C00E1002000680075006200690065007200610020006D00E10073002000670065006E0074006500200063006F006D006F0020007400FA00200065006E002000650073007400610020006300690075006400610064002C000A0063006F006E002000650073006100200066006100630069006C006900640061006400200071007500650020007400690065006E006500730020007000610072006100200063007200650061007200200075006E00100001BE00000A007600ED006E00630075006C006F00200063006F006E0020006300750061006C0071007500690065007200200050006F006B00E9006D006F006E002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 131
+    },
+    {
+      "displayText": "Bueno, es hora de que vuelva a la oficina.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 8500,
+      "rawDecodedUtf16Hex": "004200750065006E006F002C00200065007300200068006F0072006100200064006500200071007500650020007600750065006C00760061002000610020006C00610020006F0066006900630069006E0061002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "A todo esto, A. Z. también me contó otra cosa...<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 87,
+      "offsetInSection": 8596,
+      "rawDecodedUtf16Hex": "004100200074006F0064006F0020006500730074006F002C00200041002E0020005A002E002000740061006D0062006900E9006E0020006D006500200063006F006E007400F30020006F00740072006100200063006F00730061002E002E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "Durante su largo viaje en busca de Floette,\npasó por una lejana región llamada Hoenn.<U+0010><U+0001>븁\nDice que ahí presenció un fenómeno que,\nen su opinión, podría considerarse el origen de<U+0010><U+0001>븀\nla megaevolución.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 8704,
+      "rawDecodedUtf16Hex": "0044007500720061006E007400650020007300750020006C006100720067006F0020007600690061006A006500200065006E00200062007500730063006100200064006500200046006C006F0065007400740065002C000A00700061007300F300200070006F007200200075006E00610020006C0065006A0061006E00610020007200650067006900F3006E0020006C006C0061006D00610064006100200048006F0065006E006E002E00100001BE01000A0044006900630065002000710075006500200061006800ED002000700072006500730065006E0063006900F300200075006E002000660065006E00F3006D0065006E006F0020007100750065002C000A0065006E0020007300750020006F00700069006E006900F3006E002C00200070006F0064007200ED006100200063006F006E00730069006400650072006100720073006500200065006C0020006F0072006900670065006E00200064006500100001BE00000A006C00610020006D00650067006100650076006F006C00750063006900F3006E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 202
+    },
+    {
+      "displayText": "A lo mejor por eso no ha dejado nunca de pensar\nen los lazos que nos unen con los Pokémon.<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 89,
+      "offsetInSection": 9108,
+      "rawDecodedUtf16Hex": "00410020006C006F0020006D0065006A006F007200200070006F0072002000650073006F0020006E006F002000680061002000640065006A00610064006F0020006E0075006E00630061002000640065002000700065006E007300610072000A0065006E0020006C006F00730020006C0061007A006F007300200071007500650020006E006F007300200075006E0065006E00200063006F006E0020006C006F007300200050006F006B00E9006D006F006E002E00100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "En fin, muchas gracias por todo.\n¡Cuento contigo para la próxima!<U+0010><U+0002>Ĕ<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 90,
+      "offsetInSection": 9300,
+      "rawDecodedUtf16Hex": "0045006E002000660069006E002C0020006D007500630068006100730020006700720061006300690061007300200070006F007200200074006F0064006F002E000A00A1004300750065006E0074006F00200063006F006E007400690067006F002000700061007200610020006C006100200070007200F300780069006D0061002100100002011400080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 70
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 9440,
+  "sectionOffset": 16,
+  "textCount": 91,
+  "textSectionCount": 1
+}

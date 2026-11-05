@@ -1,0 +1,223 @@
+{
+  "declaredLength": 1956,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000>/<U+0010><U+0002>ȁ<U+0001>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "0010000202010000002F00100002020100010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 192,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Lancez un combat sans vous\nfaire repérer !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004C0061006E00630065007A00200075006E00200063006F006D006200610074002000730061006E007300200076006F00750073000A00660061006900720065002000720065007000E9007200650072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Lancez un combat avec une\ncapacité de type <U+0010><U+0002>ă<U+0000> !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 292,
+      "rawDecodedUtf16Hex": "004C0061006E00630065007A00200075006E00200063006F006D0062006100740020006100760065006300200075006E0065000A006300610070006100630069007400E90020006400650020007400790070006500200010000201030000002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Mettez un adversaire K.O.\nen un seul coup !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 392,
+      "rawDecodedUtf16Hex": "004D0065007400740065007A00200075006E002000610064007600650072007300610069007200650020004B002E004F002E000A0065006E00200075006E0020007300650075006C00200063006F00750070002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Utilisez une capacité super\nefficace (n’importe quel type) !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 480,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A00200075006E00650020006300610070006100630069007400E9002000730075007000650072000A0065006600660069006300610063006500200028006E20190069006D0070006F0072007400650020007100750065006C002000740079007000650029002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Utilisez une capacité de type\n<U+0010><U+0002>ă<U+0000> sur votre adversaire !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 604,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A00200075006E00650020006300610070006100630069007400E900200064006500200074007900700065000A0010000201030000002000730075007200200076006F00740072006500200061006400760065007200730061006900720065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Utilisez une capacité super\nefficace de type <U+0010><U+0002>ă<U+0000> !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A00200075006E00650020006300610070006100630069007400E9002000730075007000650072000A006500660066006900630061006300650020006400650020007400790070006500200010000201030000002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Mettez un adversaire K.O. avec\nune capacité de type <U+0010><U+0002>ă<U+0000> !",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "004D0065007400740065007A00200075006E002000610064007600650072007300610069007200650020004B002E004F002E00200061007600650063000A0075006E00650020006300610070006100630069007400E90020006400650020007400790070006500200010000201030000002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Paralysez un Pokémon adverse !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "0050006100720061006C007900730065007A00200075006E00200050006F006B00E9006D006F006E00200061006400760065007200730065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Rendez un Pokémon adverse\nsomnolent !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1008,
+      "rawDecodedUtf16Hex": "00520065006E00640065007A00200075006E00200050006F006B00E9006D006F006E00200061006400760065007200730065000A0073006F006D006E006F006C0065006E0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "Gelez un Pokémon adverse !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1084,
+      "rawDecodedUtf16Hex": "00470065006C0065007A00200075006E00200050006F006B00E9006D006F006E00200061006400760065007200730065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Brûlez un Pokémon adverse !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1140,
+      "rawDecodedUtf16Hex": "0042007200FB006C0065007A00200075006E00200050006F006B00E9006D006F006E00200061006400760065007200730065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Empoisonnez un Pokémon\nadverse !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "0045006D0070006F00690073006F006E006E0065007A00200075006E00200050006F006B00E9006D006F006E000A0061006400760065007200730065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Rendez un Pokémon adverse\nconfus !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "00520065006E00640065007A00200075006E00200050006F006B00E9006D006F006E00200061006400760065007200730065000A0063006F006E006600750073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Frappez avec la capacité\nd’un Pokémon méga-évolué !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "004600720061007000700065007A002000610076006500630020006C00610020006300610070006100630069007400E9000A006420190075006E00200050006F006B00E9006D006F006E0020006D00E900670061002D00E90076006F006C007500E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Mettez un adversaire K.O. avec\nun Pokémon méga-évolué !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1440,
+      "rawDecodedUtf16Hex": "004D0065007400740065007A00200075006E002000610064007600650072007300610069007200650020004B002E004F002E00200061007600650063000A0075006E00200050006F006B00E9006D006F006E0020006D00E900670061002D00E90076006F006C007500E9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Utilisez une capacité Plus sur\nvotre adversaire !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1552,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A00200075006E00650020006300610070006100630069007400E900200050006C007500730020007300750072000A0076006F00740072006500200061006400760065007200730061006900720065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Utilisez une capacité Plus\nsuper efficace !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1652,
+      "rawDecodedUtf16Hex": "005500740069006C006900730065007A00200075006E00650020006300610070006100630069007400E900200050006C00750073000A00730075007000650072002000650066006600690063006100630065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Mettez un adversaire K.O.\navec une capacité Plus !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1740,
+      "rawDecodedUtf16Hex": "004D0065007400740065007A00200075006E002000610064007600650072007300610069007200650020004B002E004F002E000A006100760065006300200075006E00650020006300610070006100630069007400E900200050006C00750073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Gagnez un combat contre un\nDresseur de rang supérieur !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "004700610067006E0065007A00200075006E00200063006F006D00620061007400200063006F006E00740072006500200075006E000A00440072006500730073006500750072002000640065002000720061006E0067002000730075007000E900720069006500750072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1956,
+  "sectionOffset": 16,
+  "textCount": 21,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 396,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "              As ever, it is our choices today\n                 that shape our tomorrows.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "002000200020002000200020002000200020002000200020002000200041007300200065007600650072002C0020006900740020006900730020006F00750072002000630068006F006900630065007300200074006F006400610079000A0020002000200020002000200020002000200020002000200020002000200020002000740068006100740020007300680061007000650020006F0075007200200074006F006D006F00720072006F00770073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "               I will forever be grateful to you...\n                    Team MZ, my dear friends.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 200,
+      "rawDecodedUtf16Hex": "0020002000200020002000200020002000200020002000200020002000200049002000770069006C006C00200066006F0072006500760065007200200062006500200067007200610074006500660075006C00200074006F00200079006F0075002E002E002E000A00200020002000200020002000200020002000200020002000200020002000200020002000200020005400650061006D0020004D005A002C0020006D00790020006400650061007200200066007200690065006E00640073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 396,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

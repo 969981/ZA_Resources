@@ -1,0 +1,2253 @@
+{
+  "declaredLength": 8420,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "大晴天",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "5927667459290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "天气为晴朗状态。\n火属性的招式威力会提高。\n水属性的招式威力会降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "59296C144E3A6674671772B660013002000A706B5C5E6027768462DB5F0F5A01529B4F1A63D09AD83002000A6C345C5E6027768462DB5F0F5A01529B4F1A964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "下雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "4E0B96E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天气为下雨状态。\n水属性的招式威力会提高。\n火属性的招式威力会降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "59296C144E3A4E0B96E872B660013002000A6C345C5E6027768462DB5F0F5A01529B4F1A63D09AD83002000A706B5C5E6027768462DB5F0F5A01529B4F1A964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "沙暴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "6C9966B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天气为沙暴状态。\n岩石、地面和钢属性以外的宝可梦，\n每回合会受到伤害。\n岩石属性的特防会变强。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "59296C144E3A6C9966B472B660013002000A5CA977F3300157309762548C94A25C5E60274EE5591676845B9D53EF68A6FF0C000A6BCF56DE54084F1A53D752304F245BB33002000A5CA977F35C5E60277684727996324F1A53D85F3A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "下雪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "4E0B96EA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天气为下雪状态。\n暴风雪变得容易命中。\n冰属性的防御变强。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "59296C144E3A4E0B96EA72B660013002000A66B498CE96EA53D85F975BB96613547D4E2D3002000A51B05C5E6027768496325FA153D85F3A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "电气场地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2152,
+      "rawDecodedUtf16Hex": "75356C14573A57300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n地面上的宝可梦不会变为睡眠状态。\n电属性的招式威力会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A573097624E0A76845B9D53EF68A64E0D4F1A53D84E3A7761772072B660013002000A75355C5E6027768462DB5F0F5A01529B4F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "青草场地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "97528349573A57300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n地面上的宝可梦会缓缓回复ＨＰ。\n草属性的招式威力会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A573097624E0A76845B9D53EF68A64F1A7F137F1356DE590DFF28FF303002000A83495C5E6027768462DB5F0F5A01529B4F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "薄雾场地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "858496FE573A57300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n地面上的宝可梦不会陷入异常状态。\n龙属性招式的伤害也会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2336,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A573097624E0A76845B9D53EF68A64E0D4F1A967751655F025E3872B660013002000A9F995C5E602762DB5F0F76844F245BB34E5F4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "戏法空间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "620F6CD57A7A95F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n速度慢的宝可梦可以先行动。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A901F5EA6616276845B9D53EF68A653EF4EE55148884C52A830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "魔法空间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2468,
+      "rawDecodedUtf16Hex": "9B546CD57A7A95F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n变得无法使用持有物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2480,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A53D85F9765E06CD54F7F752863016709726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "奇妙空间",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2516,
+      "rawDecodedUtf16Hex": "594759997A7A95F40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n宝可梦的防御和特防会互换。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2528,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A5B9D53EF68A6768496325FA1548C727996324F1A4E92636230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "易中要害",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2572,
+      "rawDecodedUtf16Hex": "66134E2D89815BB30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "击中对手要害的几率变高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2584,
+      "rawDecodedUtf16Hex": "51FB4E2D5BF9624B89815BB3768451E0738753D89AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "混乱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2612,
+      "rawDecodedUtf16Hex": "6DF74E710000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在１～４回合内，\n有时会攻击自己。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "5728FF11FF5EFF1456DE54085185FF0C000A670965F64F1A653B51FB81EA5DF130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "着迷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2656,
+      "rawDecodedUtf16Hex": "77408FF70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "♂的话对♀，♀的话对♂，\n会变得很难使出招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2664,
+      "rawDecodedUtf16Hex": "264276848BDD5BF92640FF0C264076848BDD5BF92642FF0C000A4F1A53D85F975F8896BE4F7F51FA62DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "恶梦",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2712,
+      "rawDecodedUtf16Hex": "607668A60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在睡着的时候，\n每回合ＨＰ会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2720,
+      "rawDecodedUtf16Hex": "572877617740768465F65019FF0C000A6BCF56DE5408FF28FF304F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "瞌睡",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2756,
+      "rawDecodedUtf16Hex": "778C77610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在受到招式攻击的下一回合，\n变为睡眠状态。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "572853D7523062DB5F0F653B51FB76844E0B4E0056DE5408FF0C000A53D84E3A7761772072B6600130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "再来一次",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2808,
+      "rawDecodedUtf16Hex": "518D67654E006B210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "受到再来一次的招式后，在３回合内，\n只能使出<U+0010><U+0002>ć<U+0000>。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2820,
+      "rawDecodedUtf16Hex": "53D75230518D67654E006B21768462DB5F0F540EFF0C5728FF1356DE54085185FF0C000A53EA80FD4F7F51FA001000020107000030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "无特性",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "65E0727960270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "特性会消失，变得没有效果。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2884,
+      "rawDecodedUtf16Hex": "727960274F1A6D885931FF0C53D85F976CA167096548679C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "无理取闹",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "65E0740653D695F90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "不能连续使出同样的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "4E0D80FD8FDE7EED4F7F51FA540C6837768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "顺风",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2952,
+      "rawDecodedUtf16Hex": "987A98CE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在４回合内，\n出战的我方宝可梦速度会变为２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085185FF0C000A51FA62187684621165B95B9D53EF68A6901F5EA64F1A53D84E3AFF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "幸运咒语",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "5E788FD054928BED0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "变得不会被对手的招式击中要害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "53D85F974E0D4F1A88AB5BF9624B768462DB5F0F51FB4E2D89815BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "怨念",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3052,
+      "rawDecodedUtf16Hex": "60285FF50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "因对手的招式而昏厥时，\n该招式的ＰＰ会变为０。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3060,
+      "rawDecodedUtf16Hex": "56E05BF9624B768462DB5F0F800C660F53A565F6FF0C000A8BE562DB5F0F7684FF30FF304F1A53D84E3AFF1030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "回复封锁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3108,
+      "rawDecodedUtf16Hex": "56DE590D5C0195010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n无法通过招式、特性\n或携带的道具回复ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3120,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A65E06CD5901A8FC762DB5F0F300172796027000A6216643A5E2676849053517756DE590DFF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "被识破",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3180,
+      "rawDecodedUtf16Hex": "88AB8BC678340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "会被那些原本不会有\n特定效果的招式击中。\n无视闪避率提升的效果，\n都会受到攻击。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "4F1A88AB90A34E9B539F672C4E0D4F1A6709000A72795B9A6548679C768462DB5F0F51FB4E2D3002000A65E089C695EA907F738763D0534776846548679CFF0C000A90FD4F1A53D75230653B51FB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "定身法",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "5B9A8EAB6CD50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "因处于定身法状态，\n在４回合内，\n<U+0010><U+0002>ć<U+0000>会变得无法使用。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "56E059044E8E5B9A8EAB6CD572B66001FF0C000A5728FF1456DE54085185FF0C000A00100002010700004F1A53D85F9765E06CD54F7F752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "无法逃走",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3340,
+      "rawDecodedUtf16Hex": "65E06CD590038D700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "无法逃走或替换。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3352,
+      "rawDecodedUtf16Hex": "65E06CD590038D70621666FF636230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "锁定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3372,
+      "rawDecodedUtf16Hex": "95015B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在锁定的下一回合，\n招式必定会击中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3380,
+      "rawDecodedUtf16Hex": "572895015B9A76844E0B4E0056DE5408FF0C000A62DB5F0F5FC55B9A4F1A51FB4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "查封",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3420,
+      "rawDecodedUtf16Hex": "67E55C010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合内，\n持有物和道具会变得无法使用。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3428,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A630167097269548C905351774F1A53D85F9765E06CD54F7F752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "充电",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3472,
+      "rawDecodedUtf16Hex": "514575350000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "下次使出的电属性的\n招式威力会变为２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3480,
+      "rawDecodedUtf16Hex": "4E0B6B214F7F51FA768475355C5E60277684000A62DB5F0F5A01529B4F1A53D84E3AFF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "重力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3524,
+      "rawDecodedUtf16Hex": "91CD529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合内，\n招式会变得容易击中。\n飞行属性和飘浮特性的宝可梦\n会被地面招式击中。\n飞向空中的招式将无法使用。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3532,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A62DB5F0F4F1A53D85F975BB9661351FB4E2D3002000A98DE884C5C5E6027548C98D86D6E7279602776845B9D53EF68A6000A4F1A88AB5730976262DB5F0F51FB4E2D3002000A98DE54117A7A4E2D768462DB5F0F5C0665E06CD54F7F752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "白雾",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3644,
+      "rawDecodedUtf16Hex": "767D96FE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合内，\n不会被降低能力。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3652,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A4E0D4F1A88AB964D4F4E80FD529B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "神秘守护",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3684,
+      "rawDecodedUtf16Hex": "795E79D85B8862A40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n不会陷入异常状态。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3696,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A4E0D4F1A967751655F025E3872B6600130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "隐形岩",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "96905F625CA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "替换出场的宝可梦会受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3740,
+      "rawDecodedUtf16Hex": "66FF636251FA573A76845B9D53EF68A64F1A53D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "蓄力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3772,
+      "rawDecodedUtf16Hex": "84C4529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在蓄力的时候，\n防御和特防会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3780,
+      "rawDecodedUtf16Hex": "572884C4529B768465F65019FF0C000A96325FA1548C727996324F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "挑衅",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3816,
+      "rawDecodedUtf16Hex": "631188450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "变得只能使出给予伤害的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3824,
+      "rawDecodedUtf16Hex": "53D85F9753EA80FD4F7F51FA7ED94E884F245BB3768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "意念移物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3856,
+      "rawDecodedUtf16Hex": "610F5FF579FB72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在３回合内，\n一击必杀以外的招式也必定会击中。\n地面属性的招式会变得无法击中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3868,
+      "rawDecodedUtf16Hex": "5728FF1356DE54085185FF0C000A4E0051FB5FC567404EE55916768462DB5F0F4E5F5FC55B9A4F1A51FB4E2D3002000A573097625C5E6027768462DB5F0F4F1A53D85F9765E06CD551FB4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "电磁飘浮",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3948,
+      "rawDecodedUtf16Hex": "753578C198D86D6E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n地面属性的招式会变得无法击中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3960,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A573097625C5E6027768462DB5F0F4F1A53D85F9765E06CD551FB4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "毒菱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4008,
+      "rawDecodedUtf16Hex": "6BD283F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "让替换出场的宝可梦陷入中毒状态。\n飞行属性和飘浮特性的宝可梦\n不会被击中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4016,
+      "rawDecodedUtf16Hex": "8BA966FF636251FA573A76845B9D53EF68A6967751654E2D6BD272B660013002000A98DE884C5C5E6027548C98D86D6E7279602776845B9D53EF68A6000A4E0D4F1A88AB51FB4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "玩泥巴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4092,
+      "rawDecodedUtf16Hex": "73A96CE55DF40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合内，\n电属性的招式威力会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4100,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A75355C5E6027768462DB5F0F5A01529B4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "祈愿",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4140,
+      "rawDecodedUtf16Hex": "7948613F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "使用祈愿后的下一回合，\n在该位置的宝可梦的ＨＰ会回复。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4148,
+      "rawDecodedUtf16Hex": "4F7F75287948613F540E76844E0B4E0056DE5408FF0C000A57288BE54F4D7F6E76845B9D53EF68A67684FF28FF304F1A56DE590D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "黏黏网",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4204,
+      "rawDecodedUtf16Hex": "9ECF9ECF7F510000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "降低替换出场的宝可梦的速度。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4212,
+      "rawDecodedUtf16Hex": "964D4F4E66FF636251FA573A76845B9D53EF68A67684901F5EA630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "扎根",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4244,
+      "rawDecodedUtf16Hex": "624E68390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在每回合结束时回复ＨＰ。\n扎根的宝可梦无法替换。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4252,
+      "rawDecodedUtf16Hex": "57286BCF56DE54087ED3675F65F656DE590DFF28FF303002000A624E683976845B9D53EF68A665E06CD566FF636230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "咒术",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4304,
+      "rawDecodedUtf16Hex": "5492672F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在每回合结束时减少ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4312,
+      "rawDecodedUtf16Hex": "57286BCF56DE54087ED3675F65F651CF5C11FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "万圣夜",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4340,
+      "rawDecodedUtf16Hex": "4E075723591C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "宝可梦会被追加幽灵属性。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4348,
+      "rawDecodedUtf16Hex": "5B9D53EF68A64F1A88AB8FFD52A05E7D70755C5E602730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "光墙",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4376,
+      "rawDecodedUtf16Hex": "514958990000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合内，\n受到的特殊攻击威力会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 4384,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A53D75230768472796B8A653B51FB5A01529B4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "反射壁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 4428,
+      "rawDecodedUtf16Hex": "53CD5C0458C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合内，\n受到的物理攻击威力会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 4436,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A53D75230768472697406653B51FB5A01529B4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "封印",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 4480,
+      "rawDecodedUtf16Hex": "5C0153700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "宝可梦使出封印后，\n其所学会的招式，\n对手的宝可梦将无法使出。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 4488,
+      "rawDecodedUtf16Hex": "5B9D53EF68A64F7F51FA5C015370540EFF0C000A517662405B664F1A768462DB5F0FFF0C000A5BF9624B76845B9D53EF68A65C0665E06CD54F7F51FA30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "终焉之歌",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4552,
+      "rawDecodedUtf16Hex": "7EC871094E4B6B4C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "陷入了终焉状态的全部宝可梦\n３回合后会陷入昏厥。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 4564,
+      "rawDecodedUtf16Hex": "967751654E867EC8710972B660017684516890E85B9D53EF68A6000AFF1356DE5408540E4F1A96775165660F53A530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "撒菱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 4616,
+      "rawDecodedUtf16Hex": "649283F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "给予替换出场的宝可梦伤害。\n飞行属性和飘浮特性的宝可梦\n不会被击中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 4624,
+      "rawDecodedUtf16Hex": "7ED94E8866FF636251FA573A76845B9D53EF68A64F245BB33002000A98DE884C5C5E6027548C98D86D6E7279602776845B9D53EF68A6000A4E0D4F1A88AB51FB4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "玩水",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 4696,
+      "rawDecodedUtf16Hex": "73A96C340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合内，\n火属性的招式威力会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 4704,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A706B5C5E6027768462DB5F0F5A01529B4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "同命",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 4744,
+      "rawDecodedUtf16Hex": "540C547D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "让自己陷入昏厥的对手，\n也会一同陷入昏厥。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 4752,
+      "rawDecodedUtf16Hex": "8BA981EA5DF196775165660F53A576845BF9624BFF0C000A4E5F4F1A4E00540C96775165660F53A530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "森林咒术",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 4796,
+      "rawDecodedUtf16Hex": "68EE67975492672F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "宝可梦会被追加草属性。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 4808,
+      "rawDecodedUtf16Hex": "5B9D53EF68A64F1A88AB8FFD52A083495C5E602730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "寄生种子",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "5BC4751F79CD5B500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "每回合结束时，\n会被寄生种子夺走ＨＰ，\n同时回复对手的ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 4844,
+      "rawDecodedUtf16Hex": "6BCF56DE54087ED3675F65F6FF0C000A4F1A88AB5BC4751F79CD5B50593A8D70FF28FF30FF0C000A540C65F656DE590D5BF9624B7684FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "锁定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 4908,
+      "rawDecodedUtf16Hex": "95015B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "招式必定会命中锁定了的对手。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 4916,
+      "rawDecodedUtf16Hex": "62DB5F0F5FC55B9A4F1A547D4E2D95015B9A4E8676845BF9624B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "束缚",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 4948,
+      "rawDecodedUtf16Hex": "675F7F1A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "被紧紧绑住，每一回合\n都会受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 4956,
+      "rawDecodedUtf16Hex": "88AB7D277D277ED14F4FFF0C6BCF4E0056DE5408000A90FD4F1A53D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "忍耐",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 4996,
+      "rawDecodedUtf16Hex": "5FCD80100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在２回合内忍受攻击，\n受到的伤害会２倍返还给对手。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5004,
+      "rawDecodedUtf16Hex": "5728FF1256DE540851855FCD53D7653B51FBFF0C000A53D7523076844F245BB34F1AFF12500D8FD48FD87ED95BF9624B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "逆鳞",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5056,
+      "rawDecodedUtf16Hex": "90069CDE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在２～３回合内，\n乱打一气地进行攻击。\n大闹一番后自己会陷入混乱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 5064,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085185FF0C000A4E7162534E006C1457308FDB884C653B51FB3002000A592795F94E00756A540E81EA5DF14F1A967751656DF74E7130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "大闹一番",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 5132,
+      "rawDecodedUtf16Hex": "592795F94E00756A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "因处于大闹状态，\n在２～３回合内，\n乱打一气地进行攻击。\n大闹一番后自己会陷入混乱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 5144,
+      "rawDecodedUtf16Hex": "56E059044E8E592795F972B66001FF0C000A5728FF12FF5EFF1356DE54085185FF0C000A4E7162534E006C1457308FDB884C653B51FB3002000A592795F94E00756A540E81EA5DF14F1A967751656DF74E7130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "花瓣舞",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 5232,
+      "rawDecodedUtf16Hex": "82B174E3821E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在２～３回合内，\n乱打一气地进行攻击。\n大闹一番后自己会陷入混乱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 5240,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085185FF0C000A4E7162534E006C1457308FDB884C653B51FB3002000A592795F94E00756A540E81EA5DF14F1A967751656DF74E7130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "剧毒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 5308,
+      "rawDecodedUtf16Hex": "52676BD20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "剧毒状态。\n随着回合的推进，中毒伤害会增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 5316,
+      "rawDecodedUtf16Hex": "52676BD272B660013002000A968F774056DE5408768463A88FDBFF0C4E2D6BD24F245BB34F1A589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "未来攻击",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 5364,
+      "rawDecodedUtf16Hex": "672A6765653B51FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "被招式攻击的２回合后，\n会受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 5376,
+      "rawDecodedUtf16Hex": "88AB62DB5F0F653B51FB7684FF1256DE5408540EFF0C000A4F1A53D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "吵闹",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 5416,
+      "rawDecodedUtf16Hex": "543595F90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在３回合内\n大吵大闹攻击对手。\n在此期间谁都不能入眠。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 5424,
+      "rawDecodedUtf16Hex": "5728FF1356DE54085185000A59275435592795F9653B51FB5BF9624B3002000A57286B64671F95F48C0190FD4E0D80FD5165772030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "水流环",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 5480,
+      "rawDecodedUtf16Hex": "6C346D4173AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在自己身体的周围覆盖用水制造的幕。\n每回合回复ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 5488,
+      "rawDecodedUtf16Hex": "572881EA5DF18EAB4F537684546856F4898676D675286C345236902076845E553002000A6BCF56DE540856DE590DFF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "身体轻量化",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 5544,
+      "rawDecodedUtf16Hex": "8EAB4F538F7B91CF53160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "速度会大幅度提高，\n体重也会变轻。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 5556,
+      "rawDecodedUtf16Hex": "901F5EA64F1A59275E455EA663D09AD8FF0C000A4F5391CD4E5F4F1A53D88F7B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "击落",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 5592,
+      "rawDecodedUtf16Hex": "51FB843D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "被击落，掉到地面的状态。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 5600,
+      "rawDecodedUtf16Hex": "88AB51FB843DFF0C6389523057309762768472B6600130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "妖精之锁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 5628,
+      "rawDecodedUtf16Hex": "59967CBE4E4B95010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在使用招式的下一回合，\n所有的宝可梦都无法逃走。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 5640,
+      "rawDecodedUtf16Hex": "57284F7F752862DB5F0F76844E0B4E0056DE5408FF0C000A6240670976845B9D53EF68A690FD65E06CD590038D7030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "彩虹",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 5692,
+      "rawDecodedUtf16Hex": "5F6986790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "招式的追加效果变得更易出现。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 5700,
+      "rawDecodedUtf16Hex": "62DB5F0F76848FFD52A06548679C53D85F9766F4661351FA73B030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "湿地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 5732,
+      "rawDecodedUtf16Hex": "6E7F57300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "速度变为原来的１／４。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 5740,
+      "rawDecodedUtf16Hex": "901F5EA653D84E3A539F67657684FF11FF0FFF1430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "火海",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 5764,
+      "rawDecodedUtf16Hex": "706B6D770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "火属性以外的宝可梦，\n每回合受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 5772,
+      "rawDecodedUtf16Hex": "706B5C5E60274EE5591676845B9D53EF68A6FF0C000A6BCF56DE540853D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "大日照",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 5812,
+      "rawDecodedUtf16Hex": "592765E571670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "天气为大日照状态。\n火属性的招式威力会提高。\n不会受到水属性招式的攻击。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 5820,
+      "rawDecodedUtf16Hex": "59296C144E3A592765E5716772B660013002000A706B5C5E6027768462DB5F0F5A01529B4F1A63D09AD83002000A4E0D4F1A53D752306C345C5E602762DB5F0F7684653B51FB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "大雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 5896,
+      "rawDecodedUtf16Hex": "592796E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天气为大雨状态。\n水属性的招式威力会提高。\n不会受到火属性招式的攻击。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 5904,
+      "rawDecodedUtf16Hex": "59296C144E3A592796E872B660013002000A6C345C5E6027768462DB5F0F5A01529B4F1A63D09AD83002000A4E0D4F1A53D75230706B5C5E602762DB5F0F7684653B51FB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "乱流",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 5976,
+      "rawDecodedUtf16Hex": "4E716D410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天气为乱流状态。\n与飞行属性相克且效果绝佳的属性，\n其招式威力会变弱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 5984,
+      "rawDecodedUtf16Hex": "59296C144E3A4E716D4172B660013002000A4E0E98DE884C5C5E602776F8514B4E146548679C7EDD4F7376845C5E6027FF0C000A517662DB5F0F5A01529B4F1A53D85F3130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "精神场地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 6056,
+      "rawDecodedUtf16Hex": "7CBE795E573A57300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合内，\n地面上的宝可梦不会受到先制招式的攻击。\n超能力属性的招式威力会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 6068,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A573097624E0A76845B9D53EF68A64E0D4F1A53D752305148523662DB5F0F7684653B51FB3002000A8D8580FD529B5C5E6027768462DB5F0F5A01529B4F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "深渊突刺",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 6152,
+      "rawDecodedUtf16Hex": "6DF16E0A7A81523A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在２回合内，\n无法使出发声音的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 6164,
+      "rawDecodedUtf16Hex": "5728FF1256DE54085185FF0C000A65E06CD54F7F51FA53D158F097F3768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "极光幕",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 6204,
+      "rawDecodedUtf16Hex": "678151495E550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合内，\n物理与特殊攻击的威力会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 6212,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085185FF0C000A726974064E0E72796B8A653B51FB76845A01529B4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "磨砺",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 6256,
+      "rawDecodedUtf16Hex": "78E8783A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在使用磨砺的下一回合，\n招式必定会击中要害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 6264,
+      "rawDecodedUtf16Hex": "57284F7F752878E8783A76844E0B4E0056DE5408FF0C000A62DB5F0F5FC55B9A4F1A51FB4E2D89815BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "沥青射击",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 6312,
+      "rawDecodedUtf16Hex": "6CA597525C0451FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "火属性会变成弱点。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 6324,
+      "rawDecodedUtf16Hex": "706B5C5E60274F1A53D862105F3170B930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "蛸固",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 6344,
+      "rawDecodedUtf16Hex": "86F856FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每回合降低\n防御和特防。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 6352,
+      "rawDecodedUtf16Hex": "6BCF56DE5408964D4F4E000A96325FA1548C7279963230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "超极巨地狱灭焰",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 6380,
+      "rawDecodedUtf16Hex": "8D8567815DE8573072F1706D71300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "４回合内对火属性以外的宝可梦\n造成伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 6396,
+      "rawDecodedUtf16Hex": "FF1456DE540851855BF9706B5C5E60274EE5591676845B9D53EF68A6000A902062104F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "超极巨炎石喷发",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 6440,
+      "rawDecodedUtf16Hex": "8D8567815DE8708E77F355B753D10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "４回合内对岩石属性以外的宝可梦\n造成伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 6456,
+      "rawDecodedUtf16Hex": "FF1456DE540851855BF95CA977F35C5E60274EE5591676845B9D53EF68A6000A902062104F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "超极巨钢铁阵法",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 6500,
+      "rawDecodedUtf16Hex": "8D8567815DE894A294C196356CD50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "对替换出场的宝可梦\n造成伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 6516,
+      "rawDecodedUtf16Hex": "5BF966FF636251FA573A76845B9D53EF68A6000A902062104F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "超极巨灰飞鞭灭",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 6548,
+      "rawDecodedUtf16Hex": "8D8567815DE8707098DE97AD706D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "４回合内对草属性以外的宝可梦\n造成伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 6564,
+      "rawDecodedUtf16Hex": "FF1456DE540851855BF983495C5E60274EE5591676845B9D53EF68A6000A902062104F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "超极巨水炮轰灭",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 6608,
+      "rawDecodedUtf16Hex": "8D8567815DE86C3470AE8F70706D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "４回合内对水属性以外的宝可梦\n造成伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 6624,
+      "rawDecodedUtf16Hex": "FF1456DE540851855BF96C345C5E60274EE5591676845B9D53EF68A6000A902062104F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "热衷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 6668,
+      "rawDecodedUtf16Hex": "70ED88770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "会热衷于最近一次使用的招式。\n所热衷的招式造成的伤害会增加。\n同时自己受到的伤害也会增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 6676,
+      "rawDecodedUtf16Hex": "4F1A70ED88774E8E67008FD14E006B214F7F7528768462DB5F0F3002000A624070ED8877768462DB5F0F9020621076844F245BB34F1A589E52A03002000A540C65F681EA5DF153D7523076844F245BB34E5F4F1A589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "碎片",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 6768,
+      "rawDecodedUtf16Hex": "788E72470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "尖锐的碎片扎入了体内，\n每次行动都会受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 6776,
+      "rawDecodedUtf16Hex": "5C1695107684788E7247624E51654E864F535185FF0C000A6BCF6B21884C52A890FD4F1A53D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "烟幕",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 6824,
+      "rawDecodedUtf16Hex": "70DF5E550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "让自己被烟雾包裹，\n对手的招式将变得不易命中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 6832,
+      "rawDecodedUtf16Hex": "8BA981EA5DF188AB70DF96FE530588F9FF0C000A5BF9624B768462DB5F0F5C0653D85F974E0D6613547D4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "加倍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 6880,
+      "rawDecodedUtf16Hex": "52A0500D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "摆起强而有力的架势\n增加造成的伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 6888,
+      "rawDecodedUtf16Hex": "64468D775F3A800C6709529B768467B652BF000A589E52A09020621076844F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "攻守转换",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 6928,
+      "rawDecodedUtf16Hex": "653B5B888F6C63620000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "进攻力和防守力互换。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 6940,
+      "rawDecodedUtf16Hex": "8FDB653B529B548C96325B88529B4E92636230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "慢启动",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 6964,
+      "rawDecodedUtf16Hex": "6162542F52A80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在拿出平时的水准之前，\n攻击与速度都会减半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 6972,
+      "rawDecodedUtf16Hex": "572862FF51FA5E7365F676846C3451C64E4B524DFF0C000A653B51FB4E0E901F5EA690FD4F1A51CF534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "狂猛之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 7020,
+      "rawDecodedUtf16Hex": "72C2731B4E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "每次行动时\n因中毒或碎片等受到的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 7032,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52A865F6000A56E04E2D6BD26216788E72477B4953D7523076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "中毒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 7080,
+      "rawDecodedUtf16Hex": "4E2D6BD20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行动时，\n会因中毒而受到伤害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 7088,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52A865F6FF0C000A4F1A56E04E2D6BD2800C53D752304F245BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "麻痹",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 7124,
+      "rawDecodedUtf16Hex": "9EBB75F90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "有时会因为身体麻痹而不能动弹。\n且速度会降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 7132,
+      "rawDecodedUtf16Hex": "670965F64F1A56E04E3A8EAB4F539EBB75F9800C4E0D80FD52A85F393002000A4E14901F5EA64F1A964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "瞌睡",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 7180,
+      "rawDecodedUtf16Hex": "778C77610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "有时会因为困倦而不能动弹。\n且受到的伤害会增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 7188,
+      "rawDecodedUtf16Hex": "670965F64F1A56E04E3A56F05026800C4E0D80FD52A85F393002000A4E1453D7523076844F245BB34F1A589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "灼伤",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 7240,
+      "rawDecodedUtf16Hex": "707C4F240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行动时，\n会因为灼伤而受到伤害。\n且物理攻击\n造成的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 7248,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52A865F6FF0C000A4F1A56E04E3A707C4F24800C53D752304F245BB33002000A4E1472697406653B51FB000A9020621076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "冻伤",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 7320,
+      "rawDecodedUtf16Hex": "51BB4F240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行动时，\n会因冻伤而受到伤害。\n且特殊攻击\n造成的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 7328,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52A865F6FF0C000A4F1A56E051BB4F24800C53D752304F245BB33002000A4E1472796B8A653B51FB000A9020621076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "野性之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 7396,
+      "rawDecodedUtf16Hex": "91CE60274E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "所有能力都会提高，\n且每次行动时\n因中毒或碎片等受到的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 7408,
+      "rawDecodedUtf16Hex": "6240670980FD529B90FD4F1A63D09AD8FF0C000A4E146BCF6B21884C52A865F6000A56E04E2D6BD26216788E72477B4953D7523076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "伟大之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 7476,
+      "rawDecodedUtf16Hex": "4F1F59274E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "每次行动时\n因中毒或碎片等受到的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 7488,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52A865F6000A56E04E2D6BD26216788E72477B4953D7523076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "惊骇之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 7536,
+      "rawDecodedUtf16Hex": "60CA9A874E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "所有能力都会提高，\n且每次行动时\n因中毒或碎片等受到的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 7548,
+      "rawDecodedUtf16Hex": "6240670980FD529B90FD4F1A63D09AD8FF0C000A4E146BCF6B21884C52A865F6000A56E04E2D6BD26216788E72477B4953D7523076844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "进攻提升",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 7616,
+      "rawDecodedUtf16Hex": "8FDB653B63D053470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "进攻力变强，\n攻击和特攻会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 7628,
+      "rawDecodedUtf16Hex": "8FDB653B529B53D85F3AFF0C000A653B51FB548C7279653B4F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "进攻下降",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 7664,
+      "rawDecodedUtf16Hex": "8FDB653B4E0B964D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "进攻力变弱，\n攻击和特攻会降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 7676,
+      "rawDecodedUtf16Hex": "8FDB653B529B53D85F31FF0C000A653B51FB548C7279653B4F1A964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "防守提升",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 7712,
+      "rawDecodedUtf16Hex": "96325B8863D053470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "防守力变强，\n防御和特防会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 7724,
+      "rawDecodedUtf16Hex": "96325B88529B53D85F3AFF0C000A96325FA1548C727996324F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "防守下降",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 7760,
+      "rawDecodedUtf16Hex": "96325B884E0B964D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "防守力变弱，\n防御和特防会降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 7772,
+      "rawDecodedUtf16Hex": "96325B88529B53D85F31FF0C000A96325FA1548C727996324F1A964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "晴朗",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 7808,
+      "rawDecodedUtf16Hex": "667467170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "草属性宝可梦的速度会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 7816,
+      "rawDecodedUtf16Hex": "83495C5E60275B9D53EF68A67684901F5EA64F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "起雾",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 7844,
+      "rawDecodedUtf16Hex": "8D7796FE0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "除必定命中的招式外，\n所有招式会变得不易命中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 7852,
+      "rawDecodedUtf16Hex": "96645FC55B9A547D4E2D768462DB5F0F5916FF0C000A6240670962DB5F0F4F1A53D85F974E0D6613547D4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "下雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 7900,
+      "rawDecodedUtf16Hex": "4E0B96E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "火属性招式给予的伤害会减少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 7908,
+      "rawDecodedUtf16Hex": "706B5C5E602762DB5F0F7ED94E8876844F245BB34F1A51CF5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "下雪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 7940,
+      "rawDecodedUtf16Hex": "4E0B96EA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "会变得容易冻伤。\n陷入瞌睡状态时会变得不易行动。\n冰属性宝可梦的速度会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 7948,
+      "rawDecodedUtf16Hex": "4F1A53D85F975BB9661351BB4F243002000A96775165778C776172B6600165F64F1A53D85F974E0D6613884C52A83002000A51B05C5E60275B9D53EF68A67684901F5EA64F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "盐腌",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 8028,
+      "rawDecodedUtf16Hex": "76D0814C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "会陷入盐腌状态，\n每回合受到伤害。\n钢属性和水属性宝可梦\n受到的伤害会变为２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 8036,
+      "rawDecodedUtf16Hex": "4F1A9677516576D0814C72B66001FF0C000A6BCF56DE540853D752304F245BB33002000A94A25C5E6027548C6C345C5E60275B9D53EF68A6000A53D7523076844F245BB34F1A53D84E3AFF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "大愤慨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 8120,
+      "rawDecodedUtf16Hex": "5927612461680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在２～３回合内，\n乱打一气地进行攻击。\n大闹一番后自己会陷入混乱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 8128,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085185FF0C000A4E7162534E006C1457308FDB884C653B51FB3002000A592795F94E00756A540E81EA5DF14F1A967751656DF74E7130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "满身糖",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 8196,
+      "rawDecodedUtf16Hex": "6EE18EAB7CD60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在３回合内，\n持续降低速度。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 8204,
+      "rawDecodedUtf16Hex": "5728FF1356DE54085185FF0C000A63017EED964D4F4E901F5EA630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "冲冲猛攻",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 8236,
+      "rawDecodedUtf16Hex": "51B251B2731B653B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在训练家们的声援下，\n攻击和特攻会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 8248,
+      "rawDecodedUtf16Hex": "57288BAD7EC35BB64EEC768458F063F44E0BFF0C000A653B51FB548C7279653B4F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "坚坚固守",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 8292,
+      "rawDecodedUtf16Hex": "575A575A56FA5B880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在训练家们的声援下，\n防御和特防会提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 8304,
+      "rawDecodedUtf16Hex": "57288BAD7EC35BB64EEC768458F063F44E0BFF0C000A96325FA1548C727996324F1A63D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "回复封锁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 8348,
+      "rawDecodedUtf16Hex": "56DE590D5C0195010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在２回合内，\n无法通过招式、特性\n或携带的道具回复ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 8360,
+      "rawDecodedUtf16Hex": "5728FF1256DE54085185FF0C000A65E06CD5901A8FC762DB5F0F300172796027000A6216643A5E2676849053517756DE590DFF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 8420,
+  "sectionOffset": 16,
+  "textCount": 224,
+  "textSectionCount": 1
+}

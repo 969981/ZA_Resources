@@ -1,0 +1,133 @@
+{
+  "declaredLength": 1376,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Ein Zug zum Flughafen steht auf dem Gleis.\nMöchtest du Illumina City verlassen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "00450069006E0020005A007500670020007A0075006D00200046006C007500670068006100660065006E0020007300740065006800740020006100750066002000640065006D00200047006C006500690073002E000A004D00F600630068007400650073007400200064007500200049006C006C0075006D0069006E0061002000430069007400790020007600650072006C0061007300730065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Nein, ich will hierbleiben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "004E00650069006E002C0020006900630068002000770069006C006C002000680069006500720062006C0065006900620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Au revoir, Illumina City!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C00200049006C006C0075006D0069006E00610020004300690074007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Wenn du in den Zug steigst, heißt es Abschied\nnehmen von <U+0010><U+0002>Ƌ<U+0001> und den anderen...<U+0010><U+0001>븀\nBist du dir sicher?",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 368,
+      "rawDecodedUtf16Hex": "00570065006E006E00200064007500200069006E002000640065006E0020005A0075006700200073007400650069006700730074002C002000680065006900DF0074002000650073002000410062007300630068006900650064000A006E00650068006D0065006E00200076006F006E002000100002018B000100200075006E0064002000640065006E00200061006E0064006500720065006E002E002E002E00100001BE00000A004200690073007400200064007500200064006900720020007300690063006800650072003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Nein, ich möchte doch bleiben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 576,
+      "rawDecodedUtf16Hex": "004E00650069006E002C00200069006300680020006D00F6006300680074006500200064006F0063006800200062006C0065006900620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Ja. Au revoir, Illumina City!!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "004A0061002E0020004100750020007200650076006F00690072002C00200049006C006C0075006D0069006E0061002000430069007400790021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Solange du hier noch etwas zu erledigen hast,\nsolltest du Illumina City lieber nicht verlassen.<U+0010><U+0001>븀\nMöchtest du wirklich in den Zug einsteigen?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "0053006F006C0061006E00670065002000640075002000680069006500720020006E006F006300680020006500740077006100730020007A0075002000650072006C00650064006900670065006E00200068006100730074002C000A0073006F006C006C007400650073007400200064007500200049006C006C0075006D0069006E0061002000430069007400790020006C006900650062006500720020006E00690063006800740020007600650072006C0061007300730065006E002E00100001BE00000A004D00F60063006800740065007300740020006400750020007700690072006B006C00690063006800200069006E002000640065006E0020005A00750067002000650069006E007300740065006900670065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 143
+    },
+    {
+      "displayText": "Nein, ich möchte doch bleiben.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 992,
+      "rawDecodedUtf16Hex": "004E00650069006E002C00200069006300680020006D00F6006300680074006500200064006F0063006800200062006C0065006900620065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Ja. Au revoir, Illumina City!!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "004A0061002E0020004100750020007200650076006F00690072002C00200049006C006C0075006D0069006E0061002000430069007400790021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Du bist in den Zug zum Flughafen gestiegen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1120,
+      "rawDecodedUtf16Hex": "004400750020006200690073007400200069006E002000640065006E0020005A007500670020007A0075006D00200046006C007500670068006100660065006E002000670065007300740069006500670065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Au revoir, Illumina City!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1208,
+      "rawDecodedUtf16Hex": "004100750020007200650076006F00690072002C00200049006C006C0075006D0069006E00610020004300690074007900210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Huch? Du scheinst auf der Bank hier eingenickt\nzu sein...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1260,
+      "rawDecodedUtf16Hex": "0048007500630068003F002000440075002000730063006800650069006E0073007400200061007500660020006400650072002000420061006E006B00200068006900650072002000650069006E00670065006E00690063006B0074000A007A00750020007300650069006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1376,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

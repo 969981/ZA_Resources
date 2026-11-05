@@ -1,0 +1,963 @@
+{
+  "declaredLength": 4444,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Dummy Quest Name",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 764,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020005100750065007300740020004E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Dummy Quest description",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 800,
+      "rawDecodedUtf16Hex": "00440075006D006D00790020005100750065007300740020006400650073006300720069007000740069006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Dummy goal",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 848,
+      "rawDecodedUtf16Hex": "00440075006D006D007900200067006F0061006C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 872,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȅ<U+0000> /<U+0010><U+0003>Ȅ<U+0001> ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "00100003020400000020002F001000030204000100200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 920,
+      "rawDecodedUtf16Hex": "00100002010000000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 932,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Activer le marqueur",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 944,
+      "rawDecodedUtf16Hex": "00410063007400690076006500720020006C00650020006D00610072007100750065007500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Marqueur activé",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "004D006100720071007500650075007200200061006300740069007600E90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ĉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "00100002010900000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1028,
+      "rawDecodedUtf16Hex": "00100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0003>Ȇ<U+0000>  <U+E300>",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "001000030206000000200020E3000000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Récompense",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "005200E90063006F006D00700065006E007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1080,
+      "rawDecodedUtf16Hex": "00100002BDFF000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ć",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1092,
+      "rawDecodedUtf16Hex": "00100002010700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>ā",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1104,
+      "rawDecodedUtf16Hex": "00100002010100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nº <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1116,
+      "rawDecodedUtf16Hex": "004E00BA002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "ENREGISTRÉ !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 1132,
+      "rawDecodedUtf16Hex": "0045004E005200450047004900530054005200C9002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1160,
+      "rawDecodedUtf16Hex": "004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1184,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1188,
+      "rawDecodedUtf16Hex": "0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 1
+    },
+    {
+      "displayText": "Merci pour ton aide !\nOublie pas ta récompense !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "004D006500720063006900200070006F0075007200200074006F006E0020006100690064006500200021000A004F00750062006C0069006500200070006100730020007400610020007200E90063006F006D00700065006E00730065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "J’ai pensé à des nouveaux sujets\nque tu pourrais étudier pour moi !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "004A201900610069002000700065006E007300E9002000E000200064006500730020006E006F007500760065006100750078002000730075006A006500740073000A00710075006500200074007500200070006F007500720072006100690073002000E900740075006400690065007200200070006F007500720020006D006F0069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Ange Floette Ferox Suprême",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 26,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "0041006E0067006500200046006C006F00650074007400650020004600650072006F00780020005300750070007200EA006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>ą",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "00100002010500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Mode photo",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "004D006F00640065002000700068006F0074006F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Se lever",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1520,
+      "rawDecodedUtf16Hex": "005300650020006C00650076006500720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Partir",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1540,
+      "rawDecodedUtf16Hex": "0050006100720074006900720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Absol Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 1556,
+      "rawDecodedUtf16Hex": "004100620073006F006C0020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Flagadoss Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1608,
+      "rawDecodedUtf16Hex": "0046006C0061006700610064006F007300730020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Camérupt Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "00430061006D00E900720075007000740020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Empiflor Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 1724,
+      "rawDecodedUtf16Hex": "0045006D007000690066006C006F00720020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Dardargnan Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "0044006100720064006100720067006E0061006E0020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Brutalibré Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1840,
+      "rawDecodedUtf16Hex": "00420072007500740061006C00690062007200E90020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Branette Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "004200720061006E00650074007400650020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Pharamp Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1956,
+      "rawDecodedUtf16Hex": "00500068006100720061006D00700020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Golgopathe Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2012,
+      "rawDecodedUtf16Hex": "0047006F006C0067006F007000610074006800650020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Mysdibule Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2072,
+      "rawDecodedUtf16Hex": "004D007900730064006900620075006C00650020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Momartik Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2132,
+      "rawDecodedUtf16Hex": "004D006F006D0061007200740069006B0020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Altaria Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 42,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "0041006C007400610072006900610020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Florizarre Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2244,
+      "rawDecodedUtf16Hex": "0046006C006F00720069007A00610072007200650020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Dracolosse Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2304,
+      "rawDecodedUtf16Hex": "0044007200610063006F006C006F0073007300650020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Tyranocif Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "0054007900720061006E006F0063006900660020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Staross Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "0053007400610072006F007300730020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Zygarde N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2480,
+      "rawDecodedUtf16Hex": "005A0079006700610072006400650020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Zygarde N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "005A0079006700610072006400650020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Zygarde N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2544,
+      "rawDecodedUtf16Hex": "005A0079006700610072006400650020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Absol Méga-Ferox Z",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 2576,
+      "rawDecodedUtf16Hex": "004100620073006F006C0020004D00E900670061002D004600650072006F00780020005A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Étouraptor Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 51,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "00C90074006F00750072006100700074006F00720020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Nigirigon Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2660,
+      "rawDecodedUtf16Hex": "004E006900670069007200690067006F006E0020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Mistigrix Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "004D006900730074006900670072006900780020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Heatran Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2748,
+      "rawDecodedUtf16Hex": "004800650061007400720061006E0020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Darkrai",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2788,
+      "rawDecodedUtf16Hex": "004400610072006B0072006100690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Darkrai Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2804,
+      "rawDecodedUtf16Hex": "004400610072006B0072006100690020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Groudon",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2844,
+      "rawDecodedUtf16Hex": "00470072006F00750064006F006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Primo-Groudon Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2860,
+      "rawDecodedUtf16Hex": "005000720069006D006F002D00470072006F00750064006F006E0020004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Kyogre",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "004B0079006F0067007200650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Primo-Kyogre Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2916,
+      "rawDecodedUtf16Hex": "005000720069006D006F002D004B0079006F0067007200650020004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Rayquaza",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2956,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A00610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Rayquaza Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2976,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A00610020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Zeraora Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "005A006500720061006F007200610020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Absol Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 64,
+      "offsetInSection": 3056,
+      "rawDecodedUtf16Hex": "004100620073006F006C0020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Flagadoss Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3092,
+      "rawDecodedUtf16Hex": "0046006C0061006700610064006F007300730020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Camérupt Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3136,
+      "rawDecodedUtf16Hex": "00430061006D00E900720075007000740020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Empiflor Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 67,
+      "offsetInSection": 3176,
+      "rawDecodedUtf16Hex": "0045006D007000690066006C006F00720020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Dardargnan Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3216,
+      "rawDecodedUtf16Hex": "0044006100720064006100720067006E0061006E0020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Brutalibré Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "00420072007500740061006C00690062007200E90020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Branette Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "004200720061006E00650074007400650020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Pharamp Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3344,
+      "rawDecodedUtf16Hex": "00500068006100720061006D00700020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Golgopathe Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3384,
+      "rawDecodedUtf16Hex": "0047006F006C0067006F007000610074006800650020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Mysdibule Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3428,
+      "rawDecodedUtf16Hex": "004D007900730064006900620075006C00650020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Momartik Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3472,
+      "rawDecodedUtf16Hex": "004D006F006D0061007200740069006B0020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Altaria Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 75,
+      "offsetInSection": 3512,
+      "rawDecodedUtf16Hex": "0041006C007400610072006900610020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Florizarre Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3552,
+      "rawDecodedUtf16Hex": "0046006C006F00720069007A00610072007200650020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Dracolosse Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 3596,
+      "rawDecodedUtf16Hex": "0044007200610063006F006C006F0073007300650020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "Tyranocif Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 3640,
+      "rawDecodedUtf16Hex": "0054007900720061006E006F0063006900660020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Staross Méga-Ferox",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 3684,
+      "rawDecodedUtf16Hex": "0053007400610072006F007300730020004D00E900670061002D004600650072006F00780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Absol Méga-Ferox Z N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 80,
+      "offsetInSection": 3724,
+      "rawDecodedUtf16Hex": "004100620073006F006C0020004D00E900670061002D004600650072006F00780020005A0020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Étouraptor Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 81,
+      "offsetInSection": 3780,
+      "rawDecodedUtf16Hex": "00C90074006F00750072006100700074006F00720020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Nigirigon Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 3840,
+      "rawDecodedUtf16Hex": "004E006900670069007200690067006F006E0020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Mistigrix Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 3900,
+      "rawDecodedUtf16Hex": "004D006900730074006900670072006900780020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Heatran Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 3960,
+      "rawDecodedUtf16Hex": "004800650061007400720061006E0020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Darkrai N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4016,
+      "rawDecodedUtf16Hex": "004400610072006B0072006100690020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Darkrai Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4048,
+      "rawDecodedUtf16Hex": "004400610072006B0072006100690020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Groudon N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4104,
+      "rawDecodedUtf16Hex": "00470072006F00750064006F006E0020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Primo-Groudon Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4136,
+      "rawDecodedUtf16Hex": "005000720069006D006F002D00470072006F00750064006F006E0020004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Kyogre N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 4192,
+      "rawDecodedUtf16Hex": "004B0079006F0067007200650020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Primo-Kyogre Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 4224,
+      "rawDecodedUtf16Hex": "005000720069006D006F002D004B0079006F0067007200650020004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Rayquaza N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 4280,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A00610020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Rayquaza Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 4316,
+      "rawDecodedUtf16Hex": "005200610079007100750061007A00610020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Zeraora Méga-Ferox N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 4372,
+      "rawDecodedUtf16Hex": "005A006500720061006F007200610020004D00E900670061002D004600650072006F00780020004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "N. <U+0010><U+0002>Ȃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4428,
+      "rawDecodedUtf16Hex": "004E002E002000100002020200000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 8
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 4444,
+  "sectionOffset": 16,
+  "textCount": 95,
+  "textSectionCount": 1
+}

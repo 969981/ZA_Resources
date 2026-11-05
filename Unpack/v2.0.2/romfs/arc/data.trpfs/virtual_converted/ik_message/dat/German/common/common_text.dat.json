@@ -1,0 +1,63 @@
+{
+  "declaredLength": 564,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Sicherungsdaten wurden geladen.\nBitte beachte, dass diese Daten gespeichert\nwerden, wenn du deinen Spielstand sicherst.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "0053006900630068006500720075006E006700730064006100740065006E002000770075007200640065006E002000670065006C006100640065006E002E000A0042006900740074006500200062006500610063006800740065002C0020006400610073007300200064006900650073006500200044006100740065006E002000670065007300700065006900630068006500720074000A00770065007200640065006E002C002000770065006E006E0020006400750020006400650069006E0065006E00200053007000690065006C007300740061006E0064002000730069006300680065007200730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 120
+    },
+    {
+      "displayText": "Es liegen keine Sicherungsdaten vor,\ndie geladen werden könnten.\nDu kehrst nun zum Titelbildschirm zurück.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 284,
+      "rawDecodedUtf16Hex": "004500730020006C0069006500670065006E0020006B00650069006E006500200053006900630068006500720075006E006700730064006100740065006E00200076006F0072002C000A006400690065002000670065006C006100640065006E002000770065007200640065006E0020006B00F6006E006E00740065006E002E000A004400750020006B006500680072007300740020006E0075006E0020007A0075006D00200054006900740065006C00620069006C006400730063006800690072006D0020007A0075007200FC0063006B002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Speichervorgang...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "005300700065006900630068006500720076006F007200670061006E0067002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "00100002BDFF00030000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 552,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 564,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

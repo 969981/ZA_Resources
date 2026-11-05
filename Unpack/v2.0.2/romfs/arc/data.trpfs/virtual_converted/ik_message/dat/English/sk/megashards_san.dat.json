@@ -1,0 +1,73 @@
+{
+  "declaredLength": 548,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Would you like to exchange your Mega Shards\nfor something nice?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "0057006F0075006C006400200079006F00750020006C0069006B006500200074006F002000650078006300680061006E0067006500200079006F007500720020004D0065006700610020005300680061007200640073000A0066006F007200200073006F006D0065007400680069006E00670020006E006900630065003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "Yes, please",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 180,
+      "rawDecodedUtf16Hex": "005900650073002C00200070006C00650061007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "No, thanks",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004E006F002C0020007400680061006E006B00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "I’ve got the drives",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "004920190076006500200067006F0074002000740068006500200064007200690076006500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Come again anytime. I get all kinds of nice goods\nin through my back-channel sources...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "0043006F006D006500200061006700610069006E00200061006E007900740069006D0065002E00200049002000670065007400200061006C006C0020006B0069006E006400730020006F00660020006E00690063006500200067006F006F00640073000A0069006E0020007400680072006F0075006700680020006D00790020006200610063006B002D006300680061006E006E0065006C00200073006F00750072006300650073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "I’ve got some real\ngood stuff here! <U+0010><U+0002>봊\nText_icon1",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "004920190076006500200067006F007400200073006F006D00650020007200650061006C000A0067006F006F0064002000730074007500660066002000680065007200650021002000100002BD0A000A0054006500780074005F00690063006F006E00310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 548,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

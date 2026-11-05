@@ -1,0 +1,33 @@
+{
+  "declaredLength": 392,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "C’est un Farfuret porte-bonheur.<U+0010><U+0001>븁\nSa patte droite levée et sa couleur dorée ont\npour but d’attirer la fortune.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "0043201900650073007400200075006E00200046006100720066007500720065007400200070006F007200740065002D0062006F006E0068006500750072002E00100001BE01000A00530061002000700061007400740065002000640072006F0069007400650020006C0065007600E9006500200065007400200073006100200063006F0075006C00650075007200200064006F007200E900650020006F006E0074000A0070006F00750072002000620075007400200064201900610074007400690072006500720020006C006100200066006F007200740075006E0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "Monsieur Corvault est actuellement absent.\nVeuillez quitter les lieux.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "004D006F006E0073006900650075007200200043006F0072007600610075006C00740020006500730074002000610063007400750065006C006C0065006D0065006E007400200061006200730065006E0074002E000A0056006500750069006C006C0065007A002000710075006900740074006500720020006C006500730020006C0069006500750078002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 392,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

@@ -1,0 +1,43 @@
+{
+  "declaredLength": 376,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "２０１<U+0010>\t！<U+0002><U+0004>号室ごうしつ号室\nカギがかかっている……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "FF12FF10FF1100100009FF010002000453F75BA4305430463057306453F75BA4000A30AB30AE304C304B304B306330663044308B2026202600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "２０３<U+0010>\t！<U+0002><U+0004>号室ごうしつ号室\nカギがかかっている……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 144,
+      "rawDecodedUtf16Hex": "FF12FF10FF1300100009FF010002000453F75BA4305430463057306453F75BA4000A30AB30AE304C304B304B306330663044308B2026202600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "２０４<U+0010>\t！<U+0002><U+0004>号室ごうしつ号室\nカギがかかっている……",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "FF12FF10FF1400100009FF010002000453F75BA4305430463057306453F75BA4000A30AB30AE304C304B304B306330663044308B2026202600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 376,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

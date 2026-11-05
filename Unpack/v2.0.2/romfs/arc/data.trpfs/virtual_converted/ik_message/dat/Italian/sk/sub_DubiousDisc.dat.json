@@ -1,0 +1,63 @@
+{
+  "declaredLength": 836,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Se i modelli poligonali continuano a evolversi,\npresto non riusciremo più a distinguere tra<U+0010><U+0001>븀\ngioco e realtà.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "00530065002000690020006D006F00640065006C006C006900200070006F006C00690067006F006E0061006C006900200063006F006E00740069006E00750061006E006F00200061002000650076006F006C00760065007200730069002C000A00700072006500730074006F0020006E006F006E002000720069007500730063006900720065006D006F00200070006900F900200061002000640069007300740069006E00670075006500720065002000740072006100100001BE00000A00670069006F0063006F002000650020007200650061006C007400E0002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "Ma se così fosse... aggiornando Porygon sarebbe\nforse possibile entrare nel mondo del gioco...?<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 276,
+      "rawDecodedUtf16Hex": "004D006100200073006500200063006F007300EC00200066006F007300730065002E002E002E00200061006700670069006F0072006E0061006E0064006F00200050006F007200790067006F006E00200073006100720065006200620065000A0066006F00720073006500200070006F00730073006900620069006C006500200065006E007400720061007200650020006E0065006C0020006D006F006E0064006F002000640065006C002000670069006F0063006F002E002E002E003F00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Perché te lo dico? Perché ho questo disco di\ndubbia origine da darti.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "0050006500720063006800E90020007400650020006C006F0020006400690063006F003F00200050006500720063006800E900200068006F002000710075006500730074006F00200064006900730063006F002000640069000A0064007500620062006900610020006F0072006900670069006E0065002000640061002000640061007200740069002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Prova a darlo a Porygon2 e a fare uno scambio.<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "00500072006F00760061002000610020006400610072006C006F0020006100200050006F007200790067006F006E003200200065002000610020006600610072006500200075006E006F0020007300630061006D00620069006F002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Forse anch’io... appartengo al mondo del gioco...<U+0010><U+0002>ĔƯ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "0046006F00720073006500200061006E0063006820190069006F002E002E002E00200061007000700061007200740065006E0067006F00200061006C0020006D006F006E0064006F002000640065006C002000670069006F0063006F002E002E002E00100002011401AF0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 836,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

@@ -1,0 +1,443 @@
+{
+  "declaredLength": 5016,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 348,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Si tu cherches Nivis, il n’est pas là.\nMais du coup, c’est l’occasion parfaite...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 360,
+      "rawDecodedUtf16Hex": "005300690020007400750020006300680065007200630068006500730020004E0069007600690073002C00200069006C0020006E201900650073007400200070006100730020006C00E0002E000A004D00610069007300200064007500200063006F00750070002C0020006320190065007300740020006C2019006F00630063006100730069006F006E002000700061007200660061006900740065002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "... pour te lancer un défi, <U+0010><U+0002>Ā<U+0000> !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 532,
+      "rawDecodedUtf16Hex": "002E002E002E00200070006F007500720020007400650020006C0061006E00630065007200200075006E0020006400E900660069002C002000100002010000000020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "En l’absence de Nivis, c’est à moi de prendre\nles initiatives nécessaires pour m’améliorer !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 612,
+      "rawDecodedUtf16Hex": "0045006E0020006C20190061006200730065006E006300650020006400650020004E0069007600690073002C002000632019006500730074002000E00020006D006F00690020006400650020007000720065006E006400720065000A006C0065007300200069006E0069007400690061007400690076006500730020006E00E900630065007300730061006900720065007300200070006F007500720020006D20190061006D00E9006C0069006F0072006500720020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "Je te laisse du temps pour te préparer au duel.\nViens me parler quand ton équipe sera prête !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 808,
+      "rawDecodedUtf16Hex": "004A00650020007400650020006C00610069007300730065002000640075002000740065006D0070007300200070006F0075007200200074006500200070007200E9007000610072006500720020006100750020006400750065006C002E000A005600690065006E00730020006D00650020007000610072006C006500720020007100750061006E006400200074006F006E002000E9007100750069007000650020007300650072006100200070007200EA007400650020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "C’est pour notre duel ? Ou est-ce que tu as besoin\nde moi pour une capacité Plus ?<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006F007500720020006E006F0074007200650020006400750065006C0020003F0020004F00750020006500730074002D0063006500200071007500650020007400750020006100730020006200650073006F0069006E000A006400650020006D006F006900200070006F0075007200200075006E00650020006300610070006100630069007400E900200050006C007500730020003F00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Pour le duel !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1192,
+      "rawDecodedUtf16Hex": "0050006F007500720020006C00650020006400750065006C002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Pour une capacité Plus...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "0050006F0075007200200075006E00650020006300610070006100630069007400E900200050006C00750073002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Finalement, je n’ai besoin de rien.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1276,
+      "rawDecodedUtf16Hex": "00460069006E0061006C0065006D0065006E0074002C0020006A00650020006E2019006100690020006200650073006F0069006E0020006400650020007200690065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "Hum, je suis sûre que tu as beaucoup de choses\nà faire, de ton côté...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1348,
+      "rawDecodedUtf16Hex": "00480075006D002C0020006A0065002000730075006900730020007300FB007200650020007100750065002000740075002000610073002000620065006100750063006F00750070002000640065002000630068006F007300650073000A00E0002000660061006900720065002C00200064006500200074006F006E0020006300F4007400E9002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Montre-moi ce que vaut un<U+0010><U+0003>ᄀÿଉ Dresseure Dresseuse\nqui a atteint le rang A au Royale Z-A !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1500,
+      "rawDecodedUtf16Hex": "004D006F006E007400720065002D006D006F006900200063006500200071007500650020007600610075007400200075006E00100003110000FF0B0900200044007200650073007300650075007200650020004400720065007300730065007500730065000A00710075006900200061002000610074007400650069006E00740020006C0065002000720061006E00670020004100200061007500200052006F00790061006C00650020005A002D00410020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "C’est pour le duel ?<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "0043201900650073007400200070006F007500720020006C00650020006400750065006C0020003F00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1744,
+      "rawDecodedUtf16Hex": "00100002BDFF000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Tu es vraiment l<U+0010><U+0003>ᄀÿāea Dresseu<U+0010><U+0003>ᄀÿȁrse l<U+0010><U+0003>ᄀÿāea plus fort<U+0010><U+0003>ᄀÿĀe\nde tout Illumis !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1756,
+      "rawDecodedUtf16Hex": "0054007500200065007300200076007200610069006D0065006E00740020006C00100003110000FF0101006500610020004400720065007300730065007500100003110000FF02010072007300650020006C00100003110000FF01010065006100200070006C0075007300200066006F0072007400100003110000FF01000065000A0064006500200074006F0075007400200049006C006C0075006D006900730020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Alors que moi, en comparaison...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 1932,
+      "rawDecodedUtf16Hex": "0041006C006F0072007300200071007500650020006D006F0069002C00200065006E00200063006F006D007000610072006100690073006F006E002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "... je stagne.<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2008,
+      "rawDecodedUtf16Hex": "002E002E002E0020006A006500200073007400610067006E0065002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Je ne mérite pas de faire partie des Poings de la\nJustice... ni de me présenter devant Nivis...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2048,
+      "rawDecodedUtf16Hex": "004A00650020006E00650020006D00E9007200690074006500200070006100730020006400650020006600610069007200650020007000610072007400690065002000640065007300200050006F0069006E006700730020006400650020006C0061000A004A007500730074006900630065002E002E002E0020006E00690020006400650020006D006500200070007200E900730065006E00740065007200200064006500760061006E00740020004E0069007600690073002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Ma seule présence est une insulte aux autres\nmembres...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "004D00610020007300650075006C006500200070007200E900730065006E00630065002000650073007400200075006E006500200069006E00730075006C0074006500200061007500780020006100750074007200650073000A006D0065006D0062007200650073002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "DARBAAAR !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2368,
+      "rawDecodedUtf16Hex": "0044004100520042004100410041005200200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "BARDAAAR !!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2396,
+      "rawDecodedUtf16Hex": "0042004100520044004100410041005200200021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Oh, non ! C’est les deux Pandarbare !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "004F0068002C0020006E006F006E002000210020004320190065007300740020006C0065007300200064006500750078002000500061006E00640061007200620061007200650020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Ces deux-là passent leur temps en dehors\ndes zones sauvages à semer le chaos !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "00430065007300200064006500750078002D006C00E0002000700061007300730065006E00740020006C006500750072002000740065006D0070007300200065006E0020006400650068006F00720073000A0064006500730020007A006F006E00650073002000730061007500760061006700650073002000E0002000730065006D006500720020006C00650020006300680061006F00730020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Ils sont très dangereux, même Nivis a du mal\nà les repousser sans encombre !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2676,
+      "rawDecodedUtf16Hex": "0049006C007300200073006F006E007400200074007200E80073002000640061006E006700650072006500750078002C0020006D00EA006D00650020004E0069007600690073002000610020006400750020006D0061006C000A00E00020006C006500730020007200650070006F00750073007300650072002000730061006E007300200065006E0063006F006D0062007200650020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Mais il n’est pas là, en ce moment...\nJe suis la seule à pouvoir protéger le dojo !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2840,
+      "rawDecodedUtf16Hex": "004D00610069007300200069006C0020006E201900650073007400200070006100730020006C00E0002C00200065006E0020006300650020006D006F006D0065006E0074002E002E002E000A004A0065002000730075006900730020006C00610020007300650075006C0065002000E000200070006F00750076006F00690072002000700072006F007400E90067006500720020006C006500200064006F006A006F0020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> ! Donne-moi un coup de main,\ns’il te plaît !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "00100002010000000020002100200044006F006E006E0065002D006D006F006900200075006E00200063006F007500700020006400650020006D00610069006E002C000A007320190069006C00200074006500200070006C006100EE00740020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3124,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bien joué !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3136,
+      "rawDecodedUtf16Hex": "004200690065006E0020006A006F007500E90020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Dar ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3168,
+      "rawDecodedUtf16Hex": "0044006100720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Eh, vous deux ! La sortie, c’est par là-bas !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 29,
+      "offsetInSection": 3180,
+      "rawDecodedUtf16Hex": "00450068002C00200076006F0075007300200064006500750078002000210020004C006100200073006F0072007400690065002C00200063201900650073007400200070006100720020006C00E0002D0062006100730020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "... Nivis !!!<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3280,
+      "rawDecodedUtf16Hex": "002E002E002E0020004E0069007600690073002000210021002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> ? Germaine ?\nÉtait-ce encore ces deux Pandarbare ?<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3316,
+      "rawDecodedUtf16Hex": "00100002010000000020003F0020004700650072006D00610069006E00650020003F000A00C90074006100690074002D0063006500200065006E0063006F00720065002000630065007300200064006500750078002000500061006E00640061007200620061007200650020003F00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Oui ! Ils ont essayé de mettre à sac le dojo, mais\n<U+0010><U+0002>Ā<U+0000> et moi les avons repoussés !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 3436,
+      "rawDecodedUtf16Hex": "004F007500690020002100200049006C00730020006F006E007400200065007300730061007900E90020006400650020006D00650074007400720065002000E000200073006100630020006C006500200064006F006A006F002C0020006D006100690073000A00100002010000000020006500740020006D006F00690020006C00650073002000610076006F006E00730020007200650070006F00750073007300E900730020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "L<U+0010><U+0003>ᄀÿਉe sauveura sauveuse d’Illumis n’a pas volé sa réputation.\nJ’ai pu ressentir toute sa puissance, aujourd’hui.<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3616,
+      "rawDecodedUtf16Hex": "004C00100003110000FF0A0900650020007300610075007600650075007200610020007300610075007600650075007300650020006420190049006C006C0075006D006900730020006E20190061002000700061007300200076006F006C00E90020007300610020007200E9007000750074006100740069006F006E002E000A004A201900610069002000700075002000720065007300730065006E00740069007200200074006F0075007400650020007300610020007000750069007300730061006E00630065002C002000610075006A006F0075007200642019006800750069002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 119
+    },
+    {
+      "displayText": "Et voir à quel point je suis nulle à côté...<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 34,
+      "offsetInSection": 3856,
+      "rawDecodedUtf16Hex": "0045007400200076006F00690072002000E00020007100750065006C00200070006F0069006E00740020006A0065002000730075006900730020006E0075006C006C0065002000E00020006300F4007400E9002E002E002E00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "Germaine.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3956,
+      "rawDecodedUtf16Hex": "004700650072006D00610069006E0065002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Oui ?<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 36,
+      "offsetInSection": 3984,
+      "rawDecodedUtf16Hex": "004F007500690020003F00100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Si tu avais été nulle, tu crois que tu aurais pu\nte battre aux côtés <U+0010><U+0003>ᐈ<U+0000><U+0001><U+0010><U+0002>Ā<U+0000> ?<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4004,
+      "rawDecodedUtf16Hex": "00530069002000740075002000610076006100690073002000E9007400E90020006E0075006C006C0065002C002000740075002000630072006F0069007300200071007500650020007400750020006100750072006100690073002000700075000A00740065002000620061007400740072006500200061007500780020006300F4007400E9007300200010000314080000000100100002010000000020003F00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "Si j’ai pu m’absenter, c’est parce que je savais que\nje laissais le dojo entre de bonnes mains.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4176,
+      "rawDecodedUtf16Hex": "005300690020006A2019006100690020007000750020006D20190061006200730065006E007400650072002C00200063201900650073007400200070006100720063006500200071007500650020006A006500200073006100760061006900730020007100750065000A006A00650020006C00610069007300730061006900730020006C006500200064006F006A006F00200065006E00740072006500200064006500200062006F006E006E006500730020006D00610069006E0073002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Reconnaître la distance qui te sépare du sommet\nmontre que tu es consciente de tes faiblesses.<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4376,
+      "rawDecodedUtf16Hex": "005200650063006F006E006E006100EE0074007200650020006C0061002000640069007300740061006E0063006500200071007500690020007400650020007300E9007000610072006500200064007500200073006F006D006D00650074000A006D006F006E007400720065002000710075006500200074007500200065007300200063006F006E0073006300690065006E00740065002000640065002000740065007300200066006100690062006C00650073007300650073002E00100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "Mais n’ignore pas ta force ! Tu as encore\nun long chemin devant toi. La prochaine fois,<U+0010><U+0001>븀\non repoussera les Pandarbare ensemble !<U+0010><U+0002>Ĕ<U+0011>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4576,
+      "rawDecodedUtf16Hex": "004D0061006900730020006E201900690067006E006F00720065002000700061007300200074006100200066006F0072006300650020002100200054007500200061007300200065006E0063006F00720065000A0075006E0020006C006F006E00670020006300680065006D0069006E00200064006500760061006E007400200074006F0069002E0020004C0061002000700072006F0063006800610069006E006500200066006F00690073002C00100001BE00000A006F006E0020007200650070006F0075007300730065007200610020006C00650073002000500061006E006400610072006200610072006500200065006E00730065006D0062006C00650020002100100002011400110000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "À... à vos ordres !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 4848,
+      "rawDecodedUtf16Hex": "00C0002E002E002E002000E000200076006F00730020006F007200640072006500730020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> ! Merci pour tout ce que\ntu as fait aujourd’hui !<U+0010><U+0002>Ĕ3",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4896,
+      "rawDecodedUtf16Hex": "0010000201000000002000210020004D006500720063006900200070006F0075007200200074006F007500740020006300650020007100750065000A0074007500200061007300200066006100690074002000610075006A006F00750072006420190068007500690020002100100002011400330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5016,
+  "sectionOffset": 16,
+  "textCount": 43,
+  "textSectionCount": 1
+}

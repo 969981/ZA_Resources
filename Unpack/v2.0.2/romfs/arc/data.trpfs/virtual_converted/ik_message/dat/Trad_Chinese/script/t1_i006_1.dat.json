@@ -1,0 +1,73 @@
+{
+  "declaredLength": 344,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "代理所長人在3樓喔。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "4EE37406624095774EBA572800336A13559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "代理所長正在尋找\n願意協助的人喔。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "4EE37406624095776B6357285C0B627E000A9858610F535452A976844EBA559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "身上最多可同時\n帶著6隻寶可夢。<U+0010><U+0001>븁\n在帶著6隻寶可夢時捉到的\n寶可夢會被送進盒子裡。",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "8EAB4E0A6700591A53EF540C6642000A5E368457003696BB5BF653EF5922300200100001BE01000A57285E368457003696BB5BF653EF59226642634952307684000A5BF653EF5922670388AB9001903276D25B5088E130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "可以把寄放在選單中的\n盒子裡的寶可夢領出來喔。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "53EF4EE5628A5BC4653E5728907855AE4E2D7684000A76D25B5088E176845BF653EF5922981851FA4F86559430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "久違地回到了密阿雷市，\n卻發現博士辭職，街景也變得不同了。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "4E459055573056DE52304E865BC6963F96F75E02FF0C000A537B767C73FE535A58EB8FAD8077FF0C8857666F4E5F8B8A5F974E0D540C4E8630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "歡迎！\n這裡是寶可夢研究所。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "6B618FCEFF01000A901988E1662F5BF653EF592278147A76624030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 344,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

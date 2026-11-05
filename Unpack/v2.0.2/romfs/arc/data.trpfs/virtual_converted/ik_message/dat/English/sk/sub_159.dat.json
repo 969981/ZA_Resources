@@ -1,0 +1,313 @@
+{
+  "declaredLength": 3008,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Pop quiz time!<U+0010><U+0001>븁\nHow many total Pokémon Centers are there in\nLumiose City?<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 244,
+      "rawDecodedUtf16Hex": "0050006F00700020007100750069007A002000740069006D0065002100100001BE01000A0048006F00770020006D0061006E007900200074006F00740061006C00200050006F006B00E9006D006F006E002000430065006E0074006500720073002000610072006500200074006800650072006500200069006E000A004C0075006D0069006F0073006500200043006900740079003F00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 80
+    },
+    {
+      "displayText": "Six",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "0053006900780000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Seven",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 412,
+      "rawDecodedUtf16Hex": "0053006500760065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Eight",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 3,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "004500690067006800740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Nine",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "004E0069006E00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 448,
+      "rawDecodedUtf16Hex": "00540065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Oooh, too bad... The correct answer is nine!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 456,
+      "rawDecodedUtf16Hex": "004F006F006F0068002C00200074006F006F0020006200610064002E002E002E002000540068006500200063006F0072007200650063007400200061006E00730077006500720020006900730020006E0069006E0065002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "That’s right! There are nine!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "005400680061007420190073002000720069006700680074002100200054006800650072006500200061007200650020006E0069006E0065002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Among the nine, this one—the Hibernal Pokémon\nCenter—sells the fewest Poké Balls by far...<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 624,
+      "rawDecodedUtf16Hex": "0041006D006F006E006700200074006800650020006E0069006E0065002C002000740068006900730020006F006E00652014007400680065002000480069006200650072006E0061006C00200050006F006B00E9006D006F006E000A00430065006E007400650072201400730065006C006C00730020007400680065002000660065007700650073007400200050006F006B00E9002000420061006C006C00730020006200790020006600610072002E002E002E00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "I think we could solve that problem if we just had\na certain Pokémon around to help.<U+0010><U+0001>븁\nAnd I’ve got the perfect name for my plan:<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 9,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "00490020007400680069006E006B00200077006500200063006F0075006C006400200073006F006C0076006500200074006800610074002000700072006F0062006C0065006D0020006900660020007700650020006A0075007300740020006800610064000A00610020006300650072007400610069006E00200050006F006B00E9006D006F006E002000610072006F0075006E006400200074006F002000680065006C0070002E00100001BE01000A0041006E00640020004920190076006500200067006F00740020007400680065002000700065007200660065006300740020006E0061006D006500200066006F00720020006D007900200070006C0061006E003A00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 135
+    },
+    {
+      "displayText": "Spore-tacular Sales with a Fun Guy!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1088,
+      "rawDecodedUtf16Hex": "00530070006F00720065002D0074006100630075006C00610072002000530061006C006500730020007700690074006800200061002000460075006E0020004700750079002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Allow me to explain.<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1168,
+      "rawDecodedUtf16Hex": "0041006C006C006F00770020006D006500200074006F0020006500780070006C00610069006E002E00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Don’t you think our countertop looks lonely?\nThere’s so mush-room to liven it up.<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "0044006F006E2019007400200079006F00750020007400680069006E006B0020006F0075007200200063006F0075006E0074006500720074006F00700020006C006F006F006B00730020006C006F006E0065006C0079003F000A005400680065007200652019007300200073006F0020006D007500730068002D0072006F006F006D00200074006F0020006C006900760065006E002000690074002000750070002E00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "But a <U+0010><U+0002>＀<U+0006>Foongus<U+0010><U+0002>＀<U+0000> sitting here would look just like a\nPoké Ball. That kind of Pokémon is sure to lure<U+0010><U+0001>븀\npeople in and make them want to buy Poké Balls!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "00420075007400200061002000100002FF0000060046006F006F006E00670075007300100002FF000000002000730069007400740069006E00670020006800650072006500200077006F0075006C00640020006C006F006F006B0020006A0075007300740020006C0069006B006500200061000A0050006F006B00E9002000420061006C006C002E002000540068006100740020006B0069006E00640020006F006600200050006F006B00E9006D006F006E0020006900730020007300750072006500200074006F0020006C00750072006500100001BE00000A00700065006F0070006C006500200069006E00200061006E00640020006D0061006B00650020007400680065006D002000770061006E007400200074006F002000620075007900200050006F006B00E9002000420061006C006C0073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 161
+    },
+    {
+      "displayText": "Please! Bring me a Foongus!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1716,
+      "rawDecodedUtf16Hex": "0050006C006500610073006500210020004200720069006E00670020006D00650020006100200046006F006F006E006700750073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Do you have that Foongus for me?<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1792,
+      "rawDecodedUtf16Hex": "0044006F00200079006F0075002000680061007600650020007400680061007400200046006F006F006E00670075007300200066006F00720020006D0065003F00100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "A Foongus is amoong us",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "004100200046006F006F006E00670075007300200069007300200061006D006F006F006E00670020007500730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "No, I’m afraid I don’t",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1916,
+      "rawDecodedUtf16Hex": "004E006F002C002000492019006D00200061006600720061006900640020004900200064006F006E201900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Please! I really need a Foongus!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "0050006C00650061007300650021002000490020007200650061006C006C00790020006E0065006500640020006100200046006F006F006E006700750073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Thank you so much for this!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2040,
+      "rawDecodedUtf16Hex": "005400680061006E006B00200079006F007500200073006F0020006D00750063006800200066006F007200200074006800690073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "An alpha Foongus? It’s surprisingly humoongus!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 21,
+      "offsetInSection": 2104,
+      "rawDecodedUtf16Hex": "0041006E00200061006C00700068006100200046006F006F006E006700750073003F00200049007420190073002000730075007200700072006900730069006E0067006C0079002000680075006D006F006F006E006700750073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "A Shiny Foongus? What a spore-tacular surprise!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 22,
+      "offsetInSection": 2208,
+      "rawDecodedUtf16Hex": "00410020005300680069006E007900200046006F006F006E006700750073003F0020005700680061007400200061002000730070006F00720065002D0074006100630075006C00610072002000730075007200700072006900730065002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "It looks just like a Poké Ball! Ohhh, I could stand\nright here admiring it all day!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006A0075007300740020006C0069006B00650020006100200050006F006B00E9002000420061006C006C00210020004F006800680068002C0020004900200063006F0075006C00640020007300740061006E0064000A0072006900670068007400200068006500720065002000610064006D006900720069006E006700200069007400200061006C006C0020006400610079002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "I’m sure everyone who visits will want to buy\nsome Poké Balls now!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 2488,
+      "rawDecodedUtf16Hex": "00492019006D00200073007500720065002000650076006500720079006F006E0065002000770068006F0020007600690073006900740073002000770069006C006C002000770061006E007400200074006F0020006200750079000A0073006F006D006500200050006F006B00E9002000420061006C006C00730020006E006F0077002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "Let’s lure more sales into our Pokémon Center\ntogether, Foongus!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2632,
+      "rawDecodedUtf16Hex": "004C00650074201900730020006C0075007200650020006D006F00720065002000730061006C0065007300200069006E0074006F0020006F0075007200200050006F006B00E9006D006F006E002000430065006E007400650072000A0074006F006700650074006800650072002C00200046006F006F006E006700750073002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "Fwoon...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "00460077006F006F006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "I really can’t thank you enough for bringing me\nsuch a fun little guy to join me here!<U+0010><U+0002>Ĕǆ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 27,
+      "offsetInSection": 2792,
+      "rawDecodedUtf16Hex": "00490020007200650061006C006C0079002000630061006E201900740020007400680061006E006B00200079006F007500200065006E006F00750067006800200066006F00720020006200720069006E00670069006E00670020006D0065000A007300750063006800200061002000660075006E0020006C006900740074006C0065002000670075007900200074006F0020006A006F0069006E0020006D006500200068006500720065002100100002011401C60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2976,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Fwooo...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2988,
+      "rawDecodedUtf16Hex": "00460077006F006F006F002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3008,
+  "sectionOffset": 16,
+  "textCount": 30,
+  "textSectionCount": 1
+}

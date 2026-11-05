@@ -1,0 +1,643 @@
+{
+  "declaredLength": 6212,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hé toi ! T’es <U+0010><U+0002>Ā<U+0000> de la Team MZ,\nc’est ça ? J’ai un truc à te demander !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 508,
+      "rawDecodedUtf16Hex": "004800E900200074006F00690020002100200054201900650073002000100002010000000020006400650020006C00610020005400650061006D0020004D005A002C000A00632019006500730074002000E700610020003F0020004A20190061006900200075006E00200074007200750063002000E0002000740065002000640065006D0061006E0064006500720020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 78
+    },
+    {
+      "displayText": "Tu peux emmener mon Pâtachiot faire\nsa promenade ?<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "005400750020007000650075007800200065006D006D0065006E006500720020006D006F006E0020005000E200740061006300680069006F0074002000660061006900720065000A00730061002000700072006F006D0065006E0061006400650020003F00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Il en a besoin pour rester en bonne santé,\nmais impossible de m’en charger aujourd’hui.<U+0010><U+0001>븀\nJ’ai des choses urgentes à régler...<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 776,
+      "rawDecodedUtf16Hex": "0049006C00200065006E002000610020006200650073006F0069006E00200070006F00750072002000720065007300740065007200200065006E00200062006F006E006E0065002000730061006E007400E9002C000A006D00610069007300200069006D0070006F0073007300690062006C00650020006400650020006D20190065006E00200063006800610072006700650072002000610075006A006F0075007200642019006800750069002E00100001BE00000A004A2019006100690020006400650073002000630068006F00730065007300200075007200670065006E007400650073002000E00020007200E90067006C00650072002E002E002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 132
+    },
+    {
+      "displayText": "Pâta !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1040,
+      "rawDecodedUtf16Hex": "005000E200740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Bref, ça m’aiderait beaucoup que tu lui permettes\nde se dégourdir les pattes !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "0042007200650066002C002000E700610020006D201900610069006400650072006100690074002000620065006100750063006F0075007000200071007500650020007400750020006C007500690020007000650072006D00650074007400650073000A006400650020007300650020006400E90067006F007500720064006900720020006C0065007300200070006100740074006500730020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Viens me voir quand tu seras prêt<U+0010><U+0003>ᄀÿĀe à promener\nPâtachiot !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1224,
+      "rawDecodedUtf16Hex": "005600690065006E00730020006D006500200076006F006900720020007100750061006E006400200074007500200073006500720061007300200070007200EA007400100003110000FF01000065002000E0002000700072006F006D0065006E00650072000A005000E200740061006300680069006F00740020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "T’es prêt<U+0010><U+0003>ᄀÿĀe à promener Pâtachiot ?<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "005420190065007300200070007200EA007400100003110000FF01000065002000E0002000700072006F006D0065006E006500720020005000E200740061006300680069006F00740020003F00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Allons-y !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "0041006C006C006F006E0073002D0079002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Pas maintenant.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "0050006100730020006D00610069006E00740065006E0061006E0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Oh, s’il te plaît ! Promène mon petit Pâtachiot !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 10,
+      "offsetInSection": 1516,
+      "rawDecodedUtf16Hex": "004F0068002C0020007320190069006C00200074006500200070006C006100EE007400200021002000500072006F006D00E8006E00650020006D006F006E0020007000650074006900740020005000E200740061006300680069006F00740020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Laisse-moi t’expliquer son circuit préféré.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1624,
+      "rawDecodedUtf16Hex": "004C00610069007300730065002D006D006F0069002000742019006500780070006C0069007100750065007200200073006F006E0020006300690072006300750069007400200070007200E9006600E9007200E9002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Monte ces escaliers et prends la rue à droite,\ncelle qui est à côté d’une boîte aux lettres jaune.<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "004D006F006E00740065002000630065007300200065007300630061006C00690065007200730020006500740020007000720065006E006400730020006C00610020007200750065002000E0002000640072006F006900740065002C000A00630065006C006C006500200071007500690020006500730074002000E00020006300F4007400E90020006420190075006E006500200062006F00EE0074006500200061007500780020006C0065007400740072006500730020006A00610075006E0065002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "Il aime faire le tour de la zone sauvage !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 13,
+      "offsetInSection": 1928,
+      "rawDecodedUtf16Hex": "0049006C002000610069006D00650020006600610069007200650020006C006500200074006F007500720020006400650020006C00610020007A006F006E0065002000730061007500760061006700650020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Sur ce, Pâtachiot, va te promener !\nEt sois bien sage !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2024,
+      "rawDecodedUtf16Hex": "005300750072002000630065002C0020005000E200740061006300680069006F0074002C002000760061002000740065002000700072006F006D0065006E0065007200200021000A0045007400200073006F006900730020006200690065006E002000730061006700650020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 60
+    },
+    {
+      "displayText": "Pâta.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "005000E200740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Je compte sur toi pour promener mon Pâtachiot !\nReviens ici quand t’auras fini !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2156,
+      "rawDecodedUtf16Hex": "004A006500200063006F006D007000740065002000730075007200200074006F006900200070006F00750072002000700072006F006D0065006E006500720020006D006F006E0020005000E200740061006300680069006F007400200021000A00520065007600690065006E007300200069006300690020007100750061006E006400200074201900610075007200610073002000660069006E00690020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "... Pâta ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2328,
+      "rawDecodedUtf16Hex": "002E002E002E0020005000E2007400610020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0012>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2352,
+      "rawDecodedUtf16Hex": "00100002BDFF00120000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Oh ! Mais c’est le Pâtachiot de la boulangère !\nTu te promènes avec un<U+0010><U+0003>ᄀÿਇ jeunote jeunotte aujourd’hui ?<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 19,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "004F0068002000210020004D0061006900730020006320190065007300740020006C00650020005000E200740061006300680069006F00740020006400650020006C006100200062006F0075006C0061006E006700E80072006500200021000A00540075002000740065002000700072006F006D00E8006E006500730020006100760065006300200075006E00100003110000FF0A070020006A00650075006E006F007400650020006A00650075006E006F007400740065002000610075006A006F00750072006420190068007500690020003F00100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "Pâtatata ! ♪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2588,
+      "rawDecodedUtf16Hex": "005000E2007400610074006100740061002000210020266A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Comme tu es gentil !\nProfite bien de ta promenade !<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "0043006F006D006D0065002000740075002000650073002000670065006E00740069006C00200021000A00500072006F00660069007400650020006200690065006E002000640065002000740061002000700072006F006D0065006E0061006400650020002100100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "... tachiot.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "002E002E002E002000740061006300680069006F0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Je croise souvent le Pâtachiot de la boulangère\nquand je me promène !<U+0010><U+0002>Ĕ$",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2756,
+      "rawDecodedUtf16Hex": "004A0065002000630072006F00690073006500200073006F007500760065006E00740020006C00650020005000E200740061006300680069006F00740020006400650020006C006100200062006F0075006C0061006E006700E800720065000A007100750061006E00640020006A00650020006D0065002000700072006F006D00E8006E00650020002100100002011400240000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2904,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Vous vous êtes trop éloigné<U+0010><U+0003>ᄀÿĀe de Pâtachiot...",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2916,
+      "rawDecodedUtf16Hex": "0056006F0075007300200076006F00750073002000EA007400650073002000740072006F0070002000E9006C006F00690067006E00E900100003110000FF010000650020006400650020005000E200740061006300680069006F0074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3016,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Grrr...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3028,
+      "rawDecodedUtf16Hex": "0047007200720072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Allons, Grondogue, du calme !<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3044,
+      "rawDecodedUtf16Hex": "0041006C006C006F006E0073002C002000470072006F006E0064006F006700750065002C002000640075002000630061006C006D00650020002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Pardon, mon Grondogue veut toujours montrer\nqu’il est le plus fort...<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3112,
+      "rawDecodedUtf16Hex": "0050006100720064006F006E002C0020006D006F006E002000470072006F006E0064006F0067007500650020007600650075007400200074006F0075006A006F0075007200730020006D006F006E0074007200650072000A0071007520190069006C00200065007300740020006C006500200070006C0075007300200066006F00720074002E002E002E00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    },
+    {
+      "displayText": "Pas de souci !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3260,
+      "rawDecodedUtf16Hex": "00500061007300200064006500200073006F007500630069002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Il a l’air très énergique !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 31,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "0049006C002000610020006C201900610069007200200074007200E80073002000E9006E0065007200670069007100750065002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Il me pose bien des problèmes...\nPar contre, votre Pâtachiot a l’air adorable !<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 32,
+      "offsetInSection": 3348,
+      "rawDecodedUtf16Hex": "0049006C0020006D006500200070006F007300650020006200690065006E0020006400650073002000700072006F0062006C00E8006D00650073002E002E002E000A00500061007200200063006F006E007400720065002C00200076006F0074007200650020005000E200740061006300680069006F0074002000610020006C2019006100690072002000610064006F007200610062006C00650020002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Oh ! Vous le promenez à la place de\nsa propriétaire ?<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3516,
+      "rawDecodedUtf16Hex": "004F00680020002100200056006F007500730020006C0065002000700072006F006D0065006E0065007A002000E00020006C006100200070006C006100630065002000640065000A00730061002000700072006F00700072006900E9007400610069007200650020003F00100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Gron ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3632,
+      "rawDecodedUtf16Hex": "00470072006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Pâta.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3648,
+      "rawDecodedUtf16Hex": "005000E200740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Ha ha ! Les Pokémon deviennent tout de suite\nplus amicaux quand leurs Dresseurs discutent !<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3660,
+      "rawDecodedUtf16Hex": "00480061002000680061002000210020004C0065007300200050006F006B00E9006D006F006E002000640065007600690065006E006E0065006E007400200074006F00750074002000640065002000730075006900740065000A0070006C0075007300200061006D006900630061007500780020007100750061006E00640020006C0065007500720073002000440072006500730073006500750072007300200064006900730063007500740065006E00740020002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 96
+    },
+    {
+      "displayText": "À la prochaine, Pâtachiot !<U+0010><U+0002>Ĕ ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 37,
+      "offsetInSection": 3852,
+      "rawDecodedUtf16Hex": "00C00020006C0061002000700072006F0063006800610069006E0065002C0020005000E200740061006300680069006F00740020002100100002011400200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "... tachiot.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3916,
+      "rawDecodedUtf16Hex": "002E002E002E002000740061006300680069006F0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿'",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3944,
+      "rawDecodedUtf16Hex": "00100002BDFF00270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Pâtatata !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3956,
+      "rawDecodedUtf16Hex": "005000E2007400610074006100740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Oh, il est trop mimi !<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 3980,
+      "rawDecodedUtf16Hex": "004F0068002C00200069006C0020006500730074002000740072006F00700020006D0069006D00690020002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Moi, je sais comment il s’appelle ce Pokémon !\nC’est un Pâtachiot !<U+0010><U+0002>Ĕ\"",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4036,
+      "rawDecodedUtf16Hex": "004D006F0069002C0020006A00650020007300610069007300200063006F006D006D0065006E007400200069006C0020007320190061007000700065006C006C006500200063006500200050006F006B00E9006D006F006E00200021000A0043201900650073007400200075006E0020005000E200740061006300680069006F00740020002100100002011400220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 72
+    },
+    {
+      "displayText": "Pâta.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4180,
+      "rawDecodedUtf16Hex": "005000E200740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Est-ce qu’on peut jouer avec lui ?<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 44,
+      "offsetInSection": 4192,
+      "rawDecodedUtf16Hex": "004500730074002D006300650020007100752019006F006E002000700065007500740020006A006F007500650072002000610076006500630020006C007500690020003F00100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Pâtata !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "005000E20074006100740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Pâtachiot a fait sa promenade, et en plus,\nil s’est bien amusé. Il a l’air ravi !<U+0010><U+0001>븀\nRetournez voir sa propriétaire.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4292,
+      "rawDecodedUtf16Hex": "005000E200740061006300680069006F00740020006100200066006100690074002000730061002000700072006F006D0065006E006100640065002C00200065007400200065006E00200070006C00750073002C000A0069006C0020007320190065007300740020006200690065006E00200061006D0075007300E9002E00200049006C002000610020006C2019006100690072002000720061007600690020002100100001BE00000A005200650074006F00750072006E0065007A00200076006F00690072002000730061002000700072006F00700072006900E900740061006900720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 117
+    },
+    {
+      "displayText": "Pâta !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 4528,
+      "rawDecodedUtf16Hex": "005000E200740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "... tachiot.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4544,
+      "rawDecodedUtf16Hex": "002E002E002E002000740061006300680069006F0074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Eh ben moi, je sais que les Pâtachiot, ça évolue\nen Briochien ! Et toc !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 49,
+      "offsetInSection": 4572,
+      "rawDecodedUtf16Hex": "00450068002000620065006E0020006D006F0069002C0020006A00650020007300610069007300200071007500650020006C006500730020005000E200740061006300680069006F0074002C002000E70061002000E90076006F006C00750065000A0065006E0020004200720069006F0063006800690065006E0020002100200045007400200074006F0063002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "Il est TROP mignon, Pâtachiot !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 4720,
+      "rawDecodedUtf16Hex": "0049006C0020006500730074002000540052004F00500020006D00690067006E006F006E002C0020005000E200740061006300680069006F0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Ce Pâtachiot... C’est celui de la boulangère, non ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4784,
+      "rawDecodedUtf16Hex": "004300650020005000E200740061006300680069006F0074002E002E002E002000432019006500730074002000630065006C007500690020006400650020006C006100200062006F0075006C0061006E006700E800720065002C0020006E006F006E0020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 4888,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Alors, Pâtachiot ! T’as fait une jolie promenade ?<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 53,
+      "offsetInSection": 4900,
+      "rawDecodedUtf16Hex": "0041006C006F00720073002C0020005000E200740061006300680069006F007400200021002000542019006100730020006600610069007400200075006E00650020006A006F006C00690065002000700072006F006D0065006E0061006400650020003F00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Pâtatata !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5012,
+      "rawDecodedUtf16Hex": "005000E2007400610074006100740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Merci beaucoup, <U+0010><U+0002>Ā<U+0000> !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 5036,
+      "rawDecodedUtf16Hex": "004D0065007200630069002000620065006100750063006F00750070002C002000100002010000000020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Je sais pas si tu savais, mais les Pâtachiot\nexpirent de la levure qui favorise la fermentation.<U+0010><U+0001>븁\nEt depuis que j’ai adopté celui-ci, les ventes de\nmes baguettes ont explosé, ce qui me laisse<U+0010><U+0001>븀\nplus assez de temps pour le promener...<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 5092,
+      "rawDecodedUtf16Hex": "004A00650020007300610069007300200070006100730020007300690020007400750020007300610076006100690073002C0020006D0061006900730020006C006500730020005000E200740061006300680069006F0074000A006500780070006900720065006E00740020006400650020006C00610020006C0065007600750072006500200071007500690020006600610076006F00720069007300650020006C00610020006600650072006D0065006E0074006100740069006F006E002E00100001BE01000A00450074002000640065007000750069007300200071007500650020006A201900610069002000610064006F0070007400E9002000630065006C00750069002D00630069002C0020006C00650073002000760065006E007400650073002000640065000A006D0065007300200062006100670075006500740074006500730020006F006E00740020006500780070006C006F007300E9002C00200063006500200071007500690020006D00650020006C0061006900730073006500100001BE00000A0070006C0075007300200061007300730065007A002000640065002000740065006D0070007300200070006F007500720020006C0065002000700072006F006D0065006E00650072002E002E002E00100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 241
+    },
+    {
+      "displayText": "Mais à partir d’aujourd’hui, je produirai moins\nde pain, et je passerai plus de temps avec lui !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5576,
+      "rawDecodedUtf16Hex": "004D006100690073002000E0002000700061007200740069007200200064201900610075006A006F0075007200642019006800750069002C0020006A0065002000700072006F0064007500690072006100690020006D006F0069006E0073000A006400650020007000610069006E002C0020006500740020006A006500200070006100730073006500720061006900200070006C00750073002000640065002000740065006D00700073002000610076006500630020006C007500690020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "J’ai l’impression que tout le monde sait mieux\nque moi à quel point Pâtachiot est adorable...<U+0010><U+0001>븀\nIl faut que ça change !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 5780,
+      "rawDecodedUtf16Hex": "004A2019006100690020006C20190069006D007000720065007300730069006F006E002000710075006500200074006F007500740020006C00650020006D006F006E00640065002000730061006900740020006D0069006500750078000A0071007500650020006D006F0069002000E00020007100750065006C00200070006F0069006E00740020005000E200740061006300680069006F00740020006500730074002000610064006F007200610062006C0065002E002E002E00100001BE00000A0049006C002000660061007500740020007100750065002000E700610020006300680061006E006700650020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 125
+    },
+    {
+      "displayText": "Pâtachiot !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 6032,
+      "rawDecodedUtf16Hex": "005000E200740061006300680069006F0074002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6056,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Je veux savoir à quel point mon Pâtachiot est\nadorable !<U+0010><U+0002>Ĕǃ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6068,
+      "rawDecodedUtf16Hex": "004A0065002000760065007500780020007300610076006F00690072002000E00020007100750065006C00200070006F0069006E00740020006D006F006E0020005000E200740061006300680069006F00740020006500730074000A00610064006F007200610062006C00650020002100100002011401C30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Pâtata !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6192,
+      "rawDecodedUtf16Hex": "005000E20074006100740061002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 6212,
+  "sectionOffset": 16,
+  "textCount": 63,
+  "textSectionCount": 1
+}

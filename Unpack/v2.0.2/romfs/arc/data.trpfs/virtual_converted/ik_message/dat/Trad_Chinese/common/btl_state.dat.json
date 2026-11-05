@@ -1,0 +1,2253 @@
+{
+  "declaredLength": 8528,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002BDFF00010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "大晴天",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1820,
+      "rawDecodedUtf16Hex": "5927667459290000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "天氣為晴朗狀態。\n火屬性的招式威力會提高。\n水屬性的招式威力會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1828,
+      "rawDecodedUtf16Hex": "59296C2370BA6674671772C0614B3002000A706B5C6C6027768462DB5F0F5A01529B670363D09AD83002000A6C345C6C6027768462DB5F0F5A01529B6703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "下雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "4E0B96E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天氣為下雨狀態。\n水屬性的招式威力會提高。\n火屬性的招式威力會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "59296C2370BA4E0B96E872C0614B3002000A6C345C6C6027768462DB5F0F5A01529B670363D09AD83002000A706B5C6C6027768462DB5F0F5A01529B6703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "沙暴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "6C9966B40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天氣為沙暴狀態。\n岩石、地面和鋼屬性以外的寶可夢\n每回合會受到傷害。\n岩石屬性寶可夢的特防會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1988,
+      "rawDecodedUtf16Hex": "59296C2370BA6C9966B472C0614B3002000A5CA977F3300157309762548C92FC5C6C60274EE5591676845BF653EF5922000A6BCF56DE5408670353D7523050B75BB33002000A5CA977F35C6C60275BF653EF5922768472799632670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "下雪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2088,
+      "rawDecodedUtf16Hex": "4E0B96EA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天氣為下雪狀態。\n暴風雪容易命中對手。\n冰屬性寶可夢的防禦會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "59296C2370BA4E0B96EA72C0614B3002000A66B498A896EA5BB96613547D4E2D5C0D624B3002000A51B05C6C60275BF653EF59227684963279A6670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "電氣場地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2164,
+      "rawDecodedUtf16Hex": "96FB6C23583457300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n地面上的寶可夢不會陷入睡眠狀態。\n電屬性的招式威力會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2176,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A573097624E0A76845BF653EF59224E0D6703967751657761772072C0614B3002000A96FB5C6C6027768462DB5F0F5A01529B670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "青草場地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2252,
+      "rawDecodedUtf16Hex": "97528349583457300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n地面上的寶可夢會緩緩回復ＨＰ。\n草屬性的招式威力會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2264,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A573097624E0A76845BF653EF592267037DE97DE956DE5FA9FF28FF303002000A83495C6C6027768462DB5F0F5A01529B670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "薄霧場地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2336,
+      "rawDecodedUtf16Hex": "85849727583457300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n地面上的寶可夢不會陷入異常狀態。\n龍屬性的招式傷害會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A573097624E0A76845BF653EF59224E0D67039677516575705E3872C0614B3002000A9F8D5C6C6027768462DB5F0F50B75BB367036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "戲法空間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "62326CD57A7A95930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n速度慢的寶可夢可以先行動。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 2436,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A901F5EA6616276845BF653EF592253EF4EE55148884C52D530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "魔法空間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 2480,
+      "rawDecodedUtf16Hex": "9B546CD57A7A95930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n無法使用持有物。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A71216CD54F7F752863016709726930020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "奇妙空間",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2524,
+      "rawDecodedUtf16Hex": "594759997A7A95930000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n寶可夢的防禦和特防會互換。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2536,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A5BF653EF59227684963279A6548C7279963267034E9263DB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "易中要害",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "66134E2D89815BB30000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "擊中對手要害的機率變高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2592,
+      "rawDecodedUtf16Hex": "64CA4E2D5C0D624B89815BB376846A5F73878B8A9AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "混亂",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2620,
+      "rawDecodedUtf16Hex": "6DF74E820000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在１～４回合內，\n有時會攻擊自己。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2628,
+      "rawDecodedUtf16Hex": "5728FF11FF5EFF1456DE54085167FF0C000A670966426703653B64CA81EA5DF130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "著迷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2664,
+      "rawDecodedUtf16Hex": "84578FF70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "♂對♀的攻擊變得不易發動，\n♀對♂的攻擊變得不易發動。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2672,
+      "rawDecodedUtf16Hex": "26425C0D26407684653B64CA8B8A5F974E0D6613767C52D5FF0C000A26405C0D26427684653B64CA8B8A5F974E0D6613767C52D530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "惡夢",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "60E159220000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在睡著的期間，\n每回合ＨＰ會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2736,
+      "rawDecodedUtf16Hex": "5728776184577684671F9593FF0C000A6BCF56DE5408FF28FF3067036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "睡意",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "7761610F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "被招式擊中的下一回合，\n會陷入睡眠狀態。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2780,
+      "rawDecodedUtf16Hex": "88AB62DB5F0F64CA4E2D76844E0B4E0056DE5408FF0C000A6703967751657761772072C0614B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "再來一次",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2824,
+      "rawDecodedUtf16Hex": "518D4F864E006B210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "受到再來一次的攻擊，\n接下來３次行動就只能\n使出<U+0010><U+0002>ć<U+0000>。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 2836,
+      "rawDecodedUtf16Hex": "53D75230518D4F864E006B217684653B64CAFF0C000A63A54E0B4F86FF136B21884C52D55C3153EA80FD000A4F7F51FA001000020107000030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "特性消失",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2896,
+      "rawDecodedUtf16Hex": "727960276D8859310000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "特性消失，無法發揮效果。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2908,
+      "rawDecodedUtf16Hex": "727960276D885931FF0C71216CD5767C63EE6548679C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "無理取鬧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "7121740653D69B270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "無法連續使出同樣的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "71216CD590237E8C4F7F51FA540C6A23768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "順風",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2976,
+      "rawDecodedUtf16Hex": "980698A80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在４回合內，\n上場戰鬥的我方速度會變成２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085167FF0C000A4E0A583462309B257684621165B9901F5EA667038B8A6210FF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "幸運咒語",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3032,
+      "rawDecodedUtf16Hex": "5E78904B54928A9E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "不會被對手的招式擊中要害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 3044,
+      "rawDecodedUtf16Hex": "4E0D670388AB5C0D624B768462DB5F0F64CA4E2D89815BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "怨念",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 3072,
+      "rawDecodedUtf16Hex": "60285FF50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "受到對手的招式攻擊而陷入瀕死時，\n該招式的ＰＰ會變成０。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 3080,
+      "rawDecodedUtf16Hex": "53D752305C0D624B768462DB5F0F653B64CA800C9677516570156B7B6642FF0C000A8A7262DB5F0F7684FF30FF3067038B8A6210FF1030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "回復封鎖",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 3140,
+      "rawDecodedUtf16Hex": "56DE5FA95C0193960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n無法透過招式、特性\n或攜帶的道具回復ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 3152,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A71216CD5900F904E62DB5F0F300172796027000A6216651C5E3676849053517756DE5FA9FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "被識破",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 3212,
+      "rawDecodedUtf16Hex": "88AB8B5878340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "變得會被原本對自己\n無效的特定招式擊中。\n無論有無閃避率提升的效果\n都會受到攻擊。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 3220,
+      "rawDecodedUtf16Hex": "8B8A5F97670388AB539F672C5C0D81EA5DF1000A71216548768472795B9A62DB5F0F64CA4E2D3002000A71218AD6670971219583907F738763D0534776846548679C000A90FD670353D75230653B64CA30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "定身法",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 3304,
+      "rawDecodedUtf16Hex": "5B9A8EAB6CD50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "由於處於定身法的狀態，\n在４回合內\n無法使用<U+0010><U+0002>ć<U+0000>。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 3312,
+      "rawDecodedUtf16Hex": "753165BC865565BC5B9A8EAB6CD5768472C0614BFF0C000A5728FF1456DE54085167000A71216CD54F7F7528001000020107000030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "無法逃走",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 3368,
+      "rawDecodedUtf16Hex": "71216CD590038D700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "無法逃走或進行替換。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 3380,
+      "rawDecodedUtf16Hex": "71216CD590038D7062169032884C66FF63DB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "鎖定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 3404,
+      "rawDecodedUtf16Hex": "93965B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在鎖定後的下一回合，\n招式一定會命中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 3412,
+      "rawDecodedUtf16Hex": "572893965B9A5F8C76844E0B4E0056DE5408FF0C000A62DB5F0F4E005B9A6703547D4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "查封",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "67E55C010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合內\n無法使用持有物和道具。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 3460,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167000A71216CD54F7F7528630167097269548C9053517730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "充電",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 3496,
+      "rawDecodedUtf16Hex": "514596FB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "下次使出的電屬性的\n招式威力會變成２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 3504,
+      "rawDecodedUtf16Hex": "4E0B6B214F7F51FA768496FB5C6C60277684000A62DB5F0F5A01529B67038B8A6210FF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "重力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 3548,
+      "rawDecodedUtf16Hex": "91CD529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合內，\n招式容易命中對手。\n地面屬性的招式也可以擊中\n飛行屬性和飄浮特性的寶可夢。\n無法使用飛向空中的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 3556,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A62DB5F0F5BB96613547D4E2D5C0D624B3002000A573097625C6C6027768462DB5F0F4E5F53EF4EE564CA4E2D000A98DB884C5C6C6027548C98C46D6E7279602776845BF653EF59223002000A71216CD54F7F752898DB54117A7A4E2D768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "白霧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 3672,
+      "rawDecodedUtf16Hex": "767D97270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合內，\n不會被降低能力。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 3680,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A4E0D670388AB964D4F4E80FD529B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "神秘守護",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 3712,
+      "rawDecodedUtf16Hex": "795E79D85B888B770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n不會陷入異常狀態。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 3724,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A4E0D67039677516575705E3872C0614B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "隱形岩",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 3760,
+      "rawDecodedUtf16Hex": "96B15F625CA90000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "替換出場的寶可夢\n會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 3768,
+      "rawDecodedUtf16Hex": "66FF63DB51FA583476845BF653EF5922000A670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "蓄力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "84C4529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在蓄力的期間，\n防禦和特防會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 3808,
+      "rawDecodedUtf16Hex": "572884C4529B7684671F9593FF0C000A963279A6548C72799632670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "挑釁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 3844,
+      "rawDecodedUtf16Hex": "631191C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "只能使用給予對手傷害的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 3852,
+      "rawDecodedUtf16Hex": "53EA80FD4F7F75287D664E885C0D624B50B75BB3768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "意念移物",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 3884,
+      "rawDecodedUtf16Hex": "610F5FF579FB72690000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在３回合內，\n一擊必殺以外的招式必定會擊中。\n地面屬性的招式對自已沒有效果。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 3896,
+      "rawDecodedUtf16Hex": "5728FF1356DE54085167FF0C000A4E0064CA5FC56BBA4EE55916768462DB5F0F5FC55B9A670364CA4E2D3002000A573097625C6C6027768462DB5F0F5C0D81EA5DF26C9267096548679C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "電磁飄浮",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 3976,
+      "rawDecodedUtf16Hex": "96FB78C198C46D6E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n地面屬性的招式對自已沒有效果。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3988,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A573097625C6C6027768462DB5F0F5C0D81EA5DF26C9267096548679C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "毒菱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 4036,
+      "rawDecodedUtf16Hex": "6BD283F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "讓被替換的寶可夢陷入中毒狀態。\n飛行屬性和飄浮特性的寶可夢\n不會被擊中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 4044,
+      "rawDecodedUtf16Hex": "8B9388AB66FF63DB76845BF653EF5922967751654E2D6BD272C0614B3002000A98DB884C5C6C6027548C98C46D6E7279602776845BF653EF5922000A4E0D670388AB64CA4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "玩泥巴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 4120,
+      "rawDecodedUtf16Hex": "73A96CE55DF40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合內，\n電屬性的招式威力會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 4128,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A96FB5C6C6027768462DB5F0F5A01529B67036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "祈願",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 4168,
+      "rawDecodedUtf16Hex": "794898580000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "使用祈願後的下一回合，\n位於該位置的寶可夢會回復ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 4176,
+      "rawDecodedUtf16Hex": "4F7F7528794898585F8C76844E0B4E0056DE5408FF0C000A4F4D65BC8A724F4D7F6E76845BF653EF5922670356DE5FA9FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "黏黏網",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 4232,
+      "rawDecodedUtf16Hex": "9ECF9ECF7DB20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "降低替換出場的寶可夢的速度。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 4240,
+      "rawDecodedUtf16Hex": "964D4F4E66FF63DB51FA583476845BF653EF59227684901F5EA630020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "扎根",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 4272,
+      "rawDecodedUtf16Hex": "624E68390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在每回合結束時回復ＨＰ。\n扎根的寶可夢無法替換。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 4280,
+      "rawDecodedUtf16Hex": "57286BCF56DE54087D50675F664256DE5FA9FF28FF303002000A624E683976845BF653EF592271216CD566FF63DB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "詛咒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 4332,
+      "rawDecodedUtf16Hex": "8A5B54920000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在每回合結束時減少ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 4340,
+      "rawDecodedUtf16Hex": "57286BCF56DE54087D50675F66426E1B5C11FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "萬聖夜",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 4368,
+      "rawDecodedUtf16Hex": "842C8056591C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "寶可夢被追加了幽靈屬性。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 4376,
+      "rawDecodedUtf16Hex": "5BF653EF592288AB8FFD52A04E865E7D97485C6C602730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "光牆",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 4404,
+      "rawDecodedUtf16Hex": "514972460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合內，\n受到的特殊攻擊\n威力會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 4412,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A53D75230768472796B8A653B64CA000A5A01529B67036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "反射壁",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 4456,
+      "rawDecodedUtf16Hex": "53CD5C0458C10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合內，\n受到的物理攻擊\n威力會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 4464,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A53D75230768472697406653B64CA000A5A01529B67036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "封印",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 4508,
+      "rawDecodedUtf16Hex": "5C0153700000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "使出封印的寶可夢\n所學會的招式，\n對手將無法使用。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 4516,
+      "rawDecodedUtf16Hex": "4F7F51FA5C01537076845BF653EF5922000A62405B786703768462DB5F0FFF0C000A5C0D624B5C0771216CD54F7F752830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "滅亡之歌",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 4568,
+      "rawDecodedUtf16Hex": "6EC54EA14E4B6B4C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "聽了滅亡之歌的所有寶可夢\n將在３回合後陷入瀕死。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 4580,
+      "rawDecodedUtf16Hex": "807D4E866EC54EA14E4B6B4C7684624067095BF653EF5922000A5C075728FF1356DE54085F8C9677516570156B7B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "撒菱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "649283F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "替換出場的寶可夢會受到傷害。\n對飛行屬性和飄浮特性的\n寶可夢沒有效果。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 4640,
+      "rawDecodedUtf16Hex": "66FF63DB51FA583476845BF653EF5922670353D7523050B75BB33002000A5C0D98DB884C5C6C6027548C98C46D6E727960277684000A5BF653EF59226C9267096548679C30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "玩水",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 4712,
+      "rawDecodedUtf16Hex": "73A96C340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在５回合內，\n火屬性的招式威力會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 4720,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A706B5C6C6027768462DB5F0F5A01529B67036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "同命",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 4760,
+      "rawDecodedUtf16Hex": "540C547D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "陷入瀕死時，\n攻擊自己的對手\n也會一同陷入瀕死。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 4768,
+      "rawDecodedUtf16Hex": "9677516570156B7B6642FF0C000A653B64CA81EA5DF176845C0D624B000A4E5F67034E00540C9677516570156B7B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "森林詛咒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 4820,
+      "rawDecodedUtf16Hex": "68EE67978A5B54920000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "寶可夢被追加了草屬性。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 4832,
+      "rawDecodedUtf16Hex": "5BF653EF592288AB8FFD52A04E8683495C6C602730020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "寄生種子",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 4856,
+      "rawDecodedUtf16Hex": "5BC4751F7A2E5B500000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "每回合結束時，\n會被寄生種子奪走ＨＰ，\n同時回復對手的ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 4868,
+      "rawDecodedUtf16Hex": "6BCF56DE54087D50675F6642FF0C000A670388AB5BC4751F7A2E5B50596A8D70FF28FF30FF0C000A540C664256DE5FA95C0D624B7684FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "鎖定",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 4932,
+      "rawDecodedUtf16Hex": "93965B9A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "招式必定會命中鎖定了的對手。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 4940,
+      "rawDecodedUtf16Hex": "62DB5F0F5FC55B9A6703547D4E2D93965B9A4E8676845C0D624B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "束縛",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 4972,
+      "rawDecodedUtf16Hex": "675F7E1B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "遭到束縛，\n每回合都會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 4980,
+      "rawDecodedUtf16Hex": "906D5230675F7E1BFF0C000A6BCF56DE540890FD670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "忍耐",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 5016,
+      "rawDecodedUtf16Hex": "5FCD80100000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在２回合內忍受攻擊，\n然後將受到的傷害\n加倍返還給對手。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 5024,
+      "rawDecodedUtf16Hex": "5728FF1256DE540851675FCD53D7653B64CAFF0C000A71365F8C5C0753D75230768450B75BB3000A52A0500D8FD490847D665C0D624B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "逆鱗",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 5084,
+      "rawDecodedUtf16Hex": "90069C570000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在２～３回合內\n瘋狂亂打對手進行攻擊。\n大鬧一番後自己會陷入混亂。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 5092,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085167000A760B72C24E8262535C0D624B9032884C653B64CA3002000A59279B274E00756A5F8C81EA5DF16703967751656DF74E8230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "大鬧一番",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 5160,
+      "rawDecodedUtf16Hex": "59279B274E00756A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "由於處於狂暴狀態，\n在２～３回合內\n會瘋狂亂打對手進行攻擊。\n大鬧一番後自己會陷入混亂。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 5172,
+      "rawDecodedUtf16Hex": "753165BC865565BC72C266B472C0614BFF0C000A5728FF12FF5EFF1356DE54085167000A6703760B72C24E8262535C0D624B9032884C653B64CA3002000A59279B274E00756A5F8C81EA5DF16703967751656DF74E8230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "花瓣舞",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 5264,
+      "rawDecodedUtf16Hex": "82B174E3821E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在２～３回合內\n瘋狂亂打對手進行攻擊。\n大鬧一番後自己會陷入混亂。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 5272,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085167000A760B72C24E8262535C0D624B9032884C653B64CA3002000A59279B274E00756A5F8C81EA5DF16703967751656DF74E8230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "劇毒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 5340,
+      "rawDecodedUtf16Hex": "52876BD20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "劇毒狀態。\n中毒傷害會隨著回合的進行而增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 5348,
+      "rawDecodedUtf16Hex": "52876BD272C0614B3002000A4E2D6BD250B75BB3670396A8845756DE540876849032884C800C589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "未來攻擊",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 5396,
+      "rawDecodedUtf16Hex": "672A4F86653B64CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "被招式攻擊的２回合後，\n會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 5408,
+      "rawDecodedUtf16Hex": "88AB62DB5F0F653B64CA7684FF1256DE54085F8CFF0C000A670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "吵鬧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 5448,
+      "rawDecodedUtf16Hex": "54359B270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在３回合內大吵大鬧攻擊對手，\n在這段期間所有寶可夢\n都不會陷入睡眠狀態。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 5456,
+      "rawDecodedUtf16Hex": "5728FF1356DE540851675927543559279B27653B64CA5C0D624BFF0C000A572890196BB5671F9593624067095BF653EF5922000A90FD4E0D6703967751657761772072C0614B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "水流環",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 5532,
+      "rawDecodedUtf16Hex": "6C346D4174B00000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在自己的身邊套上水流環。\n每回合會回復自己的ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 5540,
+      "rawDecodedUtf16Hex": "572881EA5DF176848EAB908A59574E0A6C346D4174B03002000A6BCF56DE5408670356DE5FA981EA5DF17684FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "身體輕量化",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 5592,
+      "rawDecodedUtf16Hex": "8EAB9AD48F1591CF53160000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "速度會大幅提高，\n體重也會變輕。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 5604,
+      "rawDecodedUtf16Hex": "901F5EA6670359275E4563D09AD8FF0C000A9AD491CD4E5F67038B8A8F1530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "擊落",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 5640,
+      "rawDecodedUtf16Hex": "64CA843D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "被擊落後掉到地面的狀態。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 5648,
+      "rawDecodedUtf16Hex": "88AB64CA843D5F8C6389523057309762768472C0614B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "妖精之鎖",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 5676,
+      "rawDecodedUtf16Hex": "59967CBE4E4B93960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在使用招式的下一回合，\n所有的寶可夢都無法逃走。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 5688,
+      "rawDecodedUtf16Hex": "57284F7F752862DB5F0F76844E0B4E0056DE5408FF0C000A6240670976845BF653EF592290FD71216CD590038D7030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "彩虹",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 5740,
+      "rawDecodedUtf16Hex": "5F6986790000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "招式的追加效果變得\n更容易發動。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 5748,
+      "rawDecodedUtf16Hex": "62DB5F0F76848FFD52A06548679C8B8A5F97000A66F45BB96613767C52D530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "濕地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 5784,
+      "rawDecodedUtf16Hex": "6FD557300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "速度變為原來的１／４。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 5792,
+      "rawDecodedUtf16Hex": "901F5EA68B8A70BA539F4F867684FF11FF0FFF1430020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "火海",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 5816,
+      "rawDecodedUtf16Hex": "706B6D770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "火屬性以外的寶可夢\n每回合會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 5824,
+      "rawDecodedUtf16Hex": "706B5C6C60274EE5591676845BF653EF5922000A6BCF56DE5408670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "大日照",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 5864,
+      "rawDecodedUtf16Hex": "592765E571670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "天氣為大日照狀態。\n會提高火屬性的招式威力。\n不會受到水屬性招式的攻擊。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 5872,
+      "rawDecodedUtf16Hex": "59296C2370BA592765E5716772C0614B3002000A670363D09AD8706B5C6C6027768462DB5F0F5A01529B3002000A4E0D670353D752306C345C6C602762DB5F0F7684653B64CA30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "大雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 5948,
+      "rawDecodedUtf16Hex": "592796E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天氣為大雨狀態。\n會提高水屬性的招式威力。\n不會受到火屬性招式的攻擊。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 5956,
+      "rawDecodedUtf16Hex": "59296C2370BA592796E872C0614B3002000A670363D09AD86C345C6C6027768462DB5F0F5A01529B3002000A4E0D670353D75230706B5C6C602762DB5F0F7684653B64CA30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 36
+    },
+    {
+      "displayText": "亂流",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 6028,
+      "rawDecodedUtf16Hex": "4E826D410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "天氣為亂流狀態。\n對飛行屬性效果絕佳的\n招式威力會變弱。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 6036,
+      "rawDecodedUtf16Hex": "59296C2370BA4E826D4172C0614B3002000A5C0D98DB884C5C6C60276548679C7D554F737684000A62DB5F0F5A01529B67038B8A5F3130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "精神場地",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 6096,
+      "rawDecodedUtf16Hex": "7CBE795E583457300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在５回合內，\n先制招式對地面上的寶可夢無效。\n超能力屬性的招式威力會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 6108,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A5148523662DB5F0F5C0D573097624E0A76845BF653EF5922712165483002000A8D8580FD529B5C6C6027768462DB5F0F5A01529B670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "地獄突刺",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 6184,
+      "rawDecodedUtf16Hex": "573073447A81523A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在２回合內，\n無法使出會發出聲音的招式。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 6196,
+      "rawDecodedUtf16Hex": "5728FF1256DE54085167FF0C000A71216CD54F7F51FA6703767C51FA807297F3768462DB5F0F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "極光幕",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 6240,
+      "rawDecodedUtf16Hex": "697551495E550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在５回合內，\n物理與特殊攻擊的威力會減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 6248,
+      "rawDecodedUtf16Hex": "5728FF1556DE54085167FF0C000A72697406820772796B8A653B64CA76845A01529B67036E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "磨礪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 6292,
+      "rawDecodedUtf16Hex": "78E8792A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "在使用磨礪的下一回合，\n招式必定會擊中要害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 6300,
+      "rawDecodedUtf16Hex": "57284F7F752878E8792A76844E0B4E0056DE5408FF0C000A62DB5F0F5FC55B9A670364CA4E2D89815BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "瀝青射擊",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 6348,
+      "rawDecodedUtf16Hex": "701D97525C0464CA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "火屬性會變成弱點。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 6360,
+      "rawDecodedUtf16Hex": "706B5C6C602767038B8A62105F319EDE30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "蛸固",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 6380,
+      "rawDecodedUtf16Hex": "86F856FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每一回合\n防禦和特防會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 6388,
+      "rawDecodedUtf16Hex": "6BCF4E0056DE5408000A963279A6548C727996326703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "超極巨地獄滅焰",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 6420,
+      "rawDecodedUtf16Hex": "8D8569755DE8573073446EC571300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "在４回合內，\n對火屬性以外的寶可夢\n造成傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 6436,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085167FF0C000A5C0D706B5C6C60274EE5591676845BF653EF5922000A9020621050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "超極巨炎石噴發",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 6484,
+      "rawDecodedUtf16Hex": "8D8569755DE8708E77F35674767C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "在４回合內，\n對岩石屬性以外的寶可夢\n造成傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 6500,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085167FF0C000A5C0D5CA977F35C6C60274EE5591676845BF653EF5922000A9020621050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "超極巨鋼鐵陣法",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 6552,
+      "rawDecodedUtf16Hex": "8D8569755DE892FC943596636CD50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "替換出場的寶可夢\n會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 6568,
+      "rawDecodedUtf16Hex": "66FF63DB51FA583476845BF653EF5922000A670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "超極巨灰飛鞭滅",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 6600,
+      "rawDecodedUtf16Hex": "8D8569755DE8707098DB97AD6EC50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "在４回合內，\n對草屬性以外的寶可夢\n造成傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 6616,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085167FF0C000A5C0D83495C6C60274EE5591676845BF653EF5922000A9020621050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "超極巨水砲轟滅",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 6664,
+      "rawDecodedUtf16Hex": "8D8569755DE86C3478328F5F6EC50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "在４回合內，\n對水屬性以外的寶可夢\n造成傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 6680,
+      "rawDecodedUtf16Hex": "5728FF1456DE54085167FF0C000A5C0D6C345C6C60274EE5591676845BF653EF5922000A9020621050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "熱衷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 6728,
+      "rawDecodedUtf16Hex": "71B188770000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "會熱衷於最近一次使用的招式。\n所熱衷的招式給予的傷害會增加，\n同時自己受到的傷害也會增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 6736,
+      "rawDecodedUtf16Hex": "670371B1887765BC67008FD14E006B214F7F7528768462DB5F0F3002000A624071B18877768462DB5F0F7D664E88768450B75BB36703589E52A0FF0C000A540C664281EA5DF153D75230768450B75BB34E5F6703589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "碎片",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 6828,
+      "rawDecodedUtf16Hex": "788E72470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "尖銳的碎片刺進了體內，\n每次行動時都會受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 6836,
+      "rawDecodedUtf16Hex": "5C1692B37684788E7247523A90324E869AD45167FF0C000A6BCF6B21884C52D5664290FD670353D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "煙幕",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 6888,
+      "rawDecodedUtf16Hex": "71595E550000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "周圍被煙霧圍繞，\n對手的招式將變得不易命中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 6896,
+      "rawDecodedUtf16Hex": "5468570D88AB71599727570D7E5EFF0C000A5C0D624B768462DB5F0F5C078B8A5F974E0D6613547D4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "加倍",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 6944,
+      "rawDecodedUtf16Hex": "52A0500D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "擺出強而有力的架勢，\n增加所給予的傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 6952,
+      "rawDecodedUtf16Hex": "64FA51FA5F37800C6709529B768467B652E2FF0C000A589E52A062407D664E88768450B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "攻守轉換",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 6996,
+      "rawDecodedUtf16Hex": "653B5B888F4963DB0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "進攻力與防守力互換。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 7008,
+      "rawDecodedUtf16Hex": "9032653B529B820796325B88529B4E9263DB30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "慢啟動",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 7032,
+      "rawDecodedUtf16Hex": "6162555F52D50000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在拿出平時的水準之前，\n攻擊和速度減半。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 7040,
+      "rawDecodedUtf16Hex": "572862FF51FA5E73664276846C346E964E4B524DFF0C000A653B64CA548C901F5EA66E1B534A30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "狂猛之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 7084,
+      "rawDecodedUtf16Hex": "72C2731B4E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "因中毒或碎片等的影響\n而在每次行動時受到的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 7096,
+      "rawDecodedUtf16Hex": "56E04E2D6BD26216788E72477B4976845F7197FF000A800C57286BCF6B21884C52D5664253D75230768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "中毒",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 7152,
+      "rawDecodedUtf16Hex": "4E2D6BD20000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行動時\n會因為中毒而受到傷害。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 7160,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52D56642000A670356E070BA4E2D6BD2800C53D7523050B75BB330020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "麻痺",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 7196,
+      "rawDecodedUtf16Hex": "9EBB75FA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "有時會因為身體麻痺而無法行動。\n且速度會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 7204,
+      "rawDecodedUtf16Hex": "67096642670356E070BA8EAB9AD49EBB75FA800C71216CD5884C52D53002000A4E14901F5EA66703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "瞌睡",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 7252,
+      "rawDecodedUtf16Hex": "778C77610000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "有時會因為想睡覺而無法行動。\n且受到的傷害會增加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 7260,
+      "rawDecodedUtf16Hex": "67096642670356E070BA60F3776189BA800C71216CD5884C52D53002000A4E1453D75230768450B75BB36703589E52A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "灼傷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 7312,
+      "rawDecodedUtf16Hex": "707C50B70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行動時\n會因為灼傷而受到傷害。\n且物理攻擊所給予的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 7320,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52D56642000A670356E070BA707C50B7800C53D7523050B75BB33002000A4E1472697406653B64CA62407D664E88768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "凍傷",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 7388,
+      "rawDecodedUtf16Hex": "51CD50B70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "每次行動時\n會因為凍傷而受到傷害。\n且特殊攻擊所給予的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 7396,
+      "rawDecodedUtf16Hex": "6BCF6B21884C52D56642000A670356E070BA51CD50B7800C53D7523050B75BB33002000A4E1472796B8A653B64CA62407D664E88768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "野性之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 7464,
+      "rawDecodedUtf16Hex": "91CE60274E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "所有的能力會提高。\n且因中毒或碎片等的影響\n而在每次行動時受到的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 7476,
+      "rawDecodedUtf16Hex": "62406709768480FD529B670363D09AD83002000A4E1456E04E2D6BD26216788E72477B4976845F7197FF000A800C57286BCF6B21884C52D5664253D75230768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "偉大之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 7556,
+      "rawDecodedUtf16Hex": "504959274E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "因中毒或碎片等的影響\n而在每次行動時受到的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 7568,
+      "rawDecodedUtf16Hex": "56E04E2D6BD26216788E72477B4976845F7197FF000A800C57286BCF6B21884C52D5664253D75230768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "驚駭之力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 7624,
+      "rawDecodedUtf16Hex": "9A5A99ED4E4B529B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "所有的能力會提高。\n且因中毒或碎片等的影響\n而在每次行動時受到的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 7636,
+      "rawDecodedUtf16Hex": "62406709768480FD529B670363D09AD83002000A4E1456E04E2D6BD26216788E72477B4976845F7197FF000A800C57286BCF6B21884C52D5664253D75230768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "進攻提升",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 7716,
+      "rawDecodedUtf16Hex": "9032653B63D053470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "進攻力變強。\n攻擊和特攻會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 7728,
+      "rawDecodedUtf16Hex": "9032653B529B8B8A5F373002000A653B64CA548C7279653B670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "進攻下降",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 7764,
+      "rawDecodedUtf16Hex": "9032653B4E0B964D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "進攻力變弱。\n攻擊和特攻會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 7776,
+      "rawDecodedUtf16Hex": "9032653B529B8B8A5F313002000A653B64CA548C7279653B6703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "防守提升",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 7812,
+      "rawDecodedUtf16Hex": "96325B8863D053470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "防守力變強。\n防禦和特防會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 7824,
+      "rawDecodedUtf16Hex": "96325B88529B8B8A5F373002000A963279A6548C72799632670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "防守下降",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 7860,
+      "rawDecodedUtf16Hex": "96325B884E0B964D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "防守力變弱。\n防禦和特防會降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 7872,
+      "rawDecodedUtf16Hex": "96325B88529B8B8A5F313002000A963279A6548C727996326703964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "晴朗",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 7908,
+      "rawDecodedUtf16Hex": "667467170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "草屬性寶可夢的速度會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 7916,
+      "rawDecodedUtf16Hex": "83495C6C60275BF653EF59227684901F5EA6670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "起霧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 7944,
+      "rawDecodedUtf16Hex": "8D7797270000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "除了必定命中的招式之外，\n所有招式都會變得不易命中。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 7952,
+      "rawDecodedUtf16Hex": "96644E865FC55B9A547D4E2D768462DB5F0F4E4B5916FF0C000A6240670962DB5F0F90FD67038B8A5F974E0D6613547D4E2D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "下雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 8008,
+      "rawDecodedUtf16Hex": "4E0B96E80000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "火屬性招式給予的傷害會減少。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 8016,
+      "rawDecodedUtf16Hex": "706B5C6C602762DB5F0F7D664E88768450B75BB367036E1B5C1130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "下雪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 8048,
+      "rawDecodedUtf16Hex": "4E0B96EA0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "會變得容易凍傷。\n陷入瞌睡狀態時會變得不易行動。\n冰屬性寶可夢的速度會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 8056,
+      "rawDecodedUtf16Hex": "67038B8A5F975BB9661351CD50B73002000A96775165778C776172C0614B664267038B8A5F974E0D6613884C52D53002000A51B05C6C60275BF653EF59227684901F5EA6670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "鹽醃",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 8136,
+      "rawDecodedUtf16Hex": "9E7D91830000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "陷入鹽醃狀態，\n每回合都會受到傷害。\n鋼屬性和水屬性寶可夢\n受到的傷害會變成２倍。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 8144,
+      "rawDecodedUtf16Hex": "967751659E7D918372C0614BFF0C000A6BCF56DE540890FD670353D7523050B75BB33002000A92FC5C6C6027548C6C345C6C60275BF653EF5922000A53D75230768450B75BB367038B8A6210FF12500D30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "大憤慨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 8228,
+      "rawDecodedUtf16Hex": "592761A461680000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在２～３回合內\n瘋狂亂打對手進行攻擊。\n大鬧一番後自己會陷入混亂。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 8236,
+      "rawDecodedUtf16Hex": "5728FF12FF5EFF1356DE54085167000A760B72C24E8262535C0D624B9032884C653B64CA3002000A59279B274E00756A5F8C81EA5DF16703967751656DF74E8230020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "滿身糖",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 8304,
+      "rawDecodedUtf16Hex": "6EFF8EAB7CD60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "在３回合內，\n速度會持續降低。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 8312,
+      "rawDecodedUtf16Hex": "5728FF1356DE54085167FF0C000A901F5EA6670363017E8C964D4F4E30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "衝衝猛攻",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 8344,
+      "rawDecodedUtf16Hex": "885D885D731B653B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在訓練家們的聲援下，\n攻擊和特攻會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 8356,
+      "rawDecodedUtf16Hex": "57288A137DF45BB650117684807263F44E0BFF0C000A653B64CA548C7279653B670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "堅堅固守",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 8400,
+      "rawDecodedUtf16Hex": "5805580556FA5B880000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在訓練家們的聲援下，\n防禦和特防會提高。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 8412,
+      "rawDecodedUtf16Hex": "57288A137DF45BB650117684807263F44E0BFF0C000A963279A6548C72799632670363D09AD830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "回復封鎖",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 8456,
+      "rawDecodedUtf16Hex": "56DE5FA95C0193960000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "在２回合內，\n無法透過招式、特性\n或攜帶的道具回復ＨＰ。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 8468,
+      "rawDecodedUtf16Hex": "5728FF1256DE54085167FF0C000A71216CD5900F904E62DB5F0F300172796027000A6216651C5E3676849053517756DE5FA9FF28FF3030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 8528,
+  "sectionOffset": 16,
+  "textCount": 224,
+  "textSectionCount": 1
+}

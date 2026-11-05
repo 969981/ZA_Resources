@@ -1,0 +1,43 @@
+{
+  "declaredLength": 152,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "或许是这个旅行包\n决定了你在密阿雷市的命运。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "62168BB8662F8FD94E2A65C5884C5305000A51B35B9A4E864F6057285BC6963F96F75E027684547D8FD030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "在柜子上放有水之类的物品。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "572867DC5B504E0A653E67096C344E4B7C7B7684726954C130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "有着压倒性存在感的\n巨大卡娜莉玩偶！品质极佳！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "67097740538B501260275B585728611F7684000A5DE8592753615A1C838973A95076FF0154C18D2867814F73FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 152,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

@@ -1,0 +1,783 @@
+{
+  "declaredLength": 3056,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Bitte lege die Einzelheiten fest.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C0065006700650020006400690065002000450069006E007A0065006C00680065006900740065006E00200066006500730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Bestätigen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 688,
+      "rawDecodedUtf16Hex": "004200650073007400E40074006900670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Zurück",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 712,
+      "rawDecodedUtf16Hex": "005A0075007200FC0063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "Bitte wähle den Turnierzeitraum.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 728,
+      "rawDecodedUtf16Hex": "004200690074007400650020007700E40068006C0065002000640065006E0020005400750072006E006900650072007A006500690074007200610075006D002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Bitte lege die Startzeit des Turniers fest.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C0065006700650020006400690065002000530074006100720074007A00650069007400200064006500730020005400750072006E006900650072007300200066006500730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 44
+    },
+    {
+      "displayText": "Bitte lege die Schlusszeit des Turniers fest.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C00650067006500200064006900650020005300630068006C007500730073007A00650069007400200064006500730020005400750072006E006900650072007300200066006500730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Bitte lege die Anzahl der täglich bestreitbaren Kämpfe fest.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 976,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C006500670065002000640069006500200041006E007A00610068006C00200064006500720020007400E40067006C0069006300680020006200650073007400720065006900740062006100720065006E0020004B00E4006D00700066006500200066006500730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Bitte lege die Regeln zu Zeitbegrenzungen fest.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1100,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C006500670065002000640069006500200052006500670065006C006E0020007A00750020005A00650069007400620065006700720065006E007A0075006E00670065006E00200066006500730074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1196,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1208,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Alle",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1220,
+      "rawDecodedUtf16Hex": "0041006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nur Personen mit der ID",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1232,
+      "rawDecodedUtf16Hex": "004E0075007200200050006500720073006F006E0065006E0020006D0069007400200064006500720020004900440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Einstellen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1280,
+      "rawDecodedUtf16Hex": "00450069006E007300740065006C006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Nicht einstellen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1304,
+      "rawDecodedUtf16Hex": "004E0069006300680074002000650069006E007300740065006C006C0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Zurück",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1340,
+      "rawDecodedUtf16Hex": "005A0075007200FC0063006B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "00100002BDFF000F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Bitte lege fest, wer an deinem Turnier teilnehmen\ndarf.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1368,
+      "rawDecodedUtf16Hex": "004200690074007400650020006C00650067006500200066006500730074002C002000770065007200200061006E0020006400650069006E0065006D0020005400750072006E0069006500720020007400650069006C006E00650068006D0065006E000A0064006100720066002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 56
+    },
+    {
+      "displayText": "Möchtest du dem Turniernamen einen\nUntertitel hinzufügen?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1480,
+      "rawDecodedUtf16Hex": "004D00F6006300680074006500730074002000640075002000640065006D0020005400750072006E006900650072006E0061006D0065006E002000650069006E0065006E000A0055006E0074006500720074006900740065006C002000680069006E007A0075006600FC00670065006E003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 58
+    },
+    {
+      "displayText": "Ein Turnier ausrichten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "00450069006E0020005400750072006E0069006500720020006100750073007200690063006800740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Turniername",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1644,
+      "rawDecodedUtf16Hex": "005400750072006E006900650072006E0061006D00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ư",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1680,
+      "rawDecodedUtf16Hex": "0010000201AF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Regeln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1692,
+      "rawDecodedUtf16Hex": "0052006500670065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0017>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1708,
+      "rawDecodedUtf16Hex": "00100002BDFF00170000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0018>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "00100002BDFF00180000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Normale Regeln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1732,
+      "rawDecodedUtf16Hex": "004E006F0072006D0061006C006500200052006500670065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Kampfturm-Regeln",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1764,
+      "rawDecodedUtf16Hex": "004B0061006D00700066007400750072006D002D0052006500670065006C006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Keine Einschränkungen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1800,
+      "rawDecodedUtf16Hex": "004B00650069006E0065002000450069006E007300630068007200E4006E006B0075006E00670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001C>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1844,
+      "rawDecodedUtf16Hex": "00100002BDFF001C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1856,
+      "rawDecodedUtf16Hex": "0010000201D500000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Turnierzeitraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "005400750072006E006900650072007A006500690074007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0003>ȃ<U+0000><U+0000>, <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004> Uhr",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "0010000202010002002E0010000202010001002E00100003020300000000002C00200010000202010003003A001000020201000400200055006800720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "–",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1964,
+      "rawDecodedUtf16Hex": "20130000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 2
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0003>ȃ<U+0000><U+0000>, <U+0010><U+0002>ȁ<U+0003>:<U+0010><U+0002>ȁ<U+0004> Uhr",
+      "escapedControlUnits": 16,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "0010000202010002002E0010000202010001002E00100003020300000000002C00200010000202010003003A001000020201000400200055006800720000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Teilnahmefähige Personen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "005400650069006C006E00610068006D0065006600E4006800690067006500200050006500720073006F006E0065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Alle",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 2084,
+      "rawDecodedUtf16Hex": "0041006C006C00650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Nur Personen mit der ID",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 2096,
+      "rawDecodedUtf16Hex": "004E0075007200200050006500720073006F006E0065006E0020006D0069007400200064006500720020004900440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 24
+    },
+    {
+      "displayText": "Ausrichten",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 2144,
+      "rawDecodedUtf16Hex": "004100750073007200690063006800740065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Achtung!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 2168,
+      "rawDecodedUtf16Hex": "00410063006800740075006E006700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Du kannst das Turnier nicht widerrufen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 2188,
+      "rawDecodedUtf16Hex": "004400750020006B0061006E006E0073007400200064006100730020005400750072006E0069006500720020006E00690063006800740020007700690064006500720072007500660065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "Anzahl der Kämpfe",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 2268,
+      "rawDecodedUtf16Hex": "0041006E007A00610068006C00200064006500720020004B00E4006D0070006600650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Maximal <U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 2304,
+      "rawDecodedUtf16Hex": "004D006100780069006D0061006C002000100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Zeitbegrenzung",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 2332,
+      "rawDecodedUtf16Hex": "005A00650069007400620065006700720065006E007A0075006E00670000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Deine Zeit: <U+0010><U+0002>ȁ<U+0000> Minute<U+0010><U+0003>ᄁ<U+0000>Ān",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 2364,
+      "rawDecodedUtf16Hex": "004400650069006E00650020005A006500690074003A002000100002020100000020004D0069006E00750074006500100003110100000100006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Gesamtzeit: <U+0010><U+0002>ȁ<U+0000> Minute<U+0010><U+0003>ᄁ<U+0000>Ān",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 2424,
+      "rawDecodedUtf16Hex": "0047006500730061006D0074007A006500690074003A002000100002020100000020004D0069006E00750074006500100003110100000100006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Noch offen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 2484,
+      "rawDecodedUtf16Hex": "004E006F006300680020006F006600660065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0002>.<U+0010><U+0002>ȁ<U+0001>.<U+0010><U+0003>ȃ",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 2508,
+      "rawDecodedUtf16Hex": "0010000202010002002E0010000202010001002E001000030203000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:00 bis ",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 2540,
+      "rawDecodedUtf16Hex": "0010000202010001003A00300030002000620069007300200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001>:59",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 2568,
+      "rawDecodedUtf16Hex": "0010000202010001003A003500390000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Turnierzeitraum",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 2584,
+      "rawDecodedUtf16Hex": "005400750072006E006900650072007A006500690074007200610075006D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿2",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 2616,
+      "rawDecodedUtf16Hex": "00100002BDFF00320000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿3",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 2628,
+      "rawDecodedUtf16Hex": "00100002BDFF00330000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿4",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 2640,
+      "rawDecodedUtf16Hex": "00100002BDFF00340000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Maximal <U+0010><U+0002>ȁ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 2652,
+      "rawDecodedUtf16Hex": "004D006100780069006D0061006C002000100002020100000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Deine Zeit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 2680,
+      "rawDecodedUtf16Hex": "004400650069006E00650020005A0065006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Gesamtzeit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "0047006500730061006D0074007A0065006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0000> Minute<U+0010><U+0003>ᄁ<U+0000>Ān",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "00100002020100000020004D0069006E00750074006500100003110100000100006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "<U+0010><U+0002>ȁ<U+0001> Minute<U+0010><U+0003>ᄁ<U+0001>Ān",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 2764,
+      "rawDecodedUtf16Hex": "00100002020100010020004D0069006E00750074006500100003110100010100006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "unbeschränkt",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 2800,
+      "rawDecodedUtf16Hex": "0075006E00620065007300630068007200E4006E006B00740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Bestätigen",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 2828,
+      "rawDecodedUtf16Hex": "004200650073007400E40074006900670065006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 2852,
+      "rawDecodedUtf16Hex": "00100002BDFF003C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿=",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "00100002BDFF003D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿>",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "00100002BDFF003E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "00100002BDFF003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 2900,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿A",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 2912,
+      "rawDecodedUtf16Hex": "00100002BDFF00410000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿B",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 2924,
+      "rawDecodedUtf16Hex": "00100002BDFF00420000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿C",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 2936,
+      "rawDecodedUtf16Hex": "00100002BDFF00430000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿D",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 2948,
+      "rawDecodedUtf16Hex": "00100002BDFF00440000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿E",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 2960,
+      "rawDecodedUtf16Hex": "00100002BDFF00450000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿F",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 2972,
+      "rawDecodedUtf16Hex": "00100002BDFF00460000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿G",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 2984,
+      "rawDecodedUtf16Hex": "00100002BDFF00470000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿H",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 2996,
+      "rawDecodedUtf16Hex": "00100002BDFF00480000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿I",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 3008,
+      "rawDecodedUtf16Hex": "00100002BDFF00490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿J",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 3020,
+      "rawDecodedUtf16Hex": "00100002BDFF004A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿K",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 3032,
+      "rawDecodedUtf16Hex": "00100002BDFF004B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿L",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 3044,
+      "rawDecodedUtf16Hex": "00100002BDFF004C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3056,
+  "sectionOffset": 16,
+  "textCount": 77,
+  "textSectionCount": 1
+}

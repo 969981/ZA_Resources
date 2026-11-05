@@ -1,0 +1,73 @@
+{
+  "declaredLength": 148,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Attaque",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 5,
+      "index": 0,
+      "offsetInSection": 52,
+      "rawDecodedUtf16Hex": "00410074007400610071007500650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Défense",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 1,
+      "offsetInSection": 68,
+      "rawDecodedUtf16Hex": "004400E900660065006E007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Atq. Spé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 5,
+      "index": 2,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "004100740071002E00200053007000E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Déf. Spé.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 3,
+      "offsetInSection": 104,
+      "rawDecodedUtf16Hex": "004400E90066002E00200053007000E9002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Vitesse",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 1,
+      "index": 4,
+      "offsetInSection": 124,
+      "rawDecodedUtf16Hex": "00560069007400650073007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "PV",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 64,
+      "index": 5,
+      "offsetInSection": 140,
+      "rawDecodedUtf16Hex": "005000560000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 148,
+  "sectionOffset": 16,
+  "textCount": 6,
+  "textSectionCount": 1
+}

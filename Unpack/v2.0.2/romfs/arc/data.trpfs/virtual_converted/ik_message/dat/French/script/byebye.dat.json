@@ -1,0 +1,133 @@
+{
+  "declaredLength": 1464,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Un train à destination de l’aéroport se trouve\nà quai. Voulez-vous embarquer ?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 100,
+      "rawDecodedUtf16Hex": "0055006E00200074007200610069006E002000E0002000640065007300740069006E006100740069006F006E0020006400650020006C2019006100E90072006F0070006F00720074002000730065002000740072006F007500760065000A00E000200071007500610069002E00200056006F0075006C0065007A002D0076006F0075007300200065006D00620061007200710075006500720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Non, je reste à Illumis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 260,
+      "rawDecodedUtf16Hex": "004E006F006E002C0020006A0065002000720065007300740065002000E000200049006C006C0075006D00690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Oui, je m’en vais. Bisous Illumis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 312,
+      "rawDecodedUtf16Hex": "004F00750069002C0020006A00650020006D20190065006E00200076006100690073002E0020004200690073006F0075007300200049006C006C0075006D00690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Si vous prenez ce train, vous abandonnerez\n<U+0010><U+0002>Ƌ<U+0001> et la Team MZ !<U+0010><U+0001>븀\nVoulez-vous vraiment monter à bord ?",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "0053006900200076006F007500730020007000720065006E0065007A00200063006500200074007200610069006E002C00200076006F007500730020006100620061006E0064006F006E006E006500720065007A000A00100002018B00010020006500740020006C00610020005400650061006D0020004D005A0020002100100001BE00000A0056006F0075006C0065007A002D0076006F0075007300200076007200610069006D0065006E00740020006D006F006E007400650072002000E000200062006F007200640020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Bon OK, je reste à Illumis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 592,
+      "rawDecodedUtf16Hex": "0042006F006E0020004F004B002C0020006A0065002000720065007300740065002000E000200049006C006C0075006D00690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "Oui, j’insiste. Au revoir Illumis.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 648,
+      "rawDecodedUtf16Hex": "004F00750069002C0020006A20190069006E00730069007300740065002E0020004100750020007200650076006F0069007200200049006C006C0075006D00690073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "Il serait plus sage de ne pas quitter Illumis alors\nque la ville a encore besoin de vous !<U+0010><U+0001>븀\nUn peu de cœur ! Voulez-vous VRAIMENT partir ?",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "0049006C002000730065007200610069007400200070006C00750073002000730061006700650020006400650020006E006500200070006100730020007100750069007400740065007200200049006C006C0075006D0069007300200061006C006F00720073000A0071007500650020006C0061002000760069006C006C00650020006100200065006E0063006F007200650020006200650073006F0069006E00200064006500200076006F007500730020002100100001BE00000A0055006E0020007000650075002000640065002000630153007500720020002100200056006F0075006C0065007A002D0076006F0075007300200056005200410049004D0045004E005400200070006100720074006900720020003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 141
+    },
+    {
+      "displayText": "C’était une blague, bien sûr que je reste.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1004,
+      "rawDecodedUtf16Hex": "0043201900E9007400610069007400200075006E006500200062006C0061006700750065002C0020006200690065006E0020007300FB007200200071007500650020006A0065002000720065007300740065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Illumis, je l’aime, mais je la quitte. Adieu.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 8,
+      "offsetInSection": 1092,
+      "rawDecodedUtf16Hex": "0049006C006C0075006D00690073002C0020006A00650020006C201900610069006D0065002C0020006D0061006900730020006A00650020006C00610020007100750069007400740065002E002000410064006900650075002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 46
+    },
+    {
+      "displayText": "Vous montez dans le train en direction\nde l’aéroport.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1184,
+      "rawDecodedUtf16Hex": "0056006F007500730020006D006F006E00740065007A002000640061006E00730020006C006500200074007200610069006E00200065006E00200064006900720065006300740069006F006E000A006400650020006C2019006100E90072006F0070006F00720074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "Bye-bye, Illumis !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "004200790065002D006200790065002C00200049006C006C0075006D00690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Étrange. Vous avez dû vous assoupir...\nQuel terrible cauchemar...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 11,
+      "offsetInSection": 1332,
+      "rawDecodedUtf16Hex": "00C9007400720061006E00670065002E00200056006F007500730020006100760065007A0020006400FB00200076006F007500730020006100730073006F0075007000690072002E002E002E000A005100750065006C0020007400650072007200690062006C00650020006300610075006300680065006D00610072002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1464,
+  "sectionOffset": 16,
+  "textCount": 12,
+  "textSectionCount": 1
+}

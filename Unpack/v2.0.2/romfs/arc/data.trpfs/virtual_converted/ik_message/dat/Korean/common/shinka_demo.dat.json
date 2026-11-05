@@ -1,0 +1,113 @@
+{
+  "declaredLength": 432,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "...오잉!?\n<U+0010><U+0002>Ă<U+0000>의 모습이...!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "002E002E002EC624C7890021003F000A0010000201020000C7580020BAA8C2B5C774002E002E002E00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "얼라리...?\n<U+0010><U+0002>Ă<U+0000>의 변화가 멈췄다!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 128,
+      "rawDecodedUtf16Hex": "C5BCB77CB9AC002E002E002E003F000A0010000201020000C7580020BCC0D654AC000020BA48CDC4B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "축하합니다! <U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ā<U+0001><U+0010><U+0002>ᤀ<U+0005>로 진화했습니다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 176,
+      "rawDecodedUtf16Hex": "CD95D558D569B2C8B2E40021002000100002010200000010000219000001000A00100002010100010010000219000005B85C0020C9C4D654D588C2B5B2C8B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002> 배웠다!<U+0010><U+0002>븅<U+0004><U+0010><U+0002>븅<U+0001>",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "00100002010200000010000219000001000A001000020107000100100002190000020020BC30C6E0B2E4002100100002BE05000400100002BE0500010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ă<U+0000><U+0010><U+0002>ᤀ<U+0001>\n<U+0010><U+0002>ć<U+0001><U+0010><U+0002>ᤀ<U+0002> 떠올렸다!<U+0010><U+0001>븁",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 316,
+      "rawDecodedUtf16Hex": "00100002010200000010000219000001000A001000020107000100100002190000020020B5A0C62CB838B2E4002100100001BE010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0005>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00100002BDFF00050000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0006>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "00100002BDFF00060000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0007>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 396,
+      "rawDecodedUtf16Hex": "00100002BDFF00070000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 408,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 420,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 432,
+  "sectionOffset": 16,
+  "textCount": 10,
+  "textSectionCount": 1
+}

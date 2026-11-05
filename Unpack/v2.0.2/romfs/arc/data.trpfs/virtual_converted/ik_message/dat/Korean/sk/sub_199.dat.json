@@ -1,0 +1,343 @@
+{
+  "declaredLength": 2188,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨,\n찾아와 주셔서 감사합니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 268,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002C000ACC3EC544C6400020C8FCC154C11C0020AC10C0ACD569B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "이쪽을 봐 주시죠.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "C774CABDC7440020BD100020C8FCC2DCC8E0002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "이건 뭐죠?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 356,
+      "rawDecodedUtf16Hex": "C774AC740020BB50C8E0003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "볼인가요?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "BCFCC778AC00C694003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "마기아나라는 포켓몬인데, 500년도 전에\n인간의 손에 의해 만들어졌다고 합니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "B9C8AE30C544B098B77CB2940020D3ECCF13BAACC778B370002C0020003500300030B144B3C40020C804C5D0000AC778AC04C7580020C190C5D00020C758D5740020B9CCB4E4C5B4C84CB2E4ACE00020D569B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "도시 개발을 위한 작업 중에 발견되었는데,\n아무래도 휴면 상태인 모양이더군요...<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 484,
+      "rawDecodedUtf16Hex": "B3C4C2DC0020AC1CBC1CC7440020C704D55C0020C791C5C50020C911C5D00020BC1CACACB418C5C8B294B370002C000AC544BB34B798B3C40020D734BA740020C0C1D0DCC7780020BAA8C591C774B354AD70C694002E002E002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "깨우려면 내부에 있는 장치에\n에너지를 주입해야 할 겁니다.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 584,
+      "rawDecodedUtf16Hex": "AE68C6B0B824BA740020B0B4BD80C5D00020C788B2940020C7A5CE58C5D0000AC5D0B108C9C0B97C0020C8FCC785D574C57C0020D5600020AC81B2C8B2E4002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "그러기 위해서는 마기아나 전용의\n메가스톤이 필요하고 말이죠.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 660,
+      "rawDecodedUtf16Hex": "ADF8B7ECAE300020C704D574C11CB2940020B9C8AE30C544B0980020C804C6A9C758000ABA54AC00C2A4D1A4C7740020D544C694D558ACE00020B9D0C774C8E0002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "원래는 AZ 씨에게\n제작을 의뢰했었습니다만...<U+0010><U+0001>븁\n상황이 상황이니, 메가스톤은 저희\n퀘이사 주식회사에서 준비하겠습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 736,
+      "rawDecodedUtf16Hex": "C6D0B798B29400200041005A0020C528C5D0AC8C000AC81CC791C7440020C758B8B0D588C5C8C2B5B2C8B2E4B9CC002E002E002E00100001BE01000AC0C1D669C7740020C0C1D669C774B2C8002C0020BA54AC00C2A4D1A4C7400020C800D76C000AD018C774C0AC0020C8FCC2DDD68CC0ACC5D0C11C0020C900BE44D558ACA0C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨께서는\n메가스톤을 만드는 데 필요한<U+0010><U+0001>븀\n<U+0010><U+0002>＀<U+0006>메가조각 999개<U+0010><U+0002>＀<U+0000>를 준비해 주셨으면 합니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 14,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 884,
+      "rawDecodedUtf16Hex": "00100002010000000020C528AED8C11CB294000ABA54AC00C2A4D1A4C7440020B9CCB4DCB2940020B3700020D544C694D55C00100001BE00000A00100002FF000006BA54AC00C870AC010020003900390039AC1C00100002FF000000B97C0020C900BE44D5740020C8FCC168C73CBA740020D569B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 66
+    },
+    {
+      "displayText": "마기아나는 휴면 상태다.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1016,
+      "rawDecodedUtf16Hex": "B9C8AE30C544B098B2940020D734BA740020C0C1D0DCB2E4002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+000B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1044,
+      "rawDecodedUtf16Hex": "00100002BDFF000B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨, 메가스톤을 만드는 데\n필요한 <U+0010><U+0002>＀<U+0006>메가조각<U+0010><U+0002>＀<U+0000>은 <U+0010><U+0002>＀<U+0006>999개<U+0010><U+0002>＀<U+0000>입니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 18,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1056,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002C0020BA54AC00C2A4D1A4C7440020B9CCB4DCB2940020B370000AD544C694D55C002000100002FF000006BA54AC00C870AC0100100002FF000000C740002000100002FF000006003900390039AC1C00100002FF000000C785B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨,\n메가조각은 모두 준비되셨나요?<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1176,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002C000ABA54AC00C870AC01C7400020BAA8B4500020C900BE44B418C168B098C694003F001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "준비됐어요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1236,
+      "rawDecodedUtf16Hex": "C900BE44B410C5B4C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "기다려 주세요",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "AE30B2E4B8240020C8FCC138C6940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "흠?\n다른 볼일이 있으셨나요?<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "D760003F000AB2E4B9780020BCFCC77CC7740020C788C73CC168B098C694003F001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n메가조각 999개를 건넸다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000ABA54AC00C870AC010020003900390039AC1CB97C0020AC74B138B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "모아 주시느라\n수고 많으셨습니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1360,
+      "rawDecodedUtf16Hex": "BAA8C5440020C8FCC2DCB290B77C000AC218ACE00020B9CEC73CC168C2B5B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "그럼 마기아나를 위한\n메가스톤을 제작하도록 하죠.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1408,
+      "rawDecodedUtf16Hex": "ADF8B7FC0020B9C8AE30C544B098B97C0020C704D55C000ABA54AC00C2A4D1A4C7440020C81CC791D558B3C4B85D0020D558C8E0002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "마기아나 전용 메가스톤인\n마기아나이트입니다.<U+0010><U+0002>Ĕ<U+000E>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1472,
+      "rawDecodedUtf16Hex": "B9C8AE30C544B0980020C804C6A90020BA54AC00C2A4D1A4C778000AB9C8AE30C544B098C774D2B8C785B2C8B2E4002E001000020114000E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "그럼, 메가링의 키스톤을 통해\n마기아나에게 에너지를 보내 주세요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1532,
+      "rawDecodedUtf16Hex": "ADF8B7FC002C0020BA54AC00B9C1C7580020D0A4C2A4D1A4C7440020D1B5D574000AB9C8AE30C544B098C5D0AC8C0020C5D0B108C9C0B97C0020BCF4B0B40020C8FCC138C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "푸슈...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1616,
+      "rawDecodedUtf16Hex": "D478C288002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "오오!\n무사히 깨어났군요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1628,
+      "rawDecodedUtf16Hex": "C624C6240021000ABB34C0ACD7880020AE68C5B4B0ACAD70C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "정말 다행이네요...<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1668,
+      "rawDecodedUtf16Hex": "C815B9D00020B2E4D589C774B124C694002E002E002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨께서\n오랫동안 잠들어 있던 마기아나에게<U+0010><U+0001>븀\n세상을 구경시켜 주셨으면 합니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 8,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1700,
+      "rawDecodedUtf16Hex": "00100002010000000020C528AED8C11C000AC624B7ABB3D9C5480020C7A0B4E4C5B40020C788B3580020B9C8AE30C544B098C5D0AC8C00100001BE00000AC138C0C1C7440020AD6CACBDC2DCCF1C0020C8FCC168C73CBA740020D569B2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000><U+0010><U+0002>ᤀ<U+0001>\n마기아나를 받았다!",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1808,
+      "rawDecodedUtf16Hex": "00100002010000000010000219000001000AB9C8AE30C544B098B97C0020BC1BC558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "이런...\n박스가 가득 찬 모양이군요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1848,
+      "rawDecodedUtf16Hex": "C774B7F0002E002E002E000ABC15C2A4AC000020AC00B4DD0020CC2C0020BAA8C591C774AD70C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "마기아나를 잘 부탁드립니다.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1900,
+      "rawDecodedUtf16Hex": "B9C8AE30C544B098B97C0020C7980020BD80D0C1B4DCB9BDB2C8B2E4002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "이 메가스톤도 받아 주세요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1940,
+      "rawDecodedUtf16Hex": "C7740020BA54AC00C2A4D1A4B3C40020BC1BC5440020C8FCC138C694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "<U+0010><U+0002>Ā<U+0000> 씨,\n앞으로도 잘 부탁드리겠습니다.<U+0010><U+0001>븀\n<U+0010><U+0002>Ƌ<U+0001> 씨 일도 포함해서요.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 11,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1980,
+      "rawDecodedUtf16Hex": "00100002010000000020C528002C000AC55EC73CB85CB3C40020C7980020BD80D0C1B4DCB9ACACA0C2B5B2C8B2E4002E00100001BE00000A00100002018B00010020C5280020C77CB3C40020D3ECD568D574C11CC694002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2080,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "누군가와 연결되어 있다는 느낌이 들 때\n도시에 대한 애착이 생기기 마련이죠.<U+0010><U+0002>Ĕ<U+000D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 2092,
+      "rawDecodedUtf16Hex": "B204AD70AC00C6400020C5F0ACB0B418C5B40020C788B2E4B2940020B290B08CC7740020B4E40020B54C000AB3C4C2DCC5D00020B300D55C0020C560CC29C7740020C0DDAE30AE300020B9C8B828C774C8E0002E001000020114000D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2188,
+  "sectionOffset": 16,
+  "textCount": 33,
+  "textSectionCount": 1
+}

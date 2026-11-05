@@ -1,0 +1,33 @@
+{
+  "declaredLength": 332,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "È uno Sneasel della fortuna.<U+0010><U+0001>븁\nSi dice che la zampa destra alzata e il colore\ndorato attirino i guadagni.",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "00C800200075006E006F00200053006E0065006100730065006C002000640065006C006C006100200066006F007200740075006E0061002E00100001BE01000A005300690020006400690063006500200063006800650020006C00610020007A0061006D00700061002000640065007300740072006100200061006C007A0061007400610020006500200069006C00200063006F006C006F00720065000A0064006F007200610074006F0020006100740074006900720069006E006F002000690020006700750061006400610067006E0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "Il signor Corvin non c’è. Torna un’altra volta.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "0049006C0020007300690067006E006F007200200043006F007200760069006E0020006E006F006E00200063201900E8002E00200054006F0072006E006100200075006E20190061006C00740072006100200076006F006C00740061002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 332,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

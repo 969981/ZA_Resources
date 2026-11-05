@@ -1,0 +1,433 @@
+{
+  "declaredLength": 2020,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "최근 배달원들 사이에\n어떤 소문이 돌고 있어.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 340,
+      "rawDecodedUtf16Hex": "CD5CADFC0020BC30B2ECC6D0B4E40020C0ACC774C5D0000AC5B4B5A40020C18CBB38C7740020B3CCACE00020C788C5B4002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "도르비앙 묘지라는 곳에서\n밤중에 묘비가 돌아다닌다는 거야!<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 400,
+      "rawDecodedUtf16Hex": "B3C4B974BE44C5590020BB18C9C0B77CB2940020ACF3C5D0C11C000ABC24C911C5D00020BB18BE44AC000020B3CCC544B2E4B2CCB2E4B2940020AC70C57C002100100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "동료 배달원의 말에 의하면\n묘비가 움직이는 데는 조건이 있대.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 476,
+      "rawDecodedUtf16Hex": "B3D9B8CC0020BC30B2ECC6D0C7580020B9D0C5D00020C758D558BA74000ABB18BE44AC000020C6C0C9C1C774B2940020B370B2940020C870AC74C7740020C788B300002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "첫 번째, 밤이어야 할 것.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 556,
+      "rawDecodedUtf16Hex": "CCAB0020BC88C9F8002C0020BC24C774C5B4C57C0020D5600020AC83002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "두 번째, 지닌 포켓몬이 한 마리뿐일 것.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "B4500020BC88C9F8002C0020C9C0B2CC0020D3ECCF13BAACC7740020D55C0020B9C8B9ACBFD0C77C0020AC83002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "세 번째, 북쪽 입구를 통해서 들어갈 것.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "C1380020BC88C9F8002C0020BD81CABD0020C785AD6CB97C0020D1B5D574C11C0020B4E4C5B4AC080020AC83002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "네 번째, 마음속으로 다음 주문을 외칠 것.<U+0010><U+0001>븁\n“홀로 다니는 묘지는 묘하게 호러틱.”<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 708,
+      "rawDecodedUtf16Hex": "B1240020BC88C9F8002C0020B9C8C74CC18DC73CB85C0020B2E4C74C0020C8FCBB38C7440020C678CE600020AC83002E00100001BE01000A201CD640B85C0020B2E4B2C8B2940020BB18C9C0B2940020BB18D558AC8C0020D638B7ECD2F1002E201D00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 54
+    },
+    {
+      "displayText": "나는 무서워서 시도해 보지 못했지만\n소문이 사실인지 확인해 줘.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 816,
+      "rawDecodedUtf16Hex": "B098B2940020BB34C11CC6CCC11C0020C2DCB3C4D5740020BCF4C9C00020BABBD588C9C0B9CC000AC18CBB38C7740020C0ACC2E4C778C9C00020D655C778D5740020C918002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    },
+    {
+      "displayText": "묘비가 움직이는 데는 4개의 조건이 있대.<U+0010><U+0001>븁\n첫 번째, 밤이어야 할 것.\n두 번째, 지닌 포켓몬이 한 마리뿐일 것.<U+0010><U+0001>븁\n세 번째, 북쪽 입구를 통해서 들어갈 것.<U+0010><U+0001>븁\n네 번째, 마음속으로 다음 주문을 외칠 것.<U+0010><U+0001>븁\n“홀로 다니는 묘지는 묘하게 호러틱.”<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 10,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 896,
+      "rawDecodedUtf16Hex": "BB18BE44AC000020C6C0C9C1C774B2940020B370B29400200034AC1CC7580020C870AC74C7740020C788B300002E00100001BE01000ACCAB0020BC88C9F8002C0020BC24C774C5B4C57C0020D5600020AC83002E000AB4500020BC88C9F8002C0020C9C0B2CC0020D3ECCF13BAACC7740020D55C0020B9C8B9ACBFD0C77C0020AC83002E00100001BE01000AC1380020BC88C9F8002C0020BD81CABD0020C785AD6CB97C0020D1B5D574C11C0020B4E4C5B4AC080020AC83002E00100001BE01000AB1240020BC88C9F8002C0020B9C8C74CC18DC73CB85C0020B2E4C74C0020C8FCBB38C7440020C678CE600020AC83002E00100001BE01000A201CD640B85C0020B2E4B2C8B2940020BB18C9C0B2940020BB18D558AC8C0020D638B7ECD2F1002E201D00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 151
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\t",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1200,
+      "rawDecodedUtf16Hex": "00100002BDFF00090000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "마음속으로 외쳐야 하는 주문은?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1212,
+      "rawDecodedUtf16Hex": "B9C8C74CC18DC73CB85C0020C678CCD0C57C0020D558B2940020C8FCBB38C740003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "묘지는",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1248,
+      "rawDecodedUtf16Hex": "BB18C9C0B2940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "묘하게",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1256,
+      "rawDecodedUtf16Hex": "BB18D558AC8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "홀로",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1264,
+      "rawDecodedUtf16Hex": "D640B85C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "다음은?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1272,
+      "rawDecodedUtf16Hex": "B2E4C74CC740003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "묘하게",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "BB18D558AC8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "묘지는",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1292,
+      "rawDecodedUtf16Hex": "BB18C9C0B2940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "다니는",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1300,
+      "rawDecodedUtf16Hex": "B2E4B2C8B2940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "다음은?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1308,
+      "rawDecodedUtf16Hex": "B2E4C74CC740003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "호러틱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1320,
+      "rawDecodedUtf16Hex": "D638B7ECD2F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "묘지는",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1328,
+      "rawDecodedUtf16Hex": "BB18C9C0B2940000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "홀로",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 1336,
+      "rawDecodedUtf16Hex": "D640B85C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "다음은?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 1344,
+      "rawDecodedUtf16Hex": "B2E4C74CC740003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "호러틱",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "D638B7ECD2F10000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "묘하게",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 1364,
+      "rawDecodedUtf16Hex": "BB18D558AC8C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "홀로",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 1372,
+      "rawDecodedUtf16Hex": "D640B85C0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "마지막은?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 1380,
+      "rawDecodedUtf16Hex": "B9C8C9C0B9C9C740003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "묘지다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 1392,
+      "rawDecodedUtf16Hex": "BB18C9C0B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "남았다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 1404,
+      "rawDecodedUtf16Hex": "B0A8C558B2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "호러틱!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 1416,
+      "rawDecodedUtf16Hex": "D638B7ECD2F100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "주문을 틀린 것 같다...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 1428,
+      "rawDecodedUtf16Hex": "C8FCBB38C7440020D2C0B9B00020AC830020AC19B2E4002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "포켓몬들이 나타났다!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 1460,
+      "rawDecodedUtf16Hex": "D3ECCF13BAACB4E4C7740020B098D0C0B0ACB2E400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿 ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 1484,
+      "rawDecodedUtf16Hex": "00100002BDFF00200000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "정말이야?\n바로 그쪽으로 갈게!!<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 1496,
+      "rawDecodedUtf16Hex": "C815B9D0C774C57C003F000ABC14B85C0020ADF8CABDC73CB85C0020AC08AC8C0021002100100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "소문이 사실인지 확인해 줘서 고마워.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 1544,
+      "rawDecodedUtf16Hex": "C18CBB38C7740020C0ACC2E4C778C9C00020D655C778D5740020C918C11C0020ACE0B9C8C6CC002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "움직이는 묘비의 정체는\n망망이와 묘두기였다는 거지?<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 1596,
+      "rawDecodedUtf16Hex": "C6C0C9C1C774B2940020BB18BE44C7580020C815CCB4B294000AB9DDB9DDC774C6400020BB18B450AE30C600B2E4B2940020AC70C9C0003F00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "뭐야~\n알고 보니 별거 아닌 소문이었네.<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 1664,
+      "rawDecodedUtf16Hex": "BB50C57C007E000AC54CACE00020BCF4B2C80020BCC4AC700020C544B2CC0020C18CBB38C774C5C8B124002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "잠깐...<U+0010><U+0001>븁\n망망이랑 묘두기는\n대체 어디에서 온 거지!?<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 1720,
+      "rawDecodedUtf16Hex": "C7A0AE50002E002E002E00100001BE01000AB9DDB9DDC774B7910020BB18B450AE30B294000AB300CCB40020C5B4B514C5D0C11C0020C6280020AC70C9C00021003F00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 38
+    },
+    {
+      "displayText": "게다가 한밤중에 묘지에서\n망망이와 묘두기에게 둘러싸이다니...<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "AC8CB2E4AC000020D55CBC24C911C5D00020BB18C9C0C5D0C11C000AB9DDB9DDC774C6400020BB18B450AE30C5D0AC8C0020B458B7ECC2F8C774B2E4B2C8002E002E002E00100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "묘하게 호러틱하잖아!<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "BB18D558AC8C0020D638B7ECD2F1D558C796C544002100100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿(",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 1908,
+      "rawDecodedUtf16Hex": "00100002BDFF00280000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "한밤중에 묘지에서\n망망이와 묘두기에게 둘러싸이다니...<U+0010><U+0001>븀\n묘하게 호러틱하잖아!<U+0010><U+0002>ĔƧ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 1920,
+      "rawDecodedUtf16Hex": "D55CBC24C911C5D00020BB18C9C0C5D0C11C000AB9DDB9DDC774C6400020BB18B450AE30C5D0AC8C0020B458B7ECC2F8C774B2E4B2C8002E002E002E00100001BE00000ABB18D558AC8C0020D638B7ECD2F1D558C796C544002100100002011401A70000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 2020,
+  "sectionOffset": 16,
+  "textCount": 42,
+  "textSectionCount": 1
+}

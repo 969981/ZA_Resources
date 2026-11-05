@@ -1,0 +1,43 @@
+{
+  "declaredLength": 448,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Probabilmente questa borsa da viaggio è ciò che\nha deciso il tuo destino a Luminopoli.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "00500072006F0062006100620069006C006D0065006E00740065002000710075006500730074006100200062006F0072007300610020006400610020007600690061006700670069006F002000E800200063006900F20020006300680065000A00680061002000640065006300690073006F00200069006C002000740075006F002000640065007300740069006E006F002000610020004C0075006D0069006E006F0070006F006C0069002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "Sul mobile c’è dell’acqua e altre cose da bere.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "00530075006C0020006D006F00620069006C006500200063201900E8002000640065006C006C2019006100630071007500610020006500200061006C00740072006500200063006F0073006500200064006100200062006500720065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Un peluche di Canary enorme impossibile\nda ignorare! È di ottima qualità.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 2,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "0055006E002000700065006C0075006300680065002000640069002000430061006E00610072007900200065006E006F0072006D006500200069006D0070006F00730073006900620069006C0065000A00640061002000690067006E006F00720061007200650021002000C80020006400690020006F007400740069006D00610020007100750061006C0069007400E0002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 74
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 448,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

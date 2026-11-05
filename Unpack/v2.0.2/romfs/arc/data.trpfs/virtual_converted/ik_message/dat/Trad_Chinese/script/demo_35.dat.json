@@ -1,0 +1,33 @@
+{
+  "declaredLength": 116,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "基格爾德的基格爾德進化石\n和<U+0010><U+0002>Ā<U+0000>的鑰石產生了反應！",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "57FA683C723E5FB7768457FA683C723E5FB79032531677F3000A548C00100002010000007684947077F37522751F4E8653CD61C9FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "基格爾德超級進化成了\n超級基格爾德！",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 76,
+      "rawDecodedUtf16Hex": "57FA683C723E5FB78D857D1A9032531662104E86000A8D857D1A57FA683C723E5FB7FF010000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 116,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

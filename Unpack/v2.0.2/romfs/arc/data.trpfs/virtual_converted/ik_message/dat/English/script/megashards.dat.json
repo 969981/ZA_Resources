@@ -1,0 +1,53 @@
+{
+  "declaredLength": 236,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Would you like to exchange your Mega Shards for\nitems?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "0057006F0075006C006400200079006F00750020006C0069006B006500200074006F002000650078006300680061006E0067006500200079006F007500720020004D006500670061002000530068006100720064007300200066006F0072000A006900740065006D0073003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Yes, please",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 148,
+      "rawDecodedUtf16Hex": "005900650073002C00200070006C00650061007300650000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "No, thanks",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "004E006F002C0020007400680061006E006B00730000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Come back anytime.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 196,
+      "rawDecodedUtf16Hex": "0043006F006D00650020006200610063006B00200061006E007900740069006D0065002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 236,
+  "sectionOffset": 16,
+  "textCount": 4,
+  "textSectionCount": 1
+}

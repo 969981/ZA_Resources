@@ -1,0 +1,63 @@
+{
+  "declaredLength": 464,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "バックアップデータをロードしました\nレポートをするときは\nこのデータが記録されますので\nご注意ください",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "30D030C330AF30A230C330D730C730FC30BF309230ED30FC30C93057307E3057305F000A30EC30DD30FC30C830923059308B3068304D306F000A3053306E30C730FC30BF304C8A1893323055308C307E3059306E3067000A30546CE8610F304F3060305530440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 52,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "バックアップデータがないので\nロードできません\nタイトルへ戻ります",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 252,
+      "rawDecodedUtf16Hex": "30D030C330AF30A230C330D730C730FC30BF304C306A3044306E3067000A30ED30FC30C93067304D307E305B3093000A30BF30A430C830EB3078623B308A307E30590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "レポート中・・・",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 388,
+      "rawDecodedUtf16Hex": "30EC30DD30FC30C84E2D30FB30FB30FB000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0003>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 424,
+      "rawDecodedUtf16Hex": "00100002BDFF000300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 444,
+      "rawDecodedUtf16Hex": "00100002BDFF000400000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 464,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

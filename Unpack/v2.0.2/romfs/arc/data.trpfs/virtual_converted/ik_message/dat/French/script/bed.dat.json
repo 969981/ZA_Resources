@@ -1,0 +1,63 @@
+{
+  "declaredLength": 320,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Je ferais bien un petit somme...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "004A006500200066006500720061006900730020006200690065006E00200075006E00200070006500740069007400200073006F006D006D0065002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Dormir jusqu’à la nuit",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 112,
+      "rawDecodedUtf16Hex": "0044006F0072006D006900720020006A0075007300710075201900E00020006C00610020006E0075006900740000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Dormir jusqu’au matin",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 160,
+      "rawDecodedUtf16Hex": "0044006F0072006D006900720020006A00750073007100752019006100750020006D006100740069006E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "J’ai changé d’avis !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 204,
+      "rawDecodedUtf16Hex": "004A2019006100690020006300680061006E006700E90020006420190061007600690073002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "Ce n’est pas le moment de dormir !",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "004300650020006E201900650073007400200070006100730020006C00650020006D006F006D0065006E007400200064006500200064006F0072006D00690072002000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 320,
+  "sectionOffset": 16,
+  "textCount": 5,
+  "textSectionCount": 1
+}

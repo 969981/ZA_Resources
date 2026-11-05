@@ -1,0 +1,473 @@
+{
+  "declaredLength": 5028,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 372,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Viscooo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 384,
+      "rawDecodedUtf16Hex": "0056006900730063006F006F006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Einen Moment, <U+0010><U+0004>ᄀÿ਋<U+0000>junger Mannjunge Frau!<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 404,
+      "rawDecodedUtf16Hex": "00450069006E0065006E0020004D006F006D0065006E0074002C002000100004110000FF0A0B0000006A0075006E0067006500720020004D0061006E006E006A0075006E0067006500200046007200610075002100100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Hast du kurz Zeit für ein paar Fragen?<U+0010><U+0002>Ĕ<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 500,
+      "rawDecodedUtf16Hex": "00480061007300740020006400750020006B00750072007A0020005A0065006900740020006600FC0072002000650069006E00200070006100610072002000460072006100670065006E003F00100002011400040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0004>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "00100002BDFF00040000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Ist das dein Pokémon?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "00490073007400200064006100730020006400650069006E00200050006F006B00E9006D006F006E003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Nein.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 652,
+      "rawDecodedUtf16Hex": "004E00650069006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 6
+    },
+    {
+      "displayText": "Hab es noch nie zuvor gesehen...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 664,
+      "rawDecodedUtf16Hex": "0048006100620020006500730020006E006F006300680020006E006900650020007A00750076006F00720020006700650073006500680065006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "Hmm.<U+0010><U+0001>븁\nVor mir sind eine Bank voller Schleim, ein Viscora,\ndas darauf sitzt, und du, <U+0010><U+0004>ᄀÿ̃<U+0000>derdie direkt danebensteht.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 732,
+      "rawDecodedUtf16Hex": "0048006D006D002E00100001BE01000A0056006F00720020006D00690072002000730069006E0064002000650069006E0065002000420061006E006B00200076006F006C006C006500720020005300630068006C00650069006D002C002000650069006E00200056006900730063006F00720061002C000A00640061007300200064006100720061007500660020007300690074007A0074002C00200075006E0064002000640075002C002000100004110000FF0303000000640065007200640069006500200064006900720065006B0074002000640061006E006500620065006E00730074006500680074002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Ich muss herausfinden, was hier los ist, damit\nich verhindern kann, dass so was wieder passiert.<U+0010><U+0001>븁\nUnd du bist hier gerade <U+0010><U+0004>ᄀÿတ<U+0000>der Einzige, dendie Einzige, die ich\nausfragen kann.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 980,
+      "rawDecodedUtf16Hex": "0049006300680020006D007500730073002000680065007200610075007300660069006E00640065006E002C0020007700610073002000680069006500720020006C006F00730020006900730074002C002000640061006D00690074000A006900630068002000760065007200680069006E006400650072006E0020006B0061006E006E002C0020006400610073007300200073006F00200077006100730020007700690065006400650072002000700061007300730069006500720074002E00100001BE01000A0055006E006400200064007500200062006900730074002000680069006500720020006700650072006100640065002000100004110000FF10100000006400650072002000450069006E007A006900670065002C002000640065006E006400690065002000450069006E007A006900670065002C00200064006900650020006900630068000A00610075007300660072006100670065006E0020006B0061006E006E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 187
+    },
+    {
+      "displayText": "Also: Weißt du, wem dieses Viscora gehört?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1356,
+      "rawDecodedUtf16Hex": "0041006C0073006F003A002000570065006900DF0074002000640075002C002000770065006D002000640069006500730065007300200056006900730063006F00720061002000670065006800F600720074003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Keine Ahnung.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1452,
+      "rawDecodedUtf16Hex": "004B00650069006E0065002000410068006E0075006E0067002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "Einem anderen Trainer vielleicht?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1480,
+      "rawDecodedUtf16Hex": "00450069006E0065006D00200061006E0064006500720065006E00200054007200610069006E006500720020007600690065006C006C00650069006300680074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 34
+    },
+    {
+      "displayText": "Kein Kommentar.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1548,
+      "rawDecodedUtf16Hex": "004B00650069006E0020004B006F006D006D0065006E007400610072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Verstehe...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 1580,
+      "rawDecodedUtf16Hex": "00560065007200730074006500680065002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 1612,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Und was hat dich heute Abend zu dieser Bank\nverschlagen, wenn das nicht dein Viscora ist?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 1636,
+      "rawDecodedUtf16Hex": "0055006E006400200077006100730020006800610074002000640069006300680020006800650075007400650020004100620065006E00640020007A00750020006400690065007300650072002000420061006E006B000A007600650072007300630068006C006100670065006E002C002000770065006E006E00200064006100730020006E00690063006800740020006400650069006E00200056006900730063006F007200610020006900730074003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Ich wollte es streicheln.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 1824,
+      "rawDecodedUtf16Hex": "00490063006800200077006F006C006C00740065002000650073002000730074007200650069006300680065006C006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 26
+    },
+    {
+      "displayText": "Ich wollte mich da hinsetzen.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 1876,
+      "rawDecodedUtf16Hex": "00490063006800200077006F006C006C007400650020006D006900630068002000640061002000680069006E007300650074007A0065006E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 30
+    },
+    {
+      "displayText": "Kein Kommentar.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 1936,
+      "rawDecodedUtf16Hex": "004B00650069006E0020004B006F006D006D0065006E007400610072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Aha, okay...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 1968,
+      "rawDecodedUtf16Hex": "004100680061002C0020006F006B00610079002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Kommst du hier aus der Gegend? Kennst du\nvielleicht jemanden, der mir mehr über dieses<U+0010><U+0001>븀\nViscora sagen könnte?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2028,
+      "rawDecodedUtf16Hex": "004B006F006D006D00730074002000640075002000680069006500720020006100750073002000640065007200200047006500670065006E0064003F0020004B0065006E006E00730074002000640075000A007600690065006C006C006500690063006800740020006A0065006D0061006E00640065006E002C00200064006500720020006D006900720020006D006500680072002000FC006200650072002000640069006500730065007300100001BE00000A0056006900730063006F0072006100200073006100670065006E0020006B00F6006E006E00740065003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 116
+    },
+    {
+      "displayText": "Ich mache hier nur Urlaub.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 2260,
+      "rawDecodedUtf16Hex": "0049006300680020006D0061006300680065002000680069006500720020006E00750072002000550072006C006100750062002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 27
+    },
+    {
+      "displayText": "Kein Kommentar.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 2316,
+      "rawDecodedUtf16Hex": "004B00650069006E0020004B006F006D006D0065006E007400610072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "Ach, wirklich?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 2348,
+      "rawDecodedUtf16Hex": "004100630068002C0020007700690072006B006C006900630068003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "Hmm...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 2388,
+      "rawDecodedUtf16Hex": "0048006D006D002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "Du bist dir also wirklich ganz sicher, dass dieses\nViscora nicht zu dir gehört?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 2412,
+      "rawDecodedUtf16Hex": "0044007500200062006900730074002000640069007200200061006C0073006F0020007700690072006B006C006900630068002000670061006E007A0020007300690063006800650072002C002000640061007300730020006400690065007300650073000A0056006900730063006F007200610020006E00690063006800740020007A00750020006400690072002000670065006800F600720074003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 84
+    },
+    {
+      "displayText": "Hundertprozentig sicher.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 2580,
+      "rawDecodedUtf16Hex": "00480075006E006400650072007400700072006F007A0065006E0074006900670020007300690063006800650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "Ich kenne es wirklich nicht.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 2632,
+      "rawDecodedUtf16Hex": "0049006300680020006B0065006E006E00650020006500730020007700690072006B006C0069006300680020006E0069006300680074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Du weißt schon, dass es nicht schlimm wäre,\nwenn das Viscora zu dir gehören würde?<U+0010><U+0001>븁\nIch will einfach nur herausfinden, was hier vor\nsich geht.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "00440075002000770065006900DF00740020007300630068006F006E002C002000640061007300730020006500730020006E00690063006800740020007300630068006C0069006D006D0020007700E400720065002C000A00770065006E006E002000640061007300200056006900730063006F007200610020007A00750020006400690072002000670065006800F600720065006E0020007700FC007200640065003F00100001BE01000A004900630068002000770069006C006C002000650069006E00660061006300680020006E00750072002000680065007200610075007300660069006E00640065006E002C00200077006100730020006800690065007200200076006F0072000A007300690063006800200067006500680074002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 149
+    },
+    {
+      "displayText": "Viscooo!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 2992,
+      "rawDecodedUtf16Hex": "0056006900730063006F006F006F00210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "Dafür, dass es nicht dein Pokémon ist, scheint es\ndich aber ziemlich gernzuhaben...<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3012,
+      "rawDecodedUtf16Hex": "00440061006600FC0072002C002000640061007300730020006500730020006E00690063006800740020006400650069006E00200050006F006B00E9006D006F006E0020006900730074002C002000730063006800650069006E0074002000650073000A0064006900630068002000610062006500720020007A00690065006D006C0069006300680020006700650072006E007A00750068006100620065006E002E002E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "Wenn das nicht dein Viscora ist, dann zeig mir\ndoch mal, welche Pokémon du wirklich im<U+0010><U+0001>븀\nTeam hast.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 3188,
+      "rawDecodedUtf16Hex": "00570065006E006E00200064006100730020006E00690063006800740020006400650069006E00200056006900730063006F007200610020006900730074002C002000640061006E006E0020007A0065006900670020006D00690072000A0064006F006300680020006D0061006C002C002000770065006C00630068006500200050006F006B00E9006D006F006E0020006400750020007700690072006B006C00690063006800200069006D00100001BE00000A005400650061006D00200068006100730074002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 105
+    },
+    {
+      "displayText": "Du verstehst, was ich meine, oder? Ich will sie\nmir in einem Pokémon-Kampf ansehen!<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3400,
+      "rawDecodedUtf16Hex": "004400750020007600650072007300740065006800730074002C002000770061007300200069006300680020006D00650069006E0065002C0020006F006400650072003F0020004900630068002000770069006C006C0020007300690065000A006D0069007200200069006E002000650069006E0065006D00200050006F006B00E9006D006F006E002D004B0061006D0070006600200061006E0073006500680065006E0021001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 88
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿#",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 3576,
+      "rawDecodedUtf16Hex": "00100002BDFF00230000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Du hast definitiv ordentlich gekämpft. Das muss\nich dir lassen.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3588,
+      "rawDecodedUtf16Hex": "004400750020006800610073007400200064006500660069006E00690074006900760020006F007200640065006E0074006C006900630068002000670065006B00E4006D007000660074002E00200044006100730020006D007500730073000A00690063006800200064006900720020006C0061007300730065006E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 68
+    },
+    {
+      "displayText": "Gibst du JETZT zu, dass das dein Viscora ist?<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 3724,
+      "rawDecodedUtf16Hex": "004700690062007300740020006400750020004A00450054005A00540020007A0075002C0020006400610073007300200064006100730020006400650069006E00200056006900730063006F007200610020006900730074003F001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Viscora! Du kannst doch nicht einfach abhauen!<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 3824,
+      "rawDecodedUtf16Hex": "0056006900730063006F0072006100210020004400750020006B0061006E006E0073007400200064006F006300680020006E0069006300680074002000650069006E00660061006300680020006100620068006100750065006E002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Viscooora...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 3928,
+      "rawDecodedUtf16Hex": "0056006900730063006F006F006F00720061002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "Und du hast die Bank vollgeschleimt...<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 3956,
+      "rawDecodedUtf16Hex": "0055006E0064002000640075002000680061007300740020006400690065002000420061006E006B00200076006F006C006C00670065007300630068006C00650069006D0074002E002E002E00100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "So, jetzt ist die Bank wieder picobello sauber.\nLass uns heimgehen, Viscora!<U+0010><U+0002>Ĕ!",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4044,
+      "rawDecodedUtf16Hex": "0053006F002C0020006A00650074007A007400200069007300740020006400690065002000420061006E006B00200077006900650064006500720020007000690063006F00620065006C006C006F0020007300610075006200650072002E000A004C00610073007300200075006E00730020006800650069006D0067006500680065006E002C00200056006900730063006F00720061002100100002011400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Oh, ähm... Es war wirklich nicht dein Viscora.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4208,
+      "rawDecodedUtf16Hex": "004F0068002C002000E40068006D002E002E002E00200045007300200077006100720020007700690072006B006C0069006300680020006E00690063006800740020006400650069006E00200056006900730063006F00720061002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "Das mit dem Missverständnis tut mir leid.<U+0010><U+0001>븁\nIn Illumina tauchen immer mehr wilde Pokémon\nauf, weißt du.<U+0010><U+0001>븁\nIn letzter Zeit bin ich bei jedem Anzeichen von\nÄrger sofort auf der Hut.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 6,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4312,
+      "rawDecodedUtf16Hex": "0044006100730020006D00690074002000640065006D0020004D0069007300730076006500720073007400E4006E0064006E0069007300200074007500740020006D006900720020006C006500690064002E00100001BE01000A0049006E00200049006C006C0075006D0069006E00610020007400610075006300680065006E00200069006D006D006500720020006D006500680072002000770069006C0064006500200050006F006B00E9006D006F006E000A006100750066002C002000770065006900DF0074002000640075002E00100001BE01000A0049006E0020006C00650074007A0074006500720020005A006500690074002000620069006E002000690063006800200062006500690020006A006500640065006D00200041006E007A00650069006300680065006E00200076006F006E000A00C4007200670065007200200073006F0066006F00720074002000610075006600200064006500720020004800750074002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 186
+    },
+    {
+      "displayText": "Als Entschuldigung verrate ich dir etwas.<U+0010><U+0001>븁\nDamit Viscora seine letzte Entwicklungsstufe\nerreicht, benötigst du Regen.<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4684,
+      "rawDecodedUtf16Hex": "0041006C007300200045006E00740073006300680075006C0064006900670075006E00670020007600650072007200610074006500200069006300680020006400690072002000650074007700610073002E00100001BE01000A00440061006D0069007400200056006900730063006F007200610020007300650069006E00650020006C00650074007A0074006500200045006E0074007700690063006B006C0075006E0067007300730074007500660065000A00650072007200650069006300680074002C002000620065006E00F60074006900670073007400200064007500200052006500670065006E002E001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 124
+    },
+    {
+      "displayText": "Und damit verabschiede ich mich. Bis dann!<U+0010><U+0002>Ĕ+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4932,
+      "rawDecodedUtf16Hex": "0055006E0064002000640061006D00690074002000760065007200610062007300630068006900650064006500200069006300680020006D006900630068002E0020004200690073002000640061006E006E0021001000020114002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 5028,
+  "sectionOffset": 16,
+  "textCount": 46,
+  "textSectionCount": 1
+}

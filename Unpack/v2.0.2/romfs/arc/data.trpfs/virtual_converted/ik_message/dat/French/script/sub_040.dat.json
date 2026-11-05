@@ -1,0 +1,303 @@
+{
+  "declaredLength": 3676,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 236,
+      "rawDecodedUtf16Hex": "00100002BDFF00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "J’espère qu’il va bientôt pleuvoir...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 248,
+      "rawDecodedUtf16Hex": "004A201900650073007000E80072006500200071007520190069006C0020007600610020006200690065006E007400F4007400200070006C006500750076006F00690072002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 42
+    },
+    {
+      "displayText": "Ploc... Ploc... Ploc... Je ne suis jamais\nplus heureuse que quand il pleut !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 332,
+      "rawDecodedUtf16Hex": "0050006C006F0063002E002E002E00200050006C006F0063002E002E002E00200050006C006F0063002E002E002E0020004A00650020006E0065002000730075006900730020006A0061006D006100690073000A0070006C0075007300200068006500750072006500750073006500200071007500650020007100750061006E006400200069006C00200070006C0065007500740020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "Fais-tu attention à la météo quand tu te bats ?<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 496,
+      "rawDecodedUtf16Hex": "0046006100690073002D0074007500200061007400740065006E00740069006F006E002000E00020006C00610020006D00E9007400E9006F0020007100750061006E0064002000740075002000740065002000620061007400730020003F00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 52
+    },
+    {
+      "displayText": "Mes Pokémon à moi sont plus puissants\nquand il pleut !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 600,
+      "rawDecodedUtf16Hex": "004D0065007300200050006F006B00E9006D006F006E002000E00020006D006F006900200073006F006E007400200070006C007500730020007000750069007300730061006E00740073000A007100750061006E006400200069006C00200070006C0065007500740020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "Affronte-moi quand il pleut, et tu constateras\nque je suis imperméable à la défaite !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 5,
+      "offsetInSection": 720,
+      "rawDecodedUtf16Hex": "0041006600660072006F006E00740065002D006D006F00690020007100750061006E006400200069006C00200070006C006500750074002C00200065007400200074007500200063006F006E00730074006100740065007200610073000A0071007500650020006A00650020007300750069007300200069006D007000650072006D00E900610062006C0065002000E00020006C00610020006400E9006600610069007400650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 90
+    },
+    {
+      "displayText": "Battons-nous avant qu’il ne cesse de pleuvoir !\nTu verras ainsi la puissance de mon équipe<U+0010><U+0001>븀\npar toi-même !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 900,
+      "rawDecodedUtf16Hex": "0042006100740074006F006E0073002D006E006F007500730020006100760061006E007400200071007520190069006C0020006E006500200063006500730073006500200064006500200070006C006500750076006F0069007200200021000A005400750020007600650072007200610073002000610069006E007300690020006C00610020007000750069007300730061006E006300650020006400650020006D006F006E002000E90071007500690070006500100001BE00000A00700061007200200074006F0069002D006D00EA006D00650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "La pluie me donne vie !\nSi tu es prêt<U+0010><U+0003>ᄀÿĀe à te battre, viens me voir !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 1128,
+      "rawDecodedUtf16Hex": "004C006100200070006C0075006900650020006D006500200064006F006E006E0065002000760069006500200021000A0053006900200074007500200065007300200070007200EA007400100003110000FF01000065002000E00020007400650020006200610074007400720065002C0020007600690065006E00730020006D006500200076006F006900720020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0008>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1284,
+      "rawDecodedUtf16Hex": "00100002BDFF00080000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "J’aimerais me battre sous la pluie pour te montrer\nmes Pokémon sous leur meilleur jour !<U+0010><U+0001>븁\nEst-ce que tu comptes rester ici\njusqu’à ce qu’il pleuve ?<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1296,
+      "rawDecodedUtf16Hex": "004A201900610069006D006500720061006900730020006D0065002000620061007400740072006500200073006F007500730020006C006100200070006C00750069006500200070006F007500720020007400650020006D006F006E0074007200650072000A006D0065007300200050006F006B00E9006D006F006E00200073006F007500730020006C0065007500720020006D00650069006C006C0065007500720020006A006F007500720020002100100001BE01000A004500730074002D00630065002000710075006500200074007500200063006F006D007000740065007300200072006500730074006500720020006900630069000A006A0075007300710075201900E000200063006500200071007520190069006C00200070006C00650075007600650020003F00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 155
+    },
+    {
+      "displayText": "J’ai beaucoup de patience.<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1608,
+      "rawDecodedUtf16Hex": "004A201900610069002000620065006100750063006F00750070002000640065002000700061007400690065006E00630065002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "Non, je suis pressé<U+0010><U+0003>ᄀÿĀe !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1672,
+      "rawDecodedUtf16Hex": "004E006F006E002C0020006A00650020007300750069007300200070007200650073007300E900100003110000FF010000650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Battons-nous tant qu’il pleut ! Je veux te montrer\nmes Pokémon sous leur meilleur jour !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1736,
+      "rawDecodedUtf16Hex": "0042006100740074006F006E0073002D006E006F00750073002000740061006E007400200071007520190069006C00200070006C006500750074002000210020004A0065002000760065007500780020007400650020006D006F006E0074007200650072000A006D0065007300200050006F006B00E9006D006F006E00200073006F007500730020006C0065007500720020006D00650069006C006C0065007500720020006A006F007500720020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "Voyons ce dont ils sont capables !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 1924,
+      "rawDecodedUtf16Hex": "0056006F0079006F006E007300200063006500200064006F006E007400200069006C007300200073006F006E0074002000630061007000610062006C006500730020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Désolé<U+0010><U+0003>ᄀÿĀe, j’ai oublié mon parapluie...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2004,
+      "rawDecodedUtf16Hex": "004400E90073006F006C00E900100003110000FF01000065002C0020006A2019006100690020006F00750062006C006900E90020006D006F006E002000700061007200610070006C007500690065002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "Ah... Aucune chance que tu attendes, alors...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 15,
+      "offsetInSection": 2100,
+      "rawDecodedUtf16Hex": "00410068002E002E002E00200041007500630075006E00650020006300680061006E00630065002000710075006500200074007500200061007400740065006E006400650073002C00200061006C006F00720073002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 50
+    },
+    {
+      "displayText": "Hein ? Mais la pluie risque de s’arrêter bientôt !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2200,
+      "rawDecodedUtf16Hex": "004800650069006E0020003F0020004D0061006900730020006C006100200070006C007500690065002000720069007300710075006500200064006500200073201900610072007200EA0074006500720020006200690065006E007400F400740020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Ouah, tu as tant envie de m’affronter ?\nNous n’avons plus qu’à attendre...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2312,
+      "rawDecodedUtf16Hex": "004F007500610068002C002000740075002000610073002000740061006E007400200065006E0076006900650020006400650020006D20190061006600660072006F006E0074006500720020003F000A004E006F007500730020006E201900610076006F006E007300200070006C00750073002000710075201900E000200061007400740065006E006400720065002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "Il pleut ! Enfin !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 2472,
+      "rawDecodedUtf16Hex": "0049006C00200070006C0065007500740020002100200045006E00660069006E0020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Les capacités de type Eau de mes Pokémon\ndeviennent surpuissantes sous la pluie !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2520,
+      "rawDecodedUtf16Hex": "004C006500730020006300610070006100630069007400E900730020006400650020007400790070006500200045006100750020006400650020006D0065007300200050006F006B00E9006D006F006E000A00640065007600690065006E006E0065006E00740020007300750072007000750069007300730061006E00740065007300200073006F007500730020006C006100200070006C0075006900650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0014>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "00100002BDFF00140000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Même en combinant mes capacités de type Eau\navec la pluie, je n’ai pas pu te battre...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2704,
+      "rawDecodedUtf16Hex": "004D00EA006D006500200065006E00200063006F006D00620069006E0061006E00740020006D006500730020006300610070006100630069007400E90073002000640065002000740079007000650020004500610075000A00610076006500630020006C006100200070006C007500690065002C0020006A00650020006E20190061006900200070006100730020007000750020007400650020006200610074007400720065002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "Tu as vu comme tous mes Pokémon utilisaient\ndes capacités de ce type ?<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2888,
+      "rawDecodedUtf16Hex": "0054007500200061007300200076007500200063006F006D006D006500200074006F007500730020006D0065007300200050006F006B00E9006D006F006E0020007500740069006C00690073006100690065006E0074000A0064006500730020006300610070006100630069007400E90073002000640065002000630065002000740079007000650020003F00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "Elles deviennent plus puissantes sous la\npluie ! Je pensais que ça m’aiderait à gagner...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 3040,
+      "rawDecodedUtf16Hex": "0045006C006C00650073002000640065007600690065006E006E0065006E007400200070006C007500730020007000750069007300730061006E00740065007300200073006F007500730020006C0061000A0070006C007500690065002000210020004A0065002000700065006E00730061006900730020007100750065002000E700610020006D201900610069006400650072006100690074002000E00020006700610067006E00650072002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 94
+    },
+    {
+      "displayText": "Ah, et ce n’est pas tout...<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 24,
+      "offsetInSection": 3228,
+      "rawDecodedUtf16Hex": "00410068002C0020006500740020006300650020006E2019006500730074002000700061007300200074006F00750074002E002E002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "Lorsqu’il pleut, les capacités de type Feu\nsont affaiblies.<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3292,
+      "rawDecodedUtf16Hex": "004C006F007200730071007520190069006C00200070006C006500750074002C0020006C006500730020006300610070006100630069007400E90073002000640065002000740079007000650020004600650075000A0073006F006E00740020006100660066006100690062006C006900650073002E00100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 64
+    },
+    {
+      "displayText": "C’est normal. Après tout, la pluie, ça mouille !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3420,
+      "rawDecodedUtf16Hex": "004320190065007300740020006E006F0072006D0061006C002E002000410070007200E8007300200074006F00750074002C0020006C006100200070006C007500690065002C002000E700610020006D006F00750069006C006C00650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001B>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3528,
+      "rawDecodedUtf16Hex": "00100002BDFF001B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Les capacités de type Eau sont plus puissantes\nsous la pluie !<U+0010><U+0002>Ĕŉ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 3540,
+      "rawDecodedUtf16Hex": "004C006500730020006300610070006100630069007400E9007300200064006500200074007900700065002000450061007500200073006F006E007400200070006C007500730020007000750069007300730061006E007400650073000A0073006F007500730020006C006100200070006C0075006900650020002100100002011401490000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 3676,
+  "sectionOffset": 16,
+  "textCount": 29,
+  "textSectionCount": 1
+}

@@ -1,0 +1,33 @@
+{
+  "declaredLength": 72,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "이 기술을 잊게 한다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "C7740020AE30C220C7440020C78AAC8C0020D55CB2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "기술 선택으로 돌아간다",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 44,
+      "rawDecodedUtf16Hex": "AE30C2200020C120D0DDC73CB85C0020B3CCC544AC04B2E40000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 72,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

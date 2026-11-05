@@ -1,0 +1,223 @@
+{
+  "declaredLength": 1004,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "序列号认证服务器发生了错误。\n请过一段时间后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 172,
+      "rawDecodedUtf16Hex": "5E8F521753F78BA48BC1670D52A1566853D1751F4E8695198BEF3002000A8BF78FC74E006BB565F695F4540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "序列号认证服务器正在维护，\n因此无法连接。\n请过一段时间后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 228,
+      "rawDecodedUtf16Hex": "5E8F521753F78BA48BC1670D52A156686B6357287EF462A4FF0C000A56E06B6465E06CD58FDE63A53002000A8BF78FC74E006BB565F695F4540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "所使用的服务已结束。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 300,
+      "rawDecodedUtf16Hex": "62404F7F75287684670D52A15DF27ED3675F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "序列号认证服务器发生了错误。\n请过一段时间后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 324,
+      "rawDecodedUtf16Hex": "5E8F521753F78BA48BC1670D52A1566853D1751F4E8695198BEF3002000A8BF78FC74E006BB565F695F4540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "序列号认证服务器发生了错误。\n请过一段时间后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 380,
+      "rawDecodedUtf16Hex": "5E8F521753F78BA48BC1670D52A1566853D1751F4E8695198BEF3002000A8BF78FC74E006BB565F695F4540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 28
+    },
+    {
+      "displayText": "序列号认证服务器拥挤。\n请过一段时间后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 436,
+      "rawDecodedUtf16Hex": "5E8F521753F78BA48BC1670D52A1566862E563243002000A8BF78FC74E006BB565F695F4540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 25
+    },
+    {
+      "displayText": "与服务器的连接被断开。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 488,
+      "rawDecodedUtf16Hex": "4E0E670D52A1566876848FDE63A588AB65AD5F0030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "因连接有问题，已结束连接。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 512,
+      "rawDecodedUtf16Hex": "56E08FDE63A5670995EE9898FF0C5DF27ED3675F8FDE63A530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "与服务器的连接被断开。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 540,
+      "rawDecodedUtf16Hex": "4E0E670D52A1566876848FDE63A588AB65AD5F0030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 12
+    },
+    {
+      "displayText": "无法与对方连接。\n请稍后重试。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 564,
+      "rawDecodedUtf16Hex": "65E06CD54E0E5BF965B98FDE63A53002000A8BF77A0D540E91CD8BD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "与对方的连接被断开。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 596,
+      "rawDecodedUtf16Hex": "4E0E5BF965B976848FDE63A588AB65AD5F0030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "系统出现了问题。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 620,
+      "rawDecodedUtf16Hex": "7CFB7EDF51FA73B04E8695EE989830020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "发生错误。\n无法进行宝可梦交换。\n\n请按HOME键结束游戏。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 640,
+      "rawDecodedUtf16Hex": "53D1751F95198BEF3002000A65E06CD58FDB884C5B9D53EF68A64EA463623002000A000A8BF763090048004F004D0045952E7ED3675F6E38620F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "无法识别游戏主机中的保存数据。\n\n请切断主机的电源后再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 704,
+      "rawDecodedUtf16Hex": "65E06CD58BC6522B6E38620F4E3B673A4E2D76844FDD5B586570636E3002000A000A8BF7520765AD4E3B673A768475356E90540E518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 32
+    },
+    {
+      "displayText": "募集已结束，\n无法参加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "52DF96C65DF27ED3675FFF0C000A65E06CD553C252A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "人数已满，无法参加。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 796,
+      "rawDecodedUtf16Hex": "4EBA65705DF26EE1FF0C65E06CD553C252A030020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "没有找到连接对象。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 820,
+      "rawDecodedUtf16Hex": "6CA16709627E52308FDE63A55BF98C6130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "连接互联网失败。\n\n请重新连接互联网\n以获取通讯所需的信息。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 840,
+      "rawDecodedUtf16Hex": "8FDE63A54E9280547F5159318D253002000A000A8BF791CD65B08FDE63A54E9280547F51000A4EE583B753D6901A8BAF6240970076844FE1606F30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "服务器发生了错误。\n请再试一次。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 904,
+      "rawDecodedUtf16Hex": "670D52A1566853D1751F4E8695198BEF3002000A8BF7518D8BD54E006B2130020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "目前正在维护……\n请稍后再试。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 940,
+      "rawDecodedUtf16Hex": "76EE524D6B6357287EF462A420262026000A8BF77A0D540E518D8BD530020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 16
+    },
+    {
+      "displayText": "已使用别的保存数据参加大赛。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 972,
+      "rawDecodedUtf16Hex": "5DF24F7F7528522B76844FDD5B586570636E53C252A059278D5B30020000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 1004,
+  "sectionOffset": 16,
+  "textCount": 21,
+  "textSectionCount": 1
+}

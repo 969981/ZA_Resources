@@ -1,0 +1,2253 @@
+{
+  "declaredLength": 19024,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "<U+0010><U+0002>뷿",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 1796,
+      "rawDecodedUtf16Hex": "00100002BDFF000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0001>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 1816,
+      "rawDecodedUtf16Hex": "00100002BDFF000100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "にほんばれ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 1836,
+      "rawDecodedUtf16Hex": "306B307B30933070308C000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "天気が　はれ状態。\nほのおタイプの　威力が　上がる。\nみずタイプの　威力が　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 1860,
+      "rawDecodedUtf16Hex": "59296C17304C3000306F308C72B6614B3002000A307B306E304A30BF30A430D7306E30005A01529B304C30004E0A304C308B3002000A307F305A30BF30A430D7306E30005A01529B304C30004E0B304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "あめ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 2032,
+      "rawDecodedUtf16Hex": "30423081000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "天気が　あめ状態。\nみずタイプの　威力が　上がる。\nほのおタイプの　威力が　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 2044,
+      "rawDecodedUtf16Hex": "59296C17304C30003042308172B6614B3002000A307F305A30BF30A430D7306E30005A01529B304C30004E0A304C308B3002000A307B306E304A30BF30A430D7306E30005A01529B304C30004E0B304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "すなあらし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 6,
+      "offsetInSection": 2216,
+      "rawDecodedUtf16Hex": "3059306A304230893057000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "天気が　すなあらし状態。\nいわ　じめん　はがねタイプ以外は\n毎ターン　ダメージを　受ける。\nいわタイプの　とくぼうが　強くなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 7,
+      "offsetInSection": 2240,
+      "rawDecodedUtf16Hex": "59296C17304C30003059306A30423089305772B6614B3002000A3044308F30003058308130933000306F304C306D30BF30A430D74EE55916306F000A6BCE30BF30FC30F3300030C030E130FC30B83092300053D73051308B3002000A3044308F30BF30A430D7306E30003068304F307C3046304C30005F37304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 65,
+      "utf16Units": 129
+    },
+    {
+      "displayText": "ゆき",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 2500,
+      "rawDecodedUtf16Hex": "3086304D000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "天気が　ゆき状態。\nふぶきが　当たりやすくなる。\nこおりタイプの　ぼうぎょが　強くなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 2512,
+      "rawDecodedUtf16Hex": "59296C17304C30003086304D72B6614B3002000A30753076304D304C30005F53305F308A30843059304F306A308B3002000A3053304A308A30BF30A430D7306E3000307C3046304E3087304C30005F37304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 45,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "エレキフィールド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 2692,
+      "rawDecodedUtf16Hex": "30A830EC30AD30D530A330FC30EB30C9000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "５ターンの間　地面に　いる\nポケモンは　ねむり状態に\nならない。\nでんきタイプの　威力が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 2728,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300057309762306B30003044308B000A30DD30B130E230F3306F3000306D3080308A72B6614B306B000A306A3089306A30443002000A30673093304D30BF30A430D7306E30005A01529B304C30004E0A304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 50,
+      "utf16Units": 99
+    },
+    {
+      "displayText": "グラスフィールド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 2928,
+      "rawDecodedUtf16Hex": "30B030E930B930D530A330FC30EB30C9000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "５ターンの間　地面に　いる\nポケモンは　少しずつ　ＨＰが\n回復する。\nくさタイプの　威力が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2964,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300057309762306B30003044308B000A30DD30B130E230F3306F30005C113057305A30643000FF28FF30304C000A56DE5FA93059308B3002000A304F305530BF30A430D7306E30005A01529B304C30004E0A304C308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 51,
+      "utf16Units": 101
+    },
+    {
+      "displayText": "ミストフィールド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 3168,
+      "rawDecodedUtf16Hex": "30DF30B930C830D530A330FC30EB30C9000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "５ターンの間　地面に　いる\nポケモンは　状態異常に　ならない。\nドラゴンタイプの　技の　ダメージも\n半分になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 3204,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300057309762306B30003044308B000A30DD30B130E230F3306F300072B6614B75705E38306B3000306A3089306A30443002000A30C930E930B430F330BF30A430D7306E30006280306E300030C030E130FC30B83082000A534A5206306B306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 57,
+      "utf16Units": 113
+    },
+    {
+      "displayText": "トリックルーム",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 3432,
+      "rawDecodedUtf16Hex": "30C830EA30C330AF30EB30FC30E000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間　すばやさの\n遅い　ポケモンから\n行動　できる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 17,
+      "offsetInSection": 3464,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E959330003059307030843055306E000A90453044300030DD30B130E230F3304B3089000A884C52D530003067304D308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 31,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "マジックルーム",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 18,
+      "offsetInSection": 3588,
+      "rawDecodedUtf16Hex": "30DE30B830C330AF30EB30FC30E000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間　持ち物が\n使えなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 3620,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E95933000630130617269304C000A4F7F3048306A304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "ワンダールーム",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 3700,
+      "rawDecodedUtf16Hex": "30EF30F330C030FC30EB30FC30E000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間　ポケモンの\nぼうぎょと　とくぼうが　入れ替わる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 3732,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300030DD30B130E230F3306E000A307C3046304E3087306830003068304F307C3046304C30005165308C66FF308F308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 32,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "きゅうしょアップ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 3860,
+      "rawDecodedUtf16Hex": "304D308530463057308730A230C330D7000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "相手の　急所に\n当たる　率が　高くなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 23,
+      "offsetInSection": 3896,
+      "rawDecodedUtf16Hex": "76F8624B306E300060256240306B000A5F53305F308B30007387304C30009AD8304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 21,
+      "utf16Units": 41
+    },
+    {
+      "displayText": "こんらん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3980,
+      "rawDecodedUtf16Hex": "305330933089309300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "１－４ターンの間　自分を\n攻撃　することが　ある。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 4000,
+      "rawDecodedUtf16Hex": "FF11FF0DFF1430BF30FC30F3306E9593300081EA52063092000A653B648330003059308B30533068304C30003042308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "メロメロ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 4104,
+      "rawDecodedUtf16Hex": "30E130ED30E130ED00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "♂なら♀に　♀なら♂に\n攻撃が　しにくくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 4124,
+      "rawDecodedUtf16Hex": "2642306A30892640306B30002640306A30892642306B000A653B6483304C30003057306B304F304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "あくむ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 28,
+      "offsetInSection": 4220,
+      "rawDecodedUtf16Hex": "3042304F30800000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "寝ている間　毎ターン\nＨＰが　へる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 4236,
+      "rawDecodedUtf16Hex": "5BDD30663044308B959330006BCE30BF30FC30F3000AFF28FF30304C30003078308B30020000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "ねむけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 4312,
+      "rawDecodedUtf16Hex": "306D308030510000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "技を　受けた　次の　ターン\nねむり状態に　なる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 4328,
+      "rawDecodedUtf16Hex": "62803092300053D73051305F30006B21306E300030BF30FC30F3000A306D3080308A72B6614B306B3000306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "アンコール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 4428,
+      "rawDecodedUtf16Hex": "30A230F330B330FC30EB000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "アンコールを　受けると\n３回　<U+0010><U+0002>ć<U+0000>しか\n使えなくなる。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 33,
+      "offsetInSection": 4452,
+      "rawDecodedUtf16Hex": "30A230F330B330FC30EB3092300053D73051308B3068000AFF1356DE300000100002010700003057304B000A4F7F3048306A304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "とくせいなし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 4572,
+      "rawDecodedUtf16Hex": "3068304F305B3044306A30570000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "とくせいが　消えて\n効果が　なくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 35,
+      "offsetInSection": 4600,
+      "rawDecodedUtf16Hex": "3068304F305B3044304C30006D8830483066000A52B9679C304C3000306A304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "いちゃもん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 4680,
+      "rawDecodedUtf16Hex": "30443061308330823093000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "同じ技が　続けて　出せない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4704,
+      "rawDecodedUtf16Hex": "540C30586280304C30007D9A30513066300051FA305B306A30443002000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "おいかぜ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4764,
+      "rawDecodedUtf16Hex": "304A3044304B305C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "４ターンの間　戦闘に　出ている\n味方の　すばやさが　２倍になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 39,
+      "offsetInSection": 4784,
+      "rawDecodedUtf16Hex": "FF1430BF30FC30F3306E95933000622695D8306B300051FA30663044308B000A547365B9306E30003059307030843055304C3000FF12500D306B306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 33,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "おまじない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4916,
+      "rawDecodedUtf16Hex": "304A307E3058306A3044000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "相手の　技が\n急所に　当たらなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 41,
+      "offsetInSection": 4940,
+      "rawDecodedUtf16Hex": "76F8624B306E30006280304C000A60256240306B30005F53305F3089306A304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "おんねん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 5020,
+      "rawDecodedUtf16Hex": "304A3093306D309300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "相手の　技で　ひんしに　されたとき\nその技の　ＰＰを　０に　する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 5040,
+      "rawDecodedUtf16Hex": "76F8624B306E3000628030673000307230933057306B30003055308C305F3068304D000A305D306E6280306E3000FF30FF3030923000FF10306B30003059308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "かいふくふうじ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 5176,
+      "rawDecodedUtf16Hex": "304B30443075304F30753046305800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間　技や　特性や\n持っている　道具に　よって\nＨＰを　回復できない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 5208,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E95933000628030843000727960273084000A6301306330663044308B300090535177306B3000308830633066000AFF28FF303092300056DE5FA93067304D306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 40,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "みやぶられている",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 5368,
+      "rawDecodedUtf16Hex": "307F308430763089308C30663044308B000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "特定の　効果が　なかった\n技が　当たる　ようになる。\n回避率アップの　効果は\n無視されて　攻撃を　受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 47,
+      "offsetInSection": 5404,
+      "rawDecodedUtf16Hex": "72795B9A306E300052B9679C304C3000306A304B3063305F000A6280304C30005F53305F308B300030883046306B306A308B3002000A56DE907F738730A230C330D7306E300052B9679C306F000A712189963055308C30663000653B64833092300053D73051308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 54,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "かなしばり",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 5620,
+      "rawDecodedUtf16Hex": "304B306A30573070308A000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "かなしばり状態のため\n４ターンの間\n<U+0010><U+0002>ć<U+0000>が\n使えなくなる。",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 5644,
+      "rawDecodedUtf16Hex": "304B306A30573070308A72B6614B306E305F3081000AFF1430BF30FC30F3306E9593000A0010000201070000304C000A4F7F3048306A304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 32,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "にげられない",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 50,
+      "offsetInSection": 5772,
+      "rawDecodedUtf16Hex": "306B30523089308C306A30440000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "逃げたり　交代することが\nできない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 5800,
+      "rawDecodedUtf16Hex": "90033052305F308A30004EA44EE33059308B30533068304C000A3067304D306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "ロックオン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 52,
+      "offsetInSection": 5876,
+      "rawDecodedUtf16Hex": "30ED30C330AF30AA30F3000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ロックオンした　次の　ターン\n技が　必ず　当たる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5900,
+      "rawDecodedUtf16Hex": "30ED30C330AF30AA30F33057305F30006B21306E300030BF30FC30F3000A6280304C30005FC5305A30005F53305F308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "さしおさえ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 6004,
+      "rawDecodedUtf16Hex": "30553057304A30553048000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "５ターンの間　持ち物や\nどうぐが　使えなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 55,
+      "offsetInSection": 6028,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E959330006301306172693084000A306930463050304C30004F7F3048306A304F306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "じゅうでん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 56,
+      "offsetInSection": 6128,
+      "rawDecodedUtf16Hex": "30583085304630673093000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "次にだす　でんきタイプの\n威力が　２倍になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 6152,
+      "rawDecodedUtf16Hex": "6B21306B30603059300030673093304D30BF30A430D7306E000A5A01529B304C3000FF12500D306B306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "じゅうりょく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 58,
+      "offsetInSection": 6248,
+      "rawDecodedUtf16Hex": "305830853046308A3087304F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "５ターンの間　技が\n当たりやすくなる。\nひこうタイプや　とくせいふゆう　の\nポケモンに　じめん技が　当たる。\n空中に　飛ぶ技が　使えない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 59,
+      "offsetInSection": 6276,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E959330006280304C000A5F53305F308A30843059304F306A308B3002000A30723053304630BF30A430D7308430003068304F305B30443075308630463000306E000A30DD30B130E230F3306B30003058308130936280304C30005F53305F308B3002000A7A7A4E2D306B300098DB30766280304C30004F7F3048306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 70,
+      "utf16Units": 139
+    },
+    {
+      "displayText": "しろいきり",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 6556,
+      "rawDecodedUtf16Hex": "3057308D3044304D308A000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "５ターンの間　能力を\n下げられない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 6580,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300080FD529B3092000A4E0B30523089308C306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "しんぴのまもり",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6656,
+      "rawDecodedUtf16Hex": "305730933074306E307E3082308A00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間\n状態異常に　ならない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 6688,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A72B6614B75705E38306B3000306A3089306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "ステルスロック",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6764,
+      "rawDecodedUtf16Hex": "30B930C630EB30B930ED30C330AF00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "入れ替わった　ポケモンに\nダメージを　与える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 6796,
+      "rawDecodedUtf16Hex": "5165308C66FF308F3063305F300030DD30B130E230F3306B000A30C030E130FC30B8309230004E0E3048308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "たくわえる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 6892,
+      "rawDecodedUtf16Hex": "305F304F308F3048308B000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "たくわえている間\nぼうぎょと　とくぼうが　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 6916,
+      "rawDecodedUtf16Hex": "305F304F308F304830663044308B9593000A307C3046304E3087306830003068304F307C3046304C30004E0A304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 26,
+      "utf16Units": 51
+    },
+    {
+      "displayText": "ちょうはつ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 7020,
+      "rawDecodedUtf16Hex": "306130873046306F3064000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ダメージを　与える　技しか\n出せなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 69,
+      "offsetInSection": 7044,
+      "rawDecodedUtf16Hex": "30C030E130FC30B8309230004E0E3048308B300062803057304B000A51FA305B306A304F306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "テレキネシス",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 7132,
+      "rawDecodedUtf16Hex": "30C630EC30AD30CD30B730B90000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "３ターンの間\n一撃必殺　以外の　技が\n必ず　当たる。\nじめんタイプの　技が\n当たらなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 7160,
+      "rawDecodedUtf16Hex": "FF1330BF30FC30F3306E9593000A4E0064835FC56BBA30004EE55916306E30006280304C000A5FC5305A30005F53305F308B3002000A30583081309330BF30A430D7306E30006280304C000A5F53305F3089306A304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 47,
+      "utf16Units": 93
+    },
+    {
+      "displayText": "でんじふゆう",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 7348,
+      "rawDecodedUtf16Hex": "3067309330583075308630460000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "５ターンの間　じめんタイプの\n技が　当たらなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 73,
+      "offsetInSection": 7376,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300030583081309330BF30A430D7306E000A6280304C30005F53305F3089306A304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 27,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "どくびし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 74,
+      "offsetInSection": 7484,
+      "rawDecodedUtf16Hex": "3069304F3073305700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "入れ替わった　ポケモンを\nどく状態にする。\nひこうタイプや　とくせいふゆう　の\nポケモンには　当たらない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 75,
+      "offsetInSection": 7504,
+      "rawDecodedUtf16Hex": "5165308C66FF308F3063305F300030DD30B130E230F33092000A3069304F72B6614B306B3059308B3002000A30723053304630BF30A430D7308430003068304F305B30443075308630463000306E000A30DD30B130E230F3306B306F30005F53305F3089306A30443002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 54,
+      "utf16Units": 107
+    },
+    {
+      "displayText": "どろあそび",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 76,
+      "offsetInSection": 7720,
+      "rawDecodedUtf16Hex": "3069308D3042305D3073000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "５ターンの間\nでんきタイプの　技の　威力が\n半減する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 77,
+      "offsetInSection": 7744,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A30673093304D30BF30A430D7306E30006280306E30005A01529B304C000A534A6E1B3059308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "ねがいごと",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 78,
+      "offsetInSection": 7856,
+      "rawDecodedUtf16Hex": "306D304C304430543068000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ねがいごとを　使った　次のターン\nその場所の　ポケモンの　ＨＰが　回復する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 79,
+      "offsetInSection": 7880,
+      "rawDecodedUtf16Hex": "306D304C304430543068309230004F7F3063305F30006B21306E30BF30FC30F3000A305D306E58346240306E300030DD30B130E230F3306E3000FF28FF30304C300056DE5FA93059308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 39,
+      "utf16Units": 77
+    },
+    {
+      "displayText": "ねばねばネット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 80,
+      "offsetInSection": 8036,
+      "rawDecodedUtf16Hex": "306D3070306D307030CD30C330C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "交代して　出てくる　ポケモンの\nすばやさを　下げる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 81,
+      "offsetInSection": 8068,
+      "rawDecodedUtf16Hex": "4EA44EE330573066300051FA3066304F308B300030DD30B130E230F3306E000A3059307030843055309230004E0B3052308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 27,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "ねをはる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 82,
+      "offsetInSection": 8176,
+      "rawDecodedUtf16Hex": "306D3092306F308B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ターンの　最後に　ＨＰを\n回復する。\n根を　張った　ポケモンは\n交代　できない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 83,
+      "offsetInSection": 8196,
+      "rawDecodedUtf16Hex": "30BF30FC30F3306E300067005F8C306B3000FF28FF303092000A56DE5FA93059308B3002000A6839309230005F353063305F300030DD30B130E230F3306F000A4EA44EE330003067304D306A3044300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 41,
+      "utf16Units": 81
+    },
+    {
+      "displayText": "のろい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 84,
+      "offsetInSection": 8360,
+      "rawDecodedUtf16Hex": "306E308D30440000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "ターンの　最後に　ＨＰを　へらす。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 85,
+      "offsetInSection": 8376,
+      "rawDecodedUtf16Hex": "30BF30FC30F3306E300067005F8C306B3000FF28FF30309230003078308930593002000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 18,
+      "utf16Units": 35
+    },
+    {
+      "displayText": "ハロウィン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 86,
+      "offsetInSection": 8448,
+      "rawDecodedUtf16Hex": "30CF30ED30A630A330F3000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ゴーストタイプが　追加　される。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 87,
+      "offsetInSection": 8472,
+      "rawDecodedUtf16Hex": "30B430FC30B930C830BF30A430D7304C30008FFD52A030003055308C308B300200000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 17,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "ひかりのかべ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 88,
+      "offsetInSection": 8540,
+      "rawDecodedUtf16Hex": "3072304B308A306E304B30790000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "５ターンの間\nとくしゅこうげきで　受ける\n威力を　半減する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 89,
+      "offsetInSection": 8568,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A3068304F30573085305330463052304D3067300053D73051308B000A5A01529B30923000534A6E1B3059308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 31,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "リフレクター",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 90,
+      "offsetInSection": 8692,
+      "rawDecodedUtf16Hex": "30EA30D530EC30AF30BF30FC0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "５ターンの間\nぶつりこうげきで　受ける\n威力を　半減する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 91,
+      "offsetInSection": 8720,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A30763064308A305330463052304D3067300053D73051308B000A5A01529B30923000534A6E1B3059308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "ふういん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 92,
+      "offsetInSection": 8840,
+      "rawDecodedUtf16Hex": "307530463044309300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ふういんした　ポケモンが\n覚えている　技を　対戦相手の\nポケモンは　出せなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 93,
+      "offsetInSection": 8860,
+      "rawDecodedUtf16Hex": "30753046304430933057305F300030DD30B130E230F3304C000A899A304830663044308B30006280309230005BFE622676F8624B306E000A30DD30B130E230F3306F300051FA305B306A304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 42,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "ほろびのうた",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 94,
+      "offsetInSection": 9028,
+      "rawDecodedUtf16Hex": "307B308D3073306E3046305F0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "ほろび状態になった\nすべての　ポケモンが\n３ターン後に　ひんしに　なる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 95,
+      "offsetInSection": 9056,
+      "rawDecodedUtf16Hex": "307B308D307372B6614B306B306A3063305F000A305930793066306E300030DD30B130E230F3304C000AFF1330BF30FC30F35F8C306B3000307230933057306B3000306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 37,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "まきびし",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 96,
+      "offsetInSection": 9204,
+      "rawDecodedUtf16Hex": "307E304D3073305700000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "入れ替わった　ポケモンに\nダメージを　与える。\nひこうタイプや　とくせいふゆう　の\nポケモンには　当たらない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 97,
+      "offsetInSection": 9224,
+      "rawDecodedUtf16Hex": "5165308C66FF308F3063305F300030DD30B130E230F3306B000A30C030E130FC30B8309230004E0E3048308B3002000A30723053304630BF30A430D7308430003068304F305B30443075308630463000306E000A30DD30B130E230F3306B306F30005F53305F3089306A3044300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 56,
+      "utf16Units": 111
+    },
+    {
+      "displayText": "みずあそび",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 98,
+      "offsetInSection": 9448,
+      "rawDecodedUtf16Hex": "307F305A3042305D3073000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "５ターンの間\nほのおタイプの技の　威力が\n半減する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 99,
+      "offsetInSection": 9472,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A307B306E304A30BF30A430D7306E6280306E30005A01529B304C000A534A6E1B3059308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 27,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "みちづれ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 100,
+      "offsetInSection": 9580,
+      "rawDecodedUtf16Hex": "307F30613065308C00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "自分を　ひんしにさせた　相手を\nみちづれにして　ひんしにする。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 101,
+      "offsetInSection": 9600,
+      "rawDecodedUtf16Hex": "81EA520630923000307230933057306B3055305B305F300076F8624B3092000A307F30613065308C306B305730663000307230933057306B3059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 32,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "もりののろい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 102,
+      "offsetInSection": 9728,
+      "rawDecodedUtf16Hex": "3082308A306E306E308D30440000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "くさタイプが　追加　される。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 103,
+      "offsetInSection": 9756,
+      "rawDecodedUtf16Hex": "304F305530BF30A430D7304C30008FFD52A030003055308C308B3002000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 15,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "やどりぎのタネ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 104,
+      "offsetInSection": 9816,
+      "rawDecodedUtf16Hex": "30843069308A304E306E30BF30CD00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "ターンの　最後に\nやどりぎによって　ＨＰを　奪い取られ\n相手を　回復する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 105,
+      "offsetInSection": 9848,
+      "rawDecodedUtf16Hex": "30BF30FC30F3306E300067005F8C306B000A30843069308A304E306B3088306330663000FF28FF3030923000596A304453D63089308C000A76F8624B3092300056DE5FA93059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 38,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "ロックオン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 106,
+      "offsetInSection": 10000,
+      "rawDecodedUtf16Hex": "30ED30C330AF30AA30F3000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "ロックオンした　相手に\n技が　必ず　命中する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 107,
+      "offsetInSection": 10024,
+      "rawDecodedUtf16Hex": "30ED30C330AF30AA30F33057305F300076F8624B306B000A6280304C30005FC5305A3000547D4E2D3059308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "バインド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 108,
+      "offsetInSection": 10120,
+      "rawDecodedUtf16Hex": "30D030A430F330C900000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "しめつけられて　毎ターン\nダメージを　受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 109,
+      "offsetInSection": 10140,
+      "rawDecodedUtf16Hex": "30573081306430513089308C306630006BCE30BF30FC30F3000A30C030E130FC30B83092300053D73051308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 24,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "がまん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 110,
+      "offsetInSection": 10236,
+      "rawDecodedUtf16Hex": "304C307E30930000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "２ターンの間\n攻撃に　耐えて\n受けた　ダメージを　２倍に　して\n相手に　返す。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 111,
+      "offsetInSection": 10252,
+      "rawDecodedUtf16Hex": "FF1230BF30FC30F3306E9593000A653B6483306B3000801030483066000A53D73051305F300030C030E130FC30B830923000FF12500D306B300030573066000A76F8624B306B30008FD4305930020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 40,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "げきりん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 112,
+      "offsetInSection": 10412,
+      "rawDecodedUtf16Hex": "3052304D308A309300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "２ー３ターンの間\n暴れまくって　攻撃する。\n暴れた　後は　こんらん　する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 113,
+      "offsetInSection": 10432,
+      "rawDecodedUtf16Hex": "FF1230FCFF1330BF30FC30F3306E9593000A66B4308C307E304F306330663000653B64833059308B3002000A66B4308C305F30005F8C306F3000305330933089309330003059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 38,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "あばれる",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 114,
+      "offsetInSection": 10584,
+      "rawDecodedUtf16Hex": "30423070308C308B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "あばれ状態のため\n２ー３ターンの間\n暴れまくって　攻撃する。\n暴れた後は　こんらん　する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 115,
+      "offsetInSection": 10604,
+      "rawDecodedUtf16Hex": "30423070308C72B6614B306E305F3081000AFF1230FCFF1330BF30FC30F3306E9593000A66B4308C307E304F306330663000653B64833059308B3002000A66B4308C305F5F8C306F3000305330933089309330003059308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "はなびらのまい",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 116,
+      "offsetInSection": 10788,
+      "rawDecodedUtf16Hex": "306F306A30733089306E307E304400000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "２ー３ターンの間\n暴れまくって　攻撃する。\n暴れた　後は　こんらん　する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 117,
+      "offsetInSection": 10820,
+      "rawDecodedUtf16Hex": "FF1230FCFF1330BF30FC30F3306E9593000A66B4308C307E304F306330663000653B64833059308B3002000A66B4308C305F30005F8C306F3000305330933089309330003059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 38,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "もうどく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 118,
+      "offsetInSection": 10972,
+      "rawDecodedUtf16Hex": "308230463069304F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "もうどく状態。\nターンが　進むほど\nどくの　ダメージが　増えていく。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 119,
+      "offsetInSection": 10992,
+      "rawDecodedUtf16Hex": "308230463069304F72B6614B3002000A30BF30FC30F3304C300090323080307B3069000A3069304F306E300030C030E130FC30B8304C30005897304830663044304F300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "みらいにこうげき",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 120,
+      "offsetInSection": 11132,
+      "rawDecodedUtf16Hex": "307F30893044306B305330463052304D000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "技を　使われた　２ターン\n後に　ダメージを　受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 121,
+      "offsetInSection": 11168,
+      "rawDecodedUtf16Hex": "6280309230004F7F308F308C305F3000FF1230BF30FC30F3000A5F8C306B300030C030E130FC30B83092300053D73051308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 27,
+      "utf16Units": 53
+    },
+    {
+      "displayText": "さわぐ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 122,
+      "offsetInSection": 11276,
+      "rawDecodedUtf16Hex": "3055308F30500000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "３ターンの間　騒いで\n相手を　攻撃する。\nその間は\n誰も　眠れなくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 123,
+      "offsetInSection": 11292,
+      "rawDecodedUtf16Hex": "FF1330BF30FC30F3306E959330009A1230443067000A76F8624B30923000653B64833059308B3002000A305D306E9593306F000A8AB0308230007720308C306A304F306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 37,
+      "utf16Units": 73
+    },
+    {
+      "displayText": "アクアリング",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 124,
+      "offsetInSection": 11440,
+      "rawDecodedUtf16Hex": "30A230AF30A230EA30F330B00000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "自分の　からだの　周りを\n水で　作った　ベールで　覆う。\n毎ターン　ＨＰを　回復する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 125,
+      "offsetInSection": 11468,
+      "rawDecodedUtf16Hex": "81EA5206306E3000304B30893060306E30005468308A3092000A6C34306730004F5C3063305F300030D930FC30EB30673000898630463002000A6BCE30BF30FC30F33000FF28FF303092300056DE5FA93059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 44,
+      "utf16Units": 87
+    },
+    {
+      "displayText": "ボディパージ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 126,
+      "offsetInSection": 11644,
+      "rawDecodedUtf16Hex": "30DC30C730A330D130FC30B80000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "すばやさが　ぐーんと　上がり\n体重も　軽くなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 127,
+      "offsetInSection": 11672,
+      "rawDecodedUtf16Hex": "3059307030843055304C3000305030FC3093306830004E0A304C308A000A4F5391CD308230008EFD304F306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "うちおとす",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 128,
+      "offsetInSection": 11772,
+      "rawDecodedUtf16Hex": "30463061304A30683059000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "打ち落とされて　地面に\n落ちた　状態。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 129,
+      "offsetInSection": 11796,
+      "rawDecodedUtf16Hex": "62533061843D30683055308C3066300057309762306B000A843D3061305F300072B6614B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "フェアリーロック",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 130,
+      "offsetInSection": 11876,
+      "rawDecodedUtf16Hex": "30D530A730A230EA30FC30ED30C330AF000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "技を　使った　次の　ターンは\nすべての　ポケモンが　逃げられない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 131,
+      "offsetInSection": 11912,
+      "rawDecodedUtf16Hex": "6280309230004F7F3063305F30006B21306E300030BF30FC30F3306F000A305930793066306E300030DD30B130E230F3304C3000900330523089308C306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "にじ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 132,
+      "offsetInSection": 12048,
+      "rawDecodedUtf16Hex": "306B3058000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "技の　追加効果が\nでやすくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 133,
+      "offsetInSection": 12060,
+      "rawDecodedUtf16Hex": "6280306E30008FFD52A052B9679C304C000A306730843059304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 17,
+      "utf16Units": 33
+    },
+    {
+      "displayText": "しつげん",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 134,
+      "offsetInSection": 12128,
+      "rawDecodedUtf16Hex": "305730643052309300000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "すばやさが　１／４　になってしまう。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 135,
+      "offsetInSection": 12148,
+      "rawDecodedUtf16Hex": "3059307030843055304C3000FF11FF0FFF143000306B306A306330663057307E304630020000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 19,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "ひのうみ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 136,
+      "offsetInSection": 12224,
+      "rawDecodedUtf16Hex": "3072306E3046307F00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "ほのおタイプの　ポケモン　以外は\n毎ターン　ダメージを　受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 137,
+      "offsetInSection": 12244,
+      "rawDecodedUtf16Hex": "307B306E304A30BF30A430D7306E300030DD30B130E230F330004EE55916306F000A6BCE30BF30FC30F3300030C030E130FC30B83092300053D73051308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 33,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "おおひでり",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 138,
+      "offsetInSection": 12376,
+      "rawDecodedUtf16Hex": "304A304A30723067308A000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "天気が　おおひでり状態。\nほのおタイプの　威力が　上がる。\nみずタイプの　技を　受けない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 139,
+      "offsetInSection": 12400,
+      "rawDecodedUtf16Hex": "59296C17304C3000304A304A30723067308A72B6614B3002000A307B306E304A30BF30A430D7306E30005A01529B304C30004E0A304C308B3002000A307F305A30BF30A430D7306E300062803092300053D73051306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "おおあめ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 140,
+      "offsetInSection": 12584,
+      "rawDecodedUtf16Hex": "304A304A3042308100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "天気が　おおあめ状態。\nみずタイプの　威力が　上がる。\nほのおタイプの　技を　受けない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 141,
+      "offsetInSection": 12604,
+      "rawDecodedUtf16Hex": "59296C17304C3000304A304A3042308172B6614B3002000A307F305A30BF30A430D7306E30005A01529B304C30004E0A304C308B3002000A307B306E304A30BF30A430D7306E300062803092300053D73051306A30443002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 45,
+      "utf16Units": 89
+    },
+    {
+      "displayText": "らんきりゅう",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 142,
+      "offsetInSection": 12784,
+      "rawDecodedUtf16Hex": "30893093304D308A308530460000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "天気が　らんきりゅう状態。\nひこうに　対して　バツグンの\nタイプの　威力が　弱まる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 143,
+      "offsetInSection": 12812,
+      "rawDecodedUtf16Hex": "59296C17304C300030893093304D308A3085304672B6614B3002000A307230533046306B30005BFE30573066300030D030C430B030F3306E000A30BF30A430D7306E30005A01529B304C30005F31307E308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 43,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "サイコフィールド",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 144,
+      "offsetInSection": 12984,
+      "rawDecodedUtf16Hex": "30B530A430B330D530A330FC30EB30C9000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "５ターンの間　地面に　いる\nポケモンは　先制技を　受けない。\nエスパータイプの　威力が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 145,
+      "offsetInSection": 13020,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593300057309762306B30003044308B000A30DD30B130E230F3306F30005148523662803092300053D73051306A30443002000A30A830B930D130FC30BF30A430D7306E30005A01529B304C30004E0A304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 49,
+      "utf16Units": 97
+    },
+    {
+      "displayText": "じごくづき",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 146,
+      "offsetInSection": 13216,
+      "rawDecodedUtf16Hex": "30583054304F3065304D000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "２ターンの間\n音を　出す　技が　出せない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 147,
+      "offsetInSection": 13240,
+      "rawDecodedUtf16Hex": "FF1230BF30FC30F3306E9593000A97F33092300051FA305930006280304C300051FA305B306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "オーロラベール",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 148,
+      "offsetInSection": 13328,
+      "rawDecodedUtf16Hex": "30AA30FC30ED30E930D930FC30EB00000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "５ターンの間\nぶつりと　とくしゅの　威力を\n半減する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 149,
+      "offsetInSection": 13360,
+      "rawDecodedUtf16Hex": "FF1530BF30FC30F3306E9593000A30763064308A306830003068304F30573085306E30005A01529B3092000A534A6E1B3059308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "とぎすます",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 150,
+      "offsetInSection": 13472,
+      "rawDecodedUtf16Hex": "3068304E3059307E3059000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "とぎすますを　使った　次の\nターンは　技が　必ず\n急所に　当たる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 151,
+      "offsetInSection": 13496,
+      "rawDecodedUtf16Hex": "3068304E3059307E3059309230004F7F3063305F30006B21306E000A30BF30FC30F3306F30006280304C30005FC5305A000A60256240306B30005F53305F308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "タールショット",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 152,
+      "offsetInSection": 13632,
+      "rawDecodedUtf16Hex": "30BF30FC30EB30B730E730C330C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "ほのおが　弱点になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 153,
+      "offsetInSection": 13664,
+      "rawDecodedUtf16Hex": "307B306E304A304C30005F3170B9306B306A308B3002000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 12,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "たこがため",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 154,
+      "offsetInSection": 13712,
+      "rawDecodedUtf16Hex": "305F3053304C305F3081000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "毎ターン　ぼうぎょと\nとくぼうが　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 155,
+      "offsetInSection": 13736,
+      "rawDecodedUtf16Hex": "6BCE30BF30FC30F33000307C3046304E30873068000A3068304F307C3046304C30004E0B304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "キョダイゴクエン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 156,
+      "offsetInSection": 13824,
+      "rawDecodedUtf16Hex": "30AD30E730C030A430B430AF30A830F3000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "４ターンの　間\nほのおタイプの　ポケモン　以外に\nダメージを　与える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 157,
+      "offsetInSection": 13860,
+      "rawDecodedUtf16Hex": "FF1430BF30FC30F3306E30009593000A307B306E304A30BF30A430D7306E300030DD30B130E230F330004EE55916306B000A30C030E130FC30B8309230004E0E3048308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 36,
+      "utf16Units": 71
+    },
+    {
+      "displayText": "キョダイフンセキ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 158,
+      "offsetInSection": 14004,
+      "rawDecodedUtf16Hex": "30AD30E730C030A430D530F330BB30AD000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "４ターンの　間\nいわタイプの　ポケモン　以外に\nダメージを　与える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 159,
+      "offsetInSection": 14040,
+      "rawDecodedUtf16Hex": "FF1430BF30FC30F3306E30009593000A3044308F30BF30A430D7306E300030DD30B130E230F330004EE55916306B000A30C030E130FC30B8309230004E0E3048308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "キョダイコウジン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 160,
+      "offsetInSection": 14180,
+      "rawDecodedUtf16Hex": "30AD30E730C030A430B330A630B830F3000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "入れ替わった　ポケモンに\nダメージを　与える。\t",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 161,
+      "offsetInSection": 14216,
+      "rawDecodedUtf16Hex": "5165308C66FF308F3063305F300030DD30B130E230F3306B000A30C030E130FC30B8309230004E0E3048308B300200090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "キョダイベンタツ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 162,
+      "offsetInSection": 14316,
+      "rawDecodedUtf16Hex": "30AD30E730C030A430D930F330BF30C4000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "４ターンの　間\nくさタイプの　ポケモン　以外に\nダメージを　与える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 163,
+      "offsetInSection": 14352,
+      "rawDecodedUtf16Hex": "FF1430BF30FC30F3306E30009593000A304F305530BF30A430D7306E300030DD30B130E230F330004EE55916306B000A30C030E130FC30B8309230004E0E3048308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "キョダイホウゲキ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 164,
+      "offsetInSection": 14492,
+      "rawDecodedUtf16Hex": "30AD30E730C030A430DB30A630B230AD000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "４ターンの　間\nみずタイプの　ポケモン　以外に\nダメージを　与える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 165,
+      "offsetInSection": 14528,
+      "rawDecodedUtf16Hex": "FF1430BF30FC30F3306E30009593000A307F305A30BF30A430D7306E300030DD30B130E230F330004EE55916306B000A30C030E130FC30B8309230004E0E3048308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "熱中",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 166,
+      "offsetInSection": 14668,
+      "rawDecodedUtf16Hex": "71B14E2D000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "直前に使った技に　熱中している。\n熱中している技のダメージが　増える。\nかわりに　受けるダメージも　増える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 167,
+      "offsetInSection": 14680,
+      "rawDecodedUtf16Hex": "76F4524D306B4F7F3063305F6280306B300071B14E2D305730663044308B3002000A71B14E2D305730663044308B6280306E30C030E130FC30B8304C300058973048308B3002000A304B308F308A306B300053D73051308B30C030E130FC30B83082300058973048308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 55,
+      "utf16Units": 109
+    },
+    {
+      "displayText": "破片",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 168,
+      "offsetInSection": 14900,
+      "rawDecodedUtf16Hex": "78347247000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "とがった破片が　食いこんでいて\n行動するたびに　ダメージを受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 169,
+      "offsetInSection": 14912,
+      "rawDecodedUtf16Hex": "3068304C3063305F78347247304C300098DF304430533093306730443066000A884C52D53059308B305F3073306B300030C030E130FC30B8309253D73051308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 34,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "煙幕",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 170,
+      "offsetInSection": 15048,
+      "rawDecodedUtf16Hex": "71595E55000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "煙や　モヤに　包まれていて\n相手の技が　当たりづらくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 171,
+      "offsetInSection": 15060,
+      "rawDecodedUtf16Hex": "71593084300030E230E4306B30005305307E308C306630443066000A76F8624B306E6280304C30005F53305F308A30653089304F306A308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 30,
+      "utf16Units": 59
+    },
+    {
+      "displayText": "倍付け",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 172,
+      "offsetInSection": 15180,
+      "rawDecodedUtf16Hex": "500D4ED830510000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "力強く　構えることで\n与えるダメージが　増える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 173,
+      "offsetInSection": 15196,
+      "rawDecodedUtf16Hex": "529B5F37304F300069CB3048308B305330683067000A4E0E3048308B30C030E130FC30B8304C300058973048308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "攻守反転",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 174,
+      "offsetInSection": 15296,
+      "rawDecodedUtf16Hex": "653B5B8853CD8EE200000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "攻めの力と　守りの力が\n入れ替わっている。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 175,
+      "offsetInSection": 15316,
+      "rawDecodedUtf16Hex": "653B3081306E529B306830005B88308A306E529B304C000A5165308C66FF308F306330663044308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "スロースタート",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 176,
+      "offsetInSection": 15404,
+      "rawDecodedUtf16Hex": "30B930ED30FC30B930BF30FC30C800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "調子が上がるまで\n攻撃と　素早さが　半分になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 177,
+      "offsetInSection": 15436,
+      "rawDecodedUtf16Hex": "8ABF5B50304C4E0A304C308B307E3067000A653B6483306830007D2065E93055304C3000534A5206306B306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 25,
+      "utf16Units": 49
+    },
+    {
+      "displayText": "荒ぶる力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 178,
+      "offsetInSection": 15536,
+      "rawDecodedUtf16Hex": "83523076308B529B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "行動するたびに　受ける\n毒や破片などの　ダメージが減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 179,
+      "offsetInSection": 15556,
+      "rawDecodedUtf16Hex": "884C52D53059308B305F3073306B300053D73051308B000A6BD2308478347247306A3069306E300030C030E130FC30B8304C6E1B308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "どく",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 180,
+      "offsetInSection": 15672,
+      "rawDecodedUtf16Hex": "3069304F000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "行動するたびに\n毒によるダメージを受ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 181,
+      "offsetInSection": 15684,
+      "rawDecodedUtf16Hex": "884C52D53059308B305F3073306B000A6BD2306B3088308B30C030E130FC30B8309253D73051308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 22,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "まひ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 182,
+      "offsetInSection": 15772,
+      "rawDecodedUtf16Hex": "307E3072000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "体がしびれて　動けないことがある。\nさらに　素早さが　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 183,
+      "offsetInSection": 15784,
+      "rawDecodedUtf16Hex": "4F53304C30573073308C3066300052D53051306A304430533068304C3042308B3002000A30553089306B30007D2065E93055304C30004E0B304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 32,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "ねむけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 184,
+      "offsetInSection": 15912,
+      "rawDecodedUtf16Hex": "306D308030510000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "ねむたくて　動けないことがある。\nさらに　受けるダメージが　増える。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 185,
+      "offsetInSection": 15928,
+      "rawDecodedUtf16Hex": "306D3080305F304F3066300052D53051306A304430533068304C3042308B3002000A30553089306B300053D73051308B30C030E130FC30B8304C300058973048308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 35,
+      "utf16Units": 69
+    },
+    {
+      "displayText": "やけど",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 186,
+      "offsetInSection": 16068,
+      "rawDecodedUtf16Hex": "3084305130690000000000000000",
+      "trailingZeroPaddingUnits": 4,
+      "utf16Units": 7
+    },
+    {
+      "displayText": "行動するたびに\nやけどによる　ダメージを受ける。\nさらに　物理攻撃で\n与えるダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 187,
+      "offsetInSection": 16084,
+      "rawDecodedUtf16Hex": "884C52D53059308B305F3073306B000A308430513069306B3088308B300030C030E130FC30B8309253D73051308B3002000A30553089306B300072697406653B64833067000A4E0E3048308B30C030E130FC30B8304C30006E1B308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 48,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "しもやけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 188,
+      "offsetInSection": 16276,
+      "rawDecodedUtf16Hex": "305730823084305100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "行動するたびに\nしもやけによるダメージを受ける。\nさらに　特殊攻撃で\n与えるダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 189,
+      "offsetInSection": 16296,
+      "rawDecodedUtf16Hex": "884C52D53059308B305F3073306B000A3057308230843051306B3088308B30C030E130FC30B8309253D73051308B3002000A30553089306B300072796B8A653B64833067000A4E0E3048308B30C030E130FC30B8304C30006E1B308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 48,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "野性の力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 190,
+      "offsetInSection": 16488,
+      "rawDecodedUtf16Hex": "91CE6027306E529B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "すべての能力が　上がる。\nさらに　行動するたびに　受ける\n毒や破片などのダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 191,
+      "offsetInSection": 16508,
+      "rawDecodedUtf16Hex": "305930793066306E80FD529B304C30004E0A304C308B3002000A30553089306B3000884C52D53059308B305F3073306B300053D73051308B000A6BD2308478347247306A3069306E30C030E130FC30B8304C30006E1B308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "偉大な力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 192,
+      "offsetInSection": 16692,
+      "rawDecodedUtf16Hex": "50495927306A529B00000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "行動するたびに　受ける\n毒や破片などのダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 193,
+      "offsetInSection": 16712,
+      "rawDecodedUtf16Hex": "884C52D53059308B305F3073306B300053D73051308B000A6BD2308478347247306A3069306E30C030E130FC30B8304C30006E1B308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "すさまじい力",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 194,
+      "offsetInSection": 16828,
+      "rawDecodedUtf16Hex": "30593055307E30583044529B0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "すべての能力が　上がる。\nさらに　行動するたびに　受ける\n毒や破片などのダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 195,
+      "offsetInSection": 16856,
+      "rawDecodedUtf16Hex": "305930793066306E80FD529B304C30004E0A304C308B3002000A30553089306B3000884C52D53059308B305F3073306B300053D73051308B000A6BD2308478347247306A3069306E30C030E130FC30B8304C30006E1B308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 46,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "パワーアップ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 196,
+      "offsetInSection": 17040,
+      "rawDecodedUtf16Hex": "30D130EF30FC30A230C330D70000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "攻めの力が　強まり\n攻撃と　特攻が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 197,
+      "offsetInSection": 17068,
+      "rawDecodedUtf16Hex": "653B3081306E529B304C30005F37307E308A000A653B6483306830007279653B304C30004E0A304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "パワーダウン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 198,
+      "offsetInSection": 17160,
+      "rawDecodedUtf16Hex": "30D130EF30FC30C030A630F30000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "攻めの力が　弱まり\n攻撃と　特攻が　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 199,
+      "offsetInSection": 17188,
+      "rawDecodedUtf16Hex": "653B3081306E529B304C30005F31307E308A000A653B6483306830007279653B304C30004E0B304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "ガードアップ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 200,
+      "offsetInSection": 17280,
+      "rawDecodedUtf16Hex": "30AC30FC30C930A230C330D70000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "守りの力が　強まり\n防御と　特防が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 201,
+      "offsetInSection": 17308,
+      "rawDecodedUtf16Hex": "5B88308A306E529B304C30005F37307E308A000A96325FA13068300072799632304C30004E0A304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "ガードダウン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 202,
+      "offsetInSection": 17400,
+      "rawDecodedUtf16Hex": "30AC30FC30C930C030A630F30000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "守りの力が　弱まり\n防御と　特防が　下がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 203,
+      "offsetInSection": 17428,
+      "rawDecodedUtf16Hex": "5B88308A306E529B304C30005F31307E308A000A96325FA13068300072799632304C30004E0B304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 23,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "快晴",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 204,
+      "offsetInSection": 17520,
+      "rawDecodedUtf16Hex": "5FEB6674000000000000",
+      "trailingZeroPaddingUnits": 3,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "くさタイプ　ポケモンの素早さが上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 205,
+      "offsetInSection": 17532,
+      "rawDecodedUtf16Hex": "304F305530BF30A430D7300030DD30B130E230F3306E7D2065E93055304C4E0A304C308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "霧",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 206,
+      "offsetInSection": 17612,
+      "rawDecodedUtf16Hex": "972700000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "必ず命中する技　以外の\nすべての技が　当たりづらくなる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 207,
+      "offsetInSection": 17620,
+      "rawDecodedUtf16Hex": "5FC5305A547D4E2D3059308B628030004EE55916306E000A305930793066306E6280304C30005F53305F308A30653089304F306A308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 29,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "雨",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 208,
+      "offsetInSection": 17736,
+      "rawDecodedUtf16Hex": "96E800000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "ほのおタイプの　技のダメージが　減る。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 209,
+      "offsetInSection": 17744,
+      "rawDecodedUtf16Hex": "307B306E304A30BF30A430D7306E30006280306E30C030E130FC30B8304C30006E1B308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "雪",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 210,
+      "offsetInSection": 17824,
+      "rawDecodedUtf16Hex": "96EA00000000",
+      "trailingZeroPaddingUnits": 2,
+      "utf16Units": 3
+    },
+    {
+      "displayText": "しもやけに　なりやすい。\nねむけのとき　動きづらい。\nこおりタイプ　ポケモンの素早さが上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 211,
+      "offsetInSection": 17832,
+      "rawDecodedUtf16Hex": "3057308230843051306B3000306A308A3084305930443002000A306D30803051306E3068304D300052D5304D3065308930443002000A3053304A308A30BF30A430D7300030DD30B130E230F3306E7D2065E93055304C4E0A304C308B3002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 48,
+      "utf16Units": 95
+    },
+    {
+      "displayText": "しおづけ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 212,
+      "offsetInSection": 18024,
+      "rawDecodedUtf16Hex": "3057304A3065305100000000000000000000",
+      "trailingZeroPaddingUnits": 5,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "しおづけになって　毎ターン\nダメージを受ける。\nはがねタイプと　みずタイプは\nダメージが　２倍になる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 213,
+      "offsetInSection": 18044,
+      "rawDecodedUtf16Hex": "3057304A30653051306B306A3063306630006BCE30BF30FC30F3000A30C030E130FC30B8309253D73051308B3002000A306F304C306D30BF30A430D730683000307F305A30BF30A430D7306F000A30C030E130FC30B8304C3000FF12500D306B306A308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 52,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "だいふんげき",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 214,
+      "offsetInSection": 18252,
+      "rawDecodedUtf16Hex": "30603044307530933052304D0000000000000000000000000000",
+      "trailingZeroPaddingUnits": 7,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "２ー３ターンの間\n暴れまくって　攻撃する。\n暴れた　後は　こんらん　する。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 215,
+      "offsetInSection": 18280,
+      "rawDecodedUtf16Hex": "FF1230FCFF1330BF30FC30F3306E9593000A66B4308C307E304F306330663000653B64833059308B3002000A66B4308C305F30005F8C306F3000305330933089309330003059308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 38,
+      "utf16Units": 75
+    },
+    {
+      "displayText": "あめまみれ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 216,
+      "offsetInSection": 18432,
+      "rawDecodedUtf16Hex": "30423081307E307F308C000000000000000000000000",
+      "trailingZeroPaddingUnits": 6,
+      "utf16Units": 11
+    },
+    {
+      "displayText": "３ターンの間\n素早さが　下がり続ける。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 217,
+      "offsetInSection": 18456,
+      "rawDecodedUtf16Hex": "FF1330BF30FC30F3306E9593000A7D2065E93055304C30004E0B304C308A7D9A3051308B300200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 20,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "いけいけドンドン",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 218,
+      "offsetInSection": 18536,
+      "rawDecodedUtf16Hex": "304430513044305130C930F330C930F3000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "トレーナーたちの　おうえんで\n攻撃と　特攻が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 219,
+      "offsetInSection": 18572,
+      "rawDecodedUtf16Hex": "30C830EC30FC30CA30FC305F3061306E3000304A3046304830933067000A653B6483306830007279653B304C30004E0A304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "がっちりぼうぎょ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 220,
+      "offsetInSection": 18684,
+      "rawDecodedUtf16Hex": "304C30633061308A307C3046304E3087000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 9,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "トレーナーたちの　おうえんで\n防御と　特防が　上がる。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 221,
+      "offsetInSection": 18720,
+      "rawDecodedUtf16Hex": "30C830EC30FC30CA30FC305F3061306E3000304A3046304830933067000A96325FA13068300072799632304C30004E0A304C308B30020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 28,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "かいふくふうじ",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 222,
+      "offsetInSection": 18832,
+      "rawDecodedUtf16Hex": "304B30443075304F30753046305800000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 8,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "２ターンの間　技や　特性や\n持っている　道具に　よって\nＨＰを　回復できない。",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 223,
+      "offsetInSection": 18864,
+      "rawDecodedUtf16Hex": "FF1230BF30FC30F3306E95933000628030843000727960273084000A6301306330663044308B300090535177306B3000308830633066000AFF28FF303092300056DE5FA93067304D306A304430020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "trailingZeroPaddingUnits": 40,
+      "utf16Units": 79
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 19024,
+  "sectionOffset": 16,
+  "textCount": 224,
+  "textSectionCount": 1
+}

@@ -1,0 +1,743 @@
+{
+  "declaredLength": 7100,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Hey, Team MZ kid!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 588,
+      "rawDecodedUtf16Hex": "004800650079002C0020005400650061006D0020004D005A0020006B006900640021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "I gotta help someone out. So you’re gonna help\nME out. Get it?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 1,
+      "offsetInSection": 632,
+      "rawDecodedUtf16Hex": "004900200067006F007400740061002000680065006C007000200073006F006D0065006F006E00650020006F00750074002E00200053006F00200079006F007520190072006500200067006F006E006E0061002000680065006C0070000A004D00450020006F00750074002E0020004700650074002000690074003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 67
+    },
+    {
+      "displayText": "Got it!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 768,
+      "rawDecodedUtf16Hex": "0047006F007400200069007400210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 8
+    },
+    {
+      "displayText": "Got it...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 3,
+      "offsetInSection": 784,
+      "rawDecodedUtf16Hex": "0047006F0074002000690074002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Good.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 4,
+      "offsetInSection": 804,
+      "rawDecodedUtf16Hex": "0047006F006F0064002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 10
+    },
+    {
+      "displayText": "Here’s the deal—I’ve been hearing screams\ncoming from that sewer entrance.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 5,
+      "offsetInSection": 824,
+      "rawDecodedUtf16Hex": "00480065007200652019007300200074006800650020006400650061006C201400492019007600650020006200650065006E002000680065006100720069006E0067002000730063007200650061006D0073000A0063006F006D0069006E0067002000660072006F006D0020007400680061007400200073006500770065007200200065006E007400720061006E00630065002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 79
+    },
+    {
+      "displayText": "I’ve gotta go see what’s up, but I hear there’re\nsome menacing Ghost-type Pokémon in there...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 6,
+      "offsetInSection": 984,
+      "rawDecodedUtf16Hex": "004920190076006500200067006F00740074006100200067006F00200073006500650020007700680061007420190073002000750070002C00200062007500740020004900200068006500610072002000740068006500720065201900720065000A0073006F006D00650020006D0065006E006100630069006E0067002000470068006F00730074002D007400790070006500200050006F006B00E9006D006F006E00200069006E002000740068006500720065002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 98
+    },
+    {
+      "displayText": "I know the boss thinks pretty highly of you, so I’m\nsure you wouldn’t mind giving me a little hand.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 7,
+      "offsetInSection": 1180,
+      "rawDecodedUtf16Hex": "00490020006B006E006F0077002000740068006500200062006F007300730020007400680069006E006B0073002000700072006500740074007900200068006900670068006C00790020006F006600200079006F0075002C00200073006F002000492019006D000A007300750072006500200079006F007500200077006F0075006C0064006E201900740020006D0069006E006400200067006900760069006E00670020006D0065002000610020006C006900740074006C0065002000680061006E0064002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Not because anyone here is scared, obviously!\nWho’s scared? Who said I’m scared?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 8,
+      "offsetInSection": 1388,
+      "rawDecodedUtf16Hex": "004E006F00740020006200650063006100750073006500200061006E0079006F006E0065002000680065007200650020006900730020007300630061007200650064002C0020006F006200760069006F00750073006C00790021000A00570068006F201900730020007300630061007200650064003F002000570068006F00200073006100690064002000492019006D0020007300630061007200650064003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 85
+    },
+    {
+      "displayText": "You’re tough and you love doing stuff for the city,\nright? Well, here’s your chance! Get in there!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 9,
+      "offsetInSection": 1560,
+      "rawDecodedUtf16Hex": "0059006F007520190072006500200074006F00750067006800200061006E006400200079006F00750020006C006F0076006500200064006F0069006E006700200073007400750066006600200066006F0072002000740068006500200063006900740079002C000A00720069006700680074003F002000570065006C006C002C002000680065007200652019007300200079006F007500720020006300680061006E006300650021002000470065007400200069006E0020007400680065007200650021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 103
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿\n",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 10,
+      "offsetInSection": 1768,
+      "rawDecodedUtf16Hex": "00100002BDFF000A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Time to scour the sewer! You go first.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 11,
+      "offsetInSection": 1780,
+      "rawDecodedUtf16Hex": "00540069006D006500200074006F002000730063006F007500720020007400680065002000730065007700650072002100200059006F007500200067006F002000660069007200730074002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 43
+    },
+    {
+      "displayText": "Quit lookin’ at me like that! I’m not scared! It’s\njust common sense to put heavy hitters up front!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 12,
+      "offsetInSection": 1868,
+      "rawDecodedUtf16Hex": "00510075006900740020006C006F006F006B0069006E20190020006100740020006D00650020006C0069006B0065002000740068006100740021002000492019006D0020006E006F00740020007300630061007200650064002100200049007420190073000A006A00750073007400200063006F006D006D006F006E002000730065006E0073006500200074006F002000700075007400200068006500610076007900200068006900740074006500720073002000750070002000660072006F006E00740021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 104
+    },
+    {
+      "displayText": "Huh. Guess things look normal, for a sewer.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 13,
+      "offsetInSection": 2076,
+      "rawDecodedUtf16Hex": "004800750068002E0020004700750065007300730020007400680069006E006700730020006C006F006F006B0020006E006F0072006D0061006C002C00200066006F007200200061002000730065007700650072002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 48
+    },
+    {
+      "displayText": "Wait, what’s that?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 14,
+      "offsetInSection": 2172,
+      "rawDecodedUtf16Hex": "0057006100690074002C002000770068006100742019007300200074006800610074003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "GYAAAH!!!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 15,
+      "offsetInSection": 2220,
+      "rawDecodedUtf16Hex": "004700590041004100410048002100210021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "These Pokémon seem to be sleeping...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 16,
+      "offsetInSection": 2248,
+      "rawDecodedUtf16Hex": "0054006800650073006500200050006F006B00E9006D006F006E0020007300650065006D00200074006F00200062006500200073006C0065006500700069006E0067002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "Ohhh no. I’ve heard about these things in ghost\nstories... They’re Cofagrigus!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 17,
+      "offsetInSection": 2324,
+      "rawDecodedUtf16Hex": "004F0068006800680020006E006F002E00200049201900760065002000680065006100720064002000610062006F007500740020007400680065007300650020007400680069006E0067007300200069006E002000670068006F00730074000A00730074006F0072006900650073002E002E002E0020005400680065007920190072006500200043006F006600610067007200690067007500730021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Apparently they trap people inside their bodies...<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 4,
+      "index": 18,
+      "offsetInSection": 2492,
+      "rawDecodedUtf16Hex": "004100700070006100720065006E0074006C00790020007400680065007900200074007200610070002000700065006F0070006C006500200069006E007300690064006500200074006800650069007200200062006F0064006900650073002E002E002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 55
+    },
+    {
+      "displayText": "Y-you gotta attack ’em! We gotta drive ’em off\nand find whoever was screaming!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 19,
+      "offsetInSection": 2604,
+      "rawDecodedUtf16Hex": "0059002D0079006F007500200067006F007400740061002000610074007400610063006B002020190065006D002100200057006500200067006F007400740061002000640072006900760065002020190065006D0020006F00660066000A0061006E0064002000660069006E0064002000770068006F00650076006500720020007700610073002000730063007200650061006D0069006E00670021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 83
+    },
+    {
+      "displayText": "Get to work! We’ve got sewers to search!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 20,
+      "offsetInSection": 2772,
+      "rawDecodedUtf16Hex": "00470065007400200074006F00200077006F0072006B002100200057006520190076006500200067006F0074002000730065007700650072007300200074006F00200073006500610072006300680021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 45
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+0015>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 21,
+      "offsetInSection": 2864,
+      "rawDecodedUtf16Hex": "00100002BDFF00150000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guh wuh wuh wuhn...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 22,
+      "offsetInSection": 2876,
+      "rawDecodedUtf16Hex": "004700750068002000770075006800200077007500680020007700750068006E002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "It looks like no one was trapped inside this\nCofagrigus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 23,
+      "offsetInSection": 2916,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B00650020006E006F0020006F006E006500200077006100730020007400720061007000700065006400200069006E007300690064006500200074006800690073000A0043006F00660061006700720069006700750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "The Cofagrigus floated away...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 24,
+      "offsetInSection": 3032,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200066006C006F006100740065006400200061007700610079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "but you can sense more of them still lurking\naround the sewer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 25,
+      "offsetInSection": 3096,
+      "rawDecodedUtf16Hex": "00620075007400200079006F0075002000630061006E002000730065006E007300650020006D006F007200650020006F00660020007400680065006D0020007300740069006C006C0020006C00750072006B0069006E0067000A00610072006F0075006E00640020007400680065002000730065007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001A>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 26,
+      "offsetInSection": 3224,
+      "rawDecodedUtf16Hex": "00100002BDFF001A0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guh wuhhh wuh...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 27,
+      "offsetInSection": 3236,
+      "rawDecodedUtf16Hex": "0047007500680020007700750068006800680020007700750068002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 17
+    },
+    {
+      "displayText": "It looks like no one was trapped inside this\nCofagrigus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 28,
+      "offsetInSection": 3272,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B00650020006E006F0020006F006E006500200077006100730020007400720061007000700065006400200069006E007300690064006500200074006800690073000A0043006F00660061006700720069006700750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "The Cofagrigus floated away...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 29,
+      "offsetInSection": 3388,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200066006C006F006100740065006400200061007700610079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "but you can sense more of them still lurking\naround the sewer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 30,
+      "offsetInSection": 3452,
+      "rawDecodedUtf16Hex": "00620075007400200079006F0075002000630061006E002000730065006E007300650020006D006F007200650020006F00660020007400680065006D0020007300740069006C006C0020006C00750072006B0069006E0067000A00610072006F0075006E00640020007400680065002000730065007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿<U+001F>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 31,
+      "offsetInSection": 3580,
+      "rawDecodedUtf16Hex": "00100002BDFF001F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guh guwah...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 32,
+      "offsetInSection": 3592,
+      "rawDecodedUtf16Hex": "004700750068002000670075007700610068002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "It looks like no one was trapped inside this\nCofagrigus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 33,
+      "offsetInSection": 3620,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B00650020006E006F0020006F006E006500200077006100730020007400720061007000700065006400200069006E007300690064006500200074006800690073000A0043006F00660061006700720069006700750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "The Cofagrigus floated away...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 34,
+      "offsetInSection": 3736,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200066006C006F006100740065006400200061007700610079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "It looks like it dropped something as it left.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 35,
+      "offsetInSection": 3800,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B0065002000690074002000640072006F007000700065006400200073006F006D0065007400680069006E00670020006100730020006900740020006C006500660074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "You can sense more Cofagrigus still lurking\naround the sewer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 36,
+      "offsetInSection": 3896,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E002000730065006E007300650020006D006F0072006500200043006F006600610067007200690067007500730020007300740069006C006C0020006C00750072006B0069006E0067000A00610072006F0075006E00640020007400680065002000730065007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿%",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 37,
+      "offsetInSection": 4020,
+      "rawDecodedUtf16Hex": "00100002BDFF00250000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guh guwah...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 38,
+      "offsetInSection": 4032,
+      "rawDecodedUtf16Hex": "004700750068002000670075007700610068002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 13
+    },
+    {
+      "displayText": "It looks like no one was trapped inside this\nCofagrigus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 39,
+      "offsetInSection": 4060,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B00650020006E006F0020006F006E006500200077006100730020007400720061007000700065006400200069006E007300690064006500200074006800690073000A0043006F00660061006700720069006700750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "The Cofagrigus floated away...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 40,
+      "offsetInSection": 4176,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200066006C006F006100740065006400200061007700610079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "It looks like it dropped something as it left.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 41,
+      "offsetInSection": 4240,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B0065002000690074002000640072006F007000700065006400200073006F006D0065007400680069006E00670020006100730020006900740020006C006500660074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "You can sense more Cofagrigus still lurking\naround the sewer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 42,
+      "offsetInSection": 4336,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E002000730065006E007300650020006D006F0072006500200043006F006600610067007200690067007500730020007300740069006C006C0020006C00750072006B0069006E0067000A00610072006F0075006E00640020007400680065002000730065007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿+",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 43,
+      "offsetInSection": 4460,
+      "rawDecodedUtf16Hex": "00100002BDFF002B0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Gu. Gu. Guh. GUH.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 44,
+      "offsetInSection": 4472,
+      "rawDecodedUtf16Hex": "00470075002E002000470075002E0020004700750068002E0020004700550048002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "The Cofagrigus doesn’t look pleased to have been\nwoken up...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 45,
+      "offsetInSection": 4508,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200064006F00650073006E201900740020006C006F006F006B00200070006C0065006100730065006400200074006F002000680061007600650020006200650065006E000A0077006F006B0065006E002000750070002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 61
+    },
+    {
+      "displayText": "Guh. Wuh. Wuh! WUH!!!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 46,
+      "offsetInSection": 4632,
+      "rawDecodedUtf16Hex": "004700750068002E0020005700750068002E0020005700750068002100200057005500480021002100210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 22
+    },
+    {
+      "displayText": "It’s angry! Watch out—here it comes!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 47,
+      "offsetInSection": 4676,
+      "rawDecodedUtf16Hex": "004900742019007300200061006E00670072007900210020005700610074006300680020006F007500742014006800650072006500200069007400200063006F006D0065007300210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿0",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 48,
+      "offsetInSection": 4752,
+      "rawDecodedUtf16Hex": "00100002BDFF00300000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Guhhh...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 49,
+      "offsetInSection": 4764,
+      "rawDecodedUtf16Hex": "00470075006800680068002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "It looks like no one was trapped inside this\nCofagrigus.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 50,
+      "offsetInSection": 4784,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B00650020006E006F0020006F006E006500200077006100730020007400720061007000700065006400200069006E007300690064006500200074006800690073000A0043006F00660061006700720069006700750073002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 57
+    },
+    {
+      "displayText": "The Cofagrigus floated away...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 51,
+      "offsetInSection": 4900,
+      "rawDecodedUtf16Hex": "00540068006500200043006F0066006100670072006900670075007300200066006C006F006100740065006400200061007700610079002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 31
+    },
+    {
+      "displayText": "It looks like it dropped something as it left.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 52,
+      "offsetInSection": 4964,
+      "rawDecodedUtf16Hex": "004900740020006C006F006F006B00730020006C0069006B0065002000690074002000640072006F007000700065006400200073006F006D0065007400680069006E00670020006100730020006900740020006C006500660074002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 47
+    },
+    {
+      "displayText": "You can sense more Cofagrigus still lurking\naround the sewer.",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 53,
+      "offsetInSection": 5060,
+      "rawDecodedUtf16Hex": "0059006F0075002000630061006E002000730065006E007300650020006D006F0072006500200043006F006600610067007200690067007500730020007300740069006C006C0020006C00750072006B0069006E0067000A00610072006F0075006E00640020007400680065002000730065007700650072002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 62
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿6",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 54,
+      "offsetInSection": 5184,
+      "rawDecodedUtf16Hex": "00100002BDFF00360000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "It’s so bright out here!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 55,
+      "offsetInSection": 5196,
+      "rawDecodedUtf16Hex": "004900742019007300200073006F00200062007200690067006800740020006F0075007400200068006500720065002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 29
+    },
+    {
+      "displayText": "Are you all right?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 56,
+      "offsetInSection": 5256,
+      "rawDecodedUtf16Hex": "00410072006500200079006F007500200061006C006C002000720069006700680074003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 19
+    },
+    {
+      "displayText": "What happened?",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 57,
+      "offsetInSection": 5296,
+      "rawDecodedUtf16Hex": "0057006800610074002000680061007000700065006E00650064003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 15
+    },
+    {
+      "displayText": "Oh, uh...well, to tell you the truth, I got pretty\nexcited when I found a Cofagrigus down here.<U+0010><U+0001>븀\nYou never see ’em in Lumiose!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 4,
+      "flagsUpper16": 4,
+      "index": 58,
+      "offsetInSection": 5328,
+      "rawDecodedUtf16Hex": "004F0068002C002000750068002E002E002E00770065006C006C002C00200074006F002000740065006C006C00200079006F00750020007400680065002000740072007500740068002C0020004900200067006F00740020007000720065007400740079000A00650078006300690074006500640020007700680065006E0020004900200066006F0075006E00640020006100200043006F0066006100670072006900670075007300200064006F0077006E00200068006500720065002E00100001BE00000A0059006F00750020006E00650076006500720020007300650065002020190065006D00200069006E0020004C0075006D0069006F00730065002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 133
+    },
+    {
+      "displayText": "I let out a big whoop of excitement, and I think\nthe noise ticked Cofagrigus off.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 4,
+      "index": 59,
+      "offsetInSection": 5596,
+      "rawDecodedUtf16Hex": "00490020006C006500740020006F00750074002000610020006200690067002000770068006F006F00700020006F00660020006500780063006900740065006D0065006E0074002C00200061006E0064002000490020007400680069006E006B000A0074006800650020006E006F0069007300650020007400690063006B0065006400200043006F006600610067007200690067007500730020006F00660066002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 86
+    },
+    {
+      "displayText": "So it got mad and swallowed me up.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 60,
+      "offsetInSection": 5768,
+      "rawDecodedUtf16Hex": "0053006F00200069007400200067006F00740020006D0061006400200061006E00640020007300770061006C006C006F0077006500640020006D0065002000750070002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 39
+    },
+    {
+      "displayText": "Thing is, it was just so darn comfy in there, I\ndozed off. I think I was about to hit REM mode.<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 61,
+      "offsetInSection": 5848,
+      "rawDecodedUtf16Hex": "005400680069006E0067002000690073002C00200069007400200077006100730020006A00750073007400200073006F0020006400610072006E00200063006F006D0066007900200069006E002000740068006500720065002C00200049000A0064006F007A006500640020006F00660066002E002000490020007400680069006E006B002000490020007700610073002000610062006F0075007400200074006F0020006800690074002000520045004D0020006D006F00640065002E00100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "So, I’m a little embarrassed, but thanks for\nbusting me out!<U+0010><U+0002>Ĕǖ",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 62,
+      "offsetInSection": 6048,
+      "rawDecodedUtf16Hex": "0053006F002C002000492019006D002000610020006C006900740074006C006500200065006D006200610072007200610073007300650064002C00200062007500740020007400680061006E006B007300200066006F0072000A00620075007300740069006E00670020006D00650020006F00750074002100100002011401D60000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 65
+    },
+    {
+      "displayText": "Whoever I heard screaming might be shut up in\none of those Cofagrigus...<U+0010><U+0001>븁\nYou gotta go take care of ’em all!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 5,
+      "flagsUpper16": 0,
+      "index": 63,
+      "offsetInSection": 6180,
+      "rawDecodedUtf16Hex": "00570068006F006500760065007200200049002000680065006100720064002000730063007200650061006D0069006E00670020006D00690067006800740020006200650020007300680075007400200075007000200069006E000A006F006E00650020006F0066002000740068006F0073006500200043006F00660061006700720069006700750073002E002E002E00100001BE01000A0059006F007500200067006F00740074006100200067006F002000740061006B0065002000630061007200650020006F0066002020190065006D00200061006C006C0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 115
+    },
+    {
+      "displayText": "<U+0010><U+0002>뷿@",
+      "escapedControlUnits": 2,
+      "flagsUpper16": 0,
+      "index": 64,
+      "offsetInSection": 6412,
+      "rawDecodedUtf16Hex": "00100002BDFF00400000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 5
+    },
+    {
+      "displayText": "Hey, good work!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 65,
+      "offsetInSection": 6424,
+      "rawDecodedUtf16Hex": "004800650079002C00200067006F006F006400200077006F0072006B0021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Guess we found our screamer. Glad you’re all\nright, fella.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 66,
+      "offsetInSection": 6464,
+      "rawDecodedUtf16Hex": "0047007500650073007300200077006500200066006F0075006E00640020006F00750072002000730063007200650061006D00650072002E00200047006C0061006400200079006F007520190072006500200061006C006C000A00720069006700680074002C002000660065006C006C0061002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 63
+    },
+    {
+      "displayText": "Look at you, helping keep the peace around\nLumiose again. Another feather in your cap!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 67,
+      "offsetInSection": 6592,
+      "rawDecodedUtf16Hex": "004C006F006F006B00200061007400200079006F0075002C002000680065006C00700069006E00670020006B0065006500700020007400680065002000700065006100630065002000610072006F0075006E0064000A004C0075006D0069006F0073006500200061006700610069006E002E00200041006E006F00740068006500720020006600650061007400680065007200200069006E00200079006F0075007200200063006100700021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 91
+    },
+    {
+      "displayText": "’Course, you never would’ve had the chance if I\nhadn’t flagged you down. Feel free to thank me.<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 68,
+      "offsetInSection": 6776,
+      "rawDecodedUtf16Hex": "20190043006F0075007200730065002C00200079006F00750020006E006500760065007200200077006F0075006C0064201900760065002000680061006400200074006800650020006300680061006E0063006500200069006600200049000A006800610064006E2019007400200066006C0061006700670065006400200079006F007500200064006F0077006E002E0020004600650065006C0020006600720065006500200074006F0020007400680061006E006B0020006D0065002E001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 100
+    },
+    {
+      "displayText": "Uh, behind you...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 69,
+      "offsetInSection": 6976,
+      "rawDecodedUtf16Hex": "00550068002C00200062006500680069006E006400200079006F0075002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 18
+    },
+    {
+      "displayText": "Don’t get swallowed",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 70,
+      "offsetInSection": 7012,
+      "rawDecodedUtf16Hex": "0044006F006E2019007400200067006500740020007300770061006C006C006F0077006500640000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 20
+    },
+    {
+      "displayText": "Huh?<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 71,
+      "offsetInSection": 7052,
+      "rawDecodedUtf16Hex": "004800750068003F001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 9
+    },
+    {
+      "displayText": "GYAAAH!!!<U+0010><U+0002>Ĕ<U+001D>",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 72,
+      "offsetInSection": 7072,
+      "rawDecodedUtf16Hex": "004700590041004100410048002100210021001000020114001D0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 7100,
+  "sectionOffset": 16,
+  "textCount": 73,
+  "textSectionCount": 1
+}

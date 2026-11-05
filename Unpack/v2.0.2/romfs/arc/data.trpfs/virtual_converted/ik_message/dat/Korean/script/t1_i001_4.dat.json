@@ -1,0 +1,43 @@
+{
+  "declaredLength": 160,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "201호실이다.\n문이 잠겨 있다...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "003200300031D638C2E4C774B2E4002E000ABB38C7740020C7A0ACA80020C788B2E4002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "203호실이다.\n문이 잠겨 있다...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 72,
+      "rawDecodedUtf16Hex": "003200300033D638C2E4C774B2E4002E000ABB38C7740020C7A0ACA80020C788B2E4002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    },
+    {
+      "displayText": "204호실이다.\n문이 잠겨 있다...",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 116,
+      "rawDecodedUtf16Hex": "003200300034D638C2E4C774B2E4002E000ABB38C7740020C7A0ACA80020C788B2E4002E002E002E0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 21
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 160,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

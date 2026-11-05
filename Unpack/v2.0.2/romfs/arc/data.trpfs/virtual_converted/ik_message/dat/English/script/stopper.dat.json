@@ -1,0 +1,33 @@
+{
+  "declaredLength": 176,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Not now—you can head this way later!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 20,
+      "rawDecodedUtf16Hex": "004E006F00740020006E006F007720140079006F0075002000630061006E002000680065006100640020007400680069007300200077006100790020006C006100740065007200210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 37
+    },
+    {
+      "displayText": "This Holovator can’t be used right now!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 96,
+      "rawDecodedUtf16Hex": "005400680069007300200048006F006C006F007600610074006F0072002000630061006E20190074002000620065002000750073006500640020007200690067006800740020006E006F007700210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 40
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 176,
+  "sectionOffset": 16,
+  "textCount": 2,
+  "textSectionCount": 1
+}

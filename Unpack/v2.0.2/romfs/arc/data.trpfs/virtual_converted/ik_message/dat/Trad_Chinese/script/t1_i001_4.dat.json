@@ -1,0 +1,43 @@
+{
+  "declaredLength": 112,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "201號客房\n是鎖著的……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "003200300031865F5BA2623F000A662F939684577684202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "203號客房\n是鎖著的……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 56,
+      "rawDecodedUtf16Hex": "003200300033865F5BA2623F000A662F939684577684202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    },
+    {
+      "displayText": "204號客房\n是鎖著的……",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "003200300034865F5BA2623F000A662F939684577684202620260000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 14
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 112,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}

@@ -1,0 +1,43 @@
+{
+  "declaredLength": 156,
+  "decoding": "confirmed-per-slot-XOR-rotate3-index-seed",
+  "format": "GF Trinity encrypted UTF-16 message DAT",
+  "initialKey": 0,
+  "messages": [
+    {
+      "displayText": "Oh!",
+      "escapedControlUnits": 0,
+      "flagsUpper16": 4,
+      "index": 0,
+      "offsetInSection": 28,
+      "rawDecodedUtf16Hex": "004F006800210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 4
+    },
+    {
+      "displayText": "Dall’Uovo è nato <U+0010><U+0002>ā<U+0000>!",
+      "escapedControlUnits": 3,
+      "flagsUpper16": 0,
+      "index": 1,
+      "offsetInSection": 36,
+      "rawDecodedUtf16Hex": "00440061006C006C20190055006F0076006F002000E80020006E00610074006F0020001000020101000000210000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 23
+    },
+    {
+      "displayText": "Vuoi dare un soprannome <U+0010><U+0003>ᔎ<U+0000><U+0001><U+0010><U+0002>ā<U+0000>?",
+      "escapedControlUnits": 7,
+      "flagsUpper16": 0,
+      "index": 2,
+      "offsetInSection": 84,
+      "rawDecodedUtf16Hex": "00560075006F00690020006400610072006500200075006E00200073006F007000720061006E006E006F006D0065002000100003150E000000010010000201010000003F0000",
+      "trailingZeroPaddingUnits": 1,
+      "utf16Units": 35
+    }
+  ],
+  "note": "UTF-16 code units decrypted; control markers kept as U+ tokens. AHTB hash/name matching is NOT inferred by position.",
+  "sectionLength": 156,
+  "sectionOffset": 16,
+  "textCount": 3,
+  "textSectionCount": 1
+}
