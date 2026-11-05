@@ -24,7 +24,7 @@ import tempfile
 import xml.etree.ElementTree as ET
 import zipfile
 
-VERSION = "za-virtual-convert-1"
+VERSION = "za-virtual-convert-2-dat"
 ROOT = Path("Unpack/v2.0.2/romfs/arc/data.trpfs")
 LIMIT = 90 * 1024 * 1024
 MAX_DECODE = 128 * 1024 * 1024
@@ -94,6 +94,72 @@ def dat_header(data: bytes) -> dict:
             "note": "Header verified; encoded text and key-to-string join NOT decoded."}
 
 
+
+def decode_message_dat(data: bytes) -> dict:
+    """Decode authenticated GF/Trinity UTF-16 message slots, not hash/name joins.
+
+    Verified on ZA 2.0.2 English, Simp_Chinese and JPN bag.dat. The high
+    16 bits of entry length carry flags; low 16 bits are UTF-16 units.
+    Every slot starts with key (0x7c89 + index * 0x2983) mod 65536.
+    Rotate key left by three bits after each encrypted UTF-16 unit.
+    """
+    result = dat_header(data)
+    if result["textSectionCount"] != 1:
+        raise ValueError("multi-section DAT requires another native decoder")
+    count = result["textCount"]
+    offset = result["sectionOffset"]
+    section_end = offset + result["sectionLength"]
+    table_begin = offset + 4
+    table_end = table_begin + count * 8
+    if table_end > section_end:
+        raise ValueError("DAT entry table exceeds section bounds")
+    slots = []
+    for index in range(count):
+        rel, packed_length = struct.unpack_from("<II", data, table_begin + index * 8)
+        code_units = packed_length & 0xFFFF
+        flags = packed_length >> 16
+        start = offset + rel
+        end = start + code_units * 2
+        if start < table_end or end > section_end:
+            raise ValueError(f"DAT text slot {index} exceeds declared section")
+        key = (0x7C89 + index * 0x2983) & 0xFFFF
+        decoded = []
+        for i in range(code_units):
+            encrypted = struct.unpack_from("<H", data, start + i * 2)[0]
+            decoded.append(encrypted ^ key)
+            key = ((key << 3) | (key >> 13)) & 0xFFFF
+        trimmed = list(decoded)
+        while trimmed and trimmed[-1] == 0:
+            trimmed.pop()
+        rendered = []
+        control_units = 0
+        for unit in trimmed:
+            if unit == 0x0A:
+                rendered.append("\n")
+            elif unit == 0x09:
+                rendered.append("\t")
+            elif (unit < 0x20 or 0xD800 <= unit <= 0xDFFF or
+                  0xE000 <= unit <= 0xF8FF):
+                rendered.append(f"<U+{unit:04X}>")
+                control_units += 1
+            else:
+                rendered.append(chr(unit))
+        slots.append({
+            "index": index, "offsetInSection": rel,
+            "utf16Units": code_units, "flagsUpper16": flags,
+            "trailingZeroPaddingUnits": len(decoded) - len(trimmed),
+            "displayText": "".join(rendered),
+            "rawDecodedUtf16Hex": "".join(f"{u:04X}" for u in decoded),
+            "escapedControlUnits": control_units
+        })
+    result["format"] = "GF Trinity encrypted UTF-16 message DAT"
+    result["decoding"] = "confirmed-per-slot-XOR-rotate3-index-seed"
+    result["messages"] = slots
+    result["note"] = ("UTF-16 code units decrypted; control markers kept as U+ tokens. "
+                      "AHTB hash/name matching is NOT inferred by position.")
+    return result
+
+
 def flatbuffer_structure(data: bytes) -> dict:
     if len(data) < 12:
         raise ValueError("short FlatBuffer")
@@ -161,9 +227,15 @@ def transform(source: Path, logical: str, dest: Path) -> tuple[str, list[Path], 
     if ext == ".dat" and "ik_message/" in logical:
         if data is None:
             return "UNSUPPORTED", [], "message DAT exceeds size limit"
-        target = dest / (logical + ".structure.json")
-        atomic(target, json_bytes(dat_header(data)))
-        return "STRUCTURE_ONLY", [target], "Message content not decoded"
+        header = dat_header(data)
+        if header["textSectionCount"] != 1:
+            target = dest / (logical + ".structure.json")
+            atomic(target, json_bytes(header))
+            return "STRUCTURE_ONLY", [target], "Multi-section DAT not yet decoded"
+        target = dest / (logical + ".json")
+        result = decode_message_dat(data)
+        atomic(target, json_bytes(result))
+        return "CONVERTED", [target], "Decrypted each UTF-16 slot; control units retained"
     if ext in FBS_EXT:
         if data is None:
             return "UNSUPPORTED", [], "large Trinity binary requires native adapter"
