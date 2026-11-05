@@ -78,19 +78,30 @@ Other existing files are preserved and reported as conflicts.
 
 ## Git batch handling
 
-Stage explicit verified artifacts and the corresponding manifests only. Keep
-all volumes for one source file in a single commit. Record each commit SHA,
-artifact count, byte count and push status in the manifests/v2.0.2-git-batches.csv ledger, and
-write its batch number into the inventory CSV.
+Use Windows-native Git with the existing Windows credential flow. Do not use
+Git LFS. Stage only verified artifacts and the manifests for the current batch.
+Keep each archive volume intact, and keep each push below GitHub's 2 GiB pack
+limit. See [GitHub's push limit guidance](https://docs.github.com/en/get-started/using-git/troubleshooting-the-2-gb-push-limit).
 
-Keep each batch near 400 MiB and below 200 files where possible. A file group
-larger than those targets must not be divided. GitHub also enforces a 2 GiB
-limit on one push; if an indivisible file group exceeds that limit, do not push
-or split it across commits under this workflow. Use only an approved storage
-method after checking access, rights and any account quota. See
-[GitHub's push limit guidance](https://docs.github.com/en/get-started/using-git/troubleshooting-the-2-gb-push-limit).
+The first ordinary Git push containing all 87 `arc/data.trpfs` volumes was
+rejected with `pack exceeds maximum allowed size (2.00 GiB)`. That unpublished
+attempt is retained on the local backup branch
+`codex/za-v2.0.2-batch004-failed-attempt`; `master` was returned to the remote
+baseline without changing remote history. At the user's direction, the same
+verified 45 MiB volumes are now split across these ordinary Git pushes:
 
-Do not force-push or rewrite history. Recheck the current branch and remote
-head before every push. Do not publish copyrighted source material to a public
-repository without the required authorization; private repository visibility
-does not itself grant redistribution rights.
+| Batch | Volumes | Artifact bytes | Approx. GiB |
+| --- | --- | ---: | ---: |
+| 004 | 001-032 | 1,509,949,440 | 1.4062 |
+| 005 | 033-064 | 1,509,949,440 | 1.4062 |
+| 006 | 065-087 | 1,079,831,489 | 1.0057 |
+
+The planned payloads leave margin below 2 GiB for Git pack overhead. The
+inventory records `004-006`, and the transfer manifest maps every volume to its
+batch. Commit SHAs, actual file counts, and push outcomes are recorded in
+`manifests/v2.0.2-git-batches.csv`. Do not start the next batch until the
+previous push is confirmed. Never force-push or rewrite remote history.
+
+Do not publish copyrighted source material to a public repository without the
+required authorization; private repository visibility does not itself grant
+redistribution rights.
