@@ -131,24 +131,46 @@ def pointer_and_relocations(elf,targets):
         if sec["stype"]!=4:continue  # SHT_RELA, Elf64_Rela
         if sec["entsize"]<24 or sec["size"]%sec["entsize"]:
             raise ValueError("Invalid ELF RELA structure")
+        symtab=None
+        if sec["link"] < len(elf.sections):
+            candidate=elf.sections[sec["link"]]
+            if candidate["stype"] in (2,11):
+                symtab=candidate
         for idx in range(sec["size"]//sec["entsize"]):
             off=sec["off"]+idx*sec["entsize"]
             r_offset,r_info,r_addend=struct.unpack_from("<QQq",elf.raw,off)
             typ=r_info&0xFFFFFFFF
+            symidx=r_info>>32
             rels[typ]+=1
-            if typ==1027 and r_addend in target_va: # R_AARCH64_RELATIVE
-                string=target_va[r_addend]
-                # r_offset is a virtual memory location, not an ELF file offset.
-                loc=""
-                reg=""
-                for sec2 in elf.sections:
-                    if sec2["stype"]!=8 and sec2["addr"]<=r_offset<sec2["addr"]+sec2["size"] and sec2["flags"]&2:
-                        loc=f"0x{sec2['off']+r_offset-sec2['addr']:X}"
-                        reg=sec2["name"]
-                        break
-                rows.append((string,f"0x{r_offset:X}",loc,f"0x{r_addend:X}",
-                             "ELF_R_AARCH64_RELATIVE_ADDEND",reg or sec["name"],
-                             "ELF_STATIC_RELOCATION_NOT_RUNTIME_RESOLUTION"))
+            target=None
+            if typ==1027 and symidx==0:  # R_AARCH64_RELATIVE
+                target=r_addend
+            elif typ==257: # R_AARCH64_ABS64, against a symbol's st_value
+                if symidx==0:
+                    target=r_addend
+                elif symtab is not None and symtab["entsize"]>=24 and (
+                    (symidx+1)*symtab["entsize"]<=symtab["size"]
+                ):
+                    symoff=symtab["off"]+symidx*symtab["entsize"]
+                    nameoff,info,other,shndx,val,size=struct.unpack_from(
+                        "<IBBHQQ",elf.raw,symoff)
+                    if shndx!=0:  # undefined dynamic symbol cannot be resolved statically
+                        target=val+r_addend
+            if target not in target_va:continue
+            string=target_va[target]
+            loc=""
+            reg=""
+            for sec2 in elf.sections:
+                if (sec2["stype"]!=8 and sec2["addr"]<=r_offset<sec2["addr"]+sec2["size"]
+                    and sec2["flags"]&2):
+                    loc=f"0x{sec2['off']+r_offset-sec2['addr']:X}"
+                    reg=sec2["name"]
+                    break
+            rows.append((string,f"0x{r_offset:X}",loc,f"0x{target:X}",
+                         ("ELF_R_AARCH64_RELATIVE_ADDEND" if typ==1027
+                          else "ELF_R_AARCH64_ABS64_SYMBOL_PLUS_ADDEND"),
+                         reg or sec["name"],
+                         "ELF_STATIC_RELOCATION_NOT_RUNTIME_RESOLUTION"))
     return rows,dict(rels)
 
 
@@ -200,7 +222,7 @@ def run(root=ROOT,out=NATIVE,window=20):
         sites.append((text,old["virtual_addr_hex"],old["file_offset_hex"],old["region"],
                       ",".join(f"0x{x:X}" for x in refs_here),len(refs_here),
                       sum(1 for p in pointers if p[0]==text and p[4]=="ELF_QWORD_RAW_LITERAL"),
-                      sum(1 for p in pointers if p[0]==text and p[4]=="ELF_R_AARCH64_RELATIVE_ADDEND"),
+                      sum(1 for p in pointers if p[0]==text and p[4].startswith("ELF_R_AARCH64_")),
                       "NO"))
     result={
         "game":"Pokemon Legends Z-A","version":"v2.0.2",
