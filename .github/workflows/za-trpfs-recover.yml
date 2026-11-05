@@ -1,5 +1,5 @@
 name: Recover verified ZA Trinity first two packs (no 4GB restore)
-# Retain original independently published descriptor summary.
+# Compare native indexes semantically; gzip streams may not be bit-identical.
 on:
   push:
     branches: [master]

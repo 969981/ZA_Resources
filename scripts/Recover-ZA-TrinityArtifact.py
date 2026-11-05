@@ -77,6 +77,16 @@ def recover(artifact: Path, repo: Path) -> dict:
                     if any(str(old_summary.get(k)).upper() != str(new_summary.get(k)).upper() for k in keys):
                         raise RuntimeError("Native descriptor inventory conflicts with separately published index")
                     print("Kept already-verified native descriptor summary")
+                elif rel.as_posix() == "_index/file_index.tsv.gz":
+                    import gzip
+                    with gzip.open(target, "rb") as earlier, gzip.open(source, "rb") as later:
+                        if earlier.read() != later.read():
+                            raise RuntimeError("Native file index content conflict")
+                    print("Kept equivalent native file index (gzip stream bytes differ)")
+                elif rel.as_posix() == "_index/pack_index.tsv":
+                    if target.read_text(encoding="utf-8-sig").splitlines() != source.read_text(encoding="utf-8-sig").splitlines():
+                        raise RuntimeError("Native pack index content conflict")
+                    print("Kept equivalent native pack index")
                 else:
                     raise RuntimeError("Existing output differs, not overwriting: "+str(rel))
         elif target.exists():
