@@ -76,7 +76,7 @@ def write_npdm(source: Path, output: Path) -> dict:
         raise ValueError("Existing main.npdm copy differs")
     source_copy.write_bytes(raw)
     info["originalCopy"] = "main.npdm"
-    info["originalSource"] = source.as_posix()
+    info["originalSource"] = source.relative_to(output.parents[3]).as_posix()
     metadata = output / "metadata.json"
     metadata.write_text(json.dumps(info, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return info
