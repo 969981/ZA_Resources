@@ -1,0 +1,121 @@
+{
+  "format": "opaque Trinity TROWC",
+  "sourceSize": 729,
+  "sourceSha256": "91f9b154117c6720915cdaad30e8eddde3430cb2b09f3818f9ef6991159e28dd",
+  "observedNullTerminatedStrings": [
+    {
+      "offset": 0,
+      "value": "appHeap"
+    },
+    {
+      "offset": 8,
+      "value": "gfx2"
+    },
+    {
+      "offset": 13,
+      "value": "vfx2"
+    },
+    {
+      "offset": 18,
+      "value": "physics"
+    },
+    {
+      "offset": 26,
+      "value": "ui2d"
+    },
+    {
+      "offset": 34,
+      "value": "lua"
+    },
+    {
+      "offset": 38,
+      "value": "sound"
+    },
+    {
+      "offset": 44,
+      "value": "eventSystem"
+    },
+    {
+      "offset": 56,
+      "value": "object"
+    },
+    {
+      "offset": 69,
+      "value": "3 -;"
+    },
+    {
+      "offset": 133,
+      "value": "shadowResolution"
+    },
+    {
+      "offset": 150,
+      "value": "maxShadowCascades"
+    },
+    {
+      "offset": 168,
+      "value": "graphics"
+    },
+    {
+      "offset": 177,
+      "value": "firmwareMemorySize"
+    },
+    {
+      "offset": 196,
+      "value": "memorySize_CpuUncached_GpuCached"
+    },
+    {
+      "offset": 229,
+      "value": "memorySize_CpuInvisible_GpuCached"
+    },
+    {
+      "offset": 263,
+      "value": "memorySize_CpuUncached_GpuUncached"
+    },
+    {
+      "offset": 298,
+      "value": "textureDescriptorMax"
+    },
+    {
+      "offset": 319,
+      "value": "lodDistanceMultiplier"
+    },
+    {
+      "offset": 341,
+      "value": "instancingCullingDistanceMultiplier"
+    },
+    {
+      "offset": 435,
+      "value": "streamingConfig"
+    },
+    {
+      "offset": 451,
+      "value": "gridStreamingRealizeOffset"
+    },
+    {
+      "offset": 478,
+      "value": "gridStreamingUnrealizeOffset"
+    },
+    {
+      "offset": 507,
+      "value": "overrideSensorRealizeOffset"
+    },
+    {
+      "offset": 535,
+      "value": "overrideSensorUnrealizeOffset"
+    },
+    {
+      "offset": 565,
+      "value": "conditionalStreamingRealizeOffset"
+    },
+    {
+      "offset": 599,
+      "value": "conditionalStreamingUnrealizeOffset"
+    },
+    {
+      "offset": 657,
+      "value": "debugLineMax"
+    }
+  ],
+  "status": "PARTIAL",
+  "note": "String offsets and lossless bytes confirmed; structured config values UNKNOWN."
+}
