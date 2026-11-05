@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "Unmapped ZA Lua hash inventory",
+  "source_repository": "Reisyukaku/ZAScripts",
+  "source_commit": "c7bc243ac4d28356dff9f06b6723330ea92247d5",
+  "source_evidence": "Third-party Haxe reconstruction, not native game Lua bytecode",
+  "main_haxe_files_scanned": 85,
+  "additional_event_files_scanned": 5,
+  "source_paths_with_references": 18,
+  "remaining": {
+    "s": 116,
+    "f": 43,
+    "e": 3
+  },
+  "S_hashes_with_haxe_references": 116,
+  "S_reference_rows": 258,
+  "role_counts": {
+    "DECLARATION": 117,
+    "CALL": 99,
+    "READ": 31,
+    "ABI_ANNOTATION": 9,
+    "WRITE": 2
+  },
+  "native_bytecode_extracted_and_verified": false,
+  "native_confirmations": 0,
+  "warning": "A source reference or literal Hash does not reveal the original symbol name or prove game-native call semantics."
+}

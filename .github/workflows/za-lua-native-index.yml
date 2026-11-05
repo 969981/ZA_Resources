@@ -1,0 +1,85 @@
+name: ZA v2.0.2 Lua native pack index and parser tests
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/za-lua-native-index.yml'
+      - 'scripts/Locate-ZA-Lua-Packs.py'
+      - 'scripts/Analyze-ZA-Lua-Native.py'
+      - 'scripts/_vendor/Analyze-SV-Lua54.py'
+      - 'tests/test_za_lua_native_pipeline.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-lua-native-index
+  cancel-in-progress: false
+
+jobs:
+  locate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout native descriptor indexes and scripts
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Locate-ZA-Lua-Packs.py
+            /scripts/Analyze-ZA-Lua-Native.py
+            /scripts/_vendor/Analyze-SV-Lua54.py
+            /tests/test_za_lua_native_pipeline.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/descriptor_summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/pack_index.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/file_index.tsv.gz
+            /tools/PokeDocs-Supplement/ZA/Hashlists/Lua/unresolved-symbol-index.tsv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Synthetic Lua 5.4 opcode parsing tests
+        run: python -m unittest discover -s tests -p 'test_za_lua_native_pipeline.py' -v
+
+      - name: Locate exactly four native ZA Lua targets in all 238546 descriptors
+        run: |
+          python scripts/Locate-ZA-Lua-Packs.py
+          python scripts/Locate-ZA-Lua-Packs.py --verify-only
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json")
+          x=json.loads(p.read_text())
+          assert x['all_unique'] and x['target_pack_indices']==[12145,12146,12147,12148]
+          assert all(len(x['targets'][k]['matches'])==1 for k in ('dll_util','event_ik','main','main_dynamic'))
+          assert x['bytecode_extracted'] is False
+          print('Index verified; script bytecode extraction still pending')
+          PY
+
+      - name: Save audit before publishing
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-Lua-four-pack-locations
+          path: Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+          retention-days: 30
+
+      - name: Publish source-backed location manifest (no game binaries)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+          if git diff --cached --quiet; then
+            echo 'Manifest unchanged; no publication necessary'
+            exit 0
+          fi
+          git commit -m 'data(za): locate four native Lua Trinity packs by exact TRPFD indexes'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
