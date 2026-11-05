@@ -1,0 +1,71 @@
+name: ZA native Lua receiver register provenance
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/Trace-ZA-Lua-ReceiverOrigin.py'
+      - 'tests/test_za_lua_receiver_origin.py'
+      - '.github/workflows/za-lua-native-receiver-origin.yml'
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-context.tsv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-native-receiver-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  receiver-origin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Trace-ZA-Lua-ReceiverOrigin.py
+            /scripts/_vendor/Analyze-SV-Lua54.py
+            /tests/test_za_lua_receiver_origin.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release/**
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-context.tsv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test receiver source and conservative barrier behavior
+        run: python -m unittest discover -s tests -p test_za_lua_receiver_origin.py -v
+
+      - name: Verify original ZA Lua SHA-256 and trace receiver-register sources
+        run: python scripts/Trace-ZA-Lua-ReceiverOrigin.py --max-window 32
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-receiver-register-provenance-${{ github.run_number }}
+          path: |
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-receiver-register-provenance.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-receiver-register-summary.json
+          retention-days: 30
+
+      - name: Publish derived evidence on master
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-receiver-register-provenance.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-receiver-register-summary.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'analysis(za): publish native receiver register provenance'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
