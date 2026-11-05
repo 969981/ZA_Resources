@@ -22,6 +22,10 @@ import tempfile
 import time
 from datetime import datetime, timezone
 
+# This script is run both as a file and by importlib in the synthetic tests.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from za_trinity_parallel import parallel_decode, load_pack_counts
+
 ROOT_REL = Path("Unpack/v2.0.2/romfs/arc/data.trpfs")
 DESC_REL = Path("Unpack/v2.0.2/romfs/arc/data.trpfd")
 VOLUME_BYTES = 90 * 1024 * 1024
@@ -213,16 +217,30 @@ def audit_all(root: Path, desc: Path, output_path: Path):
 
 
 def process_batch(repo, workspace, root, src, cache, oodle, seven_zip,
-                  start, end, *, dry_run):
+                  start, end, *, dry_run, parallel_workers=1, pack_counts=None):
     reports = root / "_index/batches"
     reports.mkdir(parents=True, exist_ok=True)
     report = reports / f"pack-{start:06d}-{end-1:06d}.jsonl"
-    command = ["dotnet", "run", "--no-build", "-c", "Release",
-               "--project", "tools/ZA.TrinityDump/ZA.TrinityDump.csproj", "--",
-               "--romfs", workspace, "--output", root, "--cache", cache,
-               "--oodle", oodle, "--start-pack", str(start),
-               "--max-packs", str(end-start), "--report", report]
-    exit_code = call(command, cwd=repo, tolerate=(1,))
+    started = time.monotonic()
+    parallel_info = None
+    if parallel_workers > 1:
+        if pack_counts is None:
+            raise ValueError("Parallel decoding requires the native TRPFD pack-count index")
+        parallel_info = parallel_decode(
+            repo=repo, workspace=Path(workspace), output=root, report=report,
+            cache=Path(cache), oodle=Path(oodle), start=start, end=end,
+            workers=parallel_workers, pack_counts=pack_counts)
+        exit_code = 1 if parallel_info["failed"] else 0
+    else:
+        # Legacy serial mode is retained for performance comparisons and
+        # for narrow single-Pack debugging.
+        command = ["dotnet", "run", "--no-build", "-c", "Release",
+                   "--project", "tools/ZA.TrinityDump/ZA.TrinityDump.csproj", "--",
+                   "--romfs", workspace, "--output", root, "--cache", cache,
+                   "--oodle", oodle, "--start-pack", str(start),
+                   "--max-packs", str(end-start), "--report", report]
+        exit_code = call(command, cwd=repo, tolerate=(1,))
+    decode_seconds = time.monotonic() - started
     rows = read_records(report)
     if not rows:
         raise RuntimeError(f"No native extraction records produced for pack range {start}..{end-1}")
@@ -268,6 +286,10 @@ def process_batch(repo, workspace, root, src, cache, oodle, seven_zip,
         "largeFiles": len(large), "decoderExitCode": exit_code,
         "report": str(report.relative_to(repo).as_posix()),
         "updatedUtc": datetime.now(timezone.utc).isoformat(),
+        "parallelWorkers": parallel_info["workers"] if parallel_info else 1,
+        "workerMetrics": parallel_info["workerRanges"] if parallel_info else [],
+        "decodeSeconds": round(decode_seconds, 3),
+        "validationAndArchiveSeconds": round(time.monotonic()-started-decode_seconds, 3),
     }
     summary_path = reports / f"pack-{start:06d}-{end-1:06d}-summary.json"
     write_json(summary_path, summary)
@@ -288,10 +310,14 @@ def main():
     ap.add_argument("--max-batches", type=int, default=1000)
     ap.add_argument("--time-budget-minutes", type=int, default=240)
     ap.add_argument("--seven-zip", default=r"C:\Program Files\7-Zip\7z.exe")
+    ap.add_argument("--parallel-workers", type=int, default=4,
+                    help="Independent .NET/Oodle processes per pack window (1=serial, 2-8 supported; default 4)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     if args.start_pack < 0 or not 1 <= args.batch_packs <= 200 or args.max_batches < 1:
         ap.error("start-pack >= 0; batch-packs in 1..200; max-batches positive")
+    if not 1 <= args.parallel_workers <= 8:
+        ap.error("parallel-workers must be 1..8")
     repo = args.repo.resolve()
     root = repo / ROOT_REL
     desc = repo / DESC_REL
@@ -299,6 +325,7 @@ def main():
     descriptor = json.loads((desc / "descriptor_summary.json").read_text(encoding="utf-8"))
     total = descriptor["packCount"]
     expected = descriptor["descriptorFiles"]
+    pack_counts = load_pack_counts(desc / "pack_index.tsv")
     if total != 13181 or expected != 238546:
         raise RuntimeError(f"Unexpected native descriptor size: packs={total}, files={expected}")
     existing = (json.loads(progress_file.read_text(encoding="utf-8"))
@@ -333,7 +360,8 @@ def main():
         print(f"=== Native Trinity pack range {cursor}..{end-1} of {total} ===", flush=True)
         summary, stages = process_batch(
             repo, str(workspace), root, desc, str(cache), str(oodle),
-            args.seven_zip, cursor, end, dry_run=args.dry_run)
+            args.seven_zip, cursor, end, dry_run=args.dry_run,
+            parallel_workers=args.parallel_workers, pack_counts=pack_counts)
         cursor = end
         done += 1
         summaries.append(summary)
@@ -373,6 +401,7 @@ def main():
         "windowsThisRun": done, "complete": cursor == total,
         "thisRunOK": sum(r["success"] for r in summaries),
         "thisRunFailed": sum(r["failed"] for r in summaries),
+        "parallelWorkers": args.parallel_workers,
         "progressFile": str(progress_file.relative_to(repo).as_posix())
     }, indent=2), flush=True)
 

@@ -4,6 +4,8 @@ on:
     branches: [master]
     paths:
       - scripts/Run-ZA-FullExtract.py
+      - scripts/za_trinity_parallel.py
+      - tests/test_za_parallel.py
       - tests/test_za_full_extract.py
       - .github/workflows/za-m2-validate.yml
   workflow_dispatch:
@@ -24,5 +26,6 @@ jobs:
           python-version: '3.12'
       - name: Check syntax, path security and isolated-index publication
         run: |
-          python -m py_compile scripts/Run-ZA-FullExtract.py
+          python -m py_compile scripts/Run-ZA-FullExtract.py scripts/za_trinity_parallel.py
           python -m unittest discover -s tests -p 'test_za_full_extract.py' -v
+          python -m unittest discover -s tests -p 'test_za_parallel.py' -v

@@ -1,4 +1,4 @@
-name: ZA M2 ONE-CLICK FULL - all 13181 native Trinity packs
+name: ZA M2 PARALLEL FULL - 13181 native Trinity packs
 
 on:
   push:
@@ -13,10 +13,15 @@ on:
         type: string
         default: "0"
       batch_packs:
-        description: "Packs per verified commit (full mode minimum 100, max 200)"
+        description: "Native packs per committed batch (max 200); parallel default 200"
         required: true
         type: string
-        default: "100"
+        default: "200"
+      parallel_workers:
+        description: "Independent .NET/Oodle worker processes per batch (1=serial, 2-8 supported)"
+        required: true
+        type: string
+        default: "4"
       max_batches:
         description: "Max committed batches per run (full mode automatically uses 100)"
         required: true
@@ -45,7 +50,8 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       START_PACK: ${{ github.event.inputs.start_pack || '0' }}
-      BATCH_PACKS: ${{ github.event.inputs.batch_packs || '50' }}
+      BATCH_PACKS: ${{ github.event.inputs.batch_packs || '200' }}
+      PARALLEL_WORKERS: ${{ github.event.inputs.parallel_workers || '4' }}
       MAX_BATCHES: ${{ github.event.inputs.max_batches || '100' }}
       FULL_RUN: ${{ github.event.inputs.full_run || 'true' }}
     steps:
@@ -58,6 +64,8 @@ jobs:
             Format-Table -AutoSize
           if ([int]$env:START_PACK -lt 0) { throw 'start_pack must be nonnegative' }
           if ([int]$env:BATCH_PACKS -lt 1 -or [int]$env:BATCH_PACKS -gt 200) { throw 'batch_packs outside 1..200' }
+          if ([int]$env:PARALLEL_WORKERS -lt 1 -or [int]$env:PARALLEL_WORKERS -gt 8) { throw 'parallel_workers outside 1..8' }
+          Write-Host "Native decoding workers: $env:PARALLEL_WORKERS"
           if ([int]$env:MAX_BATCHES -lt 1 -or [int]$env:MAX_BATCHES -gt 100) { throw 'max_batches outside 1..100' }
 
       - name: Checkout only ZA unpack code and previously published indexes
@@ -102,10 +110,12 @@ jobs:
           $code = Join-Path $env:GITHUB_WORKSPACE 'code'
           $src = Join-Path $env:GITHUB_WORKSPACE 'source\v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1\arc'
           Set-Location -LiteralPath $code
-          python -m py_compile scripts/Run-ZA-FullExtract.py scripts/Restore-ZA-TrinityDirect.py scripts/Summarize-ZA-Trinity.py
+          python -m py_compile scripts/Run-ZA-FullExtract.py scripts/za_trinity_parallel.py scripts/Restore-ZA-TrinityDirect.py scripts/Summarize-ZA-Trinity.py
           if ($LASTEXITCODE -ne 0) { throw 'Invalid batch pipeline Python syntax' }
           python -m unittest discover -s tests -p 'test_za_full_extract.py' -v
           if ($LASTEXITCODE -ne 0) { throw 'Batch publisher tests failed' }
+          python -m unittest discover -s tests -p 'test_za_parallel.py' -v
+          if ($LASTEXITCODE -ne 0) { throw 'Multiprocess extraction isolation tests failed' }
           $volumes = @(Get-ChildItem -LiteralPath $src -Filter 'data.trpfs.7z.*' -File)
           if ($volumes.Count -ne 87) { throw "Expected 87 native 7z volumes, found $($volumes.Count)" }
           $hash = 'tools/HashCaches/ZA/GFPAKHashCache.bin'
@@ -168,10 +178,12 @@ jobs:
           $ErrorActionPreference = 'Stop'
           Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
           # Auto-full mode upgrades legacy 50-pack/10-window dispatch inputs.
-          $packs = if ($env:FULL_RUN -eq 'true') { [Math]::Max(100,[int]$env:BATCH_PACKS) } else { [int]$env:BATCH_PACKS }
+          # Larger windows amortize Git index + push overhead; each window is
+          # subdivided among independent .NET/Oodle child processes.
+          $packs = if ($env:FULL_RUN -eq 'true') { [Math]::Max(200,[int]$env:BATCH_PACKS) } else { [int]$env:BATCH_PACKS }
           $windows = if ($env:FULL_RUN -eq 'true') { 100 } else { [int]$env:MAX_BATCHES }
-          Write-Host "ZA one-click full goal: 13181 packs; this runner has $windows windows x $packs packs"
-          python -u scripts/Run-ZA-FullExtract.py --repo . --workspace "$env:ZA_ROMFS_WORK" --start-pack $env:START_PACK --batch-packs $packs --max-batches $windows --time-budget-minutes 205 --seven-zip "$env:SEVENZIP"
+          Write-Host "ZA parallel full goal: 13181 packs; $windows windows x $packs packs, $env:PARALLEL_WORKERS native decoder processes"
+          python -u scripts/Run-ZA-FullExtract.py --repo . --workspace "$env:ZA_ROMFS_WORK" --start-pack $env:START_PACK --batch-packs $packs --parallel-workers $env:PARALLEL_WORKERS --max-batches $windows --time-budget-minutes 205 --seven-zip "$env:SEVENZIP"
           if ($LASTEXITCODE -ne 0) { throw "ZA M2 full extraction stopped at checkpoint; exit=$LASTEXITCODE" }
 
       - name: Upload checkpoint and batch evidence
@@ -197,7 +209,7 @@ jobs:
           if ($p.nextPack -lt $p.totalPacks) {
             if ($p.state -ne 'PARTIAL') { throw "Cannot dispatch after non-partial state $($p.state)" }
             if ($env:FULL_RUN -eq 'true') {
-              gh workflow run za-m2-full.yml --repo 969981/ZA_Resources --ref master -f "start_pack=$($p.nextPack)" -f "batch_packs=100" -f "max_batches=100" -f "full_run=true"
+              gh workflow run za-m2-full.yml --repo 969981/ZA_Resources --ref master -f "start_pack=$($p.nextPack)" -f "batch_packs=200" -f "parallel_workers=$env:PARALLEL_WORKERS" -f "max_batches=100" -f "full_run=true"
               if ($LASTEXITCODE -ne 0) { throw 'Auto-resume dispatch failed; verified checkpoint remains in master' }
               Write-Host "Full unpack continues automatically from Pack $($p.nextPack)"
             }
