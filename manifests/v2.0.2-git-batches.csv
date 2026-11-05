@@ -1,1 +1,5 @@
 ﻿Batch,CommitSHA,ArtifactFileCount,CommitFileCount,ArtifactBytes,CommitStatus,PushStatus,RecordedUtc,Notes
+001,,19,0,79484229,Pending,Pending,,18 Raw files and PM.bnk 1-volume archive
+002,,6,0,236452875,Pending,Pending,,Stream_dlc.pck complete 6-volume group
+003,,16,0,740854088,Pending,Pending,,Stream.pck complete 16-volume group; above 400 MiB but below 2 GiB
+004,,87,0,4099730369,Not committed,Blocked,2026-11-05 04:42:03 UTC,data.trpfs complete 87-volume group exceeds GitHub 2 GiB single-push limit
