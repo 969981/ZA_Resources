@@ -1,0 +1,1411 @@
+{
+  "brokenArchiveSamples": [],
+  "brokenOriginalArchiveGroupsCount": 0,
+  "categoryManifests": [
+    "_unknown.jsonl.gz",
+    "ai_influence.jsonl.gz",
+    "ai_influence1.jsonl.gz",
+    "avalon.jsonl.gz",
+    "field.jsonl.gz",
+    "ik_ai_behavior.jsonl.gz",
+    "ik_chara.jsonl.gz",
+    "ik_demo.jsonl.gz",
+    "ik_effect.jsonl.gz",
+    "ik_event.jsonl.gz",
+    "ik_message.jsonl.gz",
+    "ik_pokemon.jsonl.gz",
+    "script.jsonl.gz"
+  ],
+  "checkpoint": {
+    "completedPackWindows": 125,
+    "expectedNativeFiles": 238546,
+    "lastBatch": "Unpack/v2.0.2/romfs/arc/data.trpfs/_index/batches/pack-013000-013180.jsonl",
+    "lastBatchFailed": 0,
+    "lastBatchSuccess": 4889,
+    "lastPublishedPackInclusive": 13180,
+    "nextPack": 13181,
+    "schemaVersion": 1,
+    "sourceVersion": "ZA v2.0.2",
+    "state": "COMPLETE",
+    "totalPacks": 13181,
+    "updatedUtc": "2026-11-05T17:10:00.213435+00:00"
+  },
+  "countsByStatus": {
+    "CONVERTED": 9394,
+    "FAILED": 129,
+    "STRUCTURE_ONLY": 149524,
+    "UNSUPPORTED": 39720
+  },
+  "extraInputPathSamples": [],
+  "extraInputPathsCount": 0,
+  "inputManifestPhysicalFiles": 198767,
+  "largeFilesFromOriginalSplitArchives": 0,
+  "logicalOriginalPathsAccounted": 198767,
+  "missingNativePathSamples": [
+    "ik_pokemon/data/pm0764/pm0764_00_41/locators/pm0764_00_41_00000_eff.trskl",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trmbf",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trmdl",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trmmt",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trmsh",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trmtr",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trpokecfg",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41.trskl",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00000_defaultwait01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00000_defaultwait01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00001_battlewait01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00001_battlewait01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00010_defaultidle01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00010_defaultidle01.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00010_defaultidle01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00020_turn_r000.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00020_turn_r000.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00021_turn_r090.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00021_turn_r090.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00024_turn_l090.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00024_turn_l090.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00026_turnmove01_r090.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00026_turnmove01_r090.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00028_turnmove01_l090.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00028_turnmove01_l090.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00030_walk01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00030_walk01_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00030_walk01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00100_run01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00100_run01_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00100_run01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00140_stepin01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00140_stepin01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00140_stepin01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00141_stepin01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00141_stepin01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00142_stepin01_end.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00142_stepin01_end.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00142_stepin01_end.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00145_stepout01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00145_stepout01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00145_stepout01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00146_stepout01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00146_stepout01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00147_stepout01_end.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00147_stepout01_end.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00147_stepout01_end.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00150_jumpup01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00150_jumpup01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00150_jumpup01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00151_jumpup01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00151_jumpup01_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00151_jumpup01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00152_jumpdown01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00152_jumpdown01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00152_jumpdown01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00153_jumpdown01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00153_jumpdown01_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00153_jumpdown01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00155_land02.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00155_land02.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00155_land02.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00270_rest01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00270_rest01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00270_rest01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00271_rest01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00271_rest01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00272_rest01_end.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00272_rest01_end.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00272_rest01_end.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00280_sleep01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00280_sleep01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00280_sleep01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00281_sleep01_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00281_sleep01_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00281_sleep01_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00282_sleep01_end.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00282_sleep01_end.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00282_sleep01_end.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00293_eat02_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00293_eat02_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00293_eat02_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00294_eat02_loop.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00294_eat02_loop.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00294_eat02_loop.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00295_eat02_end.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00295_eat02_end.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00300_roar01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00300_roar01.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00300_roar01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00310_appeal01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00310_appeal01.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00310_appeal01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00320_refresh01.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00320_refresh01.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00320_refresh01.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00330_search01_start.tracm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00330_search01_start.traef",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00330_search01_start.tranm",
+    "ik_pokemon/data/pm0764/pm0764_00_41/pm0764_00_41_00331_search01_loop.tracm"
+  ],
+  "missingNativePathsCount": 39779,
+  "nativeExpectedUniquePaths": 238546,
+  "nativeIndexDuplicatePaths": [],
+  "nativeIndexEntries": 238546,
+  "nativePathCoverageComplete": false,
+  "nativeSourceComplete": true,
+  "notFullyConvertedCount": 189373,
+  "note": "Category manifests audit input SHA256 and produced output SHA256. STRUCTURE_ONLY and EXTRACTED_ONLY are NOT semantic conversion successes.",
+  "repeatedInputPathSamples": [],
+  "repeatedInputPathsCount": 0,
+  "schemaVersion": 1,
+  "semanticConversionComplete": false,
+  "unconvertedSamples": [
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/18D08C3272D3ADE5.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/1933F550030FBFEA.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/19591150032F0BBB.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/1B47647F3414CB4A.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/40FCBDC476C690CD.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/410DB9C476D4FD34.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/4723D51EF7317A0F.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/631BE5C675279133.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/632CE9C675360B32.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/ADC4612B855A25DA.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/ADEA3D2B857AB7EB.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/AF24764BCA7A55FD.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/AF35724BCA88C264.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/AF656ADFC41882C7.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/AF924EDFC43F411E.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/CD2A2D849E7B773D.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/CD3B29849E89E3A4.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/CED2F30A91A2E301.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/CEFECF0A91C7E0C0.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/D39E83CC2DB4D3D7.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/D3CAA7CC2DDA4BEE.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/F0BEEFBB924F42B1.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/FB9D7A96A26356BB.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/FD8DE6DF0DE5DE71.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "_unknown/FDBA02DF0E0B48F0.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0003_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0009_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0015_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0071_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0080_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0121_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0149_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0181_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0248_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0303_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0323_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0334_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0354_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0359_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0448_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0478_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0689_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0701_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/ba_battle_area_0718_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_1_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_302_bridge.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_303_bridge.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_3_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_401_bridge.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_402_bridge.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item202_403_bridge.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_101_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_102_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_103_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_104_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_1_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_601_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/field_item203_602_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_b04_1_replace01_streaming_s.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk03_replace01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk03_replace02.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk13.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk13_replace01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk14_replace01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_bk14_replace02.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_g02_1_dungeon_entrance_replace01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_g02_1_dungeon_entrance_replace02.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_g11_substationquiz_replace01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_last_battle_replace_athletics.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_last_battle_replace_bridge_post.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/override/t1_last_battle_replace_bridge_pre.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_00_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_01_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_3_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_4_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_5_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i001_6_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i003_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i004a_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i004b_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i004c_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i004d_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i005_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i006_1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i006_2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i006_3_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i007a_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i008_1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i011_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i012_1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i012_2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i014_1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i014_2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_i015_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_last_battle_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_last_battle_00_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_last_battle_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_last_battle_01_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle1_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle1_00_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle1_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle1_01_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle2_00_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle2_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle2_01_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle3_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle3_00_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle3_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t1_net_battle3_01_01.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t2_01_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t3_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence/t3_2_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t1_i004b_subq_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_chapter0_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_01_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_02_sub168_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_03_sub200_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_04_sub165_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_05_sub124_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_06_sub167_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_05_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_06_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_event_07_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_07_sub125_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_ev001_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_i004b_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_i004c_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_i007a_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp05_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t4_sp06_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_2_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_2_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_2_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_2_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_battle_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_battle_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_wild_01_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_wild_02_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_wild_03_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_dim_wild_04_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "ai_influence1/t5_sub162_00_00.imap",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "avalon/data/growTable.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "avalon/data/personal_array.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "avalon/data/tokusei_array.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "avalon/data/waza_array.bin",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_1.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_1.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_2.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_2.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_3.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_3.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_4.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_1_4.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_1.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_1.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_2.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_2.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_3.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_3.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_4.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_2_4.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_1.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_1.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_2.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_2.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_3.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_3.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_4.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_3_4.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_1.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_1.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_2.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_2.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_3.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_3.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_4.bntx",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "No validated native decoder for this file type",
+      "path": "field/env/env/ik_t1_depth_4_4.trlgt",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape1.trmbf",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape1.trmdl",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape1.trmsh",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape1.trmtr",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape2.trmbf",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape2.trmdl",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape2.trmsh",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_landscape2.trmtr",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountain_range.trmbf",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountain_range.trmdl",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountain_range.trmsh",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountain_range.trmtr",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains1.trmbf",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains1.trmdl",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains1.trmsh",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains1.trmtr",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains2.trmbf",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains2.trmdl",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains2.trmsh",
+      "status": "STRUCTURE_ONLY"
+    },
+    {
+      "message": "Root table structure only; schema-specific fields, geometry, skeleton and animation NOT converted.",
+      "path": "field/model/env/enkei/enkei1/enkei_mountains2.trmtr",
+      "status": "STRUCTURE_ONLY"
+    }
+  ],
+  "version": "ZA v2.0.2"
+}
