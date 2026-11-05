@@ -1,0 +1,73 @@
+{
+  "game": "Pokemon Legends Z-A",
+  "version": "v2.0.2",
+  "files": {
+    "dll_util": {
+      "virtual_path": "script/lua/bin/release/dll_util/dll_util.blua",
+      "bytes": 16479,
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "header_hex": "1b4c7561540019930d0a1a0a0408087856000000000000000000000028774001",
+      "source_pack_index": 12145,
+      "status": "PARSED_NATIVE_LUA54",
+      "prototypes": 98,
+      "unknown_opcode_refs": 0,
+      "unknown_constants": 0,
+      "native_class_f_closures": 0,
+      "native_class_s_closures": 0,
+      "method_pattern_rejections": {}
+    },
+    "event_ik": {
+      "virtual_path": "script/lua/bin/release/event_ik/event_ik.blua",
+      "bytes": 7666228,
+      "sha256": "f238160475095b02e8c5302d907adbd1b48b2fd793a4a8c72ee8c9689fdfd698",
+      "header_hex": "1b4c7561540019930d0a1a0a0408087856000000000000000000000028774001",
+      "source_pack_index": 12146,
+      "status": "PARSED_NATIVE_LUA54",
+      "prototypes": 7388,
+      "unknown_opcode_refs": 1863,
+      "unknown_constants": 1145,
+      "native_class_f_closures": 2868,
+      "native_class_s_closures": 25,
+      "method_pattern_rejections": {}
+    },
+    "main": {
+      "virtual_path": "script/lua/bin/release/main/main.blua",
+      "bytes": 478571,
+      "sha256": "d9677f20ab3dfe350eec746d06769cf244bf316ee27fbd73a4bc208e5ff1b8a8",
+      "header_hex": "1b4c7561540019930d0a1a0a0408087856000000000000000000000028774001",
+      "source_pack_index": 12147,
+      "status": "PARSED_NATIVE_LUA54",
+      "prototypes": 1638,
+      "unknown_opcode_refs": 277,
+      "unknown_constants": 220,
+      "native_class_f_closures": 196,
+      "native_class_s_closures": 853,
+      "method_pattern_rejections": {}
+    },
+    "main_dynamic": {
+      "virtual_path": "script/lua/bin/release/main_dynamic/main_dynamic.blua",
+      "bytes": 16479,
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "header_hex": "1b4c7561540019930d0a1a0a0408087856000000000000000000000028774001",
+      "source_pack_index": 12148,
+      "status": "PARSED_NATIVE_LUA54",
+      "prototypes": 98,
+      "unknown_opcode_refs": 0,
+      "unknown_constants": 0,
+      "native_class_f_closures": 0,
+      "native_class_s_closures": 0,
+      "method_pattern_rejections": {}
+    }
+  },
+  "native_files_parsed": 4,
+  "native_files_missing": 0,
+  "native_files_unsupported": 0,
+  "native_unknown_opcode_references": 2140,
+  "native_unknown_constant_occurrences": 1365,
+  "unique_unknown_tokens_with_opcode_references": 157,
+  "native_class_f_closure_edges": 3064,
+  "native_class_s_closure_edges": 878,
+  "original_names_recovered": 0,
+  "native_original_name_confirmations": 0,
+  "warning": "Game-native opcode references and class assignments are not recovered original symbol names. No Haxe-inferred name is written."
+}

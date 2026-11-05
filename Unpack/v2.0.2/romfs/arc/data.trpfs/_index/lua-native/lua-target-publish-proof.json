@@ -1,0 +1,41 @@
+{
+  "status": "VERIFIED_NATIVE_LUA_FOUR_PACK_PUBLISH",
+  "version": "v2.0.2",
+  "source_workflow_run": 42011668436,
+  "source_artifact_id": 13407204049,
+  "original_trpfd_sha256": "d1beb3763deab33691c5930e026006278f4586dac094f8d0ea2494ecb6f851f8",
+  "original_trpfs_sha256": "64169ef62030dd8e39bb884aff885fd51e7c0758c595c64c4b3fb7b6dad9683d",
+  "targets": {
+    "dll_util": {
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "size": 16479,
+      "pack": 12145,
+      "virtual_path": "script/lua/bin/release/dll_util/dll_util.blua",
+      "prototypes": 98
+    },
+    "event_ik": {
+      "sha256": "f238160475095b02e8c5302d907adbd1b48b2fd793a4a8c72ee8c9689fdfd698",
+      "size": 7666228,
+      "pack": 12146,
+      "virtual_path": "script/lua/bin/release/event_ik/event_ik.blua",
+      "prototypes": 7388
+    },
+    "main": {
+      "sha256": "d9677f20ab3dfe350eec746d06769cf244bf316ee27fbd73a4bc208e5ff1b8a8",
+      "size": 478571,
+      "pack": 12147,
+      "virtual_path": "script/lua/bin/release/main/main.blua",
+      "prototypes": 1638
+    },
+    "main_dynamic": {
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "size": 16479,
+      "pack": 12148,
+      "virtual_path": "script/lua/bin/release/main_dynamic/main_dynamic.blua",
+      "prototypes": 98
+    }
+  },
+  "native_opcode_reference_rows": 2140,
+  "native_names_confirmed": 0,
+  "note": "TRPFS source and extracted game Lua were verified. Hash opcode evidence does not recover original names."
+}
