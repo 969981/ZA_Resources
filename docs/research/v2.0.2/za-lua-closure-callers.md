@@ -19,7 +19,7 @@ source_run: 42021695658
 - `native-c-s-static-edges.tsv`：878 条根原型 C→S 静态闭包。
 - `native-unknown-register-flow-calls.tsv`：1,488 条局部字段→CALL/TAILCALL。
 - `pack_index.tsv`：13,181 个原生 TRPAK 描述符包。
-- 研究脚本：[Join-ZA-Lua-Closure-Callers.py](../../../../scripts/Join-ZA-Lua-Closure-Callers.py)、[Audit-ZA-Lua-PackCoverage.py](../../../../scripts/Audit-ZA-Lua-PackCoverage.py)。
+- 研究脚本：[Join-ZA-Lua-Closure-Callers.py](../../../scripts/Join-ZA-Lua-Closure-Callers.py)、[Audit-ZA-Lua-PackCoverage.py](../../../scripts/Audit-ZA-Lua-PackCoverage.py)。
 
 ## 2. 闭包归属核对
 
