@@ -13,6 +13,16 @@ See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for com
 
 See [tools](../tools/README.md) and [ZA extraction workflow](../docs/workflows/za-trinity-extraction.md). Run Sync-ZA-Tools.ps1 to verify the six committed pinned source snapshots; Prepare-ZA-Trinity.ps1 to restore verified original files; Run-ZA-TrinityDump.ps1 to index/extract, and Convert-ZA-ExeFS.py for NSO-to-ELF.
 
+## ZA v2.0.2 原生 Lua 宿主 ELF 静态调查
+
+- `Probe-ZA-Lua-Host-ELF.py`：SHA-256 固定验证 `main/sdk/rtld.elf`，扫描 Lua/Trinity 资源路径、`_ENV`、`LUA_NOENV`、AArch64 `ADR/ADRP+ADD` 精确字符串引用及目标 Hash 原始字节模式。
+- `Trace-ZA-Lua-Host-Callsites.py`：对 `main.elf` 的关键字符串 xrefs 导出 ±20 条原生指令上下文与 `R_AARCH64_ABS64` 静态符号加数证据；不把邻近 BL 当已确认调用链。
+- `py -3 -m unittest discover -s tests -p test_za_lua_host_elf.py -v`
+- `py -3 -m unittest discover -s tests -p test_za_lua_host_callsites.py -v`
+- `py -3 scripts/Probe-ZA-Lua-Host-ELF.py`
+- `py -3 scripts/Trace-ZA-Lua-Host-Callsites.py --window 20`
+- CI：`.github/workflows/za-lua-host-elf.yml`；结果见 `docs/research/v2.0.2/za-lua-host-elf.md`。
+
 ## 原生 Upvalue 捕获链（ZA v2.0.2）
 
 - `Trace-ZA-Lua-Upvalue-Captures.py`：解析 Lua 5.4 `instack/idx/kind` 三字节 Upvalue 描述符，逐级对账 `CLOSURE Bx` 与父 Prototype；核对 926 条已确认原生静态 C 类键查找以及 7＋20 条缺乏直接闭包归属的 CALL。输出为小型 TSV/JSON。
