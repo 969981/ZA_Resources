@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "batchStartPack": 11000,
+  "batchEndPackExclusive": 11200,
+  "success": 396,
+  "failed": 0,
+  "bytesVerified": 38270088,
+  "largeFiles": 0,
+  "decoderExitCode": 0,
+  "report": "Unpack/v2.0.2/romfs/arc/data.trpfs/_index/batches/pack-011000-011199.jsonl",
+  "updatedUtc": "2026-11-05T16:55:33.533133+00:00",
+  "parallelWorkers": 4,
+  "workerMetrics": [
+    {
+      "workerId": 0,
+      "startPack": 11000,
+      "endPackExclusive": 11050,
+      "ok": 62,
+      "failed": 0,
+      "seconds": 10.453
+    },
+    {
+      "workerId": 1,
+      "startPack": 11050,
+      "endPackExclusive": 11100,
+      "ok": 53,
+      "failed": 0,
+      "seconds": 10.437
+    },
+    {
+      "workerId": 2,
+      "startPack": 11100,
+      "endPackExclusive": 11150,
+      "ok": 178,
+      "failed": 0,
+      "seconds": 10.515
+    },
+    {
+      "workerId": 3,
+      "startPack": 11150,
+      "endPackExclusive": 11200,
+      "ok": 103,
+      "failed": 0,
+      "seconds": 10.515
+    }
+  ],
+  "decodeSeconds": 12.594,
+  "validationAndArchiveSeconds": 0.89
+}
