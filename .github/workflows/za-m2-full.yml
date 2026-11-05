@@ -172,7 +172,7 @@ jobs:
           & dotnet $dll --romfs "$env:ZA_ROMFS_WORK" --output "$env:ZA_OUTPUT" --cache 'tools/HashCaches/ZA/GFPAKHashCache.bin' --dry-run
           if ($LASTEXITCODE -ne 0) { throw 'Native TRPFS filesystem index validation failed' }
 
-      - name: M2 extract verify archive oversized output and publish checkpoints
+      - name: Parallel M2 decode (isolated .NET processes), SHA-256 merge and checkpoint publishing
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'

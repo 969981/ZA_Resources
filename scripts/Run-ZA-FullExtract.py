@@ -117,6 +117,35 @@ def _git_output(repo: Path, *args: str, env=None, ok=(0,)) -> str:
     return result.stdout.strip()
 
 
+def _blob_ids(repo: Path, parent: str, desired: list[str]) -> dict[str,str]:
+    """One Git process for all path identities; avoids O(files) rev-parse calls.
+
+    Scan only the generated TRPFS subtree of parent. For tens of thousands
+    of small files this is much faster than one subprocess per resource.
+    Raw -z output preserves Unicode/whitespace filenames reliably.
+    """
+    p = subprocess.run(
+        ["git", "ls-tree", "-r", "-z", parent, "--", ROOT_REL.as_posix()],
+        cwd=repo, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+    if p.returncode != 0:
+        raise RuntimeError("git ls-tree failed: " + p.stderr.decode("utf-8", "replace")[-1000:])
+    target = set(desired)
+    found = {}
+    for line in p.stdout.split(b"\0"):
+        if not line:
+            continue
+        meta, sep, name = line.partition(b"\t")
+        if not sep:
+            raise RuntimeError("Unexpected Git tree record")
+        fields = meta.split(b" ")
+        if len(fields) != 3 or fields[1] != b"blob":
+            continue
+        path = name.decode("utf-8", "surrogateescape")
+        if path in target:
+            found[path] = fields[2].decode("ascii")
+    return {path: found.get(path, "") for path in desired}
+
+
 def git_commit_and_push(repo: Path, relative_paths: list[str], message: str, dry_run: bool):
     """Build a nonforced commit using a temporary Git index; never pull on a dirty worktree.
 
@@ -138,14 +167,13 @@ def git_commit_and_push(repo: Path, relative_paths: list[str], message: str, dry
     try:
         _git_output(repo, "fetch", "origin", "master")
         first_base = _git_output(repo, "rev-parse", "refs/remotes/origin/master")
-        for p in paths:
-            initial_oids[p] = _git_output(repo, "rev-parse", "--verify", f"{first_base}:{p}", ok=(0, 128))
-        for attempt in range(3):
+        initial_oids = _blob_ids(repo, first_base, paths)
+        for attempt in range(10):
             _git_output(repo, "fetch", "origin", "master")
             parent = _git_output(repo, "rev-parse", "refs/remotes/origin/master")
+            current_oids = _blob_ids(repo, parent, paths)
             for p in paths:
-                current_oid = _git_output(repo, "rev-parse", "--verify", f"{parent}:{p}", ok=(0, 128))
-                if current_oid != initial_oids[p]:
+                if current_oids[p] != initial_oids[p]:
                     raise RuntimeError(f"Concurrent modification of intended generated path: {p}")
                 source = repo / p
                 if not source.is_file():
@@ -174,7 +202,7 @@ def git_commit_and_push(repo: Path, relative_paths: list[str], message: str, dry
                 print(f"PUBLISHED native pack commit {commit}; parent={parent}", flush=True)
                 return
             print(f"Push race (attempt {attempt + 1}), checking upstream: {pushed.stderr[-500:]}", flush=True)
-        raise RuntimeError("Cannot publish checkpoint after three nonforced attempts")
+        raise RuntimeError("Cannot publish checkpoint after ten nonforced attempts")
     finally:
         paths_file.unlink(missing_ok=True)
 

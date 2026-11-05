@@ -110,3 +110,16 @@ python scripts/Run-ZA-FullExtract.py --repo . --workspace 'D:\ZA_Trinity_Workspa
 - **完成条件**：`full-extract-progress.json` 显示 `nextPack=13181`、`state=COMPLETE`，并且 `full-extract-audit.json` 的 `complete=true`、`failed=0`、`unseen=0`。若出现无法解码的文件、磁盘/平台配额错误或工作流被取消，则停止并保留最后检查点，不能称已全量完成。
 
 首次一键模式 Git 提交：`2507422704193508cc7b311cbbb523794687b822`。启动运行及继续执行情况以 [GitHub Actions](../../.github/workflows/za-m2-full.yml) 和当前 master 检查点为准。
+
+## 多进程加速（2026-11-05）
+
+**优化涉及两条独立瓶颈**：
+
+1. **Trinity/Oodle 解码**：`Run-ZA-FullExtract.py --parallel-workers 4`（默认四个进程，可设置 1..8）将一个连续的 Pack 窗口划成互不重叠的区间；各子进程有独立 `FileStream`、Oodle native runtime、虚拟输出目录、JSONL 和日志。聚合器验证每个 native Hash、原始 Pack 文件数、文件大小与 SHA-256，全部验收后才按原有路径合并。任何工作进程缺少 Hash、路径冲突或结果损坏均阻止进度完成。
+2. **Git 发布**：以前逐文件调用 `git rev-parse` 会产生大量 Git 子进程。现在每次远程 `master` 检查用一次 `git ls-tree -r -z` 批量收集相关 Blob SHA，使用隔离 Git Index 在最新 `master` 上构造非强制提交；远程并发更新时最多重试十次，但同一路径被他人修改则直接拒绝覆盖。
+
+入口是 `.github/workflows/za-m2-full.yml`；默认 **4 个独立 .NET 进程 × 200 Pack/批**，仍按窗口 SHA-256 验证、按原始版本完整审计，并继承上一次 `nextPack`。`parallel_workers=1` 是串行对照/排错模式。每批 JSON 汇总记录 `parallelWorkers`、`workerMetrics`、`decodeSeconds`、`validationAndArchiveSeconds`，可用真实运行结果判断 CPU、磁盘、Git 推送哪个占主要时间。
+
+这是进程并行，Python ThreadPoolExecutor 仅用来同时等待多个独立的 .NET 子进程，并未在线程间共享 Oodle 的运行时状态。较大 Pack 将产生更多临时磁盘读写，进程数量并非越高越快。建议从 4 个进程开始，用 CI 结果度量加速比，不宣称线性四倍提速。
+
+无游戏数据回归测试：`python -m unittest discover -s tests -p 'test_za_parallel.py' -v` 验证并发区间、原生记录对账、SHA-256、路径冲突；发布回归验证 Git 索引隔离、中文路径及批量 Blob 查询。

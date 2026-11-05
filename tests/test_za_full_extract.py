@@ -23,6 +23,28 @@ class ZAFullPipelineTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     mod.safe_output(root, name)
 
+    def test_git_bulk_blob_id_lookup_unicode_whitespace_and_missing(self):
+        with tempfile.TemporaryDirectory() as d:
+            repo=Path(d)
+            git(repo,"init")
+            git(repo,"config","user.name","ZA Tests")
+            git(repo,"config","user.email","tests@example.com")
+            virtual=repo/mod.ROOT_REL/"virtual"
+            virtual.mkdir(parents=True)
+            (virtual/"中文 名称.txt").write_text("alpha",encoding="utf-8")
+            (virtual/"second.bin").write_bytes(b"beta")
+            git(repo,"add",".")
+            git(repo,"commit","-m","native fixtures")
+            commit=git(repo,"rev-parse","HEAD")
+            paths=[(mod.ROOT_REL/"virtual/中文 名称.txt").as_posix(),
+                   (mod.ROOT_REL/"virtual/second.bin").as_posix(),
+                   (mod.ROOT_REL/"virtual/missing.bin").as_posix()]
+            values=mod._blob_ids(repo,commit,paths)
+            self.assertEqual(values[paths[0]],git(repo,"hash-object",paths[0]))
+            self.assertEqual(values[paths[1]],git(repo,"hash-object",paths[1]))
+            self.assertEqual(values[paths[2]],"")
+            self.assertEqual(list(values),paths)
+
     def test_publisher_does_not_rebase_dirty_worktree(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp = Path(tmp)
