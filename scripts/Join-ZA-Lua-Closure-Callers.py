@@ -99,6 +99,8 @@ def receiver_origin(inst, consts, field_pc, reg, branch_entries, max_window=16):
     def search(before, wanted, depth, seen):
         if depth > 6 or (before, wanted) in seen:
             return ("DEPTH_LIMIT", [], "")
+        if depth > 0 and before in branch_entries and before != 0:
+            return ("CONTROL_FLOW_BOUNDARY", [], "")
         seen = seen | {(before, wanted)}
         low = max(0, before - max_window)
         for pc in range(before - 1, low - 1, -1):
@@ -113,7 +115,7 @@ def receiver_origin(inst, consts, field_pc, reg, branch_entries, max_window=16):
             mark = f"{pc}:{op}(R{a},R{b},R{c},k{k})"
             if op == "MOVE":
                 status, steps, literal = search(pc, b, depth+1, seen)
-                return ("MOVE_FROM_" + status, [mark] + steps, literal)
+                return ((status if status in ("CONTROL_FLOW_BOUNDARY", "UNKNOWN_OPCODE_BARRIER") else "MOVE_FROM_" + status), [mark] + steps, literal)
             if op == "GETUPVAL":
                 return ("DIRECT_UPVALUE_SLOT", [mark], "")
             if op == "GETTABUP":
@@ -122,17 +124,17 @@ def receiver_origin(inst, consts, field_pc, reg, branch_entries, max_window=16):
             if op == "GETFIELD":
                 literal = token_string(consts[c]) if c < len(consts) else ""
                 status, steps, key = search(pc, b, depth+1, seen)
-                return ("FIELD_OF_" + status, [mark] + steps,
+                return ((status if status in ("CONTROL_FLOW_BOUNDARY", "UNKNOWN_OPCODE_BARRIER") else "FIELD_OF_" + status), [mark] + steps,
                         literal if CLASS_KEY.fullmatch(literal) else key)
             if op == "GETTABLE":
                 # The key itself may be in a different register, so no class
                 # identity is inferred from it by this conservative pass.
                 status, steps, key = search(pc, b, depth+1, seen)
-                return ("TABLE_VALUE_FROM_" + status, [mark] + steps, key)
+                return ((status if status in ("CONTROL_FLOW_BOUNDARY", "UNKNOWN_OPCODE_BARRIER") else "TABLE_VALUE_FROM_" + status), [mark] + steps, key)
             if op == "SELF":
                 if wanted == a + 1:
                     status, steps, key = search(pc, b, depth+1, seen)
-                    return ("SELF_RECEIVER_COPY_OF_" + status, [mark] + steps, key)
+                    return ((status if status in ("CONTROL_FLOW_BOUNDARY", "UNKNOWN_OPCODE_BARRIER") else "SELF_RECEIVER_COPY_OF_" + status), [mark] + steps, key)
                 return ("PRIOR_SELF_FUNCTION_RESULT", [mark], "")
             if op == "LOADK":
                 literal = token_string(consts[bx]) if bx < len(consts) else ""
