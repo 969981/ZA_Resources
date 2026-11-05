@@ -1,0 +1,30 @@
+include "math.fbs";
+
+namespace Hayabusa.Model;
+
+file_extension "trmdl";
+
+table FileReference {
+    filename: string;
+}
+
+table LODIndex {
+    index: uint32;
+}
+
+table LOD {
+    entries: [LODIndex];
+    type: string;
+}
+
+table TRMDL {
+    unk0: uint32;
+    meshes: [FileReference];
+    skeleton: FileReference;
+    materials: [string];
+    lods: [LOD];
+    bounds: AABB;
+    sperical_bounds: Sphere;
+}
+
+root_type TRMDL;

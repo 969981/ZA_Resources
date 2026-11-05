@@ -1,0 +1,91 @@
+include "math.fbs";
+
+namespace Hayabusa.Model;
+
+file_extension "trmsh";
+
+enum Attribute : uint32 {
+    NONE = 0,
+    POSITION,
+    NORMAL,
+    TANGENT,
+    BINORMAL,
+    COLOR,
+    TEXCOORD,
+    BLEND_INDICES,
+    BLEND_WEIGHTS,
+}
+
+enum InputLayoutFormat: uint32 {
+    NONE = 0,
+    RGBA_8_UNORM = 20,
+    RGBA_8_UNSIGNED = 22,
+    R_32_UINT = 36,
+    R_32_INT = 37,
+    RGBA_16_UNORM = 39,
+    RGBA_16_FLOAT = 43,
+    RG_32_FLOAT = 48,
+    RGB_32_FLOAT = 51,
+    RGBA_32_FLOAT = 54,
+}
+
+enum IndexLayoutFormat: uint32 {
+    UINT8 = 0, // Unconfirmed
+    UINT16,
+    UINT32, // Unconfirmed
+    UINT64, // Unconfirmed
+}
+
+table BoneWeight {
+    rig_index: uint32;
+    weight: float;
+}
+
+table InputLayoutElement {
+    slot: int32 = -1; // Possibly input slot? Always zero on all pokemon models, but zero is not the default!
+    semantic_name: Attribute;
+    semantic_index: uint32;
+    format: InputLayoutFormat;
+    offset: uint32;
+}
+
+table VertexSize {
+    size: uint32;
+}
+
+table VertexAttributeLayout {
+    elements: [InputLayoutElement];
+    layout_size: [VertexSize];
+}
+
+table SubMesh {
+    index_count: uint32;
+    index_offset: uint32;
+    unk3: uint32; // Always zero
+    material: string;
+    unk4: int32 = -1; // 0 or default value (-1?)
+}
+
+table MeshShape {
+    mesh_shape_name: string;
+    bounds: AABB;
+    index_layout_format: IndexLayoutFormat;
+    vertex_layout: [VertexAttributeLayout];
+    sub_meshes: [SubMesh];
+    res0: uint32 = 0; //Always default value
+    res1: uint32 = 0; //Always default value
+    res2: uint32 = 0; //Always default value
+    res3: uint32 = 0; //Always default value
+    spherical_bounds: Sphere;
+    bone_weights: [BoneWeight];
+    mesh_unk7: string; // Always empty on all pokemon models
+    mesh_name: string;
+}
+
+table TRMSH {
+    unk0: uint32;
+    shapes: [MeshShape];
+    buffer_file_name: string;
+}
+
+root_type TRMSH;
