@@ -10,6 +10,7 @@ Pokemon Legends: Z-A executable, archive-inventory and resource-format research 
 - [Scripts](scripts/README.md)
 - [Pinned ZA tools](tools/README.md)
 - [Trinity/ELF extraction](docs/workflows/za-trinity-extraction.md)
+- [ExeFS real extraction (ELF, NSO, NPDM)](docs/workflows/za-exefs-v2.0.2.md)
 - [Research notes](docs/research/v2.0.2/README.md)
 - [Agent instructions](AGENTS.md)
 
