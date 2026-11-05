@@ -1,0 +1,25 @@
+{
+  "status": "CONFIRMED_ORIGINAL_BYTES",
+  "version": "v2.0.2",
+  "originals": [
+    {
+      "path": "arc/data.trpfd",
+      "sizeBytes": 9877520,
+      "sha256": "d1beb3763deab33691c5930e026006278f4586dac094f8d0ea2494ecb6f851f8"
+    },
+    {
+      "path": "arc/data.trpfs",
+      "sizeBytes": 4753821072,
+      "sha256": "64169ef62030dd8e39bb884aff885fd51e7c0758c595c64c4b3fb7b6dad9683d",
+      "archiveVolumes": 87,
+      "archiveTotalBytes": 4099730369
+    }
+  ],
+  "validation": [
+    "all 87 volume sizes and SHA-256",
+    "7z t archive test",
+    "restored TRPFD original SHA-256",
+    "restored TRPFS original SHA-256"
+  ],
+  "caution": "Verified archive restoration does not alone establish virtual file extraction."
+}

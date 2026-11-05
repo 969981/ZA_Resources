@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_WINDOW",
+  "batchLogEntries": 2,
+  "uniqueHashEntries": 2,
+  "verifiedExtractedFileCount": 2,
+  "verifiedExtractedBytes": 122072,
+  "failedFileCount": 0,
+  "failureGroups": {},
+  "sourceType": "native TRPFD + original TRPFS archive",
+  "completenessClaim": "Window only; compare against descriptorFiles=238546 and packCount=13181 before claiming full extraction.",
+  "sha256Verification": "Full byte-by-byte rehash of every successful output",
+  "descriptorIndex": 238546
+}
