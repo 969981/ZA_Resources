@@ -7,3 +7,8 @@ Starting points:
 - Runtime/game-data analysis: separate verified research notes.
 
 No internal Trinity field maps have been independently validated in this document yet. Use [the note template](TECHNICAL_NOTE_TEMPLATE.md) for new discoveries.
+
+## Lua 5.4 原生逆向
+
+- [TRPFD 索引中四个 Lua Pack 的原始位置](za-lua-native-targets.md)
+- [已真实解出的 4 份 Lua 5.4、9,222 个 Proto、2,140 条未知 Hash 原生指令引用](za-lua-native-opcode-evidence.md) — 不把原生 Hash 引用误写成恢复原始名称。

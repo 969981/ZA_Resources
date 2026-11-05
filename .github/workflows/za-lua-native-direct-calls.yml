@@ -1,0 +1,65 @@
+name: ZA native Lua field-read to adjacent CALL evidence
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-native-lua-direct-calls
+  cancel-in-progress: false
+
+jobs:
+  direct-calls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Analyze-ZA-Lua-DirectCalls.py
+            /scripts/_vendor/Analyze-SV-Lua54.py
+            /tests/test_za_lua_direct_calls.py
+            /tools/PokeDocs-Supplement/ZA/Hashlists/Lua/unresolved-symbol-index.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release/**
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify adjacent call patterns on synthetic Lua 5.4 fixtures
+        run: python -m unittest discover -s tests -p test_za_lua_direct_calls.py -v
+
+      - name: Derive adjacent native field-read and CALL edges
+        run: python scripts/Analyze-ZA-Lua-DirectCalls.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZA-native-Lua-direct-call-evidence
+          path: |
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-direct-call-edges.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-direct-call-summary.json
+          retention-days: 30
+
+      - name: Commit verified native direct call derived evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-direct-call-edges.tsv Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-direct-call-summary.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'analysis(za): trace original Lua field-read-to-CALL opcode pairs'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master

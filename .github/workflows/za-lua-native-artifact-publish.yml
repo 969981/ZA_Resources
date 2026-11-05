@@ -1,0 +1,74 @@
+name: ZA publish verified 4 native Lua scripts from existing artifact
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/za-lua-native-artifact-publish.yml'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: za-native-lua-artifact-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout only provenance and publisher (no 87-volume restore)
+        uses: actions/checkout@v4
+        with:
+          path: code
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Publish-ZA-LuaArtifact.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/trpfs-restore.json
+
+      - name: Download verified four-pack native Lua evidence from original run
+        uses: actions/download-artifact@v4
+        with:
+          name: ZA-native-Lua-four-targets
+          run-id: 42011668436
+          github-token: ${{ github.token }}
+          path: extraction-artifact
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compare all native bytes and proof with pinned successful artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          python code/scripts/Publish-ZA-LuaArtifact.py --repo code --artifact extraction-artifact --verify-only
+          python code/scripts/Publish-ZA-LuaArtifact.py --repo code --artifact extraction-artifact
+
+      - name: Commit only verified Lua files and evidence from a clean Git worktree
+        working-directory: code
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native
+          if git diff --cached --quiet; then
+            echo 'Native files and evidence already match master'
+            exit 0
+          fi
+          git commit -m 'data(za): publish four original Lua 5.4 bytecode files and verified opcode references'
+          if ! git diff --quiet; then
+            echo 'Unexpected tracked changes after staging; aborting rebase'
+            git status --short
+            exit 1
+          fi
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master

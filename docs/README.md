@@ -14,3 +14,5 @@ These Markdown pages can be opened directly in Obsidian. Use normal relative lin
 - [2.0.2 research](research/v2.0.2/README.md)
 
 Keep each observation linked to the source file version, offset, sample size, hash and reproduction command. Distinguish confirmed findings from candidates.
+
+- [ZA 2.0.2 原生 Lua 四包提取和 Hash opcode 证据](research/v2.0.2/za-lua-native-opcode-evidence.md)
