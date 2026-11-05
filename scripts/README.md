@@ -1,5 +1,6 @@
 # Local processing tools
 
+- `Export-PokemonZAInventory.ps1`: original v2.0.2 external-file scanner; produces one CSV (SHA-256 and optional SHA-1). Does not unpack Trinity containers.
 - `Archive-ZAResources.ps1`: import a local RomFS tree, split files larger than the configured threshold with 7z and generate a manifest.
 - `Verify-ZAArchives.ps1`: verify artifact sizes, hashes and archive integrity; optional full restore/hash.
 - `Restore-ZAResources.ps1`: reconstruct original RomFS relative paths and verify source SHA-256.
