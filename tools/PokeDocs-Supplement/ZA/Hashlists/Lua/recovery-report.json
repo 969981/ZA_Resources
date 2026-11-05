@@ -1,0 +1,43 @@
+{
+  "source": "tools/PokeDocs/ZA/Hashlists/Lua",
+  "source_is_modified": false,
+  "algorithm": "FNV-1a-64; offset_basis=0xCBF29CE484222645; prime=0x100000001B3",
+  "status": "HASH_EXACT_CANDIDATE",
+  "summary": {
+    "original_total": 2303,
+    "original_known": 1530,
+    "original_unknown": 773,
+    "recovered": 578,
+    "still_unknown": 195
+  },
+  "kinds": {
+    "c": {
+      "known": 1202,
+      "unknown": 0,
+      "recovered": 0,
+      "still_unknown": 0,
+      "source_git_blob_sha": "d4c7cf3d8a69fc2a2e780f9e5662ddb3a95b95ad"
+    },
+    "e": {
+      "known": 0,
+      "unknown": 3,
+      "recovered": 0,
+      "still_unknown": 3,
+      "source_git_blob_sha": "616a23c78d9fac11127a0c80030db4e03a3689e6"
+    },
+    "f": {
+      "known": 127,
+      "unknown": 138,
+      "recovered": 63,
+      "still_unknown": 75,
+      "source_git_blob_sha": "9308caec2da0fc9207e77d69401ebcb99aaf5348"
+    },
+    "s": {
+      "known": 201,
+      "unknown": 632,
+      "recovered": 515,
+      "still_unknown": 117,
+      "source_git_blob_sha": "a627d6140b8af3cb68cac8a97b2efcd4714d6251"
+    }
+  }
+}
