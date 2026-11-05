@@ -15,3 +15,4 @@ No internal Trinity field maps have been independently validated in this documen
 - [原生寄存器追踪：1,488 条局部字段→CALL、其中新增 922 条](za-lua-register-flow.md) — 经 4 份 SHA-256 验证的字节码执行，原始名字仍未确认。
 - [原生闭包归属：1,461 直接＋7 词法嵌套，926 条五类静态 C Hash 查找](za-lua-closure-callers.md) — 严格区分 caller class 与 runtime receiver，另 5 条 S 缺失于四份原生常量池。
 - [原生 Upvalue 描述符和 CLOSURE 创建链：926 条全部追到根 Chunk 外部 Upvalue](za-lua-upvalue-captures.md) — 512 Proto，保留 7＋20 条闭包异常证据，运行时绑定仍未知。
+- [原生 ELF Lua 宿主定位：_ENV、LUA_NOENV、Lua 路径及 AArch64 xrefs](za-lua-host-elf.md) — 验证三份 ELF、13 个高信号地址引用，根 P0.U0 的运行时绑定仍未知。
