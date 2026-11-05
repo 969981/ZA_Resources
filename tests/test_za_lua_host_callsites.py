@@ -47,6 +47,23 @@ class HostCallsTests(unittest.TestCase):
         self.assertEqual(entries[0][4],"ELF_QWORD_RAW_LITERAL")
         self.assertEqual(entries[0][-1],"NATIVE_ELF_POINTER_BYTES_ONLY")
 
+    def test_abs64_relocation_resolves_local_symbol_plus_addend(self):
+        blob=bytearray(fixture.fixture_elf())
+        # Relocation writes a data pointer at VA 0x4000 to .rodata VA 0x3000
+        # using local defined symbol value 0x2000 + addend 0x1000.
+        struct.pack_into("<QQq",blob,0x320,0x4000,(1<<32)|257,0x1000)
+        struct.pack_into("<IBBHQQ",blob,0x330+24,0,0,0,2,0x2000,0)
+        elf=probe.ELF64(bytes(blob))
+        elf.sections.append({"stype":2,"entsize":24,"size":48,"off":0x330,
+                             "name":".symtab","flags":0,"addr":0,"link":0})
+        elf.sections.append({"stype":4,"entsize":24,"size":24,"off":0x320,
+                             "name":".rela.test","flags":0,"addr":0,"link":4})
+        matches,types=tracer.pointer_and_relocations(elf,{"main_dynamic.blua":0x3000})
+        self.assertEqual(types,{257:1})
+        self.assertEqual(len(matches),1)
+        self.assertEqual(matches[0][4],"ELF_R_AARCH64_ABS64_SYMBOL_PLUS_ADDEND")
+        self.assertEqual(matches[0][3],"0x3000")
+
     def test_empty_pointer_and_relocation_never_crash(self):
         elf=probe.ELF64(fixture.fixture_elf())
         pointers,rela=tracer.pointer_and_relocations(elf,{"_ENV":0x31F263F})
