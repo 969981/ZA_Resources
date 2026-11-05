@@ -1,0 +1,157 @@
+name: ZA v2.0.2 TRPFS verified restore and native smoke unpack
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/za-trpfs-unpack.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-trpfs-smoke
+  cancel-in-progress: true
+
+jobs:
+  trpfs-native:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout parser and manifest only
+        uses: actions/checkout@v4
+        with:
+          path: code
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/**
+            /tests/**
+            /tools/ZA.TrinityDump/**
+            /tools/gftool/**
+            /tools/HashCaches/ZA/**
+            /manifests/v2.0.2/transfer_manifest.json
+      - name: Checkout the 87 original TRPFS volumes into an isolated source directory
+        uses: actions/checkout@v4
+        with:
+          path: source
+          filter: blob:none
+          sparse-checkout: |
+            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc
+      - name: Configure Python and .NET
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - name: Verify local tools and synthetic integrity tests
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          python -m unittest discover -s "$code/tests" -p 'test_za_trinity_*.py' -v
+          $sz = 'C:\Program Files\7-Zip\7z.exe'
+          if (-not (Test-Path -LiteralPath $sz)) {
+            $sz = (Get-Command 7z -ErrorAction SilentlyContinue).Source
+          }
+          if (-not $sz -or -not (Test-Path -LiteralPath $sz)) {
+            choco install 7zip -y --no-progress
+            $sz = 'C:\Program Files\7-Zip\7z.exe'
+          }
+          if (-not (Test-Path -LiteralPath $sz)) { throw '7z executable missing' }
+          "SEVENZIP=$sz" >> $env:GITHUB_ENV
+          $d = Get-PSDrive -Name ([IO.Path]::GetPathRoot($env:GITHUB_WORKSPACE).Substring(0,1))
+          Write-Host "Checkout free disk bytes $($d.Free)"
+      - name: Free only duplicated Git object pack (preserve original volumes)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $pack = Join-Path $env:GITHUB_WORKSPACE 'source\.git\objects\pack'
+          if (Test-Path -LiteralPath $pack) {
+            Get-ChildItem -LiteralPath $pack -File | Select-Object Name,Length
+            Remove-Item -LiteralPath $pack -Recurse -Force
+          }
+          Write-Host 'Original source worktree remains intact; only redundant git object pack removed'
+      - name: Reassemble and verify BOTH original Trinity files
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $arc = Join-Path $env:GITHUB_WORKSPACE 'source\v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1\arc'
+          $work = Join-Path $env:RUNNER_TEMP 'ZA_Trinity_Workspace'
+          $out = Join-Path $code 'Unpack\v2.0.2\romfs\arc\data.trpfs'
+          New-Item -ItemType Directory -Path $work -Force | Out-Null
+          "ZA_ROMFS_WORK=$work" >> $env:GITHUB_ENV
+          "ZA_VIRTUAL_OUTPUT=$out" >> $env:GITHUB_ENV
+          python -u "$code/scripts/Restore-ZA-TrinityDirect.py" --manifest "$code/manifests/v2.0.2/transfer_manifest.json" --archive-root "$arc" --workspace "$work" --sevenzip "$env:SEVENZIP" --evidence "$out/_index/trpfs-restore.json"
+          if ($LASTEXITCODE -ne 0) { throw 'TRPFS original source verification failed' }
+          $source = Join-Path $env:GITHUB_WORKSPACE 'source'
+          Remove-Item -LiteralPath $source -Recurse -Force
+          Write-Host 'Removed temporary archive volume checkout after verifying restored originals; code checkout is preserved'
+      - name: Build native parser and verify TRPFD/TRPFS filesystem
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          dotnet build "$code/tools/ZA.TrinityDump/ZA.TrinityDump.csproj" -c Release
+          if ($LASTEXITCODE -ne 0) { throw 'Native parser build failed' }
+          $dll = Join-Path $code 'tools\ZA.TrinityDump\bin\Release\net8.0\ZA.TrinityDump.dll'
+          $cache = Join-Path $code 'tools\HashCaches\ZA\GFPAKHashCache.bin'
+          & dotnet $dll --romfs "$env:ZA_ROMFS_WORK" --output "$env:ZA_VIRTUAL_OUTPUT" --cache "$cache" --descriptor-only
+          if ($LASTEXITCODE -ne 0) { throw 'Native TRPFD index failed' }
+          & dotnet $dll --romfs "$env:ZA_ROMFS_WORK" --output "$env:ZA_VIRTUAL_OUTPUT" --cache "$cache" --dry-run
+          if ($LASTEXITCODE -ne 0) { throw 'Native TRPFS header validation failed' }
+      - name: Decode actual virtual files with local-only Oodle library
+        id: extract
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $dll = Join-Path $code 'tools\ZA.TrinityDump\bin\Release\net8.0\ZA.TrinityDump.dll'
+          $cache = Join-Path $code 'tools\HashCaches\ZA\GFPAKHashCache.bin'
+          $oodle = Join-Path $code 'scripts\deps\oo2core_8_win64.dll'
+          if (-not (Test-Path -LiteralPath $oodle)) { throw 'Oodle runtime not present in source repo' }
+          & dotnet $dll --romfs "$env:ZA_ROMFS_WORK" --output "$env:ZA_VIRTUAL_OUTPUT" --cache "$cache" --oodle "$oodle" --max-packs 2 --max-files 120
+          $exitCode = $LASTEXITCODE
+          "EXTRACTION_EXIT_CODE=$exitCode" >> $env:GITHUB_ENV
+          Write-Host "Native bounded export returned $exitCode (per-file errors are stored in export.jsonl)"
+      - name: Verify extracted file bytes and write exact failure counts
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          python "$code/scripts/Summarize-ZA-Trinity.py" --output "$env:ZA_VIRTUAL_OUTPUT" --descriptor-summary "$env:ZA_VIRTUAL_OUTPUT/_index/descriptor_summary.json"
+          if ($LASTEXITCODE -ne 0) { throw 'Extraction hash verification failed' }
+      - name: Upload extracted virtual files and full evidence for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-Trinity-native-first-two-packs
+          path: code/Unpack/v2.0.2/romfs/arc/data.trpfs/**
+          retention-days: 14
+          if-no-files-found: error
+          compression-level: 1
+      - name: Commit ONLY verified generated files and index
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          Set-Location -LiteralPath $code
+          $files = @(Get-ChildItem -LiteralPath "$env:ZA_VIRTUAL_OUTPUT" -File -Recurse)
+          foreach ($f in $files) {
+            if ($f.Length -ge 100000000) { throw "Refusing GitHub oversize file: $($f.FullName)" }
+          }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --rebase origin master
+          if ($LASTEXITCODE -ne 0) { throw 'Could not fast-forward result checkout' }
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs
+          if ($LASTEXITCODE -ne 0) { throw 'Staging generated files failed' }
+          git diff --cached --stat
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Host 'All generated files already committed'; exit 0 }
+          git commit -m "data(za): verified TRPFS restore and native first-pack extraction"
+          if ($LASTEXITCODE -ne 0) { throw 'Commit failed' }
+          git push origin HEAD:master
+          if ($LASTEXITCODE -ne 0) { throw 'Push failed' }
