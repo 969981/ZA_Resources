@@ -1,0 +1,11 @@
+target_string	string_virtual_addr_hex	string_file_offset_hex	string_region	native_adr_xref_pcs	adr_xref_count	literal_pointer_data_sites	relative_relocation_data_sites	native_callsite_binding_confirmed
+.blua	0x32D7D84	0x32D873C	.rodata		0	0	0	NO
+LUA_CPATH	0x321E011	0x321E9C9	.rodata	0x17CD454	1	0	0	NO
+LUA_NOENV	0x31A540F	0x31A5DC7	.rodata	0x17CD58C	1	0	0	NO
+LUA_PATH	0x326AB1C	0x326B4D4	.rodata	0x17CD434	1	0	0	NO
+TrinityHeapType::Lua	0x31BBCE5	0x31BC69D	.rodata	0x1B2430C,0x1B244D0,0x1B24610	3	0	0	NO
+_ENV	0x31F263F	0x31F2FF7	.rodata	0x17AD604,0x17AD6B8,0x17B9920,0x17B9F94	4	0	0	NO
+arc/data.trpfs	0x326AE1B	0x326B7D3	.rodata	0x1A809F0	1	0	0	NO
+data:/arc/data.trpfd	0x32EE619	0x32EEFD1	.rodata	0x1A80A24	1	0	0	NO
+lua_helper	0x32B6EDE	0x32B7896	.rodata	0x118ACDC	1	0	0	NO
+script/lua/bin/release/	0x31B7C6E	0x31B8626	.rodata		0	0	0	NO

@@ -1,0 +1,104 @@
+{
+  "game": "Pokemon Legends Z-A",
+  "version": "v2.0.2",
+  "main_elf_sha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+  "input_locator_sha256": "ba1d8e327ea6a861126a2ad3df4430e066a6cd0b9aaff7b027c23756c77c64ab",
+  "input_xref_sha256": "a37ce09c8098468b8e464a141ec864fa4b3a1d39d0a769a662af627ba76f3662",
+  "target_strings": 10,
+  "target_string_names": [
+    ".blua",
+    "LUA_CPATH",
+    "LUA_NOENV",
+    "LUA_PATH",
+    "TrinityHeapType::Lua",
+    "_ENV",
+    "arc/data.trpfs",
+    "data:/arc/data.trpfd",
+    "lua_helper",
+    "script/lua/bin/release/"
+  ],
+  "exact_adr_references_for_targets": 13,
+  "bounded_context_instructions": 533,
+  "literal_and_relocation_pointer_sites": 0,
+  "rela_types_in_elf": {
+    "257": 3323,
+    "1025": 55,
+    "1026": 919
+  },
+  "per_target": {
+    ".blua": {
+      "str_va": "0x32D7D84",
+      "exact_adr_ref_pcs": "",
+      "adr_ref_count": 0,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "LUA_CPATH": {
+      "str_va": "0x321E011",
+      "exact_adr_ref_pcs": "0x17CD454",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "LUA_NOENV": {
+      "str_va": "0x31A540F",
+      "exact_adr_ref_pcs": "0x17CD58C",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "LUA_PATH": {
+      "str_va": "0x326AB1C",
+      "exact_adr_ref_pcs": "0x17CD434",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "TrinityHeapType::Lua": {
+      "str_va": "0x31BBCE5",
+      "exact_adr_ref_pcs": "0x1B2430C,0x1B244D0,0x1B24610",
+      "adr_ref_count": 3,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "_ENV": {
+      "str_va": "0x31F263F",
+      "exact_adr_ref_pcs": "0x17AD604,0x17AD6B8,0x17B9920,0x17B9F94",
+      "adr_ref_count": 4,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "arc/data.trpfs": {
+      "str_va": "0x326AE1B",
+      "exact_adr_ref_pcs": "0x1A809F0",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "data:/arc/data.trpfd": {
+      "str_va": "0x32EE619",
+      "exact_adr_ref_pcs": "0x1A80A24",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "lua_helper": {
+      "str_va": "0x32B6EDE",
+      "exact_adr_ref_pcs": "0x118ACDC",
+      "adr_ref_count": 1,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    },
+    "script/lua/bin/release/": {
+      "str_va": "0x31B7C6E",
+      "exact_adr_ref_pcs": "",
+      "adr_ref_count": 0,
+      "raw_qword_pointer_count": 0,
+      "relative_relocation_pointer_count": 0
+    }
+  },
+  "lua_chunk_loader_call_graph_confirmed": false,
+  "root_chunk_upvalue_runtime_value_confirmed": false,
+  "original_names_recovered": 0,
+  "warning": "Only exact static addresses and bounded instruction words. Nearby BL/BLR, pointer literals, and RELA entries are investigation leads, never runtime loader/VM proof."
+}

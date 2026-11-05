@@ -1,0 +1,63 @@
+{
+  "game": "Pokemon Legends Z-A",
+  "version": "v2.0.2",
+  "manifest_sha256": "60cce986b29f0867ca270b5a724431aa243902c70738296fa47b55c95ea01dae",
+  "modules": {
+    "main": {
+      "sha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+      "elf_bytes": 66579944,
+      "machine": "ELF64_LE_AARCH64",
+      "load_segments": 3,
+      "sections": 33,
+      "executable_regions": 4,
+      "string_regions": 6,
+      "matching_lua_loader_related_strings": 90,
+      "reported_string_records": 90,
+      "string_list_truncated": false,
+      "exact_adr_or_adrp_add_xrefs": 112,
+      "matching_named_symbols": 0,
+      "symbol_examples": [],
+      "exact_missing_s_or_ik_c_hash_byte_occurrences": 0
+    },
+    "sdk": {
+      "sha256": "de3398fd37a44fa5bd0676ff0593543c0c95930f36a9f79c72df2373f596a90f",
+      "elf_bytes": 12120392,
+      "machine": "ELF64_LE_AARCH64",
+      "load_segments": 3,
+      "sections": 33,
+      "executable_regions": 3,
+      "string_regions": 6,
+      "matching_lua_loader_related_strings": 0,
+      "reported_string_records": 0,
+      "string_list_truncated": false,
+      "exact_adr_or_adrp_add_xrefs": 0,
+      "matching_named_symbols": 0,
+      "symbol_examples": [],
+      "exact_missing_s_or_ik_c_hash_byte_occurrences": 0
+    },
+    "rtld": {
+      "sha256": "ed25dab00bb23dfb1eafe5085bd915c44b8ea7bfecf888526507cf9dde7ea710",
+      "elf_bytes": 17792,
+      "machine": "ELF64_LE_AARCH64",
+      "load_segments": 3,
+      "sections": 19,
+      "executable_regions": 3,
+      "string_regions": 6,
+      "matching_lua_loader_related_strings": 0,
+      "reported_string_records": 0,
+      "string_list_truncated": false,
+      "exact_adr_or_adrp_add_xrefs": 0,
+      "matching_named_symbols": 0,
+      "symbol_examples": [],
+      "exact_missing_s_or_ik_c_hash_byte_occurrences": 0
+    }
+  },
+  "total_candidate_strings": 90,
+  "total_exact_string_address_references": 112,
+  "total_exact_hash_byte_matches": 0,
+  "host_lua_loader_confirmed": false,
+  "lua_root_upvalue_runtime_binding_confirmed": false,
+  "ik_script_command_runtime_value_confirmed": false,
+  "original_hash_names_recovered": 0,
+  "warning": "All ELF observations are offline bytes/string/symbol/PC references only. A string address xref is not a function callsite or a runtime environment binding. Missing byte patterns do not prove absent logic."
+}
