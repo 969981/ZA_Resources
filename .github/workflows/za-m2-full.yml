@@ -1,4 +1,4 @@
-name: ZA M2 FULL - all 13181 native Trinity packs
+name: ZA M2 ONE-CLICK FULL - all 13181 native Trinity packs
 
 on:
   push:
@@ -13,15 +13,22 @@ on:
         type: string
         default: "0"
       batch_packs:
-        description: "Native packs per verified Git commit (1..200)"
+        description: "Packs per verified commit (full mode minimum 100, max 200)"
         required: true
         type: string
-        default: "50"
+        default: "100"
       max_batches:
-        description: "Max committed pack batches in this Windows run"
+        description: "Max committed batches per run (full mode automatically uses 100)"
         required: true
         type: string
-        default: "10"
+        default: "100"
+
+    # The auto-continuation flag is true by default for both push and workflow_dispatch.
+      full_run:
+        description: "Automatically continue from verified checkpoint until final 13181-pack audit"
+        required: true
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -39,7 +46,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       START_PACK: ${{ github.event.inputs.start_pack || '0' }}
       BATCH_PACKS: ${{ github.event.inputs.batch_packs || '50' }}
-      MAX_BATCHES: ${{ github.event.inputs.max_batches || '10' }}
+      MAX_BATCHES: ${{ github.event.inputs.max_batches || '100' }}
+      FULL_RUN: ${{ github.event.inputs.full_run || 'true' }}
     steps:
       - name: Disk and window preflight
         shell: pwsh
@@ -159,7 +167,11 @@ jobs:
         run: |
           $ErrorActionPreference = 'Stop'
           Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
-          python -u scripts/Run-ZA-FullExtract.py --repo . --workspace "$env:ZA_ROMFS_WORK" --start-pack $env:START_PACK --batch-packs $env:BATCH_PACKS --max-batches $env:MAX_BATCHES --time-budget-minutes 205 --seven-zip "$env:SEVENZIP"
+          # Auto-full mode upgrades legacy 50-pack/10-window dispatch inputs.
+          $packs = if ($env:FULL_RUN -eq 'true') { [Math]::Max(100,[int]$env:BATCH_PACKS) } else { [int]$env:BATCH_PACKS }
+          $windows = if ($env:FULL_RUN -eq 'true') { 100 } else { [int]$env:MAX_BATCHES }
+          Write-Host "ZA one-click full goal: 13181 packs; this runner has $windows windows x $packs packs"
+          python -u scripts/Run-ZA-FullExtract.py --repo . --workspace "$env:ZA_ROMFS_WORK" --start-pack $env:START_PACK --batch-packs $packs --max-batches $windows --time-budget-minutes 205 --seven-zip "$env:SEVENZIP"
           if ($LASTEXITCODE -ne 0) { throw "ZA M2 full extraction stopped at checkpoint; exit=$LASTEXITCODE" }
 
       - name: Upload checkpoint and batch evidence
@@ -184,9 +196,14 @@ jobs:
           Write-Host "ZA native packs: $($p.nextPack)/$($p.totalPacks) state=$($p.state)"
           if ($p.nextPack -lt $p.totalPacks) {
             if ($p.state -ne 'PARTIAL') { throw "Cannot dispatch after non-partial state $($p.state)" }
-            gh workflow run za-m2-full.yml --repo 969981/ZA_Resources --ref master -f "start_pack=$($p.nextPack)" -f "batch_packs=$env:BATCH_PACKS" -f "max_batches=$env:MAX_BATCHES"
-            if ($LASTEXITCODE -ne 0) { throw 'Failed to dispatch next M2 window; checkpoint remains durable in master' }
-            Write-Host "Queued next pack cursor $($p.nextPack)"
+            if ($env:FULL_RUN -eq 'true') {
+              gh workflow run za-m2-full.yml --repo 969981/ZA_Resources --ref master -f "start_pack=$($p.nextPack)" -f "batch_packs=100" -f "max_batches=100" -f "full_run=true"
+              if ($LASTEXITCODE -ne 0) { throw 'Auto-resume dispatch failed; verified checkpoint remains in master' }
+              Write-Host "Full unpack continues automatically from Pack $($p.nextPack)"
+            }
+            else {
+              Write-Host "Bounded mode: no auto-dispatch; full_run=false"
+            }
           }
           elseif ($p.state -eq 'COMPLETE') {
             Write-Host 'All 13,181 packs audited against 238,546 original records without unresolved failures'
