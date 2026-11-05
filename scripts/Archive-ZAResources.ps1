@@ -66,7 +66,8 @@ $destRoot = Join-Path $repoRoot (Join-Path $Version (Join-Path $NcaDirectory '1'
 $destFull = [System.IO.Path]::GetFullPath($destRoot)
 $sourcePrefix = $sourceRoot + [System.IO.Path]::DirectorySeparatorChar
 if ($destFull.Equals($sourceRoot, [StringComparison]::OrdinalIgnoreCase) -or
-    $destFull.StartsWith($sourcePrefix, [StringComparison]::OrdinalIgnoreCase)) {
+    $destFull.StartsWith($sourcePrefix, [StringComparison]::OrdinalIgnoreCase) -or
+    $sourceRoot.StartsWith(($destFull + [System.IO.Path]::DirectorySeparatorChar), [StringComparison]::OrdinalIgnoreCase)) {
     throw 'SourceRomfsRoot cannot contain the destination RomFS tree. Use separate input and repository folders.'
 }
 if (-not (Test-Path -LiteralPath (Join-Path $repoRoot 'AGENTS.md'))) {
