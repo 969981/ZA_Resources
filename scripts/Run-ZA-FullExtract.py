@@ -86,6 +86,11 @@ def process_large(target: Path, row: dict, seven_zip: str):
         if vol.suffix != f".{i:03d}" or not 0 < vol.stat().st_size <= VOLUME_BYTES:
             raise RuntimeError("Unexpected 7z volume numbering/size: " + str(vol))
     call([seven_zip, "t", volumes[0].name], cwd=target.parent)
+    with tempfile.TemporaryDirectory(prefix="za-m2-7z-verify-") as td:
+        call([seven_zip, "x", "-y", "-o" + str(td), str(volumes[0].resolve())], cwd=target.parent)
+        rebuilt = Path(td) / target.name
+        if not rebuilt.is_file() or rebuilt.stat().st_size != row["Size"] or sha256(rebuilt) != row["Sha256"]:
+            raise RuntimeError("7z restored bytes or SHA-256 differ from original: " + str(target))
     info = {
         "hash": row["Hash"],
         "originalVirtualPath": row["Name"],
@@ -130,12 +135,12 @@ def git_commit_and_push(repo: Path, relative_paths: list[str], message: str, dry
         _git_output(repo, "fetch", "origin", "master")
         first_base = _git_output(repo, "rev-parse", "refs/remotes/origin/master")
         for p in paths:
-            initial_oids[p] = _git_output(repo, "rev-parse", f"{first_base}:{p}", ok=(0, 128))
+            initial_oids[p] = _git_output(repo, "rev-parse", "--verify", f"{first_base}:{p}", ok=(0, 128))
         for attempt in range(3):
             _git_output(repo, "fetch", "origin", "master")
             parent = _git_output(repo, "rev-parse", "refs/remotes/origin/master")
             for p in paths:
-                current_oid = _git_output(repo, "rev-parse", f"{parent}:{p}", ok=(0, 128))
+                current_oid = _git_output(repo, "rev-parse", "--verify", f"{parent}:{p}", ok=(0, 128))
                 if current_oid != initial_oids[p]:
                     raise RuntimeError(f"Concurrent modification of intended generated path: {p}")
                 source = repo / p
