@@ -1,0 +1,67 @@
+name: ZA Lua native opcode and Haxe hash crosswalk
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-native-lua-crosswalk
+  cancel-in-progress: false
+
+jobs:
+  crosswalk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Crosswalk-ZA-Lua-Native.py
+            /tests/test_za_lua_crosswalk.py
+            /tools/PokeDocs-Supplement/ZA/Hashlists/Lua/unresolved-symbol-index.tsv
+            /tools/PokeDocs-Supplement/ZA/Hashlists/Lua/unresolved-s-references.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-opcode-references.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-c-s-static-edges.tsv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify synthetic exact-hash crosswalk
+        run: python -m unittest discover -s tests -p 'test_za_lua_crosswalk.py' -v
+
+      - name: Join native ZA Lua opcode evidence to pinned Haxe references
+        run: python scripts/Crosswalk-ZA-Lua-Native.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-Lua-native-Haxe-crosswalk
+          path: |
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-haxe-crosswalk.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-haxe-crosswalk-summary.json
+          retention-days: 30
+
+      - name: Commit before rebase to avoid dirty worktree
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-haxe-crosswalk.tsv Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-haxe-crosswalk-summary.json
+          if git diff --cached --quiet; then
+            echo 'Crosswalk already matches'
+            exit 0
+          fi
+          git commit -m 'analysis(za): join native Lua opcode hash references with pinned Haxe source contexts'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
