@@ -1,0 +1,42 @@
+{
+  "version": "v2.0.2",
+  "evidence": "NATIVE_LUA54_LOCAL_RECEIVER_REGISTER_PROVENANCE",
+  "max_window": 32,
+  "inputs_sha256": {
+    "manifest": "ed70eb3d9db1d957ded135371ddada17d258944577f4fdafa6f03a5b9acb0f63",
+    "summary": "ad1490840df8bd50c20f1e02304c31e876703221f5170ee375e1b460559d8d36",
+    "closure_context": "56dc6a12d8f3f8ce74cca0fbf1300da2076e3b738a35f14da37cbd729ef15b83"
+  },
+  "native_files": {
+    "dll_util": {
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "prototypes": 98
+    },
+    "event_ik": {
+      "sha256": "f238160475095b02e8c5302d907adbd1b48b2fd793a4a8c72ee8c9689fdfd698",
+      "prototypes": 7388
+    },
+    "main": {
+      "sha256": "d9677f20ab3dfe350eec746d06769cf244bf316ee27fbd73a4bc208e5ff1b8a8",
+      "prototypes": 1638
+    },
+    "main_dynamic": {
+      "sha256": "cc77b9440afeef775baf29aeeae381c37458a38e2920e2a162b0679c4d1b8af2",
+      "prototypes": 98
+    }
+  },
+  "all_field_call_edges": 1488,
+  "root_closure_context_calls": 1461,
+  "origin_kinds": {
+    "UNRESOLVED_REGISTER": 555,
+    "UPVALUE_PATH": 933
+  },
+  "source_opcodes": {
+    "GETFIELD": 911,
+    "GETTABLE": 20,
+    "SELF": 557
+  },
+  "runtime_receiver_classes_confirmed": 0,
+  "original_names_recovered": 0,
+  "warning": "Only bounded local register/Upvalue source, not runtime receiver class or name. Empty origin means unsafe or untraced."
+}
