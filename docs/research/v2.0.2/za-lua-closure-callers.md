@@ -50,6 +50,22 @@ source_run: 42021695658
 
 静态 `Cxxxxxxxxxxxxxxxx` 键只证明某次对象值读取使用该键字面量，**不证明**实际 Lua 表/Upvalue 的运行时身份，也不证明动态实例属于该 C。
 
+## 3.1 真实 C Hash 键分布（来自原生 GETTABUP 与 PokeDocs 已命名 C 表）
+
+本轮已进一步按实际 `receiver_static_class_key` 字段统计。**这属于查找键证据，不是运行时接收类证明**。PokeDocs/develop 已命名 C 对应关系可按完整 64 位 Hash 核对：
+
+| 原生 C 键 | PokeDocs 显示的可读类名 | GETTABUP→后续调用关系 | 不同被调用 Hash |
+| --- | --- | ---: | ---: |
+| `C0C062DE5AED06885` | `main.event.ik.command.IkScriptCommand` | **908** | 57 |
+| `C3F97C0C63E0F98D5` | `event_ik.CafeEvent` | 8 | 5 |
+| `C08B9C9B723383177` | `main.event.ik.command.CharacterCommand` | 7 | 2 |
+| `CE3A3A45F0BDA7426` | `main.event.ik.ObjectTemplateDataManager` | 2 | 2 |
+| `C0B6B8AD001243AFE` | `main.event.ik.command.FadeCommand` | 1 | 1 |
+
+全部 926 条 GETTABUP 类键查找中，Upvalue 槽号分布是 `0: 922`、`1: 2`、`2: 2`；脚本不默认槽 0 一定是 `_ENV`。其中 IkScriptCommand 键相关的 908 条涉及 457 个不同的已识别调用者类；调用者方法和静态被查找类可能不同。
+
+PokeDocs 命名来源：[ZA lua_c_hashes.txt](https://github.com/969981/PokeDocs/blob/develop/ZA/Hashlists/Lua/lua_c_hashes.txt)。类名仅用于现有映射展示，不是本轮从 Lua 中新发现的原始字符串。
+
 ## 4. 完整 Trinity 描述符范围核查
 
 本版本完整 13,181 包描述符中，后缀精确为 `.blua.trpak` 的仅四个：
