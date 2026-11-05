@@ -60,3 +60,41 @@ python scripts/Summarize-ZA-Trinity.py --output $out --descriptor-summary (Join-
 ~~~
 
 全量导出需要逐条复核输出及失败记录。大文件必须按仓库政策打包为小于 100,000,000 字节的分卷，不能直接提交到 GitHub。不得把 13,181 包都在索引中出现误写为已经成功解压。
+
+## 从 SV M2 工作流移植的 ZA 全量模式（2026-11-05）
+
+参照 SV 仓库的 `scripts/Run-SV-FullExtract.py` 与 `.github/workflows/sv-m2-full.yml`，ZA 使用 [Run-ZA-FullExtract.py](../../scripts/Run-ZA-FullExtract.py) 与 [za-m2-full.yml](../../.github/workflows/za-m2-full.yml) 进行持久化的批次解包。
+
+| 阶段 | SV Violet 4.0.0 | ZA v2.0.2 |
+| --- | ---: | ---: |
+| TRPFD 原生资源包总数 | 23,589 | 13,181 |
+| TRPFD 原生资源记录 | 408,641 | 238,546 |
+| 原始 Trinity 分卷 | 83 | 87 |
+| 每轮恢复 | 验证 TRPFD 和 TRPFS SHA-256 | 验证全部 87 个分卷、原始两个文件 SHA-256 |
+| 导出 | GFTool.Core + Oodle | GFTool.Core + Oodle |
+| 发布 | 分批输出、JSONL、检查点 | 分批输出、JSONL、检查点；独立 Git index 非强制推送 |
+
+**已验证的原生测试**：2026-11-05 的 Windows Actions `42007205332` 原始数据恢复、Pack 0 和 Pack 1 的提取及文件 SHA-256 全部通过；2 个文件合计 122,072 字节。该任务最后只在执行 `git pull --rebase` 时因本地未暂存修改而失败，成功的原生数据通过 Actions 产物 `13405648302` 保存，并已由恢复任务 `42011556198` 重新验证后提交。
+
+**发布错误修复**：不再调用有风险的 `git pull --rebase`，而是使用隔离的临时 Git Index，在远程 `master` 最新父提交上只加入本批已核对的生成文件，利用非强制推送提交；遇到并发修改或被拒绝的推送不覆盖用户修改。此方式有独立的无游戏数据 Git 仓库测试，已在 Actions 中通过。
+
+**全量检查点与审核**：
+
+- `_index/batches/pack-XXXXXX-XXXXXX.jsonl`：每批的真实解包行记录和失败信息；同名 JSON 为记录数、成功数、失败数、校验字节数
+- `_index/full-extract-progress.json`：Pack 游标、最新已发布窗口、累计窗口数与 `PARTIAL/COMPLETE/REQUIRES_REPAIR` 状态
+- `_index/full-extract-audit.json`：将最终状态与 `data.trpfd/file_index.tsv.gz` 所有 238,546 条原生 Hash 逐项比对，区分 OK、FAILED、UNSEEN
+- 90 MiB 及以上生成文件写入 7z 分卷，并实际重新提取比对字节长度和 SHA-256 后再提交
+
+每一个检查点只在该批生成文件经过本地哈希验证后写入 Git 远程；下一次 Windows 工作流使用已发布的 `nextPack` 优先于手动起点，避免跳包、误报全量完成。CI 可基于已经成功推送的 `PARTIAL` 游标调度下一窗口。全量是否完成必须以最终 `COMPLETE` 及审计结果为准。
+
+工作流：[ZA M2 Full Actions](../../.github/workflows/za-m2-full.yml)；恢复工作流：[已验证的前两个包](../../.github/workflows/za-trpfs-recover.yml)。原来的一次性 Smoke Test 保留为手动运行，最后一步也已改为安全发布，避免自动重复恢复整个大归档。
+
+### 本地按批使用
+
+```powershell
+# 在还原了原始 data.trpfd / data.trpfs 的 Windows 主机执行
+# 注意：默认会将已核验的每批产物推送至 origin/master；预览可增加 --dry-run
+python scripts/Run-ZA-FullExtract.py --repo . --workspace 'D:\ZA_Trinity_Workspace' --start-pack 0 --batch-packs 50 --max-batches 10 --time-budget-minutes 180 --seven-zip 'C:\Program Files\7-Zip\7z.exe'
+```
+
+注意：完整导出的数据量以及最终文件数仍可能受路径冲突、解析失败、Oodle 兼容性和 Git 文件大小上限影响；不要将索引记录直接算作已解出的实体文件。

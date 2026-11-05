@@ -1,10 +1,6 @@
 name: ZA v2.0.2 TRPFS verified restore and native smoke unpack
 
 on:
-  push:
-    branches: [master]
-    paths:
-      - ".github/workflows/za-trpfs-unpack.yml"
   workflow_dispatch:
 
 permissions:
@@ -132,26 +128,10 @@ jobs:
           retention-days: 14
           if-no-files-found: error
           compression-level: 1
-      - name: Commit ONLY verified generated files and index
+      - name: Publish verified smoke outputs without touching the dirty extraction worktree
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
           $code = Join-Path $env:GITHUB_WORKSPACE 'code'
-          Set-Location -LiteralPath $code
-          $files = @(Get-ChildItem -LiteralPath "$env:ZA_VIRTUAL_OUTPUT" -File -Recurse)
-          foreach ($f in $files) {
-            if ($f.Length -ge 100000000) { throw "Refusing GitHub oversize file: $($f.FullName)" }
-          }
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git pull --rebase origin master
-          if ($LASTEXITCODE -ne 0) { throw 'Could not fast-forward result checkout' }
-          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs
-          if ($LASTEXITCODE -ne 0) { throw 'Staging generated files failed' }
-          git diff --cached --stat
-          git diff --cached --quiet
-          if ($LASTEXITCODE -eq 0) { Write-Host 'All generated files already committed'; exit 0 }
-          git commit -m "data(za): verified TRPFS restore and native first-pack extraction"
-          if ($LASTEXITCODE -ne 0) { throw 'Commit failed' }
-          git push origin HEAD:master
-          if ($LASTEXITCODE -ne 0) { throw 'Push failed' }
+          python "$code/scripts/Publish-ZA-VerifiedSmoke.py" --repo-root "$code"
+          if ($LASTEXITCODE -ne 0) { throw 'Safe non-force publication of verified smoke outputs failed' }
