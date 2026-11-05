@@ -1,9 +1,10 @@
 # Local processing tools
 
-- `Export-PokemonZAInventory.ps1`: original v2.0.2 external-file scanner; produces one CSV (SHA-256 and optional SHA-1). Does not unpack Trinity containers.
-- `Archive-ZAResources.ps1`: import a local RomFS tree, split files larger than the configured threshold with 7z and generate a manifest.
-- `Verify-ZAArchives.ps1`: verify artifact sizes, hashes and archive integrity; optional full restore/hash.
-- `Restore-ZAResources.ps1`: reconstruct original RomFS relative paths and verify source SHA-256.
-- `Publish-ZAArchives.ps1`: plan 500 MiB Git batches; with `-Commit -Push`, stage only manifest-listed artifacts, commit and push without force. Defaults to a read-only plan.
+The v2.0.2 RomFS scripts support Windows PowerShell 5.1 and PowerShell 7. They use Windows-native file operations and 7-Zip. Pass explicit source, target and repository paths.
 
-Requirements: Windows PowerShell 5.1+ or PowerShell 7; 7-Zip for nontrivial archive inputs. Run scripts from any directory using explicit `-SourceRomfsRoot` / `-RepositoryRoot` / `-DestinationRoot` parameters. See [archive workflow](../docs/workflows/archive-and-restore.md).
+- Archive-ZARomFS.ps1 — scan, copy or compress, verify outputs and update the CSV and JSON manifests. Supports -Resume and -VerifyOnly.
+- Verify-ZARomFS.ps1 — rescan the source and perform a full artifact audit, including 7z test and restored SHA-256 comparison.
+- Restore-ZARomFS.ps1 — restore one source-relative file, the complete RomFS tree, or directly from a .7z.001 file.
+- Archive-ZARomFS.Smoke.ps1 — synthetic regression check using temporary files and 1 MiB volumes.
+
+See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for commands and safety behavior.

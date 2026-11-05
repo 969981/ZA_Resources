@@ -1,11 +1,9 @@
 # Layout and naming policy
 
-`v2.0.2/<NCA_ID>_NCA/0/` contains the original ExeFS (`main`, `main.npdm`, `rtld`, `sdk`). Keep the existing files unchanged.
+v2.0.2/<NCA_ID>_NCA/0/ contains the original ExeFS files. Keep those files and the existing v2.0.2 file inventory unchanged.
 
-`v2.0.2/<NCA_ID>_NCA/1/` mirrors the original RomFS. Small source files retain their names and bytes. For a source file larger than 90 MiB, publish only `<originalname>.7z.001`, `.002`, ... in its original parent directory. Each archive contains the original filename, not an absolute host path.
+v2.0.2/<NCA_ID>_NCA/1/ mirrors the original RomFS paths. For the v2.0.2 RomFS archive defined in [the task workflow](romfs-v2.0.2-archive.md), files smaller than 20 MiB remain raw and files at least 20 MiB are represented by <originalname>.7z.001, .002, and later parts in the same parent directory. The archive contains only the original basename, not a host absolute path.
 
-`manifests/<version>/transfer_manifest.json` contains original-to-artifact mappings. `docs/` contains Markdown research and workflows; `scripts/` maintained scripts; `tests/` executable synthetic fixtures. Local `.za-work/` and `.za-restore/` are excluded from Git.
+manifests/v2.0.2-romfs-inventory.csv records the requested inventory fields. manifests/v2.0.2/transfer_manifest.json records each stored artifact path, byte length and SHA-256. docs/ contains documentation, scripts/ maintained tools, and tests/ synthetic fixtures. Local .za-work and .za-restore outputs are excluded from Git.
 
-Version upgrades create a new `vX.Y.Z/<NCA_ID>_NCA/` tree, not replacements of previous version bytes. Preserve case and spelling of files, including the NCA folder ID.
-
-Important: ordinary Git objects must remain below GitHub's 100 MB file limit; 90 MiB volumes meet the per-blob constraint but are not an endorsement of storing several gigabytes in Git history.
+Version upgrades create a new vX.Y.Z/<NCA_ID>_NCA/ tree rather than replacing previous version bytes. Preserve case and spelling, including the NCA folder ID. Ordinary Git blobs must remain below GitHub's 100,000,000 byte file limit.
