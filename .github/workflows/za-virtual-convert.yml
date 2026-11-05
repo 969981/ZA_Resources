@@ -1,0 +1,162 @@
+name: ZA virtual v2.0.2 full conversion and completeness audit
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-virtual-convert.yml
+  pull_request:
+    paths:
+      - scripts/Convert-ZA-Virtual.py
+      - tests/test_za_virtual_convert.py
+      - .github/workflows/za-virtual-convert.yml
+  workflow_run:
+    workflows:
+      - ZA M2 PARALLEL FULL - 13181 native Trinity packs
+    types: [completed]
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      run_partial:
+        description: "Allow a source snapshot that has not completed all 13,181 native packs"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Convert-ZA-Virtual.py
+            /tests/test_za_virtual_convert.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -p test_za_virtual_convert.py -v
+
+  gate:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+      source_complete: ${{ steps.check.outputs.source_complete }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/full-extract-progress.json
+      - name: Check verified native source checkpoint
+        id: check
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REQUEST_PARTIAL: ${{ inputs.run_partial }}
+          UPSTREAM_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path("Unpack/v2.0.2/romfs/arc/data.trpfs/_index/full-extract-progress.json")
+          record = json.loads(p.read_text()) if p.exists() else {}
+          complete = (record.get("state") == "COMPLETE" and
+                      record.get("nextPack") == record.get("totalPacks") == 13181)
+          event = os.getenv("EVENT_NAME")
+          permitted = (event == "push" or
+                       (event == "workflow_dispatch" and os.getenv("REQUEST_PARTIAL") == "true") or
+                       ((event == "workflow_dispatch" or event == "workflow_run")
+                        and complete and
+                        (event != "workflow_run" or os.getenv("UPSTREAM_CONCLUSION") == "success")))
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"proceed={str(permitted).lower()}\n")
+              out.write(f"source_complete={str(complete).lower()}\n")
+          print(f"Native checkpoint: {record.get('nextPack')}/{record.get('totalPacks')} "
+                f"{record.get('state')}; converting={permitted}")
+          PY
+
+  convert:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        category:
+          - ai_influence
+          - ai_influence1
+          - avalon
+          - field
+          - ik_ai_behavior
+          - ik_chara
+          - ik_demo
+          - ik_effect
+          - ik_event
+          - ik_message
+          - ik_pokemon
+          - script
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    concurrency:
+      group: za-virtual-convert-${{ matrix.category }}
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: true
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Convert-ZA-Virtual.py
+            /scripts/Run-ZA-FullExtract.py
+            /scripts/za_trinity_parallel.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/full-extract-progress.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/${{ matrix.category }}/**
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_index/${{ matrix.category }}.jsonl.gz
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_index/${{ matrix.category }}.summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/${{ matrix.category }}/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify source and native prerequisites
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v 7z >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y p7zip-full
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python -m py_compile scripts/Convert-ZA-Virtual.py
+          test -d "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/${{ matrix.category }}"
+          df -h .
+      - name: Process ALL current files from category; re-use SHA-verified conversions
+        shell: bash
+        env:
+          CATEGORY: ${{ matrix.category }}
+        run: |
+          set -euo pipefail
+          python -u scripts/Convert-ZA-Virtual.py \
+            --repo . --category "$CATEGORY" --workers 4 --seven-zip 7z --publish
+      - name: Print final category summary
+        if: always()
+        shell: bash
+        env:
+          CATEGORY: ${{ matrix.category }}
+        run: |
+          FILE="Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_index/$CATEGORY.summary.json"
+          if test -f "$FILE"; then cat "$FILE"; fi
