@@ -1,0 +1,139 @@
+name: ZA PCK extracted media - Git 90MiB split archives
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-pck-media-archive.yml
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: za-v2-0-2-pck-audio-archive
+  cancel-in-progress: false
+jobs:
+  archive-and-publish:
+    runs-on: windows-latest
+    timeout-minutes: 240
+    steps:
+      - name: Sparse checkout publisher and PCK indexes
+        uses: actions/checkout@v4
+        with:
+          path: code
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: true
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Publish-ZA-PCKMedia.py
+            /tests/test_za_pck_media_archive.py
+            /Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_index/Stream.pck.json
+            /Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_index/Stream_dlc.pck.json
+            /Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publisher tests and 7z preflight
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          python -m py_compile scripts/Publish-ZA-PCKMedia.py
+          if ($LASTEXITCODE -ne 0) { throw 'Python syntax error' }
+          python -m unittest discover -s tests -p 'test_za_pck_media_archive.py' -v
+          if ($LASTEXITCODE -ne 0) { throw 'Archive tests failed' }
+          if (-not (Test-Path 'C:\Program Files\7-Zip\7z.exe')) { throw '7-Zip executable missing' }
+      - name: Download already extracted Stream.pck media - run 42055289781
+        uses: actions/download-artifact@v4
+        with:
+          name: ZA-v2.0.2-Stream-media
+          run-id: 42055289781
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ runner.temp }}/ZA_PCK_MEDIA/Stream
+      - name: Download already extracted Stream_dlc.pck media - run 42055289781
+        uses: actions/download-artifact@v4
+        with:
+          name: ZA-v2.0.2-Stream-dlc-media
+          run-id: 42055289781
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ runner.temp }}/ZA_PCK_MEDIA/Stream_dlc
+      - name: Verify 9651 indexed WEMs, compress 90MiB volumes, restore and SHA-256 compare
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          python -u scripts/Publish-ZA-PCKMedia.py --repo . --media-root "$env:RUNNER_TEMP/ZA_PCK_MEDIA" --sevenzip 'C:\Program Files\7-Zip\7z.exe' --source-run 42055289781
+          if ($LASTEXITCODE -ne 0) { throw 'PCK archive verification failed; refusing Git publication' }
+          $m = Get-Content -LiteralPath Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/media-archive-manifest.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          if ($m.complete -ne $true -or @($m.packages).Count -ne 2) { throw 'Archive package coverage incomplete' }
+          $mediaCount = [int](($m.packages | Measure-Object -Property mediaRecords -Sum).Sum)
+          if ($mediaCount -ne 9651) { throw "Incorrect media count: $mediaCount" }
+      - name: Commit and push in at most 450MiB per batch without force
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $repo = Join-Path $env:GITHUB_WORKSPACE 'code'
+          Set-Location $repo
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          $manifestRel = 'Unpack/v2.0.2/romfs/audio/wwise/bin/Switch/_media_archives/media-archive-manifest.json'
+          $m = Get-Content -LiteralPath $manifestRel -Raw -Encoding UTF8 | ConvertFrom-Json
+          $files = [System.Collections.Generic.List[string]]::new()
+          foreach ($package in @($m.packages)) {
+            if ($package.status -ne 'COMPLETE') { throw "Unverified package $($package.sourcePackage)" }
+            foreach ($part in @($package.volumes)) {
+              $rel = [string]$part.path
+              if ($rel -notmatch '^Unpack/v2[.]0[.]2/romfs/audio/wwise/bin/Switch/_media_archives/(Stream|Stream_dlc)[.]pck[.]media[.]7z[.]\d{3,}$') { throw "Unexpected archive path: $rel" }
+              $item = Get-Item -LiteralPath (Join-Path $repo $rel) -ErrorAction Stop
+              if ([long]$item.Length -ge 100000000 -or [long]$item.Length -gt 90MB) { throw "Git limit exceeded: $rel" }
+              $hash = (Get-FileHash -LiteralPath $item.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+              if ($hash -cne [string]$part.sha256 -or [long]$item.Length -ne [long]$part.sizeBytes) { throw "SHA-256 mismatch: $rel" }
+              $files.Add($rel)
+            }
+          }
+          if ($files.Count -lt 2) { throw 'Missing compressed archive volumes' }
+          $files.Add($manifestRel)
+          $maximum = 450MB
+          $batch = [System.Collections.Generic.List[string]]::new()
+          $batchBytes = [long]0
+          $number = 0
+          function Publish-Batch {
+            param([string[]]$Paths, [int]$Index, [long]$Bytes)
+            if ($Paths.Count -eq 0) { return }
+            if ($Bytes -gt 450MB) { throw 'Git batch over 450 MiB' }
+            Write-Host "Publishing batch $Index, $($Paths.Count) files, $Bytes bytes"
+            git add -f -- @Paths
+            if ($LASTEXITCODE -ne 0) { throw 'Git add failed' }
+            git diff --cached --quiet
+            if ($LASTEXITCODE -eq 0) { Write-Host 'Already published'; return }
+            if ($LASTEXITCODE -ne 1) { throw 'Git diff failed' }
+            git commit -m "data(za): split Wwise PCK audio batch $Index"
+            if ($LASTEXITCODE -ne 0) { throw 'Git commit failed' }
+            for ($attempt = 1; $attempt -le 3; $attempt++) {
+              git fetch origin master
+              if ($LASTEXITCODE -ne 0) { throw 'Git fetch failed' }
+              git rebase origin/master
+              if ($LASTEXITCODE -ne 0) { throw 'Remote changed incompatibly: no force push allowed' }
+              git -c http.version=HTTP/1.1 push origin HEAD:master
+              if ($LASTEXITCODE -eq 0) { Write-Host "PUSH SUCCESS batch $Index"; return }
+              Write-Warning "Git push attempt $attempt failed"
+            }
+            throw "Git push failure at batch $Index; previously published batches preserved"
+          }
+          foreach ($rel in $files) {
+            $size = [long](Get-Item -LiteralPath (Join-Path $repo $rel)).Length
+            if ($size -gt $maximum) { throw "Unexpectedly oversized file $rel" }
+            if ($batch.Count -gt 0 -and $batchBytes + $size -gt $maximum) {
+              $number++
+              Publish-Batch -Paths $batch.ToArray() -Index $number -Bytes $batchBytes
+              $batch.Clear()
+              $batchBytes = [long]0
+            }
+            $batch.Add($rel)
+            $batchBytes += $size
+          }
+          if ($batch.Count -gt 0) {
+            $number++
+            Publish-Batch -Paths $batch.ToArray() -Index $number -Bytes $batchBytes
+          }
+          Write-Host "PCK MEDIA PUBLISHED TO MASTER: $number batches"
