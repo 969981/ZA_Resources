@@ -69,8 +69,13 @@ jobs:
           "ZA_ARC=$arc" >> $env:GITHUB_ENV
           "ZA_OUT=$out" >> $env:GITHUB_ENV
           Set-Location $code
+          # Windows checkouts may change TSV/JSON line endings; rebuild the report
+          # from the original indexed rows, then immediately verify its bytes.
+          # The locator itself strictly validates all 238546 records and four IDs.
+          python scripts/Locate-ZA-Lua-Packs.py
+          if ($LASTEXITCODE -ne 0) { throw 'Native indexed pack discovery failed' }
           python scripts/Locate-ZA-Lua-Packs.py --verify-only
-          if ($LASTEXITCODE -ne 0) { throw 'Native indexed pack identities changed' }
+          if ($LASTEXITCODE -ne 0) { throw 'Regenerated native Lua pack report failed verification' }
           $plan = Get-Content (Join-Path $out '_index\lua_pack_locations.json') -Raw | ConvertFrom-Json
           if ((@($plan.target_pack_indices) -join ',') -ne '12145,12146,12147,12148') { throw 'Wrong target pack indices' }
           $volumes = @(Get-ChildItem -LiteralPath $arc -Filter 'data.trpfs.7z.*' -File)
