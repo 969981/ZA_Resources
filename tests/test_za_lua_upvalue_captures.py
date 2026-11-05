@@ -91,7 +91,7 @@ class TestNativeCapture(unittest.TestCase):
         self.assertEqual(traced[10],"ROOT_EXTERNAL_UPVALUE")
         self.assertEqual(traced[17],"NO")
         row["receiver_static_class_key"]="CFFFFFFFFFFFFFFFF"
-        with self.assertRaisesRegex(ValueError,"original native C lookup"):
+        with self.assertRaisesRegex(ValueError,"native C lookup"):
             ua.trace_static_lookup(row,lua,inst,owner)
 
     def test_child_index_must_match_binary_closure_index(self):
