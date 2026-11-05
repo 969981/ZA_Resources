@@ -40,7 +40,7 @@ class ZAVirtualConverterTests(unittest.TestCase):
             m.flatbuffer_structure(b"\xff" * 24)
 
     def test_message_header_not_text(self):
-        b = struct.pack("<HHIIiI", 1, 2, 40, 0, 16, 40) + b"\0" * 32
+        b = struct.pack("<HHIIiI", 1, 2, 36, 0, 16, 36) + b"\0" * 32
         result = m.dat_header(b)
         self.assertEqual(result["textCount"], 2)
         self.assertIn("NOT decoded", result["note"])
