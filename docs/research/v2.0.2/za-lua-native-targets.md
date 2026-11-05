@@ -63,3 +63,21 @@ py -3 .\scripts\Analyze-ZA-Lua-Native.py --require-all
 - NATIVE_LUA54_OPCODE_CONSTANT_REFERENCE：常量索引确实被原生字节码指令使用。
 - NATIVE_ROOT_CLASS_S_CLOSURE_ASSIGNMENT：严格根原型赋值序列，可用于建立 C→S 静态方法关联。
 - CONFIRMED_NATIVE_SYMBOL_NAME：需要进一步原始字符串或其他严格的原生名称证据；前述任何一条并不自动达到这个级别。
+
+## 6. 已通过 CI 实际完整扫描的虚拟文件 Hash
+
+四个路径与文件 Hash **已由 file_index.tsv.gz 的完整 238,546 条 TRPFD 记录唯一确认**，见 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json：
+
+| Pack | Native virtual path | File Hash |
+| ---: | --- | --- |
+| 12145 | script/lua/bin/release/dll_util/dll_util.blua | 2B9CEDBD307F613F |
+| 12146 | script/lua/bin/release/event_ik/event_ik.blua | 7A89AC5CAD9881B3 |
+| 12147 | script/lua/bin/release/main/main.blua | BE21E65463B9A98F |
+| 12148 | script/lua/bin/release/main_dynamic/main_dynamic.blua | AFB44A97ABCB6477 |
+
+CI: https://github.com/969981/ZA_Resources/actions/runs/42009677054 。上述为**原生描述符 Hash，不是四份字节码文件 SHA-256**。文件的 SHA-256 只能在实际解出后计算。
+
+四包定向解码工作流：https://github.com/969981/ZA_Resources/actions/workflows/za-lua-native-targets.yml 。其验证流程保留解出的原生虚拟文件及字节级取证信息，并规定必须先 Git commit，再 fetch/rebase/push，防止此前 smoke 验收因 dirty worktree 而失败。
+
+后续原生/重建源码交叉证据：scripts/Crosswalk-ZA-Lua-Native.py 及 .github/workflows/za-lua-native-crosswalk.yml 。此步骤在真实 native-lua-summary.json 正式进入仓库后才触发，对剩余 116 S、43 F、3 E 按完整 Hash 生成对账报告；原始名称仍标注 UNKNOWN。
+
