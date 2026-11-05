@@ -44,6 +44,15 @@ jobs:
       - name: Verify native ZA ELF SHA256 and search host Lua evidence
         run: python scripts/Probe-ZA-Lua-Host-ELF.py
 
+      - name: Print bounded native loader-string and xref evidence for review
+        run: |
+          echo '--- STRING LOCATORS (first 120) ---'
+          head -n 120 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-string-locators.tsv
+          echo '--- ADR/ADRP REFS (first 125) ---'
+          head -n 125 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-adr-references.tsv
+          echo '--- HASH MATCHES (first 25) ---'
+          head -n 25 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-hash-probes.tsv
+
       - uses: actions/upload-artifact@v4
         with:
           name: za-v2.0.2-lua-host-elf-${{ github.run_number }}
