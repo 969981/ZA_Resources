@@ -1,0 +1,86 @@
+{
+  "all_unique": true,
+  "bytecode_extracted": false,
+  "descriptor_files_scanned": 238546,
+  "descriptor_summary_sha256": "6d8b5e71602f92b7d0bd97d961f92f7009380b5658ea3377a57ebc437379cad6",
+  "file_index_sha256": "882caee25ec855599ca19203c108b134c33dda571194fb587ee073875ac6c515",
+  "game": "Pokémon Legends Z-A v2.0.2",
+  "pack_count": 13181,
+  "pack_index_sha256": "3fd3010723119b267692e472ca5d087689a8df88573e6845a5a0acb28808616d",
+  "source": "verified ZA v2.0.2 native TRPFD descriptor index (NOT extracted Lua bytecode)",
+  "source_note": "The indexed script paths require actual TRPFS extraction and Lua header verification",
+  "target_pack_indices": [
+    12145,
+    12146,
+    12147,
+    12148
+  ],
+  "target_packed_bytes": 1463128,
+  "targets": {
+    "dll_util": {
+      "expected_path": "script/lua/bin/release/dll_util/dll_util.blua",
+      "located": true,
+      "matches": [
+        {
+          "hash": "2B9CEDBD307F613F",
+          "pack_file_count": 1,
+          "pack_index": 12145,
+          "pack_name": "arc/scriptluabinreleasedll_utildll_util.blua.trpak",
+          "packed_bytes": 7400,
+          "status": "CONFIRMED_NATIVE_TRPFD_INDEX",
+          "virtual_path": "script/lua/bin/release/dll_util/dll_util.blua"
+        }
+      ],
+      "unique_match": true
+    },
+    "event_ik": {
+      "expected_path": "script/lua/bin/release/event_ik/event_ik.blua",
+      "located": true,
+      "matches": [
+        {
+          "hash": "7A89AC5CAD9881B3",
+          "pack_file_count": 1,
+          "pack_index": 12146,
+          "pack_name": "arc/scriptluabinreleaseevent_ikevent_ik.blua.trpak",
+          "packed_bytes": 1325888,
+          "status": "CONFIRMED_NATIVE_TRPFD_INDEX",
+          "virtual_path": "script/lua/bin/release/event_ik/event_ik.blua"
+        }
+      ],
+      "unique_match": true
+    },
+    "main": {
+      "expected_path": "script/lua/bin/release/main/main.blua",
+      "located": true,
+      "matches": [
+        {
+          "hash": "BE21E65463B9A98F",
+          "pack_file_count": 1,
+          "pack_index": 12147,
+          "pack_name": "arc/scriptluabinreleasemainmain.blua.trpak",
+          "packed_bytes": 122440,
+          "status": "CONFIRMED_NATIVE_TRPFD_INDEX",
+          "virtual_path": "script/lua/bin/release/main/main.blua"
+        }
+      ],
+      "unique_match": true
+    },
+    "main_dynamic": {
+      "expected_path": "script/lua/bin/release/main_dynamic/main_dynamic.blua",
+      "located": true,
+      "matches": [
+        {
+          "hash": "AFB44A97ABCB6477",
+          "pack_file_count": 1,
+          "pack_index": 12148,
+          "pack_name": "arc/scriptluabinreleasemain_dynamicmain_dynamic.blua.trpak",
+          "packed_bytes": 7400,
+          "status": "CONFIRMED_NATIVE_TRPFD_INDEX",
+          "virtual_path": "script/lua/bin/release/main_dynamic/main_dynamic.blua"
+        }
+      ],
+      "unique_match": true
+    }
+  },
+  "version": "v2.0.2"
+}
