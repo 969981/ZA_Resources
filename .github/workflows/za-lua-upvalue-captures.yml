@@ -1,0 +1,76 @@
+name: ZA Lua 5.4 native upvalue capture verification
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master, 'research/za-lua-upvalue-captures-20261105']
+    paths:
+      - 'scripts/Trace-ZA-Lua-Upvalue-Captures.py'
+      - 'scripts/_vendor/Analyze-SV-Lua54.py'
+      - 'tests/test_za_lua_upvalue_captures.py'
+      - '.github/workflows/za-lua-upvalue-captures.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-lua-upvalues-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  native-upvalue-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Trace-ZA-Lua-Upvalue-Captures.py
+            /scripts/Join-ZA-Lua-Closure-Callers.py
+            /scripts/Trace-ZA-Lua-RegisterFlow.py
+            /scripts/Analyze-ZA-Lua-DirectCalls.py
+            /scripts/_vendor/Analyze-SV-Lua54.py
+            /tests/test_za_lua_upvalue_captures.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-lua-summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-closure-caller-receiver.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release/**
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate synthetic Lua 5.4 upvalue layouts and capture chains
+        run: python -m unittest discover -s tests -p test_za_lua_upvalue_captures.py -v
+
+      - name: Verify four native SHA-256 Lua sources and capture topology
+        run: python scripts/Trace-ZA-Lua-Upvalue-Captures.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: za-native-lua-upvalue-captures-${{ github.run_number }}
+          retention-days: 30
+          path: |
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-upvalue-capture-lookups.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-closure-unresolved-sites.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-upvalue-capture-summary.json
+
+      - name: Publish verified small derived evidence (master only)
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-upvalue-capture-lookups.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-closure-unresolved-sites.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-upvalue-capture-summary.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'analysis(za): publish verified native Lua 5.4 upvalue captures'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master

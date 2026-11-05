@@ -13,6 +13,13 @@ See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for com
 
 See [tools](../tools/README.md) and [ZA extraction workflow](../docs/workflows/za-trinity-extraction.md). Run Sync-ZA-Tools.ps1 to verify the six committed pinned source snapshots; Prepare-ZA-Trinity.ps1 to restore verified original files; Run-ZA-TrinityDump.ps1 to index/extract, and Convert-ZA-ExeFS.py for NSO-to-ELF.
 
+## 原生 Upvalue 捕获链（ZA v2.0.2）
+
+- `Trace-ZA-Lua-Upvalue-Captures.py`：解析 Lua 5.4 `instack/idx/kind` 三字节 Upvalue 描述符，逐级对账 `CLOSURE Bx` 与父 Prototype；核对 926 条已确认原生静态 C 类键查找以及 7＋20 条缺乏直接闭包归属的 CALL。输出为小型 TSV/JSON。
+- `py -3 -m unittest discover -s tests -p test_za_lua_upvalue_captures.py -v`
+- `py -3 scripts/Trace-ZA-Lua-Upvalue-Captures.py --max-window 16`
+- CI：`.github/workflows/za-lua-upvalue-captures.yml`。**根 Chunk 外部 Upvalue 不等于运行时接收类或已证明的 `_ENV`。**
+
 ## 原生闭包与 receiver 源头追踪（ZA v2.0.2）
 
 - `Join-ZA-Lua-Closure-Callers.py`：以 source+child_proto_id 关联 1,488 条局部 CALL 与 C→F/C→S 闭包；上溯 parent Proto，记录有界 SELF/GETTABLE/GETFIELD 接收寄存器来源。并不宣称 runtime receiver class 已证实。

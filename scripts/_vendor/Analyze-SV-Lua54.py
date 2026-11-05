@@ -84,7 +84,10 @@ class Lua54:
         if int.from_bytes(r.take(8), 'little') != 0x5678 or struct.unpack('<d',r.take(8))[0] != 370.5:
             raise FormatError('Unexpected endian or Lua floating number format')
         main_upvalues = r.u8()
+        self.main_upvalues = main_upvalues
         self._proto(-1,0)
+        if len(self.protos[0]['upvalues']) != main_upvalues:
+            raise FormatError('Root prototype upvalue count does not match Lua header')
         if r.off != len(r.data):
             raise FormatError(f'Lua trailing bytes: {len(r.data) - r.off}')
         return main_upvalues
@@ -116,7 +119,12 @@ class Lua54:
             elif tag in (4,20):const.append(r.string())
             else:raise FormatError(f'Unknown Lua constant tag {tag} at {r.off}')
         p['constants']=const
-        nup=r.vint();r.take(3*nup)
+        nup=r.vint()
+        if nup > 255:
+            raise FormatError('Lua 5.4 upvalue slot count exceeds 8-bit instruction index')
+        p['upvalues'] = [tuple(r.take(3)) for _ in range(nup)]  # instack, idx, kind
+        if any(item[0] not in (0, 1) for item in p['upvalues']):
+            raise FormatError('Invalid Lua 5.4 upvalue instack descriptor')
         nch=r.vint()
         if nch>200_000:raise FormatError('Child prototype count beyond bound')
         for _ in range(nch):p['children'].append(self._proto(pid,depth+1))
