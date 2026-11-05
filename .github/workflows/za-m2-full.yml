@@ -1,0 +1,196 @@
+name: ZA M2 FULL - all 13181 native Trinity packs
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-m2-full.yml
+  workflow_dispatch:
+    inputs:
+      start_pack:
+        description: "Minimum pack cursor; verified checkpoint takes priority"
+        required: true
+        type: string
+        default: "0"
+      batch_packs:
+        description: "Native packs per verified Git commit (1..200)"
+        required: true
+        type: string
+        default: "50"
+      max_batches:
+        description: "Max committed pack batches in this Windows run"
+        required: true
+        type: string
+        default: "10"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: za-v2-0-2-m2-full-trinity
+  cancel-in-progress: false
+
+jobs:
+  full-native-extract:
+    runs-on: windows-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+      START_PACK: ${{ github.event.inputs.start_pack || '0' }}
+      BATCH_PACKS: ${{ github.event.inputs.batch_packs || '50' }}
+      MAX_BATCHES: ${{ github.event.inputs.max_batches || '10' }}
+    steps:
+      - name: Disk and window preflight
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Get-CimInstance Win32_LogicalDisk |
+            Select-Object DeviceID, @{n='FreeGiB';e={[Math]::Round($_.FreeSpace / 1GB, 1)}} |
+            Format-Table -AutoSize
+          if ([int]$env:START_PACK -lt 0) { throw 'start_pack must be nonnegative' }
+          if ([int]$env:BATCH_PACKS -lt 1 -or [int]$env:BATCH_PACKS -gt 200) { throw 'batch_packs outside 1..200' }
+          if ([int]$env:MAX_BATCHES -lt 1 -or [int]$env:MAX_BATCHES -gt 100) { throw 'max_batches outside 1..100' }
+
+      - name: Checkout only ZA unpack code and previously published indexes
+        uses: actions/checkout@v4
+        with:
+          path: code
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/**
+            /tests/test_za_full_extract.py
+            /tests/test_za_trinity_*.py
+            /tools/ZA.TrinityDump/**
+            /tools/gftool/**
+            /tools/HashCaches/ZA/**
+            /manifests/v2.0.2/transfer_manifest.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfd/**
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/**
+          persist-credentials: true
+
+      - name: Checkout original ZA TRPFS 87 volumes separately
+        uses: actions/checkout@v4
+        with:
+          path: source
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate full M2 publisher and original source inputs
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $src = Join-Path $env:GITHUB_WORKSPACE 'source\v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1\arc'
+          Set-Location -LiteralPath $code
+          python -m py_compile scripts/Run-ZA-FullExtract.py scripts/Restore-ZA-TrinityDirect.py scripts/Summarize-ZA-Trinity.py
+          if ($LASTEXITCODE -ne 0) { throw 'Invalid batch pipeline Python syntax' }
+          python -m unittest discover -s tests -p 'test_za_full_extract.py' -v
+          if ($LASTEXITCODE -ne 0) { throw 'Batch publisher tests failed' }
+          $volumes = @(Get-ChildItem -LiteralPath $src -Filter 'data.trpfs.7z.*' -File)
+          if ($volumes.Count -ne 87) { throw "Expected 87 native 7z volumes, found $($volumes.Count)" }
+          $hash = 'tools/HashCaches/ZA/GFPAKHashCache.bin'
+          if ((Get-FileHash $hash -Algorithm SHA256).Hash -ne 'E91F5E09084C84F665762A1A8CE73482A858255061C64E71C60BA34DAFB0EC82') {
+            throw 'ZA hash cache not pinned to verified source'
+          }
+          $desc = Get-Content 'Unpack/v2.0.2/romfs/arc/data.trpfd/descriptor_summary.json' -Raw | ConvertFrom-Json
+          if ($desc.packCount -ne 13181 -or $desc.descriptorFiles -ne 238546) {
+            throw 'Native ZA TRPFD manifest counts differ'
+          }
+          if (-not (Test-Path 'scripts/deps/oo2core_8_win64.dll')) { throw 'Expected original native Oodle dependency missing' }
+          $sz = 'C:\Program Files\7-Zip\7z.exe'
+          if (-not (Test-Path $sz)) {
+            $tool = Get-Command 7z -ErrorAction SilentlyContinue
+            if ($tool) { $sz = $tool.Source }
+          }
+          if (-not (Test-Path $sz)) { throw '7z missing; cannot verify source archive restoration' }
+          "SEVENZIP=$sz" >> $env:GITHUB_ENV
+
+      - name: Free only redundant Git object pack before restoration
+        shell: pwsh
+        run: |
+          $pack = Join-Path $env:GITHUB_WORKSPACE 'source\.git\objects\pack'
+          if (Test-Path -LiteralPath $pack) {
+            Remove-Item -LiteralPath $pack -Recurse -Force
+          }
+          Write-Host 'Source worktree preserved; redundant Git object pack deleted to save disk'
+
+      - name: Restore all original Trinity bytes and independently verify SHA-256
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $src = Join-Path $env:GITHUB_WORKSPACE 'source\v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1\arc'
+          $work = Join-Path $env:RUNNER_TEMP 'ZA_Trinity_M2_Work'
+          $out = Join-Path $code 'Unpack\v2.0.2\romfs\arc\data.trpfs'
+          New-Item -ItemType Directory -Path $work -Force | Out-Null
+          "ZA_ROMFS_WORK=$work" >> $env:GITHUB_ENV
+          "ZA_OUTPUT=$out" >> $env:GITHUB_ENV
+          python -u "$code/scripts/Restore-ZA-TrinityDirect.py" --manifest "$code/manifests/v2.0.2/transfer_manifest.json" --archive-root "$src" --workspace "$work" --sevenzip "$env:SEVENZIP" --evidence "$out/_index/trpfs-restore.json"
+          if ($LASTEXITCODE -ne 0) { throw 'Native original source checksum mismatch' }
+          Remove-Item -LiteralPath (Join-Path $env:GITHUB_WORKSPACE 'source') -Recurse -Force
+          Write-Host '87 volumes checked and source checkout cleared; verified 4.75GB original retained in RUNNER_TEMP'
+
+      - name: Build GFTool.Core and validate native TRPFS filesystem
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          Set-Location -LiteralPath $code
+          dotnet build tools/ZA.TrinityDump/ZA.TrinityDump.csproj -c Release --nologo
+          if ($LASTEXITCODE -ne 0) { throw 'ZA.TrinityDump compilation failed' }
+          $dll = 'tools/ZA.TrinityDump/bin/Release/net8.0/ZA.TrinityDump.dll'
+          & dotnet $dll --romfs "$env:ZA_ROMFS_WORK" --output "$env:ZA_OUTPUT" --cache 'tools/HashCaches/ZA/GFPAKHashCache.bin' --dry-run
+          if ($LASTEXITCODE -ne 0) { throw 'Native TRPFS filesystem index validation failed' }
+
+      - name: M2 extract verify archive oversized output and publish checkpoints
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          python -u scripts/Run-ZA-FullExtract.py --repo . --workspace "$env:ZA_ROMFS_WORK" --start-pack $env:START_PACK --batch-packs $env:BATCH_PACKS --max-batches $env:MAX_BATCHES --time-budget-minutes 205 --seven-zip "$env:SEVENZIP"
+          if ($LASTEXITCODE -ne 0) { throw "ZA M2 full extraction stopped at checkpoint; exit=$LASTEXITCODE" }
+
+      - name: Upload checkpoint and batch evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-M2-Native-Checkpoint-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/full-extract-progress.json
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/full-extract-audit.json
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/batches/*-summary.json
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Dispatch next verified window or check final completeness
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $progressPath = Join-Path $env:GITHUB_WORKSPACE 'code\Unpack\v2.0.2\romfs\arc\data.trpfs\_index\full-extract-progress.json'
+          if (-not (Test-Path -LiteralPath $progressPath)) { throw 'No published checkpoint found' }
+          $p = Get-Content $progressPath -Raw | ConvertFrom-Json
+          Write-Host "ZA native packs: $($p.nextPack)/$($p.totalPacks) state=$($p.state)"
+          if ($p.nextPack -lt $p.totalPacks) {
+            if ($p.state -ne 'PARTIAL') { throw "Cannot dispatch after non-partial state $($p.state)" }
+            gh workflow run za-m2-full.yml --repo 969981/ZA_Resources --ref master -f "start_pack=$($p.nextPack)" -f "batch_packs=$env:BATCH_PACKS" -f "max_batches=$env:MAX_BATCHES"
+            if ($LASTEXITCODE -ne 0) { throw 'Failed to dispatch next M2 window; checkpoint remains durable in master' }
+            Write-Host "Queued next pack cursor $($p.nextPack)"
+          }
+          elseif ($p.state -eq 'COMPLETE') {
+            Write-Host 'All 13,181 packs audited against 238,546 original records without unresolved failures'
+          }
+          else {
+            throw "Visited all pack indices but full audit requires repair; state=$($p.state)"
+          }
