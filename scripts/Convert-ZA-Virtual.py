@@ -86,7 +86,7 @@ def dat_header(data: bytes) -> dict:
     if not (0 <= offset <= len(data) - 4 and count <= 1_000_000):
         raise ValueError("invalid DAT section pointers")
     section_length = struct.unpack_from("<I", data, offset)[0]
-    if section_length > len(data):
+    if section_length > len(data) - offset:
         raise ValueError("DAT section length exceeds physical file")
     return {"format": "Trinity message DAT", "textSectionCount": section,
             "textCount": count, "declaredLength": declared, "initialKey": initial_key,
@@ -193,7 +193,8 @@ def transform(source: Path, logical: str, dest: Path) -> tuple[str, list[Path], 
         atomic(target, normalized)
         return "CONVERTED", [target], "Strict text decoding/validation"
     if ext in (".gz", ".gzip") and data is not None:
-        expanded = gzip.decompress(data)
+        with gzip.GzipFile(fileobj=io.BytesIO(data), mode="rb") as stream:
+            expanded = stream.read(MAX_DECODE + 1)
         if len(expanded) > MAX_DECODE:
             return "UNSUPPORTED", [], "expanded size limit exceeded"
         target = dest / (logical + ".decompressed")
