@@ -30,7 +30,7 @@ STRING_PATTERN = re.compile(rb"[\x20-\x7e]{4,}")
 TERMS = re.compile(
     rb"(?i)(?:\.blua|script[/\\]lua|event_ik|dll_util|main_dynamic|"
     rb"luaL_|lua_[A-Za-z]|luaopen_|lua54|lua5\.4|trinity|"
-    rb"data\.trpf|loadbufferx|loadfilex|_ENV|LuaManager|LuaScript|"
+    rb"data\.trpf|loadbufferx|loadfilex|(?<![A-Za-z0-9])_ENV(?![A-Za-z0-9])|LuaManager|LuaScript|"
     rb"ScriptManager|IkScriptCommand)"
 )
 HIT_COLS = ("module", "evidence", "token", "file_offset_hex", "virtual_addr_hex",
