@@ -1,0 +1,73 @@
+name: ZA native Lua closure-to-call evidence join
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/Join-ZA-Lua-ClosureCalls.py'
+      - 'tests/test_za_lua_closure_join.py'
+      - '.github/workflows/za-lua-native-closure-join.yml'
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-c-f-method-edges.tsv'
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-c-s-static-edges.tsv'
+      - 'Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-register-flow-calls.tsv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-native-closure-join-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  closure-call-join:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Join-ZA-Lua-ClosureCalls.py
+            /tests/test_za_lua_closure_join.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-c-f-method-edges.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-c-s-static-edges.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-register-flow-calls.tsv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test join correctness and ambiguous-ownership rejection
+        run: python -m unittest discover -s tests -p test_za_lua_closure_join.py -v
+
+      - name: Join pinned native root closures to field calls
+        run: python scripts/Join-ZA-Lua-ClosureCalls.py --write
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-native-closure-call-join-${{ github.run_number }}
+          path: |
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-context.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-class-call-priority.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-summary.json
+          retention-days: 30
+
+      - name: Publish derived evidence on master
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-context.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-class-call-priority.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-unknown-call-closure-summary.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'analysis(za): publish native Lua closure-call provenance'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
