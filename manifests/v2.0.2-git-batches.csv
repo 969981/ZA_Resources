@@ -1,5 +1,5 @@
 ﻿Batch,CommitSHA,ArtifactFileCount,CommitFileCount,ArtifactBytes,CommitStatus,PushStatus,RecordedUtc,Notes
 001,35b098248fef14b54d1115891a9fca4bae444533,19,22,79484229,Committed,Success,2026-11-05 04:45:57 UTC,18 Raw files and PM.bnk 1-volume archive; pushed
 002,64cf3a1ca9a1fcc6d3f79f15a930cd6f34756359,6,7,236452875,Committed,Success,2026-11-05 04:45:57 UTC,Stream_dlc.pck complete 6-volume group; pushed
-003,,16,0,740854088,Pending,Pending,,Stream.pck complete 16-volume group; above 400 MiB but below 2 GiB
+003,3099f54c669a99e9c5dbca00f78dfb9782a0c571,16,17,740854088,Committed,Success,2026-11-05 04:51:58 UTC,Stream.pck complete 16-volume group; pushed as one commit despite 400 MiB target
 004,,87,0,4099730369,Not committed,Blocked,2026-11-05 04:42:03 UTC,data.trpfs complete 87-volume group exceeds GitHub 2 GiB single-push limit
