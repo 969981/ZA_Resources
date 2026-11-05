@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Randomizer Utility</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pkNX.Structures\pkNX.Structures.csproj" />
+  </ItemGroup>
+
+</Project>

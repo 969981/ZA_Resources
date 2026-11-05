@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Data Structures</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Evolution\evos_ss.pkl" />
+    <None Remove="Resources\Evolution\evos_uu.pkl" />
+    <None Remove="Resources\Personal\personal_swsh" />
+    <None Remove="Resources\Personal\personal_usum" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Evolution\evos_ss.pkl" />
+    <EmbeddedResource Include="Resources\Evolution\evos_uu.pkl" />
+    <EmbeddedResource Include="Resources\Personal\personal_swsh" />
+    <EmbeddedResource Include="Resources\Personal\personal_usum" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pkNX.Containers\pkNX.Containers.csproj" />
+  </ItemGroup>
+
+</Project>

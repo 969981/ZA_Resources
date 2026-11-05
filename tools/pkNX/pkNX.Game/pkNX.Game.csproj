@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Game Data Manager</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlatBuffers\SV\Trinity\pkNX.Structures.FlatBuffers.SV.Trinity.csproj" />
+    <ProjectReference Include="..\pkNX.Containers\pkNX.Containers.csproj" />
+    <ProjectReference Include="..\pkNX.Randomization\pkNX.Randomization.csproj" />
+    <ProjectReference Include="..\pkNX.Structures\pkNX.Structures.csproj" />
+    <ProjectReference Include="..\FlatBuffers\Arceus\pkNX.Structures.FlatBuffers.Arceus.csproj" />
+    <ProjectReference Include="..\FlatBuffers\SWSH\pkNX.Structures.FlatBuffers.SWSH.csproj" />
+    <ProjectReference Include="..\FlatBuffers\LGPE\pkNX.Structures.FlatBuffers.LGPE.csproj" />
+  </ItemGroup>
+
+</Project>
