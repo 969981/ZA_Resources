@@ -6,7 +6,9 @@ on:
     branches: [master, 'research/za-lua-host-elf-20261105']
     paths:
       - 'scripts/Probe-ZA-Lua-Host-ELF.py'
+      - 'scripts/Trace-ZA-Lua-Host-Callsites.py'
       - 'tests/test_za_lua_host_elf.py'
+      - 'tests/test_za_lua_host_callsites.py'
       - '.github/workflows/za-lua-host-elf.yml'
 
 permissions:
@@ -28,7 +30,9 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/Probe-ZA-Lua-Host-ELF.py
+            /scripts/Trace-ZA-Lua-Host-Callsites.py
             /tests/test_za_lua_host_elf.py
+            /tests/test_za_lua_host_callsites.py
             /Unpack/v2.0.2/exefs/exefs-manifest.json
             /Unpack/v2.0.2/exefs/main/main.elf
             /Unpack/v2.0.2/exefs/sdk/sdk.elf
@@ -41,11 +45,21 @@ jobs:
       - name: Synthetic AArch64 ELF and byte-provenance tests
         run: python -m unittest discover -s tests -p test_za_lua_host_elf.py -v
 
+      - name: Synthetic ELF callsite and pointer-trace validation
+        run: python -m unittest discover -s tests -p test_za_lua_host_callsites.py -v
+
       - name: Verify native ZA ELF SHA256 and search host Lua evidence
         run: python scripts/Probe-ZA-Lua-Host-ELF.py
 
+      - name: Derive bounded AArch64 callsite contexts and pointer/RELA sites
+        run: python scripts/Trace-ZA-Lua-Host-Callsites.py --window 20
+
       - name: Print bounded native loader-string and xref evidence for review
         run: |
+          echo '--- HIGH-SIGNAL LUA SITES ---'
+          cat Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-highsignal-sites.tsv
+          echo '--- POINTER / RELA (first 60) ---'
+          head -n 60 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-pointer-sites.tsv
           echo '--- STRING LOCATORS (first 120) ---'
           head -n 120 Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-string-locators.tsv
           echo '--- ADR/ADRP REFS (first 125) ---'
@@ -62,6 +76,10 @@ jobs:
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-string-locators.tsv
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-adr-references.tsv
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-hash-probes.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-highsignal-sites.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-bounded-context.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-pointer-sites.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-callsites-summary.json
 
       - name: Publish verified derived reports (master only)
         if: github.ref == 'refs/heads/master'
@@ -74,7 +92,11 @@ jobs:
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-probe-summary.json \
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-string-locators.tsv \
             Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-adr-references.tsv \
-            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-hash-probes.tsv
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-hash-probes.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-highsignal-sites.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-bounded-context.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-pointer-sites.tsv \
+            Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/native-host-elf-callsites-summary.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'analysis(za): publish pinned host ELF Lua string and ADR provenance'
           git fetch origin master
