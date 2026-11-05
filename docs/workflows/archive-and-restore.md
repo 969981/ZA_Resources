@@ -53,6 +53,20 @@ git push origin master
 
 For a split file, explicitly stage a limited range of `.7z.001`, `.002` etc. with each commit; finish the file before uploading the manifest. The scripts **do not** stage, commit, push or delete files.
 
+## 5. Optional safe Git batch publisher
+
+The publisher checks the manifest artifacts (SHA-256 plus 7z integrity), builds batches of 500 MiB by default and **does not change Git state unless explicitly requested**.
+
+```powershell
+# Preview artifact batches; no commits or network writes
+.\scripts\Publish-ZAArchives.ps1 -SevenZip 'D:\Tool\7-Zip\7z.exe'
+
+# Commit the manifest-listed files in batches and push to origin/master
+.\scripts\Publish-ZAArchives.ps1 -SevenZip 'D:\Tool\7-Zip\7z.exe' -Commit -Push
+```
+
+Before each push, the script checks that the remote head matches the expected pre-commit head. It stops when the remote changed or there are unrelated worktree/staged changes, and it does not use force-push or reset. If an interrupted run leaves local commits that were not pushed, inspect and reconcile them manually rather than replaying blindly. The manifest is committed last.
+
 ## Safety and constraints
 
 The GitHub ordinary Git hard limit is 100 MB per object; 90 MiB volumes fit it but a many-gigabyte repository can still be impractical. Consider authorized private artifact/object storage for bulk raw resources. The repository being private does not itself grant redistribution permission.
