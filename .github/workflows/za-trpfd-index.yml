@@ -19,11 +19,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           filter: blob:none
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
-            tools/ZA.TrinityDump
-            tools/gftool
-            tools/HashCaches/ZA
-            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc/data.trpfd
+            /tools/ZA.TrinityDump/**
+            /tools/gftool/**
+            /tools/HashCaches/ZA/**
+            /v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc/data.trpfd
       - name: Install .NET
         uses: actions/setup-dotnet@v4
         with:
