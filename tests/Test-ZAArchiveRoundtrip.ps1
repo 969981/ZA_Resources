@@ -76,7 +76,24 @@ try {
     } finally {
         [System.IO.File]::WriteAllBytes($archive, $partBytes)
     }
-    Write-Host 'PASS synthetic ZA archive / resume / manifest / verify / restore / corruption test.'
+    # Publisher must be plan-only by default, and commit artifact batches with the manifest last.
+    & git -C $repo init '-b' 'master' | Out-Null
+    if ($LASTEXITCODE -ne 0) { throw 'git init failed' }
+    & git -C $repo config user.email 'za-fixture@example.invalid'
+    & git -C $repo config user.name 'ZA Fixture'
+    & git -C $repo add -- AGENTS.md
+    & git -C $repo commit -m 'test: initialize synthetic repository' | Out-Null
+    if ($LASTEXITCODE -ne 0) { throw 'Fixture Git commit failed' }
+    & (Join-Path $repoScripts 'Publish-ZAArchives.ps1') -RepositoryRoot $repo -SevenZip $SevenZip -BatchMiB 100
+    $beforeCount = @(& git -C $repo rev-list --count HEAD)[0]
+    if ($beforeCount -ne '1') { throw 'Plan-only mode unexpectedly created a commit.' }
+    & (Join-Path $repoScripts 'Publish-ZAArchives.ps1') -RepositoryRoot $repo -SevenZip $SevenZip -BatchMiB 100 -Commit
+    $dirty = @(& git -C $repo status --porcelain=v1 -uall)
+    if ($dirty.Count -ne 0) { throw 'Publisher left changes after committing manifest and artifacts.' }
+    $lastMessage = @(& git -C $repo log -1 '--pretty=%s')[0]
+    if ($lastMessage -notmatch 'RomFS archive batch') { throw 'Expected final manifest commit.' }
+
+    Write-Host 'PASS synthetic ZA archive / resume / verify / restore / corruption / safe Git batches.'
 } finally {
     Remove-Item -LiteralPath $tempRoot -Recurse -Force -ErrorAction SilentlyContinue
 }
