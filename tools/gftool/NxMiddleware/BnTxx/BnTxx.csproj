@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>BnTxx</AssemblyTitle>
+    <Product>BnTxx</Product>
+    <Copyright>Copyright ©  2017</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.10" />
+  </ItemGroup>
+</Project>

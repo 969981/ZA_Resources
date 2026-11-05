@@ -1,0 +1,50 @@
+﻿using FlatSharp.Attributes;
+using Trinity.Core.Flatbuffers.Utils;
+using Trinity.Core.Flatbuffers.TR.Model;
+
+namespace GFTool.Core.Flatbuffers.TR.Scene.Components
+{
+    [FlatBufferTable]
+    public class ObjectLayer
+    {
+        [FlatBufferItem(0)]
+        public int Priority { get; set; }
+
+        [FlatBufferItem(1)]
+        public string Name { get; set; }
+
+        [FlatBufferItem(2)]
+        public Transform Srt { get; set; }
+    }
+
+    [FlatBufferTable]
+    public class trinity_SceneObject
+    {
+        [FlatBufferItem(0)]
+        public string Name { get; set; }
+
+        [FlatBufferItem(1)]
+        public SRT Srt { get; set; }
+
+        [FlatBufferItem(2)]
+        public bool KeepWorldSrt { get; set; }
+
+        [FlatBufferItem(3)]
+        public bool AttachTransform { get; set; }
+
+        [FlatBufferItem(4)]
+        public string AttachJointName { get; set; }
+
+        [FlatBufferItem(5)]
+        public bool Scriptable { get; set; }
+
+        [FlatBufferItem(6)]
+        public sbyte Priority { get; set; }
+
+        [FlatBufferItem(7)]
+        public ObjectLayer[] Layers { get; set; }
+
+        [FlatBufferItem(8)]
+        public string[] TagList { get; set; }
+    }
+}
