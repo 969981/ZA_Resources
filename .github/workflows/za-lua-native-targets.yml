@@ -1,0 +1,170 @@
+name: ZA 2.0.2 extract four verified native Lua scripts
+
+on:
+  push:
+    branches: [master]
+    paths: ['.github/workflows/za-lua-native-targets.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: za-native-lua-four-pack
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    steps:
+      - name: Sparse checkout code and verified descriptor index
+        uses: actions/checkout@v4
+        with:
+          path: code
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Restore-ZA-TrinityDirect.py
+            /scripts/Summarize-ZA-Trinity.py
+            /scripts/Locate-ZA-Lua-Packs.py
+            /scripts/Analyze-ZA-Lua-Native.py
+            /scripts/_vendor/Analyze-SV-Lua54.py
+            /scripts/deps/oo2core_8_win64.dll
+            /tools/ZA.TrinityDump/**
+            /tools/gftool/**
+            /tools/HashCaches/ZA/GFPAKHashCache.bin
+            /tools/PokeDocs-Supplement/ZA/Hashlists/Lua/unresolved-symbol-index.tsv
+            /manifests/v2.0.2/transfer_manifest.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/descriptor_summary.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/pack_index.tsv
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/file_index.tsv.gz
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+
+      - name: Restore source checkout of all 87 volumes
+        uses: actions/checkout@v4
+        with:
+          path: source
+          filter: blob:none
+          sparse-checkout: |
+            v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/arc
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Preflight exact v2.0.2 pack IDs and source archive volumes
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $arc = Join-Path $env:GITHUB_WORKSPACE 'source\v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1\arc'
+          $out = Join-Path $code 'Unpack\v2.0.2\romfs\arc\data.trpfs'
+          "ZA_CODE=$code" >> $env:GITHUB_ENV
+          "ZA_ARC=$arc" >> $env:GITHUB_ENV
+          "ZA_OUT=$out" >> $env:GITHUB_ENV
+          Set-Location $code
+          python scripts/Locate-ZA-Lua-Packs.py --verify-only
+          if ($LASTEXITCODE -ne 0) { throw 'Native indexed pack identities changed' }
+          $plan = Get-Content (Join-Path $out '_index\lua_pack_locations.json') -Raw | ConvertFrom-Json
+          if ((@($plan.target_pack_indices) -join ',') -ne '12145,12146,12147,12148') { throw 'Wrong target pack indices' }
+          $volumes = @(Get-ChildItem -LiteralPath $arc -Filter 'data.trpfs.7z.*' -File)
+          if ($volumes.Count -ne 87) { throw "Expected 87 verified archive volumes; got $($volumes.Count)" }
+          $seven = 'C:\Program Files\7-Zip\7z.exe'
+          if (-not (Test-Path -LiteralPath $seven)) { choco install 7zip -y --no-progress }
+          if (-not (Test-Path -LiteralPath $seven)) { throw '7-Zip missing' }
+          "SEVENZIP=$seven" >> $env:GITHUB_ENV
+
+      - name: Delete only redundant checkout Git pack, not source files
+        shell: pwsh
+        run: |
+          $p = Join-Path $env:GITHUB_WORKSPACE 'source\.git\objects\pack'
+          if (Test-Path -LiteralPath $p) { Remove-Item -LiteralPath $p -Recurse -Force }
+
+      - name: Reconstruct and hash-verify both original Trinity files
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $work = Join-Path $env:RUNNER_TEMP 'ZA_Native_Lua_Original'
+          New-Item -ItemType Directory -Force -Path $work | Out-Null
+          "ZA_WORK=$work" >> $env:GITHUB_ENV
+          $argsList = @('--manifest',"$env:ZA_CODE/manifests/v2.0.2/transfer_manifest.json",'--archive-root',"$env:ZA_ARC",'--workspace',"$work",'--sevenzip',"$env:SEVENZIP",'--evidence',"$env:ZA_OUT/_index/trpfs-restore.json")
+          python -u "$env:ZA_CODE/scripts/Restore-ZA-TrinityDirect.py" @argsList
+          if ($LASTEXITCODE -ne 0) { throw 'Native TRPFS restored bytes mismatch' }
+          Remove-Item -LiteralPath (Join-Path $env:GITHUB_WORKSPACE 'source') -Recurse -Force
+
+      - name: Build and dry-run native TRPFS decoder
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          dotnet build "$env:ZA_CODE/tools/ZA.TrinityDump/ZA.TrinityDump.csproj" -c Release
+          if ($LASTEXITCODE -ne 0) { throw 'ZA decoder build failed' }
+          $dll = "$env:ZA_CODE/tools/ZA.TrinityDump/bin/Release/net8.0/ZA.TrinityDump.dll"
+          $cache = "$env:ZA_CODE/tools/HashCaches/ZA/GFPAKHashCache.bin"
+          "ZA_DLL=$dll" >> $env:GITHUB_ENV
+          "ZA_CACHE=$cache" >> $env:GITHUB_ENV
+          & dotnet $dll --romfs "$env:ZA_WORK" --output "$env:ZA_OUT" --cache "$cache" --dry-run
+          if ($LASTEXITCODE -ne 0) { throw 'Actual TRPFS native index validation failed' }
+
+      - name: Decode ONLY four indexed Lua TRPAKs
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $oodle = "$env:ZA_CODE/scripts/deps/oo2core_8_win64.dll"
+          if (-not (Test-Path -LiteralPath $oodle)) { throw 'Pinned Oodle runtime missing' }
+          $argsList = @('--romfs',"$env:ZA_WORK",'--output',"$env:ZA_OUT",'--cache',"$env:ZA_CACHE",'--oodle',"$oodle",'--start-pack','12145','--max-packs','4','--max-files','4')
+          & dotnet "$env:ZA_DLL" @argsList
+          if ($LASTEXITCODE -ne 0) { throw 'Native Lua pack extraction failed; preserve export.jsonl' }
+
+      - name: Verify native output SHA256 and analyze Lua 5.4 references
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          python "$env:ZA_CODE/scripts/Summarize-ZA-Trinity.py" --output "$env:ZA_OUT"
+          if ($LASTEXITCODE -ne 0) { throw 'Extracted output SHA mismatch' }
+          python "$env:ZA_CODE/scripts/Analyze-ZA-Lua-Native.py" --require-all
+          if ($LASTEXITCODE -ne 0) { throw 'Native Lua missing or unsupported; see native-lua-summary.json' }
+
+      - name: Save extraction evidence even if commit/push fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-native-Lua-four-targets
+          path: |
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/trpfs-restore.json
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/export.jsonl
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/batch_summary.json
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native/**
+            code/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release/**/*.blua
+          retention-days: 30
+          if-no-files-found: warn
+          compression-level: 1
+
+      - name: Stage and commit verified data BEFORE fetch/rebase
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location -LiteralPath $env:ZA_CODE
+          $paths = @('Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release','Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua-native','Unpack/v2.0.2/romfs/arc/data.trpfs/_index/lua_pack_locations.json','Unpack/v2.0.2/romfs/arc/data.trpfs/_index/trpfs-restore.json','Unpack/v2.0.2/romfs/arc/data.trpfs/_index/batch_summary.json')
+          foreach ($path in $paths) { if (-not (Test-Path -LiteralPath $path)) { throw "Missing verified publication path $path" } }
+          Get-ChildItem 'Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/script/lua/bin/release' -File -Recurse | ForEach-Object { if ($_.Length -ge 100000000) { throw "Oversized file $($_.Name)" } }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- $paths
+          if ($LASTEXITCODE -ne 0) { throw 'Cannot stage verified artifacts' }
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Host 'No changes to publish'; exit 0 }
+          git commit -m 'data(za): verified original four Lua files and opcode evidence'
+          if ($LASTEXITCODE -ne 0) { throw 'Result commit failed' }
+          git fetch origin master
+          if ($LASTEXITCODE -ne 0) { throw 'Fetch latest master failed' }
+          git rebase origin/master
+          if ($LASTEXITCODE -ne 0) { throw 'Concurrent master update requires manual reconciliation' }
+          git push origin HEAD:master
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed; artifact retains decoded files' }
