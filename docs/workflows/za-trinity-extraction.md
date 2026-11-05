@@ -18,7 +18,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Prepare-ZA-Trinity
 # If needed: -SevenZip '<absolute 7z.exe>' -OodleDllPath '<existing local Oodle DLL>'
 ~~~
 
-Sync fetches pinned, real Git worktrees under ignored tools/_local. PokeDocs uses ZA/Hashlists/FileSystem, not SV. Prepare restores both trpfd and all trpfs volumes with the original-size/SHA-256 checks; generates the ZA-only GFPAKHashCache.bin; optionally adds ZA TRPAK hashes (-IncludeTrpakHashes). For previously restored inputs, -SkipRestore still performs SHA-256 verification. Oodle is local-only, not re-committed.
+Sync verifies all six complete pinned source snapshots in tools/ (including gftool/NxMiddleware). It does not clone or initialize submodules. PokeDocs uses tools/PokeDocs/ZA/Hashlists/FileSystem, not SV. Prepare restores both trpfd and all trpfs volumes with the original-size/SHA-256 checks; generates a ZA-only GFPAKHashCache.bin from bundled ZA lists; optionally adds ZA TRPAK hashes (-IncludeTrpakHashes). -SkipHashBuild reuses the verified bundled ZA FD+TRPAK cache if a local cache is absent. For previously restored inputs, -SkipRestore still performs SHA-256 verification. Oodle is local-only, not re-committed.
 
 ## Internal archive index and cautious extraction
 
@@ -38,7 +38,7 @@ Default outputs are under ignored Unpack/v2.0.2/romfs/arc/data.trpfs: virtual/ c
 ## Native NSO modules to ARM64 ELF
 
 ~~~powershell
-cmake -S tools/_local/nx2elf -B .za-work/nx2elf-build -DCMAKE_BUILD_TYPE=Release
+cmake -S tools/nx2elf -B .za-work/nx2elf-build -DCMAKE_BUILD_TYPE=Release
 cmake --build .za-work/nx2elf-build --config Release
 python .\scripts\Convert-ZA-ExeFS.py --nx2elf .\.za-work\nx2elf-build\Release\nx2elf.exe --names main
 # Optionally also run --names rtld sdk after checking whether the converter accepts their module format.
@@ -49,7 +49,8 @@ The converter validates NSO0 build-id bytes, ELF64 little-endian AArch64 magic, 
 ## Status and verification
 
 - CONFIRMED: source paths, manifest and original archived representation exist in ZA_Resources.
-- PENDING LOCAL CHECK: full archive restore, build of GFTool.Core and nx2elf, runtime decoder compatibility against ZA, decompression behavior, file-level extracted output hashes.
+- CONFIRMED: pinning of the six complete source trees and nested NxMiddleware; .NET build validation in CI.
+- PENDING LOCAL CHECK: full archive restore, nx2elf build, runtime decoder compatibility against ZA, decompression behavior, file-level extracted output hashes.
 - CANDIDATE: names obtained solely from PokeDocs/ZA hash lists; do not infer type, item ID or game behavior from a path.
 - UNKNOWN: full extractable count, correct virtual object types and any media/text conversion that requires separate parsers.
 

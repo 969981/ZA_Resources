@@ -11,4 +11,4 @@ See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for com
 
 ## Internal resource extraction
 
-See [tools](../tools/README.md) and [ZA extraction workflow](../docs/workflows/za-trinity-extraction.md). Run Sync-ZA-Tools.ps1 to obtain pinned tool sources; Prepare-ZA-Trinity.ps1 to restore verified original files; Run-ZA-TrinityDump.ps1 to index/extract, and Convert-ZA-ExeFS.py for NSO-to-ELF.
+See [tools](../tools/README.md) and [ZA extraction workflow](../docs/workflows/za-trinity-extraction.md). Run Sync-ZA-Tools.ps1 to verify the six committed pinned source snapshots; Prepare-ZA-Trinity.ps1 to restore verified original files; Run-ZA-TrinityDump.ps1 to index/extract, and Convert-ZA-ExeFS.py for NSO-to-ELF.
