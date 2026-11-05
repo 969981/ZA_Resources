@@ -1,0 +1,23 @@
+# Build, editor and Python artifacts
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Local archive staging and reconstructed outputs
+.za-work/
+.za-restore/
+restored/
+*.partial
+*.tmp
+*.7z
+
+# Do not accidentally stage the original large Trinity container.
+**/arc/data.trpfs
+**/audio/wwise/bin/Switch/Stream.pck
+**/audio/wwise/bin/Switch/Stream_dlc.pck
+
+# Intentionally NOT ignored: *.7z.001, *.7z.002, etc.

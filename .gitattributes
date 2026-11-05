@@ -1,0 +1,13 @@
+*.7z.[0-9][0-9][0-9] binary
+*.7z -text -diff
+*.bnk binary
+*.pck binary
+*.trpfd binary
+*.trpfs binary
+*.nso binary
+*.npdm binary
+*.trowc binary
+*.csv text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
