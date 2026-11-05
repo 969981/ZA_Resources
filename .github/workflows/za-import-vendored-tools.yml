@@ -1,0 +1,66 @@
+name: Import pinned SV tool sources into ZA
+on:
+  push:
+    branches: [master]
+    paths:
+      - tools/vendor-import-request.json
+      - scripts/Import-ZA-Vendored.py
+      - .github/workflows/za-import-vendored-tools.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: za-vendor-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout target ZA source-only (avoid archived game ROM)
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            tools
+            .github
+      - name: Fetch fixed SV source snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --sparse --no-checkout https://github.com/969981/SV_Resources.git "$RUNNER_TEMP/SV_Resources"
+          git -C "$RUNNER_TEMP/SV_Resources" sparse-checkout set --cone \
+            tools/gftool tools/PokeDocs tools/pkNX tools/Switch-Toolbox \
+            tools/SCVI_Extract tools/nx2elf tools/HashCaches/ZA tools/PokeDocs-Supplement/ZA
+          git -C "$RUNNER_TEMP/SV_Resources" fetch --depth=1 origin 500f840087de687545d7ed3dbaee996d82335592
+          git -C "$RUNNER_TEMP/SV_Resources" checkout --detach 500f840087de687545d7ed3dbaee996d82335592
+          test "$(git -C "$RUNNER_TEMP/SV_Resources" rev-parse HEAD)" = 500f840087de687545d7ed3dbaee996d82335592
+      - name: Import all six vendored trees and ZA supplemental references
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for name in gftool PokeDocs pkNX Switch-Toolbox SCVI_Extract nx2elf HashCaches/ZA PokeDocs-Supplement/ZA; do
+            python3 scripts/Import-ZA-Vendored.py \
+              --source "$RUNNER_TEMP/SV_Resources" \
+              --destination "$GITHUB_WORKSPACE" \
+              --spec tools/vendor-import-request.json \
+              --name "$name"
+            git add -f -- "tools/$name"
+            if ! git diff --cached --quiet; then
+              git commit -m "vendor(za): import pinned SV tools/$name source snapshot"
+              git push origin HEAD:master
+            fi
+          done
+      - name: Confirm all source paths committed with no gitlinks
+        shell: bash
+        run: |
+          set -euo pipefail
+          for p in gftool PokeDocs pkNX Switch-Toolbox SCVI_Extract nx2elf HashCaches/ZA PokeDocs-Supplement/ZA; do
+            test -d "tools/$p"
+            if git ls-files --stage "tools/$p" | grep -q '^160000 '; then
+              echo "Unexpected gitlink in tools/$p" >&2; exit 1
+            fi
+          done

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "969981/SV_Resources",
+  "sourceCommit": "500f840087de687545d7ed3dbaee996d82335592",
+  "checkedOn": "2026-11-05",
+  "sourcePaths": [
+    "tools/gftool",
+    "tools/PokeDocs",
+    "tools/pkNX",
+    "tools/Switch-Toolbox",
+    "tools/SCVI_Extract",
+    "tools/nx2elf",
+    "tools/HashCaches/ZA",
+    "tools/PokeDocs-Supplement/ZA"
+  ],
+  "intent": "Import Git-tracked source files, not gitlinks. Include nested NxMiddleware and ZA-only supplemental tables/cache.",
+  "policy": "No ROM files; never overwrite existing ZA.TrinityDump, README or third-party source checkout paths"
+}
