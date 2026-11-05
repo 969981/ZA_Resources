@@ -52,8 +52,9 @@ class ZAVirtualConverterTests(unittest.TestCase):
             state, outputs, _ = m.transform(source, "ik_message/dat/English/bag.tbl", dest)
             self.assertEqual(state, "CONVERTED")
             self.assertEqual(json.loads(outputs[0].read_text())["count"], 0)
-            source.write_bytes(b"random\x00\x01")
-            state, paths, _ = m.transform(source, "ik_pokemon/blob.unsupported", dest)
+            unknown = Path(td) / "blob.unsupported"
+            unknown.write_bytes(b"random\x00\x01")
+            state, paths, _ = m.transform(unknown, "ik_pokemon/blob.unsupported", dest)
             self.assertEqual(state, "UNSUPPORTED")
             self.assertEqual(paths, [])
 
