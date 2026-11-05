@@ -1,0 +1,119 @@
+name: ZA RomFS remainder - Wwise BNK/PCK and Trinity config
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/za-romfs-remainder.yml
+      - scripts/Extract-ZA-RomFS-Remainder.py
+      - tests/test_za_romfs_remainder.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: za-v2-0-2-romfs-remainder
+  cancel-in-progress: false
+jobs:
+  extract:
+    runs-on: windows-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout processing code and output
+        uses: actions/checkout@v4
+        with:
+          path: code
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Restore-ZARomFS.ps1
+            /scripts/Extract-ZA-RomFS-Remainder.py
+            /tests/test_za_romfs_remainder.py
+            /manifests/v2.0.2/transfer_manifest.json
+            /Unpack/v2.0.2/romfs/audio/**
+            /Unpack/v2.0.2/romfs/system/**
+            /Unpack/v2.0.2/romfs/_index/**
+      - name: Checkout only the 20 original source files or archive volumes
+        uses: actions/checkout@v4
+        with:
+          path: source
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/audio/**
+            /v2.0.2/4a70b3ff963bfe412681185cea68bf55_NCA/1/system/config/data/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regression tests and manifest preflight
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          python -m py_compile scripts/Extract-ZA-RomFS-Remainder.py
+          if ($LASTEXITCODE -ne 0) { throw 'Parser Python syntax failure' }
+          python -m unittest discover -s tests -p 'test_za_romfs_remainder.py' -v
+          if ($LASTEXITCODE -ne 0) { throw 'Parser synthetic tests failed' }
+          $manifest = Get-Content manifests/v2.0.2/transfer_manifest.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          $files = @($manifest.files | Where-Object { $_.sourceRelativePath -like 'audio/*' -or $_.sourceRelativePath -like 'system/config/*' })
+          if ($files.Count -ne 20) { throw "Expected 20 original sources; got $($files.Count)" }
+          if (-not (Test-Path 'C:\Program Files\7-Zip\7z.exe')) { throw '7zip missing' }
+      - name: Restore all original files with independent SHA-256 verification
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $code = Join-Path $env:GITHUB_WORKSPACE 'code'
+          $src = Join-Path $env:GITHUB_WORKSPACE 'source'
+          $native = Join-Path $src 'v2.0.2\4a70b3ff963bfe412681185cea68bf55_NCA\1'
+          $manifestPath = Join-Path $code 'manifests\v2.0.2\transfer_manifest.json'
+          $manifest = Get-Content $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+          $files = @($manifest.files | Where-Object { $_.sourceRelativePath -like 'audio/*' -or $_.sourceRelativePath -like 'system/config/*' })
+          $out = Join-Path $env:RUNNER_TEMP 'ZA_Original_RomFS'
+          New-Item -ItemType Directory -Force -Path $out | Out-Null
+          "ZA_RESTORED=$out" >> $env:GITHUB_ENV
+          foreach ($entry in $files) {
+            Write-Host "RESTORE+VERIFY $($entry.sourceRelativePath)"
+            & (Join-Path $code 'scripts\Restore-ZARomFS.ps1') -RepositoryRoot $src -TargetPath $native -DestinationRoot $out -ManifestJson $manifestPath -SourceRelativePath $entry.sourceRelativePath -SevenZip 'C:\Program Files\7-Zip\7z.exe'
+            if (-not $?) { throw "Restore failed $($entry.sourceRelativePath)" }
+          }
+      - name: Secondary parse all 20 restored source files
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          $media = Join-Path $env:RUNNER_TEMP 'ZA_PCK_MEDIA'
+          python -u scripts/Extract-ZA-RomFS-Remainder.py --source-root "$env:ZA_RESTORED" --output-root Unpack/v2.0.2/romfs --pck-media-root "$media" --manifest manifests/v2.0.2/transfer_manifest.json
+          if ($LASTEXITCODE -ne 0) { throw 'Secondary extraction failed' }
+          $audit = Get-Content Unpack/v2.0.2/romfs/_index/remaining-romfs-audit.json -Raw | ConvertFrom-Json
+          if ($audit.processedSourceFiles -ne 20) { throw 'Incomplete source coverage' }
+          Write-Host "SOURCE COUNT=20 PARTIAL=$($audit.partialFiles)"
+      - name: Upload Stream.pck media (private Actions artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-Stream-media
+          path: ${{ runner.temp }}/ZA_PCK_MEDIA/Stream/
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Upload Stream_dlc.pck media (private Actions artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-Stream-dlc-media
+          path: ${{ runner.temp }}/ZA_PCK_MEDIA/Stream_dlc/
+          compression-level: 0
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Commit verified small media and source-to-output indexes
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location (Join-Path $env:GITHUB_WORKSPACE 'code')
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- Unpack/v2.0.2/romfs/audio Unpack/v2.0.2/romfs/system Unpack/v2.0.2/romfs/_index
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Host 'No new outputs'; exit 0 }
+          git commit -m 'data(za): secondary Wwise media and Trinity config indexes'
+          if ($LASTEXITCODE -ne 0) { throw 'Git commit failed' }
+          git -c http.version=HTTP/1.1 push origin HEAD:master
+          if ($LASTEXITCODE -ne 0) { throw 'Git push failed; artifacts remain in run' }
