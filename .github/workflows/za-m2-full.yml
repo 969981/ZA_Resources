@@ -78,6 +78,7 @@ jobs:
           sparse-checkout: |
             /scripts/**
             /tests/test_za_full_extract.py
+            /tests/test_za_parallel.py
             /tests/test_za_trinity_*.py
             /tools/ZA.TrinityDump/**
             /tools/gftool/**
