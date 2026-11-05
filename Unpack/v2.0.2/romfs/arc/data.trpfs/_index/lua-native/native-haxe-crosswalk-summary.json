@@ -1,0 +1,20 @@
+{
+  "scope": "ZA native Lua opcode references joined to third-party Haxe by 64-bit Hash only",
+  "version": "v2.0.2",
+  "total_unknown": 162,
+  "unresolved_s": 116,
+  "unresolved_f": 43,
+  "unresolved_e": 3,
+  "haxe_reference_rows": 258,
+  "native_opcode_reference_rows": 2140,
+  "unique_s_with_native_opcode_and_haxe": 111,
+  "native_class_s_static_edges": 104,
+  "evidence_grades": {
+    "NATIVE_OPCODE_ONLY": 46,
+    "NATIVE_OPCODE_AND_HAXE_REFERENCES_NOT_NAME_CONFIRMED": 111,
+    "HAXE_RECONSTRUCTION_ONLY": 5
+  },
+  "original_names_recovered": 0,
+  "native_symbol_names_confirmed": 0,
+  "warning": "No original name is inferred; crosswalk is between independent evidence levels."
+}
