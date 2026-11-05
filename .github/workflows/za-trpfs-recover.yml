@@ -1,5 +1,5 @@
 name: Recover verified ZA Trinity first two packs (no 4GB restore)
-# Compare native indexes semantically; gzip streams may not be bit-identical.
+# Normalize Windows vs Linux newlines in native decoded index comparison.
 on:
   push:
     branches: [master]
