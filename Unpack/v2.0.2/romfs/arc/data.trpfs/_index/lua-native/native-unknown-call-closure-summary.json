@@ -1,0 +1,271 @@
+{
+  "version": "v2.0.2",
+  "sources": {
+    "native-c-f-method-edges.tsv": "16d3423581d742cb05e857984f0210182125c9877e31197ccb5c69eb6d245d3c",
+    "native-c-s-static-edges.tsv": "a5129c394b8dbc4595a7a1ce1b574eca877a91415327004afd00d61abd2d9aec",
+    "native-unknown-register-flow-calls.tsv": "cd2a5ed2cf963e9bcce57874f467cb5275ba3d8702fce00167ee3d38af6176b3"
+  },
+  "closure_edges_F": 3064,
+  "closure_edges_S": 878,
+  "distinct_root_closure_proto_keys": 3942,
+  "field_call_edges": 1488,
+  "matched_root_closure_calls": 1461,
+  "matched_distinct_proto_keys": 654,
+  "unmatched_nested_proto_calls": 9,
+  "unmatched_root_or_other_calls": 18,
+  "unmatched_calls": 27,
+  "matched_owner_kinds": {
+    "F": 1414,
+    "S": 47
+  },
+  "distinct_owner_class_hashes_with_calls": 606,
+  "class_method_called_hash_groups": 906,
+  "unmatched_details": [
+    {
+      "source": "event_ik",
+      "proto_id": 88,
+      "parent_proto_id": 87,
+      "called_hash_token": "S83CD71CD25CA742A",
+      "field_pc": 68,
+      "call_pc": 71,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "event_ik",
+      "proto_id": 106,
+      "parent_proto_id": 104,
+      "called_hash_token": "S9EA40BCD5253F83E",
+      "field_pc": 2,
+      "call_pc": 4,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "event_ik",
+      "proto_id": 328,
+      "parent_proto_id": 323,
+      "called_hash_token": "S522136910C73A819",
+      "field_pc": 5,
+      "call_pc": 7,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "event_ik",
+      "proto_id": 602,
+      "parent_proto_id": 599,
+      "called_hash_token": "S522136910C73A819",
+      "field_pc": 5,
+      "call_pc": 7,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "event_ik",
+      "proto_id": 4379,
+      "parent_proto_id": 4378,
+      "called_hash_token": "SB70BF7116F3080EE",
+      "field_pc": 28,
+      "call_pc": 30,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "event_ik",
+      "proto_id": 7315,
+      "parent_proto_id": 7314,
+      "called_hash_token": "S7BF170BA136B3024",
+      "field_pc": 6,
+      "call_pc": 7,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "SB70BF7116F3080EE",
+      "field_pc": 47,
+      "call_pc": 49,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S1CF5627159EB1274",
+      "field_pc": 117,
+      "call_pc": 120,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S1CF5627159EB1274",
+      "field_pc": 136,
+      "call_pc": 139,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S1CF5627159EB1274",
+      "field_pc": 195,
+      "call_pc": 198,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S1CF5627159EB1274",
+      "field_pc": 223,
+      "call_pc": 226,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S750E4F543AC2EEDE",
+      "field_pc": 231,
+      "call_pc": 233,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 80,
+      "parent_proto_id": 0,
+      "called_hash_token": "S50344259181D5CD3",
+      "field_pc": 351,
+      "call_pc": 352,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 104,
+      "parent_proto_id": 0,
+      "called_hash_token": "S3DA3C2734573239A",
+      "field_pc": 19,
+      "call_pc": 21,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 104,
+      "parent_proto_id": 0,
+      "called_hash_token": "SEC6DDCC62CD7FDE5",
+      "field_pc": 27,
+      "call_pc": 29,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 125,
+      "parent_proto_id": 0,
+      "called_hash_token": "S6F661D1718C5D7E9",
+      "field_pc": 3,
+      "call_pc": 5,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 139,
+      "parent_proto_id": 0,
+      "called_hash_token": "SC171403DAE7D447B",
+      "field_pc": 34,
+      "call_pc": 35,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 141,
+      "parent_proto_id": 139,
+      "called_hash_token": "F3E4D129EBEFAE608",
+      "field_pc": 1,
+      "call_pc": 3,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 142,
+      "parent_proto_id": 139,
+      "called_hash_token": "F3E4D129EBEFAE608",
+      "field_pc": 1,
+      "call_pc": 3,
+      "status": "UNMATCHED_NESTED_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 143,
+      "parent_proto_id": 0,
+      "called_hash_token": "F531B6BACAB79B38F",
+      "field_pc": 23,
+      "call_pc": 24,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 143,
+      "parent_proto_id": 0,
+      "called_hash_token": "S7BF170BA136B3024",
+      "field_pc": 26,
+      "call_pc": 27,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 143,
+      "parent_proto_id": 0,
+      "called_hash_token": "S1AD21CC7D382F5A1",
+      "field_pc": 33,
+      "call_pc": 34,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 151,
+      "parent_proto_id": 0,
+      "called_hash_token": "FF4139941E7F5D1CE",
+      "field_pc": 32,
+      "call_pc": 34,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 156,
+      "parent_proto_id": 0,
+      "called_hash_token": "SDF42F9D9961D0772",
+      "field_pc": 1,
+      "call_pc": 2,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 163,
+      "parent_proto_id": 0,
+      "called_hash_token": "S3D047DB5B440735C",
+      "field_pc": 1,
+      "call_pc": 2,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 172,
+      "parent_proto_id": 0,
+      "called_hash_token": "F54EBD95267AC81A8",
+      "field_pc": 8,
+      "call_pc": 9,
+      "status": "UNMATCHED_ROOT_OR_OTHER_PROTO"
+    },
+    {
+      "source": "main",
+      "proto_id": 912,
+      "parent_proto_id": 911,
+      "called_hash_token": "S4A78500276697F78",
+      "field_pc": 7,
+      "call_pc": 8,
+      "status": "UNMATCHED_NESTED_PROTO"
+    }
+  ],
+  "original_names_recovered": 0,
+  "receiver_classes_confirmed": 0,
+  "warning": "source+proto_id joins the enclosing root-level closure definition only. It does not establish that a call's field receiver is the owner class, nor runtime execution, original name, or dynamic dispatch."
+}
