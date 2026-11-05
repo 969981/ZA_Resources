@@ -1,4 +1,5 @@
 name: ZA v2.0.2 ExeFS extraction
+# NPDM ACID begins with a signed 0x200-byte envelope before the ACID magic.
 
 on:
   push:

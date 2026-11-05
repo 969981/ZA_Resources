@@ -10,19 +10,19 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 def fake_npdm():
-    raw = bytearray(0x180)
+    raw = bytearray(0x500)
     raw[:4] = b"META"
     raw[0x20:0x2b] = b"Application"
-    struct.pack_into("<4I", raw, 0x70, 0x120, 0x30, 0x80, 0x60)
-    raw[0x80:0x84] = b"ACID"
-    raw[0x120:0x124] = b"ACI0"
+    struct.pack_into("<4I", raw, 0x70, 0x420, 0x30, 0x80, 0x380)
+    raw[0x280:0x284] = b"ACID"
+    raw[0x420:0x424] = b"ACI0"
     return raw
 
 class TestNPDM(unittest.TestCase):
     def test_good(self):
         info, sections = module.extract_npdm(bytes(fake_npdm()))
-        self.assertEqual([len(sections["ACID"]), len(sections["ACI0"])], [0x60, 0x30])
-        self.assertEqual([x["offset"] for x in info["sections"]], [0x80, 0x120])
+        self.assertEqual([len(sections["ACID"]), len(sections["ACI0"])], [0x380, 0x30])
+        self.assertEqual([x["offset"] for x in info["sections"]], [0x80, 0x420])
         self.assertEqual(info["titleAsciiCandidate"], "Application")
 
     def test_bad_bounds_and_magic(self):
@@ -31,14 +31,14 @@ class TestNPDM(unittest.TestCase):
         with self.assertRaises(ValueError):
             module.extract_npdm(bytes(raw))
         raw = fake_npdm()
-        raw[0x120:0x124] = b"NOPE"
+        raw[0x420:0x424] = b"NOPE"
         with self.assertRaises(ValueError):
             module.extract_npdm(bytes(raw))
 
     def test_overlap(self):
         raw = fake_npdm()
-        struct.pack_into("<I", raw, 0x70, 0xC0)
-        raw[0xC0:0xC4] = b"ACI0"
+        struct.pack_into("<I", raw, 0x70, 0x3C0)
+        raw[0x3C0:0x3C4] = b"ACI0"
         with self.assertRaises(ValueError):
             module.extract_npdm(bytes(raw))
 

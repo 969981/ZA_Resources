@@ -29,8 +29,12 @@ def extract_npdm(data: bytes) -> tuple[dict, dict[str, bytes]]:
         if not size or offset < 0x80 or offset > len(data) or size > len(data) - offset:
             raise ValueError(f"Out-of-range {name} offset or size")
         raw = data[offset:offset + size]
-        if raw[:4] != name.encode("ascii"):
-            raise ValueError(f"Wrong {name} signature")
+        # ACID starts with a 0x100-byte RSA signature and a 0x100-byte modulus.
+        # The literal ACID header follows those 0x200 bytes, while ACI0
+        # begins with its own magic at the start of its META-designated slice.
+        magic_delta = 0x200 if name == "ACID" else 0
+        if len(raw) < magic_delta + 4 or raw[magic_delta:magic_delta + 4] != name.encode("ascii"):
+            raise ValueError(f"Wrong {name} signature at 0x{offset + magic_delta:X}")
         intervals.append((offset, offset + size, name))
         sections[name] = raw
     a, b = sorted(intervals)
@@ -38,8 +42,10 @@ def extract_npdm(data: bytes) -> tuple[dict, dict[str, bytes]]:
         raise ValueError("Overlapping NPDM substructures")
     def desc(name: str, off: int, size: int) -> dict:
         raw = sections[name]
+        magic_delta = 0x200 if name == "ACID" else 0
         return {"name": name, "offsetHex": f"0x{off:X}", "offset": off,
-                "length": size, "sha256": sha256(raw), "magic": raw[:4].decode("ascii"),
+                "magicOffsetHex": f"0x{off + magic_delta:X}",
+                "length": size, "sha256": sha256(raw), "magic": name,
                 "output": f"{name}.bin"}
     title = data[0x20:0x30].split(b"\0", 1)[0]
     try:
@@ -54,7 +60,7 @@ def extract_npdm(data: bytes) -> tuple[dict, dict[str, bytes]]:
         "titleFieldRawHex": data[0x20:0x30].hex(),
         "titleAsciiCandidate": title_text,
         "sections": [desc("ACID", acid_offset, acid_size), desc("ACI0", aci_offset, aci_size)],
-        "verification": ["META and section magic", "META section offset/length bounds",
+        "verification": ["META and section magic (ACID magic at section + 0x200)", "META section offset/length bounds",
                          "non-overlapping sections", "source SHA-256",
                          "exported bytes slice equality"],
         "status": "CONFIRMED_STRUCTURAL",
