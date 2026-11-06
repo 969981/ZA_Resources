@@ -44,6 +44,7 @@ def main():
     parser.add_argument("--elf",type=Path,default=ELF)
     parser.add_argument("--report",type=Path,default=REPORT)
     parser.add_argument("--output",type=Path,default=OUTPUT)
+    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor"],default="exact-never")
     parser.add_argument("--before",type=lambda x:int(x,0),default=0x100)
     parser.add_argument("--after",type=lambda x:int(x,0),default=0x100)
     p=parser.parse_args()
@@ -52,20 +53,21 @@ def main():
     actual=hashlib.sha256(raw).hexdigest()
     if actual!=report["elf_sha256"]:
         raise SystemExit("ELF and report SHA mismatch")
-    sites=report["arm64_scan"]["exact_never_instruction_sites"]
+    field="exact_never_instruction_sites" if p.site_kind=="exact-never" else "anti_shiny_xor_candidates"
+    sites=report["arm64_scan"][field]
     if not sites: raise SystemExit("No exact sites")
     md=Cs(CS_ARCH_ARM64,CS_MODE_ARM)
     md.detail=False
     segs=list(segments(raw))
     lines=[
-        "# Z-A v2.0.2 Rare 0x1FFFFFFF exact-immediate instruction contexts",
+        "# Z-A v2.0.2 "+("Rare mask 0x1FFFFFFF" if p.site_kind=="exact-never" else "AntiShiny XOR 0x10000000")+" exact opcode contexts",
         "",
         "> [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.",
         "",
         "- main.elf SHA-256: "+actual,
         "- Exact scanner site count: "+str(len(sites)),
         "- Instruction window: 0x%X bytes before and 0x%X bytes after."%(p.before,p.after),
-        "- To confirm: trace input-register origin to EncountData.Rare and verify the caller/PID branch in GDB.",
+        "- To confirm: trace operand register origin and TID/PID xor logic in the same function; verify runtime via GDB, not just opcode shape.",
         "",
     ]
     for site in sites:
