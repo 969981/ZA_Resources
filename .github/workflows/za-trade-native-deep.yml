@@ -5,6 +5,7 @@ on:
     branches: [docs/za-items-obsidian-20261106]
     paths:
       - scripts/Probe-ZA-Trade-Native-Deep.py
+      - scripts/Probe-ZA-ItemID-Table-Xrefs.py
       - .github/workflows/za-trade-native-deep.yml
   workflow_dispatch:
 
@@ -23,11 +24,15 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             scripts/Probe-ZA-Trade-Native-Deep.py
+            scripts/Probe-ZA-ItemID-Table-Xrefs.py
+            docs/research/v2.0.2/data/za-v2.0.2-items-all-fields.csv
             scripts/Probe-ZA-Lua-Host-ELF.py
             Unpack/v2.0.2/exefs/exefs-manifest.json
             Unpack/v2.0.2/exefs/main/main.elf
       - name: Run ELF read-only trade ref and relocation scan
         run: python3 scripts/Probe-ZA-Trade-Native-Deep.py --repo . --output .za-work/trade-native-deep
+      - name: Audit adjacent orb and Mega item-ID constants
+        run: python3 scripts/Probe-ZA-ItemID-Table-Xrefs.py
       - name: Inspect reproducibility summary
         run: |
           python3 - <<'PY'
