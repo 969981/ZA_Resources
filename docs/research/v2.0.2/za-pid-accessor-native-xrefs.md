@@ -19,7 +19,7 @@ status: STATIC_CALLS_CONFIRMED_RUNTIME_LOGIC_UNKNOWN
 - 字段 getter/setter 外部逆向来源：[pokeldn Z-A 2.0.2](https://decryptu.github.io/pokeldn/za.html)
 - [本仓库直接 B/BL 指令和分支目标完整 JSON](za-pid-accessor-callsite-xrefs.json)
 - [扫描脚本](../../../scripts/Trace-ZA-PID-Accessor-Callers.py)
-- [6? 不是：本轮实际为 5 项合成测试 + 真实 ELF 扫描的 Actions 记录](https://github.com/969981/ZA_Resources/actions/runs/42204522442)
+- [本轮 5 项合成测试与真实 ELF 扫描通过的 Actions 记录](https://github.com/969981/ZA_Resources/actions/runs/42204522442)
 
 注意这些 PC 是 ELF 内的静态虚拟地址；作为运行时 main+offset 使用之前，必须通过 NSO 映射和运行时 GDB 确认。
 
