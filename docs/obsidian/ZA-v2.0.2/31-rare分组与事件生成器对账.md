@@ -13,6 +13,7 @@ status: 源配置E2-生成器外键E3-闪光机制待E4
 ## 1. 已完成的实物 CSV
 
 - [ZA_rare_context_matrix.csv](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/encounters/ZA_rare_context_matrix.csv)：根据 Encounter 名称前缀，把全部 1,966 条配置分为若干来源类别，再对不同 `rareHex` 统计数量和关联生成器次数。
+- [ZA_event_spawner_all_candidates.csv](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/encounters/ZA_event_spawner_all_candidates.csv)：**8 条真实“同一生成器全部候选”记录**。特别是蒂安希支线 `id_sub119_01` 同时引用蒂安希（719、70 级）与两条小碎钻（703、66 级）；这三个条目都是 `0x1FFFFFFF`，不能遗漏伴随实体。
 - [ZA_rare_event_spawner_crosscheck.csv](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/encounters/ZA_rare_event_spawner_crosscheck.csv)：7 组关键剧情样本，含 **中文名称、等级、六项 IV 原值、四招 ID、spawner ID、区域推断**。
 - [ZA_rare_static_summary.json](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/_audit/ZA_rare_static_summary.json)：全部源统计与 SHA 引用方式，明确 no_verified_main_rva。
 - 生成器：[scripts/Audit-ZA-Rare.py](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/scripts/Audit-ZA-Rare.py)；同一 Actions 工作流每次更新脚本均重新生成 CSV。
@@ -59,6 +60,20 @@ status: 源配置E2-生成器外键E3-闪光机制待E4
 前六个非 `Qst074` 样本中，有些 `rare=0x1FFFFFFF` 可能对应剧情锁闪路径，但**这还不是确定的分支解释**；最后一条是完整 1,966 条里唯一的 `0x2FFFFFFF`。
 
 `ect_boss_0718_01` 没出现在该批 spawner 的引用里，**不表示它未被游戏使用**：Boss 战斗专用加载器、事件脚本或另外的配置入口均可能直接使用它。
+
+## 3.1 同一个剧情生成器可能有多条 Encounter
+
+以 `id_sub119_01` 为例，新的完整候选 CSV 并不是只显示蒂安希。它有如下**三条真实引用**：
+
+| Encounter | 宝可梦 | Level | Rare | weightRaw |
+|---|---|---:|---|---:|
+| `sub_119_diancie` | 蒂安希 719 | 70 | `0x1FFFFFFF` | 100 |
+| `sub_119_melecie_01` | 小碎钻 703 | 66 | `0x1FFFFFFF` | 100 |
+| `sub_119_melecie_02` | 小碎钻 703 | 66 | `0x1FFFFFFF` | 100 |
+
+生成器的每条 `weightRaw=100` 都是其**局部源配置数值**，不能因为有三条就推出“随机三选一且概率均分”。还可能是独立多个外观对象、条件/队伍或剧情创建流程。把三者的运行时数据放在同一组对照，才不容易将伴随实体的创建调用误判为锁闪过程。
+
+其余可严格确认的本轮例子：`id_sub120_01` → 超梦，`id_chapter10_X` → 哲尔尼亚斯，`id_chapter10_Y` → 伊裴尔塔尔，`id_chapter4_01` → 基格尔德，`id_spn_a0102_w01_v01_Qst074` → 咩利羊；Boss `ect_boss_0718_01` 没有当前 Spawner 的显式引用。
 
 ## 4. 为什么咩利羊是最重要的正向差分？
 
