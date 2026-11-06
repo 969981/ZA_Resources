@@ -65,6 +65,14 @@
       "tblSha256": "3dbb857d49af3f40aaff928a973a599083329c211187883e2bebf345f0a3b1f4",
       "extraMaxLabel": "msg_wazainfo_max"
     },
+    "waza_array": {
+      "source": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/waza_array.bin",
+      "sha256": "247d7ebc82decb67019c52535a2b5f04d3e9179b925b5532eb4b5ea9e351b245",
+      "totalBytes": 91924,
+      "moveRecords": 902,
+      "distinctMoveIds": 902,
+      "fieldSemantics": "calibrated by independent known moves, not full schema"
+    },
     "personal_array": {
       "source": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin",
       "sha256": "7b9bee08230d343f662540c52a9f126de8e5f02e80e482298b8e8f3683cea332",
@@ -81,6 +89,8 @@
     "Only present flag 1 means personal entry present in current game."
   ],
   "outputs": {
+    "moveStatsRows": 902,
+    "moveRawFieldRows": 902,
     "speciesTranslated": 1026,
     "moveTranslated": 921,
     "levelupMoves": 20234,
