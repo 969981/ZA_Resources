@@ -1,0 +1,60 @@
+name: ZA v2.0.2 Rare ARM64 static evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/Scan-ZA-Rare-ARM64.py'
+      - 'tests/test_za_rare_arm64.py'
+      - '.github/workflows/za-rare-arm64-static.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: za-rare-arm64-static-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  rare-arm64-static:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Scan-ZA-Rare-ARM64.py
+            /tests/test_za_rare_arm64.py
+            /Unpack/v2.0.2/exefs/main/main.elf
+            /Unpack/v2.0.2/exefs/exefs-manifest.json
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test synthetic ARM64 and FlatBuffers decoders
+        run: python -m unittest discover -s tests -p test_za_rare_arm64.py -v
+      - name: Scan SHA-pinned Z-A v2.0.2 main.elf and battle source
+        run: python scripts/Scan-ZA-Rare-ARM64.py --limit 60
+      - name: Upload candidate report for manual review
+        uses: actions/upload-artifact@v4
+        with:
+          name: za-v2.0.2-rare-arm64-static-${{ github.run_number }}
+          retention-days: 30
+          path: docs/research/v2.0.2/za-rare-arm64-static-candidates.json
+      - name: Commit bounded static evidence report, no game binary
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'analysis(za): publish v2.0.2 Rare AArch64 static candidates'
+          git fetch origin master
+          git rebase origin/master
+          git push origin HEAD:master
