@@ -22,3 +22,5 @@ No internal Trinity field maps have been independently validated in this documen
 
 - [道具主表 FlatBuffers、分类体系、中文文本及导出流程](za-item-data-and-classification.md)
 - [Mega 石与红蓝宝珠交换限制：证据、设计假说与实测路径](za-mega-stone-orb-trade-restrictions.md)
+
+- [ZA 2.0.2 原生道具 535 项实表、92 种 Mega 石和红蓝宝珠对账](za-items-real-data-audit.md) — 完整字段 CSV、中文关联、对照组和复现脚本。
