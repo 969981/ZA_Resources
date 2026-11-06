@@ -1,0 +1,232 @@
+site_label	anchor_pc	instruction_pc	relative_bytes	mnemonic	operands
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4114	-64	ret	
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4118	-60	ldr	w8, [x0, #0x134]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC411C	-56	cmp	w8, #5
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4120	-52	mov	w8, #3
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4124	-48	cinc	w0, w8, eq
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4128	-44	ret	
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC412C	-40	mov	w0, #3
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4130	-36	ret	
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4134	-32	mov	w0, #5
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4138	-28	ret	
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC413C	-24	sub	sp, sp, #0x50
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4140	-20	stp	x29, x30, [sp, #0x20]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4144	-16	stp	x22, x21, [sp, #0x30]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4148	-12	stp	x20, x19, [sp, #0x40]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC414C	-8	add	x29, sp, #0x20
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4150	-4	mov	x20, x0
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4154	+0	adrp	x0, #0x3252000
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4158	+4	add	x0, x0, #0xd03
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC415C	+8	mov	x22, x2
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4160	+12	mov	x19, x1
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4164	+16	bl	#0xc360c0
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4168	+20	str	x0, [sp, #8]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC416C	+24	add	x1, sp, #8
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4170	+28	mov	x0, x20
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4174	+32	bl	#0x96129c
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4178	+36	and	w8, w0, #0xffff
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC417C	+40	cmp	w8, #0x100
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4180	+44	b.hs	#0x2dc41a0
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4184	+48	mov	w0, wzr
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4188	+52	ldp	x20, x19, [sp, #0x40]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC418C	+56	and	w0, w0, #1
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4190	+60	ldp	x22, x21, [sp, #0x30]
+TradeCommandCancel_type_name_ref	0x2DC4154	0x2DC4194	+64	ldp	x29, x30, [sp, #0x20]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304A0	-64	sub	w9, w8, #4
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304A4	-60	cmp	w9, #2
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304A8	-56	b.hs	#0x2d305a4
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304AC	-52	ldrb	w8, [x19, #0x122]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304B0	-48	str	x19, [x29, #0x18]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304B4	-44	cbz	w8, #0x2d304c8
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304B8	-40	mov	x0, x19
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304BC	-36	strb	w8, [x19, #0x123]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304C0	-32	strb	wzr, [x19, #0x122]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304C4	-28	bl	#0xcac1cc
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304C8	-24	adrp	x0, #0x3ec8000
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304CC	-20	sub	x8, x29, #0x20
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304D0	-16	ldr	x0, [x0, #0x378]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304D4	-12	bl	#0x421c
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304D8	-8	mov	x8, #0x6415
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304DC	-4	movk	x8, #0xa5ac, lsl #16
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304E0	+0	adrp	x9, #0x31cf000
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304E4	+4	add	x9, x9, #0x646
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304E8	+8	movk	x8, #0x807, lsl #32
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304EC	+12	movk	x8, #0xef54, lsl #48
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304F0	+16	stp	x8, x9, [x29, #-0x40]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304F4	+20	mov	w8, #0x17
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304F8	+24	mov	x9, #0xebe8
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D304FC	+28	movk	x9, #0x67b1, lsl #16
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30500	+32	movk	x9, #0x3d84, lsl #32
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30504	+36	movk	x9, #0xf0d7, lsl #48
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30508	+40	stp	x8, xzr, [x29, #-0x30]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D3050C	+44	adrp	x8, #0x31e4000
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30510	+48	add	x8, x8, #0xedb
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30514	+52	adrp	x10, #0x32b5000
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30518	+56	add	x10, x10, #0x36a
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D3051C	+60	stp	x9, x8, [sp, #0x40]
+TradeUI_10_06_resource_ref	0x2D304E0	0x2D30520	+64	add	x9, sp, #0x40
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31574	-64	stp	x29, x30, [sp, #0x80]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31578	-60	str	x19, [sp, #0x90]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D3157C	-56	add	x29, sp, #0x80
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31580	-52	mov	w1, #1
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31584	-48	mov	x19, x0
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31588	-44	bl	#0xac19e4
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D3158C	-40	tbz	w0, #0, #0x2d31604
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31590	-36	adrp	x0, #0x3ec8000
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31594	-32	sub	x8, x29, #0x20
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D31598	-28	ldr	x0, [x0, #0x378]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D3159C	-24	bl	#0x421c
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315A0	-20	mov	x8, #0x6262
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315A4	-16	movk	x8, #0xa5ac, lsl #16
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315A8	-12	str	x19, [x29, #0x18]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315AC	-8	movk	x8, #0x707, lsl #32
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315B0	-4	movk	x8, #0xef54, lsl #48
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315B4	+0	adrp	x9, #0x31da000
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315B8	+4	add	x9, x9, #0x20e
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315BC	+8	stp	x8, x9, [sp, #0x40]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315C0	+12	mov	w8, #0x17
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315C4	+16	mov	x0, sp
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315C8	+20	add	x1, x29, #0x18
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315CC	+24	stp	x8, xzr, [sp, #0x50]
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315D0	+28	bl	#0x2d31614
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315D4	+32	sub	x0, x29, #0x20
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315D8	+36	add	x1, sp, #0x40
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315DC	+40	mov	x2, sp
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315E0	+44	bl	#0x916988
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315E4	+48	mov	x0, sp
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315E8	+52	bl	#0x67cc9c
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315EC	+56	add	x0, sp, #0x40
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315F0	+60	bl	#0xfb600
+TradeUI_10_07_resource_ref	0x2D315B4	0x2D315F4	+64	sub	x0, x29, #0x20
+ItemID_orb_table_page_ref	0x218B14C	0x218B10C	-64	str	x8, [x21]
+ItemID_orb_table_page_ref	0x218B14C	0x218B110	-60	ldp	x20, x19, [sp, #0x70]
+ItemID_orb_table_page_ref	0x218B14C	0x218B114	-56	ldp	x22, x21, [sp, #0x60]
+ItemID_orb_table_page_ref	0x218B14C	0x218B118	-52	ldp	x30, x23, [sp, #0x50]
+ItemID_orb_table_page_ref	0x218B14C	0x218B11C	-48	add	sp, sp, #0x80
+ItemID_orb_table_page_ref	0x218B14C	0x218B120	-44	ret	
+ItemID_orb_table_page_ref	0x218B14C	0x218B124	-40	udf	#0
+ItemID_orb_table_page_ref	0x218B14C	0x218B128	-36	udf	#0
+ItemID_orb_table_page_ref	0x218B14C	0x218B12C	-32	udf	#0
+ItemID_orb_table_page_ref	0x218B14C	0x218B130	-28	mov	w8, #-0x1003
+ItemID_orb_table_page_ref	0x218B14C	0x218B134	-24	add	w8, w1, w8
+ItemID_orb_table_page_ref	0x218B14C	0x218B138	-20	cmp	w8, #4
+ItemID_orb_table_page_ref	0x218B14C	0x218B13C	-16	b.hi	#0x218b184
+ItemID_orb_table_page_ref	0x218B14C	0x218B140	-12	stp	x30, x21, [sp, #-0x20]!
+ItemID_orb_table_page_ref	0x218B14C	0x218B144	-8	stp	x20, x19, [sp, #0x10]
+ItemID_orb_table_page_ref	0x218B14C	0x218B148	-4	ldr	x21, [x0, #0x28]
+ItemID_orb_table_page_ref	0x218B14C	0x218B14C	+0	adrp	x9, #0x3358000
+ItemID_orb_table_page_ref	0x218B14C	0x218B150	+4	add	x9, x9, #0x60
+ItemID_orb_table_page_ref	0x218B14C	0x218B154	+8	adr	x10, #0x218b16c
+ItemID_orb_table_page_ref	0x218B14C	0x218B158	+12	ldrb	w11, [x9, x8]
+ItemID_orb_table_page_ref	0x218B14C	0x218B15C	+16	add	x10, x10, x11, lsl #2
+ItemID_orb_table_page_ref	0x218B14C	0x218B160	+20	mov	x20, x3
+ItemID_orb_table_page_ref	0x218B14C	0x218B164	+24	mov	w19, w2
+ItemID_orb_table_page_ref	0x218B14C	0x218B168	+28	br	x10
+ItemID_orb_table_page_ref	0x218B14C	0x218B16C	+32	cbz	x20, #0x218b25c
+ItemID_orb_table_page_ref	0x218B14C	0x218B170	+36	str	x20, [x21, #8]
+ItemID_orb_table_page_ref	0x218B14C	0x218B174	+40	mov	w0, #1
+ItemID_orb_table_page_ref	0x218B14C	0x218B178	+44	ldp	x20, x19, [sp, #0x10]
+ItemID_orb_table_page_ref	0x218B14C	0x218B17C	+48	ldp	x30, x21, [sp], #0x20
+ItemID_orb_table_page_ref	0x218B14C	0x218B180	+52	ret	
+ItemID_orb_table_page_ref	0x218B14C	0x218B184	+56	mov	w0, #-2
+ItemID_orb_table_page_ref	0x218B14C	0x218B188	+60	ret	
+ItemID_orb_table_page_ref	0x218B14C	0x218B18C	+64	mov	w0, #1
+ItemID_mega_table_page_ref_A	0x21963DC	0x219639C	-64	cbz	x0, #0x21963d4
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963A0	-60	mov	w8, #2
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963A4	-56	add	x1, sp, #0x30
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963A8	-52	str	w8, [sp, #0x30]
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963AC	-48	add	x8, sp, #8
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963B0	-44	str	x8, [sp, #0x38]
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963B4	-40	bl	#0x218cdc0
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963B8	-36	cbz	x0, #0x21963d0
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963BC	-32	ldr	x8, [x0, #8]
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963C0	-28	add	x8, x8, #0x10
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963C4	-24	ldr	w8, [x8]
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963C8	-20	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963CC	-16	b	#0x2196204
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963D0	-12	ldr	x20, [sp, #0x10]
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963D4	-8	mov	w23, wzr
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963D8	-4	mov	w26, #0x4a2
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963DC	+0	adrp	x24, #0x3359000
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963E0	+4	add	x24, x24, #0x29c
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963E4	+8	mov	w25, #0x28
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963E8	+12	adrp	x22, #0x3c53000
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963EC	+16	add	x22, x22, #0x680
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963F0	+20	b	#0x2196400
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963F4	+24	cmp	w23, w27
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963F8	+28	mov	w26, w27
+ItemID_mega_table_page_ref_A	0x21963DC	0x21963FC	+32	b.ge	#0x2196204
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196400	+36	adds	w8, w23, w26
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196404	+40	mov	x0, x20
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196408	+44	cinc	w8, w8, lt
+ItemID_mega_table_page_ref_A	0x21963DC	0x219640C	+48	asr	w27, w8, #1
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196410	+52	ldr	w28, [x24, w27, sxtw #2]
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196414	+56	umaddl	x8, w28, w25, x22
+ItemID_mega_table_page_ref_A	0x21963DC	0x2196418	+60	ldr	x1, [x8, #8]
+ItemID_mega_table_page_ref_A	0x21963DC	0x219641C	+64	bl	#0x3160740
+ItemID_mega_table_page_ref_B	0x2196320	0x21962E0	-64	bl	#0x218cdc0
+ItemID_mega_table_page_ref_B	0x2196320	0x21962E4	-60	cbz	x0, #0x2196314
+ItemID_mega_table_page_ref_B	0x2196320	0x21962E8	-56	ldr	x8, [x0, #8]
+ItemID_mega_table_page_ref_B	0x2196320	0x21962EC	-52	add	x8, x8, #0x10
+ItemID_mega_table_page_ref_B	0x2196320	0x21962F0	-48	ldr	w8, [x8]
+ItemID_mega_table_page_ref_B	0x2196320	0x21962F4	-44	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_B	0x2196320	0x21962F8	-40	b	#0x2196390
+ItemID_mega_table_page_ref_B	0x2196320	0x21962FC	-36	adrp	x3, #0x31bd000
+ItemID_mega_table_page_ref_B	0x2196320	0x2196300	-32	add	x3, x3, #0x13e
+ItemID_mega_table_page_ref_B	0x2196320	0x2196304	-28	mov	w1, #0x6c
+ItemID_mega_table_page_ref_B	0x2196320	0x2196308	-24	mov	w2, #0x41
+ItemID_mega_table_page_ref_B	0x2196320	0x219630C	-20	mov	w4, #0x17c
+ItemID_mega_table_page_ref_B	0x2196320	0x2196310	-16	b	#0x21964d4
+ItemID_mega_table_page_ref_B	0x2196320	0x2196314	-12	ldr	x20, [sp, #8]
+ItemID_mega_table_page_ref_B	0x2196320	0x2196318	-8	mov	w23, wzr
+ItemID_mega_table_page_ref_B	0x2196320	0x219631C	-4	mov	w26, #0x4a2
+ItemID_mega_table_page_ref_B	0x2196320	0x2196320	+0	adrp	x24, #0x335a000
+ItemID_mega_table_page_ref_B	0x2196320	0x2196324	+4	add	x24, x24, #0x524
+ItemID_mega_table_page_ref_B	0x2196320	0x2196328	+8	mov	w25, #0x28
+ItemID_mega_table_page_ref_B	0x2196320	0x219632C	+12	adrp	x22, #0x3c53000
+ItemID_mega_table_page_ref_B	0x2196320	0x2196330	+16	add	x22, x22, #0x680
+ItemID_mega_table_page_ref_B	0x2196320	0x2196334	+20	b	#0x2196354
+ItemID_mega_table_page_ref_B	0x2196320	0x2196338	+24	nop	
+ItemID_mega_table_page_ref_B	0x2196320	0x219633C	+28	nop	
+ItemID_mega_table_page_ref_B	0x2196320	0x2196340	+32	add	w23, w27, #1
+ItemID_mega_table_page_ref_B	0x2196320	0x2196344	+36	mov	w27, w26
+ItemID_mega_table_page_ref_B	0x2196320	0x2196348	+40	cmp	w23, w27
+ItemID_mega_table_page_ref_B	0x2196320	0x219634C	+44	mov	w26, w27
+ItemID_mega_table_page_ref_B	0x2196320	0x2196350	+48	b.ge	#0x2196390
+ItemID_mega_table_page_ref_B	0x2196320	0x2196354	+52	adds	w8, w23, w26
+ItemID_mega_table_page_ref_B	0x2196320	0x2196358	+56	mov	x0, x20
+ItemID_mega_table_page_ref_B	0x2196320	0x219635C	+60	cinc	w8, w8, lt
+ItemID_mega_table_page_ref_B	0x2196320	0x2196360	+64	asr	w27, w8, #1
+ItemID_orb_table_page_ref_B	0x2197354	0x2197314	-64	ldp	d11, d10, [sp, #0x10]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197318	-60	ldp	x30, x19, [sp, #0x30]
+ItemID_orb_table_page_ref_B	0x2197354	0x219731C	-56	ldp	d13, d12, [sp], #0x40
+ItemID_orb_table_page_ref_B	0x2197354	0x2197320	-52	ret	
+ItemID_orb_table_page_ref_B	0x2197354	0x2197324	-48	udf	#0
+ItemID_orb_table_page_ref_B	0x2197354	0x2197328	-44	udf	#0
+ItemID_orb_table_page_ref_B	0x2197354	0x219732C	-40	udf	#0
+ItemID_orb_table_page_ref_B	0x2197354	0x2197330	-36	ldr	w10, [x0]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197334	-32	mov	x8, x0
+ItemID_orb_table_page_ref_B	0x2197354	0x2197338	-28	ldr	w9, [x1]
+ItemID_orb_table_page_ref_B	0x2197354	0x219733C	-24	subs	w0, w10, w9
+ItemID_orb_table_page_ref_B	0x2197354	0x2197340	-20	b.eq	#0x2197348
+ItemID_orb_table_page_ref_B	0x2197354	0x2197344	-16	ret	
+ItemID_orb_table_page_ref_B	0x2197354	0x2197348	-12	cmp	w10, #3
+ItemID_orb_table_page_ref_B	0x2197354	0x219734C	-8	b.hi	#0x219738c
+ItemID_orb_table_page_ref_B	0x2197354	0x2197350	-4	ldr	x9, [x8, #8]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197354	+0	adrp	x11, #0x3358000
+ItemID_orb_table_page_ref_B	0x2197354	0x2197358	+4	add	x11, x11, #0x1dc
+ItemID_orb_table_page_ref_B	0x2197354	0x219735C	+8	ldr	x8, [x1, #8]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197360	+12	adr	x12, #0x2197370
+ItemID_orb_table_page_ref_B	0x2197354	0x2197364	+16	ldrb	w13, [x11, x10]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197368	+20	add	x12, x12, x13, lsl #2
+ItemID_orb_table_page_ref_B	0x2197354	0x219736C	+24	br	x12
+ItemID_orb_table_page_ref_B	0x2197354	0x2197370	+28	ldrsw	x2, [x9, #0x14]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197374	+32	ldr	w10, [x8, #0x14]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197378	+36	subs	w0, w2, w10
+ItemID_orb_table_page_ref_B	0x2197354	0x219737C	+40	b.ne	#0x2197344
+ItemID_orb_table_page_ref_B	0x2197354	0x2197380	+44	ldr	x0, [x9, #0x18]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197384	+48	ldr	x1, [x8, #0x18]
+ItemID_orb_table_page_ref_B	0x2197354	0x2197388	+52	b	#0x3160a80
+ItemID_orb_table_page_ref_B	0x2197354	0x219738C	+56	mov	w0, wzr
+ItemID_orb_table_page_ref_B	0x2197354	0x2197390	+60	ret	
+ItemID_orb_table_page_ref_B	0x2197354	0x2197394	+64	ldr	x0, [x9]
