@@ -253,12 +253,15 @@ def analyze(repo:Path,out:Path):
     print(json.dumps(summary,indent=2,ensure_ascii=False))
     print("DEEP_SUMMARY_JSON_END")
     for filename in ("trade-target-strings.tsv","trade-rela-pointer-sites.tsv",
-                     "trade-code-xrefs.tsv","item-id-adjacency.tsv"):
+                     "trade-code-xrefs.tsv","item-id-adjacency.tsv",
+                     "trade-context-windows.tsv"):
         path=out/filename
-        print(f"EVIDENCE {filename} lines={sum(1 for _ in path.open())}")
-        if filename=="trade-code-xrefs.tsv":
-            for line in path.read_text().splitlines()[:55]:
-                print(line)
+        lines=path.read_text().splitlines()
+        print(f"EVIDENCE {filename} lines={len(lines)}")
+        print("EVIDENCE_TSV_BEGIN "+filename)
+        for line in lines:
+            print(line)
+        print("EVIDENCE_TSV_END "+filename)
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
