@@ -17,3 +17,8 @@ No internal Trinity field maps have been independently validated in this documen
 - [原生 Upvalue 描述符和 CLOSURE 创建链：926 条全部追到根 Chunk 外部 Upvalue](za-lua-upvalue-captures.md) — 512 Proto，保留 7＋20 条闭包异常证据，运行时绑定仍未知。
 - [原生 ELF Lua 宿主定位：_ENV、LUA_NOENV、Lua 路径及 AArch64 xrefs](za-lua-host-elf.md) — 验证三份 ELF、13 个高信号地址引用，根 P0.U0 的运行时绑定仍未知。
 - [PokeDocs 三轮 11.67 亿次定向 Hash 文法枚举：ZA 16 个 H2 精确候选及五条原生缺失 S 的对账](za-lua-h2-bruteforce-sync.md) — 只读候选映射，不修改原生 Hashlist；H2 不等于原生已确认原名。
+
+## 事件与异色研究
+
+- [Z-A 神兽锁闪证据链与蒂安希 EX1／超梦 EX2 的任务、触发器、遭遇数据](za-legendary-shiny-lock-diancie-mewtwo-events.md) — 已直接解析 v2.0.2 的 `sub_quest.bin`、`trigger_sub_0119.bin`、`trigger_sub_0120.bin` 和遭遇表；锁闪运行时指令仍待验证。
+- [本次 FlatBuffers 原始解析证据 JSON](za-ex1-ex2-flatbuffers-evidence.json) — 任务 ID、8+4 条触发记录、战斗标识及遭遇数据原值。
