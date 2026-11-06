@@ -1,0 +1,40 @@
+name: ZA v2.0.2 Link Trade native candidate scan
+
+on:
+  push:
+    branches:
+      - docs/za-items-obsidian-20261106
+    paths:
+      - scripts/Probe-ZA-Trade-ELF.py
+      - scripts/Probe-ZA-Lua-Host-ELF.py
+      - .github/workflows/za-trade-native-probe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sparse checkout verified main ELF and scanners
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts/Probe-ZA-Trade-ELF.py
+            scripts/Probe-ZA-Lua-Host-ELF.py
+            Unpack/v2.0.2/exefs/exefs-manifest.json
+            Unpack/v2.0.2/exefs/main/main.elf
+      - name: Check original main ELF and scan static trade evidence
+        run: python3 scripts/Probe-ZA-Trade-ELF.py --repo . --output .za-work/trade-native
+      - name: Preserve inspectable candidate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: za-trade-native-v2.0.2
+          path: .za-work/trade-native
+          if-no-files-found: warn
+          retention-days: 14

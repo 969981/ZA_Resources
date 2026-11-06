@@ -1,0 +1,27 @@
+{
+"version": "v2.0.2",
+"mainElfSha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+"mainElfBytes": 66579944,
+"keywordStringCount": 68,
+"targetStringCount": 37,
+"pointersAndRelocations": 25,
+"exactStaticCodeRefs": 3,
+"nearbyInstructionRecords": 87,
+"rawItemIdAdjacentMatches": 3,
+"evidenceStatus": "STATIC_CANDIDATE_ONLY",
+"runtimeHeldItemTradePredicate": "UNVERIFIED",
+"byEvidence": {
+"ADRP_ADD_DIRECT": 3
+},
+"targetHits": {
+"net_topmenu_trade_10_06": 1,
+"net_topmenu_trade_10_07": 1,
+"static const char *boost::detail::ctti<(anonymous namespace)::CommandCancelTrade>::n() [T = (anonymous namespace)::CommandCancelTrade]": 1
+},
+"caveats": [
+"String virtual addresses do not identify function starts.",
+"ADR/ADRP+ADD/LDR pairings are syntactic candidate references, not dataflow proof.",
+"RELATIVE relocation addends and data pointers do not by themselves prove callable consumers.",
+"No real Link Trade runtime call stack or item-specific reject branch has been verified."
+]
+}

@@ -40,3 +40,12 @@ No internal Trinity field maps have been independently validated in this documen
 - [EX1 蒂安希／EX2 超梦 Rare 来源及 GDB 取证操作文档](za-ex1-ex2-rare-provenance-gdb-validation.md) — 明确已闭合的原生静态 PID 处理和仍未验证的 FlatBuffers→+0x68 内存赋值、实机 EX 战斗。
 - [主程序 +0x68 读写访问普查 JSON](za-rare-descriptor-offset68-xrefs.json) / [上游候选函数反汇编](za-rare-native-descriptor-origin-candidates.md) — 审计所有特定 LDR/STR 直接访问，排除把常见结构偏移误报为 Rare setter。
 - [只读 GDB 记录器](../../../scripts/gdb/za_ex_rare_trace.py) / [EX1 EX2 日志对账工具](../../../scripts/Analyze-ZA-EX-Rare-GDB.py) — CI 完成合成测试；尚无实机日志，不将其当作运行时已证实。
+
+## 道具和交换限制（Obsidian）
+- [道具主表 FlatBuffers、分类体系、中文文本及导出流程](za-item-data-and-classification.md)
+- [Mega 石与红蓝宝珠交换限制：证据、设计假说与实测路径](za-mega-stone-orb-trade-restrictions.md)
+- [ZA 2.0.2 原生道具 535 项实表、92 种 Mega 石和红蓝宝珠对账](za-items-real-data-audit.md) — 完整字段 CSV、中文关联、对照组和复现脚本。
+- [ZA v2.0.2 联机交换原生 ELF 静态候选（68 字符串、5 条指令引用）](za-trade-native-candidates.md) — 固定主程序 SHA、证据 TSV 与 GDB 后续对照。
+## 535 条道具全分组与交换原生深入研究
+- [ItemType × Pocket 的 12 个组合、535 条中英双语全量清单](za-itemtype-pocket-complete.md)
+- [Link Trade 原生静态深挖：CommandCancelTrade 指令、历史 ID 表与待做 GDB 验证](za-trade-native-deep-analysis.md)

@@ -1,0 +1,536 @@
+﻿Id,NameZH,NameEN,ResearchGroup,ItemType,InternalName,IconName,Price,Pocket,SlotMaxNum,SortNum,PriceMegaShard,PriceColorfulScrew,CanNotHold,MachineWaza,MachineIndex,WorkRecvSleep,WorkRecvPoison,WorkRecvBurn,WorkRecvFreeze,WorkRecvParalyze,WorkRecvConfuse,WorkRecvMero,WorkAttack,WorkDefense,WorkSpAttack,WorkSpDefense,WorkSpeed,WorkAccuracy,WorkCritical,WorkEffectGuard,MintNature,WorkRecvPower,HealPercentage,WorkRevival,RevivePercentage,ExpPointGain,MaxUseLevel,WorkFriendly1,WorkFriendly2,WorkFriendly3,WorkEvolutional,WorkFormChange,WorkStatusHp,WorkStatusAtk,WorkStatusDef,WorkStatusSpd,WorkStatusSAtk,WorkStatusSDef,EquipPower,AutoHealPriority,CanUseInBattle,SwapIntoId
+1,大师球,Master Ball,Other,4,MASUTAABOORU,item_0001,0,1,999,4,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2,高级球,Ultra Ball,Other,4,HAIPAABOORU,item_0002,600,1,999,3,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+3,超级球,Great Ball,Other,4,SUUPAABOORU,item_0003,300,1,999,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+4,精灵球,Poké Ball,Other,4,MONSUTAABOORU,item_0004,100,1,999,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+5,狩猎球,Safari Ball,Other,4,SAFARIBOORU,item_0005,0,1,999,24,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+6,捕网球,Net Ball,Other,4,NETTOBOORU,item_0006,1000,1,999,7,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+7,潜水球,Dive Ball,Other,4,DAIBUBOORU,item_0007,1000,1,999,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+8,巢穴球,Nest Ball,Other,4,NESUTOBOORU,item_0008,1000,1,999,8,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+9,重复球,Repeat Ball,Other,4,RIPIITOBOORU,item_0009,1000,1,999,13,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+10,计时球,Timer Ball,Other,4,TAIMAABOORU,item_0010,1000,1,999,11,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+11,豪华球,Luxury Ball,Other,4,GOOZYASUBOORU,item_0011,3000,1,999,14,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+12,纪念球,Premier Ball,Other,4,PUREMIABOORU,item_0012,200,1,999,5,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+13,黑暗球,Dusk Ball,Other,4,DAAKUBOORU,item_0013,1000,1,999,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+14,治愈球,Heal Ball,Other,4,HIIRUBOORU,item_0014,300,1,999,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+15,先机球,Quick Ball,Other,4,KUIKKUBOORU,item_0015,1000,1,999,12,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+16,贵重球,Cherish Ball,Other,4,PURESYASUBOORU,item_0016,0,1,999,26,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+17,伤药,Potion,Other,2,KIZUGUSURI,item_0017,150,0,999,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,20,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,1,true,0
+18,解毒药,Antidote,Other,2,DOKUKESI,item_0018,100,0,999,12,0,0,false,0,-1,false,true,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,8,true,0
+19,灼伤药,Burn Heal,Other,2,YAKEDONAOSI,item_0019,100,0,999,14,0,0,false,0,-1,false,false,true,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,9,true,0
+20,解冻药,Ice Heal,Other,2,KOORINAOSI,item_0020,100,0,999,15,0,0,false,0,-1,false,false,false,true,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,10,true,0
+21,解眠药,Awakening,Other,2,NEMUKEZAMASI,item_0021,100,0,999,16,0,0,false,0,-1,true,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,11,true,0
+22,解麻药,Paralyze Heal,Other,2,MAHINAOSI,item_0022,100,0,999,13,0,0,false,0,-1,false,false,false,false,true,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,12,true,0
+23,全复药,Full Restore,Other,2,KAIHUKUNOKUSURI,item_0023,1500,0,999,5,0,0,false,0,-1,true,true,true,true,true,true,false,0,0,0,0,0,0,0,0,-1,0,100,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,255,0,true,0
+24,全满药,Max Potion,Other,2,MANTANNOKUSURI,item_0024,1200,0,999,4,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,100,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,255,0,true,0
+25,厉害伤药,Hyper Potion,Other,2,SUGOIKIZUGUSURI,item_0025,600,0,999,3,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,120,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,120,7,true,0
+26,好伤药,Super Potion,Other,2,IIKIZUGUSURI,item_0026,400,0,999,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,60,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,60,4,true,0
+27,万灵药,Full Heal,Other,2,NANDEMONAOSI,item_0027,200,0,999,17,0,0,false,0,-1,true,true,true,true,true,true,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,13,true,0
+28,活力碎片,Revive,Other,2,GENKINOKAKERA,item_0028,800,0,999,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,50,0,0,0,0,0,false,false,0,0,0,0,0,0,0,14,true,0
+29,活力块,Max Revive,Other,2,GENKINOKATAMARI,item_0029,2000,0,999,7,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,100,0,0,0,0,0,false,false,0,0,0,0,0,0,0,15,true,0
+30,美味之水,Fresh Water,Other,2,OISIIMIZU,item_0030,200,0,999,8,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,30,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,30,2,true,0
+31,劲爽汽水,Soda Pop,Other,2,SAIKOSOODA,item_0031,300,0,999,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,50,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,50,3,true,0
+32,果汁牛奶,Lemonade,Other,2,MIKKUSUORE,item_0032,400,0,999,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,70,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,70,5,true,0
+33,哞哞鲜奶,Moomoo Milk,Other,2,MOOMOOMIRUKU,item_0033,600,0,999,11,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,100,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,100,6,true,0
+45,ＨＰ增强剂,HP Up,Other,2,MAKKUSUAPPU,item_0045,5000,2,999,7,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,10,0,0,0,0,0,0,0,false,0
+46,攻击增强剂,Protein,Other,2,TAURIN,item_0046,5000,2,999,8,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,0,10,0,0,0,0,0,0,false,0
+47,防御增强剂,Iron,Other,2,BUROMUHEKISIN,item_0047,5000,2,999,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,0,0,10,0,0,0,0,0,false,0
+48,速度增强剂,Carbos,Other,2,INDOMETASIN,item_0048,5000,2,999,12,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,0,0,0,10,0,0,0,0,false,0
+49,特攻增强剂,Calcium,Other,2,RIZOTIUMU,item_0049,5000,2,999,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,0,0,0,0,10,0,0,0,false,0
+50,神奇糖果,Rare Candy,Other,2,HUSIGINAAME,item_0050,10000,2,999,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,100,4,2,0,false,false,0,0,0,0,0,0,0,0,false,0
+52,特防增强剂,Zinc,Other,2,KITOSAN,item_0052,5000,2,999,11,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,4,2,0,false,false,0,0,0,0,0,10,0,0,false,0
+80,日之石,Sun Stone,Other,7,TAIYOUNOISI,item_0080,3000,2,999,40,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+81,月之石,Moon Stone,Other,7,TUKINOISI,item_0081,3000,2,999,41,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+82,火之石,Fire Stone,Other,7,HONOONOISI,item_0082,3000,2,999,42,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+83,雷之石,Thunder Stone,Other,7,KAMINARINOISI,item_0083,3000,2,999,43,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+84,水之石,Water Stone,Other,7,MIZUNOISI,item_0084,3000,2,999,44,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+85,叶之石,Leaf Stone,Other,7,RIIHUNOISI,item_0085,3000,2,999,45,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+86,小蘑菇,Tiny Mushroom,Other,3,TIISANAKINOKO,item_0086,1000,3,999,3,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+88,珍珠,Pearl,Other,3,SINZYU,item_0088,4000,3,999,4,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+89,大珍珠,Big Pearl,Other,3,OOKINASINZYU,item_0089,16000,3,999,5,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+92,金珠,Nugget,Other,3,KINNOTAMA,item_0092,20000,3,999,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+103,秘密琥珀,Old Amber,Other,9,HIMITUNOKOHAKU,item_0103,30000,2,999,98,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+107,光之石,Shiny Stone,Other,7,HIKARINOISI,item_0107,3000,2,999,46,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+108,暗之石,Dusk Stone,Other,7,YAMINOISI,item_0108,3000,2,999,47,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+109,觉醒之石,Dawn Stone,Other,7,MEZAMEISI,item_0109,3000,2,999,48,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+116,水流卡带,Douse Drive,Other,7,AKUAKASETTO,item_0116,0,2,999,110,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+117,闪电卡带,Shock Drive,Other,7,INAZUMAKASETTO,item_0117,0,2,999,111,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+118,火焰卡带,Burn Drive,Other,7,BUREIZUKASETTO,item_0118,0,2,999,112,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+119,冰冻卡带,Chill Drive,Other,7,HURIIZUKASETTO,item_0119,0,2,999,113,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+149,樱子果,Cheri Berry,Other,1,KURABONOMI,item_0149,80,5,999,1,0,0,false,0,-1,false,false,false,false,true,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+150,零余果,Chesto Berry,Other,1,KAGONOMI,item_0150,80,5,999,2,0,0,false,0,-1,true,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+151,桃桃果,Pecha Berry,Other,1,MOMONNOMI,item_0151,80,5,999,3,0,0,false,0,-1,false,true,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+152,莓莓果,Rawst Berry,Other,1,TIIGONOMI,item_0152,80,5,999,4,0,0,false,0,-1,false,false,true,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+153,利木果,Aspear Berry,Other,1,NANASINOMI,item_0153,80,5,999,5,0,0,false,0,-1,false,false,false,true,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+155,橙橙果,Oran Berry,Other,1,ORENNOMI,item_0155,80,5,999,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,10,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,true,0
+156,柿仔果,Persim Berry,Other,1,KIINOMI,item_0156,80,5,999,7,0,0,false,0,-1,false,false,false,false,false,true,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+157,木子果,Lum Berry,Other,1,RAMUNOMI,item_0157,80,5,999,8,0,0,false,0,-1,true,true,true,true,true,true,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+158,文柚果,Sitrus Berry,Other,1,OBONNOMI,item_0158,80,5,999,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,25,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,25,0,true,0
+169,榴石果,Pomeg Berry,Other,1,ZAROKUNOMI,item_0169,80,5,999,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,-10,0,0,0,0,0,0,0,false,0
+170,藻根果,Kelpsy Berry,Other,1,NEKOBUNOMI,item_0170,80,5,999,11,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,0,-10,0,0,0,0,0,0,false,0
+171,比巴果,Qualot Berry,Other,1,TAPORUNOMI,item_0171,80,5,999,12,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,0,0,-10,0,0,0,0,0,false,0
+172,哈密果,Hondew Berry,Other,1,ROMENOMI,item_0172,80,5,999,13,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,0,0,0,0,-10,0,0,0,false,0
+173,萄葡果,Grepa Berry,Other,1,UBUNOMI,item_0173,80,5,999,14,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,0,0,0,0,0,-10,0,0,false,0
+174,茄番果,Tamato Berry,Other,1,MATOMANOMI,item_0174,80,5,999,15,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,10,5,1,false,false,0,0,0,-10,0,0,0,0,false,0
+184,巧可果,Occa Berry,Other,1,OKKANOMI,item_0184,80,5,999,16,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+185,千香果,Passho Berry,Other,1,ITOKENOMI,item_0185,80,5,999,17,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+186,烛木果,Wacan Berry,Other,1,SOKUNONOMI,item_0186,80,5,999,18,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+187,罗子果,Rindo Berry,Other,1,RINDONOMI,item_0187,80,5,999,19,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+188,番荔果,Yache Berry,Other,1,YATHENOMI,item_0188,80,5,999,20,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+189,莲蒲果,Chople Berry,Other,1,YOPUNOMI,item_0189,80,5,999,21,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+190,通通果,Kebia Berry,Other,1,BIAANOMI,item_0190,80,5,999,22,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+191,腰木果,Shuca Berry,Other,1,SYUKANOMI,item_0191,80,5,999,23,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+192,棱瓜果,Coba Berry,Other,1,BAKOUNOMI,item_0192,80,5,999,24,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+193,福禄果,Payapa Berry,Other,1,UTANNOMI,item_0193,80,5,999,25,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+194,扁樱果,Tanga Berry,Other,1,TANGANOMI,item_0194,80,5,999,26,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+195,草蚕果,Charti Berry,Other,1,YOROGINOMI,item_0195,80,5,999,27,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+196,佛柑果,Kasib Berry,Other,1,KASIBUNOMI,item_0196,80,5,999,28,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+197,莓榴果,Haban Berry,Other,1,HABANNOMI,item_0197,80,5,999,29,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+198,刺耳果,Colbur Berry,Other,1,NAMONOMI,item_0198,80,5,999,30,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+199,霹霹果,Babiri Berry,Other,1,RIRIBANOMI,item_0199,80,5,999,31,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+200,灯浆果,Chilan Berry,Other,1,HOZUNOMI,item_0200,80,5,999,32,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+214,白色香草,White Herb,Other,7,SIROIHAABU,item_0214,3000,2,999,50,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+217,先制之爪,Quick Claw,Other,7,SENSEINOTUME,item_0217,3000,2,999,51,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+218,安抚之铃,Soothe Bell,Other,7,YASURAGINOSUZU,item_0218,3000,2,999,52,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+221,王者之证,King’s Rock,Other,7,OUZYANOSIRUSI,item_0221,3000,2,999,53,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,false,0
+222,银粉,Silver Powder,Other,7,GINNOKONA,item_0222,3000,2,999,54,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+230,气势头带,Focus Band,Other,7,KIAINOHATIMAKI,item_0230,3000,2,999,56,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,false,0
+231,幸运蛋,Lucky Egg,Other,7,SIAWASETAMAGO,item_0231,3000,2,999,57,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+232,焦点镜,Scope Lens,Other,7,PINTORENZU,item_0232,3000,2,999,58,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+233,金属膜,Metal Coat,Other,7,METARUKOOTO,item_0233,3000,2,999,59,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+234,吃剩的东西,Leftovers,Other,7,TABENOKOSI,item_0234,3000,2,999,60,420,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,false,0
+236,电气球,Light Ball,Other,7,DENKIDAMA,item_0236,3000,2,999,61,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+237,柔软沙子,Soft Sand,Other,7,YAWARAKAISUNA,item_0237,3000,2,999,62,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+238,硬石头,Hard Stone,Other,7,KATAIISI,item_0238,3000,2,999,63,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+239,奇迹种子,Miracle Seed,Other,7,KISEKINOTANE,item_0239,3000,2,999,64,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+240,黑色眼镜,Black Glasses,Other,7,KUROIMEGANE,item_0240,3000,2,999,65,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+241,黑带,Black Belt,Other,7,KUROOBI,item_0241,3000,2,999,66,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+242,磁铁,Magnet,Other,7,ZISYAKU,item_0242,3000,2,999,67,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+243,神秘水滴,Mystic Water,Other,7,SINPINOSIZUKU,item_0243,3000,2,999,68,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+244,锐利鸟嘴,Sharp Beak,Other,7,SURUDOIKUTIBASI,item_0244,3000,2,999,69,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+245,毒针,Poison Barb,Other,7,DOKUBARI,item_0245,3000,2,999,70,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+246,不融冰,Never-Melt Ice,Other,7,TOKENAIKOORI,item_0246,3000,2,999,71,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+247,咒术之符,Spell Tag,Other,7,NOROINOOHUDA,item_0247,3000,2,999,72,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+248,弯曲的汤匙,Twisted Spoon,Other,7,MAGATTASUPUUN,item_0248,3000,2,999,73,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+249,木炭,Charcoal,Other,7,MOKUTAN,item_0249,3000,2,999,74,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+250,龙之牙,Dragon Fang,Other,7,RYUUNOKIBA,item_0250,3000,2,999,75,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+251,丝绸围巾,Silk Scarf,Other,7,SIRUKUNOSUKAAHU,item_0251,3000,2,999,76,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+252,升级数据,Upgrade,Other,7,APPUGUREEDO,item_0252,2000,2,999,114,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+253,贝壳之铃,Shell Bell,Other,7,KAIGARANOSUZU,item_0253,3000,2,999,78,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+258,粗骨头,Thick Club,Other,7,HUTOIHONE,item_0258,1000,2,999,115,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+259,大葱,Leek,Other,7,NAGANEGI,item_0259,1000,2,999,116,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+266,力量头带,Muscle Band,Other,7,TIKARANOHATIMAKI,item_0266,3000,2,999,79,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,false,0
+267,博识眼镜,Wise Glasses,Other,7,MONOSIRIMEGANE,item_0267,3000,2,999,80,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,10,0,false,0
+268,达人带,Expert Belt,Other,7,TATUZINNOOBI,item_0268,3000,2,999,81,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+270,生命宝珠,Life Orb,Other,7,INOTINOTAMA,item_0270,3000,2,999,82,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,30,0,false,0
+275,气势披带,Focus Sash,Other,7,KIAINOTASUKI,item_0275,3000,2,999,83,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+289,力量护腕,Power Bracer,Other,7,PAWAARISUTO,item_0289,3000,2,999,85,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+290,力量腰带,Power Belt,Other,7,PAWAABERUTO,item_0290,3000,2,999,86,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+291,力量镜,Power Lens,Other,7,PAWAARENZU,item_0291,3000,2,999,87,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+292,力量束带,Power Band,Other,7,PAWAABANDO,item_0292,3000,2,999,88,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+293,力量护踝,Power Anklet,Other,7,PAWAAANKURU,item_0293,3000,2,999,89,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+294,力量负重,Power Weight,Other,7,PAWAAUEITO,item_0294,3000,2,999,84,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,8,0,false,0
+296,大根茎,Big Root,Other,7,OOKINANEKKO,item_0296,3000,2,999,90,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,30,0,false,0
+324,可疑补丁,Dubious Disc,Other,7,AYASIIPATTI,item_0324,2000,2,999,117,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+328,招式学习器００１,TM001,Other,5,WAZAMASIN01,item_0332,0,6,1,1,0,0,false,29,0,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+329,招式学习器００２,TM002,Other,5,WAZAMASIN02,item_0329,0,6,1,2,0,0,false,337,1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+330,招式学习器００３,TM003,Other,5,WAZAMASIN03,item_0330,0,6,1,3,0,0,false,473,2,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+331,招式学习器００４,TM004,Other,5,WAZAMASIN04,item_0330,0,6,1,6,0,0,false,347,5,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+332,招式学习器００５,TM005,Other,5,WAZAMASIN05,item_0332,0,6,1,5,0,0,false,46,4,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+333,招式学习器００６,TM006,Other,5,WAZAMASIN06,item_0333,0,6,1,7,0,0,false,92,6,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+334,招式学习器００７,TM007,Other,5,WAZAMASIN07,item_0338,0,6,1,29,0,0,false,7,28,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+335,招式学习器００８,TM008,Other,5,WAZAMASIN08,item_0335,0,6,1,11,0,0,false,339,10,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+336,招式学习器００９,TM009,Other,5,WAZAMASIN09,item_0345,0,6,1,9,0,0,false,812,8,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+337,招式学习器０１０,TM010,Other,5,WAZAMASIN10,item_0351,0,6,1,23,0,0,false,9,22,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+338,招式学习器０１１,TM011,Other,5,WAZAMASIN11,item_0353,0,6,1,46,0,0,false,341,45,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+339,招式学习器０１２,TM012,Other,5,WAZAMASIN12,item_0349,0,6,1,42,0,0,false,202,41,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+340,招式学习器０１３,TM013,Other,5,WAZAMASIN13,item_0334,0,6,1,24,0,0,false,8,23,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+341,招式学习器０１４,TM014,Other,5,WAZAMASIN14,item_0334,0,6,1,105,0,0,false,59,104,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+342,招式学习器０１５,TM015,Other,5,WAZAMASIN15,item_0332,0,6,1,44,0,0,false,63,43,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+343,招式学习器０１６,TM016,Other,5,WAZAMASIN16,item_0330,0,6,1,16,0,0,false,113,15,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+344,招式学习器０１７,TM017,Other,5,WAZAMASIN17,item_0332,0,6,1,17,0,0,false,182,16,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+345,招式学习器０１８,TM018,Other,5,WAZAMASIN18,item_0330,0,6,1,47,0,0,false,97,46,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+346,招式学习器０１９,TM019,Other,5,WAZAMASIN19,item_0330,0,6,1,59,0,0,false,428,58,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+347,招式学习器０２０,TM020,Other,5,WAZAMASIN20,item_0332,0,6,1,51,0,0,false,219,50,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+348,招式学习器０２１,TM021,Other,5,WAZAMASIN21,item_0350,0,6,1,19,0,0,false,408,18,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+349,招式学习器０２２,TM022,Other,5,WAZAMASIN22,item_0349,0,6,1,64,0,0,false,76,63,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+350,招式学习器０２３,TM023,Other,5,WAZAMASIN23,item_0329,0,6,1,93,0,0,false,200,92,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+351,招式学习器０２４,TM024,Other,5,WAZAMASIN24,item_0351,0,6,1,67,0,0,false,85,66,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+352,招式学习器０２５,TM025,Other,5,WAZAMASIN25,item_0351,0,6,1,106,0,0,false,87,105,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+353,招式学习器０２６,TM026,Other,5,WAZAMASIN26,item_0353,0,6,1,69,0,0,false,89,68,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+354,招式学习器０２７,TM027,Other,5,WAZAMASIN27,item_0328,0,6,1,25,0,0,false,242,24,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+355,招式学习器０２８,TM028,Other,5,WAZAMASIN28,item_0353,0,6,1,28,0,0,false,91,27,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+356,招式学习器０２９,TM029,Other,5,WAZAMASIN29,item_0330,0,6,1,63,0,0,false,94,62,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+357,招式学习器０３０,TM030,Other,5,WAZAMASIN30,item_0357,0,6,1,74,0,0,false,247,73,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+358,招式学习器０３１,TM031,Other,5,WAZAMASIN31,item_0335,0,6,1,10,0,0,false,280,9,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+359,招式学习器０３２,TM032,Other,5,WAZAMASIN32,item_0332,0,6,1,32,0,0,false,104,31,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+360,招式学习器０３３,TM033,Other,5,WAZAMASIN33,item_0330,0,6,1,31,0,0,false,115,30,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+361,招式学习器０３４,TM034,Other,5,WAZAMASIN34,item_0693,0,6,1,20,0,0,false,583,19,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+362,招式学习器０３５,TM035,Other,5,WAZAMASIN35,item_0332,0,6,1,33,0,0,false,34,32,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+363,招式学习器０３６,TM036,Other,5,WAZAMASIN36,item_0333,0,6,1,53,0,0,false,188,52,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+364,招式学习器０３７,TM037,Other,5,WAZAMASIN37,item_0332,0,6,1,48,0,0,false,120,47,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+365,招式学习器０３８,TM038,Other,5,WAZAMASIN38,item_0338,0,6,1,38,0,0,false,126,37,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+366,招式学习器０３９,TM039,Other,5,WAZAMASIN39,item_0350,0,6,1,36,0,0,false,317,35,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+367,招式学习器０４０,TM040,Other,5,WAZAMASIN40,item_0421,0,6,1,22,0,0,false,332,21,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+368,招式学习器０４１,TM041,Other,5,WAZAMASIN41,item_0345,0,6,1,98,0,0,false,127,97,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+369,招式学习器０４２,TM042,Other,5,WAZAMASIN42,item_0351,0,6,1,39,0,0,false,435,38,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+370,招式学习器０４３,TM043,Other,5,WAZAMASIN43,item_0349,0,6,1,40,0,0,false,331,39,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+371,招式学习器０４４,TM044,Other,5,WAZAMASIN44,item_0334,0,6,1,13,0,0,false,58,12,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+372,招式学习器０４５,TM045,Other,5,WAZAMASIN45,item_0401,0,6,1,58,0,0,false,442,57,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+373,招式学习器０４６,TM046,Other,5,WAZAMASIN46,item_0421,0,6,1,43,0,0,false,19,42,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+374,招式学习器０４７,TM047,Other,5,WAZAMASIN47,item_0329,0,6,1,75,0,0,false,406,74,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+375,招式学习器０４８,TM048,Other,5,WAZAMASIN48,item_0328,0,6,1,45,0,0,false,282,44,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+376,招式学习器０４９,TM049,Other,5,WAZAMASIN49,item_0338,0,6,1,104,0,0,false,394,103,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+377,招式学习器０５０,TM050,Other,5,WAZAMASIN50,item_0338,0,6,1,50,0,0,false,315,49,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+378,招式学习器０５１,TM051,Other,5,WAZAMASIN51,item_0345,0,6,1,73,0,0,false,57,72,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+379,招式学习器０５２,TM052,Other,5,WAZAMASIN52,item_0335,0,6,1,102,0,0,false,411,101,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+380,招式学习器０５３,TM053,Other,5,WAZAMASIN53,item_0349,0,6,1,26,0,0,false,412,25,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+381,招式学习器０５４,TM054,Other,5,WAZAMASIN54,item_0334,0,6,1,49,0,0,false,196,48,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+382,招式学习器０５５,TM055,Other,5,WAZAMASIN55,item_0335,0,6,1,107,0,0,false,370,106,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+383,招式学习器０５６,TM056,Other,5,WAZAMASIN56,item_0353,0,6,1,52,0,0,false,414,51,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+384,招式学习器０５７,TM057,Other,5,WAZAMASIN57,item_0421,0,6,1,79,0,0,false,542,78,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+385,招式学习器０５８,TM058,Other,5,WAZAMASIN58,item_0329,0,6,1,54,0,0,false,434,53,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+386,招式学习器０５９,TM059,Other,5,WAZAMASIN59,item_0328,0,6,1,34,0,0,false,400,33,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+387,招式学习器０６０,TM060,Other,5,WAZAMASIN60,item_0332,0,6,1,56,0,0,false,38,55,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+388,招式学习器０６１,TM061,Other,5,WAZAMASIN61,item_0338,0,6,1,57,0,0,false,261,56,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+389,招式学习器０６２,TM062,Other,5,WAZAMASIN62,item_0338,0,6,1,62,0,0,false,53,61,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+390,招式学习器０６３,TM063,Other,5,WAZAMASIN63,item_0345,0,6,1,41,0,0,false,352,40,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+391,招式学习器０６４,TM064,Other,5,WAZAMASIN64,item_0330,0,6,1,60,0,0,false,248,59,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+392,招式学习器０６５,TM065,Other,5,WAZAMASIN65,item_0357,0,6,1,61,0,0,false,421,60,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+393,招式学习器０６６,TM066,Other,5,WAZAMASIN66,item_0353,0,6,1,78,0,0,false,523,77,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+394,招式学习器０６７,TM067,Other,5,WAZAMASIN67,item_0345,0,6,1,96,0,0,false,56,95,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+395,招式学习器０６８,TM068,Other,5,WAZAMASIN68,item_0332,0,6,1,55,0,0,false,416,54,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+396,招式学习器０６９,TM069,Other,5,WAZAMASIN69,item_0403,0,6,1,81,0,0,false,404,80,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+397,招式学习器０７０,TM070,Other,5,WAZAMASIN70,item_0332,0,6,1,27,0,0,false,129,26,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+398,招式学习器０７１,TM071,Other,5,WAZAMASIN71,item_0350,0,6,1,65,0,0,false,444,64,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+399,招式学习器０７２,TM072,Other,5,WAZAMASIN72,item_0351,0,6,1,66,0,0,false,521,65,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+400,招式学习器０７３,TM073,Other,5,WAZAMASIN73,item_0351,0,6,1,8,0,0,false,86,7,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+401,招式学习器０７４,TM074,Other,5,WAZAMASIN74,item_0338,0,6,1,68,0,0,false,257,67,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+402,招式学习器０７５,TM075,Other,5,WAZAMASIN75,item_0332,0,6,1,30,0,0,false,14,29,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+403,招式学习器０７６,TM076,Other,5,WAZAMASIN76,item_0345,0,6,1,70,0,0,false,250,69,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+404,招式学习器０７７,TM077,Other,5,WAZAMASIN77,item_0332,0,6,1,71,0,0,false,304,70,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+405,招式学习器０７８,TM078,Other,5,WAZAMASIN78,item_0338,0,6,1,72,0,0,false,83,71,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+406,招式学习器０７９,TM079,Other,5,WAZAMASIN79,item_0351,0,6,1,101,0,0,false,527,100,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+407,招式学习器０８０,TM080,Other,5,WAZAMASIN80,item_0350,0,6,1,12,0,0,false,157,11,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+408,招式学习器０８１,TM081,Other,5,WAZAMASIN81,item_0401,0,6,1,87,0,0,false,231,86,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+409,招式学习器０８２,TM082,Other,5,WAZAMASIN82,item_0338,0,6,1,14,0,0,false,424,13,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+410,招式学习器０８３,TM083,Other,5,WAZAMASIN83,item_0345,0,6,1,76,0,0,false,710,75,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+411,招式学习器０８４,TM084,Other,5,WAZAMASIN84,item_0333,0,6,1,77,0,0,false,398,76,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+412,招式学习器０８５,TM085,Other,5,WAZAMASIN85,item_0351,0,6,1,21,0,0,false,422,20,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+413,招式学习器０８６,TM086,Other,5,WAZAMASIN86,item_0334,0,6,1,15,0,0,false,423,14,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+414,招式学习器０８７,TM087,Other,5,WAZAMASIN87,item_0401,0,6,1,80,0,0,false,334,79,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+415,招式学习器０８８,TM088,Other,5,WAZAMASIN88,item_0332,0,6,1,103,0,0,false,526,102,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+416,招式学习器０８９,TM089,Other,5,WAZAMASIN89,item_0403,0,6,1,82,0,0,false,369,81,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+417,招式学习器０９０,TM090,Other,5,WAZAMASIN90,item_0328,0,6,1,83,0,0,false,417,82,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+418,招式学习器０９１,TM091,Other,5,WAZAMASIN91,item_0401,0,6,1,84,0,0,false,430,83,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+419,招式学习器０９２,TM092,Other,5,WAZAMASIN92,item_0332,0,6,1,85,0,0,false,164,84,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+492,速度球,Fast Ball,Other,4,SUPIIDOBOORU,item_0492,0,1,999,15,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+493,等级球,Level Ball,Other,4,REBERUBOORU,item_0493,0,1,999,18,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+494,诱饵球,Lure Ball,Other,4,RUAABOORU,item_0494,0,1,999,17,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+495,沉重球,Heavy Ball,Other,4,HEBIIBOORU,item_0495,0,1,999,19,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+496,甜蜜球,Love Ball,Other,4,RABURABUBOORU,item_0496,0,1,999,20,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+497,友友球,Friend Ball,Other,4,HURENDOBOORU,item_0497,0,1,999,16,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+498,月亮球,Moon Ball,Other,4,MUUNBOORU,item_0498,0,1,999,21,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+499,竞赛球,Sport Ball,Other,4,KONPEBOORU,item_0499,0,1,999,23,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+534,朱红色宝珠,Red Orb,PrimalOrb,7,BENIIRONOTAMA,item_0534,0,2,999,108,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+535,靛蓝色宝珠,Blue Orb,PrimalOrb,7,AIIRONOTAMA,item_0535,0,2,999,109,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+537,美丽鳞片,Prism Scale,Other,7,KIREINAUROKO,item_0537,2000,2,999,118,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+538,进化奇石,Eviolite,Other,7,SINKANOKISEKI,item_0538,3000,2,999,91,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+540,凸凸头盔,Rocky Helmet,Other,7,GOTUGOTUMETTO,item_0540,3000,2,999,92,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,6,0,false,0
+564,一般宝石,Normal Gem,Other,7,NOOMARUZYUERU,item_0564,3000,2,999,93,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+565,体力之羽,Health Feather,Other,2,TAIRYOKUNOHANE,item_0565,300,2,999,13,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,1,0,0,0,0,0,0,0,false,0
+566,肌力之羽,Muscle Feather,Other,2,KINRYOKUNOHANE,item_0566,300,2,999,14,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,0,1,0,0,0,0,0,0,false,0
+567,抵抗之羽,Resist Feather,Other,2,TEIKOUNOHANE,item_0567,300,2,999,15,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,0,0,1,0,0,0,0,0,false,0
+568,智力之羽,Genius Feather,Other,2,TIRYOKUNOHANE,item_0568,300,2,999,16,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,0,0,0,0,1,0,0,0,false,0
+569,精神之羽,Clever Feather,Other,2,SEISINNOHANE,item_0569,300,2,999,17,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,0,0,0,0,0,1,0,0,false,0
+570,瞬发之羽,Swift Feather,Other,2,SYUNPATUNOHANE,item_0570,300,2,999,18,60,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,2,1,0,false,false,0,0,0,1,0,0,0,0,false,0
+571,美丽之羽,Pretty Feather,Other,3,KIREINAHANE,item_0571,2000,3,999,7,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+576,梦境球,Dream Ball,Other,4,DORIIMUBOORU,item_0576,0,1,999,22,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+581,巨大金珠,Big Nugget,Other,3,DEKAIKINNOTAMA,item_0581,80000,3,999,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+582,丸子珍珠,Pearl String,Other,3,ODANGOSINZYU,item_0582,40000,3,999,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+618,招式学习器０９３,TM093,Other,5,WAZAMASIN93,item_0351,0,6,1,86,0,0,false,528,85,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+619,招式学习器０９４,TM094,Other,5,WAZAMASIN94,item_0335,0,6,1,4,0,0,false,249,3,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+620,招式学习器０９５,TM095,Other,5,WAZAMASIN95,item_0353,0,6,1,88,0,0,false,191,87,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+632,闪耀护符,Shiny Charm,Other,0,HIKARUOMAMORI,item_0632,0,4,1,35,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+639,弱点保险,Weakness Policy,Other,7,ZYAKUTENHOKEN,item_0639,3000,2,999,94,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+640,突击背心,Assault Vest,Other,7,TOTUGEKITYOKKI,item_0640,3000,2,999,95,540,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+646,泡沫奶油,Whipped Dream,Other,7,HOIPPUPOPPU,item_0646,3000,2,999,96,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+647,香袋,Sachet,Other,7,NIOIBUKURO,item_0647,3000,2,999,97,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+656,耿鬼进化石,Gengarite,MegaStone,7,GENGANAITO,item_0656,50000,7,1,14,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+657,沙奈朵进化石,Gardevoirite,MegaStone,7,SAANAITONAITO,item_0657,100000,7,1,19,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+658,电龙进化石,Ampharosite,MegaStone,7,DENRYUUNAITO,item_0658,100000,7,1,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+659,妙蛙花进化石,Venusaurite,MegaStone,7,HUSIGIBANAITO,item_0659,100000,7,1,37,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+660,喷火龙进化石Ｘ,Charizardite X,MegaStone,7,RIZAADONAITOx,item_0660,100000,7,1,38,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+661,水箭龟进化石,Blastoisinite,MegaStone,7,KAMEKKUSUNAITO,item_0661,100000,7,1,40,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+662,超梦进化石Ｘ,Mewtwonite X,MegaStone,7,MYUUTUNAITOx,item_0662,100000,7,1,67,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+663,超梦进化石Ｙ,Mewtwonite Y,MegaStone,7,MYUUTUNAITOy,item_0663,100000,7,1,68,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+664,火焰鸡进化石,Blazikenite,MegaStone,7,BASYAAMONAITO,item_0664,100000,7,1,69,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+665,恰雷姆进化石,Medichamite,MegaStone,7,TYAAREMUNAITO,item_0665,50000,7,1,17,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+666,黑鲁加进化石,Houndoominite,MegaStone,7,HERUGANAITO,item_0666,100000,7,1,21,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+667,波士可多拉进化石,Aggronite,MegaStone,7,BOSUGODORANAITO,item_0667,100000,7,1,54,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+668,诅咒娃娃进化石,Banettite,MegaStone,7,ZYUPETTANAITO,item_0668,100000,7,1,25,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+669,班基拉斯进化石,Tyranitarite,MegaStone,7,BANGIRASUNAITO,item_0669,100000,7,1,55,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+670,巨钳螳螂进化石,Scizorite,MegaStone,7,HASSAMUNAITO,item_0670,50000,7,1,46,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+671,凯罗斯进化石,Pinsirite,MegaStone,7,KAIROSUNAITO,item_0671,100000,7,1,47,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+672,化石翼龙进化石,Aerodactylite,MegaStone,7,PUTERANAITO,item_0672,100000,7,1,52,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+673,路卡利欧进化石,Lucarionite,MegaStone,7,RUKARIONAITO,item_0673,100000,7,1,32,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+674,暴雪王进化石,Abomasite,MegaStone,7,YUKINOONAITO,item_0674,50000,7,1,45,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+675,袋兽进化石,Kangaskhanite,MegaStone,7,GARUURANAITO,item_0675,70000,7,1,62,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+676,暴鲤龙进化石,Gyaradosite,MegaStone,7,GYARADOSUNAITO,item_0676,100000,7,1,7,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+677,阿勃梭鲁进化石,Absolite,MegaStone,7,ABUSORUNAITO,item_0677,100000,7,1,31,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+678,喷火龙进化石Ｙ,Charizardite Y,MegaStone,7,RIZAADONAITOy,item_0678,100000,7,1,39,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+679,胡地进化石,Alakazite,MegaStone,7,HUUDHINAITO,item_0679,100000,7,1,13,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+680,赫拉克罗斯进化石,Heracronite,MegaStone,7,HERAKUROSUNAITO,item_0680,100000,7,1,48,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+681,大嘴娃进化石,Mawilite,MegaStone,7,KUTIITONAITO,item_0681,100000,7,1,30,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+682,雷电兽进化石,Manectite,MegaStone,7,RAIBORUTONAITO,item_0682,100000,7,1,18,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+683,烈咬陆鲨进化石,Garchompite,MegaStone,7,GABURIASUNAITO,item_0683,70000,7,1,28,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+684,拉帝亚斯进化石,Latiasite,MegaStone,7,RATHIASUNAITO,item_0684,100000,7,1,70,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+685,拉帝欧斯进化石,Latiosite,MegaStone,7,RATHIOSUNAITO,item_0685,100000,7,1,71,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+686,洛玫果,Roseli Berry,Other,1,ROZERUNOMI,item_0686,80,5,999,33,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+690,招式学习器０９６,TM096,Other,5,WAZAMASIN96,item_0333,0,6,1,89,0,0,false,390,88,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+691,招式学习器０９７,TM097,Other,5,WAZAMASIN97,item_0328,0,6,1,90,0,0,false,399,89,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+692,招式学习器０９８,TM098,Other,5,WAZAMASIN98,item_0335,0,6,1,18,0,0,false,612,17,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+693,招式学习器０９９,TM099,Other,5,WAZAMASIN99,item_0693,0,6,1,92,0,0,false,605,91,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+700,电梯钥匙,Elevator Key,Other,0,EREBEETANOKII,item_0700,0,4,1,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+708,密阿雷格雷派饼,Lumiose Galette,Other,2,MIAREGARETTO,item_0708,350,0,999,18,0,0,false,0,-1,true,true,true,true,true,true,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,true,0
+710,颚之化石,Jaw Fossil,Other,9,AGONOKASEKI,item_0710,20000,2,999,99,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+711,鳍之化石,Sail Fossil,Other,9,HIRENOKASEKI,item_0711,20000,2,999,100,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+752,巨沼怪进化石,Swampertite,MegaStone,7,RAGURAAZINAITO,item_0752,100000,7,1,72,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+753,蜥蜴王进化石,Sceptilite,MegaStone,7,ZYUKAINNAITO,item_0753,100000,7,1,73,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+754,勾魂眼进化石,Sablenite,MegaStone,7,YAMIRAMINAITO,item_0754,100000,7,1,29,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+755,七夕青鸟进化石,Altarianite,MegaStone,7,TIRUTARISUNAITO,item_0755,100000,7,1,22,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+756,艾路雷朵进化石,Galladite,MegaStone,7,ERUREIDONAITO,item_0756,100000,7,1,20,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+757,差不多娃娃进化石,Audinite,MegaStone,7,TABUNNENAITO,item_0757,100000,7,1,23,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+758,巨金怪进化石,Metagrossite,MegaStone,7,METAGUROSUNAITO,item_0758,100000,7,1,64,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+759,巨牙鲨进化石,Sharpedonite,MegaStone,7,SAMEHADANAITO,item_0759,100000,7,1,34,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+760,呆壳兽进化石,Slowbronite,MegaStone,7,YADORANNAITO,item_0760,100000,7,1,33,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+761,大钢蛇进化石,Steelixite,MegaStone,7,HAGANEERUNAITO,item_0761,70000,7,1,53,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+762,大比鸟进化石,Pidgeotite,MegaStone,7,PIZYOTTONAITO,item_0762,100000,7,1,5,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+763,冰鬼护进化石,Glalitite,MegaStone,7,ONIGOORINAITO,item_0763,100000,7,1,43,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+764,蒂安希进化石,Diancite,MegaStone,7,DHIANSINAITO,item_0764,100000,7,1,66,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+765,惩戒之壶,Prison Bottle,Other,0,IMASIMENOTUBO,item_0765,0,4,1,14,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,true,0,0,0,0,0,0,0,0,false,0
+767,喷火驼进化石,Cameruptite,MegaStone,7,BAKUUDANAITO,item_0767,100000,7,1,26,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+768,长耳兔进化石,Lopunnite,MegaStone,7,MIMIROPPUNAITO,item_0768,100000,7,1,24,180,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+769,暴飞龙进化石,Salamencite,MegaStone,7,BOOMANDANAITO,item_0769,100000,7,1,61,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+770,大针蜂进化石,Beedrillite,MegaStone,7,SUPIANAITO,item_0770,100000,7,1,4,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+795,银色王冠,Bottle Cap,Other,3,GINNOOUKAN,item_0795,20000,2,999,103,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+796,金色王冠,Gold Bottle Cap,Other,3,KINNOOUKAN,item_0796,60000,2,999,104,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+847,基格尔德多面体,Zygarde Cube,Other,0,ZIGARUDEKYUUBU,item_0847,0,4,1,13,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,true,0,0,0,0,0,0,0,0,false,0
+849,冰之石,Ice Stone,Other,7,KOORINOISI,item_0849,3000,2,999,49,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+851,究极球,Beast Ball,Other,4,URUTORABOORU,item_0851,0,1,999,25,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1124,经验糖果ＸＳ,Exp. Candy XS,Other,2,KEIKENTIAME_1,item_1124,20,2,999,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,100,0,1,1,0,false,false,0,0,0,0,0,0,0,0,false,0
+1125,经验糖果Ｓ,Exp. Candy S,Other,2,KEIKENTIAME_2,item_1125,240,2,999,3,8,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,800,0,1,1,0,false,false,0,0,0,0,0,0,0,0,false,0
+1126,经验糖果Ｍ,Exp. Candy M,Other,2,KEIKENTIAME_3,item_1126,1000,2,999,4,30,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,3000,0,2,1,0,false,false,0,0,0,0,0,0,0,0,false,0
+1127,经验糖果Ｌ,Exp. Candy L,Other,2,KEIKENTIAME_4,item_1127,3000,2,999,5,100,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,10000,0,3,2,0,false,false,0,0,0,0,0,0,0,0,false,0
+1128,经验糖果ＸＬ,Exp. Candy XL,Other,2,KEIKENTIAME_5,item_1128,10000,2,999,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,30000,0,4,2,0,false,false,0,0,0,0,0,0,0,0,false,0
+1231,怕寂寞薄荷,Lonely Mint,Other,2,SAMISIGARIMINTO,item_1231,4000,2,999,19,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1232,固执薄荷,Adamant Mint,Other,2,IZIPPARIMINTO,item_1231,4000,2,999,20,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1233,顽皮薄荷,Naughty Mint,Other,2,YANTYAMINTO,item_1231,4000,2,999,21,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1234,勇敢薄荷,Brave Mint,Other,2,YUKANMINTO,item_1231,4000,2,999,22,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1235,大胆薄荷,Bold Mint,Other,2,ZUBUTOIMINTO,item_1235,4000,2,999,23,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1236,淘气薄荷,Impish Mint,Other,2,WANPAKUMINTO,item_1235,4000,2,999,24,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1237,乐天薄荷,Lax Mint,Other,2,NOUTENKIMINTO,item_1235,4000,2,999,25,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1238,悠闲薄荷,Relaxed Mint,Other,2,NONKIMINTO,item_1235,4000,2,999,26,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1239,内敛薄荷,Modest Mint,Other,2,HIKAEMEMINTO,item_1239,4000,2,999,27,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1240,慢吞吞薄荷,Mild Mint,Other,2,OTTORIMINTO,item_1239,4000,2,999,28,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1241,马虎薄荷,Rash Mint,Other,2,UKKARIMINTO,item_1239,4000,2,999,29,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1242,冷静薄荷,Quiet Mint,Other,2,REISEIMINTO,item_1239,4000,2,999,30,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1243,温和薄荷,Calm Mint,Other,2,ODAYAKAMINTO,item_1243,4000,2,999,31,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1244,温顺薄荷,Gentle Mint,Other,2,OTONASIIMINTO,item_1243,4000,2,999,32,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1245,慎重薄荷,Careful Mint,Other,2,SINTYOUMINTO,item_1243,4000,2,999,33,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1246,自大薄荷,Sassy Mint,Other,2,NAMAIKIMINTO,item_1243,4000,2,999,34,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1247,胆小薄荷,Timid Mint,Other,2,OKUBYOUMINTO,item_1247,4000,2,999,35,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1248,急躁薄荷,Hasty Mint,Other,2,SEKKTIMINTO,item_1247,4000,2,999,36,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1249,爽朗薄荷,Jolly Mint,Other,2,YOUKIMINTO,item_1247,4000,2,999,37,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1250,天真薄荷,Naive Mint,Other,2,MUJYAKIMINTO,item_1247,4000,2,999,38,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1251,认真薄荷,Serious Mint,Other,2,MAZIMEMINTO,item_1251,4000,2,999,39,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+1278,洛托姆型录,Rotom Catalog,Other,0,ROTOMUNOKATAROGU,item_1278,0,4,999,49,0,0,true,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,true,0,0,0,0,0,0,0,0,false,0
+1582,伽勒豆蔻手环,Galarica Cuff,Other,9,GARANATUBURESU,item_1582,3000,2,999,101,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+1592,伽勒豆蔻花圈,Galarica Wreath,Other,9,GARANATURIISU,item_1592,3000,2,999,102,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+1691,黑奇石,Black Augurite,Other,9,KURONOKISEKI,item_1691,2000,2,999,120,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+1861,咒术之铠,Malicious Armor,Other,9,NOROINOYOROI,item_1861,3000,2,999,121,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+2137,索财灵的硬币,Gimmighoul Coin,Other,3,SOZAI182,item_1956,800,2,999,123,0,0,true,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2160,招式学习器１００,TM100,Other,5,WAZAMASIN100,item_0350,0,6,1,37,0,0,false,446,36,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2162,招式学习器１０２,TM102,Other,5,WAZAMASIN102,item_0332,0,6,1,94,0,0,false,18,93,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2163,招式学习器１０３,TM103,Other,5,WAZAMASIN103,item_0328,0,6,1,95,0,0,false,269,94,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2164,招式学习器１０４,TM104,Other,5,WAZAMASIN104,item_0357,0,6,1,91,0,0,false,174,90,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2165,招式学习器１０５,TM105,Other,5,WAZAMASIN105,item_0330,0,6,1,97,0,0,false,377,96,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2166,招式学习器１０６,TM106,Other,5,WAZAMASIN106,item_0332,0,6,1,35,0,0,false,203,34,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2167,招式学习器１０７,TM107,Other,5,WAZAMASIN107,item_0332,0,6,1,99,0,0,false,118,98,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2168,招式学习器１０８,TM108,Other,5,WAZAMASIN108,item_0333,0,6,1,100,0,0,false,441,99,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2169,招式学习器１０９,TM109,Other,5,WAZAMASIN109,item_0332,0,6,1,109,420,0,false,263,108,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2170,招式学习器１１０,TM110,Other,5,WAZAMASIN110,item_0332,0,6,1,111,360,0,false,47,110,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2171,招式学习器１１１,TM111,Other,5,WAZAMASIN111,item_0335,0,6,1,113,360,0,false,490,112,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2172,招式学习器１１２,TM112,Other,5,WAZAMASIN112,item_0338,0,6,1,114,360,0,false,488,113,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2173,招式学习器１１３,TM113,Other,5,WAZAMASIN113,item_0332,0,6,1,116,360,0,false,6,115,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2174,招式学习器１１４,TM114,Other,5,WAZAMASIN114,item_0357,0,6,1,118,360,0,false,325,117,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2175,招式学习器１１５,TM115,Other,5,WAZAMASIN115,item_0328,0,6,1,121,360,0,false,259,120,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2176,招式学习器１１６,TM116,Other,5,WAZAMASIN116,item_0332,0,6,1,122,360,0,false,206,121,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2177,招式学习器１１７,TM117,Other,5,WAZAMASIN117,item_0333,0,6,1,123,360,0,false,305,122,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2178,招式学习器１１８,TM118,Other,5,WAZAMASIN118,item_0332,0,6,1,125,360,0,false,102,124,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2179,招式学习器１１９,TM119,Other,5,WAZAMASIN119,item_0330,0,6,1,127,420,0,false,138,126,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2180,招式学习器１２０,TM120,Other,5,WAZAMASIN120,item_0335,0,6,1,129,360,0,false,509,128,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2181,招式学习器１２１,TM121,Other,5,WAZAMASIN121,item_0338,0,6,1,133,420,0,false,299,132,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2182,招式学习器１２２,TM122,Other,5,WAZAMASIN122,item_0421,0,6,1,134,360,0,false,814,133,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2183,招式学习器１２３,TM123,Other,5,WAZAMASIN123,item_0353,0,6,1,136,420,0,false,815,135,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2184,招式学习器１２４,TM124,Other,5,WAZAMASIN124,item_0332,0,6,1,139,360,0,false,207,138,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2185,招式学习器１２５,TM125,Other,5,WAZAMASIN125,item_0403,0,6,1,142,540,0,false,660,141,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2186,招式学习器１２６,TM126,Other,5,WAZAMASIN126,item_0329,0,6,1,143,360,0,false,799,142,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2187,招式学习器１２７,TM127,Other,5,WAZAMASIN127,item_0350,0,6,1,156,540,0,false,800,155,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2188,招式学习器１２８,TM128,Other,5,WAZAMASIN128,item_0401,0,6,1,157,540,0,false,796,156,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2189,招式学习器１２９,TM129,Other,5,WAZAMASIN129,item_0332,0,6,1,108,360,0,false,4,107,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2190,招式学习器１３０,TM130,Other,5,WAZAMASIN130,item_0345,0,6,1,110,360,0,false,886,109,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2191,招式学习器１３１,TM131,Other,5,WAZAMASIN131,item_0333,0,6,1,112,360,0,false,491,111,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2192,招式学习器１３２,TM132,Other,5,WAZAMASIN132,item_0349,0,6,1,115,360,0,false,885,114,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2193,招式学习器１３３,TM133,Other,5,WAZAMASIN133,item_0403,0,6,1,117,360,0,false,318,116,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2194,招式学习器１３４,TM134,Other,5,WAZAMASIN134,item_0357,0,6,1,119,360,0,false,466,118,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2195,招式学习器１３５,TM135,Other,5,WAZAMASIN135,item_0350,0,6,1,120,360,0,false,246,119,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2196,招式学习器１３６,TM136,Other,5,WAZAMASIN136,item_0330,0,6,1,124,420,0,false,706,123,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2197,招式学习器１３７,TM137,Other,5,WAZAMASIN137,item_0401,0,6,1,126,420,0,false,443,125,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2198,招式学习器１３８,TM138,Other,5,WAZAMASIN138,item_0349,0,6,1,128,420,0,false,402,127,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2199,招式学习器１３９,TM139,Other,5,WAZAMASIN139,item_0351,0,6,1,130,360,0,false,451,129,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2200,招式学习器１４０,TM140,Other,5,WAZAMASIN140,item_0335,0,6,1,131,420,0,false,409,130,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2201,招式学习器１４１,TM141,Other,5,WAZAMASIN141,item_0332,0,6,1,132,360,0,false,458,131,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2202,招式学习器１４２,TM142,Other,5,WAZAMASIN142,item_0329,0,6,1,135,360,0,false,530,134,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2203,招式学习器１４３,TM143,Other,5,WAZAMASIN143,item_0335,0,6,1,137,420,0,false,480,136,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2204,招式学习器１４４,TM144,Other,5,WAZAMASIN144,item_0334,0,6,1,138,420,0,false,524,137,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2205,招式学习器１４５,TM145,Other,5,WAZAMASIN145,item_0345,0,6,1,140,420,0,false,330,139,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2206,招式学习器１４６,TM146,Other,5,WAZAMASIN146,item_0332,0,6,1,141,420,0,false,252,140,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2207,招式学习器１４７,TM147,Other,5,WAZAMASIN147,item_0334,0,6,1,144,420,0,false,813,143,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2208,招式学习器１４８,TM148,Other,5,WAZAMASIN148,item_0332,0,6,1,145,540,0,false,13,144,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2209,招式学习器１４９,TM149,Other,5,WAZAMASIN149,item_0332,0,6,1,146,540,0,false,130,145,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2210,招式学习器１５０,TM150,Other,5,WAZAMASIN150,item_0332,0,6,1,147,420,0,false,161,146,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2211,招式学习器１５１,TM151,Other,5,WAZAMASIN151,item_0345,0,6,1,148,420,0,false,503,147,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2212,招式学习器１５２,TM152,Other,5,WAZAMASIN152,item_0334,0,6,1,149,420,0,false,333,148,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2213,招式学习器１５３,TM153,Other,5,WAZAMASIN153,item_0335,0,6,1,150,360,0,false,410,149,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2214,招式学习器１５４,TM154,Other,5,WAZAMASIN154,item_0349,0,6,1,151,540,0,false,80,150,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2215,招式学习器１５５,TM155,Other,5,WAZAMASIN155,item_0349,0,6,1,152,540,0,false,669,151,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2216,招式学习器１５６,TM156,Other,5,WAZAMASIN156,item_0421,0,6,1,153,540,0,false,143,152,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2217,招式学习器１５７,TM157,Other,5,WAZAMASIN157,item_0353,0,6,1,154,540,0,false,90,153,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2218,招式学习器１５８,TM158,Other,5,WAZAMASIN158,item_0334,0,6,1,155,540,0,false,329,154,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2219,招式学习器１５９,TM159,Other,5,WAZAMASIN159,item_0338,0,6,1,158,540,0,false,307,157,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2220,招式学习器１６０,TM160,Other,5,WAZAMASIN160,item_0345,0,6,1,159,540,0,false,308,158,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2221,招式学习器１６１,TM161,Other,5,WAZAMASIN161,item_0349,0,6,1,160,540,0,false,338,159,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2344,庆祝之铠,Auspicious Armor,Other,9,IWAINOYOROI,item_2344,3000,2,999,122,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,true,false,0,0,0,0,0,0,0,0,false,0
+2401,妖精之羽,Fairy Feather,Other,7,YOUSEINOHANE,item_2401,3000,2,999,77,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,20,0,false,0
+2558,精通种子,Seed of Mastery,Other,3,KAIDENNOTANE,item_2558,3000,2,999,107,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2559,皮可西进化石,Clefablite,MegaStone,7,PIKUSINAITO,item_2559,100000,7,1,12,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2560,大食花进化石,Victreebelite,MegaStone,7,UTUBOTTONAITO,item_2560,100000,7,1,16,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2561,宝石海星进化石,Starminite,MegaStone,7,STAAMIINAITO,item_2561,100000,7,1,9,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2562,快龙进化石,Dragoninite,MegaStone,7,KAIRYUNAITO,item_2562,100000,7,1,36,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2563,大竺葵进化石,Meganiumite,MegaStone,7,MEGANIUMUNAITO,item_2563,100000,7,1,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2564,大力鳄进化石,Feraligite,MegaStone,7,OODAIRUNAITO,item_2564,100000,7,1,3,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2565,盔甲鸟进化石,Skarmorite,MegaStone,7,EAAMUDONAITO,item_2565,100000,7,1,59,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2566,雪妖女进化石,Froslassite,MegaStone,7,YUKIMENOKONAITO,item_2566,100000,7,1,44,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2567,席多蓝恩进化石,Heatranite,MegaStone,7,HIIDORANAITO,item_2567,100000,7,1,74,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2568,达克莱伊进化石,Darkranite,MegaStone,7,DAAKURANAITO,item_2568,100000,7,1,75,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2569,炎武王进化石,Emboarite,MegaStone,7,ENBUONAITO,item_2569,100000,7,1,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2570,龙头地鼠进化石,Excadrite,MegaStone,7,DORYUUZUNAITO,item_2570,100000,7,1,27,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2571,蜈蚣王进化石,Scolipite,MegaStone,7,PENDORANAITO,item_2571,100000,7,1,15,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2572,头巾混混进化石,Scraftinite,MegaStone,7,ZURUZUKINAITO,item_2572,100000,7,1,50,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2573,麻麻鳗鱼王进化石,Eelektrossite,MegaStone,7,SIBIRUDONAITO,item_2573,100000,7,1,35,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2574,水晶灯火灵进化石,Chandelurite,MegaStone,7,SYANDERANAITO,item_2574,100000,7,1,51,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2575,布里卡隆进化石,Chesnaughtite,MegaStone,7,BURIGARONAITO,item_2575,100000,7,1,58,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2576,妖火红狐进化石,Delphoxite,MegaStone,7,MAFOKUSINAITO,item_2576,100000,7,1,60,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2577,甲贺忍蛙进化石,Greninjite,MegaStone,7,GEKKOUGANAITO,item_2577,100000,7,1,56,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2578,火炎狮进化石,Pyroarite,MegaStone,7,KAENZISINAITO,item_2578,100000,7,1,11,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2579,花叶蒂进化石,Floettite,MegaStone,7,HURAETTENAITO,item_2579,100000,7,1,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2580,乌贼王进化石,Malamarite,MegaStone,7,KARAMANERONAITO,item_2580,100000,7,1,41,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2581,龟足巨铠进化石,Barbaracite,MegaStone,7,GAMENODESUNAITO,item_2581,100000,7,1,8,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2582,毒藻龙进化石,Dragalgite,MegaStone,7,DORAMIDORONAITO,item_2582,100000,7,1,42,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2583,摔角鹰人进化石,Hawluchanite,MegaStone,7,RUTYABURUNAITO,item_2583,100000,7,1,49,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2584,基格尔德进化石,Zygardite,MegaStone,7,ZIGARUDENAITO,item_2584,100000,7,1,65,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2585,老翁龙进化石,Drampanite,MegaStone,7,ZIZIIRONAITO,item_2585,100000,7,1,63,360,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2586,捷拉奥拉进化石,Zeraorite,MegaStone,7,ZERAORANAITO,item_2586,100000,7,1,76,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2587,列阵兵进化石,Falinksite,MegaStone,7,TAIREETUNAITO,item_2587,100000,7,1,57,240,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2588,２０２号客房的钥匙,Key to Room 202,Other,0,202GOUSITUNOKAGI,item_2588,0,4,1,1,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2589,厉害密阿雷格雷派饼,Super Lumiose Galette,Other,0,SUGOIMIAREGARETTO,item_2589,0,4,1,4,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2590,研究所的钥匙卡Ａ,Lab Key Card A,Other,0,RABONOKAADOKIIA,item_2590,0,4,1,6,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2591,研究所的钥匙卡Ｂ,Lab Key Card B,Other,0,RABONOKAADOKIIB,item_2591,0,4,1,7,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2592,研究所的钥匙卡Ｃ,Lab Key Card C,Other,0,RABONOKAADOKIIC,item_2592,0,4,1,8,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2595,小石头,Pebble,Other,0,ISHIKORO,item_2595,0,4,1,3,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,2584
+2596,纪念戒指,Cherished Ring,Other,0,OMOIDENOYUBIWA,item_2596,0,4,1,10,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2597,签名玩偶,Autographed Plush,Other,0,SAINIRINONUI,item_2620,0,4,1,5,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2598,美味垃圾,Tasty Trash,Other,0,OISHIIGOMI,item_2598,0,4,1,11,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2599,活力小树枝,Revitalizing Twig,Other,0,GENKINOKOEDA,item_2599,0,4,1,12,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2600,玳萝的遗忘物,Lida’s Things,Other,0,DEURONOWASUREMONO,item_2600,0,4,1,2,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2601,密阿雷黄油,Lumiosian Butter,Other,0,BEIKINGUPAUDAA,item_2601,0,4,1,36,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2602,超级黄油,Nice Butter,Other,0,IJIGENPAUDAA1,item_2602,0,4,1,37,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2603,高级黄油,Great Butter,Other,0,IJIGENPAUDAA2,item_2603,0,4,1,38,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2604,究极黄油,Amazing Butter,Other,0,IJIGENPAUDAA3,item_2604,0,4,1,39,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2605,大师黄油,Supreme Butter,Other,0,IJIGENPAUDAA4,item_2605,0,4,1,40,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2606,异次元黄油,Hyperspace Butter,Other,0,IJIGENPAUDAA5,item_2606,0,4,1,41,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2607,丰缘的粗盐,Hoennian Salt,Other,0,HOUENNOARAJIO,item_2607,0,4,1,42,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2608,黑香料,Épice Noire,Other,0,SUPAISUBURAKKU,item_2608,0,4,1,43,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2609,奥利瓦油,Arboliva Oil,Other,0,ORIIBUAOIRU,item_2609,0,4,1,44,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2610,噼里啪啦糖果,Popping Candy,Other,0,PACHIPACHIKYANDII,item_2610,0,4,1,45,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2611,重要信件,Important Letter,Other,0,TAISETSUNATEGAMI,item_2611,0,4,1,46,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2612,纪念戒指,Cherished Ring,Other,0,OMOIDENOYUBIWA2,item_2596,0,4,1,47,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2613,脏围巾,Dirty Scarf,Other,0,YOGORETASUKAAHU,item_0251,0,4,1,48,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2618,超级碎片,Mega Shard,Other,3,MEGAKAKERA,item_2618,0,2,9999,105,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2619,彩色螺丝,Colorful Screw,Other,3,OMAMORISOZAI,item_2619,0,2,999,106,0,0,true,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2620,红色卡娜莉玩偶,Red Canari Plush,Other,3,AKANOKANARYINUI1,item_2620,0,4,1,20,0,3,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2621,红色卡娜莉玩偶,Red Canari Plush,Other,3,AKANOKANARYINUI2,item_2621,0,4,1,21,0,5,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2622,红色卡娜莉玩偶,Red Canari Plush,Other,3,AKANOKANARYINUI3,item_2622,0,4,1,22,0,8,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2623,金色卡娜莉玩偶,Gold Canari Plush,Other,3,KINNOKANARYINUI1,item_2623,0,4,1,23,0,3,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2624,金色卡娜莉玩偶,Gold Canari Plush,Other,3,KINNOKANARYINUI2,item_2624,0,4,1,24,0,5,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2625,金色卡娜莉玩偶,Gold Canari Plush,Other,3,KINNOKANARYINUI3,item_2625,0,4,1,25,0,8,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2626,粉红色卡娜莉玩偶,Pink Canari Plush,Other,3,PINKUNOKANARYINUI1,item_2626,0,4,1,26,0,3,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2627,粉红色卡娜莉玩偶,Pink Canari Plush,Other,3,PINKUNOKANARYINUI2,item_2627,0,4,1,27,0,5,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2628,粉红色卡娜莉玩偶,Pink Canari Plush,Other,3,PINKUNOKANARYINUI3,item_2628,0,4,1,28,0,8,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2629,绿色卡娜莉玩偶,Green Canari Plush,Other,3,MIDORINOKANARYINUI1,item_2629,0,4,1,29,0,3,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2630,绿色卡娜莉玩偶,Green Canari Plush,Other,3,MIDORINOKANARYINUI2,item_2630,0,4,1,30,0,5,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2631,绿色卡娜莉玩偶,Green Canari Plush,Other,3,MIDORINOKANARYINUI3,item_2631,0,4,1,31,0,8,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2632,蓝色卡娜莉玩偶,Blue Canari Plush,Other,3,AONOKANARYINUI1,item_2632,0,4,1,32,0,3,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2633,蓝色卡娜莉玩偶,Blue Canari Plush,Other,3,AONOKANARYINUI2,item_2633,0,4,1,33,0,5,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2634,蓝色卡娜莉玩偶,Blue Canari Plush,Other,3,AONOKANARYINUI3,item_2634,0,4,1,34,0,8,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2635,雷丘进化石Ｘ,Raichunite X,MegaStone,7,RAITYUUNAITOx,item_2635,100000,7,1,77,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2636,雷丘进化石Ｙ,Raichunite Y,MegaStone,7,RAITYUUNAITOy,item_2636,100000,7,1,78,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2637,风铃铃进化石,Chimechite,MegaStone,7,TIRIINNAITO,item_2637,100000,7,1,79,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2638,阿勃梭鲁进化石Ｚ,Absolite Z,MegaStone,7,ABUSORUNAITOz,item_2638,100000,7,1,80,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2639,姆克鹰进化石,Staraptite,MegaStone,7,MUKUHOOKUNAITO,item_2639,100000,7,1,81,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2640,烈咬陆鲨进化石Ｚ,Garchompite Z,MegaStone,7,GABURIASUNAITOz,item_2640,100000,7,1,82,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2641,路卡利欧进化石Ｚ,Lucarionite Z,MegaStone,7,RUKARIONAITOz,item_2641,100000,7,1,83,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2642,泥偶巨人进化石,Golurkite,MegaStone,7,GORUUGUNAITO,item_2642,100000,7,1,84,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2643,超能妙喵进化石,Meowsticite,MegaStone,7,NYAONIKUSUNAITO,item_2643,100000,7,1,85,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2644,好胜毛蟹进化石,Crabominite,MegaStone,7,KEKENKANINAITO,item_2644,100000,7,1,86,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2645,具甲武者进化石,Golisopite,MegaStone,7,GUSOKUMUSYANAITO,item_2645,100000,7,1,87,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2646,玛机雅娜进化石,Magearnite,MegaStone,7,MAGIANAITO,item_2646,100000,7,1,88,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2647,狠辣椒进化石,Scovillainite,MegaStone,7,SUKOBUIRANAITO,item_2647,100000,7,1,89,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2648,戟脊龙进化石,Baxcalibrite,MegaStone,7,SEGUREIBUNAITO,item_2648,100000,7,1,90,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2649,米立龙进化石,Tatsugirinite,MegaStone,7,SHARITATSUNAITO,item_2649,100000,7,1,91,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2650,晶光花进化石,Glimmoranite,MegaStone,7,KIRAHURORUNAITO,item_2650,100000,7,1,92,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2651,异次元樱子果,Hyper Cheri Berry,Other,1,IJIGENKURABONOMI,item_2651,40,5,999,34,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2652,异次元零余果,Hyper Chesto Berry,Other,1,IJIGENKAGONOMI,item_2652,40,5,999,35,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2653,异次元桃桃果,Hyper Pecha Berry,Other,1,IJIGENMOMONNOMI,item_2653,40,5,999,36,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2654,异次元莓莓果,Hyper Rawst Berry,Other,1,IJIGENTIIGONOMI,item_2654,40,5,999,37,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2655,异次元利木果,Hyper Aspear Berry,Other,1,IJIGENNANASINOMI,item_2655,40,5,999,38,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2656,异次元橙橙果,Hyper Oran Berry,Other,1,IJIGENORENNOMI,item_2656,40,5,999,39,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2657,异次元柿仔果,Hyper Persim Berry,Other,1,IJIGENKIINOMI,item_2657,40,5,999,40,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2658,异次元木子果,Hyper Lum Berry,Other,1,IJIGENRAMUNOMI,item_2658,40,5,999,41,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2659,异次元文柚果,Hyper Sitrus Berry,Other,1,IJIGENOBONNOMI,item_2659,40,5,999,42,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2660,异次元榴石果,Hyper Pomeg Berry,Other,1,IJIGENZAROKUNOMI,item_2660,40,5,999,43,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2661,异次元藻根果,Hyper Kelpsy Berry,Other,1,IJIGENNEKOBUNOMI,item_2661,40,5,999,44,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2662,异次元比巴果,Hyper Qualot Berry,Other,1,IJIGENTAPORUNOMI,item_2662,40,5,999,45,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2663,异次元哈密果,Hyper Hondew Berry,Other,1,IJIGENROMENOMI,item_2663,40,5,999,46,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2664,异次元萄葡果,Hyper Grepa Berry,Other,1,IJIGENUBUNOMI,item_2664,40,5,999,47,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2665,异次元茄番果,Hyper Tamato Berry,Other,1,IJIGENMATOMANOMI,item_2665,40,5,999,48,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2666,异次元巧可果,Hyper Occa Berry,Other,1,IJIGENOKKANOMI,item_2666,40,5,999,49,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2667,异次元千香果,Hyper Passho Berry,Other,1,IJIGENITOKENOMI,item_2667,40,5,999,50,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2668,异次元烛木果,Hyper Wacan Berry,Other,1,IJIGENSOKUNONOMI,item_2668,40,5,999,51,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2669,异次元罗子果,Hyper Rindo Berry,Other,1,IJIGENRINDONOMI,item_2669,40,5,999,52,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2670,异次元番荔果,Hyper Yache Berry,Other,1,IJIGENYATHENOMI,item_2670,40,5,999,53,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2671,异次元莲蒲果,Hyper Chople Berry,Other,1,IJIGENYOPUNOMI,item_2671,40,5,999,54,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2672,异次元通通果,Hyper Kebia Berry,Other,1,IJIGENBIAANOMI,item_2672,40,5,999,55,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2673,异次元腰木果,Hyper Shuca Berry,Other,1,IJIGENSYUKANOMI,item_2673,40,5,999,56,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2674,异次元棱瓜果,Hyper Coba Berry,Other,1,IJIGENBAKOUNOMI,item_2674,40,5,999,57,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2675,异次元福禄果,Hyper Payapa Berry,Other,1,IJIGENUTANNOMI,item_2675,40,5,999,58,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2676,异次元扁樱果,Hyper Tanga Berry,Other,1,IJIGENTANGANOMI,item_2676,40,5,999,59,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2677,异次元草蚕果,Hyper Charti Berry,Other,1,IJIGENYOROGINOMI,item_2677,40,5,999,60,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2678,异次元佛柑果,Hyper Kasib Berry,Other,1,IJIGENKASIBUNOMI,item_2678,40,5,999,61,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2679,异次元莓榴果,Hyper Haban Berry,Other,1,IJIGENHABANNOMI,item_2679,40,5,999,62,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2680,异次元刺耳果,Hyper Colbur Berry,Other,1,IJIGENNAMONOMI,item_2680,40,5,999,63,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2681,异次元霹霹果,Hyper Babiri Berry,Other,1,IJIGENRIRIBANOMI,item_2681,40,5,999,64,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2682,异次元灯浆果,Hyper Chilan Berry,Other,1,IJIGENHOZUNOMI,item_2682,40,5,999,65,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2683,异次元洛玫果,Hyper Roseli Berry,Other,1,IJIGENROZERUNOMI,item_2683,40,5,999,66,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,0,0,false,0
+2684,卡娜莉面包,Canari Bread,Other,2,KANARIIPAN,item_2684,1300,0,999,19,0,0,false,0,-1,false,false,false,false,false,false,false,0,0,0,0,0,0,0,0,-1,100,0,0,0,0,0,0,0,0,false,false,0,0,0,0,0,0,100,0,true,0
