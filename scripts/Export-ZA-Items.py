@@ -75,7 +75,9 @@ class FlatReader:
                     value = self.string(loc)
                 elif typ == "bool":
                     value = bool(self.read("B", loc))
-                elif typ in {"int", "ItemType", "WazaID"}:
+                elif typ == "WazaID":
+                    value = self.read("H", loc)  # WazaID.fbs declares ushort
+                elif typ in {"int", "ItemType"}:
                     value = self.read("i", loc)
                 else:
                     raise ValueError(f"unsupported ItemData field type: {name}={typ}")
