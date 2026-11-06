@@ -1,0 +1,73 @@
+name: ZA v2.0.2 real BFBS data export
+on:
+  push:
+    branches:
+      - docs/za-v2.0.2-obsidian-extraction
+    paths:
+      - scripts/Export-ZA-Databases.py
+      - .github/workflows/za-real-data-export.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Export-ZA-Databases.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/encount_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/pokemon_data/pokemon_data/pokemon_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/zone/wild_zone_data/wild_zone.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/area/field_wild_zone/field_wild_zone_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/area/field_location/field_location_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/area/field_scene_area/field_scene_area_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/spawner_transform_data/pokemon_spawner_transform/pokemon_spawner_transform/pokemon_spawner_transform_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/area_jump/field_area_jump_point/field_area_jump_point_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/oyabun/oyabun_setting/oyabun_setting.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/oyabun/oyabun_waza/oyabun_waza.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/waza_attribute/waza_attribute_data/waza_attribute_data.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/pokemon_drop_item_table/pokemon_drop_item_table_data/pokemon_drop_item_table_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/item_ball/item_ball_item_data/item_ball_item_data/item_ball_item_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/item_ball/item_ball_spawner_data/item_ball_spawner_data/item_ball_spawner_data_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/item/item_type_data/item_type_data.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/trainer/trdata/trdata_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/trainer/trenv/trenv_array.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/capture/capture_data/capture_data.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/battle/battle_setting/battle_setting.*
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax check
+        run: python -m py_compile scripts/Export-ZA-Databases.py
+      - name: Decode v2.0.2 native table pairs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u scripts/Export-ZA-Databases.py --repo . --out .za-work/za-data --workers 4 --samples 3 --csv-max-rows 50000 --require-all
+      - name: Report per table statuses
+        if: always()
+        shell: bash
+        run: |
+          if test -f .za-work/za-data/manifest.json; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path(".za-work/za-data/manifest.json").read_text())
+          print(f"success={r['succeeded']}/{r['count']}; failed={r['failed']}")
+          for f in r["files"]:
+              print(f["name"],f["status"],f.get("rootRecordCount"),f.get("nestedArrayElementCounts"),f.get("error",""))
+          PY
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZA-v2.0.2-FlatBuffers-RealData
+          path: .za-work/za-data/
+          retention-days: 30
+          if-no-files-found: warn
