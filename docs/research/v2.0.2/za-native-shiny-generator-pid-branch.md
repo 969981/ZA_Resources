@@ -122,14 +122,15 @@ state->result_pid_or_word_20 = pid;
 | EncountData.FlatBuffers 32 位 Rare | 0x1FFFFFFF | 0x2FFFFFFF | 0x3FFFFFFF | 原生遭遇表 + pkNX 解释 |
 | Native 生成器内部 64 位模式 | 0x1FFFFFFFF | 0x2FFFFFFFF | 0x3FFFFFFFF | ELF 静态分支 |
 
-**目前仅确认两套编码呈现对应的行为与数值序列，不确认实际转换函数或字段消费者。** 禁止直接认为原始 0x1FFFFFFF 会在内存里原样以 64 位出现；要追溯所用字段、映射关系、调用参数。
+**后续已发现原生转换指令**：0x656144–0x65614C 从原生描述对象 +0x68 读取 32 位模式，并计算 ((int64_t)(int32_t)raw << 4) | 0xF，产生 0x1FFFFFFFF / 0x2FFFFFFFF / 0x3FFFFFFFF。0x656170 写入局部状态，0x656298 进入 0x656F80，内部在 +0x20 读取它。原始 FlatBuffers 字段到该描述对象的赋值路径仍待复核，见第九节。
 
 ### 4.1 模式对应关系的证据等级
 
 - 原生 0x1FFFFFFFF → AntiShiny：**CONFIRMED 静态控制流**。
 - 原生 0x2FFFFFFFF → 0xE5D21C PID adjustment：**CONFIRMED 静态控制流**，倾向强制异色，但业务场景未知。
 - 原生 0x3FFFFFFFF → 按 [X19+0x28] 重掷并检查异色：**CONFIRMED 静态控制流**。
-- FlatBuffers Rare 32 位三种值 → 生成器内部 64 位模式：**CANDIDATE，尚未定位转换函数**。
+- 描述对象 +0x68 的三态 32 位值 → 内部 64 位模式：**CONFIRMED 静态原生转换**，含输入、移位、OR、局部状态与 BL 传递。
+- FlatBuffers 原始 EncountData.Rare → 描述结构 +0x68：**CANDIDATE**，转换原始数据的反序列化/复制函数待查。
 - 蒂安希/超梦实际触发的模式和 PID 修改：**UNKNOWN，需运行时日志**。
 
 ## 5. PKM 现有对象上执行的防闪后写回
@@ -167,12 +168,12 @@ mode 0x1FFFFFFFF / 0x2FFFFFFFF / 0x3FFFFFFFF
     -> 0xE5D1E8 / 0xE5D200 / 0xE5D21C
 ~~~
 
-但**两链之间的 EncountData.Rare 消费→内部 mode 构造→实际实例化入口还没有闭合**；这一连接最值得继续。
+已经确认描述对象 +0x68 → 内部模式变换 → 0x656F80 PID 生成 → Pokémon setter 的连续静态代码证据；仍缺原始 EncountData.Rare → 该描述对象的赋值来源、EX1/EX2 实际调度此函数的运行时执行日志。
 
 ## 7. 下一阶段精确任务
 
-1. 在 0x6570xx 的上游真实调用者中追 x19 的建立点；确认 [x19+0x18] 的身份（trainer ID 候选）、[x19+0x20] 输入时的原生模式，以及 [x19+0x28] roll 次数。
-2. 对照 FlatBuffers EncountData.Rare 的字段号 6 与实际 getter/反序列化代码。搜索高位指示/变换，而非只搜低 32 位常量。
+1. 已确认 0x656F80 函数入口从 0x656294 的 SP+0x18 接收状态；+0x20 用于内部三态模式并最终复用为 PID 结果，+0x28 是 roll 次数。需继续确认 Trainer ID/RNG 的上游来源。
+2. 已找到 0x656060 描述对象 +0x68 的编码转换；下步追踪 FlatBuffers EncountData 字段 6 到 +0x68 的赋值来源并反查五组外部调用者。
 3. 追 battle/spawner 入口到上述状态结构的设置操作，包括 0x4FFFFFFFF 特殊随机模式如何处理。
 4. 用 SHA/Build ID 一致的实验环境断点记录 PC/LR、mode、raw Rare、TID32、PID、rollCount、分支与结果；分别对 Never / Always / Random 和 EX1 / EX2 做无修改的只读实测。
 5. 根据实测建前后值对照（尤其两次防闪检查 fakeTID 与玩家训练家 ID），再确认游戏对不同场景如何使用辅助函数。
@@ -184,8 +185,92 @@ python -m unittest discover -s tests -p test_za_rare_arm64.py -v
 python scripts/Scan-ZA-Rare-ARM64.py
 python -m pip install capstone==5.0.6
 python scripts/Trace-ZA-Rare-Candidates.py --site-kind anti-shiny-xor --output docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md --before 0xC0 --after 0xC0
-python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x120 --after 0x120
+python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x280 --after 0x120
+python scripts/Trace-ZA-Rare-Candidates.py --site-kind native-state-builder-callers --output docs/research/v2.0.2/za-native-rare-builder-callers.md --before 0x200 --after 0x80
 python scripts/Trace-ZA-PID-Accessor-Callers.py
 ~~~
 
 配套：[[za-rare-arm64-runtime-chain-audit]]、[[za-pid-accessor-native-xrefs]]、[[za-legendary-shiny-lock-diancie-mewtwo-events]]。
+
+
+## 9. 新实证：32 位模式转换、生成器入口与字段写回
+
+### 9.1 0x656060 的真实转换指令
+
+~~~asm
+6560B4  MOV  X20,X0
+6560DC  MOV  W9,#0xF
+656144  LDP  W8,W10,[X20,#0x68]
+656148  SXTW X8,W8
+65614C  ORR  X8,X9,X8,LSL #4
+656150  LDRB W9,[X21,#0x14]
+656158  MOV  X9,#0x2FFFFFFFF
+656160  CSEL X8,X8,X9,EQ
+656170  STR  X8,[SP,#0x38]
+65627C  ADD  W8,W23,#1
+656280  STRB W8,[SP,#0x40]
+656294  ADD  X0,SP,#0x18
+656298  BL   #0x656F80
+656FC0  MOV  X19,X0
+657078  LDR  X9,[X19,#0x20]
+~~~
+
+这是经过 SHA-256 校验的真正游戏主程序反汇编。x20 由函数入参 x0 赋值，x20+0x68 是输入描述对象中的 32 位模式。ORR 计算的 64 位值为 ((signed32(raw) << 4) | 0xF)，所以 Never/Always/Random 的数值逐一精确匹配：
+
+| 32 位源值 | 64 位计算值 | 原生处理 |
+|---|---|---|
+| 0x1FFFFFFF | 0x1FFFFFFFF | AntiShiny |
+| 0x2FFFFFFF | 0x2FFFFFFFF | Shiny adjustment |
+| 0x3FFFFFFF | 0x3FFFFFFFF | Random rolls |
+
+X21+0x14 的条件检查后，还可能在 0x656160 覆盖内部模式为 0x2FFFFFFFF；不能认为每种情况下都会无条件沿用输入值。
+
+从 SP+0x18 作为 state 起点，可验证 SP+0x38 即 state+0x20，恰是生成器的 0x657078 读取的模式。SP+0x40 即 state+0x28，在 0x6570E4、0x65712C 被作为随机重掷次数读取。因此上下游不仅有直接 BL，连栈内字段也闭合了。
+
+### 9.2 0x653F24 的原始 Rare.Always 交叉验证
+
+~~~asm
+653F24  BL   #0x656060
+653F2C  MOV  W9,#0x2FFFFFFF
+653F34  LDR  W8,[X24,#0x68]
+653F38  CMP  W8,W9
+653F3C  B.EQ #0x654970
+~~~
+
+这里也读取同类型描述对象的 +0x68，并与原始 Rare.Always 32 位编码完全相同的常量比较。该指令与 0x656144 的输入/变换构成两个独立交叉证据。剩余问题是源 FlatBuffers 记录的字段 6 究竟通过哪一条反序列化/复制路径进入内存描述对象。
+
+### 9.3 0xE3EB34 的生成器调用与 Pokémon 属性赋值
+
+~~~asm
+E3EB58  ADD X0,SP,#8
+E3EB5C  BL  #0xBEF804
+E3EB60  ADD X0,SP,#8
+E3EB64  BL  #0x656F80
+E3EB9C  BL  #0xE52EE0  ; TID/SID setter
+E3EBA8  BL  #0xE57350  ; PID setter
+E3EBB4  BL  #0xE52AA0  ; Species setter
+E3EBC0  BL  #0xE56470  ; Form setter
+E3EBE4  BL  #0xE56690  ; Nature setter
+~~~
+
+0xE3EB98 及 0xE3EBA4 从局部生成状态的字段读取值并交给属性 setter。这是“生成器输出 → Pokémon 个体字段写入”的原生静态调用证据，不是单纯函数距离接近。
+
+### 9.4 五个原生描述状态生成函数的直接调用者
+
+已在本版 ELF 中找到指向 0x656060 的全部五条直接 BL：
+
+| Caller ELF VA | → | 观察 |
+|---|---|---|
+| 0x49CCA4 | 0x656060 | 上游持有原生对象和局部描述结构 |
+| 0x5E6DC0 | 0x656060 | 原生结构与状态条件 |
+| 0x653F24 | 0x656060 | 后续直接比较 +0x68 与 Rare.Always |
+| 0x9CE758 | 0x656060 | 创建局部描述结构后调用 |
+| 0x294F57C | 0x656060 | 数据准备与生成路径 |
+
+参见 [完整调用者 Capstone 反汇编](za-native-rare-builder-callers.md) 和 [精确 BL 交叉引用](za-pid-accessor-callsite-xrefs.json)。
+
+### 9.5 证据边界
+
+- CONFIRMED 静态：+0x68 → 32/64 位模式转换 → 栈中状态 → 0x656F80 三态 PID 生成 → 原生判闪/防闪和属性写入。
+- SUPPORTED 静态：此描述对象 +0x68 属于 Rare 模式字段，因为两处原生代码分别做数值转换与直接比较 Rare.Always 编码。
+- UNKNOWN：FlatBuffers.EncountData.Rare 到描述对象字段的反序列化/内存复制链；EX1、EX2 对这些入口的实际运行时到达情况及 GDB 验证。
