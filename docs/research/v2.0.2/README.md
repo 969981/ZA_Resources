@@ -34,3 +34,9 @@ No internal Trinity field maps have been independently validated in this documen
 - [原生 PID getter/setter 调用研究](za-pid-accessor-native-xrefs.md) / [精确 B/BL 引用 JSON](za-pid-accessor-callsite-xrefs.json) / [PID 防闪调用者汇编](za-pid-antishiny-caller-contexts.md) — 主程序 SHA 及 CI 测试通过。
 
 - [描述结构 +0x68 → 内部 64 位 Rare 模式与 PID 生成完整静态证据](za-native-shiny-generator-pid-branch.md) / [5 条真正的状态构建调用者](za-native-rare-builder-callers.md) — 包括 +0x68 原始 `0x2FFFFFFF` 比较、实际转换指令和 0xE3EB64 生成器到个体 setter 的代码链。
+
+## EX1／EX2 Rare 字段来源与 GDB 验证
+
+- [EX1 蒂安希／EX2 超梦 Rare 来源及 GDB 取证操作文档](za-ex1-ex2-rare-provenance-gdb-validation.md) — 明确已闭合的原生静态 PID 处理和仍未验证的 FlatBuffers→+0x68 内存赋值、实机 EX 战斗。
+- [主程序 +0x68 读写访问普查 JSON](za-rare-descriptor-offset68-xrefs.json) / [上游候选函数反汇编](za-rare-native-descriptor-origin-candidates.md) — 审计所有特定 LDR/STR 直接访问，排除把常见结构偏移误报为 Rare setter。
+- [只读 GDB 记录器](../../../scripts/gdb/za_ex_rare_trace.py) / [EX1 EX2 日志对账工具](../../../scripts/Analyze-ZA-EX-Rare-GDB.py) — CI 完成合成测试；尚无实机日志，不将其当作运行时已证实。
