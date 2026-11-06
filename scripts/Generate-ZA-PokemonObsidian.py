@@ -86,6 +86,7 @@ def generate(repo, output):
                    for r in read(data / "names/ZA_place_names_zh.csv")}
     zone_key_by_id = {r["zoneID"]: r["placeNameKey"] for r in read(data / "maps/ZA_zones.csv")}
     native_learnsets = read(data / "battle/ZA_levelup_learnsets_zh.csv")
+    personal_rows = read(data / "pokedex/ZA_personal_species_forms.csv")
     comments_a = read(data / "pokedex/ZA_pokedex_comment_A_zh.csv")
     comments_b = read(data / "pokedex/ZA_pokedex_comment_B_zh.csv")
     audit = json.loads((data / "_audit/ZA_relation_summary.json").read_text("utf-8"))
@@ -118,17 +119,23 @@ def generate(repo, output):
         if o.get("devNo") is not None:
             grouped[str(o["devNo"])]["boss"].append(o)
     output.mkdir(parents=True, exist_ok=True)
-    ids = sorted({r["speciesId"] for r in encounter}, key=intv)
+    available_ids = {r["speciesId"] for r in personal_rows if r["presentFlag"] == "1"}
+    encounter_ids = {r["speciesId"] for r in encounter}
+    if not encounter_ids.issubset(available_ids):
+        raise ValueError("Encounter species unexpectedly missing from present Personal records")
+    ids = sorted(available_ids | encounter_ids, key=intv)
+    if len(ids) != 364 or len(encounter_ids) != 362:
+        raise ValueError("Personal/encounter species counts differ from validated 2.0.2")
     index = [
         "---", 'title: "ZA v2.0.2 宝可梦静态资料索引"',
         'zaVersion: "2.0.2"', "category: encounter_species", "---",
         "# 宝可梦静态资料索引（按 devNo）", "",
-        "> [!warning] 不是已还原的完整图鉴",
-        "> 下列条目从遭遇表的物种 devNo 归纳，不表示正式 Z-A 图鉴成员、"
-        "全国图鉴顺序、中文名称或闪光状态已经验证。图鉴 EXL 缺失 schema，"
-        "静态配置和运行时实际结果必须区分。", "",
-        f"共 {len(ids)} 个不同物种编号、{len(encounter)} 条遭遇、"
-        f"{len(joined)} 条生成器引用。每个条目均保留原始 ID 供查证。", "",
+        "> [!warning] 这是 Personal 可用物种研究索引，不是官方图鉴编号",
+        "> Personal presentFlag=1 覆盖 364 个不同物种，其中 362 个在本轮 Encounter 中有配置，"
+        "801 与 809 不在本批 Encounter 表中。简体中文名来自游戏 MONSNAME 标签，"
+        "但正式地区图鉴排序和锁闪仍需要额外证明。", "",
+        f"共 {len(ids)} 个 Personal 可用物种、{len(encounter)} 条遭遇、"
+        f"{len(joined)} 次生成器引用。每条物种研究卡都保留原始来源。", "",
         "相关解释：[[12-CSV阅读总指南]] · [[13-遭遇表逐列解读]] · "
         "[[14-生成器刷新与坐标]] · [[21-锁闪与个体字段研究清单]]", "",
     ]
@@ -136,8 +143,8 @@ def generate(repo, output):
     for species in ids:
         rows = grouped[species]
         config, spawners, parties = rows["enc"], rows["spawn"], rows["trainer"]
-        min_lv = min(intv(r["minLevel"]) for r in config)
-        max_lv = max(intv(r["maxLevel"]) for r in config)
+        min_lv = min((intv(r["minLevel"]) for r in config), default=None)
+        max_lv = max((intv(r["maxLevel"]) for r in config), default=None)
         all31 = sum(all(r.get(k) == "31" for k in IV) for r in config)
         allminus1 = sum(all(r.get(k) == "-1" for k in IV) for r in config)
         fixed_moves = sum(skills(r.get("wazaListJson")) != "未显式配置" for r in config)
@@ -151,7 +158,8 @@ def generate(repo, output):
             "---", f"speciesId: {int(species)}",
             "speciesNameZh: " + json.dumps(zh_name, ensure_ascii=False),
             'zaVersion: "2.0.2"',
-            'dataOrigin: "encounter-devNo"', 'pokedexMembership: "unknown"',
+            'dataOrigin: "personal-present-and-encounter-devNo"',
+            'pokedexMembership: "unknown"',
             'shinyLocked: "unknown"', f"encounterConfigCount: {len(config)}",
             f"spawnerReferenceCount: {len(spawners)}",
             f"trainerSlotCount: {len(parties)}", "---",
@@ -169,8 +177,8 @@ def generate(repo, output):
             "（含形态/特殊学习编码；不能直接当成角色等级）。",
             f"- **遭遇配置** {len(config)}；**生成器引用** {len(spawners)}；"
             f"**训练家队伍槽** {len(parties)}。",
-            f"- 跨配置等级包络：**{min_lv}–{max_lv}**；"
-            "不是任意同一地点的等级范围。",
+            (f"- 跨配置等级包络：**{min_lv}–{max_lv}**；不是任意同一地点的等级范围。"
+             if config else "- 本轮 Encounter 表没有这个物种的记录；是否通过剧情、赠送或其他入口获得待研究。"),
             "- 显式形态编号：" + (", ".join(map(q, forms)) if forms else "没有显式非空形态编号") + "。",
             f"- 六项 IV 显式全 31：{all31} 条；六项全 -1：{allminus1} 条。"
             " -1 是原始配置占位候选，不能视为生成个体值。",
@@ -273,10 +281,11 @@ def generate(repo, output):
                      f" · {species_names.get(int(species), '未命名')} · 遭遇 {len(config)}"
                      f" · 生成 {len(spawners)} · 学习 {len(native_moves)} · 队伍槽 {len(parties)}")
     index += ["", "## 数值解释与检索", "",
-              "物种编号 devNo 并非已经证明的 Z-A 图鉴内部排序；"
-              "EXL 图鉴表的 364 个原始记录仍是 STRUCTURE_ONLY。",
-              "想找中文物种名、招式名和真正图鉴顺序，"
-              "要继续解码 ik_message 和图鉴表结构，不得凭序号直接补齐。",
+              "物种编号 devNo 不是已证明的 Z-A 地区图鉴排序；"
+              "EXL 图鉴表的 364 个原始记录仍是 STRUCTURE_ONLY，"
+              "即使数量恰好相等也不表示它们可以直接按行序连接。",
+              "简体中文宝可梦和招式名已从原生 ik_message 解密，"
+              "正式图鉴排序仍需图鉴 EXL 结构与实际游戏行为验证。",
               "静态 rareRaw/rareTypeRaw 不是闪光结论。",
               "", "生成器脚本：scripts/Generate-ZA-PokemonObsidian.py", ""]
     (output.parent / "22-宝可梦数据档案索引.md").write_text(
@@ -292,7 +301,7 @@ def main():
     repo = args.repo.resolve()
     root = repo / DOCS / "宝可梦档案"
     count = generate(repo, root)
-    if count != 362:
+    if count != 364:
         raise SystemExit(f"Unexpected species count: {count}")
 if __name__ == "__main__":
     main()
