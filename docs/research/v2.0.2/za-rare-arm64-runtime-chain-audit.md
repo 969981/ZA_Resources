@@ -2,14 +2,14 @@
 title: Z-A v2.0.2 Rare ARM64 静态扫描与事件运行时证据审计
 tags: [ZA, ARM64, Rare, shiny-lock, FlatBuffers]
 version: v2.0.2
-status: STATIC_TRIAGE_COMPLETE_RUNTIME_UNKNOWN
+status: NATIVE_PID_GENERATOR_STATIC_CONFIRMED_RARE_LINK_RUNTIME_UNKNOWN
 updated: 2026-11-06
 ---
 
 # Z-A v2.0.2 Rare 与神兽锁闪：原生 ARM64 排查记录
 
 > [!WARNING] 核心结论
-> 已验证事件触发器到战斗配置的中间资源，已通过 SHA-256 核实主程序 ELF 并真实执行 ARM64 常量扫描和 Capstone 反汇编。**尚无一个能确证为真正 Rare 消费者、PID 异色判定或锁闪分支的 main+offset。** 与 Rare 值相同的立即数不代表代码正在处理 Rare。
+> 已验证事件触发器到战斗配置的中间资源，已通过 SHA-256 核实主程序 ELF 并真实执行 ARM64 常量扫描和 Capstone 反汇编。**初轮常量扫描不能直接证明锁闪**。后续更深入的原生反汇编已经确认 PID 异色判断 0xE5D1E8、条件防闪函数 0xE5D200，以及三态 PID 生成分支 0x6570C4–0x6571A0。详情以 [更新研究](za-native-shiny-generator-pid-branch.md) 为准。**Rare 原生消费者、EX1/EX2 运行时调用链与 GDB 执行证据仍未获得。**
 
 ## 一、固定版本、原生输入与证据
 
@@ -68,7 +68,7 @@ wild_btl_data_global.bin 是确实存在的另一份独立原始 FlatBuffers。�
 - 立即数精确值 0x3FFFFFFF：111 个点。
 - 被监控掩码聚合成启发式候选分组：74 组。
 - 0x1FFFFFFF 的 5 个点均已在真实 ELF 上导出前后 0x100 字节的反汇编。
-- **能据此确认属于 Rare 实例生成 / 异色判断的地址：0 个。**
+- **仅凭该初轮完整 `0x1FFFFFFF` 掩码扫描所确认的地址：0 个**；随后已从 `EOR #0x10000000` 与 PID setter/getter 调用链发现原生条件防闪函数及生成分支，见后续研究。
 
 ### 五处精确掩码的人工复核
 
@@ -110,4 +110,5 @@ python scripts/Trace-ZA-Rare-Candidates.py
 
 - CONFIRMED（静态）：原始 Rare 值、pkNX Never/Always/Random 映射、两条 Battle 记录、两条 Spawner→Encounter 精确记录、ELF SHA、5 个直接常量位点的实际反汇编。
 - CANDIDATE：未来对数据结构消费函数和高位提取指令的交叉引用路径。
-- UNKNOWN：游戏本体实际 Rare 消费者、EX1/EX2 战斗资源经原生函数到实例生成器的完整运行时调用图、最终 PID/锁闪分支、已验证的 main+offset。
+- CONFIRMED（原生静态）：Native XOR 判闪 0xE5D1E8、条件防闪 0xE5D200、内部模式分发 0x6570C4–0x6571A0，见 [新研究](za-native-shiny-generator-pid-branch.md)。
+- UNKNOWN：真正 EncountData.Rare 消费与编码变换、EX1/EX2 战斗资源经原生函数到生成器的动态调用图、GDB 实测和已验证可用的 main+offset。
