@@ -1,11 +1,11 @@
-# Z-A v2.0.2 Rare 0x1FFFFFFF exact-immediate instruction contexts
+# Z-A v2.0.2 Rare mask 0x1FFFFFFF exact opcode contexts
 
 > [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.
 
 - main.elf SHA-256: 470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d
 - Exact scanner site count: 5
 - Instruction window: 0x100 bytes before and 0x100 bytes after.
-- To confirm: trace input-register origin to EncountData.Rare and verify the caller/PID branch in GDB.
+- To confirm: trace operand register origin and TID/PID xor logic in the same function; verify runtime via GDB, not just opcode shape.
 
 ## Static PC 0xE28C54 (word 0x12007129)
 
