@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/Export-ZA-Databases.py
       - .github/workflows/za-real-data-export.yml
+  pull_request:
+    paths:
+      - scripts/Export-ZA-Databases.py
+      - .github/workflows/za-real-data-export.yml
   workflow_dispatch:
 permissions:
   contents: read
