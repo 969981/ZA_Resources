@@ -72,6 +72,7 @@ jobs:
           python scripts/Trace-ZA-Rare-Candidates.py --site-kind anti-shiny-xor --output docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md --before 0xC0 --after 0xC0
           python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x280 --after 0x120
           python scripts/Trace-ZA-Rare-Candidates.py --site-kind native-state-builder-callers --output docs/research/v2.0.2/za-native-rare-builder-callers.md --before 0x200 --after 0x80
+          python scripts/Trace-ZA-Rare-Candidates.py --site-kind descriptor-origin --output docs/research/v2.0.2/za-rare-native-descriptor-origin-candidates.md --before 0x10 --after 0x460
       - name: Upload candidate report for manual review
         uses: actions/upload-artifact@v4
         with:
@@ -83,6 +84,7 @@ jobs:
             docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md
             docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md
             docs/research/v2.0.2/za-native-rare-builder-callers.md
+            docs/research/v2.0.2/za-rare-native-descriptor-origin-candidates.md
             docs/research/v2.0.2/za-rare-descriptor-offset68-xrefs.json
             docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
       - name: Commit bounded static evidence report, no game binary
@@ -92,7 +94,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md docs/research/v2.0.2/za-native-rare-builder-callers.md docs/research/v2.0.2/za-rare-descriptor-offset68-xrefs.json docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
+          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md docs/research/v2.0.2/za-native-rare-builder-callers.md docs/research/v2.0.2/za-rare-native-descriptor-origin-candidates.md docs/research/v2.0.2/za-rare-descriptor-offset68-xrefs.json docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'analysis(za): publish v2.0.2 Rare AArch64 static candidates'
           git fetch origin master
