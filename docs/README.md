@@ -17,3 +17,8 @@ These Markdown pages can be opened directly in Obsidian. Use normal relative lin
 Keep each observation linked to the source file version, offset, sample size, hash and reproduction command. Distinguish confirmed findings from candidates.
 
 - [ZA 2.0.2 原生 Lua 四包提取和 Hash opcode 证据](research/v2.0.2/za-lua-native-opcode-evidence.md)
+
+## ZA v2.0.2 道具研究（Obsidian）
+
+- [ZA 道具解析、分类与导出](research/v2.0.2/za-item-data-and-classification.md)
+- [Mega 石和红蓝宝珠的联机交换限制与验证](research/v2.0.2/za-mega-stone-orb-trade-restrictions.md)
