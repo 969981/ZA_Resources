@@ -46,6 +46,7 @@ def sha256(p):
 
 def copy_csv(src, dst, preview_n):
     dst.parent.mkdir(parents=True, exist_ok=True)
+    csv.field_size_limit(64 * 1024 * 1024)
     with src.open("r", newline="", encoding="utf-8-sig") as f:
         reader = csv.reader(f)
         header = next(reader)
