@@ -24,3 +24,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [Mega 石和红蓝宝珠的联机交换限制与验证](research/v2.0.2/za-mega-stone-orb-trade-restrictions.md)
 
 - [ZA 道具 v2.0.2 实际数据对账（535 条、92 Mega 石）](research/v2.0.2/za-items-real-data-audit.md)
+
+- [ZA 联机交换原生 ELF 静态定位与指令证据](research/v2.0.2/za-trade-native-candidates.md)
