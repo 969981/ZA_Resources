@@ -45,7 +45,7 @@ def main():
     parser.add_argument("--elf",type=Path,default=ELF)
     parser.add_argument("--report",type=Path,default=REPORT)
     parser.add_argument("--output",type=Path,default=OUTPUT)
-    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor","pid-shiny-callers"],default="exact-never")
+    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor","pid-shiny-callers","native-state-builder-callers"],default="exact-never")
     parser.add_argument("--pid-report",type=Path,default=PID_REPORT)
     parser.add_argument("--before",type=lambda x:int(x,0),default=0x100)
     parser.add_argument("--after",type=lambda x:int(x,0),default=0x100)
@@ -55,18 +55,20 @@ def main():
     actual=hashlib.sha256(raw).hexdigest()
     if actual!=report["elf_sha256"]:
         raise SystemExit("ELF and report SHA mismatch")
-    if p.site_kind=="pid-shiny-callers":
+    if p.site_kind in ("pid-shiny-callers","native-state-builder-callers"):
         calls=json.loads(p.pid_report.read_text(encoding="utf-8"))
         if calls["source_sha256"] != actual:
             raise SystemExit("PID callsite report SHA mismatch")
         wanted={"shiny_xor_check","pid_anti_shiny_if_needed_a",
                 "pid_shiny_adjust_candidate","pid_set", "native_pid_shiny_mode_generator"}
-        rows=[x for x in calls["direct_refs"]
-              if x["target_kind"] in wanted
-              and (0x55BD00 <= int(x["caller_pc"],16) < 0x55BE10
-                   or 0x657000 <= int(x["caller_pc"],16) < 0x657220
-                   or 0x656200 <= int(x["caller_pc"],16) < 0x6562C0
-                   or 0xE3EB00 <= int(x["caller_pc"],16) < 0xE3EC00)]
+        rows=([x for x in calls["direct_refs"] if x["target_kind"]=="native_pid_state_builder"]
+              if p.site_kind=="native-state-builder-callers" else
+              [x for x in calls["direct_refs"]
+               if x["target_kind"] in wanted
+               and (0x55BD00 <= int(x["caller_pc"],16) < 0x55BE10
+                    or 0x657000 <= int(x["caller_pc"],16) < 0x657220
+                    or 0x656200 <= int(x["caller_pc"],16) < 0x6562C0
+                    or 0xE3EB00 <= int(x["caller_pc"],16) < 0xE3EC00)])
         sites=[{"pc":x["caller_pc"],"instruction":x["instruction"],
                 "file_offset":x["file_offset"],"operation":x["opcode"],
                 "immediate":"to "+x["target_kind"]+" ("+x["target_pc"]+")"} for x in rows]
@@ -78,7 +80,7 @@ def main():
     md.detail=False
     segs=list(segments(raw))
     lines=[
-        "# Z-A v2.0.2 "+({"exact-never":"Rare mask 0x1FFFFFFF","anti-shiny-xor":"AntiShiny XOR 0x10000000","pid-shiny-callers":"AntiShiny and PID generator callers"}[p.site_kind])+" exact opcode contexts",
+        "# Z-A v2.0.2 "+({"exact-never":"Rare mask 0x1FFFFFFF","anti-shiny-xor":"AntiShiny XOR 0x10000000","pid-shiny-callers":"AntiShiny and PID generator callers","native-state-builder-callers":"Inputs to native shiny-mode state builder 0x656060"}[p.site_kind])+" exact opcode contexts",
         "",
         "> [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.",
         "",
