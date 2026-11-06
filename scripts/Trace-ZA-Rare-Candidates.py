@@ -14,6 +14,7 @@ ROOT=Path(__file__).resolve().parents[1]
 ELF=ROOT/"Unpack/v2.0.2/exefs/main/main.elf"
 REPORT=ROOT/"docs/research/v2.0.2/za-rare-arm64-static-candidates.json"
 OUTPUT=ROOT/"docs/research/v2.0.2/za-rare-arm64-exact-sites.md"
+PID_REPORT=ROOT/"docs/research/v2.0.2/za-pid-accessor-callsite-xrefs.json"
 
 def segments(raw):
     if raw[:6]!=b"\x7fELF\x02\x01" or struct.unpack_from("<H",raw,18)[0]!=183:
@@ -44,7 +45,8 @@ def main():
     parser.add_argument("--elf",type=Path,default=ELF)
     parser.add_argument("--report",type=Path,default=REPORT)
     parser.add_argument("--output",type=Path,default=OUTPUT)
-    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor"],default="exact-never")
+    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor","pid-shiny-callers"],default="exact-never")
+    parser.add_argument("--pid-report",type=Path,default=PID_REPORT)
     parser.add_argument("--before",type=lambda x:int(x,0),default=0x100)
     parser.add_argument("--after",type=lambda x:int(x,0),default=0x100)
     p=parser.parse_args()
@@ -53,14 +55,28 @@ def main():
     actual=hashlib.sha256(raw).hexdigest()
     if actual!=report["elf_sha256"]:
         raise SystemExit("ELF and report SHA mismatch")
-    field="exact_never_instruction_sites" if p.site_kind=="exact-never" else "anti_shiny_xor_candidates"
-    sites=report["arm64_scan"][field]
+    if p.site_kind=="pid-shiny-callers":
+        calls=json.loads(p.pid_report.read_text(encoding="utf-8"))
+        if calls["source_sha256"] != actual:
+            raise SystemExit("PID callsite report SHA mismatch")
+        wanted={"shiny_xor_check","pid_anti_shiny_if_needed_a",
+                "pid_shiny_adjust_candidate","pid_set"}
+        rows=[x for x in calls["direct_refs"]
+              if x["target_kind"] in wanted
+              and (0x55BD00 <= int(x["caller_pc"],16) < 0x55BE10
+                   or 0x657000 <= int(x["caller_pc"],16) < 0x657220)]
+        sites=[{"pc":x["caller_pc"],"instruction":x["instruction"],
+                "file_offset":x["file_offset"],"operation":x["opcode"],
+                "immediate":"to "+x["target_kind"]+" ("+x["target_pc"]+")"} for x in rows]
+    else:
+        field="exact_never_instruction_sites" if p.site_kind=="exact-never" else "anti_shiny_xor_candidates"
+        sites=report["arm64_scan"][field]
     if not sites: raise SystemExit("No exact sites")
     md=Cs(CS_ARCH_ARM64,CS_MODE_ARM)
     md.detail=False
     segs=list(segments(raw))
     lines=[
-        "# Z-A v2.0.2 "+("Rare mask 0x1FFFFFFF" if p.site_kind=="exact-never" else "AntiShiny XOR 0x10000000")+" exact opcode contexts",
+        "# Z-A v2.0.2 "+({"exact-never":"Rare mask 0x1FFFFFFF","anti-shiny-xor":"AntiShiny XOR 0x10000000","pid-shiny-callers":"AntiShiny and PID generator callers"}[p.site_kind])+" exact opcode contexts",
         "",
         "> [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.",
         "",
