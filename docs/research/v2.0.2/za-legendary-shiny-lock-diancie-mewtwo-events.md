@@ -268,3 +268,9 @@ result_shiny, result_species, result_level, save_readback
 - [RotomLabs：异色遭遇与例外](https://rotomlabs.net/legends-z-a/shiny-rates)
 
 返回 [[README]] 或 [研究目录](README.md)。
+
+## 9. 原生 ARM64 运行时排查补充（2026-11-06）
+
+实际解析 `ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin`，已找到 `btl_sub_119` 和 `btl_sub_120` 的战斗记录、对象 ID 和事件名。v2.0.2 主程序 ELF 经 SHA-256 核验后扫描出 5 处完整 `0x1FFFFFFF` 立即数，Capstone 反汇编显示均有独立的计算用途，**不能当作 Rare 消费或锁闪分支**。详见 [原生锁闪静态审计](za-rare-arm64-runtime-chain-audit.md) 与 [5 处实际反汇编](za-rare-arm64-exact-sites.md)。
+
+事件战斗到 `EncountData` 的引用链，以及实际 PID/锁闪判断仍未验证。**不提供虚构的 `main+offset`。**
