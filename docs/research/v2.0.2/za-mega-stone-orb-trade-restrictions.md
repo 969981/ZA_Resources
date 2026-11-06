@@ -18,7 +18,10 @@ updated: 2026-11-06
 > [!summary] 当前结论（先看）
 > **不能把“可以让宝可梦携带”误认为“可以随联机交换转交给另一个存档”。** 《传说 Z-A》里的 Mega 石可以携带并用于超级进化，但玩家交换实测表明不能用交换宝可梦的方式把 Mega 石送给别人。官方规则还明确，每一种 Mega 石只能持有一枚。对**朱红色宝珠（Red Orb）与靛蓝色宝珠（Blue Orb）**，可以确认它们用于固拉多/盖欧卡的原始回归；但 **v2.0.2 的确切禁止交换分支、与 Mega 石是否共用相同谓词，当前尚未通过原生代码/运行时断点证明**。
 
-关联：[[za-item-data-and-classification|道具解析与分类]]。
+关联：[[za-item-data-and-classification|道具解析与分类]]、[[za-items-real-data-audit|535 项真实道具及 Mega 石/宝珠对账]]。
+
+> [!important] v2.0.2 实测补充
+> 真实主表已解析 535 条、50 字段：92 种 Mega 石均为 `ItemType=7, Pocket=7, SlotMaxNum=1, CanNotHold=false`；红蓝宝珠 `Id=534/535` 均为 `ItemType=7, Pocket=2, SlotMaxNum=999, CanNotHold=false`。Mega 石与宝珠不是同一 Pocket；交换判定函数仍未定位。详见 [[za-items-real-data-audit]]。
 
 ## 1. 先拆开四种容易混淆的行为
 
