@@ -1,0 +1,6 @@
+module	target_virtual_addr_hex	target_string	instruction_pc_hex	instruction_offset_hex	evidence	target_region	instruction_region
+main	0x32049CB	ik_message/dat/JPN/common/trade_demo.dat	0x294F97C	0x29503C4	NATIVE_AARCH64_ADRP_ADD_GAP1	.rodata	.text
+main	0x32465A4	ik_demo/sd/sd9130_trade/sd9130_trade.trtml	0x294F9B4	0x29503FC	NATIVE_AARCH64_ADRP_ADD_GAP1	.rodata	.text
+main	0x31CF646	net_topmenu_trade_10_06	0x2D304E0	0x2D30F28	NATIVE_AARCH64_ADRP_ADD_GAP1	.rodata	.text
+main	0x31DA20E	net_topmenu_trade_10_07	0x2D315B4	0x2D31FFC	NATIVE_AARCH64_ADRP_ADD_GAP1	.rodata	.text
+main	0x3252D03	static const char *boost::detail::ctti<(anonymous namespace)::CommandCancelTrade>::n() [T = (anonymous namespace)::CommandCancelTrade]	0x2DC4154	0x2DC4B9C	NATIVE_AARCH64_ADRP_ADD_GAP1	.rodata	.text
