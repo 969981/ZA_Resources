@@ -8,6 +8,7 @@ on:
       - scripts/Join-ZA-EncounterData.py
       - scripts/Probe-ZA-RawEXL.py
       - scripts/Publish-ZA-CSV.py
+      - scripts/Generate-ZA-PokemonObsidian.py
       - .github/workflows/za-real-data-export.yml
   pull_request:
     paths:
@@ -15,6 +16,7 @@ on:
       - scripts/Join-ZA-EncounterData.py
       - scripts/Probe-ZA-RawEXL.py
       - scripts/Publish-ZA-CSV.py
+      - scripts/Generate-ZA-PokemonObsidian.py
       - .github/workflows/za-real-data-export.yml
   workflow_dispatch:
 permissions:
@@ -35,6 +37,9 @@ jobs:
             /scripts/Join-ZA-EncounterData.py
             /scripts/Probe-ZA-RawEXL.py
             /scripts/Publish-ZA-CSV.py
+            /scripts/Generate-ZA-PokemonObsidian.py
+            /docs/obsidian/ZA-v2.0.2/宝可梦档案/**
+            /docs/obsidian/ZA-v2.0.2/22-宝可梦数据档案索引.md
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/**
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/pokedex_contents_data/pokedex_contents_data/pokedex_contents_data.bin
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/pokedex_sp_distribution_data/pokedex_sp_distribution_data/pokedex_sp_distribution_data.bin
@@ -91,12 +96,16 @@ jobs:
           set -euo pipefail
           python -m py_compile scripts/Publish-ZA-CSV.py
           python -u scripts/Publish-ZA-CSV.py --repo . --input .za-work/za-data --preview-rows 100
+          python -m py_compile scripts/Generate-ZA-PokemonObsidian.py
+          python -u scripts/Generate-ZA-PokemonObsidian.py --repo .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables docs/obsidian/ZA-v2.0.2/宝可梦档案 docs/obsidian/ZA-v2.0.2/22-宝可梦数据档案索引.md
           git diff --cached --stat
           if ! git diff --cached --quiet; then
-            git commit -m "data(za): publish v2.0.2 parsed CSVs into category folders"
+            git commit -m "data(za): publish parsed CSVs and species Obsidian cards"
+            git fetch origin docs/za-v2.0.2-obsidian-extraction
+            git rebase origin/docs/za-v2.0.2-obsidian-extraction
             git push origin HEAD:refs/heads/docs/za-v2.0.2-obsidian-extraction
           else
             echo "No CSV changes to publish"
