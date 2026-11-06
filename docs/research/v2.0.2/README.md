@@ -20,7 +20,7 @@ No internal Trinity field maps have been independently validated in this documen
 
 ## 事件与异色研究
 
-- [Z-A 神兽锁闪证据链与蒂安希 EX1／超梦 EX2 的任务、触发器、遭遇数据](za-legendary-shiny-lock-diancie-mewtwo-events.md) — 已直接解析 v2.0.2 的 `sub_quest.bin`、`trigger_sub_0119.bin`、`trigger_sub_0120.bin` 和遭遇表；锁闪运行时指令仍待验证。
+- [Z-A 神兽锁闪证据链与蒂安希 EX1／超梦 EX2 的任务、触发器、遭遇数据](za-legendary-shiny-lock-diancie-mewtwo-events.md) — 已直接解析 v2.0.2 的 `sub_quest.bin`、`trigger_sub_0119.bin`、`trigger_sub_0120.bin` 和遭遇表；原生异色模式判断指令已静态定位；EX1/EX2 运行时入口仍待验证。
 - [本次 FlatBuffers 原始解析证据 JSON](za-ex1-ex2-flatbuffers-evidence.json) — 任务 ID、8+4 条触发记录、战斗标识及遭遇数据原值。
 
 ## Rare 原生 ARM64 静态审计
@@ -29,3 +29,6 @@ No internal Trinity field maps have been independently validated in this documen
 - [Rare ARM64 全部候选 JSON](za-rare-arm64-static-candidates.json) / [5 处原生反汇编](za-rare-arm64-exact-sites.md) — 静态位置，非已确认的运行时 main+offset。
 
 - [EX1／EX2 的原生 Spawner 精确交叉引用](za-ex1-ex2-spawner-crosswalk.json) — `id_sub119_01 → sub_119_diancie`、`id_sub120_01 → sub_120_mewtwo`，13 组数据库共 2,211 条源记录，通过真实文件及合成测试核实。
+
+- [原生三态异色生成、PID XOR、防闪与实际分支（新增核心研究）](za-native-shiny-generator-pid-branch.md) — 0x6570C4–0x6571A0、0xE5D1E8、0xE5D200、0xE5D21C 原生 ARM64 静态确认，精确说明与原始 Rare 字段转换仍未闭合的部分。
+- [原生 PID getter/setter 调用研究](za-pid-accessor-native-xrefs.md) / [精确 B/BL 引用 JSON](za-pid-accessor-callsite-xrefs.json) / [PID 防闪调用者汇编](za-pid-antishiny-caller-contexts.md) — 主程序 SHA 及 CI 测试通过。
