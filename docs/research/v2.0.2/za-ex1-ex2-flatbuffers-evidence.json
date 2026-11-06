@@ -590,5 +590,52 @@
       "rare_raw_hex": "0x1FFFFFFF"
     }
   ],
-  "caveat": "Quest schema fields besides observed identifiers/stage-vector and trigger command enums are not fully reconstructed. Rare raw values must NOT be equated to RareType.NO_RARE without resolving schema/runtime semantics. Shiny-lock runtime proof remains pending."
+  "caveat": "pkNX GetShiny maps 0x1FFFFFFF to Shiny.Never (data-level shiny lock). This does not yet prove the game AArch64 runtime implementation or the btl_sub_119/120 -> instance generator chain. The separate RareType enum values 0/1/2 are not the encoded encounter Rare values.",
+  "shiny_config_mapping": {
+    "evidence_source_pkNX": "tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Exports/EncounterSlot9a.cs#L103-L109",
+    "corroboration": "tools/pkNX/pkNX.WinForms/Dumping/Gen9a/GameDumper9a.cs#L2816-L2821",
+    "0x1FFFFFFF": "Shiny.Never",
+    "0x2FFFFFFF": "Shiny.Always",
+    "0x3FFFFFFF": "Shiny.Random",
+    "evidence_level": "CONFIRMED pkNX static data interpretation, NOT yet confirmed game AArch64 runtime dispatch"
+  },
+  "rare_distribution": {
+    "total": 1966,
+    "never": 281,
+    "always": 1,
+    "random": 1684,
+    "only_always_entry": "ect_a0102_w01_v01_z179_Qst074"
+  },
+  "rare_byte_offsets": [
+    {
+      "id": "m10_x",
+      "table_offset_hex": "0x74D0C",
+      "rare_offset_hex": "0x74D24",
+      "rare_bytes_little_endian": "FF FF FF 1F"
+    },
+    {
+      "id": "m10_y",
+      "table_offset_hex": "0x74C58",
+      "rare_offset_hex": "0x74C70",
+      "rare_bytes_little_endian": "FF FF FF 1F"
+    },
+    {
+      "id": "ect_boss_0718_01",
+      "table_offset_hex": "0x795F0",
+      "rare_offset_hex": "0x7960C",
+      "rare_bytes_little_endian": "FF FF FF 1F"
+    },
+    {
+      "id": "sub_119_diancie",
+      "table_offset_hex": "0x733FC",
+      "rare_offset_hex": "0x73414",
+      "rare_bytes_little_endian": "FF FF FF 1F"
+    },
+    {
+      "id": "sub_120_mewtwo",
+      "table_offset_hex": "0x73244",
+      "rare_offset_hex": "0x7325C",
+      "rare_bytes_little_endian": "FF FF FF 1F"
+    }
+  ]
 }
