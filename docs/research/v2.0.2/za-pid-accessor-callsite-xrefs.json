@@ -63,6 +63,10 @@
     {
       "label": "native_pid_shiny_mode_generator",
       "target_elf_va": "0x656F80"
+    },
+    {
+      "label": "native_pid_state_builder",
+      "target_elf_va": "0x656060"
     }
   ],
   "direct_refs": [
@@ -171,6 +175,14 @@
       "instruction": "0x942DADB7"
     },
     {
+      "caller_pc": "0x49CCA4",
+      "file_offset": "0x49D6EC",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9406E4EF"
+    },
+    {
       "caller_pc": "0x511A0C",
       "file_offset": "0x512454",
       "opcode": "BL",
@@ -233,6 +245,22 @@
       "target_pc": "0xE57350",
       "target_kind": "pid_set",
       "instruction": "0x1423ED5F"
+    },
+    {
+      "caller_pc": "0x5E6DC0",
+      "file_offset": "0x5E7808",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9401BCA8"
+    },
+    {
+      "caller_pc": "0x653F24",
+      "file_offset": "0x65496C",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9400084F"
     },
     {
       "caller_pc": "0x656298",
@@ -345,6 +373,14 @@
       "target_pc": "0xE49940",
       "target_kind": "species_get",
       "instruction": "0x9416A561"
+    },
+    {
+      "caller_pc": "0x9CE758",
+      "file_offset": "0x9CF1A0",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x97F21E42"
     },
     {
       "caller_pc": "0xB3D4F0",
@@ -1273,6 +1309,14 @@
       "target_pc": "0xE49940",
       "target_kind": "species_get",
       "instruction": "0x94000D98"
+    },
+    {
+      "caller_pc": "0x294F57C",
+      "file_offset": "0x294FFC4",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x97741AB9"
     }
   ],
   "direct_ref_counts": {
@@ -1280,6 +1324,7 @@
     "tid_sid_get": 15,
     "pid_get": 11,
     "shiny_xor_check": 4,
+    "native_pid_state_builder": 5,
     "pid_anti_shiny_if_needed_a": 2,
     "pid_set": 4,
     "native_pid_shiny_mode_generator": 2,
