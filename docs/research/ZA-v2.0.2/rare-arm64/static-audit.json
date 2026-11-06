@@ -1,0 +1,37 @@
+{
+  "version": "2.0.2",
+  "buildId": "b1f12fd919eae86ab8a978317677e64bce443d1f000000000000000000000000",
+  "elfSha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+  "textStartRva": "0xE1D664",
+  "textEndRva": "0x31605E0",
+  "textBytes": 36974460,
+  "schemaRareFields": [
+    {
+      "object": "ik.fb.wild_pokemon.EncountData",
+      "name": "rare",
+      "fieldId": 6,
+      "vtableSlotByteOffset": 16,
+      "typeBase": 7
+    }
+  ],
+  "directBlCounts": {
+    "PID_Get": 4,
+    "PID_Set": 1,
+    "TID_Get": 6,
+    "Species_Get": 75,
+    "IV_Get_HP": 3,
+    "Personal_Load": 1
+  },
+  "highNibbleExtractCandidates": 106,
+  "exportedCandidates": 106,
+  "exactWordHitsInCode": {
+    "0x1FFFFFFF": [],
+    "0x2FFFFFFF": [],
+    "0x3FFFFFFF": []
+  },
+  "externalFunctionReferencesOnly": "https://decryptu.github.io/pokeldn/za.html",
+  "result": "Independent ELF static scan. No Encounter.rare to PID path proven.",
+  "runtimeConfirmed": false,
+  "shinyLockBranchRva": null,
+  "next": "Trace candidate at matching Build ID. Prove encounter rare input and first 1/2/3 branch; follow PID/TID/SID and final shiny outcome."
+}

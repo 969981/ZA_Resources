@@ -1,0 +1,2521 @@
+﻿reference,targetRva,blCallsiteRva,context,classification
+PID_Get,0xE4DBE0,0xE45FD0,"   main+0xE45FA8: bl #0xe4c950
+   main+0xE45FAC: mov w20, w0
+   main+0xE45FB0: ldr x0, [x19, #0x70]
+   main+0xE45FB4: bl #0xe485f0
+   main+0xE45FB8: tbnz w20, #0, #0xe45fe4
+   main+0xE45FBC: tbnz w0, #0, #0xe45fe4
+   main+0xE45FC0: ldr x0, [x19, #0x70]
+   main+0xE45FC4: bl #0xe49d50
+   main+0xE45FC8: mov w20, w0
+   main+0xE45FCC: ldr x0, [x19, #0x70]
+>> main+0xE45FD0: bl #0xe4dbe0
+   main+0xE45FD4: mov w1, w0
+   main+0xE45FD8: mov w0, w20
+   main+0xE45FDC: bl #0xe5d1e8
+   main+0xE45FE0: tbz w0, #0, #0xe45ff0
+   main+0xE45FE4: ldp x20, x19, [sp, #0x10]
+   main+0xE45FE8: ldp x29, x30, [sp], #0x20
+   main+0xE45FEC: ret 
+   main+0xE45FF0: ldr x0, [x19, #0x70]
+   main+0xE45FF4: bl #0xe49d50
+   main+0xE45FF8: mov w20, w0
+   main+0xE45FFC: ldr x0, [x19, #0x70]
+   main+0xE46000: bl #0xe4dbe0
+   main+0xE46004: mov w1, w0
+   main+0xE46008: mov w0, w20
+   main+0xE4600C: bl #0xe5d21c
+   main+0xE46010: mov w1, w0
+   main+0xE46014: ldr x0, [x19, #0x70]",direct_BL_not_shiny_proof
+PID_Get,0xE4DBE0,0xE46000,"   main+0xE45FD8: mov w0, w20
+   main+0xE45FDC: bl #0xe5d1e8
+   main+0xE45FE0: tbz w0, #0, #0xe45ff0
+   main+0xE45FE4: ldp x20, x19, [sp, #0x10]
+   main+0xE45FE8: ldp x29, x30, [sp], #0x20
+   main+0xE45FEC: ret 
+   main+0xE45FF0: ldr x0, [x19, #0x70]
+   main+0xE45FF4: bl #0xe49d50
+   main+0xE45FF8: mov w20, w0
+   main+0xE45FFC: ldr x0, [x19, #0x70]
+>> main+0xE46000: bl #0xe4dbe0
+   main+0xE46004: mov w1, w0
+   main+0xE46008: mov w0, w20
+   main+0xE4600C: bl #0xe5d21c
+   main+0xE46010: mov w1, w0
+   main+0xE46014: ldr x0, [x19, #0x70]
+   main+0xE46018: ldp x20, x19, [sp, #0x10]
+   main+0xE4601C: ldp x29, x30, [sp], #0x20
+   main+0xE46020: b #0xe57350
+   main+0xE46024: stp x29, x30, [sp, #-0x40]!
+   main+0xE46028: str x23, [sp, #0x10]
+   main+0xE4602C: stp x22, x21, [sp, #0x20]
+   main+0xE46030: stp x20, x19, [sp, #0x30]
+   main+0xE46034: mov x29, sp
+   main+0xE46038: mov w20, w1
+   main+0xE4603C: mov x19, x0
+   main+0xE46040: bl #0x3f0784
+   main+0xE46044: ldrb w8, [x0, #0x380]",direct_BL_not_shiny_proof
+PID_Get,0xE4DBE0,0xE4607C,"   main+0xE46054: tbz w0, #0, #0xe4610c
+   main+0xE46058: mov w8, wzr
+   main+0xE4605C: and w9, w20, #0xff
+   main+0xE46060: cmp w9, #2
+   main+0xE46064: b.hi #0xe460b8
+   main+0xE46068: tbnz w8, #0, #0xe460b8
+   main+0xE4606C: ldr x0, [x19, #0x70]
+   main+0xE46070: bl #0xe49d50
+   main+0xE46074: mov w21, w0
+   main+0xE46078: ldr x0, [x19, #0x70]
+>> main+0xE4607C: bl #0xe4dbe0
+   main+0xE46080: mov w22, w0
+   main+0xE46084: ldr x0, [x19, #0x70]
+   main+0xE46088: bl #0xe4e2a0
+   main+0xE4608C: mov w23, w0
+   main+0xE46090: ldr x0, [x19, #0x70]
+   main+0xE46094: bl #0xe4cd70
+   main+0xE46098: and w3, w0, #1
+   main+0xE4609C: mov w0, w21
+   main+0xE460A0: mov w1, w22
+   main+0xE460A4: mov w2, w23
+   main+0xE460A8: bl #0xe5d244
+   main+0xE460AC: and w8, w0, #0xff
+   main+0xE460B0: cmp w8, w20, uxtb
+   main+0xE460B4: b.ne #0xe460cc
+   main+0xE460B8: ldp x20, x19, [sp, #0x30]
+   main+0xE460BC: ldr x23, [sp, #0x10]
+   main+0xE460C0: ldp x22, x21, [sp, #0x20]",direct_BL_not_shiny_proof
+PID_Get,0xE4DBE0,0xE460DC,"   main+0xE460B4: b.ne #0xe460cc
+   main+0xE460B8: ldp x20, x19, [sp, #0x30]
+   main+0xE460BC: ldr x23, [sp, #0x10]
+   main+0xE460C0: ldp x22, x21, [sp, #0x20]
+   main+0xE460C4: ldp x29, x30, [sp], #0x40
+   main+0xE460C8: ret 
+   main+0xE460CC: ldr x0, [x19, #0x70]
+   main+0xE460D0: bl #0xe49d50
+   main+0xE460D4: mov w21, w0
+   main+0xE460D8: ldr x0, [x19, #0x70]
+>> main+0xE460DC: bl #0xe4dbe0
+   main+0xE460E0: mov w1, w0
+   main+0xE460E4: mov w0, w21
+   main+0xE460E8: mov w2, w20
+   main+0xE460EC: bl #0xe5d284
+   main+0xE460F0: mov w1, w0
+   main+0xE460F4: ldr x0, [x19, #0x70]
+   main+0xE460F8: ldr x23, [sp, #0x10]
+   main+0xE460FC: ldp x20, x19, [sp, #0x30]
+   main+0xE46100: ldp x22, x21, [sp, #0x20]
+   main+0xE46104: ldp x29, x30, [sp], #0x40
+   main+0xE46108: b #0xe57350
+   main+0xE4610C: ldr x0, [x19, #0x70]
+   main+0xE46110: bl #0xe4c950
+   main+0xE46114: mov w21, w0
+   main+0xE46118: ldr x0, [x19, #0x70]
+   main+0xE4611C: bl #0xe485f0
+   main+0xE46120: orr w8, w21, w0",direct_BL_not_shiny_proof
+PID_Set,0xE57350,0xE3EBA8,"   main+0xE3EB80: ldr x0, [x19, #0x70]
+   main+0xE3EB84: bl #0xe483c0
+   main+0xE3EB88: ldr x0, [x19, #0x70]
+   main+0xE3EB8C: ldr w1, [sp, #0x18]
+   main+0xE3EB90: bl #0xe514d0
+   main+0xE3EB94: ldr x0, [x19, #0x70]
+   main+0xE3EB98: ldr w1, [sp, #0x20]
+   main+0xE3EB9C: bl #0xe52ee0
+   main+0xE3EBA0: ldr x0, [x19, #0x70]
+   main+0xE3EBA4: ldr w1, [sp, #0x28]
+>> main+0xE3EBA8: bl #0xe57350
+   main+0xE3EBAC: ldr x0, [x19, #0x70]
+   main+0xE3EBB0: ldrh w1, [sp, #0x32]
+   main+0xE3EBB4: bl #0xe52aa0
+   main+0xE3EBB8: ldr x0, [x19, #0x70]
+   main+0xE3EBBC: ldrh w1, [sp, #0x34]
+   main+0xE3EBC0: bl #0xe56470
+   main+0xE3EBC4: ldr x0, [x19, #0x70]
+   main+0xE3EBC8: ldrh w1, [sp, #0x36]
+   main+0xE3EBCC: bl #0xe52cc0
+   main+0xE3EBD0: ldr x0, [x19, #0x70]
+   main+0xE3EBD4: ldrb w1, [sp, #0x40]
+   main+0xE3EBD8: bl #0xe518f0
+   main+0xE3EBDC: ldr x0, [x19, #0x70]
+   main+0xE3EBE0: ldrh w1, [sp, #0x44]
+   main+0xE3EBE4: bl #0xe56690
+   main+0xE3EBE8: ldr x0, [x19, #0x70]
+   main+0xE3EBEC: ldrh w1, [sp, #0x46]",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE44B18,"   main+0xE44AF0: mov w0, w21
+   main+0xE44AF4: mov w1, w27
+   main+0xE44AF8: mov w2, w23
+   main+0xE44AFC: mov w3, w24
+   main+0xE44B00: mov w4, w22
+   main+0xE44B04: mov w6, w25
+   main+0xE44B08: mov w7, w26
+   main+0xE44B0C: bl #0xe5d41c
+   main+0xE44B10: tbz w0, #0, #0xe44b54
+   main+0xE44B14: ldr x0, [x20, #0x70]
+>> main+0xE44B18: bl #0xe49d50
+   main+0xE44B1C: mov w20, w0
+   main+0xE44B20: ldr x0, [x19, #0x70]
+   main+0xE44B24: bl #0xe49d50
+   main+0xE44B28: mov w3, w0
+   main+0xE44B2C: mov w0, w21
+   main+0xE44B30: ldr x27, [sp, #0x10]
+   main+0xE44B34: mov w1, w20
+   main+0xE44B38: mov w2, w22
+   main+0xE44B3C: ldp x20, x19, [sp, #0x50]
+   main+0xE44B40: ldp x22, x21, [sp, #0x40]
+   main+0xE44B44: ldp x24, x23, [sp, #0x30]
+   main+0xE44B48: ldp x26, x25, [sp, #0x20]
+   main+0xE44B4C: ldp x29, x30, [sp], #0x60
+   main+0xE44B50: b #0xe5d4e0
+   main+0xE44B54: ldp x20, x19, [sp, #0x50]
+   main+0xE44B58: mov w0, #3
+   main+0xE44B5C: ldp x22, x21, [sp, #0x40]",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE44B24,"   main+0xE44AFC: mov w3, w24
+   main+0xE44B00: mov w4, w22
+   main+0xE44B04: mov w6, w25
+   main+0xE44B08: mov w7, w26
+   main+0xE44B0C: bl #0xe5d41c
+   main+0xE44B10: tbz w0, #0, #0xe44b54
+   main+0xE44B14: ldr x0, [x20, #0x70]
+   main+0xE44B18: bl #0xe49d50
+   main+0xE44B1C: mov w20, w0
+   main+0xE44B20: ldr x0, [x19, #0x70]
+>> main+0xE44B24: bl #0xe49d50
+   main+0xE44B28: mov w3, w0
+   main+0xE44B2C: mov w0, w21
+   main+0xE44B30: ldr x27, [sp, #0x10]
+   main+0xE44B34: mov w1, w20
+   main+0xE44B38: mov w2, w22
+   main+0xE44B3C: ldp x20, x19, [sp, #0x50]
+   main+0xE44B40: ldp x22, x21, [sp, #0x40]
+   main+0xE44B44: ldp x24, x23, [sp, #0x30]
+   main+0xE44B48: ldp x26, x25, [sp, #0x20]
+   main+0xE44B4C: ldp x29, x30, [sp], #0x60
+   main+0xE44B50: b #0xe5d4e0
+   main+0xE44B54: ldp x20, x19, [sp, #0x50]
+   main+0xE44B58: mov w0, #3
+   main+0xE44B5C: ldp x22, x21, [sp, #0x40]
+   main+0xE44B60: ldr x27, [sp, #0x10]
+   main+0xE44B64: ldp x24, x23, [sp, #0x30]
+   main+0xE44B68: ldp x26, x25, [sp, #0x20]",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE45FC4,"   main+0xE45F9C: bl #0xe483b4
+   main+0xE45FA0: tbnz w0, #0, #0xe45fc0
+   main+0xE45FA4: ldr x0, [x19, #0x70]
+   main+0xE45FA8: bl #0xe4c950
+   main+0xE45FAC: mov w20, w0
+   main+0xE45FB0: ldr x0, [x19, #0x70]
+   main+0xE45FB4: bl #0xe485f0
+   main+0xE45FB8: tbnz w20, #0, #0xe45fe4
+   main+0xE45FBC: tbnz w0, #0, #0xe45fe4
+   main+0xE45FC0: ldr x0, [x19, #0x70]
+>> main+0xE45FC4: bl #0xe49d50
+   main+0xE45FC8: mov w20, w0
+   main+0xE45FCC: ldr x0, [x19, #0x70]
+   main+0xE45FD0: bl #0xe4dbe0
+   main+0xE45FD4: mov w1, w0
+   main+0xE45FD8: mov w0, w20
+   main+0xE45FDC: bl #0xe5d1e8
+   main+0xE45FE0: tbz w0, #0, #0xe45ff0
+   main+0xE45FE4: ldp x20, x19, [sp, #0x10]
+   main+0xE45FE8: ldp x29, x30, [sp], #0x20
+   main+0xE45FEC: ret 
+   main+0xE45FF0: ldr x0, [x19, #0x70]
+   main+0xE45FF4: bl #0xe49d50
+   main+0xE45FF8: mov w20, w0
+   main+0xE45FFC: ldr x0, [x19, #0x70]
+   main+0xE46000: bl #0xe4dbe0
+   main+0xE46004: mov w1, w0
+   main+0xE46008: mov w0, w20",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE45FF4,"   main+0xE45FCC: ldr x0, [x19, #0x70]
+   main+0xE45FD0: bl #0xe4dbe0
+   main+0xE45FD4: mov w1, w0
+   main+0xE45FD8: mov w0, w20
+   main+0xE45FDC: bl #0xe5d1e8
+   main+0xE45FE0: tbz w0, #0, #0xe45ff0
+   main+0xE45FE4: ldp x20, x19, [sp, #0x10]
+   main+0xE45FE8: ldp x29, x30, [sp], #0x20
+   main+0xE45FEC: ret 
+   main+0xE45FF0: ldr x0, [x19, #0x70]
+>> main+0xE45FF4: bl #0xe49d50
+   main+0xE45FF8: mov w20, w0
+   main+0xE45FFC: ldr x0, [x19, #0x70]
+   main+0xE46000: bl #0xe4dbe0
+   main+0xE46004: mov w1, w0
+   main+0xE46008: mov w0, w20
+   main+0xE4600C: bl #0xe5d21c
+   main+0xE46010: mov w1, w0
+   main+0xE46014: ldr x0, [x19, #0x70]
+   main+0xE46018: ldp x20, x19, [sp, #0x10]
+   main+0xE4601C: ldp x29, x30, [sp], #0x20
+   main+0xE46020: b #0xe57350
+   main+0xE46024: stp x29, x30, [sp, #-0x40]!
+   main+0xE46028: str x23, [sp, #0x10]
+   main+0xE4602C: stp x22, x21, [sp, #0x20]
+   main+0xE46030: stp x20, x19, [sp, #0x30]
+   main+0xE46034: mov x29, sp
+   main+0xE46038: mov w20, w1",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE46070,"   main+0xE46048: cbnz w8, #0xe46058
+   main+0xE4604C: ldr x0, [x19, #0x70]
+   main+0xE46050: bl #0xe483b4
+   main+0xE46054: tbz w0, #0, #0xe4610c
+   main+0xE46058: mov w8, wzr
+   main+0xE4605C: and w9, w20, #0xff
+   main+0xE46060: cmp w9, #2
+   main+0xE46064: b.hi #0xe460b8
+   main+0xE46068: tbnz w8, #0, #0xe460b8
+   main+0xE4606C: ldr x0, [x19, #0x70]
+>> main+0xE46070: bl #0xe49d50
+   main+0xE46074: mov w21, w0
+   main+0xE46078: ldr x0, [x19, #0x70]
+   main+0xE4607C: bl #0xe4dbe0
+   main+0xE46080: mov w22, w0
+   main+0xE46084: ldr x0, [x19, #0x70]
+   main+0xE46088: bl #0xe4e2a0
+   main+0xE4608C: mov w23, w0
+   main+0xE46090: ldr x0, [x19, #0x70]
+   main+0xE46094: bl #0xe4cd70
+   main+0xE46098: and w3, w0, #1
+   main+0xE4609C: mov w0, w21
+   main+0xE460A0: mov w1, w22
+   main+0xE460A4: mov w2, w23
+   main+0xE460A8: bl #0xe5d244
+   main+0xE460AC: and w8, w0, #0xff
+   main+0xE460B0: cmp w8, w20, uxtb
+   main+0xE460B4: b.ne #0xe460cc",direct_BL_not_shiny_proof
+TID_Get,0xE49D50,0xE460D0,"   main+0xE460A8: bl #0xe5d244
+   main+0xE460AC: and w8, w0, #0xff
+   main+0xE460B0: cmp w8, w20, uxtb
+   main+0xE460B4: b.ne #0xe460cc
+   main+0xE460B8: ldp x20, x19, [sp, #0x30]
+   main+0xE460BC: ldr x23, [sp, #0x10]
+   main+0xE460C0: ldp x22, x21, [sp, #0x20]
+   main+0xE460C4: ldp x29, x30, [sp], #0x40
+   main+0xE460C8: ret 
+   main+0xE460CC: ldr x0, [x19, #0x70]
+>> main+0xE460D0: bl #0xe49d50
+   main+0xE460D4: mov w21, w0
+   main+0xE460D8: ldr x0, [x19, #0x70]
+   main+0xE460DC: bl #0xe4dbe0
+   main+0xE460E0: mov w1, w0
+   main+0xE460E4: mov w0, w21
+   main+0xE460E8: mov w2, w20
+   main+0xE460EC: bl #0xe5d284
+   main+0xE460F0: mov w1, w0
+   main+0xE460F4: ldr x0, [x19, #0x70]
+   main+0xE460F8: ldr x23, [sp, #0x10]
+   main+0xE460FC: ldp x20, x19, [sp, #0x30]
+   main+0xE46100: ldp x22, x21, [sp, #0x20]
+   main+0xE46104: ldp x29, x30, [sp], #0x40
+   main+0xE46108: b #0xe57350
+   main+0xE4610C: ldr x0, [x19, #0x70]
+   main+0xE46110: bl #0xe4c950
+   main+0xE46114: mov w21, w0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3F02C,"   main+0xE3F004: ldr x0, [x19, #0x70]
+   main+0xE3F008: mov x1, x21
+   main+0xE3F00C: bl #0xe5a190
+   main+0xE3F010: ldr x0, [x19, #0x70]
+   main+0xE3F014: ldrb w1, [sp, #0xc6]
+   main+0xE3F018: bl #0xe5a3a0
+   main+0xE3F01C: ldr x0, [x19, #0x70]
+   main+0xE3F020: ldrb w1, [sp, #0xc7]
+   main+0xE3F024: bl #0xe5a5c0
+   main+0xE3F028: ldr x0, [x19, #0x70]
+>> main+0xE3F02C: bl #0xe49940
+   main+0xE3F030: mov w21, w0
+   main+0xE3F034: ldr x0, [x19, #0x70]
+   main+0xE3F038: bl #0xe4d190
+   main+0xE3F03C: mov w1, w0
+   main+0xE3F040: mov w0, w21
+   main+0xE3F044: bl #0xe340ac
+   main+0xE3F048: mov w1, w0
+   main+0xE3F04C: ldr x0, [x19, #0x70]
+   main+0xE3F050: bl #0xe58eb0
+   main+0xE3F054: mov x0, x19
+   main+0xE3F058: bl #0xe3f900
+   main+0xE3F05C: ldrb w1, [sp, #0x88]
+   main+0xE3F060: cbz w1, #0xe3f06c
+   main+0xE3F064: ldr x0, [x19, #0x70]
+   main+0xE3F068: bl #0xe5b8c0
+   main+0xE3F06C: add x8, sp, #8
+   main+0xE3F070: add x21, x8, #0xda",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3F1C0,"   main+0xE3F198: mov x29, sp
+   main+0xE3F19C: mov x19, x0
+   main+0xE3F1A0: ldr x0, [x0, #0x70]
+   main+0xE3F1A4: bl #0xe47a14
+   main+0xE3F1A8: mov w20, w0
+   main+0xE3F1AC: tbnz w0, #0, #0xe3f1b8
+   main+0xE3F1B0: ldr x0, [x19, #0x70]
+   main+0xE3F1B4: bl #0xe480e0
+   main+0xE3F1B8: ldr x0, [x19, #0x70]
+   main+0xE3F1BC: eor w21, w20, #1
+>> main+0xE3F1C0: bl #0xe49940
+   main+0xE3F1C4: mov w20, w0
+   main+0xE3F1C8: and w22, w0, #0xffff
+   main+0xE3F1CC: ldr x0, [x19, #0x70]
+   main+0xE3F1D0: bl #0xe4d190
+   main+0xE3F1D4: cbz w22, #0xe3f1f4
+   main+0xE3F1D8: mov w1, w0
+   main+0xE3F1DC: mov w0, w20
+   main+0xE3F1E0: bl #0x2901a4
+   main+0xE3F1E4: tbnz w0, #0, #0xe3f1f4
+   main+0xE3F1E8: ldr x0, [x19, #0x70]
+   main+0xE3F1EC: mov w1, #1
+   main+0xE3F1F0: bl #0xe51698
+   main+0xE3F1F4: ldr x0, [x19, #0x70]
+   main+0xE3F1F8: bl #0xe47a14
+   main+0xE3F1FC: and w8, w0, w21
+   main+0xE3F200: tbz w8, #0, #0xe3f218
+   main+0xE3F204: ldr x0, [x19, #0x70]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3F810,"   main+0xE3F7E8: mov x0, x19
+   main+0xE3F7EC: mov w1, #1
+   main+0xE3F7F0: bl #0xe427a4
+   main+0xE3F7F4: mov x0, x19
+   main+0xE3F7F8: mov w1, #2
+   main+0xE3F7FC: bl #0xe427a4
+   main+0xE3F800: mov x0, x19
+   main+0xE3F804: mov w1, #3
+   main+0xE3F808: bl #0xe427a4
+   main+0xE3F80C: ldr x0, [x19, #0x70]
+>> main+0xE3F810: bl #0xe49940
+   main+0xE3F814: mov w20, w0
+   main+0xE3F818: ldr x0, [x19, #0x70]
+   main+0xE3F81C: bl #0xe4d190
+   main+0xE3F820: mov w21, w0
+   main+0xE3F824: ldr x0, [x19, #0x70]
+   main+0xE3F828: bl #0xe47688
+   main+0xE3F82C: mov w8, w0
+   main+0xE3F830: ldr x0, [x19, #0x70]
+   main+0xE3F834: tbz w8, #0, #0xe3f854
+   main+0xE3F838: bl #0xe49760
+   main+0xE3F83C: mov w22, w0
+   main+0xE3F840: mov w0, w20
+   main+0xE3F844: mov w1, w21
+   main+0xE3F848: bl #0xe34434
+   main+0xE3F84C: cbnz x0, #0xe3f894
+   main+0xE3F850: b #0xe3f8ec
+   main+0xE3F854: bl #0xe49940",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3F854,"   main+0xE3F82C: mov w8, w0
+   main+0xE3F830: ldr x0, [x19, #0x70]
+   main+0xE3F834: tbz w8, #0, #0xe3f854
+   main+0xE3F838: bl #0xe49760
+   main+0xE3F83C: mov w22, w0
+   main+0xE3F840: mov w0, w20
+   main+0xE3F844: mov w1, w21
+   main+0xE3F848: bl #0xe34434
+   main+0xE3F84C: cbnz x0, #0xe3f894
+   main+0xE3F850: b #0xe3f8ec
+>> main+0xE3F854: bl #0xe49940
+   main+0xE3F858: mov w22, w0
+   main+0xE3F85C: ldr x0, [x19, #0x70]
+   main+0xE3F860: bl #0xe4d190
+   main+0xE3F864: mov w23, w0
+   main+0xE3F868: ldr x0, [x19, #0x70]
+   main+0xE3F86C: bl #0xe49f60
+   main+0xE3F870: mov w2, w0
+   main+0xE3F874: mov w0, w22
+   main+0xE3F878: mov w1, w23
+   main+0xE3F87C: bl #0xe5ce70
+   main+0xE3F880: and w22, w0, #0xff
+   main+0xE3F884: mov w0, w20
+   main+0xE3F888: mov w1, w21
+   main+0xE3F88C: bl #0xe34434
+   main+0xE3F890: cbz x0, #0xe3f8ec
+   main+0xE3F894: ldr w20, [x0]
+   main+0xE3F898: cbz w20, #0xe3f8ec",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3F970,"   main+0xE3F948: ldr x21, [sp, #0x10]
+   main+0xE3F94C: ldp x29, x30, [sp], #0x30
+   main+0xE3F950: b #0xe5b8c0
+   main+0xE3F954: bl #0xe4f360
+   main+0xE3F958: mov w1, w0
+   main+0xE3F95C: ldr x0, [x19, #0x70]
+   main+0xE3F960: ldp x20, x19, [sp, #0x20]
+   main+0xE3F964: ldr x21, [sp, #0x10]
+   main+0xE3F968: ldp x29, x30, [sp], #0x30
+   main+0xE3F96C: b #0xe5b8c0
+>> main+0xE3F970: bl #0xe49940
+   main+0xE3F974: mov w20, w0
+   main+0xE3F978: ldr x0, [x19, #0x70]
+   main+0xE3F97C: bl #0xe4d190
+   main+0xE3F980: mov w21, w0
+   main+0xE3F984: ldr x0, [x19, #0x70]
+   main+0xE3F988: bl #0xe49f60
+   main+0xE3F98C: mov w2, w0
+   main+0xE3F990: mov w0, w20
+   main+0xE3F994: mov w1, w21
+   main+0xE3F998: bl #0xe5ce70
+   main+0xE3F99C: and w1, w0, #0xff
+   main+0xE3F9A0: ldr x0, [x19, #0x70]
+   main+0xE3F9A4: ldp x20, x19, [sp, #0x20]
+   main+0xE3F9A8: ldr x21, [sp, #0x10]
+   main+0xE3F9AC: ldp x29, x30, [sp], #0x30
+   main+0xE3F9B0: b #0xe5b8c0
+   main+0xE3F9B4: udf #0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3FAB8,"   main+0xE3FA90: ldr x21, [x19, #0x70]
+   main+0xE3FA94: mov x0, x20
+   main+0xE3FA98: bl #0x409db0
+   main+0xE3FA9C: mov x1, x0
+   main+0xE3FAA0: mov x0, x21
+   main+0xE3FAA4: bl #0xe57570
+   main+0xE3FAA8: ldr x0, [x19, #0x70]
+   main+0xE3FAAC: mov w1, wzr
+   main+0xE3FAB0: bl #0xe55e10
+   main+0xE3FAB4: ldr x0, [x19, #0x70]
+>> main+0xE3FAB8: bl #0xe49940
+   main+0xE3FABC: mov w21, w0
+   main+0xE3FAC0: ldr x0, [x19, #0x70]
+   main+0xE3FAC4: bl #0xe4d190
+   main+0xE3FAC8: mov w1, w0
+   main+0xE3FACC: mov w0, w21
+   main+0xE3FAD0: bl #0xe3407c
+   main+0xE3FAD4: mov w1, w0
+   main+0xE3FAD8: ldr x0, [x19, #0x70]
+   main+0xE3FADC: bl #0xe58c90
+   main+0xE3FAE0: ldr x0, [x19, #0x70]
+   main+0xE3FAE4: mov w1, #1
+   main+0xE3FAE8: bl #0xe55bf0
+   main+0xE3FAEC: nop 
+   main+0xE3FAF0: ldaxr w8, [x22]
+   main+0xE3FAF4: subs w9, w8, #1
+   main+0xE3FAF8: stlxr w10, w9, [x22]
+   main+0xE3FAFC: cbnz w10, #0xe3faf0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE3FC04,"   main+0xE3FBDC: ldr x0, [x19, #0x70]
+   main+0xE3FBE0: bl #0xe4c950
+   main+0xE3FBE4: mov w20, w0
+   main+0xE3FBE8: ldr x0, [x19, #0x70]
+   main+0xE3FBEC: bl #0xe485f0
+   main+0xE3FBF0: mov w8, w0
+   main+0xE3FBF4: mov w0, wzr
+   main+0xE3FBF8: tbnz w20, #0, #0xe3fc48
+   main+0xE3FBFC: tbnz w8, #0, #0xe3fc48
+   main+0xE3FC00: ldr x0, [x19, #0x70]
+>> main+0xE3FC04: bl #0xe49940
+   main+0xE3FC08: and w21, w0, #0xffff
+   main+0xE3FC0C: ldr x0, [x19, #0x70]
+   main+0xE3FC10: bl #0xe4d190
+   main+0xE3FC14: cmp w21, #0x2a6
+   main+0xE3FC18: b.ne #0xe3fc44
+   main+0xE3FC1C: mov w20, w0
+   main+0xE3FC20: ldr x0, [x19, #0x70]
+   main+0xE3FC24: bl #0xe4cf80
+   main+0xE3FC28: mov w8, w0
+   main+0xE3FC2C: tst w20, #0xffff
+   main+0xE3FC30: b.ne #0xe3fc58
+   main+0xE3FC34: tst w8, #0xff
+   main+0xE3FC38: b.eq #0xe3fc58
+   main+0xE3FC3C: mov w1, wzr
+   main+0xE3FC40: b #0xe3fc78
+   main+0xE3FC44: mov w0, wzr
+   main+0xE3FC48: ldp x20, x19, [sp, #0x20]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40404,"   main+0xE403DC: mov x29, sp
+   main+0xE403E0: ldr x0, [x0, #0x70]
+   main+0xE403E4: bl #0xe5b280
+   main+0xE403E8: ldp x29, x30, [sp], #0x10
+   main+0xE403EC: b #0xe5e57c
+   main+0xE403F0: stp x29, x30, [sp, #-0x20]!
+   main+0xE403F4: str x19, [sp, #0x10]
+   main+0xE403F8: mov x29, sp
+   main+0xE403FC: mov x19, x0
+   main+0xE40400: ldr x0, [x0, #0x70]
+>> main+0xE40404: bl #0xe49940
+   main+0xE40408: and w8, w0, #0xffff
+   main+0xE4040C: cmp w8, #0x2a4
+   main+0xE40410: b.ne #0xe40428
+   main+0xE40414: ldr x0, [x19, #0x70]
+   main+0xE40418: bl #0xe5b280
+   main+0xE4041C: ldr x19, [sp, #0x10]
+   main+0xE40420: ldp x29, x30, [sp], #0x20
+   main+0xE40424: b #0xe5e56c
+   main+0xE40428: ldr x19, [sp, #0x10]
+   main+0xE4042C: mov w0, wzr
+   main+0xE40430: ldp x29, x30, [sp], #0x20
+   main+0xE40434: ret 
+   main+0xE40438: stp x29, x30, [sp, #-0x30]!
+   main+0xE4043C: str x21, [sp, #0x10]
+   main+0xE40440: stp x20, x19, [sp, #0x20]
+   main+0xE40444: mov x29, sp
+   main+0xE40448: mov w20, w1",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40590,"   main+0xE40568: bl #0xe483b4
+   main+0xE4056C: tbnz w0, #0, #0xe4058c
+   main+0xE40570: ldr x0, [x19, #0x70]
+   main+0xE40574: bl #0xe4c950
+   main+0xE40578: mov w21, w0
+   main+0xE4057C: ldr x0, [x19, #0x70]
+   main+0xE40580: bl #0xe485f0
+   main+0xE40584: tbnz w21, #0, #0xe405c8
+   main+0xE40588: tbnz w0, #0, #0xe405c8
+   main+0xE4058C: ldr x0, [x19, #0x70]
+>> main+0xE40590: bl #0xe49940
+   main+0xE40594: and w8, w0, #0xffff
+   main+0xE40598: cmp w8, #0x2a4
+   main+0xE4059C: b.ne #0xe405c8
+   main+0xE405A0: ldr x0, [x19, #0x70]
+   main+0xE405A4: bl #0xe5b280
+   main+0xE405A8: mov w1, w20
+   main+0xE405AC: bl #0xe5e574
+   main+0xE405B0: mov w1, w0
+   main+0xE405B4: ldr x0, [x19, #0x70]
+   main+0xE405B8: ldr x21, [sp, #0x10]
+   main+0xE405BC: ldp x20, x19, [sp, #0x20]
+   main+0xE405C0: ldp x29, x30, [sp], #0x30
+   main+0xE405C4: b #0xe5b060
+   main+0xE405C8: ldp x20, x19, [sp, #0x20]
+   main+0xE405CC: ldr x21, [sp, #0x10]
+   main+0xE405D0: ldp x29, x30, [sp], #0x30
+   main+0xE405D4: ret ",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE405EC,"   main+0xE405C4: b #0xe5b060
+   main+0xE405C8: ldp x20, x19, [sp, #0x20]
+   main+0xE405CC: ldr x21, [sp, #0x10]
+   main+0xE405D0: ldp x29, x30, [sp], #0x30
+   main+0xE405D4: ret 
+   main+0xE405D8: stp x29, x30, [sp, #-0x20]!
+   main+0xE405DC: str x19, [sp, #0x10]
+   main+0xE405E0: mov x29, sp
+   main+0xE405E4: mov x19, x0
+   main+0xE405E8: ldr x0, [x0, #0x70]
+>> main+0xE405EC: bl #0xe49940
+   main+0xE405F0: and w8, w0, #0xffff
+   main+0xE405F4: cmp w8, #0x232
+   main+0xE405F8: b.ne #0xe40624
+   main+0xE405FC: ldr x0, [x19, #0x70]
+   main+0xE40600: bl #0xe4d190
+   main+0xE40604: and w8, w0, #0xffff
+   main+0xE40608: cmp w8, #1
+   main+0xE4060C: b.ne #0xe40624
+   main+0xE40610: ldr x0, [x19, #0x70]
+   main+0xE40614: bl #0xe5b280
+   main+0xE40618: ldr x19, [sp, #0x10]
+   main+0xE4061C: ldp x29, x30, [sp], #0x20
+   main+0xE40620: b #0xe5e598
+   main+0xE40624: ldr x19, [sp, #0x10]
+   main+0xE40628: mov w0, wzr
+   main+0xE4062C: ldp x29, x30, [sp], #0x20
+   main+0xE40630: ret ",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40684,"   main+0xE4065C: bl #0xe483b4
+   main+0xE40660: tbnz w0, #0, #0xe40680
+   main+0xE40664: ldr x0, [x19, #0x70]
+   main+0xE40668: bl #0xe4c950
+   main+0xE4066C: mov w21, w0
+   main+0xE40670: ldr x0, [x19, #0x70]
+   main+0xE40674: bl #0xe485f0
+   main+0xE40678: tbnz w21, #0, #0xe406d0
+   main+0xE4067C: tbnz w0, #0, #0xe406d0
+   main+0xE40680: ldr x0, [x19, #0x70]
+>> main+0xE40684: bl #0xe49940
+   main+0xE40688: and w8, w0, #0xffff
+   main+0xE4068C: cmp w8, #0x232
+   main+0xE40690: b.ne #0xe406d0
+   main+0xE40694: ldr x0, [x19, #0x70]
+   main+0xE40698: bl #0xe4d190
+   main+0xE4069C: and w8, w0, #0xffff
+   main+0xE406A0: cmp w8, #1
+   main+0xE406A4: b.ne #0xe406d0
+   main+0xE406A8: ldr x0, [x19, #0x70]
+   main+0xE406AC: bl #0xe5b280
+   main+0xE406B0: mov w1, w20
+   main+0xE406B4: bl #0xe5e59c
+   main+0xE406B8: mov w1, w0
+   main+0xE406BC: ldr x0, [x19, #0x70]
+   main+0xE406C0: ldr x21, [sp, #0x10]
+   main+0xE406C4: ldp x20, x19, [sp, #0x20]
+   main+0xE406C8: ldp x29, x30, [sp], #0x30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40730,"   main+0xE40708: bl #0xe483b4
+   main+0xE4070C: tbnz w0, #0, #0xe4072c
+   main+0xE40710: ldr x0, [x19, #0x70]
+   main+0xE40714: bl #0xe4c950
+   main+0xE40718: mov w21, w0
+   main+0xE4071C: ldr x0, [x19, #0x70]
+   main+0xE40720: bl #0xe485f0
+   main+0xE40724: tbnz w21, #0, #0xe407a0
+   main+0xE40728: tbnz w0, #0, #0xe407a0
+   main+0xE4072C: ldr x0, [x19, #0x70]
+>> main+0xE40730: bl #0xe49940
+   main+0xE40734: and w8, w0, #0xffff
+   main+0xE40738: cmp w8, #0x232
+   main+0xE4073C: b.ne #0xe407a0
+   main+0xE40740: ldr x0, [x19, #0x70]
+   main+0xE40744: bl #0xe4d190
+   main+0xE40748: and w8, w0, #0xffff
+   main+0xE4074C: cmp w8, #1
+   main+0xE40750: b.ne #0xe407a0
+   main+0xE40754: ldr x0, [x19, #0x70]
+   main+0xE40758: bl #0xe49940
+   main+0xE4075C: and w8, w0, #0xffff
+   main+0xE40760: cmp w8, #0x232
+   main+0xE40764: b.ne #0xe407b0
+   main+0xE40768: ldr x0, [x19, #0x70]
+   main+0xE4076C: bl #0xe4d190
+   main+0xE40770: and w8, w0, #0xffff
+   main+0xE40774: cmp w8, #1",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40758,"   main+0xE40730: bl #0xe49940
+   main+0xE40734: and w8, w0, #0xffff
+   main+0xE40738: cmp w8, #0x232
+   main+0xE4073C: b.ne #0xe407a0
+   main+0xE40740: ldr x0, [x19, #0x70]
+   main+0xE40744: bl #0xe4d190
+   main+0xE40748: and w8, w0, #0xffff
+   main+0xE4074C: cmp w8, #1
+   main+0xE40750: b.ne #0xe407a0
+   main+0xE40754: ldr x0, [x19, #0x70]
+>> main+0xE40758: bl #0xe49940
+   main+0xE4075C: and w8, w0, #0xffff
+   main+0xE40760: cmp w8, #0x232
+   main+0xE40764: b.ne #0xe407b0
+   main+0xE40768: ldr x0, [x19, #0x70]
+   main+0xE4076C: bl #0xe4d190
+   main+0xE40770: and w8, w0, #0xffff
+   main+0xE40774: cmp w8, #1
+   main+0xE40778: b.ne #0xe407b0
+   main+0xE4077C: ldr x0, [x19, #0x70]
+   main+0xE40780: bl #0xe5b280
+   main+0xE40784: bl #0xe5e598
+   main+0xE40788: add w1, w0, w20
+   main+0xE4078C: mov x0, x19
+   main+0xE40790: ldr x21, [sp, #0x10]
+   main+0xE40794: ldp x20, x19, [sp, #0x20]
+   main+0xE40798: ldp x29, x30, [sp], #0x30
+   main+0xE4079C: b #0xe40634",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40810,"   main+0xE407E8: cbnz w8, #0xe407f8
+   main+0xE407EC: ldr x0, [x19, #0x70]
+   main+0xE407F0: bl #0xe483b4
+   main+0xE407F4: tbz w0, #0, #0xe40848
+   main+0xE407F8: mov w8, wzr
+   main+0xE407FC: and w9, w20, #0xff
+   main+0xE40800: cmp w9, #6
+   main+0xE40804: b.hi #0xe4086c
+   main+0xE40808: tbnz w8, #0, #0xe4086c
+   main+0xE4080C: ldr x0, [x19, #0x70]
+>> main+0xE40810: bl #0xe49940
+   main+0xE40814: and w8, w0, #0xffff
+   main+0xE40818: cmp w8, #0x365
+   main+0xE4081C: b.ne #0xe4086c
+   main+0xE40820: ldr x0, [x19, #0x70]
+   main+0xE40824: bl #0xe5b280
+   main+0xE40828: mov w1, w20
+   main+0xE4082C: bl #0xe5e5b0
+   main+0xE40830: mov w1, w0
+   main+0xE40834: ldr x0, [x19, #0x70]
+   main+0xE40838: ldr x21, [sp, #0x10]
+   main+0xE4083C: ldp x20, x19, [sp, #0x20]
+   main+0xE40840: ldp x29, x30, [sp], #0x30
+   main+0xE40844: b #0xe5b060
+   main+0xE40848: ldr x0, [x19, #0x70]
+   main+0xE4084C: bl #0xe4c950
+   main+0xE40850: mov w21, w0
+   main+0xE40854: ldr x0, [x19, #0x70]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40890,"   main+0xE40868: b.ls #0xe40808
+   main+0xE4086C: ldp x20, x19, [sp, #0x20]
+   main+0xE40870: ldr x21, [sp, #0x10]
+   main+0xE40874: ldp x29, x30, [sp], #0x30
+   main+0xE40878: ret 
+   main+0xE4087C: stp x29, x30, [sp, #-0x20]!
+   main+0xE40880: str x19, [sp, #0x10]
+   main+0xE40884: mov x29, sp
+   main+0xE40888: mov x19, x0
+   main+0xE4088C: ldr x0, [x0, #0x70]
+>> main+0xE40890: bl #0xe49940
+   main+0xE40894: and w8, w0, #0xffff
+   main+0xE40898: cmp w8, #0x226
+   main+0xE4089C: b.ne #0xe408c8
+   main+0xE408A0: ldr x0, [x19, #0x70]
+   main+0xE408A4: bl #0xe4d190
+   main+0xE408A8: and w8, w0, #0xffff
+   main+0xE408AC: cmp w8, #2
+   main+0xE408B0: b.ne #0xe408c8
+   main+0xE408B4: ldr x0, [x19, #0x70]
+   main+0xE408B8: bl #0xe5b280
+   main+0xE408BC: ldr x19, [sp, #0x10]
+   main+0xE408C0: ldp x29, x30, [sp], #0x20
+   main+0xE408C4: b #0xe5e5e0
+   main+0xE408C8: ldr x19, [sp, #0x10]
+   main+0xE408CC: mov w0, wzr
+   main+0xE408D0: ldp x29, x30, [sp], #0x20
+   main+0xE408D4: ret ",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40928,"   main+0xE40900: bl #0xe483b4
+   main+0xE40904: tbnz w0, #0, #0xe40924
+   main+0xE40908: ldr x0, [x19, #0x70]
+   main+0xE4090C: bl #0xe4c950
+   main+0xE40910: mov w21, w0
+   main+0xE40914: ldr x0, [x19, #0x70]
+   main+0xE40918: bl #0xe485f0
+   main+0xE4091C: tbnz w21, #0, #0xe40974
+   main+0xE40920: tbnz w0, #0, #0xe40974
+   main+0xE40924: ldr x0, [x19, #0x70]
+>> main+0xE40928: bl #0xe49940
+   main+0xE4092C: and w8, w0, #0xffff
+   main+0xE40930: cmp w8, #0x226
+   main+0xE40934: b.ne #0xe40974
+   main+0xE40938: ldr x0, [x19, #0x70]
+   main+0xE4093C: bl #0xe4d190
+   main+0xE40940: and w8, w0, #0xffff
+   main+0xE40944: cmp w8, #2
+   main+0xE40948: b.ne #0xe40974
+   main+0xE4094C: ldr x0, [x19, #0x70]
+   main+0xE40950: bl #0xe5b280
+   main+0xE40954: mov w1, w20
+   main+0xE40958: bl #0xe5e5e4
+   main+0xE4095C: mov w1, w0
+   main+0xE40960: ldr x0, [x19, #0x70]
+   main+0xE40964: ldr x21, [sp, #0x10]
+   main+0xE40968: ldp x20, x19, [sp, #0x20]
+   main+0xE4096C: ldp x29, x30, [sp], #0x30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE409D4,"   main+0xE409AC: bl #0xe483b4
+   main+0xE409B0: tbnz w0, #0, #0xe409d0
+   main+0xE409B4: ldr x0, [x19, #0x70]
+   main+0xE409B8: bl #0xe4c950
+   main+0xE409BC: mov w21, w0
+   main+0xE409C0: ldr x0, [x19, #0x70]
+   main+0xE409C4: bl #0xe485f0
+   main+0xE409C8: tbnz w21, #0, #0xe40a44
+   main+0xE409CC: tbnz w0, #0, #0xe40a44
+   main+0xE409D0: ldr x0, [x19, #0x70]
+>> main+0xE409D4: bl #0xe49940
+   main+0xE409D8: and w8, w0, #0xffff
+   main+0xE409DC: cmp w8, #0x226
+   main+0xE409E0: b.ne #0xe40a44
+   main+0xE409E4: ldr x0, [x19, #0x70]
+   main+0xE409E8: bl #0xe4d190
+   main+0xE409EC: and w8, w0, #0xffff
+   main+0xE409F0: cmp w8, #2
+   main+0xE409F4: b.ne #0xe40a44
+   main+0xE409F8: ldr x0, [x19, #0x70]
+   main+0xE409FC: bl #0xe49940
+   main+0xE40A00: and w8, w0, #0xffff
+   main+0xE40A04: cmp w8, #0x226
+   main+0xE40A08: b.ne #0xe40a54
+   main+0xE40A0C: ldr x0, [x19, #0x70]
+   main+0xE40A10: bl #0xe4d190
+   main+0xE40A14: and w8, w0, #0xffff
+   main+0xE40A18: cmp w8, #2",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE409FC,"   main+0xE409D4: bl #0xe49940
+   main+0xE409D8: and w8, w0, #0xffff
+   main+0xE409DC: cmp w8, #0x226
+   main+0xE409E0: b.ne #0xe40a44
+   main+0xE409E4: ldr x0, [x19, #0x70]
+   main+0xE409E8: bl #0xe4d190
+   main+0xE409EC: and w8, w0, #0xffff
+   main+0xE409F0: cmp w8, #2
+   main+0xE409F4: b.ne #0xe40a44
+   main+0xE409F8: ldr x0, [x19, #0x70]
+>> main+0xE409FC: bl #0xe49940
+   main+0xE40A00: and w8, w0, #0xffff
+   main+0xE40A04: cmp w8, #0x226
+   main+0xE40A08: b.ne #0xe40a54
+   main+0xE40A0C: ldr x0, [x19, #0x70]
+   main+0xE40A10: bl #0xe4d190
+   main+0xE40A14: and w8, w0, #0xffff
+   main+0xE40A18: cmp w8, #2
+   main+0xE40A1C: b.ne #0xe40a54
+   main+0xE40A20: ldr x0, [x19, #0x70]
+   main+0xE40A24: bl #0xe5b280
+   main+0xE40A28: bl #0xe5e5e0
+   main+0xE40A2C: add w1, w0, w20
+   main+0xE40A30: mov x0, x19
+   main+0xE40A34: ldr x21, [sp, #0x10]
+   main+0xE40A38: ldp x20, x19, [sp, #0x20]
+   main+0xE40A3C: ldp x29, x30, [sp], #0x30
+   main+0xE40A40: b #0xe408d8",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40A80,"   main+0xE40A58: mov x0, x19
+   main+0xE40A5C: ldr x21, [sp, #0x10]
+   main+0xE40A60: ldp x20, x19, [sp, #0x20]
+   main+0xE40A64: ldp x29, x30, [sp], #0x30
+   main+0xE40A68: b #0xe408d8
+   main+0xE40A6C: stp x29, x30, [sp, #-0x20]!
+   main+0xE40A70: str x19, [sp, #0x10]
+   main+0xE40A74: mov x29, sp
+   main+0xE40A78: mov x19, x0
+   main+0xE40A7C: ldr x0, [x0, #0x70]
+>> main+0xE40A80: bl #0xe49940
+   main+0xE40A84: and w8, w0, #0xffff
+   main+0xE40A88: cmp w8, #0xea
+   main+0xE40A8C: b.ne #0xe40aa4
+   main+0xE40A90: ldr x0, [x19, #0x70]
+   main+0xE40A94: bl #0xe5b280
+   main+0xE40A98: ldr x19, [sp, #0x10]
+   main+0xE40A9C: ldp x29, x30, [sp], #0x20
+   main+0xE40AA0: b #0xe5e5b8
+   main+0xE40AA4: ldr x19, [sp, #0x10]
+   main+0xE40AA8: mov w0, wzr
+   main+0xE40AAC: ldp x29, x30, [sp], #0x20
+   main+0xE40AB0: ret 
+   main+0xE40AB4: stp x29, x30, [sp, #-0x30]!
+   main+0xE40AB8: str x21, [sp, #0x10]
+   main+0xE40ABC: stp x20, x19, [sp, #0x20]
+   main+0xE40AC0: mov x29, sp
+   main+0xE40AC4: mov w20, w1",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40B04,"   main+0xE40ADC: bl #0xe483b4
+   main+0xE40AE0: tbnz w0, #0, #0xe40b00
+   main+0xE40AE4: ldr x0, [x19, #0x70]
+   main+0xE40AE8: bl #0xe4c950
+   main+0xE40AEC: mov w21, w0
+   main+0xE40AF0: ldr x0, [x19, #0x70]
+   main+0xE40AF4: bl #0xe485f0
+   main+0xE40AF8: tbnz w21, #0, #0xe40b3c
+   main+0xE40AFC: tbnz w0, #0, #0xe40b3c
+   main+0xE40B00: ldr x0, [x19, #0x70]
+>> main+0xE40B04: bl #0xe49940
+   main+0xE40B08: and w8, w0, #0xffff
+   main+0xE40B0C: cmp w8, #0xea
+   main+0xE40B10: b.ne #0xe40b3c
+   main+0xE40B14: ldr x0, [x19, #0x70]
+   main+0xE40B18: bl #0xe5b280
+   main+0xE40B1C: mov w1, w20
+   main+0xE40B20: bl #0xe5e5bc
+   main+0xE40B24: mov w1, w0
+   main+0xE40B28: ldr x0, [x19, #0x70]
+   main+0xE40B2C: ldr x21, [sp, #0x10]
+   main+0xE40B30: ldp x20, x19, [sp, #0x20]
+   main+0xE40B34: ldp x29, x30, [sp], #0x30
+   main+0xE40B38: b #0xe5b060
+   main+0xE40B3C: ldp x20, x19, [sp, #0x20]
+   main+0xE40B40: ldr x21, [sp, #0x10]
+   main+0xE40B44: ldp x29, x30, [sp], #0x30
+   main+0xE40B48: ret ",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40B9C,"   main+0xE40B74: bl #0xe483b4
+   main+0xE40B78: tbnz w0, #0, #0xe40b98
+   main+0xE40B7C: ldr x0, [x19, #0x70]
+   main+0xE40B80: bl #0xe4c950
+   main+0xE40B84: mov w21, w0
+   main+0xE40B88: ldr x0, [x19, #0x70]
+   main+0xE40B8C: bl #0xe485f0
+   main+0xE40B90: tbnz w21, #0, #0xe40be4
+   main+0xE40B94: tbnz w0, #0, #0xe40be4
+   main+0xE40B98: ldr x0, [x19, #0x70]
+>> main+0xE40B9C: bl #0xe49940
+   main+0xE40BA0: and w8, w0, #0xffff
+   main+0xE40BA4: cmp w8, #0xea
+   main+0xE40BA8: b.ne #0xe40be4
+   main+0xE40BAC: ldr x0, [x19, #0x70]
+   main+0xE40BB0: bl #0xe49940
+   main+0xE40BB4: and w8, w0, #0xffff
+   main+0xE40BB8: cmp w8, #0xea
+   main+0xE40BBC: b.ne #0xe40bf4
+   main+0xE40BC0: ldr x0, [x19, #0x70]
+   main+0xE40BC4: bl #0xe5b280
+   main+0xE40BC8: bl #0xe5e5b8
+   main+0xE40BCC: add w1, w0, w20
+   main+0xE40BD0: mov x0, x19
+   main+0xE40BD4: ldr x21, [sp, #0x10]
+   main+0xE40BD8: ldp x20, x19, [sp, #0x20]
+   main+0xE40BDC: ldp x29, x30, [sp], #0x30
+   main+0xE40BE0: b #0xe40ab4",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40BB0,"   main+0xE40B88: ldr x0, [x19, #0x70]
+   main+0xE40B8C: bl #0xe485f0
+   main+0xE40B90: tbnz w21, #0, #0xe40be4
+   main+0xE40B94: tbnz w0, #0, #0xe40be4
+   main+0xE40B98: ldr x0, [x19, #0x70]
+   main+0xE40B9C: bl #0xe49940
+   main+0xE40BA0: and w8, w0, #0xffff
+   main+0xE40BA4: cmp w8, #0xea
+   main+0xE40BA8: b.ne #0xe40be4
+   main+0xE40BAC: ldr x0, [x19, #0x70]
+>> main+0xE40BB0: bl #0xe49940
+   main+0xE40BB4: and w8, w0, #0xffff
+   main+0xE40BB8: cmp w8, #0xea
+   main+0xE40BBC: b.ne #0xe40bf4
+   main+0xE40BC0: ldr x0, [x19, #0x70]
+   main+0xE40BC4: bl #0xe5b280
+   main+0xE40BC8: bl #0xe5e5b8
+   main+0xE40BCC: add w1, w0, w20
+   main+0xE40BD0: mov x0, x19
+   main+0xE40BD4: ldr x21, [sp, #0x10]
+   main+0xE40BD8: ldp x20, x19, [sp, #0x20]
+   main+0xE40BDC: ldp x29, x30, [sp], #0x30
+   main+0xE40BE0: b #0xe40ab4
+   main+0xE40BE4: ldp x20, x19, [sp, #0x20]
+   main+0xE40BE8: ldr x21, [sp, #0x10]
+   main+0xE40BEC: ldp x29, x30, [sp], #0x30
+   main+0xE40BF0: ret 
+   main+0xE40BF4: add w1, wzr, w20",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40C20,"   main+0xE40BF8: mov x0, x19
+   main+0xE40BFC: ldr x21, [sp, #0x10]
+   main+0xE40C00: ldp x20, x19, [sp, #0x20]
+   main+0xE40C04: ldp x29, x30, [sp], #0x30
+   main+0xE40C08: b #0xe40ab4
+   main+0xE40C0C: stp x29, x30, [sp, #-0x20]!
+   main+0xE40C10: str x19, [sp, #0x10]
+   main+0xE40C14: mov x29, sp
+   main+0xE40C18: mov x19, x0
+   main+0xE40C1C: ldr x0, [x0, #0x70]
+>> main+0xE40C20: bl #0xe49940
+   main+0xE40C24: and w8, w0, #0xffff
+   main+0xE40C28: cmp w8, #0xd3
+   main+0xE40C2C: b.ne #0xe40c58
+   main+0xE40C30: ldr x0, [x19, #0x70]
+   main+0xE40C34: bl #0xe4d190
+   main+0xE40C38: and w8, w0, #0xffff
+   main+0xE40C3C: cmp w8, #1
+   main+0xE40C40: b.ne #0xe40c58
+   main+0xE40C44: ldr x0, [x19, #0x70]
+   main+0xE40C48: bl #0xe5b280
+   main+0xE40C4C: ldr x19, [sp, #0x10]
+   main+0xE40C50: ldp x29, x30, [sp], #0x20
+   main+0xE40C54: b #0xe5e5cc
+   main+0xE40C58: ldr x19, [sp, #0x10]
+   main+0xE40C5C: mov w0, wzr
+   main+0xE40C60: ldp x29, x30, [sp], #0x20
+   main+0xE40C64: ret ",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40CB8,"   main+0xE40C90: bl #0xe483b4
+   main+0xE40C94: tbnz w0, #0, #0xe40cb4
+   main+0xE40C98: ldr x0, [x19, #0x70]
+   main+0xE40C9C: bl #0xe4c950
+   main+0xE40CA0: mov w21, w0
+   main+0xE40CA4: ldr x0, [x19, #0x70]
+   main+0xE40CA8: bl #0xe485f0
+   main+0xE40CAC: tbnz w21, #0, #0xe40d04
+   main+0xE40CB0: tbnz w0, #0, #0xe40d04
+   main+0xE40CB4: ldr x0, [x19, #0x70]
+>> main+0xE40CB8: bl #0xe49940
+   main+0xE40CBC: and w8, w0, #0xffff
+   main+0xE40CC0: cmp w8, #0xd3
+   main+0xE40CC4: b.ne #0xe40d04
+   main+0xE40CC8: ldr x0, [x19, #0x70]
+   main+0xE40CCC: bl #0xe4d190
+   main+0xE40CD0: and w8, w0, #0xffff
+   main+0xE40CD4: cmp w8, #1
+   main+0xE40CD8: b.ne #0xe40d04
+   main+0xE40CDC: ldr x0, [x19, #0x70]
+   main+0xE40CE0: bl #0xe5b280
+   main+0xE40CE4: mov w1, w20
+   main+0xE40CE8: bl #0xe5e5d0
+   main+0xE40CEC: mov w1, w0
+   main+0xE40CF0: ldr x0, [x19, #0x70]
+   main+0xE40CF4: ldr x21, [sp, #0x10]
+   main+0xE40CF8: ldp x20, x19, [sp, #0x20]
+   main+0xE40CFC: ldp x29, x30, [sp], #0x30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40D64,"   main+0xE40D3C: bl #0xe483b4
+   main+0xE40D40: tbnz w0, #0, #0xe40d60
+   main+0xE40D44: ldr x0, [x19, #0x70]
+   main+0xE40D48: bl #0xe4c950
+   main+0xE40D4C: mov w21, w0
+   main+0xE40D50: ldr x0, [x19, #0x70]
+   main+0xE40D54: bl #0xe485f0
+   main+0xE40D58: tbnz w21, #0, #0xe40dd4
+   main+0xE40D5C: tbnz w0, #0, #0xe40dd4
+   main+0xE40D60: ldr x0, [x19, #0x70]
+>> main+0xE40D64: bl #0xe49940
+   main+0xE40D68: and w8, w0, #0xffff
+   main+0xE40D6C: cmp w8, #0xd3
+   main+0xE40D70: b.ne #0xe40dd4
+   main+0xE40D74: ldr x0, [x19, #0x70]
+   main+0xE40D78: bl #0xe4d190
+   main+0xE40D7C: and w8, w0, #0xffff
+   main+0xE40D80: cmp w8, #1
+   main+0xE40D84: b.ne #0xe40dd4
+   main+0xE40D88: ldr x0, [x19, #0x70]
+   main+0xE40D8C: bl #0xe49940
+   main+0xE40D90: and w8, w0, #0xffff
+   main+0xE40D94: cmp w8, #0xd3
+   main+0xE40D98: b.ne #0xe40de4
+   main+0xE40D9C: ldr x0, [x19, #0x70]
+   main+0xE40DA0: bl #0xe4d190
+   main+0xE40DA4: and w8, w0, #0xffff
+   main+0xE40DA8: cmp w8, #1",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40D8C,"   main+0xE40D64: bl #0xe49940
+   main+0xE40D68: and w8, w0, #0xffff
+   main+0xE40D6C: cmp w8, #0xd3
+   main+0xE40D70: b.ne #0xe40dd4
+   main+0xE40D74: ldr x0, [x19, #0x70]
+   main+0xE40D78: bl #0xe4d190
+   main+0xE40D7C: and w8, w0, #0xffff
+   main+0xE40D80: cmp w8, #1
+   main+0xE40D84: b.ne #0xe40dd4
+   main+0xE40D88: ldr x0, [x19, #0x70]
+>> main+0xE40D8C: bl #0xe49940
+   main+0xE40D90: and w8, w0, #0xffff
+   main+0xE40D94: cmp w8, #0xd3
+   main+0xE40D98: b.ne #0xe40de4
+   main+0xE40D9C: ldr x0, [x19, #0x70]
+   main+0xE40DA0: bl #0xe4d190
+   main+0xE40DA4: and w8, w0, #0xffff
+   main+0xE40DA8: cmp w8, #1
+   main+0xE40DAC: b.ne #0xe40de4
+   main+0xE40DB0: ldr x0, [x19, #0x70]
+   main+0xE40DB4: bl #0xe5b280
+   main+0xE40DB8: bl #0xe5e5cc
+   main+0xE40DBC: add w1, w0, w20
+   main+0xE40DC0: mov x0, x19
+   main+0xE40DC4: ldr x21, [sp, #0x10]
+   main+0xE40DC8: ldp x20, x19, [sp, #0x20]
+   main+0xE40DCC: ldp x29, x30, [sp], #0x30
+   main+0xE40DD0: b #0xe40c68",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40E10,"   main+0xE40DE8: mov x0, x19
+   main+0xE40DEC: ldr x21, [sp, #0x10]
+   main+0xE40DF0: ldp x20, x19, [sp, #0x20]
+   main+0xE40DF4: ldp x29, x30, [sp], #0x30
+   main+0xE40DF8: b #0xe40c68
+   main+0xE40DFC: stp x29, x30, [sp, #-0x20]!
+   main+0xE40E00: str x19, [sp, #0x10]
+   main+0xE40E04: mov x29, sp
+   main+0xE40E08: mov x19, x0
+   main+0xE40E0C: ldr x0, [x0, #0x70]
+>> main+0xE40E10: bl #0xe49940
+   main+0xE40E14: and w8, w0, #0xffff
+   main+0xE40E18: cmp w8, #0x3d0
+   main+0xE40E1C: b.ne #0xe40e30
+   main+0xE40E20: ldr x0, [x19, #0x70]
+   main+0xE40E24: ldr x19, [sp, #0x10]
+   main+0xE40E28: ldp x29, x30, [sp], #0x20
+   main+0xE40E2C: b #0xe5b280
+   main+0xE40E30: ldr x19, [sp, #0x10]
+   main+0xE40E34: mov w0, wzr
+   main+0xE40E38: ldp x29, x30, [sp], #0x20
+   main+0xE40E3C: ret 
+   main+0xE40E40: stp x29, x30, [sp, #-0x30]!
+   main+0xE40E44: str x21, [sp, #0x10]
+   main+0xE40E48: stp x20, x19, [sp, #0x20]
+   main+0xE40E4C: mov x29, sp
+   main+0xE40E50: mov w19, w1
+   main+0xE40E54: mov x20, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40E90,"   main+0xE40E68: bl #0xe483b4
+   main+0xE40E6C: tbnz w0, #0, #0xe40e8c
+   main+0xE40E70: ldr x0, [x20, #0x70]
+   main+0xE40E74: bl #0xe4c950
+   main+0xE40E78: mov w21, w0
+   main+0xE40E7C: ldr x0, [x20, #0x70]
+   main+0xE40E80: bl #0xe485f0
+   main+0xE40E84: tbnz w21, #0, #0xe40eb8
+   main+0xE40E88: tbnz w0, #0, #0xe40eb8
+   main+0xE40E8C: ldr x0, [x20, #0x70]
+>> main+0xE40E90: bl #0xe49940
+   main+0xE40E94: and w8, w0, #0xffff
+   main+0xE40E98: cmp w8, #0x3d0
+   main+0xE40E9C: b.ne #0xe40eb8
+   main+0xE40EA0: ldr x0, [x20, #0x70]
+   main+0xE40EA4: mov w1, w19
+   main+0xE40EA8: ldr x21, [sp, #0x10]
+   main+0xE40EAC: ldp x20, x19, [sp, #0x20]
+   main+0xE40EB0: ldp x29, x30, [sp], #0x30
+   main+0xE40EB4: b #0xe5b060
+   main+0xE40EB8: ldp x20, x19, [sp, #0x20]
+   main+0xE40EBC: ldr x21, [sp, #0x10]
+   main+0xE40EC0: ldp x29, x30, [sp], #0x30
+   main+0xE40EC4: ret 
+   main+0xE40EC8: stp x29, x30, [sp, #-0x30]!
+   main+0xE40ECC: stp x22, x21, [sp, #0x10]
+   main+0xE40ED0: stp x20, x19, [sp, #0x20]
+   main+0xE40ED4: mov x29, sp",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40F18,"   main+0xE40EF0: bl #0xe483b4
+   main+0xE40EF4: tbnz w0, #0, #0xe40f14
+   main+0xE40EF8: ldr x0, [x19, #0x70]
+   main+0xE40EFC: bl #0xe4c950
+   main+0xE40F00: mov w21, w0
+   main+0xE40F04: ldr x0, [x19, #0x70]
+   main+0xE40F08: bl #0xe485f0
+   main+0xE40F0C: tbnz w21, #0, #0xe40fbc
+   main+0xE40F10: tbnz w0, #0, #0xe40fbc
+   main+0xE40F14: ldr x0, [x19, #0x70]
+>> main+0xE40F18: bl #0xe49940
+   main+0xE40F1C: and w8, w0, #0xffff
+   main+0xE40F20: cmp w8, #0x3d0
+   main+0xE40F24: b.ne #0xe40fbc
+   main+0xE40F28: ldr x0, [x19, #0x70]
+   main+0xE40F2C: bl #0xe49940
+   main+0xE40F30: and w8, w0, #0xffff
+   main+0xE40F34: cmp w8, #0x3d0
+   main+0xE40F38: b.ne #0xe40f58
+   main+0xE40F3C: ldr x0, [x19, #0x70]
+   main+0xE40F40: bl #0xe5b280
+   main+0xE40F44: mov w21, w0
+   main+0xE40F48: bl #0x3f0784
+   main+0xE40F4C: ldrb w8, [x0, #0x380]
+   main+0xE40F50: cbnz w8, #0xe40f90
+   main+0xE40F54: b #0xe40f68
+   main+0xE40F58: mov w21, wzr
+   main+0xE40F5C: bl #0x3f0784",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40F2C,"   main+0xE40F04: ldr x0, [x19, #0x70]
+   main+0xE40F08: bl #0xe485f0
+   main+0xE40F0C: tbnz w21, #0, #0xe40fbc
+   main+0xE40F10: tbnz w0, #0, #0xe40fbc
+   main+0xE40F14: ldr x0, [x19, #0x70]
+   main+0xE40F18: bl #0xe49940
+   main+0xE40F1C: and w8, w0, #0xffff
+   main+0xE40F20: cmp w8, #0x3d0
+   main+0xE40F24: b.ne #0xe40fbc
+   main+0xE40F28: ldr x0, [x19, #0x70]
+>> main+0xE40F2C: bl #0xe49940
+   main+0xE40F30: and w8, w0, #0xffff
+   main+0xE40F34: cmp w8, #0x3d0
+   main+0xE40F38: b.ne #0xe40f58
+   main+0xE40F3C: ldr x0, [x19, #0x70]
+   main+0xE40F40: bl #0xe5b280
+   main+0xE40F44: mov w21, w0
+   main+0xE40F48: bl #0x3f0784
+   main+0xE40F4C: ldrb w8, [x0, #0x380]
+   main+0xE40F50: cbnz w8, #0xe40f90
+   main+0xE40F54: b #0xe40f68
+   main+0xE40F58: mov w21, wzr
+   main+0xE40F5C: bl #0x3f0784
+   main+0xE40F60: ldrb w8, [x0, #0x380]
+   main+0xE40F64: cbnz w8, #0xe40f90
+   main+0xE40F68: ldr x0, [x19, #0x70]
+   main+0xE40F6C: bl #0xe483b4
+   main+0xE40F70: tbnz w0, #0, #0xe40f90",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40F94,"   main+0xE40F6C: bl #0xe483b4
+   main+0xE40F70: tbnz w0, #0, #0xe40f90
+   main+0xE40F74: ldr x0, [x19, #0x70]
+   main+0xE40F78: bl #0xe4c950
+   main+0xE40F7C: mov w22, w0
+   main+0xE40F80: ldr x0, [x19, #0x70]
+   main+0xE40F84: bl #0xe485f0
+   main+0xE40F88: tbnz w22, #0, #0xe40fbc
+   main+0xE40F8C: tbnz w0, #0, #0xe40fbc
+   main+0xE40F90: ldr x0, [x19, #0x70]
+>> main+0xE40F94: bl #0xe49940
+   main+0xE40F98: and w8, w0, #0xffff
+   main+0xE40F9C: cmp w8, #0x3d0
+   main+0xE40FA0: b.ne #0xe40fbc
+   main+0xE40FA4: add w1, w21, w20
+   main+0xE40FA8: ldr x0, [x19, #0x70]
+   main+0xE40FAC: ldp x20, x19, [sp, #0x20]
+   main+0xE40FB0: ldp x22, x21, [sp, #0x10]
+   main+0xE40FB4: ldp x29, x30, [sp], #0x30
+   main+0xE40FB8: b #0xe5b060
+   main+0xE40FBC: ldp x20, x19, [sp, #0x20]
+   main+0xE40FC0: ldp x22, x21, [sp, #0x10]
+   main+0xE40FC4: ldp x29, x30, [sp], #0x30
+   main+0xE40FC8: ret 
+   main+0xE40FCC: stp x29, x30, [sp, #-0x20]!
+   main+0xE40FD0: str x19, [sp, #0x10]
+   main+0xE40FD4: mov x29, sp
+   main+0xE40FD8: mov x19, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE40FE0,"   main+0xE40FB8: b #0xe5b060
+   main+0xE40FBC: ldp x20, x19, [sp, #0x20]
+   main+0xE40FC0: ldp x22, x21, [sp, #0x10]
+   main+0xE40FC4: ldp x29, x30, [sp], #0x30
+   main+0xE40FC8: ret 
+   main+0xE40FCC: stp x29, x30, [sp, #-0x20]!
+   main+0xE40FD0: str x19, [sp, #0x10]
+   main+0xE40FD4: mov x29, sp
+   main+0xE40FD8: mov x19, x0
+   main+0xE40FDC: ldr x0, [x0, #0x70]
+>> main+0xE40FE0: bl #0xe49940
+   main+0xE40FE4: and w8, w0, #0xffff
+   main+0xE40FE8: cmp w8, #0x271
+   main+0xE40FEC: b.ne #0xe41000
+   main+0xE40FF0: ldr x0, [x19, #0x70]
+   main+0xE40FF4: ldr x19, [sp, #0x10]
+   main+0xE40FF8: ldp x29, x30, [sp], #0x20
+   main+0xE40FFC: b #0xe5b280
+   main+0xE41000: ldr x19, [sp, #0x10]
+   main+0xE41004: mov w0, wzr
+   main+0xE41008: ldp x29, x30, [sp], #0x20
+   main+0xE4100C: ret 
+   main+0xE41010: stp x29, x30, [sp, #-0x30]!
+   main+0xE41014: str x21, [sp, #0x10]
+   main+0xE41018: stp x20, x19, [sp, #0x20]
+   main+0xE4101C: mov x29, sp
+   main+0xE41020: mov w19, w1
+   main+0xE41024: mov x20, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41060,"   main+0xE41038: bl #0xe483b4
+   main+0xE4103C: tbnz w0, #0, #0xe4105c
+   main+0xE41040: ldr x0, [x20, #0x70]
+   main+0xE41044: bl #0xe4c950
+   main+0xE41048: mov w21, w0
+   main+0xE4104C: ldr x0, [x20, #0x70]
+   main+0xE41050: bl #0xe485f0
+   main+0xE41054: tbnz w21, #0, #0xe41094
+   main+0xE41058: tbnz w0, #0, #0xe41094
+   main+0xE4105C: ldr x0, [x20, #0x70]
+>> main+0xE41060: bl #0xe49940
+   main+0xE41064: and w8, w0, #0xffff
+   main+0xE41068: cmp w8, #0x271
+   main+0xE4106C: b.ne #0xe41094
+   main+0xE41070: ldr x0, [x20, #0x70]
+   main+0xE41074: bl #0xe5b280
+   main+0xE41078: ldr x8, [x20, #0x70]
+   main+0xE4107C: add w1, w0, w19
+   main+0xE41080: mov x0, x8
+   main+0xE41084: ldp x20, x19, [sp, #0x20]
+   main+0xE41088: ldr x21, [sp, #0x10]
+   main+0xE4108C: ldp x29, x30, [sp], #0x30
+   main+0xE41090: b #0xe5b060
+   main+0xE41094: ldp x20, x19, [sp, #0x20]
+   main+0xE41098: ldr x21, [sp, #0x10]
+   main+0xE4109C: ldp x29, x30, [sp], #0x30
+   main+0xE410A0: ret 
+   main+0xE410A4: stp x29, x30, [sp, #-0x30]!",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE410F4,"   main+0xE410CC: bl #0xe483b4
+   main+0xE410D0: tbnz w0, #0, #0xe410f0
+   main+0xE410D4: ldr x0, [x20, #0x70]
+   main+0xE410D8: bl #0xe4c950
+   main+0xE410DC: mov w21, w0
+   main+0xE410E0: ldr x0, [x20, #0x70]
+   main+0xE410E4: bl #0xe485f0
+   main+0xE410E8: tbnz w21, #0, #0xe4111c
+   main+0xE410EC: tbnz w0, #0, #0xe4111c
+   main+0xE410F0: ldr x0, [x20, #0x70]
+>> main+0xE410F4: bl #0xe49940
+   main+0xE410F8: and w8, w0, #0xffff
+   main+0xE410FC: cmp w8, #0x271
+   main+0xE41100: b.ne #0xe4111c
+   main+0xE41104: ldr x0, [x20, #0x70]
+   main+0xE41108: mov w1, w19
+   main+0xE4110C: ldr x21, [sp, #0x10]
+   main+0xE41110: ldp x20, x19, [sp, #0x20]
+   main+0xE41114: ldp x29, x30, [sp], #0x30
+   main+0xE41118: b #0xe5b060
+   main+0xE4111C: ldp x20, x19, [sp, #0x20]
+   main+0xE41120: ldr x21, [sp, #0x10]
+   main+0xE41124: ldp x29, x30, [sp], #0x30
+   main+0xE41128: ret 
+   main+0xE4112C: stp x29, x30, [sp, #-0x20]!
+   main+0xE41130: str x19, [sp, #0x10]
+   main+0xE41134: mov x29, sp
+   main+0xE41138: mov x19, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41140,"   main+0xE41118: b #0xe5b060
+   main+0xE4111C: ldp x20, x19, [sp, #0x20]
+   main+0xE41120: ldr x21, [sp, #0x10]
+   main+0xE41124: ldp x29, x30, [sp], #0x30
+   main+0xE41128: ret 
+   main+0xE4112C: stp x29, x30, [sp, #-0x20]!
+   main+0xE41130: str x19, [sp, #0x10]
+   main+0xE41134: mov x29, sp
+   main+0xE41138: mov x19, x0
+   main+0xE4113C: ldr x0, [x0, #0x70]
+>> main+0xE41140: bl #0xe49940
+   main+0xE41144: and w8, w0, #0xffff
+   main+0xE41148: cmp w8, #0x39
+   main+0xE4114C: b.ne #0xe41160
+   main+0xE41150: ldr x0, [x19, #0x70]
+   main+0xE41154: ldr x19, [sp, #0x10]
+   main+0xE41158: ldp x29, x30, [sp], #0x20
+   main+0xE4115C: b #0xe5b280
+   main+0xE41160: ldr x19, [sp, #0x10]
+   main+0xE41164: mov w0, wzr
+   main+0xE41168: ldp x29, x30, [sp], #0x20
+   main+0xE4116C: ret 
+   main+0xE41170: stp x29, x30, [sp, #-0x30]!
+   main+0xE41174: str x21, [sp, #0x10]
+   main+0xE41178: stp x20, x19, [sp, #0x20]
+   main+0xE4117C: mov x29, sp
+   main+0xE41180: mov w19, w1
+   main+0xE41184: mov x20, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE411C0,"   main+0xE41198: bl #0xe483b4
+   main+0xE4119C: tbnz w0, #0, #0xe411bc
+   main+0xE411A0: ldr x0, [x20, #0x70]
+   main+0xE411A4: bl #0xe4c950
+   main+0xE411A8: mov w21, w0
+   main+0xE411AC: ldr x0, [x20, #0x70]
+   main+0xE411B0: bl #0xe485f0
+   main+0xE411B4: tbnz w21, #0, #0xe411f4
+   main+0xE411B8: tbnz w0, #0, #0xe411f4
+   main+0xE411BC: ldr x0, [x20, #0x70]
+>> main+0xE411C0: bl #0xe49940
+   main+0xE411C4: and w8, w0, #0xffff
+   main+0xE411C8: cmp w8, #0x39
+   main+0xE411CC: b.ne #0xe411f4
+   main+0xE411D0: ldr x0, [x20, #0x70]
+   main+0xE411D4: bl #0xe5b280
+   main+0xE411D8: ldr x8, [x20, #0x70]
+   main+0xE411DC: add w1, w0, w19
+   main+0xE411E0: mov x0, x8
+   main+0xE411E4: ldp x20, x19, [sp, #0x20]
+   main+0xE411E8: ldr x21, [sp, #0x10]
+   main+0xE411EC: ldp x29, x30, [sp], #0x30
+   main+0xE411F0: b #0xe5b060
+   main+0xE411F4: ldp x20, x19, [sp, #0x20]
+   main+0xE411F8: ldr x21, [sp, #0x10]
+   main+0xE411FC: ldp x29, x30, [sp], #0x30
+   main+0xE41200: ret 
+   main+0xE41204: stp x29, x30, [sp, #-0x30]!",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41254,"   main+0xE4122C: bl #0xe483b4
+   main+0xE41230: tbnz w0, #0, #0xe41250
+   main+0xE41234: ldr x0, [x20, #0x70]
+   main+0xE41238: bl #0xe4c950
+   main+0xE4123C: mov w21, w0
+   main+0xE41240: ldr x0, [x20, #0x70]
+   main+0xE41244: bl #0xe485f0
+   main+0xE41248: tbnz w21, #0, #0xe4127c
+   main+0xE4124C: tbnz w0, #0, #0xe4127c
+   main+0xE41250: ldr x0, [x20, #0x70]
+>> main+0xE41254: bl #0xe49940
+   main+0xE41258: and w8, w0, #0xffff
+   main+0xE4125C: cmp w8, #0x39
+   main+0xE41260: b.ne #0xe4127c
+   main+0xE41264: ldr x0, [x20, #0x70]
+   main+0xE41268: mov w1, w19
+   main+0xE4126C: ldr x21, [sp, #0x10]
+   main+0xE41270: ldp x20, x19, [sp, #0x20]
+   main+0xE41274: ldp x29, x30, [sp], #0x30
+   main+0xE41278: b #0xe5b060
+   main+0xE4127C: ldp x20, x19, [sp, #0x20]
+   main+0xE41280: ldr x21, [sp, #0x10]
+   main+0xE41284: ldp x29, x30, [sp], #0x30
+   main+0xE41288: ret 
+   main+0xE4128C: stp x29, x30, [sp, #-0x20]!
+   main+0xE41290: str x19, [sp, #0x10]
+   main+0xE41294: mov x29, sp
+   main+0xE41298: mov x19, x0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE412A0,"   main+0xE41278: b #0xe5b060
+   main+0xE4127C: ldp x20, x19, [sp, #0x20]
+   main+0xE41280: ldr x21, [sp, #0x10]
+   main+0xE41284: ldp x29, x30, [sp], #0x30
+   main+0xE41288: ret 
+   main+0xE4128C: stp x29, x30, [sp, #-0x20]!
+   main+0xE41290: str x19, [sp, #0x10]
+   main+0xE41294: mov x29, sp
+   main+0xE41298: mov x19, x0
+   main+0xE4129C: ldr x0, [x0, #0x70]
+>> main+0xE412A0: bl #0xe49940
+   main+0xE412A4: and w8, w0, #0xffff
+   main+0xE412A8: cmp w8, #0x53
+   main+0xE412AC: b.ne #0xe412d4
+   main+0xE412B0: ldr x0, [x19, #0x70]
+   main+0xE412B4: bl #0xe4d190
+   main+0xE412B8: and w8, w0, #0xffff
+   main+0xE412BC: cmp w8, #1
+   main+0xE412C0: b.ne #0xe412d4
+   main+0xE412C4: ldr x0, [x19, #0x70]
+   main+0xE412C8: ldr x19, [sp, #0x10]
+   main+0xE412CC: ldp x29, x30, [sp], #0x20
+   main+0xE412D0: b #0xe5b280
+   main+0xE412D4: ldr x19, [sp, #0x10]
+   main+0xE412D8: mov w0, wzr
+   main+0xE412DC: ldp x29, x30, [sp], #0x20
+   main+0xE412E0: ret 
+   main+0xE412E4: stp x29, x30, [sp, #-0x30]!",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41334,"   main+0xE4130C: bl #0xe483b4
+   main+0xE41310: tbnz w0, #0, #0xe41330
+   main+0xE41314: ldr x0, [x20, #0x70]
+   main+0xE41318: bl #0xe4c950
+   main+0xE4131C: mov w21, w0
+   main+0xE41320: ldr x0, [x20, #0x70]
+   main+0xE41324: bl #0xe485f0
+   main+0xE41328: tbnz w21, #0, #0xe41370
+   main+0xE4132C: tbnz w0, #0, #0xe41370
+   main+0xE41330: ldr x0, [x20, #0x70]
+>> main+0xE41334: bl #0xe49940
+   main+0xE41338: and w8, w0, #0xffff
+   main+0xE4133C: cmp w8, #0x53
+   main+0xE41340: b.ne #0xe41370
+   main+0xE41344: ldr x0, [x20, #0x70]
+   main+0xE41348: bl #0xe4d190
+   main+0xE4134C: and w8, w0, #0xffff
+   main+0xE41350: cmp w8, #1
+   main+0xE41354: b.ne #0xe41370
+   main+0xE41358: ldr x0, [x20, #0x70]
+   main+0xE4135C: mov w1, w19
+   main+0xE41360: ldr x21, [sp, #0x10]
+   main+0xE41364: ldp x20, x19, [sp, #0x20]
+   main+0xE41368: ldp x29, x30, [sp], #0x30
+   main+0xE4136C: b #0xe5b060
+   main+0xE41370: ldp x20, x19, [sp, #0x20]
+   main+0xE41374: ldr x21, [sp, #0x10]
+   main+0xE41378: ldp x29, x30, [sp], #0x30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41788,"   main+0xE41760: mov x29, sp
+   main+0xE41764: mov x19, x0
+   main+0xE41768: ldr x0, [x0, #0x70]
+   main+0xE4176C: mov w21, w1
+   main+0xE41770: bl #0xe47a14
+   main+0xE41774: mov w20, w0
+   main+0xE41778: tbnz w0, #0, #0xe41784
+   main+0xE4177C: ldr x0, [x19, #0x70]
+   main+0xE41780: bl #0xe480e0
+   main+0xE41784: ldr x0, [x19, #0x70]
+>> main+0xE41788: bl #0xe49940
+   main+0xE4178C: mov w22, w0
+   main+0xE41790: ldr x0, [x19, #0x70]
+   main+0xE41794: bl #0xe4d190
+   main+0xE41798: mov w23, w0
+   main+0xE4179C: ldr x0, [x19, #0x70]
+   main+0xE417A0: bl #0xe49f60
+   main+0xE417A4: mov w2, w0
+   main+0xE417A8: mov w0, w22
+   main+0xE417AC: mov w1, w23
+   main+0xE417B0: bl #0xe5ce70
+   main+0xE417B4: mov w1, w0
+   main+0xE417B8: ldr x0, [x19, #0x70]
+   main+0xE417BC: bl #0xe518f0
+   main+0xE417C0: and w1, w21, #1
+   main+0xE417C4: mov x0, x19
+   main+0xE417C8: bl #0xe4163c
+   main+0xE417CC: mov x0, x19",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41D18,"   main+0xE41CF0: ldp x26, x25, [sp, #0x10]
+   main+0xE41CF4: ldp x29, x30, [sp], #0x50
+   main+0xE41CF8: ret 
+   main+0xE41CFC: stp x29, x30, [sp, #-0x40]!
+   main+0xE41D00: str x23, [sp, #0x10]
+   main+0xE41D04: stp x22, x21, [sp, #0x20]
+   main+0xE41D08: stp x20, x19, [sp, #0x30]
+   main+0xE41D0C: mov x29, sp
+   main+0xE41D10: mov x20, x0
+   main+0xE41D14: ldr x0, [x0, #0x70]
+>> main+0xE41D18: bl #0xe49940
+   main+0xE41D1C: mov w19, w0
+   main+0xE41D20: mov x0, x20
+   main+0xE41D24: bl #0x10f558
+   main+0xE41D28: mov w21, w0
+   main+0xE41D2C: ldr x0, [x20, #0x70]
+   main+0xE41D30: bl #0xe49940
+   main+0xE41D34: mov w22, w0
+   main+0xE41D38: ldr x0, [x20, #0x70]
+   main+0xE41D3C: bl #0xe4d190
+   main+0xE41D40: mov w1, w0
+   main+0xE41D44: mov w0, w22
+   main+0xE41D48: bl #0xe33df4
+   main+0xE41D4C: mov w22, w0
+   main+0xE41D50: ldr x0, [x20, #0x70]
+   main+0xE41D54: bl #0xe5b6b0
+   main+0xE41D58: tbnz w0, #0, #0xe41d6c
+   main+0xE41D5C: ldr x0, [x20, #0x70]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41D30,"   main+0xE41D08: stp x20, x19, [sp, #0x30]
+   main+0xE41D0C: mov x29, sp
+   main+0xE41D10: mov x20, x0
+   main+0xE41D14: ldr x0, [x0, #0x70]
+   main+0xE41D18: bl #0xe49940
+   main+0xE41D1C: mov w19, w0
+   main+0xE41D20: mov x0, x20
+   main+0xE41D24: bl #0x10f558
+   main+0xE41D28: mov w21, w0
+   main+0xE41D2C: ldr x0, [x20, #0x70]
+>> main+0xE41D30: bl #0xe49940
+   main+0xE41D34: mov w22, w0
+   main+0xE41D38: ldr x0, [x20, #0x70]
+   main+0xE41D3C: bl #0xe4d190
+   main+0xE41D40: mov w1, w0
+   main+0xE41D44: mov w0, w22
+   main+0xE41D48: bl #0xe33df4
+   main+0xE41D4C: mov w22, w0
+   main+0xE41D50: ldr x0, [x20, #0x70]
+   main+0xE41D54: bl #0xe5b6b0
+   main+0xE41D58: tbnz w0, #0, #0xe41d6c
+   main+0xE41D5C: ldr x0, [x20, #0x70]
+   main+0xE41D60: bl #0xe4bcf0
+   main+0xE41D64: mov w23, w0
+   main+0xE41D68: b #0xe41d70
+   main+0xE41D6C: mov w23, #0x1f
+   main+0xE41D70: ldr x0, [x20, #0x70]
+   main+0xE41D74: bl #0xe4aa30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41DC4,"   main+0xE41D9C: b #0xe5cf20
+   main+0xE41DA0: stp x29, x30, [sp, #-0x40]!
+   main+0xE41DA4: str x23, [sp, #0x10]
+   main+0xE41DA8: stp x22, x21, [sp, #0x20]
+   main+0xE41DAC: stp x20, x19, [sp, #0x30]
+   main+0xE41DB0: mov x29, sp
+   main+0xE41DB4: mov x20, x0
+   main+0xE41DB8: bl #0x10f558
+   main+0xE41DBC: mov w19, w0
+   main+0xE41DC0: ldr x0, [x20, #0x70]
+>> main+0xE41DC4: bl #0xe49940
+   main+0xE41DC8: mov w21, w0
+   main+0xE41DCC: ldr x0, [x20, #0x70]
+   main+0xE41DD0: bl #0xe4d190
+   main+0xE41DD4: mov w1, w0
+   main+0xE41DD8: mov w0, w21
+   main+0xE41DDC: bl #0xe33e24
+   main+0xE41DE0: mov w21, w0
+   main+0xE41DE4: ldr x0, [x20, #0x70]
+   main+0xE41DE8: bl #0xe5b6b0
+   main+0xE41DEC: tbnz w0, #1, #0xe41e00
+   main+0xE41DF0: ldr x0, [x20, #0x70]
+   main+0xE41DF4: bl #0xe4bf00
+   main+0xE41DF8: mov w22, w0
+   main+0xE41DFC: b #0xe41e04
+   main+0xE41E00: mov w22, #0x1f
+   main+0xE41E04: ldr x0, [x20, #0x70]
+   main+0xE41E08: bl #0xe4ac40",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41E64,"   main+0xE41E3C: b #0xe5cf6c
+   main+0xE41E40: stp x29, x30, [sp, #-0x40]!
+   main+0xE41E44: str x23, [sp, #0x10]
+   main+0xE41E48: stp x22, x21, [sp, #0x20]
+   main+0xE41E4C: stp x20, x19, [sp, #0x30]
+   main+0xE41E50: mov x29, sp
+   main+0xE41E54: mov x20, x0
+   main+0xE41E58: bl #0x10f558
+   main+0xE41E5C: mov w19, w0
+   main+0xE41E60: ldr x0, [x20, #0x70]
+>> main+0xE41E64: bl #0xe49940
+   main+0xE41E68: mov w21, w0
+   main+0xE41E6C: ldr x0, [x20, #0x70]
+   main+0xE41E70: bl #0xe4d190
+   main+0xE41E74: mov w1, w0
+   main+0xE41E78: mov w0, w21
+   main+0xE41E7C: bl #0xe33e54
+   main+0xE41E80: mov w21, w0
+   main+0xE41E84: ldr x0, [x20, #0x70]
+   main+0xE41E88: bl #0xe5b6b0
+   main+0xE41E8C: tbnz w0, #2, #0xe41ea0
+   main+0xE41E90: ldr x0, [x20, #0x70]
+   main+0xE41E94: bl #0xe4c110
+   main+0xE41E98: mov w22, w0
+   main+0xE41E9C: b #0xe41ea4
+   main+0xE41EA0: mov w22, #0x1f
+   main+0xE41EA4: ldr x0, [x20, #0x70]
+   main+0xE41EA8: bl #0xe4ae50",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41F04,"   main+0xE41EDC: b #0xe5cfe8
+   main+0xE41EE0: stp x29, x30, [sp, #-0x40]!
+   main+0xE41EE4: str x23, [sp, #0x10]
+   main+0xE41EE8: stp x22, x21, [sp, #0x20]
+   main+0xE41EEC: stp x20, x19, [sp, #0x30]
+   main+0xE41EF0: mov x29, sp
+   main+0xE41EF4: mov x20, x0
+   main+0xE41EF8: bl #0x10f558
+   main+0xE41EFC: mov w19, w0
+   main+0xE41F00: ldr x0, [x20, #0x70]
+>> main+0xE41F04: bl #0xe49940
+   main+0xE41F08: mov w21, w0
+   main+0xE41F0C: ldr x0, [x20, #0x70]
+   main+0xE41F10: bl #0xe4d190
+   main+0xE41F14: mov w1, w0
+   main+0xE41F18: mov w0, w21
+   main+0xE41F1C: bl #0xe33eb4
+   main+0xE41F20: mov w21, w0
+   main+0xE41F24: ldr x0, [x20, #0x70]
+   main+0xE41F28: bl #0xe5b6b0
+   main+0xE41F2C: tbnz w0, #3, #0xe41f40
+   main+0xE41F30: ldr x0, [x20, #0x70]
+   main+0xE41F34: bl #0xe4c320
+   main+0xE41F38: mov w22, w0
+   main+0xE41F3C: b #0xe41f44
+   main+0xE41F40: mov w22, #0x1f
+   main+0xE41F44: ldr x0, [x20, #0x70]
+   main+0xE41F48: bl #0xe4b060",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE41FA4,"   main+0xE41F7C: b #0xe5d068
+   main+0xE41F80: stp x29, x30, [sp, #-0x40]!
+   main+0xE41F84: str x23, [sp, #0x10]
+   main+0xE41F88: stp x22, x21, [sp, #0x20]
+   main+0xE41F8C: stp x20, x19, [sp, #0x30]
+   main+0xE41F90: mov x29, sp
+   main+0xE41F94: mov x20, x0
+   main+0xE41F98: bl #0x10f558
+   main+0xE41F9C: mov w19, w0
+   main+0xE41FA0: ldr x0, [x20, #0x70]
+>> main+0xE41FA4: bl #0xe49940
+   main+0xE41FA8: mov w21, w0
+   main+0xE41FAC: ldr x0, [x20, #0x70]
+   main+0xE41FB0: bl #0xe4d190
+   main+0xE41FB4: mov w1, w0
+   main+0xE41FB8: mov w0, w21
+   main+0xE41FBC: bl #0xe33ee4
+   main+0xE41FC0: mov w21, w0
+   main+0xE41FC4: ldr x0, [x20, #0x70]
+   main+0xE41FC8: bl #0xe5b6b0
+   main+0xE41FCC: tbnz w0, #4, #0xe41fe0
+   main+0xE41FD0: ldr x0, [x20, #0x70]
+   main+0xE41FD4: bl #0xe4c530
+   main+0xE41FD8: mov w22, w0
+   main+0xE41FDC: b #0xe41fe4
+   main+0xE41FE0: mov w22, #0x1f
+   main+0xE41FE4: ldr x0, [x20, #0x70]
+   main+0xE41FE8: bl #0xe4b270",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE42044,"   main+0xE4201C: b #0xe5d0e8
+   main+0xE42020: stp x29, x30, [sp, #-0x40]!
+   main+0xE42024: str x23, [sp, #0x10]
+   main+0xE42028: stp x22, x21, [sp, #0x20]
+   main+0xE4202C: stp x20, x19, [sp, #0x30]
+   main+0xE42030: mov x29, sp
+   main+0xE42034: mov x20, x0
+   main+0xE42038: bl #0x10f558
+   main+0xE4203C: mov w19, w0
+   main+0xE42040: ldr x0, [x20, #0x70]
+>> main+0xE42044: bl #0xe49940
+   main+0xE42048: mov w21, w0
+   main+0xE4204C: ldr x0, [x20, #0x70]
+   main+0xE42050: bl #0xe4d190
+   main+0xE42054: mov w1, w0
+   main+0xE42058: mov w0, w21
+   main+0xE4205C: bl #0xe33e84
+   main+0xE42060: mov w21, w0
+   main+0xE42064: ldr x0, [x20, #0x70]
+   main+0xE42068: bl #0xe5b6b0
+   main+0xE4206C: tbnz w0, #5, #0xe42080
+   main+0xE42070: ldr x0, [x20, #0x70]
+   main+0xE42074: bl #0xe4c740
+   main+0xE42078: mov w22, w0
+   main+0xE4207C: b #0xe42084
+   main+0xE42080: mov w22, #0x1f
+   main+0xE42084: ldr x0, [x20, #0x70]
+   main+0xE42088: bl #0xe4b480",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE421F4,"   main+0xE421CC: ldr x0, [x19, #0x70]
+   main+0xE421D0: tbz w8, #0, #0xe4222c
+   main+0xE421D4: bl #0xe49760
+   main+0xE421D8: add w8, w0, w20, uxtb
+   main+0xE421DC: mov w9, #0x64
+   main+0xE421E0: cmp w8, #0x64
+   main+0xE421E4: csel w20, w8, w9, lo
+   main+0xE421E8: cmp w20, w0
+   main+0xE421EC: b.eq #0xe42274
+   main+0xE421F0: ldr x0, [x19, #0x70]
+>> main+0xE421F4: bl #0xe49940
+   main+0xE421F8: mov w21, w0
+   main+0xE421FC: ldr x0, [x19, #0x70]
+   main+0xE42200: bl #0xe4d190
+   main+0xE42204: mov w1, w0
+   main+0xE42208: mov w0, w21
+   main+0xE4220C: mov w2, w20
+   main+0xE42210: bl #0xcecb8c
+   main+0xE42214: mov w1, w0
+   main+0xE42218: mov x0, x19
+   main+0xE4221C: ldp x20, x19, [sp, #0x20]
+   main+0xE42220: ldp x22, x21, [sp, #0x10]
+   main+0xE42224: ldp x29, x30, [sp], #0x30
+   main+0xE42228: b #0xc3a944
+   main+0xE4222C: bl #0xe49940
+   main+0xE42230: mov w21, w0
+   main+0xE42234: ldr x0, [x19, #0x70]
+   main+0xE42238: bl #0xe4d190",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE4222C,"   main+0xE42204: mov w1, w0
+   main+0xE42208: mov w0, w21
+   main+0xE4220C: mov w2, w20
+   main+0xE42210: bl #0xcecb8c
+   main+0xE42214: mov w1, w0
+   main+0xE42218: mov x0, x19
+   main+0xE4221C: ldp x20, x19, [sp, #0x20]
+   main+0xE42220: ldp x22, x21, [sp, #0x10]
+   main+0xE42224: ldp x29, x30, [sp], #0x30
+   main+0xE42228: b #0xc3a944
+>> main+0xE4222C: bl #0xe49940
+   main+0xE42230: mov w21, w0
+   main+0xE42234: ldr x0, [x19, #0x70]
+   main+0xE42238: bl #0xe4d190
+   main+0xE4223C: mov w22, w0
+   main+0xE42240: ldr x0, [x19, #0x70]
+   main+0xE42244: bl #0xe49f60
+   main+0xE42248: mov w2, w0
+   main+0xE4224C: mov w0, w21
+   main+0xE42250: mov w1, w22
+   main+0xE42254: bl #0xe5ce70
+   main+0xE42258: and w0, w0, #0xff
+   main+0xE4225C: add w8, w0, w20, uxtb
+   main+0xE42260: mov w9, #0x64
+   main+0xE42264: cmp w8, #0x64
+   main+0xE42268: csel w20, w8, w9, lo
+   main+0xE4226C: cmp w20, w0
+   main+0xE42270: b.ne #0xe421f0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43354,"   main+0xE4332C: stp x24, x23, [sp, #0x30]
+   main+0xE43330: stp x22, x21, [sp, #0x40]
+   main+0xE43334: stp x20, x19, [sp, #0x50]
+   main+0xE43338: mov x29, sp
+   main+0xE4333C: mov x21, x0
+   main+0xE43340: mov x0, x8
+   main+0xE43344: mov w20, w1
+   main+0xE43348: mov x19, x8
+   main+0xE4334C: bl #0xe431f4
+   main+0xE43350: ldr x0, [x21, #0x70]
+>> main+0xE43354: bl #0xe49940
+   main+0xE43358: mov w22, w0
+   main+0xE4335C: ldr x0, [x21, #0x70]
+   main+0xE43360: bl #0xe4d190
+   main+0xE43364: mov w1, w0
+   main+0xE43368: mov w0, w22
+   main+0xE4336C: bl #0xe34434
+   main+0xE43370: cbz x0, #0xe4344c
+   main+0xE43374: ldr w21, [x0]
+   main+0xE43378: cbz w21, #0xe4344c
+   main+0xE4337C: mov w22, wzr
+   main+0xE43380: add x23, x0, #4
+   main+0xE43384: and w20, w20, #0xff
+   main+0xE43388: add x24, x19, #2
+   main+0xE4338C: mov w25, #1
+   main+0xE43390: mov w26, #0x13
+   main+0xE43394: b #0xe433c0
+   main+0xE43398: mov x8, xzr",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE4349C,"   main+0xE43474: mov x29, sp
+   main+0xE43478: mov x19, x0
+   main+0xE4347C: ldr x0, [x0, #0x70]
+   main+0xE43480: mov x20, x8
+   main+0xE43484: bl #0xe47688
+   main+0xE43488: mov w8, w0
+   main+0xE4348C: ldr x0, [x19, #0x70]
+   main+0xE43490: tbz w8, #0, #0xe4349c
+   main+0xE43494: bl #0xe49760
+   main+0xE43498: b #0xe434c8
+>> main+0xE4349C: bl #0xe49940
+   main+0xE434A0: mov w21, w0
+   main+0xE434A4: ldr x0, [x19, #0x70]
+   main+0xE434A8: bl #0xe4d190
+   main+0xE434AC: mov w22, w0
+   main+0xE434B0: ldr x0, [x19, #0x70]
+   main+0xE434B4: bl #0xe49f60
+   main+0xE434B8: mov w2, w0
+   main+0xE434BC: mov w0, w21
+   main+0xE434C0: mov w1, w22
+   main+0xE434C4: bl #0xe5ce70
+   main+0xE434C8: mov w1, w0
+   main+0xE434CC: mov x8, x20
+   main+0xE434D0: mov x0, x19
+   main+0xE434D4: ldp x20, x19, [sp, #0x20]
+   main+0xE434D8: ldp x22, x21, [sp, #0x10]
+   main+0xE434DC: ldp x29, x30, [sp], #0x30
+   main+0xE434E0: b #0x2de230",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE4354C,"   main+0xE43524: ldr x0, [x21, #0x70]
+   main+0xE43528: stp xzr, xzr, [x19, #0x78]
+   main+0xE4352C: str xzr, [x19]
+   main+0xE43530: stp xzr, xzr, [x19, #0x68]
+   main+0xE43534: stp xzr, xzr, [x19, #0x58]
+   main+0xE43538: stp xzr, xzr, [x19, #0x48]
+   main+0xE4353C: stp xzr, xzr, [x19, #0x38]
+   main+0xE43540: stp xzr, xzr, [x19, #0x28]
+   main+0xE43544: stp xzr, xzr, [x19, #0x18]
+   main+0xE43548: stp xzr, xzr, [x19, #8]
+>> main+0xE4354C: bl #0xe49940
+   main+0xE43550: mov w20, w0
+   main+0xE43554: ldr x0, [x21, #0x70]
+   main+0xE43558: bl #0xe4d190
+   main+0xE4355C: mov w1, w0
+   main+0xE43560: mov w0, w20
+   main+0xE43564: bl #0xe3448c
+   main+0xE43568: cbz x0, #0xe4371c
+   main+0xE4356C: ldr w8, [x0]
+   main+0xE43570: cbz w8, #0xe4371c
+   main+0xE43574: ldr w12, [x19, #0x84]
+   main+0xE43578: mov x9, xzr
+   main+0xE4357C: add x10, x0, #4
+   main+0xE43580: add x11, x19, #2
+   main+0xE43584: ldrh w13, [x10, x9, lsl #1]
+   main+0xE43588: cbz w12, #0xe435d0
+   main+0xE4358C: ldrh w14, [x19]
+   main+0xE43590: cmp w14, w13",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43648,"   main+0xE43620: ldr x0, [x21, #0x70]
+   main+0xE43624: stp xzr, xzr, [x19, #0x78]
+   main+0xE43628: str xzr, [x19]
+   main+0xE4362C: stp xzr, xzr, [x19, #0x68]
+   main+0xE43630: stp xzr, xzr, [x19, #0x58]
+   main+0xE43634: stp xzr, xzr, [x19, #0x48]
+   main+0xE43638: stp xzr, xzr, [x19, #0x38]
+   main+0xE4363C: stp xzr, xzr, [x19, #0x28]
+   main+0xE43640: stp xzr, xzr, [x19, #0x18]
+   main+0xE43644: stp xzr, xzr, [x19, #8]
+>> main+0xE43648: bl #0xe49940
+   main+0xE4364C: mov w22, w0
+   main+0xE43650: ldr x0, [x21, #0x70]
+   main+0xE43654: bl #0xe4d190
+   main+0xE43658: mov w1, w0
+   main+0xE4365C: mov w0, w22
+   main+0xE43660: bl #0xe34434
+   main+0xE43664: cbz x0, #0xe4371c
+   main+0xE43668: ldr w21, [x0]
+   main+0xE4366C: cbz w21, #0xe4371c
+   main+0xE43670: mov w22, wzr
+   main+0xE43674: add x23, x0, #4
+   main+0xE43678: add x24, x19, #2
+   main+0xE4367C: b #0xe436a8
+   main+0xE43680: mov x8, xzr
+   main+0xE43684: strh w9, [x19, x8, lsl #1]
+   main+0xE43688: ldr w8, [x19, #0x84]
+   main+0xE4368C: add w8, w8, #1",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE4378C,"   main+0xE43764: ldr x0, [x21, #0x70]
+   main+0xE43768: stp xzr, xzr, [x19, #0x78]
+   main+0xE4376C: str xzr, [x19]
+   main+0xE43770: stp xzr, xzr, [x19, #0x68]
+   main+0xE43774: stp xzr, xzr, [x19, #0x58]
+   main+0xE43778: stp xzr, xzr, [x19, #0x48]
+   main+0xE4377C: stp xzr, xzr, [x19, #0x38]
+   main+0xE43780: stp xzr, xzr, [x19, #0x28]
+   main+0xE43784: stp xzr, xzr, [x19, #0x18]
+   main+0xE43788: stp xzr, xzr, [x19, #8]
+>> main+0xE4378C: bl #0xe49940
+   main+0xE43790: mov w20, w0
+   main+0xE43794: ldr x0, [x21, #0x70]
+   main+0xE43798: bl #0xe4d190
+   main+0xE4379C: cmp w22, #3
+   main+0xE437A0: b.ne #0xe43854
+   main+0xE437A4: mov w1, w0
+   main+0xE437A8: mov w0, w20
+   main+0xE437AC: bl #0xe3448c
+   main+0xE437B0: cbz x0, #0xe43854
+   main+0xE437B4: ldr w8, [x0]
+   main+0xE437B8: cbz w8, #0xe43854
+   main+0xE437BC: ldr w12, [x19, #0x84]
+   main+0xE437C0: mov x9, xzr
+   main+0xE437C4: add x10, x0, #4
+   main+0xE437C8: add x11, x19, #2
+   main+0xE437CC: nop 
+   main+0xE437D0: ldrh w13, [x10, x9, lsl #1]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43898,"   main+0xE43870: mov x29, sp
+   main+0xE43874: mov x19, x0
+   main+0xE43878: ldr x0, [x0, #0x70]
+   main+0xE4387C: mov x20, x8
+   main+0xE43880: bl #0xe47688
+   main+0xE43884: mov w8, w0
+   main+0xE43888: ldr x0, [x19, #0x70]
+   main+0xE4388C: tbz w8, #0, #0xe43898
+   main+0xE43890: bl #0xe49760
+   main+0xE43894: b #0xe438c4
+>> main+0xE43898: bl #0xe49940
+   main+0xE4389C: mov w21, w0
+   main+0xE438A0: ldr x0, [x19, #0x70]
+   main+0xE438A4: bl #0xe4d190
+   main+0xE438A8: mov w22, w0
+   main+0xE438AC: ldr x0, [x19, #0x70]
+   main+0xE438B0: bl #0xe49f60
+   main+0xE438B4: mov w2, w0
+   main+0xE438B8: mov w0, w21
+   main+0xE438BC: mov w1, w22
+   main+0xE438C0: bl #0xe5ce70
+   main+0xE438C4: mov w1, w0
+   main+0xE438C8: mov x8, x20
+   main+0xE438CC: mov x0, x19
+   main+0xE438D0: ldp x20, x19, [sp, #0x20]
+   main+0xE438D4: ldp x22, x21, [sp, #0x10]
+   main+0xE438D8: ldp x29, x30, [sp], #0x30
+   main+0xE438DC: b #0x6a30b0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE438FC,"   main+0xE438D4: ldp x22, x21, [sp, #0x10]
+   main+0xE438D8: ldp x29, x30, [sp], #0x30
+   main+0xE438DC: b #0x6a30b0
+   main+0xE438E0: ldr x0, [x0, #0x70]
+   main+0xE438E4: b #0xe5c890
+   main+0xE438E8: stp x29, x30, [sp, #-0x20]!
+   main+0xE438EC: stp x20, x19, [sp, #0x10]
+   main+0xE438F0: mov x29, sp
+   main+0xE438F4: mov x19, x0
+   main+0xE438F8: ldr x0, [x0, #0x70]
+>> main+0xE438FC: bl #0xe49940
+   main+0xE43900: mov w20, w0
+   main+0xE43904: ldr x0, [x19, #0x70]
+   main+0xE43908: bl #0xe4d190
+   main+0xE4390C: mov w1, w0
+   main+0xE43910: mov w0, w20
+   main+0xE43914: ldp x20, x19, [sp, #0x10]
+   main+0xE43918: ldp x29, x30, [sp], #0x20
+   main+0xE4391C: b #0x83fdb8
+   main+0xE43920: stp x29, x30, [sp, #-0x20]!
+   main+0xE43924: stp x20, x19, [sp, #0x10]
+   main+0xE43928: mov x29, sp
+   main+0xE4392C: mov x19, x0
+   main+0xE43930: ldr x0, [x0, #0x70]
+   main+0xE43934: bl #0xe49940
+   main+0xE43938: mov w20, w0
+   main+0xE4393C: ldr x0, [x19, #0x70]
+   main+0xE43940: bl #0xe4d190",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43934,"   main+0xE4390C: mov w1, w0
+   main+0xE43910: mov w0, w20
+   main+0xE43914: ldp x20, x19, [sp, #0x10]
+   main+0xE43918: ldp x29, x30, [sp], #0x20
+   main+0xE4391C: b #0x83fdb8
+   main+0xE43920: stp x29, x30, [sp, #-0x20]!
+   main+0xE43924: stp x20, x19, [sp, #0x10]
+   main+0xE43928: mov x29, sp
+   main+0xE4392C: mov x19, x0
+   main+0xE43930: ldr x0, [x0, #0x70]
+>> main+0xE43934: bl #0xe49940
+   main+0xE43938: mov w20, w0
+   main+0xE4393C: ldr x0, [x19, #0x70]
+   main+0xE43940: bl #0xe4d190
+   main+0xE43944: mov w1, w0
+   main+0xE43948: mov w0, w20
+   main+0xE4394C: ldp x20, x19, [sp, #0x10]
+   main+0xE43950: ldp x29, x30, [sp], #0x20
+   main+0xE43954: b #0x83fd88
+   main+0xE43958: stp x29, x30, [sp, #-0x30]!
+   main+0xE4395C: str x21, [sp, #0x10]
+   main+0xE43960: stp x20, x19, [sp, #0x20]
+   main+0xE43964: mov x29, sp
+   main+0xE43968: mov w19, w1
+   main+0xE4396C: mov x20, x0
+   main+0xE43970: bl #0x3f0784
+   main+0xE43974: ldrb w8, [x0, #0x380]
+   main+0xE43978: cbnz w8, #0xe43988",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE439C4,"   main+0xE4399C: ldr x0, [x20, #0x70]
+   main+0xE439A0: bl #0xe4cf80
+   main+0xE439A4: and w8, w0, #0xff
+   main+0xE439A8: cmp w8, w19, uxtb
+   main+0xE439AC: b.ne #0xe439c0
+   main+0xE439B0: ldp x20, x19, [sp, #0x20]
+   main+0xE439B4: ldr x21, [sp, #0x10]
+   main+0xE439B8: ldp x29, x30, [sp], #0x30
+   main+0xE439BC: ret 
+   main+0xE439C0: ldr x0, [x20, #0x70]
+>> main+0xE439C4: bl #0xe49940
+   main+0xE439C8: mov w21, w0
+   main+0xE439CC: ldr x0, [x20, #0x70]
+   main+0xE439D0: bl #0xe4d190
+   main+0xE439D4: mov w1, w0
+   main+0xE439D8: mov w0, w21
+   main+0xE439DC: bl #0x83fd88
+   main+0xE439E0: and w8, w19, #0xff
+   main+0xE439E4: cmp w8, #1
+   main+0xE439E8: b.eq #0xe43a28
+   main+0xE439EC: cbnz w8, #0xe43a3c
+   main+0xE439F0: and w8, w0, #0xfe
+   main+0xE439F4: cmp w8, #2
+   main+0xE439F8: b.ne #0xe43a4c
+   main+0xE439FC: b #0xe439b0
+   main+0xE43A00: ldr x0, [x20, #0x70]
+   main+0xE43A04: bl #0xe4c950
+   main+0xE43A08: mov w21, w0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43C18,"   main+0xE43BF0: stp x22, x21, [sp, #0x10]
+   main+0xE43BF4: stp x20, x19, [sp, #0x20]
+   main+0xE43BF8: mov x29, sp
+   main+0xE43BFC: mov x19, x0
+   main+0xE43C00: ldr x0, [x0, #0x70]
+   main+0xE43C04: bl #0xe4a3c0
+   main+0xE43C08: and w8, w0, #0xffff
+   main+0xE43C0C: cmp w8, #0x12b
+   main+0xE43C10: b.lo #0xe43c68
+   main+0xE43C14: ldr x0, [x19, #0x70]
+>> main+0xE43C18: bl #0xe49940
+   main+0xE43C1C: mov w20, w0
+   main+0xE43C20: ldr x0, [x19, #0x70]
+   main+0xE43C24: bl #0xe4d190
+   main+0xE43C28: mov w21, w0
+   main+0xE43C2C: ldr x0, [x19, #0x70]
+   main+0xE43C30: bl #0xe4d7c0
+   main+0xE43C34: mov w22, w0
+   main+0xE43C38: ldr x0, [x19, #0x70]
+   main+0xE43C3C: bl #0xe4d9d0
+   main+0xE43C40: and w8, w22, #1
+   main+0xE43C44: tst w0, #1
+   main+0xE43C48: mov w0, w20
+   main+0xE43C4C: mov w1, w21
+   main+0xE43C50: ldp x20, x19, [sp, #0x20]
+   main+0xE43C54: ldp x22, x21, [sp, #0x10]
+   main+0xE43C58: mov w9, #2
+   main+0xE43C5C: csel w2, w9, w8, ne",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43D2C,"   main+0xE43D04: mov x0, x20
+   main+0xE43D08: bl #0x409db0
+   main+0xE43D0C: mov x20, x0
+   main+0xE43D10: ldr x0, [x19, #0x70]
+   main+0xE43D14: mov x1, x20
+   main+0xE43D18: bl #0xe57570
+   main+0xE43D1C: ldr x0, [x19, #0x70]
+   main+0xE43D20: mov w1, #1
+   main+0xE43D24: bl #0xe55e10
+   main+0xE43D28: ldr x0, [x19, #0x70]
+>> main+0xE43D2C: bl #0xe49940
+   main+0xE43D30: mov w21, w0
+   main+0xE43D34: ldr x0, [x19, #0x70]
+   main+0xE43D38: bl #0xe4a7e0
+   main+0xE43D3C: mov w2, w0
+   main+0xE43D40: add x0, sp, #6
+   main+0xE43D44: mov w1, w21
+   main+0xE43D48: bl #0xe33ca0
+   main+0xE43D4C: add x1, sp, #6
+   main+0xE43D50: mov x0, x20
+   main+0xE43D54: bl #0x10363a0
+   main+0xE43D58: tbz w0, #0, #0xe43d68
+   main+0xE43D5C: ldr x0, [x19, #0x70]
+   main+0xE43D60: mov w1, wzr
+   main+0xE43D64: bl #0xe55e10
+   main+0xE43D68: ldp x20, x19, [sp, #0x40]
+   main+0xE43D6C: ldr x21, [sp, #0x30]
+   main+0xE43D70: ldp x29, x30, [sp, #0x20]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE43DA0,"   main+0xE43D78: ret 
+   main+0xE43D7C: sub sp, sp, #0x60
+   main+0xE43D80: stp x29, x30, [sp, #0x40]
+   main+0xE43D84: stp x20, x19, [sp, #0x50]
+   main+0xE43D88: add x29, sp, #0x40
+   main+0xE43D8C: mov x19, x0
+   main+0xE43D90: ldr x0, [x0, #0x70]
+   main+0xE43D94: strh wzr, [sp, #0x20]
+   main+0xE43D98: stp xzr, xzr, [sp, #0x10]
+   main+0xE43D9C: str xzr, [sp, #8]
+>> main+0xE43DA0: bl #0xe49940
+   main+0xE43DA4: mov w20, w0
+   main+0xE43DA8: bl #0x3f0784
+   main+0xE43DAC: ldrb w2, [x0, #0x378]
+   main+0xE43DB0: sub x0, x29, #0x1a
+   main+0xE43DB4: mov w1, w20
+   main+0xE43DB8: bl #0xe33ca0
+   main+0xE43DBC: ldr x0, [x19, #0x70]
+   main+0xE43DC0: mov w2, #0xd
+   main+0xE43DC4: add x1, sp, #8
+   main+0xE43DC8: bl #0xe4e040
+   main+0xE43DCC: add x0, sp, #8
+   main+0xE43DD0: sub x1, x29, #0x1a
+   main+0xE43DD4: bl #0x10363a0
+   main+0xE43DD8: ldp x20, x19, [sp, #0x50]
+   main+0xE43DDC: and w0, w0, #1
+   main+0xE43DE0: ldp x29, x30, [sp, #0x40]
+   main+0xE43DE4: add sp, sp, #0x60",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44A54,"   main+0xE44A2C: stp x29, x30, [sp, #-0x60]!
+   main+0xE44A30: str x27, [sp, #0x10]
+   main+0xE44A34: stp x26, x25, [sp, #0x20]
+   main+0xE44A38: stp x24, x23, [sp, #0x30]
+   main+0xE44A3C: stp x22, x21, [sp, #0x40]
+   main+0xE44A40: stp x20, x19, [sp, #0x50]
+   main+0xE44A44: mov x29, sp
+   main+0xE44A48: mov x20, x0
+   main+0xE44A4C: ldr x0, [x0, #0x70]
+   main+0xE44A50: mov x19, x1
+>> main+0xE44A54: bl #0xe49940
+   main+0xE44A58: mov w21, w0
+   main+0xE44A5C: ldr x0, [x20, #0x70]
+   main+0xE44A60: bl #0xe4d190
+   main+0xE44A64: mov w22, w0
+   main+0xE44A68: mov w0, w21
+   main+0xE44A6C: mov w1, w22
+   main+0xE44A70: bl #0xe340dc
+   main+0xE44A74: mov w23, w0
+   main+0xE44A78: mov w0, w21
+   main+0xE44A7C: mov w1, w22
+   main+0xE44A80: bl #0xe3410c
+   main+0xE44A84: mov w24, w0
+   main+0xE44A88: ldr x0, [x19, #0x70]
+   main+0xE44A8C: bl #0xe49940
+   main+0xE44A90: mov w21, w0
+   main+0xE44A94: ldr x0, [x19, #0x70]
+   main+0xE44A98: bl #0xe4d190",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44A8C,"   main+0xE44A64: mov w22, w0
+   main+0xE44A68: mov w0, w21
+   main+0xE44A6C: mov w1, w22
+   main+0xE44A70: bl #0xe340dc
+   main+0xE44A74: mov w23, w0
+   main+0xE44A78: mov w0, w21
+   main+0xE44A7C: mov w1, w22
+   main+0xE44A80: bl #0xe3410c
+   main+0xE44A84: mov w24, w0
+   main+0xE44A88: ldr x0, [x19, #0x70]
+>> main+0xE44A8C: bl #0xe49940
+   main+0xE44A90: mov w21, w0
+   main+0xE44A94: ldr x0, [x19, #0x70]
+   main+0xE44A98: bl #0xe4d190
+   main+0xE44A9C: mov w22, w0
+   main+0xE44AA0: mov w0, w21
+   main+0xE44AA4: mov w1, w22
+   main+0xE44AA8: bl #0xe340dc
+   main+0xE44AAC: mov w25, w0
+   main+0xE44AB0: mov w0, w21
+   main+0xE44AB4: mov w1, w22
+   main+0xE44AB8: bl #0xe3410c
+   main+0xE44ABC: mov w26, w0
+   main+0xE44AC0: ldr x0, [x20, #0x70]
+   main+0xE44AC4: bl #0xe49940
+   main+0xE44AC8: mov w21, w0
+   main+0xE44ACC: ldr x0, [x19, #0x70]
+   main+0xE44AD0: bl #0xe49940",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44AC4,"   main+0xE44A9C: mov w22, w0
+   main+0xE44AA0: mov w0, w21
+   main+0xE44AA4: mov w1, w22
+   main+0xE44AA8: bl #0xe340dc
+   main+0xE44AAC: mov w25, w0
+   main+0xE44AB0: mov w0, w21
+   main+0xE44AB4: mov w1, w22
+   main+0xE44AB8: bl #0xe3410c
+   main+0xE44ABC: mov w26, w0
+   main+0xE44AC0: ldr x0, [x20, #0x70]
+>> main+0xE44AC4: bl #0xe49940
+   main+0xE44AC8: mov w21, w0
+   main+0xE44ACC: ldr x0, [x19, #0x70]
+   main+0xE44AD0: bl #0xe49940
+   main+0xE44AD4: mov w22, w0
+   main+0xE44AD8: ldr x0, [x20, #0x70]
+   main+0xE44ADC: bl #0xe4cf80
+   main+0xE44AE0: mov w27, w0
+   main+0xE44AE4: ldr x0, [x19, #0x70]
+   main+0xE44AE8: bl #0xe4cf80
+   main+0xE44AEC: mov w5, w0
+   main+0xE44AF0: mov w0, w21
+   main+0xE44AF4: mov w1, w27
+   main+0xE44AF8: mov w2, w23
+   main+0xE44AFC: mov w3, w24
+   main+0xE44B00: mov w4, w22
+   main+0xE44B04: mov w6, w25
+   main+0xE44B08: mov w7, w26",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44AD0,"   main+0xE44AA8: bl #0xe340dc
+   main+0xE44AAC: mov w25, w0
+   main+0xE44AB0: mov w0, w21
+   main+0xE44AB4: mov w1, w22
+   main+0xE44AB8: bl #0xe3410c
+   main+0xE44ABC: mov w26, w0
+   main+0xE44AC0: ldr x0, [x20, #0x70]
+   main+0xE44AC4: bl #0xe49940
+   main+0xE44AC8: mov w21, w0
+   main+0xE44ACC: ldr x0, [x19, #0x70]
+>> main+0xE44AD0: bl #0xe49940
+   main+0xE44AD4: mov w22, w0
+   main+0xE44AD8: ldr x0, [x20, #0x70]
+   main+0xE44ADC: bl #0xe4cf80
+   main+0xE44AE0: mov w27, w0
+   main+0xE44AE4: ldr x0, [x19, #0x70]
+   main+0xE44AE8: bl #0xe4cf80
+   main+0xE44AEC: mov w5, w0
+   main+0xE44AF0: mov w0, w21
+   main+0xE44AF4: mov w1, w27
+   main+0xE44AF8: mov w2, w23
+   main+0xE44AFC: mov w3, w24
+   main+0xE44B00: mov w4, w22
+   main+0xE44B04: mov w6, w25
+   main+0xE44B08: mov w7, w26
+   main+0xE44B0C: bl #0xe5d41c
+   main+0xE44B10: tbz w0, #0, #0xe44b54
+   main+0xE44B14: ldr x0, [x20, #0x70]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44DE8,"   main+0xE44DC0: bl #0xe483b4
+   main+0xE44DC4: tbnz w0, #0, #0xe44de4
+   main+0xE44DC8: ldr x0, [x19, #0x70]
+   main+0xE44DCC: bl #0xe4c950
+   main+0xE44DD0: mov w21, w0
+   main+0xE44DD4: ldr x0, [x19, #0x70]
+   main+0xE44DD8: bl #0xe485f0
+   main+0xE44DDC: tbnz w21, #0, #0xe44ed8
+   main+0xE44DE0: tbnz w0, #0, #0xe44ed8
+   main+0xE44DE4: ldr x0, [x19, #0x70]
+>> main+0xE44DE8: bl #0xe49940
+   main+0xE44DEC: mov w25, w0
+   main+0xE44DF0: ldr x0, [x19, #0x70]
+   main+0xE44DF4: bl #0xe4d190
+   main+0xE44DF8: mov w23, w0
+   main+0xE44DFC: mov w0, w25
+   main+0xE44E00: mov w2, w20
+   main+0xE44E04: mov w1, w23
+   main+0xE44E08: bl #0xe34500
+   main+0xE44E0C: mov w22, w0
+   main+0xE44E10: and w26, w0, #0xffff
+   main+0xE44E14: mov w0, w25
+   main+0xE44E18: mov w1, w23
+   main+0xE44E1C: mov w2, w20
+   main+0xE44E20: bl #0xe34540
+   main+0xE44E24: mov w24, w0
+   main+0xE44E28: mov w0, w25
+   main+0xE44E2C: mov w1, w23",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE44FA0,"   main+0xE44F78: bl #0xe4c950
+   main+0xE44F7C: mov w22, w0
+   main+0xE44F80: ldr x0, [x21, #0x70]
+   main+0xE44F84: bl #0xe485f0
+   main+0xE44F88: orr w8, w22, w0
+   main+0xE44F8C: and w9, w20, #0xffff
+   main+0xE44F90: cmp w9, #0x3f2
+   main+0xE44F94: b.hi #0xe44fdc
+   main+0xE44F98: tbnz w8, #0, #0xe44fdc
+   main+0xE44F9C: ldr x0, [x21, #0x70]
+>> main+0xE44FA0: bl #0xe49940
+   main+0xE44FA4: and w8, w0, #0xffff
+   main+0xE44FA8: cmp w8, w20, uxth
+   main+0xE44FAC: b.eq #0xe44fdc
+   main+0xE44FB0: mov w0, w20
+   main+0xE44FB4: mov w1, w19
+   main+0xE44FB8: bl #0x2901a4
+   main+0xE44FBC: tbz w0, #0, #0xe44fdc
+   main+0xE44FC0: mov x0, x21
+   main+0xE44FC4: mov w1, w20
+   main+0xE44FC8: mov w2, w19
+   main+0xE44FCC: ldp x20, x19, [sp, #0x20]
+   main+0xE44FD0: ldp x22, x21, [sp, #0x10]
+   main+0xE44FD4: ldp x29, x30, [sp], #0x30
+   main+0xE44FD8: b #0xe44fec
+   main+0xE44FDC: ldp x20, x19, [sp, #0x20]
+   main+0xE44FE0: ldp x22, x21, [sp, #0x10]
+   main+0xE44FE4: ldp x29, x30, [sp], #0x30",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE45060,"   main+0xE45038: bl #0xe4c950
+   main+0xE4503C: mov w22, w0
+   main+0xE45040: ldr x0, [x19, #0x70]
+   main+0xE45044: bl #0xe485f0
+   main+0xE45048: orr w8, w22, w0
+   main+0xE4504C: and w9, w21, #0xffff
+   main+0xE45050: cmp w9, #0x3f2
+   main+0xE45054: b.hi #0xe45070
+   main+0xE45058: tbnz w8, #0, #0xe45070
+   main+0xE4505C: ldr x0, [x19, #0x70]
+>> main+0xE45060: bl #0xe49940
+   main+0xE45064: and w8, w0, #0xffff
+   main+0xE45068: cmp w8, w21, uxth
+   main+0xE4506C: b.ne #0xe45080
+   main+0xE45070: ldp x20, x19, [sp, #0x20]
+   main+0xE45074: ldp x22, x21, [sp, #0x10]
+   main+0xE45078: ldp x29, x30, [sp], #0x30
+   main+0xE4507C: ret 
+   main+0xE45080: ldr x0, [x19, #0x70]
+   main+0xE45084: mov w1, w21
+   main+0xE45088: bl #0xe52aa0
+   main+0xE4508C: ldr x0, [x19, #0x70]
+   main+0xE45090: mov w1, w20
+   main+0xE45094: bl #0xe56470
+   main+0xE45098: ldr x0, [x19, #0x70]
+   main+0xE4509C: bl #0xe4cf80
+   main+0xE450A0: mov w2, w0
+   main+0xE450A4: mov w0, w21",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE45108,"   main+0xE450E0: ldp x29, x30, [sp], #0x30
+   main+0xE450E4: b #0xe41750
+   main+0xE450E8: stp x29, x30, [sp, #-0x30]!
+   main+0xE450EC: str x21, [sp, #0x10]
+   main+0xE450F0: stp x20, x19, [sp, #0x20]
+   main+0xE450F4: mov x29, sp
+   main+0xE450F8: mov x19, x0
+   main+0xE450FC: ldr x0, [x0, #0x70]
+   main+0xE45100: mov x20, x2
+   main+0xE45104: mov w21, w1
+>> main+0xE45108: bl #0xe49940
+   main+0xE4510C: and w8, w0, #0xffff
+   main+0xE45110: cmp w8, #0x377
+   main+0xE45114: b.gt #0xe4513c
+   main+0xE45118: cmp w8, #0x1df
+   main+0xE4511C: b.eq #0xe45190
+   main+0xE45120: cmp w8, #0x286
+   main+0xE45124: b.ne #0xe45200
+   main+0xE45128: mov x0, x19
+   main+0xE4512C: mov w1, w21
+   main+0xE45130: mov x2, x20
+   main+0xE45134: bl #0xe45220
+   main+0xE45138: b #0xe45200
+   main+0xE4513C: cmp w8, #0x378
+   main+0xE45140: b.eq #0xe451a0
+   main+0xE45144: cmp w8, #0x379
+   main+0xE45148: b.ne #0xe45200
+   main+0xE4514C: ldr x0, [x19, #0x70]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE45150,"   main+0xE45128: mov x0, x19
+   main+0xE4512C: mov w1, w21
+   main+0xE45130: mov x2, x20
+   main+0xE45134: bl #0xe45220
+   main+0xE45138: b #0xe45200
+   main+0xE4513C: cmp w8, #0x378
+   main+0xE45140: b.eq #0xe451a0
+   main+0xE45144: cmp w8, #0x379
+   main+0xE45148: b.ne #0xe45200
+   main+0xE4514C: ldr x0, [x19, #0x70]
+>> main+0xE45150: bl #0xe49940
+   main+0xE45154: and w8, w0, #0xffff
+   main+0xE45158: cmp w8, #0x379
+   main+0xE4515C: b.ne #0xe45200
+   main+0xE45160: ands w8, w21, #0xffff
+   main+0xE45164: b.eq #0xe451e4
+   main+0xE45168: cmp w8, #1
+   main+0xE4516C: b.ne #0xe45200
+   main+0xE45170: ldr x0, [x19, #0x70]
+   main+0xE45174: bl #0xe49b40
+   main+0xE45178: mov w1, #0x47
+   main+0xE4517C: bl #0xe5d7c8
+   main+0xE45180: tbz w0, #0, #0xe45200
+   main+0xE45184: mov w1, #0x1ba
+   main+0xE45188: mov w2, #0x30e
+   main+0xE4518C: b #0xe451f4
+   main+0xE45190: ldp x20, x19, [sp, #0x20]
+   main+0xE45194: ldr x21, [sp, #0x10]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE451A4,"   main+0xE4517C: bl #0xe5d7c8
+   main+0xE45180: tbz w0, #0, #0xe45200
+   main+0xE45184: mov w1, #0x1ba
+   main+0xE45188: mov w2, #0x30e
+   main+0xE4518C: b #0xe451f4
+   main+0xE45190: ldp x20, x19, [sp, #0x20]
+   main+0xE45194: ldr x21, [sp, #0x10]
+   main+0xE45198: ldp x29, x30, [sp], #0x30
+   main+0xE4519C: ret 
+   main+0xE451A0: ldr x0, [x19, #0x70]
+>> main+0xE451A4: bl #0xe49940
+   main+0xE451A8: and w8, w0, #0xffff
+   main+0xE451AC: cmp w8, #0x378
+   main+0xE451B0: b.ne #0xe45200
+   main+0xE451B4: ands w8, w21, #0xffff
+   main+0xE451B8: b.eq #0xe451ec
+   main+0xE451BC: cmp w8, #1
+   main+0xE451C0: b.ne #0xe45200
+   main+0xE451C4: ldr x0, [x19, #0x70]
+   main+0xE451C8: bl #0xe49b40
+   main+0xE451CC: mov w1, #0x46
+   main+0xE451D0: bl #0xe5d7c8
+   main+0xE451D4: tbz w0, #0, #0xe45200
+   main+0xE451D8: mov w1, #0x1ba
+   main+0xE451DC: mov w2, #0x30d
+   main+0xE451E0: b #0xe451f4
+   main+0xE451E4: mov w1, #0x30e
+   main+0xE451E8: b #0xe451f0",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE457B4,"   main+0xE4578C: ldp x24, x23, [sp, #0x20]
+   main+0xE45790: ldp x29, x30, [sp], #0x50
+   main+0xE45794: ret 
+   main+0xE45798: sub sp, sp, #0x30
+   main+0xE4579C: stp x29, x30, [sp, #0x10]
+   main+0xE457A0: stp x20, x19, [sp, #0x20]
+   main+0xE457A4: add x29, sp, #0x10
+   main+0xE457A8: mov x19, x0
+   main+0xE457AC: ldr x0, [x0, #0x70]
+   main+0xE457B0: mov w20, w1
+>> main+0xE457B4: bl #0xe49940
+   main+0xE457B8: sub x2, x29, #4
+   main+0xE457BC: mov w1, w20
+   main+0xE457C0: bl #0xe5d668
+   main+0xE457C4: tbz w0, #0, #0xe457dc
+   main+0xE457C8: ldurh w0, [x29, #-4]
+   main+0xE457CC: ldp x20, x19, [sp, #0x20]
+   main+0xE457D0: ldp x29, x30, [sp, #0x10]
+   main+0xE457D4: add sp, sp, #0x30
+   main+0xE457D8: ret 
+   main+0xE457DC: ldr x0, [x19, #0x70]
+   main+0xE457E0: bl #0xe4d190
+   main+0xE457E4: ldp x20, x19, [sp, #0x20]
+   main+0xE457E8: ldp x29, x30, [sp, #0x10]
+   main+0xE457EC: add sp, sp, #0x30
+   main+0xE457F0: ret 
+   main+0xE457F4: stp x29, x30, [sp, #-0x20]!
+   main+0xE457F8: stp x20, x19, [sp, #0x10]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE45844,"   main+0xE4581C: ldr x0, [x19, #0x70]
+   main+0xE45820: bl #0xe4c950
+   main+0xE45824: mov w20, w0
+   main+0xE45828: ldr x0, [x19, #0x70]
+   main+0xE4582C: bl #0xe485f0
+   main+0xE45830: mov w8, w0
+   main+0xE45834: mov w0, wzr
+   main+0xE45838: tbnz w20, #0, #0xe458a8
+   main+0xE4583C: tbnz w8, #0, #0xe458a8
+   main+0xE45840: ldr x0, [x19, #0x70]
+>> main+0xE45844: bl #0xe49940
+   main+0xE45848: and w8, w0, #0xffff
+   main+0xE4584C: cmp w8, #0x2d0
+   main+0xE45850: b.eq #0xe45894
+   main+0xE45854: cmp w8, #0x2a4
+   main+0xE45858: b.eq #0xe458b4
+   main+0xE4585C: cmp w8, #0x1ec
+   main+0xE45860: b.ne #0xe458fc
+   main+0xE45864: ldr x0, [x19, #0x70]
+   main+0xE45868: bl #0xe4d190
+   main+0xE4586C: tst w0, #0xffff
+   main+0xE45870: b.eq #0xe458fc
+   main+0xE45874: mov x0, x19
+   main+0xE45878: mov w1, wzr
+   main+0xE4587C: mov x2, xzr
+   main+0xE45880: bl #0xbb8f04
+   main+0xE45884: mov w0, #1
+   main+0xE45888: ldp x20, x19, [sp, #0x10]",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE45E3C,"   main+0xE45E14: ldr x0, [x19, #0x70]
+   main+0xE45E18: bl #0xe4c950
+   main+0xE45E1C: mov w20, w0
+   main+0xE45E20: ldr x0, [x19, #0x70]
+   main+0xE45E24: bl #0xe485f0
+   main+0xE45E28: mov w8, w0
+   main+0xE45E2C: mov w0, wzr
+   main+0xE45E30: tbnz w20, #0, #0xe45ed4
+   main+0xE45E34: tbnz w8, #0, #0xe45ed4
+   main+0xE45E38: ldr x0, [x19, #0x70]
+>> main+0xE45E3C: bl #0xe49940
+   main+0xE45E40: and w8, w0, #0xffff
+   main+0xE45E44: cmp w8, #0x287
+   main+0xE45E48: b.ne #0xe45ed0
+   main+0xE45E4C: ldr x0, [x19, #0x70]
+   main+0xE45E50: bl #0xe4d190
+   main+0xE45E54: and w8, w0, #0xffff
+   main+0xE45E58: cmp w8, #1
+   main+0xE45E5C: b.ne #0xe45ec0
+   main+0xE45E60: ldr x0, [x19, #0x70]
+   main+0xE45E64: mov w1, wzr
+   main+0xE45E68: bl #0xe4b690
+   main+0xE45E6C: and w8, w0, #0xffff
+   main+0xE45E70: cmp w8, #0x224
+   main+0xE45E74: b.eq #0xe45ec0
+   main+0xE45E78: ldr x0, [x19, #0x70]
+   main+0xE45E7C: mov w1, #1
+   main+0xE45E80: bl #0xe4b690",direct_BL_not_shiny_proof
+Species_Get,0xE49940,0xE462E0,"   main+0xE462B8: mov w1, w22
+   main+0xE462BC: bl #0x19454
+   main+0xE462C0: mov w23, w0
+   main+0xE462C4: mov x0, x19
+   main+0xE462C8: mov w1, w22
+   main+0xE462CC: bl #0x194bc
+   main+0xE462D0: mov w24, w0
+   main+0xE462D4: tst w22, #0xff
+   main+0xE462D8: b.ne #0xe46254
+   main+0xE462DC: ldr x0, [x19, #0x70]
+>> main+0xE462E0: bl #0xe49940
+   main+0xE462E4: mov w1, w20
+   main+0xE462E8: mov w2, w21
+   main+0xE462EC: mov w3, w23
+   main+0xE462F0: mov w4, w24
+   main+0xE462F4: bl #0xe5cf20
+   main+0xE462F8: mov w20, w0
+   main+0xE462FC: ldr x0, [x19, #0x70]
+   main+0xE46300: bl #0xe47a14
+   main+0xE46304: and w8, w0, w25
+   main+0xE46308: tbnz w8, #0, #0xe463d4
+   main+0xE4630C: b #0xe463dc
+   main+0xE46310: mov w20, wzr
+   main+0xE46314: ldr x0, [x19, #0x70]
+   main+0xE46318: bl #0xe47a14
+   main+0xE4631C: and w8, w0, w25
+   main+0xE46320: tbnz w8, #0, #0xe463d4
+   main+0xE46324: b #0xe463dc",direct_BL_not_shiny_proof
+IV_Get_HP,0xE4BCF0,0xE4188C,"   main+0xE41864: ldp x22, x21, [sp, #0x20]
+   main+0xE41868: ldp x29, x30, [sp], #0x40
+   main+0xE4186C: ret 
+   main+0xE41870: stp x29, x30, [sp, #-0x40]!
+   main+0xE41874: stp x24, x23, [sp, #0x10]
+   main+0xE41878: stp x22, x21, [sp, #0x20]
+   main+0xE4187C: stp x20, x19, [sp, #0x30]
+   main+0xE41880: mov x29, sp
+   main+0xE41884: mov x19, x0
+   main+0xE41888: ldr x0, [x0, #0x70]
+>> main+0xE4188C: bl #0xe4bcf0
+   main+0xE41890: mov w20, w0
+   main+0xE41894: ldr x0, [x19, #0x70]
+   main+0xE41898: bl #0xe4bf00
+   main+0xE4189C: mov w21, w0
+   main+0xE418A0: ldr x0, [x19, #0x70]
+   main+0xE418A4: bl #0xe4c110
+   main+0xE418A8: mov w22, w0
+   main+0xE418AC: ldr x0, [x19, #0x70]
+   main+0xE418B0: bl #0xe4c740
+   main+0xE418B4: mov w23, w0
+   main+0xE418B8: ldr x0, [x19, #0x70]
+   main+0xE418BC: bl #0xe4c320
+   main+0xE418C0: mov w24, w0
+   main+0xE418C4: ldr x0, [x19, #0x70]
+   main+0xE418C8: bl #0xe4c530
+   main+0xE418CC: mov w5, w0
+   main+0xE418D0: mov w0, w20",direct_BL_not_shiny_proof
+IV_Get_HP,0xE4BCF0,0xE41914,"   main+0xE418EC: ldp x24, x23, [sp, #0x10]
+   main+0xE418F0: ldp x29, x30, [sp], #0x40
+   main+0xE418F4: b #0xe5d388
+   main+0xE418F8: stp x29, x30, [sp, #-0x40]!
+   main+0xE418FC: stp x24, x23, [sp, #0x10]
+   main+0xE41900: stp x22, x21, [sp, #0x20]
+   main+0xE41904: stp x20, x19, [sp, #0x30]
+   main+0xE41908: mov x29, sp
+   main+0xE4190C: mov x19, x0
+   main+0xE41910: ldr x0, [x0, #0x70]
+>> main+0xE41914: bl #0xe4bcf0
+   main+0xE41918: mov w20, w0
+   main+0xE4191C: ldr x0, [x19, #0x70]
+   main+0xE41920: bl #0xe4bf00
+   main+0xE41924: mov w21, w0
+   main+0xE41928: ldr x0, [x19, #0x70]
+   main+0xE4192C: bl #0xe4c110
+   main+0xE41930: mov w22, w0
+   main+0xE41934: ldr x0, [x19, #0x70]
+   main+0xE41938: bl #0xe4c740
+   main+0xE4193C: mov w23, w0
+   main+0xE41940: ldr x0, [x19, #0x70]
+   main+0xE41944: bl #0xe4c320
+   main+0xE41948: mov w24, w0
+   main+0xE4194C: ldr x0, [x19, #0x70]
+   main+0xE41950: bl #0xe4c530
+   main+0xE41954: mov w5, w0
+   main+0xE41958: mov w0, w20",direct_BL_not_shiny_proof
+IV_Get_HP,0xE4BCF0,0xE41D60,"   main+0xE41D38: ldr x0, [x20, #0x70]
+   main+0xE41D3C: bl #0xe4d190
+   main+0xE41D40: mov w1, w0
+   main+0xE41D44: mov w0, w22
+   main+0xE41D48: bl #0xe33df4
+   main+0xE41D4C: mov w22, w0
+   main+0xE41D50: ldr x0, [x20, #0x70]
+   main+0xE41D54: bl #0xe5b6b0
+   main+0xE41D58: tbnz w0, #0, #0xe41d6c
+   main+0xE41D5C: ldr x0, [x20, #0x70]
+>> main+0xE41D60: bl #0xe4bcf0
+   main+0xE41D64: mov w23, w0
+   main+0xE41D68: b #0xe41d70
+   main+0xE41D6C: mov w23, #0x1f
+   main+0xE41D70: ldr x0, [x20, #0x70]
+   main+0xE41D74: bl #0xe4aa30
+   main+0xE41D78: mov w4, w0
+   main+0xE41D7C: and w2, w22, #0xff
+   main+0xE41D80: mov w0, w19
+   main+0xE41D84: mov w1, w21
+   main+0xE41D88: ldp x20, x19, [sp, #0x30]
+   main+0xE41D8C: mov w3, w23
+   main+0xE41D90: ldp x22, x21, [sp, #0x20]
+   main+0xE41D94: ldr x23, [sp, #0x10]
+   main+0xE41D98: ldp x29, x30, [sp], #0x40
+   main+0xE41D9C: b #0xe5cf20
+   main+0xE41DA0: stp x29, x30, [sp, #-0x40]!
+   main+0xE41DA4: str x23, [sp, #0x10]",direct_BL_not_shiny_proof
+Personal_Load,0xE380C0,0xE359CC,"   main+0xE359A4: stp x29, x30, [sp, #0x60]
+   main+0xE359A8: stp x28, x27, [sp, #0x70]
+   main+0xE359AC: stp x26, x25, [sp, #0x80]
+   main+0xE359B0: stp x24, x23, [sp, #0x90]
+   main+0xE359B4: stp x22, x21, [sp, #0xa0]
+   main+0xE359B8: stp x20, x19, [sp, #0xb0]
+   main+0xE359BC: add x29, sp, #0x60
+   main+0xE359C0: add x8, sp, #0x10
+   main+0xE359C4: mov w19, w1
+   main+0xE359C8: mov x21, x0
+>> main+0xE359CC: bl #0xe380c0
+   main+0xE359D0: add x0, x21, #0x10
+   main+0xE359D4: strb wzr, [x21, #0x88]
+   main+0xE359D8: tbz w19, #0, #0xe35a58
+   main+0xE359DC: ldr x2, [x21, #8]
+   main+0xE359E0: add x8, sp, #8
+   main+0xE359E4: add x1, sp, #0x10
+   main+0xE359E8: bl #0x2e4cc
+   main+0xE359EC: adrp x8, #0x3ec2000
+   main+0xE359F0: ldr x20, [sp, #8]
+   main+0xE359F4: sub x0, x29, #0x20
+   main+0xE359F8: ldr x8, [x8, #0xfb0]
+   main+0xE359FC: sub x2, x29, #0x10
+   main+0xE35A00: ldr w9, [x8, #0xc0]
+   main+0xE35A04: dmb ishld
+   main+0xE35A08: ldr x1, [x20, #8]
+   main+0xE35A0C: cmp w9, #0
+   main+0xE35A10: csel x8, xzr, x8, eq",direct_BL_not_shiny_proof
