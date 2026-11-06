@@ -30,9 +30,14 @@ KNOWN = {
     "nature_set": 0xE56690,
     "form_set": 0xE56470,
     "ability_set": 0xE535B0,
+    "shiny_xor_check": 0xE5D1E8,
+    "pid_anti_shiny_if_needed_a": 0xE5D200,
+    "pid_anti_shiny_if_needed_b": 0xE5D2B0,
+    "pid_shiny_adjust_candidate": 0xE5D21C,
 }
 WRITERS = {"pid_set", "species_set", "tid_sid_set", "experience_set",
-           "nature_set", "form_set", "ability_set"}
+           "nature_set", "form_set", "ability_set",
+           "pid_anti_shiny_if_needed_a", "pid_anti_shiny_if_needed_b"}
 KEYS = {"pid_set", "species_set", "tid_sid_set", "experience_set"}
 
 def sign(v,bits):
@@ -87,9 +92,10 @@ def windows(entries,span=0x800,limit=60):
             if row["caller_pc"]-first["caller_pc"]>span:break
             group.append(row)
         names={x["target_kind"] for x in group}
-        if "pid_set" not in names and len(names & KEYS)<3:continue
+        if "pid_set" not in names and len(names & KEYS)<3 and not any(n.startswith("pid_anti_shiny_if_needed") for n in names):continue
         weighted=(25 if "pid_set" in names else 0)+(15 if "species_set" in names else 0)+\
             (12 if "tid_sid_set" in names else 0)+(10 if "experience_set" in names else 0)+\
+            (32 if any(n.startswith("pid_anti_shiny_if_needed") for n in names) else 0)+\
             3*len(names & WRITERS)+min(len(group),12)
         groups.append({"range_start":first["caller_pc"],"range_end":group[-1]["caller_pc"],
                        "score":weighted,"target_kinds":sorted(names),
