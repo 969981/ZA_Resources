@@ -35,7 +35,18 @@ wild_btl_data_global.bin 是确实存在的另一份独立原始 FlatBuffers。�
 
 已静态证实：trigger Command 53 关联到上表 Field 0 具体记录。未从游戏实现确认 Field 1/9/14 的正式业务语义。
 
-需要继续证实：id_sub119_01 如何关联到遭遇表 sub_119_diancie、id_sub120_01 如何关联到 sub_120_mewtwo；以及由哪一个原生函数实例化 Pokémon。
+**新完成的原生 Spawner 交叉引用：** 已使用 [Trace-ZA-EX-Spawner.py](../../../scripts/Trace-ZA-EX-Spawner.py) 在 Actions 上直接解析 1,401,772 字节的 pokemon_spawner_data_array.bin（SHA256：611a5bb7e6d97e21494070cfc933d994021503f8f9b3d0591481082fce269e09），共 13 个数据库、2,211 个 Spawner 条目。
+
+| Spawner DB / Row | Spawner.Id | EncountDataInfoList[0].EncountDataId | 其它关联 |
+|---|---|---|---|
+| DB[11]/Row[37] | id_sub119_01 | sub_119_diancie | sub_119_melecie_01、sub_119_melecie_02 |
+| DB[11]/Row[38] | id_sub120_01 | sub_120_mewtwo | 无 |
+
+其原始值：蒂安希 + 两只小碎钻三个 EncountDataInfo 的 Weight=100、MaxCount=1、AdditionalLevel=0；超梦一条的 Weight=100、MaxCount=1、AdditionalLevel=0。Weight 是**原始权重字段**，未在本次证明是独立概率百分比。
+
+**CONFIRMED / STATIC：** trigger 的 Command 53 → wild battle 表的 Battle.Id → Battle.Field1 中的 Spawner.Id → Spawner.Encounters[].EncountDataId → EncountData 目标已经逐表精确连通，**不再依赖名称前缀猜测**。
+
+**仍 UNKNOWN：** 战斗运行时是否实际走这些配置、原生实例生成函数与 PID/异色转换。结构化可检查的结果：[Spawner 交叉引用 JSON](za-ex1-ex2-spawner-crosswalk.json)。
 
 ## 三、已确认的数据层 Shiny 配置
 
@@ -76,7 +87,7 @@ wild_btl_data_global.bin 是确实存在的另一份独立原始 FlatBuffers。�
 
 ## 五、下一层真正要解决的研究问题
 
-1. **跨表引用**：查找两个 id_sub... 条目的资源消费者，证明战斗对象到具体 encounter Id 的真实指针链/名称映射，而不根据命名直接推断。
+1. **跨表引用（已完成静态核对）**：已在 spawner 原生 FlatBuffers 中用两个精确 ID 得到真实 EncountDataId；下一步需要追原生运行时代码消费这两组引用。
 2. **字段来源追踪**：跟踪 EncountData.Rare 的原生解码读取点，特别是高位标志 (bit 28..29 等) 的位域提取及相关分支。
 3. **生成过程**：由实例生成函数追踪 Pokémon PID、随机种子、TID/SID、异色判定、保护性改写，以及最终对象落盘。
 4. **运行时确证**：在具备本版本 NSO Build ID 的测试环境，记录 PC、LR、指针、Rare 值、PID 前后、是否触发分支，并用随机异色和固定异色条目做对照。
@@ -97,6 +108,6 @@ python scripts/Trace-ZA-Rare-Candidates.py
 
 ## 七、证据等级
 
-- CONFIRMED（静态）：原始 Rare 值、pkNX Never/Always/Random 映射、两条 Battle 记录、ELF SHA、5 个直接常量位点的实际反汇编。
+- CONFIRMED（静态）：原始 Rare 值、pkNX Never/Always/Random 映射、两条 Battle 记录、两条 Spawner→Encounter 精确记录、ELF SHA、5 个直接常量位点的实际反汇编。
 - CANDIDATE：未来对数据结构消费函数和高位提取指令的交叉引用路径。
-- UNKNOWN：游戏本体实际 Rare 消费者、EX1/EX2 触发到实例生成器的完整调用图、最终 PID/锁闪分支、已验证的 main+offset。
+- UNKNOWN：游戏本体实际 Rare 消费者、EX1/EX2 战斗资源经原生函数到实例生成器的完整运行时调用图、最终 PID/锁闪分支、已验证的 main+offset。
