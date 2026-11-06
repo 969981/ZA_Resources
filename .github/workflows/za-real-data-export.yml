@@ -5,10 +5,12 @@ on:
       - docs/za-v2.0.2-obsidian-extraction
     paths:
       - scripts/Export-ZA-Databases.py
+      - scripts/Join-ZA-EncounterData.py
       - .github/workflows/za-real-data-export.yml
   pull_request:
     paths:
       - scripts/Export-ZA-Databases.py
+      - scripts/Join-ZA-EncounterData.py
       - .github/workflows/za-real-data-export.yml
   workflow_dispatch:
 permissions:
@@ -24,6 +26,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/Export-ZA-Databases.py
+            /scripts/Join-ZA-EncounterData.py
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/encount_data_array.*
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.*
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/pokemon_data/pokemon_data/pokemon_data_array.*
@@ -54,6 +57,12 @@ jobs:
         run: |
           set -euo pipefail
           python -u scripts/Export-ZA-Databases.py --repo . --out .za-work/za-data --workers 4 --samples 3 --csv-max-rows 50000 --require-all
+      - name: Build normalized linked CSVs and verify encounter foreign keys
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/Join-ZA-EncounterData.py
+          python -u scripts/Join-ZA-EncounterData.py --input .za-work/za-data
       - name: Report per table statuses
         if: always()
         shell: bash
