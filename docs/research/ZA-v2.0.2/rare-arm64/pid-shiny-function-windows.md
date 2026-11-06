@@ -143,7 +143,7 @@ main+0xE46188: ldr x21, [sp, #0x10]
 main+0xE4618C: ldp x20, x19, [sp, #0x20]
 ~~~
 
-## PID_TID_shiny_math_helpers  main+0xE5D1E8..0xE5D2BC
+## PID_TID_shiny_math_helpers  main+0xE5D1E8..0xE5D2D0
 
 ~~~asm
 main+0xE5D1E8: eor w8, w1, w0
@@ -199,6 +199,85 @@ main+0xE5D2AC: ret
 main+0xE5D2B0: eor w8, w1, w0
 main+0xE5D2B4: and w9, w8, #0xfff0
 main+0xE5D2B8: eor w8, w9, w8, lsr #16
+main+0xE5D2BC: eor w9, w1, #0x10000000
+main+0xE5D2C0: cmp w8, #0x10
+main+0xE5D2C4: csel w0, w9, w1, lo
+main+0xE5D2C8: ret 
+main+0xE5D2CC: stp x29, x30, [sp, #-0x20]!
+~~~
+
+## PID_shiny_mode_setter  main+0xE46024..0xE46138
+
+~~~asm
+main+0xE46024: stp x29, x30, [sp, #-0x40]!
+main+0xE46028: str x23, [sp, #0x10]
+main+0xE4602C: stp x22, x21, [sp, #0x20]
+main+0xE46030: stp x20, x19, [sp, #0x30]
+main+0xE46034: mov x29, sp
+main+0xE46038: mov w20, w1
+main+0xE4603C: mov x19, x0
+main+0xE46040: bl #0x3f0784
+main+0xE46044: ldrb w8, [x0, #0x380]
+main+0xE46048: cbnz w8, #0xe46058
+main+0xE4604C: ldr x0, [x19, #0x70]
+main+0xE46050: bl #0xe483b4
+main+0xE46054: tbz w0, #0, #0xe4610c
+main+0xE46058: mov w8, wzr
+main+0xE4605C: and w9, w20, #0xff
+main+0xE46060: cmp w9, #2
+main+0xE46064: b.hi #0xe460b8
+main+0xE46068: tbnz w8, #0, #0xe460b8
+main+0xE4606C: ldr x0, [x19, #0x70]
+main+0xE46070: bl #0xe49d50
+main+0xE46074: mov w21, w0
+main+0xE46078: ldr x0, [x19, #0x70]
+main+0xE4607C: bl #0xe4dbe0
+main+0xE46080: mov w22, w0
+main+0xE46084: ldr x0, [x19, #0x70]
+main+0xE46088: bl #0xe4e2a0
+main+0xE4608C: mov w23, w0
+main+0xE46090: ldr x0, [x19, #0x70]
+main+0xE46094: bl #0xe4cd70
+main+0xE46098: and w3, w0, #1
+main+0xE4609C: mov w0, w21
+main+0xE460A0: mov w1, w22
+main+0xE460A4: mov w2, w23
+main+0xE460A8: bl #0xe5d244
+main+0xE460AC: and w8, w0, #0xff
+main+0xE460B0: cmp w8, w20, uxtb
+main+0xE460B4: b.ne #0xe460cc
+main+0xE460B8: ldp x20, x19, [sp, #0x30]
+main+0xE460BC: ldr x23, [sp, #0x10]
+main+0xE460C0: ldp x22, x21, [sp, #0x20]
+main+0xE460C4: ldp x29, x30, [sp], #0x40
+main+0xE460C8: ret 
+main+0xE460CC: ldr x0, [x19, #0x70]
+main+0xE460D0: bl #0xe49d50
+main+0xE460D4: mov w21, w0
+main+0xE460D8: ldr x0, [x19, #0x70]
+main+0xE460DC: bl #0xe4dbe0
+main+0xE460E0: mov w1, w0
+main+0xE460E4: mov w0, w21
+main+0xE460E8: mov w2, w20
+main+0xE460EC: bl #0xe5d284
+main+0xE460F0: mov w1, w0
+main+0xE460F4: ldr x0, [x19, #0x70]
+main+0xE460F8: ldr x23, [sp, #0x10]
+main+0xE460FC: ldp x20, x19, [sp, #0x30]
+main+0xE46100: ldp x22, x21, [sp, #0x20]
+main+0xE46104: ldp x29, x30, [sp], #0x40
+main+0xE46108: b #0xe57350
+main+0xE4610C: ldr x0, [x19, #0x70]
+main+0xE46110: bl #0xe4c950
+main+0xE46114: mov w21, w0
+main+0xE46118: ldr x0, [x19, #0x70]
+main+0xE4611C: bl #0xe485f0
+main+0xE46120: orr w8, w21, w0
+main+0xE46124: and w9, w20, #0xff
+main+0xE46128: cmp w9, #2
+main+0xE4612C: b.ls #0xe46068
+main+0xE46130: b #0xe460b8
+main+0xE46134: stp x29, x30, [sp, #-0x30]!
 ~~~
 
 ## PID_creation_setter_context  main+0xE3EB20..0xE3EC30

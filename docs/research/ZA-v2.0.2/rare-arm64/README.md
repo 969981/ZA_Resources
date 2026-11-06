@@ -21,6 +21,12 @@
 | Species_Get main+0xE49940 | 75 |
 | IV_Get_HP main+0xE4BCF0 | 3 |
 | Personal_Load main+0xE380C0 | 1 |
+| Shiny_CheckCandidate main+0xE5D1E8 | 1 |
+| Shiny_ModeClassifierCandidate main+0xE5D244 | 1 |
+| Shiny_ModeSetterCandidate main+0xE46024 | 0 |
+| Shiny_ModeCheckCandidate main+0xE45F7C | 0 |
+| PID_ToShinyCandidate main+0xE5D21C | 1 |
+| PID_ModeAdjustCandidate main+0xE5D284 | 1 |
 
 ## ARM64 B 尾调用与高位测试
 
