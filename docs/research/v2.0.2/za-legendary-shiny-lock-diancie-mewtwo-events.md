@@ -108,7 +108,7 @@ flowchart TD
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J
 ```
 
-图中的 **箭头是按阶段值推测的流程顺序**，不是在本次静态文件内重建的完整 Lua 控制流；战斗 ID 到具体遭遇条目的映射也需要用战斗表/运行时进一步闭合。
+图中的 **箭头是按阶段值推测的流程顺序**，不是在本次静态文件内重建的完整 Lua 控制流；战斗表→Spawner→遭遇配置的精确静态映射现已通过真实原生数据闭合；**但战斗实际执行与实例生成的运行时调用路径尚待验证**。
 
 ### 3.3 遭遇表证据
 
@@ -120,7 +120,7 @@ flowchart TD
 | DB[1] / row[70] | `sub_119_melecie_01` | 703（小碎钻） | 66—66 | `0x1FFFFFFF` |
 | DB[1] / row[71] | `sub_119_melecie_02` | 703（小碎钻） | 66—66 | `0x1FFFFFFF` |
 
-这支持「蒂安希与两只小碎钻一起参与事件战斗」的静态资源关联。注意 `sub_119_diancie` **只是遭遇数据 ID**；要证明脚本实际从这个索引实例化宝可梦，仍要追 `btl_sub_119` 的战斗数据引用。
+这支持「蒂安希与两只小碎钻一起参与事件战斗」的静态资源关联。注意 `sub_119_diancie` **只是遭遇数据 ID**；现已在实际战斗数据中找到 `btl_sub_119` → `id_sub119_01`，并在原生 Spawner 表中找到 `id_sub119_01` → `sub_119_diancie` 的精确字段引用。实例生成函数的真实调用路径仍需逆向。
 
 ## 4. 超梦：EX2《Project M》
 
@@ -168,7 +168,7 @@ Rare_raw_uint32: 536870911
 Rare_raw_hex: 0x1FFFFFFF
 ```
 
-同一事件触发器和遭遇数据 ID 使用了 `sub_120` 命名体系。这是很强的静态关联，但 **不能跳过战斗 ID → 战斗定义 → 实例生成器** 的进一步验证。
+同一事件触发器和遭遇数据 ID 使用了 `sub_120` 命名体系。这是很强的静态关联，但 **战斗 ID → 战斗定义 → Spawner → 遭遇数据的静态链已核实，仍不可跳过 Spawner → 实例生成器的运行时验证** 的进一步验证。
 
 ## 5. 如何有证据地判定神兽「锁闪」？
 
@@ -249,7 +249,7 @@ result_shiny, result_species, result_level, save_readback
 |---|---|---|
 | **EX1 任务** | `sub_0119 / 1001 / SYS_WORK_QUEST_119`，完整 8 条触发器 | 寻找 Mystery Gift→任务启用条件与 `Ev_sub_119_*` Lua |
 | **EX2 任务** | `sub_0120 / 1002 / SYS_WORK_QUEST_120`，完整 4 条触发器 | 寻找 Mystery Gift→任务启用条件与 `Ev_sub_120_*` Lua |
-| **关联遭遇** | Diancie 719/70、Mewtwo 150/70，含各自 `Rare=Shiny.Never` 静态映射 | `btl_sub_119/120` → EncountData 实例化引用 |
+| **关联遭遇** | Diancie 719/70、Mewtwo 150/70，`Rare=Shiny.Never`；战斗名经 Spawner 精确关联对应 EncountData | Spawner → 原生实例生成器的动态调用证据 |
 | **锁闪机制** | 原始 FlatBuffers `Rare` 已核对为 pkNX 的 `Shiny.Never / Always / Random` 编码；全表三类计数与原始偏移验证 | 游戏 ARM64 生成器具体处理方式、函数调用链、对照运行时判定 |
 
 > [!warning] 请勿做过度结论
@@ -274,3 +274,14 @@ result_shiny, result_species, result_level, save_readback
 实际解析 `ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin`，已找到 `btl_sub_119` 和 `btl_sub_120` 的战斗记录、对象 ID 和事件名。v2.0.2 主程序 ELF 经 SHA-256 核验后扫描出 5 处完整 `0x1FFFFFFF` 立即数，Capstone 反汇编显示均有独立的计算用途，**不能当作 Rare 消费或锁闪分支**。详见 [原生锁闪静态审计](za-rare-arm64-runtime-chain-audit.md) 与 [5 处实际反汇编](za-rare-arm64-exact-sites.md)。
 
 事件战斗到 `EncountData` 的引用链，以及实际 PID/锁闪判断仍未验证。**不提供虚构的 `main+offset`。**
+
+## 10. Spawner 交叉引用真实验证（2026-11-06）
+
+已通过 [跨表解析脚本](../../../scripts/Trace-ZA-EX-Spawner.py) 读取 1,401,772 字节的 `pokemon_spawner_data_array.bin`，共 13 组数据库、2,211 条 Spawner 记录（2 项合成测试和真实文件读取通过）。
+
+| 来源战斗 | Battle.Field1 | Spawner DB / Row | Spawner.Encounters[].EncountDataId |
+|---|---|---|---|
+| `btl_sub_119` | `id_sub119_01` | 11 / 37 | `sub_119_diancie`、`sub_119_melecie_01`、`sub_119_melecie_02` |
+| `btl_sub_120` | `id_sub120_01` | 11 / 38 | `sub_120_mewtwo` |
+
+两条完全一致的源 ID 通过原生字段真实关联，不是字符串前缀推断；详见 [原始交叉引用 JSON](za-ex1-ex2-spawner-crosswalk.json) 与 [ARM64 静态研究审计](za-rare-arm64-runtime-chain-audit.md)。**配置链已经闭合，游戏原生实例生成器、PID 处理以及实际锁闪执行地址仍为 UNKNOWN。**
