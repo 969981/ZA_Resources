@@ -222,6 +222,76 @@ def parse_personal(data: bytes):
     return personal, learnsets
 
 
+
+TYPE_ZH = ("一般", "格斗", "飞行", "毒", "地面", "岩石", "虫", "幽灵", "钢",
+           "火", "水", "草", "电", "超能力", "冰", "龙", "恶", "妖精")
+CATEGORY_ZH = ("变化", "物理", "特殊")
+
+
+def parse_moves(data: bytes, names):
+    """Read indexed waza_array FlatBuffers table, with multi-move calibrated fields.
+
+    0:u16 moveId, 2:u8 type, 4:u8 category, 5:u8 power,
+    6:u8 accuracy, 7:u8 PP. Remaining fields stay raw/uninterpreted.
+    """
+    root = u32(data, 0)
+    vt = root - i32(data, root)
+    if u16(data, vt) < 6:
+        raise ValueError("invalid waza root")
+    first = root + u16(data, vt + 4)
+    vector = first + u32(data, first)
+    n = u32(data, vector)
+    if n != 902:
+        raise ValueError(f"Unexpected move table length: {n}")
+    check(data, vector + 4, n * 4)
+    rows, raw_rows, ids = [], [], set()
+    for i in range(n):
+        ptr = vector + 4 + 4 * i
+        table = ptr + u32(data, ptr)
+        vtable = table - i32(data, table)
+        vsize, objsize = u16(data, vtable), u16(data, vtable + 2)
+        if vsize < 6 or vsize > 160 or objsize > 256:
+            raise ValueError(f"invalid waza table at row {i}")
+        check(data, table, objsize)
+        def field(number):
+            at = 4 + number * 2
+            if at + 2 > vsize:
+                return None
+            offset = u16(data, vtable + at)
+            return table + offset if offset else None
+        def value(num, width=1):
+            pos = field(num)
+            if pos is None:
+                return 0
+            return u16(data, pos) if width == 2 else u8(data, pos)
+
+        move_id = value(0, 2)
+        type_id, category, power, accuracy, pp = (
+            value(2), value(4), value(5), value(6), value(7))
+        if move_id in ids:
+            raise ValueError("duplicate move ID " + str(move_id))
+        ids.add(move_id)
+        if (not 0 <= type_id < len(TYPE_ZH) or not 0 <= category < len(CATEGORY_ZH)
+                or not 0 <= power <= 255 or not 0 <= accuracy <= 101 or
+                pp not in (1, 5, 10, 15, 20, 25, 30, 35, 40)):
+            raise ValueError(f"invalid move metadata fields: {move_id}")
+        rows.append((move_id, names.get(move_id, ""), type_id, TYPE_ZH[type_id],
+                     category, CATEGORY_ZH[category], power, accuracy,
+                     "special_value_101" if accuracy == 101 else "raw_integer",
+                     pp, i, table, "MULTI_MOVE_CALIBRATED_FIELD_INDICES"))
+        fields = {}
+        for f in range((vsize - 4) // 2):
+            pos = field(f)
+            if pos is not None:
+                fields[str(f)] = {"objectOffset": pos - table,
+                                  "rawBytes4": data[pos:min(pos+4, table+objsize)].hex()}
+        raw_rows.append((i, move_id, table, json.dumps(fields, ensure_ascii=False,
+                                                         separators=(",", ":"))))
+    if len(ids) != 902 or 920 not in ids or 901 in ids:
+        raise ValueError("move id set does not match 2.0.2")
+    return rows, raw_rows
+
+
 def export(repo: Path, output: Path):
     langroot = repo / VIRTUAL / "ik_message/dat/Simp_Chinese/common"
     manifest = {"version": "ZA 2.0.2", "language": "Simp_Chinese", "inputs": {},
@@ -269,6 +339,21 @@ def export(repo: Path, output: Path):
               ["speciesId", "speciesZh", "formNo", "personalPresent", "entryIndex",
                "moveId", "moveZh", "learnLevelRaw", "unlockLevelRaw", "learnCategory"],
               joined)
+    raw_waza = (repo / VIRTUAL / "avalon/data/waza_array.bin").read_bytes()
+    stats, move_fields = parse_moves(raw_waza, moves)
+    write_csv(output / "battle/ZA_move_stats_zh.csv",
+              ["moveId", "moveZh", "typeId", "typeZh", "categoryId", "categoryZh",
+               "powerRaw", "accuracyRaw", "accuracyKind", "ppRaw", "recordIndex",
+               "binaryTableOffset", "interpretationEvidence"], stats)
+    write_csv(output / "battle/ZA_move_fields_raw.csv",
+              ["recordIndex", "moveId", "binaryTableOffset", "presentFieldsJson"],
+              move_fields)
+    manifest["inputs"]["waza_array"] = {
+        "source": str((repo / VIRTUAL / "avalon/data/waza_array.bin").relative_to(repo)),
+        "sha256": sha(raw_waza), "totalBytes": len(raw_waza),
+        "moveRecords": len(stats), "distinctMoveIds": len(move_fields),
+        "fieldSemantics": "calibrated by independent known moves, not full schema"
+    }
     manifest["inputs"]["personal_array"] = {
         "source": str((repo / VIRTUAL / "avalon/data/personal_array.bin").relative_to(repo)),
         "sha256": sha(raw), "totalBytes": len(raw), "rows": len(personal),
@@ -276,7 +361,8 @@ def export(repo: Path, output: Path):
         "distinctPresentSpecies": len({r[1] for r in personal if r[3]}),
         "learnsetEntries": len(learnsets),
     }
-    manifest["outputs"] = {"speciesTranslated": len(species), "moveTranslated": len(moves),
+    manifest["outputs"] = {"moveStatsRows": len(stats), "moveRawFieldRows": len(move_fields),
+                           "speciesTranslated": len(species), "moveTranslated": len(moves),
                            "levelupMoves": len(joined),
                            "learnLevel253": sum(x[7] == 253 for x in joined),
                            "learnLevel254": sum(x[7] == 254 for x in joined)}
@@ -285,7 +371,7 @@ def export(repo: Path, output: Path):
     out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"status": "SUCCESS", "personalRows": len(personal),
                       "presentForms": manifest["inputs"]["personal_array"]["presentForms"],
-                      "learnsetRows": len(joined), "nameCount": len(species),
+                      "learnsetRows": len(joined), "moveStatRows": len(stats), "nameCount": len(species),
                       "moveNameCount": len(moves), "placeNames": len(decoded["place_name"]),
                       "commentsA": len(decoded["zukan_comment_A"]),
                       "commentsB": len(decoded["zukan_comment_B"])}, ensure_ascii=False))
