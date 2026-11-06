@@ -9,7 +9,10 @@ ELF = ROM / 'exefs/main/main.elf'
 MANIFEST = ROM / 'exefs/exefs-manifest.json'
 SCHEMA = ROM / 'romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/encount_data_array.bfbs'
 FUNCTIONS = {'PID_Get': 0xE4DBE0, 'PID_Set': 0xE57350, 'TID_Get': 0xE49D50,
-             'Species_Get': 0xE49940, 'IV_Get_HP': 0xE4BCF0, 'Personal_Load': 0xE380C0}
+             'Species_Get': 0xE49940, 'IV_Get_HP': 0xE4BCF0, 'Personal_Load': 0xE380C0,
+             'Shiny_CheckCandidate': 0xE5D1E8, 'Shiny_ModeClassifierCandidate': 0xE5D244,
+             'Shiny_ModeSetterCandidate': 0xE46024, 'Shiny_ModeCheckCandidate': 0xE45F7C,
+             'PID_ToShinyCandidate': 0xE5D21C, 'PID_ModeAdjustCandidate': 0xE5D284}
 
 def sha(path):
     h = hashlib.sha256()
@@ -124,7 +127,8 @@ def main():
          for pc,bit in ranked_tests[:250]])
     windows=[
        ('PID_TID_check_neighborhood',0xE45F70,0xE46190),
-       ('PID_TID_shiny_math_helpers',0xE5D1E8,0xE5D2BC),
+       ('PID_TID_shiny_math_helpers',0xE5D1E8,0xE5D2D0),
+       ('PID_shiny_mode_setter',0xE46024,0xE46138),
        ('PID_creation_setter_context',0xE3EB20,0xE3EC30),
        ('PID_setter_entry',0xE57350,0xE57434),
     ]
