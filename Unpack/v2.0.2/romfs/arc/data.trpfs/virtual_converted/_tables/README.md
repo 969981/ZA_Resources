@@ -64,7 +64,7 @@
 
 ## 原生中文名称、Personal 学习表与 Rare 研究
 
-> 下列 11 张扩展 CSV 在本工作流的下一步由 Export-ZA-CoreDex.py 与 Audit-ZA-Rare.py 追加生成，不属于上面的 31 张 BFBS/EXL 原始 CSV。
+> 下列 13 张扩展 CSV 在本工作流的下一步由 Export-ZA-CoreDex.py 与 Audit-ZA-Rare.py 追加生成，不属于上面的 31 张 BFBS/EXL 原始 CSV。
 
 - [简体中文宝可梦名称](names/ZA_species_names_zh.csv) — 1,026 条
 - [简体中文招式名称](names/ZA_move_names_zh.csv) — 921 条
@@ -72,6 +72,8 @@
 - [中文区域标签](names/ZA_place_names_zh.csv) — 284 条
 - [原生 Personal 物种/形态](pokedex/ZA_personal_species_forms.csv) — 1,445 条
 - [完整原生招式学习表（中文）](battle/ZA_levelup_learnsets_zh.csv) — 20,234 条
+- [原生招式主表（威力/命中/PP/属性）](battle/ZA_move_stats_zh.csv) — 902 条
+- [原生招式未知字段偏移审计](battle/ZA_move_fields_raw.csv) — 902 条
 - [中文招式描述](battle/ZA_move_descriptions_zh.csv)
 - [中文图鉴文字 A](pokedex/ZA_pokedex_comment_A_zh.csv) — 1,466 条
 - [中文图鉴文字 B](pokedex/ZA_pokedex_comment_B_zh.csv) — 1,412 条
@@ -80,7 +82,7 @@
 - [原始文本/Personal 数据 SHA-256](_audit/ZA_core_dex_manifest.json)
 - [Rare 字段分布验证](_audit/ZA_rare_static_summary.json)
 
-以上中文名称直接来自 ZA v2.0.2 的 Simp_Chinese 消息资源；Personal 学习向量来自 avalon/data/personal_array.bin。图鉴 EXL 的业务排序与运行时锁闪仍未验证。
+以上中文名称直接来自 ZA v2.0.2 的 Simp_Chinese 消息资源；Personal 学习向量来自 avalon/data/personal_array.bin，招式主表来自 avalon/data/waza_array.bin。图鉴 EXL 的业务排序与运行时锁闪仍未验证。
 
 - [362+2 个 Personal 可用物种 Obsidian 索引](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/docs/obsidian/ZA-v2.0.2/22-宝可梦数据档案索引.md)
 
