@@ -7,16 +7,18 @@ on:
       - scripts/Export-ZA-Databases.py
       - scripts/Join-ZA-EncounterData.py
       - scripts/Probe-ZA-RawEXL.py
+      - scripts/Publish-ZA-CSV.py
       - .github/workflows/za-real-data-export.yml
   pull_request:
     paths:
       - scripts/Export-ZA-Databases.py
       - scripts/Join-ZA-EncounterData.py
       - scripts/Probe-ZA-RawEXL.py
+      - scripts/Publish-ZA-CSV.py
       - .github/workflows/za-real-data-export.yml
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -30,6 +32,8 @@ jobs:
             /scripts/Export-ZA-Databases.py
             /scripts/Join-ZA-EncounterData.py
             /scripts/Probe-ZA-RawEXL.py
+            /scripts/Publish-ZA-CSV.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/**
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/pokedex_contents_data/pokedex_contents_data/pokedex_contents_data.bin
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/pokedex_sp_distribution_data/pokedex_sp_distribution_data/pokedex_sp_distribution_data.bin
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/item_data/item_data/item_data.bin
@@ -76,6 +80,23 @@ jobs:
           set -euo pipefail
           python -m py_compile scripts/Probe-ZA-RawEXL.py
           python -u scripts/Probe-ZA-RawEXL.py --repo . --out .za-work/za-data --require-all
+      - name: Organize CSV into matching repository data folders
+        if: github.event_name == 'push' && github.ref == 'refs/heads/docs/za-v2.0.2-obsidian-extraction'
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/Publish-ZA-CSV.py
+          python -u scripts/Publish-ZA-CSV.py --repo . --input .za-work/za-data --preview-rows 100
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -f -- Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then
+            git commit -m "data(za): publish v2.0.2 parsed CSVs into category folders"
+            git push origin HEAD:refs/heads/docs/za-v2.0.2-obsidian-extraction
+          else
+            echo "No CSV changes to publish"
+          fi
       - name: Report per table statuses
         if: always()
         shell: bash
