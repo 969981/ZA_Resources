@@ -60,11 +60,13 @@ def main():
         if calls["source_sha256"] != actual:
             raise SystemExit("PID callsite report SHA mismatch")
         wanted={"shiny_xor_check","pid_anti_shiny_if_needed_a",
-                "pid_shiny_adjust_candidate","pid_set"}
+                "pid_shiny_adjust_candidate","pid_set", "native_pid_shiny_mode_generator"}
         rows=[x for x in calls["direct_refs"]
               if x["target_kind"] in wanted
               and (0x55BD00 <= int(x["caller_pc"],16) < 0x55BE10
-                   or 0x657000 <= int(x["caller_pc"],16) < 0x657220)]
+                   or 0x657000 <= int(x["caller_pc"],16) < 0x657220
+                   or 0x656200 <= int(x["caller_pc"],16) < 0x6562C0
+                   or 0xE3EB00 <= int(x["caller_pc"],16) < 0xE3EC00)]
         sites=[{"pc":x["caller_pc"],"instruction":x["instruction"],
                 "file_offset":x["file_offset"],"operation":x["opcode"],
                 "immediate":"to "+x["target_kind"]+" ("+x["target_pc"]+")"} for x in rows]
