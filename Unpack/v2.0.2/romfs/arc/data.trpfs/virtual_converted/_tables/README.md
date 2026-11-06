@@ -8,6 +8,12 @@
 > **不能根据原始值推断锁闪、固定个体或游戏内部 ID 的真实语义**。
 > 部分区域关联是命名推断；遇到无法匹配的坐标不能视为原资源不存在。
 
+## 详细阅读指南
+
+- [完整 Obsidian 目录](https://github.com/969981/ZA_Resources/tree/docs/za-v2.0.2-obsidian-extraction/docs/obsidian/ZA-v2.0.2)
+- [CSV 使用总指南](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/docs/obsidian/ZA-v2.0.2/12-CSV%E9%98%85%E8%AF%BB%E6%80%BB%E6%8C%87%E5%8D%97.md)
+- [字段与关联解读](https://github.com/969981/ZA_Resources/blob/docs/za-v2.0.2-obsidian-extraction/docs/obsidian/ZA-v2.0.2/14-%E7%94%9F%E6%88%90%E5%99%A8%E5%88%B7%E6%96%B0%E4%B8%8E%E5%9D%90%E6%A0%87.md)
+
 ## 按类别查看
 
 ### 遭遇、生成器与宝可梦场景配置 — encounters/
