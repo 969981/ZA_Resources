@@ -47,6 +47,123 @@
     },
     "all_matching_instruction_count": 346,
     "candidate_groups_count": 74,
+    "exact_never_instruction_sites": [
+      {
+        "pc": "0xE28C54",
+        "file_offset": "0xE2969C",
+        "instruction": "0x12007129",
+        "operation": "AND",
+        "registers": [
+          9,
+          9
+        ],
+        "width": 32,
+        "immediate": "0x1FFFFFFF",
+        "nearby_branches": [
+          {
+            "pc": "0xE28C3C",
+            "kind": "B.cond",
+            "target": "0xE295D0"
+          },
+          {
+            "pc": "0xE28C4C",
+            "kind": "B.cond",
+            "target": "0xE28C90"
+          },
+          {
+            "pc": "0xE28C64",
+            "kind": "B.cond",
+            "target": "0xE28CF4"
+          },
+          {
+            "pc": "0xE28C68",
+            "kind": "B",
+            "target": "0xE29528"
+          }
+        ]
+      },
+      {
+        "pc": "0xE28CE0",
+        "file_offset": "0xE29728",
+        "instruction": "0x12007129",
+        "operation": "AND",
+        "registers": [
+          9,
+          9
+        ],
+        "width": 32,
+        "immediate": "0x1FFFFFFF",
+        "nearby_branches": [
+          {
+            "pc": "0xE28CC0",
+            "kind": "B.cond",
+            "target": "0xE295A4"
+          },
+          {
+            "pc": "0xE28CF0",
+            "kind": "B.cond",
+            "target": "0xE29528"
+          }
+        ]
+      },
+      {
+        "pc": "0x1F01278",
+        "file_offset": "0x1F01CC0",
+        "instruction": "0x1200714A",
+        "operation": "AND",
+        "registers": [
+          10,
+          10
+        ],
+        "width": 32,
+        "immediate": "0x1FFFFFFF",
+        "nearby_branches": [
+          {
+            "pc": "0x1F01290",
+            "kind": "CBZ/CBNZ",
+            "target": "0x1F012E0"
+          }
+        ]
+      },
+      {
+        "pc": "0x2E36644",
+        "file_offset": "0x2E3708C",
+        "instruction": "0x1200713C",
+        "operation": "AND",
+        "registers": [
+          9,
+          28
+        ],
+        "width": 32,
+        "immediate": "0x1FFFFFFF",
+        "nearby_branches": [
+          {
+            "pc": "0x2E3662C",
+            "kind": "B.cond",
+            "target": "0x2E369EC"
+          }
+        ]
+      },
+      {
+        "pc": "0x2E3672C",
+        "file_offset": "0x2E37174",
+        "instruction": "0x1200711C",
+        "operation": "AND",
+        "registers": [
+          8,
+          28
+        ],
+        "width": 32,
+        "immediate": "0x1FFFFFFF",
+        "nearby_branches": [
+          {
+            "pc": "0x2E3673C",
+            "kind": "CBZ/CBNZ",
+            "target": "0x2E36774"
+          }
+        ]
+      }
+    ],
     "ranked_groups": [
       {
         "first_pc": "0x2163FA8",
