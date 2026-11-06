@@ -1,0 +1,4 @@
+instruction_pc	instruction_file_offset	evidence	target_va	target_string	instruction_gap	notes
+0x2D304E0	0x2D30F28	ADRP_ADD_DIRECT	0x31CF646	net_topmenu_trade_10_06	1	next_pc=0x2D304E4
+0x2D315B4	0x2D31FFC	ADRP_ADD_DIRECT	0x31DA20E	net_topmenu_trade_10_07	1	next_pc=0x2D315B8
+0x2DC4154	0x2DC4B9C	ADRP_ADD_DIRECT	0x3252D03	static const char *boost::detail::ctti<(anonymous namespace)::CommandCancelTrade>::n() [T = (anonymous namespace)::CommandCancelTrade]	1	next_pc=0x2DC4158
