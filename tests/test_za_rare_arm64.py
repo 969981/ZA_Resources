@@ -21,6 +21,10 @@ class RareArm64Tests(unittest.TestCase):
         word = 0x32000000 | (29 << 10) | (4 << 5) | 3
         self.assertEqual(scan.logical_imm(word), (32, 0x3FFFFFFF, "ORR", 3, 4))
 
+    def test_anti_shiny_eor_opcode(self):
+        # Observed opcode shape: EOR W9, W1, #0x10000000.
+        self.assertEqual(scan.logical_imm(0x52040029), (32, 0x10000000, "EOR", 9, 1))
+
     def test_invalid_mask(self):
         self.assertIsNone(scan.logical_imm(0xD503201F))  # NOP
         self.assertIsNone(scan.logical_imm(0xFFFFFFFF))
