@@ -662,3 +662,13 @@ updated: 2026-11-06
 - [535 条按类型排序的 CSV](data/za-v2.0.2-items-grouped.csv)
 - [[za-items-real-data-audit|道具实测与 Mega 石/宝珠对比]]
 - [[za-trade-native-candidates|联机交易原生静态证据]]
+
+
+## 自动重现分组
+
+~~~bash
+python scripts/Export-ZA-Items.py --repo . --version v2.0.2 --output .za-work/items
+python scripts/Group-ZA-ItemData.py --input .za-work/items/za-v2.0.2-items-all-fields.csv --output .za-work/items
+~~~
+
+对应 [导出脚本](../../../scripts/Group-ZA-ItemData.py) 和 [成功 CI](https://github.com/969981/ZA_Resources/actions/runs/42222265189)。该脚本对 v2.0.2 检验 535 条、12 个组合，保留重复中文名和实际 Item ID。
