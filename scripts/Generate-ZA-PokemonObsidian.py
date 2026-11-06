@@ -86,6 +86,7 @@ def generate(repo, output):
                    for r in read(data / "names/ZA_place_names_zh.csv")}
     zone_key_by_id = {r["zoneID"]: r["placeNameKey"] for r in read(data / "maps/ZA_zones.csv")}
     native_learnsets = read(data / "battle/ZA_levelup_learnsets_zh.csv")
+    move_stats = {r["moveId"]: r for r in read(data / "battle/ZA_move_stats_zh.csv")}
     personal_rows = read(data / "pokedex/ZA_personal_species_forms.csv")
     comments_a = read(data / "pokedex/ZA_pokedex_comment_A_zh.csv")
     comments_b = read(data / "pokedex/ZA_pokedex_comment_B_zh.csv")
@@ -203,11 +204,19 @@ def generate(repo, output):
             "## 原生 Personal：完整的招式学习向量", "",
             "来自 avalon/data/personal_array.bin 的 FlatBuffers field 25；"
             "moveId、learnLevelRaw、unlockLevelRaw 均直接从 ROM 解码。"
+            "属性/类别/威力/命中/PP 来自另一张 waza_array.bin，按 moveId 关联；"
+            "命中 101 是特殊编码，不能当作 101%。"
             "253/254 为特殊编码，不是普通等级；present=1 表示此形态可用标志。", "",
         ]
         table(out, ["formNo", "present", "moveId", "招式中文",
-                    "学习等级原值", "解锁等级原值", "类别"],
+                    "属性", "物理/特殊/变化", "威力", "命中原值", "PP",
+                    "学习等级原值", "解锁等级原值", "学习类型"],
               [[r["formNo"], r["personalPresent"], r["moveId"], r["moveZh"],
+                move_stats.get(r["moveId"], {}).get("typeZh", "未查到"),
+                move_stats.get(r["moveId"], {}).get("categoryZh", "未查到"),
+                move_stats.get(r["moveId"], {}).get("powerRaw", ""),
+                move_stats.get(r["moveId"], {}).get("accuracyRaw", ""),
+                move_stats.get(r["moveId"], {}).get("ppRaw", ""),
                 r["learnLevelRaw"], r["unlockLevelRaw"], r["learnCategory"]]
                for r in native_moves])
         out += [
@@ -269,6 +278,7 @@ def generate(repo, output):
             "- 原始变换：world/ik_data/field/spawner_transform_data/pokemon_spawner_transform/pokemon_spawner_transform_array.bin",
             "- 物种汉字名称、图鉴正式成员、升级习得招式、技能威力、"
             "最终 IV、PID 和锁闪机制仍需对应 schema/运行时证据。",
+            "- 完整学习表字段及招式威力/命中/PP：[[30-招式主表威力命中与PP实测]]；",
             "- 完整数据和哈希：[[18-导出复现与验收]]；"
             "可信度边界：[[20-字段缺省值与证据级别]]。", "",
         ]
