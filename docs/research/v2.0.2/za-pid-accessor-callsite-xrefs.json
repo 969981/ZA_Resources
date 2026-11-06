@@ -59,6 +59,10 @@
     {
       "label": "pid_shiny_adjust_candidate",
       "target_elf_va": "0xE5D21C"
+    },
+    {
+      "label": "native_pid_shiny_mode_generator",
+      "target_elf_va": "0x656F80"
     }
   ],
   "direct_refs": [
@@ -229,6 +233,14 @@
       "target_pc": "0xE57350",
       "target_kind": "pid_set",
       "instruction": "0x1423ED5F"
+    },
+    {
+      "caller_pc": "0x656298",
+      "file_offset": "0x656CE0",
+      "opcode": "BL",
+      "target_pc": "0x656F80",
+      "target_kind": "native_pid_shiny_mode_generator",
+      "instruction": "0x9400033A"
     },
     {
       "caller_pc": "0x657124",
@@ -453,6 +465,14 @@
       "target_pc": "0xE49940",
       "target_kind": "species_get",
       "instruction": "0x94057620"
+    },
+    {
+      "caller_pc": "0xE3EB64",
+      "file_offset": "0xE3F5AC",
+      "opcode": "BL",
+      "target_pc": "0x656F80",
+      "target_kind": "native_pid_shiny_mode_generator",
+      "instruction": "0x97E06107"
     },
     {
       "caller_pc": "0xE3EB9C",
@@ -1262,6 +1282,7 @@
     "shiny_xor_check": 4,
     "pid_anti_shiny_if_needed_a": 2,
     "pid_set": 4,
+    "native_pid_shiny_mode_generator": 2,
     "pid_shiny_adjust_candidate": 2,
     "tid_sid_set": 2,
     "form_set": 3,
