@@ -22,3 +22,8 @@ No internal Trinity field maps have been independently validated in this documen
 
 - [Z-A 神兽锁闪证据链与蒂安希 EX1／超梦 EX2 的任务、触发器、遭遇数据](za-legendary-shiny-lock-diancie-mewtwo-events.md) — 已直接解析 v2.0.2 的 `sub_quest.bin`、`trigger_sub_0119.bin`、`trigger_sub_0120.bin` 和遭遇表；锁闪运行时指令仍待验证。
 - [本次 FlatBuffers 原始解析证据 JSON](za-ex1-ex2-flatbuffers-evidence.json) — 任务 ID、8+4 条触发记录、战斗标识及遭遇数据原值。
+
+## Rare 原生 ARM64 静态审计
+
+- [v2.0.2 神兽锁闪运行时代码静态审计](za-rare-arm64-runtime-chain-audit.md) — battle 数据中间层、ELF SHA、5 个精确掩码位点的反汇编与误报分析（原生执行链未闭合）。
+- [Rare ARM64 全部候选 JSON](za-rare-arm64-static-candidates.json) / [5 处原生反汇编](za-rare-arm64-exact-sites.md) — 静态位置，非已确认的运行时 main+offset。
