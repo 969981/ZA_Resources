@@ -4,7 +4,7 @@
 
 - main.elf SHA-256: 470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d
 - Exact scanner site count: 6
-- Instruction window: 0x120 bytes before and 0x120 bytes after.
+- Instruction window: 0x280 bytes before and 0x120 bytes after.
 - To confirm: trace operand register origin and TID/PID xor logic in the same function; verify runtime via GDB, not just opcode shape.
 
 ## Static PC 0x55BD9C (word 0x94240513)
@@ -13,6 +13,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x55BB1C: ldxr     w12, [x11] ; 6c7d5f88
+   0x55BB20: sub      w13, w12, #0x400 ; 8d011051
+   0x55BB24: stlxr    w14, w13, [x11] ; 6dfd0e88
+   0x55BB28: cbnz     w14, #0x55bb1c ; aeffff35
+   0x55BB2C: and      w11, w12, #0xfffffc00 ; 8b551612
+   0x55BB30: cmp      w11, #0x400 ; 7f011071
+   0x55BB34: b.ne     #0x55b6a4 ; 81dbff54
+   0x55BB38: and      x8, x8, #0x3fc ; 081d7e92
+   0x55BB3C: orr      x8, x8, x9, lsl #10 ; 082909aa
+   0x55BB40: orr      x8, x8, x10, lsl #42 ; 08a90aaa
+   0x55BB44: lsr      x1, x8, #2 ; 01fd42d3
+   0x55BB48: bl       #0x95a40 ; bee7ec97
+   0x55BB4C: b        #0x55b6a4 ; d6feff17
+   0x55BB50: cmp      x10, #1 ; 5f0500f1
+   0x55BB54: b.ne     #0x55b50c ; c1cdff54
+   0x55BB58: cmp      w8, #1 ; 1f050071
+   0x55BB5C: b.ne     #0x55bb90 ; a1010054
+   0x55BB60: ldr      x0, [x20] ; 800240f9
+   0x55BB64: cbnz     x0, #0x55b504 ; 00cdffb5
+   0x55BB68: stp      xzr, xzr, [sp, #8] ; ffff00a9
+   0x55BB6C: mov      w8, #1 ; 28008052
+   0x55BB70: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x55BB74: adrp     x9, #0x3cee000 ; 89bc01f0
+   0x55BB78: add      x9, x9, #0x50 ; 29410191
+   0x55BB7C: add      x0, x29, #0x1f ; a07f0091
+   0x55BB80: ldr      x8, [x9, w8, uxtw #3] ; 285968f8
+   0x55BB84: mov      x1, x20 ; e10314aa
+   0x55BB88: blr      x8 ; 00013fd6
+   0x55BB8C: b        #0x55bb9c ; 04000014
+   0x55BB90: bl       #0x3707f0 ; 1853f897
+   0x55BB94: cmn      w8, #1 ; 1f050031
+   0x55BB98: b.ne     #0x55bb74 ; e1feff54
+   0x55BB9C: ldur     q0, [sp, #8] ; e083c03c
+   0x55BBA0: str      wzr, [x19, #0x7e0] ; 7fe207b9
+   0x55BBA4: ldr      x8, [sp, #0x18] ; e80f40f9
+   0x55BBA8: str      x8, [x20, #0x10] ; 880a00f9
+   0x55BBAC: str      q0, [x20] ; 8002803d
+   0x55BBB0: b        #0x55b520 ; 5cfeff17
+   0x55BBB4: stp      x29, x30, [sp, #-0x20]! ; fd7bbea9
+   0x55BBB8: str      x19, [sp, #0x10] ; f30b00f9
+   0x55BBBC: mov      x29, sp ; fd030091
+   0x55BBC0: mov      x19, x0 ; f30300aa
+   0x55BBC4: bl       #0xc23760 ; e71e1b94
+   0x55BBC8: add      x0, x19, #0x70 ; 60c20191
+   0x55BBCC: bl       #0x8282c8 ; bf310b94
+   0x55BBD0: ldr      x8, [x19, #0xa8] ; 685640f9
+   0x55BBD4: str      x8, [x19, #0xb0] ; 685a00f9
+   0x55BBD8: ldr      x19, [sp, #0x10] ; f30b40f9
+   0x55BBDC: ldp      x29, x30, [sp], #0x20 ; fd7bc2a8
+   0x55BBE0: ret       ; c0035fd6
+   0x55BBE4: adrp     x8, #0x610f000 ; a8dd0290
+   0x55BBE8: add      x8, x8, #0x800 ; 08012091
+   0x55BBEC: ldr      w8, [x8, #0x200] ; 080142b9
+   0x55BBF0: dmb      ishld ; bf3903d5
+   0x55BBF4: cbz      w8, #0x55bc2c ; c8010034
+   0x55BBF8: sub      sp, sp, #0x20 ; ff8300d1
+   0x55BBFC: stp      x29, x30, [sp, #0x10] ; fd7b01a9
+   0x55BC00: add      x29, sp, #0x10 ; fd430091
+   0x55BC04: add      x0, sp, #4 ; e0130091
+   0x55BC08: bl       #0x82383c ; 0d1f0b94
+   0x55BC0C: mov      w8, #0xb ; 68018052
+   0x55BC10: adrp     x0, #0x3ec3000 ; 40cb0190
+   0x55BC14: str      w8, [sp, #4] ; e80700b9
+   0x55BC18: add      x1, sp, #4 ; e1130091
+   0x55BC1C: ldr      x0, [x0, #0x7c8] ; 00e443f9
+   0x55BC20: bl       #0x827f2c ; c3300b94
+   0x55BC24: ldp      x29, x30, [sp, #0x10] ; fd7b41a9
+   0x55BC28: add      sp, sp, #0x20 ; ff830091
+   0x55BC2C: ret       ; c0035fd6
+   0x55BC30: stp      x29, x30, [sp, #-0x30]! ; fd7bbda9
+   0x55BC34: str      x21, [sp, #0x10] ; f50b00f9
+   0x55BC38: stp      x20, x19, [sp, #0x20] ; f44f02a9
+   0x55BC3C: mov      x29, sp ; fd030091
+   0x55BC40: adrp     x8, #0x3ec5000 ; 48cb01d0
+   0x55BC44: mov      w20, w1 ; f403012a
+   0x55BC48: ldr      x8, [x8, #0xaa8] ; 085545f9
+   0x55BC4C: mov      x19, x0 ; f30300aa
+   0x55BC50: ldr      w8, [x8, #0x80] ; 088140b9
+   0x55BC54: dmb      ishld ; bf3903d5
+   0x55BC58: cbz      w8, #0x55bc8c ; a8010034
+   0x55BC5C: add      x8, x29, #0x18 ; a8630091
+   0x55BC60: bl       #0x61eb84 ; c90b0394
+   0x55BC64: ldr      x21, [x29, #0x18] ; b50f40f9
+   0x55BC68: cbz      x21, #0x55bc84 ; f50000b4
+   0x55BC6C: adrp     x0, #0x6128000 ; 60de02b0
+   0x55BC70: add      x0, x0, #0xf00 ; 00003c91
+   0x55BC74: bl       #0xd0a7d0 ; d7ba1e94
+   0x55BC78: and      w8, w0, #0xffff ; 083c0012
    0x55BC7C: ucvtf    d0, w8 ; 0001631e
    0x55BC80: str      d0, [x21, #0x40] ; a02200fd
    0x55BC84: add      x0, x29, #0x18 ; a0630091
@@ -166,6 +254,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x55BB40: orr      x8, x8, x10, lsl #42 ; 08a90aaa
+   0x55BB44: lsr      x1, x8, #2 ; 01fd42d3
+   0x55BB48: bl       #0x95a40 ; bee7ec97
+   0x55BB4C: b        #0x55b6a4 ; d6feff17
+   0x55BB50: cmp      x10, #1 ; 5f0500f1
+   0x55BB54: b.ne     #0x55b50c ; c1cdff54
+   0x55BB58: cmp      w8, #1 ; 1f050071
+   0x55BB5C: b.ne     #0x55bb90 ; a1010054
+   0x55BB60: ldr      x0, [x20] ; 800240f9
+   0x55BB64: cbnz     x0, #0x55b504 ; 00cdffb5
+   0x55BB68: stp      xzr, xzr, [sp, #8] ; ffff00a9
+   0x55BB6C: mov      w8, #1 ; 28008052
+   0x55BB70: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x55BB74: adrp     x9, #0x3cee000 ; 89bc01f0
+   0x55BB78: add      x9, x9, #0x50 ; 29410191
+   0x55BB7C: add      x0, x29, #0x1f ; a07f0091
+   0x55BB80: ldr      x8, [x9, w8, uxtw #3] ; 285968f8
+   0x55BB84: mov      x1, x20 ; e10314aa
+   0x55BB88: blr      x8 ; 00013fd6
+   0x55BB8C: b        #0x55bb9c ; 04000014
+   0x55BB90: bl       #0x3707f0 ; 1853f897
+   0x55BB94: cmn      w8, #1 ; 1f050031
+   0x55BB98: b.ne     #0x55bb74 ; e1feff54
+   0x55BB9C: ldur     q0, [sp, #8] ; e083c03c
+   0x55BBA0: str      wzr, [x19, #0x7e0] ; 7fe207b9
+   0x55BBA4: ldr      x8, [sp, #0x18] ; e80f40f9
+   0x55BBA8: str      x8, [x20, #0x10] ; 880a00f9
+   0x55BBAC: str      q0, [x20] ; 8002803d
+   0x55BBB0: b        #0x55b520 ; 5cfeff17
+   0x55BBB4: stp      x29, x30, [sp, #-0x20]! ; fd7bbea9
+   0x55BBB8: str      x19, [sp, #0x10] ; f30b00f9
+   0x55BBBC: mov      x29, sp ; fd030091
+   0x55BBC0: mov      x19, x0 ; f30300aa
+   0x55BBC4: bl       #0xc23760 ; e71e1b94
+   0x55BBC8: add      x0, x19, #0x70 ; 60c20191
+   0x55BBCC: bl       #0x8282c8 ; bf310b94
+   0x55BBD0: ldr      x8, [x19, #0xa8] ; 685640f9
+   0x55BBD4: str      x8, [x19, #0xb0] ; 685a00f9
+   0x55BBD8: ldr      x19, [sp, #0x10] ; f30b40f9
+   0x55BBDC: ldp      x29, x30, [sp], #0x20 ; fd7bc2a8
+   0x55BBE0: ret       ; c0035fd6
+   0x55BBE4: adrp     x8, #0x610f000 ; a8dd0290
+   0x55BBE8: add      x8, x8, #0x800 ; 08012091
+   0x55BBEC: ldr      w8, [x8, #0x200] ; 080142b9
+   0x55BBF0: dmb      ishld ; bf3903d5
+   0x55BBF4: cbz      w8, #0x55bc2c ; c8010034
+   0x55BBF8: sub      sp, sp, #0x20 ; ff8300d1
+   0x55BBFC: stp      x29, x30, [sp, #0x10] ; fd7b01a9
+   0x55BC00: add      x29, sp, #0x10 ; fd430091
+   0x55BC04: add      x0, sp, #4 ; e0130091
+   0x55BC08: bl       #0x82383c ; 0d1f0b94
+   0x55BC0C: mov      w8, #0xb ; 68018052
+   0x55BC10: adrp     x0, #0x3ec3000 ; 40cb0190
+   0x55BC14: str      w8, [sp, #4] ; e80700b9
+   0x55BC18: add      x1, sp, #4 ; e1130091
+   0x55BC1C: ldr      x0, [x0, #0x7c8] ; 00e443f9
+   0x55BC20: bl       #0x827f2c ; c3300b94
+   0x55BC24: ldp      x29, x30, [sp, #0x10] ; fd7b41a9
+   0x55BC28: add      sp, sp, #0x20 ; ff830091
+   0x55BC2C: ret       ; c0035fd6
+   0x55BC30: stp      x29, x30, [sp, #-0x30]! ; fd7bbda9
+   0x55BC34: str      x21, [sp, #0x10] ; f50b00f9
+   0x55BC38: stp      x20, x19, [sp, #0x20] ; f44f02a9
+   0x55BC3C: mov      x29, sp ; fd030091
+   0x55BC40: adrp     x8, #0x3ec5000 ; 48cb01d0
+   0x55BC44: mov      w20, w1 ; f403012a
+   0x55BC48: ldr      x8, [x8, #0xaa8] ; 085545f9
+   0x55BC4C: mov      x19, x0 ; f30300aa
+   0x55BC50: ldr      w8, [x8, #0x80] ; 088140b9
+   0x55BC54: dmb      ishld ; bf3903d5
+   0x55BC58: cbz      w8, #0x55bc8c ; a8010034
+   0x55BC5C: add      x8, x29, #0x18 ; a8630091
+   0x55BC60: bl       #0x61eb84 ; c90b0394
+   0x55BC64: ldr      x21, [x29, #0x18] ; b50f40f9
+   0x55BC68: cbz      x21, #0x55bc84 ; f50000b4
+   0x55BC6C: adrp     x0, #0x6128000 ; 60de02b0
+   0x55BC70: add      x0, x0, #0xf00 ; 00003c91
+   0x55BC74: bl       #0xd0a7d0 ; d7ba1e94
+   0x55BC78: and      w8, w0, #0xffff ; 083c0012
+   0x55BC7C: ucvtf    d0, w8 ; 0001631e
+   0x55BC80: str      d0, [x21, #0x40] ; a02200fd
+   0x55BC84: add      x0, x29, #0x18 ; a0630091
+   0x55BC88: bl       #0x798b70 ; baf30894
+   0x55BC8C: add      x0, x19, #0x70 ; 60c20191
+   0x55BC90: bl       #0x8282c8 ; 8e310b94
+   0x55BC94: ldr      x8, [x19, #0xa8] ; 685640f9
+   0x55BC98: str      x8, [x19, #0xb0] ; 685a00f9
+   0x55BC9C: tbz      w20, #0, #0x55bcb4 ; d4000036
    0x55BCA0: ldr      x8, [x19, #0x30] ; 681a40f9
    0x55BCA4: str      x8, [x19, #0x38] ; 681e00f9
    0x55BCA8: ldr      x8, [x19, #0x50] ; 682a40f9
@@ -319,6 +495,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x55BB54: b.ne     #0x55b50c ; c1cdff54
+   0x55BB58: cmp      w8, #1 ; 1f050071
+   0x55BB5C: b.ne     #0x55bb90 ; a1010054
+   0x55BB60: ldr      x0, [x20] ; 800240f9
+   0x55BB64: cbnz     x0, #0x55b504 ; 00cdffb5
+   0x55BB68: stp      xzr, xzr, [sp, #8] ; ffff00a9
+   0x55BB6C: mov      w8, #1 ; 28008052
+   0x55BB70: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x55BB74: adrp     x9, #0x3cee000 ; 89bc01f0
+   0x55BB78: add      x9, x9, #0x50 ; 29410191
+   0x55BB7C: add      x0, x29, #0x1f ; a07f0091
+   0x55BB80: ldr      x8, [x9, w8, uxtw #3] ; 285968f8
+   0x55BB84: mov      x1, x20 ; e10314aa
+   0x55BB88: blr      x8 ; 00013fd6
+   0x55BB8C: b        #0x55bb9c ; 04000014
+   0x55BB90: bl       #0x3707f0 ; 1853f897
+   0x55BB94: cmn      w8, #1 ; 1f050031
+   0x55BB98: b.ne     #0x55bb74 ; e1feff54
+   0x55BB9C: ldur     q0, [sp, #8] ; e083c03c
+   0x55BBA0: str      wzr, [x19, #0x7e0] ; 7fe207b9
+   0x55BBA4: ldr      x8, [sp, #0x18] ; e80f40f9
+   0x55BBA8: str      x8, [x20, #0x10] ; 880a00f9
+   0x55BBAC: str      q0, [x20] ; 8002803d
+   0x55BBB0: b        #0x55b520 ; 5cfeff17
+   0x55BBB4: stp      x29, x30, [sp, #-0x20]! ; fd7bbea9
+   0x55BBB8: str      x19, [sp, #0x10] ; f30b00f9
+   0x55BBBC: mov      x29, sp ; fd030091
+   0x55BBC0: mov      x19, x0 ; f30300aa
+   0x55BBC4: bl       #0xc23760 ; e71e1b94
+   0x55BBC8: add      x0, x19, #0x70 ; 60c20191
+   0x55BBCC: bl       #0x8282c8 ; bf310b94
+   0x55BBD0: ldr      x8, [x19, #0xa8] ; 685640f9
+   0x55BBD4: str      x8, [x19, #0xb0] ; 685a00f9
+   0x55BBD8: ldr      x19, [sp, #0x10] ; f30b40f9
+   0x55BBDC: ldp      x29, x30, [sp], #0x20 ; fd7bc2a8
+   0x55BBE0: ret       ; c0035fd6
+   0x55BBE4: adrp     x8, #0x610f000 ; a8dd0290
+   0x55BBE8: add      x8, x8, #0x800 ; 08012091
+   0x55BBEC: ldr      w8, [x8, #0x200] ; 080142b9
+   0x55BBF0: dmb      ishld ; bf3903d5
+   0x55BBF4: cbz      w8, #0x55bc2c ; c8010034
+   0x55BBF8: sub      sp, sp, #0x20 ; ff8300d1
+   0x55BBFC: stp      x29, x30, [sp, #0x10] ; fd7b01a9
+   0x55BC00: add      x29, sp, #0x10 ; fd430091
+   0x55BC04: add      x0, sp, #4 ; e0130091
+   0x55BC08: bl       #0x82383c ; 0d1f0b94
+   0x55BC0C: mov      w8, #0xb ; 68018052
+   0x55BC10: adrp     x0, #0x3ec3000 ; 40cb0190
+   0x55BC14: str      w8, [sp, #4] ; e80700b9
+   0x55BC18: add      x1, sp, #4 ; e1130091
+   0x55BC1C: ldr      x0, [x0, #0x7c8] ; 00e443f9
+   0x55BC20: bl       #0x827f2c ; c3300b94
+   0x55BC24: ldp      x29, x30, [sp, #0x10] ; fd7b41a9
+   0x55BC28: add      sp, sp, #0x20 ; ff830091
+   0x55BC2C: ret       ; c0035fd6
+   0x55BC30: stp      x29, x30, [sp, #-0x30]! ; fd7bbda9
+   0x55BC34: str      x21, [sp, #0x10] ; f50b00f9
+   0x55BC38: stp      x20, x19, [sp, #0x20] ; f44f02a9
+   0x55BC3C: mov      x29, sp ; fd030091
+   0x55BC40: adrp     x8, #0x3ec5000 ; 48cb01d0
+   0x55BC44: mov      w20, w1 ; f403012a
+   0x55BC48: ldr      x8, [x8, #0xaa8] ; 085545f9
+   0x55BC4C: mov      x19, x0 ; f30300aa
+   0x55BC50: ldr      w8, [x8, #0x80] ; 088140b9
+   0x55BC54: dmb      ishld ; bf3903d5
+   0x55BC58: cbz      w8, #0x55bc8c ; a8010034
+   0x55BC5C: add      x8, x29, #0x18 ; a8630091
+   0x55BC60: bl       #0x61eb84 ; c90b0394
+   0x55BC64: ldr      x21, [x29, #0x18] ; b50f40f9
+   0x55BC68: cbz      x21, #0x55bc84 ; f50000b4
+   0x55BC6C: adrp     x0, #0x6128000 ; 60de02b0
+   0x55BC70: add      x0, x0, #0xf00 ; 00003c91
+   0x55BC74: bl       #0xd0a7d0 ; d7ba1e94
+   0x55BC78: and      w8, w0, #0xffff ; 083c0012
+   0x55BC7C: ucvtf    d0, w8 ; 0001631e
+   0x55BC80: str      d0, [x21, #0x40] ; a02200fd
+   0x55BC84: add      x0, x29, #0x18 ; a0630091
+   0x55BC88: bl       #0x798b70 ; baf30894
+   0x55BC8C: add      x0, x19, #0x70 ; 60c20191
+   0x55BC90: bl       #0x8282c8 ; 8e310b94
+   0x55BC94: ldr      x8, [x19, #0xa8] ; 685640f9
+   0x55BC98: str      x8, [x19, #0xb0] ; 685a00f9
+   0x55BC9C: tbz      w20, #0, #0x55bcb4 ; d4000036
+   0x55BCA0: ldr      x8, [x19, #0x30] ; 681a40f9
+   0x55BCA4: str      x8, [x19, #0x38] ; 681e00f9
+   0x55BCA8: ldr      x8, [x19, #0x50] ; 682a40f9
+   0x55BCAC: str      x8, [x19, #0x58] ; 682e00f9
+   0x55BCB0: b        #0x55bcbc ; 03000014
    0x55BCB4: mov      x0, x19 ; e00313aa
    0x55BCB8: bl       #0x2aa6cb0 ; fe2b9594
    0x55BCBC: bl       #0xc23760 ; a91e1b94
@@ -472,6 +736,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x656EA4: bl       #0x2cd754 ; 2cdaf197
+   0x656EA8: mov      w8, #0x90 ; 08128052
+   0x656EAC: movk     w8, #8, lsl #16 ; 0801a072
+   0x656EB0: str      w8, [x20, #0x18] ; 881a00b9
+   0x656EB4: stp      x22, x20, [x20, #8] ; 96d200a9
+   0x656EB8: ldr      x8, [x23, #0x98] ; e84e40f9
+   0x656EBC: sub      x8, x8, #1 ; 080500d1
+   0x656EC0: str      x8, [x23, #0x98] ; e84e00f9
+   0x656EC4: add      x8, x20, #0x28 ; 88a20091
+   0x656EC8: ldaxr    w9, [x8] ; 09fd5f88
+   0x656ECC: add      w10, w9, #1 ; 2a050011
+   0x656ED0: stlxr    w11, w10, [x8] ; 0afd0b88
+   0x656ED4: cbnz     w11, #0x656ec8 ; abffff35
+   0x656ED8: cmn      w9, #1 ; 3f050031
+   0x656EDC: b.eq     #0x656f44 ; 40030054
+   0x656EE0: ldr      x0, [x19, #0x50] ; 602a40f9
+   0x656EE4: str      xzr, [x19, #0x50] ; 7f2a00f9
+   0x656EE8: cbz      x0, #0x656f08 ; 000100b4
+   0x656EEC: add      x9, x0, #0x28 ; 09a00091
+   0x656EF0: ldaxr    w8, [x9] ; 28fd5f88
+   0x656EF4: subs     w10, w8, #1 ; 0a050071
+   0x656EF8: stlxr    w11, w10, [x9] ; 2afd0b88
+   0x656EFC: cbnz     w11, #0x656ef0 ; abffff35
+   0x656F00: b.eq     #0x656f20 ; 00010054
+   0x656F04: cbz      w8, #0x656f44 ; 08020034
+   0x656F08: str      x20, [x19, #0x50] ; 742a00f9
+   0x656F0C: ldp      x20, x19, [sp, #0x30] ; f44f43a9
+   0x656F10: ldp      x22, x21, [sp, #0x20] ; f65742a9
+   0x656F14: ldr      x23, [sp, #0x10] ; f70b40f9
+   0x656F18: ldp      x29, x30, [sp], #0x40 ; fd7bc4a8
+   0x656F1C: ret       ; c0035fd6
+   0x656F20: ldr      x8, [x0] ; 080040f9
+   0x656F24: ldr      x8, [x8, #0x10] ; 080940f9
+   0x656F28: blr      x8 ; 00013fd6
+   0x656F2C: b        #0x656f08 ; f7ffff17
+   0x656F30: bl       #0x2fa70 ; d062e797
+   0x656F34: ldr      x8, [x22] ; c80240f9
+   0x656F38: mov      x0, x22 ; e00316aa
+   0x656F3C: ldr      x8, [x8, #0xe8] ; 087540f9
+   0x656F40: blr      x8 ; 00013fd6
+   0x656F44: bl       #0x3160640 ; bf25ac94
+   0x656F48: and      w8, w1, #0xff ; 281c0012
+   0x656F4C: cmp      w8, #5 ; 1f150071
+   0x656F50: b.hi     #0x656f5c ; 68000054
+   0x656F54: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F58: strh     w2, [x8, #0x48] ; 02910079
+   0x656F5C: ret       ; c0035fd6
+   0x656F60: and      w8, w1, #0xff ; 281c0012
+   0x656F64: cmp      w8, #5 ; 1f150071
+   0x656F68: b.hi     #0x656f74 ; 68000054
+   0x656F6C: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F70: strh     w2, [x8, #0x54] ; 02a90079
+   0x656F74: ret       ; c0035fd6
+   0x656F78: udf      #0 ; 00000000
+   0x656F7C: udf      #0 ; 00000000
+   0x656F80: sub      sp, sp, #0x50 ; ff4301d1
+   0x656F84: stp      x29, x30, [sp, #0x20] ; fd7b02a9
+   0x656F88: stp      x22, x21, [sp, #0x30] ; f65703a9
+   0x656F8C: stp      x20, x19, [sp, #0x40] ; f44f04a9
+   0x656F90: add      x29, sp, #0x20 ; fd830091
+   0x656F94: mov      x8, #0x8960 ; 082c91d2
+   0x656F98: movk     x8, #0x79f1, lsl #16 ; 283eaff2
+   0x656F9C: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x656FA0: mov      x9, #0x6a5b ; 694b8dd2
+   0x656FA4: movk     x9, #0x229d, lsl #16 ; a953a4f2
+   0x656FA8: movk     x8, #0x17a5, lsl #32 ; a8f4c2f2
+   0x656FAC: movk     x8, #0xf4b, lsl #48 ; 68e9e1f2
+   0x656FB0: movk     x9, #0xb175, lsl #32 ; a92ed6f2
+   0x656FB4: movk     x9, #0x82a2, lsl #48 ; 4954f0f2
+   0x656FB8: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x656FBC: ldrb     w8, [x0, #8] ; 08204039
+   0x656FC0: mov      x19, x0 ; f30300aa
+   0x656FC4: cbz      w8, #0x656ff0 ; 68010034
+   0x656FC8: ldr      x1, [x19] ; 610240f9
+   0x656FCC: add      x0, sp, #8 ; e0230091
+   0x656FD0: bl       #0xe5ec58 ; 221f2094
+   0x656FD4: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FD8: cmn      x8, #1 ; 1f0500b1
+   0x656FDC: b.eq     #0x657004 ; 40010054
+   0x656FE0: ldr      x0, [x19, #0x18] ; 600e40f9
+   0x656FE4: cmn      x0, #1 ; 1f0400b1
+   0x656FE8: b.ne     #0x657078 ; 81040054
+   0x656FEC: b        #0x657044 ; 16000014
+   0x656FF0: add      x0, sp, #8 ; e0230091
+   0x656FF4: bl       #0xe5ec14 ; 081f2094
+   0x656FF8: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FFC: cmn      x8, #1 ; 1f0500b1
+   0x657000: b.ne     #0x656fe0 ; 01ffff54
    0x657004: ldp      x8, x9, [sp, #8] ; e8a740a9
    0x657008: nop       ; 1f2003d5
    0x65700C: nop       ; 1f2003d5
@@ -625,6 +977,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x656EE8: cbz      x0, #0x656f08 ; 000100b4
+   0x656EEC: add      x9, x0, #0x28 ; 09a00091
+   0x656EF0: ldaxr    w8, [x9] ; 28fd5f88
+   0x656EF4: subs     w10, w8, #1 ; 0a050071
+   0x656EF8: stlxr    w11, w10, [x9] ; 2afd0b88
+   0x656EFC: cbnz     w11, #0x656ef0 ; abffff35
+   0x656F00: b.eq     #0x656f20 ; 00010054
+   0x656F04: cbz      w8, #0x656f44 ; 08020034
+   0x656F08: str      x20, [x19, #0x50] ; 742a00f9
+   0x656F0C: ldp      x20, x19, [sp, #0x30] ; f44f43a9
+   0x656F10: ldp      x22, x21, [sp, #0x20] ; f65742a9
+   0x656F14: ldr      x23, [sp, #0x10] ; f70b40f9
+   0x656F18: ldp      x29, x30, [sp], #0x40 ; fd7bc4a8
+   0x656F1C: ret       ; c0035fd6
+   0x656F20: ldr      x8, [x0] ; 080040f9
+   0x656F24: ldr      x8, [x8, #0x10] ; 080940f9
+   0x656F28: blr      x8 ; 00013fd6
+   0x656F2C: b        #0x656f08 ; f7ffff17
+   0x656F30: bl       #0x2fa70 ; d062e797
+   0x656F34: ldr      x8, [x22] ; c80240f9
+   0x656F38: mov      x0, x22 ; e00316aa
+   0x656F3C: ldr      x8, [x8, #0xe8] ; 087540f9
+   0x656F40: blr      x8 ; 00013fd6
+   0x656F44: bl       #0x3160640 ; bf25ac94
+   0x656F48: and      w8, w1, #0xff ; 281c0012
+   0x656F4C: cmp      w8, #5 ; 1f150071
+   0x656F50: b.hi     #0x656f5c ; 68000054
+   0x656F54: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F58: strh     w2, [x8, #0x48] ; 02910079
+   0x656F5C: ret       ; c0035fd6
+   0x656F60: and      w8, w1, #0xff ; 281c0012
+   0x656F64: cmp      w8, #5 ; 1f150071
+   0x656F68: b.hi     #0x656f74 ; 68000054
+   0x656F6C: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F70: strh     w2, [x8, #0x54] ; 02a90079
+   0x656F74: ret       ; c0035fd6
+   0x656F78: udf      #0 ; 00000000
+   0x656F7C: udf      #0 ; 00000000
+   0x656F80: sub      sp, sp, #0x50 ; ff4301d1
+   0x656F84: stp      x29, x30, [sp, #0x20] ; fd7b02a9
+   0x656F88: stp      x22, x21, [sp, #0x30] ; f65703a9
+   0x656F8C: stp      x20, x19, [sp, #0x40] ; f44f04a9
+   0x656F90: add      x29, sp, #0x20 ; fd830091
+   0x656F94: mov      x8, #0x8960 ; 082c91d2
+   0x656F98: movk     x8, #0x79f1, lsl #16 ; 283eaff2
+   0x656F9C: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x656FA0: mov      x9, #0x6a5b ; 694b8dd2
+   0x656FA4: movk     x9, #0x229d, lsl #16 ; a953a4f2
+   0x656FA8: movk     x8, #0x17a5, lsl #32 ; a8f4c2f2
+   0x656FAC: movk     x8, #0xf4b, lsl #48 ; 68e9e1f2
+   0x656FB0: movk     x9, #0xb175, lsl #32 ; a92ed6f2
+   0x656FB4: movk     x9, #0x82a2, lsl #48 ; 4954f0f2
+   0x656FB8: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x656FBC: ldrb     w8, [x0, #8] ; 08204039
+   0x656FC0: mov      x19, x0 ; f30300aa
+   0x656FC4: cbz      w8, #0x656ff0 ; 68010034
+   0x656FC8: ldr      x1, [x19] ; 610240f9
+   0x656FCC: add      x0, sp, #8 ; e0230091
+   0x656FD0: bl       #0xe5ec58 ; 221f2094
+   0x656FD4: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FD8: cmn      x8, #1 ; 1f0500b1
+   0x656FDC: b.eq     #0x657004 ; 40010054
+   0x656FE0: ldr      x0, [x19, #0x18] ; 600e40f9
+   0x656FE4: cmn      x0, #1 ; 1f0400b1
+   0x656FE8: b.ne     #0x657078 ; 81040054
+   0x656FEC: b        #0x657044 ; 16000014
+   0x656FF0: add      x0, sp, #8 ; e0230091
+   0x656FF4: bl       #0xe5ec14 ; 081f2094
+   0x656FF8: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FFC: cmn      x8, #1 ; 1f0500b1
+   0x657000: b.ne     #0x656fe0 ; 01ffff54
+   0x657004: ldp      x8, x9, [sp, #8] ; e8a740a9
+   0x657008: nop       ; 1f2003d5
+   0x65700C: nop       ; 1f2003d5
+   0x657010: ror      x11, x8, #0x28 ; 0ba1c893
+   0x657014: eor      x12, x8, x9 ; 0c0109ca
+   0x657018: add      w10, w8, w9 ; 0a01090b
+   0x65701C: ror      x9, x12, #0x1b ; 896dcc93
+   0x657020: cmn      w10, #1 ; 5f050031
+   0x657024: eor      x8, x11, x12, lsl #16 ; 68410cca
+   0x657028: eor      x8, x8, x12 ; 08010cca
+   0x65702C: b.eq     #0x657010 ; 20ffff54
+   0x657030: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x657034: str      x10, [x19, #0x10] ; 6a0a00f9
+   0x657038: ldr      x0, [x19, #0x18] ; 600e40f9
+   0x65703C: cmn      x0, #1 ; 1f0400b1
+   0x657040: b.ne     #0x657078 ; c1010054
+   0x657044: ldp      x8, x9, [sp, #8] ; e8a740a9
    0x657048: nop       ; 1f2003d5
    0x65704C: nop       ; 1f2003d5
    0x657050: ror      x10, x8, #0x28 ; 0aa1c893
@@ -778,6 +1218,94 @@
 - NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
 
 ~~~asm
+   0x656F18: ldp      x29, x30, [sp], #0x40 ; fd7bc4a8
+   0x656F1C: ret       ; c0035fd6
+   0x656F20: ldr      x8, [x0] ; 080040f9
+   0x656F24: ldr      x8, [x8, #0x10] ; 080940f9
+   0x656F28: blr      x8 ; 00013fd6
+   0x656F2C: b        #0x656f08 ; f7ffff17
+   0x656F30: bl       #0x2fa70 ; d062e797
+   0x656F34: ldr      x8, [x22] ; c80240f9
+   0x656F38: mov      x0, x22 ; e00316aa
+   0x656F3C: ldr      x8, [x8, #0xe8] ; 087540f9
+   0x656F40: blr      x8 ; 00013fd6
+   0x656F44: bl       #0x3160640 ; bf25ac94
+   0x656F48: and      w8, w1, #0xff ; 281c0012
+   0x656F4C: cmp      w8, #5 ; 1f150071
+   0x656F50: b.hi     #0x656f5c ; 68000054
+   0x656F54: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F58: strh     w2, [x8, #0x48] ; 02910079
+   0x656F5C: ret       ; c0035fd6
+   0x656F60: and      w8, w1, #0xff ; 281c0012
+   0x656F64: cmp      w8, #5 ; 1f150071
+   0x656F68: b.hi     #0x656f74 ; 68000054
+   0x656F6C: add      x8, x0, w1, uxtb #1 ; 0804218b
+   0x656F70: strh     w2, [x8, #0x54] ; 02a90079
+   0x656F74: ret       ; c0035fd6
+   0x656F78: udf      #0 ; 00000000
+   0x656F7C: udf      #0 ; 00000000
+   0x656F80: sub      sp, sp, #0x50 ; ff4301d1
+   0x656F84: stp      x29, x30, [sp, #0x20] ; fd7b02a9
+   0x656F88: stp      x22, x21, [sp, #0x30] ; f65703a9
+   0x656F8C: stp      x20, x19, [sp, #0x40] ; f44f04a9
+   0x656F90: add      x29, sp, #0x20 ; fd830091
+   0x656F94: mov      x8, #0x8960 ; 082c91d2
+   0x656F98: movk     x8, #0x79f1, lsl #16 ; 283eaff2
+   0x656F9C: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x656FA0: mov      x9, #0x6a5b ; 694b8dd2
+   0x656FA4: movk     x9, #0x229d, lsl #16 ; a953a4f2
+   0x656FA8: movk     x8, #0x17a5, lsl #32 ; a8f4c2f2
+   0x656FAC: movk     x8, #0xf4b, lsl #48 ; 68e9e1f2
+   0x656FB0: movk     x9, #0xb175, lsl #32 ; a92ed6f2
+   0x656FB4: movk     x9, #0x82a2, lsl #48 ; 4954f0f2
+   0x656FB8: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x656FBC: ldrb     w8, [x0, #8] ; 08204039
+   0x656FC0: mov      x19, x0 ; f30300aa
+   0x656FC4: cbz      w8, #0x656ff0 ; 68010034
+   0x656FC8: ldr      x1, [x19] ; 610240f9
+   0x656FCC: add      x0, sp, #8 ; e0230091
+   0x656FD0: bl       #0xe5ec58 ; 221f2094
+   0x656FD4: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FD8: cmn      x8, #1 ; 1f0500b1
+   0x656FDC: b.eq     #0x657004 ; 40010054
+   0x656FE0: ldr      x0, [x19, #0x18] ; 600e40f9
+   0x656FE4: cmn      x0, #1 ; 1f0400b1
+   0x656FE8: b.ne     #0x657078 ; 81040054
+   0x656FEC: b        #0x657044 ; 16000014
+   0x656FF0: add      x0, sp, #8 ; e0230091
+   0x656FF4: bl       #0xe5ec14 ; 081f2094
+   0x656FF8: ldr      x8, [x19, #0x10] ; 680a40f9
+   0x656FFC: cmn      x8, #1 ; 1f0500b1
+   0x657000: b.ne     #0x656fe0 ; 01ffff54
+   0x657004: ldp      x8, x9, [sp, #8] ; e8a740a9
+   0x657008: nop       ; 1f2003d5
+   0x65700C: nop       ; 1f2003d5
+   0x657010: ror      x11, x8, #0x28 ; 0ba1c893
+   0x657014: eor      x12, x8, x9 ; 0c0109ca
+   0x657018: add      w10, w8, w9 ; 0a01090b
+   0x65701C: ror      x9, x12, #0x1b ; 896dcc93
+   0x657020: cmn      w10, #1 ; 5f050031
+   0x657024: eor      x8, x11, x12, lsl #16 ; 68410cca
+   0x657028: eor      x8, x8, x12 ; 08010cca
+   0x65702C: b.eq     #0x657010 ; 20ffff54
+   0x657030: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x657034: str      x10, [x19, #0x10] ; 6a0a00f9
+   0x657038: ldr      x0, [x19, #0x18] ; 600e40f9
+   0x65703C: cmn      x0, #1 ; 1f0400b1
+   0x657040: b.ne     #0x657078 ; c1010054
+   0x657044: ldp      x8, x9, [sp, #8] ; e8a740a9
+   0x657048: nop       ; 1f2003d5
+   0x65704C: nop       ; 1f2003d5
+   0x657050: ror      x10, x8, #0x28 ; 0aa1c893
+   0x657054: eor      x11, x8, x9 ; 0b0109ca
+   0x657058: add      w0, w8, w9 ; 0001090b
+   0x65705C: ror      x9, x11, #0x1b ; 696dcb93
+   0x657060: cmn      w0, #1 ; 1f040031
+   0x657064: eor      x8, x10, x11, lsl #16 ; 48410bca
+   0x657068: eor      x8, x8, x11 ; 08010bca
+   0x65706C: b.eq     #0x657050 ; 20ffff54
+   0x657070: stp      x8, x9, [sp, #8] ; e8a700a9
+   0x657074: str      x0, [x19, #0x18] ; 600e00f9
    0x657078: ldr      x9, [x19, #0x20] ; 691240f9
    0x65707C: mov      x8, #-0xfffb00000001 ; 68ffdf92
    0x657080: movk     x8, #0, lsl #48 ; 0800e0f2
