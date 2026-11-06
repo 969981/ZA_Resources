@@ -66,12 +66,16 @@ def run(repo: Path, out: Path) -> dict:
     (out / "trade-probe-summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, indent=2))
-    print("TOP MATCHED STRINGS:")
-    for row in hits[:60]:
-        print(" | ".join((row[4],row[2],row[6][:110])))
-    print("TOP EXACT STRING XREFS:")
-    for row in xrefs[:60]:
-        print(" | ".join((row[3],row[1],row[5],row[2][:100])))
+    print("TRADE_STRING_TSV_BEGIN")
+    print("\t".join(host.HIT_COLS))
+    for row in hits:
+        print("\t".join(str(x).replace("\t", " ") for x in row))
+    print("TRADE_STRING_TSV_END")
+    print("TRADE_XREF_TSV_BEGIN")
+    print("\t".join(host.XREF_COLS))
+    for row in xrefs:
+        print("\t".join(str(x).replace("\t", " ") for x in row))
+    print("TRADE_XREF_TSV_END")
     return summary
 
 
