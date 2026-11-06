@@ -164,6 +164,48 @@
         ]
       }
     ],
+    "anti_shiny_xor_candidates": [
+      {
+        "pc": "0xE5D20C",
+        "file_offset": "0xE5DC54",
+        "instruction": "0x52040029",
+        "operation": "EOR",
+        "registers": [
+          1,
+          9
+        ],
+        "width": 32,
+        "immediate": "0x10000000",
+        "nearby_branches": []
+      },
+      {
+        "pc": "0xE5D2BC",
+        "file_offset": "0xE5DD04",
+        "instruction": "0x52040029",
+        "operation": "EOR",
+        "registers": [
+          1,
+          9
+        ],
+        "width": 32,
+        "immediate": "0x10000000",
+        "nearby_branches": []
+      },
+      {
+        "pc": "0x2138DC0",
+        "file_offset": "0x2139808",
+        "instruction": "0x5204018C",
+        "operation": "EOR",
+        "registers": [
+          12,
+          12
+        ],
+        "width": 32,
+        "immediate": "0x10000000",
+        "nearby_branches": []
+      }
+    ],
+    "anti_shiny_candidates_explanation": "EOR W*,W*,#0x10000000 is only an opcode-pattern clue from PKHeX LumioseRNG.AntiShiny. It does not prove a PID source or shiny state.",
     "ranked_groups": [
       {
         "first_pc": "0x2163FA8",
