@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import re
 import struct
@@ -138,7 +139,7 @@ def export(repo: Path, version: str, out: Path) -> dict:
         with (out / filename).open("w", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=colnames, extrasaction="ignore")
             w.writeheader()
-            w.writerows(records)
+            w.writerows([{k: (str(v).lower() if isinstance(v, bool) else v) for k, v in r.items()} for r in records])
 
     write_csv("za-v2.0.2-items-all-fields.csv", rows)
     write_csv("za-v2.0.2-mega-orbs-controls.csv", sorted(mega + orbs + controls, key=lambda r: r["Id"]))
@@ -147,7 +148,8 @@ def export(repo: Path, version: str, out: Path) -> dict:
                 if records and all(r[k] == records[0][k] for r in records)}
     summary = {
         "version": version, "sourcePath": str(source.relative_to(repo)).replace("\\", "/"),
-        "sourceLength": len(data), "fieldCount": len(fields), "recordCount": len(rows),
+        "sourceLength": len(data), "sourceSha256": hashlib.sha256(data).hexdigest(),
+        "fieldCount": len(fields), "recordCount": len(rows),
         "minId": min(ids), "maxId": max(ids), "uniqueIds": len(set(ids)),
         "groups": {"MegaStone": len(mega), "PrimalOrb": len(orbs), "ordinaryControls": len(controls)},
         "itemTypeCounts": dict(sorted(Counter(r["ItemType"] for r in rows).items())),
