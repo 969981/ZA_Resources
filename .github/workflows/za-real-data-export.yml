@@ -10,6 +10,7 @@ on:
       - scripts/Publish-ZA-CSV.py
       - scripts/Generate-ZA-PokemonObsidian.py
       - scripts/Export-ZA-CoreDex.py
+      - scripts/Audit-ZA-Rare.py
       - .github/workflows/za-real-data-export.yml
   pull_request:
     paths:
@@ -40,6 +41,7 @@ jobs:
             /scripts/Publish-ZA-CSV.py
             /scripts/Generate-ZA-PokemonObsidian.py
             /scripts/Export-ZA-CoreDex.py
+            /scripts/Audit-ZA-Rare.py
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/monsname.*
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazaname.*
@@ -108,6 +110,8 @@ jobs:
           python -u scripts/Publish-ZA-CSV.py --repo . --input .za-work/za-data --preview-rows 100
           python -m py_compile scripts/Export-ZA-CoreDex.py scripts/Generate-ZA-PokemonObsidian.py
           python -u scripts/Export-ZA-CoreDex.py --repo .
+          python -m py_compile scripts/Audit-ZA-Rare.py
+          python -u scripts/Audit-ZA-Rare.py --repo .
           python -u scripts/Generate-ZA-PokemonObsidian.py --repo .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
