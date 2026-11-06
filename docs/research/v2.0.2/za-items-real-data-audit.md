@@ -38,7 +38,7 @@ python -m unittest discover -s tests -p test_za_item_export.py -v
 - 原始大小：**50,372 bytes**。
 - `ItemDataArray.Table`：**535 条**；`Id` **全部唯一**。
 - ID 最小 **1**、最大 **2684**。**不能**把 1~2684 全部认为“存在于主表”。
-- Schema 字段：**50**；CSV 额外提供 `NameZH`、`NameEN`、`ResearchGroup`，总计 **54 列**。
+- Schema 字段：**50**；CSV 额外提供 `NameZH`、`NameEN`、`ResearchGroup`，总计 **53 列**。
 - `ItemType` 原始值计数：`0:29, 1:66, 2:58, 3:28, 4:26, 5:160, 7:160, 9:8`。枚举 `6、8` 当前源表无记录，不给它们强加中文含义。
 - `Pocket` 原始值计数：`0:19, 1:26, 2:121, 3:7, 4:44, 5:66, 6:160, 7:92`。
 - 只有 **3 条**记录为 `CanNotHold=true`：`1278 洛托姆型录`、`2137 索财灵的硬币`、`2619 彩色螺丝`。由此明确：`CanNotHold` 不是“禁止联机交易”的同义词。
