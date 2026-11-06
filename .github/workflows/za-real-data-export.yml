@@ -26,6 +26,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: docs/za-v2.0.2-obsidian-extraction
+          persist-credentials: true
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -81,7 +83,9 @@ jobs:
           python -m py_compile scripts/Probe-ZA-RawEXL.py
           python -u scripts/Probe-ZA-RawEXL.py --repo . --out .za-work/za-data --require-all
       - name: Organize CSV into matching repository data folders
-        if: github.event_name == 'push' && github.ref == 'refs/heads/docs/za-v2.0.2-obsidian-extraction'
+        if: >-
+          (github.event_name == 'push' && github.ref == 'refs/heads/docs/za-v2.0.2-obsidian-extraction') ||
+          (github.event_name == 'pull_request' && github.head_ref == 'docs/za-v2.0.2-obsidian-extraction' && github.event.pull_request.head.repo.full_name == github.repository)
         shell: bash
         run: |
           set -euo pipefail
