@@ -38,6 +38,7 @@ jobs:
             /Unpack/v2.0.2/exefs/main/main.elf
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.bin
             /Unpack/v2.0.2/exefs/exefs-manifest.json
+            /docs/research/v2.0.2/za-pid-accessor-callsite-xrefs.json
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin
       - uses: actions/setup-python@v5
         with:
@@ -55,6 +56,7 @@ jobs:
           python -m pip install 'capstone==5.0.6'
           python scripts/Trace-ZA-Rare-Candidates.py
           python scripts/Trace-ZA-Rare-Candidates.py --site-kind anti-shiny-xor --output docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md --before 0xC0 --after 0xC0
+          python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x120 --after 0x120
       - name: Upload candidate report for manual review
         uses: actions/upload-artifact@v4
         with:
@@ -64,6 +66,7 @@ jobs:
             docs/research/v2.0.2/za-rare-arm64-static-candidates.json
             docs/research/v2.0.2/za-rare-arm64-exact-sites.md
             docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md
+            docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md
             docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
       - name: Commit bounded static evidence report, no game binary
         if: github.ref == 'refs/heads/master'
@@ -72,7 +75,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
+          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'analysis(za): publish v2.0.2 Rare AArch64 static candidates'
           git fetch origin master
