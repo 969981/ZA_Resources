@@ -6,6 +6,7 @@ on:
       - docs/za-items-obsidian-20261106
     paths:
       - scripts/Export-ZA-Items.py
+      - scripts/Group-ZA-ItemData.py
       - tests/test_za_item_export.py
       - .github/workflows/za-itemdata-export.yml
   workflow_dispatch:
@@ -25,6 +26,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             scripts/Export-ZA-Items.py
+            scripts/Group-ZA-ItemData.py
             tests/test_za_item_export.py
             tools/pkNX/FlatBuffers/ZA/Item/Schemas/ItemDataArray.fbs
             Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/item_data/item_data/item_data.bin
@@ -34,6 +36,8 @@ jobs:
         run: python3 -m unittest discover -s tests -p test_za_item_export.py -v
       - name: Export actual v2.0.2 records
         run: python3 scripts/Export-ZA-Items.py --repo . --version v2.0.2 --output .za-work/items | tee .za-work-items-log.json
+      - name: Group all item names by ItemType and Pocket
+        run: python3 scripts/Group-ZA-ItemData.py --input .za-work/items/za-v2.0.2-items-all-fields.csv --output .za-work/items
       - name: Verify exact record groups
         run: |
           python3 - <<'PY'
@@ -44,6 +48,9 @@ jobs:
           assert stats["recordCount"] == 535 and stats["fieldCount"] == 50, stats
           assert stats["groups"]["MegaStone"] == 92, stats
           assert stats["groups"]["PrimalOrb"] == 2, stats
+          grouped=json.loads((dest / "za-v2.0.2-itemtype-pocket-groups.json").read_text())
+          assert grouped["total"]==535 and grouped["groupCount"]==12, grouped
+          assert sum(g["count"] for g in grouped["groups"])==535, grouped
           for path, count in [
               ("za-v2.0.2-items-all-fields.csv", 535),
               ("za-v2.0.2-mega-orbs-controls.csv", 106),
@@ -52,7 +59,7 @@ jobs:
                   rows = list(csv.DictReader(f))
               assert len(rows) == count, (path, len(rows))
               assert len(rows[0]) == 53, (path, len(rows[0]))
-          print("PASS: native 50,372-byte ItemData parsed; 535 item rows, 92 Mega Stones, 2 orbs")
+          print("PASS: native 50,372-byte ItemData parsed; 535 items, 12 nonempty ItemType-Pocket groups, 92 Mega Stones, 2 orbs")
           PY
       - name: Publish inspectable outputs
         if: always()
