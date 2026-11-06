@@ -20,7 +20,7 @@ def schema_fields(schema: str) -> list[tuple[str, str]]:
     match = re.search(r"\btable\s+ItemData\s*\{(.*?)\n\}", schema, re.S)
     if not match:
         raise ValueError("ItemData table missing from schema")
-    fields = re.findall(r"^\s*(\w+)\s*:\s*(\w+)\s*;", match.group(1), re.M)
+    fields = re.findall(r"^\s*(\w+)\s*:\s*(\w+)(?:\s*\([^;\n]*\))?\s*;", match.group(1), re.M)
     if not fields or fields[0][0] != "Id":
         raise ValueError("unexpected ItemData layout")
     return fields
