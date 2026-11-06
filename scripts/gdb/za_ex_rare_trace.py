@@ -51,6 +51,7 @@ SITES={
     "desc_always_mode_compare":0x653F38,
     "field_init_generator":0xE3EB64,
     "field_init_pid_setter_call":0xE3EBA8,
+    "field_init_species_setter_call":0xE3EBB4,
     "pid_setter_entry":0xE57350,
 }
 
@@ -134,6 +135,9 @@ class TracePoint(gdb.Breakpoint):
         elif name in ("native_anti_shiny_return","field_init_pid_setter_call","pid_setter_entry"):
             extra["w0_result_or_ptr"]=reg("x0") & 0xFFFFFFFF if reg("x0") is not None else None
             extra["w1_pid_candidate"]=reg("x1") & 0xFFFFFFFF if reg("x1") is not None else None
+        elif name=="field_init_species_setter_call":
+            extra["pokemon_object_pointer"]=reg("x0")
+            extra["w1_species_candidate"]=reg("x1") & 0xFFFFFFFF if reg("x1") is not None else None
         write_event(name,self.va,extra)
         return False  # auto-continue; never write to target memory
 
