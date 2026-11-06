@@ -32,3 +32,5 @@ No internal Trinity field maps have been independently validated in this documen
 
 - [原生三态异色生成、PID XOR、防闪与实际分支（新增核心研究）](za-native-shiny-generator-pid-branch.md) — 0x6570C4–0x6571A0、0xE5D1E8、0xE5D200、0xE5D21C 原生 ARM64 静态确认，精确说明与原始 Rare 字段转换仍未闭合的部分。
 - [原生 PID getter/setter 调用研究](za-pid-accessor-native-xrefs.md) / [精确 B/BL 引用 JSON](za-pid-accessor-callsite-xrefs.json) / [PID 防闪调用者汇编](za-pid-antishiny-caller-contexts.md) — 主程序 SHA 及 CI 测试通过。
+
+- [描述结构 +0x68 → 内部 64 位 Rare 模式与 PID 生成完整静态证据](za-native-shiny-generator-pid-branch.md) / [5 条真正的状态构建调用者](za-native-rare-builder-callers.md) — 包括 +0x68 原始 `0x2FFFFFFF` 比较、实际转换指令和 0xE3EB64 生成器到个体 setter 的代码链。
