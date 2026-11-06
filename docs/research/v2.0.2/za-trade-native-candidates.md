@@ -95,3 +95,8 @@ python scripts/Probe-ZA-Trade-ELF.py --repo . --output .za-work/trade-native
 ~~~
 
 该命令读取固定 SHA-256 的 `main.elf`，不修改资源，导出 `trade-string-candidates.tsv`、`trade-adr-xrefs.tsv`、`trade-probe-summary.json`。完整结果已在本仓库留存永久 TSV，不依赖 14 天的 Actions Artifact。
+
+
+## 新增：主程序更深入的检索和指令审核
+
+继续阅读 [[za-trade-native-deep-analysis]]。此次扩展确认：`main+0x2DC413C` 附近的函数序言及 `CommandCancelTrade` 类型名引用；两个 Mega ID `656/657` 邻接表和红蓝宝珠 ID `534/535` 邻接表均混有多种普通 ID，静态代码的同页引用不能误当物品过滤器。真实禁止转移分支仍待运行时验证。
