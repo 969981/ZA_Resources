@@ -292,3 +292,11 @@ result_shiny, result_species, result_level, save_readback
 已在匹配 SHA 的 v2.0.2 main.elf 中静态确认：`0xE5D1E8` 的 PID/TID XOR 异色判断，`0xE5D200` 的条件式 `PID ^ 0x10000000` 防闪，`0xE5D21C` 的强制异色 PID 调整候选，以及 `0x6570C4–0x6571A0` 的 Never/Always/Random 三态 PID 生成分发与重掷循环。另一路 `0x55BD80–0x55BDD4` 已连续读取 PKM TID/PID、检测异色并按需通过 PID setter 写回。
 
 请阅读详细、可复现的 [[za-native-shiny-generator-pid-branch|原生 ARM64 生成与防闪证据文档]]、[原生指令上下文](za-pid-antishiny-caller-contexts.md) 与 [精确调用引用 JSON](za-pid-accessor-callsite-xrefs.json)。**原始 Rare=0x1FFFFFFF 是 FlatBuffers 的 32 位编码，而 native 使用 0x1FFFFFFFF 等 64 位模式；二者转换仍需研究。**
+
+## 12. 进一步定位原生 Rare 32/64 位转换与 PID 生成入口
+
+从 v2.0.2 SHA 校验过的原生 ELF 静态验证到：`0x656060` 的描述数据输入、`0x656144` 从 `+0x68` 读取 32 位模式，`0x65614C` 执行 `signed32(RareLike) << 4 | 0xF`，`0x656170` 存入状态，`0x656298 BL 0x656F80`，`0x6570C4–0x6571A0` 三态 PID 分支。原始的 `0x1FFFFFFF/0x2FFFFFFF/0x3FFFFFFF` 经过该编码恰好为内部分发的 `0x1FFFFFFFF/0x2FFFFFFFF/0x3FFFFFFFF`。
+
+另在 `0x653F2C` 后发现代码直接将描述对象 `+0x68` 与 `0x2FFFFFFF` 比较，印证这确实是异色模式语义相关字段，而不是一般掩码。`0xE3EB64` 调用生成器后由 PID/TID/种族等 setter 写入 Pokémon 对象，已静态证实。
+
+**证据限制**：上述 +0x68 是原生描述对象内偏移，不是 FlatBuffers 中 Rare 的原始文件字节偏移。还需恢复源 EncountData.Rare 的反序列化/复制代码，并通过 EX1/EX2 运行时调用与 PID 日志验证。详见 [[za-native-shiny-generator-pid-branch]]、[原生五处调用者汇编](za-native-rare-builder-callers.md)。
