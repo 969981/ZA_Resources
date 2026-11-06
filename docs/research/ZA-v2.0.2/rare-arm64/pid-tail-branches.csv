@@ -1,0 +1,197 @@
+﻿target,targetRva,tailBranchRva,context,classification
+PID_Get,0xE4DBE0,0xE45F78,"   main+0xE45F50: mov w20, wzr
+   main+0xE45F54: mov x0, x19
+   main+0xE45F58: mov w1, w20
+   main+0xE45F5C: mov x2, xzr
+   main+0xE45F60: bl #0xbb8f04
+   main+0xE45F64: mov w0, #1
+   main+0xE45F68: ldp x20, x19, [sp, #0x10]
+   main+0xE45F6C: ldp x29, x30, [sp], #0x20
+   main+0xE45F70: ret 
+   main+0xE45F74: ldr x0, [x0, #0x70]
+>> main+0xE45F78: b #0xe4dbe0
+   main+0xE45F7C: stp x29, x30, [sp, #-0x20]!
+   main+0xE45F80: stp x20, x19, [sp, #0x10]
+   main+0xE45F84: mov x29, sp
+   main+0xE45F88: mov x19, x0
+   main+0xE45F8C: bl #0x3f0784
+   main+0xE45F90: ldrb w8, [x0, #0x380]
+   main+0xE45F94: cbnz w8, #0xe45fc0
+   main+0xE45F98: ldr x0, [x19, #0x70]
+   main+0xE45F9C: bl #0xe483b4
+   main+0xE45FA0: tbnz w0, #0, #0xe45fc0
+   main+0xE45FA4: ldr x0, [x19, #0x70]
+   main+0xE45FA8: bl #0xe4c950
+   main+0xE45FAC: mov w20, w0
+   main+0xE45FB0: ldr x0, [x19, #0x70]
+   main+0xE45FB4: bl #0xe485f0
+   main+0xE45FB8: tbnz w20, #0, #0xe45fe4
+   main+0xE45FBC: tbnz w0, #0, #0xe45fe4",direct_B_tail_call_NOT_shiny_proof
+PID_Set,0xE57350,0xE46020,"   main+0xE45FF8: mov w20, w0
+   main+0xE45FFC: ldr x0, [x19, #0x70]
+   main+0xE46000: bl #0xe4dbe0
+   main+0xE46004: mov w1, w0
+   main+0xE46008: mov w0, w20
+   main+0xE4600C: bl #0xe5d21c
+   main+0xE46010: mov w1, w0
+   main+0xE46014: ldr x0, [x19, #0x70]
+   main+0xE46018: ldp x20, x19, [sp, #0x10]
+   main+0xE4601C: ldp x29, x30, [sp], #0x20
+>> main+0xE46020: b #0xe57350
+   main+0xE46024: stp x29, x30, [sp, #-0x40]!
+   main+0xE46028: str x23, [sp, #0x10]
+   main+0xE4602C: stp x22, x21, [sp, #0x20]
+   main+0xE46030: stp x20, x19, [sp, #0x30]
+   main+0xE46034: mov x29, sp
+   main+0xE46038: mov w20, w1
+   main+0xE4603C: mov x19, x0
+   main+0xE46040: bl #0x3f0784
+   main+0xE46044: ldrb w8, [x0, #0x380]
+   main+0xE46048: cbnz w8, #0xe46058
+   main+0xE4604C: ldr x0, [x19, #0x70]
+   main+0xE46050: bl #0xe483b4
+   main+0xE46054: tbz w0, #0, #0xe4610c
+   main+0xE46058: mov w8, wzr
+   main+0xE4605C: and w9, w20, #0xff
+   main+0xE46060: cmp w9, #2
+   main+0xE46064: b.hi #0xe460b8",direct_B_tail_call_NOT_shiny_proof
+PID_Set,0xE57350,0xE46108,"   main+0xE460E0: mov w1, w0
+   main+0xE460E4: mov w0, w21
+   main+0xE460E8: mov w2, w20
+   main+0xE460EC: bl #0xe5d284
+   main+0xE460F0: mov w1, w0
+   main+0xE460F4: ldr x0, [x19, #0x70]
+   main+0xE460F8: ldr x23, [sp, #0x10]
+   main+0xE460FC: ldp x20, x19, [sp, #0x30]
+   main+0xE46100: ldp x22, x21, [sp, #0x20]
+   main+0xE46104: ldp x29, x30, [sp], #0x40
+>> main+0xE46108: b #0xe57350
+   main+0xE4610C: ldr x0, [x19, #0x70]
+   main+0xE46110: bl #0xe4c950
+   main+0xE46114: mov w21, w0
+   main+0xE46118: ldr x0, [x19, #0x70]
+   main+0xE4611C: bl #0xe485f0
+   main+0xE46120: orr w8, w21, w0
+   main+0xE46124: and w9, w20, #0xff
+   main+0xE46128: cmp w9, #2
+   main+0xE4612C: b.ls #0xe46068
+   main+0xE46130: b #0xe460b8
+   main+0xE46134: stp x29, x30, [sp, #-0x30]!
+   main+0xE46138: str x21, [sp, #0x10]
+   main+0xE4613C: stp x20, x19, [sp, #0x20]
+   main+0xE46140: mov x29, sp
+   main+0xE46144: mov w19, w1
+   main+0xE46148: mov x20, x0
+   main+0xE4614C: bl #0x3f0784",direct_B_tail_call_NOT_shiny_proof
+Shiny_ModeSetterCandidate,0xE46024,0x2D7008C,"   main+0x2D70064: b #0xe45798
+   main+0x2D70068: ldr x0, [x0, #0x50]
+   main+0x2D7006C: b #0xe3fbb0
+   main+0x2D70070: ldr x0, [x0, #0x50]
+   main+0x2D70074: b #0xe457f4
+   main+0x2D70078: ldr x0, [x0, #0x50]
+   main+0x2D7007C: b #0xe45f74
+   main+0x2D70080: ldr x0, [x0, #0x50]
+   main+0x2D70084: b #0xe45f7c
+   main+0x2D70088: ldr x0, [x0, #0x50]
+>> main+0x2D7008C: b #0xe46024
+   main+0x2D70090: ldrb w0, [x0, #0x5a]
+   main+0x2D70094: ret 
+   main+0x2D70098: strb w1, [x0, #0x58]
+   main+0x2D7009C: ret 
+   main+0x2D700A0: strb w1, [x0, #0x59]
+   main+0x2D700A4: ret 
+   main+0x2D700A8: strb w1, [x0, #0x5a]
+   main+0x2D700AC: ret 
+   main+0x2D700B0: ldr x0, [x0, #0x50]
+   main+0x2D700B4: b #0xe43dec
+   main+0x2D700B8: ldr x0, [x0, #0x50]
+   main+0x2D700BC: b #0xe43df4
+   main+0x2D700C0: ldr x0, [x0, #0x50]
+   main+0x2D700C4: b #0x89f418
+   main+0x2D700C8: ldr x0, [x0, #0x50]
+   main+0x2D700CC: b #0xe43e68
+   main+0x2D700D0: ldr x0, [x0, #0x50]",direct_B_tail_call_NOT_shiny_proof
+Shiny_ModeSetterCandidate,0xE46024,0x2D755E4,"   main+0x2D755BC: b #0xf464
+   main+0x2D755C0: ldr x0, [x0, #0x50]
+   main+0x2D755C4: b #0xe45f74
+   main+0x2D755C8: ldr x0, [x0, #0x50]
+   main+0x2D755CC: b #0xc32cbc
+   main+0x2D755D0: ldr x0, [x0, #0x50]
+   main+0x2D755D4: b #0xe45f7c
+   main+0x2D755D8: ldr x0, [x0, #0x50]
+   main+0x2D755DC: b #0x55bd3c
+   main+0x2D755E0: ldr x0, [x0, #0x50]
+>> main+0x2D755E4: b #0xe46024
+   main+0x2D755E8: ldr x0, [x0, #0x50]
+   main+0x2D755EC: b #0x68ad9c
+   main+0x2D755F0: ldr x0, [x0, #0x50]
+   main+0x2D755F4: b #0xb8dc70
+   main+0x2D755F8: ldr x0, [x0, #0x50]
+   main+0x2D755FC: b #0x68ad8c
+   main+0x2D75600: ldr x0, [x0, #0x50]
+   main+0x2D75604: b #0x2de214
+   main+0x2D75608: ldrb w0, [x0, #0x64]
+   main+0x2D7560C: ret 
+   main+0x2D75610: ldrb w0, [x0, #0x65]
+   main+0x2D75614: ret 
+   main+0x2D75618: ldrb w0, [x0, #0x66]
+   main+0x2D7561C: ret 
+   main+0x2D75620: ldr x0, [x0, #0x50]
+   main+0x2D75624: b #0x53dd6c
+   main+0x2D75628: ldr x0, [x0, #0x50]",direct_B_tail_call_NOT_shiny_proof
+Shiny_ModeCheckCandidate,0xE45F7C,0x2D70084,"   main+0x2D7005C: bl #0x3160640
+   main+0x2D70060: ldr x0, [x0, #0x50]
+   main+0x2D70064: b #0xe45798
+   main+0x2D70068: ldr x0, [x0, #0x50]
+   main+0x2D7006C: b #0xe3fbb0
+   main+0x2D70070: ldr x0, [x0, #0x50]
+   main+0x2D70074: b #0xe457f4
+   main+0x2D70078: ldr x0, [x0, #0x50]
+   main+0x2D7007C: b #0xe45f74
+   main+0x2D70080: ldr x0, [x0, #0x50]
+>> main+0x2D70084: b #0xe45f7c
+   main+0x2D70088: ldr x0, [x0, #0x50]
+   main+0x2D7008C: b #0xe46024
+   main+0x2D70090: ldrb w0, [x0, #0x5a]
+   main+0x2D70094: ret 
+   main+0x2D70098: strb w1, [x0, #0x58]
+   main+0x2D7009C: ret 
+   main+0x2D700A0: strb w1, [x0, #0x59]
+   main+0x2D700A4: ret 
+   main+0x2D700A8: strb w1, [x0, #0x5a]
+   main+0x2D700AC: ret 
+   main+0x2D700B0: ldr x0, [x0, #0x50]
+   main+0x2D700B4: b #0xe43dec
+   main+0x2D700B8: ldr x0, [x0, #0x50]
+   main+0x2D700BC: b #0xe43df4
+   main+0x2D700C0: ldr x0, [x0, #0x50]
+   main+0x2D700C4: b #0x89f418
+   main+0x2D700C8: ldr x0, [x0, #0x50]",direct_B_tail_call_NOT_shiny_proof
+Shiny_ModeCheckCandidate,0xE45F7C,0x2D755D4,"   main+0x2D755AC: b #0x2c2840
+   main+0x2D755B0: ldr x0, [x0, #0x50]
+   main+0x2D755B4: b #0xe457f4
+   main+0x2D755B8: ldr x0, [x0, #0x50]
+   main+0x2D755BC: b #0xf464
+   main+0x2D755C0: ldr x0, [x0, #0x50]
+   main+0x2D755C4: b #0xe45f74
+   main+0x2D755C8: ldr x0, [x0, #0x50]
+   main+0x2D755CC: b #0xc32cbc
+   main+0x2D755D0: ldr x0, [x0, #0x50]
+>> main+0x2D755D4: b #0xe45f7c
+   main+0x2D755D8: ldr x0, [x0, #0x50]
+   main+0x2D755DC: b #0x55bd3c
+   main+0x2D755E0: ldr x0, [x0, #0x50]
+   main+0x2D755E4: b #0xe46024
+   main+0x2D755E8: ldr x0, [x0, #0x50]
+   main+0x2D755EC: b #0x68ad9c
+   main+0x2D755F0: ldr x0, [x0, #0x50]
+   main+0x2D755F4: b #0xb8dc70
+   main+0x2D755F8: ldr x0, [x0, #0x50]
+   main+0x2D755FC: b #0x68ad8c
+   main+0x2D75600: ldr x0, [x0, #0x50]
+   main+0x2D75604: b #0x2de214
+   main+0x2D75608: ldrb w0, [x0, #0x64]
+   main+0x2D7560C: ret 
+   main+0x2D75610: ldrb w0, [x0, #0x65]
+   main+0x2D75614: ret 
+   main+0x2D75618: ldrb w0, [x0, #0x66]",direct_B_tail_call_NOT_shiny_proof

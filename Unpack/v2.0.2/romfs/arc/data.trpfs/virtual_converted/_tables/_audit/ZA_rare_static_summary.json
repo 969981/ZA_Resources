@@ -1,0 +1,155 @@
+{
+  "version": "2.0.2",
+  "evidence": "static encounter BFBS decode",
+  "status": "shiny-lock unknown / runtime branch not yet located",
+  "encounterTotal": 1966,
+  "rareGroups": [
+    {
+      "rareHex": "0x1FFFFFFF",
+      "count": 281,
+      "highNibble": 1,
+      "low28MaskHex": "0xFFFFFFF"
+    },
+    {
+      "rareHex": "0x2FFFFFFF",
+      "count": 1,
+      "highNibble": 2,
+      "low28MaskHex": "0xFFFFFFF"
+    },
+    {
+      "rareHex": "0x3FFFFFFF",
+      "count": 1684,
+      "highNibble": 3,
+      "low28MaskHex": "0xFFFFFFF"
+    }
+  ],
+  "selectedCaseIds": [
+    "sub_119_diancie",
+    "sub_120_mewtwo",
+    "m10_x",
+    "m10_y",
+    "m04_zygarde10",
+    "ect_boss_0718_01",
+    "ect_a0102_w01_v01_z179_Qst074"
+  ],
+  "contextMatrixRows": 13,
+  "eventSpawnerCandidateRows": 8,
+  "contextByNamePrefixOnly": [
+    {
+      "namePrefixGroup": "boss_battle_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 100,
+      "spawnerReferences": 98
+    },
+    {
+      "namePrefixGroup": "boss_config_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 44,
+      "spawnerReferences": 40
+    },
+    {
+      "namePrefixGroup": "dimension_named",
+      "rareHex": "0x3FFFFFFF",
+      "encounterRecords": 503,
+      "spawnerReferences": 1444
+    },
+    {
+      "namePrefixGroup": "dimension_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 5,
+      "spawnerReferences": 5
+    },
+    {
+      "namePrefixGroup": "other_named",
+      "rareHex": "0x3FFFFFFF",
+      "encounterRecords": 2,
+      "spawnerReferences": 2
+    },
+    {
+      "namePrefixGroup": "other_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 55,
+      "spawnerReferences": 54
+    },
+    {
+      "namePrefixGroup": "outzone_named",
+      "rareHex": "0x3FFFFFFF",
+      "encounterRecords": 904,
+      "spawnerReferences": 932
+    },
+    {
+      "namePrefixGroup": "outzone_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 1,
+      "spawnerReferences": 1
+    },
+    {
+      "namePrefixGroup": "side_quest_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 46,
+      "spawnerReferences": 45
+    },
+    {
+      "namePrefixGroup": "story_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 24,
+      "spawnerReferences": 24
+    },
+    {
+      "namePrefixGroup": "wildzone_named",
+      "rareHex": "0x3FFFFFFF",
+      "encounterRecords": 275,
+      "spawnerReferences": 615
+    },
+    {
+      "namePrefixGroup": "wildzone_named",
+      "rareHex": "0x1FFFFFFF",
+      "encounterRecords": 6,
+      "spawnerReferences": 7
+    },
+    {
+      "namePrefixGroup": "wildzone_named",
+      "rareHex": "0x2FFFFFFF",
+      "encounterRecords": 1,
+      "spawnerReferences": 1
+    }
+  ],
+  "specialEventSpawnerEvidence": [
+    {
+      "encounterId": "ect_boss_0718_01",
+      "spawnerRefs": 0,
+      "spawnerIds": ""
+    },
+    {
+      "encounterId": "m04_zygarde10",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_chapter4_01"
+    },
+    {
+      "encounterId": "m10_x",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_chapter10_X"
+    },
+    {
+      "encounterId": "m10_y",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_chapter10_Y"
+    },
+    {
+      "encounterId": "sub_119_diancie",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_sub119_01"
+    },
+    {
+      "encounterId": "sub_120_mewtwo",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_sub120_01"
+    },
+    {
+      "encounterId": "ect_a0102_w01_v01_z179_Qst074",
+      "spawnerRefs": 1,
+      "spawnerIds": "id_spn_a0102_w01_v01_Qst074"
+    }
+  ],
+  "important": "Rare mode clustering is not shiny-lock proof. No inferred main+RVA."
+}

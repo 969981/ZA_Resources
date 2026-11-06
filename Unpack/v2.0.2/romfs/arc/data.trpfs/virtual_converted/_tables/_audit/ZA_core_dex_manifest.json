@@ -1,0 +1,100 @@
+{
+  "version": "ZA 2.0.2",
+  "language": "Simp_Chinese",
+  "inputs": {
+    "monsname": {
+      "count": 1026,
+      "labelCount": 1027,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/monsname.dat",
+      "datSha256": "177add7af12d1761f2ea79e576ab0c38f36e7b3e12a208285a3cf4090b96134f",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/monsname.tbl",
+      "tblSha256": "9edf13100794a31c1ca67be32515500627d260a4a5d03ac069928cf280da1ec7",
+      "extraMaxLabel": "msg_monsname_max"
+    },
+    "wazaname": {
+      "count": 921,
+      "labelCount": 922,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazaname.dat",
+      "datSha256": "a558c548e0af912b424c2ac14f87151ccc4d7db461fa45fef3f2181f8b3a1af2",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazaname.tbl",
+      "tblSha256": "25eeb4b810c5b1d3396b16b51605a74b89e5437b018219c3bfa58eb2ff5b16ec",
+      "extraMaxLabel": "msg_wazaname_max"
+    },
+    "itemname": {
+      "count": 2685,
+      "labelCount": 2686,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/itemname.dat",
+      "datSha256": "80719bbece7cef742ff01ffc858132e8582fd74250fa6e31fa6ef7b8916b5dea",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/itemname.tbl",
+      "tblSha256": "d33fab77f4402a5a9ea38a96c20f534eb8611d40894b7b8604975e89a18e204c",
+      "extraMaxLabel": "msg_itemname_max"
+    },
+    "place_name": {
+      "count": 284,
+      "labelCount": 285,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/place_name.dat",
+      "datSha256": "720a8bc723a70b86b48dd2eaf547e2f757cb583b452ff4acdb4919db29e796ce",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/place_name.tbl",
+      "tblSha256": "0b580b8b20833cc24903321f970f10be4f18ae91cdfe8cd77b18071c62d0131c",
+      "extraMaxLabel": "msg_place_name_max"
+    },
+    "zukan_comment_A": {
+      "count": 1466,
+      "labelCount": 1467,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_A.dat",
+      "datSha256": "df76922aec3b9594bfdf40e9425d0c63d916ff9e6a2e1045e9aab4a3491ba3fa",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_A.tbl",
+      "tblSha256": "15394cd9c394be8ea38b3c00c1c54d2a1180201e116a0e0d90d7e3728898b4aa",
+      "extraMaxLabel": "msg_zukan_comment_A_max"
+    },
+    "zukan_comment_B": {
+      "count": 1412,
+      "labelCount": 1413,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_B.dat",
+      "datSha256": "d25bffddfab79c7763940e97f8119c1badf5d14d73d6558321bac41c9c60be3b",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_B.tbl",
+      "tblSha256": "ec85feb6e14fe98d08bcf73164b34882a6183f46efad62272724e40cf5fcf1d5",
+      "extraMaxLabel": "msg_zukan_comment_B_max"
+    },
+    "wazainfo": {
+      "count": 922,
+      "labelCount": 923,
+      "sourceDat": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazainfo.dat",
+      "datSha256": "41974fec05d6b6b100482094e38a870565bc7a4b52f4cd628d02b22ef39969f6",
+      "sourceTbl": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazainfo.tbl",
+      "tblSha256": "3dbb857d49af3f40aaff928a973a599083329c211187883e2bebf345f0a3b1f4",
+      "extraMaxLabel": "msg_wazainfo_max"
+    },
+    "waza_array": {
+      "source": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/waza_array.bin",
+      "sha256": "247d7ebc82decb67019c52535a2b5f04d3e9179b925b5532eb4b5ea9e351b245",
+      "totalBytes": 91924,
+      "moveRecords": 902,
+      "distinctMoveIds": 902,
+      "fieldSemantics": "calibrated by independent known moves, not full schema"
+    },
+    "personal_array": {
+      "source": "Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin",
+      "sha256": "7b9bee08230d343f662540c52a9f126de8e5f02e80e482298b8e8f3683cea332",
+      "totalBytes": 384260,
+      "rows": 1445,
+      "presentForms": 594,
+      "distinctPresentSpecies": 364,
+      "learnsetEntries": 20234
+    }
+  },
+  "notes": [
+    "Message ID mapping validated from .tbl label order.",
+    "Form learnsets from personal field 25; 253/254 are special codes.",
+    "Only present flag 1 means personal entry present in current game."
+  ],
+  "outputs": {
+    "moveStatsRows": 902,
+    "moveRawFieldRows": 902,
+    "speciesTranslated": 1026,
+    "moveTranslated": 921,
+    "levelupMoves": 20234,
+    "learnLevel253": 412,
+    "learnLevel254": 294
+  }
+}
