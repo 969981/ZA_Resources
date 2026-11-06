@@ -231,9 +231,13 @@ def scan(elf: ELF, limit: int):
                 idx += 1
     exact_never = [{k:v for k,v in h.items() if k != "pc_int"}
                    for h in hits if h["immediate"] == "0x1FFFFFFF"]
+    anti_shiny_xor_candidates = [{k:v for k,v in h.items() if k != "pc_int"}
+                                   for h in hits if h["immediate"] == "0x10000000" and h["operation"] == "EOR" and h["width"] == 32]
     return {"executable_segments": len(regions), "logical_immediate_counts": dict(opcounts),
             "all_matching_instruction_count": len(hits), "candidate_groups_count": len(groups),
             "exact_never_instruction_sites": exact_never,
+            "anti_shiny_xor_candidates": anti_shiny_xor_candidates,
+            "anti_shiny_candidates_explanation": "EOR W*,W*,#0x10000000 is only an opcode-pattern clue from PKHeX LumioseRNG.AntiShiny. It does not prove a PID source or shiny state.",
             "ranked_groups": candidates, "data_literal_count": len(literals),
             "data_literals": literals[:200],
             "warnings": ["AArch64 logical-immediate use is not proof of Rare field use",
