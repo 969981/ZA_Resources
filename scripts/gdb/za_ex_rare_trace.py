@@ -36,6 +36,9 @@ SITES={
     "mode_save":0x656170,
     "builder_before_generator":0x656298,
     "native_generator_entry":0x656F80,
+    "rare_mode_dispatch_never":0x6570CC,
+    "rare_mode_dispatch_always":0x6570D4,
+    "rare_mode_dispatch_random":0x6570E0,
     "native_mode_dispatch":0x657078,
     "native_random_xor_check":0x657124,
     "native_never_antishiny_call":0x657168,
@@ -104,6 +107,8 @@ class TracePoint(gdb.Breakpoint):
                 extra["descriptor_address"]=p
                 extra["descriptor_plus68_u32"]=read_uint(p+0x68,4)
                 extra["descriptor_plus6c_u32"]=read_uint(p+0x6c,4)
+                extra["descriptor_plus48_u16_uninterpreted"]=read_uint(p+0x48,2)
+                extra["descriptor_plus4a_u16_uninterpreted"]=read_uint(p+0x4a,2)
             if name in ("rare_to_mode","mode_override","mode_save"):
                 extra["mode_working_x8"]=reg("x8")
         elif name in ("desc_always_mode_load","desc_always_mode_compare"):
@@ -151,7 +156,10 @@ class Start(gdb.Command):
         argv=gdb.string_to_argv(arg)
         if len(argv)!=3:
             raise gdb.GdbError("Usage: za_trace_start 0xBIAS EX1|EX2|CONTROL out.jsonl")
-        bias=int(argv[0],0)
+        try:
+            bias=int(argv[0],0)
+        except ValueError:
+            bias=int(gdb.parse_and_eval(argv[0]))  # supports $za_bias or a GDB expression
         label=argv[1].upper()
         if label not in ("EX1","EX2","CONTROL"):
             raise gdb.GdbError("Label must be EX1, EX2, or CONTROL")
