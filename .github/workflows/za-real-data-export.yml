@@ -9,6 +9,7 @@ on:
       - scripts/Probe-ZA-RawEXL.py
       - scripts/Publish-ZA-CSV.py
       - scripts/Generate-ZA-PokemonObsidian.py
+      - scripts/Export-ZA-CoreDex.py
       - .github/workflows/za-real-data-export.yml
   pull_request:
     paths:
@@ -38,6 +39,15 @@ jobs:
             /scripts/Probe-ZA-RawEXL.py
             /scripts/Publish-ZA-CSV.py
             /scripts/Generate-ZA-PokemonObsidian.py
+            /scripts/Export-ZA-CoreDex.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/monsname.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazaname.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/itemname.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/place_name.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_A.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/zukan_comment_B.*
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_message/dat/Simp_Chinese/common/wazainfo.*
             /docs/obsidian/ZA-v2.0.2/宝可梦档案/**
             /docs/obsidian/ZA-v2.0.2/22-宝可梦数据档案索引.md
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/_tables/**
@@ -96,7 +106,8 @@ jobs:
           set -euo pipefail
           python -m py_compile scripts/Publish-ZA-CSV.py
           python -u scripts/Publish-ZA-CSV.py --repo . --input .za-work/za-data --preview-rows 100
-          python -m py_compile scripts/Generate-ZA-PokemonObsidian.py
+          python -m py_compile scripts/Export-ZA-CoreDex.py scripts/Generate-ZA-PokemonObsidian.py
+          python -u scripts/Export-ZA-CoreDex.py --repo .
           python -u scripts/Generate-ZA-PokemonObsidian.py --repo .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
