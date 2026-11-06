@@ -45,7 +45,7 @@ def main():
     parser.add_argument("--elf",type=Path,default=ELF)
     parser.add_argument("--report",type=Path,default=REPORT)
     parser.add_argument("--output",type=Path,default=OUTPUT)
-    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor","pid-shiny-callers","native-state-builder-callers"],default="exact-never")
+    parser.add_argument("--site-kind",choices=["exact-never","anti-shiny-xor","pid-shiny-callers","native-state-builder-callers","descriptor-origin"],default="exact-never")
     parser.add_argument("--pid-report",type=Path,default=PID_REPORT)
     parser.add_argument("--before",type=lambda x:int(x,0),default=0x100)
     parser.add_argument("--after",type=lambda x:int(x,0),default=0x100)
@@ -55,7 +55,18 @@ def main():
     actual=hashlib.sha256(raw).hexdigest()
     if actual!=report["elf_sha256"]:
         raise SystemExit("ELF and report SHA mismatch")
-    if p.site_kind in ("pid-shiny-callers","native-state-builder-callers"):
+    if p.site_kind=="descriptor-origin":
+        # Exact native callees of several descriptor-producing caller sites.
+        # Function identity is unverified; this only records actual code windows.
+        pcs={"pre_generator_data_builder":0xBEF804,
+             "pre_spawner_descriptor_builder":0x655E74,
+             "shared_descriptor_lookup":0x5E7AD4,
+             "native_mode_state_builder":0x656060}
+        sites=[{"pc":f"0x{pc:X}","instruction":"native_entry_candidate",
+                "file_offset":"VA-to-ELF-segment-mapped",
+                "operation":"STATIC_FUNCTION_WINDOW",
+                "immediate":name} for name,pc in pcs.items()]
+    elif p.site_kind in ("pid-shiny-callers","native-state-builder-callers"):
         calls=json.loads(p.pid_report.read_text(encoding="utf-8"))
         if calls["source_sha256"] != actual:
             raise SystemExit("PID callsite report SHA mismatch")
@@ -80,7 +91,7 @@ def main():
     md.detail=False
     segs=list(segments(raw))
     lines=[
-        "# Z-A v2.0.2 "+({"exact-never":"Rare mask 0x1FFFFFFF","anti-shiny-xor":"AntiShiny XOR 0x10000000","pid-shiny-callers":"AntiShiny and PID generator callers","native-state-builder-callers":"Inputs to native shiny-mode state builder 0x656060"}[p.site_kind])+" exact opcode contexts",
+        "# Z-A v2.0.2 "+({"exact-never":"Rare mask 0x1FFFFFFF","anti-shiny-xor":"AntiShiny XOR 0x10000000","pid-shiny-callers":"AntiShiny and PID generator callers","native-state-builder-callers":"Inputs to native shiny-mode state builder 0x656060","descriptor-origin":"Potential origin/copy functions before native Rare +0x68"}[p.site_kind])+" exact opcode contexts",
         "",
         "> [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.",
         "",
