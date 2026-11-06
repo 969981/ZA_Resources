@@ -6,6 +6,8 @@ on:
       - docs/za-v2.0.2-obsidian-extraction
     paths:
       - scripts/Trace-ZA-Rare-ARM64.py
+      - scripts/gdb/za_v202_pid_shiny_trace.py
+      - scripts/tests/test_za_shiny_arm64_arithmetic.py
       - .github/workflows/za-rare-arm64-audit.yml
 permissions:
   contents: write
@@ -25,6 +27,8 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/Trace-ZA-Rare-ARM64.py
+            /scripts/gdb/za_v202_pid_shiny_trace.py
+            /scripts/tests/test_za_shiny_arm64_arithmetic.py
             /scripts/Export-ZA-Databases.py
             /Unpack/v2.0.2/exefs/exefs-manifest.json
             /Unpack/v2.0.2/exefs/main/main.elf
@@ -39,7 +43,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python -m py_compile scripts/Trace-ZA-Rare-ARM64.py
+          python -m py_compile scripts/Trace-ZA-Rare-ARM64.py scripts/gdb/za_v202_pid_shiny_trace.py scripts/tests/test_za_shiny_arm64_arithmetic.py
+          python -m unittest discover -s scripts/tests -p 'test_za_shiny_arm64_arithmetic.py' -v
           python -u scripts/Trace-ZA-Rare-ARM64.py --repo .
       - name: Save verified static research to branch
         shell: bash
