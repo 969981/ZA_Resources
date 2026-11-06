@@ -71,7 +71,7 @@ def main():
         return '\n'.join(('>>' if x.address==at else '  ')+
                          f' main+0x{x.address:X}: {x.mnemonic} {x.op_str}'
                          for x in md.disasm(part,start))
-    reverse={v:[] for v in FUNCTIONS.values()};shifts=[];literal={v:[] for v in (0x1FFFFFFF,0x2FFFFFFF,0x3FFFFFFF)}
+    reverse={v:[] for v in FUNCTIONS.values()};tails={v:[] for v in FUNCTIONS.values()};msb_tests=[];shifts=[];literal={v:[] for v in (0x1FFFFFFF,0x2FFFFFFF,0x3FFFFFFF)}
     for i,(w,) in enumerate(struct.iter_unpack('<I',code)):
         pc=textva+i*4
         if w&0xFC000000==0x94000000:
@@ -79,6 +79,16 @@ def main():
             if imm&(1<<25):imm-=1<<26
             target=pc+imm*4
             if target in reverse:reverse[target].append(pc)
+        # B imm26: compiler uses tail-call B as well as BL to setter helpers.
+        if w&0xFC000000==0x14000000:
+            imm=w&0x03FFFFFF
+            if imm&(1<<25):imm-=1<<26
+            target=pc+imm*4
+            if target in tails:tails[target].append(pc)
+        # TBZ/TBNZ of high rare mode bits 28..31, candidate only.
+        if w&0x7E000000==0x36000000:
+            bit=((w>>31)&1)*32+((w>>19)&31)
+            if bit in (28,29,30,31):msb_tests.append((pc,bit))
         if w&0x7F800000==0x53000000:
             if (w>>16)&63==28 and (w>>10)&63 in (31,63):shifts.append(pc)
         if w in literal:literal[w].append(pc)
@@ -100,12 +110,44 @@ def main():
         ['reference','targetRva','blCallsiteRva','context','classification'],
         [[name,f'0x{target:X}',f'0x{pc:X}',context(pc),'direct_BL_not_shiny_proof']
          for name,target in FUNCTIONS.items() for pc in reverse[target][:5000]])
+    csvwrite(out/'pid-tail-branches.csv',
+        ['target','targetRva','tailBranchRva','context','classification'],
+        [[name,f'0x{target:X}',f'0x{pc:X}',context(pc),
+          'direct_B_tail_call_NOT_shiny_proof']
+         for name,target in FUNCTIONS.items() for pc in tails[target]])
+    ranked_tests=sorted(msb_tests,
+        key=lambda x:(abs(x[0]-0xE45FD0),x[0]))
+    csvwrite(out/'rare-highbit-tests.csv',
+        ['rva','bitIndex','distanceFromKnownPIDTIDChecksBytes','context','classification'],
+        [[f'0x{pc:X}',bit,abs(pc-0xE45FD0),context(pc),
+          'TBZ_TBNZ_high_bit_candidate_NOT_rare_proof']
+         for pc,bit in ranked_tests[:250]])
+    windows=[
+       ('PID_TID_check_neighborhood',0xE45F70,0xE46190),
+       ('PID_TID_shiny_math_helpers',0xE5D1E8,0xE5D2BC),
+       ('PID_creation_setter_context',0xE3EB20,0xE3EC30),
+       ('PID_setter_entry',0xE57350,0xE57434),
+    ]
+    trace=['# Z-A 2.0.2 PID/TID/闪光相关候选函数反汇编','',
+           '> 所有指令来自与 manifest SHA 匹配的 main.elf；'
+           '以下函数名为研究用标签，不保证全是生成或锁闪函数。','']
+    for label,a,b in windows:
+        if a<textva or b>end:continue
+        trace += ['## '+label+f'  main+0x{a:X}..0x{b:X}','',
+                  '~~~asm']
+        trace += [f'main+0x{x.address:X}: {x.mnemonic} {x.op_str}'
+                  for x in md.disasm(code[a-textva:b-textva],a)]
+        trace += ['~~~','']
+    (out/'pid-shiny-function-windows.md').write_text(
+        '\n'.join(trace),encoding='utf-8')
     schema=fields(root)
     if not schema:raise ValueError('No rare named field in actual BFBS')
     info={'version':'2.0.2','buildId':m['modules']['main']['buildIdHex'],
           'elfSha256':digest,'textStartRva':f'0x{textva:X}', 'textEndRva':f'0x{end:X}',
           'textBytes':len(code),'schemaRareFields':schema,
           'directBlCounts':{name:len(reverse[target]) for name,target in FUNCTIONS.items()},
+          'highBit28to31TBZCandidates':len(msb_tests),
+          'directTailBranchCounts':{name:len(tails[target]) for name,target in FUNCTIONS.items()},
           'highNibbleExtractCandidates':len(shifts),'exportedCandidates':min(500,len(shifts)),
           'exactWordHitsInCode':{f'0x{word:X}':[f'0x{x:X}' for x in sites[:30]] for word,sites in literal.items()},
           'externalFunctionReferencesOnly':'https://decryptu.github.io/pokeldn/za.html',
@@ -126,6 +168,11 @@ def main():
                 '| 入口 RVA | 直接 BL 次数 |','|---|---:|']
     mdlines += [f'| {name} main+0x{target:X} | {len(reverse[target])} |'
                 for name,target in FUNCTIONS.items()]
+    mdlines += ['', '## ARM64 B 尾调用与高位测试','',
+                f'- 直接 B 尾调用 PID_Set：{len(tails[FUNCTIONS["PID_Set"]])} 个。',
+                f'- TBZ/TBNZ 检查 28–31 高位：{len(msb_tests)} 处。',
+                '- 已导出 pid-tail-branches.csv、rare-highbit-tests.csv 与 pid-shiny-function-windows.md。',
+                '']
     mdlines += ['', '## 优先进一步人工核对的高位候选','',
                 '| 指令 RVA | 分数（启发式） | 最近 PID Set BL 距离 |','|---|---:|---:|']
     mdlines += [f'| main+0x{pc:X} | {score} | {dist} |'
