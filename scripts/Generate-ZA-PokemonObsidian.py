@@ -41,7 +41,8 @@ def intv(v, fallback=0):
         return fallback
 
 
-def skills(raw):
+def skills(raw, names=None):
+    names = names or {}
     try:
         x = json.loads(raw or "{}")
     except (json.JSONDecodeError, TypeError):
@@ -54,7 +55,9 @@ def skills(raw):
         if isinstance(v, dict):
             v = v.get("wazaId")
         if v not in (None, "", 0):
-            values.append(str(v))
+            num = intv(v)
+            label = names.get(num, "")
+            values.append(f"{num}({label})" if label else str(num))
     return ", ".join(values) or "未显式配置"
 
 
@@ -75,12 +78,32 @@ def generate(repo, output):
     position = read(data / "maps/ZA_spawn_points.csv")
     trainer = read(data / "trainers/ZA_trainer_parties.csv")
     oyabun = read(data / "battle/oyabun_waza.records.csv")
+    species_names = {int(r["id"]): r["zhNameOrText"]
+                     for r in read(data / "names/ZA_species_names_zh.csv") if r["id"] != ""}
+    move_names = {int(r["id"]): r["zhNameOrText"]
+                  for r in read(data / "names/ZA_move_names_zh.csv") if r["id"] != ""}
+    place_names = {r["label"]: r["zhNameOrText"]
+                   for r in read(data / "names/ZA_place_names_zh.csv")}
+    zones = {r["zoneID"]: r["placeNameKey"] for r in read(data / "maps/ZA_zones.csv")}
+    native_learnsets = read(data / "battle/ZA_levelup_learnsets_zh.csv")
+    comments_a = read(data / "pokedex/ZA_pokedex_comment_A_zh.csv")
+    comments_b = read(data / "pokedex/ZA_pokedex_comment_B_zh.csv")
     audit = json.loads((data / "_audit/ZA_relation_summary.json").read_text("utf-8"))
     if len(encounter) != audit["encounterRecords"] or not audit["allReferencesResolved"]:
         raise ValueError("Encounter audit or matching incomplete")
     if len(joined) != audit["spawnerEncounterReferences"]:
         raise ValueError("Spawner join count mismatch")
     grouped = collections.defaultdict(lambda: {"enc": [], "spawn": [], "trainer": [], "boss": []})
+    learn_by_species = collections.defaultdict(list)
+    comments_by_species = collections.defaultdict(list)
+    import re
+    for row in native_learnsets:
+        learn_by_species[row["speciesId"]].append(row)
+    for row in comments_a + comments_b:
+        match = re.fullmatch(r"ZKN_COMMENT_[AB]_(\d+)_(\d+)", row["label"])
+        if match and row["zhNameOrText"].strip():
+            comments_by_species[str(int(match.group(1)))].append(row)
+
     loc = collections.defaultdict(list)
     for r in encounter:
         grouped[r["speciesId"]]["enc"].append(r)
@@ -122,13 +145,17 @@ def generate(repo, output):
         zones = sorted({r["zoneIdInferredFromSpawnerName"] for r in spawners
                         if r["zoneIdInferredFromSpawnerName"]})
         file = f"No-{int(species):04d}"
+        zh_name = species_names.get(int(species), "")
+        native_moves = learn_by_species.get(species, [])
         out = [
-            "---", f"speciesId: {int(species)}", 'zaVersion: "2.0.2"',
+            "---", f"speciesId: {int(species)}",
+            "speciesNameZh: " + json.dumps(zh_name, ensure_ascii=False),
+            'zaVersion: "2.0.2"',
             'dataOrigin: "encounter-devNo"', 'pokedexMembership: "unknown"',
             'shinyLocked: "unknown"', f"encounterConfigCount: {len(config)}",
             f"spawnerReferenceCount: {len(spawners)}",
             f"trainerSlotCount: {len(parties)}", "---",
-            f"# 宝可梦原始编号 {species}", "",
+            f"# {zh_name or '未知名称'} · devNo {species}", "",
             "[[22-宝可梦数据档案索引|返回总索引]] | "
             "[[13-遭遇表逐列解读]] | [[14-生成器刷新与坐标]]", "",
             "> [!warning] 此卡片是数据字典，不是游戏玩法图鉴",
@@ -136,6 +163,10 @@ def generate(repo, output):
             "部分区域仅按名称推断，不等于正式中文出没地点。"
             "rareRaw 不是已确认的锁闪信息。", "",
             "## 静态摘要", "",
+            "- 真实简体中文名：" + (zh_name or "本地文本表无对应记录") +
+            "（来自 monsname.dat 的 MONSNAME_编号 标签）。",
+            f"- 原生 Personal 里的招式学习记录：**{len(native_moves)}** 条"
+            "（含形态/特殊学习编码；不能直接当成角色等级）。",
             f"- **遭遇配置** {len(config)}；**生成器引用** {len(spawners)}；"
             f"**训练家队伍槽** {len(parties)}。",
             f"- 跨配置等级包络：**{min_lv}–{max_lv}**；"
@@ -155,11 +186,22 @@ def generate(repo, output):
             enc_rows.append([
                 q(r["encounterId"]), r["formNo"] or "未显式",
                 f'{r["minLevel"]}–{r["maxLevel"]}', iv,
-                skills(r["wazaListJson"]), r["rareRaw"] or "未显式",
+                skills(r["wazaListJson"], move_names), r["rareRaw"] or "未显式",
                 r["oyabunProbability"] or "未显式",
             ])
         table(out, ["encounterId", "form", "级别范围", "IV（HP/Atk/Def/Spa/Spd/Spe）",
                     "预置 wazaId", "rareRaw", "头目原值"], enc_rows)
+        out += [
+            "## 原生 Personal：完整的招式学习向量", "",
+            "来自 avalon/data/personal_array.bin 的 FlatBuffers field 25；"
+            "moveId、learnLevelRaw、unlockLevelRaw 均直接从 ROM 解码。"
+            "253/254 为特殊编码，不是普通等级；present=1 表示此形态可用标志。", "",
+        ]
+        table(out, ["formNo", "present", "moveId", "招式中文",
+                    "学习等级原值", "解锁等级原值", "类别"],
+              [[r["formNo"], r["personalPresent"], r["moveId"], r["moveZh"],
+                r["learnLevelRaw"], r["unlockLevelRaw"], r["learnCategory"]]
+               for r in native_moves])
         out += [
             "## 对应生成器、区域与位置", "",
             "一行表示一条 spawner→encounter 引用；区域来源是名字启发式，"
@@ -176,7 +218,9 @@ def generate(repo, output):
                         pass
             sp_rows.append([
                 q(r["spawnerId"]), q(r["encounterId"]),
-                r["zoneIdInferredFromSpawnerName"] or "未知",
+                ((r["zoneIdInferredFromSpawnerName"] or "未知") + " / " +
+                 place_names.get(zones.get(r["zoneIdInferredFromSpawnerName"], ""), "")
+                 if r["zoneIdInferredFromSpawnerName"] else "未知"),
                 f'{r["minLevel"]}–{r["maxLevel"]}',
                 "; ".join(coords) or "未找到实值",
             ])
@@ -187,7 +231,7 @@ def generate(repo, output):
             "这部分是训练家配置，不代表野生遭遇或可捕获。", "",
         ]
         partyrows = [[q(p["trainerId"]), p["slot"], p["level"] or "未显式",
-                      skills(p["movesJson"]), p["rareTypeRaw"] or "未显式"]
+                      skills(p["movesJson"], move_names), p["rareTypeRaw"] or "未显式"]
                      for p in parties]
         table(out, ["trainerId", "槽位", "等级", "显式 wazaId",
                     "rareTypeRaw"], partyrows)
@@ -199,6 +243,17 @@ def generate(repo, output):
                                + ", wazaNo=" + q(v.get("wazaNo", "未显式")))
         else:
             out.append("头目招式表中没有此物种的显式记录；这不代表不可能成为头目。")
+        out += [
+            "", "## Z-A 中文图鉴说明的源标签", "",
+            "下列文字按 ZKN_COMMENT_A/B_{speciesId}_{suffix} 标签匹配；"
+            "后缀不是已验证的图鉴 formNo，不能用它推断正式图鉴排序。", "",
+        ]
+        if comments_by_species.get(species):
+            for row in comments_by_species[species]:
+                out.append("- **" + q(row["label"]) + "**：" +
+                           safe(row["zhNameOrText"]).replace("\\n", " / "))
+        else:
+            out.append("现有 zukan_comment_A/B 无对应的非空中文说明。")
         out += [
             "", "## 数据来源与限制", "",
             "- 原始 encounter：world/ik_data/field/pokemon/encount_data/encount_data/encount_data_array.bin",
@@ -215,7 +270,8 @@ def generate(repo, output):
             seen_buckets.add(bucket)
             index += [f"### {bucket*100:04d}–{bucket*100+99:04d}", ""]
         index.append(f"- [[宝可梦档案/{file}|devNo {species}]]"
-                     f" · 遭遇 {len(config)} · 生成 {len(spawners)} · 队伍槽 {len(parties)}")
+                     f" · {species_names.get(int(species), '未命名')} · 遭遇 {len(config)}"
+                     f" · 生成 {len(spawners)} · 学习 {len(native_moves)} · 队伍槽 {len(parties)}")
     index += ["", "## 数值解释与检索", "",
               "物种编号 devNo 并非已经证明的 Z-A 图鉴内部排序；"
               "EXL 图鉴表的 364 个原始记录仍是 STRUCTURE_ONLY。",
