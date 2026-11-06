@@ -24,3 +24,5 @@ No internal Trinity field maps have been independently validated in this documen
 - [Mega 石与红蓝宝珠交换限制：证据、设计假说与实测路径](za-mega-stone-orb-trade-restrictions.md)
 
 - [ZA 2.0.2 原生道具 535 项实表、92 种 Mega 石和红蓝宝珠对账](za-items-real-data-audit.md) — 完整字段 CSV、中文关联、对照组和复现脚本。
+
+- [ZA v2.0.2 联机交换原生 ELF 静态候选（68 字符串、5 条指令引用）](za-trade-native-candidates.md) — 固定主程序 SHA、证据 TSV 与 GDB 后续对照。
