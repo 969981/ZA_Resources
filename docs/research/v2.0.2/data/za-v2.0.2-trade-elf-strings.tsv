@@ -1,0 +1,69 @@
+module	evidence	token	file_offset_hex	virtual_addr_hex	region	snippet
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x31A89A5	0x31A7FED	.rodata	PartnerExchangeAction
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x31AE5D5	0x31ADC1D	.rodata	TradeMatchingPage
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x31BD707	0x31BCD4F	.rodata	ssl_log_rsa_client_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	TRADE	0x31C46B9	0x31C3D01	.rodata	SYS_UNLOCK_TRADE
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31CFFFE	0x31CF646	.rodata	net_topmenu_trade_10_06
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x31D35F1	0x31D2C39	.rodata	construct_key_exchange_tbs
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31DA33A	0x31D9982	.rodata	trade_my_mons_%s
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31DA34B	0x31D9993	.rodata	trade_opp_mons_%s
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31DABC6	0x31DA20E	.rodata	net_topmenu_trade_10_07
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x31DE4D1	0x31DDB19	.rodata	tls_construct_client_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31F0623	0x31EFC6B	.rodata	net_topmenu_trade_00_05
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x31FB097	0x31FA6DF	.rodata	net_trade
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3205383	0x32049CB	.rodata	ik_message/dat/JPN/common/trade_demo.dat
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32058F7	0x3204F3F	.rodata	exchange_rate
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x320630B	0x3205953	.rodata	net_topmenu_trade_10_01
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x3210967	0x320FFAF	.rodata	BoxExchange
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32111CF	0x3210817	.rodata	net_topmenu_trade_01_02
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x321657B	0x3215BC3	.rodata	PartnerExchange_2
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x321C1D3	0x321B81B	.rodata	TradeMatchingControlView
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32262D9	0x3225921	.rodata	exchange_out
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x3226C57	0x322629F	.rodata	WaitReadyToTradeCoroutine
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3230554	0x322FB9C	.rodata	trade_cnt
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x3230EFE	0x3230546	.rodata	BoxExchangePresenter
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x3230F6F	0x32305B7	.rodata	BoxExchangeLayout
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x3235211	0x3234859	.rodata	unknown key exchange type
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x323703C	0x3236684	.rodata	PlayExchangePartnerOrder_1
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32370C4	0x323670C	.rodata	PartnerExchange
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x3242713	0x3241D5B	.rodata	ExchangePartnerOrder_1
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x324272A	0x3241D72	.rodata	PlayExchangePartnerOrder_2
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3246F5C	0x32465A4	.rodata	ik_demo/sd/sd9130_trade/sd9130_trade.trtml
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x3247AA0	0x32470E8	.rodata	exchange_in
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32485AD	0x3247BF5	.rodata	net_topmenu_trade_10_08
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32488F3	0x3247F3B	.rodata	static const char *boost::detail::ctti<gfa::network::p2p::SequenceSynchronizer<gfa::network::trade::SyncSaveClient::State>::CommandRequest>::n() [T = gfa::network::p2p::SequenceSyn
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32489EE	0x3248036	.rodata	static const char *boost::detail::ctti<gfa::network::p2p::SequenceSynchronizer<gfa::network::trade::SyncSaveClient::State>::CommandSynced>::n() [T = gfa::network::p2p::SequenceSync
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x324DFF4	0x324D63C	.rodata	ExchangePartnerOrder
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x32536BB	0x3252D03	.rodata	static const char *boost::detail::ctti<(anonymous namespace)::CommandCancelTrade>::n() [T = (anonymous namespace)::CommandCancelTrade]
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x325D890	0x325CED8	.rodata	/trade_offer
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x325DF70	0x325D5B8	.rodata	net_topmenu_trade_00_01
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x325E114	0x325D75C	.rodata	net_topmenu_trade_01_01
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3268BF3	0x326823B	.rodata	net_topmenu_trade_00_03
+main	ELF_ALLOCATED_ASCII_STRING	TRADE	0x3273A26	0x327306E	.rodata	SYS_UNLOCK_TRADE_TO_EVO
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3273A4D	0x3273095	.rodata	yy_trade_net
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x327F2EF	0x327E937	.rodata	net_topmenu_trade_00_06
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32846C8	0x3283D10	.rodata	PartnerExchange_1
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x3288F82	0x32885CA	.rodata	BoxTrade
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3289E31	0x3289479	.rodata	net_topmenu_trade_02_01
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x3294734	0x3293D7C	.rodata	BoxExchangeText
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32988F4	0x3297F3C	.rodata	tls_client_key_exchange_post_work
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x3298962	0x3297FAA	.rodata	tls_process_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	holdItem	0x32A9A46	0x32A908E	.rodata	holdItem
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32AAAC3	0x32AA10B	.rodata	net_topmenu_trade_00_02
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32AAC56	0x32AA29E	.rodata	net_topmenu_trade_10_05
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32B5ABE	0x32B5106	.rodata	net_topmenu_trade_00_04
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x32B5F51	0x32B5599	.rodata	static const char *boost::detail::ctti<(anonymous namespace)::CommandConfirmTrade>::n() [T = (anonymous namespace)::CommandConfirmTrade]
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32BF971	0x32BEFB9	.rodata	/trade_reset
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x32C00E0	0x32BF728	.rodata	TradeMatchingTextView
+main	ELF_ALLOCATED_ASCII_STRING	Trade	0x32C00F6	0x32BF73E	.rodata	TradeMatchingLayoutView
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32C3A6F	0x32C30B7	.rodata	ipsec Internet Key Exchange
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32C52F1	0x32C4939	.rodata	ExchangePartnerOrder_2
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32CE600	0x32CDC48	.rodata	tls_construct_server_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32D03D0	0x32CFA18	.rodata	PartnerExchangeAction_1
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32D9B0F	0x32D9157	.rodata	tls_post_process_client_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32DBA7F	0x32DB0C7	.rodata	PlayExchangePartnerOrder
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x32E09B0	0x32DFFF8	.rodata	yy_trade_p2p
+main	ELF_ALLOCATED_ASCII_STRING	Exchange	0x32E6AF1	0x32E6139	.rodata	PartnerExchangeAction_2
+main	ELF_ALLOCATED_ASCII_STRING	exchange	0x32FA692	0x32F9CDA	.rodata	tls_process_client_key_exchange
+main	ELF_ALLOCATED_ASCII_STRING	TRADE	0x33011B5	0x33007FD	.rodata	SYS_TRADE_DECIDE
+main	ELF_ALLOCATED_ASCII_STRING	trade	0x3301BFC	0x3301244	.rodata	net_topmenu_trade_10_09
