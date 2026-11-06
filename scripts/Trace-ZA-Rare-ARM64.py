@@ -205,6 +205,38 @@ def main():
             vtable_summary={'baseRva':f'0x{vtable_base:X}','section':name,
                             'numberOfSlotsChecked':321,'knownFunctionPointers':possible}
             break
+    # ELF may hold vtable function pointers as addends of AArch64 RELA
+    # relocations, not as initialized .data values. Detect R_AARCH64_RELATIVE
+    # entries only when complete r_offset, r_info, r_addend triples match.
+    relocs=[]
+    for name,val in pointer_targets.items():
+        needle=struct.pack('<q',val)
+        start=0
+        while True:
+            k=elf_blob.find(needle,start)
+            if k<0:break
+            if k>=16:
+                r_off,r_info=struct.unpack_from('<QQ',elf_blob,k-16)
+                relocation_type=r_info&0xffffffff
+                sym_index=r_info>>32
+                # 1027 = R_AARCH64_RELATIVE, where addend is load RVA.
+                if relocation_type in (1027,1025,1026) and sym_index==0:
+                    relocs.append({
+                        'targetName':name,'targetRva':f'0x{val:X}',
+                        'relocationType':relocation_type,
+                        'rOffset':f'0x{r_off:X}',
+                        'rInfo':f'0x{r_info:X}',
+                        'elfAddendFileOffset':f'0x{k:X}',
+                        'publishedVtableSlot':(
+                            (r_off-vtable_base)//8
+                            if r_off>=vtable_base and (r_off-vtable_base)%8==0
+                            and r_off<vtable_base+321*8 else None
+                        ),
+                    })
+            start=k+8
+    (out/'shiny-wrapper-relocations.json').write_text(
+        json.dumps({'targetRelocations':relocs,'note':'Confirmed relocation entries only; callers require vtable dispatch analysis'},
+                   ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (out/'shiny-wrapper-pointer-map.json').write_text(
         json.dumps({'matches':pointer_hits,'publishedPokemonParamVtable':vtable_summary,
                     'warning':'function pointer in data is not proof of dynamic shiny or rare invocation'},
@@ -237,6 +269,9 @@ def main():
                 '| 入口 RVA | 直接 BL 次数 |','|---|---:|']
     mdlines += [f'| {name} main+0x{target:X} | {len(reverse[target])} |'
                 for name,target in FUNCTIONS.items()]
+    mdlines += ['', '## RELA 虚函数指针重定位','',
+                f'- 符合 AArch64 RELATIVE relocation 的目标地址记录：{len(relocs)}。',
+                '- 详情 shiny-wrapper-relocations.json；这只是 vtable 的位置证据。','']
     mdlines += ['', '## 虚函数包装器的 ELF 指针交叉引用','',
                 f'- 找到 {len(pointer_hits)} 处与目标包装器/函数 RVA 相同的 64-bit 字面指针。',
                 '- 详细位置：shiny-function-pointer-xrefs.csv 与 shiny-wrapper-pointer-map.json。',
