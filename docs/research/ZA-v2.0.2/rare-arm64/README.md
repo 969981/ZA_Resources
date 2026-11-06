@@ -28,6 +28,12 @@
 | PID_ToShinyCandidate main+0xE5D21C | 1 |
 | PID_ModeAdjustCandidate main+0xE5D284 | 1 |
 
+## RELA 虚函数指针重定位
+
+- 符合 AArch64 RELATIVE relocation 的目标地址记录：0。
+- 详情 shiny-wrapper-relocations.json；这只是 vtable 的位置证据。
+
+
 ## 虚函数包装器的 ELF 指针交叉引用
 
 - 找到 2 处与目标包装器/函数 RVA 相同的 64-bit 字面指针。
