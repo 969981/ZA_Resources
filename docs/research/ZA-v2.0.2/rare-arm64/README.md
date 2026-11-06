@@ -28,6 +28,13 @@
 | PID_ToShinyCandidate main+0xE5D21C | 1 |
 | PID_ModeAdjustCandidate main+0xE5D284 | 1 |
 
+## 虚函数包装器的 ELF 指针交叉引用
+
+- 找到 2 处与目标包装器/函数 RVA 相同的 64-bit 字面指针。
+- 详细位置：shiny-function-pointer-xrefs.csv 与 shiny-wrapper-pointer-map.json。
+- 这些不能取代运行时追踪，仍需验证上层间接 BLR 的来源。
+
+
 ## ARM64 B 尾调用与高位测试
 
 - 直接 B 尾调用 PID_Set：2 个。
