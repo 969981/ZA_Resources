@@ -3,13 +3,13 @@ title: Z-A v2.0.2 原生 PID 访问函数交叉引用与锁闪候选路径
 tags: [pokemon/za, research/arm64, flatbuffers, pid, shiny-lock]
 version: v2.0.2
 updated: 2026-11-06
-status: STATIC_CALLS_CONFIRMED_RUNTIME_LOGIC_UNKNOWN
+status: NATIVE_PID_HELPERS_STATIC_CONFIRMED_RARE_CONSUMER_UNKNOWN
 ---
 
 # Z-A v2.0.2：通过 PID getter/setter 反查锁闪路径
 
 > [!IMPORTANT] 证据等级
-> 已从本仓库真实、经 SHA-256 校验的 main.elf 解码对 Pokémon 字段访问器的直接 ARM64 B/BL 分支。调用指令与分支目标是真实数据。**但尚未证明任何区域是 Rare 字段消费者、野生 Pokémon 生成器或实际锁闪分支。**
+> 已从本仓库真实、经 SHA-256 校验的 main.elf 解码对 Pokémon 字段访问器的直接 ARM64 B/BL 分支。调用指令与分支目标是真实数据。初轮仅找到 getter/setter 静态调用者；**后续已在游戏原生指令中证实判闪 0xE5D1E8、条件防闪 0xE5D200 和三态 PID 生成分发 0x6570C4–0x6571A0**。参见 [最新研究](za-native-shiny-generator-pid-branch.md)。仍未闭合 Rare 原始字段消费、EX1/EX2 具体动态入口和 GDB 校验。
 
 ## 一、来源与可复现性
 
@@ -106,3 +106,9 @@ python scripts/Trace-ZA-PID-Accessor-Callers.py --span 0x800 --limit 70
 本阶段不会修改 ROM、打补丁、修改存档或虚构可用地址。
 
 关联：[[za-rare-arm64-runtime-chain-audit]]、[[za-legendary-shiny-lock-diancie-mewtwo-events]]。
+
+## 七、后续已查实的调用链（2026-11-06）
+
+原生 `0x55BD80–0x55BDD4` 的确在同一对象指针 `[x19+0x70]` 下完成 TID/PID 读取 → `BL 0xE5D1E8` 异色判定 → 必要时 `BL 0xE5D200` 条件防闪 → `B 0xE57350` PID setter。因此此前「可能是 Shiny XOR」现在可升级为**静态确认**。
+
+此外 `0x6570C4–0x6571A0` 直接比较 64 位内部三态模式并分别进入 `0xE5D200`、`0xE5D21C` 或随机判定和重掷逻辑。详见 [[za-native-shiny-generator-pid-branch]]、[Capstone 完整上下文](za-pid-antishiny-caller-contexts.md)。尚不能将这段地址标注为 EX1/EX2 已执行的运行时偏移。
