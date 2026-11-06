@@ -34,6 +34,7 @@ KNOWN = {
     "pid_anti_shiny_if_needed_a": 0xE5D200,
     "pid_anti_shiny_if_needed_b": 0xE5D2B0,
     "pid_shiny_adjust_candidate": 0xE5D21C,
+    "native_pid_shiny_mode_generator": 0x656F80,
 }
 WRITERS = {"pid_set", "species_set", "tid_sid_set", "experience_set",
            "nature_set", "form_set", "ability_set",
