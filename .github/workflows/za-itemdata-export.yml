@@ -1,0 +1,67 @@
+name: ZA ItemData v2.0.2 verify and export
+
+on:
+  push:
+    branches:
+      - docs/za-items-obsidian-20261106
+    paths:
+      - scripts/Export-ZA-Items.py
+      - tests/test_za_item_export.py
+      - .github/workflows/za-itemdata-export.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sparse checkout ItemData and corresponding text
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts/Export-ZA-Items.py
+            tests/test_za_item_export.py
+            tools/pkNX/FlatBuffers/ZA/Item/Schemas/ItemDataArray.fbs
+            Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/item_data/item_data/item_data.bin
+            Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/ik_message/dat/Simp_Chinese/common/itemname.dat.json
+            Unpack/v2.0.2/romfs/arc/data.trpfs/virtual_converted/ik_message/dat/English/common/itemname.dat.json
+      - name: Run synthetic and original-resource tests
+        run: python3 -m unittest discover -s tests -p test_za_item_export.py -v
+      - name: Export actual v2.0.2 records
+        run: python3 scripts/Export-ZA-Items.py --repo . --version v2.0.2 --output .za-work/items | tee .za-work-items-log.json
+      - name: Verify exact record groups
+        run: |
+          python3 - <<'PY'
+          import csv, json
+          from pathlib import Path
+          dest = Path(".za-work/items")
+          stats = json.loads((dest / "za-v2.0.2-item-summary.json").read_text())
+          assert stats["recordCount"] == 535 and stats["fieldCount"] == 50, stats
+          assert stats["groups"]["MegaStone"] == 92, stats
+          assert stats["groups"]["PrimalOrb"] == 2, stats
+          for path, count in [
+              ("za-v2.0.2-items-all-fields.csv", 535),
+              ("za-v2.0.2-mega-orbs-controls.csv", 106),
+          ]:
+              with (dest / path).open(encoding="utf-8-sig", newline="") as f:
+                  rows = list(csv.DictReader(f))
+              assert len(rows) == count, (path, len(rows))
+              assert len(rows[0]) == 54, (path, len(rows[0]))
+          print("PASS: native 50,372-byte ItemData parsed; 535 item rows, 92 Mega Stones, 2 orbs")
+          PY
+      - name: Publish inspectable outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: za-v2.0.2-items
+          path: |
+            .za-work/items/*.csv
+            .za-work/items/*.json
+            .za-work-items-log.json
+          if-no-files-found: warn
+          retention-days: 14
