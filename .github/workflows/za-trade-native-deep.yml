@@ -1,0 +1,53 @@
+name: ZA v2.0.2 native Link Trade deep reference scan
+
+on:
+  push:
+    branches: [docs/za-items-obsidian-20261106]
+    paths:
+      - scripts/Probe-ZA-Trade-Native-Deep.py
+      - .github/workflows/za-trade-native-deep.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sparse checkout verified main ELF and static analyzers
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts/Probe-ZA-Trade-Native-Deep.py
+            scripts/Probe-ZA-Lua-Host-ELF.py
+            Unpack/v2.0.2/exefs/exefs-manifest.json
+            Unpack/v2.0.2/exefs/main/main.elf
+      - name: Run ELF read-only trade ref and relocation scan
+        run: python3 scripts/Probe-ZA-Trade-Native-Deep.py --repo . --output .za-work/trade-native-deep
+      - name: Inspect reproducibility summary
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path(".za-work/trade-native-deep")
+          s=json.loads((root/"trade-deep-summary.json").read_text("utf-8"))
+          assert s["mainElfBytes"]==66579944, s
+          assert s["keywordStringCount"]==68, s
+          assert s["runtimeHeldItemTradePredicate"]=="UNVERIFIED", s
+          for f in ("trade-code-xrefs.tsv","trade-rela-pointer-sites.tsv",
+                    "trade-context-windows.tsv","trade-target-strings.tsv"):
+              assert (root/f).is_file(),f
+          print("Deep static scan completed, no runtime validation claimed")
+          PY
+      - name: Upload all native evidence files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: za-v2.0.2-trade-native-deep
+          path: .za-work/trade-native-deep
+          retention-days: 14
+          if-no-files-found: warn
