@@ -1,0 +1,103 @@
+{
+  "database_count": 13,
+  "spawner_count": 2211,
+  "matched_rows": [
+    {
+      "db_index": 11,
+      "row_index": 37,
+      "spawner_id": "id_sub119_01",
+      "spawner_table_offset": "0x86FC0",
+      "encounters": [
+        {
+          "enc_index": 0,
+          "encounter_id": "sub_119_diancie",
+          "weight": 100,
+          "max_count": 1,
+          "additional_level": 0
+        },
+        {
+          "enc_index": 1,
+          "encounter_id": "sub_119_melecie_01",
+          "weight": 100,
+          "max_count": 1,
+          "additional_level": 0
+        },
+        {
+          "enc_index": 2,
+          "encounter_id": "sub_119_melecie_02",
+          "weight": 100,
+          "max_count": 1,
+          "additional_level": 0
+        }
+      ],
+      "appearance_objects": [
+        {
+          "object_index": 0,
+          "object_name": "id_sub119_01",
+          "scene": "./",
+          "battle_area_id": null
+        }
+      ],
+      "match_spawner_id": true,
+      "match_encounter_id": true
+    },
+    {
+      "db_index": 11,
+      "row_index": 38,
+      "spawner_id": "id_sub120_01",
+      "spawner_table_offset": "0x86E7C",
+      "encounters": [
+        {
+          "enc_index": 0,
+          "encounter_id": "sub_120_mewtwo",
+          "weight": 100,
+          "max_count": 1,
+          "additional_level": 0
+        }
+      ],
+      "appearance_objects": [
+        {
+          "object_index": 0,
+          "object_name": "id_sub120_01",
+          "scene": "./",
+          "battle_area_id": null
+        }
+      ],
+      "match_spawner_id": true,
+      "match_encounter_id": true
+    }
+  ],
+  "target_id_literal_presence": {
+    "id_sub119_01": true,
+    "id_sub120_01": true,
+    "sub_119_diancie": true,
+    "sub_120_mewtwo": true
+  },
+  "target_spawner_record_count": 2,
+  "target_encounter_record_count": 2,
+  "verified_exact_joins": {
+    "diancie": [
+      {
+        "spawner_id": "id_sub119_01",
+        "db_index": 11,
+        "row_index": 37,
+        "enc_index": 0,
+        "encounter_id": "sub_119_diancie"
+      }
+    ],
+    "mewtwo": [
+      {
+        "spawner_id": "id_sub120_01",
+        "db_index": 11,
+        "row_index": 38,
+        "enc_index": 0,
+        "encounter_id": "sub_120_mewtwo"
+      }
+    ]
+  },
+  "warning": "A record ID match is static FlatBuffers linkage, not proven runtime execution, battle dispatch, or shiny branch.",
+  "game_version": "ZA 2.0.2",
+  "source_path": "/home/runner/work/ZA_Resources/ZA_Resources/Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.bin",
+  "source_size": 1401772,
+  "source_sha256": "611a5bb7e6d97e21494070cfc933d994021503f8f9b3d0591481082fce269e09"
+}
