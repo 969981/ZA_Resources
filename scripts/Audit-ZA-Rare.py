@@ -152,6 +152,42 @@ def main():
                 "ivHp", "ivAtk", "ivDef", "ivSpAtk", "ivSpDef", "ivAgi")),
             "unknown", "no_verified_main_rva",
         ])
+
+    # An event-level spawner can list *multiple* encounters. Keep companions
+    # rather than treating the focal legendary as the entire event group.
+    by_spawner = collections.defaultdict(list)
+    for record in joined:
+        by_spawner[record["spawnerId"]].append(record)
+    encounter_by_id = {record["encounterId"]: record for record in enc}
+    group_rows = []
+    for case_encounter in EXAMPLES:
+        for hit in by_encounter[case_encounter]:
+            for sibling in by_spawner[hit["spawnerId"]]:
+                other = encounter_by_id.get(sibling["encounterId"])
+                if other is None:
+                    raise ValueError("Encounter absent from source: " + sibling["encounterId"])
+                other_sid = int(other["speciesId"])
+                group_rows.append([
+                    EXAMPLES[case_encounter],
+                    case_encounter,
+                    hit["spawnerId"],
+                    other["encounterId"],
+                    other_sid,
+                    names.get(other_sid, ""),
+                    other["minLevel"],
+                    other["maxLevel"],
+                    f"0x{int(other['rareRaw']):08X}",
+                    sibling["encounterWeightRaw"],
+                    int(other["encounterId"] == case_encounter),
+                    "spawner_encounter_id_join",
+                    "shiny_not_runtime_proven",
+                ])
+    write(base / "encounters/ZA_event_spawner_all_candidates.csv",
+          ["case", "focalEncounterId", "spawnerId", "groupEncounterId",
+           "speciesId", "speciesZh", "minLevel", "maxLevel",
+           "rareHex", "weightRaw", "isFocalEncounter",
+           "joinMethod", "shinyProof"], group_rows)
+
     if len(focus_rows) != len(EXAMPLES):
         raise ValueError("Missing named special-event examples in focus join")
     write(base / "encounters/ZA_rare_event_spawner_crosscheck.csv",
@@ -172,6 +208,7 @@ def main():
         ],
         "selectedCaseIds": list(EXAMPLES),
         "contextMatrixRows": len(matrix_rows),
+        "eventSpawnerCandidateRows": len(group_rows),
         "contextByNamePrefixOnly": [
             {"namePrefixGroup": bucket, "rareHex": f"0x{int(raw):08X}",
              "encounterRecords": count,
