@@ -10,7 +10,7 @@ tags:
   - shiny-lock
   - event-trigger
 version: "2.0.2"
-status: "PARTIALLY_CONFIRMED"
+status: "DATA_STATIC_NATIVE_PID_BRANCH_CONFIRMED_RUNTIME_EX_CHAIN_UNKNOWN"
 updated: "2026-11-06"
 ---
 
@@ -20,7 +20,8 @@ updated: "2026-11-06"
 > - **CONFIRMED（静态数据）**：已经直接读取本仓库 v2.0.2 的四份原生 FlatBuffers，确认 EX1/EX2 的任务 ID、工作变量、阶段值、触发器条件、事件调用、战斗入口，以及对应的 70 级遭遇条目。
 > - **CONFIRMED（字段原始值 + pkNX 映射）**：两只的遭遇条目均有 `Rare = 0x1FFFFFFF`，且本仓库 pkNX 的 `EncounterSlot9a.GetShiny` 与 `PrettyDumpUtil.GetShiny` 均将其解释为 **Shiny.Never**，因此可以将其认定为**数据配置层锁闪**。注意这不是未关联的 `RareType.NO_RARE = 1` 枚举。
 > - **SUPPORTED（公开玩法资料）**：普通剧情静态神兽、蒂安希、超梦无法通过其对应的剧情遭遇获得异色。**并非全部神兽的所有遭遇方式都锁闪**，例如 DLC 的部分特殊扫描遭遇有例外。
-> - **UNKNOWN（运行时）**：游戏 ARM64 原生实现如何读取 `Rare`、事件战斗如何转入 Pokémon 实例生成、最终如何处理异色 PID/标记，尚未通过本次运行时单步验证；本次已找到了 pkNX 侧编码解释，并不代表已经定位主程序分支。
+> - **CONFIRMED（游戏原生静态代码）**：在 SHA 校验过的 2.0.2 main.elf 中找到 XOR 判闪、条件防闪 PID 翻转与三态生成分支，参见 [原生 PID 生成与锁闪算法](za-native-shiny-generator-pid-branch.md)。
+> - **UNKNOWN（游戏动态链）**：从这两个任务的 EncountData.Rare 到生成器内部 64 位模式的转换及实际执行，未通过 GDB 验证；原始 32 位 Rare 值与原生 64 位模式不可直接等同。
 
 ## 1. 原始文件、版本和可复现性
 
@@ -273,7 +274,7 @@ result_shiny, result_species, result_level, save_readback
 
 实际解析 `ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin`，已找到 `btl_sub_119` 和 `btl_sub_120` 的战斗记录、对象 ID 和事件名。v2.0.2 主程序 ELF 经 SHA-256 核验后扫描出 5 处完整 `0x1FFFFFFF` 立即数，Capstone 反汇编显示均有独立的计算用途，**不能当作 Rare 消费或锁闪分支**。详见 [原生锁闪静态审计](za-rare-arm64-runtime-chain-audit.md) 与 [5 处实际反汇编](za-rare-arm64-exact-sites.md)。
 
-事件战斗到 `EncountData` 的引用链，以及实际 PID/锁闪判断仍未验证。**不提供虚构的 `main+offset`。**
+当时此轮仅完成静态数据研究；后来已闭合战斗→Spawner→EncountData 配置链，并找到了游戏原生三态 PID 分发和条件防闪函数。**但没有完成 EX1/EX2 到该原生函数的动态调用证据，也没有 GDB 确认的可用 Hook 地址。**
 
 ## 10. Spawner 交叉引用真实验证（2026-11-06）
 
@@ -284,4 +285,10 @@ result_shiny, result_species, result_level, save_readback
 | `btl_sub_119` | `id_sub119_01` | 11 / 37 | `sub_119_diancie`、`sub_119_melecie_01`、`sub_119_melecie_02` |
 | `btl_sub_120` | `id_sub120_01` | 11 / 38 | `sub_120_mewtwo` |
 
-两条完全一致的源 ID 通过原生字段真实关联，不是字符串前缀推断；详见 [原始交叉引用 JSON](za-ex1-ex2-spawner-crosswalk.json) 与 [ARM64 静态研究审计](za-rare-arm64-runtime-chain-audit.md)。**配置链已经闭合，游戏原生实例生成器、PID 处理以及实际锁闪执行地址仍为 UNKNOWN。**
+两条完全一致的源 ID 通过原生字段真实关联，不是字符串前缀推断；详见 [原始交叉引用 JSON](za-ex1-ex2-spawner-crosswalk.json) 与 [ARM64 静态研究审计](za-rare-arm64-runtime-chain-audit.md)。**配置链已闭合，原生 PID 异色逻辑的静态实现已找到，EX1/EX2 具体如何进入该生成器及 GDB 动态证据仍 UNKNOWN。**
+
+## 11. 最新原生判闪、AntiShiny 与三态 PID 分支
+
+已在匹配 SHA 的 v2.0.2 main.elf 中静态确认：`0xE5D1E8` 的 PID/TID XOR 异色判断，`0xE5D200` 的条件式 `PID ^ 0x10000000` 防闪，`0xE5D21C` 的强制异色 PID 调整候选，以及 `0x6570C4–0x6571A0` 的 Never/Always/Random 三态 PID 生成分发与重掷循环。另一路 `0x55BD80–0x55BDD4` 已连续读取 PKM TID/PID、检测异色并按需通过 PID setter 写回。
+
+请阅读详细、可复现的 [[za-native-shiny-generator-pid-branch|原生 ARM64 生成与防闪证据文档]]、[原生指令上下文](za-pid-antishiny-caller-contexts.md) 与 [精确调用引用 JSON](za-pid-accessor-callsite-xrefs.json)。**原始 Rare=0x1FFFFFFF 是 FlatBuffers 的 32 位编码，而 native 使用 0x1FFFFFFFF 等 64 位模式；二者转换仍需研究。**
