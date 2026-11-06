@@ -1,0 +1,3885 @@
+{
+  "version": "v2.0.2",
+  "sourceCsv": "docs/research/v2.0.2/data/za-v2.0.2-items-all-fields.csv",
+  "total": 535,
+  "groupCount": 12,
+  "itemTypeCounts": {
+    "0": 29,
+    "1": 66,
+    "2": 58,
+    "3": 28,
+    "4": 26,
+    "5": 160,
+    "7": 160,
+    "9": 8
+  },
+  "pocketCounts": {
+    "0": 19,
+    "1": 26,
+    "2": 121,
+    "3": 7,
+    "4": 44,
+    "5": 66,
+    "6": 160,
+    "7": 92
+  },
+  "groups": [
+    {
+      "itemType": 0,
+      "pocket": 4,
+      "count": 29,
+      "researchLabelZH": "重要/剧情/任务道具",
+      "evidence": "高（按样本）",
+      "items": [
+        {
+          "id": 632,
+          "nameZH": "闪耀护符",
+          "nameEN": "Shiny Charm",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 700,
+          "nameZH": "电梯钥匙",
+          "nameEN": "Elevator Key",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 765,
+          "nameZH": "惩戒之壶",
+          "nameEN": "Prison Bottle",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 847,
+          "nameZH": "基格尔德多面体",
+          "nameEN": "Zygarde Cube",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 1278,
+          "nameZH": "洛托姆型录",
+          "nameEN": "Rotom Catalog",
+          "slotMaxNum": 999,
+          "canNotHold": true
+        },
+        {
+          "id": 2588,
+          "nameZH": "２０２号客房的钥匙",
+          "nameEN": "Key to Room 202",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2589,
+          "nameZH": "厉害密阿雷格雷派饼",
+          "nameEN": "Super Lumiose Galette",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2590,
+          "nameZH": "研究所的钥匙卡Ａ",
+          "nameEN": "Lab Key Card A",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2591,
+          "nameZH": "研究所的钥匙卡Ｂ",
+          "nameEN": "Lab Key Card B",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2592,
+          "nameZH": "研究所的钥匙卡Ｃ",
+          "nameEN": "Lab Key Card C",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2595,
+          "nameZH": "小石头",
+          "nameEN": "Pebble",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2596,
+          "nameZH": "纪念戒指",
+          "nameEN": "Cherished Ring",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2597,
+          "nameZH": "签名玩偶",
+          "nameEN": "Autographed Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2598,
+          "nameZH": "美味垃圾",
+          "nameEN": "Tasty Trash",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2599,
+          "nameZH": "活力小树枝",
+          "nameEN": "Revitalizing Twig",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2600,
+          "nameZH": "玳萝的遗忘物",
+          "nameEN": "Lida’s Things",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2601,
+          "nameZH": "密阿雷黄油",
+          "nameEN": "Lumiosian Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2602,
+          "nameZH": "超级黄油",
+          "nameEN": "Nice Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2603,
+          "nameZH": "高级黄油",
+          "nameEN": "Great Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2604,
+          "nameZH": "究极黄油",
+          "nameEN": "Amazing Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2605,
+          "nameZH": "大师黄油",
+          "nameEN": "Supreme Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2606,
+          "nameZH": "异次元黄油",
+          "nameEN": "Hyperspace Butter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2607,
+          "nameZH": "丰缘的粗盐",
+          "nameEN": "Hoennian Salt",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2608,
+          "nameZH": "黑香料",
+          "nameEN": "Épice Noire",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2609,
+          "nameZH": "奥利瓦油",
+          "nameEN": "Arboliva Oil",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2610,
+          "nameZH": "噼里啪啦糖果",
+          "nameEN": "Popping Candy",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2611,
+          "nameZH": "重要信件",
+          "nameEN": "Important Letter",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2612,
+          "nameZH": "纪念戒指",
+          "nameEN": "Cherished Ring",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2613,
+          "nameZH": "脏围巾",
+          "nameEN": "Dirty Scarf",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 1,
+      "pocket": 5,
+      "count": 66,
+      "researchLabelZH": "树果",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 149,
+          "nameZH": "樱子果",
+          "nameEN": "Cheri Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 150,
+          "nameZH": "零余果",
+          "nameEN": "Chesto Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 151,
+          "nameZH": "桃桃果",
+          "nameEN": "Pecha Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 152,
+          "nameZH": "莓莓果",
+          "nameEN": "Rawst Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 153,
+          "nameZH": "利木果",
+          "nameEN": "Aspear Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 155,
+          "nameZH": "橙橙果",
+          "nameEN": "Oran Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 156,
+          "nameZH": "柿仔果",
+          "nameEN": "Persim Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 157,
+          "nameZH": "木子果",
+          "nameEN": "Lum Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 158,
+          "nameZH": "文柚果",
+          "nameEN": "Sitrus Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 169,
+          "nameZH": "榴石果",
+          "nameEN": "Pomeg Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 170,
+          "nameZH": "藻根果",
+          "nameEN": "Kelpsy Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 171,
+          "nameZH": "比巴果",
+          "nameEN": "Qualot Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 172,
+          "nameZH": "哈密果",
+          "nameEN": "Hondew Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 173,
+          "nameZH": "萄葡果",
+          "nameEN": "Grepa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 174,
+          "nameZH": "茄番果",
+          "nameEN": "Tamato Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 184,
+          "nameZH": "巧可果",
+          "nameEN": "Occa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 185,
+          "nameZH": "千香果",
+          "nameEN": "Passho Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 186,
+          "nameZH": "烛木果",
+          "nameEN": "Wacan Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 187,
+          "nameZH": "罗子果",
+          "nameEN": "Rindo Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 188,
+          "nameZH": "番荔果",
+          "nameEN": "Yache Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 189,
+          "nameZH": "莲蒲果",
+          "nameEN": "Chople Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 190,
+          "nameZH": "通通果",
+          "nameEN": "Kebia Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 191,
+          "nameZH": "腰木果",
+          "nameEN": "Shuca Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 192,
+          "nameZH": "棱瓜果",
+          "nameEN": "Coba Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 193,
+          "nameZH": "福禄果",
+          "nameEN": "Payapa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 194,
+          "nameZH": "扁樱果",
+          "nameEN": "Tanga Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 195,
+          "nameZH": "草蚕果",
+          "nameEN": "Charti Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 196,
+          "nameZH": "佛柑果",
+          "nameEN": "Kasib Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 197,
+          "nameZH": "莓榴果",
+          "nameEN": "Haban Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 198,
+          "nameZH": "刺耳果",
+          "nameEN": "Colbur Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 199,
+          "nameZH": "霹霹果",
+          "nameEN": "Babiri Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 200,
+          "nameZH": "灯浆果",
+          "nameEN": "Chilan Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 686,
+          "nameZH": "洛玫果",
+          "nameEN": "Roseli Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2651,
+          "nameZH": "异次元樱子果",
+          "nameEN": "Hyper Cheri Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2652,
+          "nameZH": "异次元零余果",
+          "nameEN": "Hyper Chesto Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2653,
+          "nameZH": "异次元桃桃果",
+          "nameEN": "Hyper Pecha Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2654,
+          "nameZH": "异次元莓莓果",
+          "nameEN": "Hyper Rawst Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2655,
+          "nameZH": "异次元利木果",
+          "nameEN": "Hyper Aspear Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2656,
+          "nameZH": "异次元橙橙果",
+          "nameEN": "Hyper Oran Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2657,
+          "nameZH": "异次元柿仔果",
+          "nameEN": "Hyper Persim Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2658,
+          "nameZH": "异次元木子果",
+          "nameEN": "Hyper Lum Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2659,
+          "nameZH": "异次元文柚果",
+          "nameEN": "Hyper Sitrus Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2660,
+          "nameZH": "异次元榴石果",
+          "nameEN": "Hyper Pomeg Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2661,
+          "nameZH": "异次元藻根果",
+          "nameEN": "Hyper Kelpsy Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2662,
+          "nameZH": "异次元比巴果",
+          "nameEN": "Hyper Qualot Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2663,
+          "nameZH": "异次元哈密果",
+          "nameEN": "Hyper Hondew Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2664,
+          "nameZH": "异次元萄葡果",
+          "nameEN": "Hyper Grepa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2665,
+          "nameZH": "异次元茄番果",
+          "nameEN": "Hyper Tamato Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2666,
+          "nameZH": "异次元巧可果",
+          "nameEN": "Hyper Occa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2667,
+          "nameZH": "异次元千香果",
+          "nameEN": "Hyper Passho Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2668,
+          "nameZH": "异次元烛木果",
+          "nameEN": "Hyper Wacan Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2669,
+          "nameZH": "异次元罗子果",
+          "nameEN": "Hyper Rindo Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2670,
+          "nameZH": "异次元番荔果",
+          "nameEN": "Hyper Yache Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2671,
+          "nameZH": "异次元莲蒲果",
+          "nameEN": "Hyper Chople Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2672,
+          "nameZH": "异次元通通果",
+          "nameEN": "Hyper Kebia Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2673,
+          "nameZH": "异次元腰木果",
+          "nameEN": "Hyper Shuca Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2674,
+          "nameZH": "异次元棱瓜果",
+          "nameEN": "Hyper Coba Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2675,
+          "nameZH": "异次元福禄果",
+          "nameEN": "Hyper Payapa Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2676,
+          "nameZH": "异次元扁樱果",
+          "nameEN": "Hyper Tanga Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2677,
+          "nameZH": "异次元草蚕果",
+          "nameEN": "Hyper Charti Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2678,
+          "nameZH": "异次元佛柑果",
+          "nameEN": "Hyper Kasib Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2679,
+          "nameZH": "异次元莓榴果",
+          "nameEN": "Hyper Haban Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2680,
+          "nameZH": "异次元刺耳果",
+          "nameEN": "Hyper Colbur Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2681,
+          "nameZH": "异次元霹霹果",
+          "nameEN": "Hyper Babiri Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2682,
+          "nameZH": "异次元灯浆果",
+          "nameEN": "Hyper Chilan Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2683,
+          "nameZH": "异次元洛玫果",
+          "nameEN": "Hyper Roseli Berry",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 2,
+      "pocket": 0,
+      "count": 19,
+      "researchLabelZH": "恢复 HP、状态与复活物品",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 17,
+          "nameZH": "伤药",
+          "nameEN": "Potion",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 18,
+          "nameZH": "解毒药",
+          "nameEN": "Antidote",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 19,
+          "nameZH": "灼伤药",
+          "nameEN": "Burn Heal",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 20,
+          "nameZH": "解冻药",
+          "nameEN": "Ice Heal",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 21,
+          "nameZH": "解眠药",
+          "nameEN": "Awakening",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 22,
+          "nameZH": "解麻药",
+          "nameEN": "Paralyze Heal",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 23,
+          "nameZH": "全复药",
+          "nameEN": "Full Restore",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 24,
+          "nameZH": "全满药",
+          "nameEN": "Max Potion",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 25,
+          "nameZH": "厉害伤药",
+          "nameEN": "Hyper Potion",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 26,
+          "nameZH": "好伤药",
+          "nameEN": "Super Potion",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 27,
+          "nameZH": "万灵药",
+          "nameEN": "Full Heal",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 28,
+          "nameZH": "活力碎片",
+          "nameEN": "Revive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 29,
+          "nameZH": "活力块",
+          "nameEN": "Max Revive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 30,
+          "nameZH": "美味之水",
+          "nameEN": "Fresh Water",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 31,
+          "nameZH": "劲爽汽水",
+          "nameEN": "Soda Pop",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 32,
+          "nameZH": "果汁牛奶",
+          "nameEN": "Lemonade",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 33,
+          "nameZH": "哞哞鲜奶",
+          "nameEN": "Moomoo Milk",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 708,
+          "nameZH": "密阿雷格雷派饼",
+          "nameEN": "Lumiose Galette",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2684,
+          "nameZH": "卡娜莉面包",
+          "nameEN": "Canari Bread",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 2,
+      "pocket": 2,
+      "count": 39,
+      "researchLabelZH": "能力培养（营养饮料/羽毛/糖果/薄荷）",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 45,
+          "nameZH": "ＨＰ增强剂",
+          "nameEN": "HP Up",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 46,
+          "nameZH": "攻击增强剂",
+          "nameEN": "Protein",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 47,
+          "nameZH": "防御增强剂",
+          "nameEN": "Iron",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 48,
+          "nameZH": "速度增强剂",
+          "nameEN": "Carbos",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 49,
+          "nameZH": "特攻增强剂",
+          "nameEN": "Calcium",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 50,
+          "nameZH": "神奇糖果",
+          "nameEN": "Rare Candy",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 52,
+          "nameZH": "特防增强剂",
+          "nameEN": "Zinc",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 565,
+          "nameZH": "体力之羽",
+          "nameEN": "Health Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 566,
+          "nameZH": "肌力之羽",
+          "nameEN": "Muscle Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 567,
+          "nameZH": "抵抗之羽",
+          "nameEN": "Resist Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 568,
+          "nameZH": "智力之羽",
+          "nameEN": "Genius Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 569,
+          "nameZH": "精神之羽",
+          "nameEN": "Clever Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 570,
+          "nameZH": "瞬发之羽",
+          "nameEN": "Swift Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1124,
+          "nameZH": "经验糖果ＸＳ",
+          "nameEN": "Exp. Candy XS",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1125,
+          "nameZH": "经验糖果Ｓ",
+          "nameEN": "Exp. Candy S",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1126,
+          "nameZH": "经验糖果Ｍ",
+          "nameEN": "Exp. Candy M",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1127,
+          "nameZH": "经验糖果Ｌ",
+          "nameEN": "Exp. Candy L",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1128,
+          "nameZH": "经验糖果ＸＬ",
+          "nameEN": "Exp. Candy XL",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1231,
+          "nameZH": "怕寂寞薄荷",
+          "nameEN": "Lonely Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1232,
+          "nameZH": "固执薄荷",
+          "nameEN": "Adamant Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1233,
+          "nameZH": "顽皮薄荷",
+          "nameEN": "Naughty Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1234,
+          "nameZH": "勇敢薄荷",
+          "nameEN": "Brave Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1235,
+          "nameZH": "大胆薄荷",
+          "nameEN": "Bold Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1236,
+          "nameZH": "淘气薄荷",
+          "nameEN": "Impish Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1237,
+          "nameZH": "乐天薄荷",
+          "nameEN": "Lax Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1238,
+          "nameZH": "悠闲薄荷",
+          "nameEN": "Relaxed Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1239,
+          "nameZH": "内敛薄荷",
+          "nameEN": "Modest Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1240,
+          "nameZH": "慢吞吞薄荷",
+          "nameEN": "Mild Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1241,
+          "nameZH": "马虎薄荷",
+          "nameEN": "Rash Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1242,
+          "nameZH": "冷静薄荷",
+          "nameEN": "Quiet Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1243,
+          "nameZH": "温和薄荷",
+          "nameEN": "Calm Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1244,
+          "nameZH": "温顺薄荷",
+          "nameEN": "Gentle Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1245,
+          "nameZH": "慎重薄荷",
+          "nameEN": "Careful Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1246,
+          "nameZH": "自大薄荷",
+          "nameEN": "Sassy Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1247,
+          "nameZH": "胆小薄荷",
+          "nameEN": "Timid Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1248,
+          "nameZH": "急躁薄荷",
+          "nameEN": "Hasty Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1249,
+          "nameZH": "爽朗薄荷",
+          "nameEN": "Jolly Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1250,
+          "nameZH": "天真薄荷",
+          "nameEN": "Naive Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1251,
+          "nameZH": "认真薄荷",
+          "nameEN": "Serious Mint",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 3,
+      "pocket": 2,
+      "count": 6,
+      "researchLabelZH": "瓶盖、兑换货币与特殊素材",
+      "evidence": "高（按样本）",
+      "items": [
+        {
+          "id": 795,
+          "nameZH": "银色王冠",
+          "nameEN": "Bottle Cap",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 796,
+          "nameZH": "金色王冠",
+          "nameEN": "Gold Bottle Cap",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2137,
+          "nameZH": "索财灵的硬币",
+          "nameEN": "Gimmighoul Coin",
+          "slotMaxNum": 999,
+          "canNotHold": true
+        },
+        {
+          "id": 2558,
+          "nameZH": "精通种子",
+          "nameEN": "Seed of Mastery",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2618,
+          "nameZH": "超级碎片",
+          "nameEN": "Mega Shard",
+          "slotMaxNum": 9999,
+          "canNotHold": false
+        },
+        {
+          "id": 2619,
+          "nameZH": "彩色螺丝",
+          "nameEN": "Colorful Screw",
+          "slotMaxNum": 999,
+          "canNotHold": true
+        }
+      ]
+    },
+    {
+      "itemType": 3,
+      "pocket": 3,
+      "count": 7,
+      "researchLabelZH": "出售用贵重物与素材",
+      "evidence": "高（按样本）",
+      "items": [
+        {
+          "id": 86,
+          "nameZH": "小蘑菇",
+          "nameEN": "Tiny Mushroom",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 88,
+          "nameZH": "珍珠",
+          "nameEN": "Pearl",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 89,
+          "nameZH": "大珍珠",
+          "nameEN": "Big Pearl",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 92,
+          "nameZH": "金珠",
+          "nameEN": "Nugget",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 571,
+          "nameZH": "美丽之羽",
+          "nameEN": "Pretty Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 581,
+          "nameZH": "巨大金珠",
+          "nameEN": "Big Nugget",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 582,
+          "nameZH": "丸子珍珠",
+          "nameEN": "Pearl String",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 3,
+      "pocket": 4,
+      "count": 15,
+      "researchLabelZH": "卡娜莉玩偶（可收集类）",
+      "evidence": "高（按样本）",
+      "items": [
+        {
+          "id": 2620,
+          "nameZH": "红色卡娜莉玩偶",
+          "nameEN": "Red Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2621,
+          "nameZH": "红色卡娜莉玩偶",
+          "nameEN": "Red Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2622,
+          "nameZH": "红色卡娜莉玩偶",
+          "nameEN": "Red Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2623,
+          "nameZH": "金色卡娜莉玩偶",
+          "nameEN": "Gold Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2624,
+          "nameZH": "金色卡娜莉玩偶",
+          "nameEN": "Gold Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2625,
+          "nameZH": "金色卡娜莉玩偶",
+          "nameEN": "Gold Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2626,
+          "nameZH": "粉红色卡娜莉玩偶",
+          "nameEN": "Pink Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2627,
+          "nameZH": "粉红色卡娜莉玩偶",
+          "nameEN": "Pink Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2628,
+          "nameZH": "粉红色卡娜莉玩偶",
+          "nameEN": "Pink Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2629,
+          "nameZH": "绿色卡娜莉玩偶",
+          "nameEN": "Green Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2630,
+          "nameZH": "绿色卡娜莉玩偶",
+          "nameEN": "Green Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2631,
+          "nameZH": "绿色卡娜莉玩偶",
+          "nameEN": "Green Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2632,
+          "nameZH": "蓝色卡娜莉玩偶",
+          "nameEN": "Blue Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2633,
+          "nameZH": "蓝色卡娜莉玩偶",
+          "nameEN": "Blue Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2634,
+          "nameZH": "蓝色卡娜莉玩偶",
+          "nameEN": "Blue Canari Plush",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 4,
+      "pocket": 1,
+      "count": 26,
+      "researchLabelZH": "精灵球",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 1,
+          "nameZH": "大师球",
+          "nameEN": "Master Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2,
+          "nameZH": "高级球",
+          "nameEN": "Ultra Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 3,
+          "nameZH": "超级球",
+          "nameEN": "Great Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 4,
+          "nameZH": "精灵球",
+          "nameEN": "Poké Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 5,
+          "nameZH": "狩猎球",
+          "nameEN": "Safari Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 6,
+          "nameZH": "捕网球",
+          "nameEN": "Net Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 7,
+          "nameZH": "潜水球",
+          "nameEN": "Dive Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 8,
+          "nameZH": "巢穴球",
+          "nameEN": "Nest Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 9,
+          "nameZH": "重复球",
+          "nameEN": "Repeat Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 10,
+          "nameZH": "计时球",
+          "nameEN": "Timer Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 11,
+          "nameZH": "豪华球",
+          "nameEN": "Luxury Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 12,
+          "nameZH": "纪念球",
+          "nameEN": "Premier Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 13,
+          "nameZH": "黑暗球",
+          "nameEN": "Dusk Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 14,
+          "nameZH": "治愈球",
+          "nameEN": "Heal Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 15,
+          "nameZH": "先机球",
+          "nameEN": "Quick Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 16,
+          "nameZH": "贵重球",
+          "nameEN": "Cherish Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 492,
+          "nameZH": "速度球",
+          "nameEN": "Fast Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 493,
+          "nameZH": "等级球",
+          "nameEN": "Level Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 494,
+          "nameZH": "诱饵球",
+          "nameEN": "Lure Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 495,
+          "nameZH": "沉重球",
+          "nameEN": "Heavy Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 496,
+          "nameZH": "甜蜜球",
+          "nameEN": "Love Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 497,
+          "nameZH": "友友球",
+          "nameEN": "Friend Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 498,
+          "nameZH": "月亮球",
+          "nameEN": "Moon Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 499,
+          "nameZH": "竞赛球",
+          "nameEN": "Sport Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 576,
+          "nameZH": "梦境球",
+          "nameEN": "Dream Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 851,
+          "nameZH": "究极球",
+          "nameEN": "Beast Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 5,
+      "pocket": 6,
+      "count": 160,
+      "researchLabelZH": "招式学习器",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 328,
+          "nameZH": "招式学习器００１",
+          "nameEN": "TM001",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 329,
+          "nameZH": "招式学习器００２",
+          "nameEN": "TM002",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 330,
+          "nameZH": "招式学习器００３",
+          "nameEN": "TM003",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 331,
+          "nameZH": "招式学习器００４",
+          "nameEN": "TM004",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 332,
+          "nameZH": "招式学习器００５",
+          "nameEN": "TM005",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 333,
+          "nameZH": "招式学习器００６",
+          "nameEN": "TM006",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 334,
+          "nameZH": "招式学习器００７",
+          "nameEN": "TM007",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 335,
+          "nameZH": "招式学习器００８",
+          "nameEN": "TM008",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 336,
+          "nameZH": "招式学习器００９",
+          "nameEN": "TM009",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 337,
+          "nameZH": "招式学习器０１０",
+          "nameEN": "TM010",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 338,
+          "nameZH": "招式学习器０１１",
+          "nameEN": "TM011",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 339,
+          "nameZH": "招式学习器０１２",
+          "nameEN": "TM012",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 340,
+          "nameZH": "招式学习器０１３",
+          "nameEN": "TM013",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 341,
+          "nameZH": "招式学习器０１４",
+          "nameEN": "TM014",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 342,
+          "nameZH": "招式学习器０１５",
+          "nameEN": "TM015",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 343,
+          "nameZH": "招式学习器０１６",
+          "nameEN": "TM016",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 344,
+          "nameZH": "招式学习器０１７",
+          "nameEN": "TM017",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 345,
+          "nameZH": "招式学习器０１８",
+          "nameEN": "TM018",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 346,
+          "nameZH": "招式学习器０１９",
+          "nameEN": "TM019",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 347,
+          "nameZH": "招式学习器０２０",
+          "nameEN": "TM020",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 348,
+          "nameZH": "招式学习器０２１",
+          "nameEN": "TM021",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 349,
+          "nameZH": "招式学习器０２２",
+          "nameEN": "TM022",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 350,
+          "nameZH": "招式学习器０２３",
+          "nameEN": "TM023",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 351,
+          "nameZH": "招式学习器０２４",
+          "nameEN": "TM024",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 352,
+          "nameZH": "招式学习器０２５",
+          "nameEN": "TM025",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 353,
+          "nameZH": "招式学习器０２６",
+          "nameEN": "TM026",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 354,
+          "nameZH": "招式学习器０２７",
+          "nameEN": "TM027",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 355,
+          "nameZH": "招式学习器０２８",
+          "nameEN": "TM028",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 356,
+          "nameZH": "招式学习器０２９",
+          "nameEN": "TM029",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 357,
+          "nameZH": "招式学习器０３０",
+          "nameEN": "TM030",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 358,
+          "nameZH": "招式学习器０３１",
+          "nameEN": "TM031",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 359,
+          "nameZH": "招式学习器０３２",
+          "nameEN": "TM032",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 360,
+          "nameZH": "招式学习器０３３",
+          "nameEN": "TM033",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 361,
+          "nameZH": "招式学习器０３４",
+          "nameEN": "TM034",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 362,
+          "nameZH": "招式学习器０３５",
+          "nameEN": "TM035",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 363,
+          "nameZH": "招式学习器０３６",
+          "nameEN": "TM036",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 364,
+          "nameZH": "招式学习器０３７",
+          "nameEN": "TM037",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 365,
+          "nameZH": "招式学习器０３８",
+          "nameEN": "TM038",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 366,
+          "nameZH": "招式学习器０３９",
+          "nameEN": "TM039",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 367,
+          "nameZH": "招式学习器０４０",
+          "nameEN": "TM040",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 368,
+          "nameZH": "招式学习器０４１",
+          "nameEN": "TM041",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 369,
+          "nameZH": "招式学习器０４２",
+          "nameEN": "TM042",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 370,
+          "nameZH": "招式学习器０４３",
+          "nameEN": "TM043",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 371,
+          "nameZH": "招式学习器０４４",
+          "nameEN": "TM044",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 372,
+          "nameZH": "招式学习器０４５",
+          "nameEN": "TM045",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 373,
+          "nameZH": "招式学习器０４６",
+          "nameEN": "TM046",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 374,
+          "nameZH": "招式学习器０４７",
+          "nameEN": "TM047",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 375,
+          "nameZH": "招式学习器０４８",
+          "nameEN": "TM048",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 376,
+          "nameZH": "招式学习器０４９",
+          "nameEN": "TM049",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 377,
+          "nameZH": "招式学习器０５０",
+          "nameEN": "TM050",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 378,
+          "nameZH": "招式学习器０５１",
+          "nameEN": "TM051",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 379,
+          "nameZH": "招式学习器０５２",
+          "nameEN": "TM052",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 380,
+          "nameZH": "招式学习器０５３",
+          "nameEN": "TM053",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 381,
+          "nameZH": "招式学习器０５４",
+          "nameEN": "TM054",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 382,
+          "nameZH": "招式学习器０５５",
+          "nameEN": "TM055",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 383,
+          "nameZH": "招式学习器０５６",
+          "nameEN": "TM056",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 384,
+          "nameZH": "招式学习器０５７",
+          "nameEN": "TM057",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 385,
+          "nameZH": "招式学习器０５８",
+          "nameEN": "TM058",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 386,
+          "nameZH": "招式学习器０５９",
+          "nameEN": "TM059",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 387,
+          "nameZH": "招式学习器０６０",
+          "nameEN": "TM060",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 388,
+          "nameZH": "招式学习器０６１",
+          "nameEN": "TM061",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 389,
+          "nameZH": "招式学习器０６２",
+          "nameEN": "TM062",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 390,
+          "nameZH": "招式学习器０６３",
+          "nameEN": "TM063",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 391,
+          "nameZH": "招式学习器０６４",
+          "nameEN": "TM064",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 392,
+          "nameZH": "招式学习器０６５",
+          "nameEN": "TM065",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 393,
+          "nameZH": "招式学习器０６６",
+          "nameEN": "TM066",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 394,
+          "nameZH": "招式学习器０６７",
+          "nameEN": "TM067",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 395,
+          "nameZH": "招式学习器０６８",
+          "nameEN": "TM068",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 396,
+          "nameZH": "招式学习器０６９",
+          "nameEN": "TM069",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 397,
+          "nameZH": "招式学习器０７０",
+          "nameEN": "TM070",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 398,
+          "nameZH": "招式学习器０７１",
+          "nameEN": "TM071",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 399,
+          "nameZH": "招式学习器０７２",
+          "nameEN": "TM072",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 400,
+          "nameZH": "招式学习器０７３",
+          "nameEN": "TM073",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 401,
+          "nameZH": "招式学习器０７４",
+          "nameEN": "TM074",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 402,
+          "nameZH": "招式学习器０７５",
+          "nameEN": "TM075",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 403,
+          "nameZH": "招式学习器０７６",
+          "nameEN": "TM076",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 404,
+          "nameZH": "招式学习器０７７",
+          "nameEN": "TM077",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 405,
+          "nameZH": "招式学习器０７８",
+          "nameEN": "TM078",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 406,
+          "nameZH": "招式学习器０７９",
+          "nameEN": "TM079",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 407,
+          "nameZH": "招式学习器０８０",
+          "nameEN": "TM080",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 408,
+          "nameZH": "招式学习器０８１",
+          "nameEN": "TM081",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 409,
+          "nameZH": "招式学习器０８２",
+          "nameEN": "TM082",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 410,
+          "nameZH": "招式学习器０８３",
+          "nameEN": "TM083",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 411,
+          "nameZH": "招式学习器０８４",
+          "nameEN": "TM084",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 412,
+          "nameZH": "招式学习器０８５",
+          "nameEN": "TM085",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 413,
+          "nameZH": "招式学习器０８６",
+          "nameEN": "TM086",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 414,
+          "nameZH": "招式学习器０８７",
+          "nameEN": "TM087",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 415,
+          "nameZH": "招式学习器０８８",
+          "nameEN": "TM088",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 416,
+          "nameZH": "招式学习器０８９",
+          "nameEN": "TM089",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 417,
+          "nameZH": "招式学习器０９０",
+          "nameEN": "TM090",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 418,
+          "nameZH": "招式学习器０９１",
+          "nameEN": "TM091",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 419,
+          "nameZH": "招式学习器０９２",
+          "nameEN": "TM092",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 618,
+          "nameZH": "招式学习器０９３",
+          "nameEN": "TM093",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 619,
+          "nameZH": "招式学习器０９４",
+          "nameEN": "TM094",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 620,
+          "nameZH": "招式学习器０９５",
+          "nameEN": "TM095",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 690,
+          "nameZH": "招式学习器０９６",
+          "nameEN": "TM096",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 691,
+          "nameZH": "招式学习器０９７",
+          "nameEN": "TM097",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 692,
+          "nameZH": "招式学习器０９８",
+          "nameEN": "TM098",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 693,
+          "nameZH": "招式学习器０９９",
+          "nameEN": "TM099",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2160,
+          "nameZH": "招式学习器１００",
+          "nameEN": "TM100",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2162,
+          "nameZH": "招式学习器１０２",
+          "nameEN": "TM102",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2163,
+          "nameZH": "招式学习器１０３",
+          "nameEN": "TM103",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2164,
+          "nameZH": "招式学习器１０４",
+          "nameEN": "TM104",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2165,
+          "nameZH": "招式学习器１０５",
+          "nameEN": "TM105",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2166,
+          "nameZH": "招式学习器１０６",
+          "nameEN": "TM106",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2167,
+          "nameZH": "招式学习器１０７",
+          "nameEN": "TM107",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2168,
+          "nameZH": "招式学习器１０８",
+          "nameEN": "TM108",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2169,
+          "nameZH": "招式学习器１０９",
+          "nameEN": "TM109",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2170,
+          "nameZH": "招式学习器１１０",
+          "nameEN": "TM110",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2171,
+          "nameZH": "招式学习器１１１",
+          "nameEN": "TM111",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2172,
+          "nameZH": "招式学习器１１２",
+          "nameEN": "TM112",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2173,
+          "nameZH": "招式学习器１１３",
+          "nameEN": "TM113",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2174,
+          "nameZH": "招式学习器１１４",
+          "nameEN": "TM114",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2175,
+          "nameZH": "招式学习器１１５",
+          "nameEN": "TM115",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2176,
+          "nameZH": "招式学习器１１６",
+          "nameEN": "TM116",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2177,
+          "nameZH": "招式学习器１１７",
+          "nameEN": "TM117",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2178,
+          "nameZH": "招式学习器１１８",
+          "nameEN": "TM118",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2179,
+          "nameZH": "招式学习器１１９",
+          "nameEN": "TM119",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2180,
+          "nameZH": "招式学习器１２０",
+          "nameEN": "TM120",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2181,
+          "nameZH": "招式学习器１２１",
+          "nameEN": "TM121",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2182,
+          "nameZH": "招式学习器１２２",
+          "nameEN": "TM122",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2183,
+          "nameZH": "招式学习器１２３",
+          "nameEN": "TM123",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2184,
+          "nameZH": "招式学习器１２４",
+          "nameEN": "TM124",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2185,
+          "nameZH": "招式学习器１２５",
+          "nameEN": "TM125",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2186,
+          "nameZH": "招式学习器１２６",
+          "nameEN": "TM126",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2187,
+          "nameZH": "招式学习器１２７",
+          "nameEN": "TM127",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2188,
+          "nameZH": "招式学习器１２８",
+          "nameEN": "TM128",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2189,
+          "nameZH": "招式学习器１２９",
+          "nameEN": "TM129",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2190,
+          "nameZH": "招式学习器１３０",
+          "nameEN": "TM130",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2191,
+          "nameZH": "招式学习器１３１",
+          "nameEN": "TM131",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2192,
+          "nameZH": "招式学习器１３２",
+          "nameEN": "TM132",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2193,
+          "nameZH": "招式学习器１３３",
+          "nameEN": "TM133",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2194,
+          "nameZH": "招式学习器１３４",
+          "nameEN": "TM134",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2195,
+          "nameZH": "招式学习器１３５",
+          "nameEN": "TM135",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2196,
+          "nameZH": "招式学习器１３６",
+          "nameEN": "TM136",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2197,
+          "nameZH": "招式学习器１３７",
+          "nameEN": "TM137",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2198,
+          "nameZH": "招式学习器１３８",
+          "nameEN": "TM138",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2199,
+          "nameZH": "招式学习器１３９",
+          "nameEN": "TM139",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2200,
+          "nameZH": "招式学习器１４０",
+          "nameEN": "TM140",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2201,
+          "nameZH": "招式学习器１４１",
+          "nameEN": "TM141",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2202,
+          "nameZH": "招式学习器１４２",
+          "nameEN": "TM142",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2203,
+          "nameZH": "招式学习器１４３",
+          "nameEN": "TM143",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2204,
+          "nameZH": "招式学习器１４４",
+          "nameEN": "TM144",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2205,
+          "nameZH": "招式学习器１４５",
+          "nameEN": "TM145",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2206,
+          "nameZH": "招式学习器１４６",
+          "nameEN": "TM146",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2207,
+          "nameZH": "招式学习器１４７",
+          "nameEN": "TM147",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2208,
+          "nameZH": "招式学习器１４８",
+          "nameEN": "TM148",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2209,
+          "nameZH": "招式学习器１４９",
+          "nameEN": "TM149",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2210,
+          "nameZH": "招式学习器１５０",
+          "nameEN": "TM150",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2211,
+          "nameZH": "招式学习器１５１",
+          "nameEN": "TM151",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2212,
+          "nameZH": "招式学习器１５２",
+          "nameEN": "TM152",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2213,
+          "nameZH": "招式学习器１５３",
+          "nameEN": "TM153",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2214,
+          "nameZH": "招式学习器１５４",
+          "nameEN": "TM154",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2215,
+          "nameZH": "招式学习器１５５",
+          "nameEN": "TM155",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2216,
+          "nameZH": "招式学习器１５６",
+          "nameEN": "TM156",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2217,
+          "nameZH": "招式学习器１５７",
+          "nameEN": "TM157",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2218,
+          "nameZH": "招式学习器１５８",
+          "nameEN": "TM158",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2219,
+          "nameZH": "招式学习器１５９",
+          "nameEN": "TM159",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2220,
+          "nameZH": "招式学习器１６０",
+          "nameEN": "TM160",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2221,
+          "nameZH": "招式学习器１６１",
+          "nameEN": "TM161",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 7,
+      "pocket": 2,
+      "count": 68,
+      "researchLabelZH": "一般携带物、进化石、形态用物品",
+      "evidence": "高（按样本）",
+      "items": [
+        {
+          "id": 80,
+          "nameZH": "日之石",
+          "nameEN": "Sun Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 81,
+          "nameZH": "月之石",
+          "nameEN": "Moon Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 82,
+          "nameZH": "火之石",
+          "nameEN": "Fire Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 83,
+          "nameZH": "雷之石",
+          "nameEN": "Thunder Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 84,
+          "nameZH": "水之石",
+          "nameEN": "Water Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 85,
+          "nameZH": "叶之石",
+          "nameEN": "Leaf Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 107,
+          "nameZH": "光之石",
+          "nameEN": "Shiny Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 108,
+          "nameZH": "暗之石",
+          "nameEN": "Dusk Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 109,
+          "nameZH": "觉醒之石",
+          "nameEN": "Dawn Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 116,
+          "nameZH": "水流卡带",
+          "nameEN": "Douse Drive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 117,
+          "nameZH": "闪电卡带",
+          "nameEN": "Shock Drive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 118,
+          "nameZH": "火焰卡带",
+          "nameEN": "Burn Drive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 119,
+          "nameZH": "冰冻卡带",
+          "nameEN": "Chill Drive",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 214,
+          "nameZH": "白色香草",
+          "nameEN": "White Herb",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 217,
+          "nameZH": "先制之爪",
+          "nameEN": "Quick Claw",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 218,
+          "nameZH": "安抚之铃",
+          "nameEN": "Soothe Bell",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 221,
+          "nameZH": "王者之证",
+          "nameEN": "King’s Rock",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 222,
+          "nameZH": "银粉",
+          "nameEN": "Silver Powder",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 230,
+          "nameZH": "气势头带",
+          "nameEN": "Focus Band",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 231,
+          "nameZH": "幸运蛋",
+          "nameEN": "Lucky Egg",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 232,
+          "nameZH": "焦点镜",
+          "nameEN": "Scope Lens",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 233,
+          "nameZH": "金属膜",
+          "nameEN": "Metal Coat",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 234,
+          "nameZH": "吃剩的东西",
+          "nameEN": "Leftovers",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 236,
+          "nameZH": "电气球",
+          "nameEN": "Light Ball",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 237,
+          "nameZH": "柔软沙子",
+          "nameEN": "Soft Sand",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 238,
+          "nameZH": "硬石头",
+          "nameEN": "Hard Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 239,
+          "nameZH": "奇迹种子",
+          "nameEN": "Miracle Seed",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 240,
+          "nameZH": "黑色眼镜",
+          "nameEN": "Black Glasses",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 241,
+          "nameZH": "黑带",
+          "nameEN": "Black Belt",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 242,
+          "nameZH": "磁铁",
+          "nameEN": "Magnet",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 243,
+          "nameZH": "神秘水滴",
+          "nameEN": "Mystic Water",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 244,
+          "nameZH": "锐利鸟嘴",
+          "nameEN": "Sharp Beak",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 245,
+          "nameZH": "毒针",
+          "nameEN": "Poison Barb",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 246,
+          "nameZH": "不融冰",
+          "nameEN": "Never-Melt Ice",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 247,
+          "nameZH": "咒术之符",
+          "nameEN": "Spell Tag",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 248,
+          "nameZH": "弯曲的汤匙",
+          "nameEN": "Twisted Spoon",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 249,
+          "nameZH": "木炭",
+          "nameEN": "Charcoal",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 250,
+          "nameZH": "龙之牙",
+          "nameEN": "Dragon Fang",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 251,
+          "nameZH": "丝绸围巾",
+          "nameEN": "Silk Scarf",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 252,
+          "nameZH": "升级数据",
+          "nameEN": "Upgrade",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 253,
+          "nameZH": "贝壳之铃",
+          "nameEN": "Shell Bell",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 258,
+          "nameZH": "粗骨头",
+          "nameEN": "Thick Club",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 259,
+          "nameZH": "大葱",
+          "nameEN": "Leek",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 266,
+          "nameZH": "力量头带",
+          "nameEN": "Muscle Band",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 267,
+          "nameZH": "博识眼镜",
+          "nameEN": "Wise Glasses",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 268,
+          "nameZH": "达人带",
+          "nameEN": "Expert Belt",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 270,
+          "nameZH": "生命宝珠",
+          "nameEN": "Life Orb",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 275,
+          "nameZH": "气势披带",
+          "nameEN": "Focus Sash",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 289,
+          "nameZH": "力量护腕",
+          "nameEN": "Power Bracer",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 290,
+          "nameZH": "力量腰带",
+          "nameEN": "Power Belt",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 291,
+          "nameZH": "力量镜",
+          "nameEN": "Power Lens",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 292,
+          "nameZH": "力量束带",
+          "nameEN": "Power Band",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 293,
+          "nameZH": "力量护踝",
+          "nameEN": "Power Anklet",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 294,
+          "nameZH": "力量负重",
+          "nameEN": "Power Weight",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 296,
+          "nameZH": "大根茎",
+          "nameEN": "Big Root",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 324,
+          "nameZH": "可疑补丁",
+          "nameEN": "Dubious Disc",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 534,
+          "nameZH": "朱红色宝珠",
+          "nameEN": "Red Orb",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 535,
+          "nameZH": "靛蓝色宝珠",
+          "nameEN": "Blue Orb",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 537,
+          "nameZH": "美丽鳞片",
+          "nameEN": "Prism Scale",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 538,
+          "nameZH": "进化奇石",
+          "nameEN": "Eviolite",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 540,
+          "nameZH": "凸凸头盔",
+          "nameEN": "Rocky Helmet",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 564,
+          "nameZH": "一般宝石",
+          "nameEN": "Normal Gem",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 639,
+          "nameZH": "弱点保险",
+          "nameEN": "Weakness Policy",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 640,
+          "nameZH": "突击背心",
+          "nameEN": "Assault Vest",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 646,
+          "nameZH": "泡沫奶油",
+          "nameEN": "Whipped Dream",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 647,
+          "nameZH": "香袋",
+          "nameEN": "Sachet",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 849,
+          "nameZH": "冰之石",
+          "nameEN": "Ice Stone",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2401,
+          "nameZH": "妖精之羽",
+          "nameEN": "Fairy Feather",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 7,
+      "pocket": 7,
+      "count": 92,
+      "researchLabelZH": "Mega 石",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 656,
+          "nameZH": "耿鬼进化石",
+          "nameEN": "Gengarite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 657,
+          "nameZH": "沙奈朵进化石",
+          "nameEN": "Gardevoirite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 658,
+          "nameZH": "电龙进化石",
+          "nameEN": "Ampharosite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 659,
+          "nameZH": "妙蛙花进化石",
+          "nameEN": "Venusaurite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 660,
+          "nameZH": "喷火龙进化石Ｘ",
+          "nameEN": "Charizardite X",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 661,
+          "nameZH": "水箭龟进化石",
+          "nameEN": "Blastoisinite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 662,
+          "nameZH": "超梦进化石Ｘ",
+          "nameEN": "Mewtwonite X",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 663,
+          "nameZH": "超梦进化石Ｙ",
+          "nameEN": "Mewtwonite Y",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 664,
+          "nameZH": "火焰鸡进化石",
+          "nameEN": "Blazikenite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 665,
+          "nameZH": "恰雷姆进化石",
+          "nameEN": "Medichamite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 666,
+          "nameZH": "黑鲁加进化石",
+          "nameEN": "Houndoominite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 667,
+          "nameZH": "波士可多拉进化石",
+          "nameEN": "Aggronite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 668,
+          "nameZH": "诅咒娃娃进化石",
+          "nameEN": "Banettite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 669,
+          "nameZH": "班基拉斯进化石",
+          "nameEN": "Tyranitarite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 670,
+          "nameZH": "巨钳螳螂进化石",
+          "nameEN": "Scizorite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 671,
+          "nameZH": "凯罗斯进化石",
+          "nameEN": "Pinsirite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 672,
+          "nameZH": "化石翼龙进化石",
+          "nameEN": "Aerodactylite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 673,
+          "nameZH": "路卡利欧进化石",
+          "nameEN": "Lucarionite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 674,
+          "nameZH": "暴雪王进化石",
+          "nameEN": "Abomasite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 675,
+          "nameZH": "袋兽进化石",
+          "nameEN": "Kangaskhanite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 676,
+          "nameZH": "暴鲤龙进化石",
+          "nameEN": "Gyaradosite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 677,
+          "nameZH": "阿勃梭鲁进化石",
+          "nameEN": "Absolite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 678,
+          "nameZH": "喷火龙进化石Ｙ",
+          "nameEN": "Charizardite Y",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 679,
+          "nameZH": "胡地进化石",
+          "nameEN": "Alakazite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 680,
+          "nameZH": "赫拉克罗斯进化石",
+          "nameEN": "Heracronite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 681,
+          "nameZH": "大嘴娃进化石",
+          "nameEN": "Mawilite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 682,
+          "nameZH": "雷电兽进化石",
+          "nameEN": "Manectite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 683,
+          "nameZH": "烈咬陆鲨进化石",
+          "nameEN": "Garchompite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 684,
+          "nameZH": "拉帝亚斯进化石",
+          "nameEN": "Latiasite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 685,
+          "nameZH": "拉帝欧斯进化石",
+          "nameEN": "Latiosite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 752,
+          "nameZH": "巨沼怪进化石",
+          "nameEN": "Swampertite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 753,
+          "nameZH": "蜥蜴王进化石",
+          "nameEN": "Sceptilite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 754,
+          "nameZH": "勾魂眼进化石",
+          "nameEN": "Sablenite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 755,
+          "nameZH": "七夕青鸟进化石",
+          "nameEN": "Altarianite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 756,
+          "nameZH": "艾路雷朵进化石",
+          "nameEN": "Galladite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 757,
+          "nameZH": "差不多娃娃进化石",
+          "nameEN": "Audinite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 758,
+          "nameZH": "巨金怪进化石",
+          "nameEN": "Metagrossite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 759,
+          "nameZH": "巨牙鲨进化石",
+          "nameEN": "Sharpedonite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 760,
+          "nameZH": "呆壳兽进化石",
+          "nameEN": "Slowbronite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 761,
+          "nameZH": "大钢蛇进化石",
+          "nameEN": "Steelixite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 762,
+          "nameZH": "大比鸟进化石",
+          "nameEN": "Pidgeotite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 763,
+          "nameZH": "冰鬼护进化石",
+          "nameEN": "Glalitite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 764,
+          "nameZH": "蒂安希进化石",
+          "nameEN": "Diancite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 767,
+          "nameZH": "喷火驼进化石",
+          "nameEN": "Cameruptite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 768,
+          "nameZH": "长耳兔进化石",
+          "nameEN": "Lopunnite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 769,
+          "nameZH": "暴飞龙进化石",
+          "nameEN": "Salamencite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 770,
+          "nameZH": "大针蜂进化石",
+          "nameEN": "Beedrillite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2559,
+          "nameZH": "皮可西进化石",
+          "nameEN": "Clefablite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2560,
+          "nameZH": "大食花进化石",
+          "nameEN": "Victreebelite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2561,
+          "nameZH": "宝石海星进化石",
+          "nameEN": "Starminite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2562,
+          "nameZH": "快龙进化石",
+          "nameEN": "Dragoninite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2563,
+          "nameZH": "大竺葵进化石",
+          "nameEN": "Meganiumite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2564,
+          "nameZH": "大力鳄进化石",
+          "nameEN": "Feraligite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2565,
+          "nameZH": "盔甲鸟进化石",
+          "nameEN": "Skarmorite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2566,
+          "nameZH": "雪妖女进化石",
+          "nameEN": "Froslassite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2567,
+          "nameZH": "席多蓝恩进化石",
+          "nameEN": "Heatranite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2568,
+          "nameZH": "达克莱伊进化石",
+          "nameEN": "Darkranite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2569,
+          "nameZH": "炎武王进化石",
+          "nameEN": "Emboarite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2570,
+          "nameZH": "龙头地鼠进化石",
+          "nameEN": "Excadrite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2571,
+          "nameZH": "蜈蚣王进化石",
+          "nameEN": "Scolipite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2572,
+          "nameZH": "头巾混混进化石",
+          "nameEN": "Scraftinite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2573,
+          "nameZH": "麻麻鳗鱼王进化石",
+          "nameEN": "Eelektrossite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2574,
+          "nameZH": "水晶灯火灵进化石",
+          "nameEN": "Chandelurite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2575,
+          "nameZH": "布里卡隆进化石",
+          "nameEN": "Chesnaughtite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2576,
+          "nameZH": "妖火红狐进化石",
+          "nameEN": "Delphoxite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2577,
+          "nameZH": "甲贺忍蛙进化石",
+          "nameEN": "Greninjite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2578,
+          "nameZH": "火炎狮进化石",
+          "nameEN": "Pyroarite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2579,
+          "nameZH": "花叶蒂进化石",
+          "nameEN": "Floettite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2580,
+          "nameZH": "乌贼王进化石",
+          "nameEN": "Malamarite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2581,
+          "nameZH": "龟足巨铠进化石",
+          "nameEN": "Barbaracite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2582,
+          "nameZH": "毒藻龙进化石",
+          "nameEN": "Dragalgite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2583,
+          "nameZH": "摔角鹰人进化石",
+          "nameEN": "Hawluchanite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2584,
+          "nameZH": "基格尔德进化石",
+          "nameEN": "Zygardite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2585,
+          "nameZH": "老翁龙进化石",
+          "nameEN": "Drampanite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2586,
+          "nameZH": "捷拉奥拉进化石",
+          "nameEN": "Zeraorite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2587,
+          "nameZH": "列阵兵进化石",
+          "nameEN": "Falinksite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2635,
+          "nameZH": "雷丘进化石Ｘ",
+          "nameEN": "Raichunite X",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2636,
+          "nameZH": "雷丘进化石Ｙ",
+          "nameEN": "Raichunite Y",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2637,
+          "nameZH": "风铃铃进化石",
+          "nameEN": "Chimechite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2638,
+          "nameZH": "阿勃梭鲁进化石Ｚ",
+          "nameEN": "Absolite Z",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2639,
+          "nameZH": "姆克鹰进化石",
+          "nameEN": "Staraptite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2640,
+          "nameZH": "烈咬陆鲨进化石Ｚ",
+          "nameEN": "Garchompite Z",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2641,
+          "nameZH": "路卡利欧进化石Ｚ",
+          "nameEN": "Lucarionite Z",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2642,
+          "nameZH": "泥偶巨人进化石",
+          "nameEN": "Golurkite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2643,
+          "nameZH": "超能妙喵进化石",
+          "nameEN": "Meowsticite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2644,
+          "nameZH": "好胜毛蟹进化石",
+          "nameEN": "Crabominite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2645,
+          "nameZH": "具甲武者进化石",
+          "nameEN": "Golisopite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2646,
+          "nameZH": "玛机雅娜进化石",
+          "nameEN": "Magearnite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2647,
+          "nameZH": "狠辣椒进化石",
+          "nameEN": "Scovillainite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2648,
+          "nameZH": "戟脊龙进化石",
+          "nameEN": "Baxcalibrite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2649,
+          "nameZH": "米立龙进化石",
+          "nameEN": "Tatsugirinite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        },
+        {
+          "id": 2650,
+          "nameZH": "晶光花进化石",
+          "nameEN": "Glimmoranite",
+          "slotMaxNum": 1,
+          "canNotHold": false
+        }
+      ]
+    },
+    {
+      "itemType": 9,
+      "pocket": 2,
+      "count": 8,
+      "researchLabelZH": "进化用特殊道具及化石",
+      "evidence": "高（全组样本）",
+      "items": [
+        {
+          "id": 103,
+          "nameZH": "秘密琥珀",
+          "nameEN": "Old Amber",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 710,
+          "nameZH": "颚之化石",
+          "nameEN": "Jaw Fossil",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 711,
+          "nameZH": "鳍之化石",
+          "nameEN": "Sail Fossil",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1582,
+          "nameZH": "伽勒豆蔻手环",
+          "nameEN": "Galarica Cuff",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1592,
+          "nameZH": "伽勒豆蔻花圈",
+          "nameEN": "Galarica Wreath",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1691,
+          "nameZH": "黑奇石",
+          "nameEN": "Black Augurite",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 1861,
+          "nameZH": "咒术之铠",
+          "nameEN": "Malicious Armor",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        },
+        {
+          "id": 2344,
+          "nameZH": "庆祝之铠",
+          "nameEN": "Auspicious Armor",
+          "slotMaxNum": 999,
+          "canNotHold": false
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Classification labels are derived research classifications based on item names, not recovered official enum names.",
+    "Use ID as primary key; localized names may repeat."
+  ]
+}
