@@ -43,6 +43,22 @@
     {
       "label": "ability_set",
       "target_elf_va": "0xE535B0"
+    },
+    {
+      "label": "shiny_xor_check",
+      "target_elf_va": "0xE5D1E8"
+    },
+    {
+      "label": "pid_anti_shiny_if_needed_a",
+      "target_elf_va": "0xE5D200"
+    },
+    {
+      "label": "pid_anti_shiny_if_needed_b",
+      "target_elf_va": "0xE5D2B0"
+    },
+    {
+      "label": "pid_shiny_adjust_candidate",
+      "target_elf_va": "0xE5D21C"
     }
   ],
   "direct_refs": [
@@ -69,6 +85,14 @@
       "target_pc": "0xE4DBE0",
       "target_kind": "pid_get",
       "instruction": "0x9438F9D7"
+    },
+    {
+      "caller_pc": "0xF498",
+      "file_offset": "0xFEE0",
+      "opcode": "B",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x14393754"
     },
     {
       "caller_pc": "0x137A8",
@@ -167,6 +191,14 @@
       "instruction": "0x9423C794"
     },
     {
+      "caller_pc": "0x55BD9C",
+      "file_offset": "0x55C7E4",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94240513"
+    },
+    {
       "caller_pc": "0x55BDA8",
       "file_offset": "0x55C7F0",
       "opcode": "BL",
@@ -183,12 +215,44 @@
       "instruction": "0x9423C78B"
     },
     {
+      "caller_pc": "0x55BDC0",
+      "file_offset": "0x55C808",
+      "opcode": "BL",
+      "target_pc": "0xE5D200",
+      "target_kind": "pid_anti_shiny_if_needed_a",
+      "instruction": "0x94240510"
+    },
+    {
       "caller_pc": "0x55BDD4",
       "file_offset": "0x55C81C",
       "opcode": "B",
       "target_pc": "0xE57350",
       "target_kind": "pid_set",
       "instruction": "0x1423ED5F"
+    },
+    {
+      "caller_pc": "0x657124",
+      "file_offset": "0x657B6C",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94201831"
+    },
+    {
+      "caller_pc": "0x657168",
+      "file_offset": "0x657BB0",
+      "opcode": "BL",
+      "target_pc": "0xE5D200",
+      "target_kind": "pid_anti_shiny_if_needed_a",
+      "instruction": "0x94201826"
+    },
+    {
+      "caller_pc": "0x657198",
+      "file_offset": "0x657BE0",
+      "opcode": "BL",
+      "target_pc": "0xE5D21C",
+      "target_kind": "pid_shiny_adjust_candidate",
+      "instruction": "0x94201821"
     },
     {
       "caller_pc": "0x68ADA0",
@@ -1103,6 +1167,14 @@
       "instruction": "0x94001F04"
     },
     {
+      "caller_pc": "0xE45FDC",
+      "file_offset": "0xE46A24",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94005C83"
+    },
+    {
       "caller_pc": "0xE45FF4",
       "file_offset": "0xE46A3C",
       "opcode": "BL",
@@ -1117,6 +1189,14 @@
       "target_pc": "0xE4DBE0",
       "target_kind": "pid_get",
       "instruction": "0x94001EF8"
+    },
+    {
+      "caller_pc": "0xE4600C",
+      "file_offset": "0xE46A54",
+      "opcode": "BL",
+      "target_pc": "0xE5D21C",
+      "target_kind": "pid_shiny_adjust_candidate",
+      "instruction": "0x94005C84"
     },
     {
       "caller_pc": "0xE46020",
@@ -1179,7 +1259,10 @@
     "species_get": 98,
     "tid_sid_get": 15,
     "pid_get": 11,
+    "shiny_xor_check": 4,
+    "pid_anti_shiny_if_needed_a": 2,
     "pid_set": 4,
+    "pid_shiny_adjust_candidate": 2,
     "tid_sid_set": 2,
     "form_set": 3,
     "ability_set": 2,
@@ -1337,6 +1420,56 @@
           "target_pc": "0xE49940",
           "op": "BL",
           "instruction": "0x940029E0"
+        }
+      ]
+    },
+    {
+      "range_start": "0x55BDC0",
+      "range_end": "0x55BDD4",
+      "score": 65,
+      "target_kinds": [
+        "pid_anti_shiny_if_needed_a",
+        "pid_set"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0x55BDC0",
+          "target_kind": "pid_anti_shiny_if_needed_a",
+          "target_pc": "0xE5D200",
+          "op": "BL",
+          "instruction": "0x94240510"
+        },
+        {
+          "caller_pc": "0x55BDD4",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x1423ED5F"
+        }
+      ]
+    },
+    {
+      "range_start": "0x657168",
+      "range_end": "0x657198",
+      "score": 37,
+      "target_kinds": [
+        "pid_anti_shiny_if_needed_a",
+        "pid_shiny_adjust_candidate"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0x657168",
+          "target_kind": "pid_anti_shiny_if_needed_a",
+          "target_pc": "0xE5D200",
+          "op": "BL",
+          "instruction": "0x94201826"
+        },
+        {
+          "caller_pc": "0x657198",
+          "target_kind": "pid_shiny_adjust_candidate",
+          "target_pc": "0xE5D21C",
+          "op": "BL",
+          "instruction": "0x94201821"
         }
       ]
     },
