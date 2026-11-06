@@ -9,7 +9,7 @@
 # Disable with: za-shiny-clear
 #
 # REQUIRED: the live main Build ID must match B1F12FD919EAE86A...
-# No writes to game memory, PID, files, or saves are performed.
+# No writes to game memory, PID, or saves. The host writes a JSONL debug log.
 # Sampling does not establish the source of Encounter.rare.
 
 import datetime
