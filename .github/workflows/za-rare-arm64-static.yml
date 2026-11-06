@@ -7,6 +7,8 @@ on:
     paths:
       - 'scripts/Scan-ZA-Rare-ARM64.py'
       - 'scripts/Trace-ZA-Rare-Candidates.py'
+      - 'scripts/Trace-ZA-EX-Spawner.py'
+      - 'tests/test_za_ex_spawner.py'
       - 'tests/test_za_rare_arm64.py'
       - '.github/workflows/za-rare-arm64-static.yml'
 
@@ -30,8 +32,11 @@ jobs:
           sparse-checkout: |
             /scripts/Scan-ZA-Rare-ARM64.py
             /scripts/Trace-ZA-Rare-Candidates.py
+            /scripts/Trace-ZA-EX-Spawner.py
+            /tests/test_za_ex_spawner.py
             /tests/test_za_rare_arm64.py
             /Unpack/v2.0.2/exefs/main/main.elf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.bin
             /Unpack/v2.0.2/exefs/exefs-manifest.json
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin
       - uses: actions/setup-python@v5
@@ -39,6 +44,10 @@ jobs:
           python-version: '3.12'
       - name: Test synthetic ARM64 and FlatBuffers decoders
         run: python -m unittest discover -s tests -p test_za_rare_arm64.py -v
+      - name: Test synthetic EX spawner-to-encounter crosswalk
+        run: python -m unittest discover -s tests -p test_za_ex_spawner.py -v
+      - name: Crosswalk native battle actor and encounter IDs
+        run: python scripts/Trace-ZA-EX-Spawner.py
       - name: Scan SHA-pinned Z-A v2.0.2 main.elf and battle source
         run: python scripts/Scan-ZA-Rare-ARM64.py --limit 60
       - name: Decode exact-mask instruction neighborhoods (static only)
@@ -53,6 +62,7 @@ jobs:
           path: |
             docs/research/v2.0.2/za-rare-arm64-static-candidates.json
             docs/research/v2.0.2/za-rare-arm64-exact-sites.md
+            docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
       - name: Commit bounded static evidence report, no game binary
         if: github.ref == 'refs/heads/master'
         shell: bash
@@ -60,7 +70,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md
+          git add --sparse -f -- docs/research/v2.0.2/za-rare-arm64-static-candidates.json docs/research/v2.0.2/za-rare-arm64-exact-sites.md docs/research/v2.0.2/za-ex1-ex2-spawner-crosswalk.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'analysis(za): publish v2.0.2 Rare AArch64 static candidates'
           git fetch origin master
