@@ -37,6 +37,27 @@ def write(path: Path, fields, rows):
         w.writerows(rows)
 
 
+
+def context_bucket(encounter_id: str) -> str:
+    """Label from the *name prefix*, NOT a proven runtime encounter type."""
+    import re
+    if encounter_id.startswith("btl_ect_boss"):
+        return "boss_battle_named"
+    if encounter_id.startswith("ect_boss"):
+        return "boss_config_named"
+    if encounter_id.startswith("sub_"):
+        return "side_quest_named"
+    if re.match(r"^m\d+", encounter_id):
+        return "story_named"
+    if encounter_id.startswith("ect_outzone"):
+        return "outzone_named"
+    if encounter_id.startswith(("ect_zdm", "ect_d")):
+        return "dimension_named"
+    if encounter_id.startswith("ect_a") and "_w" in encounter_id:
+        return "wildzone_named"
+    return "other_named"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", type=Path, default=Path("."))
@@ -77,6 +98,69 @@ def main():
     ]
     write(base / "encounters/ZA_rare_static_audit.csv", fields, rows)
     write(base / "encounters/ZA_special_event_examples.csv", fields, selected)
+
+    # Strict encounter ID join to the already-audited spawner reference table.
+    # This does not prove any game-side invocation or shiny mechanism.
+    joined = read(base / "encounters/ZA_spawner_encounter_join.csv")
+    by_encounter = collections.defaultdict(list)
+    for record in joined:
+        by_encounter[record["encounterId"]].append(record)
+    if sum(map(len, by_encounter.values())) != len(joined):
+        raise ValueError("Rare/spawner reference count mismatch")
+
+    matrix = collections.Counter()
+    named_refs = collections.Counter()
+    for record in enc:
+        bucket = context_bucket(record["encounterId"])
+        key = (bucket, record["rareRaw"])
+        matrix[key] += 1
+        named_refs[key] += len(by_encounter[record["encounterId"]])
+
+    matrix_rows = []
+    for (bucket, raw), count in sorted(matrix.items()):
+        examples = [r["encounterId"] for r in enc
+                    if context_bucket(r["encounterId"]) == bucket and r["rareRaw"] == raw][:5]
+        matrix_rows.append([
+            bucket, f"0x{int(raw):08X}", count, named_refs[(bucket, raw)],
+            " | ".join(examples), "encounter_id_prefix_heuristic",
+            "unverified_static_category",
+        ])
+    write(base / "encounters/ZA_rare_context_matrix.csv",
+          ["namePrefixGroup", "rareHex", "encounterRecords",
+           "spawnerReferences", "exampleEncounterIds",
+           "groupingMethod", "runtimeSemantics"], matrix_rows)
+
+    # Resolve specific named events with their real spawner IDs. Do not
+    # silently rewrite the event label into a game-script caller.
+    focus_rows = []
+    for record in enc:
+        identifier = record["encounterId"]
+        if identifier not in EXAMPLES:
+            continue
+        hits = by_encounter[identifier]
+        focus_rows.append([
+            identifier, EXAMPLES[identifier],
+            record["speciesId"], names.get(int(record["speciesId"]), ""),
+            record["rareRaw"], f"0x{int(record['rareRaw']):08X}",
+            record["minLevel"], record["maxLevel"],
+            len(hits),
+            " | ".join(sorted({h["spawnerId"] for h in hits})),
+            " | ".join(sorted({h["zoneIdInferredFromSpawnerName"] for h in hits
+                               if h["zoneIdInferredFromSpawnerName"]})),
+            record["wazaListJson"],
+            "/".join(record[k] or "(missing)" for k in (
+                "ivHp", "ivAtk", "ivDef", "ivSpAtk", "ivSpDef", "ivAgi")),
+            "unknown", "no_verified_main_rva",
+        ])
+    if len(focus_rows) != len(EXAMPLES):
+        raise ValueError("Missing named special-event examples in focus join")
+    write(base / "encounters/ZA_rare_event_spawner_crosscheck.csv",
+          ["encounterId", "case", "speciesId", "speciesZh",
+           "rareRaw", "rareHex", "minLevel", "maxLevel",
+           "spawnerReferenceCount", "spawnerIds", "zoneHeuristic",
+           "presetMovesJson", "ivRawSixStats",
+           "shinyLocked", "runtimeProof"], focus_rows)
+
     summary = {
         "version": "2.0.2", "evidence": "static encounter BFBS decode",
         "status": "shiny-lock unknown / runtime branch not yet located",
@@ -87,6 +171,17 @@ def main():
             for k, count in sorted(found.items())
         ],
         "selectedCaseIds": list(EXAMPLES),
+        "contextMatrixRows": len(matrix_rows),
+        "contextByNamePrefixOnly": [
+            {"namePrefixGroup": bucket, "rareHex": f"0x{int(raw):08X}",
+             "encounterRecords": count,
+             "spawnerReferences": named_refs[(bucket, raw)]}
+            for (bucket, raw), count in sorted(matrix.items())
+        ],
+        "specialEventSpawnerEvidence": [
+            {"encounterId": row[0], "spawnerRefs": row[8], "spawnerIds": row[9]}
+            for row in focus_rows
+        ],
         "important": "Rare mode clustering is not shiny-lock proof. No inferred main+RVA.",
     }
     (base / "_audit/ZA_rare_static_summary.json").write_text(
