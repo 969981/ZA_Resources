@@ -8,6 +8,8 @@ on:
       - 'scripts/Scan-ZA-Rare-ARM64.py'
       - 'scripts/Scan-ZA-Rare-Descriptor-Offset68.py'
       - 'tests/test_za_rare_descriptor_offset68.py'
+      - 'scripts/gdb/za_ex_rare_trace.py'
+      - 'tests/test_za_gdb_trace_contract.py'
       - 'scripts/Trace-ZA-Rare-Candidates.py'
       - 'scripts/Trace-ZA-EX-Spawner.py'
       - 'tests/test_za_ex_spawner.py'
@@ -35,6 +37,8 @@ jobs:
             /scripts/Scan-ZA-Rare-ARM64.py
             /scripts/Scan-ZA-Rare-Descriptor-Offset68.py
             /tests/test_za_rare_descriptor_offset68.py
+            /scripts/gdb/za_ex_rare_trace.py
+            /tests/test_za_gdb_trace_contract.py
             /scripts/Trace-ZA-Rare-Candidates.py
             /scripts/Trace-ZA-EX-Spawner.py
             /tests/test_za_ex_spawner.py
@@ -51,6 +55,8 @@ jobs:
         run: python -m unittest discover -s tests -p test_za_rare_arm64.py -v
       - name: Test native +0x68 field references synthetic ELF
         run: python -m unittest discover -s tests -p test_za_rare_descriptor_offset68.py -v
+      - name: Compile & verify read-only EX1/EX2 GDB tracer
+        run: python -m unittest discover -s tests -p test_za_gdb_trace_contract.py -v
       - name: Audit possible native Rare descriptor producers and consumers
         run: python scripts/Scan-ZA-Rare-Descriptor-Offset68.py
       - name: Test synthetic EX spawner-to-encounter crosswalk
