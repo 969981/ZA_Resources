@@ -27,3 +27,5 @@ No internal Trinity field maps have been independently validated in this documen
 
 - [v2.0.2 神兽锁闪运行时代码静态审计](za-rare-arm64-runtime-chain-audit.md) — battle 数据中间层、ELF SHA、5 个精确掩码位点的反汇编与误报分析（原生执行链未闭合）。
 - [Rare ARM64 全部候选 JSON](za-rare-arm64-static-candidates.json) / [5 处原生反汇编](za-rare-arm64-exact-sites.md) — 静态位置，非已确认的运行时 main+offset。
+
+- [EX1／EX2 的原生 Spawner 精确交叉引用](za-ex1-ex2-spawner-crosswalk.json) — `id_sub119_01 → sub_119_diancie`、`id_sub120_01 → sub_120_mewtwo`，13 组数据库共 2,211 条源记录，通过真实文件及合成测试核实。
