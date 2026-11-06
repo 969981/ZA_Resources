@@ -1,0 +1,36 @@
+{
+  "version": "2.0.2",
+  "evidence": "static encounter BFBS decode",
+  "status": "shiny-lock unknown / runtime branch not yet located",
+  "encounterTotal": 1966,
+  "rareGroups": [
+    {
+      "rareHex": "0x1FFFFFFF",
+      "count": 281,
+      "highNibble": 1,
+      "low28MaskHex": "0xFFFFFFF"
+    },
+    {
+      "rareHex": "0x2FFFFFFF",
+      "count": 1,
+      "highNibble": 2,
+      "low28MaskHex": "0xFFFFFFF"
+    },
+    {
+      "rareHex": "0x3FFFFFFF",
+      "count": 1684,
+      "highNibble": 3,
+      "low28MaskHex": "0xFFFFFFF"
+    }
+  ],
+  "selectedCaseIds": [
+    "sub_119_diancie",
+    "sub_120_mewtwo",
+    "m10_x",
+    "m10_y",
+    "m04_zygarde10",
+    "ect_boss_0718_01",
+    "ect_a0102_w01_v01_z179_Qst074"
+  ],
+  "important": "Rare mode clustering is not shiny-lock proof. No inferred main+RVA."
+}
