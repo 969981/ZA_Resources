@@ -18,9 +18,9 @@ updated: "2026-11-06"
 
 > [!important] 结论与证据等级
 > - **CONFIRMED（静态数据）**：已经直接读取本仓库 v2.0.2 的四份原生 FlatBuffers，确认 EX1/EX2 的任务 ID、工作变量、阶段值、触发器条件、事件调用、战斗入口，以及对应的 70 级遭遇条目。
-> - **CONFIRMED（字段原始值）**：两只的遭遇条目均有 `Rare` 原始 32 位值 `0x1FFFFFFF`。**它不是 `RareType.NO_RARE = 1`；目前不得凭这个数值单独断言锁闪。**
+> - **CONFIRMED（字段原始值 + pkNX 映射）**：两只的遭遇条目均有 `Rare = 0x1FFFFFFF`，且本仓库 pkNX 的 `EncounterSlot9a.GetShiny` 与 `PrettyDumpUtil.GetShiny` 均将其解释为 **Shiny.Never**，因此可以将其认定为**数据配置层锁闪**。注意这不是未关联的 `RareType.NO_RARE = 1` 枚举。
 > - **SUPPORTED（公开玩法资料）**：普通剧情静态神兽、蒂安希、超梦无法通过其对应的剧情遭遇获得异色。**并非全部神兽的所有遭遇方式都锁闪**，例如 DLC 的部分特殊扫描遭遇有例外。
-> - **UNKNOWN（运行时）**：`Rare` 原始编码、事件战斗到 Pokémon 实例生成的函数链，以及修改随机种子后最终强制重掷/清除异色的代码路径，尚未通过本次运行时单步验证。
+> - **UNKNOWN（运行时）**：游戏 ARM64 原生实现如何读取 `Rare`、事件战斗如何转入 Pokémon 实例生成、最终如何处理异色 PID/标记，尚未通过本次运行时单步验证；本次已找到了 pkNX 侧编码解释，并不代表已经定位主程序分支。
 
 ## 1. 原始文件、版本和可复现性
 
@@ -190,7 +190,27 @@ Rare_raw_hex: 0x1FFFFFFF
 | `Ev_sub_202_010` | 720 | 60 | `0x1FFFFFFF` |
 | `Ev_sub_201_011` | 721 | 80 | `0x1FFFFFFF` |
 
-**重要反例：** 一些普通野外条目使用原始 `0x3FFFFFFF`，例如 `ect_a0201_w01_v01_z225`，显示生成类别存在静态差异。但这不是已经解码完成的「闪光布尔值」。本仓库 pkNX [RareType.fbs](../../../tools/pkNX/FlatBuffers/ZA/Shared/Schemas/Shared/RareType.fbs) 只有 `DEFAULT=0, NO_RARE=1, RARE=2`，与本次读取的原始数值不一致；因此 **在核对版本对应的 .bfbs 字段与运行时代码前，不得将 `0x1FFFFFFF` 无条件解释为 `NO_RARE`**。
+**已对照源码核实的编码含义：** [EncounterSlot9a.cs](../../../tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Exports/EncounterSlot9a.cs) 的 `GetShiny(int valueRare)` 明确将 `0x1FFFFFFF` 对应到 `Shiny.Never`、`0x2FFFFFFF` 对应到 `Shiny.Always`、`0x3FFFFFFF` 对应到 `Shiny.Random`；另见 [GameDumper9a.cs](../../../tools/pkNX/pkNX.WinForms/Dumping/Gen9a/GameDumper9a.cs) 的 `PrettyDumpUtil.GetShiny`。**这是 pkNX 的配置映射证据，不是游戏本体反汇编后的代码分支证据。** `RareType.fbs` 中另有 `DEFAULT=0, NO_RARE=1, RARE=2`，不可与此 32 位遭遇配置混用。
+
+| Rare 原始值 | pkNX 解释 | 当前 v2.0.2 原始表条目数 |
+|---|---|---:|
+| `0x1FFFFFFF` | `Shiny.Never`：禁止异色 | **281** |
+| `0x2FFFFFFF` | `Shiny.Always`：固定异色 | **1** |
+| `0x3FFFFFFF` | `Shiny.Random`：随机异色 | **1,684** |
+
+**交叉对照：** 唯一 `Shiny.Always` 的记录为 `ect_a0102_w01_v01_z179_Qst074`（内部种族 179，Lv.11）；普通野生示例 `ect_a0201_w01_v01_z225` 为 `Shiny.Random`。这三类计数总和为 1,966。
+
+**原始字节复核（均为文件相对偏移，非 RAM）：**
+
+| 遭遇 Id | FlatBuffers table 起始偏移 | Rare 字段文件偏移 | 四字节原值（小端） |
+|---|---|---|---|
+| `m10_x` | `0x74D0C` | `0x74D24` | `FF FF FF 1F` |
+| `m10_y` | `0x74C58` | `0x74C70` | `FF FF FF 1F` |
+| `ect_boss_0718_01` | `0x795F0` | `0x7960C` | `FF FF FF 1F` |
+| `sub_119_diancie` | `0x733FC` | `0x73414` | `FF FF FF 1F` |
+| `sub_120_mewtwo` | `0x73244` | `0x7325C` | `FF FF FF 1F` |
+
+**读取方法**：从文件头 `root uoffset32` 开始，依次展开 `EncountDataDBArray.Table[] → EncountDataDB.Table[] → EncountData`；按 `Id` 定位记录。通过 table 开头的有符号 vtable 偏移定位字段 6 的实际偏移（不应假定每条记录都固定为 table+24），读取 little-endian `int32` 即得 `Rare`。例如超梦 table 起始 `0x73244`，field 6 在 `+0x18`，因此 `0x7325C` 的原值 `FF FF FF 1F` 即 `0x1FFFFFFF`。
 
 公开资料汇总对剧情静态遇敌的锁闪判断，以及特殊扫描（Latios、Latias、Cobalion、Terrakion、Virizion）可能出现异色的例外，可参见 [RotomLabs 的 Z-A 异色说明](https://rotomlabs.net/legends-z-a/shiny-rates)、[Serebii](https://www.serebii.net/legendsz-a/sidemissions.shtml)。这只是支持玩法事实，**不替代代码级证明**。
 
@@ -229,8 +249,8 @@ result_shiny, result_species, result_level, save_readback
 |---|---|---|
 | **EX1 任务** | `sub_0119 / 1001 / SYS_WORK_QUEST_119`，完整 8 条触发器 | 寻找 Mystery Gift→任务启用条件与 `Ev_sub_119_*` Lua |
 | **EX2 任务** | `sub_0120 / 1002 / SYS_WORK_QUEST_120`，完整 4 条触发器 | 寻找 Mystery Gift→任务启用条件与 `Ev_sub_120_*` Lua |
-| **关联遭遇** | Diancie 719/70、Mewtwo 150/70，含各自 `Rare` 原始值 | `btl_sub_119/120` → EncountData 实例化引用 |
-| **锁闪机制** | 固定战斗与普通野生 `Rare` 原值不同；外部玩法说明 | .bfbs 对齐、函数调用链、对照运行时带/不带闪光种子的判定 |
+| **关联遭遇** | Diancie 719/70、Mewtwo 150/70，含各自 `Rare=Shiny.Never` 静态映射 | `btl_sub_119/120` → EncountData 实例化引用 |
+| **锁闪机制** | 原始 FlatBuffers `Rare` 已核对为 pkNX 的 `Shiny.Never / Always / Random` 编码；全表三类计数与原始偏移验证 | 游戏 ARM64 生成器具体处理方式、函数调用链、对照运行时判定 |
 
 > [!warning] 请勿做过度结论
 > 本次证实的是静态事件配置，不是已验证的 ARM64 锁闪指令或补丁地址；**没有找到并验证任何 `main+offset` 的强制非闪判断**，也没有证明单靠改 `Rare` 原始值就可以正常产生异色。
