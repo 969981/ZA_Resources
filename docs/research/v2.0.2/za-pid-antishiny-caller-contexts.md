@@ -3,7 +3,7 @@
 > [!WARNING] STATIC CANDIDATES ONLY. A mask instruction does not prove EncountData.Rare reads or a runtime hook.
 
 - main.elf SHA-256: 470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d
-- Exact scanner site count: 6
+- Exact scanner site count: 9
 - Instruction window: 0x280 bytes before and 0x120 bytes after.
 - To confirm: trace operand register origin and TID/PID xor logic in the same function; verify runtime via GDB, not just opcode shape.
 
@@ -730,6 +730,247 @@
    0x55BEF4: fmadd    s0, s0, s1, s8 ; 0020011f
 ~~~
 
+## Static PC 0x656298 (word 0x9400033A)
+
+- ELF file offset: 0x656CE0; opcode: BL; mask: to native_pid_shiny_mode_generator (0x656F80)
+- NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
+
+~~~asm
+   0x656018: add      x10, x8, #0x18 ; 0a610091
+   0x65601C: ldaxrh   w9, [x10] ; 49fd5f48
+   0x656020: sub      w11, w9, #1 ; 2b050051
+   0x656024: stlxrh   w12, w11, [x10] ; 4bfd0c48
+   0x656028: cbnz     w12, #0x65601c ; acffff35
+   0x65602C: cmp      w9, #1 ; 3f050071
+   0x656030: b.eq     #0x65603c ; 60000054
+   0x656034: cbnz     w9, #0x656004 ; 89feff35
+   0x656038: bl       #0x3160640 ; 8229ac94
+   0x65603C: str      x0, [sp] ; e00300f9
+   0x656040: mov      x0, x8 ; e00308aa
+   0x656044: bl       #0x6460 ; 07c1e697
+   0x656048: ldr      x0, [sp] ; e00340f9
+   0x65604C: b        #0x656004 ; eeffff17
+   0x656050: mov      w20, #1 ; 34008052
+   0x656054: b        #0x655f94 ; d0ffff17
+   0x656058: strh     w1, [x0, #8] ; 01100079
+   0x65605C: ret       ; c0035fd6
+   0x656060: str      d8, [sp, #-0x70]! ; e80f19fc
+   0x656064: stp      x29, x30, [sp, #0x10] ; fd7b01a9
+   0x656068: add      x29, sp, #0x10 ; fd430091
+   0x65606C: stp      x28, x27, [sp, #0x20] ; fc6f02a9
+   0x656070: stp      x26, x25, [sp, #0x30] ; fa6703a9
+   0x656074: stp      x24, x23, [sp, #0x40] ; f85f04a9
+   0x656078: stp      x22, x21, [sp, #0x50] ; f65705a9
+   0x65607C: stp      x20, x19, [sp, #0x60] ; f44f06a9
+   0x656080: sub      sp, sp, #0x230 ; ffc308d1
+   0x656084: mov      x19, x8 ; f30308aa
+   0x656088: mov      w8, #1 ; 28008052
+   0x65608C: str      xzr, [sp, #0x18] ; ff0f00f9
+   0x656090: strb     w8, [sp, #0x40] ; e8030139
+   0x656094: mov      w8, #-0xff01 ; 08e09f12
+   0x656098: mov      x25, #-1 ; 19008092
+   0x65609C: stur     w8, [sp, #0x52] ; e82305b8
+   0x6560A0: mov      w8, #0xffff ; e8ff9f52
+   0x6560A4: mov      x21, x3 ; f50303aa
+   0x6560A8: mov      w23, w2 ; f703022a
+   0x6560AC: mov      x22, x1 ; f60301aa
+   0x6560B0: strb     wzr, [sp, #0x20] ; ff830039
+   0x6560B4: mov      x20, x0 ; f40300aa
+   0x6560B8: add      x26, sp, #0x18 ; fa630091
+   0x6560BC: strh     wzr, [sp, #0x46] ; ff8f0079
+   0x6560C0: stp      x25, x25, [sp, #0x28] ; f9e702a9
+   0x6560C4: strh     w8, [sp, #0x56] ; e8af0079
+   0x6560C8: str      w8, [sp, #0x5c] ; e85f00b9
+   0x6560CC: strb     wzr, [sp, #0x7e] ; fffb0139
+   0x6560D0: str      w8, [sp, #0x80] ; e88300b9
+   0x6560D4: bl       #0x3f0784 ; ac69f697
+   0x6560D8: mov      w8, #4 ; 88008052
+   0x6560DC: mov      w9, #0xf ; e9018052
+   0x6560E0: movi     v0.2d, #0000000000000000 ; 00e4006f
+   0x6560E4: strb     w8, [sp, #0x85] ; e8170239
+   0x6560E8: mov      w8, #0xff ; e81f8052
+   0x6560EC: strb     wzr, [sp, #0x98] ; ff630239
+   0x6560F0: strb     w8, [sp, #0xad] ; e8b70239
+   0x6560F4: ldrh     w8, [x20, #0x48] ; 88924079
+   0x6560F8: ldrh     w24, [x20, #0x4a] ; 98964079
+   0x6560FC: stp      q0, q0, [x26, #0xa0] ; 400305ad
+   0x656100: strb     wzr, [sp, #0xb6] ; ffdb0239
+   0x656104: str      xzr, [sp, #0x48] ; ff2700f9
+   0x656108: str      x25, [sp, #0x60] ; f93300f9
+   0x65610C: str      w25, [sp, #0x68] ; f96b00b9
+   0x656110: strh     w8, [sp, #0x42] ; e8870079
+   0x656114: ldrb     w8, [x0, #0x378] ; 08e04d39
+   0x656118: mov      x0, x22 ; e00316aa
+   0x65611C: stur     xzr, [x26, #0x89] ; 5f9308f8
+   0x656120: stur     xzr, [x26, #0x81] ; 5f1308f8
+   0x656124: stur     wzr, [x26, #0x91] ; 5f1309b8
+   0x656128: stur     xzr, [x26, #0xe2] ; 5f230ef8
+   0x65612C: stur     xzr, [x26, #0xda] ; 5fa30df8
+   0x656130: strh     wzr, [sp, #0x10a] ; ff170279
+   0x656134: stur     xzr, [x26, #0xea] ; 5fa30ef8
+   0x656138: stur     xzr, [x26, #0x96] ; 5f6309f8
+   0x65613C: stur     xzr, [sp, #0x6c] ; ffc306f8
+   0x656140: strb     w8, [sp, #0x84] ; e8130239
+   0x656144: ldp      w8, w10, [x20, #0x68] ; 882a4d29
+   0x656148: sxtw     x8, w8 ; 087d4093
+   0x65614C: orr      x8, x9, x8, lsl #4 ; 281108aa
+   0x656150: ldrb     w9, [x21, #0x14] ; a9524039
+   0x656154: cmp      w9, #0 ; 3f010071
+   0x656158: mov      x9, #-0xfffd00000001 ; a9ffdf92
+   0x65615C: movk     x9, #0, lsl #48 ; 0900e0f2
+   0x656160: csel     x8, x8, x9, eq ; 0801899a
+   0x656164: strb     w10, [sp, #0x58] ; ea630139
+   0x656168: stur     xzr, [sp, #0x74] ; ff4307f8
+   0x65616C: strh     wzr, [sp, #0x7c] ; fffb0079
+   0x656170: str      x8, [sp, #0x38] ; e81f00f9
+   0x656174: ldrh     w8, [x20, #0x64] ; 88ca4079
+   0x656178: strh     w8, [sp, #0x44] ; e88b0079
+   0x65617C: ldr      x8, [x22] ; c80240f9
+   0x656180: str      q0, [x26, #0xc0] ; 4033803d
+   0x656184: stp      xzr, xzr, [sp, #0x88] ; ffff08a9
+   0x656188: stur     q0, [x26, #0xca] ; 40a38c3c
+   0x65618C: ldrh     w26, [x20, #0x4c] ; 9a9a4079
+   0x656190: ldr      x8, [x8, #0x18] ; 080d40f9
+   0x656194: blr      x8 ; 00013fd6
+   0x656198: ldr      x8, [x22] ; c80240f9
+   0x65619C: mov      x0, x22 ; e00316aa
+   0x6561A0: ldr      x8, [x8, #0x10] ; 080940f9
+   0x6561A4: blr      x8 ; 00013fd6
+   0x6561A8: subs     w8, w26, w24 ; 4803186b
+   0x6561AC: b.eq     #0x6567fc ; 80320054
+   0x6561B0: add      w8, w8, #1 ; 08050011
+   0x6561B4: cbz      w8, #0x656ba0 ; 684f0034
+   0x6561B8: clz      w9, w8 ; 0911c05a
+   0x6561BC: ldp      x11, x12, [x0] ; 0b3040a9
+   0x6561C0: lsl      w10, w8, w9 ; 0a21c91a
+   0x6561C4: orr      w9, w9, #0x40 ; 29011a32
+   0x6561C8: tst      w10, #0x7fffffff ; 5f790072
+   0x6561CC: mov      x10, #-0x20 ; ea038092
+   0x6561D0: cinc     x10, x10, eq ; 4a158a9a
+   0x6561D4: add      x9, x10, x9 ; 4901098b
+   0x6561D8: lsr      x9, x25, x9 ; 2927c99a
+   0x6561DC: add      w10, w11, w12 ; 6a010c0b
+   0x6561E0: eor      x13, x11, x12 ; 6d010cca
+   0x6561E4: and      w10, w10, w9 ; 4a01090a
+   0x6561E8: ror      x11, x11, #0x28 ; 6ba1cb93
+   0x6561EC: eor      x11, x11, x13, lsl #16 ; 6b410dca
+   0x6561F0: ror      x12, x13, #0x1b ; ac6dcd93
+   0x6561F4: cmp      w8, w10 ; 1f010a6b
+   0x6561F8: eor      x11, x11, x13 ; 6b010dca
+   0x6561FC: b.ls     #0x6561dc ; 09ffff54
+   0x656200: stp      x11, x12, [x0] ; 0b3000a9
+   0x656204: ldr      w8, [x20, #0x60] ; 886240b9
+   0x656208: add      w24, w24, w10 ; 18030a0b
+   0x65620C: strh     w24, [sp, #0x50] ; f8a30079
+   0x656210: tbnz     w8, #0x1f, #0x656218 ; 4800f837
+   0x656214: strh     w8, [sp, #0x52] ; e8a70079
+   0x656218: ldr      w8, [x20, #0x70] ; 887240b9
+   0x65621C: tbz      w8, #0x1f, #0x6569dc ; 083ef836
+   0x656220: ldr      w8, [x20, #0x78] ; 887a40b9
+   0x656224: tst      w8, #0xff ; 1f1d0072
+   0x656228: strb     w8, [sp, #0x7e] ; e8fb0139
+   0x65622C: b.ne     #0x656260 ; a1010054
+   0x656230: ldr      w8, [x20, #0x7c] ; 887e40b9
+   0x656234: tbz      w8, #0x1f, #0x6569e4 ; 883df836
+   0x656238: ldr      w8, [x20, #0x80] ; 888240b9
+   0x65623C: tbz      w8, #0x1f, #0x6569ec ; 883df836
+   0x656240: ldr      w8, [x20, #0x84] ; 888640b9
+   0x656244: tbz      w8, #0x1f, #0x6569f4 ; 883df836
+   0x656248: ldr      w8, [x20, #0x88] ; 888a40b9
+   0x65624C: tbz      w8, #0x1f, #0x6569fc ; 883df836
+   0x656250: ldr      w8, [x20, #0x8c] ; 888e40b9
+   0x656254: tbz      w8, #0x1f, #0x656a04 ; 883df836
+   0x656258: ldr      w8, [x20, #0x90] ; 889240b9
+   0x65625C: tbz      w8, #0x1f, #0x656a0c ; 883df836
+   0x656260: ldrb     w8, [x21, #4] ; a8124039
+   0x656264: cbnz     w8, #0x656ac4 ; 08430035
+   0x656268: add      x8, x20, #0x74 ; 88d20191
+   0x65626C: ldr      w8, [x8] ; 080140b9
+   0x656270: tbnz     w8, #0x1f, #0x656278 ; 4800f837
+   0x656274: strh     w8, [sp, #0x80] ; e8030179
+   0x656278: ldr      s0, [x20, #0x50] ; 805240bd
+   0x65627C: add      w8, w23, #1 ; e8060011
+   0x656280: strb     w8, [sp, #0x40] ; e8030139
+   0x656284: fcmp     s0, #0.0 ; 0820201e
+   0x656288: b.hi     #0x656594 ; 68180054
+   0x65628C: ldrb     w8, [x21, #0x12] ; a84a4039
+   0x656290: cbnz     w8, #0x656a14 ; 283c0035
+   0x656294: add      x0, sp, #0x18 ; e0630091
+>> 0x656298: bl       #0x656f80 ; 3a030094
+   0x65629C: ldr      x0, [x20, #8] ; 800640f9
+   0x6562A0: add      x1, sp, #0x18 ; e1630091
+   0x6562A4: mov      x8, x19 ; e80313aa
+   0x6562A8: bl       #0x656ca4 ; 7f020094
+   0x6562AC: ldr      x0, [x19] ; 600240f9
+   0x6562B0: ldr      x8, [x0] ; 080040f9
+   0x6562B4: ldr      x8, [x8, #0x1c8] ; 08e540f9
+   0x6562B8: blr      x8 ; 00013fd6
+   0x6562BC: ldr      x22, [x19] ; 760240f9
+   0x6562C0: mov      w21, w0 ; f503002a
+   0x6562C4: cbz      x22, #0x6562f8 ; b60100b4
+   0x6562C8: ldr      x23, [x22, #0x38] ; d71e40f9
+   0x6562CC: ldr      x8, [x23, #0x10] ; e80a40f9
+   0x6562D0: cbz      x8, #0x656b8c ; e84500b4
+   0x6562D4: add      x9, x23, #0x1a ; e96a0091
+   0x6562D8: ldaxrh   w8, [x9] ; 28fd5f48
+   0x6562DC: add      w10, w8, #1 ; 0a050011
+   0x6562E0: stlxrh   w11, w10, [x9] ; 2afd0b48
+   0x6562E4: cbnz     w11, #0x6562d8 ; abffff35
+   0x6562E8: cbz      w8, #0x656804 ; e8280034
+   0x6562EC: mov      w9, #0xffff ; e9ff9f52
+   0x6562F0: cmp      w8, w9 ; 1f01096b
+   0x6562F4: b.eq     #0x656b8c ; c0440054
+   0x6562F8: ldur     q0, [x20, #0xac] ; 80c2ca3c
+   0x6562FC: mov      x0, x22 ; e00316aa
+   0x656300: ldr      x25, [x20, #8] ; 990640f9
+   0x656304: str      q0, [sp] ; e003803d
+   0x656308: ldr      x8, [x22] ; c80240f9
+   0x65630C: ldr      x9, [x8, #0x410] ; 090942f9
+   0x656310: sub      x8, x29, #0xa8 ; a8a302d1
+   0x656314: blr      x9 ; 20013fd6
+   0x656318: ldr      x8, [x22] ; c80240f9
+   0x65631C: mov      x0, x22 ; e00316aa
+   0x656320: ldr      x8, [x8, #0xb8] ; 085d40f9
+   0x656324: blr      x8 ; 00013fd6
+   0x656328: cbz      w0, #0x656370 ; 40020034
+   0x65632C: mov      w23, #1 ; 37008052
+   0x656330: ldr      x8, [x22] ; c80240f9
+   0x656334: mov      x0, x22 ; e00316aa
+   0x656338: mov      w1, w23 ; e103172a
+   0x65633C: ldr      x9, [x8, #0x400] ; 090142f9
+   0x656340: add      x8, sp, #0x110 ; e8430491
+   0x656344: blr      x9 ; 20013fd6
+   0x656348: sub      x0, x29, #0xa8 ; a0a302d1
+   0x65634C: add      x1, sp, #0x110 ; e1430491
+   0x656350: bl       #0x656c00 ; 2c020094
+   0x656354: ldr      x8, [x22] ; c80240f9
+   0x656358: mov      x0, x22 ; e00316aa
+   0x65635C: add      w23, w23, #1 ; f7060011
+   0x656360: ldr      x8, [x8, #0xb8] ; 085d40f9
+   0x656364: blr      x8 ; 00013fd6
+   0x656368: cmp      w23, w0 ; ff02006b
+   0x65636C: b.ls     #0x656330 ; 29feff54
+   0x656370: mov      x23, xzr ; f7031faa
+   0x656374: mov      x24, xzr ; f8031faa
+   0x656378: mov      x26, sp ; fa030091
+   0x65637C: mov      x27, #0x3fffffffffffffff ; 1b00f892
+   0x656380: stp      xzr, xzr, [sp, #0x110] ; ff7f11a9
+   0x656384: mov      x28, #0x7fffffffffffffff ; 1c00f092
+   0x656388: stp      xzr, x25, [sp, #0x120] ; ff6712a9
+   0x65638C: ldr      w25, [x26, x24, lsl #2] ; 597b78b8
+   0x656390: tbnz     w25, #0x1f, #0x656aa0 ; 9938f837
+   0x656394: mov      w0, w25 ; e003192a
+   0x656398: bl       #0x41ea50 ; ae21f797
+   0x65639C: tbnz     w0, #0, #0x6569b8 ; e0300037
+   0x6563A0: ldr      x8, [x22] ; c80240f9
+   0x6563A4: mov      x0, x22 ; e00316aa
+   0x6563A8: mov      w1, w24 ; e103182a
+   0x6563AC: mov      w2, wzr ; e2031f2a
+   0x6563B0: ldr      x8, [x8, #0x110] ; 088940f9
+   0x6563B4: blr      x8 ; 00013fd6
+   0x6563B8: ldr      x8, [sp, #0x120] ; e89340f9
+~~~
+
 ## Static PC 0x657124 (word 0x94201831)
 
 - ELF file offset: 0x657B6C; opcode: BL; mask: to shiny_xor_check (0xE5D1E8)
@@ -1451,5 +1692,487 @@
    0x6572B0: b.eq     #0x657420 ; 800b0054
    0x6572B4: ldrsh    w10, [x19, #0x56] ; 6aaec079
    0x6572B8: cmn      w10, #1 ; 5f050031
+~~~
+
+## Static PC 0xE3EB64 (word 0x97E06107)
+
+- ELF file offset: 0xE3F5AC; opcode: BL; mask: to native_pid_shiny_mode_generator (0x656F80)
+- NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
+
+~~~asm
+   0xE3E8E4: stp      xzr, xzr, [x19, #0x78] ; 7ffe07a9
+   0xE3E8E8: bl       #0x3f0784 ; a7c7d697
+   0xE3E8EC: ldrb     w8, [x0, #0x378] ; 08e04d39
+   0xE3E8F0: stur     wzr, [x23, #0x91] ; ff1209b8
+   0xE3E8F4: stur     xzr, [x23, #0x81] ; ff1208f8
+   0xE3E8F8: mov      w9, #4 ; 89008052
+   0xE3E8FC: mov      w1, #0x148 ; 01298052
+   0xE3E900: mov      w2, #4 ; 82008052
+   0xE3E904: stur     xzr, [x23, #0x89] ; ff9208f8
+   0xE3E908: stur     xzr, [x23, #0xda] ; ffa20df8
+   0xE3E90C: stur     xzr, [x23, #0xe2] ; ff220ef8
+   0xE3E910: stur     xzr, [x23, #0xea] ; ffa20ef8
+   0xE3E914: stur     xzr, [x23, #0x96] ; ff6209f8
+   0xE3E918: ldr      x23, [x19, #8] ; 770640f9
+   0xE3E91C: mov      x0, x23 ; e00317aa
+   0xE3E920: strb     w27, [sp, #0x9d] ; fb770239
+   0xE3E924: strb     wzr, [sp, #0x88] ; ff230239
+   0xE3E928: strb     wzr, [sp, #0xa6] ; ff9b0239
+   0xE3E92C: strb     w9, [sp, #0x75] ; e9d70139
+   0xE3E930: strb     w8, [sp, #0x74] ; e8d30139
+   0xE3E934: str      xzr, [sp, #0x38] ; ff1f00f9
+   0xE3E938: str      xzr, [sp, #0xd8] ; ff6f00f9
+   0xE3E93C: strh     wzr, [sp, #0xe0] ; ffc30179
+   0xE3E940: str      x26, [sp, #0x50] ; fa2b00f9
+   0xE3E944: str      w26, [sp, #0x58] ; fa5b00b9
+   0xE3E948: strh     wzr, [sp, #0xfa] ; fff70179
+   0xE3E94C: stur     xzr, [sp, #0x5c] ; ffc305f8
+   0xE3E950: stur     xzr, [sp, #0x64] ; ff4306f8
+   0xE3E954: strh     wzr, [sp, #0x6c] ; ffdb0079
+   0xE3E958: strh     w22, [sp, #0x32] ; f6670079
+   0xE3E95C: strh     w21, [sp, #0x40] ; f5830079
+   0xE3E960: str      x20, [sp, #0x20] ; f41300f9
+   0xE3E964: stp      xzr, xzr, [sp, #0xa8] ; ffff0aa9
+   0xE3E968: stp      xzr, xzr, [sp, #0xb8] ; ffff0ba9
+   0xE3E96C: stp      xzr, xzr, [sp, #0xc8] ; ffff0ca9
+   0xE3E970: stp      xzr, xzr, [sp, #0x78] ; ffff07a9
+   0xE3E974: ldr      x8, [x23] ; e80240f9
+   0xE3E978: ldr      x8, [x8, #0x10] ; 080940f9
+   0xE3E97C: blr      x8 ; 00013fd6
+   0xE3E980: mov      x20, x0 ; f40300aa
+   0xE3E984: cbz      x0, #0xe3e9dc ; c00200b4
+   0xE3E988: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E98C: cmp      x8, #0x10 ; 1f4100f1
+   0xE3E990: b.eq     #0xe3eb30 ; 000d0054
+   0xE3E994: add      x8, x24, x8, lsl #3 ; 080f088b
+   0xE3E998: mov      w21, #0x148 ; 15298052
+   0xE3E99C: mov      x0, x20 ; e00314aa
+   0xE3E9A0: mov      w1, wzr ; e1031f2a
+   0xE3E9A4: mov      x2, x21 ; e20315aa
+   0xE3E9A8: str      x23, [x8, #0x18] ; 170d00f9
+   0xE3E9AC: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E9B0: add      x8, x8, #1 ; 08050091
+   0xE3E9B4: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3E9B8: bl       #0x3161520 ; da8a8c94
+   0xE3E9BC: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E9C0: mov      w22, #4 ; 96008052
+   0xE3E9C4: sub      x8, x8, #1 ; 080500d1
+   0xE3E9C8: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3E9CC: ldr      x1, [x25] ; 210340f9
+   0xE3E9D0: str      x20, [x25] ; 340300f9
+   0xE3E9D4: cbnz     x1, #0xe3e9f4 ; 010100b5
+   0xE3E9D8: b        #0xe3ea10 ; 0e000014
+   0xE3E9DC: mov      x23, xzr ; f7031faa
+   0xE3E9E0: mov      x21, xzr ; f5031faa
+   0xE3E9E4: mov      x22, xzr ; f6031faa
+   0xE3E9E8: ldr      x1, [x25] ; 210340f9
+   0xE3E9EC: str      x20, [x25] ; 340300f9
+   0xE3E9F0: cbz      x1, #0xe3ea10 ; 010100b4
+   0xE3E9F4: ldr      x0, [x19, #0x38] ; 601e40f9
+   0xE3E9F8: cbz      x0, #0xe3ea10 ; c00000b4
+   0xE3E9FC: ldr      x8, [x0] ; 080040f9
+   0xE3EA00: ldp      x2, x3, [x19, #0x40] ; 620e44a9
+   0xE3EA04: ldr      x8, [x8, #0x18] ; 080d40f9
+   0xE3EA08: blr      x8 ; 00013fd6
+   0xE3EA0C: ldr      x20, [x19, #0x30] ; 741a40f9
+   0xE3EA10: mov      w2, #0x148 ; 02298052
+   0xE3EA14: mov      x0, x20 ; e00314aa
+   0xE3EA18: str      x22, [x19, #0x48] ; 762600f9
+   0xE3EA1C: mov      w1, wzr ; e1031f2a
+   0xE3EA20: stp      x23, x21, [x19, #0x38] ; 77d603a9
+   0xE3EA24: bl       #0x3161520 ; bf8a8c94
+   0xE3EA28: ldr      x20, [x19, #8] ; 740640f9
+   0xE3EA2C: mov      w1, #0x28 ; 01058052
+   0xE3EA30: mov      w2, #8 ; 02018052
+   0xE3EA34: ldr      x8, [x20] ; 880240f9
+   0xE3EA38: mov      x0, x20 ; e00314aa
+   0xE3EA3C: ldr      x8, [x8, #0x10] ; 080940f9
+   0xE3EA40: blr      x8 ; 00013fd6
+   0xE3EA44: mov      x21, x0 ; f50300aa
+   0xE3EA48: cbz      x0, #0xe3ea98 ; 800200b4
+   0xE3EA4C: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA50: cmp      x8, #0x10 ; 1f4100f1
+   0xE3EA54: b.eq     #0xe3eb30 ; e0060054
+   0xE3EA58: add      x8, x24, x8, lsl #3 ; 080f088b
+   0xE3EA5C: mov      x0, x21 ; e00315aa
+   0xE3EA60: str      x20, [x8, #0x18] ; 140d00f9
+   0xE3EA64: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA68: add      x8, x8, #1 ; 08050091
+   0xE3EA6C: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3EA70: bl       #0xe47564 ; bd220094
+   0xE3EA74: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA78: mov      w23, #8 ; 17018052
+   0xE3EA7C: sub      x8, x8, #1 ; 080500d1
+   0xE3EA80: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3EA84: mov      w24, #0x28 ; 18058052
+   0xE3EA88: ldr      x22, [x19, #0x70] ; 763a40f9
+   0xE3EA8C: str      x21, [x19, #0x70] ; 753a00f9
+   0xE3EA90: cbnz     x22, #0xe3eab0 ; 160100b5
+   0xE3EA94: b        #0xe3eae4 ; 14000014
+   0xE3EA98: mov      x20, xzr ; f4031faa
+   0xE3EA9C: mov      x24, xzr ; f8031faa
+   0xE3EAA0: mov      x23, xzr ; f7031faa
+   0xE3EAA4: ldr      x22, [x19, #0x70] ; 763a40f9
+   0xE3EAA8: str      x21, [x19, #0x70] ; 753a00f9
+   0xE3EAAC: cbz      x22, #0xe3eae4 ; d60100b4
+   0xE3EAB0: ldr      x8, [x19, #0x78] ; 683e40f9
+   0xE3EAB4: cbz      x8, #0xe3eae4 ; 880100b4
+   0xE3EAB8: ldr      x8, [x22] ; c80240f9
+   0xE3EABC: mov      x0, x22 ; e00316aa
+   0xE3EAC0: ldr      x8, [x8] ; 080140f9
+   0xE3EAC4: blr      x8 ; 00013fd6
+   0xE3EAC8: ldp      x0, x2, [x19, #0x78] ; 608a47a9
+   0xE3EACC: mov      x1, x22 ; e10316aa
+   0xE3EAD0: ldr      x3, [x19, #0x88] ; 634640f9
+   0xE3EAD4: ldr      x8, [x0] ; 080040f9
+   0xE3EAD8: ldr      x8, [x8, #0x18] ; 080d40f9
+   0xE3EADC: blr      x8 ; 00013fd6
+   0xE3EAE0: ldr      x21, [x19, #0x70] ; 753a40f9
+   0xE3EAE4: ldr      x1, [x19, #0x30] ; 611a40f9
+   0xE3EAE8: mov      x0, x21 ; e00315aa
+   0xE3EAEC: mov      x2, xzr ; e2031faa
+   0xE3EAF0: stp      x20, x24, [x19, #0x78] ; 74e207a9
+   0xE3EAF4: str      x23, [x19, #0x88] ; 774600f9
+   0xE3EAF8: bl       #0xe475fc ; c1220094
+   0xE3EAFC: add      x1, sp, #8 ; e1230091
+   0xE3EB00: mov      x0, x19 ; e00313aa
+   0xE3EB04: bl       #0xe3eb34 ; 0c000094
+   0xE3EB08: mov      x0, x19 ; e00313aa
+   0xE3EB0C: bl       #0xe3f18c ; a0010094
+   0xE3EB10: ldp      x20, x19, [sp, #0x150] ; f44f55a9
+   0xE3EB14: ldp      x22, x21, [sp, #0x140] ; f65754a9
+   0xE3EB18: ldp      x24, x23, [sp, #0x130] ; f85f53a9
+   0xE3EB1C: ldp      x26, x25, [sp, #0x120] ; fa6752a9
+   0xE3EB20: ldp      x28, x27, [sp, #0x110] ; fc6f51a9
+   0xE3EB24: ldp      x29, x30, [sp, #0x100] ; fd7b50a9
+   0xE3EB28: add      sp, sp, #0x160 ; ff830591
+   0xE3EB2C: ret       ; c0035fd6
+   0xE3EB30: bl       #0x2fa70 ; d0c3c797
+   0xE3EB34: ldrh     w8, [x1, #0x2a] ; 28544079
+   0xE3EB38: cbz      w8, #0xe3f188 ; 88320034
+   0xE3EB3C: sub      sp, sp, #0x140 ; ff0305d1
+   0xE3EB40: stp      x29, x30, [sp, #0x100] ; fd7b10a9
+   0xE3EB44: str      x28, [sp, #0x110] ; fc8b00f9
+   0xE3EB48: stp      x22, x21, [sp, #0x120] ; f65712a9
+   0xE3EB4C: stp      x20, x19, [sp, #0x130] ; f44f13a9
+   0xE3EB50: add      x29, sp, #0x100 ; fd030491
+   0xE3EB54: mov      x19, x0 ; f30300aa
+   0xE3EB58: add      x0, sp, #8 ; e0230091
+   0xE3EB5C: bl       #0xbef804 ; 2ac3f697
+   0xE3EB60: add      x0, sp, #8 ; e0230091
+>> 0xE3EB64: bl       #0x656f80 ; 0761e097
+   0xE3EB68: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB6C: bl       #0xe47a14 ; aa230094
+   0xE3EB70: mov      w20, w0 ; f403002a
+   0xE3EB74: tbnz     w0, #0, #0xe3eb80 ; 60000037
+   0xE3EB78: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB7C: bl       #0xe480e0 ; 59250094
+   0xE3EB80: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB84: bl       #0xe483c0 ; 0f260094
+   0xE3EB88: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB8C: ldr      w1, [sp, #0x18] ; e11b40b9
+   0xE3EB90: bl       #0xe514d0 ; 504a0094
+   0xE3EB94: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB98: ldr      w1, [sp, #0x20] ; e12340b9
+   0xE3EB9C: bl       #0xe52ee0 ; d1500094
+   0xE3EBA0: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBA4: ldr      w1, [sp, #0x28] ; e12b40b9
+   0xE3EBA8: bl       #0xe57350 ; ea610094
+   0xE3EBAC: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBB0: ldrh     w1, [sp, #0x32] ; e1674079
+   0xE3EBB4: bl       #0xe52aa0 ; bb4f0094
+   0xE3EBB8: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBBC: ldrh     w1, [sp, #0x34] ; e16b4079
+   0xE3EBC0: bl       #0xe56470 ; 2c5e0094
+   0xE3EBC4: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBC8: ldrh     w1, [sp, #0x36] ; e16f4079
+   0xE3EBCC: bl       #0xe52cc0 ; 3d500094
+   0xE3EBD0: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBD4: ldrb     w1, [sp, #0x40] ; e1034139
+   0xE3EBD8: bl       #0xe518f0 ; 464b0094
+   0xE3EBDC: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBE0: ldrh     w1, [sp, #0x44] ; e18b4079
+   0xE3EBE4: bl       #0xe56690 ; ab5e0094
+   0xE3EBE8: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBEC: ldrh     w1, [sp, #0x46] ; e18f4079
+   0xE3EBF0: bl       #0xe568b0 ; 305f0094
+   0xE3EBF4: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBF8: ldrb     w1, [sp, #0x42] ; e10b4139
+   0xE3EBFC: bl       #0xe56250 ; 955d0094
+   0xE3EC00: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC04: ldrb     w1, [sp, #0x40] ; e1034139
+   0xE3EC08: bl       #0xe58650 ; 92660094
+   0xE3EC0C: ldr      x21, [x19, #0x70] ; 753a40f9
+   0xE3EC10: bl       #0x3f0784 ; ddc6d697
+   0xE3EC14: ldrb     w1, [x0, #0x379] ; 01e44d39
+   0xE3EC18: mov      x0, x21 ; e00315aa
+   0xE3EC1C: bl       #0xe57780 ; d9620094
+   0xE3EC20: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC24: ldr      w1, [sp, #0x4c] ; e14f40b9
+   0xE3EC28: bl       #0xe53320 ; be510094
+   0xE3EC2C: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC30: ldrb     w1, [sp, #0x74] ; e1d34139
+   0xE3EC34: bl       #0xe539f0 ; 6f530094
+   0xE3EC38: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC3C: mov      w1, #0xff ; e11f8052
+   0xE3EC40: bl       #0xe5ae40 ; 80700094
+   0xE3EC44: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC48: ldrb     w1, [sp, #0x75] ; e1d74139
+   0xE3EC4C: bl       #0xe58430 ; f9650094
+   0xE3EC50: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC54: ldrb     w1, [sp, #0x50] ; e1434139
+   0xE3EC58: bl       #0xe54f90 ; ce580094
+   0xE3EC5C: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC60: ldrb     w1, [sp, #0x52] ; e14b4139
+   0xE3EC64: bl       #0xe551a0 ; 4f590094
+   0xE3EC68: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC6C: ldrb     w1, [sp, #0x54] ; e1534139
+   0xE3EC70: bl       #0xe553b0 ; d0590094
+   0xE3EC74: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC78: ldrb     w1, [sp, #0x56] ; e15b4139
+   0xE3EC7C: bl       #0xe555c0 ; 515a0094
+   0xE3EC80: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC84: ldrb     w1, [sp, #0x58] ; e1634139
+~~~
+
+## Static PC 0xE3EBA8 (word 0x940061EA)
+
+- ELF file offset: 0xE3F5F0; opcode: BL; mask: to pid_set (0xE57350)
+- NOT VERIFIED: register source, function identity, execution, game-state conditions, PID branch.
+
+~~~asm
+   0xE3E928: strb     wzr, [sp, #0xa6] ; ff9b0239
+   0xE3E92C: strb     w9, [sp, #0x75] ; e9d70139
+   0xE3E930: strb     w8, [sp, #0x74] ; e8d30139
+   0xE3E934: str      xzr, [sp, #0x38] ; ff1f00f9
+   0xE3E938: str      xzr, [sp, #0xd8] ; ff6f00f9
+   0xE3E93C: strh     wzr, [sp, #0xe0] ; ffc30179
+   0xE3E940: str      x26, [sp, #0x50] ; fa2b00f9
+   0xE3E944: str      w26, [sp, #0x58] ; fa5b00b9
+   0xE3E948: strh     wzr, [sp, #0xfa] ; fff70179
+   0xE3E94C: stur     xzr, [sp, #0x5c] ; ffc305f8
+   0xE3E950: stur     xzr, [sp, #0x64] ; ff4306f8
+   0xE3E954: strh     wzr, [sp, #0x6c] ; ffdb0079
+   0xE3E958: strh     w22, [sp, #0x32] ; f6670079
+   0xE3E95C: strh     w21, [sp, #0x40] ; f5830079
+   0xE3E960: str      x20, [sp, #0x20] ; f41300f9
+   0xE3E964: stp      xzr, xzr, [sp, #0xa8] ; ffff0aa9
+   0xE3E968: stp      xzr, xzr, [sp, #0xb8] ; ffff0ba9
+   0xE3E96C: stp      xzr, xzr, [sp, #0xc8] ; ffff0ca9
+   0xE3E970: stp      xzr, xzr, [sp, #0x78] ; ffff07a9
+   0xE3E974: ldr      x8, [x23] ; e80240f9
+   0xE3E978: ldr      x8, [x8, #0x10] ; 080940f9
+   0xE3E97C: blr      x8 ; 00013fd6
+   0xE3E980: mov      x20, x0 ; f40300aa
+   0xE3E984: cbz      x0, #0xe3e9dc ; c00200b4
+   0xE3E988: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E98C: cmp      x8, #0x10 ; 1f4100f1
+   0xE3E990: b.eq     #0xe3eb30 ; 000d0054
+   0xE3E994: add      x8, x24, x8, lsl #3 ; 080f088b
+   0xE3E998: mov      w21, #0x148 ; 15298052
+   0xE3E99C: mov      x0, x20 ; e00314aa
+   0xE3E9A0: mov      w1, wzr ; e1031f2a
+   0xE3E9A4: mov      x2, x21 ; e20315aa
+   0xE3E9A8: str      x23, [x8, #0x18] ; 170d00f9
+   0xE3E9AC: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E9B0: add      x8, x8, #1 ; 08050091
+   0xE3E9B4: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3E9B8: bl       #0x3161520 ; da8a8c94
+   0xE3E9BC: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3E9C0: mov      w22, #4 ; 96008052
+   0xE3E9C4: sub      x8, x8, #1 ; 080500d1
+   0xE3E9C8: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3E9CC: ldr      x1, [x25] ; 210340f9
+   0xE3E9D0: str      x20, [x25] ; 340300f9
+   0xE3E9D4: cbnz     x1, #0xe3e9f4 ; 010100b5
+   0xE3E9D8: b        #0xe3ea10 ; 0e000014
+   0xE3E9DC: mov      x23, xzr ; f7031faa
+   0xE3E9E0: mov      x21, xzr ; f5031faa
+   0xE3E9E4: mov      x22, xzr ; f6031faa
+   0xE3E9E8: ldr      x1, [x25] ; 210340f9
+   0xE3E9EC: str      x20, [x25] ; 340300f9
+   0xE3E9F0: cbz      x1, #0xe3ea10 ; 010100b4
+   0xE3E9F4: ldr      x0, [x19, #0x38] ; 601e40f9
+   0xE3E9F8: cbz      x0, #0xe3ea10 ; c00000b4
+   0xE3E9FC: ldr      x8, [x0] ; 080040f9
+   0xE3EA00: ldp      x2, x3, [x19, #0x40] ; 620e44a9
+   0xE3EA04: ldr      x8, [x8, #0x18] ; 080d40f9
+   0xE3EA08: blr      x8 ; 00013fd6
+   0xE3EA0C: ldr      x20, [x19, #0x30] ; 741a40f9
+   0xE3EA10: mov      w2, #0x148 ; 02298052
+   0xE3EA14: mov      x0, x20 ; e00314aa
+   0xE3EA18: str      x22, [x19, #0x48] ; 762600f9
+   0xE3EA1C: mov      w1, wzr ; e1031f2a
+   0xE3EA20: stp      x23, x21, [x19, #0x38] ; 77d603a9
+   0xE3EA24: bl       #0x3161520 ; bf8a8c94
+   0xE3EA28: ldr      x20, [x19, #8] ; 740640f9
+   0xE3EA2C: mov      w1, #0x28 ; 01058052
+   0xE3EA30: mov      w2, #8 ; 02018052
+   0xE3EA34: ldr      x8, [x20] ; 880240f9
+   0xE3EA38: mov      x0, x20 ; e00314aa
+   0xE3EA3C: ldr      x8, [x8, #0x10] ; 080940f9
+   0xE3EA40: blr      x8 ; 00013fd6
+   0xE3EA44: mov      x21, x0 ; f50300aa
+   0xE3EA48: cbz      x0, #0xe3ea98 ; 800200b4
+   0xE3EA4C: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA50: cmp      x8, #0x10 ; 1f4100f1
+   0xE3EA54: b.eq     #0xe3eb30 ; e0060054
+   0xE3EA58: add      x8, x24, x8, lsl #3 ; 080f088b
+   0xE3EA5C: mov      x0, x21 ; e00315aa
+   0xE3EA60: str      x20, [x8, #0x18] ; 140d00f9
+   0xE3EA64: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA68: add      x8, x8, #1 ; 08050091
+   0xE3EA6C: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3EA70: bl       #0xe47564 ; bd220094
+   0xE3EA74: ldr      x8, [x24, #0x98] ; 084f40f9
+   0xE3EA78: mov      w23, #8 ; 17018052
+   0xE3EA7C: sub      x8, x8, #1 ; 080500d1
+   0xE3EA80: str      x8, [x24, #0x98] ; 084f00f9
+   0xE3EA84: mov      w24, #0x28 ; 18058052
+   0xE3EA88: ldr      x22, [x19, #0x70] ; 763a40f9
+   0xE3EA8C: str      x21, [x19, #0x70] ; 753a00f9
+   0xE3EA90: cbnz     x22, #0xe3eab0 ; 160100b5
+   0xE3EA94: b        #0xe3eae4 ; 14000014
+   0xE3EA98: mov      x20, xzr ; f4031faa
+   0xE3EA9C: mov      x24, xzr ; f8031faa
+   0xE3EAA0: mov      x23, xzr ; f7031faa
+   0xE3EAA4: ldr      x22, [x19, #0x70] ; 763a40f9
+   0xE3EAA8: str      x21, [x19, #0x70] ; 753a00f9
+   0xE3EAAC: cbz      x22, #0xe3eae4 ; d60100b4
+   0xE3EAB0: ldr      x8, [x19, #0x78] ; 683e40f9
+   0xE3EAB4: cbz      x8, #0xe3eae4 ; 880100b4
+   0xE3EAB8: ldr      x8, [x22] ; c80240f9
+   0xE3EABC: mov      x0, x22 ; e00316aa
+   0xE3EAC0: ldr      x8, [x8] ; 080140f9
+   0xE3EAC4: blr      x8 ; 00013fd6
+   0xE3EAC8: ldp      x0, x2, [x19, #0x78] ; 608a47a9
+   0xE3EACC: mov      x1, x22 ; e10316aa
+   0xE3EAD0: ldr      x3, [x19, #0x88] ; 634640f9
+   0xE3EAD4: ldr      x8, [x0] ; 080040f9
+   0xE3EAD8: ldr      x8, [x8, #0x18] ; 080d40f9
+   0xE3EADC: blr      x8 ; 00013fd6
+   0xE3EAE0: ldr      x21, [x19, #0x70] ; 753a40f9
+   0xE3EAE4: ldr      x1, [x19, #0x30] ; 611a40f9
+   0xE3EAE8: mov      x0, x21 ; e00315aa
+   0xE3EAEC: mov      x2, xzr ; e2031faa
+   0xE3EAF0: stp      x20, x24, [x19, #0x78] ; 74e207a9
+   0xE3EAF4: str      x23, [x19, #0x88] ; 774600f9
+   0xE3EAF8: bl       #0xe475fc ; c1220094
+   0xE3EAFC: add      x1, sp, #8 ; e1230091
+   0xE3EB00: mov      x0, x19 ; e00313aa
+   0xE3EB04: bl       #0xe3eb34 ; 0c000094
+   0xE3EB08: mov      x0, x19 ; e00313aa
+   0xE3EB0C: bl       #0xe3f18c ; a0010094
+   0xE3EB10: ldp      x20, x19, [sp, #0x150] ; f44f55a9
+   0xE3EB14: ldp      x22, x21, [sp, #0x140] ; f65754a9
+   0xE3EB18: ldp      x24, x23, [sp, #0x130] ; f85f53a9
+   0xE3EB1C: ldp      x26, x25, [sp, #0x120] ; fa6752a9
+   0xE3EB20: ldp      x28, x27, [sp, #0x110] ; fc6f51a9
+   0xE3EB24: ldp      x29, x30, [sp, #0x100] ; fd7b50a9
+   0xE3EB28: add      sp, sp, #0x160 ; ff830591
+   0xE3EB2C: ret       ; c0035fd6
+   0xE3EB30: bl       #0x2fa70 ; d0c3c797
+   0xE3EB34: ldrh     w8, [x1, #0x2a] ; 28544079
+   0xE3EB38: cbz      w8, #0xe3f188 ; 88320034
+   0xE3EB3C: sub      sp, sp, #0x140 ; ff0305d1
+   0xE3EB40: stp      x29, x30, [sp, #0x100] ; fd7b10a9
+   0xE3EB44: str      x28, [sp, #0x110] ; fc8b00f9
+   0xE3EB48: stp      x22, x21, [sp, #0x120] ; f65712a9
+   0xE3EB4C: stp      x20, x19, [sp, #0x130] ; f44f13a9
+   0xE3EB50: add      x29, sp, #0x100 ; fd030491
+   0xE3EB54: mov      x19, x0 ; f30300aa
+   0xE3EB58: add      x0, sp, #8 ; e0230091
+   0xE3EB5C: bl       #0xbef804 ; 2ac3f697
+   0xE3EB60: add      x0, sp, #8 ; e0230091
+   0xE3EB64: bl       #0x656f80 ; 0761e097
+   0xE3EB68: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB6C: bl       #0xe47a14 ; aa230094
+   0xE3EB70: mov      w20, w0 ; f403002a
+   0xE3EB74: tbnz     w0, #0, #0xe3eb80 ; 60000037
+   0xE3EB78: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB7C: bl       #0xe480e0 ; 59250094
+   0xE3EB80: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB84: bl       #0xe483c0 ; 0f260094
+   0xE3EB88: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB8C: ldr      w1, [sp, #0x18] ; e11b40b9
+   0xE3EB90: bl       #0xe514d0 ; 504a0094
+   0xE3EB94: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EB98: ldr      w1, [sp, #0x20] ; e12340b9
+   0xE3EB9C: bl       #0xe52ee0 ; d1500094
+   0xE3EBA0: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBA4: ldr      w1, [sp, #0x28] ; e12b40b9
+>> 0xE3EBA8: bl       #0xe57350 ; ea610094
+   0xE3EBAC: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBB0: ldrh     w1, [sp, #0x32] ; e1674079
+   0xE3EBB4: bl       #0xe52aa0 ; bb4f0094
+   0xE3EBB8: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBBC: ldrh     w1, [sp, #0x34] ; e16b4079
+   0xE3EBC0: bl       #0xe56470 ; 2c5e0094
+   0xE3EBC4: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBC8: ldrh     w1, [sp, #0x36] ; e16f4079
+   0xE3EBCC: bl       #0xe52cc0 ; 3d500094
+   0xE3EBD0: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBD4: ldrb     w1, [sp, #0x40] ; e1034139
+   0xE3EBD8: bl       #0xe518f0 ; 464b0094
+   0xE3EBDC: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBE0: ldrh     w1, [sp, #0x44] ; e18b4079
+   0xE3EBE4: bl       #0xe56690 ; ab5e0094
+   0xE3EBE8: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBEC: ldrh     w1, [sp, #0x46] ; e18f4079
+   0xE3EBF0: bl       #0xe568b0 ; 305f0094
+   0xE3EBF4: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EBF8: ldrb     w1, [sp, #0x42] ; e10b4139
+   0xE3EBFC: bl       #0xe56250 ; 955d0094
+   0xE3EC00: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC04: ldrb     w1, [sp, #0x40] ; e1034139
+   0xE3EC08: bl       #0xe58650 ; 92660094
+   0xE3EC0C: ldr      x21, [x19, #0x70] ; 753a40f9
+   0xE3EC10: bl       #0x3f0784 ; ddc6d697
+   0xE3EC14: ldrb     w1, [x0, #0x379] ; 01e44d39
+   0xE3EC18: mov      x0, x21 ; e00315aa
+   0xE3EC1C: bl       #0xe57780 ; d9620094
+   0xE3EC20: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC24: ldr      w1, [sp, #0x4c] ; e14f40b9
+   0xE3EC28: bl       #0xe53320 ; be510094
+   0xE3EC2C: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC30: ldrb     w1, [sp, #0x74] ; e1d34139
+   0xE3EC34: bl       #0xe539f0 ; 6f530094
+   0xE3EC38: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC3C: mov      w1, #0xff ; e11f8052
+   0xE3EC40: bl       #0xe5ae40 ; 80700094
+   0xE3EC44: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC48: ldrb     w1, [sp, #0x75] ; e1d74139
+   0xE3EC4C: bl       #0xe58430 ; f9650094
+   0xE3EC50: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC54: ldrb     w1, [sp, #0x50] ; e1434139
+   0xE3EC58: bl       #0xe54f90 ; ce580094
+   0xE3EC5C: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC60: ldrb     w1, [sp, #0x52] ; e14b4139
+   0xE3EC64: bl       #0xe551a0 ; 4f590094
+   0xE3EC68: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC6C: ldrb     w1, [sp, #0x54] ; e1534139
+   0xE3EC70: bl       #0xe553b0 ; d0590094
+   0xE3EC74: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC78: ldrb     w1, [sp, #0x56] ; e15b4139
+   0xE3EC7C: bl       #0xe555c0 ; 515a0094
+   0xE3EC80: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC84: ldrb     w1, [sp, #0x58] ; e1634139
+   0xE3EC88: bl       #0xe557d0 ; d25a0094
+   0xE3EC8C: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC90: ldrb     w1, [sp, #0x5a] ; e16b4139
+   0xE3EC94: bl       #0xe559e0 ; 535b0094
+   0xE3EC98: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3EC9C: ldrb     w1, [sp, #0x5c] ; e1734139
+   0xE3ECA0: bl       #0xe53c10 ; dc530094
+   0xE3ECA4: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3ECA8: ldrb     w1, [sp, #0x5e] ; e17b4139
+   0xE3ECAC: bl       #0xe53e30 ; 61540094
+   0xE3ECB0: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3ECB4: ldrb     w1, [sp, #0x60] ; e1834139
+   0xE3ECB8: bl       #0xe54050 ; e6540094
+   0xE3ECBC: ldr      x0, [x19, #0x70] ; 603a40f9
+   0xE3ECC0: ldrb     w1, [sp, #0x62] ; e18b4139
+   0xE3ECC4: bl       #0xe54270 ; 6b550094
+   0xE3ECC8: ldr      x0, [x19, #0x70] ; 603a40f9
 ~~~
 
