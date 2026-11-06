@@ -1,0 +1,38 @@
+label	virtual_address	file_offset	source_region
+PartnerExchangeAction	0x31A7FED	0x31A89A5	.rodata
+TradeMatchingPage	0x31ADC1D	0x31AE5D5	.rodata
+net_topmenu_trade_10_06	0x31CF646	0x31CFFFE	.rodata
+net_topmenu_trade_10_07	0x31DA20E	0x31DABC6	.rodata
+net_topmenu_trade_00_05	0x31EFC6B	0x31F0623	.rodata
+net_trade	0x31FA6DF	0x31FB097	.rodata
+net_topmenu_trade_10_01	0x3205953	0x320630B	.rodata
+BoxExchange	0x320FFAF	0x3210967	.rodata
+net_topmenu_trade_01_02	0x3210817	0x32111CF	.rodata
+PartnerExchange_2	0x3215BC3	0x321657B	.rodata
+TradeMatchingControlView	0x321B81B	0x321C1D3	.rodata
+WaitReadyToTradeCoroutine	0x322629F	0x3226C57	.rodata
+BoxExchangePresenter	0x3230546	0x3230EFE	.rodata
+BoxExchangeLayout	0x32305B7	0x3230F6F	.rodata
+PartnerExchange	0x323670C	0x32370C4	.rodata
+net_topmenu_trade_10_08	0x3247BF5	0x32485AD	.rodata
+static const char *boost::detail::ctti<gfa::network::p2p::SequenceSynchronizer<gfa::network::trade::SyncSaveClient::State>::CommandRequest>::n() [T = gfa::network::p2p::SequenceSyn	0x3247F3B	0x32488F3	.rodata
+static const char *boost::detail::ctti<gfa::network::p2p::SequenceSynchronizer<gfa::network::trade::SyncSaveClient::State>::CommandSynced>::n() [T = gfa::network::p2p::SequenceSync	0x3248036	0x32489EE	.rodata
+static const char *boost::detail::ctti<(anonymous namespace)::CommandCancelTrade>::n() [T = (anonymous namespace)::CommandCancelTrade]	0x3252D03	0x32536BB	.rodata
+/trade_offer	0x325CED8	0x325D890	.rodata
+net_topmenu_trade_00_01	0x325D5B8	0x325DF70	.rodata
+net_topmenu_trade_01_01	0x325D75C	0x325E114	.rodata
+net_topmenu_trade_00_03	0x326823B	0x3268BF3	.rodata
+net_topmenu_trade_00_06	0x327E937	0x327F2EF	.rodata
+PartnerExchange_1	0x3283D10	0x32846C8	.rodata
+net_topmenu_trade_02_01	0x3289479	0x3289E31	.rodata
+BoxExchangeText	0x3293D7C	0x3294734	.rodata
+holdItem	0x32A908E	0x32A9A46	.rodata
+net_topmenu_trade_00_02	0x32AA10B	0x32AAAC3	.rodata
+net_topmenu_trade_10_05	0x32AA29E	0x32AAC56	.rodata
+net_topmenu_trade_00_04	0x32B5106	0x32B5ABE	.rodata
+static const char *boost::detail::ctti<(anonymous namespace)::CommandConfirmTrade>::n() [T = (anonymous namespace)::CommandConfirmTrade]	0x32B5599	0x32B5F51	.rodata
+/trade_reset	0x32BEFB9	0x32BF971	.rodata
+TradeMatchingTextView	0x32BF728	0x32C00E0	.rodata
+PartnerExchangeAction_1	0x32CFA18	0x32D03D0	.rodata
+PartnerExchangeAction_2	0x32E6139	0x32E6AF1	.rodata
+net_topmenu_trade_10_09	0x3301244	0x3301BFC	.rodata
