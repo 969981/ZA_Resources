@@ -2,7 +2,7 @@
 title: Z-A v2.0.2 Rare ARM64 静态扫描与事件运行时证据审计
 tags: [ZA, ARM64, Rare, shiny-lock, FlatBuffers]
 version: v2.0.2
-status: NATIVE_PID_GENERATOR_STATIC_CONFIRMED_RARE_LINK_RUNTIME_UNKNOWN
+status: NATIVE_RARE_MODE_ENCODING_AND_PID_GENERATOR_STATIC_CONFIRMED_EX_RUNTIME_UNKNOWN
 updated: 2026-11-06
 ---
 
@@ -112,3 +112,9 @@ python scripts/Trace-ZA-Rare-Candidates.py
 - CANDIDATE：未来对数据结构消费函数和高位提取指令的交叉引用路径。
 - CONFIRMED（原生静态）：Native XOR 判闪 0xE5D1E8、条件防闪 0xE5D200、内部模式分发 0x6570C4–0x6571A0，见 [新研究](za-native-shiny-generator-pid-branch.md)。
 - UNKNOWN：真正 EncountData.Rare 消费与编码变换、EX1/EX2 战斗资源经原生函数到生成器的动态调用图、GDB 实测和已验证可用的 main+offset。
+
+## 八、最新补充：原生描述对象 Rare 模式转换（2026-11-06）
+
+本版 SHA 校验过的 ARM64 代码在 `0x656060` 生成描述参数，其 `0x656144 LDP W8,W10,[X20,#0x68]` 读取 32 位配置、`0x65614C ORR X8,X9,X8,LSL #4` 配合 `W9=0xF` 转换为 64 位三态模式，经 `0x656170` 写入局部状态后由 `0x656298 BL 0x656F80` 传到真正 PID 生成器。另一个调用者 `0x653F34` 同样读取描述结构 +0x68，并在 `0x653F38` 与原始 `0x2FFFFFFF` 比较。
+
+`0xE3EB64 BL 0x656F80` 后紧跟 `0xE3EBA8 BL 0xE57350` 等个体字段设置调用，已静态确认生成器与 Pokémon 数据写回存在真实调用关系。最新完整证据和 5 个描述构造函数调用者见 [原生三态生成与字段转换](za-native-shiny-generator-pid-branch.md)、[5 个调用者反汇编](za-native-rare-builder-callers.md)。**仍需证明 FlatBuffers 字段到原生描述结构的赋值，以及 EX1/EX2 游戏运行时是否到达这里。**
