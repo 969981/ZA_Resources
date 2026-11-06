@@ -26,3 +26,6 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [ZA 道具 v2.0.2 实际数据对账（535 条、92 Mega 石）](research/v2.0.2/za-items-real-data-audit.md)
 
 - [ZA 联机交换原生 ELF 静态定位与指令证据](research/v2.0.2/za-trade-native-candidates.md)
+
+- [ItemType × Pocket：535 道具全部分组](research/v2.0.2/za-itemtype-pocket-complete.md)
+- [交换限制深度研究：指令、地址与反证](research/v2.0.2/za-trade-native-deep-analysis.md)
