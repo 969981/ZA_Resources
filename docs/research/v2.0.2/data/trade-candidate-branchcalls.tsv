@@ -1,0 +1,213 @@
+site_label	instruction_pc	mnemonic	operands
+TradeCommandCancel_type_name_ref	0x2DC4054	b.lt	#0x2dc40ac
+TradeCommandCancel_type_name_ref	0x2DC4074	b.hs	#0x2dc40ac
+TradeCommandCancel_type_name_ref	0x2DC4080	cbz	x8, #0x2dc40a8
+TradeCommandCancel_type_name_ref	0x2DC40A4	b.lo	#0x2dc4078
+TradeCommandCancel_type_name_ref	0x2DC40AC	ret	
+TradeCommandCancel_type_name_ref	0x2DC40B4	b	#0xc35ec8
+TradeCommandCancel_type_name_ref	0x2DC40BC	b	#0xc35ec8
+TradeCommandCancel_type_name_ref	0x2DC40C0	b	#0xc35ec8
+TradeCommandCancel_type_name_ref	0x2DC40C8	b	#0xc35ec8
+TradeCommandCancel_type_name_ref	0x2DC40D0	b	#0xc35ec8
+TradeCommandCancel_type_name_ref	0x2DC40E0	b.ls	#0x2dc40ec
+TradeCommandCancel_type_name_ref	0x2DC40E8	ret	
+TradeCommandCancel_type_name_ref	0x2DC4100	br	x10
+TradeCommandCancel_type_name_ref	0x2DC4114	ret	
+TradeCommandCancel_type_name_ref	0x2DC4128	ret	
+TradeCommandCancel_type_name_ref	0x2DC4130	ret	
+TradeCommandCancel_type_name_ref	0x2DC4138	ret	
+TradeCommandCancel_type_name_ref	0x2DC4164	bl	#0xc360c0
+TradeCommandCancel_type_name_ref	0x2DC4174	bl	#0x96129c
+TradeCommandCancel_type_name_ref	0x2DC4180	b.hs	#0x2dc41a0
+TradeCommandCancel_type_name_ref	0x2DC419C	ret	
+TradeCommandCancel_type_name_ref	0x2DC41B0	bl	#0x2dc47fc
+TradeCommandCancel_type_name_ref	0x2DC41B8	cbz	w8, #0x2dc4184
+TradeCommandCancel_type_name_ref	0x2DC41C0	cbz	x0, #0x2dc4188
+TradeCommandCancel_type_name_ref	0x2DC41D0	bl	#0x961380
+TradeCommandCancel_type_name_ref	0x2DC41D4	b	#0x2dc4188
+TradeCommandCancel_type_name_ref	0x2DC41DC	cbz	x0, #0x2dc41e4
+TradeCommandCancel_type_name_ref	0x2DC41E0	b	#0x2dc534c
+TradeCommandCancel_type_name_ref	0x2DC41E4	ret	
+TradeCommandCancel_type_name_ref	0x2DC41EC	cbz	x0, #0x2dc41f4
+TradeCommandCancel_type_name_ref	0x2DC41F0	b	#0x2dc5364
+TradeCommandCancel_type_name_ref	0x2DC41F4	ret	
+TradeCommandCancel_type_name_ref	0x2DC420C	cbz	w8, #0x2dc4214
+TradeCommandCancel_type_name_ref	0x2DC421C	b.ge	#0x2dc426c
+TradeCommandCancel_type_name_ref	0x2DC4234	b.hs	#0x2dc4254
+TradeCommandCancel_type_name_ref	0x2DC4250	ret	
+TradeUI_10_06_resource_ref	0x2D303E4	ret	
+TradeUI_10_06_resource_ref	0x2D303EC	cbz	w8, #0x2d303f4
+TradeUI_10_06_resource_ref	0x2D303F0	ret	
+TradeUI_10_06_resource_ref	0x2D3041C	bl	#0x2d30448
+TradeUI_10_06_resource_ref	0x2D3042C	bl	#0xcac098
+TradeUI_10_06_resource_ref	0x2D30434	bl	#0x67cc9c
+TradeUI_10_06_resource_ref	0x2D30444	b	#0x2d303f0
+TradeUI_10_06_resource_ref	0x2D30470	bl	#0x4db4ac
+TradeUI_10_06_resource_ref	0x2D30484	b	#0x2d30ca8
+TradeUI_10_06_resource_ref	0x2D304A8	b.hs	#0x2d305a4
+TradeUI_10_06_resource_ref	0x2D304B4	cbz	w8, #0x2d304c8
+TradeUI_10_06_resource_ref	0x2D304C4	bl	#0xcac1cc
+TradeUI_10_06_resource_ref	0x2D304D4	bl	#0x421c
+TradeUI_10_06_resource_ref	0x2D30550	bl	#0x2d305c8
+TradeUI_10_06_resource_ref	0x2D30568	bl	#0x917cbc
+TradeUI_10_06_resource_ref	0x2D30570	bl	#0x90d200
+TradeUI_10_06_resource_ref	0x2D30578	bl	#0xfb600
+TradeUI_10_06_resource_ref	0x2D30580	bl	#0xfb600
+TradeUI_10_06_resource_ref	0x2D30588	bl	#0xfb600
+TradeUI_10_06_resource_ref	0x2D30590	bl	#0xfb600
+TradeUI_10_06_resource_ref	0x2D305A0	ret	
+TradeUI_10_06_resource_ref	0x2D305A4	cbnz	w8, #0x2d30594
+TradeUI_10_06_resource_ref	0x2D305B0	bl	#0x404cf4
+TradeUI_10_06_resource_ref	0x2D305C4	b	#0x2d30334
+TradeUI_10_07_resource_ref	0x2D314B4	ret	
+TradeUI_10_07_resource_ref	0x2D314C0	ret	
+TradeUI_10_07_resource_ref	0x2D314CC	ret	
+TradeUI_10_07_resource_ref	0x2D314D8	cbnz	w9, #0x2d31518
+TradeUI_10_07_resource_ref	0x2D31514	ret	
+TradeUI_10_07_resource_ref	0x2D3151C	b.ne	#0x2d3152c
+TradeUI_10_07_resource_ref	0x2D31528	b	#0x2d314e0
+TradeUI_10_07_resource_ref	0x2D31550	blr	x9
+TradeUI_10_07_resource_ref	0x2D31560	b	#0x2d31520
+TradeUI_10_07_resource_ref	0x2D31568	b	#0x2d31570
+TradeUI_10_07_resource_ref	0x2D3156C	ret	
+TradeUI_10_07_resource_ref	0x2D31588	bl	#0xac19e4
+TradeUI_10_07_resource_ref	0x2D3158C	tbz	w0, #0, #0x2d31604
+TradeUI_10_07_resource_ref	0x2D3159C	bl	#0x421c
+TradeUI_10_07_resource_ref	0x2D315D0	bl	#0x2d31614
+TradeUI_10_07_resource_ref	0x2D315E0	bl	#0x916988
+TradeUI_10_07_resource_ref	0x2D315E8	bl	#0x67cc9c
+TradeUI_10_07_resource_ref	0x2D315F0	bl	#0xfb600
+TradeUI_10_07_resource_ref	0x2D315F8	bl	#0xfb600
+TradeUI_10_07_resource_ref	0x2D31600	bl	#0xab2838
+TradeUI_10_07_resource_ref	0x2D31610	ret	
+TradeUI_10_07_resource_ref	0x2D3163C	bl	#0x4db4ac
+TradeUI_10_07_resource_ref	0x2D31650	b	#0x2d31654
+TradeUI_10_07_resource_ref	0x2D3165C	cbnz	w9, #0x2d3169c
+TradeUI_10_07_resource_ref	0x2D31698	ret	
+TradeUI_10_07_resource_ref	0x2D316A0	b.ne	#0x2d316b0
+TradeUI_10_07_resource_ref	0x2D316AC	b	#0x2d31664
+ItemID_orb_table_page_ref	0x218B054	ret	
+ItemID_orb_table_page_ref	0x218B078	bl	#0x218b510
+ItemID_orb_table_page_ref	0x218B094	ret	
+ItemID_orb_table_page_ref	0x218B098	cbz	x19, #0x218b0fc
+ItemID_orb_table_page_ref	0x218B0B4	bl	#0x2181280
+ItemID_orb_table_page_ref	0x218B0C4	cbz	x8, #0x218b044
+ItemID_orb_table_page_ref	0x218B0E0	ret	
+ItemID_orb_table_page_ref	0x218B0F8	ret	
+ItemID_orb_table_page_ref	0x218B100	bl	#0x2176b20
+ItemID_orb_table_page_ref	0x218B120	ret	
+ItemID_orb_table_page_ref	0x218B13C	b.hi	#0x218b184
+ItemID_orb_table_page_ref	0x218B168	br	x10
+ItemID_orb_table_page_ref	0x218B16C	cbz	x20, #0x218b25c
+ItemID_orb_table_page_ref	0x218B180	ret	
+ItemID_orb_table_page_ref	0x218B188	ret	
+ItemID_orb_table_page_ref	0x218B190	cbz	w19, #0x218b2b4
+ItemID_orb_table_page_ref	0x218B194	cbz	x20, #0x218b2b4
+ItemID_orb_table_page_ref	0x218B198	tbnz	w19, #0x1f, #0x218b25c
+ItemID_orb_table_page_ref	0x218B1A0	cbz	x0, #0x218b1b8
+ItemID_orb_table_page_ref	0x218B1B4	bl	#0x218e690
+ItemID_orb_table_page_ref	0x218B1D0	bl	#0x2194d20
+ItemID_orb_table_page_ref	0x218B1D8	cbz	x0, #0x218b2b4
+ItemID_orb_table_page_ref	0x218B1EC	ret	
+ItemID_orb_table_page_ref	0x218B1F0	tbnz	w19, #0x1f, #0x218b25c
+ItemID_orb_table_page_ref	0x218B1F8	cbz	x0, #0x218b210
+ItemID_orb_table_page_ref	0x218B20C	bl	#0x218e690
+ItemID_orb_table_page_ref	0x218B210	cbz	w19, #0x218b280
+ItemID_orb_table_page_ref	0x218B228	bl	#0x2194d20
+ItemID_orb_table_page_ref	0x218B230	cbnz	x0, #0x218b29c
+ItemID_orb_table_page_ref	0x218B234	b	#0x218b2b4
+ItemID_orb_table_page_ref	0x218B23C	cbz	w19, #0x218b2b4
+ItemID_orb_table_page_ref	0x218B240	cbz	x20, #0x218b2b4
+ItemID_orb_table_page_ref	0x218B244	tbnz	w19, #0x1f, #0x218b25c
+ItemID_mega_table_page_ref_A	0x21962E0	bl	#0x218cdc0
+ItemID_mega_table_page_ref_A	0x21962E4	cbz	x0, #0x2196314
+ItemID_mega_table_page_ref_A	0x21962F4	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_A	0x21962F8	b	#0x2196390
+ItemID_mega_table_page_ref_A	0x2196310	b	#0x21964d4
+ItemID_mega_table_page_ref_A	0x2196334	b	#0x2196354
+ItemID_mega_table_page_ref_A	0x2196350	b.ge	#0x2196390
+ItemID_mega_table_page_ref_A	0x2196370	bl	#0x3160740
+ItemID_mega_table_page_ref_A	0x2196374	tbnz	w0, #0x1f, #0x2196348
+ItemID_mega_table_page_ref_A	0x2196378	cbnz	w0, #0x2196340
+ItemID_mega_table_page_ref_A	0x219638C	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_A	0x219639C	cbz	x0, #0x21963d4
+ItemID_mega_table_page_ref_A	0x21963B4	bl	#0x218cdc0
+ItemID_mega_table_page_ref_A	0x21963B8	cbz	x0, #0x21963d0
+ItemID_mega_table_page_ref_A	0x21963C8	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_A	0x21963CC	b	#0x2196204
+ItemID_mega_table_page_ref_A	0x21963F0	b	#0x2196400
+ItemID_mega_table_page_ref_A	0x21963FC	b.ge	#0x2196204
+ItemID_mega_table_page_ref_A	0x219641C	bl	#0x3160740
+ItemID_mega_table_page_ref_A	0x2196420	tbnz	w0, #0x1f, #0x21963f4
+ItemID_mega_table_page_ref_A	0x2196424	cbz	w0, #0x2196434
+ItemID_mega_table_page_ref_A	0x2196430	b	#0x21963f4
+ItemID_mega_table_page_ref_A	0x2196444	cbz	w8, #0x2196204
+ItemID_mega_table_page_ref_A	0x219644C	b.hi	#0x2196478
+ItemID_mega_table_page_ref_A	0x2196464	cbz	w10, #0x21964a8
+ItemID_mega_table_page_ref_A	0x2196474	b	#0x21964e0
+ItemID_mega_table_page_ref_A	0x219647C	cbz	x0, #0x21964dc
+ItemID_mega_table_page_ref_A	0x2196498	bl	#0x218cdc0
+ItemID_mega_table_page_ref_A	0x219649C	cbz	x0, #0x21964c0
+ItemID_mega_table_page_ref_A	0x21964A4	b	#0x21964e0
+ItemID_mega_table_page_ref_A	0x21964BC	b	#0x21964d4
+ItemID_mega_table_page_ref_A	0x21964D8	bl	#0x21bb590
+ItemID_mega_table_page_ref_B	0x2196230	bl	#0x211cc40
+ItemID_mega_table_page_ref_B	0x2196234	tbnz	w0, #0x1f, #0x21964dc
+ItemID_mega_table_page_ref_B	0x219624C	bl	#0x218dfe0
+ItemID_mega_table_page_ref_B	0x2196250	cbz	x0, #0x21962fc
+ItemID_mega_table_page_ref_B	0x2196270	bl	#0x211cad0
+ItemID_mega_table_page_ref_B	0x2196284	bl	#0x211d250
+ItemID_mega_table_page_ref_B	0x2196298	bl	#0x211d940
+ItemID_mega_table_page_ref_B	0x21962B0	bl	#0x218e360
+ItemID_mega_table_page_ref_B	0x21962B4	b	#0x21964e0
+ItemID_mega_table_page_ref_B	0x21962C8	cbz	x0, #0x2196318
+ItemID_mega_table_page_ref_B	0x21962E0	bl	#0x218cdc0
+ItemID_mega_table_page_ref_B	0x21962E4	cbz	x0, #0x2196314
+ItemID_mega_table_page_ref_B	0x21962F4	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_B	0x21962F8	b	#0x2196390
+ItemID_mega_table_page_ref_B	0x2196310	b	#0x21964d4
+ItemID_mega_table_page_ref_B	0x2196334	b	#0x2196354
+ItemID_mega_table_page_ref_B	0x2196350	b.ge	#0x2196390
+ItemID_mega_table_page_ref_B	0x2196370	bl	#0x3160740
+ItemID_mega_table_page_ref_B	0x2196374	tbnz	w0, #0x1f, #0x2196348
+ItemID_mega_table_page_ref_B	0x2196378	cbnz	w0, #0x2196340
+ItemID_mega_table_page_ref_B	0x219638C	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_B	0x219639C	cbz	x0, #0x21963d4
+ItemID_mega_table_page_ref_B	0x21963B4	bl	#0x218cdc0
+ItemID_mega_table_page_ref_B	0x21963B8	cbz	x0, #0x21963d0
+ItemID_mega_table_page_ref_B	0x21963C8	cbnz	w8, #0x2196448
+ItemID_mega_table_page_ref_B	0x21963CC	b	#0x2196204
+ItemID_mega_table_page_ref_B	0x21963F0	b	#0x2196400
+ItemID_mega_table_page_ref_B	0x21963FC	b.ge	#0x2196204
+ItemID_mega_table_page_ref_B	0x219641C	bl	#0x3160740
+ItemID_mega_table_page_ref_B	0x2196420	tbnz	w0, #0x1f, #0x21963f4
+ItemID_orb_table_page_ref_B	0x2197258	tbl	v21.16b, {v20.16b}, v6.16b
+ItemID_orb_table_page_ref_B	0x219725C	tbl	v20.16b, {v20.16b}, v7.16b
+ItemID_orb_table_page_ref_B	0x21972B0	b.ne	#0x2197240
+ItemID_orb_table_page_ref_B	0x21972D0	b.eq	#0x2197308
+ItemID_orb_table_page_ref_B	0x2197304	b.ne	#0x21972e4
+ItemID_orb_table_page_ref_B	0x2197320	ret	
+ItemID_orb_table_page_ref_B	0x2197340	b.eq	#0x2197348
+ItemID_orb_table_page_ref_B	0x2197344	ret	
+ItemID_orb_table_page_ref_B	0x219734C	b.hi	#0x219738c
+ItemID_orb_table_page_ref_B	0x219736C	br	x12
+ItemID_orb_table_page_ref_B	0x219737C	b.ne	#0x2197344
+ItemID_orb_table_page_ref_B	0x2197388	b	#0x3160a80
+ItemID_orb_table_page_ref_B	0x2197390	ret	
+ItemID_orb_table_page_ref_B	0x2197398	cbz	x0, #0x21973cc
+ItemID_orb_table_page_ref_B	0x21973A0	cbz	x1, #0x21973d4
+ItemID_orb_table_page_ref_B	0x21973A4	b	#0x3160740
+ItemID_orb_table_page_ref_B	0x21973AC	cbz	x0, #0x21973cc
+ItemID_orb_table_page_ref_B	0x21973B4	cbz	x1, #0x21973d4
+ItemID_orb_table_page_ref_B	0x21973B8	b	#0x3160740
+ItemID_orb_table_page_ref_B	0x21973C8	ret	
+ItemID_orb_table_page_ref_B	0x21973D0	ret	
+ItemID_orb_table_page_ref_B	0x21973D8	ret	
+ItemID_orb_table_page_ref_B	0x21973EC	cbz	x0, #0x219748c
+ItemID_orb_table_page_ref_B	0x21973F4	tbz	w8, #0, #0x219748c
+ItemID_orb_table_page_ref_B	0x21973F8	bl	#0x211dda0
+ItemID_orb_table_page_ref_B	0x21973FC	cbz	x0, #0x219749c
+ItemID_orb_table_page_ref_B	0x219741C	b.lt	#0x2197440
+ItemID_orb_table_page_ref_B	0x2197430	bl	#0x2194d20
+ItemID_orb_table_page_ref_B	0x2197438	cbz	x0, #0x21974cc
+ItemID_orb_table_page_ref_B	0x219744C	cbz	x0, #0x2197468
