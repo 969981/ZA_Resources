@@ -56,7 +56,7 @@ jobs:
           python -m pip install 'capstone==5.0.6'
           python scripts/Trace-ZA-Rare-Candidates.py
           python scripts/Trace-ZA-Rare-Candidates.py --site-kind anti-shiny-xor --output docs/research/v2.0.2/za-rare-arm64-anti-shiny-xor-sites.md --before 0xC0 --after 0xC0
-          python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x120 --after 0x120
+          python scripts/Trace-ZA-Rare-Candidates.py --site-kind pid-shiny-callers --output docs/research/v2.0.2/za-pid-antishiny-caller-contexts.md --before 0x280 --after 0x120
       - name: Upload candidate report for manual review
         uses: actions/upload-artifact@v4
         with:
