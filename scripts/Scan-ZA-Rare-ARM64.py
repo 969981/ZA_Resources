@@ -229,8 +229,11 @@ def scan(elf: ELF, limit: int):
                                  "va": "0x%X" % (region["va"]+idx),
                                  "file_offset": "0x%X" % (region["offset"]+idx)})
                 idx += 1
+    exact_never = [{k:v for k,v in h.items() if k != "pc_int"}
+                   for h in hits if h["immediate"] == "0x1FFFFFFF"]
     return {"executable_segments": len(regions), "logical_immediate_counts": dict(opcounts),
             "all_matching_instruction_count": len(hits), "candidate_groups_count": len(groups),
+            "exact_never_instruction_sites": exact_never,
             "ranked_groups": candidates, "data_literal_count": len(literals),
             "data_literals": literals[:200],
             "warnings": ["AArch64 logical-immediate use is not proof of Rare field use",
