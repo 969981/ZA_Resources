@@ -22,6 +22,15 @@
     "IV_Get_HP": 3,
     "Personal_Load": 1
   },
+  "highBit28to31TBZCandidates": 8083,
+  "directTailBranchCounts": {
+    "PID_Get": 1,
+    "PID_Set": 2,
+    "TID_Get": 0,
+    "Species_Get": 0,
+    "IV_Get_HP": 0,
+    "Personal_Load": 0
+  },
   "highNibbleExtractCandidates": 106,
   "exportedCandidates": 106,
   "exactWordHitsInCode": {

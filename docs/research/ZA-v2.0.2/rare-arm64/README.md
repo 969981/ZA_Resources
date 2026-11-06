@@ -22,6 +22,13 @@
 | IV_Get_HP main+0xE4BCF0 | 3 |
 | Personal_Load main+0xE380C0 | 1 |
 
+## ARM64 B 尾调用与高位测试
+
+- 直接 B 尾调用 PID_Set：2 个。
+- TBZ/TBNZ 检查 28–31 高位：8083 处。
+- 已导出 pid-tail-branches.csv、rare-highbit-tests.csv 与 pid-shiny-function-windows.md。
+
+
 ## 优先进一步人工核对的高位候选
 
 | 指令 RVA | 分数（启发式） | 最近 PID Set BL 距离 |
