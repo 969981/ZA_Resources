@@ -61,7 +61,8 @@ def main():
     digest=sha(root/ELF)
     if digest.lower()!=m['modules']['main']['elfSha256'].lower():
         raise ValueError('main.elf SHA-256 does not match repository manifest')
-    textva,code=section((root/ELF).read_bytes())
+    elf_blob=(root/ELF).read_bytes()
+    textva,code=section(elf_blob)
     if len(code)%4:raise ValueError('unaligned AArch64 .text')
     end=textva+len(code)
     if not all(textva <= p < end for p in FUNCTIONS.values()):
@@ -144,6 +145,70 @@ def main():
         trace += ['~~~','']
     (out/'pid-shiny-function-windows.md').write_text(
         '\n'.join(trace),encoding='utf-8')
+    # Find actual 64-bit pointers to virtual method thunks (if relocated
+    # addresses are stored as image-relative 64-bit ELF pointer constants).
+    def section_ranges():
+        eoff=struct.unpack_from('<Q',elf_blob,40)[0]
+        cnt,idx=struct.unpack_from('<HH',elf_blob,60)
+        hdrs=[struct.unpack_from('<IIQQQQIIQQ',elf_blob,eoff+i*64) for i in range(cnt)]
+        strings=elf_blob[hdrs[idx][4]:hdrs[idx][4]+hdrs[idx][5]]
+        result=[]
+        for item in hdrs:
+            ni=item[0];j=strings.find(b'\0',ni)
+            if j<0:continue
+            name=strings[ni:j].decode('utf8','replace')
+            result.append((name,item[4],item[4]+item[5],item[3]))
+        return result
+    ranges=section_ranges()
+    pointer_targets={
+        'mode_setter_wrapper_a':0x2D7008C,
+        'mode_setter_wrapper_b':0x2D755E4,
+        'mode_checker_wrapper_a':0x2D70084,
+        'mode_checker_wrapper_b':0x2D755D4,
+        'mode_setter_core':0xE46024,
+        'mode_checker_core':0xE45F7C,
+        'shiny_xor_helper':0xE5D1E8,
+    }
+    pointer_hits=[]
+    for name,value in pointer_targets.items():
+        needle=struct.pack('<Q',value)
+        pos=0
+        while True:
+            pos=elf_blob.find(needle,pos)
+            if pos<0:break
+            origin=next(((sect,va+pos-lo)
+                         for sect,lo,hi,va in ranges
+                         if lo<=pos<hi),('UNKNOWN',None))
+            pointer_hits.append([
+                name,f'0x{value:X}',f'0x{pos:X}',origin[0],
+                f'0x{origin[1]:X}' if origin[1] is not None else '',
+                'ELF_pointer_literal_NOT_confirmed_vtable_slot'
+            ])
+            pos+=8
+    csvwrite(out/'shiny-function-pointer-xrefs.csv',
+        ['targetName','targetRva','elfFileOffset','section','pointerImageRva','classification'],
+        pointer_hits)
+    vtable_summary={}
+    # Public source: PokemonParam wrapper vtable at main+0x3E28E58.
+    vtable_base=0x3E28E58
+    for name,lo,hi,va in ranges:
+        if va<=vtable_base<va+(hi-lo):
+            byte=lo+(vtable_base-va)
+            possible=[]
+            for slot in range(321):
+                p=byte+slot*8
+                if p+8>hi:break
+                val=struct.unpack_from('<Q',elf_blob,p)[0]
+                if val in pointer_targets.values():
+                    possible.append({'slot':slot,'ptr':f'0x{val:X}',
+                                     'targetName':[k for k,v in pointer_targets.items() if v==val][0]})
+            vtable_summary={'baseRva':f'0x{vtable_base:X}','section':name,
+                            'numberOfSlotsChecked':321,'knownFunctionPointers':possible}
+            break
+    (out/'shiny-wrapper-pointer-map.json').write_text(
+        json.dumps({'matches':pointer_hits,'publishedPokemonParamVtable':vtable_summary,
+                    'warning':'function pointer in data is not proof of dynamic shiny or rare invocation'},
+                   ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     schema=fields(root)
     if not schema:raise ValueError('No rare named field in actual BFBS')
     info={'version':'2.0.2','buildId':m['modules']['main']['buildIdHex'],
@@ -172,6 +237,10 @@ def main():
                 '| 入口 RVA | 直接 BL 次数 |','|---|---:|']
     mdlines += [f'| {name} main+0x{target:X} | {len(reverse[target])} |'
                 for name,target in FUNCTIONS.items()]
+    mdlines += ['', '## 虚函数包装器的 ELF 指针交叉引用','',
+                f'- 找到 {len(pointer_hits)} 处与目标包装器/函数 RVA 相同的 64-bit 字面指针。',
+                '- 详细位置：shiny-function-pointer-xrefs.csv 与 shiny-wrapper-pointer-map.json。',
+                '- 这些不能取代运行时追踪，仍需验证上层间接 BLR 的来源。','']
     mdlines += ['', '## ARM64 B 尾调用与高位测试','',
                 f'- 直接 B 尾调用 PID_Set：{len(tails[FUNCTIONS["PID_Set"]])} 个。',
                 f'- TBZ/TBNZ 检查 28–31 高位：{len(msb_tests)} 处。',
