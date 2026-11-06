@@ -1,0 +1,1655 @@
+{
+  "source_sha256": "470d6e71e27744a65ac6f1f94587dd34d24e0e2c0da9fd912eb1db03ee848d4d",
+  "source": "v2.0.2 main.elf",
+  "evidence": "STATIC_DIRECT_BRANCH_PROVENANCE_ONLY",
+  "external_address_reference": "https://decryptu.github.io/pokeldn/za.html",
+  "known_accessors": [
+    {
+      "label": "pid_get",
+      "target_elf_va": "0xE4DBE0"
+    },
+    {
+      "label": "pid_set",
+      "target_elf_va": "0xE57350"
+    },
+    {
+      "label": "species_get",
+      "target_elf_va": "0xE49940"
+    },
+    {
+      "label": "species_set",
+      "target_elf_va": "0xE52AA0"
+    },
+    {
+      "label": "tid_sid_get",
+      "target_elf_va": "0xE49D50"
+    },
+    {
+      "label": "tid_sid_set",
+      "target_elf_va": "0xE52EE0"
+    },
+    {
+      "label": "experience_set",
+      "target_elf_va": "0xE53100"
+    },
+    {
+      "label": "nature_set",
+      "target_elf_va": "0xE56690"
+    },
+    {
+      "label": "form_set",
+      "target_elf_va": "0xE56470"
+    },
+    {
+      "label": "ability_set",
+      "target_elf_va": "0xE535B0"
+    },
+    {
+      "label": "shiny_xor_check",
+      "target_elf_va": "0xE5D1E8"
+    },
+    {
+      "label": "pid_anti_shiny_if_needed_a",
+      "target_elf_va": "0xE5D200"
+    },
+    {
+      "label": "pid_anti_shiny_if_needed_b",
+      "target_elf_va": "0xE5D2B0"
+    },
+    {
+      "label": "pid_shiny_adjust_candidate",
+      "target_elf_va": "0xE5D21C"
+    },
+    {
+      "label": "native_pid_shiny_mode_generator",
+      "target_elf_va": "0x656F80"
+    },
+    {
+      "label": "native_pid_state_builder",
+      "target_elf_va": "0x656060"
+    }
+  ],
+  "direct_refs": [
+    {
+      "caller_pc": "0x3674",
+      "file_offset": "0x40BC",
+      "opcode": "B",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x143918B3"
+    },
+    {
+      "caller_pc": "0xF478",
+      "file_offset": "0xFEC0",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9438EA36"
+    },
+    {
+      "caller_pc": "0xF484",
+      "file_offset": "0xFECC",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x9438F9D7"
+    },
+    {
+      "caller_pc": "0xF498",
+      "file_offset": "0xFEE0",
+      "opcode": "B",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x14393754"
+    },
+    {
+      "caller_pc": "0x137A8",
+      "file_offset": "0x141F0",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9438D866"
+    },
+    {
+      "caller_pc": "0x4C21C",
+      "file_offset": "0x4CC64",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9437F5C9"
+    },
+    {
+      "caller_pc": "0x975E0",
+      "file_offset": "0x98028",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9436C8D8"
+    },
+    {
+      "caller_pc": "0x99C9C",
+      "file_offset": "0x9A6E4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9436BF29"
+    },
+    {
+      "caller_pc": "0xA436C",
+      "file_offset": "0xA4DB4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94369575"
+    },
+    {
+      "caller_pc": "0x10796C",
+      "file_offset": "0x1083B4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x943507F5"
+    },
+    {
+      "caller_pc": "0x10F58C",
+      "file_offset": "0x10FFD4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9434E8ED"
+    },
+    {
+      "caller_pc": "0x2C2890",
+      "file_offset": "0x2C32D8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x942E1C2C"
+    },
+    {
+      "caller_pc": "0x2DE264",
+      "file_offset": "0x2DECAC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x942DADB7"
+    },
+    {
+      "caller_pc": "0x49CCA4",
+      "file_offset": "0x49D6EC",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9406E4EF"
+    },
+    {
+      "caller_pc": "0x511A0C",
+      "file_offset": "0x512454",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9424DFCD"
+    },
+    {
+      "caller_pc": "0x55BD84",
+      "file_offset": "0x55C7CC",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9423B7F3"
+    },
+    {
+      "caller_pc": "0x55BD90",
+      "file_offset": "0x55C7D8",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x9423C794"
+    },
+    {
+      "caller_pc": "0x55BD9C",
+      "file_offset": "0x55C7E4",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94240513"
+    },
+    {
+      "caller_pc": "0x55BDA8",
+      "file_offset": "0x55C7F0",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9423B7EA"
+    },
+    {
+      "caller_pc": "0x55BDB4",
+      "file_offset": "0x55C7FC",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x9423C78B"
+    },
+    {
+      "caller_pc": "0x55BDC0",
+      "file_offset": "0x55C808",
+      "opcode": "BL",
+      "target_pc": "0xE5D200",
+      "target_kind": "pid_anti_shiny_if_needed_a",
+      "instruction": "0x94240510"
+    },
+    {
+      "caller_pc": "0x55BDD4",
+      "file_offset": "0x55C81C",
+      "opcode": "B",
+      "target_pc": "0xE57350",
+      "target_kind": "pid_set",
+      "instruction": "0x1423ED5F"
+    },
+    {
+      "caller_pc": "0x5E6DC0",
+      "file_offset": "0x5E7808",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9401BCA8"
+    },
+    {
+      "caller_pc": "0x653F24",
+      "file_offset": "0x65496C",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x9400084F"
+    },
+    {
+      "caller_pc": "0x656298",
+      "file_offset": "0x656CE0",
+      "opcode": "BL",
+      "target_pc": "0x656F80",
+      "target_kind": "native_pid_shiny_mode_generator",
+      "instruction": "0x9400033A"
+    },
+    {
+      "caller_pc": "0x657124",
+      "file_offset": "0x657B6C",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94201831"
+    },
+    {
+      "caller_pc": "0x657168",
+      "file_offset": "0x657BB0",
+      "opcode": "BL",
+      "target_pc": "0xE5D200",
+      "target_kind": "pid_anti_shiny_if_needed_a",
+      "instruction": "0x94201826"
+    },
+    {
+      "caller_pc": "0x657198",
+      "file_offset": "0x657BE0",
+      "opcode": "BL",
+      "target_pc": "0xE5D21C",
+      "target_kind": "pid_shiny_adjust_candidate",
+      "instruction": "0x94201821"
+    },
+    {
+      "caller_pc": "0x68ADA0",
+      "file_offset": "0x68B7E8",
+      "opcode": "B",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x141EFBEC"
+    },
+    {
+      "caller_pc": "0x691CB0",
+      "file_offset": "0x6926F8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941EDF24"
+    },
+    {
+      "caller_pc": "0x691CE0",
+      "file_offset": "0x692728",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941EDF18"
+    },
+    {
+      "caller_pc": "0x699328",
+      "file_offset": "0x699D70",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941EC186"
+    },
+    {
+      "caller_pc": "0x69938C",
+      "file_offset": "0x699DD4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941EC16D"
+    },
+    {
+      "caller_pc": "0x6A30FC",
+      "file_offset": "0x6A3B44",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941E9A11"
+    },
+    {
+      "caller_pc": "0x6AD374",
+      "file_offset": "0x6ADDBC",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x941E7277"
+    },
+    {
+      "caller_pc": "0x6CA7EC",
+      "file_offset": "0x6CB234",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941DFC55"
+    },
+    {
+      "caller_pc": "0x6CA830",
+      "file_offset": "0x6CB278",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x941DFC44"
+    },
+    {
+      "caller_pc": "0x8A03BC",
+      "file_offset": "0x8A0E04",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9416A561"
+    },
+    {
+      "caller_pc": "0x9CE758",
+      "file_offset": "0x9CF1A0",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x97F21E42"
+    },
+    {
+      "caller_pc": "0xB3D4F0",
+      "file_offset": "0xB3DF38",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940C3114"
+    },
+    {
+      "caller_pc": "0xB8DCC4",
+      "file_offset": "0xB8E70C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x940AF023"
+    },
+    {
+      "caller_pc": "0xB8DCD0",
+      "file_offset": "0xB8E718",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x940AFFC4"
+    },
+    {
+      "caller_pc": "0xB8DD10",
+      "file_offset": "0xB8E758",
+      "opcode": "BL",
+      "target_pc": "0xE52EE0",
+      "target_kind": "tid_sid_set",
+      "instruction": "0x940B1474"
+    },
+    {
+      "caller_pc": "0xB8DD18",
+      "file_offset": "0xB8E760",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x940AF00E"
+    },
+    {
+      "caller_pc": "0xB8DD24",
+      "file_offset": "0xB8E76C",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x940AFFAF"
+    },
+    {
+      "caller_pc": "0xBB8F58",
+      "file_offset": "0xBB99A0",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940A427A"
+    },
+    {
+      "caller_pc": "0xBB8F9C",
+      "file_offset": "0xBB99E4",
+      "opcode": "BL",
+      "target_pc": "0xE56470",
+      "target_kind": "form_set",
+      "instruction": "0x940A7535"
+    },
+    {
+      "caller_pc": "0xBB8FD8",
+      "file_offset": "0xBB9A20",
+      "opcode": "BL",
+      "target_pc": "0xE535B0",
+      "target_kind": "ability_set",
+      "instruction": "0x940A6976"
+    },
+    {
+      "caller_pc": "0xC32CD4",
+      "file_offset": "0xC3371C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x94085C1F"
+    },
+    {
+      "caller_pc": "0xC32CE0",
+      "file_offset": "0xC33728",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x94086BC0"
+    },
+    {
+      "caller_pc": "0xC3A994",
+      "file_offset": "0xC3B3DC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94083BEB"
+    },
+    {
+      "caller_pc": "0xC3A9C0",
+      "file_offset": "0xC3B408",
+      "opcode": "BL",
+      "target_pc": "0xE53100",
+      "target_kind": "experience_set",
+      "instruction": "0x940861D0"
+    },
+    {
+      "caller_pc": "0xCEC014",
+      "file_offset": "0xCECA5C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9405774F"
+    },
+    {
+      "caller_pc": "0xCEC0C0",
+      "file_offset": "0xCECB08",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94057620"
+    },
+    {
+      "caller_pc": "0xE3EB64",
+      "file_offset": "0xE3F5AC",
+      "opcode": "BL",
+      "target_pc": "0x656F80",
+      "target_kind": "native_pid_shiny_mode_generator",
+      "instruction": "0x97E06107"
+    },
+    {
+      "caller_pc": "0xE3EB9C",
+      "file_offset": "0xE3F5E4",
+      "opcode": "BL",
+      "target_pc": "0xE52EE0",
+      "target_kind": "tid_sid_set",
+      "instruction": "0x940050D1"
+    },
+    {
+      "caller_pc": "0xE3EBA8",
+      "file_offset": "0xE3F5F0",
+      "opcode": "BL",
+      "target_pc": "0xE57350",
+      "target_kind": "pid_set",
+      "instruction": "0x940061EA"
+    },
+    {
+      "caller_pc": "0xE3EBB4",
+      "file_offset": "0xE3F5FC",
+      "opcode": "BL",
+      "target_pc": "0xE52AA0",
+      "target_kind": "species_set",
+      "instruction": "0x94004FBB"
+    },
+    {
+      "caller_pc": "0xE3EBC0",
+      "file_offset": "0xE3F608",
+      "opcode": "BL",
+      "target_pc": "0xE56470",
+      "target_kind": "form_set",
+      "instruction": "0x94005E2C"
+    },
+    {
+      "caller_pc": "0xE3EBE4",
+      "file_offset": "0xE3F62C",
+      "opcode": "BL",
+      "target_pc": "0xE56690",
+      "target_kind": "nature_set",
+      "instruction": "0x94005EAB"
+    },
+    {
+      "caller_pc": "0xE3ED70",
+      "file_offset": "0xE3F7B8",
+      "opcode": "BL",
+      "target_pc": "0xE535B0",
+      "target_kind": "ability_set",
+      "instruction": "0x94005210"
+    },
+    {
+      "caller_pc": "0xE3EDE0",
+      "file_offset": "0xE3F828",
+      "opcode": "BL",
+      "target_pc": "0xE53100",
+      "target_kind": "experience_set",
+      "instruction": "0x940050C8"
+    },
+    {
+      "caller_pc": "0xE3F02C",
+      "file_offset": "0xE3FA74",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002A45"
+    },
+    {
+      "caller_pc": "0xE3F1C0",
+      "file_offset": "0xE3FC08",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940029E0"
+    },
+    {
+      "caller_pc": "0xE3F810",
+      "file_offset": "0xE40258",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400284C"
+    },
+    {
+      "caller_pc": "0xE3F854",
+      "file_offset": "0xE4029C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400283B"
+    },
+    {
+      "caller_pc": "0xE3F970",
+      "file_offset": "0xE403B8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940027F4"
+    },
+    {
+      "caller_pc": "0xE3FAB8",
+      "file_offset": "0xE40500",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940027A2"
+    },
+    {
+      "caller_pc": "0xE3FC04",
+      "file_offset": "0xE4064C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400274F"
+    },
+    {
+      "caller_pc": "0xE40404",
+      "file_offset": "0xE40E4C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400254F"
+    },
+    {
+      "caller_pc": "0xE40590",
+      "file_offset": "0xE40FD8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940024EC"
+    },
+    {
+      "caller_pc": "0xE405EC",
+      "file_offset": "0xE41034",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940024D5"
+    },
+    {
+      "caller_pc": "0xE40684",
+      "file_offset": "0xE410CC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940024AF"
+    },
+    {
+      "caller_pc": "0xE40730",
+      "file_offset": "0xE41178",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002484"
+    },
+    {
+      "caller_pc": "0xE40758",
+      "file_offset": "0xE411A0",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400247A"
+    },
+    {
+      "caller_pc": "0xE40810",
+      "file_offset": "0xE41258",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400244C"
+    },
+    {
+      "caller_pc": "0xE40890",
+      "file_offset": "0xE412D8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400242C"
+    },
+    {
+      "caller_pc": "0xE40928",
+      "file_offset": "0xE41370",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002406"
+    },
+    {
+      "caller_pc": "0xE409D4",
+      "file_offset": "0xE4141C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940023DB"
+    },
+    {
+      "caller_pc": "0xE409FC",
+      "file_offset": "0xE41444",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940023D1"
+    },
+    {
+      "caller_pc": "0xE40A80",
+      "file_offset": "0xE414C8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940023B0"
+    },
+    {
+      "caller_pc": "0xE40B04",
+      "file_offset": "0xE4154C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400238F"
+    },
+    {
+      "caller_pc": "0xE40B9C",
+      "file_offset": "0xE415E4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002369"
+    },
+    {
+      "caller_pc": "0xE40BB0",
+      "file_offset": "0xE415F8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002364"
+    },
+    {
+      "caller_pc": "0xE40C20",
+      "file_offset": "0xE41668",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002348"
+    },
+    {
+      "caller_pc": "0xE40CB8",
+      "file_offset": "0xE41700",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002322"
+    },
+    {
+      "caller_pc": "0xE40D64",
+      "file_offset": "0xE417AC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940022F7"
+    },
+    {
+      "caller_pc": "0xE40D8C",
+      "file_offset": "0xE417D4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940022ED"
+    },
+    {
+      "caller_pc": "0xE40E10",
+      "file_offset": "0xE41858",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940022CC"
+    },
+    {
+      "caller_pc": "0xE40E90",
+      "file_offset": "0xE418D8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940022AC"
+    },
+    {
+      "caller_pc": "0xE40F18",
+      "file_offset": "0xE41960",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400228A"
+    },
+    {
+      "caller_pc": "0xE40F2C",
+      "file_offset": "0xE41974",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002285"
+    },
+    {
+      "caller_pc": "0xE40F94",
+      "file_offset": "0xE419DC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400226B"
+    },
+    {
+      "caller_pc": "0xE40FE0",
+      "file_offset": "0xE41A28",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002258"
+    },
+    {
+      "caller_pc": "0xE41060",
+      "file_offset": "0xE41AA8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002238"
+    },
+    {
+      "caller_pc": "0xE410F4",
+      "file_offset": "0xE41B3C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002213"
+    },
+    {
+      "caller_pc": "0xE41140",
+      "file_offset": "0xE41B88",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002200"
+    },
+    {
+      "caller_pc": "0xE411C0",
+      "file_offset": "0xE41C08",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940021E0"
+    },
+    {
+      "caller_pc": "0xE41254",
+      "file_offset": "0xE41C9C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940021BB"
+    },
+    {
+      "caller_pc": "0xE412A0",
+      "file_offset": "0xE41CE8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940021A8"
+    },
+    {
+      "caller_pc": "0xE41334",
+      "file_offset": "0xE41D7C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94002183"
+    },
+    {
+      "caller_pc": "0xE41788",
+      "file_offset": "0xE421D0",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400206E"
+    },
+    {
+      "caller_pc": "0xE41D18",
+      "file_offset": "0xE42760",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001F0A"
+    },
+    {
+      "caller_pc": "0xE41D30",
+      "file_offset": "0xE42778",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001F04"
+    },
+    {
+      "caller_pc": "0xE41DC4",
+      "file_offset": "0xE4280C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001EDF"
+    },
+    {
+      "caller_pc": "0xE41E64",
+      "file_offset": "0xE428AC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001EB7"
+    },
+    {
+      "caller_pc": "0xE41F04",
+      "file_offset": "0xE4294C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001E8F"
+    },
+    {
+      "caller_pc": "0xE41FA4",
+      "file_offset": "0xE429EC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001E67"
+    },
+    {
+      "caller_pc": "0xE42044",
+      "file_offset": "0xE42A8C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001E3F"
+    },
+    {
+      "caller_pc": "0xE421F4",
+      "file_offset": "0xE42C3C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001DD3"
+    },
+    {
+      "caller_pc": "0xE4222C",
+      "file_offset": "0xE42C74",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001DC5"
+    },
+    {
+      "caller_pc": "0xE43354",
+      "file_offset": "0xE43D9C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400197B"
+    },
+    {
+      "caller_pc": "0xE4349C",
+      "file_offset": "0xE43EE4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001929"
+    },
+    {
+      "caller_pc": "0xE4354C",
+      "file_offset": "0xE43F94",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940018FD"
+    },
+    {
+      "caller_pc": "0xE43648",
+      "file_offset": "0xE44090",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940018BE"
+    },
+    {
+      "caller_pc": "0xE4378C",
+      "file_offset": "0xE441D4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400186D"
+    },
+    {
+      "caller_pc": "0xE43898",
+      "file_offset": "0xE442E0",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400182A"
+    },
+    {
+      "caller_pc": "0xE438FC",
+      "file_offset": "0xE44344",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001811"
+    },
+    {
+      "caller_pc": "0xE43934",
+      "file_offset": "0xE4437C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001803"
+    },
+    {
+      "caller_pc": "0xE439C4",
+      "file_offset": "0xE4440C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940017DF"
+    },
+    {
+      "caller_pc": "0xE43AB8",
+      "file_offset": "0xE44500",
+      "opcode": "B",
+      "target_pc": "0xE56690",
+      "target_kind": "nature_set",
+      "instruction": "0x14004AF6"
+    },
+    {
+      "caller_pc": "0xE43C18",
+      "file_offset": "0xE44660",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400174A"
+    },
+    {
+      "caller_pc": "0xE43D2C",
+      "file_offset": "0xE44774",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001705"
+    },
+    {
+      "caller_pc": "0xE43DA0",
+      "file_offset": "0xE447E8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940016E8"
+    },
+    {
+      "caller_pc": "0xE44A54",
+      "file_offset": "0xE4549C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940013BB"
+    },
+    {
+      "caller_pc": "0xE44A8C",
+      "file_offset": "0xE454D4",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940013AD"
+    },
+    {
+      "caller_pc": "0xE44AC4",
+      "file_offset": "0xE4550C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400139F"
+    },
+    {
+      "caller_pc": "0xE44AD0",
+      "file_offset": "0xE45518",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400139C"
+    },
+    {
+      "caller_pc": "0xE44B18",
+      "file_offset": "0xE45560",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9400148E"
+    },
+    {
+      "caller_pc": "0xE44B24",
+      "file_offset": "0xE4556C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x9400148B"
+    },
+    {
+      "caller_pc": "0xE44DE8",
+      "file_offset": "0xE45830",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940012D6"
+    },
+    {
+      "caller_pc": "0xE44FA0",
+      "file_offset": "0xE459E8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001268"
+    },
+    {
+      "caller_pc": "0xE45060",
+      "file_offset": "0xE45AA8",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001238"
+    },
+    {
+      "caller_pc": "0xE45088",
+      "file_offset": "0xE45AD0",
+      "opcode": "BL",
+      "target_pc": "0xE52AA0",
+      "target_kind": "species_set",
+      "instruction": "0x94003686"
+    },
+    {
+      "caller_pc": "0xE45094",
+      "file_offset": "0xE45ADC",
+      "opcode": "BL",
+      "target_pc": "0xE56470",
+      "target_kind": "form_set",
+      "instruction": "0x940044F7"
+    },
+    {
+      "caller_pc": "0xE45108",
+      "file_offset": "0xE45B50",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400120E"
+    },
+    {
+      "caller_pc": "0xE45150",
+      "file_offset": "0xE45B98",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940011FC"
+    },
+    {
+      "caller_pc": "0xE451A4",
+      "file_offset": "0xE45BEC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x940011E7"
+    },
+    {
+      "caller_pc": "0xE457B4",
+      "file_offset": "0xE461FC",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94001063"
+    },
+    {
+      "caller_pc": "0xE45844",
+      "file_offset": "0xE4628C",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x9400103F"
+    },
+    {
+      "caller_pc": "0xE45E3C",
+      "file_offset": "0xE46884",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94000EC1"
+    },
+    {
+      "caller_pc": "0xE45F78",
+      "file_offset": "0xE469C0",
+      "opcode": "B",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x14001F1A"
+    },
+    {
+      "caller_pc": "0xE45FC4",
+      "file_offset": "0xE46A0C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x94000F63"
+    },
+    {
+      "caller_pc": "0xE45FD0",
+      "file_offset": "0xE46A18",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x94001F04"
+    },
+    {
+      "caller_pc": "0xE45FDC",
+      "file_offset": "0xE46A24",
+      "opcode": "BL",
+      "target_pc": "0xE5D1E8",
+      "target_kind": "shiny_xor_check",
+      "instruction": "0x94005C83"
+    },
+    {
+      "caller_pc": "0xE45FF4",
+      "file_offset": "0xE46A3C",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x94000F57"
+    },
+    {
+      "caller_pc": "0xE46000",
+      "file_offset": "0xE46A48",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x94001EF8"
+    },
+    {
+      "caller_pc": "0xE4600C",
+      "file_offset": "0xE46A54",
+      "opcode": "BL",
+      "target_pc": "0xE5D21C",
+      "target_kind": "pid_shiny_adjust_candidate",
+      "instruction": "0x94005C84"
+    },
+    {
+      "caller_pc": "0xE46020",
+      "file_offset": "0xE46A68",
+      "opcode": "B",
+      "target_pc": "0xE57350",
+      "target_kind": "pid_set",
+      "instruction": "0x140044CC"
+    },
+    {
+      "caller_pc": "0xE46070",
+      "file_offset": "0xE46AB8",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x94000F38"
+    },
+    {
+      "caller_pc": "0xE4607C",
+      "file_offset": "0xE46AC4",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x94001ED9"
+    },
+    {
+      "caller_pc": "0xE460D0",
+      "file_offset": "0xE46B18",
+      "opcode": "BL",
+      "target_pc": "0xE49D50",
+      "target_kind": "tid_sid_get",
+      "instruction": "0x94000F20"
+    },
+    {
+      "caller_pc": "0xE460DC",
+      "file_offset": "0xE46B24",
+      "opcode": "BL",
+      "target_pc": "0xE4DBE0",
+      "target_kind": "pid_get",
+      "instruction": "0x94001EC1"
+    },
+    {
+      "caller_pc": "0xE46108",
+      "file_offset": "0xE46B50",
+      "opcode": "B",
+      "target_pc": "0xE57350",
+      "target_kind": "pid_set",
+      "instruction": "0x14004492"
+    },
+    {
+      "caller_pc": "0xE462E0",
+      "file_offset": "0xE46D28",
+      "opcode": "BL",
+      "target_pc": "0xE49940",
+      "target_kind": "species_get",
+      "instruction": "0x94000D98"
+    },
+    {
+      "caller_pc": "0x294F57C",
+      "file_offset": "0x294FFC4",
+      "opcode": "BL",
+      "target_pc": "0x656060",
+      "target_kind": "native_pid_state_builder",
+      "instruction": "0x97741AB9"
+    }
+  ],
+  "direct_ref_counts": {
+    "species_get": 98,
+    "tid_sid_get": 15,
+    "pid_get": 11,
+    "shiny_xor_check": 4,
+    "native_pid_state_builder": 5,
+    "pid_anti_shiny_if_needed_a": 2,
+    "pid_set": 4,
+    "native_pid_shiny_mode_generator": 2,
+    "pid_shiny_adjust_candidate": 2,
+    "tid_sid_set": 2,
+    "form_set": 3,
+    "ability_set": 2,
+    "experience_set": 2,
+    "species_set": 2,
+    "nature_set": 2
+  },
+  "ranked_callsite_windows": [
+    {
+      "range_start": "0xE3EB9C",
+      "range_end": "0xE3F1C0",
+      "score": 92,
+      "target_kinds": [
+        "ability_set",
+        "experience_set",
+        "form_set",
+        "nature_set",
+        "pid_set",
+        "species_get",
+        "species_set",
+        "tid_sid_set"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0xE3EB9C",
+          "target_kind": "tid_sid_set",
+          "target_pc": "0xE52EE0",
+          "op": "BL",
+          "instruction": "0x940050D1"
+        },
+        {
+          "caller_pc": "0xE3EBA8",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "BL",
+          "instruction": "0x940061EA"
+        },
+        {
+          "caller_pc": "0xE3EBB4",
+          "target_kind": "species_set",
+          "target_pc": "0xE52AA0",
+          "op": "BL",
+          "instruction": "0x94004FBB"
+        },
+        {
+          "caller_pc": "0xE3EBC0",
+          "target_kind": "form_set",
+          "target_pc": "0xE56470",
+          "op": "BL",
+          "instruction": "0x94005E2C"
+        },
+        {
+          "caller_pc": "0xE3EBE4",
+          "target_kind": "nature_set",
+          "target_pc": "0xE56690",
+          "op": "BL",
+          "instruction": "0x94005EAB"
+        },
+        {
+          "caller_pc": "0xE3ED70",
+          "target_kind": "ability_set",
+          "target_pc": "0xE535B0",
+          "op": "BL",
+          "instruction": "0x94005210"
+        },
+        {
+          "caller_pc": "0xE3EDE0",
+          "target_kind": "experience_set",
+          "target_pc": "0xE53100",
+          "op": "BL",
+          "instruction": "0x940050C8"
+        },
+        {
+          "caller_pc": "0xE3F02C",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x94002A45"
+        },
+        {
+          "caller_pc": "0xE3F1C0",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x940029E0"
+        }
+      ]
+    },
+    {
+      "range_start": "0xE3EBA8",
+      "range_end": "0xE3F1C0",
+      "score": 76,
+      "target_kinds": [
+        "ability_set",
+        "experience_set",
+        "form_set",
+        "nature_set",
+        "pid_set",
+        "species_get",
+        "species_set"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0xE3EBA8",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "BL",
+          "instruction": "0x940061EA"
+        },
+        {
+          "caller_pc": "0xE3EBB4",
+          "target_kind": "species_set",
+          "target_pc": "0xE52AA0",
+          "op": "BL",
+          "instruction": "0x94004FBB"
+        },
+        {
+          "caller_pc": "0xE3EBC0",
+          "target_kind": "form_set",
+          "target_pc": "0xE56470",
+          "op": "BL",
+          "instruction": "0x94005E2C"
+        },
+        {
+          "caller_pc": "0xE3EBE4",
+          "target_kind": "nature_set",
+          "target_pc": "0xE56690",
+          "op": "BL",
+          "instruction": "0x94005EAB"
+        },
+        {
+          "caller_pc": "0xE3ED70",
+          "target_kind": "ability_set",
+          "target_pc": "0xE535B0",
+          "op": "BL",
+          "instruction": "0x94005210"
+        },
+        {
+          "caller_pc": "0xE3EDE0",
+          "target_kind": "experience_set",
+          "target_pc": "0xE53100",
+          "op": "BL",
+          "instruction": "0x940050C8"
+        },
+        {
+          "caller_pc": "0xE3F02C",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x94002A45"
+        },
+        {
+          "caller_pc": "0xE3F1C0",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x940029E0"
+        }
+      ]
+    },
+    {
+      "range_start": "0x55BDC0",
+      "range_end": "0x55BDD4",
+      "score": 65,
+      "target_kinds": [
+        "pid_anti_shiny_if_needed_a",
+        "pid_set"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0x55BDC0",
+          "target_kind": "pid_anti_shiny_if_needed_a",
+          "target_pc": "0xE5D200",
+          "op": "BL",
+          "instruction": "0x94240510"
+        },
+        {
+          "caller_pc": "0x55BDD4",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x1423ED5F"
+        }
+      ]
+    },
+    {
+      "range_start": "0x657168",
+      "range_end": "0x657198",
+      "score": 37,
+      "target_kinds": [
+        "pid_anti_shiny_if_needed_a",
+        "pid_shiny_adjust_candidate"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0x657168",
+          "target_kind": "pid_anti_shiny_if_needed_a",
+          "target_pc": "0xE5D200",
+          "op": "BL",
+          "instruction": "0x94201826"
+        },
+        {
+          "caller_pc": "0x657198",
+          "target_kind": "pid_shiny_adjust_candidate",
+          "target_pc": "0xE5D21C",
+          "op": "BL",
+          "instruction": "0x94201821"
+        }
+      ]
+    },
+    {
+      "range_start": "0xE46020",
+      "range_end": "0xE462E0",
+      "score": 35,
+      "target_kinds": [
+        "pid_get",
+        "pid_set",
+        "species_get",
+        "tid_sid_get"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0xE46020",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x140044CC"
+        },
+        {
+          "caller_pc": "0xE46070",
+          "target_kind": "tid_sid_get",
+          "target_pc": "0xE49D50",
+          "op": "BL",
+          "instruction": "0x94000F38"
+        },
+        {
+          "caller_pc": "0xE4607C",
+          "target_kind": "pid_get",
+          "target_pc": "0xE4DBE0",
+          "op": "BL",
+          "instruction": "0x94001ED9"
+        },
+        {
+          "caller_pc": "0xE460D0",
+          "target_kind": "tid_sid_get",
+          "target_pc": "0xE49D50",
+          "op": "BL",
+          "instruction": "0x94000F20"
+        },
+        {
+          "caller_pc": "0xE460DC",
+          "target_kind": "pid_get",
+          "target_pc": "0xE4DBE0",
+          "op": "BL",
+          "instruction": "0x94001EC1"
+        },
+        {
+          "caller_pc": "0xE46108",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x14004492"
+        },
+        {
+          "caller_pc": "0xE462E0",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x94000D98"
+        }
+      ]
+    },
+    {
+      "range_start": "0xE46108",
+      "range_end": "0xE462E0",
+      "score": 30,
+      "target_kinds": [
+        "pid_set",
+        "species_get"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0xE46108",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x14004492"
+        },
+        {
+          "caller_pc": "0xE462E0",
+          "target_kind": "species_get",
+          "target_pc": "0xE49940",
+          "op": "BL",
+          "instruction": "0x94000D98"
+        }
+      ]
+    },
+    {
+      "range_start": "0x55BDD4",
+      "range_end": "0x55BDD4",
+      "score": 29,
+      "target_kinds": [
+        "pid_set"
+      ],
+      "calls": [
+        {
+          "caller_pc": "0x55BDD4",
+          "target_kind": "pid_set",
+          "target_pc": "0xE57350",
+          "op": "B",
+          "instruction": "0x1423ED5F"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static BL/B targets only; indirect BLR, vtables and wrappers not followed",
+    "Windows group proximity only and do NOT identify function boundaries",
+    "An accessor call does NOT prove shiny logic or actual runtime execution",
+    "ELF VA is not yet verified runtime main+offset; no GDB trace was performed"
+  ],
+  "verified_runtime_shiny_branch": false,
+  "build_id_manifest": "b1f12fd919eae86ab8a978317677e64bce443d1f000000000000000000000000"
+}
