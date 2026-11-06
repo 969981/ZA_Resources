@@ -84,7 +84,7 @@ def generate(repo, output):
                   for r in read(data / "names/ZA_move_names_zh.csv") if r["id"] != ""}
     place_names = {r["label"]: r["zhNameOrText"]
                    for r in read(data / "names/ZA_place_names_zh.csv")}
-    zones = {r["zoneID"]: r["placeNameKey"] for r in read(data / "maps/ZA_zones.csv")}
+    zone_key_by_id = {r["zoneID"]: r["placeNameKey"] for r in read(data / "maps/ZA_zones.csv")}
     native_learnsets = read(data / "battle/ZA_levelup_learnsets_zh.csv")
     comments_a = read(data / "pokedex/ZA_pokedex_comment_A_zh.csv")
     comments_b = read(data / "pokedex/ZA_pokedex_comment_B_zh.csv")
@@ -219,7 +219,7 @@ def generate(repo, output):
             sp_rows.append([
                 q(r["spawnerId"]), q(r["encounterId"]),
                 ((r["zoneIdInferredFromSpawnerName"] or "未知") + " / " +
-                 place_names.get(zones.get(r["zoneIdInferredFromSpawnerName"], ""), "")
+                 place_names.get(zone_key_by_id.get(r["zoneIdInferredFromSpawnerName"], ""), "")
                  if r["zoneIdInferredFromSpawnerName"] else "未知"),
                 f'{r["minLevel"]}–{r["maxLevel"]}',
                 "; ".join(coords) or "未找到实值",
