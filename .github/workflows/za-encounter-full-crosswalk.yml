@@ -7,8 +7,10 @@ on:
       - "scripts/encounters/za_encounter_crosswalk.py"
       - "scripts/encounters/za_condition_audit.py"
       - "scripts/encounters/za_gap_triage.py"
+      - "scripts/encounters/za_trigger_battle_audit.py"
       - "tests/test_za_encounter_crosswalk.py"
       - "tests/test_za_gap_triage.py"
+      - "tests/test_za_trigger_battle_audit.py"
       - ".github/workflows/za-encounter-full-crosswalk.yml"
 
 permissions:
@@ -33,10 +35,12 @@ jobs:
             /scripts/encounters/
             /tests/test_za_encounter_crosswalk.py
             /tests/test_za_gap_triage.py
+            /tests/test_za_trigger_battle_audit.py
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Info/SceneInfo9a.cs
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/ManualPositionRip.cs
             /tools/pkNX/FlatBuffers/ZA/Shared/Gen9/SpeciesConverterZA.cs
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/trigger/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/spawner_transform_data/pokemon_spawner_transform/pokemon_spawner_transform/
@@ -52,9 +56,10 @@ jobs:
 
       - name: Synthetic validation and syntax
         run: |
-          python -m py_compile scripts/encounters/za_encounter_crosswalk.py scripts/encounters/za_resource_inspect.py scripts/encounters/za_gap_triage.py scripts/encounters/za_condition_audit.py
+          python -m py_compile scripts/encounters/za_encounter_crosswalk.py scripts/encounters/za_resource_inspect.py scripts/encounters/za_gap_triage.py scripts/encounters/za_condition_audit.py scripts/encounters/za_trigger_battle_audit.py
           python -m unittest discover -s tests -p test_za_encounter_crosswalk.py -v
           python -m unittest discover -s tests -p test_za_gap_triage.py -v
+          python -m unittest discover -s tests -p test_za_trigger_battle_audit.py -v
 
       - name: Download official PKHeX baseline
         shell: bash
@@ -101,6 +106,15 @@ jobs:
             --output docs/research/v2.0.2/za_encounter_crosswalk \
             --strict
 
+      - name: Trace original Trigger Command53 to battle and encounter configuration
+        shell: bash
+        run: |
+          python scripts/encounters/za_trigger_battle_audit.py \
+            --virtual-root Unpack/v2.0.2/romfs/arc/data.trpfs/virtual \
+            --battle-bin Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin \
+            --edges docs/research/v2.0.2/za_encounter_crosswalk/za_spawner_encounter_edges.csv \
+            --output docs/research/v2.0.2/za_encounter_crosswalk
+
       - name: Write Obsidian/GitHub report
         shell: bash
         run: |
@@ -112,6 +126,7 @@ jobs:
           c=summary["counts"]
           cond=json.loads((doc/"za_encounter_crosswalk/za_condition_summary.json").read_text())
           gaps=json.loads((doc/"za_encounter_crosswalk/za_gap_triage_summary.json").read_text())
+          triggers=json.loads((doc/"za_encounter_crosswalk/za_trigger_battle_summary.json").read_text())
           lines=[
               "---", 'title: "Z-A v2.0.2 全量遭遇配置交叉审计"',
               "tags: [pokemon/za, encounter, research, pkhex]",
@@ -135,6 +150,11 @@ jobs:
               f'未匹配场景对象 {gaps["counts"]["unmatched_scene_objects"]:,}；未定位 Spawner {gaps["counts"]["unlocated_spawners"]:,}；名称规则 Boss 候选 {gaps["counts"]["scene_boss_name_candidates"]:,}；原始战斗表精确 Actor 链接 {gaps["counts"]["unlocated_with_exact_battle_actor_link"]:,}。',"",
               "| 未定位 Spawner 来源线索 | 数量 |", "|---|---:|"]
           lines += [f"| {k} | {v:,} |" for k,v in sorted(gaps["spawner_families"].items())]
+          lines += ["", "## Trigger → Battle → Spawner → Encounter 源字段级连接", "",
+              f'触发文件 {triggers["counts"]["trigger_source_files"]:,}，其中解析成功 {triggers["counts"]["trigger_files_parsed"]:,}；Command53 引用 {triggers["counts"]["command_53_references"]:,}，完整来源关联 {triggers["counts"]["linked_to_encounter_ids"]:,}。', "",
+              "[Trigger Command53 明细](za_encounter_crosswalk/za_trigger_battle_links.csv)",
+              "[Trigger 来源文件验收清单](za_encounter_crosswalk/za_trigger_source_manifest.csv)",
+              "[Trigger 解析摘要](za_encounter_crosswalk/za_trigger_battle_summary.json)", ""]
           lines += ["", "## 机器可读全量账本", "",
               "- [Spawner 全量](za_encounter_crosswalk/za_spawners.csv)",
               "- [Encounter 全量](za_encounter_crosswalk/za_encounters.csv)",
