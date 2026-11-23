@@ -9,10 +9,24 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts" / "encounters"))
 from za_encounter_crosswalk import (
     scene_sources, manual_coordinates, species_map, pkl, matches,
-    template_classes, audit,
+    template_classes, audit, resolve_scene_location,
 )
 
 class CrosswalkTests(unittest.TestCase):
+    def test_local_scene_location_is_unknown(self):
+        ids, distance, authority = resolve_scene_location(
+            "t1",
+            "world/ik_scene/field/area/t1_i007a/sub_scene/t1_i007a_gimmick/x.trscn",
+            [2.35, 0.01, 4.4],
+            [((0, 0, 0), [202])])
+        self.assertEqual(ids, [])
+        self.assertEqual(distance, -1.0)
+        self.assertIn("UNKNOWN", authority)
+        valid = resolve_scene_location(
+            "t1", "world/ik_scene/field/area/t1/a.trscn",
+            [0, 0, 0], [((0, 0, 0), [12])])
+        self.assertEqual(valid[0], [12])
+
     def test_scene_and_manual(self):
         text='''ScenePathsT1 = // comment
         ["world/ik_scene/a.trscn"];
