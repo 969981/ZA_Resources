@@ -175,7 +175,10 @@ def main():
         data = pack(areas)
         result = inspect(data)
         args.out.parent.mkdir(parents=True, exist_ok=True)
-        args.out.write_bytes(data)
+        # Refuse to overwrite existing PKL, including an accidental source path.
+        # Use a new output name for each build; the original is the rollback copy.
+        with args.out.open('xb') as output:
+            output.write(data)
         result.update(file=str(args.out), sha256=hashlib.sha256(data).hexdigest(), sources=sources)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
