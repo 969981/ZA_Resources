@@ -39,6 +39,12 @@ class CrosswalkTests(unittest.TestCase):
             self.assertEqual(matches(records,234,(25,0,255,19,22,1,1)), "overlap")
             self.assertEqual(matches(records,273,(25,0,255,20,25,1,1)), "missing")
 
+    def test_full_cover_beats_earlier_overlap(self):
+        # PKHeX may store overlapping intervals: a 5-8 entry preceding
+        # a 3-5 entry must still fully cover a source interval of 3-5.
+        records={12:[(16,0,255,5,8,0,0),(16,0,255,3,5,0,0)]}
+        self.assertEqual(matches(records,12,(16,0,255,3,5,0,0)), "covered")
+
     def test_template_ids(self):
         source='''Gifts = [ new(1,0,5,0) { Location = 5 }, // Gift (sub_gift)
         ]; Static = [ new(2,0,5,0) {}, // Boss (sub_boss)
