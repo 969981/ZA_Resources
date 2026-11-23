@@ -12,6 +12,7 @@ See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for com
 ## ZA Encounter PKL packer
 
 - [encounters/za_pkl_tool.py](encounters/za_pkl_tool.py): generate encounter_za.pkl from pkNX t1/t2/t3_slot_sets.json; inspect ZA / Hyperspace PKL.
+- [encounters/za_pkl_codec.py](encounters/za_pkl_codec.py): lossless BinLinker16 read/export JSON/import/patch/diff for normal and hyperspace PKL; SHA-256 source guard; never overwrite original. See [full extraction and editing guide](../docs/workflows/za-pkl-extract-read-edit.md).
 - [encounters/za_resource_inspect.py](encounters/za_resource_inspect.py): read-only inspect raw v2.0.2 EncountData, Spawner, Transform, Dimension and Trinity .trscn with per-source SHA-256.
 - [encounters/za_gap_triage.py](encounters/za_gap_triage.py): classify all 58/586 exceptions; recover source CreateScenePath and exact original wild battle Actor ID joins.
 - [encounters/za_trigger_battle_audit.py](encounters/za_trigger_battle_audit.py): scan actual Trigger Command53 files; link battle, spawner and encounter IDs; preserve unsupported rows.
