@@ -239,6 +239,8 @@ def main():
     args.output.mkdir(parents=True, exist_ok=True)
     write_csv(args.output / "za_unmatched_scene_objects.csv", missing_scenes)
     write_csv(args.output / "za_unlocated_spawners.csv", missing_spawners)
+    if battles:
+        write_csv(args.output / "za_wild_battle_actor_links.csv", battles)
     result = summary(missing_scenes, missing_spawners, files, raw_sha,
                      battle_sha, len(battles))
     (args.output / "za_gap_triage_summary.json").write_text(
