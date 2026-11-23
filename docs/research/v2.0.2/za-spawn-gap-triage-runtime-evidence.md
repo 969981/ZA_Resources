@@ -94,6 +94,8 @@ pokemon_spawner_data_array.bin : id_sub120_01 -> sub_120_mewtwo
 encount_data_array.bin : sub_120_mewtwo / Lv70 / Rare=0x1FFFFFFF
 ```
 
+本轮进一步直接读取了 **21 份**与 Battle `btl_sub_*` 相应的原始 `trigger_sub_*.bin`：**21/21 份**均存在明确的 `Command 53` 指向对应 Battle ID，继续通过原始 Battle.ActorId、Spawner.Id 和 EncountDataInfo.EncountDataId 精确连接到 Encounter。详见 [21 条 Trigger→Battle→Spawner→Encounter 逐项静态证据](za_encounter_crosswalk/za_quest_trigger_battle_verified.csv)。例如 `trigger_sub_0111.bin` 第 2 条触发器确实引用 `btl_sub_111_01`，并连接至 `id_sub111_01` / `sub_111_harimaron`。Battle 数据还含 `btl_sub_111_02` 和 `btl_sub_111_03`，但本轮该任务 Trigger 内的 Command53 仅直指 `_01`；后两者的入口必须另查，不应强行补链。
+
 EX1/EX2 Trigger 文件的 Command 53 已在本轮重新按 ActivationCondition/TriggerCommand 的 FlatBuffers 结构读取并复核。新的 [za_trigger_battle_audit.py](../../../scripts/encounters/za_trigger_battle_audit.py) 会枚举整个 `ik_event/bin/trigger/**/*.bin`，提取每一条原始 Command53 及条件参数，精确关联 Battle/Spawner/Encounter；未匹配和解析错误均需保留。相关输出为 `za_trigger_battle_links.csv`、`za_trigger_source_manifest.csv`、`za_trigger_battle_summary.json`。
 
 静态原生分支也已经在旧有真实 ELF SHA 核对中确认：
