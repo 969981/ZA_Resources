@@ -9,6 +9,12 @@ The v2.0.2 RomFS scripts support Windows PowerShell 5.1 and PowerShell 7. They u
 
 See [v2.0.2 RomFS archive and recovery](../docs/romfs-v2.0.2-archive.md) for commands and safety behavior.
 
+## ZA Encounter PKL packer
+
+- [encounters/za_pkl_tool.py](encounters/za_pkl_tool.py): generate encounter_za.pkl from pkNX t1/t2/t3_slot_sets.json; inspect ZA / Hyperspace PKL.
+- `py -3 -m unittest discover -s tests -p test_za_pkl_tool.py -v`
+- [PKL usage and guards](../docs/workflows/za-encounter-pkl.md) / [v2.0.2 source data formats](../docs/research/v2.0.2/za-encounter-resource-formats.md).
+
 ## Internal resource extraction
 
 See [tools](../tools/README.md) and [ZA extraction workflow](../docs/workflows/za-trinity-extraction.md). Run Sync-ZA-Tools.ps1 to verify the six committed pinned source snapshots; Prepare-ZA-Trinity.ps1 to restore verified original files; Run-ZA-TrinityDump.ps1 to index/extract, and Convert-ZA-ExeFS.py for NSO-to-ELF.
