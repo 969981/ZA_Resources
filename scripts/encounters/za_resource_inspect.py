@@ -26,6 +26,9 @@ class FB:
         except (struct.error, ValueError) as ex:
             raise FlatBufferError(f"out-of-bounds {fmt} at 0x{offset:X}") from ex
 
+    def u8(self, offset):
+        return self.scalar(offset, "B")
+
     def u16(self, offset):
         return self.scalar(offset, "H")
 
@@ -184,7 +187,7 @@ def summarize_transform(fb, limit):
                                    if fb.field(row, 1) is not None else None),
             "rotation_field_hex": (bytes(fb.data[fb.field(row, 2):fb.field(row, 2) + 12]).hex()
                                    if fb.field(row, 2) is not None else None),
-            "attach_transform_enable": bool(fb.number(row, 3, "u32")),
+            "attach_transform_enable": bool(fb.number(row, 3, "u8")),
         })
     return {"db_count": len(fb.tables(fb.root(), 0)), "transform_count": len(rows),
             "position_decoding": "UNVERIFIED: raw bytes, not coordinates", "samples": samples}
