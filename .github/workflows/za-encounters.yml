@@ -12,6 +12,7 @@ on:
     paths:
       - "scripts/encounters/**"
       - "tests/test_za_pkl_tool.py"
+      - "tests/test_za_pkl_codec.py"
       - "tests/test_za_resource_inspect.py"
       - ".github/workflows/za-encounters.yml"
 
