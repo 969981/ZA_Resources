@@ -148,11 +148,14 @@ def template_classes(text):
     return ids
 
 def matches(slots,loc,key):
+    # Scan every template: a partial overlap earlier in the file must not
+    # shadow a full-covering template later in the same encounter area.
+    has_overlap=False
     for s in slots.get(loc,()):
         if s[:3]==key[:3] and s[5:]==key[5:]:
             if s[3]<=key[3] and key[4]<=s[4]: return "covered"
-            if s[3]<=key[4] and key[3]<=s[4]: return "overlap"
-    return "missing"
+            if s[3]<=key[4] and key[3]<=s[4]: has_overlap=True
+    return "overlap" if has_overlap else "missing"
 
 def write_csv(path,rows):
     if not rows:return
