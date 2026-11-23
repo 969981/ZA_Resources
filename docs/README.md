@@ -15,6 +15,7 @@ These Markdown pages can be opened directly in Obsidian. Use normal relative lin
 - [2.0.2 research](research/v2.0.2/README.md)
 - [Z-A 遭遇 PKL 打包与校验](workflows/za-encounter-pkl.md)
 - [Z-A v2.0.2 Spawner→Encounter 全量审计及可复现命令](workflows/za-encounter-crosswalk.md)
+- [ZA 58/586 缺口逐项归因与事件→战斗→生成器链](research/v2.0.2/za-spawn-gap-triage-runtime-evidence.md)
 - [Z-A v2.0.2 真实遭遇/Spawner/Dimension/Trinity 文件结构](research/v2.0.2/za-encounter-resource-formats.md)
 - [Z-A v2.0.2 神兽锁闪证据与蒂安希、超梦 EX 事件](research/v2.0.2/za-legendary-shiny-lock-diancie-mewtwo-events.md)
 
