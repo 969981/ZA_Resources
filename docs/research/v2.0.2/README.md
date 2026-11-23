@@ -21,6 +21,7 @@ No internal Trinity field maps have been independently validated in this documen
 ## 全量遭遇交叉关联
 
 - [v2.0.2 完整 Spawner→Encounter→场景 Location→PKHeX 静态审计](za-encounter-crosswalk-v2.0.2.md)
+- [原始 EncountData 激活条件真实值与 Op/Param 样本](za-encounter-activation-conditions.md)
 - [复现、条件原始字段解析与异常点排查](../../workflows/za-encounter-crosswalk.md)
 
 ## 遭遇数据与 PKL
