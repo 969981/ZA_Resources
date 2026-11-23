@@ -87,6 +87,18 @@ def manual_coordinates(source):
         coords[tuple(float(x) for x in v[2:])].add(int(v[0]))
     return [(xyz,sorted(ids)) for xyz,ids in coords.items()]
 
+def resolve_scene_location(code,path,xyz,manual):
+    # CONFIRMED separate t1_i007a scene coordinate frame: the map origin
+    # does not match outdoor t1 world-space points. Do not assign bogus 202.
+    if "/area/t1_i007a/" in path:
+        return [],-1.0,"UNKNOWN_T1_I007A_LOCAL_COORDINATE"
+    if code=="t1":
+        nearest,ids=min(manual,key=lambda z:sum((a-b)**2 for a,b in zip(z[0],xyz)))
+        return ids,math.dist(nearest,xyz),"CANDIDATE_PKNX_MANUAL_NEAREST"
+    if code=="t2":return [234],0.0,"PINNED_PKNX_T2_CONSTANT"
+    if code=="t3":return [235],0.0,"PINKED_PKNX_T3_CONSTANT"
+    raise ValueError(f"Unknown scene map code {code!r}")
+
 def scene_objects(root,scene_info,manual):
     result=[]
     for code,path in scene_sources(scene_info):
@@ -105,13 +117,11 @@ def scene_objects(root,scene_info,manual):
             if srt is None: continue
             xyz=obj.vec3(srt,2)
             if xyz is None: continue
-            if code=="t1":
-                (nearest,ids)=min(manual,key=lambda z:sum((a-b)**2 for a,b in zip(z[0],xyz)))
-                dist=math.dist(nearest,xyz)
-            else: ids=[234 if code=="t2" else 235];dist=0
+            ids,dist,provenance=resolve_scene_location(code,path,xyz,manual)
             result.append(dict(name=embedded.string(t,0),scene=path,map=code,
                 shape=shape,x=xyz[0],y=xyz[1],z=xyz[2],
-                locations="|".join(map(str,ids)),nearest_distance=round(dist,3)))
+                locations="|".join(map(str,ids)),nearest_distance=round(dist,3),
+                location_provenance=provenance))
     return result
 
 def species_map(text):
