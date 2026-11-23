@@ -236,7 +236,7 @@ def audit(enc,sp,transforms,dim,scenes,normal,hyper,convert,templates,out,eviden
     write_csv(out/"za_scene_points.csv",scenes)
     summary=dict(version="v2.0.2",status="STATIC_CONFIGURATION_NOT_RUNTIME_PROOF",
         counts=dict(spawners=len(sp),encounters=len(enc),transform_records=len(transforms),
-            dimension_refs=len(dim),distinct_dimension_spawners=len(by_hyper),scene_points=len(scenes),
+            dimension_refs=len(dim),distinct_dimension_spawners=len({x["spawner"] for x in dim}),scene_points=len(scenes),
             spawners_scene_placed=sum(bool(x["scene_placements"]) for x in sp_rows),
             spawners_hyperspace_referenced=sum(bool(x["hyperspace_refs"]) for x in sp_rows),
             encounter_edges=len(edge_rows),encounters_referenced=len(linked),
