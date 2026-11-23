@@ -36,6 +36,7 @@ jobs:
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Info/SceneInfo9a.cs
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/ManualPositionRip.cs
             /tools/pkNX/FlatBuffers/ZA/Shared/Gen9/SpeciesConverterZA.cs
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/spawner_transform_data/pokemon_spawner_transform/pokemon_spawner_transform/
@@ -96,6 +97,7 @@ jobs:
           python scripts/encounters/za_gap_triage.py \
             --ledger docs/research/v2.0.2/za_encounter_crosswalk \
             --spawner-bin Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.bin \
+            --battle-bin Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_event/bin/event_wild_battle_data/wild_btl_data_global.bin \
             --output docs/research/v2.0.2/za_encounter_crosswalk \
             --strict
 
@@ -130,7 +132,7 @@ jobs:
           lines += [f"| {k} | {v:,} |"
                     for k,v in list(cond["by_condition_name"].items())[:25]]
           lines += ["", "## 逐项缺口分流（非实机结论）", "",
-              f'未匹配场景对象 {gaps["counts"]["unmatched_scene_objects"]:,}；未定位 Spawner {gaps["counts"]["unlocated_spawners"]:,}；名称规则 Boss 候选 {gaps["counts"]["scene_boss_name_candidates"]:,}。',"",
+              f'未匹配场景对象 {gaps["counts"]["unmatched_scene_objects"]:,}；未定位 Spawner {gaps["counts"]["unlocated_spawners"]:,}；名称规则 Boss 候选 {gaps["counts"]["scene_boss_name_candidates"]:,}；原始战斗表精确 Actor 链接 {gaps["counts"]["unlocated_with_exact_battle_actor_link"]:,}。',"",
               "| 未定位 Spawner 来源线索 | 数量 |", "|---|---:|"]
           lines += [f"| {k} | {v:,} |" for k,v in sorted(gaps["spawner_families"].items())]
           lines += ["", "## 机器可读全量账本", "",
