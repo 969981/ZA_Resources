@@ -3,6 +3,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import json
 import struct
+import subprocess
 import sys
 import unittest
 
@@ -49,6 +50,20 @@ class PKLTests(unittest.TestCase):
             inspect(b'\x80\x04pickle')
         with self.assertRaises(PKLError):
             inspect(b'za\x01\x00\x08\x00\x14\x00')
+
+    def test_build_refuses_overwrite_existing_pkl(self):
+        with TemporaryDirectory() as d:
+            src = Path(d)/'t1_slot_sets.json'
+            src.write_text(json.dumps({'Wild (12)': [slot()]}), encoding='utf-8')
+            original = Path(d)/'encounter_za.pkl'
+            original.write_bytes(b'unchanged-source')
+            tool = Path(__file__).resolve().parents[1]/'scripts'/'encounters'/'za_pkl_tool.py'
+            process = subprocess.run(
+                [sys.executable, str(tool), '--build', str(src), '--out', str(original)],
+                capture_output=True, text=True,
+            )
+            self.assertNotEqual(process.returncode, 0)
+            self.assertEqual(original.read_bytes(), b'unchanged-source')
 
     def test_max_offset_rejected(self):
         with self.assertRaises(PKLError):
