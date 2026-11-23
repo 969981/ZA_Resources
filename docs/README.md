@@ -14,6 +14,7 @@ These Markdown pages can be opened directly in Obsidian. Use normal relative lin
 - [ZA v2.0.2 virtual 全量二次加工、状态清单与原生文件对账](workflows/za-virtual-converted-v2.0.2.md)
 - [2.0.2 research](research/v2.0.2/README.md)
 - [Z-A 遭遇 PKL 打包与校验](workflows/za-encounter-pkl.md)
+- [Z-A PKL 原始提取、二进制结构、JSON 编辑、回打包与回滚](workflows/za-pkl-extract-read-edit.md)
 - [Z-A v2.0.2 Spawner→Encounter 全量审计及可复现命令](workflows/za-encounter-crosswalk.md)
 - [ZA 58/586 缺口逐项归因与事件→战斗→生成器链](research/v2.0.2/za-spawn-gap-triage-runtime-evidence.md)
 - [Z-A v2.0.2 真实遭遇/Spawner/Dimension/Trinity 文件结构](research/v2.0.2/za-encounter-resource-formats.md)
