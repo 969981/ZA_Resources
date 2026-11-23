@@ -1,0 +1,137 @@
+name: ZA v2.0.2 full encounter crosswalk
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/encounters/za_encounter_crosswalk.py"
+      - "tests/test_za_encounter_crosswalk.py"
+      - ".github/workflows/za-encounter-full-crosswalk.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout pinned v2.0.2 sources only
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/encounters/
+            /tests/test_za_encounter_crosswalk.py
+            /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Info/SceneInfo9a.cs
+            /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/ManualPositionRip.cs
+            /tools/pkNX/FlatBuffers/ZA/Shared/Gen9/SpeciesConverterZA.cs
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/spawner_transform_data/pokemon_spawner_transform/pokemon_spawner_transform/
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/dimension/dimension_wild_pokemon/dimension_wild_pokemon/
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_scene/field/area/
+            /docs/research/v2.0.2/za_encounter_crosswalk/
+            /docs/research/v2.0.2/za-encounter-crosswalk-v2.0.2.md
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Synthetic validation and syntax
+        run: |
+          python -m py_compile scripts/encounters/za_encounter_crosswalk.py scripts/encounters/za_resource_inspect.py
+          python -m unittest discover -s tests -p test_za_encounter_crosswalk.py -v
+
+      - name: Download official PKHeX baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .za-work/pkhex
+          base=https://raw.githubusercontent.com/kwsch/PKHeX/master
+          curl -fsSL --retry 3 "$base/PKHeX.Core/Legality/Encounters/Data/Gen9/Encounters9a.cs" -o .za-work/pkhex/Encounters9a.cs
+          curl -fsSL --retry 3 "$base/PKHeX.Core/Resources/legality/wild/Gen9/encounter_za.pkl" -o .za-work/pkhex/encounter_za.pkl
+          curl -fsSL --retry 3 "$base/PKHeX.Core/Resources/legality/wild/Gen9/encounter_hyperspace_za.pkl" -o .za-work/pkhex/encounter_hyperspace_za.pkl
+          test -s .za-work/pkhex/Encounters9a.cs
+          test -s .za-work/pkhex/encounter_za.pkl
+          test -s .za-work/pkhex/encounter_hyperspace_za.pkl
+
+      - name: Build complete static crosswalk and compare official PKL
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/encounters/za_encounter_crosswalk.py \
+            --virtual-root Unpack/v2.0.2/romfs/arc/data.trpfs/virtual \
+            --scene-info tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Info/SceneInfo9a.cs \
+            --manual tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/ManualPositionRip.cs \
+            --converter tools/pkNX/FlatBuffers/ZA/Shared/Gen9/SpeciesConverterZA.cs \
+            --pkhex-templates .za-work/pkhex/Encounters9a.cs \
+            --pkhex-normal .za-work/pkhex/encounter_za.pkl \
+            --pkhex-hyperspace .za-work/pkhex/encounter_hyperspace_za.pkl \
+            --output docs/research/v2.0.2/za_encounter_crosswalk \
+            --strict
+
+      - name: Write Obsidian/GitHub report
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          doc=Path("docs/research/v2.0.2")
+          summary=json.loads((doc/"za_encounter_crosswalk/summary.json").read_text())
+          c=summary["counts"]
+          lines=[
+              "---", 'title: "Z-A v2.0.2 全量遭遇配置交叉审计"',
+              "tags: [pokemon/za, encounter, research, pkhex]",
+              'status: "STATIC_CONFIGURATION_NOT_RUNTIME_PROOF"', "---", "",
+              "# Z-A v2.0.2 全量静态遭遇账本", "",
+              "> [!important] 本文数字是来源静态配置，不证明游戏实机运行时可生成/可捕获。T1 Location 是 pkNX ManualPositionRip 最近邻归属；时间天气与任务条件保留原始值。", "",
+              "| 指标 | 数量 |", "|---|---:|",
+          ]
+          lines += [f"| {k} | {v:,} |" for k,v in c.items()]
+          lines += ["", "## Encounter 来源分类", "", "| 类别 | 记录数 |", "|---|---:|"]
+          lines += [f"| {k} | {v:,} |" for k,v in sorted(summary["categories"].items())]
+          lines += ["", "## PKHeX 逐关联边匹配结果", "", "| 结果 | 关联边数 |", "|---|---:|"]
+          lines += [f"| {k} | {v:,} |" for k,v in sorted(summary["pkl_edge_matches"].items())]
+          lines += ["", "## 机器可读全量账本", "",
+              "- [Spawner 全量](za_encounter_crosswalk/za_spawners.csv)",
+              "- [Encounter 全量](za_encounter_crosswalk/za_encounters.csv)",
+              "- [Spawner 与 Encounter 全部关系](za_encounter_crosswalk/za_spawner_encounter_edges.csv)",
+              "- [异次元抽选引用](za_encounter_crosswalk/za_dimension_refs.csv)",
+              "- [场景对象、坐标和地点估计](za_encounter_crosswalk/za_scene_points.csv)",
+              "- [摘要与源 SHA-256](za_encounter_crosswalk/summary.json)",
+              "", "## 未闭合 / 需要实机验收", ""]
+          lines += ["- " + x for x in summary["limitations"]]
+          lines += ["", "## 输入取证散列", ""]
+          lines += [f'- {x["name"]}: SHA256 {x["sha256"]}, {x["size"]} bytes'
+                    for x in summary["sources"]]
+          (doc/"za-encounter-crosswalk-v2.0.2.md").write_text("\n".join(lines)+"\n", encoding="utf-8")
+          PY
+
+      - name: Upload full audit as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZA-v2.0.2-encounter-audit
+          if-no-files-found: warn
+          path: |
+            docs/research/v2.0.2/za_encounter_crosswalk/
+            docs/research/v2.0.2/za-encounter-crosswalk-v2.0.2.md
+
+      - name: Commit derived audit (not original game binary)
+        if: success() && github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f docs/research/v2.0.2/za_encounter_crosswalk/*.csv \
+                     docs/research/v2.0.2/za_encounter_crosswalk/summary.json \
+                     docs/research/v2.0.2/za-encounter-crosswalk-v2.0.2.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data(encounters): v2.0.2 source-to-scene PKHeX coverage ledger"
+            git push origin HEAD:master
+          fi
