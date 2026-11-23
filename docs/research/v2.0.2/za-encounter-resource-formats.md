@@ -213,3 +213,32 @@ pkNX ExportHyperspacePickle -> encounter_hyperspace_za.pkl
 
 > [!todo] 待完成的严格验收
 > 完整本地 RomFS 解析全部 .trscn 场景；spawner 大文件字段抽样与源 SHA-256；transform 坐标字节读取方式复核；空地点/未命中对象审计；官方 PKHeX 两份 PKL 逐槽差异；合法性实际样本回归。
+
+
+## 本地直接解析工具（新增）
+
+[`za_resource_inspect.py`](../../../scripts/encounters/za_resource_inspect.py) 是独立的、只读的 Python 标准库解析器，支持：
+
+- `encount_data_array.bin`：原始 Id、DevNo、Form、Level、Sex、Rare、头目概率等；
+- `pokemon_spawner_data_array.bin`：全量 DB / 记录数量，以及任意前 N 条的 ObjectName、出现数量、冷却、EncountDataId、权重、天气/时间、复活率；
+- `pokemon_spawner_transform_array.bin`：Name 与位置/旋转原始字段字节（**不是**已验证 float 坐标）；
+- `dimension_wild_pokemon_array.bin`：PokeType → Rank → Pattern → SpawnerDataId 与权重；
+- `*.trscn`：Trinity 两层嵌套 FlatBuffers 的 SceneObject Name、生成形状及 SRT Translation 三维坐标。
+
+从仓库根目录运行（PowerShell）：
+
+```powershell
+$root = ".\Unpack\v2.0.2\romfs\arc\data.trpfs\virtual"
+$enc = "$root\world\ik_data\field\pokemon\encount_data\encount_data\encount_data_array.bin"
+$sp = "$root\world\ik_data\field\pokemon_spawner\pokemon_spawner_data\pokemon_spawner_data_array.bin"
+$dim = "$root\world\ik_data\field\dimension\dimension_wild_pokemon\dimension_wild_pokemon\dimension_wild_pokemon_array.bin"
+$scene = "$root\world\ik_scene\field\area\t1\sub_scene\t1_zone\t1_wild_a0101_w01\t1_wild_a0101_w01_pokemon_spawner_\t1_wild_a0101_w01_pokemon_spawner_0.trscn"
+
+py -3 scripts/encounters/za_resource_inspect.py $enc --limit 15 --out .\.za-work\encounters\encount.json
+py -3 scripts/encounters/za_resource_inspect.py $sp --limit 15 --out .\.za-work\encounters\spawner.json
+py -3 scripts/encounters/za_resource_inspect.py $dim --limit 15 --out .\.za-work\encounters\dimension.json
+py -3 scripts/encounters/za_resource_inspect.py $scene --limit 15 --out .\.za-work\encounters\scene.json
+py -3 -m unittest discover -s tests -p test_za_resource_inspect.py -v
+```
+
+每次结果写入来源文件 SHA-256 和大小。报告默认仅输出少量样本，避免将大体积完整原始游戏资源加入 Git。合成测试只验证 FlatBuffers 基本边界、表字段、向量与字符串读写；**不代表整个原始 RomFS 已完成回归解析**。
