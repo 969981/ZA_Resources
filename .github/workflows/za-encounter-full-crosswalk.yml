@@ -6,7 +6,9 @@ on:
     paths:
       - "scripts/encounters/za_encounter_crosswalk.py"
       - "scripts/encounters/za_condition_audit.py"
+      - "scripts/encounters/za_gap_triage.py"
       - "tests/test_za_encounter_crosswalk.py"
+      - "tests/test_za_gap_triage.py"
       - ".github/workflows/za-encounter-full-crosswalk.yml"
 
 permissions:
@@ -30,6 +32,7 @@ jobs:
           sparse-checkout: |
             /scripts/encounters/
             /tests/test_za_encounter_crosswalk.py
+            /tests/test_za_gap_triage.py
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/Info/SceneInfo9a.cs
             /tools/pkNX/pkNX.WinForms/Subforms/Gen9a/Map/ManualPositionRip.cs
             /tools/pkNX/FlatBuffers/ZA/Shared/Gen9/SpeciesConverterZA.cs
@@ -48,8 +51,9 @@ jobs:
 
       - name: Synthetic validation and syntax
         run: |
-          python -m py_compile scripts/encounters/za_encounter_crosswalk.py scripts/encounters/za_resource_inspect.py
+          python -m py_compile scripts/encounters/za_encounter_crosswalk.py scripts/encounters/za_resource_inspect.py scripts/encounters/za_gap_triage.py scripts/encounters/za_condition_audit.py
           python -m unittest discover -s tests -p test_za_encounter_crosswalk.py -v
+          python -m unittest discover -s tests -p test_za_gap_triage.py -v
 
       - name: Download official PKHeX baseline
         shell: bash
@@ -86,6 +90,15 @@ jobs:
             --virtual-root Unpack/v2.0.2/romfs/arc/data.trpfs/virtual \
             --output docs/research/v2.0.2/za_encounter_crosswalk
 
+      - name: Classify orphan scenes and spawner records with original source paths
+        shell: bash
+        run: |
+          python scripts/encounters/za_gap_triage.py \
+            --ledger docs/research/v2.0.2/za_encounter_crosswalk \
+            --spawner-bin Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon_spawner/pokemon_spawner_data/pokemon_spawner_data_array.bin \
+            --output docs/research/v2.0.2/za_encounter_crosswalk \
+            --strict
+
       - name: Write Obsidian/GitHub report
         shell: bash
         run: |
@@ -96,6 +109,7 @@ jobs:
           summary=json.loads((doc/"za_encounter_crosswalk/summary.json").read_text())
           c=summary["counts"]
           cond=json.loads((doc/"za_encounter_crosswalk/za_condition_summary.json").read_text())
+          gaps=json.loads((doc/"za_encounter_crosswalk/za_gap_triage_summary.json").read_text())
           lines=[
               "---", 'title: "Z-A v2.0.2 全量遭遇配置交叉审计"',
               "tags: [pokemon/za, encounter, research, pkhex]",
@@ -115,6 +129,10 @@ jobs:
               "| 原始条件名 | 参数记录数 |", "|---|---:|"]
           lines += [f"| {k} | {v:,} |"
                     for k,v in list(cond["by_condition_name"].items())[:25]]
+          lines += ["", "## 逐项缺口分流（非实机结论）", "",
+              f'未匹配场景对象 {gaps["counts"]["unmatched_scene_objects"]:,}；未定位 Spawner {gaps["counts"]["unlocated_spawners"]:,}；名称规则 Boss 候选 {gaps["counts"]["scene_boss_name_candidates"]:,}。',"",
+              "| 未定位 Spawner 来源线索 | 数量 |", "|---|---:|"]
+          lines += [f"| {k} | {v:,} |" for k,v in sorted(gaps["spawner_families"].items())]
           lines += ["", "## 机器可读全量账本", "",
               "- [Spawner 全量](za_encounter_crosswalk/za_spawners.csv)",
               "- [Encounter 全量](za_encounter_crosswalk/za_encounters.csv)",
@@ -123,6 +141,9 @@ jobs:
               "- [场景对象、坐标和地点估计](za_encounter_crosswalk/za_scene_points.csv)",
               "- [原始激活条件逐条账本](za_encounter_crosswalk/za_activation_conditions.csv)",
               "- [原始条件类型统计](za_encounter_crosswalk/za_condition_summary.json)",
+              "- [未匹配 Trinity 场景点逐项](za_encounter_crosswalk/za_unmatched_scene_objects.csv)",
+              "- [未定位 Spawner 逐项与 CreateScenePath](za_encounter_crosswalk/za_unlocated_spawners.csv)",
+              "- [缺口证据分流汇总](za_encounter_crosswalk/za_gap_triage_summary.json)",
               "- [摘要与源 SHA-256](za_encounter_crosswalk/summary.json)",
               "", "## 未闭合 / 需要实机验收", ""]
           lines += ["- " + x for x in summary["limitations"]]
