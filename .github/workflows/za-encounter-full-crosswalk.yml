@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: za-encounter-v202-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -150,5 +154,7 @@ jobs:
                      docs/research/v2.0.2/za-encounter-crosswalk-v2.0.2.md
           if ! git diff --cached --quiet; then
             git commit -m "data(encounters): v2.0.2 source-to-scene PKHeX coverage ledger"
+            git fetch origin master
+            git rebase origin/master
             git push origin HEAD:master
           fi
