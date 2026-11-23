@@ -1,0 +1,31 @@
+name: ZA encounter PKL and FlatBuffers tools
+
+on:
+  push:
+    paths:
+      - "scripts/encounters/**"
+      - "tests/test_za_pkl_tool.py"
+      - "tests/test_za_resource_inspect.py"
+      - ".github/workflows/za-encounters.yml"
+  pull_request:
+    paths:
+      - "scripts/encounters/**"
+      - "tests/test_za_pkl_tool.py"
+      - "tests/test_za_resource_inspect.py"
+      - ".github/workflows/za-encounters.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test PKL builder and binary reader
+        run: python -m unittest discover -s tests -p test_za_pkl_tool.py -v
+      - name: Test FlatBuffers offset reader
+        run: python -m unittest discover -s tests -p test_za_resource_inspect.py -v
