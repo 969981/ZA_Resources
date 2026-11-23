@@ -14,7 +14,7 @@ status: "STATIC_CONFIGURATION_NOT_RUNTIME_PROOF"
 | encounters | 1,966 |
 | transform_records | 2,108 |
 | dimension_refs | 1,500 |
-| distinct_dimension_spawners | 2,211 |
+| distinct_dimension_spawners | 476 |
 | scene_points | 1,207 |
 | spawners_scene_placed | 1,149 |
 | spawners_hyperspace_referenced | 476 |
