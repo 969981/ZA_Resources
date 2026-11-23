@@ -1,12 +1,14 @@
 {
   "version": "v2.0.2",
-  "evidence": "DERIVED_FROM_PINNED_CSV_NO_RAW_CREATE_SCENE_PATH_YET",
+  "evidence": "DERIVED_FROM_PINNED_CSV_PLUS_ORIGINAL_8308B_BATTLE_FLATBUFFER",
   "counts": {
     "unmatched_scene_objects": 58,
     "unlocated_spawners": 586,
     "scene_boss_name_candidates": 14,
     "unlocated_transform_name_matches": 140,
-    "unlocated_with_pkhex_template": 38
+    "unlocated_with_pkhex_template": 38,
+    "unlocated_with_exact_battle_actor_link": 63,
+    "original_battle_table_rows": 68
   },
   "scene_families": {
     "wild_zone_scene_object": 36,
@@ -24,8 +26,10 @@
   },
   "raw_create_scene_paths_nonempty": null,
   "caveats": [
-    "This initial ledger uses existing source-verified CSVs; raw CreateScenePath is blank until CI original .bin rerun.",
-    "Prefix-only family is CANDIDATE; runtime spawnability not proven.",
-    "The three T1_i007a scene locations are UNKNOWN pending updated main crosswalk."
-  ]
+    "63 exact actor_id -> Spawner.Id associations confirmed from original wild_btl_data_global.bin; does not prove runtime dispatch",
+    "Remaining original Spawner CreateScenePath fields need full 1.4 MB parser rerun",
+    "Boss naming candidate does not equal exact field join",
+    "T1_i007a Location remains UNKNOWN until map metadata/runtime match"
+  ],
+  "original_battle_source_blob_sha": "b48bffbd0b60a5753c43e3beb9fa2f2ff855c9ed"
 }
