@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/encounters/**"
       - "tests/test_za_pkl_tool.py"
+      - "tests/test_za_pkl_codec.py"
       - "tests/test_za_resource_inspect.py"
       - ".github/workflows/za-encounters.yml"
   pull_request:
@@ -22,10 +23,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/encounters/
+            /tests/test_za_pkl_tool.py
+            /tests/test_za_pkl_codec.py
+            /tests/test_za_resource_inspect.py
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Test PKL builder and binary reader
         run: python -m unittest discover -s tests -p test_za_pkl_tool.py -v
+      - name: Test lossless PKL read/edit/roundtrip
+        run: |
+          python -m py_compile scripts/encounters/za_pkl_codec.py
+          python -m unittest discover -s tests -p test_za_pkl_codec.py -v
+      - name: Roundtrip real official PKHeX ZA and Hyperspace PKL bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .za-work/pkl-ci
+          base=https://raw.githubusercontent.com/kwsch/PKHeX/master/PKHeX.Core/Resources/legality/wild/Gen9
+          for name in encounter_za encounter_hyperspace_za; do
+            curl --fail --location --silent --show-error --retry 3 "$base/$name.pkl"               -o ".za-work/pkl-ci/$name.original.pkl"
+            python scripts/encounters/za_pkl_codec.py inspect ".za-work/pkl-ci/$name.original.pkl"
+            python scripts/encounters/za_pkl_codec.py export ".za-work/pkl-ci/$name.original.pkl"               --out ".za-work/pkl-ci/$name.json"
+            python scripts/encounters/za_pkl_codec.py import ".za-work/pkl-ci/$name.json"               --source-pkl ".za-work/pkl-ci/$name.original.pkl"               --out ".za-work/pkl-ci/$name.roundtrip.pkl"
+            cmp ".za-work/pkl-ci/$name.original.pkl" ".za-work/pkl-ci/$name.roundtrip.pkl"
+            sha256sum ".za-work/pkl-ci/$name.original.pkl" ".za-work/pkl-ci/$name.roundtrip.pkl"
+          done
       - name: Test FlatBuffers offset reader
         run: python -m unittest discover -s tests -p test_za_resource_inspect.py -v
