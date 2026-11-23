@@ -1,0 +1,31 @@
+{
+  "version": "v2.0.2",
+  "evidence": "DERIVED_FROM_PINNED_CSV_NO_RAW_CREATE_SCENE_PATH_YET",
+  "counts": {
+    "unmatched_scene_objects": 58,
+    "unlocated_spawners": 586,
+    "scene_boss_name_candidates": 14,
+    "unlocated_transform_name_matches": 140,
+    "unlocated_with_pkhex_template": 38
+  },
+  "scene_families": {
+    "wild_zone_scene_object": 36,
+    "boss_scene_object": 16,
+    "outzone_scene_object": 5,
+    "test_object": 1
+  },
+  "spawner_families": {
+    "dimension_pool_not_selected": 268,
+    "generic_or_zone_named_spawner": 117,
+    "battle_named_spawner": 106,
+    "quest_named_spawner": 37,
+    "boss_follower_or_helper": 32,
+    "other_unlocated_spawner": 26
+  },
+  "raw_create_scene_paths_nonempty": null,
+  "caveats": [
+    "This initial ledger uses existing source-verified CSVs; raw CreateScenePath is blank until CI original .bin rerun.",
+    "Prefix-only family is CANDIDATE; runtime spawnability not proven.",
+    "The three T1_i007a scene locations are UNKNOWN pending updated main crosswalk."
+  ]
+}
