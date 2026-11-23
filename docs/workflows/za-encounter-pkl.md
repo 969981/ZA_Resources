@@ -7,6 +7,9 @@ status: "PACKER_TESTED_SYNTHETIC_FULL_DUMP_PENDING"
 
 # Z-A 遭遇 PKL 构建与校验
 
+> [!tip] 同时需要读取、修改、恢复 PKL？
+> 请看 [完整提取／读取／JSON 编辑／二进制回打包教程](za-pkl-extract-read-edit.md) 和 [za_pkl_codec.py](../../scripts/encounters/za_pkl_codec.py)。本页仅介绍 pkNX JSON → 普通野生 PKL 构建。
+
 > [!important] 范围
 > 本工具是 pkNX 导出 `*_slot_sets.json` 之后的**打包器/结构校验器**，不是 RomFS 原始文件解析器。它只生成 `encounter_za.pkl`。异次元 `encounter_hyperspace_za.pkl` 仍由 pkNX 导出，本工具负责校验。不可用 Python pickle 加载。
 
