@@ -63,3 +63,18 @@ py -3 -m unittest discover -s tests -p test_za_pkl_tool.py -v
 4. 对比当前 PKHeX 的 `encounter_za.pkl` 与 `encounter_hyperspace_za.pkl`；不仅比较字节，还要比较按地点排序后的槽位集合。
 5. 固定剧情、头目战、赠送、交换分别检查 `EncounterStatic9a`、`EncounterGift9a`、`EncounterTrade9a`，不能错归野生 PKL。
 6. 使用真实合法 Z-A 存档样本做 PKHeX 判定回归，未验证部分明确标记 UNKNOWN。
+
+
+## 官方 PKHeX 当前基线（本轮真实二进制核验）
+
+读取 [PKHeX 上游 Gen9 encounter resources](https://github.com/kwsch/PKHeX/tree/master/PKHeX.Core/Resources/legality/wild/Gen9) 的二进制文件，直接按 `BinLinker16` 解码（不是估算）：
+
+| 文件 | bytes | area 数 | slot 数 | Alpha slot | Random / Never / Always |
+|---|---:|---:|---:|---:|---:|
+| encounter_za.pkl | 9,568 | 99 | 1,121 | 366 | 1,110 / 10 / 1 |
+| encounter_hyperspace_za.pkl | 9,996 | 1 | 1,248 | 624 | 1,248 / 0 / 0 |
+
+- 普通区域 BinLinker 第一段偏移 204，最后结束偏移 9,568。
+- 异次元唯一 Location=273，第一段偏移 8，最后结束偏移 9,996。
+- Git blobs：普通 `60949ce26a6803037118258ac615ff1a5da2338e`；异次元 `06ff1f35a863f6bed5aa2ba8c53a6dff9f6ab244`。
+- 这只是 **PKHeX 读取基线和文件格式验证**，**不是**本项目已成功使用 v2.0.2 原始源数据重新生成两个 PKL；原始 EncountData 条目数与 PKL 去重后的 slots 无直接相等关系。
