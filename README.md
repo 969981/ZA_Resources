@@ -13,6 +13,7 @@ Pokemon Legends: Z-A executable, archive-inventory and resource-format research 
 - [ExeFS real extraction (ELF, NSO, NPDM)](docs/workflows/za-exefs-v2.0.2.md)
 - [Research notes](docs/research/v2.0.2/README.md)
 - [Z-A encounter PKL packer / usage](docs/workflows/za-encounter-pkl.md)
+- [Z-A PKL 原始数据提取、读取、JSON 编辑与重新打包（完整指南）](docs/workflows/za-pkl-extract-read-edit.md)
 - [Z-A full Spawner→Encounter→PKHeX audit and reproduction](docs/workflows/za-encounter-crosswalk.md)
 - [v2.0.2 encounter & Trinity resource formats](docs/research/v2.0.2/za-encounter-resource-formats.md)
 - [Agent instructions](AGENTS.md)
