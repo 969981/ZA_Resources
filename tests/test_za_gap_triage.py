@@ -34,8 +34,20 @@ class GapTriageTest(unittest.TestCase):
         self.assertEqual(scene_gaps[0]["evidence"],"CANDIDATE")
         self.assertEqual(len(sp_gaps),1)
         self.assertEqual(sp_gaps[0]["official_template"],"static")
-        self.assertEqual(sp_gaps[0]["evidence"],"CONFIRMED")
+        self.assertEqual(sp_gaps[0]["evidence"],"CONFIRMED_STATIC_PKHEX_TEMPLATE")
         self.assertIn("NOT disproven",sp_gaps[0]["explanation"])
+
+    def test_battle_actor_exact_join(self):
+        sp=[dict(id="id_sub119_01",object_names="id_sub119_01",
+                 scene_placements="0",hyperspace_refs="0",transform_name_matches="0",
+                 spawner_conditions="1",maxcount_enabled="1")]
+        battles=[dict(index=1,battle_id="btl_sub_119",actor_id="id_sub119_01",
+                      event_id="bae_Ev_sub_119_010",context_id="wild_common_3")]
+        _,gaps=classify([],sp,[],battles=battles)
+        self.assertEqual(gaps[0]["direct_battle_table_refs"],1)
+        self.assertEqual(gaps[0]["direct_battle_ids"],"btl_sub_119")
+        self.assertEqual(gaps[0]["direct_battle_event_ids"],"bae_Ev_sub_119_010")
+        self.assertEqual(gaps[0]["evidence"],"CONFIRMED_STATIC_BATTLE_TABLE_LINK")
 
     def test_raw_source_path_preserved(self):
         sp=[dict(id="id_sub119_01",object_names="sub_119_placement",
