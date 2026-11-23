@@ -61,6 +61,23 @@ def candidate_battle_id(scene_name):
     return "btl_" + scene_name.removesuffix("_object")
 
 
+
+def raw_battles(path):
+    """Read wild_btl_data_global.bin fields observed by
+    Scan-ZA-Rare-ARM64.py: battle id=0, actor id=1, event id=9, context=14.
+    Only exact actor-id joins are considered direct evidence.
+    """
+    content = Path(path).read_bytes()
+    f = FB(content)
+    result = []
+    for i, battle in enumerate(f.tables(f.root(), 0)):
+        result.append(dict(
+            index=i, battle_id=f.string(battle, 0),
+            actor_id=f.string(battle, 1), event_id=f.string(battle, 9),
+            context_id=f.string(battle, 14)))
+    return result, hashlib.sha256(content).hexdigest()
+
+
 def raw_appearances(path):
     """Use schema PokemonSpawnerDataDBArray.fbs; retrieve required
     AppearanceSpawnerObjectInfoList.ObjectName and CreateScenePath.
@@ -92,13 +109,17 @@ def strings(f, obj, index):
     return output
 
 
-def classify(scene_points, spawners, edges, raw=None):
+def classify(scene_points, spawners, edges, raw=None, battles=None):
     by_source_name = defaultdict(list)
     for sp in spawners:
         for name in sp["object_names"].split("|"):
             if name:
                 by_source_name[name].append(sp["id"])
     by_id = {sp["id"]: sp for sp in spawners}
+    battle_by_actor = defaultdict(list)
+    for row in battles or []:
+        if row["actor_id"]:
+            battle_by_actor[row["actor_id"]].append(row)
     scene_names = {p["name"] for p in scene_points}
     by_edges = defaultdict(list)
     for edge in edges:
@@ -133,14 +154,21 @@ def classify(scene_points, spawners, edges, raw=None):
         edge = by_edges.get(sid, [])
         fixed = sorted({e["official_template"] for e in edge if e["official_template"]})
         family = spawner_category(sid)
-        evidence = "CONFIRMED" if fixed else ("CANDIDATE" if family != "other_unlocated_spawner" else "UNKNOWN")
+        battle_refs = battle_by_actor.get(sid, [])
+        evidence = ("CONFIRMED_STATIC_BATTLE_TABLE_LINK" if battle_refs else
+                    "CONFIRMED_STATIC_PKHEX_TEMPLATE" if fixed else
+                    "CANDIDATE" if family != "other_unlocated_spawner" else "UNKNOWN")
         missing_spawners.append(dict(
             spawner_id=sid, family=family, evidence=evidence,
-            classification_scope=("official PKHeX template id match" if fixed
+            classification_scope=("exact battle.actor_id -> PokemonSpawnerData.Id" if battle_refs
+                                  else "official PKHeX template id match" if fixed
                                   else "prefix/transform/scene-path static investigation"),
             appearance_objects=sp["object_names"],
             raw_create_scene_paths="|".join(unique_path),
             raw_battle_area_ids="|".join(area_ids),
+            direct_battle_table_refs=len(battle_refs),
+            direct_battle_ids="|".join(sorted({x["battle_id"] for x in battle_refs})),
+            direct_battle_event_ids="|".join(sorted({x["event_id"] for x in battle_refs if x["event_id"]})),
             raw_object_name_in_known_scene=int(named_scene),
             transform_name_matches=sp["transform_name_matches"],
             linked_encounter_ids="|".join(sorted({e["encounter_id"] for e in edge})),
@@ -154,7 +182,7 @@ def classify(scene_points, spawners, edges, raw=None):
     return missing_scenes, missing_spawners
 
 
-def summary(missing_scenes, missing_spawners, paths, raw_sha):
+def summary(missing_scenes, missing_spawners, paths, raw_sha, battle_sha=None, battle_rows=0):
     return dict(
         version="v2.0.2",
         evidence="DERIVED_STATIC_NO_RUNTIME_PROOF",
@@ -165,7 +193,10 @@ def summary(missing_scenes, missing_spawners, paths, raw_sha):
                     unlocated_transform_name_matches=sum(
                         int(x["transform_name_matches"]) > 0 for x in missing_spawners),
                     unlocated_with_pkhex_template=sum(
-                        bool(x["official_template"]) for x in missing_spawners)),
+                        bool(x["official_template"]) for x in missing_spawners),
+                    unlocated_with_exact_battle_actor_link=sum(
+                        bool(x["direct_battle_table_refs"]) for x in missing_spawners),
+                    original_battle_table_rows=battle_rows),
         scene_families=dict(Counter(x["family"] for x in missing_scenes)),
         spawner_families=dict(Counter(x["family"] for x in missing_spawners)),
         raw_create_scene_paths_nonempty=sum(
@@ -173,11 +204,13 @@ def summary(missing_scenes, missing_spawners, paths, raw_sha):
         source_files=[dict(path=str(p), sha256=hashlib.sha256(p.read_bytes()).hexdigest())
                       for p in paths],
         raw_spawner_sha256=raw_sha,
+        raw_battle_sha256=battle_sha,
         caveats=[
             "No match in pkNX-selected scene files does not mean spawn is impossible",
             "Prefix-derived family is CANDIDATE, not in-game behavior",
             "Scene-to-battle naming candidates lack exact game-field references",
             "CreateScenePath is preserved raw and is not an actual spawn callback",
+            "Battle table actor-id join confirms configuration, not runtime dispatch",
             "PKHeX exact template classifications apply to encounter IDs, not all spawners",
         ],
     )
@@ -190,20 +223,24 @@ def main():
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--spawner-bin", type=Path,
                    help="Optional original PokemonSpawnerDataDBArray .bin")
+    p.add_argument("--battle-bin", type=Path,
+                   help="Optional original wild_btl_data_global.bin for exact ActorId links")
     p.add_argument("--strict", action="store_true",
                    help="Require pinned v2.0.2 gap counts 58 / 586")
     args = p.parse_args()
     files = [args.ledger / x for x in
              ("za_scene_points.csv", "za_spawners.csv", "za_spawner_encounter_edges.csv")]
     raw, raw_sha = raw_appearances(args.spawner_bin) if args.spawner_bin else (None, None)
+    battles, battle_sha = raw_battles(args.battle_bin) if args.battle_bin else ([], None)
     missing_scenes, missing_spawners = classify(
-        *(load_csv(path) for path in files), raw=raw)
+        *(load_csv(path) for path in files), raw=raw, battles=battles)
     if args.strict and (len(missing_scenes), len(missing_spawners)) != (58, 586):
         raise ValueError(f"Unexpected v2.0.2 gaps: {len(missing_scenes)}, {len(missing_spawners)}")
     args.output.mkdir(parents=True, exist_ok=True)
     write_csv(args.output / "za_unmatched_scene_objects.csv", missing_scenes)
     write_csv(args.output / "za_unlocated_spawners.csv", missing_spawners)
-    result = summary(missing_scenes, missing_spawners, files, raw_sha)
+    result = summary(missing_scenes, missing_spawners, files, raw_sha,
+                     battle_sha, len(battles))
     (args.output / "za_gap_triage_summary.json").write_text(
         json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))
