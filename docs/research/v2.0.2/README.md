@@ -18,6 +18,11 @@ No internal Trinity field maps have been independently validated in this documen
 - [原生 ELF Lua 宿主定位：_ENV、LUA_NOENV、Lua 路径及 AArch64 xrefs](za-lua-host-elf.md) — 验证三份 ELF、13 个高信号地址引用，根 P0.U0 的运行时绑定仍未知。
 - [PokeDocs 三轮 11.67 亿次定向 Hash 文法枚举：ZA 16 个 H2 精确候选及五条原生缺失 S 的对账](za-lua-h2-bruteforce-sync.md) — 只读候选映射，不修改原生 Hashlist；H2 不等于原生已确认原名。
 
+## 全量遭遇交叉关联
+
+- [v2.0.2 完整 Spawner→Encounter→场景 Location→PKHeX 静态审计](za-encounter-crosswalk-v2.0.2.md)
+- [复现、条件原始字段解析与异常点排查](../../workflows/za-encounter-crosswalk.md)
+
 ## 遭遇数据与 PKL
 
 - [五类真实遭遇资源 FlatBuffers / Trinity 实读结果](za-encounter-resource-formats.md) — Encount 1966、Transform 2108、异次元 1500 refs、真实场景坐标。
