@@ -30,3 +30,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [ZA v9 BFLYT BFLAN 原生图集与材质动画](research/v2.0.2/za-ui-layout-material-animation.md)
 
 - [ZA 原生材质与纹理模式选择](research/v2.0.2/za-native-material-texture-resolver.md)
+
+- [ZA 动态纹理 FLTS 与材质成品恢复](research/v2.0.2/za-dynamic-texture-flts-renderer.md)
