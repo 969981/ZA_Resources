@@ -1,0 +1,69 @@
+name: ZA v2.0.2 ARM64 rare PID static audit
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - docs/za-v2.0.2-obsidian-extraction
+    paths:
+      - scripts/Trace-ZA-Rare-ARM64.py
+      - scripts/gdb/za_v202_pid_shiny_trace.py
+      - scripts/tests/test_za_shiny_arm64_arithmetic.py
+      - .github/workflows/za-rare-arm64-audit.yml
+permissions:
+  contents: write
+concurrency:
+  group: za-rare-arm64-audit
+  cancel-in-progress: true
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: docs/za-v2.0.2-obsidian-extraction
+          persist-credentials: true
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Trace-ZA-Rare-ARM64.py
+            /scripts/gdb/za_v202_pid_shiny_trace.py
+            /scripts/tests/test_za_shiny_arm64_arithmetic.py
+            /scripts/Export-ZA-Databases.py
+            /Unpack/v2.0.2/exefs/exefs-manifest.json
+            /Unpack/v2.0.2/exefs/main/main.elf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/ik_data/field/pokemon/encount_data/encount_data/encount_data_array.bfbs
+            /docs/research/ZA-v2.0.2/rare-arm64/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install ARM64 instruction decoder
+        run: python -m pip install --disable-pip-version-check capstone==5.0.6
+      - name: Syntax and SHA-checked ELF scan
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/Trace-ZA-Rare-ARM64.py scripts/gdb/za_v202_pid_shiny_trace.py scripts/tests/test_za_shiny_arm64_arithmetic.py
+          python -m unittest discover -s scripts/tests -p 'test_za_shiny_arm64_arithmetic.py' -v
+          python -u scripts/Trace-ZA-Rare-ARM64.py --repo .
+      - name: Save verified static research to branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -f docs/research/ZA-v2.0.2/rare-arm64
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then
+            git commit -m "research(za): store main.elf rare/PID static ARM64 callsites"
+            git fetch origin docs/za-v2.0.2-obsidian-extraction
+            git rebase origin/docs/za-v2.0.2-obsidian-extraction
+            git push origin HEAD:refs/heads/docs/za-v2.0.2-obsidian-extraction
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZA-v2.0.2-rare-ARM64-static-audit
+          path: docs/research/ZA-v2.0.2/rare-arm64
+          retention-days: 30
+          if-no-files-found: warn

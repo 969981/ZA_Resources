@@ -1,0 +1,388 @@
+{
+  "version": "ZA v2.0.2",
+  "evidence": "BFBS decoded; EXL raw STRUCTURE_ONLY",
+  "files": {
+    "encounters/ZA_encounters_flat.csv": {
+      "rows": 1966,
+      "bytes": 496762,
+      "sha256": "d912a4012ff1c2d23163c17a13ba9bbd80789f8e2a3cb22133c61386691a678f",
+      "columns": [
+        "encounterId",
+        "speciesId",
+        "formNo",
+        "minLevel",
+        "maxLevel",
+        "rareRaw",
+        "sexRaw",
+        "natureRaw",
+        "abilityRaw",
+        "talentScale",
+        "talentVNum",
+        "oyabunProbability",
+        "oyabunAdditionalLevel",
+        "ivHp",
+        "ivAtk",
+        "ivDef",
+        "ivSpAtk",
+        "ivSpDef",
+        "ivAgi",
+        "wazaListJson",
+        "itemDropInfoJson",
+        "activationConditionsJson"
+      ],
+      "preview": true
+    },
+    "encounters/ZA_spawner_encounter_join.csv": {
+      "rows": 3268,
+      "bytes": 1272114,
+      "sha256": "1221d9d64330bef241dd368277710b588b280ffba1f2171f245cb30fa1e0894d",
+      "columns": [
+        "spawnerId",
+        "encounterId",
+        "speciesId",
+        "formNo",
+        "minLevel",
+        "maxLevel",
+        "oyabunProbabilityRaw",
+        "oyabunAdditionalLevelRaw",
+        "encounterWeightRaw",
+        "maxCount",
+        "zoneIdInferredFromSpawnerName",
+        "zoneNameInferred",
+        "spawnPositionsJson",
+        "activationConditionJson",
+        "refMatch",
+        "zoneMatchingMethod"
+      ],
+      "preview": true
+    },
+    "encounters/encounter.records.csv": {
+      "rows": 13,
+      "bytes": 1103210,
+      "sha256": "02cc528cb7998a599bceb9f8a63d6f2448317c6e3c0a665286ea9131dbdae634",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "encounters/spawner.records.csv": {
+      "rows": 13,
+      "bytes": 2120866,
+      "sha256": "7ba3e085570823009291cc0d2e87931533caf3999d8dd00e17212e82c3f6561d",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "encounters/pokemon.records.csv": {
+      "rows": 3,
+      "bytes": 168530,
+      "sha256": "bfd3ca7b4bd790bdcfdb88dc40943b82b4abc35730f2748c661fe11c44fd4f11",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "maps/ZA_spawn_points.csv": {
+      "rows": 2226,
+      "bytes": 221728,
+      "sha256": "7b3dc9c87abe7aac57d29b8e1e8a9e6574f8eb06d9a12fc84983ca8e06e9c2eb",
+      "columns": [
+        "spawnerId",
+        "objectName",
+        "matchedTransform",
+        "x",
+        "y",
+        "z",
+        "rotationJson"
+      ],
+      "preview": true
+    },
+    "maps/ZA_zones.csv": {
+      "rows": 20,
+      "bytes": 2015,
+      "sha256": "57e5769bcae57d970d5fec3e06287b2cc95f87ee0208a5ba607644a57411a04a",
+      "columns": [
+        "zoneID",
+        "areaName",
+        "placeNameKey",
+        "fastTravelFlagId",
+        "layer",
+        "bgm"
+      ],
+      "preview": false
+    },
+    "maps/spawn_transform.records.csv": {
+      "rows": 86,
+      "bytes": 330434,
+      "sha256": "35536d2f493dd7e2026ce06c297b7db06de28af381fdd20442cdd78116abfaf4",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "maps/wild_zone.records.csv": {
+      "rows": 20,
+      "bytes": 5309,
+      "sha256": "55ed92147971ce537a0d59c2fa7e237b0cda85d26f28d8e8576e39e7ddd35e56",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "maps/field_wild_zone.records.csv": {
+      "rows": 20,
+      "bytes": 13604,
+      "sha256": "a63c0f129a561ed31bfc925fb8e4ac362e5051c610fa2a0c0615dda19300c120",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "maps/field_location.records.csv": {
+      "rows": 50,
+      "bytes": 32879,
+      "sha256": "ed5046ff02f1cf043e20cc26fc8f002009bb249f381295b0a761c270c35f850d",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "maps/field_scene_area.records.csv": {
+      "rows": 125,
+      "bytes": 125337,
+      "sha256": "3cd93e472419bc651ab200be6a691e53066dd363d9473f52135ccbc9e6623b0f",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": true
+    },
+    "maps/area_jump.records.csv": {
+      "rows": 83,
+      "bytes": 19538,
+      "sha256": "b278a532ed3cae268b0bc87826eec32f866357a676677dbf9dde0d3080f75dc3",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "trainers/ZA_trainer_parties.csv": {
+      "rows": 8005,
+      "bytes": 873556,
+      "sha256": "e167b275a4bf37dd14166c1b8e81c45a7f0a696f2974e715822975078cc7d1c3",
+      "columns": [
+        "trainerId",
+        "slot",
+        "speciesId",
+        "level",
+        "ballId",
+        "rareTypeRaw",
+        "natureRaw",
+        "movesJson"
+      ],
+      "preview": true
+    },
+    "trainers/trainer.records.csv": {
+      "rows": 3557,
+      "bytes": 4788816,
+      "sha256": "9b874bca24dd6fbd74eac8bd9cdd4e98c4fe3b010f20b099a868b0b95c032ef6",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": true
+    },
+    "trainers/trainer_env.records.csv": {
+      "rows": 1,
+      "bytes": 572,
+      "sha256": "11ca44673348076040a3dc2fa2ae327ded7b9ae2f3d4fae6fa31540ffb501514",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "items/ZA_item_lottery.csv": {
+      "rows": 459,
+      "bytes": 55347,
+      "sha256": "dc24f77f8a30b4c6cf62fc3d8881a8d6d47d5ddbb682b19ba1d60f55124753df",
+      "columns": [
+        "sourceType",
+        "tableId",
+        "entryIndex",
+        "itemId",
+        "maxCount",
+        "weightRaw",
+        "conditionJson"
+      ],
+      "preview": true
+    },
+    "items/EXL_items_raw.csv": {
+      "rows": 535,
+      "bytes": 357842,
+      "sha256": "7dbbd07a6fe73fcdbed6da2f5c2481e9d057231b58a1b8e5d5184dbd67a5026b",
+      "columns": [
+        "recordIndex",
+        "tableOffset",
+        "vtableOffset",
+        "objectBytes",
+        "presentFieldsJson"
+      ],
+      "preview": true
+    },
+    "items/EXL_shops_raw.csv": {
+      "rows": 6,
+      "bytes": 882,
+      "sha256": "d1fef9ad751281f1a0f679e73c8b07e0921874992bfdc6b77fc9e36ada6ee762",
+      "columns": [
+        "recordIndex",
+        "tableOffset",
+        "vtableOffset",
+        "objectBytes",
+        "presentFieldsJson"
+      ],
+      "preview": false
+    },
+    "items/pokemon_drop.records.csv": {
+      "rows": 1,
+      "bytes": 14302,
+      "sha256": "01012cac5cce0b6d3d74b8274d917879b725670745f4c91e943f17c063923657",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "items/item_ball.records.csv": {
+      "rows": 1,
+      "bytes": 76604,
+      "sha256": "a90fc2f76a50b7225c7488a7ca05c46bd0407dde7ae0aacde6731c90667fc6bd",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "items/item_ball_spawner.records.csv": {
+      "rows": 11,
+      "bytes": 452850,
+      "sha256": "8b3062012e5d36fe766b8fdf999f78f02aef8e93ce28fde541e9e134eff355f5",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "items/item_type.records.csv": {
+      "rows": 4,
+      "bytes": 2530,
+      "sha256": "1ed02aae56a8bda940235bb6d42c7ff0aabd30cd09c8b72d2c1d39570d7c2024",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "pokedex/EXL_pokedex_raw.csv": {
+      "rows": 364,
+      "bytes": 57657,
+      "sha256": "03430fe7b16f8631a07e947ea9fa168a33884582387b7dc23671fc0f3ebea3cf",
+      "columns": [
+        "recordIndex",
+        "tableOffset",
+        "vtableOffset",
+        "objectBytes",
+        "presentFieldsJson"
+      ],
+      "preview": true
+    },
+    "pokedex/EXL_dex_distribution_raw.csv": {
+      "rows": 396,
+      "bytes": 113294,
+      "sha256": "141c486bad9675d481eab3277d6d22b8aff1df210a2a06b2a2bfab493e21afc9",
+      "columns": [
+        "recordIndex",
+        "tableOffset",
+        "vtableOffset",
+        "objectBytes",
+        "presentFieldsJson"
+      ],
+      "preview": true
+    },
+    "battle/waza_attribute.records.csv": {
+      "rows": 25,
+      "bytes": 2903,
+      "sha256": "175a294590101a39901955fd5060062724a3659f3f59bdbd32aa57c5b0ff35b7",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "battle/oyabun_waza.records.csv": {
+      "rows": 371,
+      "bytes": 28759,
+      "sha256": "683c97882f7e719c58d7c46079bbe4e22a77fd89c6230d8d926118f34d82b029",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": true
+    },
+    "battle/oyabun_setting.records.csv": {
+      "rows": 1,
+      "bytes": 75,
+      "sha256": "9c9e816355f9eca697fffea1732d752269a026b135ef41abf7db63f8aff1af3e",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "battle/battle_setting.records.csv": {
+      "rows": 1,
+      "bytes": 1454,
+      "sha256": "434d30c34ca6ffb7d2504da089940071d5bf007fd3f6d933c32a6891bc7d1a14",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "battle/capture.records.csv": {
+      "rows": 1,
+      "bytes": 476,
+      "sha256": "19266f44ffa8d0116f801f8601e7ecbd127e35e1c6a77d65750ea90cd1c2c8ec",
+      "columns": [
+        "index",
+        "row_json"
+      ],
+      "preview": false
+    },
+    "_audit/manifest.csv": {
+      "rows": 20,
+      "bytes": 4285,
+      "sha256": "9c8f9094375d205112be9d1d192b3fb18b2faa09a1fd64bd6c15e291c45c509e",
+      "columns": [
+        "name",
+        "status",
+        "bytes",
+        "rootRecordCount",
+        "schemaRoot",
+        "binarySha256",
+        "source",
+        "error"
+      ],
+      "preview": false
+    }
+  }
+}
