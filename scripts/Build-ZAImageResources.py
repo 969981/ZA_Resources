@@ -10,7 +10,7 @@ def sha(b): return hashlib.sha256(b).hexdigest()
 
 def sarc(b):
     if len(b)<32 or b[:4]!=b"SARC": raise ValueError("not SARC")
-    e={b"\xff\xfe":"<",b"\xfe\xff":">"}.get(b[6:8])
+    e={b"\xff\xfe":"<",b"\xfe\xff":">"}.get(bytes(b[6:8]))
     if not e: raise ValueError("BOM")
     def u(f,o): return struct.unpack_from(e+f,b,o)[0]
     h=u("H",4); data=u("I",12)
