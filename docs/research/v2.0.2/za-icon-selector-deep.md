@@ -40,3 +40,10 @@ Next expanded run follows 0x2CD73BC, 0x2CD7418 and 0x7DEFC0. Actual runtime sele
 
 ## Artifacts
 `scripts/Probe-ZA-IconSelectorDeep.py`, `.github/workflows/za-icon-selector-deep.yml`. CI artifacts metadata only (species-resource-crosswalk.jsonl, pokemon-icon-offset.jsonl, pm0770-resources.jsonl, elf-pointer-candidates.jsonl, elf-deep-xrefs.jsonl, elf-direct-branches.jsonl, elf-deep-windows.jsonl and summaries).
+
+## 扩展 CI 验收
+[45769351595](https://github.com/969981/ZA_Resources/actions/runs/45769351595) 两 job success，242 条直接分支、246 个指令窗口（含通用 helper 调用者，不能称为图标选择调用者）。
+- 0x2CD73BC..0x2CD7414：输入 X1 传给 0x3160690；构造两个指针及长度（第二段长度 12，地址 0x32F5F06），调用 0x2A02B0，W1=256/W2=2。
+- 0x2CD7418..0x2CD7470：同样构造两个指针及长度（第二段长度 10，地址 0x323BCAD），调用同一 0x2A02B0。两常量字符串实际内容未读取；仅能认定为组合/格式化候选。
+- 继续追踪 0x2A02B0、0x3160690 和两个常量指针；本次日志未取得 0x7DEFC0 的完整函数体。
+- 指针引用仍为两条，定向 ADR/ADRP+ADD/LDR 未命中；UikitPokeIcon 仍不是已确认类布局。未实施游戏运行时实验。
