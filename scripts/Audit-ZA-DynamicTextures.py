@@ -142,6 +142,9 @@ def self_test():
     k=[dict(frame=0,value=-.8,tangent=.0533333333333333),dict(frame=30,value=.8,tangent=.0533333333333333)]
     assert abs(hermite(k,15))<1e-9 and abs(hermite(k,7.5)+.4)<1e-9
     assert bounded_name(b"abcd",0,4)==("abcd",True)
+    a=bytearray(100);struct.pack_into("<HHHHI",a,0,30,0,0,1,20);struct.pack_into("<I",a,12,24);a[16:20]=b"mat\0";a[44]=1;a[45]=1;struct.pack_into("<I",a,48,36);a[52:56]=b"FLTS";struct.pack_into("<II",a,56,1,12);struct.pack_into("<BBHHHI",a,64,1,1,2,2,0,12);struct.pack_into("<6f",a,76,0,-.8,.053333333,30,.8,.053333333)
+    sec=b"pai1"+struct.pack("<I",8+len(a))+a;blob=b"FLAN"+struct.pack("<HHIIHH",0xfeff,20,0x09000000,20+len(sec),1,0)+sec
+    tracks,errors,tags=animation(blob);assert not errors and tags["FLTS"]==1 and len(tracks[0]["keys"])==2 and abs(hermite(tracks[0]["keys"],15))<1e-7
     print("capture offsets, fixed-width names and Hermite fixtures passed")
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument("--self-test",action="store_true");p.add_argument("--ref",default="HEAD");p.add_argument("--out",type=Path,default=Path(".za-work/ui-dynamic"));p.add_argument("--missing",type=Path);a=p.parse_args()
