@@ -40,3 +40,7 @@ Expanded [run 45772323586](https://github.com/969981/ZA_Resources/actions/runs/4
 - 0x2D33C84 window: ui/tex/icon_item/, /, .bntx; five-part concat at 0x2D33CA4. Input-to-ItemID mapping still not proven.
 - 0x2D69FE4 and 0x2D6A06C reference donut normal and _big templates. No actual physical-path resolution or layout binding claimed.
 Next run adds bytewise raw hash and bounded MOVZ/MOVK construction search for class name and three punctuation keys. UikitPokeIcon remains unresolved until confirmed binding or registration evidence.
+
+## Third run verified: raw and immediate hash audit
+[45772415393](https://github.com/969981/ZA_Resources/actions/runs/45772415393) success; [artifact](https://github.com/969981/ZA_Resources/actions/runs/45772415393/artifacts/15094727363). Exact raw hash hits: .bntx at 0x3E28138; / at 0x3DCD1A0, 0x3E054E8, 0x3E28108; _ at 0x3E28120. Bounded MOVZ/MOVK construction candidates: _ at 0x2973A88..0x2973A98 and 0x2B88BEC..0x2B88C00; / at 0x2D6AEF8..0x2D6AF08. Total 8 hits. UikitPokeIcon seeded hash 954D3547F9414E35 has zero matches under both scan modes. This excludes only these encodings, not indirect lookup, other hash algorithms or archive-side class metadata. No actual binding function assigned.
+Next: trace item ID to string arguments of the 0x2D33C84 path builder; 0x2D6AEF8 surrounding string-view producer; inspect UI layout assets for UikitPokeIcon and connect node/class registration to ELF consumers. Preserve unverified shiny/gender/special forms as unknown. No runtime validation.
