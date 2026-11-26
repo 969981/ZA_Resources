@@ -66,7 +66,7 @@ def elf_audit(out):
     look=dict(targets)
     for p in pointers: look[p["slot_va"]]="pointer:"+p["target"]
     pages={k&~4095 for k in look}
-    refs=[]; calls=[]; entries=(0x2CD6CC8,0x2CD6AD4)
+    refs=[]; calls=[]; entries=(0x2CD6CC8,0x2CD6AD4,0x2CD73BC,0x2CD7418,0x7DEFC0)
     for s in e.text_regions():
         chunk=raw[s["off"]:s["off"]+s["size"]]; words=memoryview(chunk[:len(chunk)//4*4]).cast("I")
         for i,w in enumerate(words):
