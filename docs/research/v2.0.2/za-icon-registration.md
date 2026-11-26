@@ -45,7 +45,7 @@ python scripts/Probe-ZA-IconRegistration.py
 Artifact ZAIconRegistration contains functions, strings, hash-records, registration-neighborhood, pointer-candidates, xref-candidates and summary.
 
 ## Decode CI scope repair
-Previous BNTX workflow blocked at git ls-tree -rlz (size queries on partial clone can lazily fetch large blobs). Added checked-out-icons mode and updated decode workflow; only checked-out raw Pokemon/item/donut BNTX. Does not certify full archive or full-tree inventory. New run 45769992160 pending at time of writing; no independent pixel parity claimed.
+Previous BNTX workflow blocked at git ls-tree -rlz (size queries on partial clone can lazily fetch large blobs). Added checked-out-icons mode and updated decode workflow; only checked-out raw Pokemon/item/donut BNTX. Does not certify full archive or full-tree inventory. [Run 45769992160](https://github.com/969981/ZA_Resources/actions/runs/45769992160) success: 1655/1655 checked-out raw BNTX parsed and decoded (BC7_UNORM; 1194 Pokemon, 379 item, 82 donut), zero failures. Catalog join on 1182 standard names: 1178 matches, 4 unmatched; 12 irregular names excluded by earlier regex but included in prior crosswalk. [Artifact](https://github.com/969981/ZA_Resources/actions/runs/45769992160/artifacts/15093711152) contains RGBA and alpha metadata. Decoder success is not independent pixel parity; archive/full-tree coverage remains unverified.
 
 ## Next
 Trace 0x1B4E240, 0x421C and 0x2D69DB4, scan .data string-key records by exact hash/length and recover consumers by record base/hash; find true icon texture request inputs and fallback condition; same Build ID runtime trace needed for gender/shiny and four pm0770 special icons.
