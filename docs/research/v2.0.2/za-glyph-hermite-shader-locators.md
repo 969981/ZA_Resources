@@ -37,3 +37,7 @@ python scripts/Audit-ZA-FLTSHermite.py
 python scripts/Probe-ZA-UIShaderELF.py
 ```
 Outputs .za-work/font-glyphs, .za-work/flts-eval, .za-work/ui-shader-elf. CI metadata only, pending actual results. Native glyph spacing, shader program bindings, repeat-frame evaluator, KRNG and final screenshot parity remain open.
+
+## 2026-11-26 first CI results
+[45775492355](https://github.com/969981/ZA_Resources/actions/runs/45775492355): FLTS self-test and full comparison PASS, glyph job FAIL, ELF skipped. 10216 tracks, 2909 duplicate tracks, 17413 duplicate groups, 870 value-jump tracks, 2345 tangent-change tracks, 2898 tracks disagree between interpolation hypotheses (categories overlap). Do not choose model without native evidence.
+7/8 sheets decoded; font_din_52_64_bold.bffnt failed declared file size mismatch. 1526 candidate crops, 1026 nonempty, 70 digit candidates only 22 nonempty: current glyph grid formula unvalidated and unsuitable for publishing a digit pack. commit 38966aad9abb1fcc200fb417b459a6e97f39d3b7 bounds embedded BNTX by its declared size inside TGLP, retains tail length/hash/nonzero bytes and compares 16 grid hypotheses. Rerun [45775589946](https://github.com/969981/ZA_Resources/actions/runs/45775589946) pending. Workflow commit 599b7a6772240d27b694b88194874847524deed2 makes ELF locator run even if glyph step fails. No final font/renderer claims.
