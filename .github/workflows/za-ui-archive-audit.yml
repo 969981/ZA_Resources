@@ -1,0 +1,54 @@
+name: ZA UI archive and texture producer audit
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Scan-ZA-UIArchives.py
+      - scripts/Probe-ZA-TextureProducers.py
+      - .github/workflows/za-ui-archive-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  elf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-TextureProducers.py
+            /scripts/Probe-ZA-Lua-Host-ELF.py
+            /Unpack/v2.0.2/exefs/main/main.elf
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install capstone==5.0.3
+      - run: python scripts/Probe-ZA-TextureProducers.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZATextureProducers
+          path: .za-work/texture-producers/
+          include-hidden-files: true
+          if-no-files-found: error
+  archives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Scan-ZA-UIArchives.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/
+      - run: python3 scripts/Scan-ZA-UIArchives.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZAUIArchiveAudit
+          path: .za-work/ui-archive/
+          include-hidden-files: true
+          if-no-files-found: error

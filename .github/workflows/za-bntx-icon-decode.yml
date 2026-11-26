@@ -1,0 +1,60 @@
+name: ZA BNTX icon decoding
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Decode-ZA-BNTX.py
+      - scripts/Probe-ZA-PokemonCatalog.py
+      - .github/workflows/za-bntx-icon-decode.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Audit-ZA-ImageResources.py
+            /scripts/Decode-ZA-BNTX.py
+            /scripts/Probe-ZA-PokemonCatalog.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/icon/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/tex/icon_item/**/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/tex/icon_donut/**/*.bntx
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install BC7 decoder
+        run: python -m pip install Pillow==11.3.0
+      - name: Synthetic tests
+        run: python scripts/Decode-ZA-BNTX.py --self-test
+      - name: Checked-out raw icon inventory
+        run: python scripts/Audit-ZA-ImageResources.py --checked-out-icons --out .za-work/image-audit
+      - name: Native icon BRTI and BC7 decode
+        run: python scripts/Decode-ZA-BNTX.py --inventory .za-work/image-audit/inventory.jsonl --out .za-work/bntx
+      - name: Native catalog directory join
+        run: python scripts/Probe-ZA-PokemonCatalog.py --candidates .za-work/bntx/pokemon-candidates.jsonl --out .za-work/bntx
+      - name: Summary
+        if: always()
+        run: |
+          if test -f .za-work/bntx/summary.json; then
+            echo '### Native icon audit' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat .za-work/bntx/summary.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZABNTXIconAudit
+          path: |
+            .za-work/bntx/
+            .za-work/image-audit/audit.json
+            .za-work/image-audit/summary.csv
+          include-hidden-files: true
+          if-no-files-found: error

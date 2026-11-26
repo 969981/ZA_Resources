@@ -1,0 +1,30 @@
+name: ZA image resource path inventory
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Audit-ZA-ImageResources.py
+      - .github/workflows/za-image-resource-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+      - name: Synthetic tests
+        run: python3 scripts/Audit-ZA-ImageResources.py --self-test
+      - name: Inventory tracked native resource paths
+        run: python3 scripts/Audit-ZA-ImageResources.py --out .za-work/image-audit
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAImageResourceAudit
+          path: .za-work/image-audit/
+          include-hidden-files: true
+          if-no-files-found: error
