@@ -39,6 +39,21 @@ def main():
             v=qword(va); s=region(v) if v is not None else None
             neighborhoods.append(dict(root=hex(root),slot=hex(va),delta=va-root,value=hex(v) if v is not None else None,target_section=s["name"] if s else None,target_string=string(v) if s else None))
     for r in neighborhoods: print("NEIGHBOR",json.dumps(r))
+    # The native seed is recovered from 0x7DEFC0 MOV/MOVK sequence.
+    def native_hash(s):
+        h=0xcbf29ce484222645
+        for b in s.encode("ascii"): h=((h^b)*0x100000001b3)&0xffffffffffffffff
+        return h
+    records=[]
+    for root in roots:
+        for va in range(root-0x60,root+0x68,8):
+            ptr=qword(va); txt=string(ptr) if ptr and region(ptr) else None
+            if not txt: continue
+            h,l=qword(va-8),qword(va+8)
+            calc=native_hash(txt)
+            records.append(dict(hash_va=hex(va-8),pointer_va=hex(va),length_va=hex(va+8),text=txt,stored_hash=hex(h) if h is not None else None,calculated_hash=hex(calc),stored_length=l,hash_match=h==calc,length_match=l==len(txt)))
+    for row in records: print("HASH_RECORD",json.dumps(row))
+    # Function/registration candidate windows, not function boundaries.
     targets={**{k:"string:"+hex(k) for k in constants},**roots}
     # Look for references to enclosing aligned records as well as exact slots. These are candidates.
     for root in roots:
@@ -53,7 +68,7 @@ def main():
                 if slot%8==0: ptrs.append(dict(slot=hex(slot),target=hex(va),section=s["name"])); targets.setdefault(slot,"indirect:"+hex(va))
                 p=chunk.find(struct.pack("<Q",va),p+1)
     pages={x&~4095 for x in targets}
-    refs=[]; calls=collections.Counter(); funcs=[0x2A02B0,0x7DEFC0,0x3160690,0x2CD73BC,0x2CD7418,0x2CD6CC8]
+    refs=[]; calls=collections.Counter(); funcs=[0x2A02B0,0x7DEFC0,0x3160690,0x2CD73BC,0x2CD7418,0x2CD6CC8,0x164C8,0x2CB4958,0x2CB4998,0x2CB49D8,0x2D69CFC,0x2CB4838,0x2D69D60]
     for s in e.text_regions():
         chunk=raw[s["off"]:s["off"]+s["size"]]; words=memoryview(chunk[:len(chunk)//4*4]).cast("I")
         for i,w in enumerate(words):
@@ -83,8 +98,8 @@ def main():
         for i in ins[:100]: print(i["va"],i["op"],i["args"])
     for r in ptrs: print("POINTER",json.dumps(r))
     for r in refs[:120]: print("XREF",json.dumps(r))
-    summary=dict(elf_sha256=sha,constants=len(strings),neighbor_qwords=len(neighborhoods),pointer_candidates=len(ptrs),xref_candidates=len(refs),direct_branch_counts=dict(calls),windows=len(windows),selector_confirmed=False,registration_confirmed=False)
-    for name,rows in [("strings",strings),("registration-neighborhood",neighborhoods),("pointer-candidates",ptrs),("xref-candidates",refs),("functions",windows)]:
+    summary=dict(elf_sha256=sha,constants=len(strings),neighbor_qwords=len(neighborhoods),pointer_candidates=len(ptrs),xref_candidates=len(refs),direct_branch_counts=dict(calls),windows=len(windows),native_hash_records=len(records),hash_matches=sum(r["hash_match"] for r in records),length_matches=sum(r["length_match"] for r in records),selector_confirmed=False,registration_confirmed=False)
+    for name,rows in [("hash-records",records),("strings",strings),("registration-neighborhood",neighborhoods),("pointer-candidates",ptrs),("xref-candidates",refs),("functions",windows)]:
         (a.out/(name+".jsonl")).write_text("".join(json.dumps(r)+"\n" for r in rows))
     (a.out/"summary.json").write_text(json.dumps(summary,indent=2)+"\n");print("SUMMARY",json.dumps(summary))
 if __name__=="__main__": main()
