@@ -38,3 +38,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [ZA 字形 BNTX、FLTS 插值与 Shader 定位](research/v2.0.2/za-glyph-hermite-shader-locators.md)
 
 - [ZA NativeGlyphUVResolver 与原生 UI RTTI](research/v2.0.2/za-native-glyph-uv-rtti.md)
+
+- [ZA 内嵌 BNSH 与原生字形虚表](research/v2.0.2/za-embedded-shader-native-font.md)
