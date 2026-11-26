@@ -1,0 +1,49 @@
+name: ZA font shader and UI edge audit
+on:
+  push:
+    branches: [research/za-ui-arc-resource-pack-20261126]
+    paths:
+      - scripts/Audit-ZA-FontShader.py
+      - scripts/Audit-ZA-UIEdgeCases.py
+      - .github/workflows/za-ui-font-edge.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Audit-ZA-FontShader.py
+            /scripts/Audit-ZA-UIEdgeCases.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/font/bin/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZANativeMaterialRecords
+          run-id: 45772417428
+          github-token: ${{ github.token }}
+          path: .za-work/ui-material
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZADynamicTextureAndFLTS
+          run-id: 45773359748
+          github-token: ${{ github.token }}
+          path: .za-work/ui-dynamic
+      - run: python scripts/Audit-ZA-FontShader.py
+      - run: python scripts/Audit-ZA-UIEdgeCases.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAFontShaderAndEdgeMetadata
+          path: |
+            .za-work/ui-font-shader/
+            .za-work/ui-edge/
+          include-hidden-files: true
