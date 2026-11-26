@@ -45,3 +45,6 @@ python scripts/Render-ZA-UIMaterialCandidates.py --out .za-work/ui-render-local 
 ```
 [CI](../../../.github/workflows/za-ui-dynamic-render.yml) two jobs. capture-flts scans raw ARC and pinned previous missing refs; isolated-render scans six explicit sample ARC. Artifacts metadata only. Results pending.
 Next: full capture and FLTS counts, remaining 1760 material flags, runtime shader evidence, native font and locale text, material/frame binding and independent pixel parity before promoting isolated hypotheses.
+
+## 2026-11-26 isolated-render 实际验收
+[Run 45773359748](https://github.com/969981/ZA_Resources/actions/runs/45773359748) isolated-render job PASS。6 ARC / 197 pic1；92 recipes eligible and rendered, 91 unsupported flags, 11 nonidentity SRT, 3 non-full UV；multiply 30 changed from source, endpoint 31 changed, 6 recipes models disagree, each model 70 unique output pixel groups. No PNG publication. HUD P_01 uses icon_key_b_00^t with color0=(54,54,76,0), color1=(255,255,255,255), local alpha=255; the two hypotheses yield different SHA256. P_00 uses color1=(0,0,0,255), local alpha=31 and both models agree. Model agreement is not native verification. capture-flts full job pending at documentation update.
