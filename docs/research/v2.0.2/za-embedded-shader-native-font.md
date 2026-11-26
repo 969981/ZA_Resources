@@ -37,3 +37,6 @@ python -m pip install capstone==5.0.7
 python scripts/Probe-ZA-EmbeddedShaderFont.py
 ```
 Output .za-work/native-font-shader/evidence.json; no original shader/font exports. New CI pending.
+
+## First method audit diagnostic
+[45782829027](https://github.com/969981/ZA_Resources/actions/runs/45782829027) failed while reading a bounded direct callee prefix at 0x3163EE0: 256 bytes crossed its mapped executable LOAD end. The two BNSH header/declared-length checks had passed before that exception, but complete output was not written. Fix 329affb197f5bfaeaa56631b41f432a820703ce0 clamps instruction read length to segment remaining bytes, aligned down to 4. [Rerun 45782921774](https://github.com/969981/ZA_Resources/actions/runs/45782921774). No changes to source assets.
