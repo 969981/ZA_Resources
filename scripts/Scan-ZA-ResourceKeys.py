@@ -105,7 +105,10 @@ def main():
     dis=Cs(CS_ARCH_ARM64,CS_MODE_LITTLE_ENDIAN)
     windows=[]
     for va in (0x1B4E240,0x421C,0x2D69DB4,0x2D69D00):
-        b=read(va,0x300); ins=[]
+        # A window can cross an allocated section boundary. Read from its file-backed load segment instead.
+        seg=next((s for s in e.segments if s["addr"]<=va<s["addr"]+s["size"]),None)
+        if not seg: raise ValueError(f"unmapped function anchor {va:#x}")
+        off=seg["off"]+va-seg["addr"]; n=min(0x300,seg["size"]-(va-seg["addr"])); b=raw[off:off+n]; ins=[]
         for i in dis.disasm(b,va):ins.append(dict(va=hex(i.address),op=i.mnemonic,args=i.op_str,bytes=i.bytes.hex()))
         windows.append(dict(anchor=hex(va),instructions=ins))
         print("FUNCTION",hex(va))
@@ -114,10 +117,14 @@ def main():
     # Decode actual ADRP+ADD constants referenced in type path helper.
     const=[]
     for va in range(0x2D69DB4,0x2D69DB4+0x100,4):
-        w=struct.unpack("<I",read(va,4))[0]; ap=m.decode_adrp(w,va)
+        bb=read(va,4)
+        if not bb: continue
+        w=struct.unpack("<I",bb)[0]; ap=m.decode_adrp(w,va)
         if not ap:continue
         for gap in range(1,9):
-            q=va+gap*4; add=m.decode_add_x_imm(struct.unpack("<I",read(q,4))[0])
+            q=va+gap*4; bb=read(q,4)
+            if not bb: continue
+            add=m.decode_add_x_imm(struct.unpack("<I",bb)[0])
             if add and add[1]==ap[0]:
                 t=ap[1]+add[2]; s=region(t)
                 if not s:continue
