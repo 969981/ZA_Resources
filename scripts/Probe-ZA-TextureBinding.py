@@ -77,7 +77,7 @@ def main():
                     ptrs.append(dict(slot=hex(va),value=hex(add),label=target[add],section=s["name"],kind="RELA_RELATIVE"));indirect[va]="indirect:"+target[add]
     dump("pointer-candidates",ptrs)
     target.update({k:v for k,v in indirect.items() if k not in target})
-    pages={v&~4095 for v in target}; refs=[];calls=[]; funcs={0x283f0,0x2cd6cc8,0x2cd73bc,0x2cd7418,0x7defc0}
+    pages={v&~4095 for v in target}; refs=[];calls=[]; funcs={0x283f0,0x2cd6cc8,0x2cd73bc,0x2cd7418,0x7defc0,0x972470,0x629d8c,0x2a02b0}
     for s in e.text_regions():
         b=raw[s["off"]:s["off"]+s["size"]]; words=memoryview(b[:len(b)//4*4]).cast("I")
         for i,w in enumerate(words):
@@ -103,19 +103,31 @@ def main():
         if "uikitpokeicon" in r["label"].lower():print("CLASS_PTR",json.dumps(r))
     dis=Cs(CS_ARCH_ARM64,CS_MODE_LITTLE_ENDIAN)
     windows=[]
-    anchors={0x283f0,0x2cd6ad4,0x2cd6cc8,0x2cd6d20,0x2cd73bc}
+    anchors={0x283f0,0x972470,0x629d8c,0x2cd6ad4,0x2cd6cc8,0x2cd6d20,0x2cd73bc,0x2d6af90,0x2bca1d0,0x2cdfff0,0x2d33c84,0x2c0477c,0x2c1655c,0x2c1689c}
     anchors.update(int(r["pc"],16) for r in interesting[:120])
     for va in sorted(anchors):
         s=region(va)
         if not s:continue
-        lo=max(s["addr"],va-(0 if va==0x283f0 else 0x30));hi=min(s["addr"]+s["size"],va+(0x360 if va==0x283f0 else 0xa0));b=read(lo,hi-lo)
+        lo=max(s["addr"],va-(0 if va in (0x283f0,0x972470,0x629d8c) else 0x100));hi=min(s["addr"]+s["size"],va+(0x500 if va in (0x972470,0x629d8c) else 0x160));b=read(lo,hi-lo)
         if not b:continue
         ins=[dict(va=hex(i.address),op=i.mnemonic,args=i.op_str,bytes=i.bytes.hex()) for i in dis.disasm(b,lo)]
         windows.append(dict(anchor=hex(va),instructions=ins))
-        if va==0x283f0 or any(int(r["pc"],16)==va and (".bntx" in r["label"] or "UikitPokeIcon" in r["label"]) for r in interesting):
+        if va in (0x283f0,0x972470,0x629d8c) or any(int(r["pc"],16)==va and (".bntx" in r["label"] or "UikitPokeIcon" in r["label"]) for r in interesting):
             print("WINDOW",hex(va))
-            for i in ins[:100]:print(i["va"],i["op"],i["args"])
+            for i in ins[:180]:print(i["va"],i["op"],i["args"])
     dump("windows",windows)
+    constants=[]
+    for win in windows:
+        ins=win["instructions"]
+        for i in range(len(ins)-1):
+            pc=int(ins[i]["va"],16);w=int.from_bytes(bytes.fromhex(ins[i]["bytes"]),"little");ap=m.decode_adrp(w,pc)
+            if not ap:continue
+            w2=int.from_bytes(bytes.fromhex(ins[i+1]["bytes"]),"little");ad=m.decode_add_x_imm(w2)
+            if ad and ad[1]==ap[0]:
+                va=ap[1]+ad[2];s=region(va);st=cstr(va) if s and s["name"]==".rodata" else None
+                if st:constants.append(dict(anchor=win["anchor"],pc=hex(pc),va=hex(va),text=st))
+    dump("window-literals",constants)
+    for r in constants:print("WINDOW_LITERAL",json.dumps(r))
     summary=dict(elf_sha256=sha,neighbor_keys=len(neighbors),texture_strings=len(tokens),pointer_candidates=len(ptrs),xref_candidates=len(refs),texture_xrefs=len(interesting),direct_calls=dict(collections.Counter(r["target"] for r in calls)),windows=len(windows),uikit_type_binding_proven=False,texture_selector_proven=False)
     (a.out/"summary.json").write_text(json.dumps(summary,indent=2)+"\n");print("SUMMARY",json.dumps(summary))
 if __name__=="__main__":main()
