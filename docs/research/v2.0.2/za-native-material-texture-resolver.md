@@ -55,3 +55,10 @@ CI [za-native-ui-resolver.yml](../../../.github/workflows/za-native-ui-resolver.
 | donuts | 2350 | 261 | 326 |
 | hidden_ui | 597 | 45 | 38 |
 Overlaps and keyword candidates only. Native-material job pending. New [name family report](../../../scripts/Report-ZA-UINameFamilies.py) and [CI run 45772556054](https://github.com/969981/ZA_Resources/actions/runs/45772556054) preserve exact names, narrower keyword candidates, missing reference frequencies, original FLYT errors. Pending results.
+
+## 2026-11-26 名称族复核 PASS
+[Run 45772556054](https://github.com/969981/ZA_Resources/actions/runs/45772556054) 已通过。严格奖章关键词仅6个不同名称：grptext_hud_ryl_medal_00^t, grptext_hud_ryl_medal_text_00^t, hud_ryl_medal_addsub_base_00^s, hud_ryl_medal_addsub_base_01^t, hud_ryl_medal_base_00^t, hud_ryl_medalblur_00^s。广义 605 名称不是605枚奖章。
+严格球关键词4个：btl_app_icon_ball_00^t, icon_ball_00^t, icon_ball_big_00^t, icon_ball_glow_00^s；加背景和按钮共8个名称，不等于8种精灵球。
+ribbon/akashi 严格关键词零命中；18 mark 候选中含 icon_marking_00..05^s 盒子标记及 HUD 状态标记，不能当作缎带或证章。严格招式分类关键词零命中；waza 候选包含技能 UI、招式机和甜甜圈效果。需进一步从布局/动画与原生表解析。
+912 未匹配引用归并为156个不同名称；高频 T_title_00_D (46), T_info_00_D (25), T_medal_00_D (21), T_num_dlv_00_D (20), T_point_00_D (20)。疑似动态文字/捕获纹理，需 ctl1/txt1/字体或原生消费者验证，不应当成缺少912张 PNG。
+10 FLYT errors 全部 unterminated string，下一轮应定位具体 section 和固定宽度字段，不做无条件截断。
