@@ -40,3 +40,15 @@ Output .za-work/native-font-shader/evidence.json; no original shader/font export
 
 ## First method audit diagnostic
 [45782829027](https://github.com/969981/ZA_Resources/actions/runs/45782829027) failed while reading a bounded direct callee prefix at 0x3163EE0: 256 bytes crossed its mapped executable LOAD end. The two BNSH header/declared-length checks had passed before that exception, but complete output was not written. Fix 329affb197f5bfaeaa56631b41f432a820703ce0 clamps instruction read length to segment remaining bytes, aligned down to 4. [Rerun 45782921774](https://github.com/969981/ZA_Resources/actions/runs/45782921774). No changes to source assets.
+
+## Method audit actual PASS
+[45782921774](https://github.com/969981/ZA_Resources/actions/runs/45782921774), commit 329affb197f5bfaeaa56631b41f432a820703ce0. Both declared BNSH ranges validated:
+| VA | Size | Internal name | SHA256 |
+|---|---:|---|---|
+| 0x3EF8000 | 29752 (0x7438) | font_BuildinShader_Nvn_Binary | ba534a7a521a467a3723613e22bace0bb9c8439a6d828dbabf40794f2a17d407 |
+| 0x3F00000 | 147936 (0x241E0) | ui2d_BuildinShader_Nvn_Binary | c286bdcfd846993989d0769205f3f88f6a39de1697fe4381133db317a718f586 |
+Both grsc at +96 and multiple _DIC magic hits. Font strings: aVertex, gl_VertexID, oColor, ShaderParamBlackWhiteInterpolation, ShaderParam, uTextureSrc. UI2D strings: uTexture0, aVertexIndex, uConstantBufferForVertexShader, uConstantBufferForPixelShader, o_Color, uTexture1. Names strongly establish intended subsystem; no final shader variation/constant-buffer/formula evidence yet.
+- 0x2626190 ADRP x0, 0x3EF8000; 0x2626194 ADD x0,x0,0 (pointer-return candidate, need confirm RET).
+- 0x2626AFC ADRP x24, font BNSH; 0x2626B08 MOV x0,x24; 0x2626B14 BL 0x3163EE0; 0x2626B20 MOV w23,0x7438; 0x2626B28 MOV x1,x24; 0x2626B2C MOV x2,x23; 0x2626B34 MOV x0,x19; 0x2626B38 BL 0x3161510; 0x2626B40 BL 0x2694A68.
+- 0x2666AD4 ADRP x24, UI2D BNSH; 0x2666AE4 MOV x0,x24; 0x2666AFC BL 0x3163EE0; 0x2666B00 MOV w26,0x41E0; 0x2666B10 BL 0x26313E8; 0x2666B14 MOV x1,x24; 0x2666B18 MOV x2,x26; 0x2666B20 BL 0x3161510. Note 0x41E0 differs from declared 0x241E0; inspect full instruction stream before interpreting copy length.
+Primary ResFont and ResFontBase tables each have offset-to-top 0 and 39 contiguous executable entries. Shared slot17 0x261B930 and slot18 0x261B9E0 call 0x261B780; 0xffff fallback test, resource pointer [this+0x20], file base candidate [this+0x18], linked ranges with u16 first/last indices, stride 3 for slot17 and stride 6 candidate slot18. These suggest codepoint-to-glyph and metric access, not UV yet. Slot19 0x261BAAC seed. 325ebae22ff0998f2a942d4c34ac1e86b931c73f expands unique method evidence and outgoing branch targets; pending new CI. 
