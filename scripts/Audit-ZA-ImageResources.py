@@ -107,12 +107,30 @@ def main():
     p.add_argument("--ref", default="HEAD")
     p.add_argument("--out", type=Path, default=Path(".za-work/image-audit"))
     p.add_argument("--self-test", action="store_true")
+    p.add_argument("--checked-out-icons", action="store_true", help="Only checked-out raw icon assets; no lazy fetch of all blob sizes")
     args = p.parse_args()
     if args.self_test:
         self_test()
         return
     ref = git("rev-parse", args.ref+"^{commit}").decode().strip()
-    rows = inventory(git("ls-tree", "-rlz", ref, "--", ROOT))
+    if args.checked_out_icons:
+        if ref != git("rev-parse", "HEAD").decode().strip(): raise SystemExit("checked-out mode requires HEAD")
+        raw=[]
+        for entry in git("ls-files", "-sz", "--", ROOT).split(b"\0"):
+            if not entry: continue
+            meta, rawpath=entry.split(b"\t",1)
+            mode, oid, stage=meta.decode("ascii").split()
+            if stage!="0": continue
+            path=rawpath.decode("utf-8","surrogateescape")
+            if not path.endswith(".bntx") or not path.startswith(ROOT+"/"+VIRTUAL): continue
+            rel=path[len(ROOT+"/"+VIRTUAL):]
+            if category(rel) not in {"pokemon_icon","ui/tex/icon_item","ui/tex/icon_donut"}: continue
+            f=Path(path)
+            if f.is_file():
+                raw.append(f"{mode} blob {oid} {f.stat().st_size}\t".encode()+rawpath+b"\0")
+        rows=inventory(b"".join(raw))
+    else:
+        rows = inventory(git("ls-tree", "-rlz", ref, "--", ROOT))
     if not rows:
         raise SystemExit("No resources found; check source ref")
     args.out.mkdir(parents=True, exist_ok=True)
@@ -130,10 +148,10 @@ def main():
             f.write(json.dumps(row, ensure_ascii=True)+"\n")
     info = dict(source_commit=ref, scope=ROOT, logical_paths=len(rows),
                 pokemon_icon_bntx=sum(r["category"]=="pokemon_icon" and r["extension"]==".bntx" for r in rows),
-                full_tree_inventory=True, descriptor_reconciled=False,
+                full_tree_inventory=not args.checked_out_icons, descriptor_reconciled=False,
                 archive_members_scanned=False, bntx_headers_parsed=False,
                 pixels_decoded=False, id_mappings_confirmed=False,
-                note="Git path and blob metadata only; extension-based candidates, not verified formats or decoded images.")
+                note="Checked-out raw icon scope only; archive parts excluded." if args.checked_out_icons else "Git path and blob metadata only; extension-based candidates, not verified formats or decoded images.")
     (args.out/"audit.json").write_text(json.dumps(info, indent=2)+"\n", encoding="utf-8")
     print(json.dumps(info, indent=2))
 
