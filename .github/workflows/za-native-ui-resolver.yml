@@ -1,0 +1,72 @@
+name: ZA native material and texture resolver
+on:
+  push:
+    branches: [research/za-ui-arc-resource-pack-20261126]
+    paths:
+      - scripts/Audit-ZA-NativeMaterials.py
+      - scripts/Resolve-ZA-UITextures.py
+      - .github/workflows/za-native-ui-resolver.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  texture-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Resolve-ZA-UITextures.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/Resolve-ZA-UITextures.py --self-test
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZAImageResourcesMetadata
+          run-id: 45771214568
+          github-token: ${{ github.token }}
+          path: .za-work
+      - name: Verify pinned input provenance
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in ['ui-layout/summary.json','ZAImageResources/manifests/summary.json']:
+              d=json.loads((Path('.za-work')/p).read_text())
+              assert d['source_commit']=='60bcf71e61eba9947aad4b4fb6e69ddd0e2fe289',d
+          PY
+      - run: python scripts/Resolve-ZA-UITextures.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativeTextureResolver
+          path: .za-work/ui-resolver/
+          include-hidden-files: true
+  native-material:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Audit-ZA-NativeMaterials.py
+            /scripts/Audit-ZA-UILayout.py
+            /scripts/Build-ZAImageResources.py
+            /scripts/Decode-ZA-BNTX.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/Audit-ZA-NativeMaterials.py --self-test
+      - run: python scripts/Audit-ZA-NativeMaterials.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativeMaterialRecords
+          path: .za-work/ui-material/
+          include-hidden-files: true

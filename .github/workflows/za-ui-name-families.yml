@@ -1,0 +1,39 @@
+name: ZA UI texture name family report
+on:
+  push:
+    branches: [research/za-ui-arc-resource-pack-20261126]
+    paths:
+      - scripts/Report-ZA-UINameFamilies.py
+      - .github/workflows/za-ui-name-families.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  names:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Report-ZA-UINameFamilies.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZANativeTextureResolver
+          run-id: 45772417428
+          github-token: ${{ github.token }}
+          path: .za-work/ui-resolver
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZAImageResourcesMetadata
+          run-id: 45771214568
+          github-token: ${{ github.token }}
+          path: .za-work
+      - run: python scripts/Report-ZA-UINameFamilies.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAUINameFamilies
+          path: .za-work/ui-names/
+          include-hidden-files: true

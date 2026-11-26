@@ -30,3 +30,16 @@ status: native-samples-confirmed-full-audit-pending
 - [ ] 属性、球、奖章、招式分类、缎带证章原生 ID 消费者，禁止猜测。
 - [ ] 宝可梦 catalog/config/selector 与四张未关联纹理。
 - [ ] 甜甜圈 ID 和普通/big 变体；最终与 HOME、SWSH 统一。
+
+## 实现与复现
+新增 [Build-ZAImageResources.py](../../../scripts/Build-ZAImageResources.py) 与 [CI](../../../.github/workflows/za-ui-arc-image-pack.yml)。
+```powershell
+python -m pip install Pillow==12.3.0
+python scripts/Build-ZAImageResources.py --self-test
+python scripts/Build-ZAImageResources.py --out .za-work/ZAImageResources
+# 另一个空目录，用于有权处理的本地 PNG 输出
+python scripts/Build-ZAImageResources.py --out .za-work/ZAImageResources-PNG --export
+```
+Git ls-tree -rz 不请求全仓 blob size，扫描 ui/data ARC、ui/tex BNTX、Pokemon icon BNTX；按 raw Git blob 去重，保留所有来源别名。分卷、非 SARC、解析异常及不支持的纹理布局记录到清单。不递归解包嵌套容器。BFLYT/BFLAN 当前只记录成员 magic 与偏移，尚未解析 UV。
+BC1/2/3/4/5/7 单 mip 单层 2D block-linear 解码，通道选择候选与 Alpha 直方图；不做 sRGB 线性化或 shader 还原。像素未经过第二解码器验证，状态为 DECODED_CANDIDATE。分类为文件名/路径候选。
+数据库 images.sqlite 包含 source/member/texture/mapping 及 image_sources view。mapping 保持空表直到取得真实 ID 证据。PNG 文件名使用来源哈希，避免语言和图标重名。CI 仅上传 SQLite、JSONL 和摘要；实际 PNG 本地 --export 输出，atlases/docs 等目录预留。完整 CI 验收仍待结果。

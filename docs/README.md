@@ -24,3 +24,19 @@ Keep each observation linked to the source file version, offset, sample size, ha
 
 - [ZA 2.0.2 原生 Lua 四包提取和 Hash opcode 证据](research/v2.0.2/za-lua-native-opcode-evidence.md)
 - [ZA 2.0.2 原版图片资源审计](research/v2.0.2/za-image-resource-audit.md)
+
+- [ZAImageResources 分类资源包与 UI ARC 审计](research/v2.0.2/za-image-resource-pack.md)
+
+- [ZA v9 BFLYT BFLAN 原生图集与材质动画](research/v2.0.2/za-ui-layout-material-animation.md)
+
+- [ZA 原生材质与纹理模式选择](research/v2.0.2/za-native-material-texture-resolver.md)
+
+- [ZA 动态纹理 FLTS 与材质成品恢复](research/v2.0.2/za-dynamic-texture-flts-renderer.md)
+
+- [ZA 原版字体、Shader 与 FLTS 边界研究](research/v2.0.2/za-font-shader-flts-edge-cases.md)
+
+- [ZA 字形 BNTX、FLTS 插值与 Shader 定位](research/v2.0.2/za-glyph-hermite-shader-locators.md)
+
+- [ZA NativeGlyphUVResolver 与原生 UI RTTI](research/v2.0.2/za-native-glyph-uv-rtti.md)
+
+- [ZA 内嵌 BNSH 与原生字形虚表](research/v2.0.2/za-embedded-shader-native-font.md)
