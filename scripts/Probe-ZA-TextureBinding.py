@@ -97,6 +97,35 @@ def main():
                 elif w2&0xffc00000==0xf9400000 and (w2>>5)&31==reg:va=page+8*((w2>>10)&4095);kind="ADRP_LDR_CANDIDATE"
                 if va in target:refs.append(dict(pc=hex(pc),use_pc=hex(pc+gap*4),target=hex(va),label=target[va],kind=kind))
     dump("xrefs",refs);dump("calls",calls)
+    # Exact 64-bit values in mapped data, and adjacent MOVZ/MOVK constructions
+    # in executable sections. Bounded register tracking; candidates, not dataflow proof.
+    needles={h(b"UikitPokeIcon"):"UikitPokeIcon",h(b".bntx"):".bntx",h(b"/"):"/",h(b"_"):"_"}
+    hash_hits=[]
+    for s in e.segments:
+        b=raw[s["off"]:s["off"]+s["size"]]
+        for val,name in needles.items():
+            needle=struct.pack("<Q",val); pos=0
+            while True:
+                pos=b.find(needle,pos)
+                if pos<0:break
+                hash_hits.append(dict(kind="raw_u64",va=hex(s["addr"]+pos),hash=f"{val:016x}",name=name,aligned=(s["addr"]+pos)%8==0));pos+=1
+    # Match MOVZ + MOVK 64-bit opcodes; skip unrelated words, but invalidate
+    # at another MOVZ or any other instruction with same low 5-bit Rd.
+    for s in e.text_regions():
+        b=raw[s["off"]:s["off"]+s["size"]];words=memoryview(b[:len(b)//4*4]).cast("I")
+        for i,w in enumerate(words):
+            if w&0xff800000!=0xd2800000:continue
+            rd=w&31;value=((w>>5)&0xffff)<<(16*((w>>21)&3))
+            if not any(((v>>(16*((w>>21)&3)))&0xffff)==((w>>5)&0xffff) for v in needles):continue
+            for j in range(i+1,min(i+13,len(words))):
+                ww=words[j]
+                if ww&31!=rd:continue
+                if ww&0xff800000!=0xf2800000:break
+                shift=16*((ww>>21)&3);value=(value&~(0xffff<<shift))|(((ww>>5)&0xffff)<<shift)
+                if value in needles:
+                    hash_hits.append(dict(kind="MOVZ_MOVK_CANDIDATE",va=hex(s["addr"]+4*i),end_va=hex(s["addr"]+4*j),register=rd,hash=f"{value:016x}",name=needles[value]));break
+    dump("hash-hits",hash_hits)
+    for r in hash_hits:print("HASH_HIT",json.dumps(r))
     interesting=[r for r in refs if any(t in r["label"].lower() for t in (".bntx","uikitpokeicon","ik_pokemon/data/","poke_resource_table","/icon/","pm%"))]
     for r in interesting[:120]:print("XREF",json.dumps(r))
     for r in ptrs:
@@ -128,6 +157,6 @@ def main():
                 if st:constants.append(dict(anchor=win["anchor"],pc=hex(pc),va=hex(va),text=st))
     dump("window-literals",constants)
     for r in constants:print("WINDOW_LITERAL",json.dumps(r))
-    summary=dict(elf_sha256=sha,neighbor_keys=len(neighbors),texture_strings=len(tokens),pointer_candidates=len(ptrs),xref_candidates=len(refs),texture_xrefs=len(interesting),direct_calls=dict(collections.Counter(r["target"] for r in calls)),windows=len(windows),uikit_type_binding_proven=False,texture_selector_proven=False)
+    summary=dict(elf_sha256=sha,neighbor_keys=len(neighbors),texture_strings=len(tokens),pointer_candidates=len(ptrs),xref_candidates=len(refs),texture_xrefs=len(interesting),direct_calls=dict(collections.Counter(r["target"] for r in calls)),windows=len(windows),hash_hits=len(hash_hits),uikit_hash_hits=sum(r["name"]=="UikitPokeIcon" for r in hash_hits),uikit_type_binding_proven=False,texture_selector_proven=False)
     (a.out/"summary.json").write_text(json.dumps(summary,indent=2)+"\n");print("SUMMARY",json.dumps(summary))
 if __name__=="__main__":main()
