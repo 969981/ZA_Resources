@@ -31,6 +31,8 @@ def main():
         return [dict(pc=f"0x{i.address:X}",bytes=i.bytes.hex(),op=i.mnemonic,args=i.op_str) for i in cs.disasm(data(va,n),va)]
     def body(va,limit=512):
         if not execp(va):return []
+        seg,_=locate(va,4)
+        limit=min(limit,seg['addr']+seg['size']-va)&~3
         rows=dis(va,limit)
         # First return is a bounded prefix, not a proven full function.
         for i,x in enumerate(rows):
