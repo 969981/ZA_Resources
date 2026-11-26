@@ -32,3 +32,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [ZA 原生材质与纹理模式选择](research/v2.0.2/za-native-material-texture-resolver.md)
 
 - [ZA 动态纹理 FLTS 与材质成品恢复](research/v2.0.2/za-dynamic-texture-flts-renderer.md)
+
+- [ZA 原版字体、Shader 与 FLTS 边界研究](research/v2.0.2/za-font-shader-flts-edge-cases.md)
