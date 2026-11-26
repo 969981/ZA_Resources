@@ -68,7 +68,7 @@ def main():
         tables.append(dict(name=name,start=hex(start),typeinfo=hex(ti),offset_to_top=off,slots=slots))
     # Deduplicate shared virtual implementations; follow calls and tail branches from glyph getters.
     ranked=sorted({x["function"]:x for t in tables for x in t["slots"]}.values(),key=lambda x:-x["arithmetic_score"])
-    glyph_seed={0x261b780,0x261baac}
+    glyph_seed={0x261b780,0x261baac,0x261bb20}
     for t in tables:
         for slot in t["slots"]:
             if slot["slot"] in (17,18,19,20,21):glyph_seed.add(int(slot["function"],16))
@@ -85,7 +85,9 @@ def main():
             if x["op"] not in ("b","bl") or not x["args"].startswith("#0x"):continue
             target=int(x["args"][1:],16)
             if not start<=target<end and execp(target) and hex(target) not in functions:functions[hex(target)]=body(target,768)
-    result=dict(elf_sha256=digest,containers=sh,reference_windows=windows,shader_callees=callee,font_vtables=tables,font_methods=functions,native_formula_verified=False)
+    # Preserve raw instruction windows across alternative branch returns for exact glyph dataflow.
+    glyph_windows={hex(va):dis(va,n) for va,n in [(0x261b780,0x1b0),(0x261bb20,0x268),(0x2666afc,0x44)]}
+    result=dict(glyph_windows=glyph_windows,elf_sha256=digest,containers=sh,reference_windows=windows,shader_callees=callee,font_vtables=tables,font_methods=functions,native_formula_verified=False)
     (a.out/"evidence.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
-    print(json.dumps(dict(containers=sh,shader_refs=[dict(pc=x["pc"],calls=x["calls"],window=[v for v in x["instructions"] if v["op"] in ("adrp","add","bl","blr","mov")]) for x in windows],font_tables=[dict(name=t["name"],start=t["start"],offset_to_top=t["offset_to_top"],slots=len(t["slots"])) for t in tables],ranked=ranked[:15],top_method_prefixes={x["function"]:functions[x["function"]][:48] for x in ranked[:8]},glyph_seed_prefixes={hex(t):functions.get(hex(t),[])[:90] for t in sorted(glyph_seed)},glyph_related_arithmetic={k:[x for x in v if x["op"] in ("udiv","sdiv","msub","madd","umaddl","ucvtf","scvtf","fdiv","fmul")] for k,v in functions.items() if any(x["op"] in ("udiv","sdiv","msub","madd","umaddl","fdiv") for x in v)},native_formula_verified=False),indent=2))
+    print(json.dumps(dict(glyph_windows=glyph_windows,containers=sh,shader_refs=[dict(pc=x["pc"],calls=x["calls"],window=[v for v in x["instructions"] if v["op"] in ("adrp","add","bl","blr","mov")]) for x in windows],font_tables=[dict(name=t["name"],start=t["start"],offset_to_top=t["offset_to_top"],slots=len(t["slots"])) for t in tables],ranked=ranked[:15],top_method_prefixes={x["function"]:functions[x["function"]][:48] for x in ranked[:8]},glyph_seed_prefixes={hex(t):functions.get(hex(t),[])[:90] for t in sorted(glyph_seed)},glyph_related_arithmetic={k:[x for x in v if x["op"] in ("udiv","sdiv","msub","madd","umaddl","ucvtf","scvtf","fdiv","fmul")] for k,v in functions.items() if any(x["op"] in ("udiv","sdiv","msub","madd","umaddl","fdiv") for x in v)},native_formula_verified=False),indent=2))
 if __name__=="__main__":main()
