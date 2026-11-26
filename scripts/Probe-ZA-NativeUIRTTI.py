@@ -38,6 +38,16 @@ def run(out):
             if va in values:continue
             target=struct.unpack_from("<Q",b,o)[0]
             if target in names:ptr[target].append((va,"RAW_POINTER"))
+    # Second pass: raw pointer references to candidate RTTI objects, not just names.
+    ti_targets={slot-8 for va in names for slot,kind in ptr.get(va,[])}
+    shader_targets={x["va"] for x in embedded}
+    for seg in e.segments:
+        if seg["flags"]&1:continue
+        for o in range(seg["off"],seg["off"]+seg["size"]-7,8):
+            va=seg["addr"]+o-seg["off"]
+            if va in values:continue
+            target=struct.unpack_from("<Q",b,o)[0]
+            if target in ti_targets or target in shader_targets:ptr[target].append((va,"RAW_POINTER"))
     typeinfo=[]
     for va,name in sorted(names.items()):
         for slot,kind in ptr.get(va,[]):
@@ -56,6 +66,30 @@ def run(out):
                     slots.append(dict(slot=i,address=fn))
                 if slots:row["vtables"].append(dict(typeinfo_slot=ts,first_function_slot=start,kind=tk,slots=slots))
             typeinfo.append(row)
+    # Embedded header references and bounded ADRP+ADD/ADR scan.
+    shader_refs=[];pages={x&~4095 for x in shader_targets}
+    for target in sorted(shader_targets):
+        for slot,kind in ptr.get(target,[]):shader_refs.append(dict(target=target,slot=slot,kind=kind))
+    def sext(v,n):return (v^(1<<(n-1)))-(1<<(n-1))
+    for seg in e.segments:
+        if not seg["flags"]&1:continue
+        lo=seg["off"];hi=lo+seg["size"]
+        for o in range(lo,hi-3,4):
+            ins=struct.unpack_from("<I",b,o)[0];pc=seg["addr"]+o-lo;kind=ins&0x9f000000
+            if kind not in (0x10000000,0x90000000):continue
+            imm=sext(((ins>>5)&0x7ffff)<<2|((ins>>29)&3),21);rd=ins&31
+            if kind==0x10000000:
+                if pc+imm in shader_targets:shader_refs.append(dict(pc=pc,target=pc+imm,kind="ADR"))
+                continue
+            page=(pc&~4095)+(imm<<12)
+            if page not in pages:continue
+            for k in (4,8,12,16):
+                if o+k+4>hi:break
+                q=struct.unpack_from("<I",b,o+k)[0]
+                if q&0xff000000==0x91000000 and (q>>5)&31==rd:
+                    dest=page+(((q>>10)&4095)<<(12 if q&(1<<22) else 0))
+                    if dest in shader_targets:shader_refs.append(dict(pc=pc,add_pc=pc+k,target=dest,kind="ADRP_ADD_CANDIDATE"))
+    counts["embedded_shader_refs"]=len(shader_refs)
     # Also retain exact known font-loader xrefs, without declaring entry boundaries.
     regions=[]
     for pc in (19412324,19444444,19444556,8455276):
@@ -65,9 +99,9 @@ def run(out):
         ins=[dict(pc=i.address,bytes=i.bytes.hex(),mnemonic=i.mnemonic,operands=i.op_str) for i in cs.disasm(b[start:end],va)]
         regions.append(dict(reference_pc=pc,instructions=ins))
     counts.update(names=len(names),typeinfo_candidates=len(typeinfo),vtable_candidates=sum(len(t["vtables"]) for t in typeinfo),embedded_bnsh_candidates=len(embedded))
-    result=dict(sha256=digest,counts=dict(counts),names=[dict(va=k,name=v) for k,v in sorted(names.items())],typeinfo=typeinfo,embedded=embedded,reference_windows=regions,material_formula_verified=False)
+    result=dict(sha256=digest,counts=dict(counts),names=[dict(va=k,name=v) for k,v in sorted(names.items())],typeinfo=typeinfo,embedded=embedded,shader_reference_candidates=shader_refs,reference_windows=regions,material_formula_verified=False)
     (out/"native-ui-rtti.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
-    print(json.dumps(dict(counts=dict(counts),names=result["names"][:75],typeinfo=[dict(name=t["name"],va=hex(t["typeinfo_candidate"]),vtables=[dict(va=hex(x["first_function_slot"]),slots=len(x["slots"])) for x in t["vtables"]]) for t in typeinfo[:40]],embedded=embedded[:12],reference_windows=regions[:3]),indent=2))
+    print(json.dumps(dict(counts=dict(counts),names=result["names"][:75],typeinfo=[dict(name=t["name"],va=hex(t["typeinfo_candidate"]),vtables=[dict(va=hex(x["first_function_slot"]),slots=len(x["slots"])) for x in t["vtables"]]) for t in typeinfo[:40]],embedded=embedded[:12],shader_reference_candidates=shader_refs[:20],reference_windows=regions[:3]),indent=2))
 def main():
     p=argparse.ArgumentParser();p.add_argument("--out",type=Path,default=Path(".za-work/ui-rtti"));a=p.parse_args()
     if not a.out.resolve().is_relative_to(Path(".za-work").resolve()):p.error("local output only")
