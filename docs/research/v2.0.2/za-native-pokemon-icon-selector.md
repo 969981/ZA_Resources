@@ -57,3 +57,13 @@ Separate CI jobs: native config/Personal/catalog/BRTI crosswalk, ELF string/ADR/
 2. Inspect actual ELF xref windows and recover callers/format arguments, then use same Build ID runtime tests for male/female, no difference, shiny, form and fallback. 
 3. Compare both icon suffixes pixel-wise with independently known normal/shiny references. Resolve slot 2 with native inputs, not naming convention.
 4. Reconcile 268 mismatches with name table/official ID semantics, and 4 missing Personal keys. Only then materialize confirmed (species, form, gender, shiny) resolver.
+
+## CI 验收结果（2026-11-26）
+[Run 45768832492](https://github.com/969981/ZA_Resources/actions/runs/45768832492) 两 job success；已下载并检查两份实际 artifacts。
+- 1228 trpokecfg, 1021 distinct SHA256, 1194 BRTI, 0 parse errors in scanned raw scope; 1190 directory joins, 4 unmatched; 26 BRTI have >1 catalog row; 1194 filename=BRTI.
+- BC7 0x2001 all 1194: 1190 at 160x160, 4 at 256x256 (pm0449 two dirs, two suffixes each). 591 regular-pattern suffix 0, 591 suffix 1, 12 nonstandard (6 missing last token, 6 additional suffix 3/4/5 under pm1056_51_00). Fourth token 1/2/3 each 2 entries. No shiny semantic confirmation.
+- 593/594 present Personal pairs covered; missing (658,1). Four unmatched BRTI: pm0770_14_00 and pm0770_15_00, each 0/1. Catalog includes pm0770_11/12/13/51 directories for raw species key 718; investigate shared appearance and fallback rather than assume missing forms.
+- ELF: 19 matching strings, 7 ADRP+ADD candidates, 7 Capstone windows, 0 matching symbols. Six references to layout string L_list_%02d/L_pokeicon_%02d at VA 0x32679BF; PCs 0x2B3CBF4/0x2B3CC94/0x2B3CD38/0x2B3CDD8/0x2B3CE7C/0x2B3CF1C. All call VA 0x31607C0 with w3=2, w4=0..5, candidate formatting routine; these select UI layout nodes, not file identities. Seventh reference PC 0x2CD6ADC to L_pokeicon_%02d at 0x31C447D, same formatter at 0x2CD6AF0, then 0x2CD6B00 calls 0x2CD6CC8.
+- ELF string addresses (not yet xrefs): default icon path at 0x326855E, catalog path at 0x3288619, ik_pokemon/data/ at 0x32D57AB, UikitPokeIcon at 0x3296760, pokemon_icon_offset at 0x32E07A3.
+- Directly retrieved world/exl/pokemon_icon_offset/pokemon_icon_offset/pokemon_icon_offset.bin (1836 bytes, blob e658dcb5a8fcc2b41de759d7df0c508caa3996e3), FlatBuffers root 12, slot 0 vector at 20, 63 records. Field meanings and consumer not yet verified.
+- Artifacts: [config](https://github.com/969981/ZA_Resources/actions/runs/45768832492/artifacts/15092902263), [ELF](https://github.com/969981/ZA_Resources/actions/runs/45768832492/artifacts/15092583480). Separate full pixel audit remains pending. All VAs are ELF addresses, not file offsets or confirmed runtime function starts.
