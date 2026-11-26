@@ -1,0 +1,59 @@
+name: ZA icon selector deep audit
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Probe-ZA-IconSelectorDeep.py
+      - .github/workflows/za-icon-selector-deep.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-IconSelectorDeep.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/pokemon_icon_offset/pokemon_icon_offset/pokemon_icon_offset.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trpokecfg
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/icon/*.bntx
+      - run: python3 scripts/Probe-ZA-IconSelectorDeep.py --mode assets
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAIconOffsetAndSpeciesCrosswalk
+          path: .za-work/icon-deep/
+          include-hidden-files: true
+          if-no-files-found: error
+  elf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-IconSelectorDeep.py
+            /scripts/Probe-ZA-Lua-Host-ELF.py
+            /Unpack/v2.0.2/exefs/main/main.elf
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install capstone==5.0.3
+      - run: python scripts/Probe-ZA-IconSelectorDeep.py --mode elf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAIconSelectorDeepELF
+          path: .za-work/icon-deep/
+          include-hidden-files: true
+          if-no-files-found: error
