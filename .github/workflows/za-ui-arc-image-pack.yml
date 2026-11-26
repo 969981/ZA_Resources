@@ -4,6 +4,7 @@ on:
     branches: [research/za-ui-arc-resource-pack-20261126]
     paths:
       - scripts/Build-ZAImageResources.py
+      - scripts/Audit-ZA-UILayout.py
       - .github/workflows/za-ui-arc-image-pack.yml
   workflow_dispatch:
 permissions:
@@ -19,6 +20,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/Build-ZAImageResources.py
+            /scripts/Audit-ZA-UILayout.py
             /scripts/Decode-ZA-BNTX.py
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/tex/
@@ -29,6 +31,10 @@ jobs:
       - run: python -m pip install Pillow==12.3.0
       - name: Synthetic SARC and channel reconstruction tests
         run: python scripts/Build-ZAImageResources.py --self-test
+      - name: Synthetic FLYT and FLAN tests
+        run: python scripts/Audit-ZA-UILayout.py --self-test
+      - name: Full UI layout and Combined BNTX audit
+        run: python scripts/Audit-ZA-UILayout.py
       - name: Audit ARC and BNTX, no source image publication
         run: python scripts/Build-ZAImageResources.py
       - uses: actions/upload-artifact@v4
@@ -37,6 +43,7 @@ jobs:
           name: ZAImageResourcesMetadata
           include-hidden-files: true
           path: |
+            .za-work/ui-layout/
             .za-work/ZAImageResources/manifests/
             .za-work/ZAImageResources/database/images.sqlite
           if-no-files-found: error
