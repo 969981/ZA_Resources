@@ -29,7 +29,7 @@ def capture(b):
                 names=layout.name_table(s,e,u("H",8),12)
                 if tag=="txl1":textures.extend(names)
                 else:fonts.extend(names)
-            elif tag in ("pan1","pic1","txt1","wnd1","bnd1","prt1"):
+            elif tag in ("pan1","pic1","txt1","wnd1","bnd1","prt1","cpt1"):
                 name,full=bounded_name(s,12,24);p=dict(name=name,tag=tag,offset=off,full_width_name=full)
                 if tag=="txt1":
                     layout.need(s,0,96); p.update(size=list(u("2f",76)),font_index_candidate=u("H",90),material_index_candidate=u("H",88),message_key_candidates=[m.decode("ascii") for m in re.findall(rb"msg_[A-Za-z0-9_]+",s)])
