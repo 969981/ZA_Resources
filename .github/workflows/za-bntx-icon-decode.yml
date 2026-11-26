@@ -33,8 +33,8 @@ jobs:
         run: python -m pip install Pillow==11.3.0
       - name: Synthetic tests
         run: python scripts/Decode-ZA-BNTX.py --self-test
-      - name: Full path inventory
-        run: python scripts/Audit-ZA-ImageResources.py --out .za-work/image-audit
+      - name: Checked-out raw icon inventory
+        run: python scripts/Audit-ZA-ImageResources.py --checked-out-icons --out .za-work/image-audit
       - name: Native icon BRTI and BC7 decode
         run: python scripts/Decode-ZA-BNTX.py --inventory .za-work/image-audit/inventory.jsonl --out .za-work/bntx
       - name: Native catalog directory join
