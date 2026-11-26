@@ -57,8 +57,8 @@ def main():
                             start=pos+v;nm=cstr(b,start,start+28)
                             # Raw flags and first candidate texture index. No flag interpretation yet.
                             flags=u("I",start+28)
-                            first=u("H",start+40) if z-v>=44 else None
-                            row=dict(**base,index=i,name=nm,size=z-v,flags=f"{flags:08x}",first_texture_index_candidate=first,first_texture_candidate=tx[first] if first is not None and first<len(tx) else None,raw_prefix=b[start:start+min(z-v,64)].hex())
+                            first=u("H",start+44) if z-v>=48 and (flags&3)!=0 else None
+                            row=dict(**base,index=i,name=nm,size=z-v,flags=f"{flags:08x}",texture_slot_count_candidate=flags&3,first_texture_index_candidate=first,first_texture_candidate=tx[first] if first is not None and first<len(tx) else None,raw_prefix=b[start:start+min(z-v,64)].hex())
                             mats.append(row);ms.append(row)
                 for tag,pos,n in secs:
                     if tag=="pic1":
@@ -74,7 +74,7 @@ def main():
                                 components.append(dict(**base,section=tag,offset=pos+8+m.start(),text=st))
             except Exception as ex:errors.append(dict(**base,stage="layout",error=str(ex)))
     for name,rows in [("pictures",pics),("materials",mats),("texture-names",textures),("component-tokens",components),("brti",brtis),("errors",errors)]:write(out,name,rows)
-    summary=dict(paths=sum(map(len,aliases.values())),unique_blobs=len(aliases),counts=dict(counts),pictures=len(pics),materials=len(mats),textures=len(textures),brti=len(brtis),picture_material_in_bounds=sum(x["material"] is not None for x in pics),picture_material_name_agreement=sum(x["material_name_agreement"] for x in pics),texture_exact_local_match=sum(bool(x["matches"]) for x in textures),texture_unique_local_match=sum(len(x["matches"])==1 for x in textures),component_tokens=len(components),component_classes=dict(collections.Counter(x["text"] for x in components).most_common(60)),errors=len(errors),material_texture_semantics_verified=False)
+    summary=dict(paths=sum(map(len,aliases.values())),unique_blobs=len(aliases),counts=dict(counts),pictures=len(pics),materials=len(mats),textures=len(textures),brti=len(brtis),picture_material_in_bounds=sum(x["material"] is not None for x in pics),picture_material_name_agreement=sum(x["material_name_agreement"] for x in pics),picture_texture_candidate_in_bounds=sum(x["texture_candidate"] is not None for x in pics),texture_exact_local_match=sum(bool(x["matches"]) for x in textures),texture_unique_local_match=sum(len(x["matches"])==1 for x in textures),component_tokens=len(components),component_classes=dict(collections.Counter(x["text"] for x in components).most_common(60)),errors=len(errors),material_texture_semantics_verified=False)
     (out/"summary.json").write_text(json.dumps(summary,indent=2));print("SUMMARY",json.dumps(summary))
     for x in errors[:12]:print("ERROR",json.dumps(x))
     for x in pics:
