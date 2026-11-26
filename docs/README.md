@@ -28,3 +28,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 - [ZAImageResources 分类资源包与 UI ARC 审计](research/v2.0.2/za-image-resource-pack.md)
 
 - [ZA v9 BFLYT BFLAN 原生图集与材质动画](research/v2.0.2/za-ui-layout-material-animation.md)
+
+- [ZA 原生材质与纹理模式选择](research/v2.0.2/za-native-material-texture-resolver.md)
