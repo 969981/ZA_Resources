@@ -25,3 +25,18 @@ Literal 0x3296760, seeded hash 954D3547F9414E35. No validated 24-byte static rec
 python -m pip install capstone==5.0.3
 python scripts/Probe-ZA-TextureBinding.py
 Expanded [run 45772323586](https://github.com/969981/ZA_Resources/actions/runs/45772323586) follows 0x972470, 0x629D8C, larger extension caller windows and exact adjacent ADRP/ADD literals. Hash and indirect pointer candidates remain static, not runtime evidence.
+
+## Second run verified
+[45772323586](https://github.com/969981/ZA_Resources/actions/runs/45772323586) success; [artifact](https://github.com/969981/ZA_Resources/actions/runs/45772323586/artifacts/15094662174). 30 windows, 69 xref candidates, 23 texture-related candidates; 0x972470 74 direct branches, 0x629D8C 3, 0x2A02B0 95.
+### Dynamic constructor
+0x972470 reads pointer/length at input+8/+0x10, hashes exactly length bytes with seed CBF29CE484222645 (ignores supplied Hash for construction), calls 0x164C8; empty path uses global 0x40FE128. Output is one object pointer; release path atomically subtracts 0x400 from packed flags at object+8 when low 2 bits nonzero, calls 0x95A40 on last reference condition. Initial output zero store observed; no claim of arbitrary replacement semantics. 0x283F0 is a three-instruction ABI adapter.
+### Extension consumer
+0x629D8C uses string view Name/Length, copies input, searches for occurrence of needle with byte search and compare (0x629E78/0x629E8C), calls 0x31611C0 with replacement position, needle length, replacement pointer and length. Repeats search from pos+replacement length. This supports substring replacement, not appending extension or directly selecting Pokemon textures. At 0x2D6AFD4 replacement is empty, thus removes .bntx occurrences from input; exact path source and upper-level caller still unknown.
+### Path templates
+- 0x2BCA130..0x2BCA204 constructs ui/tex/logo_brand/{arg1}/{arg2}.bntx via five parts.
+- 0x2C0477C window: ui/tex/photomode_pose/, /, .bntx.
+- 0x2C1655C and 0x2C1689C windows: ui/tex/tips/, /, .bntx.
+- 0x2CDFF64..0x2CE003C formats six strings with %s%s%s%s%s%s, prefix [ryl_npc], / separators, .bntx suffix; first/second input view names as components.
+- 0x2D33C84 window: ui/tex/icon_item/, /, .bntx; five-part concat at 0x2D33CA4. Input-to-ItemID mapping still not proven.
+- 0x2D69FE4 and 0x2D6A06C reference donut normal and _big templates. No actual physical-path resolution or layout binding claimed.
+Next run adds bytewise raw hash and bounded MOVZ/MOVK construction search for class name and three punctuation keys. UikitPokeIcon remains unresolved until confirmed binding or registration evidence.
