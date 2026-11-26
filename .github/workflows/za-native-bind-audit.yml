@@ -1,0 +1,55 @@
+name: ZA native bind and layout material audit
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Probe-ZA-NativeTextureBind.py
+      - scripts/Scan-ZA-LayoutBindings.py
+      - .github/workflows/za-native-bind-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  elf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-NativeTextureBind.py
+            /scripts/Probe-ZA-Lua-Host-ELF.py
+            /Unpack/v2.0.2/exefs/main/main.elf
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install capstone==5.0.3
+      - run: python scripts/Probe-ZA-NativeTextureBind.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativeBind
+          path: .za-work/native-bind/
+          include-hidden-files: true
+          if-no-files-found: error
+  layouts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Scan-ZA-UIArchives.py
+            /scripts/Scan-ZA-LayoutBindings.py
+            /scripts/Decode-ZA-BNTX.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/
+      - run: python3 scripts/Scan-ZA-LayoutBindings.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZALayoutBindings
+          path: .za-work/layout-bind/
+          include-hidden-files: true
+          if-no-files-found: error
