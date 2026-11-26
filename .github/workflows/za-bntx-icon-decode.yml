@@ -4,6 +4,7 @@ on:
     branches: [research/za-image-resource-audit-20261126]
     paths:
       - scripts/Decode-ZA-BNTX.py
+      - scripts/Probe-ZA-PokemonCatalog.py
       - .github/workflows/za-bntx-icon-decode.yml
   workflow_dispatch:
 permissions:
@@ -20,6 +21,8 @@ jobs:
           sparse-checkout: |
             /scripts/Audit-ZA-ImageResources.py
             /scripts/Decode-ZA-BNTX.py
+            /scripts/Probe-ZA-PokemonCatalog.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/icon/*.bntx
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/tex/icon_item/**/*.bntx
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/tex/icon_donut/**/*.bntx
@@ -34,6 +37,8 @@ jobs:
         run: python scripts/Audit-ZA-ImageResources.py --out .za-work/image-audit
       - name: Native icon BRTI and BC7 decode
         run: python scripts/Decode-ZA-BNTX.py --inventory .za-work/image-audit/inventory.jsonl --out .za-work/bntx
+      - name: Native catalog directory join
+        run: python scripts/Probe-ZA-PokemonCatalog.py --candidates .za-work/bntx/pokemon-candidates.jsonl --out .za-work/bntx
       - name: Summary
         if: always()
         run: |
