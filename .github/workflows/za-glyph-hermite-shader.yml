@@ -1,0 +1,55 @@
+name: ZA glyph Hermite and shader ELF audit
+on:
+  push:
+    branches: [research/za-ui-arc-resource-pack-20261126]
+    paths:
+      - scripts/Decode-ZA-BFFNTGlyphs.py
+      - scripts/Audit-ZA-FLTSHermite.py
+      - scripts/Probe-ZA-UIShaderELF.py
+      - .github/workflows/za-glyph-hermite-shader.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Decode-ZA-BFFNTGlyphs.py
+            /scripts/Audit-ZA-FontShader.py
+            /scripts/Build-ZAImageResources.py
+            /scripts/Decode-ZA-BNTX.py
+            /scripts/Audit-ZA-FLTSHermite.py
+            /scripts/Probe-ZA-UIShaderELF.py
+            /scripts/Probe-ZA-Lua-Host-ELF.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/font/bin/
+            /Unpack/v2.0.2/exefs/main/main.elf
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==12.3.0
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZADynamicTextureAndFLTS
+          run-id: 45774395175
+          github-token: ${{ github.token }}
+          path: .za-work/ui-dynamic
+      - run: python scripts/Audit-ZA-FLTSHermite.py --self-test
+      - run: python scripts/Audit-ZA-FLTSHermite.py
+      - run: python scripts/Decode-ZA-BFFNTGlyphs.py
+      - run: python scripts/Probe-ZA-UIShaderELF.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZAGlyphHermiteShaderMetadata
+          path: |
+            .za-work/font-glyphs/
+            .za-work/flts-eval/
+            .za-work/ui-shader-elf/
+          include-hidden-files: true
