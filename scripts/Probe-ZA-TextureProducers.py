@@ -22,7 +22,7 @@ def main():
         ins=[dict(va=hex(i.address),op=i.mnemonic,args=i.op_str,bytes=i.bytes.hex()) for i in dis.disasm(read(lo,hi-lo),lo)]
         literals=[]
         for i in range(len(ins)-1):
-            pc=int(ins[i]["va"],16);ap=m.decode_adrp(int(ins[i]["bytes"],16) if False else int.from_bytes(bytes.fromhex(ins[i]["bytes"]),"little"),pc)
+            pc=int(ins[i]["va"],16);ap=m.decode_adrp(int.from_bytes(bytes.fromhex(ins[i]["bytes"]),"little"),pc)
             if not ap:continue
             ad=m.decode_add_x_imm(int.from_bytes(bytes.fromhex(ins[i+1]["bytes"]),"little"))
             if ad and ad[1]==ap[0]:
@@ -39,7 +39,7 @@ def main():
             p=int(pre[-1]["va"],16);prev=next((i for i in w["instructions"] if int(i["va"],16)==p-4),None)
             if prev and prev["op"]=="sub" and prev["args"].startswith("sp, sp,"):p-=4
             starts.append(p)
-    targets=set(starts)|{0x2d33be4,0x2d33c00,0x629d8c}
+    targets=set(starts)|{0x2d33be4,0x2d335cc,0x2d33624,0x2d33b50,0x629d8c,0x432ccc,0x6d388,0x3d45cc,0x2c10918}
     calls=[]
     for s in e.text_regions():
         b=raw[s["off"]:s["off"]+s["size"]];ws=memoryview(b[:len(b)//4*4]).cast("I")
@@ -47,8 +47,13 @@ def main():
             if w&0x7c000000!=0x14000000:continue
             pc=s["addr"]+4*i;dst=pc+4*m.signed(w&0x3ffffff,26)
             if dst in targets:calls.append(dict(pc=hex(pc),target=hex(dst),kind="BL" if w&0x80000000 else "B"))
-    for c in calls[:100]:
+    for c in [x for x in calls if x['target'] in ('0x2d335cc','0x2d33624','0x2d33b50','0x2c10918','0x2d6aea0','0x2d33be4')][:100]:
         va=int(c["pc"],16);windows.append(window(va-0x90,va+0x60,va))
+    for va in (0x432ccc,0x6d388,0x3d45cc):windows.append(window(va,va+0x240,va))
+    for va in (0x3de7400,0x3de7418,0x3de7430):
+        b=read(va,24)
+        if len(b)==24:
+            h,p,n=struct.unpack("<QQQ",b);print("CALLER_KEY",json.dumps(dict(va=hex(va),hash=hex(h),ptr=hex(p),length=n,text=text(p))))
     for w in windows:
         print("WINDOW",w["anchor"])
         for i in w["instructions"]:print(i["va"],i["op"],i["args"])
