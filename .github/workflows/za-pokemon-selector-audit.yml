@@ -1,0 +1,59 @@
+name: ZA native Pokemon icon selector audit
+on:
+  push:
+    branches: [research/za-image-resource-audit-20261126]
+    paths:
+      - scripts/Probe-ZA-PokemonConfig.py
+      - scripts/Probe-ZA-NativePokemonIconSelector.py
+      - .github/workflows/za-pokemon-selector-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  config:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-PokemonConfig.py
+            /scripts/Decode-ZA-BNTX.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/*/*/*.trpokecfg
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/*/*/icon/*.bntx
+      - name: Catalog and personal crosswalk
+        run: python3 scripts/Probe-ZA-PokemonConfig.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAPokemonConfigCrosswalk
+          path: .za-work/pokemon-selector/
+          include-hidden-files: true
+          if-no-files-found: error
+  elf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Probe-ZA-NativePokemonIconSelector.py
+            /scripts/Probe-ZA-Lua-Host-ELF.py
+            /Unpack/v2.0.2/exefs/main/main.elf
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install capstone==5.0.3
+      - name: Native ELF string and reference candidates
+        run: python scripts/Probe-ZA-NativePokemonIconSelector.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativePokemonIconSelector
+          path: .za-work/pokemon-selector/
+          include-hidden-files: true
+          if-no-files-found: error
