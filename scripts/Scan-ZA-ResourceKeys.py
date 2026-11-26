@@ -137,6 +137,8 @@ def main():
         exact.append(dict(va=hex(va),length=n,hex=b.hex(),text=b.decode("ascii","backslashreplace")))
     va=0x32a21d2;s=region(va);b=read(va,min(128,s["addr"]+s["size"]-va)).split(b"\0",1)[0]
     print("TYPE_FORMAT_INPUT",json.dumps(dict(va=hex(va),hex=b.hex(),text=b.decode("ascii","backslashreplace"))))
+    va=0x32b5474;s=region(va);b=read(va,min(128,s["addr"]+s["size"]-va)).split(b"\0",1)[0]
+    print("TYPE_FORMAT_TEMPLATE",json.dumps(dict(va=hex(va),hex=b.hex(),text=b.decode("ascii","backslashreplace"))))
     print("TYPE_EXACT_PARTS",json.dumps(exact))
     write(out,"type-path-exact-parts.jsonl",exact)
     write(out,"type-path-constants.jsonl",const)
