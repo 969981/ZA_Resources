@@ -104,11 +104,11 @@ def main():
     from capstone import Cs,CS_ARCH_ARM64,CS_MODE_LITTLE_ENDIAN
     dis=Cs(CS_ARCH_ARM64,CS_MODE_LITTLE_ENDIAN)
     windows=[]
-    for va in (0x1B4E240,0x421C,0x2D69DB4,0x2D69D00):
+    for va in (0x1B4E240,0x1B4E4B8,0x421C,0x2D69DB4,0x2D69D00,0x88624C,0x38B90):
         # A window can cross an allocated section boundary. Read from its file-backed load segment instead.
         seg=next((s for s in e.segments if s["addr"]<=va<s["addr"]+s["size"]),None)
         if not seg: raise ValueError(f"unmapped function anchor {va:#x}")
-        off=seg["off"]+va-seg["addr"]; n=min(0x300,seg["size"]-(va-seg["addr"])); b=raw[off:off+n]; ins=[]
+        off=seg["off"]+va-seg["addr"]; n=min(0x900 if va==0x1B4E240 else 0x300,seg["size"]-(va-seg["addr"])); b=raw[off:off+n]; ins=[]
         for i in dis.disasm(b,va):ins.append(dict(va=hex(i.address),op=i.mnemonic,args=i.op_str,bytes=i.bytes.hex()))
         windows.append(dict(anchor=hex(va),instructions=ins))
         print("FUNCTION",hex(va))
@@ -116,12 +116,12 @@ def main():
     write(out,"functions.jsonl",windows)
     # Decode actual ADRP+ADD constants referenced in type path helper.
     const=[]
-    for va in range(0x2D69DB4,0x2D69DB4+0x100,4):
+    for va in range(0x2D69DB4,0x2D69E20,4):
         bb=read(va,4)
         if not bb: continue
         w=struct.unpack("<I",bb)[0]; ap=m.decode_adrp(w,va)
         if not ap:continue
-        for gap in range(1,9):
+        for gap in (1,):
             q=va+gap*4; bb=read(q,4)
             if not bb: continue
             add=m.decode_add_x_imm(struct.unpack("<I",bb)[0])
@@ -130,6 +130,15 @@ def main():
                 if not s:continue
                 b=read(t,min(192,s["addr"]+s["size"]-t)).split(b"\0",1)[0]
                 if b and all(32<=x<127 for x in b):const.append(dict(pc=hex(va),use_pc=hex(q),target=hex(t),text=b.decode("ascii")))
+    # Lengths from the actual stack arrays, not the adjacent C-string's apparent length.
+    exact=[]
+    for va,n in [(0x323c7ba,17),(0x325f8f2,1),(0x32ca665,11)]:
+        b=read(va,n)
+        exact.append(dict(va=hex(va),length=n,hex=b.hex(),text=b.decode("ascii","backslashreplace")))
+    va=0x32a21d2;s=region(va);b=read(va,min(128,s["addr"]+s["size"]-va)).split(b"\0",1)[0]
+    print("TYPE_FORMAT_INPUT",json.dumps(dict(va=hex(va),hex=b.hex(),text=b.decode("ascii","backslashreplace"))))
+    print("TYPE_EXACT_PARTS",json.dumps(exact))
+    write(out,"type-path-exact-parts.jsonl",exact)
     write(out,"type-path-constants.jsonl",const)
     types=[]; lookup={int(r["record_va"],16):r for r in rows}
     for i in range(40):
@@ -139,6 +148,7 @@ def main():
     write(out,"type-table-contiguous.jsonl",types)
     print("TYPE_CONSTANTS",json.dumps(const));print("TYPE_TABLE",json.dumps(types))
     print("XREFS",json.dumps(refs[:80]))
+    print("EXACT_IMAGE_PATHS",json.dumps([r for r in relevant if r["text"] and r["text"].lower().endswith((".bntx",".arc",".bflyt",".bflan",".png",".dds"))]))
     summary=dict(elf_sha256=sha,scope="aligned 24-byte candidates across all file-backed PT_LOAD segments; nonempty NUL strings <=4096 bytes; allocated section targets; RELATIVE relocations supported",segments=byseg,filters=dict(counters),records=len(rows),unique_hashes=len(hashes),unique_strings=len({(r["text"],r["bytes_hex"]) for r in rows}),hash_collisions=len(collisions),categories=dict(collections.Counter(r["category"] for r in rows)),sections=dict(collections.Counter(r["record_section"] for r in rows)),image_candidates=len(relevant),xref_candidates=len(refs),type_table_contiguous_records=len(types),runtime_verified=False)
     (out/"summary.json").write_text(json.dumps(summary,indent=2)+"\n");print("SUMMARY",json.dumps(summary))
 if __name__=="__main__":main()
