@@ -36,3 +36,22 @@ python scripts/Resolve-ZA-UITextures.py
 CI [za-native-ui-resolver.yml](../../../.github/workflows/za-native-ui-resolver.yml) 分两 job：从原始 ARC 重新审计 material；下载固定 run 的 metadata 做 resolver。输出 ui-material/materials.jsonl, errors.jsonl, summary.json；ui-resolver/semantic-candidates.jsonl, layout-refs.jsonl, uv-audit.jsonl, pattern-resolutions.jsonl, ui-index.sqlite, summary.json。仅元数据。新 CI 尚未验收。
 ## 后续
 处理10 FLYT失败、完整材质扩展与 FLTS key、跨 ARC 实际消费者与语言选择；依据原生表/ELF/runtime 证明奖章、精灵球、属性、招式分类 ID。实现像素差分及图集裁切前不声称 UI 渲染等价。
+
+## 2026-11-26 texture-index 实际验收
+[Run 45772417428](https://github.com/969981/ZA_Resources/actions/runs/45772417428) texture-index job success，artifact [15094646939](https://github.com/969981/ZA_Resources/actions/runs/45772417428/artifacts/15094646939)，SHA256 b0d3e0cde86df208c493e7455108577f13d5859f6b3932db4963e4a8cf5293fe。
+- 35208 texture rows / 5549 distinct names / 7401 distinct (width,height,RGBA hash) / 27807 duplicate pixel rows. Pixel parity still not independently verified.
+- FLTP 8511 tracks, 29838 keys local exact; target 5791 unique candidates, 2710 ambiguous, 10 missing. Static frame table names only.
+- 20973 layout refs local exact, 912 missing even in global exact-name index. No global hit; not proven nonexistent.
+- UV 33550 full, 2614 outside range, 1177 flipped rectangle, 34 multi UV, 4 non-axis-aligned; no plain subrect in this scan.
+| Domain candidate | Rows | Distinct names | Pixel groups |
+|---|---:|---:|---:|
+| types | 1636 | 112 | 254 |
+| balls | 57 | 8 | 8 |
+| badges (broad rank/ryl) | 5535 | 605 | 901 |
+| ribbons | 168 | 18 | 17 |
+| moves | 242 | 24 | 29 |
+| status | 181 | 17 | 73 |
+| items | 790 | 399 | 398 |
+| donuts | 2350 | 261 | 326 |
+| hidden_ui | 597 | 45 | 38 |
+Overlaps and keyword candidates only. Native-material job pending. New [name family report](../../../scripts/Report-ZA-UINameFamilies.py) and [CI run 45772556054](https://github.com/969981/ZA_Resources/actions/runs/45772556054) preserve exact names, narrower keyword candidates, missing reference frequencies, original FLYT errors. Pending results.
