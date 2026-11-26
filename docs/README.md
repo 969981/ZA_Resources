@@ -24,3 +24,5 @@ Keep each observation linked to the source file version, offset, sample size, ha
 
 - [ZA 2.0.2 原生 Lua 四包提取和 Hash opcode 证据](research/v2.0.2/za-lua-native-opcode-evidence.md)
 - [ZA 2.0.2 原版图片资源审计](research/v2.0.2/za-image-resource-audit.md)
+
+- [ZAImageResources 分类资源包与 UI ARC 审计](research/v2.0.2/za-image-resource-pack.md)
