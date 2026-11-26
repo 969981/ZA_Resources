@@ -1,0 +1,74 @@
+name: ZA dynamic capture and native material render candidates
+on:
+  push:
+    branches: [research/za-ui-arc-resource-pack-20261126]
+    paths:
+      - scripts/Audit-ZA-DynamicTextures.py
+      - scripts/Render-ZA-UIMaterialCandidates.py
+      - .github/workflows/za-ui-dynamic-render.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  capture-flts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Audit-ZA-DynamicTextures.py
+            /scripts/Audit-ZA-UILayout.py
+            /scripts/Build-ZAImageResources.py
+            /scripts/Decode-ZA-BNTX.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZANativeTextureResolver
+          run-id: 45772417428
+          github-token: ${{ github.token }}
+          path: .za-work/ui-resolver
+      - run: python scripts/Audit-ZA-DynamicTextures.py --self-test
+      - run: python scripts/Audit-ZA-DynamicTextures.py --missing .za-work/ui-resolver/layout-refs.jsonl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZADynamicTextureAndFLTS
+          path: .za-work/ui-dynamic/
+          include-hidden-files: true
+  isolated-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Render-ZA-UIMaterialCandidates.py
+            /scripts/Audit-ZA-NativeMaterials.py
+            /scripts/Audit-ZA-UILayout.py
+            /scripts/Build-ZAImageResources.py
+            /scripts/Decode-ZA-BNTX.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/dummy/dummy_icon_type.arc
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/hud_ball/hud_ball_00.arc
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/btl_app/btl_app_trainer_ball_00.arc
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/btl_app/btl_app_waza_last_01.arc
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/btl_app/btl_app_hit_marker_00.arc
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ui/data/quest_info/resident_ui.arc
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==12.3.0
+      - run: python scripts/Render-ZA-UIMaterialCandidates.py --self-test
+      - run: python scripts/Render-ZA-UIMaterialCandidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAIsolatedMaterialRenderCandidates
+          path: .za-work/ui-render/
+          include-hidden-files: true
