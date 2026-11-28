@@ -8,8 +8,26 @@ def main():
     for path in sorted(root.glob("pm0001_00_00_*.glb")):
         bpy.ops.wm.read_factory_settings(use_empty=True)
         bpy.ops.import_scene.gltf(filepath=str(path))
-        meshes=[o for o in bpy.context.scene.objects if o.type=="MESH"]
+        import struct
+        raw=path.read_bytes();json_size=struct.unpack_from("<I",raw,12)[0]
+        doc=json.loads(raw[20:20+json_size])
+        expected=[n["name"] for n in doc["nodes"] if "mesh" in n and "skin" in n]
+        scene_meshes=[o for o in bpy.context.scene.objects if o.type=="MESH"]
         rigs=[o for o in bpy.context.scene.objects if o.type=="ARMATURE"]
+        diag=[dict(name=o.name,vertices=len(o.data.vertices),modifiers=[dict(type=m.type,target=m.object.name if m.type=="ARMATURE" and m.object else None) for m in o.modifiers],groups=len(o.vertex_groups)) for o in scene_meshes]
+        print("MESH_DIAGNOSTICS",json.dumps(dict(file=path.name,expected=expected,objects=diag)),flush=True)
+        # Blender may add auxiliary bone display meshes. Validate every actual
+        # source mesh node by its exact unique name, not arbitrary scene objects.
+        if len(set(expected))!=len(expected):raise ValueError("duplicate source mesh node names")
+        meshes=[]
+        for name in expected:
+            match=[o for o in scene_meshes if o.name==name]
+            if len(match)!=1:raise ValueError("source mesh missing or ambiguous "+name)
+            o=match[0]
+            if not any(m.type=="ARMATURE" and m.object in rigs for m in o.modifiers):raise ValueError("source mesh lacks armature "+name)
+            if not o.vertex_groups or not all(any(g.weight>0 for g in v.groups) for v in o.data.vertices):raise ValueError("source mesh lacks vertex weights "+name)
+            meshes.append(o)
+        extras=[o.name for o in scene_meshes if o not in meshes]
         if not meshes or not rigs:raise ValueError("missing mesh or armature")
         materials={m for o in meshes for m in o.data.materials if m}
         image_nodes=[n for m in materials if m.use_nodes for n in m.node_tree.nodes if n.type=="TEX_IMAGE" and n.image and n.image.size[0]>0]
@@ -33,7 +51,7 @@ def main():
         scene.render.image_settings.file_format="PNG";scene.render.filepath=str(root/(path.stem+".preview.png"))
         bpy.ops.render.render(write_still=True)
         png=Path(scene.render.filepath)
-        rows.append(dict(file=path.name,mesh_objects=len(meshes),armatures=len(rigs),materials=len(materials),image_nodes=len(image_nodes),bones=sum(len(o.data.bones) for o in rigs),render_bytes=png.stat().st_size,render_sha256=hashlib.sha256(png.read_bytes()).hexdigest(),bounds=[list(lo),list(hi)],import_status="PASS",render_status="PASS",visual_parity=False))
+        rows.append(dict(file=path.name,mesh_objects=len(meshes),auxiliary_meshes=extras,armatures=len(rigs),materials=len(materials),image_nodes=len(image_nodes),bones=sum(len(o.data.bones) for o in rigs),render_bytes=png.stat().st_size,render_sha256=hashlib.sha256(png.read_bytes()).hexdigest(),bounds=[list(lo),list(hi)],import_status="PASS",render_status="PASS",visual_parity=False))
     if len(rows)!=2:raise ValueError("expected two GLBs")
     (root/"blender-summary.json").write_text(json.dumps(dict(blender_version=bpy.app.version_string,models=rows),indent=2)+"\n")
     print("BLENDER_SUMMARY",json.dumps(rows))
