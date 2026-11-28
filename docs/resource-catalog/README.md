@@ -14,3 +14,5 @@ ResourceID 为 SHA256(version + NUL + native relative path)。Git blob SHA 不�
 - [四大核心模块 V1 与原生 ID 证据](ResourceCores.md)
 
 - [原生宝可梦模型结构与 normal/rare 外观审计](NativePokemonModelAudit.md)
+
+- [网格、骨骼绑定与 LayerMask 验证](GeometrySkinLayerMask.md)
