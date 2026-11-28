@@ -67,7 +67,7 @@ def core(db,records,catalog,items):
         ((r[0],r[1],r[8],r[7],r[4],r[5],r[6]) for r,m in records))
     for c in catalog:
         idx=c["index"]; p=c["personal"] or {}; key=c["key_raw"]; d=c["resource_dir"]
-        db.execute("INSERT INTO pokemon_catalog VALUES(?,?,?,?,?,?,?)",(idx,c["table_offset"],*key,p.get("national_raw"),p.get("present"),d))
+        db.execute("INSERT INTO pokemon_catalog VALUES(?,?,?,?,?,?,?,?)",(idx,c["table_offset"],*key,p.get("national_raw"),p.get("present"),d))
         if d: bydir[d].append(idx)
         for slot,raw in c["slots"].items():
             if raw is None: continue
