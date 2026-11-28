@@ -1,0 +1,54 @@
+name: ZA native Pokemon model and icon audit
+on:
+  push:
+    branches: [research/za-complete-resource-catalog]
+    paths:
+      - scripts/Audit-ZANativePokemonModels.py
+      - .github/workflows/za-native-pokemon-models.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  native-model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Audit-ZANativePokemonModels.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmmt
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/Audit-ZANativePokemonModels.py --self-test
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZAResourceCores-Metadata
+          run-id: 46100044670
+          github-token: ${{ github.token }}
+          path: .za-work/previous-cores
+      - name: Native model structures and pixel pair evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          db=$(find .za-work/previous-cores -name resource-cores.sqlite -print -quit)
+          test -n "$db"
+          python scripts/Audit-ZANativePokemonModels.py --cores "$db"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativePokemonModelAudit-Metadata
+          include-hidden-files: true
+          path: .za-work/ZANativeModelAudit/
+          if-no-files-found: error
