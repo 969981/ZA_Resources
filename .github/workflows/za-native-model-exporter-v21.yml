@@ -1,0 +1,113 @@
+name: ZA V2.1 representative batch and visual validation
+on:
+  push:
+    branches: [research/za-complete-resource-catalog]
+    paths:
+      - scripts/ZANativeModelExporterV21.py
+      - scripts/Validate-ZABatchGltf.cjs
+      - scripts/Validate-ZABatchBlender.py
+      - .github/workflows/za-native-model-exporter-v21.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  representative:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/ZANativeModelExporterV21.py
+            /scripts/ZANativeModelExporterV2.py
+            /scripts/ZANativeModelExporter.py
+            /scripts/Audit-ZAGeometrySkin.py
+            /scripts/Audit-ZANativePokemonModels.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /scripts/Decode-ZA-BNTX.py
+            /scripts/Validate-ZABatchGltf.cjs
+            /scripts/Validate-ZABatchBlender.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0003/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0006/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0025/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0450/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0479/*/*.bntx
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.bntx
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.2.6 Pillow==12.3.0
+      - run: python scripts/ZANativeModelExporterV21.py --self-test
+      - run: python scripts/ZANativeModelExporterV21.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Khronos batch validator
+        run: |
+          npm install --no-save --ignore-scripts gltf-validator@2.0.0-dev.3.10
+          node scripts/Validate-ZABatchGltf.cjs .za-work/ZANativeModelExporterV21
+      - name: Install Blender and system NumPy
+        run: sudo apt-get update -qq && sudo apt-get install -y blender python3-numpy
+      - run: blender -b --python-exit-code 1 --python-expr 'import numpy; print(numpy.__version__)'
+      - name: Render candidate GLBs
+        run: blender -b -t 2 --python-exit-code 1 --python scripts/Validate-ZABatchBlender.py -- .za-work/ZANativeModelExporterV21
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZANativeModelExporterV21-Metadata
+          include-hidden-files: true
+          path: |
+            .za-work/ZANativeModelExporterV21/summary.json
+            .za-work/ZANativeModelExporterV21/batch-results.jsonl
+            .za-work/ZANativeModelExporterV21/khronos-summary.json
+            .za-work/ZANativeModelExporterV21/blender-summary.json
+            .za-work/ZANativeModelExporterV21/models/**/summary.json
+            .za-work/ZANativeModelExporterV21/models/**/source-mips.jsonl
+          if-no-files-found: warn
