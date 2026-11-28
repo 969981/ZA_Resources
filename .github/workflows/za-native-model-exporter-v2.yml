@@ -1,0 +1,65 @@
+name: ZA textured GLB exporter V2
+on:
+  push:
+    branches: [research/za-complete-resource-catalog]
+    paths:
+      - scripts/ZANativeModelExporterV2.py
+      - scripts/Validate-ZABlender.py
+      - scripts/Validate-ZAGltf.cjs
+      - .github/workflows/za-native-model-exporter-v2.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  textured:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/ZANativeModelExporterV2.py
+            /scripts/ZANativeModelExporter.py
+            /scripts/Audit-ZAGeometrySkin.py
+            /scripts/Audit-ZANativePokemonModels.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /scripts/Decode-ZA-BNTX.py
+            /scripts/Validate-ZABlender.py
+            /scripts/Validate-ZAGltf.cjs
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/*.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/*.trmtr
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/*.bntx
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.2.6 Pillow==12.3.0
+      - run: python scripts/ZANativeModelExporterV2.py --self-test
+      - run: python scripts/ZANativeModelExporterV2.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Khronos glTF validator
+        run: |
+          npm install --no-save --ignore-scripts gltf-validator@2.0.0-dev.3.10
+          node scripts/Validate-ZAGltf.cjs .za-work/ZANativeModelExporterV2
+      - name: Install Blender
+        run: sudo apt-get update -qq && sudo apt-get install -y blender
+      - name: Blender import and CPU render
+        run: blender -b -t 2 --python-exit-code 1 --python scripts/Validate-ZABlender.py -- .za-work/ZANativeModelExporterV2
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ZANativeModelExporterV2-Metadata
+          include-hidden-files: true
+          path: |
+            .za-work/ZANativeModelExporterV2/summary.json
+            .za-work/ZANativeModelExporterV2/source-mips.jsonl
+            .za-work/ZANativeModelExporterV2/khronos-summary.json
+            .za-work/ZANativeModelExporterV2/blender-summary.json
+          if-no-files-found: warn

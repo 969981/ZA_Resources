@@ -18,3 +18,5 @@ ResourceID 为 SHA256(version + NUL + native relative path)。Git blob SHA 不�
 - [网格、骨骼绑定与 LayerMask 验证](GeometrySkinLayerMask.md)
 
 - [ZANativeModelExporter V1 与 Bind Pose 数值验证](NativeModelExporterV1.md)
+
+- [ZANativeModelExporter V2 — BNTX Mipmap 与纹理烘焙](NativeModelExporterV2.md)
