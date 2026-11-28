@@ -4,6 +4,8 @@ on:
     branches: [research/za-complete-resource-catalog]
     paths:
       - scripts/ZANativeModelExporterV21.py
+      - scripts/ZAVisualMaterialV22.py
+      - scripts/Audit-ZATangentBasis.py
       - scripts/Validate-ZABatchGltf.cjs
       - scripts/Validate-ZABatchBlender.py
       - .github/workflows/za-native-model-exporter-v21.yml
@@ -21,6 +23,8 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/ZANativeModelExporterV21.py
+            /scripts/ZAVisualMaterialV22.py
+            /scripts/Audit-ZATangentBasis.py
             /scripts/ZANativeModelExporterV2.py
             /scripts/ZANativeModelExporter.py
             /scripts/Audit-ZAGeometrySkin.py
@@ -106,6 +110,8 @@ jobs:
           path: |
             .za-work/ZANativeModelExporterV21/summary.json
             .za-work/ZANativeModelExporterV21/batch-results.jsonl
+            .za-work/ZANativeModelExporterV21/tangent-audit.jsonl
+            .za-work/ZANativeModelExporterV21/shader-path-candidates.jsonl
             .za-work/ZANativeModelExporterV21/khronos-summary.json
             .za-work/ZANativeModelExporterV21/blender-summary.json
             .za-work/ZANativeModelExporterV21/models/**/summary.json

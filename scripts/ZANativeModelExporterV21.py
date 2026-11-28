@@ -8,6 +8,8 @@ def load(name):
     m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
 v2=load("ZANativeModelExporterV2");v1=v2.v1;geo=v2.geo;audit=v2.audit;FB=geo.FB
 TARGET={1,3,6,25,450,479,718}
+visual=load("ZAVisualMaterialV22");visual.v2=v2
+tangent=load("Audit-ZATangentBasis")
 def checked(path,paths):
     f=audit.V/path
     b=f.read_bytes() if f.is_file() else subprocess.check_output(["git","cat-file","blob",paths[path]])
@@ -80,13 +82,19 @@ def batch_one(model,keys,paths,out):
     variants=audit.parse(get(mmp),".trmmt")["variants"];cache={};report=[];exports=[];missing=[]
     for variant in ("normal","rare"):
         match=[x for x in variants if x["name"]==variant]
-        if not match:missing.append(variant);continue
-        if len(match)!=1 or len(match[0]["material_files"])!=1:raise ValueError("multiple variant material files")
-        matpath=resolve(mmp,match[0]["material_files"][0]);materials=[m for m in geo.material(get(matpath)) if m["name"] in used]
+        if not match:
+            if variant=="normal" and len(mdl["materials"])==1:
+                # TRMDL exact default material, TRMMT rare override; not a guessed filename.
+                matpath=resolve(model,mdl["materials"][0])
+            else:missing.append(variant);continue
+        else:
+            if len(match)!=1 or len(match[0]["material_files"])!=1:raise ValueError("multiple variant material files")
+            matpath=resolve(mmp,match[0]["material_files"][0])
+        materials=[m for m in geo.material(get(matpath)) if m["name"] in used]
         if {m["name"] for m in materials}!=used or len(materials)!=len(used):raise ValueError("missing or duplicate LayerMask materials")
         flat=out/(variant+".flat.glb");dest=out/(Path(model).stem+"_"+variant+".glb")
         v1.export(flat,shapes,sk,local,joints,ib,materials,variant)
-        exports.append(v2.textured(flat,dest,matpath,variant,paths,cache,report));flat.unlink()
+        exports.append(dict(**visual.textured(flat,dest,matpath,variant,paths,cache,report),material_source=matpath,variant_source="TRMMT" if match else "TRMDL_DEFAULT"));flat.unlink()
     if "normal" in missing:raise ValueError("normal variant absent")
     if len(exports)==2:
         gs=[v2.parse_glb(out/e["file"]) for e in exports];ends=[min(g.doc["bufferViews"][i["bufferView"]]["byteOffset"] for i in g.doc["images"]) for g in gs]
@@ -98,15 +106,19 @@ def batch_one(model,keys,paths,out):
     return dict(model=model,keys=keys,bind_pose=bind,mesh=mp,buffer=bp,skeleton=sp,missing_variants=missing,exports=exports,unique_source_textures=len(report),decoded_mips=sum(len(r["mips"]) for r in report),basecolor_differs=different,geometry_identical=True if len(exports)==2 else None,visual_parity=False,status="EXPORTED_CANDIDATE")
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument("--out",type=Path,default=Path(".za-work/ZANativeModelExporterV21"));p.add_argument("--all",action="store_true",help="explicit opt-in to all native TRMDL, with strict gates");p.add_argument("--self-test",action="store_true");a=p.parse_args()
-    if a.self_test:v2.self_test();return
+    if a.self_test:v2.self_test();visual.self_test();return
     if not a.out.resolve().is_relative_to(Path(".za-work").resolve()) or a.out.resolve()==Path(".za-work").resolve():p.error("local output only")
     if a.out.exists() and any(a.out.iterdir()):p.error("empty output required")
     a.out.mkdir(parents=True,exist_ok=True);paths=audit.tree();selected=selection(paths,a.all)
     if not a.all and (len(selected)!=21 or sum(map(len,selected.values()))!=23):raise ValueError("representative catalog baseline changed")
     # Keep same Git blob verification when v2 resolves shared texture paths via sparse checkout.
     audit.checked=checked
-    results=[]
+    results=[];tangent_rows=[]
     for model,keys in selected.items():
+        try:
+            mdl=audit.parse(checked(model,paths),".trmdl");mp=v1.resolve(model,mdl["meshes"][0],paths);mb=checked(mp,paths);f=FB(mb);bp=v1.resolve(mp,f.txt(f.u("I",0),2),paths)
+            tangent_rows.append(dict(model=model,shapes=tangent.audit_mesh(geo,mb,checked(bp,paths))))
+        except Exception as e:tangent_rows.append(dict(model=model,error=str(e)))
         out=a.out/"models"/Path(model).parent.name/Path(model).stem;out.mkdir(parents=True,exist_ok=True)
         try:
             row=batch_one(model,keys,paths,out)
@@ -115,6 +127,10 @@ def main():
             shutil.rmtree(out);row=dict(model=model,keys=keys,status="REJECTED",error=type(e).__name__+": "+str(e),visual_parity=False)
         results.append(row);print("MODEL",json.dumps({k:v for k,v in row.items() if k not in ("exports","keys")}),flush=True)
     audit.write(a.out,"batch-results",results)
+    audit.write(a.out,"tangent-audit",tangent_rows)
+    shader_paths=[dict(path=p,blob=oid) for p,oid in paths.items() if Path(p).suffix.lower() in {".bnsh",".bfsha",".sharc",".sharcb",".shbin",".bsh",".trsh",".shader",".glsl",".spv"} or "shader" in p.lower()]
+    audit.write(a.out,"shader-path-candidates",shader_paths)
+    print("SHADER_PATH_CANDIDATES",len(shader_paths))
     ok=[r for r in results if r["status"]=="EXPORTED_CANDIDATE"]
     s=dict(source_commit=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip(),selected_models=len(selected),catalog_keys=sum(map(len,selected.values())),exported_models=len(ok),rejected_models=len(results)-len(ok),glbs=sum(len(r["exports"]) for r in ok),normal_rare_pairs=sum(len(r["exports"])==2 for r in ok),decoded_mips=sum(r["decoded_mips"] for r in ok),rejections=dict(collections.Counter(r["error"] for r in results if r["status"]=="REJECTED")),visual_parity=False)
     (a.out/"summary.json").write_text(json.dumps(s,indent=2)+"\n");print("BATCH_SUMMARY",json.dumps(s))
