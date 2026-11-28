@@ -1,0 +1,50 @@
+name: ZA four resource cores
+on:
+  push:
+    branches: [research/za-complete-resource-catalog]
+    paths:
+      - scripts/Build-ZAResourceCores.py
+      - .github/workflows/za-resource-cores.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  cores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/Build-ZAResourceCores.py
+            /scripts/Build-ZACompleteResourceCatalog.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/avalon/data/personal_array.bin
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/catalog/catalog/poke_resource_table.trpmcatalog
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/world/exl/item_data/item_data/item_data.bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/Build-ZAResourceCores.py --self-test
+      - uses: actions/download-artifact@v4
+        with:
+          name: ZAImageResourcesMetadata
+          run-id: 45771214568
+          github-token: ${{ github.token }}
+          path: .za-work/previous-ui
+      - name: Build native keys, verified UI aliases and model groups
+        shell: bash
+        run: |
+          set -euo pipefail
+          manifest=$(find .za-work/previous-ui -name texture.jsonl -print -quit)
+          test -n "$manifest"
+          python scripts/Build-ZAResourceCores.py --ui-manifests "$(dirname "$manifest")"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZAResourceCores-Metadata
+          include-hidden-files: true
+          path: .za-work/ZAResourceCores/
+          if-no-files-found: error

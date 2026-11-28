@@ -10,3 +10,5 @@
 原始路径和像素映射分开；全量 Git 树普查不是二进制解码。原始数据只读，实际素材输出本地 .za-work/，不上传原版 PNG/GLB/纹理。
 数据库 catalog.sqlite 为主索引，images/models/maps/pokemon/localization.sqlite 是可重复构建、范围可能重叠的投影，不是五套互相独立的 ID 系统。
 ResourceID 为 SHA256(version + NUL + native relative path)。Git blob SHA 不冒充原文件 SHA256。
+
+- [四大核心模块 V1 与原生 ID 证据](ResourceCores.md)
