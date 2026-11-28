@@ -31,8 +31,13 @@ def bake_shapes(shapes,materials,material_path,paths,cache,report,v2,visual):
         path=v2.v1.resolve(material_path,m["textures"]["DisplacementMap"],paths)
         im,r=v2.read_texture(path,paths,cache,report)
         if int(r["format_code"],16)&255!=1:raise ValueError("nonlinear displacement map")
-        idx=m["int_parameters"].get("UVIndexLayer3",0)
-        if idx not in (0,1):raise ValueError("unsupported displacement UV index")
+        raw_idx=m["int_parameters"].get("UVIndexLayer3",-1)
+        required_uv=opts.get("NumRequiredUV")
+        # Reference Unlit chooses UV0 unconditionally for a one-UV shader.
+        # Preserve -1 raw sentinel instead of interpreting it as an actual index.
+        if required_uv=="1":idx=0
+        elif required_uv=="2" and raw_idx in (0,1):idx=raw_idx
+        else:raise ValueError("unsupported displacement UV index "+str((required_uv,raw_idx)))
         extra=sh["extra_attributes"]
         uv=np.asarray(sh["uv"] if idx==0 else extra["TEXCOORD_1"],dtype=float)
         color=extra.get("_ZA_COLOR_0",extra.get("COLOR_0"))
@@ -47,7 +52,7 @@ def bake_shapes(shapes,materials,material_path,paths,cache,report,v2,visual):
         extra["_ZA_POSITION_BASE"]=p.tolist()
         sh["positions"]=(p+delta).tolist()
         m["_za_displacement_baked"]=True
-        results.append(dict(shape=sh["name"],material=name,source=path,source_blob=paths[path],uv_set=idx,uv_transform=scale.tolist(),height=height,red_min=float(red.min()),red_max=float(red.max()),sample_min=float(h.min()),sample_max=float(h.max()),vertices=len(p),nonzero_vertices=int(np.count_nonzero(np.abs(amount)>1e-9)),signed_delta_min=float(amount.min()),signed_delta_max=float(amount.max()),max_distance=float(np.max(np.linalg.norm(delta,axis=1))),delta_sha256=hashlib.sha256(delta.astype("<f4").tobytes()).hexdigest(),status="REFERENCE_STATIC_BIND_POSE_CANDIDATE",native_shader_parity=False))
+        results.append(dict(shape=sh["name"],material=name,source=path,source_blob=paths[path],uv_set=idx,uv_index_raw=raw_idx,num_required_uv_raw=required_uv,uv_transform=scale.tolist(),height=height,red_min=float(red.min()),red_max=float(red.max()),sample_min=float(h.min()),sample_max=float(h.max()),vertices=len(p),nonzero_vertices=int(np.count_nonzero(np.abs(amount)>1e-9)),signed_delta_min=float(amount.min()),signed_delta_max=float(amount.max()),max_distance=float(np.max(np.linalg.norm(delta,axis=1))),delta_sha256=hashlib.sha256(delta.astype("<f4").tobytes()).hexdigest(),status="REFERENCE_STATIC_BIND_POSE_CANDIDATE",native_shader_parity=False))
     return out,results
 def self_test():
     from PIL import Image
