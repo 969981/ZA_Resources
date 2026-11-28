@@ -10,6 +10,8 @@ v2=load("ZANativeModelExporterV2");v1=v2.v1;geo=v2.geo;audit=v2.audit;FB=geo.FB
 TARGET={1,3,6,25,450,479,718}
 visual=load("ZAVisualMaterialV22");visual.v2=v2
 tangent=load("Audit-ZATangentBasis")
+displacement=load("ZADisplacementV24")
+resolver=load("Audit-ZASkinningResolver")
 def checked(path,paths):
     f=audit.V/path
     b=f.read_bytes() if f.is_file() else subprocess.check_output(["git","cat-file","blob",paths[path]])
@@ -64,7 +66,7 @@ def read_mesh(m,b,sk):
                 raw_tangent[layer]=np.asarray([read(a,i) for i in range(n)],dtype=float)
                 extras["_ZA_TANGENT_"+str(layer)]=raw_tangent[layer].tolist()
             if usage==5:
-                if a["type"]!=20:raise ValueError("unsupported color format")
+                if a["type"] not in (20,54):raise ValueError("unsupported color format")
                 colors=np.asarray([read(a,i) for i in range(n)],dtype=float)
                 # Nonwhite native colors may drive displacement rather than albedo.
                 # Keep raw values under custom semantic unless multiplying by white is neutral.
@@ -115,8 +117,10 @@ def batch_one(model,keys,paths,out):
         materials=[m for m in geo.material(get(matpath)) if m["name"] in used]
         if {m["name"] for m in materials}!=used or len(materials)!=len(used):raise ValueError("missing or duplicate LayerMask materials")
         flat=out/(variant+".flat.glb");dest=out/(Path(model).stem+"_"+variant+".glb")
-        v1.export(flat,shapes,sk,local,joints,ib,materials,variant)
-        exports.append(dict(**visual.textured(flat,dest,matpath,variant,paths,cache,report),material_source=matpath,variant_source="TRMMT" if match else "TRMDL_DEFAULT"));flat.unlink()
+        baked_shapes,displacement_rows=displacement.bake_shapes(shapes,materials,matpath,paths,cache,report,v2,visual)
+        v1.export(flat,baked_shapes,sk,local,joints,ib,materials,variant)
+        exports.append(dict(**visual.textured(flat,dest,matpath,variant,paths,cache,report,displacement_rows=displacement_rows),material_source=matpath,variant_source="TRMMT" if match else "TRMDL_DEFAULT",displacement=displacement_rows));flat.unlink()
+        for row in displacement_rows:print("DISPLACEMENT",json.dumps(dict(model=model,variant=variant,**row)),flush=True)
     if "normal" in missing:raise ValueError("normal variant absent")
     if len(exports)==2:
         gs=[v2.parse_glb(out/e["file"]) for e in exports];ends=[min(g.doc["bufferViews"][i["bufferView"]]["byteOffset"] for i in g.doc["images"]) for g in gs]
@@ -128,18 +132,21 @@ def batch_one(model,keys,paths,out):
     return dict(model=model,keys=keys,bind_pose=bind,mesh=mp,buffer=bp,skeleton=sp,missing_variants=missing,exports=exports,unique_source_textures=len(report),decoded_mips=sum(len(r["mips"]) for r in report),basecolor_differs=different,geometry_identical=True if len(exports)==2 else None,visual_parity=False,status="EXPORTED_CANDIDATE")
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument("--out",type=Path,default=Path(".za-work/ZANativeModelExporterV21"));p.add_argument("--all",action="store_true",help="explicit opt-in to all native TRMDL, with strict gates");p.add_argument("--self-test",action="store_true");a=p.parse_args()
-    if a.self_test:v2.self_test();visual.self_test();return
+    if a.self_test:v2.self_test();visual.self_test();displacement.self_test();return
     if not a.out.resolve().is_relative_to(Path(".za-work").resolve()) or a.out.resolve()==Path(".za-work").resolve():p.error("local output only")
     if a.out.exists() and any(a.out.iterdir()):p.error("empty output required")
     a.out.mkdir(parents=True,exist_ok=True);paths=audit.tree();selected=selection(paths,a.all)
     if not a.all and (len(selected)!=21 or sum(map(len,selected.values()))!=23):raise ValueError("representative catalog baseline changed")
     # Keep same Git blob verification when v2 resolves shared texture paths via sparse checkout.
     audit.checked=checked
-    results=[];tangent_rows=[]
+    results=[];tangent_rows=[];skin_rows=[]
     for model,keys in selected.items():
         try:
             mdl=audit.parse(checked(model,paths),".trmdl");mp=v1.resolve(model,mdl["meshes"][0],paths);mb=checked(mp,paths);f=FB(mb);bp=v1.resolve(mp,f.txt(f.u("I",0),2),paths)
             ta=tangent.audit_mesh(geo,mb,checked(bp,paths));tangent_rows.append(dict(model=model,shapes=ta))
+            sp=v1.resolve(model,mdl["skeleton"],paths);skin=resolver.examine(geo,mb,checked(bp,paths),geo.skeleton(checked(sp,paths)));skin_rows.append(dict(model=model,shapes=skin))
+            for sr in skin:
+                if sr["palette_missing"]:print("SKIN_CONFLICT",json.dumps(dict(model=model,**sr)),flush=True)
             print("TANGENT_SUMMARY",json.dumps(dict(model=model,shapes=len(ta),dual_uv=sum(any(x[0]==6 and x[1]>0 for x in sh.get("attribute_layers",[])) for sh in ta),sets=sum(len(sh.get("tangents",[])) for sh in ta),max_abs_dot=max((t.get("max_abs_normal_tangent_dot",0) for sh in ta for t in sh.get("tangents",[])),default=0),handedness=sorted({w for sh in ta for t in sh.get("tangents",[]) for w in t.get("handedness_values",[])}))),flush=True)
         except Exception as e:tangent_rows.append(dict(model=model,error=str(e)))
         out=a.out/"models"/Path(model).parent.name/Path(model).stem;out.mkdir(parents=True,exist_ok=True)
@@ -151,6 +158,7 @@ def main():
         results.append(row);print("MODEL",json.dumps({k:v for k,v in row.items() if k not in ("exports","keys")}),flush=True)
     audit.write(a.out,"batch-results",results)
     audit.write(a.out,"tangent-audit",tangent_rows)
+    audit.write(a.out,"skinning-resolver",skin_rows)
     shader_paths=[dict(path=p,blob=oid) for p,oid in paths.items() if Path(p).suffix.lower() in {".bnsh",".bfsha",".sharc",".sharcb",".shbin",".bsh",".trsh",".shader",".glsl",".spv"} or "shader" in p.lower()]
     audit.write(a.out,"shader-path-candidates",shader_paths)
     print("SHADER_EXTENSIONS",json.dumps(dict(collections.Counter(Path(r["path"]).suffix.lower() for r in shader_paths))))

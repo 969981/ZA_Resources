@@ -7,6 +7,8 @@ on:
       - scripts/ZANativeModelExporter.py
       - scripts/Audit-ZAGeometrySkin.py
       - scripts/ZAVisualMaterialV22.py
+      - scripts/ZADisplacementV24.py
+      - scripts/Audit-ZASkinningResolver.py
       - scripts/Audit-ZATangentBasis.py
       - scripts/Validate-ZABatchGltf.cjs
       - scripts/Validate-ZABatchBlender.py
@@ -26,6 +28,8 @@ jobs:
           sparse-checkout: |
             /scripts/ZANativeModelExporterV21.py
             /scripts/ZAVisualMaterialV22.py
+            /scripts/ZADisplacementV24.py
+            /scripts/Audit-ZASkinningResolver.py
             /scripts/Audit-ZATangentBasis.py
             /scripts/ZANativeModelExporterV2.py
             /scripts/ZANativeModelExporter.py
@@ -113,6 +117,7 @@ jobs:
             .za-work/ZANativeModelExporterV21/summary.json
             .za-work/ZANativeModelExporterV21/batch-results.jsonl
             .za-work/ZANativeModelExporterV21/tangent-audit.jsonl
+            .za-work/ZANativeModelExporterV21/skinning-resolver.jsonl
             .za-work/ZANativeModelExporterV21/shader-path-candidates.jsonl
             .za-work/ZANativeModelExporterV21/khronos-summary.json
             .za-work/ZANativeModelExporterV21/blender-summary.json

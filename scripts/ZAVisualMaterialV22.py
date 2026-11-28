@@ -32,7 +32,7 @@ def unlit(base,mask,m):
     p=m["rgba"];fp=m["float_parameters"];opts=m["shaders"][0]["values"]
     count=int(opts["NumMaterialLayer"])
     if not 1<=count<=5:raise ValueError("unlit layer count")
-    if opts.get("EnableDisplacementMap")=="True" and fp.get("DisplacementHeight")!=0:raise ValueError("Unlit nonzero displacement requires native vertex shader")
+    if opts.get("EnableDisplacementMap")=="True" and fp.get("DisplacementHeight")!=0 and not m.get("_za_displacement_baked"):raise ValueError("Unlit nonzero displacement requires reference bake")
     w=np.clip(mask*np.array([fp.get("LayerMaskScale"+str(i),1) for i in range(1,5)]),0,1)
     w[:,:,count-1:]=0
     total=np.maximum(1-w.sum(axis=2,keepdims=True),0);bc=np.array(p.get("BaseColor",[1,1,1,1]))
@@ -46,7 +46,7 @@ def unlit(base,mask,m):
 def slots(raw):
     f=v2.geo.FB(raw);o=f.u("I",0)
     return {f.txt(t,0):{f.txt(x,0):f.scalar(x,2,"I") for x in f.tables(t,2)} for t in f.tables(o,1)}
-def textured(flat_path,dest,material_path,variant,paths,cache,report):
+def textured(flat_path,dest,material_path,variant,paths,cache,report,displacement_rows=()):
     g=v2.parse_glb(flat_path);d=g.doc;raw=v2.audit.checked(material_path,paths)
     mats={m["name"]:m for m in v2.geo.material(raw)};samplers=v2.source_samplers(raw);slotmap=slots(raw);outputs=[]
     def get(m,name):
@@ -60,6 +60,7 @@ def textured(flat_path,dest,material_path,variant,paths,cache,report):
         b,br=get(m,"BaseColorMap");mask,mr=get(m,"LayerMaskMap")
         if int(mr["format_code"],16)&255!=1:raise ValueError("mask must be linear")
         base,weights,sampler,period=domain(v2.pixels(b,br,True),v2.pixels(mask,mr),s[sl["BaseColorMap"]],s[sl["LayerMaskMap"]])
+        if any(r["material"]==name for r in displacement_rows):m["_za_displacement_baked"]=True
         baked=unlit(base,weights,m) if shader=="Unlit" else v2.bake(base,weights,m)
         ti,meta=v2.add_image(g,baked,name+"_baseColor",sampler);meta.update(period=period,shader=shader);outputs.append(meta)
         p=mat["pbrMetallicRoughness"];p["baseColorFactor"]=[1,1,1,1];p["baseColorTexture"]=v2.attach_info(ti,uv_transform(m,period=period))
@@ -74,10 +75,10 @@ def textured(flat_path,dest,material_path,variant,paths,cache,report):
         if opts.get("EnableAlphaTest")=="True":
             mat["alphaMode"]="MASK";mat["alphaCutoff"]=m["float_parameters"].get("DiscardValue",.5)
         mat["extras"].update(appearance_status="REFERENCE_V22_CANDIDATE",native_sampler_states=s,native_slots=sl,period=period,
-            displacement_height=m["float_parameters"].get("DisplacementHeight"),unresolved=["original shader","normal handedness","eye parallax","lighting","emission parity","mode7 boundary","filtering"])
+            displacement_height=m["float_parameters"].get("DisplacementHeight"),displacement_bake=[r for r in displacement_rows if r["material"]==name],unresolved=["original shader","normal handedness","eye parallax","lighting","emission parity","mode7 boundary","filtering"])
     if any("extensions" in info for mat in d["materials"] for info in [mat["pbrMetallicRoughness"]["baseColorTexture"],mat.get("normalTexture",{}),mat.get("occlusionTexture",{})]):extensions.add("KHR_texture_transform")
     d["extensionsUsed"]=sorted(extensions)
-    d["asset"]["generator"]="ZANativeModelExporter V2.2 reference candidate"
+    d["asset"]["generator"]="ZANativeModelExporter V2.4 reference candidate"
     d["extras"].update(material_status="reference V2.2 UV-domain bake",native_shader_parity=False,uv_visual_parity=False)
     digest=g.save(dest);validation=v2.v1.validate(dest)
     verify=v2.parse_glb(dest)
