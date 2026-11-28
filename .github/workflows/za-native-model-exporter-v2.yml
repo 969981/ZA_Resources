@@ -49,7 +49,9 @@ jobs:
           npm install --no-save --ignore-scripts gltf-validator@2.0.0-dev.3.10
           node scripts/Validate-ZAGltf.cjs .za-work/ZANativeModelExporterV2
       - name: Install Blender
-        run: sudo apt-get update -qq && sudo apt-get install -y blender
+        run: sudo apt-get update -qq && sudo apt-get install -y blender python3-numpy
+      - name: Check Blender Python environment
+        run: blender -b --python-exit-code 1 --python-expr 'import numpy; print(numpy.__version__)'
       - name: Blender import and CPU render
         run: blender -b -t 2 --python-exit-code 1 --python scripts/Validate-ZABlender.py -- .za-work/ZANativeModelExporterV2
       - uses: actions/upload-artifact@v4
