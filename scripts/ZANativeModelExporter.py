@@ -129,6 +129,10 @@ def export(path,shapes,sk,local,joints,ib,materials,variant):
             TEXCOORD_0=g.add(sh["uv"],"<f4","VEC2",5126,34962),
             JOINTS_0=g.add(sh["joints"],"<u2","VEC4",5123,34962),
             WEIGHTS_0=g.add(sh["weights"],"<f4","VEC4",5126,34962))
+        for semantic,values in sorted(sh.get("extra_attributes",{}).items()):
+            a=np.asarray(values,dtype=float)
+            if a.ndim!=2 or len(a)!=n or a.shape[1] not in (2,3,4) or not np.isfinite(a).all():raise ValueError("invalid extra attribute "+semantic)
+            attrs[semantic]=g.add(a,"<f4","VEC"+str(a.shape[1]),5126,34962)
         primitives=[]
         for name,ix in sh["parts"]:
             if name not in mid:raise ValueError("material missing "+str(name))

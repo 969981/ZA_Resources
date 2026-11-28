@@ -32,7 +32,7 @@ def unlit(base,mask,m):
     p=m["rgba"];fp=m["float_parameters"];opts=m["shaders"][0]["values"]
     count=int(opts["NumMaterialLayer"])
     if not 1<=count<=5:raise ValueError("unlit layer count")
-    if opts.get("EnableDisplacementMap")=="True":raise ValueError("Unlit displacement requires native vertex shader")
+    if opts.get("EnableDisplacementMap")=="True" and fp.get("DisplacementHeight")!=0:raise ValueError("Unlit nonzero displacement requires native vertex shader")
     w=np.clip(mask*np.array([fp.get("LayerMaskScale"+str(i),1) for i in range(1,5)]),0,1)
     w[:,:,count-1:]=0
     total=np.maximum(1-w.sum(axis=2,keepdims=True),0);bc=np.array(p.get("BaseColor",[1,1,1,1]))
@@ -74,7 +74,7 @@ def textured(flat_path,dest,material_path,variant,paths,cache,report):
         if opts.get("EnableAlphaTest")=="True":
             mat["alphaMode"]="MASK";mat["alphaCutoff"]=m["float_parameters"].get("DiscardValue",.5)
         mat["extras"].update(appearance_status="REFERENCE_V22_CANDIDATE",native_sampler_states=s,native_slots=sl,period=period,
-            unresolved=["original shader","normal handedness","eye parallax","lighting","emission parity","mode7 boundary","filtering"])
+            displacement_height=m["float_parameters"].get("DisplacementHeight"),unresolved=["original shader","normal handedness","eye parallax","lighting","emission parity","mode7 boundary","filtering"])
     if any("extensions" in info for mat in d["materials"] for info in [mat["pbrMetallicRoughness"]["baseColorTexture"],mat.get("normalTexture",{}),mat.get("occlusionTexture",{})]):extensions.add("KHR_texture_transform")
     d["extensionsUsed"]=sorted(extensions)
     d["asset"]["generator"]="ZANativeModelExporter V2.2 reference candidate"

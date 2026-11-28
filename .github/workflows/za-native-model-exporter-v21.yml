@@ -4,6 +4,8 @@ on:
     branches: [research/za-complete-resource-catalog]
     paths:
       - scripts/ZANativeModelExporterV21.py
+      - scripts/ZANativeModelExporter.py
+      - scripts/Audit-ZAGeometrySkin.py
       - scripts/ZAVisualMaterialV22.py
       - scripts/Audit-ZATangentBasis.py
       - scripts/Validate-ZABatchGltf.cjs

@@ -52,7 +52,8 @@ def mesh_pair(m,b,sk):
             if len(pos)!=1:issues.append("POSITION_MISSING_OR_AMBIGUOUS");continue
             # layer-as-stream is a reference-schema hypothesis; bounds verify actual compatibility.
             def stream(a):
-                l=a["layer"]
+                # Single interleaved stream: layer is the semantic set, not stream index.
+                l=0 if len(vertices)==len(strides)==1 else a["layer"]
                 if l>=len(vertices) or l>=len(strides) or not strides[l]:raise ValueError("unsupported stream/stride")
                 if len(vertices[l])%strides[l]:raise ValueError("nonintegral vertex count")
                 if a["type"] not in FMT:raise ValueError("unsupported attribute type "+str(a["type"]))

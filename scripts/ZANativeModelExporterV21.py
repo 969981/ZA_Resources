@@ -35,7 +35,7 @@ def read_mesh(m,b,sk):
         if row["issues"]:raise ValueError("mesh issues "+str(row["issues"]))
         if len(row["declarations"])!=1:raise ValueError("multiple declarations")
         d=row["declarations"][0];candidate=d.get("binding_candidate")
-        if candidate not in ("DIRECT_RIG_ONLY","BOTH_POSSIBLE"):raise ValueError("binding "+str(candidate))
+        if candidate not in ("DIRECT_RIG_ONLY","BOTH_POSSIBLE"):raise ValueError("binding "+str(candidate)+" "+row["name"]+" direct_invalid="+str(d.get("weights",{}).get("direct_rig_invalid",0))+" palette_missing="+str(d.get("weights",{}).get("direct_not_in_palette",0))+" local_invalid="+str(d.get("weights",{}).get("local_palette_invalid",0)))
         if any(d["weights"].get(k,0) for k in ("invalid_weight","invalid_joint_value","zero_weight_vertices","nonunit_weight_vertices","direct_rig_invalid","direct_not_in_palette")):raise ValueError("unsafe skin weights")
         if candidate=="BOTH_POSSIBLE":
             pal=row["palette_raw"]
@@ -43,9 +43,9 @@ def read_mesh(m,b,sk):
         vs=g.tables(u,1)
         if len(vs)!=1 or len(d["strides"])!=1:raise ValueError("multiple vertex streams")
         data=g.bytes_vector(vs[0],0);stride=d["strides"][0];n=d["vertex_count"]
-        def attr(usage,types):
-            found=[a for a in d["attrs"] if a["usage"]==usage]
-            if len(found)!=1 or found[0]["layer"]!=0 or found[0]["type"] not in types:raise ValueError("unsupported attribute "+str(usage))
+        def attr(usage,types,layer=0):
+            found=[a for a in d["attrs"] if a["usage"]==usage and a["layer"]==layer]
+            if len(found)!=1 or found[0]["type"] not in types:raise ValueError("unsupported attribute "+str((usage,layer)))
             return found[0]
         po=attr(1,{51});no=attr(2,{43,51,54});uv=attr(6,{48,43});jo=attr(7,{22,39});we=attr(8,{20,39,54})
         def read(a,i):
@@ -53,6 +53,22 @@ def read_mesh(m,b,sk):
             if a["usage"]==7 and a["type"]==39:return struct.unpack_from("<4H",data,o)
             return geo.unpack(data,o,a["type"])
         positions=[];normals=[];uvs=[];joints=[];weights=[]
+        extras={};raw_tangent={}
+        for a in d["attrs"]:
+            usage,layer=a["usage"],a["layer"]
+            if usage==6 and layer>0:
+                if a["type"] not in (48,43):raise ValueError("unsupported UV set")
+                extras["TEXCOORD_"+str(layer)]=[list(read(a,i)[:2]) for i in range(n)]
+            if usage==3:
+                if a["type"]!=43:raise ValueError("unsupported tangent format")
+                raw_tangent[layer]=np.asarray([read(a,i) for i in range(n)],dtype=float)
+                extras["_ZA_TANGENT_"+str(layer)]=raw_tangent[layer].tolist()
+            if usage==5:
+                if a["type"]!=20:raise ValueError("unsupported color format")
+                colors=np.asarray([read(a,i) for i in range(n)],dtype=float)
+                # Nonwhite native colors may drive displacement rather than albedo.
+                # Keep raw values under custom semantic unless multiplying by white is neutral.
+                extras["COLOR_"+str(layer) if np.all(colors==1) else "_ZA_COLOR_"+str(layer)]=colors.tolist()
         for i in range(n):
             p=read(po,i);q=np.array(read(no,i)[:3]);norm=np.linalg.norm(q);tex=read(uv,i)[:2];j=read(jo,i);w=read(we,i);s=sum(w)
             if not all(math.isfinite(x) for x in (*p,*q,*tex,*w)) or norm<1e-6 or s<=0 or any(x<0 for x in w):raise ValueError("invalid vertex")
@@ -64,7 +80,13 @@ def read_mesh(m,b,sk):
         for p in row["parts"]:
             if not p["index_valid"] or p["count"]%3 or p["max_index"] is None or p["max_index"]>65535:raise ValueError("unsupported triangle range")
             parts.append((p["material"],ix[p["offset"]:p["offset"]+p["count"]].astype("<u2")))
-        result.append(dict(name=row["name"],positions=positions,normals=normals,uv=uvs,joints=joints,weights=weights,parts=parts))
+        if 0 in raw_tangent:
+            t=raw_tangent[0];nn=np.asarray(normals);xyz=t[:,:3];w=t[:,3]
+            dot=np.sum(nn*xyz,axis=1);projected=xyz-nn*dot[:,None];length=np.linalg.norm(projected,axis=1)
+            if np.isfinite(t).all() and np.all(length>1e-6) and np.all(np.abs(np.abs(w)-1)<.005):
+                extras["TANGENT"]=np.column_stack((projected/length[:,None],np.sign(w))).tolist()
+        if any(not np.isfinite(np.asarray(a)).all() for a in extras.values()):raise ValueError("nonfinite additional attribute")
+        result.append(dict(name=row["name"],positions=positions,normals=normals,uv=uvs,joints=joints,weights=weights,parts=parts,extra_attributes=extras))
     if ambiguous:raise ValueError("ambiguous direct/local mapping differs on used joints: "+str(ambiguous))
     return result
 def batch_one(model,keys,paths,out):
@@ -117,7 +139,8 @@ def main():
     for model,keys in selected.items():
         try:
             mdl=audit.parse(checked(model,paths),".trmdl");mp=v1.resolve(model,mdl["meshes"][0],paths);mb=checked(mp,paths);f=FB(mb);bp=v1.resolve(mp,f.txt(f.u("I",0),2),paths)
-            tangent_rows.append(dict(model=model,shapes=tangent.audit_mesh(geo,mb,checked(bp,paths))))
+            ta=tangent.audit_mesh(geo,mb,checked(bp,paths));tangent_rows.append(dict(model=model,shapes=ta))
+            print("TANGENT_SUMMARY",json.dumps(dict(model=model,shapes=len(ta),dual_uv=sum(any(x[0]==6 and x[1]>0 for x in sh.get("attribute_layers",[])) for sh in ta),sets=sum(len(sh.get("tangents",[])) for sh in ta),max_abs_dot=max((t.get("max_abs_normal_tangent_dot",0) for sh in ta for t in sh.get("tangents",[])),default=0),handedness=sorted({w for sh in ta for t in sh.get("tangents",[]) for w in t.get("handedness_values",[])}))),flush=True)
         except Exception as e:tangent_rows.append(dict(model=model,error=str(e)))
         out=a.out/"models"/Path(model).parent.name/Path(model).stem;out.mkdir(parents=True,exist_ok=True)
         try:
@@ -130,6 +153,7 @@ def main():
     audit.write(a.out,"tangent-audit",tangent_rows)
     shader_paths=[dict(path=p,blob=oid) for p,oid in paths.items() if Path(p).suffix.lower() in {".bnsh",".bfsha",".sharc",".sharcb",".shbin",".bsh",".trsh",".shader",".glsl",".spv"} or "shader" in p.lower()]
     audit.write(a.out,"shader-path-candidates",shader_paths)
+    print("SHADER_EXTENSIONS",json.dumps(dict(collections.Counter(Path(r["path"]).suffix.lower() for r in shader_paths))))
     print("SHADER_PATH_CANDIDATES",len(shader_paths))
     ok=[r for r in results if r["status"]=="EXPORTED_CANDIDATE"]
     s=dict(source_commit=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip(),selected_models=len(selected),catalog_keys=sum(map(len,selected.values())),exported_models=len(ok),rejected_models=len(results)-len(ok),glbs=sum(len(r["exports"]) for r in ok),normal_rare_pairs=sum(len(r["exports"])==2 for r in ok),decoded_mips=sum(r["decoded_mips"] for r in ok),rejections=dict(collections.Counter(r["error"] for r in results if r["status"]=="REJECTED")),visual_parity=False)
