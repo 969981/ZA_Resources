@@ -16,10 +16,11 @@ def encode(o,value,mode):
     x=code<<o["slot_index"]
     return x if x>=0 and x&o["mask_raw"]==x else None
 def layout(d,count):
-    w=d["param_buffer"];opts=[dict(scope=s,**o,word=o["flags"][1]) for s,os in d["groups"].items() for o in os]
+    # ZA IkCharacter second local word has raw flags [0,0,1]; the final byte selects the word.
+    w=d["param_buffer"];opts=[dict(scope=s,**o,word=o["flags"][2]) for s,os in d["groups"].items() for o in os]
     if not count or not w or len(w)%count:return None
     width=len(w)//count
-    if not 1<=width<=16 or any(o["word"]>=width or o["flags"][2]!=o["word"] or not o["mask_raw"] for o in opts):return None
+    if not 1<=width<=16 or any(o["word"]>=width or not o["mask_raw"] for o in opts):return None
     masks=[0]*width
     for o in opts:
         if masks[o["word"]]&o["mask_raw"]:return None
@@ -81,6 +82,9 @@ def self_test():
     assert candidate_rows(l,{"On":"True","UV":"2"})[0]==[2]
     assert candidate_rows(l,{"UV":"bogus"})[2]
     assert layout(dict(d,param_buffer=[0,0,0,0,1,1]),3) is None
+    d["groups"]["shader"].append(dict(name="SecondLocal",values=[dict(value="False",code=0),dict(value="True",code=1)],flags=[0,0,1],slot_index=0,mask_raw=1))
+    d["groups"]["global"][0]["flags"]=[0,2,2];d["param_buffer"]=[0,0,0,1,0,0,1,1,1]
+    l=layout(d,3);assert l and l["width"]==3 and candidate_rows(l,{"SecondLocal":"True","UV":"2"})[0]==[2]
 def main():
     self_test()
     out=Path(".za-work/ZANativeShaderCore")

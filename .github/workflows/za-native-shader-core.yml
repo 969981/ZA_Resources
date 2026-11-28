@@ -5,6 +5,8 @@ on:
     paths:
       - scripts/ZANativeShaderCore.py
       - scripts/ZANativeShaderVariantResolver.py
+      - scripts/ZAMaxwellOpcodeDecoder.py
+      - scripts/Audit-ZANativeShaderSelector.py
       - scripts/ZATransparentMaterialV25.py
       - scripts/Audit-ZATransparentMaterials.py
       - .github/workflows/za-native-shader-core.yml
@@ -22,15 +24,18 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /scripts/
+            /Unpack/v2.0.2/exefs/main/main.elf
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/system_resource/gfx2/shader/
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/*/*/*.trmtr
             /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0770/*/*.bntx
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install numpy==2.2.6 Pillow==12.3.0
+      - run: python -m pip install numpy==2.2.6 Pillow==12.3.0 capstone==5.0.6
       - run: python scripts/ZANativeShaderCore.py
       - run: python scripts/ZANativeShaderVariantResolver.py
+      - run: python scripts/ZAMaxwellOpcodeDecoder.py
+      - run: python scripts/Audit-ZANativeShaderSelector.py
       - run: python scripts/Audit-ZATransparentMaterials.py
       - uses: actions/upload-artifact@v4
         if: always()

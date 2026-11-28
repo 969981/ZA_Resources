@@ -3,6 +3,22 @@ import bpy, json, sys, math, hashlib
 from pathlib import Path
 from mathutils import Vector
 root=Path(sys.argv[sys.argv.index("--")+1]).resolve()
+# Blender 4.5 importer stores names in a set but arrays in insertion order.
+# Apply the upstream ordered-dict fix in this validation process only.
+# https://github.com/blender/blender/blob/v4.5.3/scripts/addons_core/io_scene_gltf2/blender/imp/mesh.py
+import inspect, textwrap
+from io_scene_gltf2.blender.imp import mesh as importer_mesh
+def ordered_custom_attributes():
+    src=textwrap.dedent(inspect.getsource(importer_mesh.do_primitives))
+    before="attributes = set({})";update="attributes.update(set(custom_attrs))"
+    if src.count(before)==1 and src.count(update)==1:
+        src=src.replace(before,"attributes = {}").replace(update,"attributes.update(dict.fromkeys(custom_attrs))")
+        exec(compile(src,"<ZA ordered custom attribute compatibility>","exec"),importer_mesh.__dict__)
+        return "UPSTREAM_ORDERED_DICT_COMPAT_PATCH"
+    if "attributes = {}" in src and "attributes.update(dict.fromkeys(custom_attrs))" in src:return "UPSTREAM_ORDERED_DICT_PRESENT"
+    raise RuntimeError("unrecognized Blender glTF custom attribute implementation")
+importer_compat=ordered_custom_attributes()
+print("BLENDER_ATTRIBUTE_COMPAT",importer_compat,flush=True)
 rows=[]
 for path in sorted(root.rglob("*.glb")):
     try:
@@ -55,7 +71,7 @@ for path in sorted(root.rglob("*.glb")):
         if not .005<coverage<.95:raise ValueError("empty or excessive foreground")
         rgb=pix[fg,:3];std=float(rgb.std())
         if not math.isfinite(std) or std<.005:raise ValueError("flat or invalid foreground")
-        row=dict(file=str(path.relative_to(root)),mesh_objects=len(meshes),auxiliary_meshes=extras,armatures=len(rigs),materials=len(materials),image_nodes=len(image_nodes),bones=sum(len(o.data.bones) for o in rigs),bounds=[list(lo),list(hi)],coverage=coverage,foreground_rgb_std=std,render_sha256=hashlib.sha256(png.read_bytes()).hexdigest(),status="PASS",visual_parity=False)
+        row=dict(file=str(path.relative_to(root)),mesh_objects=len(meshes),auxiliary_meshes=extras,armatures=len(rigs),materials=len(materials),image_nodes=len(image_nodes),bones=sum(len(o.data.bones) for o in rigs),bounds=[list(lo),list(hi)],coverage=coverage,foreground_rgb_std=std,render_sha256=hashlib.sha256(png.read_bytes()).hexdigest(),status="PASS",importer_compat=importer_compat,visual_parity=False)
     except Exception as e:row=dict(file=str(path.relative_to(root)),status="FAIL",error=str(e),visual_parity=False)
     rows.append(row);print("BLENDER_MODEL",json.dumps(row),flush=True)
 (root/"blender-summary.json").write_text(json.dumps(dict(blender_version=bpy.app.version_string,models=rows),indent=2)+"\n")
