@@ -1,0 +1,67 @@
+name: ZA native GLB exporter V1 and bind pose
+on:
+  push:
+    branches: [research/za-complete-resource-catalog]
+    paths:
+      - scripts/ZANativeModelExporter.py
+      - .github/workflows/za-native-model-exporter.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bind-pose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/ZANativeModelExporter.py
+            /scripts/Audit-ZAGeometrySkin.py
+            /scripts/Audit-ZANativePokemonModels.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/**/*.trskl
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.2.6
+      - run: python scripts/ZANativeModelExporter.py --self-test
+      - run: python scripts/ZANativeModelExporter.py --audit-all-bind --out .za-work/ZABindPoseAudit
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZABindPoseAudit-Metadata
+          include-hidden-files: true
+          path: .za-work/ZABindPoseAudit/
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/ZANativeModelExporter.py
+            /scripts/Audit-ZAGeometrySkin.py
+            /scripts/Audit-ZANativePokemonModels.py
+            /scripts/Probe-ZA-PokemonConfig.py
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmdl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmsh
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmbf
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trskl
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/pm0001_00_00.trmmt
+            /Unpack/v2.0.2/romfs/arc/data.trpfs/virtual/ik_pokemon/data/pm0001/pm0001_00_00/*.trmtr
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.2.6
+      - run: python scripts/ZANativeModelExporter.py --self-test
+      - run: python scripts/ZANativeModelExporter.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZANativeModelExporterV1-Metadata
+          include-hidden-files: true
+          path: .za-work/ZANativeModelExporterV1/summary.json
