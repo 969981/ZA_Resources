@@ -95,7 +95,7 @@ class GLB:
         if target:view["target"]=target
         vi=len(self.doc["bufferViews"]);self.doc["bufferViews"].append(view);self.data.extend(raw)
         ac=dict(bufferView=vi,componentType=component,count=len(a),type=kind)
-        if bounds:ac.update(min=a.min(axis=0).tolist(),max=a.max(axis=0).tolist())
+        if bounds:ac.update(min=np.atleast_1d(a.min(axis=0)).tolist(),max=np.atleast_1d(a.max(axis=0)).tolist())
         i=len(self.doc["accessors"]);self.doc["accessors"].append(ac);return i
     def save(self,path):
         self.doc["buffers"]=[dict(byteLength=len(self.data))]
