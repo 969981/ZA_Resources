@@ -30,3 +30,5 @@ ResourceID 为 SHA256(version + NUL + native relative path)。Git blob SHA 不�
 - [V2.4 顶点位移与蒙皮 Resolver](NativeModelExporterV24.md)
 
 - [V2.5 Native Shader Core 与透明材质](NativeModelExporterV25.md)
+
+- [ZANativeShaderCore V1.1 程序变体与 Maxwell 结构审计](NativeShaderCoreV11.md)
